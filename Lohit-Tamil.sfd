@@ -11,6 +11,7 @@ UnderlineWidth: 20
 Ascent: 666
 Descent: 167
 Order2: 1
+NeedsXUIDChange: 1
 XUID: [1021 467 158993989 9244502]
 FSType: 0
 PfmFamily: 17
@@ -70,9 +71,9 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60 20 14
+WinInfo: 2310 55 23
 AnchorClass: "Anchor-0" abvm 0 0 1 0 
-BeginChars: 65680 237
+BeginChars: 65680 239
 StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 800
@@ -14262,6 +14263,42 @@ Fore
 EndSplineSet
 Ligature: 0 0 'haln' u0B95_u0BCD_u0BB7.akhn u0BCD
 Ligature: 0 0 'half' u0B95_u0BCD_u0BB7.akhn u0BCD
+EndChar
+StartChar: uni0964
+Encoding: 2404 2404 237
+Width: 275
+VWidth: 769
+Flags: HW
+TeX: 0 0 0 0
+Fore
+150 0 m 1,0,-1
+ 150 500 l 1,1,-1
+ 200 500 l 1,2,-1
+ 200 0 l 1,3,-1
+ 150 0 l 1,4,-1
+ 150 0 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni0965
+Encoding: 2405 2405 238
+Width: 435
+VWidth: 769
+Flags: HW
+TeX: 0 0 0 0
+Fore
+150 0 m 1,0,-1
+ 150 500 l 1,1,-1
+ 200 500 l 1,2,-1
+ 200 0 l 1,3,-1
+ 150 0 l 1,4,-1
+ 150 0 l 1,0,-1
+310 0 m 1,5,-1
+ 310 500 l 1,6,-1
+ 360 500 l 1,7,-1
+ 360 0 l 1,8,-1
+ 310 0 l 1,9,-1
+ 310 0 l 1,5,-1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

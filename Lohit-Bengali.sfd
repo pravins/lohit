@@ -11,6 +11,7 @@ UnderlineWidth: 20
 Ascent: 615
 Descent: 154
 Order2: 1
+NeedsXUIDChange: 1
 XUID: [1021 467 158993989 8792299]
 FSType: 0
 PfmFamily: 17
@@ -81,9 +82,9 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60 20 14
+WinInfo: 2255 55 23
 AnchorClass: "Anchor-0" abvm 0 0 1 0 "Anchor-1" abvm 0 0 1 0 "Anchor-2" blwm 0 0 2 0 
-BeginChars: 65899 478
+BeginChars: 65899 480
 StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 800
@@ -124,16 +125,13 @@ StartChar: space
 Encoding: 32 32 3
 Width: 213
 GlyphClass: 2
-Flags: W
+Flags: HW
 EndChar
 StartChar: exclam
 Encoding: 33 33 4
 Width: 410
 GlyphClass: 2
-Flags: W
-TtfInstrs: 55
-5n<r(!"/c-!!<3$!!`K7!"Ju5!!<3%!(Hqh!!!!gFtYckFoX`k4?jWE!AQ:>!"o83!!OkQ
-EndTtf
+Flags: HW
 Fore
 280 -40 m 1,0,1
  263 -40 263 -40 251.5 -28.5 c 128,-1,2
@@ -29505,6 +29503,40 @@ Fore
 EndSplineSet
 Ligature: 0 0 'haln' u09F0 u09CD
 Ligature: 0 0 'half' u09F0 u09CD
+EndChar
+StartChar: uni0964
+Encoding: 2404 2404 478
+Width: 275
+Flags: HW
+TeX: 0 0 0 0
+Fore
+150 0 m 1,0,-1
+ 150 500 l 1,1,-1
+ 200 500 l 1,2,-1
+ 200 0 l 1,3,-1
+ 150 0 l 1,4,-1
+ 150 0 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni0965
+Encoding: 2405 2405 479
+Width: 435
+Flags: HW
+TeX: 0 0 0 0
+Fore
+150 0 m 1,0,-1
+ 150 500 l 1,1,-1
+ 200 500 l 1,2,-1
+ 200 0 l 1,3,-1
+ 150 0 l 1,4,-1
+ 150 0 l 1,0,-1
+310 0 m 1,5,-1
+ 310 500 l 1,6,-1
+ 360 500 l 1,7,-1
+ 360 0 l 1,8,-1
+ 310 0 l 1,9,-1
+ 310 0 l 1,5,-1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

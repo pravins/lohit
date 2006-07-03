@@ -11,6 +11,7 @@ UnderlineWidth: 20
 Ascent: 615
 Descent: 154
 Order2: 1
+NeedsXUIDChange: 1
 XUID: [1021 467 158993989 1612285]
 FSType: 0
 PfmFamily: 17
@@ -106,9 +107,9 @@ NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60 20 14
+WinInfo: 2255 55 23
 AnchorClass: "Anchor-0" abvm 0 0 1 0 "Anchor-1" abvm 0 0 2 0 
-BeginChars: 65555 150
+BeginChars: 65555 152
 StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 800
@@ -5632,6 +5633,40 @@ Fore
  -10 450 l 1,14,-1
  -10 500 l 1,15,-1
  552 500 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni0964
+Encoding: 2404 2404 150
+Width: 275
+Flags: HW
+TeX: 0 0 0 0
+Fore
+150 0 m 1,0,-1
+ 150 500 l 1,1,-1
+ 200 500 l 1,2,-1
+ 200 0 l 1,3,-1
+ 150 0 l 1,4,-1
+ 150 0 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni0965
+Encoding: 2405 2405 151
+Width: 435
+Flags: HW
+TeX: 0 0 0 0
+Fore
+150 0 m 1,0,-1
+ 150 500 l 1,1,-1
+ 200 500 l 1,2,-1
+ 200 0 l 1,3,-1
+ 150 0 l 1,4,-1
+ 150 0 l 1,0,-1
+310 0 m 1,5,-1
+ 310 500 l 1,6,-1
+ 360 500 l 1,7,-1
+ 360 0 l 1,8,-1
+ 310 0 l 1,9,-1
+ 310 0 l 1,5,-1
 EndSplineSet
 EndChar
 EndChars
