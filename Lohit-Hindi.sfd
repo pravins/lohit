@@ -469,20 +469,6 @@ EndFPST
 ChainSub: coverage 0 0 'pres' 0 0 0 1
  1 0 1
   Coverage: 5 u093F
-  FCoverage: 27 u091C_u094D.half_u091C.pres
- 1
-  SeqLookup: 0 'L020'
-EndFPST
-ChainSub: coverage 0 0 'pres' 0 0 0 1
- 1 0 1
-  Coverage: 5 u093F
-  FCoverage: 27 u091A_u094D.half_u091A.pres
- 1
-  SeqLookup: 0 'L020'
-EndFPST
-ChainSub: coverage 0 0 'pres' 0 0 0 1
- 1 0 1
-  Coverage: 5 u093F
   FCoverage: 5 u0931
  1
   SeqLookup: 0 'L019'
@@ -530,12 +516,12 @@ TtfTable: maxp 32
 EndTtf
 LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Hindi" "" "Version 1.00" 
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
-NameList: Adobe Glyph List
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60 20 14
+WinInfo: 0 50 22
 AnchorClass: "Anchor-0" abvm 0 0 1 0 "Anchor-1" blwm 0 0 2 0 "Anchor-2" abvm 0 0 3 0 "Anchor-3" abvm 0 0 4 1 
 BeginChars: 65751 344
 StartChar: .notdef
@@ -10555,7 +10541,8 @@ Fore
  -10 455 l 1,19,-1
  -10 455 l 1,15,-1
 EndSplineSet
-Ligature: 0 0 'half' u0930 u094D
+Ligature: 0 0 'half' u0931 u094D
+LCarets: 0 65535 '    ' 1 0 
 EndChar
 StartChar: glyph247
 Encoding: 65654 -1 247
