@@ -1,4 +1,8 @@
 
+2.0.6 -> 2.0.7
+- Bug 206601: [ta_IN] Glyph is missing for Unicode U+0BB6 - Priority - A
+- Bug 216639: [kn_IN] OTF rules to be fixed - Priority A
+
 2.0.5 -> 2.0.6
-Bug 208525: [ml_IN]the glyph of 0d33+0d4d+0d33 is wrong (LingNing Zhang)
-Bug 208540: [ml_IN]the glyph of 0d2f+0d4d and the glyph of 0d2f+0d4d+0d2f are wrong (LingNing Zhang)
+- Bug 208525: [ml_IN]the glyph of 0d33+0d4d+0d33 is wrong (LingNing Zhang)
+- Bug 208540: [ml_IN]the glyph of 0d2f+0d4d and the glyph of 0d2f+0d4d+0d2f are wrong (LingNing Zhang)

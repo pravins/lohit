@@ -11,13 +11,13 @@ UnderlineWidth: 20
 Ascent: 666
 Descent: 167
 Order2: 1
-XUID: [1021 648 100124046 705224]
+XUID: [1021 648 100124046 29401]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1153281444
-ModificationTime: 1153281444
+CreationTime: 1160992028
+ModificationTime: 1160992028
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -72,7 +72,7 @@ ru(p6ro="UrpB^K!NlKg!jVfb!%7nX!WN,1!kJG3rn.<c!ZV6Ss47=Drn[^Es8)l,s%NGPrq?H'
 !MBA^
 EndTtf
 TtfTable: maxp 32
-!!*'"!:Ko^!"8i-!!!!"!!*'^!'gMa!(6g*z
+!!*'"!:Tu_!"8i-!!!!"!!*'^!'gMa!(6g*z
 EndTtf
 LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Tamil" "" "Version 1.00" 
 Encoding: UnicodeBmp
@@ -83,7 +83,7 @@ AntiAlias: 1
 FitToEm: 1
 WinInfo: 33 33 15
 AnchorClass: "Anchor-0" abvm 0 0 1 0 
-BeginChars: 65680 239
+BeginChars: 65680 240
 StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 800
@@ -2486,8 +2486,38 @@ Fore
  673 40 l 1,13,-1
 EndSplineSet
 EndChar
+StartChar: uni0BB6
+Encoding: 2998 2998 51
+Width: 855
+GlyphClass: 2
+Flags: W
+Fore
+562 360 m 1,0,-1
+ 562 104 l 2,1,2
+ 562 40 562 40 645 40 c 128,-1,3
+ 728 40 728 40 728 104 c 2,4,-1
+ 728 360 l 1,5,-1
+ 562 360 l 1,0,-1
+294 400 m 1,6,-1
+ 780 400 l 1,7,-1
+ 780 104 l 2,8,9
+ 780 0 780 0 640 0 c 0,10,11
+ 510 0 510 0 510 104 c 2,12,-1
+ 510 360 l 1,13,-1
+ 345 360 l 1,14,-1
+ 345 126 l 2,15,16
+ 345 0 345 0 186 0 c 0,17,18
+ 76 0 76 0 76 102 c 2,19,-1
+ 76 400 l 1,20,-1
+ 128 400 l 1,21,-1
+ 128 112 l 2,22,23
+ 128 40 128 40 197 40 c 0,24,25
+ 294 39 294 39 294 124 c 2,26,-1
+ 294 400 l 1,6,-1
+EndSplineSet
+EndChar
 StartChar: u0BB7
-Encoding: 2999 2999 51
+Encoding: 2999 2999 52
 Width: 933
 GlyphClass: 2
 Flags: W
@@ -2575,7 +2605,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BB8
-Encoding: 3000 3000 52
+Encoding: 3000 3000 53
 Width: 895
 GlyphClass: 2
 Flags: W
@@ -2646,7 +2676,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BB9
-Encoding: 3001 3001 53
+Encoding: 3001 3001 54
 Width: 1021
 GlyphClass: 2
 Flags: W
@@ -2734,7 +2764,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BBE
-Encoding: 3006 3006 54
+Encoding: 3006 3006 55
 Width: 436
 GlyphClass: 2
 Flags: W
@@ -2757,7 +2787,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BBF
-Encoding: 3007 3007 55
+Encoding: 3007 3007 56
 Width: 540
 GlyphClass: 2
 Flags: W
@@ -2786,7 +2816,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BC0
-Encoding: 3008 3008 56
+Encoding: 3008 3008 57
 Width: 450
 GlyphClass: 2
 Flags: W
@@ -2826,7 +2856,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BC1
-Encoding: 3009 3009 57
+Encoding: 3009 3009 58
 Width: 433
 GlyphClass: 4
 Flags: W
@@ -2860,7 +2890,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BC2
-Encoding: 3010 3010 58
+Encoding: 3010 3010 59
 Width: 632
 GlyphClass: 4
 Flags: W
@@ -2913,7 +2943,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BC6
-Encoding: 3014 3014 59
+Encoding: 3014 3014 60
 Width: 649
 GlyphClass: 2
 Flags: W
@@ -2960,7 +2990,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BC7
-Encoding: 3015 3015 60
+Encoding: 3015 3015 61
 Width: 592
 GlyphClass: 2
 Flags: W
@@ -3021,7 +3051,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BC8
-Encoding: 3016 3016 61
+Encoding: 3016 3016 62
 Width: 789
 GlyphClass: 2
 Flags: W
@@ -3096,7 +3126,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BCA
-Encoding: 3018 3018 62
+Encoding: 3018 3018 63
 Width: 1045
 GlyphClass: 2
 Flags: W
@@ -3155,7 +3185,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BCB
-Encoding: 3019 3019 63
+Encoding: 3019 3019 64
 Width: 992
 GlyphClass: 2
 Flags: W
@@ -3229,7 +3259,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BCC
-Encoding: 3020 3020 64
+Encoding: 3020 3020 65
 Width: 1365
 GlyphClass: 2
 Flags: W
@@ -3319,7 +3349,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BCD
-Encoding: 3021 3021 65
+Encoding: 3021 3021 66
 Width: 102
 GlyphClass: 2
 Flags: W
@@ -3340,7 +3370,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BD7
-Encoding: 3031 3031 66
+Encoding: 3031 3031 67
 Width: 752
 GlyphClass: 2
 Flags: W
@@ -3395,7 +3425,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BE7
-Encoding: 3047 3047 67
+Encoding: 3047 3047 68
 Width: 570
 GlyphClass: 2
 Flags: W
@@ -3452,7 +3482,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BE8
-Encoding: 3048 3048 68
+Encoding: 3048 3048 69
 Width: 590
 GlyphClass: 2
 Flags: W
@@ -3505,7 +3535,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BE9
-Encoding: 3049 3049 69
+Encoding: 3049 3049 70
 Width: 635
 GlyphClass: 2
 Flags: W
@@ -3546,7 +3576,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BEA
-Encoding: 3050 3050 70
+Encoding: 3050 3050 71
 Width: 540
 GlyphClass: 2
 Flags: W
@@ -3592,7 +3622,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BEB
-Encoding: 3051 3051 71
+Encoding: 3051 3051 72
 Width: 730
 GlyphClass: 2
 Flags: W
@@ -3642,7 +3672,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BEC
-Encoding: 3052 3052 72
+Encoding: 3052 3052 73
 Width: 675
 GlyphClass: 2
 Flags: W
@@ -3695,7 +3725,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BED
-Encoding: 3053 3053 73
+Encoding: 3053 3053 74
 Width: 625
 GlyphClass: 2
 Flags: W
@@ -3742,7 +3772,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BEE
-Encoding: 3054 3054 74
+Encoding: 3054 3054 75
 Width: 830
 GlyphClass: 2
 Flags: W
@@ -3812,7 +3842,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BEF
-Encoding: 3055 3055 75
+Encoding: 3055 3055 76
 Width: 770
 GlyphClass: 2
 Flags: W
@@ -3887,7 +3917,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BF0
-Encoding: 3056 3056 76
+Encoding: 3056 3056 77
 Width: 538
 GlyphClass: 2
 Flags: W
@@ -3929,7 +3959,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BF1
-Encoding: 3057 3057 77
+Encoding: 3057 3057 78
 Width: 557
 GlyphClass: 2
 Flags: W
@@ -3968,7 +3998,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BF2
-Encoding: 3058 3058 78
+Encoding: 3058 3058 79
 Width: 618
 GlyphClass: 2
 Flags: W
@@ -4036,7 +4066,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BF3
-Encoding: 3059 3059 79
+Encoding: 3059 3059 80
 Width: 741
 GlyphClass: 2
 Flags: W
@@ -4088,7 +4118,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BF4
-Encoding: 3060 3060 80
+Encoding: 3060 3060 81
 Width: 864
 GlyphClass: 2
 Flags: W
@@ -4184,7 +4214,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BF5
-Encoding: 3061 3061 81
+Encoding: 3061 3061 82
 Width: 1465
 GlyphClass: 2
 Flags: W
@@ -4284,7 +4314,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BF6
-Encoding: 3062 3062 82
+Encoding: 3062 3062 83
 Width: 644
 GlyphClass: 2
 Flags: W
@@ -4338,7 +4368,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BF7
-Encoding: 3063 3063 83
+Encoding: 3063 3063 84
 Width: 1087
 GlyphClass: 2
 Flags: W
@@ -4424,7 +4454,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BF8
-Encoding: 3064 3064 84
+Encoding: 3064 3064 85
 Width: 1298
 GlyphClass: 2
 Flags: W
@@ -4520,7 +4550,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BF9
-Encoding: 3065 3065 85
+Encoding: 3065 3065 86
 Width: 1002
 GlyphClass: 2
 Flags: W
@@ -4581,7 +4611,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0BFA
-Encoding: 3066 3066 86
+Encoding: 3066 3066 87
 Width: 973
 GlyphClass: 2
 Flags: W
@@ -4664,7 +4694,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: afii61664
-Encoding: 8204 8204 87
+Encoding: 8204 8204 88
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -4681,7 +4711,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: afii301
-Encoding: 8205 8205 88
+Encoding: 8205 8205 89
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -4703,7 +4733,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: endash
-Encoding: 8211 8211 89
+Encoding: 8211 8211 90
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -4721,7 +4751,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: emdash
-Encoding: 8212 8212 90
+Encoding: 8212 8212 91
 Width: 1000
 GlyphClass: 2
 Flags: W
@@ -4739,7 +4769,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: quoteleft
-Encoding: 8216 8216 91
+Encoding: 8216 8216 92
 Width: 235
 GlyphClass: 2
 Flags: W
@@ -4763,7 +4793,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: quoteright
-Encoding: 8217 8217 92
+Encoding: 8217 8217 93
 Width: 230
 GlyphClass: 2
 Flags: W
@@ -4787,7 +4817,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: quotedblleft
-Encoding: 8220 8220 93
+Encoding: 8220 8220 94
 Width: 370
 GlyphClass: 2
 Flags: W
@@ -4825,7 +4855,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: quotedblright
-Encoding: 8221 8221 94
+Encoding: 8221 8221 95
 Width: 355
 GlyphClass: 2
 Flags: W
@@ -4862,7 +4892,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: ellipsis
-Encoding: 8230 8230 95
+Encoding: 8230 8230 96
 Width: 793
 GlyphClass: 2
 Flags: W
@@ -4892,7 +4922,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: minus
-Encoding: 8722 8722 96
+Encoding: 8722 8722 97
 Width: 400
 GlyphClass: 2
 Flags: W
@@ -4909,7 +4939,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: uni25CC
-Encoding: 9676 9676 97
+Encoding: 9676 9676 98
 Width: 636
 GlyphClass: 2
 Flags: W
@@ -5041,7 +5071,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: numbersign
-Encoding: 65539 35 98
+Encoding: 65539 35 99
 Width: 787
 GlyphClass: 2
 Flags: W
@@ -5088,7 +5118,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: dollar
-Encoding: 65540 36 99
+Encoding: 65540 36 100
 Width: 463
 GlyphClass: 2
 Flags: W
@@ -5141,7 +5171,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: percent
-Encoding: 65541 37 100
+Encoding: 65541 37 101
 Width: 650
 GlyphClass: 2
 Flags: W
@@ -5215,7 +5245,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: ampersand
-Encoding: 65542 38 101
+Encoding: 65542 38 102
 Width: 653
 GlyphClass: 2
 Flags: W
@@ -5279,7 +5309,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: asterisk
-Encoding: 65543 42 102
+Encoding: 65543 42 103
 Width: 850
 GlyphClass: 2
 Flags: W
@@ -5304,7 +5334,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: plus
-Encoding: 65544 43 103
+Encoding: 65544 43 104
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5329,7 +5359,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: slash
-Encoding: 65545 47 104
+Encoding: 65545 47 105
 Width: 400
 GlyphClass: 2
 Flags: W
@@ -5346,7 +5376,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: zero
-Encoding: 65546 48 105
+Encoding: 65546 48 106
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5377,7 +5407,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: one
-Encoding: 65547 49 106
+Encoding: 65547 49 107
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5403,7 +5433,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: two
-Encoding: 65548 50 107
+Encoding: 65548 50 108
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5441,7 +5471,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: three
-Encoding: 65549 51 108
+Encoding: 65549 51 109
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5475,7 +5505,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: four
-Encoding: 65550 52 109
+Encoding: 65550 52 110
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5508,7 +5538,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: five
-Encoding: 65551 53 110
+Encoding: 65551 53 111
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5544,7 +5574,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: six
-Encoding: 65552 54 111
+Encoding: 65552 54 112
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5584,7 +5614,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: seven
-Encoding: 65553 55 112
+Encoding: 65553 55 113
 Width: 499
 GlyphClass: 2
 Flags: W
@@ -5610,7 +5640,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: eight
-Encoding: 65554 56 113
+Encoding: 65554 56 114
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5659,7 +5689,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: nine
-Encoding: 65555 57 114
+Encoding: 65555 57 115
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5699,7 +5729,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: less
-Encoding: 65556 60 115
+Encoding: 65556 60 116
 Width: 551
 GlyphClass: 2
 Flags: W
@@ -5719,7 +5749,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: equal
-Encoding: 65557 61 116
+Encoding: 65557 61 117
 Width: 400
 GlyphClass: 2
 Flags: W
@@ -5742,7 +5772,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: greater
-Encoding: 65558 62 117
+Encoding: 65558 62 118
 Width: 551
 GlyphClass: 2
 Flags: W
@@ -5762,7 +5792,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: at
-Encoding: 65559 64 118
+Encoding: 65559 64 119
 Width: 842
 GlyphClass: 2
 Flags: W
@@ -5822,7 +5852,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: bracketleft
-Encoding: 65560 91 119
+Encoding: 65560 91 120
 Width: 395
 GlyphClass: 2
 Flags: W
@@ -5843,7 +5873,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: backslash
-Encoding: 65561 92 120
+Encoding: 65561 92 121
 Width: 594
 GlyphClass: 2
 Flags: W
@@ -5860,7 +5890,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: bracketright
-Encoding: 65562 93 121
+Encoding: 65562 93 122
 Width: 395
 GlyphClass: 2
 Flags: W
@@ -5881,7 +5911,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: asciicircum
-Encoding: 65563 94 122
+Encoding: 65563 94 123
 Width: 470
 GlyphClass: 2
 Flags: W
@@ -5900,7 +5930,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: braceleft
-Encoding: 65564 123 123
+Encoding: 65564 123 124
 Width: 450
 GlyphClass: 2
 Flags: W
@@ -5936,7 +5966,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: bar
-Encoding: 65565 124 124
+Encoding: 65565 124 125
 Width: 210
 GlyphClass: 2
 Flags: W
@@ -5953,7 +5983,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: braceright
-Encoding: 65566 125 125
+Encoding: 65566 125 126
 Width: 450
 GlyphClass: 2
 Flags: W
@@ -5989,7 +6019,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: asciitilde
-Encoding: 65567 126 126
+Encoding: 65567 126 127
 Width: 645
 GlyphClass: 2
 Flags: W
@@ -6016,7 +6046,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: cent
-Encoding: 65568 162 127
+Encoding: 65568 162 128
 Width: 452
 GlyphClass: 2
 Flags: W
@@ -6065,7 +6095,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: multiply
-Encoding: 65569 215 128
+Encoding: 65569 215 129
 Width: 433
 GlyphClass: 2
 Flags: W
@@ -6090,7 +6120,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: divide
-Encoding: 65570 247 129
+Encoding: 65570 247 130
 Width: 480
 GlyphClass: 2
 Flags: W
@@ -6127,7 +6157,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0B95_u0BBF.abvs
-Encoding: 65571 -1 130
+Encoding: 65571 -1 131
 Width: 683
 GlyphClass: 2
 Flags: W
@@ -6201,7 +6231,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B95 u0BBF
 EndChar
 StartChar: u0B99_u0BBF.abvs
-Encoding: 65572 -1 131
+Encoding: 65572 -1 132
 Width: 870
 GlyphClass: 2
 Flags: W
@@ -6266,7 +6296,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B99 u0BBF
 EndChar
 StartChar: u0B9A_u0BBF.abvs
-Encoding: 65573 -1 132
+Encoding: 65573 -1 133
 Width: 653
 GlyphClass: 2
 Flags: W
@@ -6328,7 +6358,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B9A u0BBF
 EndChar
 StartChar: u0B9C_u0BBF.abvs
-Encoding: 65574 -1 133
+Encoding: 65574 -1 134
 Width: 847
 GlyphClass: 2
 Flags: W
@@ -6430,7 +6460,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B9C u0BBF
 EndChar
 StartChar: u0B9E_u0BBF.abvs
-Encoding: 65575 -1 134
+Encoding: 65575 -1 135
 Width: 1050
 GlyphClass: 2
 Flags: W
@@ -6516,7 +6546,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B9E u0BBF
 EndChar
 StartChar: u0B9F_u0BBF.abvs
-Encoding: 65576 -1 135
+Encoding: 65576 -1 136
 Width: 663
 GlyphClass: 2
 Flags: W
@@ -6559,7 +6589,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B9F u0BBF
 EndChar
 StartChar: u0BA3_u0BBF.abvs
-Encoding: 65577 -1 136
+Encoding: 65577 -1 137
 Width: 1239
 GlyphClass: 2
 Flags: W
@@ -6675,7 +6705,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BA3 u0BBF
 EndChar
 StartChar: u0BA4_u0BBF.abvs
-Encoding: 65578 -1 137
+Encoding: 65578 -1 138
 Width: 683
 GlyphClass: 2
 Flags: W
@@ -6755,7 +6785,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BA4 u0BBF
 EndChar
 StartChar: u0BA8_u0BBF.abvs
-Encoding: 65579 -1 138
+Encoding: 65579 -1 139
 Width: 690
 GlyphClass: 2
 Flags: W
@@ -6820,7 +6850,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BA8 u0BBF
 EndChar
 StartChar: u0BA9_u0BBF.abvs
-Encoding: 65580 -1 139
+Encoding: 65580 -1 140
 Width: 997
 GlyphClass: 2
 Flags: W
@@ -6910,7 +6940,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BA9 u0BBF
 EndChar
 StartChar: u0BAA_u0BBF.abvs
-Encoding: 65581 -1 140
+Encoding: 65581 -1 141
 Width: 760
 GlyphClass: 2
 Flags: W
@@ -6953,7 +6983,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BAA u0BBF
 EndChar
 StartChar: u0BAE_u0BBF.abvs
-Encoding: 65582 -1 141
+Encoding: 65582 -1 142
 Width: 820
 GlyphClass: 2
 Flags: W
@@ -7006,7 +7036,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BAE u0BBF
 EndChar
 StartChar: u0BAF_u0BBF.abvs
-Encoding: 65583 -1 142
+Encoding: 65583 -1 143
 Width: 855
 GlyphClass: 2
 Flags: W
@@ -7061,7 +7091,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BAF u0BBF
 EndChar
 StartChar: u0BB0_u0BBF.abvs
-Encoding: 65584 -1 143
+Encoding: 65584 -1 144
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -7102,7 +7132,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB0 u0BBF
 EndChar
 StartChar: u0BB1_u0BBF.abvs
-Encoding: 65585 -1 144
+Encoding: 65585 -1 145
 Width: 717
 GlyphClass: 2
 Flags: W
@@ -7169,7 +7199,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB1 u0BBF
 EndChar
 StartChar: u0BB2_u0BBF.abvs
-Encoding: 65586 -1 145
+Encoding: 65586 -1 146
 Width: 849
 GlyphClass: 2
 Flags: W
@@ -7243,7 +7273,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB2 u0BBF
 EndChar
 StartChar: u0BB3_u0BBF.abvs
-Encoding: 65587 -1 146
+Encoding: 65587 -1 147
 Width: 921
 GlyphClass: 2
 Flags: W
@@ -7315,7 +7345,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB3 u0BBF
 EndChar
 StartChar: u0BB4_u0BBF.abvs
-Encoding: 65588 -1 147
+Encoding: 65588 -1 148
 Width: 820
 GlyphClass: 2
 Flags: W
@@ -7395,7 +7425,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB4 u0BBF
 EndChar
 StartChar: u0BB5_u0BBF.abvs
-Encoding: 65589 -1 148
+Encoding: 65589 -1 149
 Width: 948
 GlyphClass: 2
 Flags: W
@@ -7470,7 +7500,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB5 u0BBF
 EndChar
 StartChar: u0BB7_u0BBF.abvs
-Encoding: 65590 -1 149
+Encoding: 65590 -1 150
 Width: 1090
 GlyphClass: 2
 Flags: W
@@ -7571,7 +7601,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB7 u0BBF
 EndChar
 StartChar: u0BB8_u0BBF.abvs
-Encoding: 65591 -1 150
+Encoding: 65591 -1 151
 Width: 1044
 GlyphClass: 2
 Flags: W
@@ -7652,7 +7682,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB8 u0BBF
 EndChar
 StartChar: u0BB9_u0BBF.abvs
-Encoding: 65592 -1 151
+Encoding: 65592 -1 152
 Width: 1209
 GlyphClass: 2
 Flags: W
@@ -7755,7 +7785,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB9 u0BBF
 EndChar
 StartChar: u0B95_u0BC0.abvs
-Encoding: 65593 -1 152
+Encoding: 65593 -1 153
 Width: 533
 GlyphClass: 2
 Flags: W
@@ -7840,7 +7870,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B95 u0BC0
 EndChar
 StartChar: u0B99_u0BC0.abvs
-Encoding: 65594 -1 153
+Encoding: 65594 -1 154
 Width: 730
 GlyphClass: 2
 Flags: W
@@ -7912,7 +7942,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B99 u0BC0
 EndChar
 StartChar: u0B9A_u0BC0.abvs
-Encoding: 65595 -1 154
+Encoding: 65595 -1 155
 Width: 462
 GlyphClass: 2
 Flags: W
@@ -7985,7 +8015,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B9A u0BC0
 EndChar
 StartChar: u0B9C_u0BC0.abvs
-Encoding: 65596 -1 155
+Encoding: 65596 -1 156
 Width: 697
 GlyphClass: 2
 Flags: W
@@ -8098,7 +8128,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B9C u0BC0
 EndChar
 StartChar: u0B9E_u0BC0.abvs
-Encoding: 65597 -1 156
+Encoding: 65597 -1 157
 Width: 896
 GlyphClass: 2
 Flags: W
@@ -8195,7 +8225,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B9E u0BC0
 EndChar
 StartChar: u0B9F_u0BC0.abvs
-Encoding: 65598 -1 157
+Encoding: 65598 -1 158
 Width: 663
 GlyphClass: 2
 Flags: W
@@ -8242,7 +8272,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B9F u0BC0
 EndChar
 StartChar: u0BA3_u0BC0.abvs
-Encoding: 65599 -1 158
+Encoding: 65599 -1 159
 Width: 1020
 GlyphClass: 2
 Flags: W
@@ -8369,7 +8399,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BA3 u0BC0
 EndChar
 StartChar: u0BA4_u0BC0.abvs
-Encoding: 65600 -1 159
+Encoding: 65600 -1 160
 Width: 543
 GlyphClass: 2
 Flags: W
@@ -8460,7 +8490,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BA4 u0BC0
 EndChar
 StartChar: u0BA8_u0BC0.abvs
-Encoding: 65601 -1 160
+Encoding: 65601 -1 161
 Width: 534
 GlyphClass: 2
 Flags: W
@@ -8536,7 +8566,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BA8 u0BC0
 EndChar
 StartChar: u0BA9_u0BC0.abvs
-Encoding: 65602 -1 161
+Encoding: 65602 -1 162
 Width: 808
 GlyphClass: 2
 Flags: W
@@ -8637,7 +8667,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BA9 u0BC0
 EndChar
 StartChar: u0BAA_u0BC0.abvs
-Encoding: 65603 -1 162
+Encoding: 65603 -1 163
 Width: 620
 GlyphClass: 2
 Flags: W
@@ -8687,7 +8717,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BAA u0BC0
 EndChar
 StartChar: u0BAE_u0BC0.abvs
-Encoding: 65604 -1 163
+Encoding: 65604 -1 164
 Width: 673
 GlyphClass: 2
 Flags: W
@@ -8750,7 +8780,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BAE u0BC0
 EndChar
 StartChar: u0BAF_u0BC0.abvs
-Encoding: 65605 -1 164
+Encoding: 65605 -1 165
 Width: 715
 GlyphClass: 2
 Flags: W
@@ -8812,7 +8842,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BAF u0BC0
 EndChar
 StartChar: u0BB0_u0BC0.abvs
-Encoding: 65606 -1 165
+Encoding: 65606 -1 166
 Width: 431
 GlyphClass: 2
 Flags: W
@@ -8864,7 +8894,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB0 u0BC0
 EndChar
 StartChar: u0BB1_u0BC0.abvs
-Encoding: 65607 -1 166
+Encoding: 65607 -1 167
 Width: 565
 GlyphClass: 2
 Flags: W
@@ -8940,7 +8970,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB1 u0BC0
 EndChar
 StartChar: u0BB2_u0BC0.abvs
-Encoding: 65608 -1 167
+Encoding: 65608 -1 168
 Width: 693
 GlyphClass: 2
 Flags: W
@@ -9024,7 +9054,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB2 u0BC0
 EndChar
 StartChar: u0BB3_u0BC0.abvs
-Encoding: 65609 -1 168
+Encoding: 65609 -1 169
 Width: 752
 GlyphClass: 2
 Flags: W
@@ -9107,7 +9137,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB3 u0BC0
 EndChar
 StartChar: u0BB4_u0BC0.abvs
-Encoding: 65610 -1 169
+Encoding: 65610 -1 170
 Width: 673
 GlyphClass: 2
 Flags: W
@@ -9197,7 +9227,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB4 u0BC0
 EndChar
 StartChar: u0BB5_u0BC0.abvs
-Encoding: 65611 -1 170
+Encoding: 65611 -1 171
 Width: 798
 GlyphClass: 2
 Flags: W
@@ -9279,7 +9309,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB5 u0BC0
 EndChar
 StartChar: u0BB7_u0BC0.abvs
-Encoding: 65612 -1 171
+Encoding: 65612 -1 172
 Width: 933
 GlyphClass: 2
 Flags: W
@@ -9393,7 +9423,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB7 u0BC0
 EndChar
 StartChar: u0BB8_u0BC0.abvs
-Encoding: 65613 -1 172
+Encoding: 65613 -1 173
 Width: 893
 GlyphClass: 2
 Flags: W
@@ -9489,7 +9519,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB8 u0BC0
 EndChar
 StartChar: u0BB9_u0BC0.abvs
-Encoding: 65614 -1 173
+Encoding: 65614 -1 174
 Width: 1040
 GlyphClass: 2
 Flags: W
@@ -9603,7 +9633,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0BB9 u0BC0
 EndChar
 StartChar: u0B95_u0BC1.blws
-Encoding: 65615 -1 174
+Encoding: 65615 -1 175
 Width: 736
 GlyphClass: 2
 Flags: W
@@ -9664,7 +9694,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0B95 u0BC1
 EndChar
 StartChar: u0B99_u0BC1.blws
-Encoding: 65616 -1 175
+Encoding: 65616 -1 176
 Width: 730
 GlyphClass: 2
 Flags: W
@@ -9711,7 +9741,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0B99 u0BC1
 EndChar
 StartChar: u0B9A_u0BC1.blws
-Encoding: 65617 -1 176
+Encoding: 65617 -1 177
 Width: 544
 GlyphClass: 2
 Flags: W
@@ -9760,7 +9790,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0B9A u0BC1
 EndChar
 StartChar: glyph175
-Encoding: 65618 -1 177
+Encoding: 65618 -1 178
 Width: 590
 GlyphClass: 2
 Flags: W
@@ -9783,7 +9813,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0B9E_u0BC1.blws
-Encoding: 65619 -1 178
+Encoding: 65619 -1 179
 Width: 946
 GlyphClass: 2
 Flags: W
@@ -9869,7 +9899,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0B9E u0BC1
 EndChar
 StartChar: u0B9F_u0BC1.blws
-Encoding: 65620 -1 179
+Encoding: 65620 -1 180
 Width: 744
 GlyphClass: 2
 Flags: W
@@ -9916,7 +9946,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0B9F u0BC1
 EndChar
 StartChar: u0BA3_u0BC1.blws
-Encoding: 65621 -1 180
+Encoding: 65621 -1 181
 Width: 1169
 GlyphClass: 2
 Flags: W
@@ -10042,7 +10072,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BA3 u0BC1
 EndChar
 StartChar: u0BA4_u0BC1.blws
-Encoding: 65622 -1 181
+Encoding: 65622 -1 182
 Width: 723
 GlyphClass: 2
 Flags: W
@@ -10115,7 +10145,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BA4 u0BC1
 EndChar
 StartChar: u0BA8_u0BC1.blws
-Encoding: 65623 -1 182
+Encoding: 65623 -1 183
 Width: 720
 GlyphClass: 2
 Flags: W
@@ -10174,7 +10204,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BA8 u0BC1
 EndChar
 StartChar: u0BA9_u0BC1.blws
-Encoding: 65624 -1 183
+Encoding: 65624 -1 184
 Width: 967
 GlyphClass: 2
 Flags: W
@@ -10270,7 +10300,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BA9 u0BC1
 EndChar
 StartChar: u0BAA_u0BC1.blws
-Encoding: 65625 -1 184
+Encoding: 65625 -1 185
 Width: 620
 GlyphClass: 2
 Flags: W
@@ -10295,7 +10325,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BAA u0BC1
 EndChar
 StartChar: u0BAE_u0BC1.blws
-Encoding: 65626 -1 185
+Encoding: 65626 -1 186
 Width: 925
 GlyphClass: 2
 Flags: W
@@ -10346,7 +10376,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BAE u0BC1
 EndChar
 StartChar: u0BAF_u0BC1.blws
-Encoding: 65627 -1 186
+Encoding: 65627 -1 187
 Width: 715
 GlyphClass: 2
 Flags: W
@@ -10383,7 +10413,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BAF u0BC1
 EndChar
 StartChar: u0BB0_u0BC1.blws
-Encoding: 65628 -1 187
+Encoding: 65628 -1 188
 Width: 772
 GlyphClass: 2
 Flags: W
@@ -10430,7 +10460,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BB0 u0BC1
 EndChar
 StartChar: u0BB1_u0BC1.blws
-Encoding: 65629 -1 188
+Encoding: 65629 -1 189
 Width: 697
 GlyphClass: 2
 Flags: W
@@ -10492,7 +10522,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BB1 u0BC1
 EndChar
 StartChar: u0BB2_u0BC1.blws
-Encoding: 65630 -1 189
+Encoding: 65630 -1 190
 Width: 859
 GlyphClass: 2
 Flags: W
@@ -10575,7 +10605,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BB2 u0BC1
 EndChar
 StartChar: u0BB3_u0BC1.blws
-Encoding: 65631 -1 190
+Encoding: 65631 -1 191
 Width: 1075
 GlyphClass: 2
 Flags: W
@@ -10653,7 +10683,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BB3 u0BC1
 EndChar
 StartChar: u0BB4_u0BC1.blws
-Encoding: 65632 -1 191
+Encoding: 65632 -1 192
 Width: 890
 GlyphClass: 2
 Flags: W
@@ -10716,7 +10746,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BB4 u0BC1
 EndChar
 StartChar: u0BB5_u0BC1.blws
-Encoding: 65633 -1 192
+Encoding: 65633 -1 193
 Width: 798
 GlyphClass: 2
 Flags: W
@@ -10773,7 +10803,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BB5 u0BC1
 EndChar
 StartChar: u0B95_u0BC2.blws
-Encoding: 65634 -1 193
+Encoding: 65634 -1 194
 Width: 836
 GlyphClass: 2
 Flags: W
@@ -10852,7 +10882,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0B95 u0BC2
 EndChar
 StartChar: u0B99_u0BC2.blws
-Encoding: 65635 -1 194
+Encoding: 65635 -1 195
 Width: 836
 GlyphClass: 2
 Flags: W
@@ -10925,7 +10955,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0B99 u0BC2
 EndChar
 StartChar: u0B9A_u0BC2.blws
-Encoding: 65636 -1 195
+Encoding: 65636 -1 196
 Width: 798
 GlyphClass: 2
 Flags: W
@@ -10997,7 +11027,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0B9A u0BC2
 EndChar
 StartChar: glyph194
-Encoding: 65637 -1 196
+Encoding: 65637 -1 197
 Width: 590
 GlyphClass: 2
 Flags: W
@@ -11020,7 +11050,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0B9E_u0BC2.blws
-Encoding: 65638 -1 197
+Encoding: 65638 -1 198
 Width: 1101
 GlyphClass: 2
 Flags: W
@@ -11108,7 +11138,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0B9E u0BC2
 EndChar
 StartChar: u0B9F_u0BC2.blws
-Encoding: 65639 -1 198
+Encoding: 65639 -1 199
 Width: 633
 GlyphClass: 2
 Flags: W
@@ -11168,7 +11198,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0B9F u0BC2
 EndChar
 StartChar: u0BA3_u0BC2.blws
-Encoding: 65640 -1 199
+Encoding: 65640 -1 200
 Width: 1340
 GlyphClass: 2
 Flags: W
@@ -11300,7 +11330,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BA3 u0BC2
 EndChar
 StartChar: u0BA4_u0BC2.blws
-Encoding: 65641 -1 200
+Encoding: 65641 -1 201
 Width: 878
 GlyphClass: 2
 Flags: W
@@ -11379,7 +11409,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BA4 u0BC2
 EndChar
 StartChar: u0BA8_u0BC2.blws
-Encoding: 65642 -1 201
+Encoding: 65642 -1 202
 Width: 875
 GlyphClass: 2
 Flags: W
@@ -11444,7 +11474,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BA8 u0BC2
 EndChar
 StartChar: u0BA9_u0BC2.blws
-Encoding: 65643 -1 202
+Encoding: 65643 -1 203
 Width: 1148
 GlyphClass: 2
 Flags: W
@@ -11550,7 +11580,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BA9 u0BC2
 EndChar
 StartChar: u0BAA_u0BC2.blws
-Encoding: 65644 -1 203
+Encoding: 65644 -1 204
 Width: 705
 GlyphClass: 2
 Flags: W
@@ -11601,7 +11631,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BAA u0BC2
 EndChar
 StartChar: u0BAE_u0BC2.blws
-Encoding: 65645 -1 204
+Encoding: 65645 -1 205
 Width: 923
 GlyphClass: 2
 Flags: W
@@ -11666,7 +11696,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BAE u0BC2
 EndChar
 StartChar: u0BAF_u0BC2.blws
-Encoding: 65646 -1 205
+Encoding: 65646 -1 206
 Width: 826
 GlyphClass: 2
 Flags: W
@@ -11729,7 +11759,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BAF u0BC2
 EndChar
 StartChar: u0BB0_u0BC2.blws
-Encoding: 65647 -1 206
+Encoding: 65647 -1 207
 Width: 781
 GlyphClass: 2
 Flags: W
@@ -11791,7 +11821,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BB0 u0BC2
 EndChar
 StartChar: u0BB1_u0BC2.blws
-Encoding: 65648 -1 207
+Encoding: 65648 -1 208
 Width: 853
 GlyphClass: 2
 Flags: W
@@ -11859,7 +11889,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BB1 u0BC2
 EndChar
 StartChar: u0BB2_u0BC2.blws
-Encoding: 65649 -1 208
+Encoding: 65649 -1 209
 Width: 1020
 GlyphClass: 2
 Flags: W
@@ -11952,7 +11982,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BB2 u0BC2
 EndChar
 StartChar: u0BB3_u0BC2.blws
-Encoding: 65650 -1 209
+Encoding: 65650 -1 210
 Width: 1072
 GlyphClass: 2
 Flags: W
@@ -12039,7 +12069,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BB3 u0BC2
 EndChar
 StartChar: u0BB4_u0BC2.blws
-Encoding: 65651 -1 210
+Encoding: 65651 -1 211
 Width: 910
 GlyphClass: 2
 Flags: W
@@ -12117,7 +12147,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BB4 u0BC2
 EndChar
 StartChar: u0BB5_u0BC2.blws
-Encoding: 65652 -1 211
+Encoding: 65652 -1 212
 Width: 940
 GlyphClass: 2
 Flags: W
@@ -12200,7 +12230,7 @@ EndSplineSet
 Ligature: 0 0 'blws' u0BB5 u0BC2
 EndChar
 StartChar: u0B95_u0BCD_u0BB7.akhn
-Encoding: 65653 -1 212
+Encoding: 65653 -1 213
 Width: 1158
 GlyphClass: 2
 Flags: W
@@ -12315,7 +12345,7 @@ EndSplineSet
 Ligature: 0 0 'akhn' u0B95 u0BCD u0BB7
 EndChar
 StartChar: u0B95_u0BCD_u0BB7.akhn_u0BBF.abvs
-Encoding: 65654 -1 213
+Encoding: 65654 -1 214
 Width: 1313
 GlyphClass: 2
 Flags: W
@@ -12442,7 +12472,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B95_u0BCD_u0BB7.akhn u0BBF
 EndChar
 StartChar: u0B95_u0BCD_u0BB7.akhn_u0BC0.abvs
-Encoding: 65655 -1 214
+Encoding: 65655 -1 215
 Width: 1158
 GlyphClass: 2
 Flags: W
@@ -12582,7 +12612,7 @@ EndSplineSet
 Ligature: 0 0 'abvs' u0B95_u0BCD_u0BB7.akhn u0BC0
 EndChar
 StartChar: u0BB7_u0BCD.half_u0BB0_u0BC0.abvs
-Encoding: 65656 -1 215
+Encoding: 65656 -1 216
 Width: 1084
 GlyphClass: 2
 Flags: W
@@ -12677,7 +12707,7 @@ Ligature: 0 0 'abvs' u0BB8_u0BCD.half u0BB0 u0BC0
 Ligature: 0 0 'abvs' u0BB7_u0BCD.half u0BB0 u0BC0
 EndChar
 StartChar: u0B95_u0BCD.half
-Encoding: 65657 -1 216
+Encoding: 65657 -1 217
 Width: 533
 GlyphClass: 2
 Flags: W
@@ -12746,7 +12776,7 @@ Ligature: 0 0 'haln' u0B95 u0BCD
 Ligature: 0 0 'half' u0B95 u0BCD
 EndChar
 StartChar: u0B99_u0BCD.half
-Encoding: 65658 -1 217
+Encoding: 65658 -1 218
 Width: 730
 GlyphClass: 2
 Flags: W
@@ -12802,7 +12832,7 @@ Ligature: 0 0 'haln' u0B99 u0BCD
 Ligature: 0 0 'half' u0B99 u0BCD
 EndChar
 StartChar: u0B9A_u0BCD.half
-Encoding: 65659 -1 218
+Encoding: 65659 -1 219
 Width: 462
 GlyphClass: 2
 Flags: W
@@ -12859,7 +12889,7 @@ Ligature: 0 0 'haln' u0B9A u0BCD
 Ligature: 0 0 'half' u0B9A u0BCD
 EndChar
 StartChar: u0B9C_u0BCD.half
-Encoding: 65660 -1 219
+Encoding: 65660 -1 220
 Width: 695
 GlyphClass: 2
 Flags: W
@@ -12957,7 +12987,7 @@ Ligature: 0 0 'haln' u0B9C u0BCD
 Ligature: 0 0 'half' u0B9C u0BCD
 EndChar
 StartChar: u0B9E_u0BCD.half
-Encoding: 65661 -1 220
+Encoding: 65661 -1 221
 Width: 895
 GlyphClass: 2
 Flags: W
@@ -13038,7 +13068,7 @@ Ligature: 0 0 'haln' u0B9E u0BCD
 Ligature: 0 0 'half' u0B9E u0BCD
 EndChar
 StartChar: u0B9F_u0BCD.half
-Encoding: 65662 -1 221
+Encoding: 65662 -1 222
 Width: 663
 GlyphClass: 2
 Flags: W
@@ -13070,7 +13100,7 @@ Ligature: 0 0 'haln' u0B9F u0BCD
 Ligature: 0 0 'half' u0B9F u0BCD
 EndChar
 StartChar: u0BA3_u0BCD.half
-Encoding: 65663 -1 222
+Encoding: 65663 -1 223
 Width: 1060
 GlyphClass: 2
 Flags: W
@@ -13181,7 +13211,7 @@ Ligature: 0 0 'haln' u0BA3 u0BCD
 Ligature: 0 0 'half' u0BA3 u0BCD
 EndChar
 StartChar: u0BA4_u0BCD.half
-Encoding: 65664 -1 223
+Encoding: 65664 -1 224
 Width: 543
 GlyphClass: 2
 Flags: W
@@ -13255,7 +13285,7 @@ Ligature: 0 0 'haln' u0BA4 u0BCD
 Ligature: 0 0 'half' u0BA4 u0BCD
 EndChar
 StartChar: u0BA8_u0BCD.half
-Encoding: 65665 -1 224
+Encoding: 65665 -1 225
 Width: 535
 GlyphClass: 2
 Flags: W
@@ -13315,7 +13345,7 @@ Ligature: 0 0 'haln' u0BA8 u0BCD
 Ligature: 0 0 'half' u0BA8 u0BCD
 EndChar
 StartChar: u0BA9_u0BCD.half
-Encoding: 65666 -1 225
+Encoding: 65666 -1 226
 Width: 808
 GlyphClass: 2
 Flags: W
@@ -13400,7 +13430,7 @@ Ligature: 0 0 'haln' u0BA9 u0BCD
 Ligature: 0 0 'half' u0BA9 u0BCD
 EndChar
 StartChar: u0BAA_u0BCD.half
-Encoding: 65667 -1 226
+Encoding: 65667 -1 227
 Width: 620
 GlyphClass: 2
 Flags: W
@@ -13434,7 +13464,7 @@ Ligature: 0 0 'haln' u0BAA u0BCD
 Ligature: 0 0 'half' u0BAA u0BCD
 EndChar
 StartChar: u0BAE_u0BCD.half
-Encoding: 65668 -1 227
+Encoding: 65668 -1 228
 Width: 671
 GlyphClass: 2
 Flags: W
@@ -13482,7 +13512,7 @@ Ligature: 0 0 'haln' u0BAE u0BCD
 Ligature: 0 0 'half' u0BAE u0BCD
 EndChar
 StartChar: u0BAF_u0BCD.half
-Encoding: 65669 -1 228
+Encoding: 65669 -1 229
 Width: 715
 GlyphClass: 2
 Flags: W
@@ -13528,7 +13558,7 @@ Ligature: 0 0 'haln' u0BAF u0BCD
 Ligature: 0 0 'half' u0BAF u0BCD
 EndChar
 StartChar: u0BB0_u0BCD.half
-Encoding: 65670 -1 229
+Encoding: 65670 -1 230
 Width: 436
 GlyphClass: 2
 Flags: W
@@ -13564,7 +13594,7 @@ Ligature: 0 0 'haln' u0BB0 u0BCD
 Ligature: 0 0 'half' u0BB0 u0BCD
 EndChar
 StartChar: u0BB1_u0BCD.half
-Encoding: 65671 -1 230
+Encoding: 65671 -1 231
 Width: 567
 GlyphClass: 2
 Flags: W
@@ -13625,7 +13655,7 @@ Ligature: 0 0 'haln' u0BB1 u0BCD
 Ligature: 0 0 'half' u0BB1 u0BCD
 EndChar
 StartChar: u0BB2_u0BCD.half
-Encoding: 65672 -1 231
+Encoding: 65672 -1 232
 Width: 692
 GlyphClass: 2
 Flags: W
@@ -13696,7 +13726,7 @@ Ligature: 0 0 'haln' u0BB2 u0BCD
 Ligature: 0 0 'half' u0BB2 u0BCD
 EndChar
 StartChar: u0BB3_u0BCD.half
-Encoding: 65673 -1 232
+Encoding: 65673 -1 233
 Width: 752
 GlyphClass: 2
 Flags: W
@@ -13763,7 +13793,7 @@ Ligature: 0 0 'haln' u0BB3 u0BCD
 Ligature: 0 0 'half' u0BB3 u0BCD
 EndChar
 StartChar: u0BB4_u0BCD.half
-Encoding: 65674 -1 233
+Encoding: 65674 -1 234
 Width: 671
 GlyphClass: 2
 Flags: W
@@ -13838,7 +13868,7 @@ Ligature: 0 0 'haln' u0BB4 u0BCD
 Ligature: 0 0 'half' u0BB4 u0BCD
 EndChar
 StartChar: u0BB5_u0BCD.half
-Encoding: 65675 -1 234
+Encoding: 65675 -1 235
 Width: 798
 GlyphClass: 2
 Flags: W
@@ -13904,7 +13934,7 @@ Ligature: 0 0 'haln' u0BB5 u0BCD
 Ligature: 0 0 'half' u0BB5 u0BCD
 EndChar
 StartChar: u0BB7_u0BCD.half
-Encoding: 65676 -1 235
+Encoding: 65676 -1 236
 Width: 933
 GlyphClass: 2
 Flags: W
@@ -14003,7 +14033,7 @@ Ligature: 0 0 'haln' u0BB7 u0BCD
 Ligature: 0 0 'half' u0BB7 u0BCD
 EndChar
 StartChar: u0BB8_u0BCD.half
-Encoding: 65677 -1 236
+Encoding: 65677 -1 237
 Width: 895
 GlyphClass: 2
 Flags: W
@@ -14085,7 +14115,7 @@ Ligature: 0 0 'haln' u0BB8 u0BCD
 Ligature: 0 0 'half' u0BB8 u0BCD
 EndChar
 StartChar: u0BB9_u0BCD.half
-Encoding: 65678 -1 237
+Encoding: 65678 -1 238
 Width: 1021
 GlyphClass: 2
 Flags: W
@@ -14184,7 +14214,7 @@ Ligature: 0 0 'haln' u0BB9 u0BCD
 Ligature: 0 0 'half' u0BB9 u0BCD
 EndChar
 StartChar: u0B95_u0BCD_u0BB7.akhn_u0BCD.half
-Encoding: 65679 -1 238
+Encoding: 65679 -1 239
 Width: 1158
 GlyphClass: 2
 Flags: W
