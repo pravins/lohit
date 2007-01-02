@@ -11,9 +11,13 @@ UnderlineWidth: 20
 Ascent: 615
 Descent: 154
 Order2: 1
-NeedsXUIDChange: 1
-XUID: [1021 467 158993989 8792299]
+XUID: [1021 648 100124046 628052]
 FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1159497103
+ModificationTime: 1159497103
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -45,19 +49,33 @@ OS2StrikeYSize: 50
 OS2StrikeYPos: 250
 OS2Vendor: 'ACE '
 ScriptLang: 2
- 1 beng 1 dflt 
  0 
-ChainPos: coverage 0 0 'abvm' 0 0 0 1
+ 1 beng 1 dflt 
+ChainPos: coverage 0 1 'abvm' 0 0 0 1
  1 2 0
   Coverage: 5 u0981
-  BCoverage: 851 u0995 u0996 u0997 u0998 u0999 u099A u099B u099C u099D u099E u099F u09A0 u09A1 u09A2 u09A3 u09A4 u09A5 u09A6 u09A7 u09A8 u09AA u09AB u09AC u09AD u09AE u09AF u09B0 u09B2 u09B6 u09B7 u09B8 u09B9 u09DC u09DD u09DF u09F0 u09F1 u0995_u09CD.half u0996_u09CD.half u0997_u09CD.half u0998_u09CD.half u0999_u09CD.half u099A_u09CD.half u099B_u09CD.half u099C_u09CD.half u099D_u09CD.half u099E_u09CD.half u099F_u09CD.half u09A0_u09CD.half u09A1_u09CD.half u09A2_u09CD.half u09A3_u09CD.half glyph454 u09A5_u09CD.half u09A6_u09CD.half u09A7_u09CD.half u09A8_u09CD.half u09AA_u09CD.half u09AB_u09CD.half u09AC_u09CD.half u09AD_u09CD.half u09AE_u09CD.half u09AF_u09CD.half u09B0_u09CD.half u09B2_u09CD.half u09B6_u09CD.half u09B7_u09CD.half u09B8_u09CD.half u09B9_u09CD.half u09DC_u09CD.half u09DD_u09CD.half u09DF_u09CD.half glyph475 u09F1_u09CD.half u09F0_u09CD.half
+  BCoverage: 842 u0995 u0996 u0997 u0998 u0999 u099A u099B u099C u099D u099E u099F u09A0 u09A1 u09A2 u09A3 u09A4 u09A5 u09A6 u09A7 u09A8 u09AA u09AB u09AC u09AD u09AE u09AF u09B0 u09B2 u09B6 u09B7 u09B8 u09B9 u09DC u09DD u09DF u09F0 u09F1 u0995_u09CD.half u0996_u09CD.half u0997_u09CD.half u0998_u09CD.half u0999_u09CD.half u099A_u09CD.half u099B_u09CD.half u099C_u09CD.half u099D_u09CD.half u099E_u09CD.half u099F_u09CD.half u09A0_u09CD.half u09A1_u09CD.half u09A2_u09CD.half u09A3_u09CD.half u09A5_u09CD.half u09A6_u09CD.half u09A7_u09CD.half u09A8_u09CD.half u09AA_u09CD.half u09AB_u09CD.half u09AC_u09CD.half u09AD_u09CD.half u09AE_u09CD.half u09AF_u09CD.half u09B0_u09CD.half u09B2_u09CD.half u09B6_u09CD.half u09B7_u09CD.half u09B8_u09CD.half u09B9_u09CD.half u09DC_u09CD.half u09DD_u09CD.half u09DF_u09CD.half glyph475 u09F1_u09CD.half u09F0_u09CD.half
   BCoverage: 5 u09BF
  1
-  SeqLookup: 0 'L003'
+  SeqLookup: 0 'L000'
 EndFPST
-GenTags: 1 ps'L003'
-TableOrder: GPOS 0
-TableOrder: GSUB 0
+GenTags: 1 ps'L000'
+TableOrder: GPOS 2
+	'abvm'
+	'blwm'
+TableOrder: GSUB 12
+	'abvs'
+	'blwf'
+	'blws'
+	'half'
+	'haln'
+	'init'
+	'nukt'
+	'pres'
+	'pstf'
+	'psts'
+	'rphf'
+	'vatu'
 TtfTable: prep 11
 5QX@TNOT#hKm":5
 EndTtf
@@ -73,18 +91,18 @@ s,I$Z!Mob'!(I"D!Tj@J!M9@I!:']D!`K,0!c.nD!dao!!XJk5s#pCss2=qAs-3XCs(24(s/Z0i
 !$;/Cs&&g3!o![Ys+C>P!qZG,s2k:Zrk&3As'Ym&s/#c#!%@ihs#C$/s-Ef]!r)b:!.t4P!B'oX
 EndTtf
 TtfTable: maxp 32
-!!*'"!T!g]!"8i-!!!!"!!*'^!'gMa!(6g*z
+!!*'"!Ta<d!"8i-!!!!"!!*'^!'gMa!(6g*z
 EndTtf
 LangName: 1033 "" "" "Regular" "ACE: Automatic Control EquipmentsLohit Bengali" "" "Version 1.00" 
 Encoding: UnicodeBmp
-Compacted: 1
 UnicodeInterp: none
-DisplaySize: -24
+NameList: Adobe Glyph List
+DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 50 22
-AnchorClass: "Anchor-0" abvm 0 0 1 0 "Anchor-1" abvm 0 0 1 0 "Anchor-2" blwm 0 0 2 0 
-BeginChars: 65899 480
+WinInfo: 33 33 15
+AnchorClass: "Anchor-0" abvm 0 1 1 0 "Anchor-1" abvm 0 1 1 0 "Anchor-2" blwm 0 1 2 0 
+BeginChars: 65869 485
 StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 800
@@ -110,13 +128,13 @@ Fore
 EndSplineSet
 EndChar
 StartChar: .null
-Encoding: 65537 0 1
+Encoding: 0 0 1
 Width: 0
 GlyphClass: 2
 Flags: W
 EndChar
 StartChar: nonmarkingreturn
-Encoding: 65538 12 2
+Encoding: 12 12 2
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -176,7 +194,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: numbersign
-Encoding: 65539 35 6
+Encoding: 35 35 6
 Width: 732
 GlyphClass: 2
 Flags: W
@@ -223,7 +241,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: dollar
-Encoding: 65540 36 7
+Encoding: 36 36 7
 Width: 565
 GlyphClass: 2
 Flags: W
@@ -276,7 +294,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: percent
-Encoding: 65541 37 8
+Encoding: 37 37 8
 Width: 711
 GlyphClass: 2
 Flags: W
@@ -334,7 +352,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: ampersand
-Encoding: 65542 38 9
+Encoding: 38 38 9
 Width: 602
 GlyphClass: 2
 Flags: W
@@ -452,7 +470,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: asterisk
-Encoding: 65543 42 13
+Encoding: 42 42 13
 Width: 465
 GlyphClass: 2
 Flags: W
@@ -483,7 +501,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: plus
-Encoding: 65544 43 14
+Encoding: 43 43 14
 Width: 580
 GlyphClass: 2
 Flags: W
@@ -574,7 +592,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: slash
-Encoding: 65545 47 18
+Encoding: 47 47 18
 Width: 610
 GlyphClass: 2
 Flags: W
@@ -591,7 +609,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: zero
-Encoding: 65546 48 19
+Encoding: 48 48 19
 Width: 426
 GlyphClass: 2
 Flags: W
@@ -622,7 +640,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: one
-Encoding: 65547 49 20
+Encoding: 49 49 20
 Width: 425
 GlyphClass: 2
 Flags: W
@@ -644,7 +662,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: two
-Encoding: 65548 50 21
+Encoding: 50 50 21
 Width: 425
 GlyphClass: 2
 Flags: W
@@ -679,7 +697,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: three
-Encoding: 65549 51 22
+Encoding: 51 51 22
 Width: 426
 GlyphClass: 2
 Flags: W
@@ -725,7 +743,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: four
-Encoding: 65550 52 23
+Encoding: 52 52 23
 Width: 426
 GlyphClass: 2
 Flags: W
@@ -754,7 +772,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: five
-Encoding: 65551 53 24
+Encoding: 53 53 24
 Width: 426
 GlyphClass: 2
 Flags: W
@@ -790,7 +808,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: six
-Encoding: 65552 54 25
+Encoding: 54 54 25
 Width: 426
 GlyphClass: 2
 Flags: W
@@ -831,7 +849,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: seven
-Encoding: 65553 55 26
+Encoding: 55 55 26
 Width: 425
 GlyphClass: 2
 Flags: W
@@ -853,7 +871,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: eight
-Encoding: 65554 56 27
+Encoding: 56 56 27
 Width: 426
 GlyphClass: 2
 Flags: W
@@ -902,7 +920,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: nine
-Encoding: 65555 57 28
+Encoding: 57 57 28
 Width: 426
 GlyphClass: 2
 Flags: W
@@ -1012,7 +1030,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: less
-Encoding: 65556 60 31
+Encoding: 60 60 31
 Width: 527
 GlyphClass: 2
 Flags: W
@@ -1032,7 +1050,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: equal
-Encoding: 65557 61 32
+Encoding: 61 61 32
 Width: 580
 GlyphClass: 2
 Flags: W
@@ -1055,7 +1073,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: greater
-Encoding: 65558 62 33
+Encoding: 62 62 33
 Width: 527
 GlyphClass: 2
 Flags: W
@@ -1120,7 +1138,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: at
-Encoding: 65559 64 35
+Encoding: 64 64 35
 Width: 814
 GlyphClass: 2
 Flags: W
@@ -1180,7 +1198,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: bracketleft
-Encoding: 65560 91 36
+Encoding: 91 91 36
 Width: 380
 GlyphClass: 2
 Flags: W
@@ -1201,7 +1219,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: backslash
-Encoding: 65561 92 37
+Encoding: 92 92 37
 Width: 485
 GlyphClass: 2
 Flags: W
@@ -1218,7 +1236,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: bracketright
-Encoding: 65562 93 38
+Encoding: 93 93 38
 Width: 380
 GlyphClass: 2
 Flags: W
@@ -1239,7 +1257,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: asciicircum
-Encoding: 65563 94 39
+Encoding: 94 94 39
 Width: 534
 GlyphClass: 2
 Flags: W
@@ -1293,7 +1311,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: braceleft
-Encoding: 65564 123 42
+Encoding: 123 123 42
 Width: 394
 GlyphClass: 2
 Flags: W
@@ -1329,7 +1347,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: bar
-Encoding: 65565 124 43
+Encoding: 124 124 43
 Width: 230
 GlyphClass: 2
 Flags: W
@@ -1346,7 +1364,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: braceright
-Encoding: 65566 125 44
+Encoding: 125 125 44
 Width: 395
 GlyphClass: 2
 Flags: W
@@ -1382,7 +1400,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: asciitilde
-Encoding: 65567 126 45
+Encoding: 126 126 45
 Width: 572
 GlyphClass: 2
 Flags: W
@@ -1413,7 +1431,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: cent
-Encoding: 65568 162 46
+Encoding: 162 162 46
 Width: 512
 GlyphClass: 2
 Flags: W
@@ -1462,7 +1480,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: multiply
-Encoding: 65569 215 47
+Encoding: 215 215 47
 Width: 521
 GlyphClass: 2
 Flags: W
@@ -1487,7 +1505,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: divide
-Encoding: 65570 247 48
+Encoding: 247 247 48
 Width: 532
 GlyphClass: 2
 Flags: W
@@ -1523,8 +1541,42 @@ Fore
  266 417 l 1,18,19
 EndSplineSet
 EndChar
+StartChar: uni0964
+Encoding: 2404 2404 49
+Width: 275
+GlyphClass: 2
+Flags: W
+Fore
+150 0 m 1,0,-1
+ 150 500 l 1,1,-1
+ 200 500 l 1,2,-1
+ 200 0 l 1,3,-1
+ 150 0 l 1,4,-1
+ 150 0 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni0965
+Encoding: 2405 2405 50
+Width: 435
+GlyphClass: 2
+Flags: W
+Fore
+150 0 m 1,0,-1
+ 150 500 l 1,1,-1
+ 200 500 l 1,2,-1
+ 200 0 l 1,3,-1
+ 150 0 l 1,4,-1
+ 150 0 l 1,0,-1
+310 0 m 1,5,-1
+ 310 500 l 1,6,-1
+ 360 500 l 1,7,-1
+ 360 0 l 1,8,-1
+ 310 0 l 1,9,-1
+ 310 0 l 1,5,-1
+EndSplineSet
+EndChar
 StartChar: u0981
-Encoding: 2433 2433 49
+Encoding: 2433 2433 51
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -1556,11 +1608,10 @@ Fore
  -93 680 -93 680 -110 680 c 1,27,-1
  -110 680 l 1,15,16
 EndSplineSet
-Position: 0 65534 'L003' dx=50 dy=115 dh=0 dv=0
-Position: 0 65534 'L003' dx=50 dy=115 dh=0 dv=0
+Position: 0 65534 'L000' dx=50 dy=115 dh=0 dv=0
 EndChar
 StartChar: u0982
-Encoding: 2434 2434 50
+Encoding: 2434 2434 52
 Width: 331
 GlyphClass: 2
 Flags: W
@@ -1599,7 +1650,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0983
-Encoding: 2435 2435 51
+Encoding: 2435 2435 53
 Width: 410
 GlyphClass: 2
 Flags: W
@@ -1650,7 +1701,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0985
-Encoding: 2437 2437 52
+Encoding: 2437 2437 54
 Width: 666
 GlyphClass: 2
 Flags: W
@@ -1708,7 +1759,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0986
-Encoding: 2438 2438 53
+Encoding: 2438 2438 55
 Width: 897
 GlyphClass: 2
 Flags: W
@@ -1779,7 +1830,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0987
-Encoding: 2439 2439 54
+Encoding: 2439 2439 56
 Width: 400
 GlyphClass: 2
 Flags: W
@@ -1842,7 +1893,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0988
-Encoding: 2440 2440 55
+Encoding: 2440 2440 57
 Width: 502
 GlyphClass: 2
 Flags: W
@@ -1862,7 +1913,7 @@ Fore
  244 160 244 160 207 130 c 128,-1,11
  170 100 170 100 132 100 c 0,12,13
  95 100 95 100 68.5 123.5 c 128,-1,14
- 42 147 42 147 42 180 c 0,15,16
+ 42 147 42 147 42 180 c 1,15,16
  45 199 45 199 49 210 c 128,-1,17
  53 221 53 221 57 225 c 1,18,-1
  87 210 l 1,19,20
@@ -1921,7 +1972,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0989
-Encoding: 2441 2441 56
+Encoding: 2441 2441 58
 Width: 599
 GlyphClass: 2
 Flags: W
@@ -1982,7 +2033,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u098A
-Encoding: 2442 2442 57
+Encoding: 2442 2442 59
 Width: 653
 GlyphClass: 2
 Flags: W
@@ -2048,7 +2099,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u098B
-Encoding: 2443 2443 58
+Encoding: 2443 2443 60
 Width: 636
 GlyphClass: 2
 Flags: W
@@ -2112,7 +2163,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u098C
-Encoding: 2444 2444 59
+Encoding: 2444 2444 61
 Width: 463
 GlyphClass: 2
 Flags: W
@@ -2167,7 +2218,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u098F
-Encoding: 2447 2447 60
+Encoding: 2447 2447 62
 Width: 585
 GlyphClass: 2
 Flags: W
@@ -2218,7 +2269,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0990
-Encoding: 2448 2448 61
+Encoding: 2448 2448 63
 Width: 618
 GlyphClass: 2
 Flags: W
@@ -2287,7 +2338,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0993
-Encoding: 2451 2451 62
+Encoding: 2451 2451 64
 Width: 566
 GlyphClass: 2
 Flags: W
@@ -2341,7 +2392,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0994
-Encoding: 2452 2452 63
+Encoding: 2452 2452 65
 Width: 631
 GlyphClass: 2
 Flags: W
@@ -2412,7 +2463,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0995
-Encoding: 2453 2453 64
+Encoding: 2453 2453 66
 Width: 538
 GlyphClass: 2
 Flags: W
@@ -2463,7 +2514,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0996
-Encoding: 2454 2454 65
+Encoding: 2454 2454 67
 Width: 505
 GlyphClass: 2
 Flags: W
@@ -2516,7 +2567,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0997
-Encoding: 2455 2455 66
+Encoding: 2455 2455 68
 Width: 504
 GlyphClass: 2
 Flags: W
@@ -2528,7 +2579,7 @@ AnchorPoint: "Anchor-1" 394 0 basechar 0
 AnchorPoint: "Anchor-0" 398 0 basechar 0
 Fore
 374 0 m 1,0,-1
- 374 320 l 2,1,2
+ 374 320 l 1,1,2
  357 384 357 384 311 424.5 c 128,-1,3
  265 465 265 465 209 465 c 0,4,5
  151 465 151 465 110 422.5 c 128,-1,6
@@ -2564,7 +2615,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0998
-Encoding: 2456 2456 67
+Encoding: 2456 2456 69
 Width: 475
 GlyphClass: 2
 Flags: W
@@ -2600,7 +2651,7 @@ Fore
  75 360 75 360 97 342.5 c 128,-1,26
  119 325 119 325 150 325 c 0,27,28
  164 325 164 325 175 327.5 c 128,-1,29
- 186 330 186 330 195 335 c 2,30,-1
+ 186 330 186 330 195 335 c 1,30,-1
  235 370 l 1,31,-1
  260 340 l 1,32,-1
  115 210 l 1,33,34
@@ -2610,7 +2661,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0999
-Encoding: 2457 2457 68
+Encoding: 2457 2457 70
 Width: 564
 GlyphClass: 2
 Flags: W
@@ -2632,7 +2683,7 @@ Fore
  478 200 478 200 463.5 225 c 128,-1,12
  449 250 449 250 428 250 c 0,13,14
  422 250 422 250 410.5 235.5 c 128,-1,15
- 399 221 399 221 388 210 c 0,16,17
+ 399 221 399 221 388 210 c 2,16,17
  373 189 373 189 353 177 c 128,-1,18
  333 165 333 165 313 165 c 0,19,20
  267 165 267 165 235 197 c 128,-1,21
@@ -2678,7 +2729,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u099A
-Encoding: 2458 2458 69
+Encoding: 2458 2458 71
 Width: 415
 GlyphClass: 2
 Flags: W
@@ -2720,7 +2771,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u099B
-Encoding: 2459 2459 70
+Encoding: 2459 2459 72
 Width: 466
 GlyphClass: 2
 Flags: W
@@ -2784,7 +2835,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u099C
-Encoding: 2460 2460 71
+Encoding: 2460 2460 73
 Width: 688
 GlyphClass: 2
 Flags: W
@@ -2848,7 +2899,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u099D
-Encoding: 2461 2461 72
+Encoding: 2461 2461 74
 Width: 582
 GlyphClass: 2
 Flags: W
@@ -2895,7 +2946,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u099E
-Encoding: 2462 2462 73
+Encoding: 2462 2462 75
 Width: 812
 GlyphClass: 2
 Flags: W
@@ -2983,7 +3034,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u099F
-Encoding: 2463 2463 74
+Encoding: 2463 2463 76
 Width: 419
 GlyphClass: 2
 Flags: W
@@ -3042,7 +3093,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09A0
-Encoding: 2464 2464 75
+Encoding: 2464 2464 77
 Width: 411
 GlyphClass: 2
 Flags: W
@@ -3094,7 +3145,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09A1
-Encoding: 2465 2465 76
+Encoding: 2465 2465 78
 Width: 566
 GlyphClass: 2
 Flags: W
@@ -3138,7 +3189,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09A2
-Encoding: 2466 2466 77
+Encoding: 2466 2466 79
 Width: 435
 GlyphClass: 2
 Flags: W
@@ -3175,7 +3226,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09A3
-Encoding: 2467 2467 78
+Encoding: 2467 2467 80
 Width: 465
 GlyphClass: 2
 Flags: W
@@ -3218,7 +3269,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09A4
-Encoding: 2468 2468 79
+Encoding: 2468 2468 81
 Width: 577
 GlyphClass: 2
 Flags: W
@@ -3265,7 +3316,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09A5
-Encoding: 2469 2469 80
+Encoding: 2469 2469 82
 Width: 498
 GlyphClass: 2
 Flags: W
@@ -3314,7 +3365,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09A6
-Encoding: 2470 2470 81
+Encoding: 2470 2470 83
 Width: 404
 GlyphClass: 2
 Flags: W
@@ -3352,7 +3403,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09A7
-Encoding: 2471 2471 82
+Encoding: 2471 2471 84
 Width: 431
 GlyphClass: 2
 Flags: W
@@ -3401,7 +3452,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09A8
-Encoding: 2472 2472 83
+Encoding: 2472 2472 85
 Width: 459
 GlyphClass: 2
 Flags: W
@@ -3413,7 +3464,7 @@ AnchorPoint: "Anchor-1" 345 0 basechar 0
 AnchorPoint: "Anchor-0" 345 0 basechar 0
 Fore
 329 0 m 1,0,-1
- 329 155 l 2,1,2
+ 329 155 l 1,1,2
  318 218 318 218 272.5 259 c 128,-1,3
  227 300 227 300 169 300 c 0,4,5
  142 300 142 300 121.5 290.5 c 128,-1,6
@@ -3440,7 +3491,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09AA
-Encoding: 2474 2474 84
+Encoding: 2474 2474 86
 Width: 522
 GlyphClass: 2
 Flags: W
@@ -3463,7 +3514,7 @@ Fore
  61 336 61 336 52.5 328 c 128,-1,12
  44 320 44 320 37 320 c 0,13,14
  29 320 29 320 23 324.5 c 128,-1,15
- 17 329 17 329 17 335 c 0,16,17
+ 17 329 17 329 17 335 c 1,16,17
  25 381 25 381 94.5 443 c 128,-1,18
  164 505 164 505 207 505 c 0,19,20
  243 505 243 505 291.5 471 c 128,-1,21
@@ -3489,7 +3540,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09AB
-Encoding: 2475 2475 85
+Encoding: 2475 2475 87
 Width: 562
 GlyphClass: 2
 Flags: W
@@ -3534,7 +3585,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09AC
-Encoding: 2476 2476 86
+Encoding: 2476 2476 88
 Width: 428
 GlyphClass: 2
 Flags: W
@@ -3545,32 +3596,32 @@ AnchorPoint: "Anchor-2" 315 1 basechar 0
 AnchorPoint: "Anchor-1" 316 0 basechar 0
 AnchorPoint: "Anchor-0" 320 0 basechar 0
 Fore
-298 0 m 5,0,1
- 269 79 269 79 199.5 134 c 132,-1,2
- 130 189 130 189 38 205 c 5,3,-1
- 18 250 l 5,4,5
- 72 304 72 304 143 343.5 c 132,-1,6
- 214 383 214 383 298 405 c 5,7,-1
- 298 465 l 5,8,-1
- -10 465 l 5,9,-1
- -10 500 l 5,10,-1
- 438 500 l 5,11,-1
- 438 465 l 5,12,-1
- 338 465 l 5,13,-1
- 338 0 l 5,14,-1
- 298 0 l 5,15,-1
- 298 0 l 5,0,1
-298 80 m 5,16,-1
- 298 365 l 5,17,18
- 228 346 228 346 169.5 314.5 c 132,-1,19
- 111 283 111 283 68 240 c 5,20,21
- 133 229 133 229 192.5 187 c 132,-1,22
- 252 145 252 145 298 80 c 5,23,-1
- 298 80 l 5,16,-1
+298 0 m 1,0,1
+ 269 79 269 79 199.5 134 c 128,-1,2
+ 130 189 130 189 38 205 c 1,3,-1
+ 18 250 l 1,4,5
+ 72 304 72 304 143 343.5 c 128,-1,6
+ 214 383 214 383 298 405 c 1,7,-1
+ 298 465 l 1,8,-1
+ -10 465 l 1,9,-1
+ -10 500 l 1,10,-1
+ 438 500 l 1,11,-1
+ 438 465 l 1,12,-1
+ 338 465 l 1,13,-1
+ 338 0 l 1,14,-1
+ 298 0 l 1,15,-1
+ 298 0 l 1,0,1
+298 80 m 1,16,-1
+ 298 365 l 1,17,18
+ 228 346 228 346 169.5 314.5 c 128,-1,19
+ 111 283 111 283 68 240 c 1,20,21
+ 133 229 133 229 192.5 187 c 128,-1,22
+ 252 145 252 145 298 80 c 1,23,-1
+ 298 80 l 1,16,-1
 EndSplineSet
 EndChar
 StartChar: u09AD
-Encoding: 2477 2477 87
+Encoding: 2477 2477 89
 Width: 573
 GlyphClass: 2
 Flags: W
@@ -3619,7 +3670,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09AE
-Encoding: 2478 2478 88
+Encoding: 2478 2478 90
 Width: 427
 GlyphClass: 2
 Flags: W
@@ -3660,7 +3711,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09AF
-Encoding: 2479 2479 89
+Encoding: 2479 2479 91
 Width: 443
 GlyphClass: 2
 Flags: W
@@ -3696,7 +3747,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09B0
-Encoding: 2480 2480 90
+Encoding: 2480 2480 92
 Width: 423
 GlyphClass: 2
 Flags: W
@@ -3742,7 +3793,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09B2
-Encoding: 2482 2482 91
+Encoding: 2482 2482 93
 Width: 573
 GlyphClass: 2
 Flags: W
@@ -3754,7 +3805,7 @@ AnchorPoint: "Anchor-1" 465 0 basechar 0
 AnchorPoint: "Anchor-0" 465 0 basechar 0
 Fore
 443 0 m 1,0,-1
- 443 260 l 2,1,2
+ 443 260 l 1,1,2
  432 300 432 300 410 325 c 128,-1,3
  388 350 388 350 363 350 c 256,4,5
  338 350 338 350 320.5 326.5 c 128,-1,6
@@ -3796,7 +3847,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09B6
-Encoding: 2486 2486 92
+Encoding: 2486 2486 94
 Width: 455
 GlyphClass: 2
 Flags: W
@@ -3849,7 +3900,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09B7
-Encoding: 2487 2487 93
+Encoding: 2487 2487 95
 Width: 424
 GlyphClass: 2
 Flags: W
@@ -3889,7 +3940,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09B8
-Encoding: 2488 2488 94
+Encoding: 2488 2488 96
 Width: 508
 GlyphClass: 2
 Flags: W
@@ -3938,7 +3989,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09B9
-Encoding: 2489 2489 95
+Encoding: 2489 2489 97
 Width: 404
 GlyphClass: 2
 Flags: W
@@ -3949,42 +4000,42 @@ AnchorPoint: "Anchor-2" 264 1 basechar 0
 AnchorPoint: "Anchor-1" 250 0 basechar 0
 AnchorPoint: "Anchor-0" 245 0 basechar 0
 Fore
-399 -95 m 5,0,1
- 348 -7 348 -7 255.5 44 c 132,-1,2
- 163 95 163 95 54 95 c 5,3,-1
- 34 145 l 5,4,-1
- 69 140 l 6,5,6
- 166 140 166 140 235 172 c 132,-1,7
- 304 204 304 204 304 250 c 4,8,9
- 304 293 304 293 267.5 324 c 132,-1,10
- 231 355 231 355 179 355 c 5,11,12
- 179 320 179 320 152.5 295 c 132,-1,13
- 126 270 126 270 89 270 c 4,14,15
- 64 270 64 270 46.5 284.5 c 132,-1,16
- 29 299 29 299 29 320 c 4,17,18
- 29 348 29 348 59 369.5 c 132,-1,19
- 89 391 89 391 134 395 c 5,20,21
- 132 422 132 422 126.5 440 c 132,-1,22
- 121 458 121 458 114 465 c 5,23,-1
- -10 465 l 5,24,-1
- -10 500 l 5,25,-1
- 414 500 l 5,26,-1
- 414 465 l 5,27,-1
- 159 465 l 5,28,29
- 164 456 164 456 169.5 438 c 132,-1,30
- 175 420 175 420 179 395 c 5,31,32
- 249 389 249 389 296.5 347 c 132,-1,33
- 344 305 344 305 344 250 c 4,34,35
- 344 204 344 204 298.5 165.5 c 132,-1,36
- 253 127 253 127 184 115 c 5,37,38
- 265 93 265 93 331 42.5 c 132,-1,39
- 397 -8 397 -8 439 -80 c 5,40,-1
- 399 -95 l 5,41,-1
- 399 -95 l 5,0,1
+399 -95 m 1,0,1
+ 348 -7 348 -7 255.5 44 c 128,-1,2
+ 163 95 163 95 54 95 c 1,3,-1
+ 34 145 l 1,4,-1
+ 69 140 l 1,5,6
+ 166 140 166 140 235 172 c 128,-1,7
+ 304 204 304 204 304 250 c 0,8,9
+ 304 293 304 293 267.5 324 c 128,-1,10
+ 231 355 231 355 179 355 c 1,11,12
+ 179 320 179 320 152.5 295 c 128,-1,13
+ 126 270 126 270 89 270 c 0,14,15
+ 64 270 64 270 46.5 284.5 c 128,-1,16
+ 29 299 29 299 29 320 c 0,17,18
+ 29 348 29 348 59 369.5 c 128,-1,19
+ 89 391 89 391 134 395 c 1,20,21
+ 132 422 132 422 126.5 440 c 128,-1,22
+ 121 458 121 458 114 465 c 1,23,-1
+ -10 465 l 1,24,-1
+ -10 500 l 1,25,-1
+ 414 500 l 1,26,-1
+ 414 465 l 1,27,-1
+ 159 465 l 1,28,29
+ 164 456 164 456 169.5 438 c 128,-1,30
+ 175 420 175 420 179 395 c 1,31,32
+ 249 389 249 389 296.5 347 c 128,-1,33
+ 344 305 344 305 344 250 c 0,34,35
+ 344 204 344 204 298.5 165.5 c 128,-1,36
+ 253 127 253 127 184 115 c 1,37,38
+ 265 93 265 93 331 42.5 c 128,-1,39
+ 397 -8 397 -8 439 -80 c 1,40,-1
+ 399 -95 l 1,41,-1
+ 399 -95 l 1,0,1
 EndSplineSet
 EndChar
 StartChar: u09BC
-Encoding: 2492 2492 96
+Encoding: 2492 2492 98
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -4006,7 +4057,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09BD
-Encoding: 2493 2493 97
+Encoding: 2493 2493 99
 Width: 418
 GlyphClass: 2
 Flags: W
@@ -4043,7 +4094,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09BE
-Encoding: 2494 2494 98
+Encoding: 2494 2494 100
 Width: 223
 GlyphClass: 2
 Flags: W
@@ -4073,7 +4124,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09BF
-Encoding: 2495 2495 99
+Encoding: 2495 2495 101
 Width: 220
 GlyphClass: 2
 Flags: W
@@ -4109,7 +4160,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09C0
-Encoding: 2496 2496 100
+Encoding: 2496 2496 102
 Width: 220
 GlyphClass: 2
 Flags: W
@@ -4153,7 +4204,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09C1
-Encoding: 2497 2497 101
+Encoding: 2497 2497 103
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -4195,7 +4246,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09C2
-Encoding: 2498 2498 102
+Encoding: 2498 2498 104
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -4233,7 +4284,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09C3
-Encoding: 2499 2499 103
+Encoding: 2499 2499 105
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -4253,7 +4304,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09C4
-Encoding: 2500 2500 104
+Encoding: 2500 2500 106
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -4279,7 +4330,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09C7
-Encoding: 2503 2503 105
+Encoding: 2503 2503 107
 Width: 309
 GlyphClass: 2
 Flags: W
@@ -4311,10 +4362,10 @@ Fore
  -10 465 l 1,29,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Substitution: 0 0 'init' u09C7.init
+Substitution: 0 1 'init' u09C7.init
 EndChar
 StartChar: u09C8
-Encoding: 2504 2504 106
+Encoding: 2504 2504 108
 Width: 323
 GlyphClass: 2
 Flags: W
@@ -4369,10 +4420,10 @@ Fore
  -10 500 l 1,61,-1
  -10 500 l 1,0,-1
 EndSplineSet
-Substitution: 0 0 'init' u09C8.init
+Substitution: 0 1 'init' u09C8.init
 EndChar
 StartChar: u09CB
-Encoding: 2507 2507 107
+Encoding: 2507 2507 109
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -4425,7 +4476,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09CC
-Encoding: 2508 2508 108
+Encoding: 2508 2508 110
 Width: 925
 GlyphClass: 2
 Flags: W
@@ -4488,7 +4539,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09CD
-Encoding: 2509 2509 109
+Encoding: 2509 2509 111
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -4505,8 +4556,51 @@ Fore
  80 -234 l 1,0,-1
 EndSplineSet
 EndChar
+StartChar: uni09CE
+Encoding: 2510 2510 112
+Width: 411
+GlyphClass: 2
+Flags: W
+AnchorPoint: "Anchor-1" 200 0 basechar 0
+AnchorPoint: "Anchor-0" 195 0 basechar 0
+Fore
+338 0 m 1,0,1
+ 333 54 333 54 291 100 c 128,-1,2
+ 249 146 249 146 183 170 c 0,3,4
+ 118 194 118 194 78 243.5 c 128,-1,5
+ 38 293 38 293 38 350 c 0,6,7
+ 38 423 38 423 90 466.5 c 128,-1,8
+ 142 510 142 510 228 510 c 0,9,10
+ 269 510 269 510 298.5 476.5 c 128,-1,11
+ 328 443 328 443 328 395 c 0,12,13
+ 328 352 328 352 298.5 321 c 128,-1,14
+ 269 290 269 290 228 290 c 0,15,16
+ 189 290 189 290 161 321 c 128,-1,17
+ 133 352 133 352 133 395 c 0,18,19
+ 133 414 133 414 137 430.5 c 128,-1,20
+ 141 447 141 447 148 460 c 1,21,22
+ 116 449 116 449 97 418.5 c 128,-1,23
+ 78 388 78 388 78 350 c 0,24,25
+ 78 309 78 309 108 271 c 128,-1,26
+ 138 233 138 233 188 210 c 0,27,28
+ 271 180 271 180 324 123 c 128,-1,29
+ 377 66 377 66 383 0 c 1,30,-1
+ 338 0 l 1,31,-1
+ 338 0 l 1,0,1
+230 325 m 1,32,33
+ 254 325 254 325 271 346 c 128,-1,34
+ 288 367 288 367 288 397 c 256,35,36
+ 288 427 288 427 271 448.5 c 128,-1,37
+ 254 470 254 470 230 470 c 256,38,39
+ 206 470 206 470 189.5 448.5 c 128,-1,40
+ 173 427 173 427 173 397 c 256,41,42
+ 173 367 173 367 189.5 346 c 128,-1,43
+ 206 325 206 325 230 325 c 1,44,-1
+ 230 325 l 1,32,33
+EndSplineSet
+EndChar
 StartChar: u09D7
-Encoding: 2519 2519 110
+Encoding: 2519 2519 113
 Width: 220
 GlyphClass: 2
 Flags: W
@@ -4545,7 +4639,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09DC
-Encoding: 2524 2524 111
+Encoding: 2524 2524 114
 Width: 549
 GlyphClass: 2
 Flags: W
@@ -4597,10 +4691,10 @@ Fore
  305 -115 305 -115 288 -115 c 1,51,-1
  288 -115 l 1,39,40
 EndSplineSet
-Ligature: 0 0 'nukt' u09A1 u09BC
+Ligature: 0 1 'nukt' u09A1 u09BC
 EndChar
 StartChar: u09DD
-Encoding: 2525 2525 112
+Encoding: 2525 2525 115
 Width: 419
 GlyphClass: 2
 Flags: W
@@ -4646,10 +4740,10 @@ Fore
  197 -120 197 -120 180 -120 c 1,42,-1
  180 -120 l 1,30,31
 EndSplineSet
-Ligature: 0 0 'nukt' u09A2 u09BC
+Ligature: 0 1 'nukt' u09A2 u09BC
 EndChar
 StartChar: u09DF
-Encoding: 2527 2527 113
+Encoding: 2527 2527 116
 Width: 453
 GlyphClass: 2
 Flags: W
@@ -4694,10 +4788,10 @@ Fore
  157 -5 157 -5 143 -5 c 1,34,-1
  143 -5 l 1,22,23
 EndSplineSet
-Ligature: 0 0 'nukt' u09AF u09BC
+Ligature: 0 1 'nukt' u09AF u09BC
 EndChar
 StartChar: u09E0
-Encoding: 2528 2528 114
+Encoding: 2528 2528 117
 Width: 636
 GlyphClass: 2
 Flags: W
@@ -4767,7 +4861,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09E1
-Encoding: 2529 2529 115
+Encoding: 2529 2529 118
 Width: 463
 GlyphClass: 2
 Flags: W
@@ -4861,7 +4955,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09E2
-Encoding: 2530 2530 116
+Encoding: 2530 2530 119
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -4916,7 +5010,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09E3
-Encoding: 2531 2531 117
+Encoding: 2531 2531 120
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -5013,7 +5107,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09E6
-Encoding: 2534 2534 118
+Encoding: 2534 2534 121
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5044,7 +5138,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09E7
-Encoding: 2535 2535 119
+Encoding: 2535 2535 122
 Width: 499
 GlyphClass: 2
 Flags: W
@@ -5080,7 +5174,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09E8
-Encoding: 2536 2536 120
+Encoding: 2536 2536 123
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5118,7 +5212,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09E9
-Encoding: 2537 2537 121
+Encoding: 2537 2537 124
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5154,7 +5248,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09EA
-Encoding: 2538 2538 122
+Encoding: 2538 2538 125
 Width: 499
 GlyphClass: 2
 Flags: W
@@ -5203,7 +5297,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09EB
-Encoding: 2539 2539 123
+Encoding: 2539 2539 126
 Width: 499
 GlyphClass: 2
 Flags: W
@@ -5252,7 +5346,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09EC
-Encoding: 2540 2540 124
+Encoding: 2540 2540 127
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5293,7 +5387,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09ED
-Encoding: 2541 2541 125
+Encoding: 2541 2541 128
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5335,7 +5429,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09EE
-Encoding: 2542 2542 126
+Encoding: 2542 2542 129
 Width: 499
 GlyphClass: 2
 Flags: W
@@ -5390,7 +5484,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09EF
-Encoding: 2543 2543 127
+Encoding: 2543 2543 130
 Width: 499
 GlyphClass: 2
 Flags: W
@@ -5443,7 +5537,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09F0
-Encoding: 2544 2544 128
+Encoding: 2544 2544 131
 Width: 433
 GlyphClass: 2
 Flags: W
@@ -5488,7 +5582,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09F1
-Encoding: 2545 2545 129
+Encoding: 2545 2545 132
 Width: 450
 GlyphClass: 2
 Flags: W
@@ -5532,7 +5626,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09F2
-Encoding: 2546 2546 130
+Encoding: 2546 2546 133
 Width: 244
 GlyphClass: 2
 Flags: W
@@ -5549,7 +5643,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09F3
-Encoding: 2547 2547 131
+Encoding: 2547 2547 134
 Width: 244
 GlyphClass: 2
 Flags: W
@@ -5566,7 +5660,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09F4
-Encoding: 2548 2548 132
+Encoding: 2548 2548 135
 Width: 244
 GlyphClass: 2
 Flags: W
@@ -5583,7 +5677,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09F5
-Encoding: 2549 2549 133
+Encoding: 2549 2549 136
 Width: 244
 GlyphClass: 2
 Flags: W
@@ -5600,7 +5694,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09F6
-Encoding: 2550 2550 134
+Encoding: 2550 2550 137
 Width: 244
 GlyphClass: 2
 Flags: W
@@ -5617,7 +5711,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09F7
-Encoding: 2551 2551 135
+Encoding: 2551 2551 138
 Width: 370
 GlyphClass: 2
 Flags: W
@@ -5634,7 +5728,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09F8
-Encoding: 2552 2552 136
+Encoding: 2552 2552 139
 Width: 244
 GlyphClass: 2
 Flags: W
@@ -5651,7 +5745,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09F9
-Encoding: 2553 2553 137
+Encoding: 2553 2553 140
 Width: 244
 GlyphClass: 2
 Flags: W
@@ -5668,7 +5762,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09FA
-Encoding: 2554 2554 138
+Encoding: 2554 2554 141
 Width: 645
 GlyphClass: 2
 Flags: W
@@ -5701,7 +5795,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: afii61664
-Encoding: 8204 8204 139
+Encoding: 8204 8204 142
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -5719,7 +5813,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: afii301
-Encoding: 8205 8205 140
+Encoding: 8205 8205 143
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -5739,7 +5833,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: endash
-Encoding: 8211 8211 141
+Encoding: 8211 8211 144
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -5757,7 +5851,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: emdash
-Encoding: 8212 8212 142
+Encoding: 8212 8212 145
 Width: 1024
 GlyphClass: 2
 Flags: W
@@ -5775,7 +5869,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: quoteleft
-Encoding: 8216 8216 143
+Encoding: 8216 8216 146
 Width: 305
 GlyphClass: 2
 Flags: W
@@ -5801,7 +5895,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: quoteright
-Encoding: 8217 8217 144
+Encoding: 8217 8217 147
 Width: 315
 GlyphClass: 2
 Flags: W
@@ -5827,7 +5921,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: quotedblleft
-Encoding: 8220 8220 145
+Encoding: 8220 8220 148
 Width: 435
 GlyphClass: 2
 Flags: W
@@ -5851,7 +5945,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: quotedblright
-Encoding: 8221 8221 146
+Encoding: 8221 8221 149
 Width: 460
 GlyphClass: 2
 Flags: W
@@ -5875,7 +5969,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: ellipsis
-Encoding: 8230 8230 147
+Encoding: 8230 8230 150
 Width: 810
 GlyphClass: 2
 Flags: W
@@ -5905,7 +5999,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: minus
-Encoding: 8722 8722 148
+Encoding: 8722 8722 151
 Width: 244
 GlyphClass: 2
 Flags: W
@@ -5922,7 +6016,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: uni25CC
-Encoding: 9676 9676 149
+Encoding: 9676 9676 152
 Width: 720
 GlyphClass: 2
 Flags: W
@@ -6057,7 +6151,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09AF_u09CD.pstf
-Encoding: 65571 -1 150
+Encoding: 65537 -1 153
 Width: 223
 GlyphClass: 2
 Flags: W
@@ -6086,10 +6180,10 @@ Fore
  123 10 123 10 80 -10 c 1,24,-1
  80 -10 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pstf' u09AF u09CD
+Ligature: 0 1 'pstf' u09AF u09CD
 EndChar
 StartChar: u0995_u09CD.half_u0995.pres
-Encoding: 65573 -1 151
+Encoding: 65538 -1 154
 Width: 566
 GlyphClass: 2
 Flags: W
@@ -6159,10 +6253,10 @@ Fore
  151 252 151 252 170 230 c 1,73,-1
  170 230 l 1,63,64
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u0995
+Ligature: 0 1 'pres' u0995_u09CD.half u0995
 EndChar
 StartChar: u0995_u09CD.half_u099F.pres
-Encoding: 65574 -1 152
+Encoding: 65539 -1 155
 Width: 464
 GlyphClass: 2
 Flags: W
@@ -6245,10 +6339,10 @@ Fore
  204 250 204 250 223 210 c 1,94,-1
  223 210 l 1,84,85
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u099F
+Ligature: 0 1 'pres' u0995_u09CD.half u099F
 EndChar
 StartChar: u0995_u09CD.half_u09A4.pres
-Encoding: 65575 -1 153
+Encoding: 65540 -1 156
 Width: 747
 GlyphClass: 2
 Flags: W
@@ -6325,10 +6419,10 @@ Fore
  -10 465 l 1,90,-1
  -10 465 l 1,86,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u09A4
+Ligature: 0 1 'pres' u0995_u09CD.half u09A4
 EndChar
 StartChar: u0995_u09CD.half_u09A4_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65576 -1 154
+Encoding: 65541 -1 157
 Width: 747
 GlyphClass: 2
 Flags: W
@@ -6423,10 +6517,10 @@ Fore
  -10 465 l 1,115,-1
  -10 465 l 1,111,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u0995_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u0995_u09CD.half_u09A4_u09AC_u09CD.blwf.pres
-Encoding: 65577 -1 155
+Encoding: 65542 -1 158
 Width: 672
 GlyphClass: 2
 Flags: W
@@ -6466,7 +6560,7 @@ Fore
  343 390 343 390 306 390 c 0,38,39
  276 390 276 390 253 374.5 c 128,-1,40
  230 359 230 359 226 335 c 1,41,-1
- 233 336 l 2,42,43
+ 233 336 l 1,42,43
  253 336 253 336 267 324 c 128,-1,44
  281 312 281 312 281 295 c 0,45,46
  281 276 281 276 266.5 263 c 128,-1,47
@@ -6517,16 +6611,13 @@ Fore
  -10 465 l 1,106,-1
  -10 465 l 1,102,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u09A4 u09AC_u09CD.blwf
+Ligature: 0 1 'pres' u0995_u09CD.half u09A4 u09AC_u09CD.blwf
 EndChar
 StartChar: u0995_u09CD.half_u09A8.pres
-Encoding: 65578 -1 156
+Encoding: 65543 -1 159
 Width: 550
 GlyphClass: 2
 Flags: W
-TtfInstrs: 41
-5m[N4!$)%E!!`K.!(Hqh!!iQoFtYckFoX0X5<Js$0Y.6J!!iQ..f]PL
-EndTtf
 AnchorPoint: "Anchor-2" 325 -36 basechar 0
 AnchorPoint: "Anchor-1" 321 0 basechar 0
 AnchorPoint: "Anchor-0" 321 0 basechar 0
@@ -6556,8 +6647,8 @@ Fore
  343 -40 l 1,29,-1
  303 -40 l 1,30,31
  275 9 275 9 233.5 37 c 128,-1,32
- 192 65 192 65 148 65 c 1,33,34
- 150 57 l 128,-1,35
+ 192 65 192 65 148 65 c 1,33,-1
+ 150 57 l 2,34,35
  151 53 151 53 151 49 c 0,36,37
  151 25 151 25 134.5 7.5 c 128,-1,38
  118 -10 118 -10 94 -10 c 0,39,40
@@ -6580,16 +6671,13 @@ Fore
  265 184 265 184 303 130 c 1,61,-1
  303 130 l 1,54,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u09A8
+Ligature: 0 1 'pres' u0995_u09CD.half u09A8
 EndChar
 StartChar: u0995_u09CD.half_u09AE.pres
-Encoding: 65579 -1 157
+Encoding: 65544 -1 160
 Width: 603
 GlyphClass: 2
 Flags: W
-TtfInstrs: 46
-5mmZ4!#kn>!!!!"!#P\P!(Hqh!!iQoFtYckFoX0X58QE_0eg0=56(rh"Y0QQ
-EndTtf
 Fore
 473 0 m 1,0,1
  457 43 457 43 399.5 69 c 128,-1,2
@@ -6627,7 +6715,7 @@ Fore
  318 238 318 238 318 255 c 0,41,42
  318 271 318 271 331 282 c 128,-1,43
  344 293 344 293 362 293 c 0,44,45
- 366 293 366 293 370 292 c 128,-1,46
+ 366 293 366 293 370 292 c 2,46,-1
  378 290 l 1,47,48
  378 327 378 327 344.5 353.5 c 128,-1,49
  311 380 311 380 263 380 c 1,50,-1
@@ -6643,10 +6731,10 @@ Fore
  199 239 199 239 223 205 c 1,62,-1
  223 205 l 1,55,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u09AE
+Ligature: 0 1 'pres' u0995_u09CD.half u09AE
 EndChar
 StartChar: u0995_u09B0_u09CD.blwf.vatu
-Encoding: 65580 -1 158
+Encoding: 65545 -1 161
 Width: 643
 GlyphClass: 2
 Flags: W
@@ -6720,10 +6808,10 @@ Fore
  -10 465 l 1,84,-1
  -10 465 l 1,80,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u0995 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u0995 u09B0_u09CD.blwf
 EndChar
 StartChar: u0995_u09CD.half_u09B2.pres
-Encoding: 65581 -1 159
+Encoding: 65546 -1 162
 Width: 602
 GlyphClass: 2
 Flags: W
@@ -6800,10 +6888,10 @@ Fore
  312 183 312 183 342 130 c 1,85,-1
  342 130 l 1,78,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u09B2
+Ligature: 0 1 'pres' u0995_u09CD.half u09B2
 EndChar
 StartChar: u0995_u09AC_u09CD.blwf.blws
-Encoding: 65582 -1 160
+Encoding: 65547 -1 163
 Width: 552
 GlyphClass: 2
 Flags: W
@@ -6863,10 +6951,10 @@ Fore
  151 252 151 252 168 235 c 1,58,-1
  168 235 l 1,48,49
 EndSplineSet
-Ligature: 0 0 'blws' u0995 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u0995 u09AC_u09CD.blwf
 EndChar
 StartChar: u0995_u09CD.half_u09B7.pres
-Encoding: 65583 -1 161
+Encoding: 65548 -1 164
 Width: 623
 GlyphClass: 2
 Flags: W
@@ -6938,10 +7026,10 @@ Fore
  328 335 328 335 384 335 c 1,76,-1
  384 335 l 1,71,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u09B7
+Ligature: 0 1 'pres' u0995_u09CD.half u09B7
 EndChar
 StartChar: u0995_u09CD.half_u09B7_u09CD.half_u09A3.pres
-Encoding: 65584 -1 162
+Encoding: 65549 -1 165
 Width: 640
 GlyphClass: 2
 Flags: W
@@ -7025,10 +7113,10 @@ Fore
  333 354 333 354 384 345 c 1,95,-1
  384 345 l 1,90,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u09B7_u09CD.half u09A3
+Ligature: 0 1 'pres' u0995_u09CD.half u09B7_u09CD.half u09A3
 EndChar
 StartChar: u0995_u09CD.half_u09B7_u09CD.half_u09AE.pres
-Encoding: 65585 -1 163
+Encoding: 65550 -1 166
 Width: 668
 GlyphClass: 2
 Flags: W
@@ -7118,10 +7206,10 @@ Fore
  279 390 279 390 293 390 c 1,102,-1
  293 390 l 1,95,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u09B7_u09CD.half u09AE
+Ligature: 0 1 'pres' u0995_u09CD.half u09B7_u09CD.half u09AE
 EndChar
 StartChar: u0995_u09CD.half_u09B7_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65586 -1 164
+Encoding: 65551 -1 167
 Width: 641
 GlyphClass: 2
 Flags: W
@@ -7206,10 +7294,10 @@ Fore
  346 335 346 335 402 335 c 1,95,-1
  402 335 l 1,90,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u09B7_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u0995_u09CD.half u09B7_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u0995_u09CD.half_u09B7_u09AC_u09CD.blwf.pres
-Encoding: 65587 -1 165
+Encoding: 65552 -1 168
 Width: 619
 GlyphClass: 2
 Flags: W
@@ -7293,10 +7381,10 @@ Fore
  324 335 324 335 380 335 c 1,92,-1
  380 335 l 1,87,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u09B7 u09AC_u09CD.blwf
+Ligature: 0 1 'pres' u0995_u09CD.half u09B7 u09AC_u09CD.blwf
 EndChar
 StartChar: u0995_u09CD.half_u09B8.pres
-Encoding: 65588 -1 166
+Encoding: 65553 -1 169
 Width: 565
 GlyphClass: 2
 Flags: W
@@ -7312,7 +7400,7 @@ Fore
  242 49 242 49 218 34.5 c 128,-1,8
  194 20 194 20 170 20 c 0,9,10
  131 20 131 20 103 51 c 128,-1,11
- 75 82 75 82 75 125 c 2,12,-1
+ 75 82 75 82 75 125 c 1,12,-1
  80 150 l 1,13,-1
  125 140 l 1,14,15
  123 133 123 133 121.5 125.5 c 128,-1,16
@@ -7363,10 +7451,10 @@ Fore
  191 231 191 231 215 190 c 1,72,-1
  215 190 l 1,65,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0995_u09CD.half u09B8
+Ligature: 0 1 'pres' u0995_u09CD.half u09B8
 EndChar
 StartChar: u0996_u09B0_u09CD.blwf.vatu
-Encoding: 65589 -1 167
+Encoding: 65554 -1 170
 Width: 572
 GlyphClass: 2
 Flags: W
@@ -7412,7 +7500,7 @@ Fore
  153 422 153 422 159.5 420 c 128,-1,52
  166 418 166 418 173 418 c 0,53,54
  194 418 194 418 216 430.5 c 128,-1,55
- 238 443 238 443 257 465 c 0,56,57
+ 238 443 238 443 257 465 c 1,56,57
  267 486 267 486 283 498 c 128,-1,58
  299 510 299 510 317 510 c 0,59,60
  346 510 346 510 366.5 480.5 c 128,-1,61
@@ -7431,10 +7519,10 @@ Fore
  442 0 l 1,76,-1
  442 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'vatu' u0996 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u0996 u09B0_u09CD.blwf
 EndChar
 StartChar: u0996_u09AC_u09CD.blwf.blws
-Encoding: 65590 -1 168
+Encoding: 65555 -1 171
 Width: 471
 GlyphClass: 2
 Flags: W
@@ -7495,10 +7583,10 @@ Fore
  314 54 314 54 341 15 c 1,66,-1
  341 15 l 1,59,-1
 EndSplineSet
-Ligature: 0 0 'blws' u0996 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u0996 u09AC_u09CD.blwf
 EndChar
 StartChar: u0997_afii61664_u09C1.blws
-Encoding: 65591 -1 169
+Encoding: 65556 -1 172
 Width: 682
 GlyphClass: 2
 Flags: W
@@ -7567,11 +7655,11 @@ Fore
  490 -10 490 -10 407 -10 c 1,84,-1
  407 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u0997 u09C1
-Ligature: 0 0 'blws' u0997 afii61664 u09C1
+Ligature: 0 1 'blws' u0997 u09C1
+Ligature: 0 1 'blws' u0997 afii61664 u09C1
 EndChar
 StartChar: u0997_u09CD.half_u0997.pres
-Encoding: 65592 -1 170
+Encoding: 65557 -1 173
 Width: 434
 GlyphClass: 2
 Flags: W
@@ -7638,10 +7726,10 @@ Fore
  304 560 l 1,78,-1
  304 560 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0997_u09CD.half u0997
+Ligature: 0 1 'pres' u0997_u09CD.half u0997
 EndChar
 StartChar: u0997_u09CD.half_u09A6.pres
-Encoding: 65593 -1 171
+Encoding: 65558 -1 174
 Width: 671
 GlyphClass: 2
 Flags: W
@@ -7696,10 +7784,10 @@ Fore
  580 0 l 1,61,-1
  580 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u0997_u09CD.half u09A6
+Ligature: 0 1 'pres' u0997_u09CD.half u09A6
 EndChar
 StartChar: u0997_u09CD.half_u09A7.pres
-Encoding: 65594 -1 172
+Encoding: 65559 -1 175
 Width: 585
 GlyphClass: 2
 Flags: W
@@ -7775,16 +7863,13 @@ Fore
  305 51 305 51 330 15 c 1,84,-1
  330 15 l 1,77,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0997_u09CD.half u09A7
+Ligature: 0 1 'pres' u0997_u09CD.half u09A7
 EndChar
 StartChar: u0997_u09CD.half_u09A7_u09AC_u09CD.blwf.pres
-Encoding: 65595 -1 173
+Encoding: 65560 -1 176
 Width: 585
 GlyphClass: 2
 Flags: W
-TtfInstrs: 58
-5nF#e!(R$/!%7gp!($Z8!%@mR!!`K,!!WEm!!*'.!(M,b2]-]<0,H`84?kq/0eg0=B)i>?"Y0QQ
-EndTtf
 AnchorPoint: "Anchor-2" 356 -160 basechar 0
 AnchorPoint: "Anchor-1" 352 0 basechar 0
 AnchorPoint: "Anchor-0" 352 -4 basechar 0
@@ -7863,15 +7948,15 @@ Fore
  276 181 276 181 234 156.5 c 128,-1,95
  192 132 192 132 165 100 c 1,96,97
  204 97 204 97 238.5 83 c 128,-1,98
- 273 69 273 69 300 47 c 1,99,100
- 316 49 l 128,-1,101
+ 273 69 273 69 300 47 c 1,99,-1
+ 316 49 l 2,100,101
  324 50 324 50 330 50 c 1,102,-1
  330 50 l 1,92,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0997_u09CD.half u09A7 u09AC_u09CD.blwf
+Ligature: 0 1 'pres' u0997_u09CD.half u09A7 u09AC_u09CD.blwf
 EndChar
 StartChar: u0997_u09CD.half_u09A7_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65596 -1 174
+Encoding: 65561 -1 177
 Width: 625
 GlyphClass: 2
 Flags: W
@@ -7959,10 +8044,10 @@ Fore
  347 51 347 51 372 15 c 1,100,-1
  372 15 l 1,93,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0997_u09CD.half u09A7_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u0997_u09CD.half u09A7_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u0997_u09CD.half_u09A8.pres
-Encoding: 65597 -1 175
+Encoding: 65562 -1 178
 Width: 462
 GlyphClass: 2
 Flags: W
@@ -8017,10 +8102,10 @@ Fore
  37 363 37 363 37 380 c 1,61,-1
  37 380 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u0997_u09CD.half u09A8
+Ligature: 0 1 'pres' u0997_u09CD.half u09A8
 EndChar
 StartChar: u0997_u09CD.half_u09AE.pres
-Encoding: 65598 -1 176
+Encoding: 65563 -1 179
 Width: 639
 GlyphClass: 2
 Flags: W
@@ -8079,10 +8164,10 @@ Fore
  487 108 487 108 509 70 c 1,63,-1
  509 70 l 1,57,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0997_u09CD.half u09AE
+Ligature: 0 1 'pres' u0997_u09CD.half u09AE
 EndChar
 StartChar: u0997_u09B0_u09CD.blwf.vatu
-Encoding: 65599 -1 177
+Encoding: 65564 -1 180
 Width: 576
 GlyphClass: 2
 Flags: W
@@ -8141,10 +8226,10 @@ Fore
  446 -50 l 1,64,-1
  446 -50 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'vatu' u0997 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u0997 u09B0_u09CD.blwf
 EndChar
 StartChar: u0997_u09B0_u09CD.blwf.vatu_u09C1.blws
-Encoding: 65600 -1 178
+Encoding: 65565 -1 181
 Width: 725
 GlyphClass: 2
 Flags: W
@@ -8222,10 +8307,10 @@ Fore
  441 -50 l 1,90,-1
  441 -50 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u0997_u09B0_u09CD.blwf.vatu u09C1
+Ligature: 0 1 'blws' u0997_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u0997_u09B0_u09CD.blwf.vatu_u09C2.blws
-Encoding: 65601 -1 179
+Encoding: 65566 -1 182
 Width: 709
 GlyphClass: 2
 Flags: W
@@ -8302,10 +8387,10 @@ Fore
  442 -50 l 1,88,-1
  442 -50 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u0997_u09B0_u09CD.blwf.vatu u09C2
+Ligature: 0 1 'blws' u0997_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u0997_u09CD.half_u09B2.pres
-Encoding: 65602 -1 180
+Encoding: 65567 -1 183
 Width: 499
 GlyphClass: 2
 Flags: W
@@ -8377,10 +8462,10 @@ Fore
  369 0 l 1,84,-1
  369 0 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0997_u09CD.half u09B2
+Ligature: 0 1 'pres' u0997_u09CD.half u09B2
 EndChar
 StartChar: u0997_u09AC_u09CD.blwf.blws
-Encoding: 65603 -1 181
+Encoding: 65568 -1 184
 Width: 433
 GlyphClass: 2
 Flags: W
@@ -8394,7 +8479,7 @@ Fore
  108 115 l 1,4,5
  142 155 142 155 192 182 c 128,-1,6
  242 209 242 209 303 220 c 1,7,-1
- 303 420 l 2,8,9
+ 303 420 l 1,8,9
  295 451 295 451 261.5 470.5 c 128,-1,10
  228 490 228 490 183 490 c 0,11,12
  133 490 133 490 98 463.5 c 128,-1,13
@@ -8435,10 +8520,10 @@ Fore
  284 77 284 77 303 55 c 1,58,-1
  303 55 l 1,51,-1
 EndSplineSet
-Ligature: 0 0 'blws' u0997 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u0997 u09AC_u09CD.blwf
 EndChar
 StartChar: u0998_u09CD.half_u09A8.pres
-Encoding: 65604 -1 182
+Encoding: 65569 -1 185
 Width: 497
 GlyphClass: 2
 Flags: W
@@ -8490,10 +8575,10 @@ Fore
  317 194 317 194 367 135 c 1,52,-1
  367 135 l 1,38,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0998_u09CD.half u09A8
+Ligature: 0 1 'pres' u0998_u09CD.half u09A8
 EndChar
 StartChar: u0998_u09B0_u09CD.blwf.vatu
-Encoding: 65605 -1 183
+Encoding: 65570 -1 186
 Width: 537
 GlyphClass: 2
 Flags: W
@@ -8549,10 +8634,10 @@ Fore
  370 144 370 144 407 100 c 1,58,-1
  407 100 l 1,44,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u0998 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u0998 u09B0_u09CD.blwf
 EndChar
 StartChar: u0998_u09AC_u09CD.blwf.blws
-Encoding: 65606 -1 184
+Encoding: 65571 -1 187
 Width: 475
 GlyphClass: 2
 Flags: W
@@ -8597,7 +8682,7 @@ Fore
  75 360 75 360 97 342.5 c 128,-1,41
  119 325 119 325 150 325 c 0,42,43
  164 325 164 325 175 327.5 c 128,-1,44
- 186 330 186 330 195 335 c 2,45,-1
+ 186 330 186 330 195 335 c 1,45,-1
  235 370 l 1,46,-1
  260 340 l 1,47,-1
  115 210 l 1,48,49
@@ -8607,10 +8692,10 @@ Fore
  341 92 341 92 345 93 c 1,54,-1
  345 93 l 1,34,-1
 EndSplineSet
-Ligature: 0 0 'blws' u0998 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u0998 u09AC_u09CD.blwf
 EndChar
 StartChar: u0999_u09CD.half_u0995.pres
-Encoding: 65607 -1 185
+Encoding: 65572 -1 188
 Width: 481
 GlyphClass: 2
 Flags: W
@@ -8681,10 +8766,10 @@ Fore
  302 400 302 400 330 400 c 1,76,-1
  330 400 l 1,69,70
 EndSplineSet
-Ligature: 0 0 'pres' u0999_u09CD.half u0995
+Ligature: 0 1 'pres' u0999_u09CD.half u0995
 EndChar
 StartChar: u0999_u09CD.half_u0995_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65608 -1 186
+Encoding: 65573 -1 189
 Width: 593
 GlyphClass: 2
 Flags: W
@@ -8768,10 +8853,10 @@ Fore
  414 400 414 400 442 400 c 1,95,-1
  442 400 l 1,88,89
 EndSplineSet
-Ligature: 0 0 'pres' u0999_u09CD.half u0995_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u0999_u09CD.half u0995_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u0999_u09CD.half_u0995_u09CD.half_u09B7.pres
-Encoding: 65609 -1 187
+Encoding: 65574 -1 190
 Width: 1112
 GlyphClass: 2
 Flags: W
@@ -8791,7 +8876,7 @@ Fore
  442 222 442 222 429.5 239 c 128,-1,9
  417 256 417 256 400 256 c 0,10,11
  395 256 395 256 385.5 244 c 128,-1,12
- 376 232 376 232 367 223 c 0,13,14
+ 376 232 376 232 367 223 c 2,13,14
  354 205 354 205 335.5 194.5 c 128,-1,15
  317 184 317 184 297 184 c 0,16,17
  254 184 254 184 223.5 215.5 c 128,-1,18
@@ -8898,10 +8983,10 @@ Fore
  810 335 810 335 862 335 c 1,157,-1
  862 335 l 1,152,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0999_u09CD.half u0995_u09CD.half u09B7
+Ligature: 0 1 'pres' u0999_u09CD.half u0995_u09CD.half u09B7
 EndChar
 StartChar: u0999_u09CD.half_u0995_u09CD.half_u09B7_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65610 -1 188
+Encoding: 65575 -1 191
 Width: 1112
 GlyphClass: 2
 Flags: W
@@ -8921,7 +9006,7 @@ Fore
  442 222 442 222 429.5 239 c 128,-1,9
  417 256 417 256 400 256 c 0,10,11
  395 256 395 256 385.5 244 c 128,-1,12
- 376 232 376 232 367 223 c 0,13,14
+ 376 232 376 232 367 223 c 2,13,14
  354 205 354 205 335.5 194.5 c 128,-1,15
  317 184 317 184 297 184 c 0,16,17
  254 184 254 184 223.5 215.5 c 128,-1,18
@@ -9041,10 +9126,10 @@ Fore
  810 335 810 335 862 335 c 1,176,-1
  862 335 l 1,171,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0999_u09CD.half u0995_u09CD.half u09B7_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u0999_u09CD.half u0995_u09CD.half u09B7_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u0999_u09CD.half_u0996.pres
-Encoding: 65611 -1 189
+Encoding: 65576 -1 192
 Width: 724
 GlyphClass: 2
 Flags: W
@@ -9132,10 +9217,10 @@ Fore
  -10 465 l 1,103,-1
  -10 465 l 1,99,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0999_u09CD.half u0996
+Ligature: 0 1 'pres' u0999_u09CD.half u0996
 EndChar
 StartChar: u0999_u09CD.half_u0997.pres
-Encoding: 65612 -1 190
+Encoding: 65577 -1 193
 Width: 510
 GlyphClass: 2
 Flags: W
@@ -9206,10 +9291,10 @@ Fore
  331 400 331 400 358 400 c 1,82,-1
  358 400 l 1,75,76
 EndSplineSet
-Ligature: 0 0 'pres' u0999_u09CD.half u0997
+Ligature: 0 1 'pres' u0999_u09CD.half u0997
 EndChar
 StartChar: u0999_u09CD.half_u0998.pres
-Encoding: 65613 -1 191
+Encoding: 65578 -1 194
 Width: 892
 GlyphClass: 2
 Flags: W
@@ -9252,7 +9337,7 @@ Fore
  457 194 457 194 442.5 214.5 c 128,-1,45
  428 235 428 235 407 235 c 0,46,47
  402 235 402 235 395.5 231 c 128,-1,48
- 389 227 389 227 382 220 c 0,49,50
+ 389 227 389 227 382 220 c 1,49,50
  366 196 366 196 340.5 183 c 128,-1,51
  315 170 315 170 287 170 c 0,52,53
  244 170 244 170 213 202 c 128,-1,54
@@ -9292,7 +9377,7 @@ Fore
  512 361 512 361 532.5 340.5 c 128,-1,97
  553 320 553 320 582 320 c 0,98,99
  596 320 596 320 610 324 c 128,-1,100
- 624 328 624 328 637 335 c 2,101,-1
+ 624 328 624 328 637 335 c 1,101,-1
  672 365 l 1,102,-1
  702 335 l 1,103,-1
  552 215 l 1,104,105
@@ -9300,10 +9385,10 @@ Fore
  731 115 731 115 762 70 c 1,107,-1
  762 70 l 1,90,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0999_u09CD.half u0998
+Ligature: 0 1 'pres' u0999_u09CD.half u0998
 EndChar
 StartChar: u0999_u09CD.half_u0998_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65614 -1 192
+Encoding: 65579 -1 195
 Width: 901
 GlyphClass: 2
 Flags: W
@@ -9412,10 +9497,10 @@ Fore
  734 144 734 144 771 100 c 1,132,-1
  771 100 l 1,118,-1
 EndSplineSet
-Ligature: 0 0 'pres' u0999_u09CD.half u0998_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u0999_u09CD.half u0998_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u0999_u09CD.half_u09AE.pres
-Encoding: 65615 -1 193
+Encoding: 65580 -1 196
 Width: 670
 GlyphClass: 2
 Flags: W
@@ -9497,10 +9582,10 @@ Fore
  357 400 357 400 380 400 c 1,96,-1
  380 400 l 1,86,87
 EndSplineSet
-Ligature: 0 0 'pres' u0999_u09CD.half u09AE
+Ligature: 0 1 'pres' u0999_u09CD.half u09AE
 EndChar
 StartChar: u0999_u09B0_u09CD.blwf.vatu
-Encoding: 65616 -1 194
+Encoding: 65581 -1 197
 Width: 571
 GlyphClass: 2
 Flags: W
@@ -9522,7 +9607,7 @@ Fore
  478 200 478 200 463.5 225 c 128,-1,12
  449 250 449 250 428 250 c 0,13,14
  422 250 422 250 410.5 235.5 c 128,-1,15
- 399 221 399 221 388 210 c 0,16,17
+ 399 221 399 221 388 210 c 2,16,17
  373 189 373 189 353 177 c 128,-1,18
  333 165 333 165 313 165 c 0,19,20
  267 165 267 165 235 197 c 128,-1,21
@@ -9584,10 +9669,10 @@ Fore
  323 365 323 365 338 365 c 1,100,-1
  338 365 l 1,88,89
 EndSplineSet
-Ligature: 0 0 'vatu' u0999 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u0999 u09B0_u09CD.blwf
 EndChar
 StartChar: u099A_u09CD.half_u099A.pres
-Encoding: 65617 -1 195
+Encoding: 65582 -1 198
 Width: 617
 GlyphClass: 2
 Flags: W
@@ -9645,10 +9730,10 @@ Fore
  263 311 263 311 297 295 c 1,54,-1
  297 295 l 1,49,-1
 EndSplineSet
-Ligature: 0 0 'pres' u099A_u09CD.half u099A
+Ligature: 0 1 'pres' u099A_u09CD.half u099A
 EndChar
 StartChar: u099A_u09CD.half_u099B.pres
-Encoding: 65618 -1 196
+Encoding: 65583 -1 199
 Width: 728
 GlyphClass: 2
 Flags: W
@@ -9721,10 +9806,10 @@ Fore
  399 225 399 225 413 225 c 1,76,-1
  413 225 l 1,66,67
 EndSplineSet
-Ligature: 0 0 'pres' u099A_u09CD.half u099B
+Ligature: 0 1 'pres' u099A_u09CD.half u099B
 EndChar
 StartChar: u099A_u09CD.half_u099B_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65619 -1 197
+Encoding: 65584 -1 200
 Width: 752
 GlyphClass: 2
 Flags: W
@@ -9801,7 +9886,7 @@ Fore
 334 270 m 1,84,-1
  334 465 l 1,85,-1
  124 465 l 1,86,-1
- 124 410 l 2,87,88
+ 124 410 l 1,87,88
  132 381 132 381 181.5 349.5 c 128,-1,89
  231 318 231 318 334 270 c 1,90,-1
  334 270 l 1,84,-1
@@ -9815,10 +9900,10 @@ Fore
  147 55 147 55 164 55 c 1,101,-1
  164 55 l 1,91,92
 EndSplineSet
-Ligature: 0 0 'pres' u099A_u09CD.half u099B_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u099A_u09CD.half u099B_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u099A_u09CD.half_u099B_u09AC_u09CD.blwf.pres
-Encoding: 65620 -1 198
+Encoding: 65585 -1 201
 Width: 723
 GlyphClass: 2
 Flags: W
@@ -9895,7 +9980,7 @@ Fore
 314 280 m 1,82,-1
  314 465 l 1,83,-1
  124 465 l 1,84,-1
- 124 430 l 2,85,86
+ 124 430 l 1,85,86
  133 397 133 397 183 357.5 c 128,-1,87
  233 318 233 318 314 280 c 1,88,-1
  314 280 l 1,82,-1
@@ -9910,10 +9995,10 @@ Fore
  136 60 136 60 144 60 c 1,100,-1
  144 60 l 1,89,90
 EndSplineSet
-Ligature: 0 0 'pres' u099A_u09CD.half u099B u09AC_u09CD.blwf
+Ligature: 0 1 'pres' u099A_u09CD.half u099B u09AC_u09CD.blwf
 EndChar
 StartChar: u099A_u09CD.half_u099E.pres
-Encoding: 65621 -1 199
+Encoding: 65586 -1 202
 Width: 771
 GlyphClass: 2
 Flags: W
@@ -10015,10 +10100,10 @@ Fore
  120 180 120 180 134 180 c 1,122,-1
  134 180 l 1,112,113
 EndSplineSet
-Ligature: 0 0 'pres' u099A_u09CD.half u099E
+Ligature: 0 1 'pres' u099A_u09CD.half u099E
 EndChar
 StartChar: u099A_u09CD.half_u09A8.pres
-Encoding: 65622 -1 200
+Encoding: 65587 -1 203
 Width: 416
 GlyphClass: 2
 Flags: W
@@ -10075,10 +10160,10 @@ Fore
  120 164 l 1,57,-1
  120 164 l 1,44,45
 EndSplineSet
-Ligature: 0 0 'pres' u099A_u09CD.half u09A8
+Ligature: 0 1 'pres' u099A_u09CD.half u09A8
 EndChar
 StartChar: u099A_u09B0_u09CD.blwf.vatu
-Encoding: 65623 -1 201
+Encoding: 65588 -1 204
 Width: 429
 GlyphClass: 2
 Flags: W
@@ -10136,10 +10221,10 @@ Fore
  123 114 l 1,58,-1
  123 114 l 1,45,46
 EndSplineSet
-Ligature: 0 0 'vatu' u099A u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u099A u09B0_u09CD.blwf
 EndChar
 StartChar: u099A_u09AC_u09CD.blwf.blws
-Encoding: 65624 -1 202
+Encoding: 65589 -1 205
 Width: 413
 GlyphClass: 2
 Flags: W
@@ -10193,10 +10278,10 @@ Fore
  221 -69 221 -69 239 -95 c 1,50,-1
  239 -95 l 1,43,-1
 EndSplineSet
-Ligature: 0 0 'blws' u099A u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u099A u09AC_u09CD.blwf
 EndChar
 StartChar: u099B_u09B0_u09CD.blwf.vatu
-Encoding: 65625 -1 203
+Encoding: 65590 -1 206
 Width: 507
 GlyphClass: 2
 Flags: W
@@ -10273,10 +10358,10 @@ Fore
  164 220 164 220 176 220 c 1,85,-1
  176 220 l 1,77,78
 EndSplineSet
-Ligature: 0 0 'vatu' u099B u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u099B u09B0_u09CD.blwf
 EndChar
 StartChar: u099B_u09AC_u09CD.blwf.blws
-Encoding: 65626 -1 204
+Encoding: 65591 -1 207
 Width: 466
 GlyphClass: 2
 Flags: W
@@ -10354,10 +10439,10 @@ Fore
  336 -107 336 -107 352 -130 c 1,85,-1
  352 -130 l 1,78,-1
 EndSplineSet
-Ligature: 0 0 'blws' u099B u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u099B u09AC_u09CD.blwf
 EndChar
 StartChar: u099C_u09CD.half_u099C.pres
-Encoding: 65627 -1 205
+Encoding: 65592 -1 208
 Width: 807
 GlyphClass: 2
 Flags: W
@@ -10447,10 +10532,10 @@ Fore
  461 115 461 115 500 115 c 1,112,-1
  500 115 l 1,76,77
 EndSplineSet
-Ligature: 0 0 'pres' u099C_u09CD.half u099C
+Ligature: 0 1 'pres' u099C_u09CD.half u099C
 EndChar
 StartChar: u099C_u09CD.half_u099C_u09AC_u09CD.blwf.pres
-Encoding: 65628 -1 206
+Encoding: 65593 -1 209
 Width: 810
 GlyphClass: 2
 Flags: W
@@ -10551,10 +10636,10 @@ Fore
  685 -10 685 -10 713 -30 c 1,126,-1
  713 -30 l 1,117,118
 EndSplineSet
-Ligature: 0 0 'pres' u099C_u09CD.half u099C u09AC_u09CD.blwf
+Ligature: 0 1 'pres' u099C_u09CD.half u099C u09AC_u09CD.blwf
 EndChar
 StartChar: u099C_u09CD.half_u099D.pres
-Encoding: 65629 -1 207
+Encoding: 65594 -1 210
 Width: 722
 GlyphClass: 2
 Flags: W
@@ -10625,10 +10710,10 @@ Fore
  567 0 567 0 592 -30 c 1,78,-1
  592 -30 l 1,69,-1
 EndSplineSet
-Ligature: 0 0 'pres' u099C_u09CD.half u099D
+Ligature: 0 1 'pres' u099C_u09CD.half u099D
 EndChar
 StartChar: u099C_u09CD.half_u099E.pres
-Encoding: 65630 -1 208
+Encoding: 65595 -1 211
 Width: 736
 GlyphClass: 2
 Flags: W
@@ -10710,10 +10795,10 @@ Fore
  257 260 257 260 286 260 c 1,94,-1
  286 260 l 1,84,85
 EndSplineSet
-Ligature: 0 0 'pres' u099C_u09CD.half u099E
+Ligature: 0 1 'pres' u099C_u09CD.half u099E
 EndChar
 StartChar: u099C_u09B0_u09CD.blwf.vatu
-Encoding: 65631 -1 209
+Encoding: 65596 -1 212
 Width: 675
 GlyphClass: 2
 Flags: W
@@ -10785,10 +10870,10 @@ Fore
  60 207 60 207 60 325 c 1,87,-1
  60 325 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u099C u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u099C u09B0_u09CD.blwf
 EndChar
 StartChar: u099C_u09AC_u09CD.blwf.blws
-Encoding: 65632 -1 210
+Encoding: 65597 -1 213
 Width: 638
 GlyphClass: 2
 Flags: W
@@ -10858,10 +10943,10 @@ Fore
  488 12 488 12 526 -10 c 1,82,-1
  526 -10 l 1,73,74
 EndSplineSet
-Ligature: 0 0 'blws' u099C u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u099C u09AC_u09CD.blwf
 EndChar
 StartChar: u099D_u09B0_u09CD.blwf.vatu
-Encoding: 65633 -1 211
+Encoding: 65598 -1 214
 Width: 636
 GlyphClass: 2
 Flags: W
@@ -10920,10 +11005,10 @@ Fore
  328 136 328 136 361 85 c 1,55,-1
  361 85 l 1,48,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u099D u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u099D u09B0_u09CD.blwf
 EndChar
 StartChar: u099E_u09CD.half_u099A.pres
-Encoding: 65634 -1 212
+Encoding: 65599 -1 215
 Width: 672
 GlyphClass: 2
 Flags: W
@@ -11004,10 +11089,10 @@ Fore
  461 120 461 120 502 120 c 1,91,-1
  502 120 l 1,60,61
 EndSplineSet
-Ligature: 0 0 'pres' u099E_u09CD.half u099A
+Ligature: 0 1 'pres' u099E_u09CD.half u099A
 EndChar
 StartChar: u099E_u09CD.half_u099A_u09AC_u09CD.blwf.pres
-Encoding: 65635 -1 213
+Encoding: 65600 -1 216
 Width: 672
 GlyphClass: 2
 Flags: W
@@ -11100,10 +11185,10 @@ Fore
  306 -94 306 -94 322 -117 c 1,106,-1
  322 -117 l 1,99,-1
 EndSplineSet
-Ligature: 0 0 'pres' u099E_u09CD.half u099A u09AC_u09CD.blwf
+Ligature: 0 1 'pres' u099E_u09CD.half u099A u09AC_u09CD.blwf
 EndChar
 StartChar: u099E_u09CD.half_u099B.pres
-Encoding: 65636 -1 214
+Encoding: 65601 -1 217
 Width: 571
 GlyphClass: 2
 Flags: W
@@ -11203,10 +11288,10 @@ Fore
  394 220 394 220 428 220 c 1,122,-1
  428 220 l 1,92,93
 EndSplineSet
-Ligature: 0 0 'pres' u099E_u09CD.half u099B
+Ligature: 0 1 'pres' u099E_u09CD.half u099B
 EndChar
 StartChar: u099E_u09CD.half_u099C.pres
-Encoding: 65637 -1 215
+Encoding: 65602 -1 218
 Width: 657
 GlyphClass: 2
 Flags: W
@@ -11315,10 +11400,10 @@ Fore
  444 250 444 250 482 250 c 1,139,-1
  482 250 l 1,106,107
 EndSplineSet
-Ligature: 0 0 'pres' u099E_u09CD.half u099C
+Ligature: 0 1 'pres' u099E_u09CD.half u099C
 EndChar
 StartChar: u099E_u09CD.half_u099D.pres
-Encoding: 65638 -1 216
+Encoding: 65603 -1 219
 Width: 627
 GlyphClass: 2
 Flags: W
@@ -11425,10 +11510,10 @@ Fore
  456 240 456 240 482 240 c 1,128,-1
  482 240 l 1,98,99
 EndSplineSet
-Ligature: 0 0 'pres' u099E_u09CD.half u099D
+Ligature: 0 1 'pres' u099E_u09CD.half u099D
 EndChar
 StartChar: u099E_u09CD.half_u09A7.pres
-Encoding: 65639 -1 217
+Encoding: 65604 -1 220
 Width: 532
 GlyphClass: 2
 Flags: W
@@ -11521,10 +11606,10 @@ Fore
  359 245 359 245 385 245 c 1,111,-1
  385 245 l 1,81,82
 EndSplineSet
-Ligature: 0 0 'pres' u099E_u09CD.half u09A7
+Ligature: 0 1 'pres' u099E_u09CD.half u09A7
 EndChar
 StartChar: u099F_u09CD.half_u099F.pres
-Encoding: 65640 -1 218
+Encoding: 65605 -1 221
 Width: 485
 GlyphClass: 2
 Flags: W
@@ -11593,10 +11678,10 @@ Fore
  325 -80 325 -80 261 -80 c 1,76,-1
  261 -80 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u099F_u09CD.half u099F
+Ligature: 0 1 'pres' u099F_u09CD.half u099F
 EndChar
 StartChar: u099F_u09CD.half_u099F_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65641 -1 219
+Encoding: 65606 -1 222
 Width: 485
 GlyphClass: 2
 Flags: W
@@ -11661,7 +11746,7 @@ Fore
  392 105 392 105 404 84 c 128,-1,72
  416 63 416 63 416 40 c 0,73,74
  416 32 416 32 414.5 24.5 c 128,-1,75
- 413 17 413 17 411 10 c 2,76,-1
+ 413 17 413 17 411 10 c 1,76,-1
  411 -210 l 1,77,-1
  371 -210 l 1,78,79
  366 -190 366 -190 340.5 -177.5 c 128,-1,80
@@ -11682,10 +11767,10 @@ Fore
  293 -80 293 -80 261 -80 c 1,101,-1
  261 -80 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u099F_u09CD.half u099F_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u099F_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u099F_u09CD.half_u09AE.pres
-Encoding: 65642 -1 220
+Encoding: 65607 -1 223
 Width: 619
 GlyphClass: 2
 Flags: W
@@ -11761,10 +11846,10 @@ Fore
  489 465 l 1,89,-1
  489 465 l 1,62,-1
 EndSplineSet
-Ligature: 0 0 'pres' u099F_u09CD.half u09AE
+Ligature: 0 1 'pres' u099F_u09CD.half u09AE
 EndChar
 StartChar: u099F_u09B0_u09CD.blwf.vatu
-Encoding: 65643 -1 221
+Encoding: 65608 -1 224
 Width: 546
 GlyphClass: 2
 Flags: W
@@ -11841,10 +11926,10 @@ Fore
  -10 465 l 1,87,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u099F u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u099F u09B0_u09CD.blwf
 EndChar
 StartChar: u099F_u09AC_u09CD.blwf.blws
-Encoding: 65644 -1 222
+Encoding: 65609 -1 225
 Width: 429
 GlyphClass: 2
 Flags: W
@@ -11916,10 +12001,10 @@ Fore
  262 -14 262 -14 280 -40 c 1,78,-1
  280 -40 l 1,71,-1
 EndSplineSet
-Ligature: 0 0 'blws' u099F u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u099F u09AC_u09CD.blwf
 EndChar
 StartChar: u09A0_u09B0_u09CD.blwf.vatu
-Encoding: 65645 -1 223
+Encoding: 65610 -1 226
 Width: 423
 GlyphClass: 2
 Flags: W
@@ -11986,10 +12071,10 @@ Fore
  146 65 146 65 197 65 c 1,72,-1
  197 65 l 1,60,61
 EndSplineSet
-Ligature: 0 0 'vatu' u09A0 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09A0 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A1_u09CD.half_u0997.pres
-Encoding: 65646 -1 224
+Encoding: 65611 -1 227
 Width: 982
 GlyphClass: 2
 Flags: W
@@ -12029,7 +12114,7 @@ Fore
  -10 465 l 1,38,-1
  -10 465 l 1,0,-1
 852 0 m 1,39,-1
- 852 320 l 2,40,41
+ 852 320 l 1,40,41
  835 384 835 384 789 424.5 c 128,-1,42
  743 465 743 465 687 465 c 0,43,44
  629 465 629 465 588 422.5 c 128,-1,45
@@ -12063,10 +12148,10 @@ Fore
  852 0 l 1,82,-1
  852 0 l 1,39,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A1_u09CD.half u0997
+Ligature: 0 1 'pres' u09A1_u09CD.half u0997
 EndChar
 StartChar: u09A1_u09CD.half_u09A1.pres
-Encoding: 65647 -1 225
+Encoding: 65612 -1 228
 Width: 927
 GlyphClass: 2
 Flags: W
@@ -12141,10 +12226,10 @@ Fore
  594 50 594 50 661 50 c 1,84,-1
  661 50 l 1,51,52
 EndSplineSet
-Ligature: 0 0 'pres' u09A1_u09CD.half u09A1
+Ligature: 0 1 'pres' u09A1_u09CD.half u09A1
 EndChar
 StartChar: u09A1_u09CD.half_u09AE.pres
-Encoding: 65648 -1 226
+Encoding: 65613 -1 229
 Width: 755
 GlyphClass: 2
 Flags: W
@@ -12204,10 +12289,10 @@ Fore
  625 465 l 1,65,-1
  625 465 l 1,47,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A1_u09CD.half u09AE
+Ligature: 0 1 'pres' u09A1_u09CD.half u09AE
 EndChar
 StartChar: u09A1_u09B0_u09CD.blwf.vatu
-Encoding: 65649 -1 227
+Encoding: 65614 -1 230
 Width: 564
 GlyphClass: 2
 Flags: W
@@ -12267,10 +12352,10 @@ Fore
  499 127 499 127 489 110 c 1,63,-1
  489 110 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u09A1 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09A1 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A1_u09AC_u09CD.blwf.blws
-Encoding: 65650 -1 228
+Encoding: 65615 -1 231
 Width: 565
 GlyphClass: 2
 Flags: W
@@ -12326,10 +12411,10 @@ Fore
  301 -97 301 -97 317 -120 c 1,55,-1
  317 -120 l 1,48,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09A1 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09A1 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A2_u09B0_u09CD.blwf.vatu
-Encoding: 65651 -1 229
+Encoding: 65616 -1 232
 Width: 548
 GlyphClass: 2
 Flags: W
@@ -12350,7 +12435,7 @@ Fore
  239 70 239 70 260 70 c 0,8,9
  307 70 307 70 371 137.5 c 128,-1,10
  435 205 435 205 435 255 c 1,11,-1
- 417 252 l 2,12,13
+ 417 252 l 1,12,13
  389 252 389 252 369.5 269 c 128,-1,14
  350 286 350 286 350 310 c 0,15,16
  350 335 350 335 369 352.5 c 128,-1,17
@@ -12387,10 +12472,10 @@ Fore
  -10 465 l 1,60,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u09A2 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09A2 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A3_u09CD.half_u099F.pres
-Encoding: 65652 -1 230
+Encoding: 65617 -1 233
 Width: 638
 GlyphClass: 2
 Flags: W
@@ -12411,7 +12496,7 @@ Fore
  434 615 434 615 388 605 c 128,-1,9
  342 595 342 595 318 595 c 0,10,11
  279 595 279 595 251 623 c 128,-1,12
- 223 651 223 651 223 690 c 0,13,14
+ 223 651 223 651 223 690 c 1,13,14
  227 710 227 710 236 727 c 128,-1,15
  245 744 245 744 258 755 c 1,16,-1
  288 735 l 1,17,18
@@ -12452,7 +12537,7 @@ Fore
  68 413 68 413 68 380 c 0,67,68
  68 352 68 352 84 332 c 128,-1,69
  100 312 100 312 123 310 c 1,70,-1
- 119 327 l 2,71,72
+ 119 327 l 1,71,72
  119 347 119 347 133.5 361 c 128,-1,73
  148 375 148 375 168 375 c 0,74,75
  189 375 189 375 203.5 362 c 128,-1,76
@@ -12468,10 +12553,10 @@ Fore
  303 500 l 1,90,-1
  303 500 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A3_u09CD.half u099F
+Ligature: 0 1 'pres' u09A3_u09CD.half u099F
 EndChar
 StartChar: u09A3_u09CD.half_u099F_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65653 -1 231
+Encoding: 65618 -1 234
 Width: 648
 GlyphClass: 2
 Flags: W
@@ -12492,7 +12577,7 @@ Fore
  434 615 434 615 388 605 c 128,-1,9
  342 595 342 595 318 595 c 0,10,11
  279 595 279 595 251 623 c 128,-1,12
- 223 651 223 651 223 690 c 0,13,14
+ 223 651 223 651 223 690 c 1,13,14
  227 710 227 710 236 727 c 128,-1,15
  245 744 245 744 258 755 c 1,16,-1
  288 735 l 1,17,18
@@ -12551,7 +12636,7 @@ Fore
  68 413 68 413 68 380 c 0,92,93
  68 352 68 352 84 332 c 128,-1,94
  100 312 100 312 123 310 c 1,95,-1
- 119 327 l 2,96,97
+ 119 327 l 1,96,97
  119 347 119 347 133.5 361 c 128,-1,98
  148 375 148 375 168 375 c 0,99,100
  189 375 189 375 203.5 362 c 128,-1,101
@@ -12567,10 +12652,10 @@ Fore
  303 500 l 1,115,-1
  303 500 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A3_u09CD.half u099F_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09A3_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A3_u09CD.half_u09A0.pres
-Encoding: 65654 -1 232
+Encoding: 65619 -1 235
 Width: 533
 GlyphClass: 2
 Flags: W
@@ -12583,12 +12668,12 @@ AnchorPoint: "Anchor-0" 357 -12 basechar 0
 Fore
 305 20 m 1,0,1
  235 20 235 20 185 67 c 128,-1,2
- 135 114 135 114 135 180 c 2,3,-1
+ 135 114 135 114 135 180 c 1,3,-1
  140 210 l 1,4,5
  201 210 201 210 253 257 c 128,-1,6
  305 304 305 304 305 359 c 0,7,8
  305 361 305 361 305 382.5 c 128,-1,9
- 305 404 305 404 300 410 c 2,10,11
+ 305 404 305 404 300 410 c 1,10,11
  289 439 289 439 256 457 c 128,-1,12
  223 475 223 475 180 475 c 0,13,14
  134 475 134 475 102 446.5 c 128,-1,15
@@ -12639,10 +12724,10 @@ Fore
  255 60 255 60 305 60 c 1,78,-1
  305 60 l 1,63,64
 EndSplineSet
-Ligature: 0 0 'pres' u09A3_u09CD.half u09A0
+Ligature: 0 1 'pres' u09A3_u09CD.half u09A0
 EndChar
 StartChar: u09A3_u09CD.half_u09A0_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65655 -1 233
+Encoding: 65620 -1 236
 Width: 544
 GlyphClass: 2
 Flags: W
@@ -12655,12 +12740,12 @@ AnchorPoint: "Anchor-0" 365 -12 basechar 0
 Fore
 305 20 m 1,0,1
  235 20 235 20 185 67 c 128,-1,2
- 135 114 135 114 135 180 c 2,3,-1
+ 135 114 135 114 135 180 c 1,3,-1
  140 210 l 1,4,5
  201 210 201 210 253 257 c 128,-1,6
  305 304 305 304 305 359 c 0,7,8
  305 361 305 361 305 382.5 c 128,-1,9
- 305 404 305 404 300 410 c 2,10,11
+ 305 404 305 404 300 410 c 1,10,11
  289 439 289 439 256 457 c 128,-1,12
  223 475 223 475 180 475 c 0,13,14
  134 475 134 475 102 446.5 c 128,-1,15
@@ -12729,10 +12814,10 @@ Fore
  255 60 255 60 305 60 c 1,103,-1
  305 60 l 1,88,89
 EndSplineSet
-Ligature: 0 0 'pres' u09A3_u09CD.half u09A0_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09A3_u09CD.half u09A0_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A3_u09CD.half_u09A1.pres
-Encoding: 65656 -1 234
+Encoding: 65621 -1 237
 Width: 652
 GlyphClass: 2
 Flags: W
@@ -12798,10 +12883,10 @@ Fore
  468 -10 468 -10 389 -10 c 1,76,-1
  389 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A3_u09CD.half u09A1
+Ligature: 0 1 'pres' u09A3_u09CD.half u09A1
 EndChar
 StartChar: u09A3_u09CD.half_u09A1_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65657 -1 235
+Encoding: 65622 -1 238
 Width: 710
 GlyphClass: 2
 Flags: W
@@ -12873,10 +12958,10 @@ Fore
  560 15 560 15 478 0 c 1,80,-1
  478 0 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A3_u09CD.half u09A1_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09A3_u09CD.half u09A1_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A3_u09CD.half_u09A2.pres
-Encoding: 65658 -1 236
+Encoding: 65623 -1 239
 Width: 647
 GlyphClass: 2
 Flags: W
@@ -12930,10 +13015,10 @@ Fore
  304 500 l 1,57,-1
  304 500 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A3_u09CD.half u09A2
+Ligature: 0 1 'pres' u09A3_u09CD.half u09A2
 EndChar
 StartChar: u09A3_u09CD.half_u09A2_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65659 -1 237
+Encoding: 65624 -1 240
 Width: 654
 GlyphClass: 2
 Flags: W
@@ -13005,10 +13090,10 @@ Fore
  304 500 l 1,82,-1
  304 500 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A3_u09CD.half u09A2_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09A3_u09CD.half u09A2_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A3_u09CD.half_u09A3.pres
-Encoding: 65660 -1 238
+Encoding: 65625 -1 241
 Width: 476
 GlyphClass: 2
 Flags: W
@@ -13065,10 +13150,10 @@ Fore
  346 560 l 1,63,-1
  346 560 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A3_u09CD.half u09A3
+Ligature: 0 1 'pres' u09A3_u09CD.half u09A3
 EndChar
 StartChar: u09A3_u09CD.half_u09AE.pres
-Encoding: 65661 -1 239
+Encoding: 65626 -1 242
 Width: 624
 GlyphClass: 2
 Flags: W
@@ -13123,10 +13208,10 @@ Fore
  468 107 468 107 494 70 c 1,56,-1
  494 70 l 1,50,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A3_u09CD.half u09AE
+Ligature: 0 1 'pres' u09A3_u09CD.half u09AE
 EndChar
 StartChar: u09A3_u09B0_u09CD.blwf.vatu
-Encoding: 65662 -1 240
+Encoding: 65627 -1 243
 Width: 502
 GlyphClass: 2
 Flags: W
@@ -13178,10 +13263,10 @@ Fore
  372 0 l 1,55,-1
  372 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'vatu' u09A3 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09A3 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A3_u09AC_u09CD.blwf.blws
-Encoding: 65663 -1 241
+Encoding: 65628 -1 244
 Width: 444
 GlyphClass: 2
 Flags: W
@@ -13231,10 +13316,10 @@ Fore
  285 79 285 79 314 55 c 1,51,-1
  314 55 l 1,44,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09A3 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09A3 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A4_u09CD.half_u09A4.pres
-Encoding: 65664 -1 242
+Encoding: 65629 -1 245
 Width: 550
 GlyphClass: 2
 Flags: W
@@ -13290,10 +13375,10 @@ Fore
  -10 465 l 1,63,-1
  -10 465 l 1,59,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A4_u09CD.half u09A4
+Ligature: 0 1 'pres' u09A4_u09CD.half u09A4
 EndChar
 StartChar: u09A4_u09CD.half_u09A4_u09AC_u09CD.blwf.pres
-Encoding: 65665 -1 243
+Encoding: 65630 -1 246
 Width: 521
 GlyphClass: 2
 Flags: W
@@ -13363,10 +13448,10 @@ Fore
  -10 465 l 1,80,-1
  -10 465 l 1,76,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A4_u09CD.half u09A4 u09AC_u09CD.blwf
+Ligature: 0 1 'pres' u09A4_u09CD.half u09A4 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A4_u09CD.half_u09A5.pres
-Encoding: 65666 -1 244
+Encoding: 65631 -1 247
 Width: 589
 GlyphClass: 2
 Flags: W
@@ -13425,10 +13510,10 @@ Fore
  19 383 19 383 19 419 c 1,66,-1
  19 419 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A4_u09CD.half u09A5
+Ligature: 0 1 'pres' u09A4_u09CD.half u09A5
 EndChar
 StartChar: u09A4_u09CD.half_u09A8.pres
-Encoding: 65667 -1 245
+Encoding: 65632 -1 248
 Width: 564
 GlyphClass: 2
 Flags: W
@@ -13485,10 +13570,10 @@ Fore
  -10 465 l 1,63,-1
  -10 465 l 1,59,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A4_u09CD.half u09A8
+Ligature: 0 1 'pres' u09A4_u09CD.half u09A8
 EndChar
 StartChar: u09A4_u09CD.half_u09AE.pres
-Encoding: 65668 -1 246
+Encoding: 65633 -1 249
 Width: 741
 GlyphClass: 2
 Flags: W
@@ -13546,10 +13631,10 @@ Fore
  611 0 l 1,65,-1
  611 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A4_u09CD.half u09AE
+Ligature: 0 1 'pres' u09A4_u09CD.half u09AE
 EndChar
 StartChar: u09A4_u09B0_u09CD.blwf.vatu
-Encoding: 65669 -1 247
+Encoding: 65634 -1 250
 Width: 565
 GlyphClass: 2
 Flags: W
@@ -13602,10 +13687,10 @@ Fore
  -10 465 l 1,57,-1
  -10 465 l 1,53,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u09A4 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09A4 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A4_u09B0_u09CD.blwf.vatu_u09C1.blws
-Encoding: 65670 -1 248
+Encoding: 65635 -1 251
 Width: 726
 GlyphClass: 2
 Flags: W
@@ -13680,10 +13765,10 @@ Fore
  -10 465 l 1,85,-1
  -10 465 l 1,81,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09A4_u09B0_u09CD.blwf.vatu u09C1
+Ligature: 0 1 'blws' u09A4_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09A4_u09B0_u09CD.blwf.vatu_u09C2.blws
-Encoding: 65671 -1 249
+Encoding: 65636 -1 252
 Width: 722
 GlyphClass: 2
 Flags: W
@@ -13757,10 +13842,10 @@ Fore
  -10 465 l 1,83,-1
  -10 465 l 1,79,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09A4_u09B0_u09CD.blwf.vatu u09C2
+Ligature: 0 1 'blws' u09A4_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09A4_u09CD.half_u09B2.pres
-Encoding: 65672 -1 250
+Encoding: 65637 -1 253
 Width: 564
 GlyphClass: 2
 Flags: W
@@ -13835,10 +13920,9 @@ Fore
  -22 465 l 1,89,-1
  -22 465 l 1,85,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A4_u09CD.half u09B2
 EndChar
 StartChar: u09A4_u09AC_u09CD.blwf.blws
-Encoding: 65673 -1 251
+Encoding: 65638 -1 254
 Width: 547
 GlyphClass: 2
 Flags: W
@@ -13894,10 +13978,10 @@ Fore
  -10 465 l 1,59,-1
  -10 465 l 1,55,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09A4 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09A4 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A5_u09B0_u09CD.blwf.vatu
-Encoding: 65674 -1 252
+Encoding: 65639 -1 255
 Width: 549
 GlyphClass: 2
 Flags: W
@@ -13959,10 +14043,10 @@ Fore
  94 255 l 1,70,-1
  94 255 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'vatu' u09A5 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09A5 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A5_u09B0_u09CD.blwf.vatu_u09C1.blws
-Encoding: 65675 -1 253
+Encoding: 65640 -1 256
 Width: 708
 GlyphClass: 2
 Flags: W
@@ -14045,10 +14129,10 @@ Fore
  95 255 l 1,98,-1
  95 255 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u09A5_u09B0_u09CD.blwf.vatu u09C1
+Ligature: 0 1 'blws' u09A5_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09A5_u09B0_u09CD.blwf.vatu_u09C2.blws
-Encoding: 65676 -1 254
+Encoding: 65641 -1 257
 Width: 694
 GlyphClass: 2
 Flags: W
@@ -14130,10 +14214,10 @@ Fore
  95 255 l 1,96,-1
  95 255 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u09A5_u09B0_u09CD.blwf.vatu u09C2
+Ligature: 0 1 'blws' u09A5_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09A5_u09AC_u09CD.blwf.blws
-Encoding: 65677 -1 255
+Encoding: 65642 -1 258
 Width: 483
 GlyphClass: 2
 Flags: W
@@ -14190,10 +14274,10 @@ Fore
  337 23 337 23 353 0 c 1,60,-1
  353 0 l 1,53,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09A5 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09A5 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A6_u09CD.half_u0997.pres
-Encoding: 65678 -1 256
+Encoding: 65643 -1 259
 Width: 813
 GlyphClass: 2
 Flags: W
@@ -14203,7 +14287,7 @@ TtfInstrs: 75
 EndTtf
 Fore
 683 0 m 1,0,-1
- 683 310 l 2,1,2
+ 683 310 l 1,1,2
  672 375 672 375 629.5 417.5 c 128,-1,3
  587 460 587 460 533 460 c 0,4,5
  473 460 473 460 430.5 420.5 c 128,-1,6
@@ -14261,10 +14345,10 @@ Fore
  293 -10 l 1,72,-1
  293 -10 l 1,44,45
 EndSplineSet
-Ligature: 0 0 'pres' u09A6_u09CD.half u0997
+Ligature: 0 1 'pres' u09A6_u09CD.half u0997
 EndChar
 StartChar: u09A6_u09CD.half_u0998.pres
-Encoding: 65679 -1 257
+Encoding: 65644 -1 260
 Width: 783
 GlyphClass: 2
 Flags: W
@@ -14321,10 +14405,10 @@ Fore
  608 114 608 114 653 50 c 1,57,-1
  653 50 l 1,43,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A6_u09CD.half u0998
+Ligature: 0 1 'pres' u09A6_u09CD.half u0998
 EndChar
 StartChar: u09A6_u09CD.half_u09A6.pres
-Encoding: 65680 -1 258
+Encoding: 65645 -1 261
 Width: 569
 GlyphClass: 2
 Flags: W
@@ -14365,10 +14449,10 @@ Fore
  488 -15 l 1,39,-1
  488 -15 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A6_u09CD.half u09A6
+Ligature: 0 1 'pres' u09A6_u09CD.half u09A6
 EndChar
 StartChar: u09A6_u09CD.half_u09A6_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65681 -1 259
+Encoding: 65646 -1 262
 Width: 592
 GlyphClass: 2
 Flags: W
@@ -14422,10 +14506,10 @@ Fore
  501 -15 l 1,58,-1
  501 -15 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A6_u09CD.half u09A6_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09A6_u09CD.half u09A6_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A6_u09CD.half_u09A6_u09AC_u09CD.blwf.pres
-Encoding: 65682 -1 260
+Encoding: 65647 -1 263
 Width: 571
 GlyphClass: 2
 Flags: W
@@ -14479,10 +14563,10 @@ Fore
  460 -36 460 -36 495 -65 c 1,56,-1
  495 -65 l 1,47,48
 EndSplineSet
-Ligature: 0 0 'pres' u09A6_u09CD.half u09A6 u09AC_u09CD.blwf
+Ligature: 0 1 'pres' u09A6_u09CD.half u09A6 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A6_u09CD.half_u09A7.pres
-Encoding: 65683 -1 261
+Encoding: 65648 -1 264
 Width: 564
 GlyphClass: 2
 Flags: W
@@ -14541,10 +14625,10 @@ Fore
  292 73 292 73 315 40 c 1,59,-1
  315 40 l 1,52,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A6_u09CD.half u09A7
+Ligature: 0 1 'pres' u09A6_u09CD.half u09A7
 EndChar
 StartChar: u09A6_u09CD.half_u09A7_u09AC_u09CD.blwf.pres
-Encoding: 65684 -1 262
+Encoding: 65649 -1 265
 Width: 552
 GlyphClass: 2
 Flags: W
@@ -14615,10 +14699,10 @@ Fore
  327 140 327 140 345 115 c 1,73,-1
  345 115 l 1,66,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A6_u09CD.half u09A7 u09AC_u09CD.blwf
+Ligature: 0 1 'pres' u09A6_u09CD.half u09A7 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A6_u09CD.half_u09A8.pres
-Encoding: 65685 -1 263
+Encoding: 65650 -1 266
 Width: 443
 GlyphClass: 2
 Flags: W
@@ -14663,10 +14747,10 @@ Fore
  363 -5 l 1,46,-1
  363 -5 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A6_u09CD.half u09A8
+Ligature: 0 1 'pres' u09A6_u09CD.half u09A8
 EndChar
 StartChar: u09A6_u09CD.half_u09AD.pres
-Encoding: 65686 -1 264
+Encoding: 65651 -1 267
 Width: 566
 GlyphClass: 2
 Flags: W
@@ -14731,10 +14815,10 @@ Fore
  422 -60 422 -60 343 -60 c 1,71,-1
  343 -60 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A6_u09CD.half u09AD
+Ligature: 0 1 'pres' u09A6_u09CD.half u09AD
 EndChar
 StartChar: u09A6_u09CD.half_u09AD_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65687 -1 265
+Encoding: 65652 -1 268
 Width: 494
 GlyphClass: 2
 Flags: W
@@ -14798,7 +14882,7 @@ Fore
  388 150 388 150 398.5 161.5 c 128,-1,70
  409 173 409 173 419 185 c 1,71,72
  430 177 430 177 438 166.5 c 128,-1,73
- 446 156 446 156 449 145 c 2,74,-1
+ 446 156 446 156 449 145 c 1,74,-1
  449 -110 l 1,75,-1
  409 -110 l 1,76,77
  393 -91 393 -91 370.5 -80.5 c 128,-1,78
@@ -14807,10 +14891,10 @@ Fore
  208 -90 208 -90 184 -90 c 1,82,-1
  184 -90 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A6_u09CD.half u09AD_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09A6_u09CD.half u09AD_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A6_u09CD.half_u09AE.pres
-Encoding: 65688 -1 266
+Encoding: 65653 -1 269
 Width: 536
 GlyphClass: 2
 Flags: W
@@ -14858,10 +14942,10 @@ Fore
  392 80 392 80 406 60 c 1,47,-1
  406 60 l 1,31,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A6_u09CD.half u09AE
+Ligature: 0 1 'pres' u09A6_u09CD.half u09AE
 EndChar
 StartChar: u09A6_u09B0_u09CD.blwf.vatu
-Encoding: 65689 -1 267
+Encoding: 65654 -1 270
 Width: 511
 GlyphClass: 2
 Flags: W
@@ -14911,10 +14995,10 @@ Fore
  409 -20 l 1,53,-1
  409 -20 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'vatu' u09A6 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09A6 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A6_u09B0_u09CD.blwf.vatu_u09C1.blws
-Encoding: 65690 -1 268
+Encoding: 65655 -1 271
 Width: 676
 GlyphClass: 2
 Flags: W
@@ -14987,10 +15071,10 @@ Fore
  414 -30 l 1,83,-1
  414 -30 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u09A6_u09B0_u09CD.blwf.vatu u09C1
+Ligature: 0 1 'blws' u09A6_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09A6_u09B0_u09CD.blwf.vatu_u09C2.blws
-Encoding: 65691 -1 269
+Encoding: 65656 -1 272
 Width: 657
 GlyphClass: 2
 Flags: W
@@ -15062,10 +15146,10 @@ Fore
  419 -25 l 1,81,-1
  419 -25 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u09A6_u09B0_u09CD.blwf.vatu u09C2
+Ligature: 0 1 'blws' u09A6_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09A6_u09AC_u09CD.blwf.blws
-Encoding: 65692 -1 270
+Encoding: 65657 -1 273
 Width: 457
 GlyphClass: 2
 Flags: W
@@ -15106,10 +15190,10 @@ Fore
  325 82 325 82 344 55 c 1,37,-1
  344 55 l 1,30,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09A6 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09A6 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A7_u09CD.half_u09A8.pres
-Encoding: 65693 -1 271
+Encoding: 65658 -1 274
 Width: 430
 GlyphClass: 2
 Flags: W
@@ -15168,10 +15252,10 @@ Fore
  259 166 259 166 300 125 c 1,61,-1
  300 125 l 1,56,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A7_u09CD.half u09A8
+Ligature: 0 1 'pres' u09A7_u09CD.half u09A8
 EndChar
 StartChar: u09A7_u09CD.half_u09AE.pres
-Encoding: 65694 -1 272
+Encoding: 65659 -1 275
 Width: 531
 GlyphClass: 2
 Flags: W
@@ -15183,7 +15267,7 @@ Fore
 401 0 m 1,0,1
  379 22 379 22 350.5 33.5 c 128,-1,2
  322 45 322 45 291 45 c 1,3,-1
- 292 38 l 2,4,5
+ 292 38 l 1,4,5
  292 16 292 16 275.5 0.5 c 128,-1,6
  259 -15 259 -15 236 -15 c 256,7,8
  213 -15 213 -15 197 -0.5 c 128,-1,9
@@ -15230,10 +15314,10 @@ Fore
  251 355 l 1,58,-1
  251 355 l 1,53,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A7_u09CD.half u09AE
+Ligature: 0 1 'pres' u09A7_u09CD.half u09AE
 EndChar
 StartChar: u09A7_u09B0_u09CD.blwf.vatu
-Encoding: 65695 -1 273
+Encoding: 65660 -1 276
 Width: 524
 GlyphClass: 2
 Flags: W
@@ -15294,10 +15378,10 @@ Fore
  353 139 353 139 394 80 c 1,66,-1
  394 80 l 1,61,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u09A7 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09A7 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A7_u09B0_u09CD.blwf.vatu_u09C1.blws
-Encoding: 65696 -1 274
+Encoding: 65661 -1 277
 Width: 653
 GlyphClass: 2
 Flags: W
@@ -15380,10 +15464,10 @@ Fore
  336 142 336 142 369 95 c 1,94,-1
  369 95 l 1,89,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09A7_u09B0_u09CD.blwf.vatu u09C1
+Ligature: 0 1 'blws' u09A7_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09A7_u09B0_u09CD.blwf.vatu_u09C2.blws
-Encoding: 65697 -1 275
+Encoding: 65662 -1 278
 Width: 645
 GlyphClass: 2
 Flags: W
@@ -15465,10 +15549,10 @@ Fore
  339 148 339 148 372 90 c 1,92,-1
  372 90 l 1,87,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09A7_u09B0_u09CD.blwf.vatu u09C2
+Ligature: 0 1 'blws' u09A7_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09A7_u09AC_u09CD.blwf.blws
-Encoding: 65698 -1 276
+Encoding: 65663 -1 279
 Width: 708
 GlyphClass: 2
 Flags: W
@@ -15530,10 +15614,10 @@ Fore
  534 132 534 132 578 70 c 1,61,-1
  578 70 l 1,54,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09A7 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09A7 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A8_u09CD.half_u099F.pres
-Encoding: 65699 -1 277
+Encoding: 65664 -1 280
 Width: 605
 GlyphClass: 2
 Flags: W
@@ -15566,7 +15650,7 @@ Fore
  -10 500 l 1,25,-1
  477 500 l 1,26,27
  490 515 490 515 496.5 526.5 c 128,-1,28
- 503 538 503 538 502 545 c 0,29,30
+ 503 538 503 538 502 545 c 1,29,30
  502 568 502 568 483 584 c 128,-1,31
  464 600 464 600 437 600 c 0,32,33
  406 600 406 600 344.5 590 c 128,-1,34
@@ -15604,10 +15688,10 @@ Fore
  430 25 430 25 367 25 c 1,79,-1
  367 25 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u099F
+Ligature: 0 1 'pres' u09A8_u09CD.half u099F
 EndChar
 StartChar: u09A8_u09CD.half_u099F_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65700 -1 278
+Encoding: 65665 -1 281
 Width: 646
 GlyphClass: 2
 Flags: W
@@ -15656,7 +15740,7 @@ Fore
  358 75 358 75 370 75 c 0,48,49
  406 75 406 75 466 141 c 128,-1,50
  526 207 526 207 535 255 c 1,51,-1
- 524 253 l 2,52,53
+ 524 253 l 1,52,53
  504 253 504 253 489.5 268 c 128,-1,54
  475 283 475 283 475 305 c 0,55,56
  475 328 475 328 491 344 c 128,-1,57
@@ -15700,10 +15784,10 @@ Fore
  35 287 35 287 35 310 c 1,111,-1
  35 310 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u099F_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09A8_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A8_u09CD.half_u09A0.pres
-Encoding: 65701 -1 279
+Encoding: 65666 -1 282
 Width: 497
 GlyphClass: 2
 Flags: W
@@ -15767,10 +15851,10 @@ Fore
  227 60 227 60 278 60 c 1,68,-1
  278 60 l 1,56,57
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A0
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A0
 EndChar
 StartChar: u09A8_u09CD.half_u09A1.pres
-Encoding: 65702 -1 280
+Encoding: 65667 -1 283
 Width: 614
 GlyphClass: 2
 Flags: W
@@ -15824,10 +15908,10 @@ Fore
  435 -10 435 -10 340 -10 c 1,56,-1
  340 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A1
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A1
 EndChar
 StartChar: u09A8_u09CD.half_u09A1_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65703 -1 281
+Encoding: 65668 -1 284
 Width: 623
 GlyphClass: 2
 Flags: W
@@ -15899,10 +15983,10 @@ Fore
  387 -10 387 -10 342 -10 c 1,81,-1
  342 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A1_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A1_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: glyph283
-Encoding: 65704 -1 282
+Encoding: 65669 -1 285
 Width: 615
 GlyphClass: 2
 Flags: W
@@ -15999,7 +16083,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09A8_u09CD.half_u09A4.pres
-Encoding: 65705 -1 283
+Encoding: 65670 -1 286
 Width: 530
 GlyphClass: 2
 Flags: W
@@ -16065,10 +16149,10 @@ Fore
  371 -10 371 -10 290 -10 c 1,75,-1
  290 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A4
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A4
 EndChar
 StartChar: u09A8_u09CD.half_u09A4.pres_u09C1.blws
-Encoding: 65706 -1 284
+Encoding: 65671 -1 287
 Width: 605
 GlyphClass: 2
 Flags: W
@@ -16115,7 +16199,7 @@ Fore
  287 314 287 314 280 320 c 0,49,50
  269 331 269 331 255 337.5 c 128,-1,51
  241 344 241 344 225 345 c 1,52,-1
- 231 325 l 2,53,54
+ 231 325 l 1,53,54
  231 304 231 304 214.5 289.5 c 128,-1,55
  198 275 198 275 175 275 c 0,56,57
  150 275 150 275 132.5 292.5 c 128,-1,58
@@ -16129,7 +16213,7 @@ Fore
  414 320 414 320 434.5 339 c 128,-1,70
  455 358 455 358 455 385 c 256,71,72
  455 412 455 412 425.5 434.5 c 128,-1,73
- 396 457 396 457 350 465 c 2,74,-1
+ 396 457 396 457 350 465 c 1,74,-1
  -10 465 l 1,75,-1
  -10 500 l 1,76,-1
  615 500 l 1,77,-1
@@ -16149,10 +16233,10 @@ Fore
  456 -70 456 -70 390 -70 c 1,97,-1
  390 -70 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u09A8_u09CD.half_u09A4.pres u09C1
+Ligature: 0 1 'blws' u09A8_u09CD.half_u09A4.pres u09C1
 EndChar
 StartChar: u09A8_u09CD.half_u09A4_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65707 -1 285
+Encoding: 65672 -1 288
 Width: 534
 GlyphClass: 2
 Flags: W
@@ -16226,10 +16310,10 @@ Fore
  -10 465 l 1,89,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A8_u09CD.half_u09A4_u09AC_u09CD.blwf.pres
-Encoding: 65708 -1 286
+Encoding: 65673 -1 289
 Width: 544
 GlyphClass: 2
 Flags: W
@@ -16282,7 +16366,7 @@ Fore
  359 320 359 320 376.5 339 c 128,-1,62
  394 358 394 358 394 385 c 256,63,64
  394 412 394 412 364.5 434.5 c 128,-1,65
- 335 457 335 457 289 465 c 2,66,-1
+ 335 457 335 457 289 465 c 1,66,-1
  -10 465 l 1,67,-1
  -10 500 l 1,68,-1
  554 500 l 1,69,-1
@@ -16306,10 +16390,10 @@ Fore
  280 -132 280 -132 304 -160 c 1,92,-1
  304 -160 l 1,85,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A4 u09AC_u09CD.blwf
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A4 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A8_u09CD.half_u09A5.pres
-Encoding: 65709 -1 287
+Encoding: 65674 -1 290
 Width: 454
 GlyphClass: 2
 Flags: W
@@ -16380,10 +16464,10 @@ Fore
  455 -85 l 1,82,-1
  455 -85 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A5
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A5
 EndChar
 StartChar: u09A8_u09CD.half_u09A5_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65710 -1 288
+Encoding: 65675 -1 291
 Width: 455
 GlyphClass: 2
 Flags: W
@@ -16472,10 +16556,10 @@ Fore
  455 -85 l 1,107,-1
  455 -85 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A5_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A5_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A8_u09CD.half_u09A6.pres
-Encoding: 65711 -1 289
+Encoding: 65676 -1 292
 Width: 617
 GlyphClass: 2
 Flags: W
@@ -16520,10 +16604,10 @@ Fore
  537 -5 l 1,46,-1
  537 -5 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A6
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A6
 EndChar
 StartChar: u09A8_u09CD.half_u09A6_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65712 -1 290
+Encoding: 65677 -1 293
 Width: 622
 GlyphClass: 2
 Flags: W
@@ -16586,10 +16670,10 @@ Fore
  518 -25 l 1,72,-1
  518 -25 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A6_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A6_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A8_u09CD.half_u09A6_u09AC_u09CD.blwf.pres
-Encoding: 65713 -1 291
+Encoding: 65678 -1 294
 Width: 573
 GlyphClass: 2
 Flags: W
@@ -16648,10 +16732,10 @@ Fore
  426 42 426 42 450 25 c 1,64,-1
  450 25 l 1,55,56
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A6 u09AC_u09CD.blwf
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A6 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A8_u09CD.half_u09A7.pres
-Encoding: 65714 -1 292
+Encoding: 65679 -1 295
 Width: 609
 GlyphClass: 2
 Flags: W
@@ -16715,10 +16799,10 @@ Fore
  289 104 289 104 316 65 c 1,67,-1
  316 65 l 1,60,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A7
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A7
 EndChar
 StartChar: u09A8_u09CD.half_u09A7_u09AC_u09CD.blwf.pres
-Encoding: 65715 -1 293
+Encoding: 65680 -1 296
 Width: 609
 GlyphClass: 2
 Flags: W
@@ -16794,10 +16878,10 @@ Fore
  300 -87 300 -87 316 -110 c 1,82,-1
  316 -110 l 1,75,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A7 u09AC_u09CD.blwf
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A7 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A8_u09CD.half_u09A7_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65716 -1 294
+Encoding: 65681 -1 297
 Width: 689
 GlyphClass: 2
 Flags: W
@@ -16878,10 +16962,10 @@ Fore
  373 102 373 102 400 55 c 1,92,-1
  400 55 l 1,85,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A7_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A7_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A8_u09CD.half_u09A8.pres
-Encoding: 65717 -1 295
+Encoding: 65682 -1 298
 Width: 439
 GlyphClass: 2
 Flags: W
@@ -16926,10 +17010,10 @@ Fore
  -10 465 l 1,46,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09A8
+Ligature: 0 1 'pres' u09A8_u09CD.half u09A8
 EndChar
 StartChar: u09A8_u09CD.half_u09AE.pres
-Encoding: 65718 -1 296
+Encoding: 65683 -1 299
 Width: 582
 GlyphClass: 2
 Flags: W
@@ -16947,7 +17031,7 @@ Fore
  187 141 187 141 205 157 c 128,-1,11
  223 173 223 173 249 173 c 2,12,-1
  272 170 l 1,13,-1
- 272 260 l 2,14,15
+ 272 260 l 1,14,15
  264 303 264 303 224.5 331.5 c 128,-1,16
  185 360 185 360 132 360 c 1,17,18
  139 356 139 356 143.5 345.5 c 128,-1,19
@@ -16977,10 +17061,10 @@ Fore
  424 108 424 108 452 75 c 1,47,-1
  452 75 l 1,41,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09AE
+Ligature: 0 1 'pres' u09A8_u09CD.half u09AE
 EndChar
 StartChar: u09A8_u09B0_u09CD.blwf.vatu
-Encoding: 65719 -1 297
+Encoding: 65684 -1 300
 Width: 513
 GlyphClass: 2
 Flags: W
@@ -17002,7 +17086,7 @@ Fore
  257 70 257 70 285 70 c 0,16,17
  317 70 317 70 342 66.5 c 128,-1,18
  367 63 367 63 383 56 c 1,19,-1
- 383 155 l 2,20,21
+ 383 155 l 1,20,21
  372 218 372 218 326.5 259 c 128,-1,22
  281 300 281 300 223 300 c 0,23,24
  196 300 196 300 175.5 290.5 c 128,-1,25
@@ -17027,10 +17111,10 @@ Fore
  383 0 l 1,49,-1
  383 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'vatu' u09A8 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09A8 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A8_u09AC_u09CD.blwf.blws
-Encoding: 65720 -1 298
+Encoding: 65685 -1 301
 Width: 408
 GlyphClass: 2
 Flags: W
@@ -17073,10 +17157,10 @@ Fore
  262 98 262 98 278 70 c 1,41,-1
  278 70 l 1,34,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09A8 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09A8 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A8_u09CD.half_u09B8.pres
-Encoding: 65721 -1 299
+Encoding: 65686 -1 302
 Width: 605
 GlyphClass: 2
 Flags: W
@@ -17133,10 +17217,10 @@ Fore
  465 334 465 334 475 320 c 1,61,-1
  475 320 l 1,50,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09A8_u09CD.half u09B8
+Ligature: 0 1 'pres' u09A8_u09CD.half u09B8
 EndChar
 StartChar: u09AA_u09CD.half_u099F.pres
-Encoding: 65722 -1 300
+Encoding: 65687 -1 303
 Width: 701
 GlyphClass: 2
 Flags: W
@@ -17219,10 +17303,10 @@ Fore
  180 352 180 352 180 320 c 1,95,-1
  180 320 l 1,83,84
 EndSplineSet
-Ligature: 0 0 'pres' u09AA_u09CD.half u099F
+Ligature: 0 1 'pres' u09AA_u09CD.half u099F
 EndChar
 StartChar: u09AA_u09CD.half_u09A4.pres
-Encoding: 65723 -1 301
+Encoding: 65688 -1 304
 Width: 632
 GlyphClass: 2
 Flags: W
@@ -17259,7 +17343,7 @@ Fore
  381 177 381 177 381 200 c 0,31,32
  381 230 381 230 411.5 248.5 c 128,-1,33
  442 267 442 267 481 260 c 1,34,-1
- 481 395 l 2,35,36
+ 481 395 l 1,35,36
  479 406 479 406 469 413 c 128,-1,37
  459 420 459 420 446 420 c 0,38,39
  414 420 414 420 364 374 c 128,-1,40
@@ -17289,15 +17373,15 @@ Fore
  291 370 291 370 291 345 c 1,72,-1
  291 345 l 1,60,61
 EndSplineSet
-Ligature: 0 0 'pres' u09AA_u09CD.half u09A4
+Ligature: 0 1 'pres' u09AA_u09CD.half u09A4
 EndChar
 StartChar: u09AA_u09CD.half_u09A4.pres_u09C1.blws
-Encoding: 65724 -1 302
+Encoding: 65689 -1 305
 Width: 612
 GlyphClass: 2
 Flags: W
 TtfInstrs: 54
-5n3l-!"f3M!*K:&!!3-#!($Yf!!3-i!!*'-!(M,b2]-]<00DH84?kq/0eg0=B)i;>"Y0QQ
+iW0#ZirK,[j8f5\!!3-#!($Yf!!3-i!!*'-!(M,b2]-]<00DH84?kq/0eg0=B)i;>"Y0QQ
 EndTtf
 AnchorPoint: "Anchor-2" 411 -76 basechar 0
 AnchorPoint: "Anchor-1" 427 1 basechar 0
@@ -17349,7 +17433,7 @@ Fore
  277 183 277 183 277 210 c 0,61,62
  277 253 277 253 312.5 285.5 c 128,-1,63
  348 318 348 318 400 324 c 1,64,-1
- 400 395 l 2,65,66
+ 400 395 l 1,65,66
  398 406 398 406 388 413 c 128,-1,67
  378 420 378 420 365 420 c 0,68,69
  333 420 333 420 283 374 c 128,-1,70
@@ -17379,10 +17463,10 @@ Fore
  210 370 210 370 210 345 c 1,102,-1
  210 345 l 1,90,91
 EndSplineSet
-Ligature: 0 0 'blws' u09AA_u09CD.half_u09A4.pres u09C1
+Ligature: 0 1 'blws' u09AA_u09CD.half_u09A4.pres u09C1
 EndChar
 StartChar: u09AA_u09CD.half_u09A4_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65725 -1 303
+Encoding: 65690 -1 306
 Width: 547
 GlyphClass: 2
 Flags: W
@@ -17427,7 +17511,7 @@ Fore
  218 125 218 125 218 150 c 0,46,47
  218 205 218 205 262.5 250 c 128,-1,48
  307 295 307 295 376 308 c 1,49,-1
- 376 395 l 2,50,51
+ 376 395 l 1,50,51
  374 406 374 406 364 413 c 128,-1,52
  354 420 354 420 341 420 c 0,53,54
  309 420 309 420 259 374 c 128,-1,55
@@ -17457,10 +17541,10 @@ Fore
  186 370 186 370 186 345 c 1,87,-1
  186 345 l 1,75,76
 EndSplineSet
-Ligature: 0 0 'pres' u09AA_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09AA_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09AA_u09CD.half_u09A8.pres
-Encoding: 65726 -1 304
+Encoding: 65691 -1 307
 Width: 506
 GlyphClass: 2
 Flags: W
@@ -17518,10 +17602,10 @@ Fore
  171 374 171 374 171 350 c 1,63,-1
  171 350 l 1,51,52
 EndSplineSet
-Ligature: 0 0 'pres' u09AA_u09CD.half u09A8
+Ligature: 0 1 'pres' u09AA_u09CD.half u09A8
 EndChar
 StartChar: u09AA_u09CD.half_u09AA.pres
-Encoding: 65727 -1 305
+Encoding: 65692 -1 308
 Width: 522
 GlyphClass: 2
 Flags: W
@@ -17597,10 +17681,10 @@ Fore
  349 231 349 231 392 195 c 1,84,-1
  392 195 l 1,73,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09AA_u09CD.half u09AA
+Ligature: 0 1 'pres' u09AA_u09CD.half u09AA
 EndChar
 StartChar: u09AA_u09CD.half_u09AE.pres
-Encoding: 65728 -1 306
+Encoding: 65693 -1 309
 Width: 690
 GlyphClass: 2
 Flags: W
@@ -17659,10 +17743,10 @@ Fore
  532 108 532 108 560 75 c 1,62,-1
  560 75 l 1,56,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09AA_u09CD.half u09AE
+Ligature: 0 1 'pres' u09AA_u09CD.half u09AE
 EndChar
 StartChar: u09AA_u09B0_u09CD.blwf.vatu
-Encoding: 65729 -1 307
+Encoding: 65694 -1 310
 Width: 574
 GlyphClass: 2
 Flags: W
@@ -17723,10 +17807,10 @@ Fore
  253 343 253 343 264 320 c 1,66,-1
  264 320 l 1,56,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u09AA u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09AA u09B0_u09CD.blwf
 EndChar
 StartChar: u09AA_u09B0_u09CD.blwf.vatu_u09C1.blws
-Encoding: 65730 -1 308
+Encoding: 65695 -1 311
 Width: 712
 GlyphClass: 2
 Flags: W
@@ -17809,10 +17893,10 @@ Fore
  234 339 234 339 245 315 c 1,94,-1
  245 315 l 1,84,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09AA_u09B0_u09CD.blwf.vatu u09C1
+Ligature: 0 1 'blws' u09AA_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09AA_u09B0_u09CD.blwf.vatu_u09C2.blws
-Encoding: 65731 -1 309
+Encoding: 65696 -1 312
 Width: 733
 GlyphClass: 2
 Flags: W
@@ -17894,10 +17978,10 @@ Fore
  248 342 248 342 263 310 c 1,92,-1
  263 310 l 1,82,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09AA_u09B0_u09CD.blwf.vatu u09C2
+Ligature: 0 1 'blws' u09AA_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09AA_u09CD.half_u09B2.pres
-Encoding: 65732 -1 310
+Encoding: 65697 -1 313
 Width: 525
 GlyphClass: 2
 Flags: W
@@ -17972,10 +18056,10 @@ Fore
  198 367 198 367 205 340 c 1,86,-1
  205 340 l 1,74,75
 EndSplineSet
-Ligature: 0 0 'pres' u09AA_u09CD.half u09B2
+Ligature: 0 1 'pres' u09AA_u09CD.half u09B2
 EndChar
 StartChar: u09AA_u09CD.half_u09B8.pres
-Encoding: 65733 -1 311
+Encoding: 65698 -1 314
 Width: 666
 GlyphClass: 2
 Flags: W
@@ -18002,13 +18086,13 @@ Fore
  300 321 300 321 281 330 c 1,23,-1
  116 200 l 1,24,-1
  91 225 l 1,25,-1
- 121 250 l 2,26,27
+ 121 250 l 1,26,27
  133 267 133 267 137 273.5 c 128,-1,28
  141 280 141 280 141 285 c 0,29,30
  141 304 141 304 126.5 317 c 128,-1,31
  112 330 112 330 91 330 c 0,32,33
  81 330 81 330 71 325 c 128,-1,34
- 61 320 61 320 51 310 c 0,35,36
+ 61 320 61 320 51 310 c 1,35,36
  48 305 48 305 41.5 302.5 c 128,-1,37
  35 300 35 300 26 300 c 0,38,39
  22 300 22 300 19 304.5 c 128,-1,40
@@ -18047,10 +18131,10 @@ Fore
  406 356 406 356 406 315 c 1,80,-1
  406 315 l 1,69,70
 EndSplineSet
-Ligature: 0 0 'pres' u09AA_u09CD.half u09B8
+Ligature: 0 1 'pres' u09AA_u09CD.half u09B8
 EndChar
 StartChar: u09AB_u09CD.half_u099F.pres
-Encoding: 65734 -1 312
+Encoding: 65699 -1 315
 Width: 606
 GlyphClass: 2
 Flags: W
@@ -18129,10 +18213,10 @@ Fore
  296 410 l 1,89,-1
  296 410 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09AB_u09CD.half u099F
+Ligature: 0 1 'pres' u09AB_u09CD.half u099F
 EndChar
 StartChar: u09AB_u09B0_u09CD.blwf.vatu
-Encoding: 65735 -1 313
+Encoding: 65700 -1 316
 Width: 694
 GlyphClass: 2
 Flags: W
@@ -18193,10 +18277,10 @@ Fore
  413 -50 l 1,62,-1
  413 -50 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'vatu' u09AB u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09AB u09B0_u09CD.blwf
 EndChar
 StartChar: u09AB_u09CD.half_u09B2.pres
-Encoding: 65736 -1 314
+Encoding: 65701 -1 317
 Width: 605
 GlyphClass: 2
 Flags: W
@@ -18268,10 +18352,10 @@ Fore
  363 -70 l 1,79,-1
  363 -70 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09AB_u09CD.half u09B2
+Ligature: 0 1 'pres' u09AB_u09CD.half u09B2
 EndChar
 StartChar: u09AC_u09CD.half_u099C.pres
-Encoding: 65737 -1 315
+Encoding: 65702 -1 318
 Width: 759
 GlyphClass: 2
 Flags: W
@@ -18345,10 +18429,10 @@ Fore
  261 294 261 294 290 270 c 1,86,-1
  290 270 l 1,79,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09AC_u09CD.half u099C
+Ligature: 0 1 'pres' u09AC_u09CD.half u099C
 EndChar
 StartChar: u09AC_u09CD.half_u099D.pres
-Encoding: 65738 -1 316
+Encoding: 65703 -1 319
 Width: 540
 GlyphClass: 2
 Flags: W
@@ -18412,10 +18496,10 @@ Fore
  412 225 412 225 436 190 c 1,57,-1
  436 190 l 1,51,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09AC_u09CD.half u099D
+Ligature: 0 1 'pres' u09AC_u09CD.half u099D
 EndChar
 StartChar: u09AC_u09CD.half_u09A1.pres
-Encoding: 65739 -1 317
+Encoding: 65704 -1 320
 Width: 567
 GlyphClass: 2
 Flags: W
@@ -18469,10 +18553,10 @@ Fore
  240 285 240 285 254 265 c 1,53,-1
  254 265 l 1,46,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09AC_u09CD.half u09A1
+Ligature: 0 1 'pres' u09AC_u09CD.half u09A1
 EndChar
 StartChar: u09AC_u09CD.half_u09A2.pres
-Encoding: 65740 -1 318
+Encoding: 65705 -1 321
 Width: 513
 GlyphClass: 2
 Flags: W
@@ -18490,7 +18574,7 @@ Fore
  222 465 l 1,4,-1
  222 130 l 2,5,6
  222 101 222 101 238 80.5 c 128,-1,7
- 254 60 254 60 277 60 c 0,8,9
+ 254 60 254 60 277 60 c 1,8,9
  336 76 336 76 376.5 118 c 128,-1,10
  417 160 417 160 427 215 c 1,11,-1
  411 213 l 2,12,13
@@ -18521,10 +18605,10 @@ Fore
  160 246 160 246 182 220 c 1,45,-1
  182 220 l 1,38,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09AC_u09CD.half u09A2
+Ligature: 0 1 'pres' u09AC_u09CD.half u09A2
 EndChar
 StartChar: u09AC_u09CD.half_u09A6.pres
-Encoding: 65741 -1 319
+Encoding: 65706 -1 322
 Width: 540
 GlyphClass: 2
 Flags: W
@@ -18569,10 +18653,10 @@ Fore
  196 240 196 240 216 205 c 1,43,-1
  216 205 l 1,36,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09AC_u09CD.half u09A6
+Ligature: 0 1 'pres' u09AC_u09CD.half u09A6
 EndChar
 StartChar: u09AC_u09CD.half_u09A6_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65742 -1 320
+Encoding: 65707 -1 323
 Width: 558
 GlyphClass: 2
 Flags: W
@@ -18630,10 +18714,10 @@ Fore
  214 240 214 240 234 205 c 1,62,-1
  234 205 l 1,55,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09AC_u09CD.half u09A6_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09AC_u09CD.half u09A6_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09AC_u09CD.half_u09A7.pres
-Encoding: 65743 -1 321
+Encoding: 65708 -1 324
 Width: 552
 GlyphClass: 2
 Flags: W
@@ -18702,10 +18786,10 @@ Fore
  131 246 131 246 150 235 c 1,71,-1
  150 235 l 1,61,62
 EndSplineSet
-Ligature: 0 0 'pres' u09AC_u09CD.half u09A7
+Ligature: 0 1 'pres' u09AC_u09CD.half u09A7
 EndChar
 StartChar: u09AC_u09AC_u09CD.blwf.blws
-Encoding: 65744 -1 322
+Encoding: 65709 -1 325
 Width: 716
 GlyphClass: 2
 Flags: W
@@ -18755,10 +18839,10 @@ Fore
  561 128 561 128 586 75 c 1,44,-1
  586 75 l 1,37,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09AC u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09AC u09AC_u09CD.blwf
 EndChar
 StartChar: u09AC_u09CD.half_u09AD.pres
-Encoding: 65745 -1 323
+Encoding: 65710 -1 326
 Width: 581
 GlyphClass: 2
 Flags: W
@@ -18824,10 +18908,10 @@ Fore
  388 278 388 278 428 250 c 1,70,-1
  428 250 l 1,63,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09AC_u09CD.half u09AD
+Ligature: 0 1 'pres' u09AC_u09CD.half u09AD
 EndChar
 StartChar: u09AC_u09B0_u09CD.blwf.vatu
-Encoding: 65746 -1 324
+Encoding: 65711 -1 327
 Width: 547
 GlyphClass: 2
 Flags: W
@@ -18875,10 +18959,10 @@ Fore
  391 135 391 135 417 90 c 1,48,-1
  417 90 l 1,41,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u09AC u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09AC u09B0_u09CD.blwf
 EndChar
 StartChar: u09AC_u09B0_u09CD.blwf.vatu_u09C1.blws
-Encoding: 65747 -1 325
+Encoding: 65712 -1 328
 Width: 639
 GlyphClass: 2
 Flags: W
@@ -18944,10 +19028,10 @@ Fore
  311 139 311 139 352 80 c 1,70,-1
  352 80 l 1,63,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09AC_u09B0_u09CD.blwf.vatu u09C1
+Ligature: 0 1 'blws' u09AC_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09AC_u09B0_u09CD.blwf.vatu_u09C2.blws
-Encoding: 65748 -1 326
+Encoding: 65713 -1 329
 Width: 623
 GlyphClass: 2
 Flags: W
@@ -19012,10 +19096,10 @@ Fore
  309 136 309 136 352 75 c 1,68,-1
  352 75 l 1,61,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09AC_u09B0_u09CD.blwf.vatu u09C2
+Ligature: 0 1 'blws' u09AC_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09AC_u09CD.half_u09B2.pres
-Encoding: 65749 -1 327
+Encoding: 65714 -1 330
 Width: 489
 GlyphClass: 2
 Flags: W
@@ -19072,10 +19156,10 @@ Fore
  335 186 335 186 359 145 c 1,61,-1
  359 145 l 1,54,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09AC_u09CD.half u09B2
+Ligature: 0 1 'pres' u09AC_u09CD.half u09B2
 EndChar
 StartChar: u09AD_u09B0_u09CD.blwf.vatu
-Encoding: 65750 -1 328
+Encoding: 65715 -1 331
 Width: 565
 GlyphClass: 2
 Flags: W
@@ -19128,10 +19212,10 @@ Fore
  -10 465 l 1,57,-1
  -10 465 l 1,53,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u09AD u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09AD u09B0_u09CD.blwf
 EndChar
 StartChar: u09AD_u09B0_u09CD.blwf.vatu_u09C1.blws
-Encoding: 65751 -1 329
+Encoding: 65716 -1 332
 Width: 696
 GlyphClass: 2
 Flags: W
@@ -19205,10 +19289,10 @@ Fore
  -10 465 l 1,83,-1
  -10 465 l 1,79,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09AD_u09B0_u09CD.blwf.vatu u09C1
+Ligature: 0 1 'blws' u09AD_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09AD_u09B0_u09CD.blwf.vatu_u09C2.blws
-Encoding: 65752 -1 330
+Encoding: 65717 -1 333
 Width: 700
 GlyphClass: 2
 Flags: W
@@ -19283,10 +19367,10 @@ Fore
  -10 465 l 1,84,-1
  -10 465 l 1,80,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09AD_u09B0_u09CD.blwf.vatu u09C2
+Ligature: 0 1 'blws' u09AD_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09AD_u09CD.half_u09B2.pres
-Encoding: 65753 -1 331
+Encoding: 65718 -1 334
 Width: 579
 GlyphClass: 2
 Flags: W
@@ -19365,10 +19449,10 @@ Fore
  -10 465 l 1,91,-1
  -10 465 l 1,87,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09AD_u09CD.half u09B2
+Ligature: 0 1 'pres' u09AD_u09CD.half u09B2
 EndChar
 StartChar: u09AE_u09CD.half_u09A4.pres
-Encoding: 65754 -1 332
+Encoding: 65719 -1 335
 Width: 542
 GlyphClass: 2
 Flags: W
@@ -19434,10 +19518,10 @@ Fore
  383 -10 383 -10 302 -10 c 1,75,-1
  302 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09AE_u09CD.half u09A4
+Ligature: 0 1 'pres' u09AE_u09CD.half u09A4
 EndChar
 StartChar: u09AE_u09CD.half_u09A6.pres
-Encoding: 65755 -1 333
+Encoding: 65720 -1 336
 Width: 723
 GlyphClass: 2
 Flags: W
@@ -19488,7 +19572,7 @@ Fore
  276 335 276 335 293.5 351 c 128,-1,53
  311 367 311 367 311 390 c 0,54,55
  311 416 311 416 294.5 437 c 128,-1,56
- 278 458 278 458 251 465 c 2,57,-1
+ 278 458 278 458 251 465 c 1,57,-1
  101 465 l 1,58,59
  118 446 118 446 127 422.5 c 128,-1,60
  136 399 136 399 136 375 c 1,61,62
@@ -19496,10 +19580,10 @@ Fore
  230 335 230 335 251 335 c 1,64,-1
  251 335 l 1,51,52
 EndSplineSet
-Ligature: 0 0 'pres' u09AE_u09CD.half u09A6
+Ligature: 0 1 'pres' u09AE_u09CD.half u09A6
 EndChar
 StartChar: u09AE_u09CD.half_u09A8.pres
-Encoding: 65756 -1 334
+Encoding: 65721 -1 337
 Width: 425
 GlyphClass: 2
 Flags: W
@@ -19549,10 +19633,10 @@ Fore
  273 252 273 252 295 230 c 1,51,-1
  295 230 l 1,43,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09AE_u09CD.half u09A8
+Ligature: 0 1 'pres' u09AE_u09CD.half u09A8
 EndChar
 StartChar: u09AE_u09CD.half_u09AA.pres
-Encoding: 65757 -1 335
+Encoding: 65722 -1 338
 Width: 891
 GlyphClass: 2
 Flags: W
@@ -19562,7 +19646,7 @@ TtfInstrs: 63
 EndTtf
 Fore
 761 0 m 1,0,-1
- 761 335 l 2,1,2
+ 761 335 l 1,1,2
  758 352 758 352 748 363.5 c 128,-1,3
  738 375 738 375 726 375 c 0,4,5
  694 375 694 375 644 329 c 128,-1,6
@@ -19628,10 +19712,10 @@ Fore
  260 330 260 330 286 330 c 1,84,-1
  286 330 l 1,71,72
 EndSplineSet
-Ligature: 0 0 'pres' u09AE_u09CD.half u09AA
+Ligature: 0 1 'pres' u09AE_u09CD.half u09AA
 EndChar
 StartChar: u09AE_u09CD.half_u09AA_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65758 -1 336
+Encoding: 65723 -1 339
 Width: 871
 GlyphClass: 2
 Flags: W
@@ -19667,7 +19751,7 @@ Fore
  511 329 511 329 493.5 349.5 c 128,-1,34
  476 370 476 370 451 370 c 0,35,36
  440 370 440 370 428 363.5 c 128,-1,37
- 416 357 416 357 406 345 c 0,38,39
+ 416 357 416 357 406 345 c 1,38,39
  389 315 389 315 362 297.5 c 128,-1,40
  335 280 335 280 306 280 c 0,41,42
  279 280 279 280 252 289 c 128,-1,43
@@ -19723,10 +19807,10 @@ Fore
  285 320 285 320 306 320 c 1,107,-1
  306 320 l 1,91,92
 EndSplineSet
-Ligature: 0 0 'pres' u09AE_u09CD.half u09AA_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09AE_u09CD.half u09AA_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09AE_u09CD.half_u09AB.pres
-Encoding: 65759 -1 337
+Encoding: 65724 -1 340
 Width: 708
 GlyphClass: 2
 Flags: W
@@ -19799,10 +19883,10 @@ Fore
  255 335 255 335 281 335 c 1,79,-1
  281 335 l 1,66,67
 EndSplineSet
-Ligature: 0 0 'pres' u09AE_u09CD.half u09AB
+Ligature: 0 1 'pres' u09AE_u09CD.half u09AB
 EndChar
 StartChar: u09AE_u09CD.half_u09AB_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65760 -1 338
+Encoding: 65725 -1 341
 Width: 732
 GlyphClass: 2
 Flags: W
@@ -19887,10 +19971,10 @@ Fore
  279 335 279 335 305 335 c 1,96,-1
  305 335 l 1,83,84
 EndSplineSet
-Ligature: 0 0 'pres' u09AE_u09CD.half u09AB_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09AE_u09CD.half u09AB_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09AE_u09AC_u09CD.blwf.blws
-Encoding: 65761 -1 339
+Encoding: 65726 -1 342
 Width: 453
 GlyphClass: 2
 Flags: W
@@ -19950,10 +20034,10 @@ Fore
  258 332 258 332 285 332 c 1,60,-1
  285 332 l 1,47,48
 EndSplineSet
-Ligature: 0 0 'blws' u09AE u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09AE u09AC_u09CD.blwf
 EndChar
 StartChar: u09AE_u09CD.half_u09AD.pres
-Encoding: 65762 -1 340
+Encoding: 65727 -1 343
 Width: 608
 GlyphClass: 2
 Flags: W
@@ -20028,10 +20112,10 @@ Fore
  426 340 426 340 455 340 c 1,84,-1
  455 340 l 1,71,72
 EndSplineSet
-Ligature: 0 0 'pres' u09AE_u09CD.half u09AD
+Ligature: 0 1 'pres' u09AE_u09CD.half u09AD
 EndChar
 StartChar: u09AE_u09CD.half_u09AD_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65763 -1 341
+Encoding: 65728 -1 344
 Width: 562
 GlyphClass: 2
 Flags: W
@@ -20114,7 +20198,7 @@ Fore
  364 335 364 335 383 352.5 c 128,-1,97
  402 370 402 370 402 395 c 256,98,99
  402 420 402 420 382 440 c 128,-1,100
- 362 460 362 460 332 465 c 2,101,-1
+ 362 460 362 460 332 465 c 1,101,-1
  137 465 l 1,102,103
  148 452 148 452 155.5 434 c 128,-1,104
  163 416 163 416 167 395 c 1,105,106
@@ -20122,10 +20206,10 @@ Fore
  306 335 306 335 337 335 c 1,108,-1
  337 335 l 1,95,96
 EndSplineSet
-Ligature: 0 0 'pres' u09AE_u09CD.half u09AD_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09AE_u09CD.half u09AD_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09AE_u09CD.half_u09AE.pres
-Encoding: 65764 -1 342
+Encoding: 65729 -1 345
 Width: 571
 GlyphClass: 2
 Flags: W
@@ -20187,10 +20271,10 @@ Fore
  228 340 228 340 241 340 c 1,66,-1
  241 340 l 1,55,56
 EndSplineSet
-Ligature: 0 0 'pres' u09AE_u09CD.half u09AE
+Ligature: 0 1 'pres' u09AE_u09CD.half u09AE
 EndChar
 StartChar: u09AE_u09B0_u09CD.blwf.vatu
-Encoding: 65765 -1 343
+Encoding: 65730 -1 346
 Width: 548
 GlyphClass: 2
 Flags: W
@@ -20258,10 +20342,10 @@ Fore
  340 330 340 330 351 330 c 1,74,-1
  351 330 l 1,58,59
 EndSplineSet
-Ligature: 0 0 'vatu' u09AE u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09AE u09B0_u09CD.blwf
 EndChar
 StartChar: u09AE_u09CD.half_u09B2.pres
-Encoding: 65766 -1 344
+Encoding: 65731 -1 347
 Width: 532
 GlyphClass: 2
 Flags: W
@@ -20298,7 +20382,7 @@ Fore
  99 358 99 358 119.5 374 c 128,-1,34
  140 390 140 390 169 390 c 1,35,36
  158 421 158 421 143 441 c 128,-1,37
- 128 461 128 461 114 465 c 2,38,-1
+ 128 461 128 461 114 465 c 1,38,-1
  -10 465 l 1,39,-1
  -10 500 l 1,40,-1
  542 500 l 1,41,-1
@@ -20346,10 +20430,10 @@ Fore
  344 330 344 330 359 330 c 1,98,-1
  359 330 l 1,82,83
 EndSplineSet
-Ligature: 0 0 'pres' u09AE_u09CD.half u09B2
+Ligature: 0 1 'pres' u09AE_u09CD.half u09B2
 EndChar
 StartChar: u09AF_u09B0_u09CD.blwf.vatu
-Encoding: 65767 -1 345
+Encoding: 65732 -1 348
 Width: 483
 GlyphClass: 2
 Flags: W
@@ -20393,10 +20477,10 @@ Fore
  315 124 315 124 353 70 c 1,40,-1
  353 70 l 1,33,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u09AF u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09AF u09B0_u09CD.blwf
 EndChar
 StartChar: u09B0_u09C1.blws
-Encoding: 65768 -1 346
+Encoding: 65733 -1 349
 Width: 590
 GlyphClass: 2
 Flags: W
@@ -20459,10 +20543,10 @@ Fore
  142 15 142 15 128 15 c 1,64,-1
  128 15 l 1,52,53
 EndSplineSet
-Ligature: 0 0 'blws' u09B0 u09C1
+Ligature: 0 1 'blws' u09B0 u09C1
 EndChar
 StartChar: u09B0_u09C2.blws
-Encoding: 65769 -1 347
+Encoding: 65734 -1 350
 Width: 560
 GlyphClass: 2
 Flags: W
@@ -20524,10 +20608,10 @@ Fore
  122 15 122 15 108 15 c 1,62,-1
  108 15 l 1,50,51
 EndSplineSet
-Ligature: 0 0 'blws' u09B0 u09C2
+Ligature: 0 1 'blws' u09B0 u09C2
 EndChar
 StartChar: u09B2_u09CD.half_u0995.pres
-Encoding: 65770 -1 348
+Encoding: 65735 -1 351
 Width: 620
 GlyphClass: 2
 Flags: W
@@ -20556,7 +20640,7 @@ Fore
  71 329 71 329 71 300 c 0,21,22
  71 283 71 283 82 268.5 c 128,-1,23
  93 254 93 254 111 245 c 1,24,-1
- 110 252 l 2,25,26
+ 110 252 l 1,25,26
  110 272 110 272 125 286 c 128,-1,27
  140 300 140 300 161 300 c 256,28,29
  182 300 182 300 196.5 285.5 c 128,-1,30
@@ -20601,10 +20685,10 @@ Fore
  357 95 357 95 391 55 c 1,81,-1
  391 55 l 1,74,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09B2_u09CD.half u0995
+Ligature: 0 1 'pres' u09B2_u09CD.half u0995
 EndChar
 StartChar: u09B2_u09CD.half_u0997.pres
-Encoding: 65771 -1 349
+Encoding: 65736 -1 352
 Width: 524
 GlyphClass: 2
 Flags: W
@@ -20675,10 +20759,10 @@ Fore
  394 0 l 1,84,-1
  394 0 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09B2_u09CD.half u0997
+Ligature: 0 1 'pres' u09B2_u09CD.half u0997
 EndChar
 StartChar: u09B2_u09CD.half_u0997.pres_afii61664_u09C1.blws
-Encoding: 65772 -1 350
+Encoding: 65737 -1 353
 Width: 703
 GlyphClass: 2
 Flags: W
@@ -20782,10 +20866,10 @@ Fore
  535 -100 535 -100 438 -100 c 1,129,-1
  438 -100 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u09B2_u09CD.half_u0997.pres afii61664 u09C1
+Ligature: 0 1 'blws' u09B2_u09CD.half_u0997.pres afii61664 u09C1
 EndChar
 StartChar: u09B2_u09CD.half_u0998.pres
-Encoding: 65773 -1 351
+Encoding: 65738 -1 354
 Width: 790
 GlyphClass: 2
 Flags: W
@@ -20845,7 +20929,7 @@ Fore
  390 360 390 360 412 342.5 c 128,-1,66
  434 325 434 325 465 325 c 0,67,68
  479 325 479 325 490 327.5 c 128,-1,69
- 501 330 501 330 510 335 c 2,70,-1
+ 501 330 501 330 510 335 c 1,70,-1
  545 365 l 1,71,-1
  575 340 l 1,72,-1
  430 210 l 1,73,74
@@ -20853,10 +20937,10 @@ Fore
  628 120 628 120 660 65 c 1,76,-1
  660 65 l 1,59,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09B2_u09CD.half u0998
+Ligature: 0 1 'pres' u09B2_u09CD.half u0998
 EndChar
 StartChar: u09B2_u09CD.half_u099F.pres
-Encoding: 65774 -1 352
+Encoding: 65739 -1 355
 Width: 638
 GlyphClass: 2
 Flags: W
@@ -20941,10 +21025,10 @@ Fore
  32 234 32 234 32 275 c 1,101,-1
  32 275 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09B2_u09CD.half u099F
+Ligature: 0 1 'pres' u09B2_u09CD.half u099F
 EndChar
 StartChar: u09B2_u09CD.half_u099F_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65775 -1 353
+Encoding: 65740 -1 356
 Width: 726
 GlyphClass: 2
 Flags: W
@@ -21040,7 +21124,7 @@ Fore
  70 332 70 332 70 305 c 0,113,114
  70 288 70 288 81 274 c 128,-1,115
  92 260 92 260 110 255 c 1,116,-1
- 109 260 l 2,117,118
+ 109 260 l 1,117,118
  109 277 109 277 122.5 288.5 c 128,-1,119
  136 300 136 300 155 300 c 256,120,121
  174 300 174 300 187 288.5 c 128,-1,122
@@ -21051,10 +21135,10 @@ Fore
  30 266 30 266 30 305 c 1,129,-1
  30 305 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09B2_u09CD.half u099F_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09B2_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09B2_u09CD.half_u09A1.pres
-Encoding: 65776 -1 354
+Encoding: 65741 -1 357
 Width: 661
 GlyphClass: 2
 Flags: W
@@ -21120,10 +21204,10 @@ Fore
  -10 465 l 1,73,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09B2_u09CD.half u09A1
+Ligature: 0 1 'pres' u09B2_u09CD.half u09A1
 EndChar
 StartChar: u09B2_u09CD.half_u09A1_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65777 -1 355
+Encoding: 65742 -1 358
 Width: 668
 GlyphClass: 2
 Flags: W
@@ -21207,10 +21291,10 @@ Fore
  -10 465 l 1,98,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09B2_u09CD.half u09A1_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09B2_u09CD.half u09A1_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09B2_u09CD.half_u09A2.pres
-Encoding: 65778 -1 356
+Encoding: 65743 -1 359
 Width: 638
 GlyphClass: 2
 Flags: W
@@ -21295,10 +21379,10 @@ Fore
  32 234 32 234 32 275 c 1,101,-1
  32 275 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09B2_u09CD.half u09A2
+Ligature: 0 1 'pres' u09B2_u09CD.half u09A2
 EndChar
 StartChar: u09B2_u09CD.half_u09A6.pres
-Encoding: 65779 -1 357
+Encoding: 65744 -1 360
 Width: 722
 GlyphClass: 2
 Flags: W
@@ -21359,10 +21443,10 @@ Fore
  31 266 31 266 31 305 c 1,69,-1
  31 305 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09B2_u09CD.half u09A6
+Ligature: 0 1 'pres' u09B2_u09CD.half u09A6
 EndChar
 StartChar: u09B2_u09CD.half_u09AA.pres
-Encoding: 65780 -1 358
+Encoding: 65745 -1 361
 Width: 549
 GlyphClass: 2
 Flags: W
@@ -21398,7 +21482,7 @@ Fore
  82 346 82 346 82 315 c 0,35,36
  82 286 82 286 102.5 265.5 c 128,-1,37
  123 245 123 245 152 245 c 1,38,-1
- 149 261 l 2,39,40
+ 149 261 l 1,39,40
  149 281 149 281 163 295.5 c 128,-1,41
  177 310 177 310 197 310 c 0,42,43
  218 310 218 310 232.5 295.5 c 128,-1,44
@@ -21435,10 +21519,10 @@ Fore
  229 65 229 65 232 35 c 1,84,-1
  232 35 l 1,72,73
 EndSplineSet
-Ligature: 0 0 'pres' u09B2_u09CD.half u09AA
+Ligature: 0 1 'pres' u09B2_u09CD.half u09AA
 EndChar
 StartChar: u09B2_u09CD.half_u09AB.pres
-Encoding: 65781 -1 359
+Encoding: 65746 -1 362
 Width: 826
 GlyphClass: 2
 Flags: W
@@ -21511,10 +21595,10 @@ Fore
  570 -50 l 1,80,-1
  570 -50 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09B2_u09CD.half u09AB
+Ligature: 0 1 'pres' u09B2_u09CD.half u09AB
 EndChar
 StartChar: u09B2_u09AC_u09CD.blwf.blws
-Encoding: 65782 -1 360
+Encoding: 65747 -1 363
 Width: 528
 GlyphClass: 2
 Flags: W
@@ -21574,10 +21658,10 @@ Fore
  369 89 369 89 398 60 c 1,65,-1
  398 60 l 1,58,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09B2 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09B2 u09AC_u09CD.blwf
 EndChar
 StartChar: u09B2_u09CD.half_u09AE.pres
-Encoding: 65783 -1 361
+Encoding: 65748 -1 364
 Width: 681
 GlyphClass: 2
 Flags: W
@@ -21641,10 +21725,10 @@ Fore
  532 98 532 98 551 65 c 1,71,-1
  551 65 l 1,65,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09B2_u09CD.half u09AE
+Ligature: 0 1 'pres' u09B2_u09CD.half u09AE
 EndChar
 StartChar: u09B2_u09B0_u09CD.blwf.vatu
-Encoding: 65784 -1 362
+Encoding: 65749 -1 365
 Width: 606
 GlyphClass: 2
 Flags: W
@@ -21666,7 +21750,7 @@ Fore
  363 70 363 70 409 70 c 0,16,17
  431 70 431 70 448 64.5 c 128,-1,18
  465 59 465 59 476 48 c 1,19,-1
- 476 260 l 2,20,21
+ 476 260 l 1,20,21
  465 300 465 300 443 325 c 128,-1,22
  421 350 421 350 396 350 c 256,23,24
  371 350 371 350 353.5 326.5 c 128,-1,25
@@ -21706,10 +21790,10 @@ Fore
  476 0 l 1,71,-1
  476 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'vatu' u09B2 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09B2 u09B0_u09CD.blwf
 EndChar
 StartChar: u09B2_u09CD.half_u09B2.pres
-Encoding: 65785 -1 363
+Encoding: 65750 -1 366
 Width: 547
 GlyphClass: 2
 Flags: W
@@ -21786,10 +21870,10 @@ Fore
  275 174 275 174 287 140 c 1,91,-1
  287 140 l 1,56,57
 EndSplineSet
-Ligature: 0 0 'pres' u09B2_u09CD.half u09B2
+Ligature: 0 1 'pres' u09B2_u09CD.half u09B2
 EndChar
 StartChar: u09B6_afii61664_u09C1.blws
-Encoding: 65786 -1 364
+Encoding: 65751 -1 367
 Width: 662
 GlyphClass: 2
 Flags: W
@@ -21843,7 +21927,7 @@ Fore
  115 337 115 337 133.5 364.5 c 128,-1,58
  152 392 152 392 185 420 c 1,59,60
  173 436 173 436 151 448 c 128,-1,61
- 129 460 129 460 100 465 c 2,62,-1
+ 129 460 129 460 100 465 c 1,62,-1
  -10 465 l 1,63,-1
  -10 500 l 1,64,-1
  80 500 l 2,65,66
@@ -21865,11 +21949,11 @@ Fore
  461 -10 461 -10 370 -10 c 1,89,-1
  370 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u09B6 u09C1
-Ligature: 0 0 'blws' u09B6 afii61664 u09C1
+Ligature: 0 1 'blws' u09B6 u09C1
+Ligature: 0 1 'blws' u09B6 afii61664 u09C1
 EndChar
 StartChar: u09B6_u09CD.half_u099A.pres
-Encoding: 65787 -1 365
+Encoding: 65752 -1 368
 Width: 610
 GlyphClass: 2
 Flags: W
@@ -21934,10 +22018,10 @@ Fore
  361 80 361 80 378 80 c 1,68,-1
  378 80 l 1,58,59
 EndSplineSet
-Ligature: 0 0 'pres' u09B6_u09CD.half u099A
+Ligature: 0 1 'pres' u09B6_u09CD.half u099A
 EndChar
 StartChar: u09B6_u09CD.half_u099B.pres
-Encoding: 65788 -1 366
+Encoding: 65753 -1 369
 Width: 712
 GlyphClass: 2
 Flags: W
@@ -21965,7 +22049,7 @@ Fore
  424 170 424 170 397 170 c 0,19,20
  366 170 366 170 344 193.5 c 128,-1,21
  322 217 322 217 322 250 c 2,22,-1
- 322 390 l 2,23,24
+ 322 390 l 1,23,24
  313 425 313 425 286.5 447.5 c 128,-1,25
  260 470 260 470 227 470 c 0,26,27
  204 470 204 470 183 458 c 128,-1,28
@@ -22019,10 +22103,10 @@ Fore
  383 210 383 210 397 210 c 1,93,-1
  397 210 l 1,83,84
 EndSplineSet
-Ligature: 0 0 'pres' u09B6_u09CD.half u099B
+Ligature: 0 1 'pres' u09B6_u09CD.half u099B
 EndChar
 StartChar: u09B6_u09CD.half_u09A4.pres
-Encoding: 65789 -1 367
+Encoding: 65754 -1 370
 Width: 572
 GlyphClass: 2
 Flags: W
@@ -22097,10 +22181,10 @@ Fore
  -10 465 l 1,84,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09B6_u09CD.half u09A4
+Ligature: 0 1 'pres' u09B6_u09CD.half u09A4
 EndChar
 StartChar: u09B6_u09CD.half_u09A8.pres
-Encoding: 65790 -1 368
+Encoding: 65755 -1 371
 Width: 484
 GlyphClass: 2
 Flags: W
@@ -22122,7 +22206,7 @@ Fore
  133 200 133 200 179 200 c 0,15,16
  232 200 232 200 279 172 c 128,-1,17
  326 144 326 144 354 95 c 1,18,-1
- 354 365 l 2,19,20
+ 354 365 l 1,19,20
  342 409 342 409 311.5 437 c 128,-1,21
  281 465 281 465 244 465 c 0,22,23
  219 465 219 465 197.5 453 c 128,-1,24
@@ -22160,10 +22244,10 @@ Fore
  354 0 l 1,66,-1
  354 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09B6_u09CD.half u09A8
+Ligature: 0 1 'pres' u09B6_u09CD.half u09A8
 EndChar
 StartChar: u09B6_u09CD.half_u09AE.pres
-Encoding: 65791 -1 369
+Encoding: 65756 -1 372
 Width: 599
 GlyphClass: 2
 Flags: W
@@ -22181,7 +22265,7 @@ Fore
  224 87 224 87 224 110 c 256,9,10
  224 133 224 133 246.5 148 c 128,-1,11
  269 163 269 163 299 160 c 1,12,-1
- 299 380 l 2,13,14
+ 299 380 l 1,13,14
  290 415 290 415 266 437.5 c 128,-1,15
  242 460 242 460 214 460 c 0,16,17
  191 460 191 460 171 448 c 128,-1,18
@@ -22226,10 +22310,10 @@ Fore
  448 95 448 95 469 65 c 1,67,-1
  469 65 l 1,61,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09B6_u09CD.half u09AE
+Ligature: 0 1 'pres' u09B6_u09CD.half u09AE
 EndChar
 StartChar: u09B6_u09AC_u09CD.blwf.blws
-Encoding: 65792 -1 370
+Encoding: 65757 -1 373
 Width: 439
 GlyphClass: 2
 Flags: W
@@ -22289,10 +22373,10 @@ Fore
  287 97 287 97 309 65 c 1,63,-1
  309 65 l 1,56,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09B6 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09B6 u09AC_u09CD.blwf
 EndChar
 StartChar: u09B6_u09B0_u09CD.blwf.vatu
-Encoding: 65793 -1 371
+Encoding: 65758 -1 374
 Width: 559
 GlyphClass: 2
 Flags: W
@@ -22357,10 +22441,10 @@ Fore
  429 0 l 1,73,-1
  429 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'vatu' u09B6 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09B6 u09B0_u09CD.blwf
 EndChar
 StartChar: u09B6_u09B0_u09CD.blwf.vatu_u09C0.psts
-Encoding: 65794 -1 372
+Encoding: 65759 -1 375
 Width: 800
 GlyphClass: 2
 Flags: W
@@ -22451,10 +22535,10 @@ Fore
  496 500 l 1,108,-1
  496 500 l 1,91,-1
 EndSplineSet
-Ligature: 0 0 'psts' u09B6_u09B0_u09CD.blwf.vatu u09C0
+Ligature: 0 1 'psts' u09B6_u09B0_u09CD.blwf.vatu u09C0
 EndChar
 StartChar: u09B6_u09B0_u09CD.blwf.vatu_u09C1.blws
-Encoding: 65795 -1 373
+Encoding: 65760 -1 376
 Width: 755
 GlyphClass: 2
 Flags: W
@@ -22484,7 +22568,7 @@ Fore
  311 115 311 115 337 115 c 0,22,23
  379 115 379 115 413 102 c 128,-1,24
  447 89 447 89 467 65 c 1,25,-1
- 467 375 l 2,26,27
+ 467 375 l 1,26,27
  460 414 460 414 430.5 439.5 c 128,-1,28
  401 465 401 465 362 465 c 0,29,30
  341 465 341 465 317.5 450.5 c 128,-1,31
@@ -22518,7 +22602,7 @@ Fore
  765 500 l 1,69,-1
  765 465 l 1,70,-1
  507 465 l 1,71,-1
- 507 295 l 2,72,73
+ 507 295 l 1,72,73
  514 258 514 258 542 234 c 128,-1,74
  570 210 570 210 607 210 c 0,75,76
  638 210 638 210 660 230.5 c 128,-1,77
@@ -22541,10 +22625,10 @@ Fore
  467 0 l 1,101,-1
  467 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u09B6_u09B0_u09CD.blwf.vatu u09C1
+Ligature: 0 1 'blws' u09B6_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09B6_u09B0_u09CD.blwf.vatu_u09C2.blws
-Encoding: 65796 -1 374
+Encoding: 65761 -1 377
 Width: 737
 GlyphClass: 2
 Flags: W
@@ -22574,7 +22658,7 @@ Fore
  321 110 321 110 345 110 c 0,22,23
  382 110 382 110 415 95.5 c 128,-1,24
  448 81 448 81 470 55 c 1,25,-1
- 470 365 l 2,26,27
+ 470 365 l 1,26,27
  462 408 462 408 432.5 436.5 c 128,-1,28
  403 465 403 465 365 465 c 0,29,30
  342 465 342 465 318.5 452 c 128,-1,31
@@ -22630,10 +22714,10 @@ Fore
  470 0 l 1,99,-1
  470 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u09B6_u09B0_u09CD.blwf.vatu u09C2
+Ligature: 0 1 'blws' u09B6_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09B6_u09CD.half_u09B2.pres
-Encoding: 65797 -1 375
+Encoding: 65762 -1 378
 Width: 502
 GlyphClass: 2
 Flags: W
@@ -22709,10 +22793,10 @@ Fore
  372 0 l 1,89,-1
  372 0 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09B6_u09CD.half u09B2
+Ligature: 0 1 'pres' u09B6_u09CD.half u09B2
 EndChar
 StartChar: u09B7_u09CD.half_u0995.pres
-Encoding: 65798 -1 376
+Encoding: 65763 -1 379
 Width: 514
 GlyphClass: 2
 Flags: W
@@ -22777,16 +22861,16 @@ Fore
  295 315 295 315 315 338 c 128,-1,66
  335 361 335 361 335 390 c 0,67,68
  335 418 335 418 316.5 439 c 128,-1,69
- 298 460 298 460 270 465 c 2,70,-1
+ 298 460 298 460 270 465 c 1,70,-1
  205 465 l 1,71,72
  223 452 223 452 238.5 412 c 128,-1,73
  254 372 254 372 265 310 c 1,74,-1
  265 310 l 1,64,65
 EndSplineSet
-Ligature: 0 0 'pres' u09B7_u09CD.half u0995
+Ligature: 0 1 'pres' u09B7_u09CD.half u0995
 EndChar
 StartChar: u09B7_u09CD.half_u0995_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65799 -1 377
+Encoding: 65764 -1 380
 Width: 689
 GlyphClass: 2
 Flags: W
@@ -22884,10 +22968,10 @@ Fore
  267 305 l 1,116,-1
  267 305 l 1,108,109
 EndSplineSet
-Ligature: 0 0 'pres' u09B7_u09CD.half u0995_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09B7_u09CD.half u0995_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09B7_u09CD.half_u099F.pres
-Encoding: 65800 -1 378
+Encoding: 65765 -1 381
 Width: 461
 GlyphClass: 2
 Flags: W
@@ -22938,7 +23022,7 @@ Fore
  195 30 195 30 251 30 c 0,52,53
  300 30 300 30 335.5 46.5 c 128,-1,54
  371 63 371 63 381 90 c 1,55,-1
- 363 87 l 2,56,57
+ 363 87 l 1,56,57
  341 87 341 87 326 101 c 128,-1,58
  311 115 311 115 311 135 c 0,59,60
  311 158 311 158 328.5 174 c 128,-1,61
@@ -22972,10 +23056,10 @@ Fore
  238 331 238 331 251 295 c 1,98,-1
  251 295 l 1,85,86
 EndSplineSet
-Ligature: 0 0 'pres' u09B7_u09CD.half u099F
+Ligature: 0 1 'pres' u09B7_u09CD.half u099F
 EndChar
 StartChar: u09B7_u09CD.half_u099F_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65801 -1 379
+Encoding: 65766 -1 382
 Width: 490
 GlyphClass: 2
 Flags: W
@@ -23081,10 +23165,10 @@ Fore
  305 335 305 335 318 300 c 1,128,-1
  318 300 l 1,115,116
 EndSplineSet
-Ligature: 0 0 'pres' u09B7_u09CD.half u099F_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09B7_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09B7_u09CD.half_u09A0.pres
-Encoding: 65802 -1 380
+Encoding: 65767 -1 383
 Width: 501
 GlyphClass: 2
 Flags: W
@@ -23155,10 +23239,10 @@ Fore
  265 325 l 1,72,-1
  265 325 l 1,64,65
 EndSplineSet
-Ligature: 0 0 'pres' u09B7_u09CD.half u09A0
+Ligature: 0 1 'pres' u09B7_u09CD.half u09A0
 EndChar
 StartChar: u09B7_u09CD.half_u09A3.pres
-Encoding: 65803 -1 381
+Encoding: 65768 -1 384
 Width: 668
 GlyphClass: 2
 Flags: W
@@ -23230,10 +23314,10 @@ Fore
  307 290 l 1,73,-1
  307 290 l 1,70,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09B7_u09CD.half u09A3
+Ligature: 0 1 'pres' u09B7_u09CD.half u09A3
 EndChar
 StartChar: u09B7_u09CD.half_u09AA.pres
-Encoding: 65804 -1 382
+Encoding: 65769 -1 385
 Width: 837
 GlyphClass: 2
 Flags: W
@@ -23243,7 +23327,7 @@ TtfInstrs: 63
 EndTtf
 Fore
 707 0 m 1,0,-1
- 707 335 l 2,1,2
+ 707 335 l 1,1,2
  704 352 704 352 691 363.5 c 128,-1,3
  678 375 678 375 662 375 c 1,4,5
  608 350 608 350 559.5 308 c 128,-1,6
@@ -23306,10 +23390,10 @@ Fore
  272 320 l 1,77,-1
  272 320 l 1,69,70
 EndSplineSet
-Ligature: 0 0 'pres' u09B7_u09CD.half u09AA
+Ligature: 0 1 'pres' u09B7_u09CD.half u09AA
 EndChar
 StartChar: u09B7_u09CD.half_u09AA_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65805 -1 383
+Encoding: 65770 -1 386
 Width: 835
 GlyphClass: 2
 Flags: W
@@ -23342,7 +23426,7 @@ Fore
  605 375 605 375 559.5 331 c 128,-1,31
  514 287 514 287 470 210 c 1,32,-1
  435 230 l 1,33,-1
- 465 275 l 2,34,35
+ 465 275 l 1,34,35
  492 298 492 298 466 331.5 c 128,-1,36
  440 365 440 365 395 365 c 0,37,38
  381 365 381 365 362.5 345 c 128,-1,39
@@ -23403,10 +23487,10 @@ Fore
  219 354 219 354 250 310 c 1,109,-1
  250 310 l 1,99,100
 EndSplineSet
-Ligature: 0 0 'pres' u09B7_u09CD.half u09AA_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09B7_u09CD.half u09AA_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09B7_u09CD.half_u09AB.pres
-Encoding: 65806 -1 384
+Encoding: 65771 -1 387
 Width: 689
 GlyphClass: 2
 Flags: W
@@ -23476,10 +23560,10 @@ Fore
  276 310 l 1,71,-1
  276 310 l 1,63,64
 EndSplineSet
-Ligature: 0 0 'pres' u09B7_u09CD.half u09AB
+Ligature: 0 1 'pres' u09B7_u09CD.half u09AB
 EndChar
 StartChar: u09B7_u09B0_u09CD.blwf.vatu
-Encoding: 65807 -1 385
+Encoding: 65772 -1 388
 Width: 487
 GlyphClass: 2
 Flags: W
@@ -23527,10 +23611,10 @@ Fore
  357 295 l 1,43,-1
  357 295 l 1,40,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u09B7 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09B7 u09B0_u09CD.blwf
 EndChar
 StartChar: u09B7_u09AC_u09CD.blwf.blws
-Encoding: 65808 -1 386
+Encoding: 65773 -1 389
 Width: 406
 GlyphClass: 2
 Flags: W
@@ -23589,10 +23673,10 @@ Fore
  239 371 239 371 259 315 c 1,56,-1
  259 315 l 1,46,47
 EndSplineSet
-Ligature: 0 0 'blws' u09B7 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09B7 u09AC_u09CD.blwf
 EndChar
 StartChar: u09B7_u09CD.half_u09AE.pres
-Encoding: 65809 -1 387
+Encoding: 65774 -1 390
 Width: 544
 GlyphClass: 2
 Flags: W
@@ -23657,10 +23741,10 @@ Fore
  230 362 230 362 259 300 c 1,70,-1
  259 300 l 1,60,61
 EndSplineSet
-Ligature: 0 0 'pres' u09B7_u09CD.half u09AE
+Ligature: 0 1 'pres' u09B7_u09CD.half u09AE
 EndChar
 StartChar: u09B8_u09CD.half_u0995.pres
-Encoding: 65810 -1 388
+Encoding: 65775 -1 391
 Width: 554
 GlyphClass: 2
 Flags: W
@@ -23731,10 +23815,10 @@ Fore
  303 341 303 341 348 345 c 1,75,-1
  348 345 l 1,65,66
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u0995
+Ligature: 0 1 'pres' u09B8_u09CD.half u0995
 EndChar
 StartChar: u09B8_u09CD.half_u0995_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65811 -1 389
+Encoding: 65776 -1 392
 Width: 681
 GlyphClass: 2
 Flags: W
@@ -23832,10 +23916,10 @@ Fore
  327 370 327 370 367 370 c 1,118,-1
  367 370 l 1,108,109
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u0995_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09B8_u09CD.half u0995_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: glyph391
-Encoding: 65812 -1 390
+Encoding: 65777 -1 393
 Width: 684
 GlyphClass: 2
 Flags: W
@@ -23961,7 +24045,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09B8_u09CD.half_u0996.pres
-Encoding: 65813 -1 391
+Encoding: 65778 -1 394
 Width: 646
 GlyphClass: 2
 Flags: W
@@ -24041,10 +24125,10 @@ Fore
  309 360 309 360 336 360 c 1,91,-1
  336 360 l 1,81,82
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u0996
+Ligature: 0 1 'pres' u09B8_u09CD.half u0996
 EndChar
 StartChar: u09B8_u09CD.half_u099F.pres
-Encoding: 65814 -1 392
+Encoding: 65779 -1 395
 Width: 698
 GlyphClass: 2
 Flags: W
@@ -24069,7 +24153,7 @@ Fore
  57 223 57 223 74 206.5 c 128,-1,16
  91 190 91 190 110 190 c 0,17,18
  126 190 126 190 141 205 c 128,-1,19
- 156 220 156 220 165 245 c 0,20,21
+ 156 220 156 220 165 245 c 1,20,21
  167 269 167 269 177.5 290 c 128,-1,22
  188 311 188 311 205 325 c 1,23,24
  172 381 172 381 144.5 417 c 128,-1,25
@@ -24130,10 +24214,10 @@ Fore
  271 350 271 350 280 350 c 1,100,-1
  280 350 l 1,89,90
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u099F
+Ligature: 0 1 'pres' u09B8_u09CD.half u099F
 EndChar
 StartChar: u09B8_u09CD.half_u099F_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65815 -1 393
+Encoding: 65780 -1 396
 Width: 583
 GlyphClass: 2
 Flags: W
@@ -24192,7 +24276,7 @@ Fore
  337 30 337 30 376 30 c 0,62,63
  414 30 414 30 444.5 49 c 128,-1,64
  475 68 475 68 486 100 c 1,65,-1
- 468 97 l 2,66,67
+ 468 97 l 1,66,67
  446 97 446 97 431 111 c 128,-1,68
  416 125 416 125 416 145 c 0,69,70
  416 166 416 166 432 180.5 c 128,-1,71
@@ -24236,10 +24320,10 @@ Fore
  359 335 359 335 401 335 c 1,123,-1
  401 335 l 1,113,114
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u099F_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09B8_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: glyph395
-Encoding: 65816 -1 394
+Encoding: 65781 -1 397
 Width: 688
 GlyphClass: 2
 Flags: W
@@ -24370,7 +24454,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09B8_u09CD.half_u09A4.pres
-Encoding: 65817 -1 395
+Encoding: 65782 -1 398
 Width: 553
 GlyphClass: 2
 Flags: W
@@ -24392,7 +24476,7 @@ Fore
  462 201 462 201 430 230.5 c 128,-1,12
  398 260 398 260 352 260 c 0,13,14
  324 260 324 260 304.5 242.5 c 128,-1,15
- 285 225 285 225 285 200 c 2,16,-1
+ 285 225 285 225 285 200 c 1,16,-1
  287 190 l 1,17,18
  291 193 291 193 298.5 194.5 c 128,-1,19
  306 196 306 196 315 196 c 0,20,21
@@ -24441,10 +24525,10 @@ Fore
  310 350 310 350 352 350 c 1,77,-1
  352 350 l 1,67,68
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u09A4
+Ligature: 0 1 'pres' u09B8_u09CD.half u09A4
 EndChar
 StartChar: u09B8_u09CD.half_u09A4.pres_u09C1.blws
-Encoding: 65818 -1 396
+Encoding: 65783 -1 399
 Width: 603
 GlyphClass: 2
 Flags: W
@@ -24526,10 +24610,10 @@ Fore
  329 360 329 360 376 360 c 1,96,-1
  376 360 l 1,86,87
 EndSplineSet
-Ligature: 0 0 'blws' u09B8_u09CD.half_u09A4.pres u09C1
+Ligature: 0 1 'blws' u09B8_u09CD.half_u09A4.pres u09C1
 EndChar
 StartChar: u09B8_u09CD.half_u09A4_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65819 -1 397
+Encoding: 65784 -1 400
 Width: 529
 GlyphClass: 2
 Flags: W
@@ -24602,10 +24686,10 @@ Fore
  331 350 331 350 366 350 c 1,81,-1
  366 350 l 1,71,72
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09B8_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09B8_u09CD.half_u09A4_u09AC_u09CD.blwf.pres
-Encoding: 65820 -1 398
+Encoding: 65785 -1 401
 Width: 576
 GlyphClass: 2
 Flags: W
@@ -24679,16 +24763,16 @@ Fore
  402 350 402 350 425.5 364.5 c 128,-1,81
  449 379 449 379 449 400 c 0,82,83
  449 424 449 424 435 442.5 c 128,-1,84
- 421 461 421 461 399 465 c 2,85,-1
+ 421 461 421 461 399 465 c 1,85,-1
  239 465 l 1,86,87
  248 415 248 415 284.5 382.5 c 128,-1,88
  321 350 321 350 369 350 c 1,89,-1
  369 350 l 1,79,80
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u09A4 u09AC_u09CD.blwf
+Ligature: 0 1 'pres' u09B8_u09CD.half u09A4 u09AC_u09CD.blwf
 EndChar
 StartChar: u09B8_u09CD.half_u09A5.pres
-Encoding: 65821 -1 399
+Encoding: 65786 -1 402
 Width: 509
 GlyphClass: 2
 Flags: W
@@ -24757,10 +24841,10 @@ Fore
  283 345 283 345 327 345 c 1,76,-1
  327 345 l 1,66,67
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u09A5
+Ligature: 0 1 'pres' u09B8_u09CD.half u09A5
 EndChar
 StartChar: u09B8_u09CD.half_u09A8.pres
-Encoding: 65822 -1 400
+Encoding: 65787 -1 403
 Width: 487
 GlyphClass: 2
 Flags: W
@@ -24818,10 +24902,10 @@ Fore
  318 345 318 345 359 345 c 1,59,-1
  359 345 l 1,49,50
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u09A8
+Ligature: 0 1 'pres' u09B8_u09CD.half u09A8
 EndChar
 StartChar: u09B8_u09CD.half_u09AA.pres
-Encoding: 65823 -1 401
+Encoding: 65788 -1 404
 Width: 882
 GlyphClass: 2
 Flags: W
@@ -24897,10 +24981,10 @@ Fore
  283 370 283 370 327 370 c 1,84,-1
  327 370 l 1,74,75
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u09AA
+Ligature: 0 1 'pres' u09B8_u09CD.half u09AA
 EndChar
 StartChar: u09B8_u09CD.half_u09AA_u09B0_u09CD.blwf.vatu.pres
-Encoding: 65824 -1 402
+Encoding: 65789 -1 405
 Width: 884
 GlyphClass: 2
 Flags: W
@@ -24929,7 +25013,7 @@ Fore
  682 400 682 400 634.5 357.5 c 128,-1,25
  587 315 587 315 534 240 c 1,26,-1
  504 260 l 1,27,-1
- 529 295 l 2,28,29
+ 529 295 l 1,28,29
  540 326 540 326 519.5 353 c 128,-1,30
  499 380 499 380 464 380 c 0,31,32
  454 380 454 380 439 365 c 128,-1,33
@@ -24989,10 +25073,10 @@ Fore
  297 370 297 370 329 370 c 1,103,-1
  329 370 l 1,93,94
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u09AA_u09B0_u09CD.blwf.vatu
+Ligature: 0 1 'pres' u09B8_u09CD.half u09AA_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: glyph404
-Encoding: 65825 -1 403
+Encoding: 65790 -1 406
 Width: 884
 GlyphClass: 2
 Flags: W
@@ -25052,7 +25136,7 @@ Fore
  692 400 692 400 640 357.5 c 128,-1,66
  588 315 588 315 535 240 c 1,67,-1
  504 260 l 1,68,-1
- 534 305 l 2,69,70
+ 534 305 l 1,69,70
  544 332 544 332 520 356 c 128,-1,71
  496 380 496 380 459 380 c 0,72,73
  449 380 449 380 436.5 365 c 128,-1,74
@@ -25108,7 +25192,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09B8_u09CD.half_u09AA_u09CD.half_u09B2.pres
-Encoding: 65826 -1 404
+Encoding: 65791 -1 407
 Width: 882
 GlyphClass: 2
 Flags: W
@@ -25212,10 +25296,10 @@ Fore
  283 370 283 370 327 370 c 1,125,-1
  327 370 l 1,115,116
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u09AA_u09CD.half u09B2
+Ligature: 0 1 'pres' u09B8_u09CD.half u09AA_u09CD.half u09B2
 EndChar
 StartChar: u09B8_u09CD.half_u09AB.pres
-Encoding: 65827 -1 405
+Encoding: 65792 -1 408
 Width: 803
 GlyphClass: 2
 Flags: W
@@ -25288,10 +25372,10 @@ Fore
  292 360 292 360 326 360 c 1,78,-1
  326 360 l 1,68,69
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u09AB
+Ligature: 0 1 'pres' u09B8_u09CD.half u09AB
 EndChar
 StartChar: u09B8_u09AC_u09CD.blwf.blws
-Encoding: 65828 -1 406
+Encoding: 65793 -1 409
 Width: 468
 GlyphClass: 2
 Flags: W
@@ -25349,10 +25433,10 @@ Fore
  306 350 306 350 339 350 c 1,56,-1
  339 350 l 1,46,47
 EndSplineSet
-Ligature: 0 0 'blws' u09B8 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09B8 u09AC_u09CD.blwf
 EndChar
 StartChar: u09B8_u09CD.half_u09AE.pres
-Encoding: 65829 -1 407
+Encoding: 65794 -1 410
 Width: 697
 GlyphClass: 2
 Flags: W
@@ -25372,7 +25456,7 @@ Fore
  417 183 l 1,13,14
  416 217 416 217 406 250.5 c 128,-1,15
  396 284 396 284 377 313 c 1,16,-1
- 357 310 l 2,17,18
+ 357 310 l 1,17,18
  322 310 322 310 289 332 c 128,-1,19
  256 354 256 354 234 393 c 1,20,21
  228 357 228 357 197.5 333.5 c 128,-1,22
@@ -25414,10 +25498,10 @@ Fore
  540 127 540 127 567 95 c 1,66,-1
  567 95 l 1,52,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u09AE
+Ligature: 0 1 'pres' u09B8_u09CD.half u09AE
 EndChar
 StartChar: u09B8_u09B0_u09CD.blwf.vatu
-Encoding: 65830 -1 408
+Encoding: 65795 -1 411
 Width: 570
 GlyphClass: 2
 Flags: W
@@ -25476,10 +25560,10 @@ Fore
  376 320 376 320 417 320 c 1,60,-1
  417 320 l 1,50,51
 EndSplineSet
-Ligature: 0 0 'vatu' u09B8 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09B8 u09B0_u09CD.blwf
 EndChar
 StartChar: u09B8_u09B0_u09CD.blwf.vatu_u09C1.blws
-Encoding: 65831 -1 409
+Encoding: 65796 -1 412
 Width: 729
 GlyphClass: 2
 Flags: W
@@ -25559,10 +25643,10 @@ Fore
  351 325 351 325 405 325 c 1,91,-1
  405 325 l 1,81,82
 EndSplineSet
-Ligature: 0 0 'blws' u09B8_u09B0_u09CD.blwf.vatu u09C1
+Ligature: 0 1 'blws' u09B8_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09B8_u09B0_u09CD.blwf.vatu_u09C2.blws
-Encoding: 65832 -1 410
+Encoding: 65797 -1 413
 Width: 680
 GlyphClass: 2
 Flags: W
@@ -25639,10 +25723,10 @@ Fore
  369 320 369 320 419 320 c 1,86,-1
  419 320 l 1,76,77
 EndSplineSet
-Ligature: 0 0 'blws' u09B8_u09B0_u09CD.blwf.vatu u09C2
+Ligature: 0 1 'blws' u09B8_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09B8_u09CD.half_u09B2.pres
-Encoding: 65833 -1 411
+Encoding: 65798 -1 414
 Width: 507
 GlyphClass: 2
 Flags: W
@@ -25715,10 +25799,10 @@ Fore
  367 327 367 327 377 315 c 1,83,-1
  377 315 l 1,75,-1
 EndSplineSet
-Ligature: 0 0 'pres' u09B8_u09CD.half u09B2
+Ligature: 0 1 'pres' u09B8_u09CD.half u09B2
 EndChar
 StartChar: u09B9_u09C1.blws
-Encoding: 65834 -1 412
+Encoding: 65799 -1 415
 Width: 491
 GlyphClass: 2
 Flags: W
@@ -25776,10 +25860,10 @@ Fore
  -10 465 l 1,60,-1
  -10 465 l 1,56,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09B9 u09C1
+Ligature: 0 1 'blws' u09B9 u09C1
 EndChar
 StartChar: u09B9_u09C3.blws
-Encoding: 65835 -1 413
+Encoding: 65800 -1 416
 Width: 575
 GlyphClass: 2
 Flags: W
@@ -25840,10 +25924,10 @@ Fore
  399 -100 l 1,66,-1
  399 -100 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u09B9 u09C3
+Ligature: 0 1 'blws' u09B9 u09C3
 EndChar
 StartChar: u09B9_u09CD.half_u09A3.pres
-Encoding: 65836 -1 414
+Encoding: 65801 -1 417
 Width: 401
 GlyphClass: 2
 Flags: W
@@ -25907,10 +25991,10 @@ Fore
  257 -80 l 1,69,-1
  257 -80 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09B9_u09CD.half u09A3
+Ligature: 0 1 'pres' u09B9_u09CD.half u09A3
 EndChar
 StartChar: u09B9_u09CD.half_u09A8.pres
-Encoding: 65837 -1 415
+Encoding: 65802 -1 418
 Width: 572
 GlyphClass: 2
 Flags: W
@@ -25974,16 +26058,16 @@ Fore
  352 -105 l 1,71,-1
  352 -105 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09B9_u09CD.half u09A8
+Ligature: 0 1 'pres' u09B9_u09CD.half u09A8
 EndChar
 StartChar: u09B9_u09AC_u09CD.blwf.blws
-Encoding: 65838 -1 416
+Encoding: 65803 -1 419
 Width: 404
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" 610 -50 basechar 0
-AnchorPoint: "Anchor-1" 606 -50 basechar 0
 AnchorPoint: "Anchor-2" 605 -49 basechar 0
+AnchorPoint: "Anchor-1" 606 -50 basechar 0
+AnchorPoint: "Anchor-0" 610 -50 basechar 0
 Fore
 588 0 m 1,0,1
  559 79 559 79 489.5 134 c 128,-1,2
@@ -26007,44 +26091,43 @@ Fore
  423 229 423 229 482.5 187 c 128,-1,22
  542 145 542 145 588 80 c 1,23,-1
  588 80 l 1,16,-1
-399 -95 m 1,0,1
- 348 -7 348 -7 255.5 44 c 128,-1,2
- 163 95 163 95 54 95 c 1,3,-1
- 34 145 l 1,4,-1
- 69 140 l 2,5,6
- 166 140 166 140 235 172 c 128,-1,7
- 304 204 304 204 304 250 c 0,8,9
- 304 293 304 293 267.5 324 c 128,-1,10
- 231 355 231 355 179 355 c 1,11,12
- 179 320 179 320 152.5 295 c 128,-1,13
- 126 270 126 270 89 270 c 0,14,15
- 64 270 64 270 46.5 284.5 c 128,-1,16
- 29 299 29 299 29 320 c 0,17,18
- 29 348 29 348 59 369.5 c 128,-1,19
- 89 391 89 391 134 395 c 1,20,21
- 132 422 132 422 126.5 440 c 128,-1,22
- 121 458 121 458 114 465 c 1,23,-1
- -10 465 l 1,24,-1
- -10 500 l 1,25,-1
- 414 500 l 1,26,-1
- 414 465 l 1,27,-1
- 159 465 l 1,28,29
- 164 456 164 456 169.5 438 c 128,-1,30
- 175 420 175 420 179 395 c 1,31,32
- 249 389 249 389 296.5 347 c 128,-1,33
- 344 305 344 305 344 250 c 0,34,35
- 344 204 344 204 298.5 165.5 c 128,-1,36
- 253 127 253 127 184 115 c 1,37,38
- 265 93 265 93 331 42.5 c 128,-1,39
- 397 -8 397 -8 439 -80 c 1,40,-1
- 399 -95 l 1,41,-1
- 399 -95 l 1,0,1
+399 -95 m 1,24,25
+ 348 -7 348 -7 255.5 44 c 128,-1,26
+ 163 95 163 95 54 95 c 1,27,-1
+ 34 145 l 1,28,-1
+ 69 140 l 1,29,30
+ 166 140 166 140 235 172 c 128,-1,31
+ 304 204 304 204 304 250 c 0,32,33
+ 304 293 304 293 267.5 324 c 128,-1,34
+ 231 355 231 355 179 355 c 1,35,36
+ 179 320 179 320 152.5 295 c 128,-1,37
+ 126 270 126 270 89 270 c 0,38,39
+ 64 270 64 270 46.5 284.5 c 128,-1,40
+ 29 299 29 299 29 320 c 0,41,42
+ 29 348 29 348 59 369.5 c 128,-1,43
+ 89 391 89 391 134 395 c 1,44,45
+ 132 422 132 422 126.5 440 c 128,-1,46
+ 121 458 121 458 114 465 c 1,47,-1
+ -10 465 l 1,48,-1
+ -10 500 l 1,49,-1
+ 414 500 l 1,50,-1
+ 414 465 l 1,51,-1
+ 159 465 l 1,52,53
+ 164 456 164 456 169.5 438 c 128,-1,54
+ 175 420 175 420 179 395 c 1,55,56
+ 249 389 249 389 296.5 347 c 128,-1,57
+ 344 305 344 305 344 250 c 0,58,59
+ 344 204 344 204 298.5 165.5 c 128,-1,60
+ 253 127 253 127 184 115 c 1,61,62
+ 265 93 265 93 331 42.5 c 128,-1,63
+ 397 -8 397 -8 439 -80 c 1,64,-1
+ 399 -95 l 1,65,-1
+ 399 -95 l 1,24,25
 EndSplineSet
-LCarets: 0 65535 '    ' 1 0 
-Ligature: 0 0 'blws' u09B9 u09AC_u09CD.blwf
+Ligature: 0 1 'blws' u09B9 u09AC_u09CD.blwf
 EndChar
 StartChar: u09B9_u09CD.half_u09AE.pres
-Encoding: 65839 -1 417
+Encoding: 65804 -1 420
 Width: 625
 GlyphClass: 2
 Flags: W
@@ -26126,10 +26209,10 @@ Fore
  226 360 226 360 271 360 c 1,92,-1
  271 360 l 1,81,82
 EndSplineSet
-Ligature: 0 0 'pres' u09B9_u09CD.half u09AE
+Ligature: 0 1 'pres' u09B9_u09CD.half u09AE
 EndChar
 StartChar: u09B9_u09B0_u09CD.blwf.vatu
-Encoding: 65840 -1 418
+Encoding: 65805 -1 421
 Width: 493
 GlyphClass: 2
 Flags: W
@@ -26195,10 +26278,10 @@ Fore
  488 -100 l 1,72,-1
  488 -100 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'vatu' u09B9 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09B9 u09B0_u09CD.blwf
 EndChar
 StartChar: u09B9_u09CD.half_u09B2.pres
-Encoding: 65841 -1 419
+Encoding: 65806 -1 422
 Width: 433
 GlyphClass: 2
 Flags: W
@@ -26271,10 +26354,10 @@ Fore
  437 -100 l 1,82,-1
  437 -100 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'pres' u09B9_u09CD.half u09B2
+Ligature: 0 1 'pres' u09B9_u09CD.half u09B2
 EndChar
 StartChar: u09DC_u09CD.half_u0997.pres
-Encoding: 65842 -1 420
+Encoding: 65807 -1 423
 Width: 978
 GlyphClass: 2
 Flags: W
@@ -26284,7 +26367,7 @@ TtfInstrs: 82
 EndTtf
 Fore
 848 0 m 1,0,-1
- 848 310 l 2,1,2
+ 848 310 l 1,1,2
  836 377 836 377 791 421 c 128,-1,3
  746 465 746 465 688 465 c 0,4,5
  636 465 636 465 597.5 422 c 128,-1,6
@@ -26358,10 +26441,10 @@ Fore
  310 -130 310 -130 293 -130 c 1,95,-1
  293 -130 l 1,83,84
 EndSplineSet
-Ligature: 0 0 'pres' u09DC_u09CD.half u0997
+Ligature: 0 1 'pres' u09DC_u09CD.half u0997
 EndChar
 StartChar: u09DC_u09B0_u09CD.blwf.vatu
-Encoding: 65843 -1 421
+Encoding: 65808 -1 424
 Width: 557
 GlyphClass: 2
 Flags: W
@@ -26431,10 +26514,10 @@ Fore
  305 -85 305 -85 288 -85 c 1,76,-1
  288 -85 l 1,64,65
 EndSplineSet
-Ligature: 0 0 'vatu' u09DC u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09DC u09B0_u09CD.blwf
 EndChar
 StartChar: u09DD_u09B0_u09CD.blwf.vatu
-Encoding: 65844 -1 422
+Encoding: 65809 -1 425
 Width: 447
 GlyphClass: 2
 Flags: W
@@ -26463,7 +26546,7 @@ Fore
  348 350 348 350 364 332.5 c 128,-1,20
  380 315 380 315 380 290 c 0,21,22
  380 277 380 277 378.5 263.5 c 128,-1,23
- 377 250 377 250 374 237 c 2,24,-1
+ 377 250 377 250 374 237 c 1,24,-1
  374 -165 l 1,25,-1
  334 -165 l 1,26,27
  329 -145 329 -145 303.5 -132.5 c 128,-1,28
@@ -26498,10 +26581,10 @@ Fore
  192 -70 192 -70 175 -70 c 1,67,-1
  175 -70 l 1,55,56
 EndSplineSet
-Ligature: 0 0 'vatu' u09DD u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09DD u09B0_u09CD.blwf
 EndChar
 StartChar: u09DF_u09B0_u09CD.blwf.vatu
-Encoding: 65845 -1 423
+Encoding: 65810 -1 426
 Width: 510
 GlyphClass: 2
 Flags: W
@@ -26555,10 +26638,10 @@ Fore
  154 75 154 75 140 75 c 1,53,-1
  140 75 l 1,41,42
 EndSplineSet
-Ligature: 0 0 'vatu' u09DF u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09DF u09B0_u09CD.blwf
 EndChar
 StartChar: u09F0_u09C1.blws
-Encoding: 65846 -1 424
+Encoding: 65811 -1 427
 Width: 579
 GlyphClass: 2
 Flags: W
@@ -26620,10 +26703,10 @@ Fore
  258 132 258 132 298 75 c 1,62,-1
  298 75 l 1,52,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09F0 u09C1
+Ligature: 0 1 'blws' u09F0 u09C1
 EndChar
 StartChar: u09F0_u09C2.blws
-Encoding: 65847 -1 425
+Encoding: 65812 -1 428
 Width: 565
 GlyphClass: 2
 Flags: W
@@ -26684,10 +26767,10 @@ Fore
  254 132 254 132 294 75 c 1,60,-1
  294 75 l 1,50,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09F0 u09C2
+Ligature: 0 1 'blws' u09F0 u09C2
 EndChar
 StartChar: u09F1_u09C1.blws
-Encoding: 65848 -1 426
+Encoding: 65813 -1 429
 Width: 609
 GlyphClass: 2
 Flags: W
@@ -26748,10 +26831,10 @@ Fore
  281 139 281 139 322 80 c 1,60,-1
  322 80 l 1,53,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09F1 u09C1
+Ligature: 0 1 'blws' u09F1 u09C1
 EndChar
 StartChar: u09F1_u09C2.blws
-Encoding: 65849 -1 427
+Encoding: 65814 -1 430
 Width: 594
 GlyphClass: 2
 Flags: W
@@ -26811,10 +26894,10 @@ Fore
  280 136 280 136 323 75 c 1,58,-1
  323 75 l 1,51,-1
 EndSplineSet
-Ligature: 0 0 'blws' u09F1 u09C2
+Ligature: 0 1 'blws' u09F1 u09C2
 EndChar
 StartChar: u09F1_u09B0_u09CD.blwf.vatu
-Encoding: 65850 -1 428
+Encoding: 65815 -1 431
 Width: 488
 GlyphClass: 2
 Flags: W
@@ -26866,10 +26949,10 @@ Fore
  320 139 320 139 358 85 c 1,51,-1
  358 85 l 1,44,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u09F1 u09B0_u09CD.blwf
+Ligature: 0 1 'vatu' u09F1 u09B0_u09CD.blwf
 EndChar
 StartChar: glyph430
-Encoding: 65851 -1 429
+Encoding: 65816 -1 432
 Width: 220
 GlyphClass: 2
 Flags: W
@@ -26927,7 +27010,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0981_u09C0.abvs
-Encoding: 65852 -1 430
+Encoding: 65817 -1 433
 Width: 220
 GlyphClass: 2
 Flags: W
@@ -26989,10 +27072,10 @@ Fore
  202 697 202 697 187 697 c 1,64,-1
  187 697 l 1,52,53
 EndSplineSet
-Ligature: 0 0 'abvs' u0981 u09C0
+Ligature: 0 1 'abvs' u0981 u09C0
 EndChar
 StartChar: u0981_u09D7.abvs
-Encoding: 65853 -1 431
+Encoding: 65818 -1 434
 Width: 220
 GlyphClass: 2
 Flags: W
@@ -27052,10 +27135,10 @@ Fore
  172 680 172 680 158 680 c 1,62,-1
  158 680 l 1,50,51
 EndSplineSet
-Ligature: 0 0 'abvs' u0981 u09D7
+Ligature: 0 1 'abvs' u0981 u09D7
 EndChar
 StartChar: u09C7.init
-Encoding: 65854 -1 432
+Encoding: 65819 -1 435
 Width: 312
 GlyphClass: 2
 Flags: W
@@ -27087,7 +27170,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09C8.init
-Encoding: 65855 -1 433
+Encoding: 65820 -1 436
 Width: 311
 GlyphClass: 2
 Flags: W
@@ -27140,7 +27223,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09B0_u09CD.rphf
-Encoding: 65856 -1 434
+Encoding: 65821 -1 437
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -27156,11 +27239,11 @@ Fore
  -110 502 l 1,4,-1
  -110 502 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'rphf' u09F0 u09CD
-Ligature: 0 0 'rphf' u09B0 u09CD
+Ligature: 0 1 'rphf' u09F0 u09CD
+Ligature: 0 1 'rphf' u09B0 u09CD
 EndChar
 StartChar: u09B0_u09CD.blwf
-Encoding: 65857 -1 435
+Encoding: 65822 -1 438
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27185,11 +27268,11 @@ Fore
  -460 67 -460 67 -460 115 c 1,20,-1
  -460 115 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'blwf' u09F0 u09CD
-Ligature: 0 0 'blwf' u09B0 u09CD
+Ligature: 0 1 'blwf' u09F0 u09CD
+Ligature: 0 1 'blwf' u09B0 u09CD
 EndChar
 StartChar: glyph437
-Encoding: 65858 -1 436
+Encoding: 65823 -1 439
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27219,7 +27302,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: glyph438
-Encoding: 65859 -1 437
+Encoding: 65824 -1 440
 Width: 740
 GlyphClass: 2
 Flags: W
@@ -27242,7 +27325,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u0995_u09CD.half
-Encoding: 65860 -1 438
+Encoding: 65825 -1 441
 Width: 538
 GlyphClass: 2
 Flags: W
@@ -27297,11 +27380,11 @@ Fore
  480 -254 l 1,50,-1
  480 -254 l 1,46,-1
 EndSplineSet
-Ligature: 0 0 'haln' u0995 u09CD
-Ligature: 0 0 'half' u0995 u09CD
+Ligature: 0 1 'haln' u0995 u09CD
+Ligature: 0 1 'half' u0995 u09CD
 EndChar
 StartChar: u0996_u09CD.half
-Encoding: 65861 -1 439
+Encoding: 65826 -1 442
 Width: 505
 GlyphClass: 2
 Flags: W
@@ -27359,11 +27442,11 @@ Fore
  590 -254 l 1,56,-1
  590 -254 l 1,52,-1
 EndSplineSet
-Ligature: 0 0 'haln' u0996 u09CD
-Ligature: 0 0 'half' u0996 u09CD
+Ligature: 0 1 'haln' u0996 u09CD
+Ligature: 0 1 'half' u0996 u09CD
 EndChar
 StartChar: u0997_u09CD.half
-Encoding: 65862 -1 440
+Encoding: 65827 -1 443
 Width: 507
 GlyphClass: 2
 Flags: W
@@ -27376,7 +27459,7 @@ AnchorPoint: "Anchor-1" 398 0 basechar 0
 AnchorPoint: "Anchor-0" 402 -4 basechar 0
 Fore
 377 0 m 1,0,-1
- 377 320 l 2,1,2
+ 377 320 l 1,1,2
  360 384 360 384 314 424.5 c 128,-1,3
  268 465 268 465 212 465 c 0,4,5
  154 465 154 465 113 422.5 c 128,-1,6
@@ -27416,11 +27499,11 @@ Fore
  586 -254 l 1,48,-1
  586 -254 l 1,44,-1
 EndSplineSet
-Ligature: 0 0 'haln' u0997 u09CD
-Ligature: 0 0 'half' u0997 u09CD
+Ligature: 0 1 'haln' u0997 u09CD
+Ligature: 0 1 'half' u0997 u09CD
 EndChar
 StartChar: u0998_u09CD.half
-Encoding: 65863 -1 441
+Encoding: 65828 -1 444
 Width: 475
 GlyphClass: 2
 Flags: W
@@ -27456,7 +27539,7 @@ Fore
  75 360 75 360 97 342.5 c 128,-1,26
  119 325 119 325 150 325 c 0,27,28
  164 325 164 325 175 327.5 c 128,-1,29
- 186 330 186 330 195 335 c 2,30,-1
+ 186 330 186 330 195 335 c 1,30,-1
  235 370 l 1,31,-1
  260 340 l 1,32,-1
  115 210 l 1,33,34
@@ -27470,11 +27553,11 @@ Fore
  550 -254 l 1,41,-1
  550 -254 l 1,37,-1
 EndSplineSet
-Ligature: 0 0 'haln' u0998 u09CD
-Ligature: 0 0 'half' u0998 u09CD
+Ligature: 0 1 'haln' u0998 u09CD
+Ligature: 0 1 'half' u0998 u09CD
 EndChar
 StartChar: u0999_u09CD.half
-Encoding: 65864 -1 442
+Encoding: 65829 -1 445
 Width: 564
 GlyphClass: 2
 Flags: W
@@ -27496,7 +27579,7 @@ Fore
  478 200 478 200 463.5 225 c 128,-1,12
  449 250 449 250 428 250 c 0,13,14
  422 250 422 250 410.5 235.5 c 128,-1,15
- 399 221 399 221 388 210 c 0,16,17
+ 399 221 399 221 388 210 c 2,16,17
  373 189 373 189 353 177 c 128,-1,18
  333 165 333 165 313 165 c 0,19,20
  267 165 267 165 235 197 c 128,-1,21
@@ -27546,11 +27629,11 @@ Fore
  512 -254 l 1,80,-1
  512 -254 l 1,76,-1
 EndSplineSet
-Ligature: 0 0 'haln' u0999 u09CD
-Ligature: 0 0 'half' u0999 u09CD
+Ligature: 0 1 'haln' u0999 u09CD
+Ligature: 0 1 'half' u0999 u09CD
 EndChar
 StartChar: u099A_u09CD.half
-Encoding: 65865 -1 443
+Encoding: 65830 -1 446
 Width: 415
 GlyphClass: 2
 Flags: W
@@ -27596,11 +27679,11 @@ Fore
  358 -234 l 1,38,-1
  358 -234 l 1,34,-1
 EndSplineSet
-Ligature: 0 0 'haln' u099A u09CD
-Ligature: 0 0 'half' u099A u09CD
+Ligature: 0 1 'haln' u099A u09CD
+Ligature: 0 1 'half' u099A u09CD
 EndChar
 StartChar: u099B_u09CD.half
-Encoding: 65866 -1 444
+Encoding: 65831 -1 447
 Width: 466
 GlyphClass: 2
 Flags: W
@@ -27668,11 +27751,11 @@ Fore
  392 -234 l 1,70,-1
  392 -234 l 1,66,-1
 EndSplineSet
-Ligature: 0 0 'haln' u099B u09CD
-Ligature: 0 0 'half' u099B u09CD
+Ligature: 0 1 'haln' u099B u09CD
+Ligature: 0 1 'half' u099B u09CD
 EndChar
 StartChar: u099C_u09CD.half
-Encoding: 65867 -1 445
+Encoding: 65832 -1 448
 Width: 688
 GlyphClass: 2
 Flags: W
@@ -27740,11 +27823,11 @@ Fore
  797 -254 l 1,73,-1
  797 -254 l 1,69,-1
 EndSplineSet
-Ligature: 0 0 'haln' u099C u09CD
-Ligature: 0 0 'half' u099C u09CD
+Ligature: 0 1 'haln' u099C u09CD
+Ligature: 0 1 'half' u099C u09CD
 EndChar
 StartChar: u099D_u09CD.half
-Encoding: 65868 -1 446
+Encoding: 65833 -1 449
 Width: 582
 GlyphClass: 2
 Flags: W
@@ -27796,11 +27879,11 @@ Fore
  519 -254 l 1,41,-1
  519 -254 l 1,37,-1
 EndSplineSet
-Ligature: 0 0 'haln' u099D u09CD
-Ligature: 0 0 'half' u099D u09CD
+Ligature: 0 1 'haln' u099D u09CD
+Ligature: 0 1 'half' u099D u09CD
 EndChar
 StartChar: u099E_u09CD.half
-Encoding: 65869 -1 447
+Encoding: 65834 -1 450
 Width: 812
 GlyphClass: 2
 Flags: W
@@ -27893,11 +27976,11 @@ Fore
  660 -254 l 1,108,-1
  660 -254 l 1,104,-1
 EndSplineSet
-Ligature: 0 0 'haln' u099E u09CD
-Ligature: 0 0 'half' u099E u09CD
+Ligature: 0 1 'haln' u099E u09CD
+Ligature: 0 1 'half' u099E u09CD
 EndChar
 StartChar: u099F_u09CD.half
-Encoding: 65870 -1 448
+Encoding: 65835 -1 451
 Width: 419
 GlyphClass: 2
 Flags: W
@@ -27960,11 +28043,11 @@ Fore
  356 -254 l 1,65,-1
  356 -254 l 1,61,-1
 EndSplineSet
-Ligature: 0 0 'haln' u099F u09CD
-Ligature: 0 0 'half' u099F u09CD
+Ligature: 0 1 'haln' u099F u09CD
+Ligature: 0 1 'half' u099F u09CD
 EndChar
 StartChar: u09A0_u09CD.half
-Encoding: 65871 -1 449
+Encoding: 65836 -1 452
 Width: 411
 GlyphClass: 2
 Flags: W
@@ -28019,11 +28102,11 @@ Fore
  396 -254 l 1,52,-1
  396 -254 l 1,48,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09A0 u09CD
-Ligature: 0 0 'half' u09A0 u09CD
+Ligature: 0 1 'haln' u09A0 u09CD
+Ligature: 0 1 'half' u09A0 u09CD
 EndChar
 StartChar: u09A1_u09CD.half
-Encoding: 65872 -1 450
+Encoding: 65837 -1 453
 Width: 566
 GlyphClass: 2
 Flags: W
@@ -28071,11 +28154,11 @@ Fore
  487 -254 l 1,43,-1
  487 -254 l 1,39,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09A1 u09CD
-Ligature: 0 0 'half' u09A1 u09CD
+Ligature: 0 1 'haln' u09A1 u09CD
+Ligature: 0 1 'half' u09A1 u09CD
 EndChar
 StartChar: u09A2_u09CD.half
-Encoding: 65873 -1 451
+Encoding: 65838 -1 454
 Width: 435
 GlyphClass: 2
 Flags: W
@@ -28116,11 +28199,11 @@ Fore
  361 -254 l 1,33,-1
  361 -254 l 1,29,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09A2 u09CD
-Ligature: 0 0 'half' u09A2 u09CD
+Ligature: 0 1 'haln' u09A2 u09CD
+Ligature: 0 1 'half' u09A2 u09CD
 EndChar
 StartChar: u09A3_u09CD.half
-Encoding: 65874 -1 452
+Encoding: 65839 -1 455
 Width: 465
 GlyphClass: 2
 Flags: W
@@ -28168,11 +28251,11 @@ Fore
  540 -254 l 1,41,-1
  540 -254 l 1,37,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09A3 u09CD
-Ligature: 0 0 'half' u09A3 u09CD
+Ligature: 0 1 'haln' u09A3 u09CD
+Ligature: 0 1 'half' u09A3 u09CD
 EndChar
-StartChar: glyph454
-Encoding: 65875 -1 453
+StartChar: u09A4_u09CD.half
+Encoding: 65840 -1 456
 Width: 577
 GlyphClass: 2
 Flags: W
@@ -28223,9 +28306,11 @@ Fore
  503 -254 l 1,47,-1
  503 -254 l 1,43,-1
 EndSplineSet
+Ligature: 0 1 'haln' u09A4 u09CD
+Ligature: 0 1 'half' u09A4 u09CD
 EndChar
 StartChar: u09A5_u09CD.half
-Encoding: 65876 -1 454
+Encoding: 65841 -1 457
 Width: 498
 GlyphClass: 2
 Flags: W
@@ -28279,11 +28364,11 @@ Fore
  579 -254 l 1,50,-1
  579 -254 l 1,46,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09A5 u09CD
-Ligature: 0 0 'half' u09A5 u09CD
+Ligature: 0 1 'haln' u09A5 u09CD
+Ligature: 0 1 'half' u09A5 u09CD
 EndChar
 StartChar: u09A6_u09CD.half
-Encoding: 65877 -1 455
+Encoding: 65842 -1 458
 Width: 404
 GlyphClass: 2
 Flags: W
@@ -28325,11 +28410,11 @@ Fore
  518 -254 l 1,33,-1
  518 -254 l 1,29,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09A6 u09CD
-Ligature: 0 0 'half' u09A6 u09CD
+Ligature: 0 1 'haln' u09A6 u09CD
+Ligature: 0 1 'half' u09A6 u09CD
 EndChar
 StartChar: u09A7_u09CD.half
-Encoding: 65878 -1 456
+Encoding: 65843 -1 459
 Width: 431
 GlyphClass: 2
 Flags: W
@@ -28383,11 +28468,11 @@ Fore
  511 -254 l 1,46,-1
  511 -254 l 1,42,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09A7 u09CD
-Ligature: 0 0 'half' u09A7 u09CD
+Ligature: 0 1 'haln' u09A7 u09CD
+Ligature: 0 1 'half' u09A7 u09CD
 EndChar
 StartChar: u09A8_u09CD.half
-Encoding: 65879 -1 457
+Encoding: 65844 -1 460
 Width: 459
 GlyphClass: 2
 Flags: W
@@ -28399,7 +28484,7 @@ AnchorPoint: "Anchor-1" 350 0 basechar 0
 AnchorPoint: "Anchor-0" 350 0 basechar 0
 Fore
 329 0 m 1,0,-1
- 329 155 l 2,1,2
+ 329 155 l 1,1,2
  318 218 318 218 272.5 259 c 128,-1,3
  227 300 227 300 169 300 c 0,4,5
  142 300 142 300 121.5 290.5 c 128,-1,6
@@ -28430,11 +28515,11 @@ Fore
  541 -254 l 1,35,-1
  541 -254 l 1,31,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09A8 u09CD
-Ligature: 0 0 'half' u09A8 u09CD
+Ligature: 0 1 'haln' u09A8 u09CD
+Ligature: 0 1 'half' u09A8 u09CD
 EndChar
 StartChar: u09AA_u09CD.half
-Encoding: 65880 -1 458
+Encoding: 65845 -1 461
 Width: 522
 GlyphClass: 2
 Flags: W
@@ -28458,7 +28543,7 @@ Fore
  61 336 61 336 52.5 328 c 128,-1,12
  44 320 44 320 37 320 c 0,13,14
  29 320 29 320 23 324.5 c 128,-1,15
- 17 329 17 329 17 335 c 0,16,17
+ 17 329 17 329 17 335 c 1,16,17
  25 381 25 381 94.5 443 c 128,-1,18
  164 505 164 505 207 505 c 0,19,20
  243 505 243 505 291.5 471 c 128,-1,21
@@ -28488,11 +28573,11 @@ Fore
  605 -254 l 1,46,-1
  605 -254 l 1,42,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09AA u09CD
-Ligature: 0 0 'half' u09AA u09CD
+Ligature: 0 1 'haln' u09AA u09CD
+Ligature: 0 1 'half' u09AA u09CD
 EndChar
 StartChar: u09AB_u09CD.half
-Encoding: 65881 -1 459
+Encoding: 65846 -1 462
 Width: 555
 GlyphClass: 2
 Flags: W
@@ -28541,11 +28626,11 @@ Fore
  513 -254 l 1,41,-1
  513 -254 l 1,37,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09AB u09CD
-Ligature: 0 0 'half' u09AB u09CD
+Ligature: 0 1 'haln' u09AB u09CD
+Ligature: 0 1 'half' u09AB u09CD
 EndChar
 StartChar: u09AC_u09CD.half
-Encoding: 65882 -1 460
+Encoding: 65847 -1 463
 Width: 428
 GlyphClass: 2
 Flags: W
@@ -28585,11 +28670,11 @@ Fore
  516 -254 l 1,28,-1
  516 -254 l 1,24,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09AC u09CD
-Ligature: 0 0 'half' u09AC u09CD
+Ligature: 0 1 'haln' u09AC u09CD
+Ligature: 0 1 'half' u09AC u09CD
 EndChar
 StartChar: u09AD_u09CD.half
-Encoding: 65883 -1 461
+Encoding: 65848 -1 464
 Width: 573
 GlyphClass: 2
 Flags: W
@@ -28642,11 +28727,11 @@ Fore
  526 -254 l 1,50,-1
  526 -254 l 1,46,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09AD u09CD
-Ligature: 0 0 'half' u09AD u09CD
+Ligature: 0 1 'haln' u09AD u09CD
+Ligature: 0 1 'half' u09AD u09CD
 EndChar
 StartChar: u09AE_u09CD.half
-Encoding: 65884 -1 462
+Encoding: 65849 -1 465
 Width: 427
 GlyphClass: 2
 Flags: W
@@ -28691,11 +28776,11 @@ Fore
  502 -254 l 1,36,-1
  502 -254 l 1,32,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09AE u09CD
-Ligature: 0 0 'half' u09AE u09CD
+Ligature: 0 1 'haln' u09AE u09CD
+Ligature: 0 1 'half' u09AE u09CD
 EndChar
 StartChar: u09AF_u09CD.half
-Encoding: 65885 -1 463
+Encoding: 65850 -1 466
 Width: 443
 GlyphClass: 2
 Flags: W
@@ -28735,11 +28820,11 @@ Fore
  526 -254 l 1,26,-1
  526 -254 l 1,22,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09AF u09CD
-Ligature: 0 0 'half' u09AF u09CD
+Ligature: 0 1 'haln' u09AF u09CD
+Ligature: 0 1 'half' u09AF u09CD
 EndChar
 StartChar: u09B0_u09CD.half
-Encoding: 65886 -1 464
+Encoding: 65851 -1 467
 Width: 423
 GlyphClass: 2
 Flags: W
@@ -28789,11 +28874,11 @@ Fore
  506 -254 l 1,41,-1
  506 -254 l 1,37,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09B0 u09CD
-Ligature: 0 0 'half' u09B0 u09CD
+Ligature: 0 1 'haln' u09B0 u09CD
+Ligature: 0 1 'half' u09B0 u09CD
 EndChar
 StartChar: u09B2_u09CD.half
-Encoding: 65887 -1 465
+Encoding: 65852 -1 468
 Width: 573
 GlyphClass: 2
 Flags: W
@@ -28805,7 +28890,7 @@ AnchorPoint: "Anchor-1" 462 0 basechar 0
 AnchorPoint: "Anchor-0" 466 0 basechar 0
 Fore
 443 0 m 1,0,-1
- 443 260 l 2,1,2
+ 443 260 l 1,1,2
  432 300 432 300 410 325 c 128,-1,3
  388 350 388 350 363 350 c 256,4,5
  338 350 338 350 320.5 326.5 c 128,-1,6
@@ -28851,11 +28936,11 @@ Fore
  651 -254 l 1,57,-1
  651 -254 l 1,53,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09B2 u09CD
-Ligature: 0 0 'half' u09B2 u09CD
+Ligature: 0 1 'haln' u09B2 u09CD
+Ligature: 0 1 'half' u09B2 u09CD
 EndChar
 StartChar: u09AC_u09CD.blwf
-Encoding: 65888 -1 466
+Encoding: 65853 -1 469
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -28881,10 +28966,10 @@ Fore
  198 98 198 98 225 60 c 1,18,-1
  225 60 l 1,11,-1
 EndSplineSet
-Ligature: 0 0 'blwf' u09AC u09CD
+Ligature: 0 1 'blwf' u09AC u09CD
 EndChar
 StartChar: u09B6_u09CD.half
-Encoding: 65889 -1 467
+Encoding: 65854 -1 470
 Width: 485
 GlyphClass: 2
 Flags: W
@@ -28941,11 +29026,11 @@ Fore
  562 -254 l 1,53,-1
  562 -254 l 1,49,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09B6 u09CD
-Ligature: 0 0 'half' u09B6 u09CD
+Ligature: 0 1 'haln' u09B6 u09CD
+Ligature: 0 1 'half' u09B6 u09CD
 EndChar
 StartChar: u09B7_u09CD.half
-Encoding: 65890 -1 468
+Encoding: 65855 -1 471
 Width: 424
 GlyphClass: 2
 Flags: W
@@ -28989,11 +29074,11 @@ Fore
  508 -254 l 1,29,-1
  508 -254 l 1,25,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09B7 u09CD
-Ligature: 0 0 'half' u09B7 u09CD
+Ligature: 0 1 'haln' u09B7 u09CD
+Ligature: 0 1 'half' u09B7 u09CD
 EndChar
 StartChar: u09B8_u09CD.half
-Encoding: 65891 -1 469
+Encoding: 65856 -1 472
 Width: 508
 GlyphClass: 2
 Flags: W
@@ -29046,11 +29131,11 @@ Fore
  596 -254 l 1,47,-1
  596 -254 l 1,43,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09B8 u09CD
-Ligature: 0 0 'half' u09B8 u09CD
+Ligature: 0 1 'haln' u09B8 u09CD
+Ligature: 0 1 'half' u09B8 u09CD
 EndChar
 StartChar: u09B9_u09CD.half
-Encoding: 65892 -1 470
+Encoding: 65857 -1 473
 Width: 404
 GlyphClass: 2
 Flags: W
@@ -29065,7 +29150,7 @@ Fore
  348 -7 348 -7 255.5 44 c 128,-1,2
  163 95 163 95 54 95 c 1,3,-1
  34 145 l 1,4,-1
- 69 140 l 2,5,6
+ 69 140 l 1,5,6
  166 140 166 140 235 172 c 128,-1,7
  304 204 304 204 304 250 c 0,8,9
  304 293 304 293 267.5 324 c 128,-1,10
@@ -29100,11 +29185,11 @@ Fore
  407 -254 l 1,46,-1
  407 -254 l 1,42,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09B9 u09CD
-Ligature: 0 0 'half' u09B9 u09CD
+Ligature: 0 1 'haln' u09B9 u09CD
+Ligature: 0 1 'half' u09B9 u09CD
 EndChar
 StartChar: u09DC_u09CD.half
-Encoding: 65893 -1 471
+Encoding: 65858 -1 474
 Width: 549
 GlyphClass: 2
 Flags: W
@@ -29162,11 +29247,11 @@ Fore
  602 -254 l 1,56,-1
  602 -254 l 1,52,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09DC u09CD
-Ligature: 0 0 'half' u09DC u09CD
+Ligature: 0 1 'haln' u09DC u09CD
+Ligature: 0 1 'half' u09DC u09CD
 EndChar
 StartChar: u09DD_u09CD.half
-Encoding: 65894 -1 472
+Encoding: 65859 -1 475
 Width: 419
 GlyphClass: 2
 Flags: W
@@ -29218,11 +29303,11 @@ Fore
  474 -254 l 1,47,-1
  474 -254 l 1,43,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09DD u09CD
-Ligature: 0 0 'half' u09DD u09CD
+Ligature: 0 1 'haln' u09DD u09CD
+Ligature: 0 1 'half' u09DD u09CD
 EndChar
 StartChar: u09DF_u09CD.half
-Encoding: 65895 -1 473
+Encoding: 65860 -1 476
 Width: 453
 GlyphClass: 2
 Flags: W
@@ -29272,11 +29357,11 @@ Fore
  531 -254 l 1,39,-1
  531 -254 l 1,35,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09DF u09CD
-Ligature: 0 0 'half' u09DF u09CD
+Ligature: 0 1 'haln' u09DF u09CD
+Ligature: 0 1 'half' u09DF u09CD
 EndChar
 StartChar: glyph475
-Encoding: 65896 -1 474
+Encoding: 65861 -1 477
 Width: 623
 GlyphClass: 2
 Flags: W
@@ -29356,7 +29441,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: u09F1_u09CD.half
-Encoding: 65897 -1 475
+Encoding: 65862 -1 478
 Width: 450
 GlyphClass: 2
 Flags: W
@@ -29404,11 +29489,11 @@ Fore
  540 -254 l 1,37,-1
  540 -254 l 1,33,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09F1 u09CD
-Ligature: 0 0 'half' u09F1 u09CD
+Ligature: 0 1 'haln' u09F1 u09CD
+Ligature: 0 1 'half' u09F1 u09CD
 EndChar
 StartChar: u09F0_u09CD.half
-Encoding: 65898 -1 476
+Encoding: 65863 -1 479
 Width: 433
 GlyphClass: 2
 Flags: W
@@ -29457,85 +29542,369 @@ Fore
  516 -254 l 1,39,-1
  516 -254 l 1,35,-1
 EndSplineSet
-Ligature: 0 0 'haln' u09F0 u09CD
-Ligature: 0 0 'half' u09F0 u09CD
+Ligature: 0 1 'haln' u09F0 u09CD
+Ligature: 0 1 'half' u09F0 u09CD
 EndChar
-StartChar: uni0964
-Encoding: 2404 2404 477
-Width: 275
+StartChar: glyph454
+Encoding: 65864 -1 480
+Width: 575
+GlyphClass: 2
 Flags: W
-TeX: 0 0 0 0
 Fore
-150 0 m 1,0,-1
- 150 500 l 1,1,-1
- 200 500 l 1,2,-1
- 200 0 l 1,3,-1
- 150 0 l 1,4,-1
- 150 0 l 1,0,-1
+316 -10 m 1,0,1
+ 200 -10 200 -10 118 89 c 0,2,3
+ 36 189 36 189 36 329 c 1,4,-1
+ 76 334 l 1,5,6
+ 76 207 76 207 146 116 c 0,7,8
+ 217 25 217 25 316 25 c 0,9,10
+ 388 25 388 25 440 75 c 0,11,12
+ 490 124 490 124 490 195 c 0,13,14
+ 490 250 490 250 449 290 c 0,15,16
+ 409 329 409 329 350 329 c 0,17,18
+ 320 329 320 329 298 316 c 0,19,20
+ 278 304 278 304 276 285 c 1,21,22
+ 280 286 280 286 285 286 c 1,23,24
+ 290 288 290 288 295 288 c 0,25,26
+ 316 288 316 288 331 274 c 128,-1,27
+ 346 260 346 260 346 240 c 0,28,29
+ 346 219 346 219 329 204 c 0,30,31
+ 314 190 314 190 290 190 c 0,32,33
+ 264 190 264 190 244 210 c 0,34,35
+ 226 231 226 231 226 260 c 0,36,37
+ 226 305 226 305 262 338 c 0,38,39
+ 298 370 298 370 350 370 c 0,40,41
+ 425 370 425 370 478 317 c 0,42,43
+ 530 267 530 267 530 195 c 0,44,45
+ 530 110 530 110 467 50 c 256,46,47
+ 404 -10 404 -10 316 -10 c 1,48,-1
+ 316 -10 l 1,0,1
+-10 464 m 1,49,-1
+ -10 500 l 1,50,-1
+ 586 500 l 1,51,-1
+ 586 464 l 1,52,-1
+ -10 464 l 1,53,-1
+ -10 464 l 1,49,-1
+502 -254 m 1,54,-1
+ 284 -49 l 1,55,-1
+ 313 -19 l 1,56,-1
+ 532 -224 l 1,57,-1
+ 502 -254 l 1,58,-1
+ 502 -254 l 1,54,-1
 EndSplineSet
 EndChar
-StartChar: uni0965
-Encoding: 2405 2405 478
-Width: 435
+StartChar: bn_ka_Ta_ra
+Encoding: 65865 -1 481
+Width: 462
+GlyphClass: 3
 Flags: W
-TeX: 0 0 0 0
 Fore
-150 0 m 1,0,-1
- 150 500 l 1,1,-1
- 200 500 l 1,2,-1
- 200 0 l 1,3,-1
- 150 0 l 1,4,-1
- 150 0 l 1,0,-1
-310 0 m 1,5,-1
- 310 500 l 1,6,-1
- 360 500 l 1,7,-1
- 360 0 l 1,8,-1
- 310 0 l 1,9,-1
- 310 0 l 1,5,-1
+344 -148 m 1,0,1
+ 344 -130 344 -130 316 -117 c 0,2,3
+ 292 -105 292 -105 260 -105 c 0,4,5
+ 230 -105 230 -105 172 -124 c 0,6,7
+ 116 -144 116 -144 86 -144 c 0,8,9
+ 52 -144 52 -144 32 -117 c 0,10,11
+ 11 -89 11 -89 11 -51 c 1,12,-1
+ 44 -51 l 1,13,14
+ 44 -74 44 -74 56 -89 c 0,15,16
+ 68 -105 68 -105 86 -105 c 0,17,18
+ 116 -105 116 -105 172 -85 c 0,19,20
+ 230 -66 230 -66 260 -66 c 128,-1,21
+ 290 -66 290 -66 313 -75 c 0,22,23
+ 335 -84 335 -84 344 -100 c 1,24,-1
+ 344 67 l 1,25,-1
+ 382 96 l 1,26,-1
+ 380 -150 l 1,27,-1
+ 344 -148 l 1,28,-1
+ 344 -148 l 1,0,1
+238 -10 m 1,29,30
+ 176 -10 176 -10 135 19 c 0,31,32
+ 93 49 93 49 93 90 c 0,33,34
+ 93 118 93 118 120 146 c 0,35,36
+ 148 174 148 174 193 190 c 1,37,38
+ 169 232 169 232 123 259 c 0,39,40
+ 79 285 79 285 28 285 c 1,41,-1
+ 18 325 l 1,42,43
+ 61 368 61 368 117 392 c 0,44,45
+ 172 415 172 415 232 415 c 1,46,-1
+ 232 464 l 1,47,-1
+ -10 464 l 1,48,-1
+ -10 500 l 1,49,-1
+ 332 500 l 1,50,51
+ 332 532 332 532 310 556 c 0,52,53
+ 289 579 289 579 258 579 c 0,54,55
+ 231 579 231 579 177.5 569.5 c 128,-1,56
+ 124 560 124 560 98 560 c 0,57,58
+ 61 560 61 560 34 580 c 0,59,60
+ 8 600 8 600 8 629 c 0,61,62
+ 8 650 8 650 14 666 c 0,63,64
+ 21 682 21 682 33 689 c 1,65,-1
+ 68 674 l 1,66,67
+ 58 662 58 662 53 652 c 256,68,69
+ 48 642 48 642 48 634 c 0,70,71
+ 48 620 48 620 62 610 c 0,72,73
+ 77 599 77 599 98 599 c 0,74,75
+ 124 599 124 599 175 609 c 0,76,77
+ 226 620 226 620 253 620 c 0,78,79
+ 302 620 302 620 337.5 584.5 c 128,-1,80
+ 373 549 373 549 373 500 c 1,81,-1
+ 473 500 l 1,82,-1
+ 473 464 l 1,83,-1
+ 273 464 l 1,84,-1
+ 273 415 l 1,85,86
+ 334 415 334 415 379 371 c 0,87,88
+ 422 329 422 329 422 270 c 0,89,90
+ 422 247 422 247 406 231 c 0,91,92
+ 391 214 391 214 368 214 c 0,93,94
+ 346 214 346 214 332 228 c 0,95,96
+ 317 241 317 241 317 260 c 0,97,98
+ 317 280 317 280 335 292 c 0,99,100
+ 355 304 355 304 377 299 c 1,101,102
+ 371 332 371 332 341 353 c 0,103,104
+ 313 374 313 374 273 374 c 1,105,-1
+ 273 225 l 2,106,107
+ 273 205 273 205 254 184 c 0,108,109
+ 235 166 235 166 202 154 c 0,110,111
+ 171 144 171 144 152 124 c 0,112,113
+ 133 105 133 105 133 85 c 0,114,115
+ 133 62 133 62 164 46 c 256,116,117
+ 195 30 195 30 238 30 c 0,118,119
+ 268 30 268 30 293 43 c 0,120,121
+ 320 57 320 57 332 80 c 1,122,123
+ 292 80 292 80 292 120 c 128,-1,124
+ 292 160 292 160 332 160 c 0,125,126
+ 353 160 353 160 368 145 c 0,127,128
+ 382 130 382 130 382 110 c 0,129,130
+ 382 60 382 60 340 25 c 256,131,132
+ 298 -10 298 -10 238 -10 c 1,133,-1
+ 238 -10 l 1,29,30
+223 210 m 1,134,135
+ 228 212 228 212 230 220 c 256,136,137
+ 232 228 232 228 232 240 c 2,138,-1
+ 232 374 l 1,139,140
+ 190 374 190 374 148 358 c 0,141,142
+ 108 344 108 344 73 314 c 1,143,144
+ 124 305 124 305 164 278 c 0,145,146
+ 204 250 204 250 223 210 c 1,147,-1
+ 223 210 l 1,134,135
 EndSplineSet
+Ligature: 0 1 'pres' u0995_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
-StartChar: uni09CE
-Encoding: 2510 2510 479
-Width: 411
+StartChar: bn_ma_tha
+Encoding: 65866 -1 482
+Width: 546
+GlyphClass: 3
 Flags: W
-TeX: 117 0 0 0
-AnchorPoint: "Anchor-1" 200 0 basechar 0
-AnchorPoint: "Anchor-0" 195 0 basechar 0
 Fore
-338 0 m 5,0,1
- 333 54 333 54 291 100 c 132,-1,2
- 249 146 249 146 183 170 c 4,3,4
- 118 194 118 194 78 243.5 c 132,-1,5
- 38 293 38 293 38 350 c 4,6,7
- 38 423 38 423 90 466.5 c 132,-1,8
- 142 510 142 510 228 510 c 4,9,10
- 269 510 269 510 298.5 476.5 c 132,-1,11
- 328 443 328 443 328 395 c 4,12,13
- 328 352 328 352 298.5 321 c 132,-1,14
- 269 290 269 290 228 290 c 4,15,16
- 189 290 189 290 161 321 c 132,-1,17
- 133 352 133 352 133 395 c 4,18,19
- 133 414 133 414 137 430.5 c 132,-1,20
- 141 447 141 447 148 460 c 5,21,22
- 116 449 116 449 97 418.5 c 132,-1,23
- 78 388 78 388 78 350 c 4,24,25
- 78 309 78 309 108 271 c 132,-1,26
- 138 233 138 233 188 210 c 4,27,28
- 271 180 271 180 324 123 c 132,-1,29
- 377 66 377 66 383 0 c 5,30,-1
- 338 0 l 5,31,-1
- 338 0 l 5,0,1
-230 325 m 5,32,33
- 254 325 254 325 271 346 c 132,-1,34
- 288 367 288 367 288 397 c 260,35,36
- 288 427 288 427 271 448.5 c 132,-1,37
- 254 470 254 470 230 470 c 260,38,39
- 206 470 206 470 189.5 448.5 c 132,-1,40
- 173 427 173 427 173 397 c 260,41,42
- 173 367 173 367 189.5 346 c 132,-1,43
- 206 325 206 325 230 325 c 5,44,-1
- 230 325 l 5,32,33
+464 365 m 0,0,-1
+380 299 m 1,1,-1
+ 428 290 l 1,2,3
+ 440 284 440 284 466 260 c 0,4,5
+ 489 234 489 234 489 188 c 0,6,7
+ 489 140 489 140 457 103 c 0,8,9
+ 424 67 424 67 374 58 c 1,10,11
+ 434 42 434 42 488 12 c 0,12,13
+ 539 -17 539 -17 579 -57 c 1,14,-1
+ 554 -82 l 1,15,-1
+ 554 -82 l 1,16,17
+ 504 -32 504 -32 415 4 c 0,18,19
+ 328 38 328 38 220 48 c 1,20,-1
+ 210 88 l 1,21,22
+ 228 82 228 82 246 80 c 0,23,24
+ 268 78 268 78 299 78 c 0,25,26
+ 362 78 362 78 406 110 c 0,27,28
+ 449 142 449 142 449 188 c 0,29,30
+ 449 219 449 219 422 244 c 0,31,32
+ 397 268 397 268 359 268 c 0,33,34
+ 328 268 328 268 302 253 c 0,35,36
+ 277 238 277 238 265 213 c 1,37,38
+ 268 214 268 214 272 214 c 256,39,40
+ 280 214 l 0,41,42
+ 302 214 302 214 319 202 c 0,43,44
+ 334 190 334 190 334 172 c 256,45,46
+ 334 154 334 154 320 141 c 0,47,48
+ 305 128 305 128 285 128 c 0,49,50
+ 260 128 260 128 242 147 c 0,51,52
+ 225 166 225 166 225 193 c 0,53,54
+ 225 228 225 228 258 267 c 0,55,56
+ 285 298 285 298 332 299 c 1,57,58
+ 296 300 296 300 283 311 c 0,59,60
+ 253 334 253 334 216 334 c 1,61,62
+ 216 305 216 305 195 285 c 0,63,64
+ 175 265 175 265 146 265 c 0,65,66
+ 121 265 121 265 103 282 c 0,67,68
+ 86 299 86 299 86 325 c 0,69,70
+ 86 350 86 350 111 367 c 0,71,72
+ 136 383 136 383 171 383 c 1,73,74
+ 160 416 160 416 147 436 c 0,75,76
+ 134 458 134 458 121 464 c 1,77,-1
+ -10 464 l 1,78,-1
+ -10 500 l 1,79,-1
+ 557 500 l 1,80,-1
+ 557 464 l 1,81,-1
+ 430 464 l 1,82,83
+ 448 451 448 451 457 434 c 0,84,85
+ 466 414 466 414 466 394 c 0,86,87
+ 464 367 464 367 464 365 c 1,88,-1
+ 449 332 l 1,89,90
+ 406 284 406 284 380 299 c 1,1,-1
+350 329 m 1,91,92
+ 382 329 382 329 404 349 c 0,93,94
+ 425 368 425 368 425 394 c 0,95,96
+ 425 424 425 424 398 445 c 0,97,98
+ 370 464 370 464 331 464 c 2,99,-1
+ 176 464 l 1,100,101
+ 189 449 189 449 199 428 c 0,102,103
+ 208 406 208 406 216 380 c 1,104,105
+ 235 376 235 376 252 370 c 0,106,107
+ 270 364 270 364 286 355 c 0,108,109
+ 307 343 307 343 322 335 c 1,110,111
+ 340 329 340 329 350 329 c 1,112,-1
+ 350 329 l 1,91,92
 EndSplineSet
+Ligature: 0 1 'pres' u09AE_u09CD.half u09A5
+EndChar
+StartChar: bn_la_ta
+Encoding: 65867 -1 483
+Width: 522
+GlyphClass: 3
+Flags: W
+Fore
+102 262 m 0,0,-1
+394 266 m 1,1,-1
+ 394 325 l 1,2,3
+ 380 344 380 344 364 353 c 0,4,5
+ 349 364 349 364 334 364 c 0,6,7
+ 307 364 307 364 288 340 c 0,8,9
+ 268 314 268 314 268 280 c 1,10,-1
+ 229 280 l 1,11,12
+ 229 319 229 319 207 346 c 0,13,14
+ 184 374 184 374 154 374 c 0,15,16
+ 121 374 121 374 97 356 c 0,17,18
+ 74 337 74 337 74 310 c 0,19,20
+ 74 290 74 290 85 273 c 256,21,22
+ 96 256 96 256 114 250 c 1,23,24
+ 112 268 112 268 124 280 c 0,25,26
+ 139 295 139 295 159 295 c 0,27,28
+ 173 295 173 295 187 284 c 0,29,30
+ 199 274 199 274 199 260 c 0,31,32
+ 199 238 199 238 180 224 c 0,33,34
+ 160 210 160 210 134 210 c 0,35,36
+ 93 210 93 210 63 238 c 0,37,38
+ 34 266 34 266 34 304 c 0,39,40
+ 34 350 34 350 69 382 c 0,41,42
+ 104 415 104 415 154 415 c 0,43,44
+ 189 415 189 415 214 398 c 0,45,46
+ 242 382 242 382 249 355 c 1,47,48
+ 260 377 260 377 283 392 c 0,49,50
+ 305 404 305 404 334 404 c 0,51,52
+ 352 404 352 404 368 397 c 0,53,54
+ 383 388 383 388 394 374 c 1,55,-1
+ 394 464 l 1,56,-1
+ -10 464 l 1,57,-1
+ -10 500 l 1,58,-1
+ 533 500 l 1,59,-1
+ 533 464 l 1,60,-1
+ 434 464 l 1,61,-1
+ 434 234 l 1,62,63
+ 438 233 438 233 451 218 c 0,64,65
+ 484 177 484 177 484 123 c 0,66,67
+ 484 55 484 55 428 6 c 0,68,69
+ 370 -42 370 -42 290 -42 c 1,70,-1
+ 290 -42 l 1,71,72
+ 205 -42 205 -42 136 23 c 0,73,74
+ 68 89 68 89 40 193 c 1,75,-1
+ 75 202 l 1,76,77
+ 99 112 99 112 159 55 c 128,-1,78
+ 219 -2 219 -2 290 -2 c 0,79,80
+ 356 -2 356 -2 400 34 c 0,81,82
+ 445 71 445 71 445 123 c 0,83,84
+ 445 169 445 169 412 201 c 0,85,86
+ 380 232 380 232 334 232 c 0,87,88
+ 313 232 313 232 293 222 c 0,89,90
+ 276 212 276 212 265 193 c 1,91,92
+ 288 196 288 196 305 182 c 0,93,94
+ 325 166 325 166 325 142 c 0,95,96
+ 325 122 325 122 310 106 c 0,97,98
+ 296 93 296 93 274 93 c 0,99,100
+ 248 93 248 93 229 112 c 0,101,102
+ 209 131 209 131 210 158 c 0,103,104
+ 210 194 210 194 231 217 c 0,105,106
+ 298 292 298 292 394 266 c 1,1,-1
+EndSplineSet
+Ligature: 0 1 'pres' u09B2_u09CD.half u09A4
+EndChar
+StartChar: bn_la_dha
+Encoding: 65868 -1 484
+Width: 658
+GlyphClass: 3
+Flags: W
+Fore
+4 466 m 1,0,-1
+ 199 466 l 1,1,-1
+ 199 500 l 1,2,-1
+ 4 500 l 1,3,-1
+ 4 466 l 1,0,-1
+314 296 m 1,4,-1
+ 334 312 l 1,5,-1
+ 362 337 l 1,6,7
+ 313 337 313 337 278 365 c 0,8,9
+ 243 395 243 395 243 436.5 c 128,-1,10
+ 243 478 243 478 278 507 c 256,11,12
+ 313 536 313 536 362 536 c 0,13,14
+ 389 536 389 536 409 520 c 0,15,16
+ 428 504 428 504 428 482 c 0,17,18
+ 428 458 428 458 410 442 c 0,19,20
+ 392 427 392 427 368 427 c 256,21,22
+ 344 427 344 427 326 443 c 0,23,24
+ 310 460 310 460 313 482 c 1,25,26
+ 299 479 299 479 290 466 c 0,27,28
+ 283 454 283 454 283 436 c 0,29,30
+ 283 407 283 407 317 388 c 0,31,32
+ 352 367 352 367 403 367 c 1,33,-1
+ 507 442 l 1,34,-1
+ 507 561 l 1,35,-1
+ 548 561 l 1,36,-1
+ 548 501 l 1,37,-1
+ 647 501 l 1,38,-1
+ 647 466 l 1,39,-1
+ 548 466 l 1,40,-1
+ 548 2 l 1,41,-1
+ 507 2 l 1,42,-1
+ 507 2 l 1,43,44
+ 466 85 466 85 400 133 c 0,45,46
+ 335 182 335 182 268 182 c 1,47,-1
+ 238 232 l 1,48,-1
+ 293 278 l 1,49,50
+ 280 299 280 299 252 299 c 0,51,52
+ 233 299 233 299 220 280 c 0,53,54
+ 208 261 208 261 208 234 c 1,55,-1
+ 172 234 l 1,56,57
+ 172 263 172 263 154 287 c 0,58,59
+ 136 310 136 310 111 310 c 128,-1,60
+ 86 310 86 310 69 292.5 c 128,-1,61
+ 52 275 52 275 58 256 c 1,62,63
+ 76 268 76 268 94 258 c 0,64,65
+ 111 247 111 247 111 223 c 0,66,67
+ 111 208 111 208 100 196 c 0,68,69
+ 88 184 88 184 71 184 c 0,70,71
+ 51 184 51 184 38 206 c 0,72,73
+ 23 230 23 230 23 261 c 0,74,75
+ 23 299 23 299 49 326 c 256,76,77
+ 75 353 75 353 111 353 c 0,78,79
+ 136 353 136 353 157 339 c 0,80,81
+ 178 324 178 324 190 299 c 1,82,83
+ 203 322 203 322 218 332 c 0,84,85
+ 236 344 236 344 252 343 c 0,86,87
+ 302 338 302 338 314 296 c 1,4,-1
+507 72 m 1,88,-1
+ 507 397 l 1,89,-1
+ 288 222 l 1,90,91
+ 346 217 346 217 404 177 c 0,92,93
+ 461 138 461 138 507 72 c 1,94,-1
+ 507 72 l 1,88,-1
+EndSplineSet
+Ligature: 0 1 'pres' u09B2_u09CD.half u09A7
 EndChar
 EndChars
 EndSplineFont

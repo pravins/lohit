@@ -1,0 +1,4 @@
+
+2.0.5 -> 2.0.6
+Bug 208525: [ml_IN]the glyph of 0d33+0d4d+0d33 is wrong (LingNing Zhang)
+Bug 208540: [ml_IN]the glyph of 0d2f+0d4d and the glyph of 0d2f+0d4d+0d2f are wrong (LingNing Zhang)
