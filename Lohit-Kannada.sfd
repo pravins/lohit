@@ -11,9 +11,9 @@ UnderlineWidth: 20
 Ascent: 620
 Descent: 404
 Order2: 1
-XUID: [1021 648 100124046 7418515]
+XUID: [1021 648 100124046 3609428]
 FSType: 0
-OS2Version: 0
+OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161073346
@@ -3091,7 +3091,7 @@ Fore
  207 507 l 1,17,-1
 EndSplineSet
 EndChar
-StartChar: U0CBC
+StartChar: U0CB7
 Encoding: 3255 3255 53
 Width: 764
 GlyphClass: 2
@@ -3279,7 +3279,7 @@ Fore
  289 507 l 1,26,-1
 EndSplineSet
 EndChar
-StartChar: U0CE0
+StartChar: U0CBC
 Encoding: 3260 3260 56
 Width: 0
 GlyphClass: 2
@@ -4213,7 +4213,7 @@ Fore
  21 293 l 1,26,27
 EndSplineSet
 EndChar
-StartChar: U0CE7
+StartChar: U0CE0
 Encoding: 3296 3296 75
 Width: 1619
 GlyphClass: 2
@@ -4558,7 +4558,7 @@ Fore
  163 364 l 1,13,14
 EndSplineSet
 EndChar
-StartChar: U0CB7
+StartChar: U0CE7
 Encoding: 3303 3303 82
 Width: 715
 GlyphClass: 2

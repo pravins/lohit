@@ -1,8 +1,25 @@
+				  fonts-indic
+Current Version :- 2.0.8
 
-2.0.6 -> 2.0.7
-- Bug 206601: [ta_IN] Glyph is missing for Unicode U+0BB6 - Priority - A
-- Bug 216639: [kn_IN] OTF rules to be fixed - Priority A
+* Tue Nov 21 2006 Parag Nemade <pnemade@redhat.com> - 2.0.8
+- Fixed Bugs from Parag Nemade 
+- Bug 216629 : [te_IN] GPOS position should be at middle instead of left hand side - Priority B
+- Bug 216631 : [or_IN] one GSUB Rule is wrongly defined - Priority A
+- Bug 216628 : [ml] characters are not shown bold during selecting BOLD font
+- Bug 216624 : [pa_IN] 0a01/0a03/0964/0965 is missing from font
+- Bug 216634 : Glyphs for two combinations are wrong in Gujarati (gu_IN)
+- Bug 197216 : [bn_IN]Incorrect glyph for conjunct
+- Bug 215894 : Relative height of 0x0901 (and 0x0902) on 0x0915 is different than
+	       other devnagari characters (hi_IN, mr_IN) 
+- Fixed Bugs from LingNing Zhang
+- Bug 216626 : [as_IN] Pango - A particular char when Conjuncts, creates Cursor Nevigation Problem
+- Bug 216627 : [ml_IN] The glyph of 0x25CC is not existing in lohit_ml.ttf
+- Bug 216639 : [kn_IN] OTF rules to be fixed - Priority A
 
-2.0.5 -> 2.0.6
+* Tue 17 oct 2006 Leon Ho <llch@redhat.com> - 2.0.7
+- Bug 206601: [ta_IN] Glyph is missing for Unicode U+0BB6 - Priority - A (Rahul Bhalerao)
+- Bug 216639: [kn_IN] OTF rules to be fixed - Priority A (Ramakrishna Reddy)
+
+* Fri 29 Sep 2006 Leon Ho <llch@redhat.com> - 2.0.6
 - Bug 208525: [ml_IN]the glyph of 0d33+0d4d+0d33 is wrong (LingNing Zhang)
 - Bug 208540: [ml_IN]the glyph of 0d2f+0d4d and the glyph of 0d2f+0d4d+0d2f are wrong (LingNing Zhang)
