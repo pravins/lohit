@@ -1,5 +1,16 @@
 				  fonts-indic
-Current Version :- 2.0.9
+Current Version :- 2.0.10
+
+* Tue Dec 06 2006 Parag Nemade <pnemade@redhat.com> - 2.0.10
+- Resolved Bugs from Parag Nemade
+- Bug 207269: [ta_IN] - Some conjunct characters not appearing with proper shape - Priority - B
+- Bug 217482: [kn_IN] - pango - Composed Char not rendered properly
+- Bug 216628: [ml] characters are not shown bold during selecting BOLD font
+- Bug 218588: [gu_IN] Qt doesn't display virama properly
+- Bug 206599: [te_IN] - Some of the Priority - C GSUB Conjuncts are not appearing with its actual shape
+- Resolved Bugs from LingNing Zhang
+- Bug 218586: [ml_IN] 0d2f+0d4d combination is invaild when put in word
+- Bug 218587: [ml_IN] 0d35+0d4d combination is invaild (should not combine)
 
 * Tue Nov 21 2006 Parag Nemade <pnemade@redhat.com> - 2.0.9
 - Fixed Bugs from Parag Nemade 
