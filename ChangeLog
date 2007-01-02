@@ -1,5 +1,9 @@
 				  fonts-indic
-Current Version :- 2.0.8
+Current Version :- 2.0.9
+
+* Tue Nov 21 2006 Parag Nemade <pnemade@redhat.com> - 2.0.9
+- Fixed Bugs from Parag Nemade 
+- Bug 216060: [pa_IN]Lohit Punjabi: (U+0A03) Gurmukhi Sign Visarga right margin is too wide.
 
 * Tue Nov 21 2006 Parag Nemade <pnemade@redhat.com> - 2.0.8
 - Fixed Bugs from Parag Nemade 

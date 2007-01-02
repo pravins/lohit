@@ -11,13 +11,13 @@ UnderlineWidth: 20
 Ascent: 690
 Descent: 334
 Order2: 1
-XUID: [1021 648 100124046 9040738]
+XUID: [1021 648 100124046 5981449]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1153280036
-ModificationTime: 1163574750
+ModificationTime: 1164705803
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -49,2186 +49,2186 @@ OS2StrikeYSize: 50
 OS2StrikeYPos: 250
 OS2Vendor: 'MODI'
 ScriptLang: 2
- 0 
  1 telu 1 dflt 
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ 0 
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C56
  1
   SeqLookup: 0 'L000'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 577 U0C15_U0C4D.blwf U0C16_U0C4D.blwf U0C17_U0C4D.blwf U0C18_U0C4D.blwf U0C19_U0C4D.blwf U0C1A_U0C4D.blwf U0C1B_U0C4D.blwf U0C1C_U0C4D.blwf U0C1D_U0C4D.blwf U0C1E_U0C4D.blwf U0C1F_U0C4D.blwf U0C20_U0C4D.blwf U0C21_U0C4D.blwf U0C22_U0C4D.blwf U0C23_U0C4D.blwf U0C24_U0C4D.blwf U0C25_U0C4D.blwf U0C26_U0C4D.blwf U0C27_U0C4D.blwf U0C28_U0C4D.blwf U0C2A_U0C4D.blwf U0C2B_U0C4D.blwf U0C2C_U0C4D.blwf U0C2D_U0C4D.blwf U0C2E_U0C4D.blwf U0C2F_U0C4D.blwf U0C31_U0C4D.blwf U0C32_U0C4D.blwf U0C33_U0C4D.blwf U0C35_U0C4D.blwf U0C36_U0C4D.blwf U0C37_U0C4D.blwf U0C38_U0C4D.blwf U0C39_U0C4D.blwf
   BCoverage: 594 U0C15_U0C4D.blwf U0C16_U0C4D.blwf U0C17_U0C4D.blwf U0C18_U0C4D.blwf U0C19_U0C4D.blwf U0C1A_U0C4D.blwf U0C1B_U0C4D.blwf U0C1C_U0C4D.blwf U0C1D_U0C4D.blwf U0C1E_U0C4D.blwf U0C1F_U0C4D.blwf U0C20_U0C4D.blwf U0C21_U0C4D.blwf U0C22_U0C4D.blwf U0C23_U0C4D.blwf U0C24_U0C4D.blwf U0C25_U0C4D.blwf U0C26_U0C4D.blwf U0C27_U0C4D.blwf U0C28_U0C4D.blwf U0C2A_U0C4D.blwf U0C2B_U0C4D.blwf U0C2C_U0C4D.blwf U0C2D_U0C4D.blwf U0C2E_U0C4D.blwf U0C2F_U0C4D.blwf U0C30_U0C4D.blwf U0C31_U0C4D.blwf U0C32_U0C4D.blwf U0C33_U0C4D.blwf U0C35_U0C4D.blwf U0C36_U0C4D.blwf U0C37_U0C4D.blwf U0C38_U0C4D.blwf U0C39_U0C4D.blwf
  1
   SeqLookup: 0 'L001'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 1521 U0C15_U0C4D.blwf U0C16_U0C4D.blwf U0C17_U0C4D.blwf U0C18_U0C4D.blwf U0C19_U0C4D.blwf U0C1A_U0C4D.blwf U0C1B_U0C4D.blwf U0C1C_U0C4D.blwf U0C1D_U0C4D.blwf U0C1E_U0C4D.blwf U0C1F_U0C4D.blwf U0C20_U0C4D.blwf U0C21_U0C4D.blwf U0C22_U0C4D.blwf U0C23_U0C4D.blwf U0C24_U0C4D.blwf U0C25_U0C4D.blwf U0C26_U0C4D.blwf U0C27_U0C4D.blwf U0C28_U0C4D.blwf U0C2A_U0C4D.blwf U0C2B_U0C4D.blwf U0C2C_U0C4D.blwf U0C2D_U0C4D.blwf U0C2E_U0C4D.blwf U0C2F_U0C4D.blwf U0C30_U0C4D.blwf U0C31_U0C4D.blwf U0C32_U0C4D.blwf U0C33_U0C4D.blwf U0C35_U0C4D.blwf U0C36_U0C4D.blwf U0C37_U0C4D.blwf U0C38_U0C4D.blwf U0C39_U0C4D.blwf U0C15_U0C4D.blwf_U0C37_U0C4D.blwf.blwf U0C56_U0C24_U0C4D.blwf.blws glyph471 U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws glyph473 U0C15_U0C37_U0C4D.akhn U0C36_U0C40.abvs_U0C30_U0C4D.blwf.blws U0C38_U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws U0C38_U0C3F.abvs_U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws U0C38_U0C24_U0C30_U0C40.akhn U0C37_U0C1F_U0C4D.blwf_U0C30_U0C4D.blwf.blws U0C37_U0C1F_U0C30_U0C40.akhn U0C15_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts U0C15_U0C3F_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts U0C15_U0C40_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts U0C37_U0C3F.abvs_U0C1F_U0C4D.blwf_U0C30_U0C4D.blwf.blws U0C15_U0C41.psts U0C21_U0C41.psts U0C22_U0C41.psts U0C39_U0C41.psts U0C15_U0C42.psts U0C21_U0C42.psts U0C22_U0C42.psts U0C39_U0C42.psts glyph493 glyph494 glyph495 glyph496 glyph497 glyph498 glyph499 glyph500 glyph501 glyph502 glyph503 glyph504 glyph505 glyph506 glyph507 glyph508 glyph509 glyph510 glyph511 glyph512 glyph513 glyph514
  1
   SeqLookup: 0 'L002'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C39_U0C42.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C22_U0C42.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C21_U0C42.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C15_U0C42.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C39_U0C41.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C22_U0C41.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C21_U0C41.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C15_U0C41.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C35_U0C42.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C35_U0C41.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2B_U0C42.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2B_U0C41.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2A_U0C42.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2A_U0C41.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1C_U0C42.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1C_U0C41.psts
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C38_U0C4D.haln
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2F_U0C4D.haln
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2E_U0C4D.haln
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1D_U0C4D.haln
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C18_U0C4D.haln
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C39_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C38_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C37_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C35_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C33_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C32_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C31_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2F_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2E_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2D_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2C_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2B_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2A_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C28_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C27_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C26_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C25_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C24_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C23_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C22_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C21_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C20_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1F_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1E_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1D_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1C_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C22_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C19_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C18_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C16_U0C4C.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C39_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C38_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C37_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C35_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C32_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C31_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2F_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2E_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2D_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2C_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2B_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2A_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C28_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C27_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C26_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C25_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C24_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C23_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C22_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C21_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C20_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1F_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1E_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1D_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1C_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1B_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1A_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C19_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C18_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C16_U0C4B.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C39_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C38_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C37_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C35_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C32_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C31_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2F_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2E_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2D_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2C_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2B_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2A_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C28_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C27_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C26_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C25_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C24_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C23_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C22_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C21_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C20_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1F_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1E_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1D_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1C_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1B_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1A_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C19_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C18_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C16_U0C4A.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2E_U0C47.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C24_U0C47.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C23_U0C47.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1E_U0C47.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1D_U0C47.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C18_U0C47.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C39_U0C46.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2F_U0C46.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2E_U0C46.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1E_U0C46.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1D_U0C46.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C18_U0C46.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C39_U0C40.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2F_U0C40.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2E_U0C40.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1D_U0C40.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C18_U0C40.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C39_U0C3F.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2F_U0C3F.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2E_U0C3F.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C27_U0C3F.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C18_U0C3F.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 28 U0C15_U0C3E_U0C37_U0C4D.akhn
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C39_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C38_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C37_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C36_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C35_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C33_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C32_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C31_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C30_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2F_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2E_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2D_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2C_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2B_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2A_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C28_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C27_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C26_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C25_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C24_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C23_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C22_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C21_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C20_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1F_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1E_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1D_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1C_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1B_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1A_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C19_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C18_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C17_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C16_U0C3E.abvs
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C39
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C2F
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C2E
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C1D
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C18
  1
   SeqLookup: 0 'L003'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C31_U0C4D.haln
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C23_U0C4D.haln
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1F_U0C4D.haln
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1E_U0C4D.haln
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 28 U0C15_U0C4C_U0C37_U0C4D.akhn
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C36_U0C4C.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C25_U0C4C.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C17_U0C4C.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2F_U0C4C.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C35_U0C4B.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C36_U0C4B.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C33_U0C4B.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C30_U0C4B.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C17_U0C4B.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C15_U0C4B.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C37_U0C4A.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C36_U0C4A.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C33_U0C4A.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C30_U0C4A.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C17_U0C4A.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C15_U0C4A.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C31_U0C47.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C23_U0C47.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1F_U0C47.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C31_U0C46.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C23_U0C46.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1F_U0C46.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C31_U0C40.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C23_U0C40.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1F_U0C40.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1E_U0C40.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C16_U0C40.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C31_U0C3F.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C23_U0C3F.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1F_U0C3F.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1B_U0C3F.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C16_U0C3F.abvs
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C31
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C23
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C1F
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C1E
  1
   SeqLookup: 0 'L004'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C37_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C32_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2D_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2C_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C28_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C27_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C26_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C25_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C24_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C22_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C21_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1C_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1B_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1A_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C19_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C16_U0C4D.haln
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C37_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C32_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2D_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2C_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C28_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C27_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C26_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C25_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C24_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C22_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C21_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1C_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1B_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1A_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C19_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C16_U0C47.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C37_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C32_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2D_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2C_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C28_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C27_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C26_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C25_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C24_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C22_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C21_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1C_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1B_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C18_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C17_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C16_U0C46.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C37_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C32_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2D_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2C_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C28_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C27_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C26_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C25_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C24_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C22_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C21_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1C_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1B_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1A_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C19_U0C40.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C37_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2E_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2D_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C2C_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C28_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C27_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C26_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C25_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C24_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C22_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C21_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1C_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1B_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C1A_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 16 U0C19_U0C3F.abvs
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C37
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C2D
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C2C
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C28
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C27
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C26
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C25
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C24
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C22
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C21
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C1C
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C1B
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C1A
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C19
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C16
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'blws' 0 0 0 1
+ChainSub: coverage 0 0 'blws' 0 0 0 1
  1 1 0
   Coverage: 16 U0C30_U0C4D.blwf
   BCoverage: 5 U0C15
  1
   SeqLookup: 0 'L005'
 EndFPST
-ChainSub: coverage 0 1 'abvs' 0 0 0 1
+ChainSub: coverage 0 0 'abvs' 0 0 0 1
  1 0 1
   Coverage: 209 U0C15 U0C16 U0C17 U0C18 U0C19 U0C1A U0C1B U0C1C U0C1D U0C1E U0C1F U0C20 U0C21 U0C22 U0C23 U0C24 U0C25 U0C26 U0C27 U0C28 U0C2A U0C2B U0C2C U0C2D U0C2E U0C2F U0C30 U0C31 U0C32 U0C33 U0C35 U0C36 U0C37 U0C38 U0C39
   FCoverage: 5 U0C48
@@ -2236,6 +2236,8 @@ ChainSub: coverage 0 1 'abvs' 0 0 0 1
   SeqLookup: 0 'L006'
 EndFPST
 GenTags: 7 ms'L006' sb'L005' sb'L004' sb'L003' sb'L002' sb'L001' sb'L000'
+TableOrder: GPOS 1
+	'blwm'
 TableOrder: GSUB 6
 	'abvs'
 	'akhn'
@@ -2271,6 +2273,7 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 33 33 15
+AnchorClass: "Anchor-0" blwm 0 0 1 0 
 BeginChars: 65989 543
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -3386,9 +3389,10 @@ EndSplineSet
 EndChar
 StartChar: U0C15
 Encoding: 3093 3093 24
-Width: 592
+Width: 640
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" 350 -17 basechar 0
 Fore
 148 442 m 1,0,1
  148 405 148 405 195.5 378.5 c 128,-1,2
@@ -4322,6 +4326,7 @@ Encoding: 3108 3108 39
 Width: 818
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" 402 -38 basechar 0
 Fore
 122 376 m 1,0,1
  122 342 122 342 146.5 318 c 128,-1,2
@@ -4916,6 +4921,7 @@ Encoding: 3119 3119 49
 Width: 1542
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" 783 -22 basechar 0
 Fore
 124 294 m 1,0,1
  124 206 124 206 186.5 144 c 128,-1,2
@@ -5091,6 +5097,7 @@ Encoding: 3122 3122 52
 Width: 743
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" 375 -15 basechar 0
 Fore
 192 457 m 1,0,1
  192 423 192 423 216 399.5 c 128,-1,2
@@ -5207,6 +5214,7 @@ Encoding: 3125 3125 54
 Width: 721
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" 350 -3 basechar 0
 Fore
 95 148 m 1,0,1
  95 114 95 114 119 89.5 c 128,-1,2
@@ -5924,7 +5932,7 @@ Fore
  85 -272 85 -272 85 -204 c 1,49,-1
  85 -204 l 1,32,33
 EndSplineSet
-Substitution: 0 1 'abvs' .null
+Substitution: 0 0 'abvs' .null
 EndChar
 StartChar: U0C4A
 Encoding: 3146 3146 69
@@ -7273,7 +7281,7 @@ Fore
  746 496 746 496 746 462 c 1,69,-1
  746 462 l 1,57,58
 EndSplineSet
-Ligature: 0 1 'abvs' U0C15 U0C3E
+Ligature: 0 0 'abvs' U0C15 U0C3E
 EndChar
 StartChar: U0C16_U0C3E.abvs
 Encoding: 65553 -1 107
@@ -7372,7 +7380,7 @@ Fore
  952 496 952 496 952 462 c 1,118,-1
  952 462 l 1,106,107
 EndSplineSet
-Ligature: 0 1 'abvs' U0C16 U0C3E
+Ligature: 0 0 'abvs' U0C16 U0C3E
 EndChar
 StartChar: U0C17_U0C3E.abvs
 Encoding: 65554 -1 108
@@ -7417,7 +7425,7 @@ Fore
  799 496 799 496 799 462 c 1,45,-1
  799 462 l 1,33,34
 EndSplineSet
-Ligature: 0 1 'abvs' U0C17 U0C3E
+Ligature: 0 0 'abvs' U0C17 U0C3E
 EndChar
 StartChar: U0C18_U0C3E.abvs
 Encoding: 65555 -1 109
@@ -7519,7 +7527,7 @@ Fore
  1384 508 1384 508 1384 474 c 1,121,-1
  1384 474 l 1,109,110
 EndSplineSet
-Ligature: 0 1 'abvs' U0C18 U0C3E
+Ligature: 0 0 'abvs' U0C18 U0C3E
 EndChar
 StartChar: U0C19_U0C3E.abvs
 Encoding: 65556 -1 110
@@ -7604,7 +7612,7 @@ Fore
  906 496 906 496 906 462 c 1,101,-1
  906 462 l 1,89,90
 EndSplineSet
-Ligature: 0 1 'abvs' U0C19 U0C3E
+Ligature: 0 0 'abvs' U0C19 U0C3E
 EndChar
 StartChar: U0C1A_U0C3E.abvs
 Encoding: 65557 -1 111
@@ -7672,7 +7680,7 @@ Fore
  915 496 915 496 915 462 c 1,76,-1
  915 462 l 1,64,65
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1A U0C3E
+Ligature: 0 0 'abvs' U0C1A U0C3E
 EndChar
 StartChar: U0C1B_U0C3E.abvs
 Encoding: 65558 -1 112
@@ -7747,7 +7755,7 @@ Fore
  933 496 933 496 933 462 c 1,83,-1
  933 462 l 1,71,72
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1B U0C3E
+Ligature: 0 0 'abvs' U0C1B U0C3E
 EndChar
 StartChar: U0C1C_U0C3E.abvs
 Encoding: 65559 -1 113
@@ -7839,7 +7847,7 @@ Fore
  908 496 908 496 908 462 c 1,114,-1
  908 462 l 1,102,103
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1C U0C3E
+Ligature: 0 0 'abvs' U0C1C U0C3E
 EndChar
 StartChar: U0C1D_U0C3E.abvs
 Encoding: 65560 -1 114
@@ -7938,7 +7946,7 @@ Fore
  1797 508 1797 508 1797 474 c 1,118,-1
  1797 474 l 1,106,107
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1D U0C3E
+Ligature: 0 0 'abvs' U0C1D U0C3E
 EndChar
 StartChar: U0C1E_U0C3E.abvs
 Encoding: 65561 -1 115
@@ -8030,7 +8038,7 @@ Fore
  1170 496 1170 496 1170 462 c 1,108,-1
  1170 462 l 1,96,97
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1E U0C3E
+Ligature: 0 0 'abvs' U0C1E U0C3E
 EndChar
 StartChar: U0C1F_U0C3E.abvs
 Encoding: 65562 -1 116
@@ -8109,7 +8117,7 @@ Fore
  1023 496 1023 496 1023 462 c 1,92,-1
  1023 462 l 1,80,81
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1F U0C3E
+Ligature: 0 0 'abvs' U0C1F U0C3E
 EndChar
 StartChar: U0C20_U0C3E.abvs
 Encoding: 65563 -1 117
@@ -8168,7 +8176,7 @@ Fore
  853 496 853 496 853 462 c 1,61,-1
  853 462 l 1,49,50
 EndSplineSet
-Ligature: 0 1 'abvs' U0C20 U0C3E
+Ligature: 0 0 'abvs' U0C20 U0C3E
 EndChar
 StartChar: U0C21_U0C3E.abvs
 Encoding: 65564 -1 118
@@ -8245,7 +8253,7 @@ Fore
  932 496 932 496 932 462 c 1,89,-1
  932 462 l 1,77,78
 EndSplineSet
-Ligature: 0 1 'abvs' U0C21 U0C3E
+Ligature: 0 0 'abvs' U0C21 U0C3E
 EndChar
 StartChar: U0C22_U0C3E.abvs
 Encoding: 65565 -1 119
@@ -8328,7 +8336,7 @@ Fore
  932 496 932 496 932 462 c 1,95,-1
  932 462 l 1,83,84
 EndSplineSet
-Ligature: 0 1 'abvs' U0C22 U0C3E
+Ligature: 0 0 'abvs' U0C22 U0C3E
 EndChar
 StartChar: U0C23_U0C3E.abvs
 Encoding: 65566 -1 120
@@ -8420,7 +8428,7 @@ Fore
  1017 496 1017 496 1017 462 c 1,112,-1
  1017 462 l 1,100,101
 EndSplineSet
-Ligature: 0 1 'abvs' U0C23 U0C3E
+Ligature: 0 0 'abvs' U0C23 U0C3E
 EndChar
 StartChar: U0C24_U0C3E.abvs
 Encoding: 65567 -1 121
@@ -8504,7 +8512,7 @@ Fore
  926 496 926 496 926 462 c 1,99,-1
  926 462 l 1,87,88
 EndSplineSet
-Ligature: 0 1 'abvs' U0C24 U0C3E
+Ligature: 0 0 'abvs' U0C24 U0C3E
 EndChar
 StartChar: U0C25_U0C3E.abvs
 Encoding: 65568 -1 122
@@ -8579,7 +8587,7 @@ Fore
  932 496 932 496 932 462 c 1,81,-1
  932 462 l 1,69,70
 EndSplineSet
-Ligature: 0 1 'abvs' U0C25 U0C3E
+Ligature: 0 0 'abvs' U0C25 U0C3E
 EndChar
 StartChar: U0C26_U0C3E.abvs
 Encoding: 65569 -1 123
@@ -8642,7 +8650,7 @@ Fore
  932 496 932 496 932 462 c 1,70,-1
  932 462 l 1,58,59
 EndSplineSet
-Ligature: 0 1 'abvs' U0C26 U0C3E
+Ligature: 0 0 'abvs' U0C26 U0C3E
 EndChar
 StartChar: U0C27_U0C3E.abvs
 Encoding: 65570 -1 124
@@ -8711,7 +8719,7 @@ Fore
  932 496 932 496 932 462 c 1,76,-1
  932 462 l 1,64,65
 EndSplineSet
-Ligature: 0 1 'abvs' U0C27 U0C3E
+Ligature: 0 0 'abvs' U0C27 U0C3E
 EndChar
 StartChar: U0C28_U0C3E.abvs
 Encoding: 65571 -1 125
@@ -8771,7 +8779,7 @@ Fore
  923 496 923 496 923 462 c 1,68,-1
  923 462 l 1,56,57
 EndSplineSet
-Ligature: 0 1 'abvs' U0C28 U0C3E
+Ligature: 0 0 'abvs' U0C28 U0C3E
 EndChar
 StartChar: U0C2A_U0C3E.abvs
 Encoding: 65572 -1 126
@@ -8843,7 +8851,7 @@ Fore
  877 406 877 406 877 372 c 1,83,-1
  877 372 l 1,71,72
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2A U0C3E
+Ligature: 0 0 'abvs' U0C2A U0C3E
 EndChar
 StartChar: U0C2B_U0C3E.abvs
 Encoding: 65573 -1 127
@@ -8921,7 +8929,7 @@ Fore
  862 406 862 406 862 372 c 1,89,-1
  862 372 l 1,77,78
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2B U0C3E
+Ligature: 0 0 'abvs' U0C2B U0C3E
 EndChar
 StartChar: U0C2C_U0C3E.abvs
 Encoding: 65574 -1 128
@@ -8999,7 +9007,7 @@ Fore
  906 496 906 496 906 462 c 1,94,-1
  906 462 l 1,82,83
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2C U0C3E
+Ligature: 0 0 'abvs' U0C2C U0C3E
 EndChar
 StartChar: U0C2D_U0C3E.abvs
 Encoding: 65575 -1 129
@@ -9083,7 +9091,7 @@ Fore
  908 496 908 496 908 462 c 1,100,-1
  908 462 l 1,88,89
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2D U0C3E
+Ligature: 0 0 'abvs' U0C2D U0C3E
 EndChar
 StartChar: U0C2E_U0C3E.abvs
 Encoding: 65576 -1 130
@@ -9174,7 +9182,7 @@ Fore
  1384 508 1384 508 1384 474 c 1,109,-1
  1384 474 l 1,97,98
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2E U0C3E
+Ligature: 0 0 'abvs' U0C2E U0C3E
 EndChar
 StartChar: U0C2F_U0C3E.abvs
 Encoding: 65577 -1 131
@@ -9267,7 +9275,7 @@ Fore
  1729 508 1729 508 1729 474 c 1,112,-1
  1729 474 l 1,100,101
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2F U0C3E
+Ligature: 0 0 'abvs' U0C2F U0C3E
 EndChar
 StartChar: U0C30_U0C3E.abvs
 Encoding: 65578 -1 132
@@ -9320,7 +9328,7 @@ Fore
  779 496 779 496 779 462 c 1,56,-1
  779 462 l 1,44,45
 EndSplineSet
-Ligature: 0 1 'abvs' U0C30 U0C3E
+Ligature: 0 0 'abvs' U0C30 U0C3E
 EndChar
 StartChar: U0C31_U0C3E.abvs
 Encoding: 65579 -1 133
@@ -9412,7 +9420,7 @@ Fore
  1010 496 1010 496 1010 462 c 1,110,-1
  1010 462 l 1,98,99
 EndSplineSet
-Ligature: 0 1 'abvs' U0C31 U0C3E
+Ligature: 0 0 'abvs' U0C31 U0C3E
 EndChar
 StartChar: U0C32_U0C3E.abvs
 Encoding: 65580 -1 134
@@ -9480,7 +9488,7 @@ Fore
  894 496 894 496 894 462 c 1,78,-1
  894 462 l 1,66,67
 EndSplineSet
-Ligature: 0 1 'abvs' U0C32 U0C3E
+Ligature: 0 0 'abvs' U0C32 U0C3E
 EndChar
 StartChar: U0C33_U0C3E.abvs
 Encoding: 65581 -1 135
@@ -9564,7 +9572,7 @@ Fore
  867 496 867 496 867 462 c 1,99,-1
  867 462 l 1,87,88
 EndSplineSet
-Ligature: 0 1 'abvs' U0C33 U0C3E
+Ligature: 0 0 'abvs' U0C33 U0C3E
 EndChar
 StartChar: U0C35_U0C3E.abvs
 Encoding: 65582 -1 136
@@ -9630,7 +9638,7 @@ Fore
  858 496 858 496 858 462 c 1,75,-1
  858 462 l 1,63,64
 EndSplineSet
-Ligature: 0 1 'abvs' U0C35 U0C3E
+Ligature: 0 0 'abvs' U0C35 U0C3E
 EndChar
 StartChar: U0C36_U0C3E.abvs
 Encoding: 65583 -1 137
@@ -9706,7 +9714,7 @@ Fore
  790 496 790 496 790 462 c 1,89,-1
  790 462 l 1,77,78
 EndSplineSet
-Ligature: 0 1 'abvs' U0C36 U0C3E
+Ligature: 0 0 'abvs' U0C36 U0C3E
 EndChar
 StartChar: U0C37_U0C3E.abvs
 Encoding: 65584 -1 138
@@ -9785,7 +9793,7 @@ Fore
  884 406 884 406 884 372 c 1,92,-1
  884 372 l 1,80,81
 EndSplineSet
-Ligature: 0 1 'abvs' U0C37 U0C3E
+Ligature: 0 0 'abvs' U0C37 U0C3E
 EndChar
 StartChar: U0C38_U0C3E.abvs
 Encoding: 65585 -1 139
@@ -9851,7 +9859,7 @@ Fore
  869 406 869 406 869 372 c 1,76,-1
  869 372 l 1,64,65
 EndSplineSet
-Ligature: 0 1 'abvs' U0C38 U0C3E
+Ligature: 0 0 'abvs' U0C38 U0C3E
 EndChar
 StartChar: U0C39_U0C3E.abvs
 Encoding: 65586 -1 140
@@ -9947,7 +9955,7 @@ Fore
  14 700 14 700 14 792 c 1,114,-1
  14 792 l 1,98,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C39 U0C3E
+Ligature: 0 0 'abvs' U0C39 U0C3E
 EndChar
 StartChar: U0C15_U0C3E_U0C37_U0C4D.akhn
 Encoding: 65587 -1 141
@@ -10036,7 +10044,7 @@ Fore
  773 496 773 496 773 462 c 1,106,-1
  773 462 l 1,94,95
 EndSplineSet
-Ligature: 0 1 'akhn' U0C15 U0C3E U0C37 U0C4D
+Ligature: 0 0 'akhn' U0C15 U0C3E U0C37 U0C4D
 EndChar
 StartChar: U0C15_U0C3F.abvs
 Encoding: 65588 -1 142
@@ -10101,7 +10109,7 @@ Fore
  202 853 202 853 202 826 c 1,77,-1
  202 826 l 1,65,66
 EndSplineSet
-Ligature: 0 1 'abvs' U0C15 U0C3F
+Ligature: 0 0 'abvs' U0C15 U0C3F
 EndChar
 StartChar: U0C16_U0C3F.abvs
 Encoding: 65589 -1 143
@@ -10196,7 +10204,7 @@ Fore
  469 649 469 649 469 615 c 1,114,-1
  469 615 l 1,102,103
 EndSplineSet
-Ligature: 0 1 'abvs' U0C16 U0C3F
+Ligature: 0 0 'abvs' U0C16 U0C3F
 EndChar
 StartChar: U0C17_U0C3F.abvs
 Encoding: 65590 -1 144
@@ -10243,7 +10251,7 @@ Fore
  167 695 167 695 167 620 c 1,49,-1
  167 620 l 1,29,30
 EndSplineSet
-Ligature: 0 1 'abvs' U0C17 U0C3F
+Ligature: 0 0 'abvs' U0C17 U0C3F
 EndChar
 StartChar: U0C18_U0C3F.abvs
 Encoding: 65591 -1 145
@@ -10337,7 +10345,7 @@ Fore
  66 865 66 865 66 835 c 1,113,-1
  66 835 l 1,101,102
 EndSplineSet
-Ligature: 0 1 'abvs' U0C18 U0C3F
+Ligature: 0 0 'abvs' U0C18 U0C3F
 EndChar
 StartChar: U0C19_U0C3F.abvs
 Encoding: 65592 -1 146
@@ -10426,7 +10434,7 @@ Fore
  478 853 478 853 478 826 c 1,109,-1
  478 826 l 1,97,98
 EndSplineSet
-Ligature: 0 1 'abvs' U0C19 U0C3F
+Ligature: 0 0 'abvs' U0C19 U0C3F
 EndChar
 StartChar: U0C1A_U0C3F.abvs
 Encoding: 65593 -1 147
@@ -10489,7 +10497,7 @@ Fore
  260 600 260 600 260 566 c 1,71,-1
  260 566 l 1,59,60
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1A U0C3F
+Ligature: 0 0 'abvs' U0C1A U0C3F
 EndChar
 StartChar: U0C1B_U0C3F.abvs
 Encoding: 65594 -1 148
@@ -10557,7 +10565,7 @@ Fore
  260 600 260 600 260 566 c 1,76,-1
  260 566 l 1,64,65
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1B U0C3F
+Ligature: 0 0 'abvs' U0C1B U0C3F
 EndChar
 StartChar: U0C1C_U0C3F.abvs
 Encoding: 65595 -1 149
@@ -10642,7 +10650,7 @@ Fore
  481 736 481 736 481 702 c 1,106,-1
  481 702 l 1,94,95
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1C U0C3F
+Ligature: 0 0 'abvs' U0C1C U0C3F
 EndChar
 StartChar: U0C1D_U0C3F.abvs
 Encoding: 65596 -1 150
@@ -10726,7 +10734,7 @@ Fore
  161 705 161 705 161 637 c 1,101,-1
  161 637 l 1,83,84
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1D U0C3F
+Ligature: 0 0 'abvs' U0C1D U0C3F
 EndChar
 StartChar: U0C1E_U0C3F.abvs
 Encoding: 65597 -1 151
@@ -10822,7 +10830,7 @@ Fore
  775 853 775 853 775 826 c 1,116,-1
  775 826 l 1,104,105
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1E U0C3F
+Ligature: 0 0 'abvs' U0C1E U0C3F
 EndChar
 StartChar: U0C1F_U0C3F.abvs
 Encoding: 65598 -1 152
@@ -10905,7 +10913,7 @@ Fore
  505 853 505 853 505 826 c 1,100,-1
  505 826 l 1,88,89
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1F U0C3F
+Ligature: 0 0 'abvs' U0C1F U0C3F
 EndChar
 StartChar: U0C20_U0C3F.abvs
 Encoding: 65599 -1 153
@@ -10966,7 +10974,7 @@ Fore
  292 245 l 1,65,-1
  292 245 l 1,61,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C20 U0C3F
+Ligature: 0 0 'abvs' U0C20 U0C3F
 EndChar
 StartChar: U0C21_U0C3F.abvs
 Encoding: 65600 -1 154
@@ -11047,7 +11055,7 @@ Fore
  331 853 331 853 331 826 c 1,97,-1
  331 826 l 1,85,86
 EndSplineSet
-Ligature: 0 1 'abvs' U0C21 U0C3F
+Ligature: 0 0 'abvs' U0C21 U0C3F
 EndChar
 StartChar: U0C22_U0C3F.abvs
 Encoding: 65601 -1 155
@@ -11134,7 +11142,7 @@ Fore
  323 853 323 853 323 826 c 1,103,-1
  323 826 l 1,91,92
 EndSplineSet
-Ligature: 0 1 'abvs' U0C22 U0C3F
+Ligature: 0 0 'abvs' U0C22 U0C3F
 EndChar
 StartChar: U0C23_U0C3F.abvs
 Encoding: 65602 -1 156
@@ -11231,7 +11239,7 @@ Fore
  546 853 546 853 546 826 c 1,121,-1
  546 826 l 1,109,110
 EndSplineSet
-Ligature: 0 1 'abvs' U0C23 U0C3F
+Ligature: 0 0 'abvs' U0C23 U0C3F
 EndChar
 StartChar: U0C24_U0C3F.abvs
 Encoding: 65603 -1 157
@@ -11312,7 +11320,7 @@ Fore
  335 702 335 702 335 668 c 1,97,-1
  335 668 l 1,85,86
 EndSplineSet
-Ligature: 0 1 'abvs' U0C24 U0C3F
+Ligature: 0 0 'abvs' U0C24 U0C3F
 EndChar
 StartChar: U0C25_U0C3F.abvs
 Encoding: 65604 -1 158
@@ -11390,7 +11398,7 @@ Fore
  355 311 l 1,87,-1
  355 311 l 1,83,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C25 U0C3F
+Ligature: 0 0 'abvs' U0C25 U0C3F
 EndChar
 StartChar: U0C26_U0C3F.abvs
 Encoding: 65605 -1 159
@@ -11452,7 +11460,7 @@ Fore
  241 698 241 698 241 637 c 1,71,-1
  241 637 l 1,53,54
 EndSplineSet
-Ligature: 0 1 'abvs' U0C26 U0C3F
+Ligature: 0 0 'abvs' U0C26 U0C3F
 EndChar
 StartChar: U0C27_U0C3F.abvs
 Encoding: 65606 -1 160
@@ -11521,7 +11529,7 @@ Fore
  241 698 241 698 241 637 c 1,78,-1
  241 637 l 1,58,59
 EndSplineSet
-Ligature: 0 1 'abvs' U0C27 U0C3F
+Ligature: 0 0 'abvs' U0C27 U0C3F
 EndChar
 StartChar: U0C28_U0C3F.abvs
 Encoding: 65607 -1 161
@@ -11576,7 +11584,7 @@ Fore
  167 634 167 634 167 600 c 1,63,-1
  167 600 l 1,51,52
 EndSplineSet
-Ligature: 0 1 'abvs' U0C28 U0C3F
+Ligature: 0 0 'abvs' U0C28 U0C3F
 EndChar
 StartChar: U0C2A_U0C3F.abvs
 Encoding: 65608 -1 162
@@ -11649,7 +11657,7 @@ Fore
  58 865 58 865 58 835 c 1,85,-1
  58 835 l 1,73,74
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2A U0C3F
+Ligature: 0 0 'abvs' U0C2A U0C3F
 EndChar
 StartChar: U0C2B_U0C3F.abvs
 Encoding: 65609 -1 163
@@ -11728,7 +11736,7 @@ Fore
  66 865 66 865 66 835 c 1,91,-1
  66 835 l 1,79,80
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2B U0C3F
+Ligature: 0 0 'abvs' U0C2B U0C3F
 EndChar
 StartChar: U0C2C_U0C3F.abvs
 Encoding: 65610 -1 164
@@ -11799,7 +11807,7 @@ Fore
  452 634 452 634 452 600 c 1,86,-1
  452 600 l 1,74,75
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2C U0C3F
+Ligature: 0 0 'abvs' U0C2C U0C3F
 EndChar
 StartChar: U0C2D_U0C3F.abvs
 Encoding: 65611 -1 165
@@ -11876,7 +11884,7 @@ Fore
  452 634 452 634 452 600 c 1,92,-1
  452 600 l 1,80,81
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2D U0C3F
+Ligature: 0 0 'abvs' U0C2D U0C3F
 EndChar
 StartChar: U0C2E_U0C3F.abvs
 Encoding: 65612 -1 166
@@ -11952,7 +11960,7 @@ Fore
  29 87 29 87 29 148 c 1,92,-1
  29 148 l 1,26,27
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2E U0C3F
+Ligature: 0 0 'abvs' U0C2E U0C3F
 EndChar
 StartChar: U0C2F_U0C3F.abvs
 Encoding: 65613 -1 167
@@ -12009,7 +12017,7 @@ Fore
  42 177 42 177 42 303 c 1,65,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2F U0C3F
+Ligature: 0 0 'abvs' U0C2F U0C3F
 EndChar
 StartChar: U0C30_U0C3F.abvs
 Encoding: 65614 -1 168
@@ -12060,7 +12068,7 @@ Fore
  161 705 161 705 161 637 c 1,56,-1
  161 637 l 1,38,39
 EndSplineSet
-Ligature: 0 1 'abvs' U0C30 U0C3F
+Ligature: 0 0 'abvs' U0C30 U0C3F
 EndChar
 StartChar: U0C31_U0C3F.abvs
 Encoding: 65615 -1 169
@@ -12156,7 +12164,7 @@ Fore
  590 853 590 853 590 826 c 1,118,-1
  590 826 l 1,106,107
 EndSplineSet
-Ligature: 0 1 'abvs' U0C31 U0C3F
+Ligature: 0 0 'abvs' U0C31 U0C3F
 EndChar
 StartChar: U0C32_U0C3F.abvs
 Encoding: 65616 -1 170
@@ -12217,7 +12225,7 @@ Fore
  270 82 270 82 372 82 c 1,70,-1
  372 82 l 1,26,27
 EndSplineSet
-Ligature: 0 1 'abvs' U0C32 U0C3F
+Ligature: 0 0 'abvs' U0C32 U0C3F
 EndChar
 StartChar: U0C33_U0C3F.abvs
 Encoding: 65617 -1 171
@@ -12295,7 +12303,7 @@ Fore
  275 685 275 685 275 651 c 1,92,-1
  275 651 l 1,80,81
 EndSplineSet
-Ligature: 0 1 'abvs' U0C33 U0C3F
+Ligature: 0 0 'abvs' U0C33 U0C3F
 EndChar
 StartChar: U0C35_U0C3F.abvs
 Encoding: 65618 -1 172
@@ -12356,7 +12364,7 @@ Fore
  29 87 29 87 29 148 c 1,70,-1
  29 148 l 1,26,27
 EndSplineSet
-Ligature: 0 1 'abvs' U0C35 U0C3F
+Ligature: 0 0 'abvs' U0C35 U0C3F
 EndChar
 StartChar: U0C36_U0C3F.abvs
 Encoding: 65619 -1 173
@@ -12427,7 +12435,7 @@ Fore
  156 736 156 736 156 702 c 1,84,-1
  156 702 l 1,72,73
 EndSplineSet
-Ligature: 0 1 'abvs' U0C36 U0C3F
+Ligature: 0 0 'abvs' U0C36 U0C3F
 EndChar
 StartChar: U0C37_U0C3F.abvs
 Encoding: 65620 -1 174
@@ -12507,7 +12515,7 @@ Fore
  83 865 83 865 83 835 c 1,94,-1
  83 835 l 1,82,83
 EndSplineSet
-Ligature: 0 1 'abvs' U0C37 U0C3F
+Ligature: 0 0 'abvs' U0C37 U0C3F
 EndChar
 StartChar: U0C38_U0C3F.abvs
 Encoding: 65621 -1 175
@@ -12574,7 +12582,7 @@ Fore
  105 865 105 865 105 835 c 1,78,-1
  105 835 l 1,66,67
 EndSplineSet
-Ligature: 0 1 'abvs' U0C38 U0C3F
+Ligature: 0 0 'abvs' U0C38 U0C3F
 EndChar
 StartChar: U0C39_U0C3F.abvs
 Encoding: 65622 -1 176
@@ -12671,7 +12679,7 @@ Fore
  109 865 109 865 109 835 c 1,116,-1
  109 835 l 1,104,105
 EndSplineSet
-Ligature: 0 1 'abvs' U0C39 U0C3F
+Ligature: 0 0 'abvs' U0C39 U0C3F
 EndChar
 StartChar: U0C15_U0C3F_U0C37_U0C4D.akhn
 Encoding: 65623 -1 177
@@ -12764,7 +12772,7 @@ Fore
  214 853 214 853 214 826 c 1,114,-1
  214 826 l 1,102,103
 EndSplineSet
-Ligature: 0 1 'akhn' U0C15 U0C3F U0C37 U0C4D
+Ligature: 0 0 'akhn' U0C15 U0C3F U0C37 U0C4D
 EndChar
 StartChar: U0C15_U0C40.abvs
 Encoding: 65624 -1 178
@@ -12843,7 +12851,7 @@ Fore
  194 853 194 853 194 826 c 1,97,-1
  194 826 l 1,85,86
 EndSplineSet
-Ligature: 0 1 'abvs' U0C15 U0C40
+Ligature: 0 0 'abvs' U0C15 U0C40
 EndChar
 StartChar: U0C16_U0C40.abvs
 Encoding: 65625 -1 179
@@ -12952,7 +12960,7 @@ Fore
  464 649 464 649 464 615 c 1,134,-1
  464 615 l 1,122,123
 EndSplineSet
-Ligature: 0 1 'abvs' U0C16 U0C40
+Ligature: 0 0 'abvs' U0C16 U0C40
 EndChar
 StartChar: U0C17_U0C40.abvs
 Encoding: 65626 -1 180
@@ -13012,7 +13020,7 @@ Fore
  158 695 158 695 158 620 c 1,68,-1
  158 620 l 1,49,50
 EndSplineSet
-Ligature: 0 1 'abvs' U0C17 U0C40
+Ligature: 0 0 'abvs' U0C17 U0C40
 EndChar
 StartChar: U0C18_U0C40.abvs
 Encoding: 65627 -1 181
@@ -13120,7 +13128,7 @@ Fore
  97 856 97 856 97 826 c 1,133,-1
  97 826 l 1,121,122
 EndSplineSet
-Ligature: 0 1 'abvs' U0C18 U0C40
+Ligature: 0 0 'abvs' U0C18 U0C40
 EndChar
 StartChar: U0C19_U0C40.abvs
 Encoding: 65628 -1 182
@@ -13223,7 +13231,7 @@ Fore
  478 853 478 853 478 826 c 1,129,-1
  478 826 l 1,117,118
 EndSplineSet
-Ligature: 0 1 'abvs' U0C19 U0C40
+Ligature: 0 0 'abvs' U0C19 U0C40
 EndChar
 StartChar: U0C1A_U0C40.abvs
 Encoding: 65629 -1 183
@@ -13300,7 +13308,7 @@ Fore
  260 600 260 600 260 566 c 1,90,-1
  260 566 l 1,78,79
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1A U0C40
+Ligature: 0 0 'abvs' U0C1A U0C40
 EndChar
 StartChar: U0C1B_U0C40.abvs
 Encoding: 65630 -1 184
@@ -13381,7 +13389,7 @@ Fore
  260 600 260 600 260 566 c 1,94,-1
  260 566 l 1,82,83
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1B U0C40
+Ligature: 0 0 'abvs' U0C1B U0C40
 EndChar
 StartChar: U0C1C_U0C40.abvs
 Encoding: 65631 -1 185
@@ -13480,7 +13488,7 @@ Fore
  479 736 479 736 479 702 c 1,126,-1
  479 702 l 1,114,115
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1C U0C40
+Ligature: 0 0 'abvs' U0C1C U0C40
 EndChar
 StartChar: U0C1D_U0C40.abvs
 Encoding: 65632 -1 186
@@ -13578,7 +13586,7 @@ Fore
  161 705 161 705 161 637 c 1,121,-1
  161 637 l 1,103,104
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1D U0C40
+Ligature: 0 0 'abvs' U0C1D U0C40
 EndChar
 StartChar: U0C1E_U0C40.abvs
 Encoding: 65633 -1 187
@@ -13688,7 +13696,7 @@ Fore
  767 853 767 853 767 826 c 1,136,-1
  767 826 l 1,124,125
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1E U0C40
+Ligature: 0 0 'abvs' U0C1E U0C40
 EndChar
 StartChar: U0C1F_U0C40.abvs
 Encoding: 65634 -1 188
@@ -13785,7 +13793,7 @@ Fore
  496 853 496 853 496 826 c 1,120,-1
  496 826 l 1,108,109
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1F U0C40
+Ligature: 0 0 'abvs' U0C1F U0C40
 EndChar
 StartChar: U0C20_U0C40.abvs
 Encoding: 65635 -1 189
@@ -13860,7 +13868,7 @@ Fore
  291 245 l 1,85,-1
  291 245 l 1,81,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C20 U0C40
+Ligature: 0 0 'abvs' U0C20 U0C40
 EndChar
 StartChar: U0C21_U0C40.abvs
 Encoding: 65636 -1 190
@@ -13955,7 +13963,7 @@ Fore
  323 853 323 853 323 826 c 1,117,-1
  323 826 l 1,105,106
 EndSplineSet
-Ligature: 0 1 'abvs' U0C21 U0C40
+Ligature: 0 0 'abvs' U0C21 U0C40
 EndChar
 StartChar: U0C22_U0C40.abvs
 Encoding: 65637 -1 191
@@ -14056,7 +14064,7 @@ Fore
  314 853 314 853 314 826 c 1,123,-1
  314 826 l 1,111,112
 EndSplineSet
-Ligature: 0 1 'abvs' U0C22 U0C40
+Ligature: 0 0 'abvs' U0C22 U0C40
 EndChar
 StartChar: U0C23_U0C40.abvs
 Encoding: 65638 -1 192
@@ -14167,7 +14175,7 @@ Fore
  537 853 537 853 537 826 c 1,141,-1
  537 826 l 1,129,130
 EndSplineSet
-Ligature: 0 1 'abvs' U0C23 U0C40
+Ligature: 0 0 'abvs' U0C23 U0C40
 EndChar
 StartChar: U0C24_U0C40.abvs
 Encoding: 65639 -1 193
@@ -14261,7 +14269,7 @@ Fore
  335 702 335 702 335 668 c 1,115,-1
  335 668 l 1,103,104
 EndSplineSet
-Ligature: 0 1 'abvs' U0C24 U0C40
+Ligature: 0 0 'abvs' U0C24 U0C40
 EndChar
 StartChar: U0C25_U0C40.abvs
 Encoding: 65640 -1 194
@@ -14351,7 +14359,7 @@ Fore
  355 311 l 1,105,-1
  355 311 l 1,101,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C25 U0C40
+Ligature: 0 0 'abvs' U0C25 U0C40
 EndChar
 StartChar: U0C26_U0C40.abvs
 Encoding: 65641 -1 195
@@ -14429,7 +14437,7 @@ Fore
  241 698 241 698 241 637 c 1,93,-1
  241 637 l 1,74,75
 EndSplineSet
-Ligature: 0 1 'abvs' U0C26 U0C40
+Ligature: 0 0 'abvs' U0C26 U0C40
 EndChar
 StartChar: U0C27_U0C40.abvs
 Encoding: 65642 -1 196
@@ -14511,7 +14519,7 @@ Fore
  241 698 241 698 241 637 c 1,97,-1
  241 637 l 1,79,80
 EndSplineSet
-Ligature: 0 1 'abvs' U0C27 U0C40
+Ligature: 0 0 'abvs' U0C27 U0C40
 EndChar
 StartChar: U0C28_U0C40.abvs
 Encoding: 65643 -1 197
@@ -14580,7 +14588,7 @@ Fore
  167 634 167 634 167 600 c 1,83,-1
  167 600 l 1,71,72
 EndSplineSet
-Ligature: 0 1 'abvs' U0C28 U0C40
+Ligature: 0 0 'abvs' U0C28 U0C40
 EndChar
 StartChar: U0C2A_U0C40.abvs
 Encoding: 65644 -1 198
@@ -14667,7 +14675,7 @@ Fore
  88 856 88 856 88 826 c 1,105,-1
  88 826 l 1,93,94
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2A U0C40
+Ligature: 0 0 'abvs' U0C2A U0C40
 EndChar
 StartChar: U0C2B_U0C40.abvs
 Encoding: 65645 -1 199
@@ -14760,7 +14768,7 @@ Fore
  88 856 88 856 88 826 c 1,111,-1
  88 826 l 1,99,100
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2B U0C40
+Ligature: 0 0 'abvs' U0C2B U0C40
 EndChar
 StartChar: U0C2C_U0C40.abvs
 Encoding: 65646 -1 200
@@ -14845,7 +14853,7 @@ Fore
  452 634 452 634 452 600 c 1,106,-1
  452 600 l 1,94,95
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2C U0C40
+Ligature: 0 0 'abvs' U0C2C U0C40
 EndChar
 StartChar: U0C2D_U0C40.abvs
 Encoding: 65647 -1 201
@@ -14936,7 +14944,7 @@ Fore
  450 634 450 634 450 600 c 1,112,-1
  450 600 l 1,100,101
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2D U0C40
+Ligature: 0 0 'abvs' U0C2D U0C40
 EndChar
 StartChar: U0C2E_U0C40.abvs
 Encoding: 65648 -1 202
@@ -15026,7 +15034,7 @@ Fore
  29 87 29 87 29 148 c 1,112,-1
  29 148 l 1,26,27
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2E U0C40
+Ligature: 0 0 'abvs' U0C2E U0C40
 EndChar
 StartChar: U0C2F_U0C40.abvs
 Encoding: 65649 -1 203
@@ -15109,7 +15117,7 @@ Fore
  1805 508 1805 508 1805 474 c 1,100,-1
  1805 474 l 1,88,89
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2F U0C40
+Ligature: 0 0 'abvs' U0C2F U0C40
 EndChar
 StartChar: U0C30_U0C40.abvs
 Encoding: 65650 -1 204
@@ -15174,7 +15182,7 @@ Fore
  161 705 161 705 161 637 c 1,76,-1
  161 637 l 1,58,59
 EndSplineSet
-Ligature: 0 1 'abvs' U0C30 U0C40
+Ligature: 0 0 'abvs' U0C30 U0C40
 EndChar
 StartChar: U0C31_U0C40.abvs
 Encoding: 65651 -1 205
@@ -15284,7 +15292,7 @@ Fore
  581 853 581 853 581 826 c 1,138,-1
  581 826 l 1,126,127
 EndSplineSet
-Ligature: 0 1 'abvs' U0C31 U0C40
+Ligature: 0 0 'abvs' U0C31 U0C40
 EndChar
 StartChar: U0C32_U0C40.abvs
 Encoding: 65652 -1 206
@@ -15359,7 +15367,7 @@ Fore
  266 82 266 82 372 82 c 1,90,-1
  372 82 l 1,26,27
 EndSplineSet
-Ligature: 0 1 'abvs' U0C32 U0C40
+Ligature: 0 0 'abvs' U0C32 U0C40
 EndChar
 StartChar: U0C33_U0C40.abvs
 Encoding: 65653 -1 207
@@ -15452,7 +15460,7 @@ Fore
  277 685 277 685 277 651 c 1,114,-1
  277 651 l 1,102,103
 EndSplineSet
-Ligature: 0 1 'abvs' U0C33 U0C40
+Ligature: 0 0 'abvs' U0C33 U0C40
 EndChar
 StartChar: U0C35_U0C40.abvs
 Encoding: 65654 -1 208
@@ -15527,7 +15535,7 @@ Fore
  29 87 29 87 29 148 c 1,90,-1
  29 148 l 1,26,27
 EndSplineSet
-Ligature: 0 1 'abvs' U0C35 U0C40
+Ligature: 0 0 'abvs' U0C35 U0C40
 EndChar
 StartChar: U0C36_U0C40.abvs
 Encoding: 65655 -1 209
@@ -15612,7 +15620,7 @@ Fore
  156 736 156 736 156 702 c 1,104,-1
  156 702 l 1,92,93
 EndSplineSet
-Ligature: 0 1 'abvs' U0C36 U0C40
+Ligature: 0 0 'abvs' U0C36 U0C40
 EndChar
 StartChar: U0C37_U0C40.abvs
 Encoding: 65656 -1 210
@@ -15706,7 +15714,7 @@ Fore
  97 856 97 856 97 826 c 1,114,-1
  97 826 l 1,102,103
 EndSplineSet
-Ligature: 0 1 'abvs' U0C37 U0C40
+Ligature: 0 0 'abvs' U0C37 U0C40
 EndChar
 StartChar: U0C38_U0C40.abvs
 Encoding: 65657 -1 211
@@ -15787,7 +15795,7 @@ Fore
  92 856 92 856 92 826 c 1,98,-1
  92 826 l 1,86,87
 EndSplineSet
-Ligature: 0 1 'abvs' U0C38 U0C40
+Ligature: 0 0 'abvs' U0C38 U0C40
 EndChar
 StartChar: U0C39_U0C40.abvs
 Encoding: 65658 -1 212
@@ -15898,7 +15906,7 @@ Fore
  121 856 121 856 121 826 c 1,136,-1
  121 826 l 1,124,125
 EndSplineSet
-Ligature: 0 1 'abvs' U0C39 U0C40
+Ligature: 0 0 'abvs' U0C39 U0C40
 EndChar
 StartChar: U0C15_U0C40_U0C37_U0C4D.akhn
 Encoding: 65659 -1 213
@@ -16004,7 +16012,7 @@ Fore
  206 853 206 853 206 826 c 1,132,-1
  206 826 l 1,120,121
 EndSplineSet
-Ligature: 0 1 'akhn' U0C15 U0C40 U0C37 U0C4D
+Ligature: 0 0 'akhn' U0C15 U0C40 U0C37 U0C4D
 EndChar
 StartChar: U0C15_U0C46.abvs
 Encoding: 65660 -1 214
@@ -16054,7 +16062,7 @@ Fore
  148 476 148 476 148 442 c 1,55,-1
  148 442 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C15 U0C46
+Ligature: 0 0 'abvs' U0C15 U0C46
 EndChar
 StartChar: U0C16_U0C46.abvs
 Encoding: 65661 -1 215
@@ -16143,7 +16151,7 @@ Fore
  684 0 684 0 575 0 c 1,105,-1
  575 0 l 1,27,28
 EndSplineSet
-Ligature: 0 1 'abvs' U0C16 U0C46
+Ligature: 0 0 'abvs' U0C16 U0C46
 EndChar
 StartChar: U0C17_U0C46.abvs
 Encoding: 65662 -1 216
@@ -16177,7 +16185,7 @@ Fore
  46 0 l 1,31,-1
  46 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C17 U0C46
+Ligature: 0 0 'abvs' U0C17 U0C46
 EndChar
 StartChar: U0C18_U0C46.abvs
 Encoding: 65663 -1 217
@@ -16257,7 +16265,7 @@ Fore
  97 556 l 1,92,-1
  97 556 l 1,74,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C18 U0C46
+Ligature: 0 0 'abvs' U0C18 U0C46
 EndChar
 StartChar: U0C19_U0C46.abvs
 Encoding: 65664 -1 218
@@ -16332,7 +16340,7 @@ Fore
  54 105 54 105 54 180 c 1,88,-1
  54 180 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C19 U0C46
+Ligature: 0 0 'abvs' U0C19 U0C46
 EndChar
 StartChar: U0C1A_U0C46.abvs
 Encoding: 65665 -1 219
@@ -16391,7 +16399,7 @@ Fore
  627 0 627 0 535 0 c 1,64,-1
  535 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1A U0C46
+Ligature: 0 0 'abvs' U0C1A U0C46
 EndChar
 StartChar: U0C1B_U0C46.abvs
 Encoding: 65666 -1 220
@@ -16456,7 +16464,7 @@ Fore
  627 0 627 0 535 0 c 1,70,-1
  535 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1B U0C46
+Ligature: 0 0 'abvs' U0C1B U0C46
 EndChar
 StartChar: U0C1C_U0C46.abvs
 Encoding: 65667 -1 221
@@ -16538,7 +16546,7 @@ Fore
  56 105 56 105 56 180 c 1,101,-1
  56 180 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1C U0C46
+Ligature: 0 0 'abvs' U0C1C U0C46
 EndChar
 StartChar: U0C1D_U0C46.abvs
 Encoding: 65668 -1 222
@@ -16614,7 +16622,7 @@ Fore
  42 177 42 177 42 303 c 1,88,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1D U0C46
+Ligature: 0 0 'abvs' U0C1D U0C46
 EndChar
 StartChar: U0C1E_U0C46.abvs
 Encoding: 65669 -1 223
@@ -16697,7 +16705,7 @@ Fore
  233 175 233 175 233 148 c 1,96,-1
  233 148 l 1,83,84
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1E U0C46
+Ligature: 0 0 'abvs' U0C1E U0C46
 EndChar
 StartChar: U0C1F_U0C46.abvs
 Encoding: 65670 -1 224
@@ -16766,7 +16774,7 @@ Fore
  48 161 48 161 48 275 c 1,79,-1
  48 275 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1F U0C46
+Ligature: 0 0 'abvs' U0C1F U0C46
 EndChar
 StartChar: U0C20_U0C46.abvs
 Encoding: 65671 -1 225
@@ -16814,7 +16822,7 @@ Fore
  289 245 l 1,47,-1
  289 245 l 1,43,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C20 U0C46
+Ligature: 0 0 'abvs' U0C20 U0C46
 EndChar
 StartChar: U0C21_U0C46.abvs
 Encoding: 65672 -1 226
@@ -16881,7 +16889,7 @@ Fore
  44 153 44 153 44 262 c 1,77,-1
  44 262 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C21 U0C46
+Ligature: 0 0 'abvs' U0C21 U0C46
 EndChar
 StartChar: U0C22_U0C46.abvs
 Encoding: 65673 -1 227
@@ -16954,7 +16962,7 @@ Fore
  44 153 44 153 44 262 c 1,83,-1
  44 262 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C22 U0C46
+Ligature: 0 0 'abvs' U0C22 U0C46
 EndChar
 StartChar: U0C23_U0C46.abvs
 Encoding: 65674 -1 228
@@ -17036,7 +17044,7 @@ Fore
  54 385 54 385 54 433 c 1,99,-1
  54 433 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C23 U0C46
+Ligature: 0 0 'abvs' U0C23 U0C46
 EndChar
 StartChar: U0C24_U0C46.abvs
 Encoding: 65675 -1 229
@@ -17110,7 +17118,7 @@ Fore
  536 498 536 498 588 503 c 1,86,-1
  588 503 l 1,26,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C24 U0C46
+Ligature: 0 0 'abvs' U0C24 U0C46
 EndChar
 StartChar: U0C25_U0C46.abvs
 Encoding: 65676 -1 230
@@ -17174,7 +17182,7 @@ Fore
  354 311 l 1,67,-1
  354 311 l 1,63,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C25 U0C46
+Ligature: 0 0 'abvs' U0C25 U0C46
 EndChar
 StartChar: U0C26_U0C46.abvs
 Encoding: 65677 -1 231
@@ -17226,7 +17234,7 @@ Fore
  42 144 42 144 42 245 c 1,56,-1
  42 245 l 1,20,21
 EndSplineSet
-Ligature: 0 1 'abvs' U0C26 U0C46
+Ligature: 0 0 'abvs' U0C26 U0C46
 EndChar
 StartChar: U0C27_U0C46.abvs
 Encoding: 65678 -1 232
@@ -17284,7 +17292,7 @@ Fore
  44 144 44 144 44 245 c 1,62,-1
  44 245 l 1,20,21
 EndSplineSet
-Ligature: 0 1 'abvs' U0C27 U0C46
+Ligature: 0 0 'abvs' U0C27 U0C46
 EndChar
 StartChar: U0C28_U0C46.abvs
 Encoding: 65679 -1 233
@@ -17335,7 +17343,7 @@ Fore
  445 82 445 82 493 82 c 1,56,-1
  493 82 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C28 U0C46
+Ligature: 0 0 'abvs' U0C28 U0C46
 EndChar
 StartChar: U0C2A_U0C46.abvs
 Encoding: 65680 -1 234
@@ -17394,7 +17402,7 @@ Fore
  122 556 l 1,64,-1
  122 556 l 1,46,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2A U0C46
+Ligature: 0 0 'abvs' U0C2A U0C46
 EndChar
 StartChar: U0C2B_U0C46.abvs
 Encoding: 65681 -1 235
@@ -17459,7 +17467,7 @@ Fore
  88 556 l 1,70,-1
  88 556 l 1,52,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2B U0C46
+Ligature: 0 0 'abvs' U0C2B U0C46
 EndChar
 StartChar: U0C2C_U0C46.abvs
 Encoding: 65682 -1 236
@@ -17527,7 +17535,7 @@ Fore
  527 82 527 82 578 82 c 1,81,-1
  578 82 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2C U0C46
+Ligature: 0 0 'abvs' U0C2C U0C46
 EndChar
 StartChar: U0C2D_U0C46.abvs
 Encoding: 65683 -1 237
@@ -17601,7 +17609,7 @@ Fore
  508 82 508 82 563 82 c 1,87,-1
  563 82 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2D U0C46
+Ligature: 0 0 'abvs' U0C2D U0C46
 EndChar
 StartChar: U0C2E_U0C46.abvs
 Encoding: 65684 -1 238
@@ -17671,7 +17679,7 @@ Fore
  29 87 29 87 29 148 c 1,82,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2E U0C46
+Ligature: 0 0 'abvs' U0C2E U0C46
 EndChar
 StartChar: U0C2F_U0C46.abvs
 Encoding: 65685 -1 239
@@ -17743,7 +17751,7 @@ Fore
  942 212 942 212 942 304 c 1,85,-1
  942 304 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2F U0C46
+Ligature: 0 0 'abvs' U0C2F U0C46
 EndChar
 StartChar: U0C30_U0C46.abvs
 Encoding: 65686 -1 240
@@ -17785,7 +17793,7 @@ Fore
  42 177 42 177 42 303 c 1,42,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C30 U0C46
+Ligature: 0 0 'abvs' U0C30 U0C46
 EndChar
 StartChar: U0C31_U0C46.abvs
 Encoding: 65687 -1 241
@@ -17866,7 +17874,7 @@ Fore
  48 181 48 181 48 309 c 1,96,-1
  48 309 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C31 U0C46
+Ligature: 0 0 'abvs' U0C31 U0C46
 EndChar
 StartChar: U0C32_U0C46.abvs
 Encoding: 65688 -1 242
@@ -17924,7 +17932,7 @@ Fore
  295 82 295 82 416 82 c 1,65,-1
  416 82 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C32 U0C46
+Ligature: 0 0 'abvs' U0C32 U0C46
 EndChar
 StartChar: U0C33_U0C46.abvs
 Encoding: 65689 -1 243
@@ -17998,7 +18006,7 @@ Fore
  295 212 295 212 359 212 c 1,86,-1
  359 212 l 1,26,27
 EndSplineSet
-Ligature: 0 1 'abvs' U0C33 U0C46
+Ligature: 0 0 'abvs' U0C33 U0C46
 EndChar
 StartChar: U0C35_U0C46.abvs
 Encoding: 65690 -1 244
@@ -18054,7 +18062,7 @@ Fore
  29 87 29 87 29 148 c 1,62,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C35 U0C46
+Ligature: 0 0 'abvs' U0C35 U0C46
 EndChar
 StartChar: U0C36_U0C46.abvs
 Encoding: 65691 -1 245
@@ -18120,7 +18128,7 @@ Fore
  197 111 197 111 197 189 c 1,76,-1
  197 189 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C36 U0C46
+Ligature: 0 0 'abvs' U0C36 U0C46
 EndChar
 StartChar: U0C37_U0C46.abvs
 Encoding: 65692 -1 246
@@ -18186,7 +18194,7 @@ Fore
  139 556 l 1,73,-1
  139 556 l 1,55,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C37 U0C46
+Ligature: 0 0 'abvs' U0C37 U0C46
 EndChar
 StartChar: U0C38_U0C46.abvs
 Encoding: 65693 -1 247
@@ -18239,7 +18247,7 @@ Fore
  144 556 l 1,57,-1
  144 556 l 1,39,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C38 U0C46
+Ligature: 0 0 'abvs' U0C38 U0C46
 EndChar
 StartChar: U0C39_U0C46.abvs
 Encoding: 65694 -1 248
@@ -18322,7 +18330,7 @@ Fore
  148 556 l 1,95,-1
  148 556 l 1,77,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C39 U0C46
+Ligature: 0 0 'abvs' U0C39 U0C46
 EndChar
 StartChar: U0C15_U0C46_U0C37_U0C4D.akhn
 Encoding: 65695 -1 249
@@ -18400,7 +18408,7 @@ Fore
  160 467 160 467 160 433 c 1,92,-1
  160 433 l 1,37,38
 EndSplineSet
-Ligature: 0 1 'akhn' U0C15 U0C46 U0C37 U0C4D
+Ligature: 0 0 'akhn' U0C15 U0C46 U0C37 U0C4D
 EndChar
 StartChar: U0C15_U0C47.abvs
 Encoding: 65696 -1 250
@@ -18465,7 +18473,7 @@ Fore
  148 476 148 476 148 442 c 1,76,-1
  148 442 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C15 U0C47
+Ligature: 0 0 'abvs' U0C15 U0C47
 EndChar
 StartChar: U0C16_U0C47.abvs
 Encoding: 65697 -1 251
@@ -18569,7 +18577,7 @@ Fore
  684 0 684 0 575 0 c 1,126,-1
  575 0 l 1,27,28
 EndSplineSet
-Ligature: 0 1 'abvs' U0C16 U0C47
+Ligature: 0 0 'abvs' U0C16 U0C47
 EndChar
 StartChar: U0C17_U0C47.abvs
 Encoding: 65698 -1 252
@@ -18618,7 +18626,7 @@ Fore
  46 0 l 1,52,-1
  46 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C17 U0C47
+Ligature: 0 0 'abvs' U0C17 U0C47
 EndChar
 StartChar: U0C18_U0C47.abvs
 Encoding: 65699 -1 253
@@ -18713,7 +18721,7 @@ Fore
  88 556 l 1,113,-1
  88 556 l 1,74,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C18 U0C47
+Ligature: 0 0 'abvs' U0C18 U0C47
 EndChar
 StartChar: U0C19_U0C47.abvs
 Encoding: 65700 -1 254
@@ -18804,7 +18812,7 @@ Fore
  54 105 54 105 54 180 c 1,110,-1
  54 180 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C19 U0C47
+Ligature: 0 0 'abvs' U0C19 U0C47
 EndChar
 StartChar: U0C1A_U0C47.abvs
 Encoding: 65701 -1 255
@@ -18878,7 +18886,7 @@ Fore
  627 0 627 0 535 0 c 1,85,-1
  535 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1A U0C47
+Ligature: 0 0 'abvs' U0C1A U0C47
 EndChar
 StartChar: U0C1B_U0C47.abvs
 Encoding: 65702 -1 256
@@ -18958,7 +18966,7 @@ Fore
  627 0 627 0 535 0 c 1,91,-1
  535 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1B U0C47
+Ligature: 0 0 'abvs' U0C1B U0C47
 EndChar
 StartChar: U0C1C_U0C47.abvs
 Encoding: 65703 -1 257
@@ -19055,7 +19063,7 @@ Fore
  56 105 56 105 56 180 c 1,122,-1
  56 180 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1C U0C47
+Ligature: 0 0 'abvs' U0C1C U0C47
 EndChar
 StartChar: U0C1D_U0C47.abvs
 Encoding: 65704 -1 258
@@ -19146,7 +19154,7 @@ Fore
  42 177 42 177 42 303 c 1,109,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1D U0C47
+Ligature: 0 0 'abvs' U0C1D U0C47
 EndChar
 StartChar: U0C1E_U0C47.abvs
 Encoding: 65705 -1 259
@@ -19244,7 +19252,7 @@ Fore
  233 175 233 175 233 148 c 1,117,-1
  233 148 l 1,104,105
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1E U0C47
+Ligature: 0 0 'abvs' U0C1E U0C47
 EndChar
 StartChar: U0C1F_U0C47.abvs
 Encoding: 65706 -1 260
@@ -19328,7 +19336,7 @@ Fore
  48 161 48 161 48 275 c 1,100,-1
  48 275 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1F U0C47
+Ligature: 0 0 'abvs' U0C1F U0C47
 EndChar
 StartChar: U0C20_U0C47.abvs
 Encoding: 65707 -1 261
@@ -19391,7 +19399,7 @@ Fore
  289 245 l 1,68,-1
  289 245 l 1,64,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C20 U0C47
+Ligature: 0 0 'abvs' U0C20 U0C47
 EndChar
 StartChar: U0C21_U0C47.abvs
 Encoding: 65708 -1 262
@@ -19473,7 +19481,7 @@ Fore
  44 153 44 153 44 262 c 1,98,-1
  44 262 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C21 U0C47
+Ligature: 0 0 'abvs' U0C21 U0C47
 EndChar
 StartChar: U0C22_U0C47.abvs
 Encoding: 65709 -1 263
@@ -19561,7 +19569,7 @@ Fore
  44 153 44 153 44 262 c 1,104,-1
  44 262 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C22 U0C47
+Ligature: 0 0 'abvs' U0C22 U0C47
 EndChar
 StartChar: U0C23_U0C47.abvs
 Encoding: 65710 -1 264
@@ -19658,7 +19666,7 @@ Fore
  54 385 54 385 54 433 c 1,120,-1
  54 433 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C23 U0C47
+Ligature: 0 0 'abvs' U0C23 U0C47
 EndChar
 StartChar: U0C24_U0C47.abvs
 Encoding: 65711 -1 265
@@ -19747,7 +19755,7 @@ Fore
  536 498 536 498 588 503 c 1,107,-1
  588 503 l 1,26,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C24 U0C47
+Ligature: 0 0 'abvs' U0C24 U0C47
 EndChar
 StartChar: U0C25_U0C47.abvs
 Encoding: 65712 -1 266
@@ -19822,7 +19830,7 @@ Fore
  355 311 l 1,84,-1
  355 311 l 1,80,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C25 U0C47
+Ligature: 0 0 'abvs' U0C25 U0C47
 EndChar
 StartChar: U0C26_U0C47.abvs
 Encoding: 65713 -1 267
@@ -19886,7 +19894,7 @@ Fore
  42 144 42 144 42 245 c 1,74,-1
  42 245 l 1,20,21
 EndSplineSet
-Ligature: 0 1 'abvs' U0C26 U0C47
+Ligature: 0 0 'abvs' U0C26 U0C47
 EndChar
 StartChar: U0C27_U0C47.abvs
 Encoding: 65714 -1 268
@@ -19955,7 +19963,7 @@ Fore
  44 144 44 144 44 245 c 1,79,-1
  44 245 l 1,20,21
 EndSplineSet
-Ligature: 0 1 'abvs' U0C27 U0C47
+Ligature: 0 0 'abvs' U0C27 U0C47
 EndChar
 StartChar: U0C28_U0C47.abvs
 Encoding: 65715 -1 269
@@ -20021,7 +20029,7 @@ Fore
  445 82 445 82 493 82 c 1,77,-1
  493 82 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C28 U0C47
+Ligature: 0 0 'abvs' U0C28 U0C47
 EndChar
 StartChar: U0C2A_U0C47.abvs
 Encoding: 65716 -1 270
@@ -20095,7 +20103,7 @@ Fore
  114 556 l 1,85,-1
  114 556 l 1,46,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2A U0C47
+Ligature: 0 0 'abvs' U0C2A U0C47
 EndChar
 StartChar: U0C2B_U0C47.abvs
 Encoding: 65717 -1 271
@@ -20175,7 +20183,7 @@ Fore
  73 556 l 1,91,-1
  73 556 l 1,52,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2B U0C47
+Ligature: 0 0 'abvs' U0C2B U0C47
 EndChar
 StartChar: U0C2C_U0C47.abvs
 Encoding: 65718 -1 272
@@ -20258,7 +20266,7 @@ Fore
  527 82 527 82 578 82 c 1,102,-1
  578 82 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2C U0C47
+Ligature: 0 0 'abvs' U0C2C U0C47
 EndChar
 StartChar: U0C2D_U0C47.abvs
 Encoding: 65719 -1 273
@@ -20347,7 +20355,7 @@ Fore
  508 82 508 82 563 82 c 1,108,-1
  563 82 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2D U0C47
+Ligature: 0 0 'abvs' U0C2D U0C47
 EndChar
 StartChar: U0C2E_U0C47.abvs
 Encoding: 65720 -1 274
@@ -20433,7 +20441,7 @@ Fore
  29 87 29 87 29 148 c 1,105,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2E U0C47
+Ligature: 0 0 'abvs' U0C2E U0C47
 EndChar
 StartChar: U0C2F_U0C47.abvs
 Encoding: 65721 -1 275
@@ -20520,7 +20528,7 @@ Fore
  942 212 942 212 942 304 c 1,106,-1
  942 304 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2F U0C47
+Ligature: 0 0 'abvs' U0C2F U0C47
 EndChar
 StartChar: U0C30_U0C47.abvs
 Encoding: 65722 -1 276
@@ -20577,7 +20585,7 @@ Fore
  42 177 42 177 42 303 c 1,63,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C30 U0C47
+Ligature: 0 0 'abvs' U0C30 U0C47
 EndChar
 StartChar: U0C31_U0C47.abvs
 Encoding: 65723 -1 277
@@ -20674,7 +20682,7 @@ Fore
  48 181 48 181 48 309 c 1,118,-1
  48 309 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C31 U0C47
+Ligature: 0 0 'abvs' U0C31 U0C47
 EndChar
 StartChar: U0C32_U0C47.abvs
 Encoding: 65724 -1 278
@@ -20747,7 +20755,7 @@ Fore
  295 82 295 82 416 82 c 1,86,-1
  416 82 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C32 U0C47
+Ligature: 0 0 'abvs' U0C32 U0C47
 EndChar
 StartChar: U0C33_U0C47.abvs
 Encoding: 65725 -1 279
@@ -20836,7 +20844,7 @@ Fore
  295 212 295 212 359 212 c 1,107,-1
  359 212 l 1,26,27
 EndSplineSet
-Ligature: 0 1 'abvs' U0C33 U0C47
+Ligature: 0 0 'abvs' U0C33 U0C47
 EndChar
 StartChar: U0C35_U0C47.abvs
 Encoding: 65726 -1 280
@@ -20907,7 +20915,7 @@ Fore
  29 87 29 87 29 148 c 1,83,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C35 U0C47
+Ligature: 0 0 'abvs' U0C35 U0C47
 EndChar
 StartChar: U0C36_U0C47.abvs
 Encoding: 65727 -1 281
@@ -20988,7 +20996,7 @@ Fore
  197 111 197 111 197 189 c 1,97,-1
  197 189 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C36 U0C47
+Ligature: 0 0 'abvs' U0C36 U0C47
 EndChar
 StartChar: U0C37_U0C47.abvs
 Encoding: 65728 -1 282
@@ -21069,7 +21077,7 @@ Fore
  139 556 l 1,94,-1
  139 556 l 1,55,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C37 U0C47
+Ligature: 0 0 'abvs' U0C37 U0C47
 EndChar
 StartChar: U0C38_U0C47.abvs
 Encoding: 65729 -1 283
@@ -21137,7 +21145,7 @@ Fore
  144 556 l 1,78,-1
  144 556 l 1,39,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C38 U0C47
+Ligature: 0 0 'abvs' U0C38 U0C47
 EndChar
 StartChar: U0C39_U0C47.abvs
 Encoding: 65730 -1 284
@@ -21235,7 +21243,7 @@ Fore
  182 556 l 1,116,-1
  182 556 l 1,77,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C39 U0C47
+Ligature: 0 0 'abvs' U0C39 U0C47
 EndChar
 StartChar: U0C15_U0C47_U0C37_U0C4D.akhn
 Encoding: 65731 -1 285
@@ -21328,7 +21336,7 @@ Fore
  160 467 160 467 160 433 c 1,113,-1
  160 433 l 1,37,38
 EndSplineSet
-Ligature: 0 1 'akhn' U0C15 U0C47 U0C37 U0C4D
+Ligature: 0 0 'akhn' U0C15 U0C47 U0C37 U0C4D
 EndChar
 StartChar: U0C15_U0C4A.abvs
 Encoding: 65732 -1 286
@@ -21407,7 +21415,7 @@ Fore
  688 736 688 736 688 702 c 1,95,-1
  688 702 l 1,83,84
 EndSplineSet
-Ligature: 0 1 'abvs' U0C15 U0C4A
+Ligature: 0 0 'abvs' U0C15 U0C4A
 EndChar
 StartChar: U0C16_U0C4A.abvs
 Encoding: 65733 -1 287
@@ -21522,7 +21530,7 @@ Fore
  959 736 959 736 959 702 c 1,142,-1
  959 702 l 1,130,131
 EndSplineSet
-Ligature: 0 1 'abvs' U0C16 U0C4A
+Ligature: 0 0 'abvs' U0C16 U0C4A
 EndChar
 StartChar: U0C17_U0C4A.abvs
 Encoding: 65734 -1 288
@@ -21584,7 +21592,7 @@ Fore
  768 736 768 736 768 702 c 1,70,-1
  768 702 l 1,58,59
 EndSplineSet
-Ligature: 0 1 'abvs' U0C17 U0C4A
+Ligature: 0 0 'abvs' U0C17 U0C4A
 EndChar
 StartChar: U0C18_U0C4A.abvs
 Encoding: 65735 -1 289
@@ -21677,7 +21685,7 @@ Fore
  105 556 l 1,110,-1
  105 556 l 1,92,-1
 EndSplineSet
-Ligature: 0 1 'abvs' U0C18 U0C4A
+Ligature: 0 0 'abvs' U0C18 U0C4A
 EndChar
 StartChar: U0C19_U0C4A.abvs
 Encoding: 65736 -1 290
@@ -21781,7 +21789,7 @@ Fore
  921 736 921 736 921 702 c 1,128,-1
  921 702 l 1,116,117
 EndSplineSet
-Ligature: 0 1 'abvs' U0C19 U0C4A
+Ligature: 0 0 'abvs' U0C19 U0C4A
 EndChar
 StartChar: U0C1A_U0C4A.abvs
 Encoding: 65737 -1 291
@@ -21866,7 +21874,7 @@ Fore
  847 736 847 736 847 702 c 1,101,-1
  847 702 l 1,89,90
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1A U0C4A
+Ligature: 0 0 'abvs' U0C1A U0C4A
 EndChar
 StartChar: U0C1B_U0C4A.abvs
 Encoding: 65738 -1 292
@@ -21959,7 +21967,7 @@ Fore
  864 736 864 736 864 702 c 1,109,-1
  864 702 l 1,97,98
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1B U0C4A
+Ligature: 0 0 'abvs' U0C1B U0C4A
 EndChar
 StartChar: U0C1C_U0C4A.abvs
 Encoding: 65739 -1 293
@@ -22069,7 +22077,7 @@ Fore
  925 736 925 736 925 702 c 1,140,-1
  925 702 l 1,128,129
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1C U0C4A
+Ligature: 0 0 'abvs' U0C1C U0C4A
 EndChar
 StartChar: U0C1D_U0C4A.abvs
 Encoding: 65740 -1 294
@@ -22159,7 +22167,7 @@ Fore
  42 177 42 177 42 303 c 1,108,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1D U0C4A
+Ligature: 0 0 'abvs' U0C1D U0C4A
 EndChar
 StartChar: U0C1E_U0C4A.abvs
 Encoding: 65741 -1 295
@@ -22271,7 +22279,7 @@ Fore
  1108 736 1108 736 1108 702 c 1,136,-1
  1108 702 l 1,124,125
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1E U0C4A
+Ligature: 0 0 'abvs' U0C1E U0C4A
 EndChar
 StartChar: U0C1F_U0C4A.abvs
 Encoding: 65742 -1 296
@@ -22368,7 +22376,7 @@ Fore
  1008 736 1008 736 1008 702 c 1,118,-1
  1008 702 l 1,106,107
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1F U0C4A
+Ligature: 0 0 'abvs' U0C1F U0C4A
 EndChar
 StartChar: U0C20_U0C4A.abvs
 Encoding: 65743 -1 297
@@ -22445,7 +22453,7 @@ Fore
  790 736 790 736 790 702 c 1,87,-1
  790 702 l 1,75,76
 EndSplineSet
-Ligature: 0 1 'abvs' U0C20 U0C4A
+Ligature: 0 0 'abvs' U0C20 U0C4A
 EndChar
 StartChar: U0C21_U0C4A.abvs
 Encoding: 65744 -1 298
@@ -22541,7 +22549,7 @@ Fore
  886 736 886 736 886 702 c 1,118,-1
  886 702 l 1,106,107
 EndSplineSet
-Ligature: 0 1 'abvs' U0C21 U0C4A
+Ligature: 0 0 'abvs' U0C21 U0C4A
 EndChar
 StartChar: U0C22_U0C4A.abvs
 Encoding: 65745 -1 299
@@ -22643,7 +22651,7 @@ Fore
  826 736 826 736 826 702 c 1,124,-1
  826 702 l 1,112,113
 EndSplineSet
-Ligature: 0 1 'abvs' U0C22 U0C4A
+Ligature: 0 0 'abvs' U0C22 U0C4A
 EndChar
 StartChar: U0C23_U0C4A.abvs
 Encoding: 65746 -1 300
@@ -22754,7 +22762,7 @@ Fore
  1032 736 1032 736 1032 702 c 1,139,-1
  1032 702 l 1,127,128
 EndSplineSet
-Ligature: 0 1 'abvs' U0C23 U0C4A
+Ligature: 0 0 'abvs' U0C23 U0C4A
 EndChar
 StartChar: U0C24_U0C4A.abvs
 Encoding: 65747 -1 301
@@ -22854,7 +22862,7 @@ Fore
  899 736 899 736 899 702 c 1,123,-1
  899 702 l 1,111,112
 EndSplineSet
-Ligature: 0 1 'abvs' U0C24 U0C4A
+Ligature: 0 0 'abvs' U0C24 U0C4A
 EndChar
 StartChar: U0C25_U0C4A.abvs
 Encoding: 65748 -1 302
@@ -22947,7 +22955,7 @@ Fore
  826 736 826 736 826 702 c 1,107,-1
  826 702 l 1,95,96
 EndSplineSet
-Ligature: 0 1 'abvs' U0C25 U0C4A
+Ligature: 0 0 'abvs' U0C25 U0C4A
 EndChar
 StartChar: U0C26_U0C4A.abvs
 Encoding: 65749 -1 303
@@ -23028,7 +23036,7 @@ Fore
  826 736 826 736 826 702 c 1,96,-1
  826 702 l 1,84,85
 EndSplineSet
-Ligature: 0 1 'abvs' U0C26 U0C4A
+Ligature: 0 0 'abvs' U0C26 U0C4A
 EndChar
 StartChar: U0C27_U0C4A.abvs
 Encoding: 65750 -1 304
@@ -23115,7 +23123,7 @@ Fore
  826 736 826 736 826 702 c 1,102,-1
  826 702 l 1,90,91
 EndSplineSet
-Ligature: 0 1 'abvs' U0C27 U0C4A
+Ligature: 0 0 'abvs' U0C27 U0C4A
 EndChar
 StartChar: U0C28_U0C4A.abvs
 Encoding: 65751 -1 305
@@ -23193,7 +23201,7 @@ Fore
  816 736 816 736 816 702 c 1,94,-1
  816 702 l 1,82,83
 EndSplineSet
-Ligature: 0 1 'abvs' U0C28 U0C4A
+Ligature: 0 0 'abvs' U0C28 U0C4A
 EndChar
 StartChar: U0C2A_U0C4A.abvs
 Encoding: 65752 -1 306
@@ -23281,7 +23289,7 @@ Fore
  874 428 874 428 874 394 c 1,105,-1
  874 394 l 1,93,94
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2A U0C4A
+Ligature: 0 0 'abvs' U0C2A U0C4A
 EndChar
 StartChar: U0C2B_U0C4A.abvs
 Encoding: 65753 -1 307
@@ -23375,7 +23383,7 @@ Fore
  874 428 874 428 874 394 c 1,111,-1
  874 394 l 1,99,100
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2B U0C4A
+Ligature: 0 0 'abvs' U0C2B U0C4A
 EndChar
 StartChar: U0C2C_U0C4A.abvs
 Encoding: 65754 -1 308
@@ -23469,7 +23477,7 @@ Fore
  921 736 921 736 921 702 c 1,118,-1
  921 702 l 1,106,107
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2C U0C4A
+Ligature: 0 0 'abvs' U0C2C U0C4A
 EndChar
 StartChar: U0C2D_U0C4A.abvs
 Encoding: 65755 -1 309
@@ -23569,7 +23577,7 @@ Fore
  872 736 872 736 872 702 c 1,124,-1
  872 702 l 1,112,113
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2D U0C4A
+Ligature: 0 0 'abvs' U0C2D U0C4A
 EndChar
 StartChar: U0C2E_U0C4A.abvs
 Encoding: 65756 -1 310
@@ -23653,7 +23661,7 @@ Fore
  29 87 29 87 29 148 c 1,102,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2E U0C4A
+Ligature: 0 0 'abvs' U0C2E U0C4A
 EndChar
 StartChar: U0C2F_U0C4A.abvs
 Encoding: 65757 -1 311
@@ -23739,7 +23747,7 @@ Fore
  942 212 942 212 942 304 c 1,105,-1
  942 304 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2F U0C4A
+Ligature: 0 0 'abvs' U0C2F U0C4A
 EndChar
 StartChar: U0C30_U0C4A.abvs
 Encoding: 65758 -1 312
@@ -23810,7 +23818,7 @@ Fore
  756 736 756 736 756 702 c 1,82,-1
  756 702 l 1,70,71
 EndSplineSet
-Ligature: 0 1 'abvs' U0C30 U0C4A
+Ligature: 0 0 'abvs' U0C30 U0C4A
 EndChar
 StartChar: U0C31_U0C4A.abvs
 Encoding: 65759 -1 313
@@ -23921,7 +23929,7 @@ Fore
  1102 736 1102 736 1102 702 c 1,138,-1
  1102 702 l 1,126,127
 EndSplineSet
-Ligature: 0 1 'abvs' U0C31 U0C4A
+Ligature: 0 0 'abvs' U0C31 U0C4A
 EndChar
 StartChar: U0C32_U0C4A.abvs
 Encoding: 65760 -1 314
@@ -24006,7 +24014,7 @@ Fore
  909 736 909 736 909 702 c 1,103,-1
  909 702 l 1,91,92
 EndSplineSet
-Ligature: 0 1 'abvs' U0C32 U0C4A
+Ligature: 0 0 'abvs' U0C32 U0C4A
 EndChar
 StartChar: U0C33_U0C4A.abvs
 Encoding: 65761 -1 315
@@ -24108,7 +24116,7 @@ Fore
  779 736 779 736 779 702 c 1,125,-1
  779 702 l 1,113,114
 EndSplineSet
-Ligature: 0 1 'abvs' U0C33 U0C4A
+Ligature: 0 0 'abvs' U0C33 U0C4A
 EndChar
 StartChar: U0C35_U0C4A.abvs
 Encoding: 65762 -1 316
@@ -24192,7 +24200,7 @@ Fore
  811 736 811 736 811 702 c 1,101,-1
  811 702 l 1,89,90
 EndSplineSet
-Ligature: 0 1 'abvs' U0C35 U0C4A
+Ligature: 0 0 'abvs' U0C35 U0C4A
 EndChar
 StartChar: U0C36_U0C4A.abvs
 Encoding: 65763 -1 317
@@ -24284,7 +24292,7 @@ Fore
  712 736 712 736 712 702 c 1,113,-1
  712 702 l 1,101,102
 EndSplineSet
-Ligature: 0 1 'abvs' U0C36 U0C4A
+Ligature: 0 0 'abvs' U0C36 U0C4A
 EndChar
 StartChar: U0C37_U0C4A.abvs
 Encoding: 65764 -1 318
@@ -24379,7 +24387,7 @@ Fore
  881 428 881 428 881 394 c 1,114,-1
  881 394 l 1,102,103
 EndSplineSet
-Ligature: 0 1 'abvs' U0C37 U0C4A
+Ligature: 0 0 'abvs' U0C37 U0C4A
 EndChar
 StartChar: U0C38_U0C4A.abvs
 Encoding: 65765 -1 319
@@ -24461,7 +24469,7 @@ Fore
  872 428 872 428 872 394 c 1,98,-1
  872 394 l 1,86,87
 EndSplineSet
-Ligature: 0 1 'abvs' U0C38 U0C4A
+Ligature: 0 0 'abvs' U0C38 U0C4A
 EndChar
 StartChar: U0C39_U0C4A.abvs
 Encoding: 65766 -1 320
@@ -24582,7 +24590,7 @@ Fore
  1355 736 1355 736 1355 702 c 1,148,-1
  1355 702 l 1,136,137
 EndSplineSet
-Ligature: 0 1 'abvs' U0C39 U0C4A
+Ligature: 0 0 'abvs' U0C39 U0C4A
 EndChar
 StartChar: U0C15_U0C4A_U0C37_U0C4D.akhn
 Encoding: 65767 -1 321
@@ -24689,7 +24697,7 @@ Fore
  709 736 709 736 709 702 c 1,132,-1
  709 702 l 1,120,121
 EndSplineSet
-Ligature: 0 1 'akhn' U0C15 U0C4A U0C37 U0C4D
+Ligature: 0 0 'akhn' U0C15 U0C4A U0C37 U0C4D
 EndChar
 StartChar: U0C15_U0C4B.abvs
 Encoding: 65768 -1 322
@@ -24782,7 +24790,7 @@ Fore
  688 736 688 736 688 702 c 1,115,-1
  688 702 l 1,103,104
 EndSplineSet
-Ligature: 0 1 'abvs' U0C15 U0C4B
+Ligature: 0 0 'abvs' U0C15 U0C4B
 EndChar
 StartChar: U0C16_U0C4B.abvs
 Encoding: 65769 -1 323
@@ -24912,7 +24920,7 @@ Fore
  950 743 950 743 950 709 c 1,163,-1
  950 709 l 1,151,152
 EndSplineSet
-Ligature: 0 1 'abvs' U0C16 U0C4B
+Ligature: 0 0 'abvs' U0C16 U0C4B
 EndChar
 StartChar: U0C17_U0C4B.abvs
 Encoding: 65770 -1 324
@@ -24988,7 +24996,7 @@ Fore
  768 736 768 736 768 702 c 1,90,-1
  768 702 l 1,78,79
 EndSplineSet
-Ligature: 0 1 'abvs' U0C17 U0C4B
+Ligature: 0 0 'abvs' U0C17 U0C4B
 EndChar
 StartChar: U0C18_U0C4B.abvs
 Encoding: 65771 -1 325
@@ -25091,7 +25099,7 @@ Fore
  1392 508 1392 508 1392 474 c 1,121,-1
  1392 474 l 1,109,110
 EndSplineSet
-Ligature: 0 1 'abvs' U0C18 U0C4B
+Ligature: 0 0 'abvs' U0C18 U0C4B
 EndChar
 StartChar: U0C19_U0C4B.abvs
 Encoding: 65772 -1 326
@@ -25210,7 +25218,7 @@ Fore
  921 736 921 736 921 702 c 1,149,-1
  921 702 l 1,137,138
 EndSplineSet
-Ligature: 0 1 'abvs' U0C19 U0C4B
+Ligature: 0 0 'abvs' U0C19 U0C4B
 EndChar
 StartChar: U0C1A_U0C4B.abvs
 Encoding: 65773 -1 327
@@ -25309,7 +25317,7 @@ Fore
  845 736 845 736 845 702 c 1,121,-1
  845 702 l 1,109,110
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1A U0C4B
+Ligature: 0 0 'abvs' U0C1A U0C4B
 EndChar
 StartChar: U0C1B_U0C4B.abvs
 Encoding: 65774 -1 328
@@ -25416,7 +25424,7 @@ Fore
  864 736 864 736 864 702 c 1,129,-1
  864 702 l 1,117,118
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1B U0C4B
+Ligature: 0 0 'abvs' U0C1B U0C4B
 EndChar
 StartChar: U0C1C_U0C4B.abvs
 Encoding: 65775 -1 329
@@ -25541,7 +25549,7 @@ Fore
  923 738 923 738 923 704 c 1,161,-1
  923 704 l 1,149,150
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1C U0C4B
+Ligature: 0 0 'abvs' U0C1C U0C4B
 EndChar
 StartChar: U0C1D_U0C4B.abvs
 Encoding: 65776 -1 330
@@ -25644,7 +25652,7 @@ Fore
  1805 508 1805 508 1805 474 c 1,123,-1
  1805 474 l 1,111,112
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1D U0C4B
+Ligature: 0 0 'abvs' U0C1D U0C4B
 EndChar
 StartChar: U0C1E_U0C4B.abvs
 Encoding: 65777 -1 331
@@ -25770,7 +25778,7 @@ Fore
  1100 736 1100 736 1100 702 c 1,156,-1
  1100 702 l 1,144,145
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1E U0C4B
+Ligature: 0 0 'abvs' U0C1E U0C4B
 EndChar
 StartChar: U0C1F_U0C4B.abvs
 Encoding: 65778 -1 332
@@ -25881,7 +25889,7 @@ Fore
  1008 736 1008 736 1008 702 c 1,138,-1
  1008 702 l 1,126,127
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1F U0C4B
+Ligature: 0 0 'abvs' U0C1F U0C4B
 EndChar
 StartChar: U0C20_U0C4B.abvs
 Encoding: 65779 -1 333
@@ -25972,7 +25980,7 @@ Fore
  790 736 790 736 790 702 c 1,107,-1
  790 702 l 1,95,96
 EndSplineSet
-Ligature: 0 1 'abvs' U0C20 U0C4B
+Ligature: 0 0 'abvs' U0C20 U0C4B
 EndChar
 StartChar: U0C21_U0C4B.abvs
 Encoding: 65780 -1 334
@@ -26081,7 +26089,7 @@ Fore
  886 736 886 736 886 702 c 1,136,-1
  886 702 l 1,124,125
 EndSplineSet
-Ligature: 0 1 'abvs' U0C21 U0C4B
+Ligature: 0 0 'abvs' U0C21 U0C4B
 EndChar
 StartChar: U0C22_U0C4B.abvs
 Encoding: 65781 -1 335
@@ -26197,7 +26205,7 @@ Fore
  826 736 826 736 826 702 c 1,144,-1
  826 702 l 1,132,133
 EndSplineSet
-Ligature: 0 1 'abvs' U0C22 U0C4B
+Ligature: 0 0 'abvs' U0C22 U0C4B
 EndChar
 StartChar: U0C23_U0C4B.abvs
 Encoding: 65782 -1 336
@@ -26322,7 +26330,7 @@ Fore
  1032 736 1032 736 1032 702 c 1,159,-1
  1032 702 l 1,147,148
 EndSplineSet
-Ligature: 0 1 'abvs' U0C23 U0C4B
+Ligature: 0 0 'abvs' U0C23 U0C4B
 EndChar
 StartChar: U0C24_U0C4B.abvs
 Encoding: 65783 -1 337
@@ -26436,7 +26444,7 @@ Fore
  899 736 899 736 899 702 c 1,143,-1
  899 702 l 1,131,132
 EndSplineSet
-Ligature: 0 1 'abvs' U0C24 U0C4B
+Ligature: 0 0 'abvs' U0C24 U0C4B
 EndChar
 StartChar: U0C25_U0C4B.abvs
 Encoding: 65784 -1 338
@@ -26543,7 +26551,7 @@ Fore
  826 736 826 736 826 702 c 1,127,-1
  826 702 l 1,115,116
 EndSplineSet
-Ligature: 0 1 'abvs' U0C25 U0C4B
+Ligature: 0 0 'abvs' U0C25 U0C4B
 EndChar
 StartChar: U0C26_U0C4B.abvs
 Encoding: 65785 -1 339
@@ -26638,7 +26646,7 @@ Fore
  826 736 826 736 826 702 c 1,116,-1
  826 702 l 1,104,105
 EndSplineSet
-Ligature: 0 1 'abvs' U0C26 U0C4B
+Ligature: 0 0 'abvs' U0C26 U0C4B
 EndChar
 StartChar: U0C27_U0C4B.abvs
 Encoding: 65786 -1 340
@@ -26739,7 +26747,7 @@ Fore
  824 736 824 736 824 702 c 1,122,-1
  824 702 l 1,110,111
 EndSplineSet
-Ligature: 0 1 'abvs' U0C27 U0C4B
+Ligature: 0 0 'abvs' U0C27 U0C4B
 EndChar
 StartChar: U0C28_U0C4B.abvs
 Encoding: 65787 -1 341
@@ -26831,7 +26839,7 @@ Fore
  816 736 816 736 816 702 c 1,114,-1
  816 702 l 1,102,103
 EndSplineSet
-Ligature: 0 1 'abvs' U0C28 U0C4B
+Ligature: 0 0 'abvs' U0C28 U0C4B
 EndChar
 StartChar: U0C2A_U0C4B.abvs
 Encoding: 65788 -1 342
@@ -26934,7 +26942,7 @@ Fore
  879 420 879 420 879 386 c 1,126,-1
  879 386 l 1,114,115
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2A U0C4B
+Ligature: 0 0 'abvs' U0C2A U0C4B
 EndChar
 StartChar: U0C2B_U0C4B.abvs
 Encoding: 65789 -1 343
@@ -27043,7 +27051,7 @@ Fore
  872 420 872 420 872 386 c 1,132,-1
  872 386 l 1,120,121
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2B U0C4B
+Ligature: 0 0 'abvs' U0C2B U0C4B
 EndChar
 StartChar: U0C2C_U0C4B.abvs
 Encoding: 65790 -1 344
@@ -27152,7 +27160,7 @@ Fore
  921 743 921 743 921 709 c 1,139,-1
  921 709 l 1,127,128
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2C U0C4B
+Ligature: 0 0 'abvs' U0C2C U0C4B
 EndChar
 StartChar: U0C2D_U0C4B.abvs
 Encoding: 65791 -1 345
@@ -27267,7 +27275,7 @@ Fore
  872 743 872 743 872 709 c 1,145,-1
  872 709 l 1,133,134
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2D U0C4B
+Ligature: 0 0 'abvs' U0C2D U0C4B
 EndChar
 StartChar: U0C2E_U0C4B.abvs
 Encoding: 65792 -1 346
@@ -27361,7 +27369,7 @@ Fore
  1385 508 1385 508 1385 474 c 1,113,-1
  1385 474 l 1,101,102
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2E U0C4B
+Ligature: 0 0 'abvs' U0C2E U0C4B
 EndChar
 StartChar: U0C2F_U0C4B.abvs
 Encoding: 65793 -1 347
@@ -27458,7 +27466,7 @@ Fore
  1729 508 1729 508 1729 474 c 1,118,-1
  1729 474 l 1,106,107
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2F U0C4B
+Ligature: 0 0 'abvs' U0C2F U0C4B
 EndChar
 StartChar: U0C30_U0C4B.abvs
 Encoding: 65794 -1 348
@@ -27543,7 +27551,7 @@ Fore
  756 736 756 736 756 702 c 1,102,-1
  756 702 l 1,90,91
 EndSplineSet
-Ligature: 0 1 'abvs' U0C30 U0C4B
+Ligature: 0 0 'abvs' U0C30 U0C4B
 EndChar
 StartChar: U0C31_U0C4B.abvs
 Encoding: 65795 -1 349
@@ -27667,7 +27675,7 @@ Fore
  1093 743 1093 743 1093 709 c 1,156,-1
  1093 709 l 1,144,145
 EndSplineSet
-Ligature: 0 1 'abvs' U0C31 U0C4B
+Ligature: 0 0 'abvs' U0C31 U0C4B
 EndChar
 StartChar: U0C32_U0C4B.abvs
 Encoding: 65796 -1 350
@@ -27766,7 +27774,7 @@ Fore
  909 743 909 743 909 709 c 1,123,-1
  909 709 l 1,111,112
 EndSplineSet
-Ligature: 0 1 'abvs' U0C32 U0C4B
+Ligature: 0 0 'abvs' U0C32 U0C4B
 EndChar
 StartChar: U0C33_U0C4B.abvs
 Encoding: 65797 -1 351
@@ -27883,7 +27891,7 @@ Fore
  779 743 779 743 779 709 c 1,146,-1
  779 709 l 1,134,135
 EndSplineSet
-Ligature: 0 1 'abvs' U0C33 U0C4B
+Ligature: 0 0 'abvs' U0C33 U0C4B
 EndChar
 StartChar: U0C35_U0C4B.abvs
 Encoding: 65798 -1 352
@@ -27981,7 +27989,7 @@ Fore
  811 736 811 736 811 702 c 1,121,-1
  811 702 l 1,109,110
 EndSplineSet
-Ligature: 0 1 'abvs' U0C35 U0C4B
+Ligature: 0 0 'abvs' U0C35 U0C4B
 EndChar
 StartChar: U0C36_U0C4B.abvs
 Encoding: 65799 -1 353
@@ -28088,7 +28096,7 @@ Fore
  712 743 712 743 712 709 c 1,134,-1
  712 709 l 1,122,123
 EndSplineSet
-Ligature: 0 1 'abvs' U0C36 U0C4B
+Ligature: 0 0 'abvs' U0C36 U0C4B
 EndChar
 StartChar: U0C37_U0C4B.abvs
 Encoding: 65800 -1 354
@@ -28198,7 +28206,7 @@ Fore
  886 420 886 420 886 386 c 1,135,-1
  886 386 l 1,123,124
 EndSplineSet
-Ligature: 0 1 'abvs' U0C37 U0C4B
+Ligature: 0 0 'abvs' U0C37 U0C4B
 EndChar
 StartChar: U0C38_U0C4B.abvs
 Encoding: 65801 -1 355
@@ -28295,7 +28303,7 @@ Fore
  872 420 872 420 872 386 c 1,119,-1
  872 386 l 1,107,108
 EndSplineSet
-Ligature: 0 1 'abvs' U0C38 U0C4B
+Ligature: 0 0 'abvs' U0C38 U0C4B
 EndChar
 StartChar: U0C39_U0C4B.abvs
 Encoding: 65802 -1 356
@@ -28431,7 +28439,7 @@ Fore
  1389 743 1389 743 1389 709 c 1,169,-1
  1389 709 l 1,157,158
 EndSplineSet
-Ligature: 0 1 'abvs' U0C39 U0C4B
+Ligature: 0 0 'abvs' U0C39 U0C4B
 EndChar
 StartChar: U0C15_U0C4B_U0C37_U0C4D.akhn
 Encoding: 65803 -1 357
@@ -28552,7 +28560,7 @@ Fore
  709 736 709 736 709 702 c 1,152,-1
  709 702 l 1,140,141
 EndSplineSet
-Ligature: 0 1 'akhn' U0C15 U0C4B U0C37 U0C4D
+Ligature: 0 0 'akhn' U0C15 U0C4B U0C37 U0C4D
 EndChar
 StartChar: U0C15_U0C4C.abvs
 Encoding: 65804 -1 358
@@ -28625,7 +28633,7 @@ Fore
  734 692 734 692 734 658 c 1,85,-1
  734 658 l 1,73,74
 EndSplineSet
-Ligature: 0 1 'abvs' U0C15 U0C4C
+Ligature: 0 0 'abvs' U0C15 U0C4C
 EndChar
 StartChar: U0C16_U0C4C.abvs
 Encoding: 65805 -1 359
@@ -28737,7 +28745,7 @@ Fore
  971 692 971 692 971 658 c 1,135,-1
  971 658 l 1,123,124
 EndSplineSet
-Ligature: 0 1 'abvs' U0C16 U0C4C
+Ligature: 0 0 'abvs' U0C16 U0C4C
 EndChar
 StartChar: U0C17_U0C4C.abvs
 Encoding: 65806 -1 360
@@ -28795,7 +28803,7 @@ Fore
  755 692 755 692 755 658 c 1,62,-1
  755 658 l 1,50,51
 EndSplineSet
-Ligature: 0 1 'abvs' U0C17 U0C4C
+Ligature: 0 0 'abvs' U0C17 U0C4C
 EndChar
 StartChar: U0C18_U0C4C.abvs
 Encoding: 65807 -1 361
@@ -28910,7 +28918,7 @@ Fore
  1360 704 1360 704 1360 670 c 1,138,-1
  1360 670 l 1,126,127
 EndSplineSet
-Ligature: 0 1 'abvs' U0C18 U0C4C
+Ligature: 0 0 'abvs' U0C18 U0C4C
 EndChar
 StartChar: U0C19_U0C4C.abvs
 Encoding: 65808 -1 362
@@ -29009,7 +29017,7 @@ Fore
  1035 692 1035 692 1035 658 c 1,119,-1
  1035 658 l 1,107,108
 EndSplineSet
-Ligature: 0 1 'abvs' U0C19 U0C4C
+Ligature: 0 0 'abvs' U0C19 U0C4C
 EndChar
 StartChar: U0C1A_U0C4C.abvs
 Encoding: 65809 -1 363
@@ -29091,7 +29099,7 @@ Fore
  901 692 901 692 901 658 c 1,94,-1
  901 658 l 1,82,83
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1A U0C4C
+Ligature: 0 0 'abvs' U0C1A U0C4C
 EndChar
 StartChar: U0C1B_U0C4C.abvs
 Encoding: 65810 -1 364
@@ -29179,7 +29187,7 @@ Fore
  943 692 943 692 943 658 c 1,100,-1
  943 658 l 1,88,89
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1B U0C4C
+Ligature: 0 0 'abvs' U0C1B U0C4C
 EndChar
 StartChar: U0C1C_U0C4C.abvs
 Encoding: 65811 -1 365
@@ -29278,7 +29286,7 @@ Fore
  926 692 926 692 926 658 c 1,125,-1
  926 658 l 1,113,114
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1C U0C4C
+Ligature: 0 0 'abvs' U0C1C U0C4C
 EndChar
 StartChar: U0C1D_U0C4C.abvs
 Encoding: 65812 -1 366
@@ -29383,7 +29391,7 @@ Fore
  1782 704 1782 704 1782 670 c 1,127,-1
  1782 670 l 1,115,116
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1D U0C4C
+Ligature: 0 0 'abvs' U0C1D U0C4C
 EndChar
 StartChar: U0C1E_U0C4C.abvs
 Encoding: 65813 -1 367
@@ -29489,7 +29497,7 @@ Fore
  1299 692 1299 692 1299 658 c 1,126,-1
  1299 658 l 1,114,115
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1E U0C4C
+Ligature: 0 0 'abvs' U0C1E U0C4C
 EndChar
 StartChar: U0C1F_U0C4C.abvs
 Encoding: 65814 -1 368
@@ -29581,7 +29589,7 @@ Fore
  1045 692 1045 692 1045 658 c 1,109,-1
  1045 658 l 1,97,98
 EndSplineSet
-Ligature: 0 1 'abvs' U0C1F U0C4C
+Ligature: 0 0 'abvs' U0C1F U0C4C
 EndChar
 StartChar: U0C20_U0C4C.abvs
 Encoding: 65815 -1 369
@@ -29652,7 +29660,7 @@ Fore
  828 692 828 692 828 658 c 1,77,-1
  828 658 l 1,65,66
 EndSplineSet
-Ligature: 0 1 'abvs' U0C20 U0C4C
+Ligature: 0 0 'abvs' U0C20 U0C4C
 EndChar
 StartChar: U0C21_U0C4C.abvs
 Encoding: 65816 -1 370
@@ -29742,7 +29750,7 @@ Fore
  926 692 926 692 926 658 c 1,107,-1
  926 658 l 1,95,96
 EndSplineSet
-Ligature: 0 1 'abvs' U0C21 U0C4C
+Ligature: 0 0 'abvs' U0C21 U0C4C
 EndChar
 StartChar: U0C22_U0C4C.abvs
 Encoding: 65817 -1 371
@@ -29838,7 +29846,7 @@ Fore
  906 692 906 692 906 658 c 1,113,-1
  906 658 l 1,101,102
 EndSplineSet
-Ligature: 0 1 'abvs' U0C22 U0C4C
+Ligature: 0 0 'abvs' U0C22 U0C4C
 EndChar
 StartChar: U0C23_U0C4C.abvs
 Encoding: 65818 -1 372
@@ -29943,7 +29951,7 @@ Fore
  1103 692 1103 692 1103 658 c 1,129,-1
  1103 658 l 1,117,118
 EndSplineSet
-Ligature: 0 1 'abvs' U0C23 U0C4C
+Ligature: 0 0 'abvs' U0C23 U0C4C
 EndChar
 StartChar: U0C24_U0C4C.abvs
 Encoding: 65819 -1 373
@@ -30040,7 +30048,7 @@ Fore
  920 692 920 692 920 658 c 1,116,-1
  920 658 l 1,104,105
 EndSplineSet
-Ligature: 0 1 'abvs' U0C24 U0C4C
+Ligature: 0 0 'abvs' U0C24 U0C4C
 EndChar
 StartChar: U0C25_U0C4C.abvs
 Encoding: 65820 -1 374
@@ -30127,7 +30135,7 @@ Fore
  872 692 872 692 872 658 c 1,97,-1
  872 658 l 1,85,86
 EndSplineSet
-Ligature: 0 1 'abvs' U0C25 U0C4C
+Ligature: 0 0 'abvs' U0C25 U0C4C
 EndChar
 StartChar: U0C26_U0C4C.abvs
 Encoding: 65821 -1 375
@@ -30202,7 +30210,7 @@ Fore
  864 692 864 692 864 658 c 1,86,-1
  864 658 l 1,74,75
 EndSplineSet
-Ligature: 0 1 'abvs' U0C26 U0C4C
+Ligature: 0 0 'abvs' U0C26 U0C4C
 EndChar
 StartChar: U0C27_U0C4C.abvs
 Encoding: 65822 -1 376
@@ -30283,7 +30291,7 @@ Fore
  855 692 855 692 855 658 c 1,92,-1
  855 658 l 1,80,81
 EndSplineSet
-Ligature: 0 1 'abvs' U0C27 U0C4C
+Ligature: 0 0 'abvs' U0C27 U0C4C
 EndChar
 StartChar: U0C28_U0C4C.abvs
 Encoding: 65823 -1 377
@@ -30356,7 +30364,7 @@ Fore
  819 692 819 692 819 658 c 1,85,-1
  819 658 l 1,73,74
 EndSplineSet
-Ligature: 0 1 'abvs' U0C28 U0C4C
+Ligature: 0 0 'abvs' U0C28 U0C4C
 EndChar
 StartChar: U0C2A_U0C4C.abvs
 Encoding: 65824 -1 378
@@ -30442,7 +30450,7 @@ Fore
  845 454 845 454 845 420 c 1,101,-1
  845 420 l 1,89,90
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2A U0C4C
+Ligature: 0 0 'abvs' U0C2A U0C4C
 EndChar
 StartChar: U0C2B_U0C4C.abvs
 Encoding: 65825 -1 379
@@ -30534,7 +30542,7 @@ Fore
  862 454 862 454 862 420 c 1,107,-1
  862 420 l 1,95,96
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2B U0C4C
+Ligature: 0 0 'abvs' U0C2B U0C4C
 EndChar
 StartChar: U0C2C_U0C4C.abvs
 Encoding: 65826 -1 380
@@ -30625,7 +30633,7 @@ Fore
  899 692 899 692 899 658 c 1,111,-1
  899 658 l 1,99,100
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2C U0C4C
+Ligature: 0 0 'abvs' U0C2C U0C4C
 EndChar
 StartChar: U0C2D_U0C4C.abvs
 Encoding: 65827 -1 381
@@ -30716,7 +30724,7 @@ Fore
  884 692 884 692 884 658 c 1,111,-1
  884 658 l 1,99,100
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2D U0C4C
+Ligature: 0 0 'abvs' U0C2D U0C4C
 EndChar
 StartChar: U0C2E_U0C4C.abvs
 Encoding: 65828 -1 382
@@ -30814,7 +30822,7 @@ Fore
  1360 704 1360 704 1360 670 c 1,120,-1
  1360 670 l 1,108,109
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2E U0C4C
+Ligature: 0 0 'abvs' U0C2E U0C4C
 EndChar
 StartChar: U0C2F_U0C4C.abvs
 Encoding: 65829 -1 383
@@ -30919,7 +30927,7 @@ Fore
  942 212 942 212 942 304 c 1,128,-1
  942 304 l 1,26,27
 EndSplineSet
-Ligature: 0 1 'abvs' U0C2F U0C4C
+Ligature: 0 0 'abvs' U0C2F U0C4C
 EndChar
 StartChar: U0C30_U0C4C.abvs
 Encoding: 65830 -1 384
@@ -30984,7 +30992,7 @@ Fore
  785 692 785 692 785 658 c 1,72,-1
  785 658 l 1,60,61
 EndSplineSet
-Ligature: 0 1 'abvs' U0C30 U0C4C
+Ligature: 0 0 'abvs' U0C30 U0C4C
 EndChar
 StartChar: U0C31_U0C4C.abvs
 Encoding: 65831 -1 385
@@ -31088,7 +31096,7 @@ Fore
  1028 692 1028 692 1028 658 c 1,126,-1
  1028 658 l 1,114,115
 EndSplineSet
-Ligature: 0 1 'abvs' U0C31 U0C4C
+Ligature: 0 0 'abvs' U0C31 U0C4C
 EndChar
 StartChar: U0C32_U0C4C.abvs
 Encoding: 65832 -1 386
@@ -31165,7 +31173,7 @@ Fore
  913 692 913 692 913 658 c 1,91,-1
  913 658 l 1,79,80
 EndSplineSet
-Ligature: 0 1 'abvs' U0C32 U0C4C
+Ligature: 0 0 'abvs' U0C32 U0C4C
 EndChar
 StartChar: U0C33_U0C4C.abvs
 Encoding: 65833 -1 387
@@ -31262,7 +31270,7 @@ Fore
  790 692 790 692 790 658 c 1,116,-1
  790 658 l 1,104,105
 EndSplineSet
-Ligature: 0 1 'abvs' U0C33 U0C4C
+Ligature: 0 0 'abvs' U0C33 U0C4C
 EndChar
 StartChar: U0C35_U0C4C.abvs
 Encoding: 65834 -1 388
@@ -31341,7 +31349,7 @@ Fore
  848 692 848 692 848 658 c 1,92,-1
  848 658 l 1,80,81
 EndSplineSet
-Ligature: 0 1 'abvs' U0C35 U0C4C
+Ligature: 0 0 'abvs' U0C35 U0C4C
 EndChar
 StartChar: U0C36_U0C4C.abvs
 Encoding: 65835 -1 389
@@ -31430,7 +31438,7 @@ Fore
  716 692 716 692 716 658 c 1,106,-1
  716 658 l 1,94,95
 EndSplineSet
-Ligature: 0 1 'abvs' U0C36 U0C4C
+Ligature: 0 0 'abvs' U0C36 U0C4C
 EndChar
 StartChar: U0C37_U0C4C.abvs
 Encoding: 65836 -1 390
@@ -31523,7 +31531,7 @@ Fore
  864 454 864 454 864 420 c 1,110,-1
  864 420 l 1,98,99
 EndSplineSet
-Ligature: 0 1 'abvs' U0C37 U0C4C
+Ligature: 0 0 'abvs' U0C37 U0C4C
 EndChar
 StartChar: U0C38_U0C4C.abvs
 Encoding: 65837 -1 391
@@ -31603,7 +31611,7 @@ Fore
  852 454 852 454 852 420 c 1,94,-1
  852 420 l 1,82,83
 EndSplineSet
-Ligature: 0 1 'abvs' U0C38 U0C4C
+Ligature: 0 0 'abvs' U0C38 U0C4C
 EndChar
 StartChar: U0C39_U0C4C.abvs
 Encoding: 65838 -1 392
@@ -31718,7 +31726,7 @@ Fore
  1299 692 1299 692 1299 658 c 1,138,-1
  1299 658 l 1,126,127
 EndSplineSet
-Ligature: 0 1 'abvs' U0C39 U0C4C
+Ligature: 0 0 'abvs' U0C39 U0C4C
 EndChar
 StartChar: U0C15_U0C4C_U0C37_U0C4D.akhn
 Encoding: 65839 -1 393
@@ -31819,7 +31827,7 @@ Fore
  772 692 772 692 772 658 c 1,122,-1
  772 658 l 1,110,111
 EndSplineSet
-Ligature: 0 1 'akhn' U0C15 U0C4C U0C37 U0C4D
+Ligature: 0 0 'akhn' U0C15 U0C4C U0C37 U0C4D
 EndChar
 StartChar: U0C15_U0C4D.haln
 Encoding: 65840 -1 394
@@ -31880,7 +31888,7 @@ Fore
  148 476 148 476 148 442 c 1,70,-1
  148 442 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'haln' U0C15 U0C4D
+Ligature: 0 0 'haln' U0C15 U0C4D
 EndChar
 StartChar: U0C16_U0C4D.haln
 Encoding: 65841 -1 395
@@ -31977,7 +31985,7 @@ Fore
  684 0 684 0 575 0 c 1,117,-1
  575 0 l 1,27,28
 EndSplineSet
-Ligature: 0 1 'haln' U0C16 U0C4D
+Ligature: 0 0 'haln' U0C16 U0C4D
 EndChar
 StartChar: U0C17_U0C4D.haln
 Encoding: 65842 -1 396
@@ -32022,7 +32030,7 @@ Fore
  46 0 l 1,46,-1
  46 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'haln' U0C17 U0C4D
+Ligature: 0 0 'haln' U0C17 U0C4D
 EndChar
 StartChar: U0C18_U0C4D.haln
 Encoding: 65843 -1 397
@@ -32114,7 +32122,7 @@ Fore
  272 556 l 1,108,-1
  272 556 l 1,74,-1
 EndSplineSet
-Ligature: 0 1 'haln' U0C18 U0C4D
+Ligature: 0 0 'haln' U0C18 U0C4D
 EndChar
 StartChar: U0C19_U0C4D.haln
 Encoding: 65844 -1 398
@@ -32201,7 +32209,7 @@ Fore
  54 105 54 105 54 180 c 1,104,-1
  54 180 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'haln' U0C19 U0C4D
+Ligature: 0 0 'haln' U0C19 U0C4D
 EndChar
 StartChar: U0C1A_U0C4D.haln
 Encoding: 65845 -1 399
@@ -32270,7 +32278,7 @@ Fore
  627 0 627 0 535 0 c 1,78,-1
  535 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'haln' U0C1A U0C4D
+Ligature: 0 0 'haln' U0C1A U0C4D
 EndChar
 StartChar: U0C1B_U0C4D.haln
 Encoding: 65846 -1 400
@@ -32345,7 +32353,7 @@ Fore
  627 0 627 0 535 0 c 1,84,-1
  535 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'haln' U0C1B U0C4D
+Ligature: 0 0 'haln' U0C1B U0C4D
 EndChar
 StartChar: U0C1C_U0C4D.haln
 Encoding: 65847 -1 401
@@ -32433,7 +32441,7 @@ Fore
  56 105 56 105 56 180 c 1,111,-1
  56 180 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'haln' U0C1C U0C4D
+Ligature: 0 0 'haln' U0C1C U0C4D
 EndChar
 StartChar: U0C1D_U0C4D.haln
 Encoding: 65848 -1 402
@@ -32524,7 +32532,7 @@ Fore
  42 172 42 172 42 294 c 1,109,-1
  42 294 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'haln' U0C1D U0C4D
+Ligature: 0 0 'haln' U0C1D U0C4D
 EndChar
 StartChar: U0C1E_U0C4D.haln
 Encoding: 65849 -1 403
@@ -32618,7 +32626,7 @@ Fore
  233 175 233 175 233 148 c 1,111,-1
  233 148 l 1,98,99
 EndSplineSet
-Ligature: 0 1 'haln' U0C1E U0C4D
+Ligature: 0 0 'haln' U0C1E U0C4D
 EndChar
 StartChar: U0C1F_U0C4D.haln
 Encoding: 65850 -1 404
@@ -32695,7 +32703,7 @@ Fore
  48 161 48 161 48 275 c 1,91,-1
  48 275 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'haln' U0C1F U0C4D
+Ligature: 0 0 'haln' U0C1F U0C4D
 EndChar
 StartChar: U0C20_U0C4D.haln
 Encoding: 65851 -1 405
@@ -32754,7 +32762,7 @@ Fore
  289 245 l 1,62,-1
  289 245 l 1,58,-1
 EndSplineSet
-Ligature: 0 1 'haln' U0C20 U0C4D
+Ligature: 0 0 'haln' U0C20 U0C4D
 EndChar
 StartChar: U0C21_U0C4D.haln
 Encoding: 65852 -1 406
@@ -32832,7 +32840,7 @@ Fore
  44 153 44 153 44 262 c 1,92,-1
  44 262 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'haln' U0C21 U0C4D
+Ligature: 0 0 'haln' U0C21 U0C4D
 EndChar
 StartChar: U0C22_U0C4D.haln
 Encoding: 65853 -1 407
@@ -32916,7 +32924,7 @@ Fore
  44 153 44 153 44 262 c 1,98,-1
  44 262 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'haln' U0C22 U0C4D
+Ligature: 0 0 'haln' U0C22 U0C4D
 EndChar
 StartChar: U0C23_U0C4D.haln
 Encoding: 65854 -1 408
@@ -33009,7 +33017,7 @@ Fore
  54 385 54 385 54 433 c 1,114,-1
  54 433 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'haln' U0C23 U0C4D
+Ligature: 0 0 'haln' U0C23 U0C4D
 EndChar
 StartChar: U0C24_U0C4D.haln
 Encoding: 65855 -1 409
@@ -33091,7 +33099,7 @@ Fore
  536 498 536 498 588 503 c 1,98,-1
  588 503 l 1,26,-1
 EndSplineSet
-Ligature: 0 1 'haln' U0C24 U0C4D
+Ligature: 0 0 'haln' U0C24 U0C4D
 EndChar
 StartChar: U0C25_U0C4D.haln
 Encoding: 65856 -1 410
@@ -33166,7 +33174,7 @@ Fore
  355 311 l 1,82,-1
  355 311 l 1,78,-1
 EndSplineSet
-Ligature: 0 1 'haln' U0C25 U0C4D
+Ligature: 0 0 'haln' U0C25 U0C4D
 EndChar
 StartChar: U0C26_U0C4D.haln
 Encoding: 65857 -1 411
@@ -33229,7 +33237,7 @@ Fore
  44 144 44 144 44 245 c 1,71,-1
  44 245 l 1,20,21
 EndSplineSet
-Ligature: 0 1 'haln' U0C26 U0C4D
+Ligature: 0 0 'haln' U0C26 U0C4D
 EndChar
 StartChar: U0C27_U0C4D.haln
 Encoding: 65858 -1 412
@@ -33298,7 +33306,7 @@ Fore
  44 144 44 144 44 245 c 1,77,-1
  44 245 l 1,20,21
 EndSplineSet
-Ligature: 0 1 'haln' U0C27 U0C4D
+Ligature: 0 0 'haln' U0C27 U0C4D
 EndChar
 StartChar: U0C28_U0C4D.haln
 Encoding: 65859 -1 413
@@ -33358,7 +33366,7 @@ Fore
  445 82 445 82 493 82 c 1,69,-1
  493 82 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'haln' U0C28 U0C4D
+Ligature: 0 0 'haln' U0C28 U0C4D
 EndChar
 StartChar: U0C2A_U0C4D.haln
 Encoding: 65860 -1 414
@@ -33429,7 +33437,7 @@ Fore
  280 556 l 1,80,-1
  280 556 l 1,46,-1
 EndSplineSet
-Ligature: 0 1 'haln' U0C2A U0C4D
+Ligature: 0 0 'haln' U0C2A U0C4D
 EndChar
 StartChar: U0C2B_U0C4D.haln
 Encoding: 65861 -1 415
@@ -33506,7 +33514,7 @@ Fore
  263 556 l 1,86,-1
  263 556 l 1,52,-1
 EndSplineSet
-Ligature: 0 1 'haln' U0C2B U0C4D
+Ligature: 0 0 'haln' U0C2B U0C4D
 EndChar
 StartChar: U0C2C_U0C4D.haln
 Encoding: 65862 -1 416
@@ -33582,7 +33590,7 @@ Fore
  527 82 527 82 578 82 c 1,93,-1
  578 82 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'haln' U0C2C U0C4D
+Ligature: 0 0 'haln' U0C2C U0C4D
 EndChar
 StartChar: U0C2D_U0C4D.haln
 Encoding: 65863 -1 417
@@ -33664,7 +33672,7 @@ Fore
  508 82 508 82 563 82 c 1,99,-1
  563 82 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'haln' U0C2D U0C4D
+Ligature: 0 0 'haln' U0C2D U0C4D
 EndChar
 StartChar: U0C2E_U0C4D.haln
 Encoding: 65864 -1 418
@@ -33744,7 +33752,7 @@ Fore
  29 87 29 87 29 148 c 1,96,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'haln' U0C2E U0C4D
+Ligature: 0 0 'haln' U0C2E U0C4D
 EndChar
 StartChar: U0C2F_U0C4D.haln
 Encoding: 65865 -1 419
@@ -33825,7 +33833,7 @@ Fore
  950 212 950 212 950 304 c 1,99,-1
  950 304 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'haln' U0C2F U0C4D
+Ligature: 0 0 'haln' U0C2F U0C4D
 EndChar
 StartChar: U0C30_U0C4D.haln
 Encoding: 65866 -1 420
@@ -33878,7 +33886,7 @@ Fore
  42 177 42 177 42 303 c 1,57,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'haln' U0C30 U0C4D
+Ligature: 0 0 'haln' U0C30 U0C4D
 EndChar
 StartChar: U0C31_U0C4D.haln
 Encoding: 65867 -1 421
@@ -33971,7 +33979,7 @@ Fore
  48 181 48 181 48 309 c 1,112,-1
  48 309 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'haln' U0C31 U0C4D
+Ligature: 0 0 'haln' U0C31 U0C4D
 EndChar
 StartChar: U0C32_U0C4D.haln
 Encoding: 65868 -1 422
@@ -34037,7 +34045,7 @@ Fore
  305 82 305 82 433 82 c 1,77,-1
  433 82 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'haln' U0C32 U0C4D
+Ligature: 0 0 'haln' U0C32 U0C4D
 EndChar
 StartChar: U0C33_U0C4D.haln
 Encoding: 65869 -1 423
@@ -34121,7 +34129,7 @@ Fore
  295 212 295 212 359 212 c 1,100,-1
  359 212 l 1,26,27
 EndSplineSet
-Ligature: 0 1 'haln' U0C33 U0C4D
+Ligature: 0 0 'haln' U0C33 U0C4D
 EndChar
 StartChar: U0C35_U0C4D.haln
 Encoding: 65870 -1 424
@@ -34187,7 +34195,7 @@ Fore
  29 87 29 87 29 148 c 1,76,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'haln' U0C35 U0C4D
+Ligature: 0 0 'haln' U0C35 U0C4D
 EndChar
 StartChar: U0C36_U0C4D.haln
 Encoding: 65871 -1 425
@@ -34261,7 +34269,7 @@ Fore
  197 111 197 111 197 189 c 1,88,-1
  197 189 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'haln' U0C36 U0C4D
+Ligature: 0 0 'haln' U0C36 U0C4D
 EndChar
 StartChar: U0C37_U0C4D.haln
 Encoding: 65872 -1 426
@@ -34339,7 +34347,7 @@ Fore
  272 556 l 1,89,-1
  272 556 l 1,55,-1
 EndSplineSet
-Ligature: 0 1 'haln' U0C37 U0C4D
+Ligature: 0 0 'haln' U0C37 U0C4D
 EndChar
 StartChar: U0C38_U0C4D.haln
 Encoding: 65873 -1 427
@@ -34404,7 +34412,7 @@ Fore
  286 556 l 1,73,-1
  286 556 l 1,39,-1
 EndSplineSet
-Ligature: 0 1 'haln' U0C38 U0C4D
+Ligature: 0 0 'haln' U0C38 U0C4D
 EndChar
 StartChar: U0C39_U0C4D.haln
 Encoding: 65874 -1 428
@@ -34499,7 +34507,7 @@ Fore
  306 556 l 1,111,-1
  306 556 l 1,77,-1
 EndSplineSet
-Ligature: 0 1 'haln' U0C39 U0C4D
+Ligature: 0 0 'haln' U0C39 U0C4D
 EndChar
 StartChar: U0C15_U0C37_U0C4D.akhn_U0C4D.haln
 Encoding: 65875 -1 429
@@ -34588,7 +34596,7 @@ Fore
  160 467 160 467 160 433 c 1,107,-1
  160 433 l 1,37,38
 EndSplineSet
-Ligature: 0 1 'haln' U0C15_U0C37_U0C4D.akhn U0C4D
+Ligature: 0 0 'haln' U0C15_U0C37_U0C4D.akhn U0C4D
 EndChar
 StartChar: U0C1C_U0C41.psts
 Encoding: 65876 -1 430
@@ -34679,7 +34687,7 @@ Fore
  56 105 56 105 56 180 c 1,116,-1
  56 180 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'psts' U0C1C U0C41
+Ligature: 0 0 'psts' U0C1C U0C41
 EndChar
 StartChar: U0C1C_U0C42.psts
 Encoding: 65877 -1 431
@@ -34791,7 +34799,7 @@ Fore
  1197 508 1197 508 1197 474 c 1,142,-1
  1197 474 l 1,130,131
 EndSplineSet
-Ligature: 0 1 'psts' U0C1C U0C42
+Ligature: 0 0 'psts' U0C1C U0C42
 EndChar
 StartChar: U0C2A_U0C41.psts
 Encoding: 65878 -1 432
@@ -34864,7 +34872,7 @@ Fore
  14 700 14 700 14 792 c 1,83,-1
  14 792 l 1,67,-1
 EndSplineSet
-Ligature: 0 1 'psts' U0C2A U0C41
+Ligature: 0 0 'psts' U0C2A U0C41
 EndChar
 StartChar: U0C2A_U0C42.psts
 Encoding: 65879 -1 433
@@ -34962,7 +34970,7 @@ Fore
  14 700 14 700 14 792 c 1,115,-1
  14 792 l 1,99,-1
 EndSplineSet
-Ligature: 0 1 'psts' U0C2A U0C42
+Ligature: 0 0 'psts' U0C2A U0C42
 EndChar
 StartChar: U0C2B_U0C41.psts
 Encoding: 65880 -1 434
@@ -35039,7 +35047,7 @@ Fore
  14 700 14 700 14 792 c 1,88,-1
  14 792 l 1,72,-1
 EndSplineSet
-Ligature: 0 1 'psts' U0C2B U0C41
+Ligature: 0 0 'psts' U0C2B U0C41
 EndChar
 StartChar: U0C2B_U0C42.psts
 Encoding: 65881 -1 435
@@ -35141,7 +35149,7 @@ Fore
  14 700 14 700 14 792 c 1,120,-1
  14 792 l 1,104,-1
 EndSplineSet
-Ligature: 0 1 'psts' U0C2B U0C42
+Ligature: 0 0 'psts' U0C2B U0C42
 EndChar
 StartChar: U0C35_U0C41.psts
 Encoding: 65882 -1 436
@@ -35209,7 +35217,7 @@ Fore
  896 53 896 53 896 195 c 1,78,-1
  896 195 l 1,58,59
 EndSplineSet
-Ligature: 0 1 'psts' U0C35 U0C41
+Ligature: 0 0 'psts' U0C35 U0C41
 EndChar
 StartChar: U0C35_U0C42.psts
 Encoding: 65883 -1 437
@@ -35303,7 +35311,7 @@ Fore
  1239 508 1239 508 1239 474 c 1,111,-1
  1239 474 l 1,99,100
 EndSplineSet
-Ligature: 0 1 'psts' U0C35 U0C42
+Ligature: 0 0 'psts' U0C35 U0C42
 EndChar
 StartChar: U0C15_U0C4D.blwf
 Encoding: 65884 -1 438
@@ -35341,7 +35349,7 @@ Fore
  3 -163 l 1,0,1
 EndSplineSet
 Substitution: 0 65534 'L001' glyph496
-Ligature: 0 1 'blwf' U0C15 U0C4D
+Ligature: 0 0 'blwf' U0C15 U0C4D
 EndChar
 StartChar: U0C16_U0C4D.blwf
 Encoding: 65885 -1 439
@@ -35417,7 +35425,7 @@ Fore
  -260 -481 l 1,27,28
 EndSplineSet
 Substitution: 0 65534 'L001' glyph497
-Ligature: 0 1 'blwf' U0C16 U0C4D
+Ligature: 0 0 'blwf' U0C16 U0C4D
 EndChar
 StartChar: U0C17_U0C4D.blwf
 Encoding: 65886 -1 440
@@ -35439,7 +35447,7 @@ Fore
  -610 -508 l 1,0,1
 EndSplineSet
 Substitution: 0 65534 'L001' glyph498
-Ligature: 0 1 'blwf' U0C17 U0C4D
+Ligature: 0 0 'blwf' U0C17 U0C4D
 EndChar
 StartChar: U0C18_U0C4D.blwf
 Encoding: 65887 -1 441
@@ -35502,7 +35510,7 @@ Fore
  -1001 -386 l 1,13,14
 EndSplineSet
 Substitution: 0 65534 'L001' glyph499
-Ligature: 0 1 'blwf' U0C18 U0C4D
+Ligature: 0 0 'blwf' U0C18 U0C4D
 EndChar
 StartChar: U0C19_U0C4D.blwf
 Encoding: 65888 -1 442
@@ -35566,7 +35574,7 @@ Fore
  -707 -377 l 1,0,1
 EndSplineSet
 Substitution: 0 65534 'L001' glyph500
-Ligature: 0 1 'blwf' U0C19 U0C4D
+Ligature: 0 0 'blwf' U0C19 U0C4D
 EndChar
 StartChar: U0C1A_U0C4D.blwf
 Encoding: 65889 -1 443
@@ -35608,7 +35616,7 @@ Fore
  -175 -99 l 1,0,-1
 EndSplineSet
 Substitution: 0 65534 'L001' glyph501
-Ligature: 0 1 'blwf' U0C1A U0C4D
+Ligature: 0 0 'blwf' U0C1A U0C4D
 EndChar
 StartChar: U0C1B_U0C4D.blwf
 Encoding: 65890 -1 444
@@ -35656,7 +35664,7 @@ Fore
  -185 -99 l 1,0,-1
 EndSplineSet
 Substitution: 0 65534 'L001' glyph502
-Ligature: 0 1 'blwf' U0C1B U0C4D
+Ligature: 0 0 'blwf' U0C1B U0C4D
 EndChar
 StartChar: U0C1C_U0C4D.blwf
 Encoding: 65891 -1 445
@@ -35726,7 +35734,7 @@ Fore
  -707 -369 l 1,0,1
 EndSplineSet
 Substitution: 0 65534 'L001' glyph503
-Ligature: 0 1 'blwf' U0C1C U0C4D
+Ligature: 0 0 'blwf' U0C1C U0C4D
 EndChar
 StartChar: U0C1D_U0C4D.blwf
 Encoding: 65892 -1 446
@@ -35792,7 +35800,7 @@ Fore
  -1132 -265 l 1,13,14
 EndSplineSet
 Substitution: 0 65534 'L001' glyph504
-Ligature: 0 1 'blwf' U0C1D U0C4D
+Ligature: 0 0 'blwf' U0C1D U0C4D
 EndChar
 StartChar: U0C1E_U0C4D.blwf
 Encoding: 65893 -1 447
@@ -35864,7 +35872,7 @@ Fore
  -782 -180 l 1,14,15
 EndSplineSet
 Substitution: 0 65534 'L001' glyph505
-Ligature: 0 1 'blwf' U0C1E U0C4D
+Ligature: 0 0 'blwf' U0C1E U0C4D
 EndChar
 StartChar: U0C1F_U0C4D.blwf
 Encoding: 65894 -1 448
@@ -35920,7 +35928,7 @@ Fore
  -760 -279 l 1,13,14
 EndSplineSet
 Substitution: 0 65534 'L001' glyph506
-Ligature: 0 1 'blwf' U0C1F U0C4D
+Ligature: 0 0 'blwf' U0C1F U0C4D
 EndChar
 StartChar: U0C20_U0C4D.blwf
 Encoding: 65895 -1 449
@@ -35956,7 +35964,7 @@ Fore
  -494 -279 l 1,18,19
 EndSplineSet
 Substitution: 0 65534 'L001' glyph507
-Ligature: 0 1 'blwf' U0C20 U0C4D
+Ligature: 0 0 'blwf' U0C20 U0C4D
 EndChar
 StartChar: U0C21_U0C4D.blwf
 Encoding: 65896 -1 450
@@ -36010,7 +36018,7 @@ Fore
  -787 -320 l 1,13,14
 EndSplineSet
 Substitution: 0 65534 'L001' glyph508
-Ligature: 0 1 'blwf' U0C21 U0C4D
+Ligature: 0 0 'blwf' U0C21 U0C4D
 EndChar
 StartChar: U0C22_U0C4D.blwf
 Encoding: 65897 -1 451
@@ -36068,7 +36076,7 @@ Fore
  -787 -328 l 1,13,14
 EndSplineSet
 Substitution: 0 65534 'L001' glyph509
-Ligature: 0 1 'blwf' U0C22 U0C4D
+Ligature: 0 0 'blwf' U0C22 U0C4D
 EndChar
 StartChar: U0C23_U0C4D.blwf
 Encoding: 65898 -1 452
@@ -36138,7 +36146,7 @@ Fore
  -707 -173 l 1,13,14
 EndSplineSet
 Substitution: 0 65534 'L001' glyph510
-Ligature: 0 1 'blwf' U0C23 U0C4D
+Ligature: 0 0 'blwf' U0C23 U0C4D
 EndChar
 StartChar: U0C24_U0C4D.blwf
 Encoding: 65899 -1 453
@@ -36173,7 +36181,7 @@ Fore
  -181 -279 l 1,18,19
 EndSplineSet
 Substitution: 0 65534 'L001' glyph511
-Ligature: 0 1 'blwf' U0C24 U0C4D
+Ligature: 0 0 'blwf' U0C24 U0C4D
 EndChar
 StartChar: U0C25_U0C4D.blwf
 Encoding: 65900 -1 454
@@ -36223,7 +36231,7 @@ Fore
  -478 -279 l 1,44,-1
 EndSplineSet
 Substitution: 0 65534 'L001' glyph512
-Ligature: 0 1 'blwf' U0C25 U0C4D
+Ligature: 0 0 'blwf' U0C25 U0C4D
 EndChar
 StartChar: U0C26_U0C4D.blwf
 Encoding: 65901 -1 455
@@ -36263,7 +36271,7 @@ Fore
  -772 -371 l 1,20,21
 EndSplineSet
 Substitution: 0 65534 'L001' glyph513
-Ligature: 0 1 'blwf' U0C26 U0C4D
+Ligature: 0 0 'blwf' U0C26 U0C4D
 EndChar
 StartChar: U0C27_U0C4D.blwf
 Encoding: 65902 -1 456
@@ -36307,7 +36315,7 @@ Fore
  -772 -371 l 1,20,21
 EndSplineSet
 Substitution: 0 65534 'L001' glyph514
-Ligature: 0 1 'blwf' U0C27 U0C4D
+Ligature: 0 0 'blwf' U0C27 U0C4D
 EndChar
 StartChar: U0C28_U0C4D.blwf
 Encoding: 65903 -1 457
@@ -36355,7 +36363,7 @@ Fore
  -325 -243 l 1,14,15
 EndSplineSet
 Substitution: 0 65534 'L001' glyph515
-Ligature: 0 1 'blwf' U0C28 U0C4D
+Ligature: 0 0 'blwf' U0C28 U0C4D
 EndChar
 StartChar: U0C2A_U0C4D.blwf
 Encoding: 65904 -1 458
@@ -36399,7 +36407,7 @@ Fore
  -279 -252 l 1,13,14
 EndSplineSet
 Substitution: 0 65534 'L001' glyph516
-Ligature: 0 1 'blwf' U0C2A U0C4D
+Ligature: 0 0 'blwf' U0C2A U0C4D
 EndChar
 StartChar: U0C2B_U0C4D.blwf
 Encoding: 65905 -1 459
@@ -36447,7 +36455,7 @@ Fore
  -277 -252 l 1,13,14
 EndSplineSet
 Substitution: 0 65534 'L001' glyph517
-Ligature: 0 1 'blwf' U0C2B U0C4D
+Ligature: 0 0 'blwf' U0C2B U0C4D
 EndChar
 StartChar: U0C2C_U0C4D.blwf
 Encoding: 65906 -1 460
@@ -36499,7 +36507,7 @@ Fore
  -192 -377 l 1,0,1
 EndSplineSet
 Substitution: 0 65534 'L001' glyph518
-Ligature: 0 1 'blwf' U0C2C U0C4D
+Ligature: 0 0 'blwf' U0C2C U0C4D
 EndChar
 StartChar: U0C2D_U0C4D.blwf
 Encoding: 65907 -1 461
@@ -36555,7 +36563,7 @@ Fore
  -190 -377 l 1,0,1
 EndSplineSet
 Substitution: 0 65534 'L001' glyph519
-Ligature: 0 1 'blwf' U0C2D U0C4D
+Ligature: 0 0 'blwf' U0C2D U0C4D
 EndChar
 StartChar: U0C2E_U0C4D.blwf
 Encoding: 65908 -1 462
@@ -36609,7 +36617,7 @@ Fore
  -195 -265 l 1,14,15
 EndSplineSet
 Substitution: 0 65534 'L001' glyph520
-Ligature: 0 1 'blwf' U0C2E U0C4D
+Ligature: 0 0 'blwf' U0C2E U0C4D
 EndChar
 StartChar: U0C2F_U0C4D.blwf
 Encoding: 65909 -1 463
@@ -36663,13 +36671,14 @@ Fore
  -82 -388 l 1,0,1
 EndSplineSet
 Substitution: 0 65534 'L001' glyph521
-Ligature: 0 1 'blwf' U0C2F U0C4D
+Ligature: 0 0 'blwf' U0C2F U0C4D
 EndChar
 StartChar: U0C30_U0C4D.blwf
 Encoding: 65910 -1 464
 Width: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" -405 -70 mark 0
 Fore
 -777 -68 m 1,0,-1
  -692 -68 l 1,1,2
@@ -36689,13 +36698,14 @@ Substitution: 0 65534 'L002' glyph536
 Substitution: 0 65534 'L003' glyph495
 Substitution: 0 65534 'L004' glyph494
 Substitution: 0 65534 'L005' glyph493
-Ligature: 0 1 'blwf' U0C30 U0C4D
+Ligature: 0 0 'blwf' U0C30 U0C4D
 EndChar
 StartChar: U0C31_U0C4D.blwf
 Encoding: 65911 -1 465
 Width: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" -298 -16 mark 0
 Fore
 -511 -177 m 1,0,1
  -511 -211 -511 -211 -492 -234.5 c 128,-1,2
@@ -36761,7 +36771,7 @@ Fore
  -579 -275 l 1,50,51
 EndSplineSet
 Substitution: 0 65534 'L001' glyph523
-Ligature: 0 1 'blwf' U0C31 U0C4D
+Ligature: 0 0 'blwf' U0C31 U0C4D
 EndChar
 StartChar: U0C32_U0C4D.blwf
 Encoding: 65912 -1 466
@@ -36801,7 +36811,7 @@ Fore
  -687 -323 l 1,0,1
 EndSplineSet
 Substitution: 0 65534 'L001' glyph524
-Ligature: 0 1 'blwf' U0C32 U0C4D
+Ligature: 0 0 'blwf' U0C32 U0C4D
 EndChar
 StartChar: U0C33_U0C4D.blwf
 Encoding: 65913 -1 467
@@ -36863,7 +36873,7 @@ Fore
  -316 -150 l 1,26,27
 EndSplineSet
 Substitution: 0 65534 'L001' glyph525
-Ligature: 0 1 'blwf' U0C33 U0C4D
+Ligature: 0 0 'blwf' U0C33 U0C4D
 EndChar
 StartChar: U0C35_U0C4D.blwf
 Encoding: 65914 -1 468
@@ -36919,7 +36929,7 @@ Fore
  -184 -218 l 1,13,14
 EndSplineSet
 Substitution: 0 65534 'L001' glyph526
-Ligature: 0 1 'blwf' U0C35 U0C4D
+Ligature: 0 0 'blwf' U0C35 U0C4D
 EndChar
 StartChar: U0C36_U0C4D.blwf
 Encoding: 65915 -1 469
@@ -36975,7 +36985,7 @@ Fore
  -257 -248 l 1,14,15
 EndSplineSet
 Substitution: 0 65534 'L001' glyph527
-Ligature: 0 1 'blwf' U0C36 U0C4D
+Ligature: 0 0 'blwf' U0C36 U0C4D
 EndChar
 StartChar: U0C37_U0C4D.blwf
 Encoding: 65916 -1 470
@@ -37025,7 +37035,7 @@ Fore
  -887 -386 l 1,13,14
 EndSplineSet
 Substitution: 0 65534 'L001' glyph528
-Ligature: 0 1 'blwf' U0C37 U0C4D
+Ligature: 0 0 'blwf' U0C37 U0C4D
 EndChar
 StartChar: U0C38_U0C4D.blwf
 Encoding: 65917 -1 471
@@ -37063,7 +37073,7 @@ Fore
  -248 -252 l 1,0,1
 EndSplineSet
 Substitution: 0 65534 'L001' glyph529
-Ligature: 0 1 'blwf' U0C38 U0C4D
+Ligature: 0 0 'blwf' U0C38 U0C4D
 EndChar
 StartChar: U0C39_U0C4D.blwf
 Encoding: 65918 -1 472
@@ -37132,7 +37142,7 @@ Fore
  103 -197 l 1,65,66
 EndSplineSet
 Substitution: 0 65534 'L001' glyph530
-Ligature: 0 1 'blwf' U0C39 U0C4D
+Ligature: 0 0 'blwf' U0C39 U0C4D
 EndChar
 StartChar: U0C15_U0C4D.blwf_U0C37_U0C4D.blwf.blwf
 Encoding: 65919 -1 473
@@ -37197,7 +37207,7 @@ Fore
  -651 -152 -651 -152 -651 -177 c 1,75,-1
  -651 -177 l 1,37,38
 EndSplineSet
-Ligature: 0 1 'blwf' U0C15_U0C4D.blwf U0C37_U0C4D.blwf
+Ligature: 0 0 'blwf' U0C15_U0C4D.blwf U0C37_U0C4D.blwf
 EndChar
 StartChar: U0C56_U0C24_U0C4D.blwf.blws
 Encoding: 65920 -1 474
@@ -37256,7 +37266,7 @@ Fore
  -136 -352 -136 -352 -136 -382 c 1,61,-1
  -136 -382 l 1,49,50
 EndSplineSet
-Ligature: 0 1 'blws' U0C56 U0C24_U0C4D.blwf
+Ligature: 0 0 'blws' U0C56 U0C24_U0C4D.blwf
 EndChar
 StartChar: glyph471
 Encoding: 65921 -1 475
@@ -37380,7 +37390,7 @@ Fore
  -247 -136 -247 -136 -247 -163 c 1,45,-1
  -247 -163 l 1,33,34
 EndSplineSet
-Ligature: 0 1 'blws' U0C24_U0C4D.blwf U0C30_U0C4D.blwf
+Ligature: 0 0 'blws' U0C24_U0C4D.blwf U0C30_U0C4D.blwf
 EndChar
 StartChar: glyph473
 Encoding: 65923 -1 477
@@ -37521,7 +37531,7 @@ Fore
  160 467 160 467 160 433 c 1,88,-1
  160 433 l 1,37,38
 EndSplineSet
-Ligature: 0 1 'akhn' U0C15 U0C37 U0C4D
+Ligature: 0 0 'akhn' U0C15 U0C37 U0C4D
 EndChar
 StartChar: U0C36_U0C40.abvs_U0C30_U0C4D.blwf.blws
 Encoding: 65925 -1 479
@@ -37618,7 +37628,7 @@ Fore
  350 685 350 685 350 651 c 1,119,-1
  350 651 l 1,107,108
 EndSplineSet
-Ligature: 0 1 'blws' U0C36_U0C40.abvs U0C30_U0C4D.blwf
+Ligature: 0 0 'blws' U0C36_U0C40.abvs U0C30_U0C4D.blwf
 EndChar
 StartChar: U0C38_U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws
 Encoding: 65926 -1 480
@@ -37704,8 +37714,8 @@ Fore
  71 680 71 680 71 768 c 1,99,-1
  71 768 l 1,83,-1
 EndSplineSet
-Ligature: 0 1 'blws' U0C38 U0C24_U0C4D.blwf U0C30_U0C4D.blwf
-Ligature: 0 1 'akhn' U0C38_U0C4D.haln U0C1F U0C30_U0C4D.blwf
+Ligature: 0 0 'blws' U0C38 U0C24_U0C4D.blwf U0C30_U0C4D.blwf
+Ligature: 0 0 'akhn' U0C38_U0C4D.haln U0C1F U0C30_U0C4D.blwf
 EndChar
 StartChar: U0C38_U0C3F.abvs_U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws
 Encoding: 65927 -1 481
@@ -37806,7 +37816,7 @@ Fore
  479 82 479 82 513 82 c 1,121,-1
  513 82 l 1,83,84
 EndSplineSet
-Ligature: 0 1 'blws' U0C38_U0C3F.abvs U0C24_U0C4D.blwf U0C30_U0C4D.blwf
+Ligature: 0 0 'blws' U0C38_U0C3F.abvs U0C24_U0C4D.blwf U0C30_U0C4D.blwf
 EndChar
 StartChar: U0C38_U0C24_U0C30_U0C40.akhn
 Encoding: 65928 -1 482
@@ -37920,8 +37930,8 @@ Fore
  770 -382 770 -382 852 -325 c 1,140,-1
  852 -325 l 1,126,-1
 EndSplineSet
-Ligature: 0 1 'blws' U0C38_U0C40.abvs U0C24_U0C4D.blwf U0C30_U0C4D.blwf
-Ligature: 0 1 'akhn' U0C38 U0C24 U0C30 U0C40
+Ligature: 0 0 'blws' U0C38_U0C40.abvs U0C24_U0C4D.blwf U0C30_U0C4D.blwf
+Ligature: 0 0 'akhn' U0C38 U0C24 U0C30 U0C40
 EndChar
 StartChar: U0C37_U0C1F_U0C4D.blwf_U0C30_U0C4D.blwf.blws
 Encoding: 65929 -1 483
@@ -38039,8 +38049,8 @@ Fore
  759 -417 759 -417 824 -347 c 1,145,-1
  824 -347 l 1,131,-1
 EndSplineSet
-Ligature: 0 1 'blws' U0C37 U0C1F_U0C4D.blwf U0C30_U0C4D.blwf
-Ligature: 0 1 'akhn' U0C37_U0C4D.haln U0C24 U0C30_U0C4D.blwf
+Ligature: 0 0 'blws' U0C37 U0C1F_U0C4D.blwf U0C30_U0C4D.blwf
+Ligature: 0 0 'akhn' U0C37_U0C4D.haln U0C24 U0C30_U0C4D.blwf
 EndChar
 StartChar: U0C37_U0C1F_U0C30_U0C40.akhn
 Encoding: 65930 -1 484
@@ -38186,8 +38196,8 @@ Fore
  739 -383 739 -383 804 -313 c 1,186,-1
  804 -313 l 1,172,-1
 EndSplineSet
-Ligature: 0 1 'blws' U0C37_U0C40.abvs U0C1F_U0C4D.blwf U0C30_U0C4D.blwf
-Ligature: 0 1 'akhn' U0C37 U0C1F U0C30 U0C40
+Ligature: 0 0 'blws' U0C37_U0C40.abvs U0C1F_U0C4D.blwf U0C30_U0C4D.blwf
+Ligature: 0 0 'akhn' U0C37 U0C1F U0C30 U0C40
 EndChar
 StartChar: U0C15_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts
 Encoding: 65931 -1 485
@@ -38301,7 +38311,7 @@ Fore
  655 -119 655 -119 675 -148 c 1,144,-1
  675 -148 l 1,65,66
 EndSplineSet
-Ligature: 0 1 'psts' U0C15_U0C37_U0C4D.akhn U0C2E_U0C4D.blwf
+Ligature: 0 0 'psts' U0C15_U0C37_U0C4D.akhn U0C2E_U0C4D.blwf
 EndChar
 StartChar: U0C15_U0C3F_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts
 Encoding: 65932 -1 486
@@ -38432,7 +38442,7 @@ Fore
  655 -119 655 -119 675 -148 c 1,169,-1
  675 -148 l 1,90,91
 EndSplineSet
-Ligature: 0 1 'psts' U0C15_U0C3F_U0C37_U0C4D.akhn U0C2E_U0C4D.blwf
+Ligature: 0 0 'psts' U0C15_U0C3F_U0C37_U0C4D.akhn U0C2E_U0C4D.blwf
 EndChar
 StartChar: U0C15_U0C40_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts
 Encoding: 65933 -1 487
@@ -38577,7 +38587,7 @@ Fore
  15 -56 15 -56 15 25 c 1,189,-1
  15 25 l 1,110,-1
 EndSplineSet
-Ligature: 0 1 'psts' U0C15_U0C40_U0C37_U0C4D.akhn U0C2E_U0C4D.blwf
+Ligature: 0 0 'psts' U0C15_U0C40_U0C37_U0C4D.akhn U0C2E_U0C4D.blwf
 EndChar
 StartChar: U0C37_U0C3F.abvs_U0C1F_U0C4D.blwf_U0C30_U0C4D.blwf.blws
 Encoding: 65934 -1 488
@@ -38710,7 +38720,7 @@ Fore
  739 -383 739 -383 804 -313 c 1,167,-1
  804 -313 l 1,153,-1
 EndSplineSet
-Ligature: 0 1 'blws' U0C37_U0C3F.abvs U0C1F_U0C4D.blwf U0C30_U0C4D.blwf
+Ligature: 0 0 'blws' U0C37_U0C3F.abvs U0C1F_U0C4D.blwf U0C30_U0C4D.blwf
 EndChar
 StartChar: U0C15_U0C41.psts
 Encoding: 65935 -1 489
@@ -38769,7 +38779,7 @@ Fore
  155 476 155 476 155 442 c 1,69,-1
  155 442 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'psts' U0C15 U0C41
+Ligature: 0 0 'psts' U0C15 U0C41
 EndChar
 StartChar: U0C21_U0C41.psts
 Encoding: 65936 -1 490
@@ -38846,7 +38856,7 @@ Fore
  44 148 44 148 44 253 c 1,92,-1
  44 253 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'psts' U0C21 U0C41
+Ligature: 0 0 'psts' U0C21 U0C41
 EndChar
 StartChar: U0C22_U0C41.psts
 Encoding: 65937 -1 491
@@ -38931,7 +38941,7 @@ Fore
  333 -119 l 1,99,-1
  333 -119 l 1,93,-1
 EndSplineSet
-Ligature: 0 1 'psts' U0C22 U0C41
+Ligature: 0 0 'psts' U0C22 U0C41
 EndChar
 StartChar: U0C39_U0C41.psts
 Encoding: 65938 -1 492
@@ -39025,7 +39035,7 @@ Fore
  29 87 29 87 29 148 c 1,112,-1
  29 148 l 1,43,44
 EndSplineSet
-Ligature: 0 1 'psts' U0C39 U0C41
+Ligature: 0 0 'psts' U0C39 U0C41
 EndChar
 StartChar: U0C15_U0C42.psts
 Encoding: 65939 -1 493
@@ -39110,7 +39120,7 @@ Fore
  1231 508 1231 508 1231 474 c 1,102,-1
  1231 474 l 1,90,91
 EndSplineSet
-Ligature: 0 1 'psts' U0C15 U0C42
+Ligature: 0 0 'psts' U0C15 U0C42
 EndChar
 StartChar: U0C21_U0C42.psts
 Encoding: 65940 -1 494
@@ -39205,7 +39215,7 @@ Fore
  1581 508 1581 508 1581 474 c 1,118,-1
  1581 474 l 1,106,107
 EndSplineSet
-Ligature: 0 1 'psts' U0C21 U0C42
+Ligature: 0 0 'psts' U0C21 U0C42
 EndChar
 StartChar: U0C22_U0C42.psts
 Encoding: 65941 -1 495
@@ -39308,7 +39318,7 @@ Fore
  333 -129 l 1,125,-1
  333 -129 l 1,119,-1
 EndSplineSet
-Ligature: 0 1 'psts' U0C22 U0C42
+Ligature: 0 0 'psts' U0C22 U0C42
 EndChar
 StartChar: U0C39_U0C42.psts
 Encoding: 65942 -1 496
@@ -39426,7 +39436,7 @@ Fore
  1698 508 1698 508 1698 474 c 1,143,-1
  1698 474 l 1,131,132
 EndSplineSet
-Ligature: 0 1 'psts' U0C39 U0C42
+Ligature: 0 0 'psts' U0C39 U0C42
 EndChar
 StartChar: glyph493
 Encoding: 65943 -1 497
@@ -39453,6 +39463,7 @@ Encoding: 65944 -1 498
 Width: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" -522 -66 mark 0
 Fore
 -1020 -68 m 1,0,-1
  -935 -68 l 1,1,2
@@ -39473,6 +39484,7 @@ Encoding: 65945 -1 499
 Width: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" -616 -64 mark 0
 Fore
 -1224 -68 m 1,0,-1
  -1139 -68 l 1,1,2
@@ -40801,6 +40813,7 @@ Encoding: 65972 -1 526
 Width: 819
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" 410 -65 mark 0
 Fore
 3 -68 m 1,0,-1
  88 -68 l 1,1,2
@@ -41467,7 +41480,7 @@ Fore
  160 467 160 467 160 433 c 1,107,-1
  160 433 l 1,37,38
 EndSplineSet
-Ligature: 0 1 'akhn' U0C15 U0C41 U0C37 U0C4D
+Ligature: 0 0 'akhn' U0C15 U0C41 U0C37 U0C4D
 EndChar
 StartChar: U0C15_U0C42_U0C37_U0C4D.akhn
 Encoding: 65984 -1 538
@@ -41579,7 +41592,7 @@ Fore
  1261 508 1261 508 1261 474 c 1,138,-1
  1261 474 l 1,126,127
 EndSplineSet
-Ligature: 0 1 'akhn' U0C15 U0C42 U0C37 U0C4D
+Ligature: 0 0 'akhn' U0C15 U0C42 U0C37 U0C4D
 EndChar
 StartChar: U0C15_U0C46_U0C56_U0C37_U0C4D.akhn
 Encoding: 65985 -1 539
@@ -41682,13 +41695,14 @@ Fore
  -68 -425 -68 -425 -68 -357 c 1,123,-1
  -68 -357 l 1,106,107
 EndSplineSet
-Ligature: 0 1 'akhn' U0C15 U0C46 U0C56 U0C37 U0C4D
+Ligature: 0 0 'akhn' U0C15 U0C46 U0C56 U0C37 U0C4D
 EndChar
 StartChar: glyph536
 Encoding: 65986 -1 540
 Width: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" -462 -522 mark 0
 Fore
 -918 -527 m 1,0,-1
  -833 -527 l 1,1,2
@@ -41709,6 +41723,7 @@ Encoding: 65987 -1 541
 Width: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" -507 -522 mark 0
 Fore
 -1020 -527 m 1,0,-1
  -935 -527 l 1,1,2
@@ -41729,6 +41744,7 @@ Encoding: 65988 -1 542
 Width: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" -608 -520 mark 0
 Fore
 -1224 -527 m 1,0,-1
  -1139 -527 l 1,1,2
