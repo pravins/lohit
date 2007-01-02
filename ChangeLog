@@ -1,5 +1,12 @@
 				  fonts-indic
-Current Version :- 2.0.10
+Current Version :- 2.0.11
+
+* Wed Dec 13 2006 Parag Nemade <pnemade@redhat.com> - 2.0.11
+- Resolved Bugs from Parag Nemade
+- Bug 216639: [kn_IN] OTF rules to be fixed - Priority A
+- Bug 217482: [kn_IN] - pango - Composed Char not rendered properly
+- Bug 219583: [pa_IN] Punjabi fonts' size is big as compared to English
+- Bug 218588: [gu_IN] Qt doesn't display virama properly
 
 * Tue Dec 06 2006 Parag Nemade <pnemade@redhat.com> - 2.0.10
 - Resolved Bugs from Parag Nemade
