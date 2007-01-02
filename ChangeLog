@@ -1,5 +1,10 @@
 				  fonts-indic
-Current Version :- 2.0.11
+Current Version :- 2.0.12
+
+* Wed Jan 02 2007 Parag Nemade <pnemade@redhat.com> - 2.0.12
+- Resolved Bugs from Parag Nemade
+- Bug 220881: [ta_IN] [fonts-tamil] - Warning showing in the terminal when run apps with ta_IN locale
+- Bug 220882: [hi_IN] rendering problem for number "5" in postscript file
 
 * Wed Dec 13 2006 Parag Nemade <pnemade@redhat.com> - 2.0.11
 - Resolved Bugs from Parag Nemade

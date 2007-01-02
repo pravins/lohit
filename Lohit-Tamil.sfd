@@ -11,13 +11,13 @@ UnderlineWidth: 20
 Ascent: 666
 Descent: 167
 Order2: 1
-XUID: [1021 648 100124046 8552145]
+XUID: [1021 648 100124046 12686790]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1160992028
-ModificationTime: 1164624048
+ModificationTime: 1166991669
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3949,7 +3949,7 @@ Flags: W
 TtfInstrs: 53
 5n3l$!!iQ+!!`Km!!<3&!!3-$!"Aot!!*'#!(M,b2]-]<58QFH(H_^Q0Y.6&!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 66 0 mark 0 {11-11 -7} {}
+AnchorPoint: "Anchor-0" 66 0 mark 0
 Fore
 -169 360 m 1,0,-1
  -169 400 l 1,1,-1
