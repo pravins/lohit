@@ -3,8 +3,8 @@ Current Version :- 2.0.13
 
 * Fri Jan 12 2007 Parag Nemade <pnemade@redhat.com> - 2.0.13
 - Resolved Bugs from Parag Nemade
-- Bug 220800: [or_IN] Danda need to move from 0B64/0B65 to 0964/0965
-- Bug 221566: [ml_IN] Danda need to move from 0D64/0D65 to 0964/0965
+- Bug 220880: [or_IN] Danda need to move from 0B64/0B65 to 0964/0965
+- Bug 222406: [ml_IN] Danda need to move from 0D64/0D65 to 0964/0965
 
 * Wed Jan 02 2007 Parag Nemade <pnemade@redhat.com> - 2.0.12
 - Resolved Bugs from Parag Nemade
