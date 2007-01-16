@@ -1,5 +1,8 @@
 				  fonts-indic
-Current Version :- 2.0.13
+Current Version :- 2.1.1
+
+* Tue Jan 16 2007 Parag Nemade <pnemade@redhat.com> - 2.1.1
+- Added makedist.sh, generate.sh and generate.pe script files.
 
 * Fri Jan 12 2007 Parag Nemade <pnemade@redhat.com> - 2.0.13
 - Resolved Bugs from Parag Nemade
