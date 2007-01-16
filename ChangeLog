@@ -1,5 +1,14 @@
 				  fonts-indic
-Current Version :- 2.1.1
+Current Version :- 2.1.2
+
+* Tue Jan 16 2007 Parag Nemade <pnemade@redhat.com> - 2.1.2
+- Resolved Bugs from Parag Nemade
+- Bug 222407: [or_IN] [fonts-indic] - One GSUB Conjunct is not appearing with its correct shape
+- Bug 206434: [ml_IN] Digits are appearing in English instead of malayalam - Priority C
+- Bug 215894: Relative height of 0x0901 (and 0x0902) on 0x0915 is different than other devnagari characters (hi_IN, mr_IN)
+- Bug 222408: [te_IN] [fonts-indic] - Danda and Double Danda to be implemented with 0964 && 0965
+- Bug 222409: [kn_IN] [fonts-indic] - Danda and Double Danda to be implemented with 0964 && 0965
+- Bug 221384: [kn_IN] - shape of ra (U+0CB0) is not corret in combined character (below base)
 
 * Tue Jan 16 2007 Parag Nemade <pnemade@redhat.com> - 2.1.1
 - Added makedist.sh, generate.sh and generate.pe script files.

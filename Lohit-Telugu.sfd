@@ -11,13 +11,13 @@ UnderlineWidth: 20
 Ascent: 690
 Descent: 334
 Order2: 1
-XUID: [1021 648 100124046 8549501]
+XUID: [1021 808 1214965479 14386377]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1153280036
-ModificationTime: 1164705803
+ModificationTime: 1168403127
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -48,2203 +48,8 @@ OS2SupYOff: 512
 OS2StrikeYSize: 50
 OS2StrikeYPos: 250
 OS2Vendor: 'MODI'
-ScriptLang: 2
- 1 telu 1 dflt 
- 0 
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C56
- 1
-  SeqLookup: 0 'L000'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 577 U0C15_U0C4D.blwf U0C16_U0C4D.blwf U0C17_U0C4D.blwf U0C18_U0C4D.blwf U0C19_U0C4D.blwf U0C1A_U0C4D.blwf U0C1B_U0C4D.blwf U0C1C_U0C4D.blwf U0C1D_U0C4D.blwf U0C1E_U0C4D.blwf U0C1F_U0C4D.blwf U0C20_U0C4D.blwf U0C21_U0C4D.blwf U0C22_U0C4D.blwf U0C23_U0C4D.blwf U0C24_U0C4D.blwf U0C25_U0C4D.blwf U0C26_U0C4D.blwf U0C27_U0C4D.blwf U0C28_U0C4D.blwf U0C2A_U0C4D.blwf U0C2B_U0C4D.blwf U0C2C_U0C4D.blwf U0C2D_U0C4D.blwf U0C2E_U0C4D.blwf U0C2F_U0C4D.blwf U0C31_U0C4D.blwf U0C32_U0C4D.blwf U0C33_U0C4D.blwf U0C35_U0C4D.blwf U0C36_U0C4D.blwf U0C37_U0C4D.blwf U0C38_U0C4D.blwf U0C39_U0C4D.blwf
-  BCoverage: 594 U0C15_U0C4D.blwf U0C16_U0C4D.blwf U0C17_U0C4D.blwf U0C18_U0C4D.blwf U0C19_U0C4D.blwf U0C1A_U0C4D.blwf U0C1B_U0C4D.blwf U0C1C_U0C4D.blwf U0C1D_U0C4D.blwf U0C1E_U0C4D.blwf U0C1F_U0C4D.blwf U0C20_U0C4D.blwf U0C21_U0C4D.blwf U0C22_U0C4D.blwf U0C23_U0C4D.blwf U0C24_U0C4D.blwf U0C25_U0C4D.blwf U0C26_U0C4D.blwf U0C27_U0C4D.blwf U0C28_U0C4D.blwf U0C2A_U0C4D.blwf U0C2B_U0C4D.blwf U0C2C_U0C4D.blwf U0C2D_U0C4D.blwf U0C2E_U0C4D.blwf U0C2F_U0C4D.blwf U0C30_U0C4D.blwf U0C31_U0C4D.blwf U0C32_U0C4D.blwf U0C33_U0C4D.blwf U0C35_U0C4D.blwf U0C36_U0C4D.blwf U0C37_U0C4D.blwf U0C38_U0C4D.blwf U0C39_U0C4D.blwf
- 1
-  SeqLookup: 0 'L001'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 1521 U0C15_U0C4D.blwf U0C16_U0C4D.blwf U0C17_U0C4D.blwf U0C18_U0C4D.blwf U0C19_U0C4D.blwf U0C1A_U0C4D.blwf U0C1B_U0C4D.blwf U0C1C_U0C4D.blwf U0C1D_U0C4D.blwf U0C1E_U0C4D.blwf U0C1F_U0C4D.blwf U0C20_U0C4D.blwf U0C21_U0C4D.blwf U0C22_U0C4D.blwf U0C23_U0C4D.blwf U0C24_U0C4D.blwf U0C25_U0C4D.blwf U0C26_U0C4D.blwf U0C27_U0C4D.blwf U0C28_U0C4D.blwf U0C2A_U0C4D.blwf U0C2B_U0C4D.blwf U0C2C_U0C4D.blwf U0C2D_U0C4D.blwf U0C2E_U0C4D.blwf U0C2F_U0C4D.blwf U0C30_U0C4D.blwf U0C31_U0C4D.blwf U0C32_U0C4D.blwf U0C33_U0C4D.blwf U0C35_U0C4D.blwf U0C36_U0C4D.blwf U0C37_U0C4D.blwf U0C38_U0C4D.blwf U0C39_U0C4D.blwf U0C15_U0C4D.blwf_U0C37_U0C4D.blwf.blwf U0C56_U0C24_U0C4D.blwf.blws glyph471 U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws glyph473 U0C15_U0C37_U0C4D.akhn U0C36_U0C40.abvs_U0C30_U0C4D.blwf.blws U0C38_U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws U0C38_U0C3F.abvs_U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws U0C38_U0C24_U0C30_U0C40.akhn U0C37_U0C1F_U0C4D.blwf_U0C30_U0C4D.blwf.blws U0C37_U0C1F_U0C30_U0C40.akhn U0C15_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts U0C15_U0C3F_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts U0C15_U0C40_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts U0C37_U0C3F.abvs_U0C1F_U0C4D.blwf_U0C30_U0C4D.blwf.blws U0C15_U0C41.psts U0C21_U0C41.psts U0C22_U0C41.psts U0C39_U0C41.psts U0C15_U0C42.psts U0C21_U0C42.psts U0C22_U0C42.psts U0C39_U0C42.psts glyph493 glyph494 glyph495 glyph496 glyph497 glyph498 glyph499 glyph500 glyph501 glyph502 glyph503 glyph504 glyph505 glyph506 glyph507 glyph508 glyph509 glyph510 glyph511 glyph512 glyph513 glyph514
- 1
-  SeqLookup: 0 'L002'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C39_U0C42.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C22_U0C42.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C21_U0C42.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C15_U0C42.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C39_U0C41.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C22_U0C41.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C21_U0C41.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C15_U0C41.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C35_U0C42.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C35_U0C41.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2B_U0C42.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2B_U0C41.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2A_U0C42.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2A_U0C41.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1C_U0C42.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1C_U0C41.psts
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C38_U0C4D.haln
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2F_U0C4D.haln
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2E_U0C4D.haln
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1D_U0C4D.haln
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C18_U0C4D.haln
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C39_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C38_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C37_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C35_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C33_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C32_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C31_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2F_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2E_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2D_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2C_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2B_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2A_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C28_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C27_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C26_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C25_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C24_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C23_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C22_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C21_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C20_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1F_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1E_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1D_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1C_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C22_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C19_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C18_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C16_U0C4C.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C39_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C38_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C37_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C35_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C32_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C31_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2F_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2E_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2D_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2C_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2B_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2A_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C28_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C27_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C26_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C25_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C24_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C23_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C22_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C21_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C20_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1F_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1E_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1D_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1C_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1B_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1A_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C19_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C18_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C16_U0C4B.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C39_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C38_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C37_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C35_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C32_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C31_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2F_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2E_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2D_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2C_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2B_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2A_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C28_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C27_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C26_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C25_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C24_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C23_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C22_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C21_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C20_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1F_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1E_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1D_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1C_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1B_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1A_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C19_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C18_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C16_U0C4A.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2E_U0C47.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C24_U0C47.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C23_U0C47.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1E_U0C47.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1D_U0C47.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C18_U0C47.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C39_U0C46.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2F_U0C46.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2E_U0C46.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1E_U0C46.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1D_U0C46.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C18_U0C46.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C39_U0C40.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2F_U0C40.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2E_U0C40.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1D_U0C40.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C18_U0C40.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C39_U0C3F.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2F_U0C3F.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2E_U0C3F.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C27_U0C3F.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C18_U0C3F.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 28 U0C15_U0C3E_U0C37_U0C4D.akhn
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C39_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C38_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C37_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C36_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C35_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C33_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C32_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C31_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C30_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2F_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2E_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2D_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2C_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2B_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2A_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C28_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C27_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C26_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C25_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C24_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C23_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C22_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C21_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C20_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1F_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1E_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1D_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1C_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1B_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1A_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C19_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C18_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C17_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C16_U0C3E.abvs
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C39
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C2F
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C2E
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C1D
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C18
- 1
-  SeqLookup: 0 'L003'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C31_U0C4D.haln
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C23_U0C4D.haln
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1F_U0C4D.haln
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1E_U0C4D.haln
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 28 U0C15_U0C4C_U0C37_U0C4D.akhn
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C36_U0C4C.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C25_U0C4C.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C17_U0C4C.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2F_U0C4C.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C35_U0C4B.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C36_U0C4B.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C33_U0C4B.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C30_U0C4B.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C17_U0C4B.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C15_U0C4B.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C37_U0C4A.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C36_U0C4A.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C33_U0C4A.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C30_U0C4A.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C17_U0C4A.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C15_U0C4A.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C31_U0C47.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C23_U0C47.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1F_U0C47.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C31_U0C46.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C23_U0C46.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1F_U0C46.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C31_U0C40.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C23_U0C40.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1F_U0C40.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1E_U0C40.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C16_U0C40.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C31_U0C3F.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C23_U0C3F.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1F_U0C3F.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1B_U0C3F.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C16_U0C3F.abvs
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C31
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C23
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C1F
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C1E
- 1
-  SeqLookup: 0 'L004'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C37_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C32_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2D_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2C_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C28_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C27_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C26_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C25_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C24_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C22_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C21_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1C_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1B_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1A_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C19_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C16_U0C4D.haln
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C37_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C32_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2D_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2C_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C28_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C27_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C26_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C25_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C24_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C22_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C21_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1C_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1B_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1A_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C19_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C16_U0C47.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C37_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C32_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2D_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2C_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C28_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C27_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C26_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C25_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C24_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C22_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C21_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1C_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1B_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C18_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C17_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C16_U0C46.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C37_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C32_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2D_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2C_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C28_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C27_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C26_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C25_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C24_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C22_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C21_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1C_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1B_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1A_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C19_U0C40.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C37_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2E_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2D_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C2C_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C28_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C27_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C26_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C25_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C24_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C22_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C21_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1C_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1B_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C1A_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 16 U0C19_U0C3F.abvs
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C37
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C2D
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C2C
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C28
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C27
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C26
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C25
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C24
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C22
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C21
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C1C
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C1B
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C1A
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C19
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C16
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'blws' 0 0 0 1
- 1 1 0
-  Coverage: 16 U0C30_U0C4D.blwf
-  BCoverage: 5 U0C15
- 1
-  SeqLookup: 0 'L005'
-EndFPST
-ChainSub: coverage 0 0 'abvs' 0 0 0 1
- 1 0 1
-  Coverage: 209 U0C15 U0C16 U0C17 U0C18 U0C19 U0C1A U0C1B U0C1C U0C1D U0C1E U0C1F U0C20 U0C21 U0C22 U0C23 U0C24 U0C25 U0C26 U0C27 U0C28 U0C2A U0C2B U0C2C U0C2D U0C2E U0C2F U0C30 U0C31 U0C32 U0C33 U0C35 U0C36 U0C37 U0C38 U0C39
-  FCoverage: 5 U0C48
- 1
-  SeqLookup: 0 'L006'
-EndFPST
-GenTags: 7 ms'L006' sb'L005' sb'L004' sb'L003' sb'L002' sb'L001' sb'L000'
-TableOrder: GPOS 1
-	'blwm'
-TableOrder: GSUB 6
-	'abvs'
-	'akhn'
-	'blwf'
-	'blws'
-	'haln'
-	'psts'
+ScriptLang: 1
+ 3 dev2 1 dflt latn 1 dflt tel2 1 dflt 
 TtfTable: prep 11
 5QX@TNOT#hKm":5
 EndTtf
@@ -2267,18 +72,17 @@ EndTtf
 LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Telugu : 19-7-2006" "" "Version 1.00" 
 GaspTable: 1 65535 2
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -36
+DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 33 33 15
-AnchorClass: "Anchor-0" blwm 0 0 1 0 
+WinInfo: 0 40 16
 BeginChars: 65989 543
 StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 0 m 1,0,-1
@@ -2298,31 +102,26 @@ EndChar
 StartChar: .null
 Encoding: 65537 0 1
 Width: 0
-GlyphClass: 2
 Flags: W
 EndChar
 StartChar: nonmarkingreturn
 Encoding: 65538 12 2
 Width: 0
-GlyphClass: 2
 Flags: W
 EndChar
 StartChar: space
 Encoding: 32 32 3
 Width: 128
-GlyphClass: 2
 Flags: W
 EndChar
 StartChar: hyphen
 Encoding: 45 45 4
 Width: 1088
-GlyphClass: 2
 Flags: W
 EndChar
 StartChar: uni0214
 Encoding: 532 532 5
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -2342,7 +141,6 @@ EndChar
 StartChar: uni021C
 Encoding: 540 540 6
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -2359,10 +157,38 @@ Fore
  150 -260 l 1,5,-1
 EndSplineSet
 EndChar
+StartChar: uni0964
+Encoding: 2404 2404 7
+Width: 1024
+Flags: W
+Fore
+170 -51 m 1,0,-1
+ 170 620 l 1,1,-1
+ 255 620 l 1,2,-1
+ 255 -51 l 1,3,-1
+ 170 -51 l 1,0,-1
+EndSplineSet
+EndChar
+StartChar: uni0965
+Encoding: 2405 2405 8
+Width: 1024
+Flags: W
+Fore
+170 -34 m 1,0,-1
+ 170 612 l 1,1,-1
+ 255 612 l 1,2,-1
+ 255 -34 l 1,3,-1
+ 170 -34 l 1,0,-1
+391 -34 m 1,4,-1
+ 391 612 l 1,5,-1
+ 476 612 l 1,6,-1
+ 476 -34 l 1,7,-1
+ 391 -34 l 1,4,-1
+EndSplineSet
+EndChar
 StartChar: U0C01
-Encoding: 3073 3073 7
+Encoding: 3073 3073 9
 Width: 444
-GlyphClass: 2
 Flags: W
 Fore
 393 119 m 1,0,-1
@@ -2388,9 +214,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C02
-Encoding: 3074 3074 8
+Encoding: 3074 3074 10
 Width: 675
-GlyphClass: 2
 Flags: W
 Fore
 42 294 m 1,0,1
@@ -2416,9 +241,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C03
-Encoding: 3075 3075 9
+Encoding: 3075 3075 11
 Width: 367
-GlyphClass: 2
 Flags: W
 Fore
 53 457 m 1,0,1
@@ -2464,9 +288,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C05
-Encoding: 3077 3077 10
+Encoding: 3077 3077 12
 Width: 847
-GlyphClass: 2
 Flags: W
 Fore
 177 457 m 1,0,1
@@ -2521,9 +344,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C06
-Encoding: 3078 3078 11
+Encoding: 3078 3078 13
 Width: 909
-GlyphClass: 2
 Flags: W
 Fore
 175 457 m 1,0,1
@@ -2588,9 +410,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C07
-Encoding: 3079 3079 12
+Encoding: 3079 3079 14
 Width: 779
-GlyphClass: 2
 Flags: W
 Fore
 231 148 m 1,0,1
@@ -2647,9 +468,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C08
-Encoding: 3080 3080 13
+Encoding: 3080 3080 15
 Width: 1336
-GlyphClass: 2
 Flags: W
 Fore
 1057 195 m 1,0,1
@@ -2730,9 +550,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C09
-Encoding: 3081 3081 14
+Encoding: 3081 3081 16
 Width: 818
-GlyphClass: 2
 Flags: W
 Fore
 583 131 m 1,0,1
@@ -2790,9 +609,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C0A
-Encoding: 3082 3082 15
+Encoding: 3082 3082 17
 Width: 1270
-GlyphClass: 2
 Flags: W
 Fore
 42 245 m 1,0,1
@@ -2892,9 +710,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C0B
-Encoding: 3083 3083 16
+Encoding: 3083 3083 18
 Width: 1749
-GlyphClass: 2
 Flags: W
 Fore
 552 82 m 1,0,1
@@ -2972,9 +789,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C0C
-Encoding: 3084 3084 17
+Encoding: 3084 3084 19
 Width: 994
-GlyphClass: 2
 Flags: W
 Fore
 29 415 m 1,0,1
@@ -3026,9 +842,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C0E
-Encoding: 3086 3086 18
+Encoding: 3086 3086 20
 Width: 738
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -3068,9 +883,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C0F
-Encoding: 3087 3087 19
+Encoding: 3087 3087 21
 Width: 738
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -3118,9 +932,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C10
-Encoding: 3088 3088 20
+Encoding: 3088 3088 22
 Width: 845
-GlyphClass: 2
 Flags: W
 Fore
 127 151 m 1,0,1
@@ -3174,9 +987,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C12
-Encoding: 3090 3090 21
+Encoding: 3090 3090 23
 Width: 768
-GlyphClass: 2
 Flags: W
 Fore
 53 180 m 1,0,1
@@ -3228,9 +1040,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C13
-Encoding: 3091 3091 22
+Encoding: 3091 3091 24
 Width: 770
-GlyphClass: 2
 Flags: W
 Fore
 54 180 m 1,0,1
@@ -3296,9 +1107,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C14
-Encoding: 3092 3092 23
+Encoding: 3092 3092 25
 Width: 918
-GlyphClass: 2
 Flags: W
 Fore
 51 180 m 1,0,1
@@ -3388,11 +1198,9 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C15
-Encoding: 3093 3093 24
+Encoding: 3093 3093 26
 Width: 640
-GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" 350 -17 basechar 0
 Fore
 148 442 m 1,0,1
  148 405 148 405 195.5 378.5 c 128,-1,2
@@ -3433,12 +1241,10 @@ Fore
  148 476 148 476 148 442 c 1,51,-1
  148 442 l 1,0,1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C15_U0C46.abvs U0C56 U0C15_U0C46.abvs U0C56
 EndChar
 StartChar: U0C16
-Encoding: 3094 3094 25
+Encoding: 3094 3094 27
 Width: 841
-GlyphClass: 2
 Flags: W
 Fore
 155 457 m 1,0,1
@@ -3510,12 +1316,10 @@ Fore
  658 0 658 0 563 0 c 1,89,-1
  563 0 l 1,27,28
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C16_U0C46.abvs U0C56 U0C16_U0C46.abvs U0C56
 EndChar
 StartChar: U0C17
-Encoding: 3095 3095 26
+Encoding: 3095 3095 28
 Width: 649
-GlyphClass: 2
 Flags: W
 Fore
 46 0 m 1,0,1
@@ -3541,12 +1345,10 @@ Fore
  46 0 l 1,27,-1
  46 0 l 1,0,1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C17_U0C46.abvs U0C56 U0C17_U0C46.abvs U0C56
 EndChar
 StartChar: U0C18
-Encoding: 3096 3096 27
+Encoding: 3096 3096 29
 Width: 1120
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -3620,12 +1422,10 @@ Fore
  14 700 14 700 14 792 c 1,91,-1
  14 792 l 1,75,-1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C18_U0C46.abvs U0C56 U0C18_U0C46.abvs U0C56
 EndChar
 StartChar: U0C19
-Encoding: 3097 3097 28
+Encoding: 3097 3097 30
 Width: 773
-GlyphClass: 2
 Flags: W
 Fore
 54 180 m 1,0,1
@@ -3682,12 +1482,10 @@ Fore
  54 105 54 105 54 180 c 1,71,-1
  54 180 l 1,0,1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C19_U0C46.abvs U0C56 U0C19_U0C46.abvs U0C56
 EndChar
 StartChar: U0C1A
-Encoding: 3098 3098 29
+Encoding: 3098 3098 31
 Width: 801
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -3737,12 +1535,10 @@ Fore
  627 0 627 0 535 0 c 1,59,-1
  535 0 l 1,0,1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C1A_U0C46.abvs U0C56 U0C1A_U0C46.abvs U0C56
 EndChar
 StartChar: U0C1B
-Encoding: 3099 3099 30
+Encoding: 3099 3099 32
 Width: 802
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -3799,12 +1595,10 @@ Fore
  627 0 627 0 535 0 c 1,66,-1
  535 0 l 1,0,1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C1B_U0C46.abvs U0C56 U0C1B_U0C46.abvs U0C56
 EndChar
 StartChar: U0C1C
-Encoding: 3100 3100 31
+Encoding: 3100 3100 33
 Width: 814
-GlyphClass: 2
 Flags: W
 Fore
 54 180 m 1,0,1
@@ -3872,12 +1666,10 @@ Fore
  54 105 54 105 54 180 c 1,90,-1
  54 180 l 1,0,1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C1C_U0C46.abvs U0C56 U0C1C_U0C46.abvs U0C56
 EndChar
 StartChar: U0C1D
-Encoding: 3101 3101 32
+Encoding: 3101 3101 34
 Width: 1479
-GlyphClass: 2
 Flags: W
 Fore
 122 294 m 1,0,1
@@ -3946,12 +1738,10 @@ Fore
  41 172 41 172 41 294 c 1,87,-1
  41 294 l 1,13,14
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C1D_U0C46.abvs U0C56 U0C1D_U0C46.abvs U0C56
 EndChar
 StartChar: U0C1E
-Encoding: 3102 3102 33
+Encoding: 3102 3102 35
 Width: 1011
-GlyphClass: 2
 Flags: W
 Fore
 19 393 m 1,0,1
@@ -4015,12 +1805,10 @@ Fore
  233 175 233 175 233 148 c 1,78,-1
  233 148 l 1,65,66
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C1E_U0C46.abvs U0C56 U0C1E_U0C46.abvs U0C56
 EndChar
 StartChar: U0C1F
-Encoding: 3103 3103 34
+Encoding: 3103 3103 36
 Width: 930
-GlyphClass: 2
 Flags: W
 Fore
 146 393 m 1,0,1
@@ -4071,12 +1859,10 @@ Fore
  743 0 743 0 644 0 c 1,62,-1
  644 0 l 1,13,14
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C1F_U0C46.abvs U0C56 U0C1F_U0C46.abvs U0C56
 EndChar
 StartChar: U0C20
-Encoding: 3104 3104 35
+Encoding: 3104 3104 37
 Width: 675
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -4116,12 +1902,10 @@ Fore
  289 245 l 1,43,-1
  289 245 l 1,39,-1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C20_U0C46.abvs U0C56 U0C20_U0C46.abvs U0C56
 EndChar
 StartChar: U0C21
-Encoding: 3105 3105 36
+Encoding: 3105 3105 38
 Width: 841
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -4180,12 +1964,10 @@ Fore
  44 153 44 153 44 262 c 1,73,-1
  44 262 l 1,13,14
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C21_U0C46.abvs U0C56 U0C21_U0C46.abvs U0C56
 EndChar
 StartChar: U0C22
-Encoding: 3106 3106 37
+Encoding: 3106 3106 39
 Width: 841
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -4250,12 +2032,10 @@ Fore
  44 153 44 153 44 262 c 1,79,-1
  44 262 l 1,13,14
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C22_U0C46.abvs U0C56 U0C22_U0C46.abvs U0C56
 EndChar
 StartChar: U0C23
-Encoding: 3107 3107 38
+Encoding: 3107 3107 40
 Width: 952
-GlyphClass: 2
 Flags: W
 Fore
 610 139 m 1,0,1
@@ -4319,14 +2099,11 @@ Fore
  54 385 54 385 54 433 c 1,82,-1
  54 433 l 1,13,14
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C23_U0C46.abvs U0C56 U0C23_U0C46.abvs U0C56
 EndChar
 StartChar: U0C24
-Encoding: 3108 3108 39
+Encoding: 3108 3108 41
 Width: 818
-GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" 402 -38 basechar 0
 Fore
 122 376 m 1,0,1
  122 342 122 342 146.5 318 c 128,-1,2
@@ -4390,12 +2167,10 @@ Fore
  224 652 224 652 224 728 c 1,81,-1
  224 728 l 1,26,-1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C24_U0C46.abvs U0C56 U0C24_U0C46.abvs U0C56
 EndChar
 StartChar: U0C25
-Encoding: 3109 3109 40
+Encoding: 3109 3109 42
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -4451,12 +2226,10 @@ Fore
  355 311 l 1,63,-1
  355 311 l 1,59,-1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C25_U0C46.abvs U0C56 U0C25_U0C46.abvs U0C56
 EndChar
 StartChar: U0C26
-Encoding: 3110 3110 41
+Encoding: 3110 3110 43
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -4500,12 +2273,10 @@ Fore
  44 144 44 144 44 245 c 1,52,-1
  44 245 l 1,20,21
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C26_U0C46.abvs U0C56 U0C26_U0C46.abvs U0C56
 EndChar
 StartChar: U0C27
-Encoding: 3111 3111 42
+Encoding: 3111 3111 44
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -4555,12 +2326,10 @@ Fore
  44 144 44 144 44 245 c 1,58,-1
  44 245 l 1,20,21
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C27_U0C46.abvs U0C56 U0C27_U0C46.abvs U0C56
 EndChar
 StartChar: U0C28
-Encoding: 3112 3112 43
+Encoding: 3112 3112 45
 Width: 758
-GlyphClass: 2
 Flags: W
 Fore
 493 82 m 1,0,1
@@ -4602,12 +2371,10 @@ Fore
  445 82 445 82 493 82 c 1,51,-1
  493 82 l 1,0,1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C28_U0C46.abvs U0C56 U0C28_U0C46.abvs U0C56
 EndChar
 StartChar: U0C2A
-Encoding: 3114 3114 44
+Encoding: 3114 3114 46
 Width: 716
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -4659,12 +2426,10 @@ Fore
  14 700 14 700 14 792 c 1,62,-1
  14 792 l 1,46,-1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C2A_U0C46.abvs U0C56 U0C2A_U0C46.abvs U0C56
 EndChar
 StartChar: U0C2B
-Encoding: 3115 3115 45
+Encoding: 3115 3115 47
 Width: 722
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -4722,12 +2487,10 @@ Fore
  14 700 14 700 14 792 c 1,68,-1
  14 792 l 1,52,-1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C2B_U0C46.abvs U0C56 U0C2B_U0C46.abvs U0C56
 EndChar
 StartChar: U0C2C
-Encoding: 3116 3116 46
+Encoding: 3116 3116 48
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 552 82 m 1,0,1
@@ -4777,12 +2540,10 @@ Fore
  501 82 501 82 552 82 c 1,64,-1
  552 82 l 1,0,1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C2C_U0C46.abvs U0C56 U0C2C_U0C46.abvs U0C56
 EndChar
 StartChar: U0C2D
-Encoding: 3117 3117 47
+Encoding: 3117 3117 49
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 563 82 m 1,0,1
@@ -4847,12 +2608,10 @@ Fore
  508 82 508 82 563 82 c 1,82,-1
  563 82 l 1,0,1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C2D_U0C46.abvs U0C56 U0C2D_U0C46.abvs U0C56
 EndChar
 StartChar: U0C2E
-Encoding: 3118 3118 48
+Encoding: 3118 3118 50
 Width: 1195
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -4914,14 +2673,11 @@ Fore
  29 87 29 87 29 148 c 1,78,-1
  29 148 l 1,13,14
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C2E_U0C46.abvs U0C56 U0C2E_U0C46.abvs U0C56
 EndChar
 StartChar: U0C2F
-Encoding: 3119 3119 49
+Encoding: 3119 3119 51
 Width: 1542
-GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" 783 -22 basechar 0
 Fore
 124 294 m 1,0,1
  124 206 124 206 186.5 144 c 128,-1,2
@@ -4983,12 +2739,10 @@ Fore
  942 212 942 212 942 304 c 1,80,-1
  942 304 l 1,13,14
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C2F_U0C46.abvs U0C56 U0C2F_U0C46.abvs U0C56
 EndChar
 StartChar: U0C30
-Encoding: 3120 3120 50
+Encoding: 3120 3120 52
 Width: 675
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -5022,12 +2776,10 @@ Fore
  42 177 42 177 42 303 c 1,38,-1
  42 303 l 1,13,14
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C30_U0C46.abvs U0C56 U0C30_U0C46.abvs U0C56
 EndChar
 StartChar: U0C31
-Encoding: 3121 3121 51
+Encoding: 3121 3121 53
 Width: 945
-GlyphClass: 2
 Flags: W
 Fore
 178 457 m 1,0,1
@@ -5090,14 +2842,11 @@ Fore
  48 181 48 181 48 309 c 1,79,-1
  48 309 l 1,13,14
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C31_U0C46.abvs U0C56 U0C31_U0C46.abvs U0C56
 EndChar
 StartChar: U0C32
-Encoding: 3122 3122 52
+Encoding: 3122 3122 54
 Width: 743
-GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" 375 -15 basechar 0
 Fore
 192 457 m 1,0,1
  192 423 192 423 216 399.5 c 128,-1,2
@@ -5136,12 +2885,10 @@ Fore
  270 82 270 82 372 82 c 1,48,-1
  372 82 l 1,13,14
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C32_U0C46.abvs U0C56 U0C32_U0C46.abvs U0C56
 EndChar
 StartChar: U0C33
-Encoding: 3123 3123 53
+Encoding: 3123 3123 55
 Width: 702
-GlyphClass: 2
 Flags: W
 Fore
 97 360 m 1,0,1
@@ -5207,14 +2954,11 @@ Fore
  295 212 295 212 359 212 c 1,82,-1
  359 212 l 1,26,27
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C33_U0C46.abvs U0C56 U0C33_U0C46.abvs U0C56
 EndChar
 StartChar: U0C35
-Encoding: 3125 3125 54
+Encoding: 3125 3125 56
 Width: 721
-GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" 350 -3 basechar 0
 Fore
 95 148 m 1,0,1
  95 114 95 114 119 89.5 c 128,-1,2
@@ -5261,12 +3005,10 @@ Fore
  29 87 29 87 29 148 c 1,58,-1
  29 148 l 1,13,14
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C35_U0C46.abvs U0C56 U0C35_U0C46.abvs U0C56
 EndChar
 StartChar: U0C36
-Encoding: 3126 3126 55
+Encoding: 3126 3126 57
 Width: 626
-GlyphClass: 2
 Flags: W
 Fore
 270 184 m 1,0,1
@@ -5324,12 +3066,10 @@ Fore
  197 111 197 111 197 189 c 1,72,-1
  197 189 l 1,13,14
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C36_U0C46.abvs U0C56 U0C36_U0C46.abvs U0C56
 EndChar
 StartChar: U0C37
-Encoding: 3127 3127 56
+Encoding: 3127 3127 58
 Width: 751
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -5388,12 +3128,10 @@ Fore
  14 700 14 700 14 792 c 1,71,-1
  14 792 l 1,55,-1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C37_U0C46.abvs U0C56 U0C37_U0C46.abvs U0C56
 EndChar
 StartChar: U0C38
-Encoding: 3128 3128 57
+Encoding: 3128 3128 59
 Width: 738
-GlyphClass: 2
 Flags: W
 Fore
 476 82 m 1,0,1
@@ -5439,12 +3177,10 @@ Fore
  19 700 19 700 19 792 c 1,55,-1
  19 792 l 1,39,-1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C38_U0C46.abvs U0C56 U0C38_U0C46.abvs U0C56
 EndChar
 StartChar: U0C39
-Encoding: 3129 3129 58
+Encoding: 3129 3129 60
 Width: 1103
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -5520,12 +3256,10 @@ Fore
  14 700 14 700 14 792 c 1,93,-1
  14 792 l 1,77,-1
 EndSplineSet
-MultipleSubs: 0 65534 'L006' U0C39_U0C46.abvs U0C56 U0C39_U0C46.abvs U0C56
 EndChar
 StartChar: U0C3E
-Encoding: 3134 3134 59
+Encoding: 3134 3134 61
 Width: 752
-GlyphClass: 2
 Flags: W
 Fore
 458 462 m 1,0,1
@@ -5556,9 +3290,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C3F
-Encoding: 3135 3135 60
+Encoding: 3135 3135 62
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -127 651 m 1,0,1
@@ -5594,9 +3327,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C40
-Encoding: 3136 3136 61
+Encoding: 3136 3136 63
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -136 660 m 1,0,1
@@ -5646,9 +3378,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C41
-Encoding: 3137 3137 62
+Encoding: 3137 3137 64
 Width: 461
-GlyphClass: 2
 Flags: W
 Fore
 -87 177 m 1,0,-1
@@ -5670,9 +3401,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C42
-Encoding: 3138 3138 63
+Encoding: 3138 3138 65
 Width: 905
-GlyphClass: 2
 Flags: W
 Fore
 648 474 m 1,0,1
@@ -5718,9 +3448,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C43
-Encoding: 3139 3139 64
+Encoding: 3139 3139 66
 Width: 402
-GlyphClass: 2
 Flags: W
 Fore
 -133 -272 m 1,0,1
@@ -5758,9 +3487,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C44
-Encoding: 3140 3140 65
+Encoding: 3140 3140 67
 Width: 766
-GlyphClass: 2
 Flags: W
 Fore
 510 326 m 1,0,1
@@ -5822,9 +3550,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C46
-Encoding: 3142 3142 66
+Encoding: 3142 3142 68
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -418 824 m 1,0,-1
@@ -5846,9 +3573,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C47
-Encoding: 3143 3143 67
+Encoding: 3143 3143 69
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -418 821 m 1,0,-1
@@ -5885,9 +3611,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C48
-Encoding: 3144 3144 68
+Encoding: 3144 3144 70
 Width: 918
-GlyphClass: 2
 Flags: W
 Fore
 216 824 m 1,0,-1
@@ -5932,12 +3657,10 @@ Fore
  85 -272 85 -272 85 -204 c 1,49,-1
  85 -204 l 1,32,33
 EndSplineSet
-Substitution: 0 0 'abvs' .null
 EndChar
 StartChar: U0C4A
-Encoding: 3146 3146 69
+Encoding: 3146 3146 71
 Width: 726
-GlyphClass: 2
 Flags: W
 Fore
 432 702 m 1,0,1
@@ -5988,9 +3711,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C4B
-Encoding: 3147 3147 70
+Encoding: 3147 3147 72
 Width: 722
-GlyphClass: 2
 Flags: W
 Fore
 428 702 m 1,0,1
@@ -6055,9 +3777,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C4C
-Encoding: 3148 3148 71
+Encoding: 3148 3148 73
 Width: 768
-GlyphClass: 2
 Flags: W
 Fore
 -240 821 m 1,0,-1
@@ -6102,9 +3823,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C4D
-Encoding: 3149 3149 72
+Encoding: 3149 3149 74
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 294 556 m 1,0,-1
@@ -6138,9 +3858,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C55
-Encoding: 3157 3157 73
+Encoding: 3157 3157 75
 Width: 484
-GlyphClass: 2
 Flags: W
 Fore
 143 592 m 1,0,1
@@ -6162,9 +3881,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C56
-Encoding: 3158 3158 74
+Encoding: 3158 3158 76
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -617 -204 m 1,0,1
@@ -6195,9 +3913,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C60
-Encoding: 3168 3168 75
+Encoding: 3168 3168 77
 Width: 2184
-GlyphClass: 2
 Flags: W
 Fore
 552 82 m 1,0,1
@@ -6299,9 +4016,8 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0C61
-Encoding: 3169 3169 76
+Encoding: 3169 3169 78
 Width: 1450
-GlyphClass: 2
 Flags: W
 Fore
 1193 428 m 1,0,1
@@ -6376,44 +4092,9 @@ Fore
  1129 428 l 1,13,14
 EndSplineSet
 EndChar
-StartChar: uni0C64
-Encoding: 3172 3172 77
-Width: 340
-GlyphClass: 2
-Flags: W
-Fore
-170 -51 m 1,0,-1
- 170 620 l 1,1,-1
- 255 620 l 1,2,-1
- 255 -51 l 1,3,-1
- 170 -51 l 1,4,-1
- 170 -51 l 1,0,-1
-EndSplineSet
-EndChar
-StartChar: uni0C65
-Encoding: 3173 3173 78
-Width: 561
-GlyphClass: 2
-Flags: W
-Fore
-170 -34 m 1,0,-1
- 170 612 l 1,1,-1
- 255 612 l 1,2,-1
- 255 -34 l 1,3,-1
- 170 -34 l 1,4,-1
- 170 -34 l 1,0,-1
-391 -34 m 1,5,-1
- 391 612 l 1,6,-1
- 476 612 l 1,7,-1
- 476 -34 l 1,8,-1
- 391 -34 l 1,9,-1
- 391 -34 l 1,5,-1
-EndSplineSet
-EndChar
 StartChar: U0C66
 Encoding: 3174 3174 79
 Width: 923
-GlyphClass: 2
 Flags: W
 Fore
 461 -24 m 1,0,1
@@ -6441,7 +4122,6 @@ EndChar
 StartChar: U0C67
 Encoding: 3175 3175 80
 Width: 925
-GlyphClass: 2
 Flags: W
 Fore
 299 -20 m 1,0,1
@@ -6469,7 +4149,6 @@ EndChar
 StartChar: U0C68
 Encoding: 3176 3176 81
 Width: 923
-GlyphClass: 2
 Flags: W
 Fore
 90 -7 m 1,0,-1
@@ -6508,7 +4187,6 @@ EndChar
 StartChar: U0C69
 Encoding: 3177 3177 82
 Width: 925
-GlyphClass: 2
 Flags: W
 Fore
 469 -41 m 1,0,1
@@ -6548,7 +4226,6 @@ EndChar
 StartChar: U0C6A
 Encoding: 3178 3178 83
 Width: 923
-GlyphClass: 2
 Flags: W
 Fore
 471 -41 m 1,0,1
@@ -6594,7 +4271,6 @@ EndChar
 StartChar: U0C6B
 Encoding: 3179 3179 84
 Width: 925
-GlyphClass: 2
 Flags: W
 Fore
 75 -24 m 1,0,-1
@@ -6646,7 +4322,6 @@ EndChar
 StartChar: U0C6C
 Encoding: 3180 3180 85
 Width: 925
-GlyphClass: 2
 Flags: W
 Fore
 331 -15 m 1,0,1
@@ -6682,7 +4357,6 @@ EndChar
 StartChar: U0C6D
 Encoding: 3181 3181 86
 Width: 923
-GlyphClass: 2
 Flags: W
 Fore
 442 -24 m 1,0,1
@@ -6718,7 +4392,6 @@ EndChar
 StartChar: U0C6E
 Encoding: 3182 3182 87
 Width: 925
-GlyphClass: 2
 Flags: W
 Fore
 430 -32 m 1,0,1
@@ -6751,7 +4424,6 @@ EndChar
 StartChar: U0C6F
 Encoding: 3183 3183 88
 Width: 925
-GlyphClass: 2
 Flags: W
 Fore
 309 -32 m 1,0,1
@@ -6787,7 +4459,6 @@ EndChar
 StartChar: afii61664
 Encoding: 8204 8204 89
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 0 -518 m 1,0,-1
@@ -6801,7 +4472,6 @@ EndChar
 StartChar: afii301
 Encoding: 8205 8205 90
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 0 -518 m 1,0,-1
@@ -6817,7 +4487,6 @@ EndChar
 StartChar: minus
 Encoding: 8722 8722 91
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -6837,7 +4506,6 @@ EndChar
 StartChar: uni25CC
 Encoding: 9676 9676 92
 Width: 1088
-GlyphClass: 2
 Flags: W
 Fore
 483 721 m 1,0,1
@@ -6965,7 +4633,6 @@ EndChar
 StartChar: glyph86
 Encoding: 65539 -1 93
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -6985,7 +4652,6 @@ EndChar
 StartChar: glyph88
 Encoding: 65540 -1 94
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -7005,7 +4671,6 @@ EndChar
 StartChar: glyph89
 Encoding: 65541 -1 95
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -7025,7 +4690,6 @@ EndChar
 StartChar: glyph91
 Encoding: 65542 -1 96
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -7045,7 +4709,6 @@ EndChar
 StartChar: glyph92
 Encoding: 65543 -1 97
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -7065,7 +4728,6 @@ EndChar
 StartChar: glyph94
 Encoding: 65544 -1 98
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -7085,7 +4747,6 @@ EndChar
 StartChar: glyph95
 Encoding: 65545 -1 99
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -7105,7 +4766,6 @@ EndChar
 StartChar: glyph96
 Encoding: 65546 -1 100
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -7125,7 +4785,6 @@ EndChar
 StartChar: glyph97
 Encoding: 65547 -1 101
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -7145,7 +4804,6 @@ EndChar
 StartChar: glyph98
 Encoding: 65548 -1 102
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -7165,7 +4823,6 @@ EndChar
 StartChar: glyph99
 Encoding: 65549 -1 103
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -7185,7 +4842,6 @@ EndChar
 StartChar: glyph100
 Encoding: 65550 -1 104
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -7205,7 +4861,6 @@ EndChar
 StartChar: glyph101
 Encoding: 65551 -1 105
 Width: 800
-GlyphClass: 2
 Flags: W
 Fore
 100 -310 m 1,0,-1
@@ -7225,7 +4880,6 @@ EndChar
 StartChar: U0C15_U0C3E.abvs
 Encoding: 65552 -1 106
 Width: 1001
-GlyphClass: 2
 Flags: W
 Fore
 155 442 m 1,0,1
@@ -7281,12 +4935,11 @@ Fore
  746 496 746 496 746 462 c 1,69,-1
  746 462 l 1,57,58
 EndSplineSet
-Ligature: 0 0 'abvs' U0C15 U0C3E
+Ligature: 0 0 'liga' U0C15 U0C3E.abvs
 EndChar
 StartChar: U0C16_U0C3E.abvs
 Encoding: 65553 -1 107
 Width: 1209
-GlyphClass: 2
 Flags: W
 Fore
 167 457 m 1,0,1
@@ -7380,12 +5033,11 @@ Fore
  952 496 952 496 952 462 c 1,118,-1
  952 462 l 1,106,107
 EndSplineSet
-Ligature: 0 0 'abvs' U0C16 U0C3E
+Ligature: 0 0 'liga' U0C16 U0C3E.abvs
 EndChar
 StartChar: U0C17_U0C3E.abvs
 Encoding: 65554 -1 108
 Width: 1054
-GlyphClass: 2
 Flags: W
 Fore
 51 0 m 1,0,1
@@ -7425,12 +5077,11 @@ Fore
  799 496 799 496 799 462 c 1,45,-1
  799 462 l 1,33,34
 EndSplineSet
-Ligature: 0 0 'abvs' U0C17 U0C3E
+Ligature: 0 0 'liga' U0C17 U0C3E.abvs
 EndChar
 StartChar: U0C18_U0C3E.abvs
 Encoding: 65555 -1 109
 Width: 1640
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -7527,12 +5178,11 @@ Fore
  1384 508 1384 508 1384 474 c 1,121,-1
  1384 474 l 1,109,110
 EndSplineSet
-Ligature: 0 0 'abvs' U0C18 U0C3E
+Ligature: 0 0 'liga' U0C18 U0C3E.abvs
 EndChar
 StartChar: U0C19_U0C3E.abvs
 Encoding: 65556 -1 110
 Width: 1163
-GlyphClass: 2
 Flags: W
 Fore
 54 180 m 1,0,1
@@ -7612,12 +5262,11 @@ Fore
  906 496 906 496 906 462 c 1,101,-1
  906 462 l 1,89,90
 EndSplineSet
-Ligature: 0 0 'abvs' U0C19 U0C3E
+Ligature: 0 0 'liga' U0C19 U0C3E.abvs
 EndChar
 StartChar: U0C1A_U0C3E.abvs
 Encoding: 65557 -1 111
 Width: 1170
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -7680,12 +5329,11 @@ Fore
  915 496 915 496 915 462 c 1,76,-1
  915 462 l 1,64,65
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1A U0C3E
+Ligature: 0 0 'liga' U0C1A U0C3E.abvs
 EndChar
 StartChar: U0C1B_U0C3E.abvs
 Encoding: 65558 -1 112
 Width: 1188
-GlyphClass: 2
 Flags: W
 Fore
 537 0 m 1,0,1
@@ -7755,12 +5403,11 @@ Fore
  933 496 933 496 933 462 c 1,83,-1
  933 462 l 1,71,72
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1B U0C3E
+Ligature: 0 0 'liga' U0C1B U0C3E.abvs
 EndChar
 StartChar: U0C1C_U0C3E.abvs
 Encoding: 65559 -1 113
 Width: 1164
-GlyphClass: 2
 Flags: W
 Fore
 56 180 m 1,0,1
@@ -7847,12 +5494,11 @@ Fore
  908 496 908 496 908 462 c 1,114,-1
  908 462 l 1,102,103
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1C U0C3E
+Ligature: 0 0 'liga' U0C1C U0C3E.abvs
 EndChar
 StartChar: U0C1D_U0C3E.abvs
 Encoding: 65560 -1 114
 Width: 2054
-GlyphClass: 4
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -7946,12 +5592,11 @@ Fore
  1797 508 1797 508 1797 474 c 1,118,-1
  1797 474 l 1,106,107
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1D U0C3E
+Ligature: 0 0 'liga' U0C1D U0C3E.abvs
 EndChar
 StartChar: U0C1E_U0C3E.abvs
 Encoding: 65561 -1 115
 Width: 1426
-GlyphClass: 2
 Flags: W
 Fore
 19 393 m 1,0,1
@@ -8038,12 +5683,11 @@ Fore
  1170 496 1170 496 1170 462 c 1,108,-1
  1170 462 l 1,96,97
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1E U0C3E
+Ligature: 0 0 'liga' U0C1E U0C3E.abvs
 EndChar
 StartChar: U0C1F_U0C3E.abvs
 Encoding: 65562 -1 116
 Width: 1280
-GlyphClass: 2
 Flags: W
 Fore
 146 393 m 1,0,1
@@ -8117,12 +5761,11 @@ Fore
  1023 496 1023 496 1023 462 c 1,92,-1
  1023 462 l 1,80,81
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1F U0C3E
+Ligature: 0 0 'liga' U0C1F U0C3E.abvs
 EndChar
 StartChar: U0C20_U0C3E.abvs
 Encoding: 65563 -1 117
 Width: 1108
-GlyphClass: 2
 Flags: W
 Fore
 129 303 m 1,0,1
@@ -8176,12 +5819,11 @@ Fore
  853 496 853 496 853 462 c 1,61,-1
  853 462 l 1,49,50
 EndSplineSet
-Ligature: 0 0 'abvs' U0C20 U0C3E
+Ligature: 0 0 'liga' U0C20 U0C3E.abvs
 EndChar
 StartChar: U0C21_U0C3E.abvs
 Encoding: 65564 -1 118
 Width: 1187
-GlyphClass: 2
 Flags: W
 Fore
 588 195 m 1,0,1
@@ -8253,12 +5895,11 @@ Fore
  932 496 932 496 932 462 c 1,89,-1
  932 462 l 1,77,78
 EndSplineSet
-Ligature: 0 0 'abvs' U0C21 U0C3E
+Ligature: 0 0 'liga' U0C21 U0C3E.abvs
 EndChar
 StartChar: U0C22_U0C3E.abvs
 Encoding: 65565 -1 119
 Width: 1187
-GlyphClass: 2
 Flags: W
 Fore
 588 195 m 1,0,1
@@ -8336,12 +5977,11 @@ Fore
  932 496 932 496 932 462 c 1,95,-1
  932 462 l 1,83,84
 EndSplineSet
-Ligature: 0 0 'abvs' U0C22 U0C3E
+Ligature: 0 0 'liga' U0C22 U0C3E.abvs
 EndChar
 StartChar: U0C23_U0C3E.abvs
 Encoding: 65566 -1 120
 Width: 1273
-GlyphClass: 4
 Flags: W
 Fore
 610 139 m 1,0,1
@@ -8428,12 +6068,11 @@ Fore
  1017 496 1017 496 1017 462 c 1,112,-1
  1017 462 l 1,100,101
 EndSplineSet
-Ligature: 0 0 'abvs' U0C23 U0C3E
+Ligature: 0 0 'liga' U0C23 U0C3E.abvs
 EndChar
 StartChar: U0C24_U0C3E.abvs
 Encoding: 65567 -1 121
 Width: 1181
-GlyphClass: 2
 Flags: W
 Fore
 124 376 m 1,0,1
@@ -8512,12 +6151,11 @@ Fore
  926 496 926 496 926 462 c 1,99,-1
  926 462 l 1,87,88
 EndSplineSet
-Ligature: 0 0 'abvs' U0C24 U0C3E
+Ligature: 0 0 'liga' U0C24 U0C3E.abvs
 EndChar
 StartChar: U0C25_U0C3E.abvs
 Encoding: 65568 -1 122
 Width: 1187
-GlyphClass: 2
 Flags: W
 Fore
 129 245 m 1,0,1
@@ -8587,12 +6225,11 @@ Fore
  932 496 932 496 932 462 c 1,81,-1
  932 462 l 1,69,70
 EndSplineSet
-Ligature: 0 0 'abvs' U0C25 U0C3E
+Ligature: 0 0 'liga' U0C25 U0C3E.abvs
 EndChar
 StartChar: U0C26_U0C3E.abvs
 Encoding: 65569 -1 123
 Width: 1187
-GlyphClass: 2
 Flags: W
 Fore
 129 245 m 1,0,1
@@ -8650,12 +6287,11 @@ Fore
  932 496 932 496 932 462 c 1,70,-1
  932 462 l 1,58,59
 EndSplineSet
-Ligature: 0 0 'abvs' U0C26 U0C3E
+Ligature: 0 0 'liga' U0C26 U0C3E.abvs
 EndChar
 StartChar: U0C27_U0C3E.abvs
 Encoding: 65570 -1 124
 Width: 1187
-GlyphClass: 2
 Flags: W
 Fore
 129 245 m 1,0,1
@@ -8719,12 +6355,11 @@ Fore
  932 496 932 496 932 462 c 1,76,-1
  932 462 l 1,64,65
 EndSplineSet
-Ligature: 0 0 'abvs' U0C27 U0C3E
+Ligature: 0 0 'liga' U0C27 U0C3E.abvs
 EndChar
 StartChar: U0C28_U0C3E.abvs
 Encoding: 65571 -1 125
 Width: 1178
-GlyphClass: 2
 Flags: W
 Fore
 498 82 m 1,0,1
@@ -8779,12 +6414,11 @@ Fore
  923 496 923 496 923 462 c 1,68,-1
  923 462 l 1,56,57
 EndSplineSet
-Ligature: 0 0 'abvs' U0C28 U0C3E
+Ligature: 0 0 'liga' U0C28 U0C3E.abvs
 EndChar
 StartChar: U0C2A_U0C3E.abvs
 Encoding: 65572 -1 126
 Width: 1134
-GlyphClass: 2
 Flags: W
 Fore
 100 148 m 1,0,1
@@ -8851,12 +6485,11 @@ Fore
  877 406 877 406 877 372 c 1,83,-1
  877 372 l 1,71,72
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2A U0C3E
+Ligature: 0 0 'liga' U0C2A U0C3E.abvs
 EndChar
 StartChar: U0C2B_U0C3E.abvs
 Encoding: 65573 -1 127
 Width: 1119
-GlyphClass: 2
 Flags: W
 Fore
 102 148 m 1,0,1
@@ -8929,12 +6562,11 @@ Fore
  862 406 862 406 862 372 c 1,89,-1
  862 372 l 1,77,78
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2B U0C3E
+Ligature: 0 0 'liga' U0C2B U0C3E.abvs
 EndChar
 StartChar: U0C2C_U0C3E.abvs
 Encoding: 65574 -1 128
 Width: 1163
-GlyphClass: 2
 Flags: W
 Fore
 578 82 m 1,0,1
@@ -9007,12 +6639,11 @@ Fore
  906 496 906 496 906 462 c 1,94,-1
  906 462 l 1,82,83
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2C U0C3E
+Ligature: 0 0 'liga' U0C2C U0C3E.abvs
 EndChar
 StartChar: U0C2D_U0C3E.abvs
 Encoding: 65575 -1 129
 Width: 1164
-GlyphClass: 2
 Flags: W
 Fore
 563 82 m 1,0,1
@@ -9091,12 +6722,11 @@ Fore
  908 496 908 496 908 462 c 1,100,-1
  908 462 l 1,88,89
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2D U0C3E
+Ligature: 0 0 'liga' U0C2D U0C3E.abvs
 EndChar
 StartChar: U0C2E_U0C3E.abvs
 Encoding: 65576 -1 130
 Width: 1640
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -9182,12 +6812,11 @@ Fore
  1384 508 1384 508 1384 474 c 1,109,-1
  1384 474 l 1,97,98
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2E U0C3E
+Ligature: 0 0 'liga' U0C2E U0C3E.abvs
 EndChar
 StartChar: U0C2F_U0C3E.abvs
 Encoding: 65577 -1 131
 Width: 1986
-GlyphClass: 2
 Flags: W
 Fore
 124 294 m 1,0,1
@@ -9275,12 +6904,11 @@ Fore
  1729 508 1729 508 1729 474 c 1,112,-1
  1729 474 l 1,100,101
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2F U0C3E
+Ligature: 0 0 'liga' U0C2F U0C3E.abvs
 EndChar
 StartChar: U0C30_U0C3E.abvs
 Encoding: 65578 -1 132
 Width: 1034
-GlyphClass: 2
 Flags: W
 Fore
 129 303 m 1,0,1
@@ -9328,12 +6956,11 @@ Fore
  779 496 779 496 779 462 c 1,56,-1
  779 462 l 1,44,45
 EndSplineSet
-Ligature: 0 0 'abvs' U0C30 U0C3E
+Ligature: 0 0 'liga' U0C30 U0C3E.abvs
 EndChar
 StartChar: U0C31_U0C3E.abvs
 Encoding: 65579 -1 133
 Width: 1266
-GlyphClass: 2
 Flags: W
 Fore
 178 457 m 1,0,1
@@ -9420,12 +7047,11 @@ Fore
  1010 496 1010 496 1010 462 c 1,110,-1
  1010 462 l 1,98,99
 EndSplineSet
-Ligature: 0 0 'abvs' U0C31 U0C3E
+Ligature: 0 0 'liga' U0C31 U0C3E.abvs
 EndChar
 StartChar: U0C32_U0C3E.abvs
 Encoding: 65580 -1 134
 Width: 1176
-GlyphClass: 2
 Flags: W
 Fore
 190 457 m 1,0,1
@@ -9488,12 +7114,11 @@ Fore
  894 496 894 496 894 462 c 1,78,-1
  894 462 l 1,66,67
 EndSplineSet
-Ligature: 0 0 'abvs' U0C32 U0C3E
+Ligature: 0 0 'liga' U0C32 U0C3E.abvs
 EndChar
 StartChar: U0C33_U0C3E.abvs
 Encoding: 65581 -1 135
 Width: 1122
-GlyphClass: 2
 Flags: W
 Fore
 100 360 m 1,0,1
@@ -9572,12 +7197,11 @@ Fore
  867 496 867 496 867 462 c 1,99,-1
  867 462 l 1,87,88
 EndSplineSet
-Ligature: 0 0 'abvs' U0C33 U0C3E
+Ligature: 0 0 'liga' U0C33 U0C3E.abvs
 EndChar
 StartChar: U0C35_U0C3E.abvs
 Encoding: 65582 -1 136
 Width: 1113
-GlyphClass: 2
 Flags: W
 Fore
 97 148 m 1,0,1
@@ -9638,12 +7262,11 @@ Fore
  858 496 858 496 858 462 c 1,75,-1
  858 462 l 1,63,64
 EndSplineSet
-Ligature: 0 0 'abvs' U0C35 U0C3E
+Ligature: 0 0 'liga' U0C35 U0C3E.abvs
 EndChar
 StartChar: U0C36_U0C3E.abvs
 Encoding: 65583 -1 137
 Width: 1045
-GlyphClass: 2
 Flags: W
 Fore
 272 184 m 1,0,1
@@ -9714,12 +7337,11 @@ Fore
  790 496 790 496 790 462 c 1,89,-1
  790 462 l 1,77,78
 EndSplineSet
-Ligature: 0 0 'abvs' U0C36 U0C3E
+Ligature: 0 0 'liga' U0C36 U0C3E.abvs
 EndChar
 StartChar: U0C37_U0C3E.abvs
 Encoding: 65584 -1 138
 Width: 1141
-GlyphClass: 2
 Flags: W
 Fore
 99 139 m 1,0,1
@@ -9793,12 +7415,11 @@ Fore
  884 406 884 406 884 372 c 1,92,-1
  884 372 l 1,80,81
 EndSplineSet
-Ligature: 0 0 'abvs' U0C37 U0C3E
+Ligature: 0 0 'liga' U0C37 U0C3E.abvs
 EndChar
 StartChar: U0C38_U0C3E.abvs
 Encoding: 65585 -1 139
 Width: 1125
-GlyphClass: 2
 Flags: W
 Fore
 467 82 m 1,0,1
@@ -9859,12 +7480,11 @@ Fore
  869 406 869 406 869 372 c 1,76,-1
  869 372 l 1,64,65
 EndSplineSet
-Ligature: 0 0 'abvs' U0C38 U0C3E
+Ligature: 0 0 'liga' U0C38 U0C3E.abvs
 EndChar
 StartChar: U0C39_U0C3E.abvs
 Encoding: 65586 -1 140
 Width: 1105
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -9955,12 +7575,11 @@ Fore
  14 700 14 700 14 792 c 1,114,-1
  14 792 l 1,98,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C39 U0C3E
+Ligature: 0 0 'liga' U0C39 U0C3E.abvs
 EndChar
 StartChar: U0C15_U0C3E_U0C37_U0C4D.akhn
 Encoding: 65587 -1 141
 Width: 1028
-GlyphClass: 2
 Flags: W
 Fore
 20 25 m 1,0,-1
@@ -10044,12 +7663,11 @@ Fore
  773 496 773 496 773 462 c 1,106,-1
  773 462 l 1,94,95
 EndSplineSet
-Ligature: 0 0 'akhn' U0C15 U0C3E U0C37 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C3E U0C37 U0C4D.akhn
 EndChar
 StartChar: U0C15_U0C3F.abvs
 Encoding: 65588 -1 142
 Width: 592
-GlyphClass: 2
 Flags: W
 Fore
 148 442 m 1,0,1
@@ -10109,12 +7727,11 @@ Fore
  202 853 202 853 202 826 c 1,77,-1
  202 826 l 1,65,66
 EndSplineSet
-Ligature: 0 0 'abvs' U0C15 U0C3F
+Ligature: 0 0 'liga' U0C15 U0C3F.abvs
 EndChar
 StartChar: U0C16_U0C3F.abvs
 Encoding: 65589 -1 143
 Width: 923
-GlyphClass: 2
 Flags: W
 Fore
 153 457 m 1,0,1
@@ -10204,12 +7821,11 @@ Fore
  469 649 469 649 469 615 c 1,114,-1
  469 615 l 1,102,103
 EndSplineSet
-Ligature: 0 0 'abvs' U0C16 U0C3F
+Ligature: 0 0 'liga' U0C16 U0C3F.abvs
 EndChar
 StartChar: U0C17_U0C3F.abvs
 Encoding: 65590 -1 144
 Width: 658
-GlyphClass: 2
 Flags: W
 Fore
 51 0 m 1,0,1
@@ -10251,12 +7867,11 @@ Fore
  167 695 167 695 167 620 c 1,49,-1
  167 620 l 1,29,30
 EndSplineSet
-Ligature: 0 0 'abvs' U0C17 U0C3F
+Ligature: 0 0 'liga' U0C17 U0C3F.abvs
 EndChar
 StartChar: U0C18_U0C3F.abvs
 Encoding: 65591 -1 145
 Width: 1180
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -10345,12 +7960,11 @@ Fore
  66 865 66 865 66 835 c 1,113,-1
  66 835 l 1,101,102
 EndSplineSet
-Ligature: 0 0 'abvs' U0C18 U0C3F
+Ligature: 0 0 'liga' U0C18 U0C3F.abvs
 EndChar
 StartChar: U0C19_U0C3F.abvs
 Encoding: 65592 -1 146
 Width: 773
-GlyphClass: 2
 Flags: W
 Fore
 54 180 m 1,0,1
@@ -10434,12 +8048,11 @@ Fore
  478 853 478 853 478 826 c 1,109,-1
  478 826 l 1,97,98
 EndSplineSet
-Ligature: 0 0 'abvs' U0C19 U0C3F
+Ligature: 0 0 'liga' U0C19 U0C3F.abvs
 EndChar
 StartChar: U0C1A_U0C3F.abvs
 Encoding: 65593 -1 147
 Width: 799
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -10497,12 +8110,11 @@ Fore
  260 600 260 600 260 566 c 1,71,-1
  260 566 l 1,59,60
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1A U0C3F
+Ligature: 0 0 'liga' U0C1A U0C3F.abvs
 EndChar
 StartChar: U0C1B_U0C3F.abvs
 Encoding: 65594 -1 148
 Width: 799
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -10565,12 +8177,11 @@ Fore
  260 600 260 600 260 566 c 1,76,-1
  260 566 l 1,64,65
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1B U0C3F
+Ligature: 0 0 'liga' U0C1B U0C3F.abvs
 EndChar
 StartChar: U0C1C_U0C3F.abvs
 Encoding: 65595 -1 149
 Width: 833
-GlyphClass: 2
 Flags: W
 Fore
 56 180 m 1,0,1
@@ -10650,12 +8261,11 @@ Fore
  481 736 481 736 481 702 c 1,106,-1
  481 702 l 1,94,95
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1C U0C3F
+Ligature: 0 0 'liga' U0C1C U0C3F.abvs
 EndChar
 StartChar: U0C1D_U0C3F.abvs
 Encoding: 65596 -1 150
 Width: 1613
-GlyphClass: 2
 Flags: W
 Fore
 127 303 m 1,0,1
@@ -10734,12 +8344,11 @@ Fore
  161 705 161 705 161 637 c 1,101,-1
  161 637 l 1,83,84
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1D U0C3F
+Ligature: 0 0 'liga' U0C1D U0C3F.abvs
 EndChar
 StartChar: U0C1E_U0C3F.abvs
 Encoding: 65597 -1 151
 Width: 1013
-GlyphClass: 2
 Flags: W
 Fore
 19 393 m 1,0,1
@@ -10830,12 +8439,11 @@ Fore
  775 853 775 853 775 826 c 1,116,-1
  775 826 l 1,104,105
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1E U0C3F
+Ligature: 0 0 'liga' U0C1E U0C3F.abvs
 EndChar
 StartChar: U0C1F_U0C3F.abvs
 Encoding: 65598 -1 152
 Width: 928
-GlyphClass: 2
 Flags: W
 Fore
 146 393 m 1,0,1
@@ -10913,12 +8521,11 @@ Fore
  505 853 505 853 505 826 c 1,100,-1
  505 826 l 1,88,89
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1F U0C3F
+Ligature: 0 0 'liga' U0C1F U0C3F.abvs
 EndChar
 StartChar: U0C20_U0C3F.abvs
 Encoding: 65599 -1 153
 Width: 680
-GlyphClass: 2
 Flags: W
 Fore
 127 303 m 1,0,1
@@ -10974,12 +8581,11 @@ Fore
  292 245 l 1,65,-1
  292 245 l 1,61,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C20 U0C3F
+Ligature: 0 0 'liga' U0C20 U0C3F.abvs
 EndChar
 StartChar: U0C21_U0C3F.abvs
 Encoding: 65600 -1 154
 Width: 841
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -11055,12 +8661,11 @@ Fore
  331 853 331 853 331 826 c 1,97,-1
  331 826 l 1,85,86
 EndSplineSet
-Ligature: 0 0 'abvs' U0C21 U0C3F
+Ligature: 0 0 'liga' U0C21 U0C3F.abvs
 EndChar
 StartChar: U0C22_U0C3F.abvs
 Encoding: 65601 -1 155
 Width: 841
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -11142,12 +8747,11 @@ Fore
  323 853 323 853 323 826 c 1,103,-1
  323 826 l 1,91,92
 EndSplineSet
-Ligature: 0 0 'abvs' U0C22 U0C3F
+Ligature: 0 0 'liga' U0C22 U0C3F.abvs
 EndChar
 StartChar: U0C23_U0C3F.abvs
 Encoding: 65602 -1 156
 Width: 952
-GlyphClass: 2
 Flags: W
 Fore
 610 139 m 1,0,1
@@ -11239,12 +8843,11 @@ Fore
  546 853 546 853 546 826 c 1,121,-1
  546 826 l 1,109,110
 EndSplineSet
-Ligature: 0 0 'abvs' U0C23 U0C3F
+Ligature: 0 0 'liga' U0C23 U0C3F.abvs
 EndChar
 StartChar: U0C24_U0C3F.abvs
 Encoding: 65603 -1 157
 Width: 845
-GlyphClass: 2
 Flags: W
 Fore
 122 376 m 1,0,1
@@ -11320,12 +8923,11 @@ Fore
  335 702 335 702 335 668 c 1,97,-1
  335 668 l 1,85,86
 EndSplineSet
-Ligature: 0 0 'abvs' U0C24 U0C3F
+Ligature: 0 0 'liga' U0C24 U0C3F.abvs
 EndChar
 StartChar: U0C25_U0C3F.abvs
 Encoding: 65604 -1 158
 Width: 814
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -11398,12 +9000,11 @@ Fore
  355 311 l 1,87,-1
  355 311 l 1,83,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C25 U0C3F
+Ligature: 0 0 'liga' U0C25 U0C3F.abvs
 EndChar
 StartChar: U0C26_U0C3F.abvs
 Encoding: 65605 -1 159
 Width: 814
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -11460,12 +9061,11 @@ Fore
  241 698 241 698 241 637 c 1,71,-1
  241 637 l 1,53,54
 EndSplineSet
-Ligature: 0 0 'abvs' U0C26 U0C3F
+Ligature: 0 0 'liga' U0C26 U0C3F.abvs
 EndChar
 StartChar: U0C27_U0C3F.abvs
 Encoding: 65606 -1 160
 Width: 814
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -11529,12 +9129,11 @@ Fore
  241 698 241 698 241 637 c 1,78,-1
  241 637 l 1,58,59
 EndSplineSet
-Ligature: 0 0 'abvs' U0C27 U0C3F
+Ligature: 0 0 'liga' U0C27 U0C3F.abvs
 EndChar
 StartChar: U0C28_U0C3F.abvs
 Encoding: 65607 -1 161
 Width: 760
-GlyphClass: 2
 Flags: W
 Fore
 461 82 m 1,0,1
@@ -11584,12 +9183,11 @@ Fore
  167 634 167 634 167 600 c 1,63,-1
  167 600 l 1,51,52
 EndSplineSet
-Ligature: 0 0 'abvs' U0C28 U0C3F
+Ligature: 0 0 'liga' U0C28 U0C3F.abvs
 EndChar
 StartChar: U0C2A_U0C3F.abvs
 Encoding: 65608 -1 162
 Width: 716
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -11657,12 +9255,11 @@ Fore
  58 865 58 865 58 835 c 1,85,-1
  58 835 l 1,73,74
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2A U0C3F
+Ligature: 0 0 'liga' U0C2A U0C3F.abvs
 EndChar
 StartChar: U0C2B_U0C3F.abvs
 Encoding: 65609 -1 163
 Width: 722
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -11736,12 +9333,11 @@ Fore
  66 865 66 865 66 835 c 1,91,-1
  66 835 l 1,79,80
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2B U0C3F
+Ligature: 0 0 'liga' U0C2B U0C3F.abvs
 EndChar
 StartChar: U0C2C_U0C3F.abvs
 Encoding: 65610 -1 164
 Width: 879
-GlyphClass: 2
 Flags: W
 Fore
 56 180 m 1,0,1
@@ -11807,12 +9403,11 @@ Fore
  452 634 452 634 452 600 c 1,86,-1
  452 600 l 1,74,75
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2C U0C3F
+Ligature: 0 0 'liga' U0C2C U0C3F.abvs
 EndChar
 StartChar: U0C2D_U0C3F.abvs
 Encoding: 65611 -1 165
 Width: 879
-GlyphClass: 2
 Flags: W
 Fore
 56 180 m 1,0,1
@@ -11884,12 +9479,11 @@ Fore
  452 634 452 634 452 600 c 1,92,-1
  452 600 l 1,80,81
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2D U0C3F
+Ligature: 0 0 'liga' U0C2D U0C3F.abvs
 EndChar
 StartChar: U0C2E_U0C3F.abvs
 Encoding: 65612 -1 166
 Width: 1195
-GlyphClass: 2
 Flags: W
 Fore
 175 600 m 1,0,1
@@ -11960,12 +9554,11 @@ Fore
  29 87 29 87 29 148 c 1,92,-1
  29 148 l 1,26,27
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2E U0C3F
+Ligature: 0 0 'liga' U0C2E U0C3F.abvs
 EndChar
 StartChar: U0C2F_U0C3F.abvs
 Encoding: 65613 -1 167
 Width: 1610
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -12017,12 +9610,11 @@ Fore
  42 177 42 177 42 303 c 1,65,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2F U0C3F
+Ligature: 0 0 'liga' U0C2F U0C3F.abvs
 EndChar
 StartChar: U0C30_U0C3F.abvs
 Encoding: 65614 -1 168
 Width: 682
-GlyphClass: 2
 Flags: W
 Fore
 127 303 m 1,0,1
@@ -12068,12 +9660,11 @@ Fore
  161 705 161 705 161 637 c 1,56,-1
  161 637 l 1,38,39
 EndSplineSet
-Ligature: 0 0 'abvs' U0C30 U0C3F
+Ligature: 0 0 'liga' U0C30 U0C3F.abvs
 EndChar
 StartChar: U0C31_U0C3F.abvs
 Encoding: 65615 -1 169
 Width: 945
-GlyphClass: 2
 Flags: W
 Fore
 178 457 m 1,0,1
@@ -12164,12 +9755,11 @@ Fore
  590 853 590 853 590 826 c 1,118,-1
  590 826 l 1,106,107
 EndSplineSet
-Ligature: 0 0 'abvs' U0C31 U0C3F
+Ligature: 0 0 'liga' U0C31 U0C3F.abvs
 EndChar
 StartChar: U0C32_U0C3F.abvs
 Encoding: 65616 -1 170
 Width: 767
-GlyphClass: 2
 Flags: W
 Fore
 306 770 m 1,0,1
@@ -12225,12 +9815,11 @@ Fore
  270 82 270 82 372 82 c 1,70,-1
  372 82 l 1,26,27
 EndSplineSet
-Ligature: 0 0 'abvs' U0C32 U0C3F
+Ligature: 0 0 'liga' U0C32 U0C3F.abvs
 EndChar
 StartChar: U0C33_U0C3F.abvs
 Encoding: 65617 -1 171
 Width: 736
-GlyphClass: 2
 Flags: W
 Fore
 95 360 m 1,0,1
@@ -12303,12 +9892,11 @@ Fore
  275 685 275 685 275 651 c 1,92,-1
  275 651 l 1,80,81
 EndSplineSet
-Ligature: 0 0 'abvs' U0C33 U0C3F
+Ligature: 0 0 'liga' U0C33 U0C3F.abvs
 EndChar
 StartChar: U0C35_U0C3F.abvs
 Encoding: 65618 -1 172
 Width: 736
-GlyphClass: 2
 Flags: W
 Fore
 175 600 m 1,0,1
@@ -12364,12 +9952,11 @@ Fore
  29 87 29 87 29 148 c 1,70,-1
  29 148 l 1,26,27
 EndSplineSet
-Ligature: 0 0 'abvs' U0C35 U0C3F
+Ligature: 0 0 'liga' U0C35 U0C3F.abvs
 EndChar
 StartChar: U0C36_U0C3F.abvs
 Encoding: 65619 -1 173
 Width: 629
-GlyphClass: 2
 Flags: W
 Fore
 255 163 m 1,0,1
@@ -12435,12 +10022,11 @@ Fore
  156 736 156 736 156 702 c 1,84,-1
  156 702 l 1,72,73
 EndSplineSet
-Ligature: 0 0 'abvs' U0C36 U0C3F
+Ligature: 0 0 'liga' U0C36 U0C3F.abvs
 EndChar
 StartChar: U0C37_U0C3F.abvs
 Encoding: 65620 -1 174
 Width: 751
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -12515,12 +10101,11 @@ Fore
  83 865 83 865 83 835 c 1,94,-1
  83 835 l 1,82,83
 EndSplineSet
-Ligature: 0 0 'abvs' U0C37 U0C3F
+Ligature: 0 0 'liga' U0C37 U0C3F.abvs
 EndChar
 StartChar: U0C38_U0C3F.abvs
 Encoding: 65621 -1 175
 Width: 738
-GlyphClass: 2
 Flags: W
 Fore
 476 82 m 1,0,1
@@ -12582,12 +10167,11 @@ Fore
  105 865 105 865 105 835 c 1,78,-1
  105 835 l 1,66,67
 EndSplineSet
-Ligature: 0 0 'abvs' U0C38 U0C3F
+Ligature: 0 0 'liga' U0C38 U0C3F.abvs
 EndChar
 StartChar: U0C39_U0C3F.abvs
 Encoding: 65622 -1 176
 Width: 1103
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -12679,12 +10263,11 @@ Fore
  109 865 109 865 109 835 c 1,116,-1
  109 835 l 1,104,105
 EndSplineSet
-Ligature: 0 0 'abvs' U0C39 U0C3F
+Ligature: 0 0 'liga' U0C39 U0C3F.abvs
 EndChar
 StartChar: U0C15_U0C3F_U0C37_U0C4D.akhn
 Encoding: 65623 -1 177
 Width: 639
-GlyphClass: 2
 Flags: W
 Fore
 15 25 m 1,0,-1
@@ -12772,12 +10355,11 @@ Fore
  214 853 214 853 214 826 c 1,114,-1
  214 826 l 1,102,103
 EndSplineSet
-Ligature: 0 0 'akhn' U0C15 U0C3F U0C37 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C3F U0C37 U0C4D.akhn
 EndChar
 StartChar: U0C15_U0C40.abvs
 Encoding: 65624 -1 178
 Width: 592
-GlyphClass: 2
 Flags: W
 Fore
 148 442 m 1,0,1
@@ -12851,12 +10433,11 @@ Fore
  194 853 194 853 194 826 c 1,97,-1
  194 826 l 1,85,86
 EndSplineSet
-Ligature: 0 0 'abvs' U0C15 U0C40
+Ligature: 0 0 'liga' U0C15 U0C40.abvs
 EndChar
 StartChar: U0C16_U0C40.abvs
 Encoding: 65625 -1 179
 Width: 918
-GlyphClass: 2
 Flags: W
 Fore
 148 457 m 1,0,1
@@ -12960,12 +10541,11 @@ Fore
  464 649 464 649 464 615 c 1,134,-1
  464 615 l 1,122,123
 EndSplineSet
-Ligature: 0 0 'abvs' U0C16 U0C40
+Ligature: 0 0 'liga' U0C16 U0C40.abvs
 EndChar
 StartChar: U0C17_U0C40.abvs
 Encoding: 65626 -1 180
 Width: 656
-GlyphClass: 2
 Flags: W
 Fore
 51 0 m 1,0,1
@@ -13020,12 +10600,11 @@ Fore
  158 695 158 695 158 620 c 1,68,-1
  158 620 l 1,49,50
 EndSplineSet
-Ligature: 0 0 'abvs' U0C17 U0C40
+Ligature: 0 0 'liga' U0C17 U0C40.abvs
 EndChar
 StartChar: U0C18_U0C40.abvs
 Encoding: 65627 -1 181
 Width: 1198
-GlyphClass: 2
 Flags: W
 Fore
 97 148 m 1,0,1
@@ -13128,12 +10707,11 @@ Fore
  97 856 97 856 97 826 c 1,133,-1
  97 826 l 1,121,122
 EndSplineSet
-Ligature: 0 0 'abvs' U0C18 U0C40
+Ligature: 0 0 'liga' U0C18 U0C40.abvs
 EndChar
 StartChar: U0C19_U0C40.abvs
 Encoding: 65628 -1 182
 Width: 773
-GlyphClass: 2
 Flags: W
 Fore
 54 180 m 1,0,1
@@ -13231,12 +10809,11 @@ Fore
  478 853 478 853 478 826 c 1,129,-1
  478 826 l 1,117,118
 EndSplineSet
-Ligature: 0 0 'abvs' U0C19 U0C40
+Ligature: 0 0 'liga' U0C19 U0C40.abvs
 EndChar
 StartChar: U0C1A_U0C40.abvs
 Encoding: 65629 -1 183
 Width: 799
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -13308,12 +10885,11 @@ Fore
  260 600 260 600 260 566 c 1,90,-1
  260 566 l 1,78,79
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1A U0C40
+Ligature: 0 0 'liga' U0C1A U0C40.abvs
 EndChar
 StartChar: U0C1B_U0C40.abvs
 Encoding: 65630 -1 184
 Width: 799
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -13389,12 +10965,11 @@ Fore
  260 600 260 600 260 566 c 1,94,-1
  260 566 l 1,82,83
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1B U0C40
+Ligature: 0 0 'liga' U0C1B U0C40.abvs
 EndChar
 StartChar: U0C1C_U0C40.abvs
 Encoding: 65631 -1 185
 Width: 831
-GlyphClass: 2
 Flags: W
 Fore
 54 180 m 1,0,1
@@ -13488,12 +11063,11 @@ Fore
  479 736 479 736 479 702 c 1,126,-1
  479 702 l 1,114,115
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1C U0C40
+Ligature: 0 0 'liga' U0C1C U0C40.abvs
 EndChar
 StartChar: U0C1D_U0C40.abvs
 Encoding: 65632 -1 186
 Width: 1613
-GlyphClass: 2
 Flags: W
 Fore
 127 303 m 1,0,1
@@ -13586,12 +11160,11 @@ Fore
  161 705 161 705 161 637 c 1,121,-1
  161 637 l 1,103,104
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1D U0C40
+Ligature: 0 0 'liga' U0C1D U0C40.abvs
 EndChar
 StartChar: U0C1E_U0C40.abvs
 Encoding: 65633 -1 187
 Width: 1013
-GlyphClass: 2
 Flags: W
 Fore
 19 393 m 1,0,1
@@ -13696,12 +11269,11 @@ Fore
  767 853 767 853 767 826 c 1,136,-1
  767 826 l 1,124,125
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1E U0C40
+Ligature: 0 0 'liga' U0C1E U0C40.abvs
 EndChar
 StartChar: U0C1F_U0C40.abvs
 Encoding: 65634 -1 188
 Width: 928
-GlyphClass: 2
 Flags: W
 Fore
 146 393 m 1,0,1
@@ -13793,12 +11365,11 @@ Fore
  496 853 496 853 496 826 c 1,120,-1
  496 826 l 1,108,109
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1F U0C40
+Ligature: 0 0 'liga' U0C1F U0C40.abvs
 EndChar
 StartChar: U0C20_U0C40.abvs
 Encoding: 65635 -1 189
 Width: 680
-GlyphClass: 2
 Flags: W
 Fore
 126 303 m 1,0,1
@@ -13868,12 +11439,11 @@ Fore
  291 245 l 1,85,-1
  291 245 l 1,81,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C20 U0C40
+Ligature: 0 0 'liga' U0C20 U0C40.abvs
 EndChar
 StartChar: U0C21_U0C40.abvs
 Encoding: 65636 -1 190
 Width: 841
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -13963,12 +11533,11 @@ Fore
  323 853 323 853 323 826 c 1,117,-1
  323 826 l 1,105,106
 EndSplineSet
-Ligature: 0 0 'abvs' U0C21 U0C40
+Ligature: 0 0 'liga' U0C21 U0C40.abvs
 EndChar
 StartChar: U0C22_U0C40.abvs
 Encoding: 65637 -1 191
 Width: 841
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -14064,12 +11633,11 @@ Fore
  314 853 314 853 314 826 c 1,123,-1
  314 826 l 1,111,112
 EndSplineSet
-Ligature: 0 0 'abvs' U0C22 U0C40
+Ligature: 0 0 'liga' U0C22 U0C40.abvs
 EndChar
 StartChar: U0C23_U0C40.abvs
 Encoding: 65638 -1 192
 Width: 952
-GlyphClass: 2
 Flags: W
 Fore
 610 139 m 1,0,1
@@ -14175,12 +11743,11 @@ Fore
  537 853 537 853 537 826 c 1,141,-1
  537 826 l 1,129,130
 EndSplineSet
-Ligature: 0 0 'abvs' U0C23 U0C40
+Ligature: 0 0 'liga' U0C23 U0C40.abvs
 EndChar
 StartChar: U0C24_U0C40.abvs
 Encoding: 65639 -1 193
 Width: 845
-GlyphClass: 2
 Flags: W
 Fore
 122 376 m 1,0,1
@@ -14269,12 +11836,11 @@ Fore
  335 702 335 702 335 668 c 1,115,-1
  335 668 l 1,103,104
 EndSplineSet
-Ligature: 0 0 'abvs' U0C24 U0C40
+Ligature: 0 0 'liga' U0C24 U0C40.abvs
 EndChar
 StartChar: U0C25_U0C40.abvs
 Encoding: 65640 -1 194
 Width: 814
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -14359,12 +11925,11 @@ Fore
  355 311 l 1,105,-1
  355 311 l 1,101,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C25 U0C40
+Ligature: 0 0 'liga' U0C25 U0C40.abvs
 EndChar
 StartChar: U0C26_U0C40.abvs
 Encoding: 65641 -1 195
 Width: 813
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -14437,12 +12002,11 @@ Fore
  241 698 241 698 241 637 c 1,93,-1
  241 637 l 1,74,75
 EndSplineSet
-Ligature: 0 0 'abvs' U0C26 U0C40
+Ligature: 0 0 'liga' U0C26 U0C40.abvs
 EndChar
 StartChar: U0C27_U0C40.abvs
 Encoding: 65642 -1 196
 Width: 814
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -14519,12 +12083,11 @@ Fore
  241 698 241 698 241 637 c 1,97,-1
  241 637 l 1,79,80
 EndSplineSet
-Ligature: 0 0 'abvs' U0C27 U0C40
+Ligature: 0 0 'liga' U0C27 U0C40.abvs
 EndChar
 StartChar: U0C28_U0C40.abvs
 Encoding: 65643 -1 197
 Width: 760
-GlyphClass: 2
 Flags: W
 Fore
 461 82 m 1,0,1
@@ -14588,12 +12151,11 @@ Fore
  167 634 167 634 167 600 c 1,83,-1
  167 600 l 1,71,72
 EndSplineSet
-Ligature: 0 0 'abvs' U0C28 U0C40
+Ligature: 0 0 'liga' U0C28 U0C40.abvs
 EndChar
 StartChar: U0C2A_U0C40.abvs
 Encoding: 65644 -1 198
 Width: 726
-GlyphClass: 2
 Flags: W
 Fore
 105 148 m 1,0,1
@@ -14675,12 +12237,11 @@ Fore
  88 856 88 856 88 826 c 1,105,-1
  88 826 l 1,93,94
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2A U0C40
+Ligature: 0 0 'liga' U0C2A U0C40.abvs
 EndChar
 StartChar: U0C2B_U0C40.abvs
 Encoding: 65645 -1 199
 Width: 733
-GlyphClass: 2
 Flags: W
 Fore
 105 148 m 1,0,1
@@ -14768,12 +12329,11 @@ Fore
  88 856 88 856 88 826 c 1,111,-1
  88 826 l 1,99,100
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2B U0C40
+Ligature: 0 0 'liga' U0C2B U0C40.abvs
 EndChar
 StartChar: U0C2C_U0C40.abvs
 Encoding: 65646 -1 200
 Width: 879
-GlyphClass: 2
 Flags: W
 Fore
 563 82 m 1,0,1
@@ -14853,12 +12413,11 @@ Fore
  452 634 452 634 452 600 c 1,106,-1
  452 600 l 1,94,95
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2C U0C40
+Ligature: 0 0 'liga' U0C2C U0C40.abvs
 EndChar
 StartChar: U0C2D_U0C40.abvs
 Encoding: 65647 -1 201
 Width: 877
-GlyphClass: 2
 Flags: W
 Fore
 561 82 m 1,0,1
@@ -14944,12 +12503,11 @@ Fore
  450 634 450 634 450 600 c 1,112,-1
  450 600 l 1,100,101
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2D U0C40
+Ligature: 0 0 'liga' U0C2D U0C40.abvs
 EndChar
 StartChar: U0C2E_U0C40.abvs
 Encoding: 65648 -1 202
 Width: 1204
-GlyphClass: 2
 Flags: W
 Fore
 175 600 m 1,0,1
@@ -15034,12 +12592,11 @@ Fore
  29 87 29 87 29 148 c 1,112,-1
  29 148 l 1,26,27
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2E U0C40
+Ligature: 0 0 'liga' U0C2E U0C40.abvs
 EndChar
 StartChar: U0C2F_U0C40.abvs
 Encoding: 65649 -1 203
 Width: 2062
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -15117,12 +12674,11 @@ Fore
  1805 508 1805 508 1805 474 c 1,100,-1
  1805 474 l 1,88,89
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2F U0C40
+Ligature: 0 0 'liga' U0C2F U0C40.abvs
 EndChar
 StartChar: U0C30_U0C40.abvs
 Encoding: 65650 -1 204
 Width: 682
-GlyphClass: 2
 Flags: W
 Fore
 127 303 m 1,0,1
@@ -15182,12 +12738,11 @@ Fore
  161 705 161 705 161 637 c 1,76,-1
  161 637 l 1,58,59
 EndSplineSet
-Ligature: 0 0 'abvs' U0C30 U0C40
+Ligature: 0 0 'liga' U0C30 U0C40.abvs
 EndChar
 StartChar: U0C31_U0C40.abvs
 Encoding: 65651 -1 205
 Width: 947
-GlyphClass: 2
 Flags: W
 Fore
 178 457 m 1,0,1
@@ -15292,12 +12847,11 @@ Fore
  581 853 581 853 581 826 c 1,138,-1
  581 826 l 1,126,127
 EndSplineSet
-Ligature: 0 0 'abvs' U0C31 U0C40
+Ligature: 0 0 'liga' U0C31 U0C40.abvs
 EndChar
 StartChar: U0C32_U0C40.abvs
 Encoding: 65652 -1 206
 Width: 767
-GlyphClass: 2
 Flags: W
 Fore
 306 770 m 1,0,1
@@ -15367,12 +12921,11 @@ Fore
  266 82 266 82 372 82 c 1,90,-1
  372 82 l 1,26,27
 EndSplineSet
-Ligature: 0 0 'abvs' U0C32 U0C40
+Ligature: 0 0 'liga' U0C32 U0C40.abvs
 EndChar
 StartChar: U0C33_U0C40.abvs
 Encoding: 65653 -1 207
 Width: 738
-GlyphClass: 2
 Flags: W
 Fore
 97 360 m 1,0,1
@@ -15460,12 +13013,11 @@ Fore
  277 685 277 685 277 651 c 1,114,-1
  277 651 l 1,102,103
 EndSplineSet
-Ligature: 0 0 'abvs' U0C33 U0C40
+Ligature: 0 0 'liga' U0C33 U0C40.abvs
 EndChar
 StartChar: U0C35_U0C40.abvs
 Encoding: 65654 -1 208
 Width: 734
-GlyphClass: 2
 Flags: W
 Fore
 175 600 m 1,0,1
@@ -15535,12 +13087,11 @@ Fore
  29 87 29 87 29 148 c 1,90,-1
  29 148 l 1,26,27
 EndSplineSet
-Ligature: 0 0 'abvs' U0C35 U0C40
+Ligature: 0 0 'liga' U0C35 U0C40.abvs
 EndChar
 StartChar: U0C36_U0C40.abvs
 Encoding: 65655 -1 209
 Width: 607
-GlyphClass: 2
 Flags: W
 Fore
 255 163 m 1,0,1
@@ -15620,12 +13171,11 @@ Fore
  156 736 156 736 156 702 c 1,104,-1
  156 702 l 1,92,93
 EndSplineSet
-Ligature: 0 0 'abvs' U0C36 U0C40
+Ligature: 0 0 'liga' U0C36 U0C40.abvs
 EndChar
 StartChar: U0C37_U0C40.abvs
 Encoding: 65656 -1 210
 Width: 753
-GlyphClass: 2
 Flags: W
 Fore
 97 148 m 1,0,1
@@ -15714,12 +13264,11 @@ Fore
  97 856 97 856 97 826 c 1,114,-1
  97 826 l 1,102,103
 EndSplineSet
-Ligature: 0 0 'abvs' U0C37 U0C40
+Ligature: 0 0 'liga' U0C37 U0C40.abvs
 EndChar
 StartChar: U0C38_U0C40.abvs
 Encoding: 65657 -1 211
 Width: 746
-GlyphClass: 2
 Flags: W
 Fore
 484 82 m 1,0,1
@@ -15795,12 +13344,11 @@ Fore
  92 856 92 856 92 826 c 1,98,-1
  92 826 l 1,86,87
 EndSplineSet
-Ligature: 0 0 'abvs' U0C38 U0C40
+Ligature: 0 0 'liga' U0C38 U0C40.abvs
 EndChar
 StartChar: U0C39_U0C40.abvs
 Encoding: 65658 -1 212
 Width: 1103
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -15906,12 +13454,11 @@ Fore
  121 856 121 856 121 826 c 1,136,-1
  121 826 l 1,124,125
 EndSplineSet
-Ligature: 0 0 'abvs' U0C39 U0C40
+Ligature: 0 0 'liga' U0C39 U0C40.abvs
 EndChar
 StartChar: U0C15_U0C40_U0C37_U0C4D.akhn
 Encoding: 65659 -1 213
 Width: 639
-GlyphClass: 2
 Flags: W
 Fore
 15 25 m 1,0,-1
@@ -16012,12 +13559,11 @@ Fore
  206 853 206 853 206 826 c 1,132,-1
  206 826 l 1,120,121
 EndSplineSet
-Ligature: 0 0 'akhn' U0C15 U0C40 U0C37 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C40 U0C37 U0C4D.akhn
 EndChar
 StartChar: U0C15_U0C46.abvs
 Encoding: 65660 -1 214
 Width: 592
-GlyphClass: 2
 Flags: W
 Fore
 148 442 m 1,0,1
@@ -16062,12 +13608,11 @@ Fore
  148 476 148 476 148 442 c 1,55,-1
  148 442 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C15 U0C46
+Ligature: 0 0 'liga' U0C15 U0C46.abvs
 EndChar
 StartChar: U0C16_U0C46.abvs
 Encoding: 65661 -1 215
 Width: 884
-GlyphClass: 2
 Flags: W
 Fore
 167 457 m 1,0,1
@@ -16151,12 +13696,11 @@ Fore
  684 0 684 0 575 0 c 1,105,-1
  575 0 l 1,27,28
 EndSplineSet
-Ligature: 0 0 'abvs' U0C16 U0C46
+Ligature: 0 0 'liga' U0C16 U0C46.abvs
 EndChar
 StartChar: U0C17_U0C46.abvs
 Encoding: 65662 -1 216
 Width: 649
-GlyphClass: 2
 Flags: W
 Fore
 46 0 m 1,0,1
@@ -16185,12 +13729,11 @@ Fore
  46 0 l 1,31,-1
  46 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C17 U0C46
+Ligature: 0 0 'liga' U0C17 U0C46.abvs
 EndChar
 StartChar: U0C18_U0C46.abvs
 Encoding: 65663 -1 217
 Width: 1188
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -16265,12 +13808,11 @@ Fore
  97 556 l 1,92,-1
  97 556 l 1,74,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C18 U0C46
+Ligature: 0 0 'liga' U0C18 U0C46.abvs
 EndChar
 StartChar: U0C19_U0C46.abvs
 Encoding: 65664 -1 218
 Width: 773
-GlyphClass: 2
 Flags: W
 Fore
 54 180 m 1,0,1
@@ -16340,12 +13882,11 @@ Fore
  54 105 54 105 54 180 c 1,88,-1
  54 180 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C19 U0C46
+Ligature: 0 0 'liga' U0C19 U0C46.abvs
 EndChar
 StartChar: U0C1A_U0C46.abvs
 Encoding: 65665 -1 219
 Width: 802
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -16399,12 +13940,11 @@ Fore
  627 0 627 0 535 0 c 1,64,-1
  535 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1A U0C46
+Ligature: 0 0 'liga' U0C1A U0C46.abvs
 EndChar
 StartChar: U0C1B_U0C46.abvs
 Encoding: 65666 -1 220
 Width: 802
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -16464,12 +14004,11 @@ Fore
  627 0 627 0 535 0 c 1,70,-1
  535 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1B U0C46
+Ligature: 0 0 'liga' U0C1B U0C46.abvs
 EndChar
 StartChar: U0C1C_U0C46.abvs
 Encoding: 65667 -1 221
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 56 180 m 1,0,1
@@ -16546,12 +14085,11 @@ Fore
  56 105 56 105 56 180 c 1,101,-1
  56 180 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1C U0C46
+Ligature: 0 0 'liga' U0C1C U0C46.abvs
 EndChar
 StartChar: U0C1D_U0C46.abvs
 Encoding: 65668 -1 222
 Width: 1601
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -16622,12 +14160,11 @@ Fore
  42 177 42 177 42 303 c 1,88,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1D U0C46
+Ligature: 0 0 'liga' U0C1D U0C46.abvs
 EndChar
 StartChar: U0C1E_U0C46.abvs
 Encoding: 65669 -1 223
 Width: 1034
-GlyphClass: 2
 Flags: W
 Fore
 19 393 m 1,0,1
@@ -16705,12 +14242,11 @@ Fore
  233 175 233 175 233 148 c 1,96,-1
  233 148 l 1,83,84
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1E U0C46
+Ligature: 0 0 'liga' U0C1E U0C46.abvs
 EndChar
 StartChar: U0C1F_U0C46.abvs
 Encoding: 65670 -1 224
 Width: 928
-GlyphClass: 2
 Flags: W
 Fore
 146 393 m 1,0,1
@@ -16774,12 +14310,11 @@ Fore
  48 161 48 161 48 275 c 1,79,-1
  48 275 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1F U0C46
+Ligature: 0 0 'liga' U0C1F U0C46.abvs
 EndChar
 StartChar: U0C20_U0C46.abvs
 Encoding: 65671 -1 225
 Width: 675
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -16822,12 +14357,11 @@ Fore
  289 245 l 1,47,-1
  289 245 l 1,43,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C20 U0C46
+Ligature: 0 0 'liga' U0C20 U0C46.abvs
 EndChar
 StartChar: U0C21_U0C46.abvs
 Encoding: 65672 -1 226
 Width: 841
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -16889,12 +14423,11 @@ Fore
  44 153 44 153 44 262 c 1,77,-1
  44 262 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C21 U0C46
+Ligature: 0 0 'liga' U0C21 U0C46.abvs
 EndChar
 StartChar: U0C22_U0C46.abvs
 Encoding: 65673 -1 227
 Width: 841
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -16962,12 +14495,11 @@ Fore
  44 153 44 153 44 262 c 1,83,-1
  44 262 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C22 U0C46
+Ligature: 0 0 'liga' U0C22 U0C46.abvs
 EndChar
 StartChar: U0C23_U0C46.abvs
 Encoding: 65674 -1 228
 Width: 952
-GlyphClass: 2
 Flags: W
 Fore
 610 139 m 1,0,1
@@ -17044,12 +14576,11 @@ Fore
  54 385 54 385 54 433 c 1,99,-1
  54 433 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C23 U0C46
+Ligature: 0 0 'liga' U0C23 U0C46.abvs
 EndChar
 StartChar: U0C24_U0C46.abvs
 Encoding: 65675 -1 229
 Width: 819
-GlyphClass: 2
 Flags: W
 Fore
 122 376 m 1,0,1
@@ -17118,12 +14649,11 @@ Fore
  536 498 536 498 588 503 c 1,86,-1
  588 503 l 1,26,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C24 U0C46
+Ligature: 0 0 'liga' U0C24 U0C46.abvs
 EndChar
 StartChar: U0C25_U0C46.abvs
 Encoding: 65676 -1 230
 Width: 806
-GlyphClass: 2
 Flags: W
 Fore
 124 245 m 1,0,1
@@ -17182,12 +14712,11 @@ Fore
  354 311 l 1,67,-1
  354 311 l 1,63,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C25 U0C46
+Ligature: 0 0 'liga' U0C25 U0C46.abvs
 EndChar
 StartChar: U0C26_U0C46.abvs
 Encoding: 65677 -1 231
 Width: 804
-GlyphClass: 2
 Flags: W
 Fore
 124 245 m 1,0,1
@@ -17234,12 +14763,11 @@ Fore
  42 144 42 144 42 245 c 1,56,-1
  42 245 l 1,20,21
 EndSplineSet
-Ligature: 0 0 'abvs' U0C26 U0C46
+Ligature: 0 0 'liga' U0C26 U0C46.abvs
 EndChar
 StartChar: U0C27_U0C46.abvs
 Encoding: 65678 -1 232
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -17292,12 +14820,11 @@ Fore
  44 144 44 144 44 245 c 1,62,-1
  44 245 l 1,20,21
 EndSplineSet
-Ligature: 0 0 'abvs' U0C27 U0C46
+Ligature: 0 0 'liga' U0C27 U0C46.abvs
 EndChar
 StartChar: U0C28_U0C46.abvs
 Encoding: 65679 -1 233
 Width: 758
-GlyphClass: 2
 Flags: W
 Fore
 493 82 m 1,0,1
@@ -17343,12 +14870,11 @@ Fore
  445 82 445 82 493 82 c 1,56,-1
  493 82 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C28 U0C46
+Ligature: 0 0 'liga' U0C28 U0C46.abvs
 EndChar
 StartChar: U0C2A_U0C46.abvs
 Encoding: 65680 -1 234
 Width: 716
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -17402,12 +14928,11 @@ Fore
  122 556 l 1,64,-1
  122 556 l 1,46,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2A U0C46
+Ligature: 0 0 'liga' U0C2A U0C46.abvs
 EndChar
 StartChar: U0C2B_U0C46.abvs
 Encoding: 65681 -1 235
 Width: 722
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -17467,12 +14992,11 @@ Fore
  88 556 l 1,70,-1
  88 556 l 1,52,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2B U0C46
+Ligature: 0 0 'liga' U0C2B U0C46.abvs
 EndChar
 StartChar: U0C2C_U0C46.abvs
 Encoding: 65682 -1 236
 Width: 840
-GlyphClass: 2
 Flags: W
 Fore
 578 82 m 1,0,1
@@ -17535,12 +15059,11 @@ Fore
  527 82 527 82 578 82 c 1,81,-1
  578 82 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2C U0C46
+Ligature: 0 0 'liga' U0C2C U0C46.abvs
 EndChar
 StartChar: U0C2D_U0C46.abvs
 Encoding: 65683 -1 237
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 563 82 m 1,0,1
@@ -17609,12 +15132,11 @@ Fore
  508 82 508 82 563 82 c 1,87,-1
  563 82 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2D U0C46
+Ligature: 0 0 'liga' U0C2D U0C46.abvs
 EndChar
 StartChar: U0C2E_U0C46.abvs
 Encoding: 65684 -1 238
 Width: 1195
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -17679,12 +15201,11 @@ Fore
  29 87 29 87 29 148 c 1,82,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2E U0C46
+Ligature: 0 0 'liga' U0C2E U0C46.abvs
 EndChar
 StartChar: U0C2F_U0C46.abvs
 Encoding: 65685 -1 239
 Width: 1550
-GlyphClass: 2
 Flags: W
 Fore
 124 294 m 1,0,1
@@ -17751,12 +15272,11 @@ Fore
  942 212 942 212 942 304 c 1,85,-1
  942 304 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2F U0C46
+Ligature: 0 0 'liga' U0C2F U0C46.abvs
 EndChar
 StartChar: U0C30_U0C46.abvs
 Encoding: 65686 -1 240
 Width: 675
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -17793,12 +15313,11 @@ Fore
  42 177 42 177 42 303 c 1,42,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C30 U0C46
+Ligature: 0 0 'liga' U0C30 U0C46.abvs
 EndChar
 StartChar: U0C31_U0C46.abvs
 Encoding: 65687 -1 241
 Width: 947
-GlyphClass: 2
 Flags: W
 Fore
 178 457 m 1,0,1
@@ -17874,12 +15393,11 @@ Fore
  48 181 48 181 48 309 c 1,96,-1
  48 309 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C31 U0C46
+Ligature: 0 0 'liga' U0C31 U0C46.abvs
 EndChar
 StartChar: U0C32_U0C46.abvs
 Encoding: 65688 -1 242
 Width: 835
-GlyphClass: 2
 Flags: W
 Fore
 190 457 m 1,0,1
@@ -17932,12 +15450,11 @@ Fore
  295 82 295 82 416 82 c 1,65,-1
  416 82 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C32 U0C46
+Ligature: 0 0 'liga' U0C32 U0C46.abvs
 EndChar
 StartChar: U0C33_U0C46.abvs
 Encoding: 65689 -1 243
 Width: 704
-GlyphClass: 2
 Flags: W
 Fore
 97 360 m 1,0,1
@@ -18006,12 +15523,11 @@ Fore
  295 212 295 212 359 212 c 1,86,-1
  359 212 l 1,26,27
 EndSplineSet
-Ligature: 0 0 'abvs' U0C33 U0C46
+Ligature: 0 0 'liga' U0C33 U0C46.abvs
 EndChar
 StartChar: U0C35_U0C46.abvs
 Encoding: 65690 -1 244
 Width: 721
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -18062,12 +15578,11 @@ Fore
  29 87 29 87 29 148 c 1,62,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C35 U0C46
+Ligature: 0 0 'liga' U0C35 U0C46.abvs
 EndChar
 StartChar: U0C36_U0C46.abvs
 Encoding: 65691 -1 245
 Width: 626
-GlyphClass: 2
 Flags: W
 Fore
 270 184 m 1,0,1
@@ -18128,12 +15643,11 @@ Fore
  197 111 197 111 197 189 c 1,76,-1
  197 189 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C36 U0C46
+Ligature: 0 0 'liga' U0C36 U0C46.abvs
 EndChar
 StartChar: U0C37_U0C46.abvs
 Encoding: 65692 -1 246
 Width: 751
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -18194,12 +15708,11 @@ Fore
  139 556 l 1,73,-1
  139 556 l 1,55,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C37 U0C46
+Ligature: 0 0 'liga' U0C37 U0C46.abvs
 EndChar
 StartChar: U0C38_U0C46.abvs
 Encoding: 65693 -1 247
 Width: 738
-GlyphClass: 2
 Flags: W
 Fore
 476 82 m 1,0,1
@@ -18247,12 +15760,11 @@ Fore
  144 556 l 1,57,-1
  144 556 l 1,39,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C38 U0C46
+Ligature: 0 0 'liga' U0C38 U0C46.abvs
 EndChar
 StartChar: U0C39_U0C46.abvs
 Encoding: 65694 -1 248
 Width: 1103
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -18330,12 +15842,11 @@ Fore
  148 556 l 1,95,-1
  148 556 l 1,77,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C39 U0C46
+Ligature: 0 0 'liga' U0C39 U0C46.abvs
 EndChar
 StartChar: U0C15_U0C46_U0C37_U0C4D.akhn
 Encoding: 65695 -1 249
 Width: 639
-GlyphClass: 2
 Flags: W
 Fore
 15 25 m 1,0,-1
@@ -18408,12 +15919,11 @@ Fore
  160 467 160 467 160 433 c 1,92,-1
  160 433 l 1,37,38
 EndSplineSet
-Ligature: 0 0 'akhn' U0C15 U0C46 U0C37 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C46 U0C37 U0C4D.akhn
 EndChar
 StartChar: U0C15_U0C47.abvs
 Encoding: 65696 -1 250
 Width: 592
-GlyphClass: 2
 Flags: W
 Fore
 148 442 m 1,0,1
@@ -18473,12 +15983,11 @@ Fore
  148 476 148 476 148 442 c 1,76,-1
  148 442 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C15 U0C47
+Ligature: 0 0 'liga' U0C15 U0C47.abvs
 EndChar
 StartChar: U0C16_U0C47.abvs
 Encoding: 65697 -1 251
 Width: 884
-GlyphClass: 2
 Flags: W
 Fore
 167 457 m 1,0,1
@@ -18577,12 +16086,11 @@ Fore
  684 0 684 0 575 0 c 1,126,-1
  575 0 l 1,27,28
 EndSplineSet
-Ligature: 0 0 'abvs' U0C16 U0C47
+Ligature: 0 0 'liga' U0C16 U0C47.abvs
 EndChar
 StartChar: U0C17_U0C47.abvs
 Encoding: 65698 -1 252
 Width: 649
-GlyphClass: 2
 Flags: W
 Fore
 46 0 m 1,0,1
@@ -18626,12 +16134,11 @@ Fore
  46 0 l 1,52,-1
  46 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C17 U0C47
+Ligature: 0 0 'liga' U0C17 U0C47.abvs
 EndChar
 StartChar: U0C18_U0C47.abvs
 Encoding: 65699 -1 253
 Width: 1197
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -18721,12 +16228,11 @@ Fore
  88 556 l 1,113,-1
  88 556 l 1,74,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C18 U0C47
+Ligature: 0 0 'liga' U0C18 U0C47.abvs
 EndChar
 StartChar: U0C19_U0C47.abvs
 Encoding: 65700 -1 254
 Width: 775
-GlyphClass: 2
 Flags: W
 Fore
 54 180 m 1,0,1
@@ -18812,12 +16318,11 @@ Fore
  54 105 54 105 54 180 c 1,110,-1
  54 180 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C19 U0C47
+Ligature: 0 0 'liga' U0C19 U0C47.abvs
 EndChar
 StartChar: U0C1A_U0C47.abvs
 Encoding: 65701 -1 255
 Width: 802
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -18886,12 +16391,11 @@ Fore
  627 0 627 0 535 0 c 1,85,-1
  535 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1A U0C47
+Ligature: 0 0 'liga' U0C1A U0C47.abvs
 EndChar
 StartChar: U0C1B_U0C47.abvs
 Encoding: 65702 -1 256
 Width: 802
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -18966,12 +16470,11 @@ Fore
  627 0 627 0 535 0 c 1,91,-1
  535 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1B U0C47
+Ligature: 0 0 'liga' U0C1B U0C47.abvs
 EndChar
 StartChar: U0C1C_U0C47.abvs
 Encoding: 65703 -1 257
 Width: 809
-GlyphClass: 2
 Flags: W
 Fore
 56 180 m 1,0,1
@@ -19063,12 +16566,11 @@ Fore
  56 105 56 105 56 180 c 1,122,-1
  56 180 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1C U0C47
+Ligature: 0 0 'liga' U0C1C U0C47.abvs
 EndChar
 StartChar: U0C1D_U0C47.abvs
 Encoding: 65704 -1 258
 Width: 1610
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -19154,12 +16656,11 @@ Fore
  42 177 42 177 42 303 c 1,109,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1D U0C47
+Ligature: 0 0 'liga' U0C1D U0C47.abvs
 EndChar
 StartChar: U0C1E_U0C47.abvs
 Encoding: 65705 -1 259
 Width: 1034
-GlyphClass: 2
 Flags: W
 Fore
 19 393 m 1,0,1
@@ -19252,12 +16753,11 @@ Fore
  233 175 233 175 233 148 c 1,117,-1
  233 148 l 1,104,105
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1E U0C47
+Ligature: 0 0 'liga' U0C1E U0C47.abvs
 EndChar
 StartChar: U0C1F_U0C47.abvs
 Encoding: 65706 -1 260
 Width: 928
-GlyphClass: 2
 Flags: W
 Fore
 146 393 m 1,0,1
@@ -19336,12 +16836,11 @@ Fore
  48 161 48 161 48 275 c 1,100,-1
  48 275 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1F U0C47
+Ligature: 0 0 'liga' U0C1F U0C47.abvs
 EndChar
 StartChar: U0C20_U0C47.abvs
 Encoding: 65707 -1 261
 Width: 675
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -19399,12 +16898,11 @@ Fore
  289 245 l 1,68,-1
  289 245 l 1,64,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C20 U0C47
+Ligature: 0 0 'liga' U0C20 U0C47.abvs
 EndChar
 StartChar: U0C21_U0C47.abvs
 Encoding: 65708 -1 262
 Width: 841
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -19481,12 +16979,11 @@ Fore
  44 153 44 153 44 262 c 1,98,-1
  44 262 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C21 U0C47
+Ligature: 0 0 'liga' U0C21 U0C47.abvs
 EndChar
 StartChar: U0C22_U0C47.abvs
 Encoding: 65709 -1 263
 Width: 841
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -19569,12 +17066,11 @@ Fore
  44 153 44 153 44 262 c 1,104,-1
  44 262 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C22 U0C47
+Ligature: 0 0 'liga' U0C22 U0C47.abvs
 EndChar
 StartChar: U0C23_U0C47.abvs
 Encoding: 65710 -1 264
 Width: 952
-GlyphClass: 2
 Flags: W
 Fore
 610 139 m 1,0,1
@@ -19666,12 +17162,11 @@ Fore
  54 385 54 385 54 433 c 1,120,-1
  54 433 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C23 U0C47
+Ligature: 0 0 'liga' U0C23 U0C47.abvs
 EndChar
 StartChar: U0C24_U0C47.abvs
 Encoding: 65711 -1 265
 Width: 819
-GlyphClass: 2
 Flags: W
 Fore
 122 376 m 1,0,1
@@ -19755,12 +17250,11 @@ Fore
  536 498 536 498 588 503 c 1,107,-1
  588 503 l 1,26,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C24 U0C47
+Ligature: 0 0 'liga' U0C24 U0C47.abvs
 EndChar
 StartChar: U0C25_U0C47.abvs
 Encoding: 65712 -1 266
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -19830,12 +17324,11 @@ Fore
  355 311 l 1,84,-1
  355 311 l 1,80,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C25 U0C47
+Ligature: 0 0 'liga' U0C25 U0C47.abvs
 EndChar
 StartChar: U0C26_U0C47.abvs
 Encoding: 65713 -1 267
 Width: 804
-GlyphClass: 2
 Flags: W
 Fore
 124 245 m 1,0,1
@@ -19894,12 +17387,11 @@ Fore
  42 144 42 144 42 245 c 1,74,-1
  42 245 l 1,20,21
 EndSplineSet
-Ligature: 0 0 'abvs' U0C26 U0C47
+Ligature: 0 0 'liga' U0C26 U0C47.abvs
 EndChar
 StartChar: U0C27_U0C47.abvs
 Encoding: 65714 -1 268
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -19963,12 +17455,11 @@ Fore
  44 144 44 144 44 245 c 1,79,-1
  44 245 l 1,20,21
 EndSplineSet
-Ligature: 0 0 'abvs' U0C27 U0C47
+Ligature: 0 0 'liga' U0C27 U0C47.abvs
 EndChar
 StartChar: U0C28_U0C47.abvs
 Encoding: 65715 -1 269
 Width: 758
-GlyphClass: 2
 Flags: W
 Fore
 493 82 m 1,0,1
@@ -20029,12 +17520,11 @@ Fore
  445 82 445 82 493 82 c 1,77,-1
  493 82 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C28 U0C47
+Ligature: 0 0 'liga' U0C28 U0C47.abvs
 EndChar
 StartChar: U0C2A_U0C47.abvs
 Encoding: 65716 -1 270
 Width: 716
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -20103,12 +17593,11 @@ Fore
  114 556 l 1,85,-1
  114 556 l 1,46,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2A U0C47
+Ligature: 0 0 'liga' U0C2A U0C47.abvs
 EndChar
 StartChar: U0C2B_U0C47.abvs
 Encoding: 65717 -1 271
 Width: 724
-GlyphClass: 2
 Flags: W
 Fore
 97 148 m 1,0,1
@@ -20183,12 +17672,11 @@ Fore
  73 556 l 1,91,-1
  73 556 l 1,52,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2B U0C47
+Ligature: 0 0 'liga' U0C2B U0C47.abvs
 EndChar
 StartChar: U0C2C_U0C47.abvs
 Encoding: 65718 -1 272
 Width: 840
-GlyphClass: 2
 Flags: W
 Fore
 578 82 m 1,0,1
@@ -20266,12 +17754,11 @@ Fore
  527 82 527 82 578 82 c 1,102,-1
  578 82 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2C U0C47
+Ligature: 0 0 'liga' U0C2C U0C47.abvs
 EndChar
 StartChar: U0C2D_U0C47.abvs
 Encoding: 65719 -1 273
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 563 82 m 1,0,1
@@ -20355,12 +17842,11 @@ Fore
  508 82 508 82 563 82 c 1,108,-1
  563 82 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2D U0C47
+Ligature: 0 0 'liga' U0C2D U0C47.abvs
 EndChar
 StartChar: U0C2E_U0C47.abvs
 Encoding: 65720 -1 274
 Width: 1197
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -20441,12 +17927,11 @@ Fore
  29 87 29 87 29 148 c 1,105,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2E U0C47
+Ligature: 0 0 'liga' U0C2E U0C47.abvs
 EndChar
 StartChar: U0C2F_U0C47.abvs
 Encoding: 65721 -1 275
 Width: 1550
-GlyphClass: 2
 Flags: W
 Fore
 124 294 m 1,0,1
@@ -20528,12 +18013,11 @@ Fore
  942 212 942 212 942 304 c 1,106,-1
  942 304 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2F U0C47
+Ligature: 0 0 'liga' U0C2F U0C47.abvs
 EndChar
 StartChar: U0C30_U0C47.abvs
 Encoding: 65722 -1 276
 Width: 675
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -20585,12 +18069,11 @@ Fore
  42 177 42 177 42 303 c 1,63,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C30 U0C47
+Ligature: 0 0 'liga' U0C30 U0C47.abvs
 EndChar
 StartChar: U0C31_U0C47.abvs
 Encoding: 65723 -1 277
 Width: 947
-GlyphClass: 2
 Flags: W
 Fore
 178 457 m 1,0,1
@@ -20682,12 +18165,11 @@ Fore
  48 181 48 181 48 309 c 1,118,-1
  48 309 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C31 U0C47
+Ligature: 0 0 'liga' U0C31 U0C47.abvs
 EndChar
 StartChar: U0C32_U0C47.abvs
 Encoding: 65724 -1 278
 Width: 833
-GlyphClass: 2
 Flags: W
 Fore
 190 457 m 1,0,1
@@ -20755,12 +18237,11 @@ Fore
  295 82 295 82 416 82 c 1,86,-1
  416 82 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C32 U0C47
+Ligature: 0 0 'liga' U0C32 U0C47.abvs
 EndChar
 StartChar: U0C33_U0C47.abvs
 Encoding: 65725 -1 279
 Width: 702
-GlyphClass: 2
 Flags: W
 Fore
 97 360 m 1,0,1
@@ -20844,12 +18325,11 @@ Fore
  295 212 295 212 359 212 c 1,107,-1
  359 212 l 1,26,27
 EndSplineSet
-Ligature: 0 0 'abvs' U0C33 U0C47
+Ligature: 0 0 'liga' U0C33 U0C47.abvs
 EndChar
 StartChar: U0C35_U0C47.abvs
 Encoding: 65726 -1 280
 Width: 721
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -20915,12 +18395,11 @@ Fore
  29 87 29 87 29 148 c 1,83,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C35 U0C47
+Ligature: 0 0 'liga' U0C35 U0C47.abvs
 EndChar
 StartChar: U0C36_U0C47.abvs
 Encoding: 65727 -1 281
 Width: 627
-GlyphClass: 2
 Flags: W
 Fore
 270 184 m 1,0,1
@@ -20996,12 +18475,11 @@ Fore
  197 111 197 111 197 189 c 1,97,-1
  197 189 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C36 U0C47
+Ligature: 0 0 'liga' U0C36 U0C47.abvs
 EndChar
 StartChar: U0C37_U0C47.abvs
 Encoding: 65728 -1 282
 Width: 751
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -21077,12 +18555,11 @@ Fore
  139 556 l 1,94,-1
  139 556 l 1,55,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C37 U0C47
+Ligature: 0 0 'liga' U0C37 U0C47.abvs
 EndChar
 StartChar: U0C38_U0C47.abvs
 Encoding: 65729 -1 283
 Width: 738
-GlyphClass: 2
 Flags: W
 Fore
 476 82 m 1,0,1
@@ -21145,12 +18622,11 @@ Fore
  144 556 l 1,78,-1
  144 556 l 1,39,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C38 U0C47
+Ligature: 0 0 'liga' U0C38 U0C47.abvs
 EndChar
 StartChar: U0C39_U0C47.abvs
 Encoding: 65730 -1 284
 Width: 1103
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -21243,12 +18719,11 @@ Fore
  182 556 l 1,116,-1
  182 556 l 1,77,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C39 U0C47
+Ligature: 0 0 'liga' U0C39 U0C47.abvs
 EndChar
 StartChar: U0C15_U0C47_U0C37_U0C4D.akhn
 Encoding: 65731 -1 285
 Width: 639
-GlyphClass: 2
 Flags: W
 Fore
 15 25 m 1,0,-1
@@ -21336,12 +18811,11 @@ Fore
  160 467 160 467 160 433 c 1,113,-1
  160 433 l 1,37,38
 EndSplineSet
-Ligature: 0 0 'akhn' U0C15 U0C47 U0C37 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C47 U0C37 U0C4D.akhn
 EndChar
 StartChar: U0C15_U0C4A.abvs
 Encoding: 65732 -1 286
 Width: 918
-GlyphClass: 2
 Flags: W
 Fore
 148 442 m 1,0,1
@@ -21415,12 +18889,11 @@ Fore
  688 736 688 736 688 702 c 1,95,-1
  688 702 l 1,83,84
 EndSplineSet
-Ligature: 0 0 'abvs' U0C15 U0C4A
+Ligature: 0 0 'liga' U0C15 U0C4A.abvs
 EndChar
 StartChar: U0C16_U0C4A.abvs
 Encoding: 65733 -1 287
 Width: 1188
-GlyphClass: 2
 Flags: W
 Fore
 167 457 m 1,0,1
@@ -21530,12 +19003,11 @@ Fore
  959 736 959 736 959 702 c 1,142,-1
  959 702 l 1,130,131
 EndSplineSet
-Ligature: 0 0 'abvs' U0C16 U0C4A
+Ligature: 0 0 'liga' U0C16 U0C4A.abvs
 EndChar
 StartChar: U0C17_U0C4A.abvs
 Encoding: 65734 -1 288
 Width: 998
-GlyphClass: 2
 Flags: W
 Fore
 46 0 m 1,0,1
@@ -21592,12 +19064,11 @@ Fore
  768 736 768 736 768 702 c 1,70,-1
  768 702 l 1,58,59
 EndSplineSet
-Ligature: 0 0 'abvs' U0C17 U0C4A
+Ligature: 0 0 'liga' U0C17 U0C4A.abvs
 EndChar
 StartChar: U0C18_U0C4A.abvs
 Encoding: 65735 -1 289
 Width: 1673
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -21685,12 +19156,11 @@ Fore
  105 556 l 1,110,-1
  105 556 l 1,92,-1
 EndSplineSet
-Ligature: 0 0 'abvs' U0C18 U0C4A
+Ligature: 0 0 'liga' U0C18 U0C4A.abvs
 EndChar
 StartChar: U0C19_U0C4A.abvs
 Encoding: 65736 -1 290
 Width: 1151
-GlyphClass: 2
 Flags: W
 Fore
 54 180 m 1,0,1
@@ -21789,12 +19259,11 @@ Fore
  921 736 921 736 921 702 c 1,128,-1
  921 702 l 1,116,117
 EndSplineSet
-Ligature: 0 0 'abvs' U0C19 U0C4A
+Ligature: 0 0 'liga' U0C19 U0C4A.abvs
 EndChar
 StartChar: U0C1A_U0C4A.abvs
 Encoding: 65737 -1 291
 Width: 1076
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -21874,12 +19343,11 @@ Fore
  847 736 847 736 847 702 c 1,101,-1
  847 702 l 1,89,90
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1A U0C4A
+Ligature: 0 0 'liga' U0C1A U0C4A.abvs
 EndChar
 StartChar: U0C1B_U0C4A.abvs
 Encoding: 65738 -1 292
 Width: 1093
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -21967,12 +19435,11 @@ Fore
  864 736 864 736 864 702 c 1,109,-1
  864 702 l 1,97,98
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1B U0C4A
+Ligature: 0 0 'liga' U0C1B U0C4A.abvs
 EndChar
 StartChar: U0C1C_U0C4A.abvs
 Encoding: 65739 -1 293
 Width: 1154
-GlyphClass: 2
 Flags: W
 Fore
 56 180 m 1,0,1
@@ -22077,12 +19544,11 @@ Fore
  925 736 925 736 925 702 c 1,140,-1
  925 702 l 1,128,129
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1C U0C4A
+Ligature: 0 0 'liga' U0C1C U0C4A.abvs
 EndChar
 StartChar: U0C1D_U0C4A.abvs
 Encoding: 65740 -1 294
 Width: 2069
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -22167,12 +19633,11 @@ Fore
  42 177 42 177 42 303 c 1,108,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1D U0C4A
+Ligature: 0 0 'liga' U0C1D U0C4A.abvs
 EndChar
 StartChar: U0C1E_U0C4A.abvs
 Encoding: 65741 -1 295
 Width: 1338
-GlyphClass: 2
 Flags: W
 Fore
 19 393 m 1,0,1
@@ -22279,12 +19744,11 @@ Fore
  1108 736 1108 736 1108 702 c 1,136,-1
  1108 702 l 1,124,125
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1E U0C4A
+Ligature: 0 0 'liga' U0C1E U0C4A.abvs
 EndChar
 StartChar: U0C1F_U0C4A.abvs
 Encoding: 65742 -1 296
 Width: 1238
-GlyphClass: 2
 Flags: W
 Fore
 146 393 m 1,0,1
@@ -22376,12 +19840,11 @@ Fore
  1008 736 1008 736 1008 702 c 1,118,-1
  1008 702 l 1,106,107
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1F U0C4A
+Ligature: 0 0 'liga' U0C1F U0C4A.abvs
 EndChar
 StartChar: U0C20_U0C4A.abvs
 Encoding: 65743 -1 297
 Width: 1020
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -22453,12 +19916,11 @@ Fore
  790 736 790 736 790 702 c 1,87,-1
  790 702 l 1,75,76
 EndSplineSet
-Ligature: 0 0 'abvs' U0C20 U0C4A
+Ligature: 0 0 'liga' U0C20 U0C4A.abvs
 EndChar
 StartChar: U0C21_U0C4A.abvs
 Encoding: 65744 -1 298
 Width: 1115
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -22549,12 +20011,11 @@ Fore
  886 736 886 736 886 702 c 1,118,-1
  886 702 l 1,106,107
 EndSplineSet
-Ligature: 0 0 'abvs' U0C21 U0C4A
+Ligature: 0 0 'liga' U0C21 U0C4A.abvs
 EndChar
 StartChar: U0C22_U0C4A.abvs
 Encoding: 65745 -1 299
 Width: 1056
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -22651,12 +20112,11 @@ Fore
  826 736 826 736 826 702 c 1,124,-1
  826 702 l 1,112,113
 EndSplineSet
-Ligature: 0 0 'abvs' U0C22 U0C4A
+Ligature: 0 0 'liga' U0C22 U0C4A.abvs
 EndChar
 StartChar: U0C23_U0C4A.abvs
 Encoding: 65746 -1 300
 Width: 1261
-GlyphClass: 2
 Flags: W
 Fore
 610 139 m 1,0,1
@@ -22762,12 +20222,11 @@ Fore
  1032 736 1032 736 1032 702 c 1,139,-1
  1032 702 l 1,127,128
 EndSplineSet
-Ligature: 0 0 'abvs' U0C23 U0C4A
+Ligature: 0 0 'liga' U0C23 U0C4A.abvs
 EndChar
 StartChar: U0C24_U0C4A.abvs
 Encoding: 65747 -1 301
 Width: 1129
-GlyphClass: 2
 Flags: W
 Fore
 122 376 m 1,0,1
@@ -22862,12 +20321,11 @@ Fore
  899 736 899 736 899 702 c 1,123,-1
  899 702 l 1,111,112
 EndSplineSet
-Ligature: 0 0 'abvs' U0C24 U0C4A
+Ligature: 0 0 'liga' U0C24 U0C4A.abvs
 EndChar
 StartChar: U0C25_U0C4A.abvs
 Encoding: 65748 -1 302
 Width: 1056
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -22955,12 +20413,11 @@ Fore
  826 736 826 736 826 702 c 1,107,-1
  826 702 l 1,95,96
 EndSplineSet
-Ligature: 0 0 'abvs' U0C25 U0C4A
+Ligature: 0 0 'liga' U0C25 U0C4A.abvs
 EndChar
 StartChar: U0C26_U0C4A.abvs
 Encoding: 65749 -1 303
 Width: 1056
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -23036,12 +20493,11 @@ Fore
  826 736 826 736 826 702 c 1,96,-1
  826 702 l 1,84,85
 EndSplineSet
-Ligature: 0 0 'abvs' U0C26 U0C4A
+Ligature: 0 0 'liga' U0C26 U0C4A.abvs
 EndChar
 StartChar: U0C27_U0C4A.abvs
 Encoding: 65750 -1 304
 Width: 1056
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -23123,12 +20579,11 @@ Fore
  826 736 826 736 826 702 c 1,102,-1
  826 702 l 1,90,91
 EndSplineSet
-Ligature: 0 0 'abvs' U0C27 U0C4A
+Ligature: 0 0 'liga' U0C27 U0C4A.abvs
 EndChar
 StartChar: U0C28_U0C4A.abvs
 Encoding: 65751 -1 305
 Width: 1045
-GlyphClass: 2
 Flags: W
 Fore
 493 82 m 1,0,1
@@ -23201,12 +20656,11 @@ Fore
  816 736 816 736 816 702 c 1,94,-1
  816 702 l 1,82,83
 EndSplineSet
-Ligature: 0 0 'abvs' U0C28 U0C4A
+Ligature: 0 0 'liga' U0C28 U0C4A.abvs
 EndChar
 StartChar: U0C2A_U0C4A.abvs
 Encoding: 65752 -1 306
 Width: 1129
-GlyphClass: 2
 Flags: W
 Fore
 105 148 m 1,0,1
@@ -23289,12 +20743,11 @@ Fore
  874 428 874 428 874 394 c 1,105,-1
  874 394 l 1,93,94
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2A U0C4A
+Ligature: 0 0 'liga' U0C2A U0C4A.abvs
 EndChar
 StartChar: U0C2B_U0C4A.abvs
 Encoding: 65753 -1 307
 Width: 1129
-GlyphClass: 2
 Flags: W
 Fore
 105 148 m 1,0,1
@@ -23383,12 +20836,11 @@ Fore
  874 428 874 428 874 394 c 1,111,-1
  874 394 l 1,99,100
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2B U0C4A
+Ligature: 0 0 'liga' U0C2B U0C4A.abvs
 EndChar
 StartChar: U0C2C_U0C4A.abvs
 Encoding: 65754 -1 308
 Width: 1151
-GlyphClass: 2
 Flags: W
 Fore
 578 82 m 1,0,1
@@ -23477,12 +20929,11 @@ Fore
  921 736 921 736 921 702 c 1,118,-1
  921 702 l 1,106,107
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2C U0C4A
+Ligature: 0 0 'liga' U0C2C U0C4A.abvs
 EndChar
 StartChar: U0C2D_U0C4A.abvs
 Encoding: 65755 -1 309
 Width: 1102
-GlyphClass: 2
 Flags: W
 Fore
 563 82 m 1,0,1
@@ -23577,12 +21028,11 @@ Fore
  872 736 872 736 872 702 c 1,124,-1
  872 702 l 1,112,113
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2D U0C4A
+Ligature: 0 0 'liga' U0C2D U0C4A.abvs
 EndChar
 StartChar: U0C2E_U0C4A.abvs
 Encoding: 65756 -1 310
 Width: 1673
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -23661,12 +21111,11 @@ Fore
  29 87 29 87 29 148 c 1,102,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2E U0C4A
+Ligature: 0 0 'liga' U0C2E U0C4A.abvs
 EndChar
 StartChar: U0C2F_U0C4A.abvs
 Encoding: 65757 -1 311
 Width: 2009
-GlyphClass: 2
 Flags: W
 Fore
 124 294 m 1,0,1
@@ -23747,12 +21196,11 @@ Fore
  942 212 942 212 942 304 c 1,105,-1
  942 304 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2F U0C4A
+Ligature: 0 0 'liga' U0C2F U0C4A.abvs
 EndChar
 StartChar: U0C30_U0C4A.abvs
 Encoding: 65758 -1 312
 Width: 986
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -23818,12 +21266,11 @@ Fore
  756 736 756 736 756 702 c 1,82,-1
  756 702 l 1,70,71
 EndSplineSet
-Ligature: 0 0 'abvs' U0C30 U0C4A
+Ligature: 0 0 'liga' U0C30 U0C4A.abvs
 EndChar
 StartChar: U0C31_U0C4A.abvs
 Encoding: 65759 -1 313
 Width: 1331
-GlyphClass: 2
 Flags: W
 Fore
 178 457 m 1,0,1
@@ -23929,12 +21376,11 @@ Fore
  1102 736 1102 736 1102 702 c 1,138,-1
  1102 702 l 1,126,127
 EndSplineSet
-Ligature: 0 0 'abvs' U0C31 U0C4A
+Ligature: 0 0 'liga' U0C31 U0C4A.abvs
 EndChar
 StartChar: U0C32_U0C4A.abvs
 Encoding: 65760 -1 314
 Width: 1139
-GlyphClass: 2
 Flags: W
 Fore
 190 457 m 1,0,1
@@ -24014,12 +21460,11 @@ Fore
  909 736 909 736 909 702 c 1,103,-1
  909 702 l 1,91,92
 EndSplineSet
-Ligature: 0 0 'abvs' U0C32 U0C4A
+Ligature: 0 0 'liga' U0C32 U0C4A.abvs
 EndChar
 StartChar: U0C33_U0C4A.abvs
 Encoding: 65761 -1 315
 Width: 1008
-GlyphClass: 2
 Flags: W
 Fore
 97 360 m 1,0,1
@@ -24116,12 +21561,11 @@ Fore
  779 736 779 736 779 702 c 1,125,-1
  779 702 l 1,113,114
 EndSplineSet
-Ligature: 0 0 'abvs' U0C33 U0C4A
+Ligature: 0 0 'liga' U0C33 U0C4A.abvs
 EndChar
 StartChar: U0C35_U0C4A.abvs
 Encoding: 65762 -1 316
 Width: 1040
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -24200,12 +21644,11 @@ Fore
  811 736 811 736 811 702 c 1,101,-1
  811 702 l 1,89,90
 EndSplineSet
-Ligature: 0 0 'abvs' U0C35 U0C4A
+Ligature: 0 0 'liga' U0C35 U0C4A.abvs
 EndChar
 StartChar: U0C36_U0C4A.abvs
 Encoding: 65763 -1 317
 Width: 942
-GlyphClass: 2
 Flags: W
 Fore
 270 184 m 1,0,1
@@ -24292,12 +21735,11 @@ Fore
  712 736 712 736 712 702 c 1,113,-1
  712 702 l 1,101,102
 EndSplineSet
-Ligature: 0 0 'abvs' U0C36 U0C4A
+Ligature: 0 0 'liga' U0C36 U0C4A.abvs
 EndChar
 StartChar: U0C37_U0C4A.abvs
 Encoding: 65764 -1 318
 Width: 1136
-GlyphClass: 2
 Flags: W
 Fore
 104 139 m 1,0,1
@@ -24387,12 +21829,11 @@ Fore
  881 428 881 428 881 394 c 1,114,-1
  881 394 l 1,102,103
 EndSplineSet
-Ligature: 0 0 'abvs' U0C37 U0C4A
+Ligature: 0 0 'liga' U0C37 U0C4A.abvs
 EndChar
 StartChar: U0C38_U0C4A.abvs
 Encoding: 65765 -1 319
 Width: 1127
-GlyphClass: 2
 Flags: W
 Fore
 471 82 m 1,0,1
@@ -24469,12 +21910,11 @@ Fore
  872 428 872 428 872 394 c 1,98,-1
  872 394 l 1,86,87
 EndSplineSet
-Ligature: 0 0 'abvs' U0C38 U0C4A
+Ligature: 0 0 'liga' U0C38 U0C4A.abvs
 EndChar
 StartChar: U0C39_U0C4A.abvs
 Encoding: 65766 -1 320
 Width: 1584
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -24590,12 +22030,11 @@ Fore
  1355 736 1355 736 1355 702 c 1,148,-1
  1355 702 l 1,136,137
 EndSplineSet
-Ligature: 0 0 'abvs' U0C39 U0C4A
+Ligature: 0 0 'liga' U0C39 U0C4A.abvs
 EndChar
 StartChar: U0C15_U0C4A_U0C37_U0C4D.akhn
 Encoding: 65767 -1 321
 Width: 938
-GlyphClass: 2
 Flags: W
 Fore
 15 25 m 1,0,-1
@@ -24697,12 +22136,11 @@ Fore
  709 736 709 736 709 702 c 1,132,-1
  709 702 l 1,120,121
 EndSplineSet
-Ligature: 0 0 'akhn' U0C15 U0C4A U0C37 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C4A U0C37 U0C4D.akhn
 EndChar
 StartChar: U0C15_U0C4B.abvs
 Encoding: 65768 -1 322
 Width: 918
-GlyphClass: 2
 Flags: W
 Fore
 148 442 m 1,0,1
@@ -24790,12 +22228,11 @@ Fore
  688 736 688 736 688 702 c 1,115,-1
  688 702 l 1,103,104
 EndSplineSet
-Ligature: 0 0 'abvs' U0C15 U0C4B
+Ligature: 0 0 'liga' U0C15 U0C4B.abvs
 EndChar
 StartChar: U0C16_U0C4B.abvs
 Encoding: 65769 -1 323
 Width: 1180
-GlyphClass: 2
 Flags: W
 Fore
 167 457 m 1,0,1
@@ -24920,12 +22357,11 @@ Fore
  950 743 950 743 950 709 c 1,163,-1
  950 709 l 1,151,152
 EndSplineSet
-Ligature: 0 0 'abvs' U0C16 U0C4B
+Ligature: 0 0 'liga' U0C16 U0C4B.abvs
 EndChar
 StartChar: U0C17_U0C4B.abvs
 Encoding: 65770 -1 324
 Width: 998
-GlyphClass: 2
 Flags: W
 Fore
 46 0 m 1,0,1
@@ -24996,12 +22432,11 @@ Fore
  768 736 768 736 768 702 c 1,90,-1
  768 702 l 1,78,79
 EndSplineSet
-Ligature: 0 0 'abvs' U0C17 U0C4B
+Ligature: 0 0 'liga' U0C17 U0C4B.abvs
 EndChar
 StartChar: U0C18_U0C4B.abvs
 Encoding: 65771 -1 325
 Width: 1649
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -25099,12 +22534,11 @@ Fore
  1392 508 1392 508 1392 474 c 1,121,-1
  1392 474 l 1,109,110
 EndSplineSet
-Ligature: 0 0 'abvs' U0C18 U0C4B
+Ligature: 0 0 'liga' U0C18 U0C4B.abvs
 EndChar
 StartChar: U0C19_U0C4B.abvs
 Encoding: 65772 -1 326
 Width: 1151
-GlyphClass: 2
 Flags: W
 Fore
 54 180 m 1,0,1
@@ -25218,12 +22652,11 @@ Fore
  921 736 921 736 921 702 c 1,149,-1
  921 702 l 1,137,138
 EndSplineSet
-Ligature: 0 0 'abvs' U0C19 U0C4B
+Ligature: 0 0 'liga' U0C19 U0C4B.abvs
 EndChar
 StartChar: U0C1A_U0C4B.abvs
 Encoding: 65773 -1 327
 Width: 1074
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -25317,12 +22750,11 @@ Fore
  845 736 845 736 845 702 c 1,121,-1
  845 702 l 1,109,110
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1A U0C4B
+Ligature: 0 0 'liga' U0C1A U0C4B.abvs
 EndChar
 StartChar: U0C1B_U0C4B.abvs
 Encoding: 65774 -1 328
 Width: 1093
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -25424,12 +22856,11 @@ Fore
  864 736 864 736 864 702 c 1,129,-1
  864 702 l 1,117,118
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1B U0C4B
+Ligature: 0 0 'liga' U0C1B U0C4B.abvs
 EndChar
 StartChar: U0C1C_U0C4B.abvs
 Encoding: 65775 -1 329
 Width: 1153
-GlyphClass: 2
 Flags: W
 Fore
 56 180 m 1,0,1
@@ -25549,12 +22980,11 @@ Fore
  923 738 923 738 923 704 c 1,161,-1
  923 704 l 1,149,150
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1C U0C4B
+Ligature: 0 0 'liga' U0C1C U0C4B.abvs
 EndChar
 StartChar: U0C1D_U0C4B.abvs
 Encoding: 65776 -1 330
 Width: 2062
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -25652,12 +23082,11 @@ Fore
  1805 508 1805 508 1805 474 c 1,123,-1
  1805 474 l 1,111,112
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1D U0C4B
+Ligature: 0 0 'liga' U0C1D U0C4B.abvs
 EndChar
 StartChar: U0C1E_U0C4B.abvs
 Encoding: 65777 -1 331
 Width: 1329
-GlyphClass: 2
 Flags: W
 Fore
 19 393 m 1,0,1
@@ -25778,12 +23207,11 @@ Fore
  1100 736 1100 736 1100 702 c 1,156,-1
  1100 702 l 1,144,145
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1E U0C4B
+Ligature: 0 0 'liga' U0C1E U0C4B.abvs
 EndChar
 StartChar: U0C1F_U0C4B.abvs
 Encoding: 65778 -1 332
 Width: 1238
-GlyphClass: 2
 Flags: W
 Fore
 146 393 m 1,0,1
@@ -25889,12 +23317,11 @@ Fore
  1008 736 1008 736 1008 702 c 1,138,-1
  1008 702 l 1,126,127
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1F U0C4B
+Ligature: 0 0 'liga' U0C1F U0C4B.abvs
 EndChar
 StartChar: U0C20_U0C4B.abvs
 Encoding: 65779 -1 333
 Width: 1020
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -25980,12 +23407,11 @@ Fore
  790 736 790 736 790 702 c 1,107,-1
  790 702 l 1,95,96
 EndSplineSet
-Ligature: 0 0 'abvs' U0C20 U0C4B
+Ligature: 0 0 'liga' U0C20 U0C4B.abvs
 EndChar
 StartChar: U0C21_U0C4B.abvs
 Encoding: 65780 -1 334
 Width: 1115
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -26089,12 +23515,11 @@ Fore
  886 736 886 736 886 702 c 1,136,-1
  886 702 l 1,124,125
 EndSplineSet
-Ligature: 0 0 'abvs' U0C21 U0C4B
+Ligature: 0 0 'liga' U0C21 U0C4B.abvs
 EndChar
 StartChar: U0C22_U0C4B.abvs
 Encoding: 65781 -1 335
 Width: 1056
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -26205,12 +23630,11 @@ Fore
  826 736 826 736 826 702 c 1,144,-1
  826 702 l 1,132,133
 EndSplineSet
-Ligature: 0 0 'abvs' U0C22 U0C4B
+Ligature: 0 0 'liga' U0C22 U0C4B.abvs
 EndChar
 StartChar: U0C23_U0C4B.abvs
 Encoding: 65782 -1 336
 Width: 1261
-GlyphClass: 2
 Flags: W
 Fore
 610 139 m 1,0,1
@@ -26330,12 +23754,11 @@ Fore
  1032 736 1032 736 1032 702 c 1,159,-1
  1032 702 l 1,147,148
 EndSplineSet
-Ligature: 0 0 'abvs' U0C23 U0C4B
+Ligature: 0 0 'liga' U0C23 U0C4B.abvs
 EndChar
 StartChar: U0C24_U0C4B.abvs
 Encoding: 65783 -1 337
 Width: 1129
-GlyphClass: 2
 Flags: W
 Fore
 122 376 m 1,0,1
@@ -26444,12 +23867,11 @@ Fore
  899 736 899 736 899 702 c 1,143,-1
  899 702 l 1,131,132
 EndSplineSet
-Ligature: 0 0 'abvs' U0C24 U0C4B
+Ligature: 0 0 'liga' U0C24 U0C4B.abvs
 EndChar
 StartChar: U0C25_U0C4B.abvs
 Encoding: 65784 -1 338
 Width: 1056
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -26551,12 +23973,11 @@ Fore
  826 736 826 736 826 702 c 1,127,-1
  826 702 l 1,115,116
 EndSplineSet
-Ligature: 0 0 'abvs' U0C25 U0C4B
+Ligature: 0 0 'liga' U0C25 U0C4B.abvs
 EndChar
 StartChar: U0C26_U0C4B.abvs
 Encoding: 65785 -1 339
 Width: 1056
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -26646,12 +24067,11 @@ Fore
  826 736 826 736 826 702 c 1,116,-1
  826 702 l 1,104,105
 EndSplineSet
-Ligature: 0 0 'abvs' U0C26 U0C4B
+Ligature: 0 0 'liga' U0C26 U0C4B.abvs
 EndChar
 StartChar: U0C27_U0C4B.abvs
 Encoding: 65786 -1 340
 Width: 1054
-GlyphClass: 2
 Flags: W
 Fore
 124 245 m 1,0,1
@@ -26747,12 +24167,11 @@ Fore
  824 736 824 736 824 702 c 1,122,-1
  824 702 l 1,110,111
 EndSplineSet
-Ligature: 0 0 'abvs' U0C27 U0C4B
+Ligature: 0 0 'liga' U0C27 U0C4B.abvs
 EndChar
 StartChar: U0C28_U0C4B.abvs
 Encoding: 65787 -1 341
 Width: 1045
-GlyphClass: 2
 Flags: W
 Fore
 493 82 m 1,0,1
@@ -26839,12 +24258,11 @@ Fore
  816 736 816 736 816 702 c 1,114,-1
  816 702 l 1,102,103
 EndSplineSet
-Ligature: 0 0 'abvs' U0C28 U0C4B
+Ligature: 0 0 'liga' U0C28 U0C4B.abvs
 EndChar
 StartChar: U0C2A_U0C4B.abvs
 Encoding: 65788 -1 342
 Width: 1134
-GlyphClass: 2
 Flags: W
 Fore
 102 148 m 1,0,1
@@ -26942,12 +24360,11 @@ Fore
  879 420 879 420 879 386 c 1,126,-1
  879 386 l 1,114,115
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2A U0C4B
+Ligature: 0 0 'liga' U0C2A U0C4B.abvs
 EndChar
 StartChar: U0C2B_U0C4B.abvs
 Encoding: 65789 -1 343
 Width: 1127
-GlyphClass: 2
 Flags: W
 Fore
 104 148 m 1,0,1
@@ -27051,12 +24468,11 @@ Fore
  872 420 872 420 872 386 c 1,132,-1
  872 386 l 1,120,121
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2B U0C4B
+Ligature: 0 0 'liga' U0C2B U0C4B.abvs
 EndChar
 StartChar: U0C2C_U0C4B.abvs
 Encoding: 65790 -1 344
 Width: 1151
-GlyphClass: 2
 Flags: W
 Fore
 578 82 m 1,0,1
@@ -27160,12 +24576,11 @@ Fore
  921 743 921 743 921 709 c 1,139,-1
  921 709 l 1,127,128
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2C U0C4B
+Ligature: 0 0 'liga' U0C2C U0C4B.abvs
 EndChar
 StartChar: U0C2D_U0C4B.abvs
 Encoding: 65791 -1 345
 Width: 1102
-GlyphClass: 2
 Flags: W
 Fore
 563 82 m 1,0,1
@@ -27275,12 +24690,11 @@ Fore
  872 743 872 743 872 709 c 1,145,-1
  872 709 l 1,133,134
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2D U0C4B
+Ligature: 0 0 'liga' U0C2D U0C4B.abvs
 EndChar
 StartChar: U0C2E_U0C4B.abvs
 Encoding: 65792 -1 346
 Width: 1642
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -27369,12 +24783,11 @@ Fore
  1385 508 1385 508 1385 474 c 1,113,-1
  1385 474 l 1,101,102
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2E U0C4B
+Ligature: 0 0 'liga' U0C2E U0C4B.abvs
 EndChar
 StartChar: U0C2F_U0C4B.abvs
 Encoding: 65793 -1 347
 Width: 1986
-GlyphClass: 2
 Flags: W
 Fore
 124 294 m 1,0,1
@@ -27466,12 +24879,11 @@ Fore
  1729 508 1729 508 1729 474 c 1,118,-1
  1729 474 l 1,106,107
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2F U0C4B
+Ligature: 0 0 'liga' U0C2F U0C4B.abvs
 EndChar
 StartChar: U0C30_U0C4B.abvs
 Encoding: 65794 -1 348
 Width: 986
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -27551,12 +24963,11 @@ Fore
  756 736 756 736 756 702 c 1,102,-1
  756 702 l 1,90,91
 EndSplineSet
-Ligature: 0 0 'abvs' U0C30 U0C4B
+Ligature: 0 0 'liga' U0C30 U0C4B.abvs
 EndChar
 StartChar: U0C31_U0C4B.abvs
 Encoding: 65795 -1 349
 Width: 1323
-GlyphClass: 2
 Flags: W
 Fore
 178 457 m 1,0,1
@@ -27675,12 +25086,11 @@ Fore
  1093 743 1093 743 1093 709 c 1,156,-1
  1093 709 l 1,144,145
 EndSplineSet
-Ligature: 0 0 'abvs' U0C31 U0C4B
+Ligature: 0 0 'liga' U0C31 U0C4B.abvs
 EndChar
 StartChar: U0C32_U0C4B.abvs
 Encoding: 65796 -1 350
 Width: 1139
-GlyphClass: 2
 Flags: W
 Fore
 190 457 m 1,0,1
@@ -27774,12 +25184,11 @@ Fore
  909 743 909 743 909 709 c 1,123,-1
  909 709 l 1,111,112
 EndSplineSet
-Ligature: 0 0 'abvs' U0C32 U0C4B
+Ligature: 0 0 'liga' U0C32 U0C4B.abvs
 EndChar
 StartChar: U0C33_U0C4B.abvs
 Encoding: 65797 -1 351
 Width: 1008
-GlyphClass: 2
 Flags: W
 Fore
 97 360 m 1,0,1
@@ -27891,12 +25300,11 @@ Fore
  779 743 779 743 779 709 c 1,146,-1
  779 709 l 1,134,135
 EndSplineSet
-Ligature: 0 0 'abvs' U0C33 U0C4B
+Ligature: 0 0 'liga' U0C33 U0C4B.abvs
 EndChar
 StartChar: U0C35_U0C4B.abvs
 Encoding: 65798 -1 352
 Width: 1040
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -27989,12 +25397,11 @@ Fore
  811 736 811 736 811 702 c 1,121,-1
  811 702 l 1,109,110
 EndSplineSet
-Ligature: 0 0 'abvs' U0C35 U0C4B
+Ligature: 0 0 'liga' U0C35 U0C4B.abvs
 EndChar
 StartChar: U0C36_U0C4B.abvs
 Encoding: 65799 -1 353
 Width: 942
-GlyphClass: 2
 Flags: W
 Fore
 270 184 m 1,0,1
@@ -28096,12 +25503,11 @@ Fore
  712 743 712 743 712 709 c 1,134,-1
  712 709 l 1,122,123
 EndSplineSet
-Ligature: 0 0 'abvs' U0C36 U0C4B
+Ligature: 0 0 'liga' U0C36 U0C4B.abvs
 EndChar
 StartChar: U0C37_U0C4B.abvs
 Encoding: 65800 -1 354
 Width: 1141
-GlyphClass: 2
 Flags: W
 Fore
 100 139 m 1,0,1
@@ -28206,12 +25612,11 @@ Fore
  886 420 886 420 886 386 c 1,135,-1
  886 386 l 1,123,124
 EndSplineSet
-Ligature: 0 0 'abvs' U0C37 U0C4B
+Ligature: 0 0 'liga' U0C37 U0C4B.abvs
 EndChar
 StartChar: U0C38_U0C4B.abvs
 Encoding: 65801 -1 355
 Width: 1127
-GlyphClass: 2
 Flags: W
 Fore
 471 82 m 1,0,1
@@ -28303,12 +25708,11 @@ Fore
  872 420 872 420 872 386 c 1,119,-1
  872 386 l 1,107,108
 EndSplineSet
-Ligature: 0 0 'abvs' U0C38 U0C4B
+Ligature: 0 0 'liga' U0C38 U0C4B.abvs
 EndChar
 StartChar: U0C39_U0C4B.abvs
 Encoding: 65802 -1 356
 Width: 1618
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -28439,12 +25843,11 @@ Fore
  1389 743 1389 743 1389 709 c 1,169,-1
  1389 709 l 1,157,158
 EndSplineSet
-Ligature: 0 0 'abvs' U0C39 U0C4B
+Ligature: 0 0 'liga' U0C39 U0C4B.abvs
 EndChar
 StartChar: U0C15_U0C4B_U0C37_U0C4D.akhn
 Encoding: 65803 -1 357
 Width: 938
-GlyphClass: 2
 Flags: W
 Fore
 15 25 m 1,0,-1
@@ -28560,12 +25963,11 @@ Fore
  709 736 709 736 709 702 c 1,152,-1
  709 702 l 1,140,141
 EndSplineSet
-Ligature: 0 0 'akhn' U0C15 U0C4B U0C37 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C4B U0C37 U0C4D.akhn
 EndChar
 StartChar: U0C15_U0C4C.abvs
 Encoding: 65804 -1 358
 Width: 964
-GlyphClass: 2
 Flags: W
 Fore
 148 442 m 1,0,1
@@ -28633,12 +26035,11 @@ Fore
  734 692 734 692 734 658 c 1,85,-1
  734 658 l 1,73,74
 EndSplineSet
-Ligature: 0 0 'abvs' U0C15 U0C4C
+Ligature: 0 0 'liga' U0C15 U0C4C.abvs
 EndChar
 StartChar: U0C16_U0C4C.abvs
 Encoding: 65805 -1 359
 Width: 1200
-GlyphClass: 2
 Flags: W
 Fore
 167 457 m 1,0,1
@@ -28745,12 +26146,11 @@ Fore
  971 692 971 692 971 658 c 1,135,-1
  971 658 l 1,123,124
 EndSplineSet
-Ligature: 0 0 'abvs' U0C16 U0C4C
+Ligature: 0 0 'liga' U0C16 U0C4C.abvs
 EndChar
 StartChar: U0C17_U0C4C.abvs
 Encoding: 65806 -1 360
 Width: 984
-GlyphClass: 2
 Flags: W
 Fore
 46 0 m 1,0,1
@@ -28803,12 +26203,11 @@ Fore
  755 692 755 692 755 658 c 1,62,-1
  755 658 l 1,50,51
 EndSplineSet
-Ligature: 0 0 'abvs' U0C17 U0C4C
+Ligature: 0 0 'liga' U0C17 U0C4C.abvs
 EndChar
 StartChar: U0C18_U0C4C.abvs
 Encoding: 65807 -1 361
 Width: 1588
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -28918,12 +26317,11 @@ Fore
  1360 704 1360 704 1360 670 c 1,138,-1
  1360 670 l 1,126,127
 EndSplineSet
-Ligature: 0 0 'abvs' U0C18 U0C4C
+Ligature: 0 0 'liga' U0C18 U0C4C.abvs
 EndChar
 StartChar: U0C19_U0C4C.abvs
 Encoding: 65808 -1 362
 Width: 1265
-GlyphClass: 2
 Flags: W
 Fore
 54 180 m 1,0,1
@@ -29017,12 +26415,11 @@ Fore
  1035 692 1035 692 1035 658 c 1,119,-1
  1035 658 l 1,107,108
 EndSplineSet
-Ligature: 0 0 'abvs' U0C19 U0C4C
+Ligature: 0 0 'liga' U0C19 U0C4C.abvs
 EndChar
 StartChar: U0C1A_U0C4C.abvs
 Encoding: 65809 -1 363
 Width: 1130
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -29099,12 +26496,11 @@ Fore
  901 692 901 692 901 658 c 1,94,-1
  901 658 l 1,82,83
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1A U0C4C
+Ligature: 0 0 'liga' U0C1A U0C4C.abvs
 EndChar
 StartChar: U0C1B_U0C4C.abvs
 Encoding: 65810 -1 364
 Width: 1173
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -29187,12 +26583,11 @@ Fore
  943 692 943 692 943 658 c 1,100,-1
  943 658 l 1,88,89
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1B U0C4C
+Ligature: 0 0 'liga' U0C1B U0C4C.abvs
 EndChar
 StartChar: U0C1C_U0C4C.abvs
 Encoding: 65811 -1 365
 Width: 1156
-GlyphClass: 2
 Flags: W
 Fore
 56 180 m 1,0,1
@@ -29286,12 +26681,11 @@ Fore
  926 692 926 692 926 658 c 1,125,-1
  926 658 l 1,113,114
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1C U0C4C
+Ligature: 0 0 'liga' U0C1C U0C4C.abvs
 EndChar
 StartChar: U0C1D_U0C4C.abvs
 Encoding: 65812 -1 366
 Width: 2009
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -29391,12 +26785,11 @@ Fore
  1782 704 1782 704 1782 670 c 1,127,-1
  1782 670 l 1,115,116
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1D U0C4C
+Ligature: 0 0 'liga' U0C1D U0C4C.abvs
 EndChar
 StartChar: U0C1E_U0C4C.abvs
 Encoding: 65813 -1 367
 Width: 1528
-GlyphClass: 2
 Flags: W
 Fore
 19 393 m 1,0,1
@@ -29497,12 +26890,11 @@ Fore
  1299 692 1299 692 1299 658 c 1,126,-1
  1299 658 l 1,114,115
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1E U0C4C
+Ligature: 0 0 'liga' U0C1E U0C4C.abvs
 EndChar
 StartChar: U0C1F_U0C4C.abvs
 Encoding: 65814 -1 368
 Width: 1275
-GlyphClass: 2
 Flags: W
 Fore
 146 393 m 1,0,1
@@ -29589,12 +26981,11 @@ Fore
  1045 692 1045 692 1045 658 c 1,109,-1
  1045 658 l 1,97,98
 EndSplineSet
-Ligature: 0 0 'abvs' U0C1F U0C4C
+Ligature: 0 0 'liga' U0C1F U0C4C.abvs
 EndChar
 StartChar: U0C20_U0C4C.abvs
 Encoding: 65815 -1 369
 Width: 1057
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -29660,12 +27051,11 @@ Fore
  828 692 828 692 828 658 c 1,77,-1
  828 658 l 1,65,66
 EndSplineSet
-Ligature: 0 0 'abvs' U0C20 U0C4C
+Ligature: 0 0 'liga' U0C20 U0C4C.abvs
 EndChar
 StartChar: U0C21_U0C4C.abvs
 Encoding: 65816 -1 370
 Width: 1156
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -29750,12 +27140,11 @@ Fore
  926 692 926 692 926 658 c 1,107,-1
  926 658 l 1,95,96
 EndSplineSet
-Ligature: 0 0 'abvs' U0C21 U0C4C
+Ligature: 0 0 'liga' U0C21 U0C4C.abvs
 EndChar
 StartChar: U0C22_U0C4C.abvs
 Encoding: 65817 -1 371
 Width: 1136
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -29846,12 +27235,11 @@ Fore
  906 692 906 692 906 658 c 1,113,-1
  906 658 l 1,101,102
 EndSplineSet
-Ligature: 0 0 'abvs' U0C22 U0C4C
+Ligature: 0 0 'liga' U0C22 U0C4C.abvs
 EndChar
 StartChar: U0C23_U0C4C.abvs
 Encoding: 65818 -1 372
 Width: 1333
-GlyphClass: 2
 Flags: W
 Fore
 610 139 m 1,0,1
@@ -29951,12 +27339,11 @@ Fore
  1103 692 1103 692 1103 658 c 1,129,-1
  1103 658 l 1,117,118
 EndSplineSet
-Ligature: 0 0 'abvs' U0C23 U0C4C
+Ligature: 0 0 'liga' U0C23 U0C4C.abvs
 EndChar
 StartChar: U0C24_U0C4C.abvs
 Encoding: 65819 -1 373
 Width: 1149
-GlyphClass: 2
 Flags: W
 Fore
 122 376 m 1,0,1
@@ -30048,12 +27435,11 @@ Fore
  920 692 920 692 920 658 c 1,116,-1
  920 658 l 1,104,105
 EndSplineSet
-Ligature: 0 0 'abvs' U0C24 U0C4C
+Ligature: 0 0 'liga' U0C24 U0C4C.abvs
 EndChar
 StartChar: U0C25_U0C4C.abvs
 Encoding: 65820 -1 374
 Width: 1102
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -30135,12 +27521,11 @@ Fore
  872 692 872 692 872 658 c 1,97,-1
  872 658 l 1,85,86
 EndSplineSet
-Ligature: 0 0 'abvs' U0C25 U0C4C
+Ligature: 0 0 'liga' U0C25 U0C4C.abvs
 EndChar
 StartChar: U0C26_U0C4C.abvs
 Encoding: 65821 -1 375
 Width: 1093
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -30210,12 +27595,11 @@ Fore
  864 692 864 692 864 658 c 1,86,-1
  864 658 l 1,74,75
 EndSplineSet
-Ligature: 0 0 'abvs' U0C26 U0C4C
+Ligature: 0 0 'liga' U0C26 U0C4C.abvs
 EndChar
 StartChar: U0C27_U0C4C.abvs
 Encoding: 65822 -1 376
 Width: 1085
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -30291,12 +27675,11 @@ Fore
  855 692 855 692 855 658 c 1,92,-1
  855 658 l 1,80,81
 EndSplineSet
-Ligature: 0 0 'abvs' U0C27 U0C4C
+Ligature: 0 0 'liga' U0C27 U0C4C.abvs
 EndChar
 StartChar: U0C28_U0C4C.abvs
 Encoding: 65823 -1 377
 Width: 1049
-GlyphClass: 2
 Flags: W
 Fore
 493 82 m 1,0,1
@@ -30364,12 +27747,11 @@ Fore
  819 692 819 692 819 658 c 1,85,-1
  819 658 l 1,73,74
 EndSplineSet
-Ligature: 0 0 'abvs' U0C28 U0C4C
+Ligature: 0 0 'liga' U0C28 U0C4C.abvs
 EndChar
 StartChar: U0C2A_U0C4C.abvs
 Encoding: 65824 -1 378
 Width: 1100
-GlyphClass: 2
 Flags: W
 Fore
 102 148 m 1,0,1
@@ -30450,12 +27832,11 @@ Fore
  845 454 845 454 845 420 c 1,101,-1
  845 420 l 1,89,90
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2A U0C4C
+Ligature: 0 0 'liga' U0C2A U0C4C.abvs
 EndChar
 StartChar: U0C2B_U0C4C.abvs
 Encoding: 65825 -1 379
 Width: 1117
-GlyphClass: 2
 Flags: W
 Fore
 102 148 m 1,0,1
@@ -30542,12 +27923,11 @@ Fore
  862 454 862 454 862 420 c 1,107,-1
  862 420 l 1,95,96
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2B U0C4C
+Ligature: 0 0 'liga' U0C2B U0C4C.abvs
 EndChar
 StartChar: U0C2C_U0C4C.abvs
 Encoding: 65826 -1 380
 Width: 1129
-GlyphClass: 2
 Flags: W
 Fore
 578 82 m 1,0,1
@@ -30633,12 +28013,11 @@ Fore
  899 692 899 692 899 658 c 1,111,-1
  899 658 l 1,99,100
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2C U0C4C
+Ligature: 0 0 'liga' U0C2C U0C4C.abvs
 EndChar
 StartChar: U0C2D_U0C4C.abvs
 Encoding: 65827 -1 381
 Width: 1113
-GlyphClass: 2
 Flags: W
 Fore
 563 82 m 1,0,1
@@ -30724,12 +28103,11 @@ Fore
  884 692 884 692 884 658 c 1,111,-1
  884 658 l 1,99,100
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2D U0C4C
+Ligature: 0 0 'liga' U0C2D U0C4C.abvs
 EndChar
 StartChar: U0C2E_U0C4C.abvs
 Encoding: 65828 -1 382
 Width: 1588
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -30822,12 +28200,11 @@ Fore
  1360 704 1360 704 1360 670 c 1,120,-1
  1360 670 l 1,108,109
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2E U0C4C
+Ligature: 0 0 'liga' U0C2E U0C4C.abvs
 EndChar
 StartChar: U0C2F_U0C4C.abvs
 Encoding: 65829 -1 383
 Width: 1940
-GlyphClass: 2
 Flags: W
 Fore
 124 294 m 1,0,1
@@ -30927,12 +28304,11 @@ Fore
  942 212 942 212 942 304 c 1,128,-1
  942 304 l 1,26,27
 EndSplineSet
-Ligature: 0 0 'abvs' U0C2F U0C4C
+Ligature: 0 0 'liga' U0C2F U0C4C.abvs
 EndChar
 StartChar: U0C30_U0C4C.abvs
 Encoding: 65830 -1 384
 Width: 1015
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -30992,12 +28368,11 @@ Fore
  785 692 785 692 785 658 c 1,72,-1
  785 658 l 1,60,61
 EndSplineSet
-Ligature: 0 0 'abvs' U0C30 U0C4C
+Ligature: 0 0 'liga' U0C30 U0C4C.abvs
 EndChar
 StartChar: U0C31_U0C4C.abvs
 Encoding: 65831 -1 385
 Width: 1258
-GlyphClass: 2
 Flags: W
 Fore
 178 457 m 1,0,1
@@ -31096,12 +28471,11 @@ Fore
  1028 692 1028 692 1028 658 c 1,126,-1
  1028 658 l 1,114,115
 EndSplineSet
-Ligature: 0 0 'abvs' U0C31 U0C4C
+Ligature: 0 0 'liga' U0C31 U0C4C.abvs
 EndChar
 StartChar: U0C32_U0C4C.abvs
 Encoding: 65832 -1 386
 Width: 1142
-GlyphClass: 2
 Flags: W
 Fore
 190 457 m 1,0,1
@@ -31173,12 +28547,11 @@ Fore
  913 692 913 692 913 658 c 1,91,-1
  913 658 l 1,79,80
 EndSplineSet
-Ligature: 0 0 'abvs' U0C32 U0C4C
+Ligature: 0 0 'liga' U0C32 U0C4C.abvs
 EndChar
 StartChar: U0C33_U0C4C.abvs
 Encoding: 65833 -1 387
 Width: 1020
-GlyphClass: 2
 Flags: W
 Fore
 97 360 m 1,0,1
@@ -31270,12 +28643,11 @@ Fore
  790 692 790 692 790 658 c 1,116,-1
  790 658 l 1,104,105
 EndSplineSet
-Ligature: 0 0 'abvs' U0C33 U0C4C
+Ligature: 0 0 'liga' U0C33 U0C4C.abvs
 EndChar
 StartChar: U0C35_U0C4C.abvs
 Encoding: 65834 -1 388
 Width: 1078
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -31349,12 +28721,11 @@ Fore
  848 692 848 692 848 658 c 1,92,-1
  848 658 l 1,80,81
 EndSplineSet
-Ligature: 0 0 'abvs' U0C35 U0C4C
+Ligature: 0 0 'liga' U0C35 U0C4C.abvs
 EndChar
 StartChar: U0C36_U0C4C.abvs
 Encoding: 65835 -1 389
 Width: 945
-GlyphClass: 2
 Flags: W
 Fore
 270 184 m 1,0,1
@@ -31438,12 +28809,11 @@ Fore
  716 692 716 692 716 658 c 1,106,-1
  716 658 l 1,94,95
 EndSplineSet
-Ligature: 0 0 'abvs' U0C36 U0C4C
+Ligature: 0 0 'liga' U0C36 U0C4C.abvs
 EndChar
 StartChar: U0C37_U0C4C.abvs
 Encoding: 65836 -1 390
 Width: 1119
-GlyphClass: 2
 Flags: W
 Fore
 104 139 m 1,0,1
@@ -31531,12 +28901,11 @@ Fore
  864 454 864 454 864 420 c 1,110,-1
  864 420 l 1,98,99
 EndSplineSet
-Ligature: 0 0 'abvs' U0C37 U0C4C
+Ligature: 0 0 'liga' U0C37 U0C4C.abvs
 EndChar
 StartChar: U0C38_U0C4C.abvs
 Encoding: 65837 -1 391
 Width: 1107
-GlyphClass: 2
 Flags: W
 Fore
 467 82 m 1,0,1
@@ -31611,12 +28980,11 @@ Fore
  852 454 852 454 852 420 c 1,94,-1
  852 420 l 1,82,83
 EndSplineSet
-Ligature: 0 0 'abvs' U0C38 U0C4C
+Ligature: 0 0 'liga' U0C38 U0C4C.abvs
 EndChar
 StartChar: U0C39_U0C4C.abvs
 Encoding: 65838 -1 392
 Width: 1528
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -31726,12 +29094,11 @@ Fore
  1299 692 1299 692 1299 658 c 1,138,-1
  1299 658 l 1,126,127
 EndSplineSet
-Ligature: 0 0 'abvs' U0C39 U0C4C
+Ligature: 0 0 'liga' U0C39 U0C4C.abvs
 EndChar
 StartChar: U0C15_U0C4C_U0C37_U0C4D.akhn
 Encoding: 65839 -1 393
 Width: 1001
-GlyphClass: 2
 Flags: W
 Fore
 15 25 m 1,0,-1
@@ -31827,12 +29194,11 @@ Fore
  772 692 772 692 772 658 c 1,122,-1
  772 658 l 1,110,111
 EndSplineSet
-Ligature: 0 0 'akhn' U0C15 U0C4C U0C37 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C4C U0C37 U0C4D.akhn
 EndChar
 StartChar: U0C15_U0C4D.haln
 Encoding: 65840 -1 394
 Width: 592
-GlyphClass: 2
 Flags: W
 Fore
 148 442 m 1,0,1
@@ -31888,12 +29254,11 @@ Fore
  148 476 148 476 148 442 c 1,70,-1
  148 442 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'haln' U0C15 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C4D.haln
 EndChar
 StartChar: U0C16_U0C4D.haln
 Encoding: 65841 -1 395
 Width: 882
-GlyphClass: 2
 Flags: W
 Fore
 167 457 m 1,0,1
@@ -31985,12 +29350,11 @@ Fore
  684 0 684 0 575 0 c 1,117,-1
  575 0 l 1,27,28
 EndSplineSet
-Ligature: 0 0 'haln' U0C16 U0C4D
+Ligature: 0 0 'liga' U0C16 U0C4D.haln
 EndChar
 StartChar: U0C17_U0C4D.haln
 Encoding: 65842 -1 396
 Width: 649
-GlyphClass: 2
 Flags: W
 Fore
 46 0 m 1,0,1
@@ -32030,12 +29394,11 @@ Fore
  46 0 l 1,46,-1
  46 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'haln' U0C17 U0C4D
+Ligature: 0 0 'liga' U0C17 U0C4D.haln
 EndChar
 StartChar: U0C18_U0C4D.haln
 Encoding: 65843 -1 397
 Width: 1188
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -32122,12 +29485,11 @@ Fore
  272 556 l 1,108,-1
  272 556 l 1,74,-1
 EndSplineSet
-Ligature: 0 0 'haln' U0C18 U0C4D
+Ligature: 0 0 'liga' U0C18 U0C4D.haln
 EndChar
 StartChar: U0C19_U0C4D.haln
 Encoding: 65844 -1 398
 Width: 773
-GlyphClass: 2
 Flags: W
 Fore
 54 180 m 1,0,1
@@ -32209,12 +29571,11 @@ Fore
  54 105 54 105 54 180 c 1,104,-1
  54 180 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'haln' U0C19 U0C4D
+Ligature: 0 0 'liga' U0C19 U0C4D.haln
 EndChar
 StartChar: U0C1A_U0C4D.haln
 Encoding: 65845 -1 399
 Width: 801
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -32278,12 +29639,11 @@ Fore
  627 0 627 0 535 0 c 1,78,-1
  535 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'haln' U0C1A U0C4D
+Ligature: 0 0 'liga' U0C1A U0C4D.haln
 EndChar
 StartChar: U0C1B_U0C4D.haln
 Encoding: 65846 -1 400
 Width: 802
-GlyphClass: 2
 Flags: W
 Fore
 535 0 m 1,0,1
@@ -32353,12 +29713,11 @@ Fore
  627 0 627 0 535 0 c 1,84,-1
  535 0 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'haln' U0C1B U0C4D
+Ligature: 0 0 'liga' U0C1B U0C4D.haln
 EndChar
 StartChar: U0C1C_U0C4D.haln
 Encoding: 65847 -1 401
 Width: 806
-GlyphClass: 2
 Flags: W
 Fore
 56 180 m 1,0,1
@@ -32441,12 +29800,11 @@ Fore
  56 105 56 105 56 180 c 1,111,-1
  56 180 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'haln' U0C1C U0C4D
+Ligature: 0 0 'liga' U0C1C U0C4D.haln
 EndChar
 StartChar: U0C1D_U0C4D.haln
 Encoding: 65848 -1 402
 Width: 1479
-GlyphClass: 2
 Flags: W
 Fore
 124 294 m 1,0,1
@@ -32532,12 +29890,11 @@ Fore
  42 172 42 172 42 294 c 1,109,-1
  42 294 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'haln' U0C1D U0C4D
+Ligature: 0 0 'liga' U0C1D U0C4D.haln
 EndChar
 StartChar: U0C1E_U0C4D.haln
 Encoding: 65849 -1 403
 Width: 1013
-GlyphClass: 2
 Flags: W
 Fore
 19 393 m 1,0,1
@@ -32626,12 +29983,11 @@ Fore
  233 175 233 175 233 148 c 1,111,-1
  233 148 l 1,98,99
 EndSplineSet
-Ligature: 0 0 'haln' U0C1E U0C4D
+Ligature: 0 0 'liga' U0C1E U0C4D.haln
 EndChar
 StartChar: U0C1F_U0C4D.haln
 Encoding: 65850 -1 404
 Width: 926
-GlyphClass: 2
 Flags: W
 Fore
 146 393 m 1,0,1
@@ -32703,12 +30059,11 @@ Fore
  48 161 48 161 48 275 c 1,91,-1
  48 275 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'haln' U0C1F U0C4D
+Ligature: 0 0 'liga' U0C1F U0C4D.haln
 EndChar
 StartChar: U0C20_U0C4D.haln
 Encoding: 65851 -1 405
 Width: 675
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -32762,12 +30117,11 @@ Fore
  289 245 l 1,62,-1
  289 245 l 1,58,-1
 EndSplineSet
-Ligature: 0 0 'haln' U0C20 U0C4D
+Ligature: 0 0 'liga' U0C20 U0C4D.haln
 EndChar
 StartChar: U0C21_U0C4D.haln
 Encoding: 65852 -1 406
 Width: 841
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -32840,12 +30194,11 @@ Fore
  44 153 44 153 44 262 c 1,92,-1
  44 262 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'haln' U0C21 U0C4D
+Ligature: 0 0 'liga' U0C21 U0C4D.haln
 EndChar
 StartChar: U0C22_U0C4D.haln
 Encoding: 65853 -1 407
 Width: 841
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -32924,12 +30277,11 @@ Fore
  44 153 44 153 44 262 c 1,98,-1
  44 262 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'haln' U0C22 U0C4D
+Ligature: 0 0 'liga' U0C22 U0C4D.haln
 EndChar
 StartChar: U0C23_U0C4D.haln
 Encoding: 65854 -1 408
 Width: 952
-GlyphClass: 2
 Flags: W
 Fore
 610 139 m 1,0,1
@@ -33017,12 +30369,11 @@ Fore
  54 385 54 385 54 433 c 1,114,-1
  54 433 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'haln' U0C23 U0C4D
+Ligature: 0 0 'liga' U0C23 U0C4D.haln
 EndChar
 StartChar: U0C24_U0C4D.haln
 Encoding: 65855 -1 409
 Width: 818
-GlyphClass: 2
 Flags: W
 Fore
 122 376 m 1,0,1
@@ -33099,12 +30450,11 @@ Fore
  536 498 536 498 588 503 c 1,98,-1
  588 503 l 1,26,-1
 EndSplineSet
-Ligature: 0 0 'haln' U0C24 U0C4D
+Ligature: 0 0 'liga' U0C24 U0C4D.haln
 EndChar
 StartChar: U0C25_U0C4D.haln
 Encoding: 65856 -1 410
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -33174,12 +30524,11 @@ Fore
  355 311 l 1,82,-1
  355 311 l 1,78,-1
 EndSplineSet
-Ligature: 0 0 'haln' U0C25 U0C4D
+Ligature: 0 0 'liga' U0C25 U0C4D.haln
 EndChar
 StartChar: U0C26_U0C4D.haln
 Encoding: 65857 -1 411
 Width: 806
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -33237,12 +30586,11 @@ Fore
  44 144 44 144 44 245 c 1,71,-1
  44 245 l 1,20,21
 EndSplineSet
-Ligature: 0 0 'haln' U0C26 U0C4D
+Ligature: 0 0 'liga' U0C26 U0C4D.haln
 EndChar
 StartChar: U0C27_U0C4D.haln
 Encoding: 65858 -1 412
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 126 245 m 1,0,1
@@ -33306,12 +30654,11 @@ Fore
  44 144 44 144 44 245 c 1,77,-1
  44 245 l 1,20,21
 EndSplineSet
-Ligature: 0 0 'haln' U0C27 U0C4D
+Ligature: 0 0 'liga' U0C27 U0C4D.haln
 EndChar
 StartChar: U0C28_U0C4D.haln
 Encoding: 65859 -1 413
 Width: 758
-GlyphClass: 2
 Flags: W
 Fore
 493 82 m 1,0,1
@@ -33366,12 +30713,11 @@ Fore
  445 82 445 82 493 82 c 1,69,-1
  493 82 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'haln' U0C28 U0C4D
+Ligature: 0 0 'liga' U0C28 U0C4D.haln
 EndChar
 StartChar: U0C2A_U0C4D.haln
 Encoding: 65860 -1 414
 Width: 716
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -33437,12 +30783,11 @@ Fore
  280 556 l 1,80,-1
  280 556 l 1,46,-1
 EndSplineSet
-Ligature: 0 0 'haln' U0C2A U0C4D
+Ligature: 0 0 'liga' U0C2A U0C4D.haln
 EndChar
 StartChar: U0C2B_U0C4D.haln
 Encoding: 65861 -1 415
 Width: 722
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -33514,12 +30859,11 @@ Fore
  263 556 l 1,86,-1
  263 556 l 1,52,-1
 EndSplineSet
-Ligature: 0 0 'haln' U0C2B U0C4D
+Ligature: 0 0 'liga' U0C2B U0C4D.haln
 EndChar
 StartChar: U0C2C_U0C4D.haln
 Encoding: 65862 -1 416
 Width: 840
-GlyphClass: 2
 Flags: W
 Fore
 578 82 m 1,0,1
@@ -33590,12 +30934,11 @@ Fore
  527 82 527 82 578 82 c 1,93,-1
  578 82 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'haln' U0C2C U0C4D
+Ligature: 0 0 'liga' U0C2C U0C4D.haln
 EndChar
 StartChar: U0C2D_U0C4D.haln
 Encoding: 65863 -1 417
 Width: 807
-GlyphClass: 2
 Flags: W
 Fore
 563 82 m 1,0,1
@@ -33672,12 +31015,11 @@ Fore
  508 82 508 82 563 82 c 1,99,-1
  563 82 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'haln' U0C2D U0C4D
+Ligature: 0 0 'liga' U0C2D U0C4D.haln
 EndChar
 StartChar: U0C2E_U0C4D.haln
 Encoding: 65864 -1 418
 Width: 1187
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -33752,12 +31094,11 @@ Fore
  29 87 29 87 29 148 c 1,96,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'haln' U0C2E U0C4D
+Ligature: 0 0 'liga' U0C2E U0C4D.haln
 EndChar
 StartChar: U0C2F_U0C4D.haln
 Encoding: 65865 -1 419
 Width: 1550
-GlyphClass: 2
 Flags: W
 Fore
 124 294 m 1,0,1
@@ -33833,12 +31174,11 @@ Fore
  950 212 950 212 950 304 c 1,99,-1
  950 304 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'haln' U0C2F U0C4D
+Ligature: 0 0 'liga' U0C2F U0C4D.haln
 EndChar
 StartChar: U0C30_U0C4D.haln
 Encoding: 65866 -1 420
 Width: 675
-GlyphClass: 2
 Flags: W
 Fore
 124 303 m 1,0,1
@@ -33886,12 +31226,11 @@ Fore
  42 177 42 177 42 303 c 1,57,-1
  42 303 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'haln' U0C30 U0C4D
+Ligature: 0 0 'liga' U0C30 U0C4D.haln
 EndChar
 StartChar: U0C31_U0C4D.haln
 Encoding: 65867 -1 421
 Width: 947
-GlyphClass: 2
 Flags: W
 Fore
 178 457 m 1,0,1
@@ -33979,12 +31318,11 @@ Fore
  48 181 48 181 48 309 c 1,112,-1
  48 309 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'haln' U0C31 U0C4D
+Ligature: 0 0 'liga' U0C31 U0C4D.haln
 EndChar
 StartChar: U0C32_U0C4D.haln
 Encoding: 65868 -1 422
 Width: 833
-GlyphClass: 2
 Flags: W
 Fore
 190 457 m 1,0,1
@@ -34045,12 +31383,11 @@ Fore
  305 82 305 82 433 82 c 1,77,-1
  433 82 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'haln' U0C32 U0C4D
+Ligature: 0 0 'liga' U0C32 U0C4D.haln
 EndChar
 StartChar: U0C33_U0C4D.haln
 Encoding: 65869 -1 423
 Width: 702
-GlyphClass: 2
 Flags: W
 Fore
 97 360 m 1,0,1
@@ -34129,12 +31466,11 @@ Fore
  295 212 295 212 359 212 c 1,100,-1
  359 212 l 1,26,27
 EndSplineSet
-Ligature: 0 0 'haln' U0C33 U0C4D
+Ligature: 0 0 'liga' U0C33 U0C4D.haln
 EndChar
 StartChar: U0C35_U0C4D.haln
 Encoding: 65870 -1 424
 Width: 721
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -34195,12 +31531,11 @@ Fore
  29 87 29 87 29 148 c 1,76,-1
  29 148 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'haln' U0C35 U0C4D
+Ligature: 0 0 'liga' U0C35 U0C4D.haln
 EndChar
 StartChar: U0C36_U0C4D.haln
 Encoding: 65871 -1 425
 Width: 626
-GlyphClass: 2
 Flags: W
 Fore
 270 184 m 1,0,1
@@ -34269,12 +31604,11 @@ Fore
  197 111 197 111 197 189 c 1,88,-1
  197 189 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'haln' U0C36 U0C4D
+Ligature: 0 0 'liga' U0C36 U0C4D.haln
 EndChar
 StartChar: U0C37_U0C4D.haln
 Encoding: 65872 -1 426
 Width: 751
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -34347,12 +31681,11 @@ Fore
  272 556 l 1,89,-1
  272 556 l 1,55,-1
 EndSplineSet
-Ligature: 0 0 'haln' U0C37 U0C4D
+Ligature: 0 0 'liga' U0C37 U0C4D.haln
 EndChar
 StartChar: U0C38_U0C4D.haln
 Encoding: 65873 -1 427
 Width: 738
-GlyphClass: 2
 Flags: W
 Fore
 476 82 m 1,0,1
@@ -34412,12 +31745,11 @@ Fore
  286 556 l 1,73,-1
  286 556 l 1,39,-1
 EndSplineSet
-Ligature: 0 0 'haln' U0C38 U0C4D
+Ligature: 0 0 'liga' U0C38 U0C4D.haln
 EndChar
 StartChar: U0C39_U0C4D.haln
 Encoding: 65874 -1 428
 Width: 1103
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -34507,12 +31839,11 @@ Fore
  306 556 l 1,111,-1
  306 556 l 1,77,-1
 EndSplineSet
-Ligature: 0 0 'haln' U0C39 U0C4D
+Ligature: 0 0 'liga' U0C39 U0C4D.haln
 EndChar
 StartChar: U0C15_U0C37_U0C4D.akhn_U0C4D.haln
 Encoding: 65875 -1 429
 Width: 639
-GlyphClass: 2
 Flags: W
 Fore
 15 25 m 1,0,-1
@@ -34596,12 +31927,11 @@ Fore
  160 467 160 467 160 433 c 1,107,-1
  160 433 l 1,37,38
 EndSplineSet
-Ligature: 0 0 'haln' U0C15_U0C37_U0C4D.akhn U0C4D
+Ligature: 0 0 'liga' U0C15 U0C37 U0C4D.akhn U0C4D.haln
 EndChar
 StartChar: U0C1C_U0C41.psts
 Encoding: 65876 -1 430
 Width: 1062
-GlyphClass: 2
 Flags: W
 Fore
 56 180 m 1,0,1
@@ -34687,12 +32017,11 @@ Fore
  56 105 56 105 56 180 c 1,116,-1
  56 180 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'psts' U0C1C U0C41
+Ligature: 0 0 'liga' U0C1C U0C41.psts
 EndChar
 StartChar: U0C1C_U0C42.psts
 Encoding: 65877 -1 431
 Width: 1453
-GlyphClass: 2
 Flags: W
 Fore
 399 422 m 1,0,-1
@@ -34799,12 +32128,11 @@ Fore
  1197 508 1197 508 1197 474 c 1,142,-1
  1197 474 l 1,130,131
 EndSplineSet
-Ligature: 0 0 'psts' U0C1C U0C42
+Ligature: 0 0 'liga' U0C1C U0C42.psts
 EndChar
 StartChar: U0C2A_U0C41.psts
 Encoding: 65878 -1 432
 Width: 1028
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -34872,12 +32200,11 @@ Fore
  14 700 14 700 14 792 c 1,83,-1
  14 792 l 1,67,-1
 EndSplineSet
-Ligature: 0 0 'psts' U0C2A U0C41
+Ligature: 0 0 'liga' U0C2A U0C41.psts
 EndChar
 StartChar: U0C2A_U0C42.psts
 Encoding: 65879 -1 433
 Width: 1496
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -34970,12 +32297,11 @@ Fore
  14 700 14 700 14 792 c 1,115,-1
  14 792 l 1,99,-1
 EndSplineSet
-Ligature: 0 0 'psts' U0C2A U0C42
+Ligature: 0 0 'liga' U0C2A U0C42.psts
 EndChar
 StartChar: U0C2B_U0C41.psts
 Encoding: 65880 -1 434
 Width: 1028
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -35047,12 +32373,11 @@ Fore
  14 700 14 700 14 792 c 1,88,-1
  14 792 l 1,72,-1
 EndSplineSet
-Ligature: 0 0 'psts' U0C2B U0C41
+Ligature: 0 0 'liga' U0C2B U0C41.psts
 EndChar
 StartChar: U0C2B_U0C42.psts
 Encoding: 65881 -1 435
 Width: 1496
-GlyphClass: 2
 Flags: W
 Fore
 95 148 m 1,0,1
@@ -35149,12 +32474,11 @@ Fore
  14 700 14 700 14 792 c 1,120,-1
  14 792 l 1,104,-1
 EndSplineSet
-Ligature: 0 0 'psts' U0C2B U0C42
+Ligature: 0 0 'liga' U0C2B U0C42.psts
 EndChar
 StartChar: U0C35_U0C41.psts
 Encoding: 65882 -1 436
 Width: 1028
-GlyphClass: 2
 Flags: W
 Fore
 68 728 m 1,0,-1
@@ -35217,12 +32541,11 @@ Fore
  896 53 896 53 896 195 c 1,78,-1
  896 195 l 1,58,59
 EndSplineSet
-Ligature: 0 0 'psts' U0C35 U0C41
+Ligature: 0 0 'liga' U0C35 U0C41.psts
 EndChar
 StartChar: U0C35_U0C42.psts
 Encoding: 65883 -1 437
 Width: 1496
-GlyphClass: 2
 Flags: W
 Fore
 75 728 m 1,0,-1
@@ -35311,12 +32634,11 @@ Fore
  1239 508 1239 508 1239 474 c 1,111,-1
  1239 474 l 1,99,100
 EndSplineSet
-Ligature: 0 0 'psts' U0C35 U0C42
+Ligature: 0 0 'liga' U0C35 U0C42.psts
 EndChar
 StartChar: U0C15_U0C4D.blwf
 Encoding: 65884 -1 438
 Width: 626
-GlyphClass: 2
 Flags: W
 Fore
 3 -163 m 1,0,1
@@ -35348,13 +32670,11 @@ Fore
  3 -278 3 -278 3 -163 c 1,36,-1
  3 -163 l 1,0,1
 EndSplineSet
-Substitution: 0 65534 'L001' glyph496
-Ligature: 0 0 'blwf' U0C15 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C4D.blwf
 EndChar
 StartChar: U0C16_U0C4D.blwf
 Encoding: 65885 -1 439
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -551 -146 m 1,0,1
@@ -35424,13 +32744,11 @@ Fore
  -188 -481 -188 -481 -260 -481 c 1,87,-1
  -260 -481 l 1,27,28
 EndSplineSet
-Substitution: 0 65534 'L001' glyph497
-Ligature: 0 0 'blwf' U0C16 U0C4D
+Ligature: 0 0 'liga' U0C16 U0C4D.blwf
 EndChar
 StartChar: U0C17_U0C4D.blwf
 Encoding: 65886 -1 440
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -610 -508 m 1,0,1
@@ -35446,13 +32764,11 @@ Fore
  -610 -508 l 1,14,-1
  -610 -508 l 1,0,1
 EndSplineSet
-Substitution: 0 65534 'L001' glyph498
-Ligature: 0 0 'blwf' U0C17 U0C4D
+Ligature: 0 0 'liga' U0C17 U0C4D.blwf
 EndChar
 StartChar: U0C18_U0C4D.blwf
 Encoding: 65887 -1 441
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -935 -386 m 1,0,1
@@ -35509,13 +32825,11 @@ Fore
  -1001 -447 -1001 -447 -1001 -386 c 1,70,-1
  -1001 -386 l 1,13,14
 EndSplineSet
-Substitution: 0 65534 'L001' glyph499
-Ligature: 0 0 'blwf' U0C18 U0C4D
+Ligature: 0 0 'liga' U0C18 U0C4D.blwf
 EndChar
 StartChar: U0C19_U0C4D.blwf
 Encoding: 65888 -1 442
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -707 -377 m 1,0,1
@@ -35573,13 +32887,11 @@ Fore
  -707 -438 -707 -438 -707 -377 c 1,72,-1
  -707 -377 l 1,0,1
 EndSplineSet
-Substitution: 0 65534 'L001' glyph500
-Ligature: 0 0 'blwf' U0C19 U0C4D
+Ligature: 0 0 'liga' U0C19 U0C4D.blwf
 EndChar
 StartChar: U0C1A_U0C4D.blwf
 Encoding: 65889 -1 443
 Width: 515
-GlyphClass: 2
 Flags: W
 Fore
 -175 -99 m 1,0,-1
@@ -35615,13 +32927,11 @@ Fore
  -175 -99 l 1,42,-1
  -175 -99 l 1,0,-1
 EndSplineSet
-Substitution: 0 65534 'L001' glyph501
-Ligature: 0 0 'blwf' U0C1A U0C4D
+Ligature: 0 0 'liga' U0C1A U0C4D.blwf
 EndChar
 StartChar: U0C1B_U0C4D.blwf
 Encoding: 65890 -1 444
 Width: 503
-GlyphClass: 2
 Flags: W
 Fore
 -185 -99 m 1,0,-1
@@ -35663,13 +32973,11 @@ Fore
  -185 -99 l 1,48,-1
  -185 -99 l 1,0,-1
 EndSplineSet
-Substitution: 0 65534 'L001' glyph502
-Ligature: 0 0 'blwf' U0C1B U0C4D
+Ligature: 0 0 'liga' U0C1B U0C4D.blwf
 EndChar
 StartChar: U0C1C_U0C4D.blwf
 Encoding: 65891 -1 445
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -707 -369 m 1,0,1
@@ -35733,13 +33041,11 @@ Fore
  -707 -429 -707 -429 -707 -369 c 1,84,-1
  -707 -369 l 1,0,1
 EndSplineSet
-Substitution: 0 65534 'L001' glyph503
-Ligature: 0 0 'blwf' U0C1C U0C4D
+Ligature: 0 0 'liga' U0C1C U0C4D.blwf
 EndChar
 StartChar: U0C1D_U0C4D.blwf
 Encoding: 65892 -1 446
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -1050 -265 m 1,0,1
@@ -35799,13 +33105,11 @@ Fore
  -1132 -360 -1132 -360 -1132 -265 c 1,75,-1
  -1132 -265 l 1,13,14
 EndSplineSet
-Substitution: 0 65534 'L001' glyph504
-Ligature: 0 0 'blwf' U0C1D U0C4D
+Ligature: 0 0 'liga' U0C1D U0C4D.blwf
 EndChar
 StartChar: U0C1E_U0C4D.blwf
 Encoding: 65893 -1 447
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -638 -377 m 1,0,1
@@ -35871,13 +33175,11 @@ Fore
  -782 -207 -782 -207 -782 -180 c 1,81,-1
  -782 -180 l 1,14,15
 EndSplineSet
-Substitution: 0 65534 'L001' glyph505
-Ligature: 0 0 'blwf' U0C1E U0C4D
+Ligature: 0 0 'liga' U0C1E U0C4D.blwf
 EndChar
 StartChar: U0C1F_U0C4D.blwf
 Encoding: 65894 -1 448
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -612 -180 m 1,0,1
@@ -35927,13 +33229,11 @@ Fore
  -760 -380 -760 -380 -760 -279 c 1,62,-1
  -760 -279 l 1,13,14
 EndSplineSet
-Substitution: 0 65534 'L001' glyph506
-Ligature: 0 0 'blwf' U0C1F U0C4D
+Ligature: 0 0 'liga' U0C1F U0C4D.blwf
 EndChar
 StartChar: U0C20_U0C4D.blwf
 Encoding: 65895 -1 449
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -379 -229 m 1,0,-1
@@ -35963,13 +33263,11 @@ Fore
  -494 -211 -494 -211 -494 -279 c 1,30,-1
  -494 -279 l 1,18,19
 EndSplineSet
-Substitution: 0 65534 'L001' glyph507
-Ligature: 0 0 'blwf' U0C20 U0C4D
+Ligature: 0 0 'liga' U0C20 U0C4D.blwf
 EndChar
 StartChar: U0C21_U0C4D.blwf
 Encoding: 65896 -1 450
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -313 -354 m 1,0,1
@@ -36017,13 +33315,11 @@ Fore
  -787 -402 -787 -402 -787 -320 c 1,59,-1
  -787 -320 l 1,13,14
 EndSplineSet
-Substitution: 0 65534 'L001' glyph508
-Ligature: 0 0 'blwf' U0C21 U0C4D
+Ligature: 0 0 'liga' U0C21 U0C4D.blwf
 EndChar
 StartChar: U0C22_U0C4D.blwf
 Encoding: 65897 -1 451
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -313 -362 m 1,0,1
@@ -36075,13 +33371,11 @@ Fore
  -787 -410 -787 -410 -787 -328 c 1,63,-1
  -787 -328 l 1,13,14
 EndSplineSet
-Substitution: 0 65534 'L001' glyph509
-Ligature: 0 0 'blwf' U0C22 U0C4D
+Ligature: 0 0 'liga' U0C22 U0C4D.blwf
 EndChar
 StartChar: U0C23_U0C4D.blwf
 Encoding: 65898 -1 452
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -297 -384 m 1,0,1
@@ -36145,13 +33439,11 @@ Fore
  -707 -208 -707 -208 -707 -173 c 1,82,-1
  -707 -173 l 1,13,14
 EndSplineSet
-Substitution: 0 65534 'L001' glyph510
-Ligature: 0 0 'blwf' U0C23 U0C4D
+Ligature: 0 0 'liga' U0C23 U0C4D.blwf
 EndChar
 StartChar: U0C24_U0C4D.blwf
 Encoding: 65899 -1 453
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -99 -133 m 1,0,1
@@ -36180,13 +33472,11 @@ Fore
  -181 -245 -181 -245 -181 -279 c 1,30,-1
  -181 -279 l 1,18,19
 EndSplineSet
-Substitution: 0 65534 'L001' glyph511
-Ligature: 0 0 'blwf' U0C24 U0C4D
+Ligature: 0 0 'liga' U0C24 U0C4D.blwf
 EndChar
 StartChar: U0C25_U0C4D.blwf
 Encoding: 65900 -1 454
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -690 -345 m 1,0,1
@@ -36230,13 +33520,11 @@ Fore
  -478 -279 l 1,48,-1
  -478 -279 l 1,44,-1
 EndSplineSet
-Substitution: 0 65534 'L001' glyph512
-Ligature: 0 0 'blwf' U0C25 U0C4D
+Ligature: 0 0 'liga' U0C25 U0C4D.blwf
 EndChar
 StartChar: U0C26_U0C4D.blwf
 Encoding: 65901 -1 455
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -690 -371 m 1,0,1
@@ -36270,13 +33558,11 @@ Fore
  -772 -446 -772 -446 -772 -371 c 1,39,-1
  -772 -371 l 1,20,21
 EndSplineSet
-Substitution: 0 65534 'L001' glyph513
-Ligature: 0 0 'blwf' U0C26 U0C4D
+Ligature: 0 0 'liga' U0C26 U0C4D.blwf
 EndChar
 StartChar: U0C27_U0C4D.blwf
 Encoding: 65902 -1 456
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -690 -371 m 1,0,1
@@ -36314,13 +33600,11 @@ Fore
  -772 -446 -772 -446 -772 -371 c 1,43,-1
  -772 -371 l 1,20,21
 EndSplineSet
-Substitution: 0 65534 'L001' glyph514
-Ligature: 0 0 'blwf' U0C27 U0C4D
+Ligature: 0 0 'liga' U0C27 U0C4D.blwf
 EndChar
 StartChar: U0C28_U0C4D.blwf
 Encoding: 65903 -1 457
 Width: 318
-GlyphClass: 2
 Flags: W
 Fore
 -235 -243 m 1,0,1
@@ -36362,13 +33646,11 @@ Fore
  -325 -314 -325 -314 -325 -243 c 1,49,-1
  -325 -243 l 1,14,15
 EndSplineSet
-Substitution: 0 65534 'L001' glyph515
-Ligature: 0 0 'blwf' U0C28 U0C4D
+Ligature: 0 0 'liga' U0C28 U0C4D.blwf
 EndChar
 StartChar: U0C2A_U0C4D.blwf
 Encoding: 65904 -1 458
 Width: 394
-GlyphClass: 2
 Flags: W
 Fore
 -213 -252 m 1,0,1
@@ -36406,13 +33688,11 @@ Fore
  -279 -312 -279 -312 -279 -252 c 1,45,-1
  -279 -252 l 1,13,14
 EndSplineSet
-Substitution: 0 65534 'L001' glyph516
-Ligature: 0 0 'blwf' U0C2A U0C4D
+Ligature: 0 0 'liga' U0C2A U0C4D.blwf
 EndChar
 StartChar: U0C2B_U0C4D.blwf
 Encoding: 65905 -1 459
 Width: 398
-GlyphClass: 2
 Flags: W
 Fore
 -211 -252 m 1,0,1
@@ -36454,13 +33734,11 @@ Fore
  -277 -312 -277 -312 -277 -252 c 1,49,-1
  -277 -252 l 1,13,14
 EndSplineSet
-Substitution: 0 65534 'L001' glyph517
-Ligature: 0 0 'blwf' U0C2B U0C4D
+Ligature: 0 0 'liga' U0C2B U0C4D.blwf
 EndChar
 StartChar: U0C2C_U0C4D.blwf
 Encoding: 65906 -1 460
 Width: 479
-GlyphClass: 2
 Flags: W
 Fore
 -192 -377 m 1,0,1
@@ -36506,13 +33784,11 @@ Fore
  -192 -431 -192 -431 -192 -377 c 1,58,-1
  -192 -377 l 1,0,1
 EndSplineSet
-Substitution: 0 65534 'L001' glyph518
-Ligature: 0 0 'blwf' U0C2C U0C4D
+Ligature: 0 0 'liga' U0C2C U0C4D.blwf
 EndChar
 StartChar: U0C2D_U0C4D.blwf
 Encoding: 65907 -1 461
 Width: 480
-GlyphClass: 2
 Flags: W
 Fore
 -190 -377 m 1,0,1
@@ -36562,13 +33838,11 @@ Fore
  -190 -431 -190 -431 -190 -377 c 1,62,-1
  -190 -377 l 1,0,1
 EndSplineSet
-Substitution: 0 65534 'L001' glyph519
-Ligature: 0 0 'blwf' U0C2D U0C4D
+Ligature: 0 0 'liga' U0C2D U0C4D.blwf
 EndChar
 StartChar: U0C2E_U0C4D.blwf
 Encoding: 65908 -1 462
 Width: 308
-GlyphClass: 2
 Flags: W
 Fore
 84 -201 m 1,0,1
@@ -36616,13 +33890,11 @@ Fore
  -195 -387 -195 -387 -195 -265 c 1,59,-1
  -195 -265 l 1,14,15
 EndSplineSet
-Substitution: 0 65534 'L001' glyph520
-Ligature: 0 0 'blwf' U0C2E U0C4D
+Ligature: 0 0 'liga' U0C2E U0C4D.blwf
 EndChar
 StartChar: U0C2F_U0C4D.blwf
 Encoding: 65909 -1 463
 Width: 368
-GlyphClass: 2
 Flags: W
 Fore
 -82 -388 m 1,0,1
@@ -36670,15 +33942,12 @@ Fore
  -82 -445 -82 -445 -82 -388 c 1,62,-1
  -82 -388 l 1,0,1
 EndSplineSet
-Substitution: 0 65534 'L001' glyph521
-Ligature: 0 0 'blwf' U0C2F U0C4D
+Ligature: 0 0 'liga' U0C2F U0C4D.blwf
 EndChar
 StartChar: U0C30_U0C4D.blwf
 Encoding: 65910 -1 464
 Width: 0
-GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" -405 -70 mark 0
 Fore
 -777 -68 m 1,0,-1
  -692 -68 l 1,1,2
@@ -36693,19 +33962,12 @@ Fore
  -777 -177 -777 -177 -777 -68 c 1,14,-1
  -777 -68 l 1,0,-1
 EndSplineSet
-Substitution: 0 65534 'L000' glyph536
-Substitution: 0 65534 'L002' glyph536
-Substitution: 0 65534 'L003' glyph495
-Substitution: 0 65534 'L004' glyph494
-Substitution: 0 65534 'L005' glyph493
-Ligature: 0 0 'blwf' U0C30 U0C4D
+Ligature: 0 0 'liga' U0C30 U0C4D.blwf
 EndChar
 StartChar: U0C31_U0C4D.blwf
 Encoding: 65911 -1 465
 Width: 0
-GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" -298 -16 mark 0
 Fore
 -511 -177 m 1,0,1
  -511 -211 -511 -211 -492 -234.5 c 128,-1,2
@@ -36770,13 +34032,11 @@ Fore
  -579 -248 -579 -248 -579 -275 c 1,81,-1
  -579 -275 l 1,50,51
 EndSplineSet
-Substitution: 0 65534 'L001' glyph523
-Ligature: 0 0 'blwf' U0C31 U0C4D
+Ligature: 0 0 'liga' U0C31 U0C4D.blwf
 EndChar
 StartChar: U0C32_U0C4D.blwf
 Encoding: 65912 -1 466
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -687 -323 m 1,0,1
@@ -36810,13 +34070,11 @@ Fore
  -687 -374 -687 -374 -687 -323 c 1,40,-1
  -687 -323 l 1,0,1
 EndSplineSet
-Substitution: 0 65534 'L001' glyph524
-Ligature: 0 0 'blwf' U0C32 U0C4D
+Ligature: 0 0 'liga' U0C32 U0C4D.blwf
 EndChar
 StartChar: U0C33_U0C4D.blwf
 Encoding: 65913 -1 467
 Width: 381
-GlyphClass: 2
 Flags: W
 Fore
 -238 -131 m 1,0,1
@@ -36872,13 +34130,11 @@ Fore
  -316 -220 -316 -220 -316 -150 c 1,69,-1
  -316 -150 l 1,26,27
 EndSplineSet
-Substitution: 0 65534 'L001' glyph525
-Ligature: 0 0 'blwf' U0C33 U0C4D
+Ligature: 0 0 'liga' U0C33 U0C4D.blwf
 EndChar
 StartChar: U0C35_U0C4D.blwf
 Encoding: 65914 -1 468
 Width: 438
-GlyphClass: 2
 Flags: W
 Fore
 -118 -218 m 1,0,1
@@ -36928,13 +34184,11 @@ Fore
  -184 -278 -184 -278 -184 -218 c 1,63,-1
  -184 -218 l 1,13,14
 EndSplineSet
-Substitution: 0 65534 'L001' glyph526
-Ligature: 0 0 'blwf' U0C35 U0C4D
+Ligature: 0 0 'liga' U0C35 U0C4D.blwf
 EndChar
 StartChar: U0C36_U0C4D.blwf
 Encoding: 65915 -1 469
 Width: 331
-GlyphClass: 2
 Flags: W
 Fore
 -11 -394 m 1,0,1
@@ -36984,13 +34238,11 @@ Fore
  -257 -276 -257 -276 -257 -248 c 1,61,-1
  -257 -248 l 1,14,15
 EndSplineSet
-Substitution: 0 65534 'L001' glyph527
-Ligature: 0 0 'blwf' U0C36 U0C4D
+Ligature: 0 0 'liga' U0C36 U0C4D.blwf
 EndChar
 StartChar: U0C37_U0C4D.blwf
 Encoding: 65916 -1 470
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -821 -386 m 1,0,1
@@ -37034,13 +34286,11 @@ Fore
  -887 -447 -887 -447 -887 -386 c 1,53,-1
  -887 -386 l 1,13,14
 EndSplineSet
-Substitution: 0 65534 'L001' glyph528
-Ligature: 0 0 'blwf' U0C37 U0C4D
+Ligature: 0 0 'liga' U0C37 U0C4D.blwf
 EndChar
 StartChar: U0C38_U0C4D.blwf
 Encoding: 65917 -1 471
 Width: 429
-GlyphClass: 2
 Flags: W
 Fore
 -248 -252 m 1,0,1
@@ -37072,13 +34322,11 @@ Fore
  -248 -299 -248 -299 -248 -252 c 1,38,-1
  -248 -252 l 1,0,1
 EndSplineSet
-Substitution: 0 65534 'L001' glyph529
-Ligature: 0 0 'blwf' U0C38 U0C4D
+Ligature: 0 0 'liga' U0C38 U0C4D.blwf
 EndChar
 StartChar: U0C39_U0C4D.blwf
 Encoding: 65918 -1 472
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -616 -352 m 1,0,1
@@ -37141,13 +34389,11 @@ Fore
  103 -163 103 -163 103 -197 c 1,77,-1
  103 -197 l 1,65,66
 EndSplineSet
-Substitution: 0 65534 'L001' glyph530
-Ligature: 0 0 'blwf' U0C39 U0C4D
+Ligature: 0 0 'liga' U0C39 U0C4D.blwf
 EndChar
 StartChar: U0C15_U0C4D.blwf_U0C37_U0C4D.blwf.blwf
 Encoding: 65919 -1 473
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -789 -473 m 1,0,-1
@@ -37207,12 +34453,11 @@ Fore
  -651 -152 -651 -152 -651 -177 c 1,75,-1
  -651 -177 l 1,37,38
 EndSplineSet
-Ligature: 0 0 'blwf' U0C15_U0C4D.blwf U0C37_U0C4D.blwf
+Ligature: 0 0 'liga' U0C15 U0C4D.blwf U0C37 U0C4D.blwf.blwf
 EndChar
 StartChar: U0C56_U0C24_U0C4D.blwf.blws
 Encoding: 65920 -1 474
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -551 -121 m 1,0,1
@@ -37266,12 +34511,11 @@ Fore
  -136 -352 -136 -352 -136 -382 c 1,61,-1
  -136 -382 l 1,49,50
 EndSplineSet
-Ligature: 0 0 'blws' U0C56 U0C24_U0C4D.blwf
+Ligature: 0 0 'liga' U0C56 U0C24 U0C4D.blwf.blws
 EndChar
 StartChar: glyph471
 Encoding: 65921 -1 475
 Width: 516
-GlyphClass: 2
 Flags: W
 Fore
 -604 25 m 1,0,-1
@@ -37349,7 +34593,6 @@ EndChar
 StartChar: U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws
 Encoding: 65922 -1 476
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -752 -246 m 1,0,-1
@@ -37390,12 +34633,11 @@ Fore
  -247 -136 -247 -136 -247 -163 c 1,45,-1
  -247 -163 l 1,33,34
 EndSplineSet
-Ligature: 0 0 'blws' U0C24_U0C4D.blwf U0C30_U0C4D.blwf
+Ligature: 0 0 'liga' U0C24 U0C4D.blwf U0C30 U0C4D.blwf.blws
 EndChar
 StartChar: glyph473
 Encoding: 65923 -1 477
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -722 -382 m 1,0,-1
@@ -37461,7 +34703,6 @@ EndChar
 StartChar: U0C15_U0C37_U0C4D.akhn
 Encoding: 65924 -1 478
 Width: 639
-GlyphClass: 2
 Flags: W
 Fore
 15 25 m 1,0,-1
@@ -37531,12 +34772,11 @@ Fore
  160 467 160 467 160 433 c 1,88,-1
  160 433 l 1,37,38
 EndSplineSet
-Ligature: 0 0 'akhn' U0C15 U0C37 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C37 U0C4D.akhn
 EndChar
 StartChar: U0C36_U0C40.abvs_U0C30_U0C4D.blwf.blws
 Encoding: 65925 -1 479
 Width: 877
-GlyphClass: 2
 Flags: W
 Fore
 20 75 m 1,0,-1
@@ -37628,12 +34868,11 @@ Fore
  350 685 350 685 350 651 c 1,119,-1
  350 651 l 1,107,108
 EndSplineSet
-Ligature: 0 0 'blws' U0C36_U0C40.abvs U0C30_U0C4D.blwf
+Ligature: 0 0 'liga' U0C36 U0C40.abvs U0C30 U0C4D.blwf.blws
 EndChar
 StartChar: U0C38_U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws
 Encoding: 65926 -1 480
 Width: 896
-GlyphClass: 2
 Flags: W
 Fore
 649 -68 m 1,0,1
@@ -37714,13 +34953,11 @@ Fore
  71 680 71 680 71 768 c 1,99,-1
  71 768 l 1,83,-1
 EndSplineSet
-Ligature: 0 0 'blws' U0C38 U0C24_U0C4D.blwf U0C30_U0C4D.blwf
-Ligature: 0 0 'akhn' U0C38_U0C4D.haln U0C1F U0C30_U0C4D.blwf
+Ligature: 0 0 'liga' U0C38 U0C24 U0C4D.blwf U0C30 U0C4D.blwf.blws
 EndChar
 StartChar: U0C38_U0C3F.abvs_U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws
 Encoding: 65927 -1 481
 Width: 896
-GlyphClass: 2
 Flags: W
 Fore
 643 -63 m 1,0,1
@@ -37816,12 +35053,11 @@ Fore
  479 82 479 82 513 82 c 1,121,-1
  513 82 l 1,83,84
 EndSplineSet
-Ligature: 0 0 'blws' U0C38_U0C3F.abvs U0C24_U0C4D.blwf U0C30_U0C4D.blwf
+Ligature: 0 0 'liga' U0C38 U0C3F.abvs U0C24 U0C4D.blwf U0C30 U0C4D.blwf.blws
 EndChar
 StartChar: U0C38_U0C24_U0C30_U0C40.akhn
 Encoding: 65928 -1 482
 Width: 896
-GlyphClass: 2
 Flags: W
 Fore
 651 -63 m 1,0,1
@@ -37930,13 +35166,11 @@ Fore
  770 -382 770 -382 852 -325 c 1,140,-1
  852 -325 l 1,126,-1
 EndSplineSet
-Ligature: 0 0 'blws' U0C38_U0C40.abvs U0C24_U0C4D.blwf U0C30_U0C4D.blwf
-Ligature: 0 0 'akhn' U0C38 U0C24 U0C30 U0C40
+Ligature: 0 0 'liga' U0C38 U0C24 U0C30 U0C40.akhn
 EndChar
 StartChar: U0C37_U0C1F_U0C4D.blwf_U0C30_U0C4D.blwf.blws
 Encoding: 65929 -1 483
 Width: 892
-GlyphClass: 2
 Flags: W
 Fore
 109 148 m 1,0,1
@@ -38049,13 +35283,11 @@ Fore
  759 -417 759 -417 824 -347 c 1,145,-1
  824 -347 l 1,131,-1
 EndSplineSet
-Ligature: 0 0 'blws' U0C37 U0C1F_U0C4D.blwf U0C30_U0C4D.blwf
-Ligature: 0 0 'akhn' U0C37_U0C4D.haln U0C24 U0C30_U0C4D.blwf
+Ligature: 0 0 'liga' U0C37 U0C1F U0C4D.blwf U0C30 U0C4D.blwf.blws
 EndChar
 StartChar: U0C37_U0C1F_U0C30_U0C40.akhn
 Encoding: 65930 -1 484
 Width: 881
-GlyphClass: 2
 Flags: W
 Fore
 97 148 m 1,0,1
@@ -38196,13 +35428,11 @@ Fore
  739 -383 739 -383 804 -313 c 1,186,-1
  804 -313 l 1,172,-1
 EndSplineSet
-Ligature: 0 0 'blws' U0C37_U0C40.abvs U0C1F_U0C4D.blwf U0C30_U0C4D.blwf
-Ligature: 0 0 'akhn' U0C37 U0C1F U0C30 U0C40
+Ligature: 0 0 'liga' U0C37 U0C1F U0C30 U0C40.akhn
 EndChar
 StartChar: U0C15_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts
 Encoding: 65931 -1 485
 Width: 1204
-GlyphClass: 2
 Flags: W
 Fore
 90 768 m 1,0,-1
@@ -38311,12 +35541,11 @@ Fore
  655 -119 655 -119 675 -148 c 1,144,-1
  675 -148 l 1,65,66
 EndSplineSet
-Ligature: 0 0 'psts' U0C15_U0C37_U0C4D.akhn U0C2E_U0C4D.blwf
+Ligature: 0 0 'liga' U0C15 U0C37 U0C4D.akhn U0C2E U0C4D.blwf.psts
 EndChar
 StartChar: U0C15_U0C3F_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts
 Encoding: 65932 -1 486
 Width: 1204
-GlyphClass: 2
 Flags: W
 Fore
 126 835 m 1,0,1
@@ -38442,12 +35671,11 @@ Fore
  655 -119 655 -119 675 -148 c 1,169,-1
  675 -148 l 1,90,91
 EndSplineSet
-Ligature: 0 0 'psts' U0C15_U0C3F_U0C37_U0C4D.akhn U0C2E_U0C4D.blwf
+Ligature: 0 0 'liga' U0C15 U0C3F U0C37 U0C4D.akhn U0C2E U0C4D.blwf.psts
 EndChar
 StartChar: U0C15_U0C40_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts
 Encoding: 65933 -1 487
 Width: 1204
-GlyphClass: 2
 Flags: W
 Fore
 141 1030 m 1,0,1
@@ -38587,12 +35815,11 @@ Fore
  15 -56 15 -56 15 25 c 1,189,-1
  15 25 l 1,110,-1
 EndSplineSet
-Ligature: 0 0 'psts' U0C15_U0C40_U0C37_U0C4D.akhn U0C2E_U0C4D.blwf
+Ligature: 0 0 'liga' U0C15 U0C40 U0C37 U0C4D.akhn U0C2E U0C4D.blwf.psts
 EndChar
 StartChar: U0C37_U0C3F.abvs_U0C1F_U0C4D.blwf_U0C30_U0C4D.blwf.blws
 Encoding: 65934 -1 488
 Width: 756
-GlyphClass: 2
 Flags: W
 Fore
 97 148 m 1,0,1
@@ -38720,12 +35947,11 @@ Fore
  739 -383 739 -383 804 -313 c 1,167,-1
  804 -313 l 1,153,-1
 EndSplineSet
-Ligature: 0 0 'blws' U0C37_U0C3F.abvs U0C1F_U0C4D.blwf U0C30_U0C4D.blwf
+Ligature: 0 0 'liga' U0C37 U0C3F.abvs U0C1F U0C4D.blwf U0C30 U0C4D.blwf.blws
 EndChar
 StartChar: U0C15_U0C41.psts
 Encoding: 65935 -1 489
 Width: 1102
-GlyphClass: 2
 Flags: W
 Fore
 155 442 m 1,0,1
@@ -38779,12 +36005,11 @@ Fore
  155 476 155 476 155 442 c 1,69,-1
  155 442 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'psts' U0C15 U0C41
+Ligature: 0 0 'liga' U0C15 U0C41.psts
 EndChar
 StartChar: U0C21_U0C41.psts
 Encoding: 65936 -1 490
 Width: 1346
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -38856,12 +36081,11 @@ Fore
  44 148 44 148 44 253 c 1,92,-1
  44 253 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'psts' U0C21 U0C41
+Ligature: 0 0 'liga' U0C21 U0C41.psts
 EndChar
 StartChar: U0C22_U0C41.psts
 Encoding: 65937 -1 491
 Width: 1346
-GlyphClass: 2
 Flags: W
 Fore
 585 195 m 1,0,1
@@ -38941,12 +36165,11 @@ Fore
  333 -119 l 1,99,-1
  333 -119 l 1,93,-1
 EndSplineSet
-Ligature: 0 0 'psts' U0C22 U0C41
+Ligature: 0 0 'liga' U0C22 U0C41.psts
 EndChar
 StartChar: U0C39_U0C41.psts
 Encoding: 65938 -1 492
 Width: 1469
-GlyphClass: 2
 Flags: W
 Fore
 14 792 m 1,0,-1
@@ -39035,12 +36258,11 @@ Fore
  29 87 29 87 29 148 c 1,112,-1
  29 148 l 1,43,44
 EndSplineSet
-Ligature: 0 0 'psts' U0C39 U0C41
+Ligature: 0 0 'liga' U0C39 U0C41.psts
 EndChar
 StartChar: U0C15_U0C42.psts
 Encoding: 65939 -1 493
 Width: 1486
-GlyphClass: 2
 Flags: W
 Fore
 155 442 m 1,0,1
@@ -39120,12 +36342,11 @@ Fore
  1231 508 1231 508 1231 474 c 1,102,-1
  1231 474 l 1,90,91
 EndSplineSet
-Ligature: 0 0 'psts' U0C15 U0C42
+Ligature: 0 0 'liga' U0C15 U0C42.psts
 EndChar
 StartChar: U0C21_U0C42.psts
 Encoding: 65940 -1 494
 Width: 1838
-GlyphClass: 2
 Flags: W
 Fore
 44 253 m 1,0,1
@@ -39215,12 +36436,11 @@ Fore
  1581 508 1581 508 1581 474 c 1,118,-1
  1581 474 l 1,106,107
 EndSplineSet
-Ligature: 0 0 'psts' U0C21 U0C42
+Ligature: 0 0 'liga' U0C21 U0C42.psts
 EndChar
 StartChar: U0C22_U0C42.psts
 Encoding: 65941 -1 495
 Width: 1838
-GlyphClass: 2
 Flags: W
 Fore
 44 253 m 1,0,1
@@ -39318,12 +36538,11 @@ Fore
  333 -129 l 1,125,-1
  333 -129 l 1,119,-1
 EndSplineSet
-Ligature: 0 0 'psts' U0C22 U0C42
+Ligature: 0 0 'liga' U0C22 U0C42.psts
 EndChar
 StartChar: U0C39_U0C42.psts
 Encoding: 65942 -1 496
 Width: 1955
-GlyphClass: 2
 Flags: W
 Fore
 14 792 m 1,0,-1
@@ -39436,12 +36655,11 @@ Fore
  1698 508 1698 508 1698 474 c 1,143,-1
  1698 474 l 1,131,132
 EndSplineSet
-Ligature: 0 0 'psts' U0C39 U0C42
+Ligature: 0 0 'liga' U0C39 U0C42.psts
 EndChar
 StartChar: glyph493
 Encoding: 65943 -1 497
 Width: 0
-GlyphClass: 2
 Flags: W
 Fore
 -918 -68 m 1,0,-1
@@ -39461,9 +36679,7 @@ EndChar
 StartChar: glyph494
 Encoding: 65944 -1 498
 Width: 0
-GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" -522 -66 mark 0
 Fore
 -1020 -68 m 1,0,-1
  -935 -68 l 1,1,2
@@ -39482,9 +36698,7 @@ EndChar
 StartChar: glyph495
 Encoding: 65945 -1 499
 Width: 0
-GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" -616 -64 mark 0
 Fore
 -1224 -68 m 1,0,-1
  -1139 -68 l 1,1,2
@@ -39503,7 +36717,6 @@ EndChar
 StartChar: glyph496
 Encoding: 65946 -1 500
 Width: 614
-GlyphClass: 2
 Flags: W
 Fore
 3 -163 m 1,0,1
@@ -39539,7 +36752,6 @@ EndChar
 StartChar: glyph497
 Encoding: 65947 -1 501
 Width: 576
-GlyphClass: 2
 Flags: W
 Fore
 110 -146 m 1,0,1
@@ -39613,7 +36825,6 @@ EndChar
 StartChar: glyph498
 Encoding: 65948 -1 502
 Width: 529
-GlyphClass: 4
 Flags: W
 Fore
 3 -508 m 1,0,1
@@ -39633,7 +36844,6 @@ EndChar
 StartChar: glyph499
 Encoding: 65949 -1 503
 Width: 920
-GlyphClass: 2
 Flags: W
 Fore
 70 -386 m 1,0,1
@@ -39694,7 +36904,6 @@ EndChar
 StartChar: glyph500
 Encoding: 65950 -1 504
 Width: 626
-GlyphClass: 2
 Flags: W
 Fore
 3 -386 m 1,0,1
@@ -39756,7 +36965,6 @@ EndChar
 StartChar: glyph501
 Encoding: 65951 -1 505
 Width: 658
-GlyphClass: 2
 Flags: W
 Fore
 3 -99 m 1,0,-1
@@ -39796,7 +37004,6 @@ EndChar
 StartChar: glyph502
 Encoding: 65952 -1 506
 Width: 658
-GlyphClass: 2
 Flags: W
 Fore
 3 -99 m 1,0,-1
@@ -39842,7 +37049,6 @@ EndChar
 StartChar: glyph503
 Encoding: 65953 -1 507
 Width: 626
-GlyphClass: 2
 Flags: W
 Fore
 3 -369 m 1,0,1
@@ -39910,7 +37116,6 @@ EndChar
 StartChar: glyph504
 Encoding: 65954 -1 508
 Width: 1051
-GlyphClass: 2
 Flags: W
 Fore
 85 -265 m 1,0,1
@@ -39974,7 +37179,6 @@ EndChar
 StartChar: glyph505
 Encoding: 65955 -1 509
 Width: 700
-GlyphClass: 2
 Flags: W
 Fore
 148 -377 m 1,0,1
@@ -40044,7 +37248,6 @@ EndChar
 StartChar: glyph506
 Encoding: 65956 -1 510
 Width: 678
-GlyphClass: 2
 Flags: W
 Fore
 151 -180 m 1,0,1
@@ -40098,7 +37301,6 @@ EndChar
 StartChar: glyph507
 Encoding: 65957 -1 511
 Width: 495
-GlyphClass: 2
 Flags: W
 Fore
 201 -229 m 1,0,-1
@@ -40132,7 +37334,6 @@ EndChar
 StartChar: glyph508
 Encoding: 65958 -1 512
 Width: 705
-GlyphClass: 2
 Flags: W
 Fore
 478 -354 m 1,0,1
@@ -40184,7 +37385,6 @@ EndChar
 StartChar: glyph509
 Encoding: 65959 -1 513
 Width: 705
-GlyphClass: 2
 Flags: W
 Fore
 478 -362 m 1,0,1
@@ -40240,7 +37440,6 @@ EndChar
 StartChar: glyph510
 Encoding: 65960 -1 514
 Width: 626
-GlyphClass: 2
 Flags: W
 Fore
 413 -384 m 1,0,1
@@ -40308,7 +37507,6 @@ EndChar
 StartChar: glyph511
 Encoding: 65961 -1 515
 Width: 734
-GlyphClass: 2
 Flags: W
 Fore
 586 -133 m 1,0,1
@@ -40341,7 +37539,6 @@ EndChar
 StartChar: glyph512
 Encoding: 65962 -1 516
 Width: 690
-GlyphClass: 2
 Flags: W
 Fore
 85 -345 m 1,0,1
@@ -40389,7 +37586,6 @@ EndChar
 StartChar: glyph513
 Encoding: 65963 -1 517
 Width: 690
-GlyphClass: 2
 Flags: W
 Fore
 85 -371 m 1,0,1
@@ -40427,7 +37623,6 @@ EndChar
 StartChar: glyph514
 Encoding: 65964 -1 518
 Width: 690
-GlyphClass: 2
 Flags: W
 Fore
 85 -371 m 1,0,1
@@ -40469,7 +37664,6 @@ EndChar
 StartChar: glyph515
 Encoding: 65965 -1 519
 Width: 687
-GlyphClass: 2
 Flags: W
 Fore
 93 -243 m 1,0,1
@@ -40515,7 +37709,6 @@ EndChar
 StartChar: glyph516
 Encoding: 65966 -1 520
 Width: 641
-GlyphClass: 2
 Flags: W
 Fore
 70 -252 m 1,0,1
@@ -40557,7 +37750,6 @@ EndChar
 StartChar: glyph517
 Encoding: 65967 -1 521
 Width: 641
-GlyphClass: 2
 Flags: W
 Fore
 70 -252 m 1,0,1
@@ -40603,7 +37795,6 @@ EndChar
 StartChar: glyph518
 Encoding: 65968 -1 522
 Width: 641
-GlyphClass: 2
 Flags: W
 Fore
 3 -377 m 1,0,1
@@ -40653,7 +37844,6 @@ EndChar
 StartChar: glyph519
 Encoding: 65969 -1 523
 Width: 648
-GlyphClass: 2
 Flags: W
 Fore
 10 -377 m 1,0,1
@@ -40707,7 +37897,6 @@ EndChar
 StartChar: glyph520
 Encoding: 65970 -1 524
 Width: 597
-GlyphClass: 2
 Flags: W
 Fore
 282 -201 m 1,0,1
@@ -40759,7 +37948,6 @@ EndChar
 StartChar: glyph521
 Encoding: 65971 -1 525
 Width: 510
-GlyphClass: 2
 Flags: W
 Fore
 3 -388 m 1,0,1
@@ -40811,9 +37999,7 @@ EndChar
 StartChar: glyph522
 Encoding: 65972 -1 526
 Width: 819
-GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" 410 -65 mark 0
 Fore
 3 -68 m 1,0,-1
  88 -68 l 1,1,2
@@ -40832,7 +38018,6 @@ EndChar
 StartChar: glyph523
 Encoding: 65973 -1 527
 Width: 700
-GlyphClass: 2
 Flags: W
 Fore
 144 -189 m 1,0,1
@@ -40902,7 +38087,6 @@ EndChar
 StartChar: glyph524
 Encoding: 65974 -1 528
 Width: 605
-GlyphClass: 2
 Flags: W
 Fore
 3 -323 m 1,0,1
@@ -40940,7 +38124,6 @@ EndChar
 StartChar: glyph525
 Encoding: 65975 -1 529
 Width: 654
-GlyphClass: 2
 Flags: W
 Fore
 82 -131 m 1,0,1
@@ -41000,7 +38183,6 @@ EndChar
 StartChar: glyph526
 Encoding: 65976 -1 530
 Width: 658
-GlyphClass: 2
 Flags: W
 Fore
 70 -218 m 1,0,1
@@ -41054,7 +38236,6 @@ EndChar
 StartChar: glyph527
 Encoding: 65977 -1 531
 Width: 544
-GlyphClass: 2
 Flags: W
 Fore
 250 -394 m 1,0,1
@@ -41108,7 +38289,6 @@ EndChar
 StartChar: glyph528
 Encoding: 65978 -1 532
 Width: 806
-GlyphClass: 2
 Flags: W
 Fore
 70 -386 m 1,0,1
@@ -41156,7 +38336,6 @@ EndChar
 StartChar: glyph529
 Encoding: 65979 -1 533
 Width: 641
-GlyphClass: 2
 Flags: W
 Fore
 3 -252 m 1,0,1
@@ -41192,7 +38371,6 @@ EndChar
 StartChar: glyph530
 Encoding: 65980 -1 534
 Width: 1018
-GlyphClass: 2
 Flags: W
 Fore
 70 -352 m 1,0,1
@@ -41259,7 +38437,6 @@ EndChar
 StartChar: glyph531
 Encoding: 65981 -1 535
 Width: 707
-GlyphClass: 2
 Flags: W
 Fore
 3 -473 m 1,0,-1
@@ -41323,7 +38500,6 @@ EndChar
 StartChar: nounicode-3-1-57
 Encoding: 65982 -1 536
 Width: 639
-GlyphClass: 2
 Flags: W
 Fore
 15 25 m 1,0,-1
@@ -41397,7 +38573,6 @@ EndChar
 StartChar: U0C15_U0C41_U0C37_U0C4D.akhn
 Encoding: 65983 -1 537
 Width: 1083
-GlyphClass: 2
 Flags: W
 Fore
 15 25 m 1,0,-1
@@ -41480,12 +38655,11 @@ Fore
  160 467 160 467 160 433 c 1,107,-1
  160 433 l 1,37,38
 EndSplineSet
-Ligature: 0 0 'akhn' U0C15 U0C41 U0C37 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C41 U0C37 U0C4D.akhn
 EndChar
 StartChar: U0C15_U0C42_U0C37_U0C4D.akhn
 Encoding: 65984 -1 538
 Width: 1518
-GlyphClass: 2
 Flags: W
 Fore
 15 25 m 1,0,-1
@@ -41592,12 +38766,11 @@ Fore
  1261 508 1261 508 1261 474 c 1,138,-1
  1261 474 l 1,126,127
 EndSplineSet
-Ligature: 0 0 'akhn' U0C15 U0C42 U0C37 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C42 U0C37 U0C4D.akhn
 EndChar
 StartChar: U0C15_U0C46_U0C56_U0C37_U0C4D.akhn
 Encoding: 65985 -1 539
 Width: 639
-GlyphClass: 2
 Flags: W
 Fore
 15 25 m 1,0,-1
@@ -41695,14 +38868,12 @@ Fore
  -68 -425 -68 -425 -68 -357 c 1,123,-1
  -68 -357 l 1,106,107
 EndSplineSet
-Ligature: 0 0 'akhn' U0C15 U0C46 U0C56 U0C37 U0C4D
+Ligature: 0 0 'liga' U0C15 U0C46 U0C56 U0C37 U0C4D.akhn
 EndChar
 StartChar: glyph536
 Encoding: 65986 -1 540
 Width: 0
-GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" -462 -522 mark 0
 Fore
 -918 -527 m 1,0,-1
  -833 -527 l 1,1,2
@@ -41721,9 +38892,7 @@ EndChar
 StartChar: glyph537
 Encoding: 65987 -1 541
 Width: 0
-GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" -507 -522 mark 0
 Fore
 -1020 -527 m 1,0,-1
  -935 -527 l 1,1,2
@@ -41742,9 +38911,7 @@ EndChar
 StartChar: glyph538
 Encoding: 65988 -1 542
 Width: 0
-GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-0" -608 -520 mark 0
 Fore
 -1224 -527 m 1,0,-1
  -1139 -527 l 1,1,2
