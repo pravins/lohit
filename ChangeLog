@@ -1,5 +1,12 @@
 				  fonts-indic
-Current Version :- 2.1.2
+Current Version :- 2.1.3
+
+* Mon Feb 19 2007 Parag Nemade <pnemade@redhat.com> - 2.1.3
+- Resolved Bugs from Parag Nemade
+- Bug 202401: [ta_IN] New codepoints/glyphs in Unicode 5.0
+- Bug 223774: [kn_IN] Some Ligature rules are wrong in the font file
+- Bug 223971: [kn_IN] Consonant + Halant + Consonant + Dependent Vowel not appearing properly in some rare cases
+- Bug 227971: [kn_IN] Combinations with 2 Halants not rendering properly
 
 * Tue Jan 16 2007 Parag Nemade <pnemade@redhat.com> - 2.1.2
 - Resolved Bugs from Parag Nemade
