@@ -1,5 +1,9 @@
 				  fonts-indic
-Current Version :- 2.1.3
+Current Version :- 2.1.4
+
+* Mon Mar 05 2007 Parag Nemade <pnemade@redhat.com> - 2.1.4
+- Resolved Bugs from Parag Nemade
+- Bug 221383: [kn_IN] GSUB combinations has problem with Ra
 
 * Mon Feb 19 2007 Parag Nemade <pnemade@redhat.com> - 2.1.3
 - Resolved Bugs from Parag Nemade

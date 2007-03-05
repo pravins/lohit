@@ -11,7 +11,7 @@ UnderlineWidth: 20
 Ascent: 620
 Descent: 404
 Order2: 1
-XUID: [1021 140 1710970845 10350413]
+XUID: [1021 140 1710970845 5386224]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
@@ -135,10 +135,10 @@ Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -24
+DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 40 16
+WinInfo: 54 27 12
 AnchorClass: "Anchor-0" blwm 0 0 1 0 
 BeginChars: 66047 607
 StartChar: .notdef
@@ -49102,7 +49102,7 @@ Fore
 EndSplineSet
 Ligature: 0 0 'blws' U0C9F_U0CCB.blwf U0CB0_U0CCB.blwf
 EndChar
-StartChar: U0CB0_U0CCB.rphf
+StartChar: U0CB0_U0CCD.rphf
 Encoding: 66004 -1 564
 Width: 640
 GlyphClass: 2
@@ -49134,7 +49134,7 @@ Fore
  120 107 120 107 120 156 c 1,31,-1
  120 156 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'rphf' U0CB0 U0CCB
+Ligature: 0 0 'rphf' U0CB0 U0CCD
 EndChar
 StartChar: U0C95_U0CCD.blwf
 Encoding: 66005 -1 565
