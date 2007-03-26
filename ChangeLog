@@ -1,5 +1,18 @@
 				  fonts-indic
-Current Version :- 2.1.4
+Current Version :- 2.1.5
+
+* Mon Mar 26 2007 Parag Nemade <pnemade@redhat.com> - 2.1.5
+- Resolved Bugs from Parag Nemade
+- Bug 231965: [kn_IN] wrong Conjuct combines during the formation kannada letter [yo]
+- Bug 233257: [kn_IN] Conjuct combination of U0CAE with U0CCB is rendering wrongly
+- Bug 233415: [kn_IN] GSUB's combinaing with additional dependent vowel are not rendering correctly
+- Bug 233554: [kn_IN] GSUB's combinaing with additional dependent vowel U0CC0 are not rendering correctly
+- Bug 233555: [kn_IN] GSUB's combinaing with additional dependent vowel U0CC7 are not rendering correctly
+- Bug 233556: [kn_IN] GSUB's combinaing with additional dependent vowel U0CC6 are not rendering correctly
+- Bug 233557: [kn_IN] GSUB's combinaing with additional dependent vowel U0CC8 are not rendering correctly
+- Bug 233558: [kn_IN] GSUB's combinaing with additional dependent vowel U0CCBare not rendering correctly
+- Bug 233559: [kn_IN] GSUB's combinaing with additional dependent vowel U0CBE are not rendering correctly
+- Bug 233560: [kn_IN] GSUB's combinaing with additional dependent vowel U0CBF are not rendering correctly
 
 * Mon Mar 05 2007 Parag Nemade <pnemade@redhat.com> - 2.1.4
 - Resolved Bugs from Parag Nemade
