@@ -1,5 +1,13 @@
 				  fonts-indic
-Current Version :- 2.1.7
+Current Version :- 2.1.8
+
+* Fri Jan 25 2007 Rahul Bhalerao <rbhalera@redhat.com> - 2.1.8
+- Bug 192812: [ml_IN]GPOS issues in new Malayalam font
+- Bug 402321: [ml_IN} Wrong combinations used for the conjunct 'ന്പ'
+- Bug 402331: [ml_IN] Wrong combinations used for conjunct 'ന്‍റ'
+- Bug 424701: [ml_IN] words are shown joined (very low space shown on screen)
+- Bug 429526: [ml_IN]: Removal of a glyph from font file
+- Bug 247233: Additional special character rendering for assamese [as-IN] and bengali [bn-IN]
 
 * Tue Jan 15 2007 Rahul Bhalerao <rbhalera@redhat.com> - 2.1.7
 - Updated the makedist.sh script

@@ -1,4 +1,4 @@
-SplineFontDB: 1.0
+SplineFontDB: 2.0
 FontName: Lohit-Bengali
 FullName: Lohit Bengali
 FamilyName: Lohit Bengali
@@ -11,13 +11,14 @@ UnderlineWidth: 20
 Ascent: 615
 Descent: 154
 Order2: 1
+NeedsXUIDChange: 1
 XUID: [1021 648 100124046 5181693]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1163146539
-ModificationTime: 1163672494
+ModificationTime: 1201158345
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -48,34 +49,30 @@ OS2SupYOff: 500
 OS2StrikeYSize: 50
 OS2StrikeYPos: 250
 OS2Vendor: 'ACE '
-ScriptLang: 2
- 0 
- 1 beng 1 dflt 
-ChainPos: coverage 0 1 'abvm' 0 0 0 1
+Lookup: 4 0 0 "'abvs' Above Base Substitutions in Bengali lookup 0"  {"'abvs' Above Base Substitutions in Bengali lookup 0"  } ['abvs' ('beng' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms in Bengali lookup 1"  {"'blwf' Below Base Forms in Bengali lookup 1"  } ['blwf' ('beng' <'dflt' > ) ]
+Lookup: 4 0 0 "'blws' Below Base Substitutions in Bengali lookup 2"  {"'blws' Below Base Substitutions in Bengali lookup 2"  } ['blws' ('beng' <'dflt' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Bengali lookup 3"  {"'half' Half Forms in Bengali lookup 3"  } ['half' ('beng' <'dflt' > ) ]
+Lookup: 4 0 0 "'haln' Halant Forms in Bengali lookup 4"  {"'haln' Halant Forms in Bengali lookup 4"  } ['haln' ('beng' <'dflt' > ) ]
+Lookup: 1 0 0 "'init' Initial Forms in Bengali lookup 5"  {"'init' Initial Forms in Bengali lookup 5"  } ['init' ('beng' <'dflt' > ) ]
+Lookup: 4 0 0 "'nukt' Nukta Forms in Bengali lookup 6"  {"'nukt' Nukta Forms in Bengali lookup 6"  } ['nukt' ('beng' <'dflt' > ) ]
+Lookup: 4 0 0 "'pres' Pre Base Substitutions in Bengali lookup 7"  {"'pres' Pre Base Substitutions in Bengali lookup 7"  } ['pres' ('beng' <'dflt' > ) ]
+Lookup: 4 0 0 "'pstf' Post Base Forms in Bengali lookup 8"  {"'pstf' Post Base Forms in Bengali lookup 8"  } ['pstf' ('beng' <'dflt' > ) ]
+Lookup: 4 0 0 "'psts' Post Base Substitutions in Bengali lookup 9"  {"'psts' Post Base Substitutions in Bengali lookup 9"  } ['psts' ('beng' <'dflt' > ) ]
+Lookup: 4 0 0 "'rphf' Reph Form in Bengali lookup 10"  {"'rphf' Reph Form in Bengali lookup 10"  } ['rphf' ('beng' <'dflt' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants in Bengali lookup 11"  {"'vatu' Vattu Variants in Bengali lookup 11"  } ['vatu' ('beng' <'dflt' > ) ]
+Lookup: 260 0 0 "'blwm' Below Base Mark in Bengali lookup 0"  {"'blwm' Below Base Mark in Bengali lookup 0"  } ['blwm' ('beng' <'dflt' > ) ]
+Lookup: 260 0 0 "'abvm' Above Base Mark in Bengali lookup 1"  {"'abvm' Above Base Mark in Bengali lookup 1"  } ['abvm' ('beng' <'dflt' > ) ]
+Lookup: 264 0 0 "'abvm' Above Base Mark in Bengali lookup 2"  {"'abvm' Above Base Mark in Bengali lookup 2"  } ['abvm' ('beng' <'dflt' > ) ]
+Lookup: 257 0 0 "Single Positioning lookup 3"  {"Single Positioning lookup 3"  } []
+ChainPos2: coverage "'abvm' Above Base Mark in Bengali lookup 2"  0 0 0 1
  1 2 0
   Coverage: 5 u0981
   BCoverage: 842 u0995 u0996 u0997 u0998 u0999 u099A u099B u099C u099D u099E u099F u09A0 u09A1 u09A2 u09A3 u09A4 u09A5 u09A6 u09A7 u09A8 u09AA u09AB u09AC u09AD u09AE u09AF u09B0 u09B2 u09B6 u09B7 u09B8 u09B9 u09DC u09DD u09DF u09F0 u09F1 u0995_u09CD.half u0996_u09CD.half u0997_u09CD.half u0998_u09CD.half u0999_u09CD.half u099A_u09CD.half u099B_u09CD.half u099C_u09CD.half u099D_u09CD.half u099E_u09CD.half u099F_u09CD.half u09A0_u09CD.half u09A1_u09CD.half u09A2_u09CD.half u09A3_u09CD.half u09A5_u09CD.half u09A6_u09CD.half u09A7_u09CD.half u09A8_u09CD.half u09AA_u09CD.half u09AB_u09CD.half u09AC_u09CD.half u09AD_u09CD.half u09AE_u09CD.half u09AF_u09CD.half u09B0_u09CD.half u09B2_u09CD.half u09B6_u09CD.half u09B7_u09CD.half u09B8_u09CD.half u09B9_u09CD.half u09DC_u09CD.half u09DD_u09CD.half u09DF_u09CD.half glyph475 u09F1_u09CD.half u09F0_u09CD.half
   BCoverage: 5 u09BF
  1
-  SeqLookup: 0 'L000'
+  SeqLookup: 0 "Single Positioning lookup 3" 
 EndFPST
-GenTags: 1 ps'L000'
-TableOrder: GPOS 2
-	'abvm'
-	'blwm'
-TableOrder: GSUB 12
-	'abvs'
-	'blwf'
-	'blws'
-	'half'
-	'haln'
-	'init'
-	'nukt'
-	'pres'
-	'pstf'
-	'psts'
-	'rphf'
-	'vatu'
 TtfTable: prep 11
 5QX@TNOT#hKm":5
 EndTtf
@@ -95,13 +92,14 @@ TtfTable: maxp 32
 EndTtf
 LangName: 1033 "" "" "Regular" "ACE: Automatic Control EquipmentsLohit Bengali" "" "Version 1.00" 
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 33 33 15
-AnchorClass: "Anchor-0" abvm 0 1 1 0 "Anchor-1" abvm 0 1 1 0 "Anchor-2" blwm 0 1 2 0 
+WinInfo: 0 37 17
+AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Bengali lookup 1" "Anchor-1"  "'abvm' Above Base Mark in Bengali lookup 1" "Anchor-2"  "'blwm' Below Base Mark in Bengali lookup 0" 
 BeginChars: 65869 485
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -1608,7 +1606,7 @@ Fore
  -93 680 -93 680 -110 680 c 1,27,-1
  -110 680 l 1,15,16
 EndSplineSet
-Position: 0 65534 'L000' dx=50 dy=115 dh=0 dv=0
+Position2: "Single Positioning lookup 3" dx=50 dy=115 dh=0 dv=0
 EndChar
 StartChar: u0982
 Encoding: 2434 2434 52
@@ -4362,7 +4360,7 @@ Fore
  -10 465 l 1,29,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Substitution: 0 1 'init' u09C7.init
+Substitution2: "'init' Initial Forms in Bengali lookup 5" u09C7.init
 EndChar
 StartChar: u09C8
 Encoding: 2504 2504 108
@@ -4420,7 +4418,7 @@ Fore
  -10 500 l 1,61,-1
  -10 500 l 1,0,-1
 EndSplineSet
-Substitution: 0 1 'init' u09C8.init
+Substitution2: "'init' Initial Forms in Bengali lookup 5" u09C8.init
 EndChar
 StartChar: u09CB
 Encoding: 2507 2507 109
@@ -4691,7 +4689,7 @@ Fore
  305 -115 305 -115 288 -115 c 1,51,-1
  288 -115 l 1,39,40
 EndSplineSet
-Ligature: 0 1 'nukt' u09A1 u09BC
+Ligature2: "'nukt' Nukta Forms in Bengali lookup 6" u09A1 u09BC
 EndChar
 StartChar: u09DD
 Encoding: 2525 2525 115
@@ -4740,7 +4738,7 @@ Fore
  197 -120 197 -120 180 -120 c 1,42,-1
  180 -120 l 1,30,31
 EndSplineSet
-Ligature: 0 1 'nukt' u09A2 u09BC
+Ligature2: "'nukt' Nukta Forms in Bengali lookup 6" u09A2 u09BC
 EndChar
 StartChar: u09DF
 Encoding: 2527 2527 116
@@ -4788,7 +4786,7 @@ Fore
  157 -5 157 -5 143 -5 c 1,34,-1
  143 -5 l 1,22,23
 EndSplineSet
-Ligature: 0 1 'nukt' u09AF u09BC
+Ligature2: "'nukt' Nukta Forms in Bengali lookup 6" u09AF u09BC
 EndChar
 StartChar: u09E0
 Encoding: 2528 2528 117
@@ -5763,35 +5761,35 @@ EndSplineSet
 EndChar
 StartChar: u09FA
 Encoding: 2554 2554 141
-Width: 645
+Width: 489
 GlyphClass: 2
-Flags: W
+Flags: HW
 TtfInstrs: 47
 5n!`'!"Ao/!!<3$!+Q!9!+Gpt!!*'#!(M,b2]-]<5<frH!AQ:>!#tt>!!OkQ
 EndTtf
 Fore
-280 135 m 1,0,1
- 229 135 229 135 177.5 181 c 128,-1,2
- 126 227 126 227 90 305 c 1,3,-1
- 130 320 l 1,4,5
- 161 254 161 254 201.5 214.5 c 128,-1,6
- 242 175 242 175 280 175 c 0,7,8
- 327 175 327 175 391.5 239.5 c 128,-1,9
- 456 304 456 304 520 415 c 1,10,-1
- 555 395 l 1,11,12
- 485 274 485 274 411.5 204.5 c 128,-1,13
- 338 135 338 135 280 135 c 1,14,-1
- 280 135 l 1,0,1
-280 270 m 1,15,16
- 259 270 259 270 244.5 284.5 c 128,-1,17
- 230 299 230 299 230 320 c 256,18,19
- 230 341 230 341 244.5 355.5 c 128,-1,20
- 259 370 259 370 280 370 c 256,21,22
- 301 370 301 370 315.5 355.5 c 128,-1,23
- 330 341 330 341 330 320 c 256,24,25
- 330 299 330 299 315.5 284.5 c 128,-1,26
- 301 270 301 270 280 270 c 1,27,-1
- 280 270 l 1,15,16
+280 295 m 1,0,1
+ 229 295 229 295 177.5 341 c 128,-1,2
+ 126 387 126 387 90 465 c 1,3,-1
+ 130 480 l 1,4,5
+ 161 414 161 414 201.5 374.5 c 128,-1,6
+ 242 335 242 335 280 335 c 0,7,8
+ 327 335 327 335 391.5 399.5 c 128,-1,9
+ 456 464 456 464 520 575 c 1,10,-1
+ 555 555 l 1,11,12
+ 485 434 485 434 411.5 364.5 c 128,-1,13
+ 338 295 338 295 280 295 c 1,14,-1
+ 280 295 l 1,0,1
+280 430 m 1,15,16
+ 259 430 259 430 244.5 444.5 c 128,-1,17
+ 230 459 230 459 230 480 c 256,18,19
+ 230 501 230 501 244.5 515.5 c 128,-1,20
+ 259 530 259 530 280 530 c 256,21,22
+ 301 530 301 530 315.5 515.5 c 128,-1,23
+ 330 501 330 501 330 480 c 256,24,25
+ 330 459 330 459 315.5 444.5 c 128,-1,26
+ 301 430 301 430 280 430 c 1,27,-1
+ 280 430 l 1,15,16
 EndSplineSet
 EndChar
 StartChar: afii61664
@@ -6180,7 +6178,7 @@ Fore
  123 10 123 10 80 -10 c 1,24,-1
  80 -10 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pstf' u09AF u09CD
+Ligature2: "'pstf' Post Base Forms in Bengali lookup 8" u09AF u09CD
 EndChar
 StartChar: u0995_u09CD.half_u0995.pres
 Encoding: 65538 -1 154
@@ -6253,7 +6251,7 @@ Fore
  151 252 151 252 170 230 c 1,73,-1
  170 230 l 1,63,64
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u0995
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u0995
 EndChar
 StartChar: u0995_u09CD.half_u099F.pres
 Encoding: 65539 -1 155
@@ -6339,7 +6337,7 @@ Fore
  204 250 204 250 223 210 c 1,94,-1
  223 210 l 1,84,85
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u099F
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u099F
 EndChar
 StartChar: u0995_u09CD.half_u09A4.pres
 Encoding: 65540 -1 156
@@ -6419,7 +6417,7 @@ Fore
  -10 465 l 1,90,-1
  -10 465 l 1,86,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u09A4
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u09A4
 EndChar
 StartChar: u0995_u09CD.half_u09A4_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65541 -1 157
@@ -6517,7 +6515,7 @@ Fore
  -10 465 l 1,115,-1
  -10 465 l 1,111,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u0995_u09CD.half_u09A4_u09AC_u09CD.blwf.pres
 Encoding: 65542 -1 158
@@ -6611,7 +6609,7 @@ Fore
  -10 465 l 1,106,-1
  -10 465 l 1,102,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u09A4 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u09A4 u09AC_u09CD.blwf
 EndChar
 StartChar: u0995_u09CD.half_u09A8.pres
 Encoding: 65543 -1 159
@@ -6671,7 +6669,7 @@ Fore
  265 184 265 184 303 130 c 1,59,-1
  303 130 l 1,52,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u09A8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u09A8
 EndChar
 StartChar: u0995_u09CD.half_u09AE.pres
 Encoding: 65544 -1 160
@@ -6731,7 +6729,7 @@ Fore
  199 239 199 239 223 205 c 1,61,-1
  223 205 l 1,54,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u09AE
 EndChar
 StartChar: u0995_u09B0_u09CD.blwf.vatu
 Encoding: 65545 -1 161
@@ -6808,7 +6806,7 @@ Fore
  -10 465 l 1,84,-1
  -10 465 l 1,80,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u0995 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u0995 u09B0_u09CD.blwf
 EndChar
 StartChar: u0995_u09CD.half_u09B2.pres
 Encoding: 65546 -1 162
@@ -6888,7 +6886,7 @@ Fore
  312 183 312 183 342 130 c 1,85,-1
  342 130 l 1,78,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u09B2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u09B2
 EndChar
 StartChar: u0995_u09AC_u09CD.blwf.blws
 Encoding: 65547 -1 163
@@ -6951,7 +6949,7 @@ Fore
  151 252 151 252 168 235 c 1,58,-1
  168 235 l 1,48,49
 EndSplineSet
-Ligature: 0 1 'blws' u0995 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u0995 u09AC_u09CD.blwf
 EndChar
 StartChar: u0995_u09CD.half_u09B7.pres
 Encoding: 65548 -1 164
@@ -7026,7 +7024,7 @@ Fore
  328 335 328 335 384 335 c 1,76,-1
  384 335 l 1,71,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u09B7
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u09B7
 EndChar
 StartChar: u0995_u09CD.half_u09B7_u09CD.half_u09A3.pres
 Encoding: 65549 -1 165
@@ -7113,7 +7111,7 @@ Fore
  333 354 333 354 384 345 c 1,95,-1
  384 345 l 1,90,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u09B7_u09CD.half u09A3
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u09B7_u09CD.half u09A3
 EndChar
 StartChar: u0995_u09CD.half_u09B7_u09CD.half_u09AE.pres
 Encoding: 65550 -1 166
@@ -7206,7 +7204,7 @@ Fore
  279 390 279 390 293 390 c 1,102,-1
  293 390 l 1,95,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u09B7_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u09B7_u09CD.half u09AE
 EndChar
 StartChar: u0995_u09CD.half_u09B7_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65551 -1 167
@@ -7294,7 +7292,7 @@ Fore
  346 335 346 335 402 335 c 1,95,-1
  402 335 l 1,90,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u09B7_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u09B7_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u0995_u09CD.half_u09B7_u09AC_u09CD.blwf.pres
 Encoding: 65552 -1 168
@@ -7381,7 +7379,7 @@ Fore
  324 335 324 335 380 335 c 1,92,-1
  380 335 l 1,87,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u09B7 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u09B7 u09AC_u09CD.blwf
 EndChar
 StartChar: u0995_u09CD.half_u09B8.pres
 Encoding: 65553 -1 169
@@ -7451,7 +7449,7 @@ Fore
  191 231 191 231 215 190 c 1,72,-1
  215 190 l 1,65,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u09B8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u09B8
 EndChar
 StartChar: u0996_u09B0_u09CD.blwf.vatu
 Encoding: 65554 -1 170
@@ -7519,7 +7517,7 @@ Fore
  442 0 l 1,76,-1
  442 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'vatu' u0996 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u0996 u09B0_u09CD.blwf
 EndChar
 StartChar: u0996_u09AC_u09CD.blwf.blws
 Encoding: 65555 -1 171
@@ -7583,7 +7581,7 @@ Fore
  314 54 314 54 341 15 c 1,66,-1
  341 15 l 1,59,-1
 EndSplineSet
-Ligature: 0 1 'blws' u0996 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u0996 u09AC_u09CD.blwf
 EndChar
 StartChar: u0997_afii61664_u09C1.blws
 Encoding: 65556 -1 172
@@ -7655,8 +7653,8 @@ Fore
  490 -10 490 -10 407 -10 c 1,84,-1
  407 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'blws' u0997 u09C1
-Ligature: 0 1 'blws' u0997 afii61664 u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u0997 u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u0997 afii61664 u09C1
 EndChar
 StartChar: u0997_u09CD.half_u0997.pres
 Encoding: 65557 -1 173
@@ -7726,7 +7724,7 @@ Fore
  304 560 l 1,78,-1
  304 560 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0997_u09CD.half u0997
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0997_u09CD.half u0997
 EndChar
 StartChar: u0997_u09CD.half_u09A6.pres
 Encoding: 65558 -1 174
@@ -7784,7 +7782,7 @@ Fore
  580 0 l 1,61,-1
  580 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u0997_u09CD.half u09A6
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0997_u09CD.half u09A6
 EndChar
 StartChar: u0997_u09CD.half_u09A7.pres
 Encoding: 65559 -1 175
@@ -7863,7 +7861,7 @@ Fore
  305 51 305 51 330 15 c 1,84,-1
  330 15 l 1,77,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0997_u09CD.half u09A7
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0997_u09CD.half u09A7
 EndChar
 StartChar: u0997_u09CD.half_u09A7_u09AC_u09CD.blwf.pres
 Encoding: 65560 -1 176
@@ -7953,7 +7951,7 @@ Fore
  324 50 324 50 330 50 c 1,101,-1
  330 50 l 1,91,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0997_u09CD.half u09A7 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0997_u09CD.half u09A7 u09AC_u09CD.blwf
 EndChar
 StartChar: u0997_u09CD.half_u09A7_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65561 -1 177
@@ -8044,7 +8042,7 @@ Fore
  347 51 347 51 372 15 c 1,100,-1
  372 15 l 1,93,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0997_u09CD.half u09A7_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0997_u09CD.half u09A7_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u0997_u09CD.half_u09A8.pres
 Encoding: 65562 -1 178
@@ -8102,7 +8100,7 @@ Fore
  37 363 37 363 37 380 c 1,61,-1
  37 380 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u0997_u09CD.half u09A8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0997_u09CD.half u09A8
 EndChar
 StartChar: u0997_u09CD.half_u09AE.pres
 Encoding: 65563 -1 179
@@ -8164,7 +8162,7 @@ Fore
  487 108 487 108 509 70 c 1,63,-1
  509 70 l 1,57,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0997_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0997_u09CD.half u09AE
 EndChar
 StartChar: u0997_u09B0_u09CD.blwf.vatu
 Encoding: 65564 -1 180
@@ -8226,7 +8224,7 @@ Fore
  446 -50 l 1,64,-1
  446 -50 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'vatu' u0997 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u0997 u09B0_u09CD.blwf
 EndChar
 StartChar: u0997_u09B0_u09CD.blwf.vatu_u09C1.blws
 Encoding: 65565 -1 181
@@ -8307,7 +8305,7 @@ Fore
  441 -50 l 1,90,-1
  441 -50 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'blws' u0997_u09B0_u09CD.blwf.vatu u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u0997_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u0997_u09B0_u09CD.blwf.vatu_u09C2.blws
 Encoding: 65566 -1 182
@@ -8387,7 +8385,7 @@ Fore
  442 -50 l 1,88,-1
  442 -50 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'blws' u0997_u09B0_u09CD.blwf.vatu u09C2
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u0997_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u0997_u09CD.half_u09B2.pres
 Encoding: 65567 -1 183
@@ -8462,7 +8460,7 @@ Fore
  369 0 l 1,84,-1
  369 0 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0997_u09CD.half u09B2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0997_u09CD.half u09B2
 EndChar
 StartChar: u0997_u09AC_u09CD.blwf.blws
 Encoding: 65568 -1 184
@@ -8520,7 +8518,7 @@ Fore
  284 77 284 77 303 55 c 1,58,-1
  303 55 l 1,51,-1
 EndSplineSet
-Ligature: 0 1 'blws' u0997 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u0997 u09AC_u09CD.blwf
 EndChar
 StartChar: u0998_u09CD.half_u09A8.pres
 Encoding: 65569 -1 185
@@ -8575,7 +8573,7 @@ Fore
  317 194 317 194 367 135 c 1,52,-1
  367 135 l 1,38,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0998_u09CD.half u09A8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0998_u09CD.half u09A8
 EndChar
 StartChar: u0998_u09B0_u09CD.blwf.vatu
 Encoding: 65570 -1 186
@@ -8634,7 +8632,7 @@ Fore
  370 144 370 144 407 100 c 1,58,-1
  407 100 l 1,44,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u0998 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u0998 u09B0_u09CD.blwf
 EndChar
 StartChar: u0998_u09AC_u09CD.blwf.blws
 Encoding: 65571 -1 187
@@ -8692,7 +8690,7 @@ Fore
  341 92 341 92 345 93 c 1,54,-1
  345 93 l 1,34,-1
 EndSplineSet
-Ligature: 0 1 'blws' u0998 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u0998 u09AC_u09CD.blwf
 EndChar
 StartChar: u0999_u09CD.half_u0995.pres
 Encoding: 65572 -1 188
@@ -8766,7 +8764,7 @@ Fore
  302 400 302 400 330 400 c 1,76,-1
  330 400 l 1,69,70
 EndSplineSet
-Ligature: 0 1 'pres' u0999_u09CD.half u0995
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0999_u09CD.half u0995
 EndChar
 StartChar: u0999_u09CD.half_u0995_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65573 -1 189
@@ -8853,7 +8851,7 @@ Fore
  414 400 414 400 442 400 c 1,95,-1
  442 400 l 1,88,89
 EndSplineSet
-Ligature: 0 1 'pres' u0999_u09CD.half u0995_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0999_u09CD.half u0995_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u0999_u09CD.half_u0995_u09CD.half_u09B7.pres
 Encoding: 65574 -1 190
@@ -8983,7 +8981,7 @@ Fore
  810 335 810 335 862 335 c 1,157,-1
  862 335 l 1,152,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0999_u09CD.half u0995_u09CD.half u09B7
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0999_u09CD.half u0995_u09CD.half u09B7
 EndChar
 StartChar: u0999_u09CD.half_u0995_u09CD.half_u09B7_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65575 -1 191
@@ -9126,7 +9124,7 @@ Fore
  810 335 810 335 862 335 c 1,176,-1
  862 335 l 1,171,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0999_u09CD.half u0995_u09CD.half u09B7_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0999_u09CD.half u0995_u09CD.half u09B7_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u0999_u09CD.half_u0996.pres
 Encoding: 65576 -1 192
@@ -9217,7 +9215,7 @@ Fore
  -10 465 l 1,103,-1
  -10 465 l 1,99,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0999_u09CD.half u0996
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0999_u09CD.half u0996
 EndChar
 StartChar: u0999_u09CD.half_u0997.pres
 Encoding: 65577 -1 193
@@ -9291,7 +9289,7 @@ Fore
  331 400 331 400 358 400 c 1,82,-1
  358 400 l 1,75,76
 EndSplineSet
-Ligature: 0 1 'pres' u0999_u09CD.half u0997
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0999_u09CD.half u0997
 EndChar
 StartChar: u0999_u09CD.half_u0998.pres
 Encoding: 65578 -1 194
@@ -9385,7 +9383,7 @@ Fore
  731 115 731 115 762 70 c 1,107,-1
  762 70 l 1,90,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0999_u09CD.half u0998
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0999_u09CD.half u0998
 EndChar
 StartChar: u0999_u09CD.half_u0998_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65579 -1 195
@@ -9497,7 +9495,7 @@ Fore
  734 144 734 144 771 100 c 1,132,-1
  771 100 l 1,118,-1
 EndSplineSet
-Ligature: 0 1 'pres' u0999_u09CD.half u0998_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0999_u09CD.half u0998_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u0999_u09CD.half_u09AE.pres
 Encoding: 65580 -1 196
@@ -9582,7 +9580,7 @@ Fore
  357 400 357 400 380 400 c 1,96,-1
  380 400 l 1,86,87
 EndSplineSet
-Ligature: 0 1 'pres' u0999_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0999_u09CD.half u09AE
 EndChar
 StartChar: u0999_u09B0_u09CD.blwf.vatu
 Encoding: 65581 -1 197
@@ -9669,7 +9667,7 @@ Fore
  323 365 323 365 338 365 c 1,100,-1
  338 365 l 1,88,89
 EndSplineSet
-Ligature: 0 1 'vatu' u0999 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u0999 u09B0_u09CD.blwf
 EndChar
 StartChar: u099A_u09CD.half_u099A.pres
 Encoding: 65582 -1 198
@@ -9730,7 +9728,7 @@ Fore
  263 311 263 311 297 295 c 1,54,-1
  297 295 l 1,49,-1
 EndSplineSet
-Ligature: 0 1 'pres' u099A_u09CD.half u099A
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099A_u09CD.half u099A
 EndChar
 StartChar: u099A_u09CD.half_u099B.pres
 Encoding: 65583 -1 199
@@ -9806,7 +9804,7 @@ Fore
  399 225 399 225 413 225 c 1,76,-1
  413 225 l 1,66,67
 EndSplineSet
-Ligature: 0 1 'pres' u099A_u09CD.half u099B
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099A_u09CD.half u099B
 EndChar
 StartChar: u099A_u09CD.half_u099B_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65584 -1 200
@@ -9900,7 +9898,7 @@ Fore
  147 55 147 55 164 55 c 1,101,-1
  164 55 l 1,91,92
 EndSplineSet
-Ligature: 0 1 'pres' u099A_u09CD.half u099B_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099A_u09CD.half u099B_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u099A_u09CD.half_u099B_u09AC_u09CD.blwf.pres
 Encoding: 65585 -1 201
@@ -9995,7 +9993,7 @@ Fore
  136 60 136 60 144 60 c 1,100,-1
  144 60 l 1,89,90
 EndSplineSet
-Ligature: 0 1 'pres' u099A_u09CD.half u099B u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099A_u09CD.half u099B u09AC_u09CD.blwf
 EndChar
 StartChar: u099A_u09CD.half_u099E.pres
 Encoding: 65586 -1 202
@@ -10100,7 +10098,7 @@ Fore
  120 180 120 180 134 180 c 1,122,-1
  134 180 l 1,112,113
 EndSplineSet
-Ligature: 0 1 'pres' u099A_u09CD.half u099E
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099A_u09CD.half u099E
 EndChar
 StartChar: u099A_u09CD.half_u09A8.pres
 Encoding: 65587 -1 203
@@ -10160,7 +10158,7 @@ Fore
  120 164 l 1,57,-1
  120 164 l 1,44,45
 EndSplineSet
-Ligature: 0 1 'pres' u099A_u09CD.half u09A8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099A_u09CD.half u09A8
 EndChar
 StartChar: u099A_u09B0_u09CD.blwf.vatu
 Encoding: 65588 -1 204
@@ -10221,7 +10219,7 @@ Fore
  123 114 l 1,58,-1
  123 114 l 1,45,46
 EndSplineSet
-Ligature: 0 1 'vatu' u099A u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u099A u09B0_u09CD.blwf
 EndChar
 StartChar: u099A_u09AC_u09CD.blwf.blws
 Encoding: 65589 -1 205
@@ -10278,7 +10276,7 @@ Fore
  221 -69 221 -69 239 -95 c 1,50,-1
  239 -95 l 1,43,-1
 EndSplineSet
-Ligature: 0 1 'blws' u099A u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u099A u09AC_u09CD.blwf
 EndChar
 StartChar: u099B_u09B0_u09CD.blwf.vatu
 Encoding: 65590 -1 206
@@ -10358,7 +10356,7 @@ Fore
  164 220 164 220 176 220 c 1,85,-1
  176 220 l 1,77,78
 EndSplineSet
-Ligature: 0 1 'vatu' u099B u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u099B u09B0_u09CD.blwf
 EndChar
 StartChar: u099B_u09AC_u09CD.blwf.blws
 Encoding: 65591 -1 207
@@ -10439,7 +10437,7 @@ Fore
  336 -107 336 -107 352 -130 c 1,85,-1
  352 -130 l 1,78,-1
 EndSplineSet
-Ligature: 0 1 'blws' u099B u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u099B u09AC_u09CD.blwf
 EndChar
 StartChar: u099C_u09CD.half_u099C.pres
 Encoding: 65592 -1 208
@@ -10532,7 +10530,7 @@ Fore
  461 115 461 115 500 115 c 1,112,-1
  500 115 l 1,76,77
 EndSplineSet
-Ligature: 0 1 'pres' u099C_u09CD.half u099C
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099C_u09CD.half u099C
 EndChar
 StartChar: u099C_u09CD.half_u099C_u09AC_u09CD.blwf.pres
 Encoding: 65593 -1 209
@@ -10636,7 +10634,7 @@ Fore
  685 -10 685 -10 713 -30 c 1,126,-1
  713 -30 l 1,117,118
 EndSplineSet
-Ligature: 0 1 'pres' u099C_u09CD.half u099C u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099C_u09CD.half u099C u09AC_u09CD.blwf
 EndChar
 StartChar: u099C_u09CD.half_u099D.pres
 Encoding: 65594 -1 210
@@ -10710,7 +10708,7 @@ Fore
  567 0 567 0 592 -30 c 1,78,-1
  592 -30 l 1,69,-1
 EndSplineSet
-Ligature: 0 1 'pres' u099C_u09CD.half u099D
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099C_u09CD.half u099D
 EndChar
 StartChar: u099C_u09CD.half_u099E.pres
 Encoding: 65595 -1 211
@@ -10795,7 +10793,7 @@ Fore
  257 260 257 260 286 260 c 1,94,-1
  286 260 l 1,84,85
 EndSplineSet
-Ligature: 0 1 'pres' u099C_u09CD.half u099E
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099C_u09CD.half u099E
 EndChar
 StartChar: u099C_u09B0_u09CD.blwf.vatu
 Encoding: 65596 -1 212
@@ -10870,7 +10868,7 @@ Fore
  60 207 60 207 60 325 c 1,87,-1
  60 325 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u099C u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u099C u09B0_u09CD.blwf
 EndChar
 StartChar: u099C_u09AC_u09CD.blwf.blws
 Encoding: 65597 -1 213
@@ -10943,7 +10941,7 @@ Fore
  488 12 488 12 526 -10 c 1,82,-1
  526 -10 l 1,73,74
 EndSplineSet
-Ligature: 0 1 'blws' u099C u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u099C u09AC_u09CD.blwf
 EndChar
 StartChar: u099D_u09B0_u09CD.blwf.vatu
 Encoding: 65598 -1 214
@@ -11005,7 +11003,7 @@ Fore
  328 136 328 136 361 85 c 1,55,-1
  361 85 l 1,48,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u099D u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u099D u09B0_u09CD.blwf
 EndChar
 StartChar: u099E_u09CD.half_u099A.pres
 Encoding: 65599 -1 215
@@ -11089,7 +11087,7 @@ Fore
  461 120 461 120 502 120 c 1,91,-1
  502 120 l 1,60,61
 EndSplineSet
-Ligature: 0 1 'pres' u099E_u09CD.half u099A
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099E_u09CD.half u099A
 EndChar
 StartChar: u099E_u09CD.half_u099A_u09AC_u09CD.blwf.pres
 Encoding: 65600 -1 216
@@ -11185,7 +11183,7 @@ Fore
  306 -94 306 -94 322 -117 c 1,106,-1
  322 -117 l 1,99,-1
 EndSplineSet
-Ligature: 0 1 'pres' u099E_u09CD.half u099A u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099E_u09CD.half u099A u09AC_u09CD.blwf
 EndChar
 StartChar: u099E_u09CD.half_u099B.pres
 Encoding: 65601 -1 217
@@ -11288,7 +11286,7 @@ Fore
  394 220 394 220 428 220 c 1,122,-1
  428 220 l 1,92,93
 EndSplineSet
-Ligature: 0 1 'pres' u099E_u09CD.half u099B
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099E_u09CD.half u099B
 EndChar
 StartChar: u099E_u09CD.half_u099C.pres
 Encoding: 65602 -1 218
@@ -11400,7 +11398,7 @@ Fore
  444 250 444 250 482 250 c 1,139,-1
  482 250 l 1,106,107
 EndSplineSet
-Ligature: 0 1 'pres' u099E_u09CD.half u099C
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099E_u09CD.half u099C
 EndChar
 StartChar: u099E_u09CD.half_u099D.pres
 Encoding: 65603 -1 219
@@ -11510,7 +11508,7 @@ Fore
  456 240 456 240 482 240 c 1,128,-1
  482 240 l 1,98,99
 EndSplineSet
-Ligature: 0 1 'pres' u099E_u09CD.half u099D
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099E_u09CD.half u099D
 EndChar
 StartChar: u099E_u09CD.half_u09A7.pres
 Encoding: 65604 -1 220
@@ -11606,7 +11604,7 @@ Fore
  359 245 359 245 385 245 c 1,111,-1
  385 245 l 1,81,82
 EndSplineSet
-Ligature: 0 1 'pres' u099E_u09CD.half u09A7
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099E_u09CD.half u09A7
 EndChar
 StartChar: u099F_u09CD.half_u099F.pres
 Encoding: 65605 -1 221
@@ -11678,7 +11676,7 @@ Fore
  325 -80 325 -80 261 -80 c 1,76,-1
  261 -80 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u099F_u09CD.half u099F
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099F_u09CD.half u099F
 EndChar
 StartChar: u099F_u09CD.half_u099F_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65606 -1 222
@@ -11767,7 +11765,7 @@ Fore
  293 -80 293 -80 261 -80 c 1,101,-1
  261 -80 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u099F_u09CD.half u099F_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099F_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u099F_u09CD.half_u09AE.pres
 Encoding: 65607 -1 223
@@ -11846,7 +11844,7 @@ Fore
  489 465 l 1,89,-1
  489 465 l 1,62,-1
 EndSplineSet
-Ligature: 0 1 'pres' u099F_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099F_u09CD.half u09AE
 EndChar
 StartChar: u099F_u09B0_u09CD.blwf.vatu
 Encoding: 65608 -1 224
@@ -11926,7 +11924,7 @@ Fore
  -10 465 l 1,87,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u099F u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u099F u09B0_u09CD.blwf
 EndChar
 StartChar: u099F_u09AC_u09CD.blwf.blws
 Encoding: 65609 -1 225
@@ -12001,7 +11999,7 @@ Fore
  262 -14 262 -14 280 -40 c 1,78,-1
  280 -40 l 1,71,-1
 EndSplineSet
-Ligature: 0 1 'blws' u099F u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u099F u09AC_u09CD.blwf
 EndChar
 StartChar: u09A0_u09B0_u09CD.blwf.vatu
 Encoding: 65610 -1 226
@@ -12071,7 +12069,7 @@ Fore
  146 65 146 65 197 65 c 1,72,-1
  197 65 l 1,60,61
 EndSplineSet
-Ligature: 0 1 'vatu' u09A0 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09A0 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A1_u09CD.half_u0997.pres
 Encoding: 65611 -1 227
@@ -12148,7 +12146,7 @@ Fore
  852 0 l 1,82,-1
  852 0 l 1,39,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A1_u09CD.half u0997
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A1_u09CD.half u0997
 EndChar
 StartChar: u09A1_u09CD.half_u09A1.pres
 Encoding: 65612 -1 228
@@ -12226,7 +12224,7 @@ Fore
  594 50 594 50 661 50 c 1,84,-1
  661 50 l 1,51,52
 EndSplineSet
-Ligature: 0 1 'pres' u09A1_u09CD.half u09A1
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A1_u09CD.half u09A1
 EndChar
 StartChar: u09A1_u09CD.half_u09AE.pres
 Encoding: 65613 -1 229
@@ -12289,7 +12287,7 @@ Fore
  625 465 l 1,65,-1
  625 465 l 1,47,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A1_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A1_u09CD.half u09AE
 EndChar
 StartChar: u09A1_u09B0_u09CD.blwf.vatu
 Encoding: 65614 -1 230
@@ -12352,7 +12350,7 @@ Fore
  499 127 499 127 489 110 c 1,63,-1
  489 110 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u09A1 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09A1 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A1_u09AC_u09CD.blwf.blws
 Encoding: 65615 -1 231
@@ -12411,7 +12409,7 @@ Fore
  301 -97 301 -97 317 -120 c 1,55,-1
  317 -120 l 1,48,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09A1 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A1 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A2_u09B0_u09CD.blwf.vatu
 Encoding: 65616 -1 232
@@ -12472,7 +12470,7 @@ Fore
  -10 465 l 1,60,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u09A2 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09A2 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A3_u09CD.half_u099F.pres
 Encoding: 65617 -1 233
@@ -12553,7 +12551,7 @@ Fore
  303 500 l 1,90,-1
  303 500 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A3_u09CD.half u099F
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A3_u09CD.half u099F
 EndChar
 StartChar: u09A3_u09CD.half_u099F_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65618 -1 234
@@ -12652,7 +12650,7 @@ Fore
  303 500 l 1,115,-1
  303 500 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A3_u09CD.half u099F_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A3_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A3_u09CD.half_u09A0.pres
 Encoding: 65619 -1 235
@@ -12724,7 +12722,7 @@ Fore
  255 60 255 60 305 60 c 1,78,-1
  305 60 l 1,63,64
 EndSplineSet
-Ligature: 0 1 'pres' u09A3_u09CD.half u09A0
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A3_u09CD.half u09A0
 EndChar
 StartChar: u09A3_u09CD.half_u09A0_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65620 -1 236
@@ -12814,7 +12812,7 @@ Fore
  255 60 255 60 305 60 c 1,103,-1
  305 60 l 1,88,89
 EndSplineSet
-Ligature: 0 1 'pres' u09A3_u09CD.half u09A0_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A3_u09CD.half u09A0_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A3_u09CD.half_u09A1.pres
 Encoding: 65621 -1 237
@@ -12883,7 +12881,7 @@ Fore
  468 -10 468 -10 389 -10 c 1,76,-1
  389 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A3_u09CD.half u09A1
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A3_u09CD.half u09A1
 EndChar
 StartChar: u09A3_u09CD.half_u09A1_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65622 -1 238
@@ -12958,7 +12956,7 @@ Fore
  560 15 560 15 478 0 c 1,80,-1
  478 0 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A3_u09CD.half u09A1_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A3_u09CD.half u09A1_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A3_u09CD.half_u09A2.pres
 Encoding: 65623 -1 239
@@ -13015,7 +13013,7 @@ Fore
  304 500 l 1,57,-1
  304 500 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A3_u09CD.half u09A2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A3_u09CD.half u09A2
 EndChar
 StartChar: u09A3_u09CD.half_u09A2_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65624 -1 240
@@ -13090,7 +13088,7 @@ Fore
  304 500 l 1,82,-1
  304 500 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A3_u09CD.half u09A2_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A3_u09CD.half u09A2_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A3_u09CD.half_u09A3.pres
 Encoding: 65625 -1 241
@@ -13150,7 +13148,7 @@ Fore
  346 560 l 1,63,-1
  346 560 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A3_u09CD.half u09A3
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A3_u09CD.half u09A3
 EndChar
 StartChar: u09A3_u09CD.half_u09AE.pres
 Encoding: 65626 -1 242
@@ -13208,7 +13206,7 @@ Fore
  468 107 468 107 494 70 c 1,56,-1
  494 70 l 1,50,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A3_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A3_u09CD.half u09AE
 EndChar
 StartChar: u09A3_u09B0_u09CD.blwf.vatu
 Encoding: 65627 -1 243
@@ -13263,7 +13261,7 @@ Fore
  372 0 l 1,55,-1
  372 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'vatu' u09A3 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09A3 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A3_u09AC_u09CD.blwf.blws
 Encoding: 65628 -1 244
@@ -13316,7 +13314,7 @@ Fore
  285 79 285 79 314 55 c 1,51,-1
  314 55 l 1,44,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09A3 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A3 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A4_u09CD.half_u09A4.pres
 Encoding: 65629 -1 245
@@ -13375,7 +13373,7 @@ Fore
  -10 465 l 1,63,-1
  -10 465 l 1,59,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A4_u09CD.half u09A4
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A4_u09CD.half u09A4
 EndChar
 StartChar: u09A4_u09CD.half_u09A4_u09AC_u09CD.blwf.pres
 Encoding: 65630 -1 246
@@ -13448,7 +13446,7 @@ Fore
  -10 465 l 1,80,-1
  -10 465 l 1,76,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A4_u09CD.half u09A4 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A4_u09CD.half u09A4 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A4_u09CD.half_u09A5.pres
 Encoding: 65631 -1 247
@@ -13510,7 +13508,7 @@ Fore
  19 383 19 383 19 419 c 1,66,-1
  19 419 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A4_u09CD.half u09A5
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A4_u09CD.half u09A5
 EndChar
 StartChar: u09A4_u09CD.half_u09A8.pres
 Encoding: 65632 -1 248
@@ -13570,7 +13568,7 @@ Fore
  -10 465 l 1,63,-1
  -10 465 l 1,59,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A4_u09CD.half u09A8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A4_u09CD.half u09A8
 EndChar
 StartChar: u09A4_u09CD.half_u09AE.pres
 Encoding: 65633 -1 249
@@ -13631,7 +13629,7 @@ Fore
  611 0 l 1,65,-1
  611 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A4_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A4_u09CD.half u09AE
 EndChar
 StartChar: u09A4_u09B0_u09CD.blwf.vatu
 Encoding: 65634 -1 250
@@ -13687,7 +13685,7 @@ Fore
  -10 465 l 1,57,-1
  -10 465 l 1,53,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u09A4 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09A4 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A4_u09B0_u09CD.blwf.vatu_u09C1.blws
 Encoding: 65635 -1 251
@@ -13765,7 +13763,7 @@ Fore
  -10 465 l 1,85,-1
  -10 465 l 1,81,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09A4_u09B0_u09CD.blwf.vatu u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A4_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09A4_u09B0_u09CD.blwf.vatu_u09C2.blws
 Encoding: 65636 -1 252
@@ -13842,7 +13840,7 @@ Fore
  -10 465 l 1,83,-1
  -10 465 l 1,79,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09A4_u09B0_u09CD.blwf.vatu u09C2
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A4_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09A4_u09CD.half_u09B2.pres
 Encoding: 65637 -1 253
@@ -13978,7 +13976,7 @@ Fore
  -10 465 l 1,59,-1
  -10 465 l 1,55,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09A4 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A4 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A5_u09B0_u09CD.blwf.vatu
 Encoding: 65639 -1 255
@@ -14043,7 +14041,7 @@ Fore
  94 255 l 1,70,-1
  94 255 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'vatu' u09A5 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09A5 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A5_u09B0_u09CD.blwf.vatu_u09C1.blws
 Encoding: 65640 -1 256
@@ -14129,7 +14127,7 @@ Fore
  95 255 l 1,98,-1
  95 255 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'blws' u09A5_u09B0_u09CD.blwf.vatu u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A5_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09A5_u09B0_u09CD.blwf.vatu_u09C2.blws
 Encoding: 65641 -1 257
@@ -14214,7 +14212,7 @@ Fore
  95 255 l 1,96,-1
  95 255 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'blws' u09A5_u09B0_u09CD.blwf.vatu u09C2
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A5_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09A5_u09AC_u09CD.blwf.blws
 Encoding: 65642 -1 258
@@ -14274,7 +14272,7 @@ Fore
  337 23 337 23 353 0 c 1,60,-1
  353 0 l 1,53,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09A5 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A5 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A6_u09CD.half_u0997.pres
 Encoding: 65643 -1 259
@@ -14345,7 +14343,7 @@ Fore
  293 -10 l 1,72,-1
  293 -10 l 1,44,45
 EndSplineSet
-Ligature: 0 1 'pres' u09A6_u09CD.half u0997
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u0997
 EndChar
 StartChar: u09A6_u09CD.half_u0998.pres
 Encoding: 65644 -1 260
@@ -14405,7 +14403,7 @@ Fore
  608 114 608 114 653 50 c 1,57,-1
  653 50 l 1,43,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A6_u09CD.half u0998
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u0998
 EndChar
 StartChar: u09A6_u09CD.half_u09A6.pres
 Encoding: 65645 -1 261
@@ -14449,7 +14447,7 @@ Fore
  488 -15 l 1,39,-1
  488 -15 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A6_u09CD.half u09A6
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u09A6
 EndChar
 StartChar: u09A6_u09CD.half_u09A6_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65646 -1 262
@@ -14506,7 +14504,7 @@ Fore
  501 -15 l 1,58,-1
  501 -15 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A6_u09CD.half u09A6_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u09A6_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A6_u09CD.half_u09A6_u09AC_u09CD.blwf.pres
 Encoding: 65647 -1 263
@@ -14563,7 +14561,7 @@ Fore
  460 -36 460 -36 495 -65 c 1,56,-1
  495 -65 l 1,47,48
 EndSplineSet
-Ligature: 0 1 'pres' u09A6_u09CD.half u09A6 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u09A6 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A6_u09CD.half_u09A7.pres
 Encoding: 65648 -1 264
@@ -14625,7 +14623,7 @@ Fore
  292 73 292 73 315 40 c 1,59,-1
  315 40 l 1,52,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A6_u09CD.half u09A7
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u09A7
 EndChar
 StartChar: u09A6_u09CD.half_u09A7_u09AC_u09CD.blwf.pres
 Encoding: 65649 -1 265
@@ -14699,7 +14697,7 @@ Fore
  327 140 327 140 345 115 c 1,73,-1
  345 115 l 1,66,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A6_u09CD.half u09A7 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u09A7 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A6_u09CD.half_u09A8.pres
 Encoding: 65650 -1 266
@@ -14747,7 +14745,7 @@ Fore
  363 -5 l 1,46,-1
  363 -5 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A6_u09CD.half u09A8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u09A8
 EndChar
 StartChar: u09A6_u09CD.half_u09AD.pres
 Encoding: 65651 -1 267
@@ -14815,7 +14813,7 @@ Fore
  422 -60 422 -60 343 -60 c 1,71,-1
  343 -60 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A6_u09CD.half u09AD
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u09AD
 EndChar
 StartChar: u09A6_u09CD.half_u09AD_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65652 -1 268
@@ -14891,7 +14889,7 @@ Fore
  208 -90 208 -90 184 -90 c 1,82,-1
  184 -90 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A6_u09CD.half u09AD_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u09AD_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A6_u09CD.half_u09AE.pres
 Encoding: 65653 -1 269
@@ -14942,7 +14940,7 @@ Fore
  392 80 392 80 406 60 c 1,47,-1
  406 60 l 1,31,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A6_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u09AE
 EndChar
 StartChar: u09A6_u09B0_u09CD.blwf.vatu
 Encoding: 65654 -1 270
@@ -14995,7 +14993,7 @@ Fore
  409 -20 l 1,53,-1
  409 -20 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'vatu' u09A6 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09A6 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A6_u09B0_u09CD.blwf.vatu_u09C1.blws
 Encoding: 65655 -1 271
@@ -15071,7 +15069,7 @@ Fore
  414 -30 l 1,83,-1
  414 -30 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'blws' u09A6_u09B0_u09CD.blwf.vatu u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A6_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09A6_u09B0_u09CD.blwf.vatu_u09C2.blws
 Encoding: 65656 -1 272
@@ -15146,7 +15144,7 @@ Fore
  419 -25 l 1,81,-1
  419 -25 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'blws' u09A6_u09B0_u09CD.blwf.vatu u09C2
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A6_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09A6_u09AC_u09CD.blwf.blws
 Encoding: 65657 -1 273
@@ -15190,7 +15188,7 @@ Fore
  325 82 325 82 344 55 c 1,37,-1
  344 55 l 1,30,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09A6 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A6 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A7_u09CD.half_u09A8.pres
 Encoding: 65658 -1 274
@@ -15252,7 +15250,7 @@ Fore
  259 166 259 166 300 125 c 1,61,-1
  300 125 l 1,56,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A7_u09CD.half u09A8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A7_u09CD.half u09A8
 EndChar
 StartChar: u09A7_u09CD.half_u09AE.pres
 Encoding: 65659 -1 275
@@ -15314,7 +15312,7 @@ Fore
  251 355 l 1,58,-1
  251 355 l 1,53,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A7_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A7_u09CD.half u09AE
 EndChar
 StartChar: u09A7_u09B0_u09CD.blwf.vatu
 Encoding: 65660 -1 276
@@ -15378,7 +15376,7 @@ Fore
  353 139 353 139 394 80 c 1,66,-1
  394 80 l 1,61,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u09A7 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09A7 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A7_u09B0_u09CD.blwf.vatu_u09C1.blws
 Encoding: 65661 -1 277
@@ -15464,7 +15462,7 @@ Fore
  336 142 336 142 369 95 c 1,94,-1
  369 95 l 1,89,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09A7_u09B0_u09CD.blwf.vatu u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A7_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09A7_u09B0_u09CD.blwf.vatu_u09C2.blws
 Encoding: 65662 -1 278
@@ -15549,7 +15547,7 @@ Fore
  339 148 339 148 372 90 c 1,92,-1
  372 90 l 1,87,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09A7_u09B0_u09CD.blwf.vatu u09C2
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A7_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09A7_u09AC_u09CD.blwf.blws
 Encoding: 65663 -1 279
@@ -15614,7 +15612,7 @@ Fore
  534 132 534 132 578 70 c 1,61,-1
  578 70 l 1,54,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09A7 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A7 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A8_u09CD.half_u099F.pres
 Encoding: 65664 -1 280
@@ -15688,7 +15686,7 @@ Fore
  430 25 430 25 367 25 c 1,79,-1
  367 25 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u099F
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u099F
 EndChar
 StartChar: u09A8_u09CD.half_u099F_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65665 -1 281
@@ -15784,7 +15782,7 @@ Fore
  35 287 35 287 35 310 c 1,111,-1
  35 310 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u099F_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A8_u09CD.half_u09A0.pres
 Encoding: 65666 -1 282
@@ -15851,7 +15849,7 @@ Fore
  227 60 227 60 278 60 c 1,68,-1
  278 60 l 1,56,57
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A0
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A0
 EndChar
 StartChar: u09A8_u09CD.half_u09A1.pres
 Encoding: 65667 -1 283
@@ -15908,7 +15906,7 @@ Fore
  435 -10 435 -10 340 -10 c 1,56,-1
  340 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A1
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A1
 EndChar
 StartChar: u09A8_u09CD.half_u09A1_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65668 -1 284
@@ -15983,7 +15981,7 @@ Fore
  387 -10 387 -10 342 -10 c 1,81,-1
  342 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A1_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A1_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: glyph283
 Encoding: 65669 -1 285
@@ -16149,7 +16147,7 @@ Fore
  371 -10 371 -10 290 -10 c 1,75,-1
  290 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A4
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A4
 EndChar
 StartChar: u09A8_u09CD.half_u09A4.pres_u09C1.blws
 Encoding: 65671 -1 287
@@ -16233,7 +16231,7 @@ Fore
  456 -70 456 -70 390 -70 c 1,97,-1
  390 -70 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'blws' u09A8_u09CD.half_u09A4.pres u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A8_u09CD.half_u09A4.pres u09C1
 EndChar
 StartChar: u09A8_u09CD.half_u09A4_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65672 -1 288
@@ -16310,7 +16308,7 @@ Fore
  -10 465 l 1,89,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A8_u09CD.half_u09A4_u09AC_u09CD.blwf.pres
 Encoding: 65673 -1 289
@@ -16390,7 +16388,7 @@ Fore
  280 -132 280 -132 304 -160 c 1,92,-1
  304 -160 l 1,85,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A4 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A4 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A8_u09CD.half_u09A5.pres
 Encoding: 65674 -1 290
@@ -16464,7 +16462,7 @@ Fore
  455 -85 l 1,82,-1
  455 -85 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A5
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A5
 EndChar
 StartChar: u09A8_u09CD.half_u09A5_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65675 -1 291
@@ -16556,7 +16554,7 @@ Fore
  455 -85 l 1,107,-1
  455 -85 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A5_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A5_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A8_u09CD.half_u09A6.pres
 Encoding: 65676 -1 292
@@ -16604,7 +16602,7 @@ Fore
  537 -5 l 1,46,-1
  537 -5 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A6
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A6
 EndChar
 StartChar: u09A8_u09CD.half_u09A6_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65677 -1 293
@@ -16670,7 +16668,7 @@ Fore
  518 -25 l 1,72,-1
  518 -25 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A6_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A6_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A8_u09CD.half_u09A6_u09AC_u09CD.blwf.pres
 Encoding: 65678 -1 294
@@ -16732,7 +16730,7 @@ Fore
  426 42 426 42 450 25 c 1,64,-1
  450 25 l 1,55,56
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A6 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A6 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A8_u09CD.half_u09A7.pres
 Encoding: 65679 -1 295
@@ -16799,7 +16797,7 @@ Fore
  289 104 289 104 316 65 c 1,67,-1
  316 65 l 1,60,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A7
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A7
 EndChar
 StartChar: u09A8_u09CD.half_u09A7_u09AC_u09CD.blwf.pres
 Encoding: 65680 -1 296
@@ -16878,7 +16876,7 @@ Fore
  300 -87 300 -87 316 -110 c 1,82,-1
  316 -110 l 1,75,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A7 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A7 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A8_u09CD.half_u09A7_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65681 -1 297
@@ -16962,7 +16960,7 @@ Fore
  373 102 373 102 400 55 c 1,92,-1
  400 55 l 1,85,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A7_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A7_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09A8_u09CD.half_u09A8.pres
 Encoding: 65682 -1 298
@@ -17010,7 +17008,7 @@ Fore
  -10 465 l 1,46,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09A8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A8
 EndChar
 StartChar: u09A8_u09CD.half_u09AE.pres
 Encoding: 65683 -1 299
@@ -17061,7 +17059,7 @@ Fore
  424 108 424 108 452 75 c 1,47,-1
  452 75 l 1,41,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09AE
 EndChar
 StartChar: u09A8_u09B0_u09CD.blwf.vatu
 Encoding: 65684 -1 300
@@ -17111,7 +17109,7 @@ Fore
  383 0 l 1,49,-1
  383 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'vatu' u09A8 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09A8 u09B0_u09CD.blwf
 EndChar
 StartChar: u09A8_u09AC_u09CD.blwf.blws
 Encoding: 65685 -1 301
@@ -17157,7 +17155,7 @@ Fore
  262 98 262 98 278 70 c 1,41,-1
  278 70 l 1,34,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09A8 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09A8 u09AC_u09CD.blwf
 EndChar
 StartChar: u09A8_u09CD.half_u09B8.pres
 Encoding: 65686 -1 302
@@ -17217,7 +17215,7 @@ Fore
  465 334 465 334 475 320 c 1,61,-1
  475 320 l 1,50,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09A8_u09CD.half u09B8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09B8
 EndChar
 StartChar: u09AA_u09CD.half_u099F.pres
 Encoding: 65687 -1 303
@@ -17303,7 +17301,7 @@ Fore
  180 352 180 352 180 320 c 1,95,-1
  180 320 l 1,83,84
 EndSplineSet
-Ligature: 0 1 'pres' u09AA_u09CD.half u099F
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AA_u09CD.half u099F
 EndChar
 StartChar: u09AA_u09CD.half_u09A4.pres
 Encoding: 65688 -1 304
@@ -17373,7 +17371,7 @@ Fore
  291 370 291 370 291 345 c 1,72,-1
  291 345 l 1,60,61
 EndSplineSet
-Ligature: 0 1 'pres' u09AA_u09CD.half u09A4
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AA_u09CD.half u09A4
 EndChar
 StartChar: u09AA_u09CD.half_u09A4.pres_u09C1.blws
 Encoding: 65689 -1 305
@@ -17463,7 +17461,7 @@ Fore
  210 370 210 370 210 345 c 1,102,-1
  210 345 l 1,90,91
 EndSplineSet
-Ligature: 0 1 'blws' u09AA_u09CD.half_u09A4.pres u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09AA_u09CD.half_u09A4.pres u09C1
 EndChar
 StartChar: u09AA_u09CD.half_u09A4_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65690 -1 306
@@ -17541,7 +17539,7 @@ Fore
  186 370 186 370 186 345 c 1,87,-1
  186 345 l 1,75,76
 EndSplineSet
-Ligature: 0 1 'pres' u09AA_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AA_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09AA_u09CD.half_u09A8.pres
 Encoding: 65691 -1 307
@@ -17602,7 +17600,7 @@ Fore
  171 374 171 374 171 350 c 1,63,-1
  171 350 l 1,51,52
 EndSplineSet
-Ligature: 0 1 'pres' u09AA_u09CD.half u09A8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AA_u09CD.half u09A8
 EndChar
 StartChar: u09AA_u09CD.half_u09AA.pres
 Encoding: 65692 -1 308
@@ -17681,7 +17679,7 @@ Fore
  349 231 349 231 392 195 c 1,84,-1
  392 195 l 1,73,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09AA_u09CD.half u09AA
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AA_u09CD.half u09AA
 EndChar
 StartChar: u09AA_u09CD.half_u09AE.pres
 Encoding: 65693 -1 309
@@ -17743,7 +17741,7 @@ Fore
  532 108 532 108 560 75 c 1,62,-1
  560 75 l 1,56,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09AA_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AA_u09CD.half u09AE
 EndChar
 StartChar: u09AA_u09B0_u09CD.blwf.vatu
 Encoding: 65694 -1 310
@@ -17807,7 +17805,7 @@ Fore
  253 343 253 343 264 320 c 1,66,-1
  264 320 l 1,56,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u09AA u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09AA u09B0_u09CD.blwf
 EndChar
 StartChar: u09AA_u09B0_u09CD.blwf.vatu_u09C1.blws
 Encoding: 65695 -1 311
@@ -17893,7 +17891,7 @@ Fore
  234 339 234 339 245 315 c 1,94,-1
  245 315 l 1,84,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09AA_u09B0_u09CD.blwf.vatu u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09AA_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09AA_u09B0_u09CD.blwf.vatu_u09C2.blws
 Encoding: 65696 -1 312
@@ -17978,7 +17976,7 @@ Fore
  248 342 248 342 263 310 c 1,92,-1
  263 310 l 1,82,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09AA_u09B0_u09CD.blwf.vatu u09C2
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09AA_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09AA_u09CD.half_u09B2.pres
 Encoding: 65697 -1 313
@@ -18056,7 +18054,7 @@ Fore
  198 367 198 367 205 340 c 1,86,-1
  205 340 l 1,74,75
 EndSplineSet
-Ligature: 0 1 'pres' u09AA_u09CD.half u09B2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AA_u09CD.half u09B2
 EndChar
 StartChar: u09AA_u09CD.half_u09B8.pres
 Encoding: 65698 -1 314
@@ -18131,7 +18129,7 @@ Fore
  406 356 406 356 406 315 c 1,80,-1
  406 315 l 1,69,70
 EndSplineSet
-Ligature: 0 1 'pres' u09AA_u09CD.half u09B8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AA_u09CD.half u09B8
 EndChar
 StartChar: u09AB_u09CD.half_u099F.pres
 Encoding: 65699 -1 315
@@ -18213,7 +18211,7 @@ Fore
  296 410 l 1,89,-1
  296 410 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09AB_u09CD.half u099F
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AB_u09CD.half u099F
 EndChar
 StartChar: u09AB_u09B0_u09CD.blwf.vatu
 Encoding: 65700 -1 316
@@ -18277,7 +18275,7 @@ Fore
  413 -50 l 1,62,-1
  413 -50 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'vatu' u09AB u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09AB u09B0_u09CD.blwf
 EndChar
 StartChar: u09AB_u09CD.half_u09B2.pres
 Encoding: 65701 -1 317
@@ -18352,7 +18350,7 @@ Fore
  363 -70 l 1,79,-1
  363 -70 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09AB_u09CD.half u09B2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AB_u09CD.half u09B2
 EndChar
 StartChar: u09AC_u09CD.half_u099C.pres
 Encoding: 65702 -1 318
@@ -18429,7 +18427,7 @@ Fore
  261 294 261 294 290 270 c 1,86,-1
  290 270 l 1,79,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09AC_u09CD.half u099C
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AC_u09CD.half u099C
 EndChar
 StartChar: u09AC_u09CD.half_u099D.pres
 Encoding: 65703 -1 319
@@ -18496,7 +18494,7 @@ Fore
  412 225 412 225 436 190 c 1,57,-1
  436 190 l 1,51,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09AC_u09CD.half u099D
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AC_u09CD.half u099D
 EndChar
 StartChar: u09AC_u09CD.half_u09A1.pres
 Encoding: 65704 -1 320
@@ -18553,7 +18551,7 @@ Fore
  240 285 240 285 254 265 c 1,53,-1
  254 265 l 1,46,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09AC_u09CD.half u09A1
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AC_u09CD.half u09A1
 EndChar
 StartChar: u09AC_u09CD.half_u09A2.pres
 Encoding: 65705 -1 321
@@ -18605,7 +18603,7 @@ Fore
  160 246 160 246 182 220 c 1,45,-1
  182 220 l 1,38,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09AC_u09CD.half u09A2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AC_u09CD.half u09A2
 EndChar
 StartChar: u09AC_u09CD.half_u09A6.pres
 Encoding: 65706 -1 322
@@ -18653,7 +18651,7 @@ Fore
  196 240 196 240 216 205 c 1,43,-1
  216 205 l 1,36,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09AC_u09CD.half u09A6
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AC_u09CD.half u09A6
 EndChar
 StartChar: u09AC_u09CD.half_u09A6_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65707 -1 323
@@ -18714,7 +18712,7 @@ Fore
  214 240 214 240 234 205 c 1,62,-1
  234 205 l 1,55,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09AC_u09CD.half u09A6_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AC_u09CD.half u09A6_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09AC_u09CD.half_u09A7.pres
 Encoding: 65708 -1 324
@@ -18786,7 +18784,7 @@ Fore
  131 246 131 246 150 235 c 1,71,-1
  150 235 l 1,61,62
 EndSplineSet
-Ligature: 0 1 'pres' u09AC_u09CD.half u09A7
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AC_u09CD.half u09A7
 EndChar
 StartChar: u09AC_u09AC_u09CD.blwf.blws
 Encoding: 65709 -1 325
@@ -18839,7 +18837,7 @@ Fore
  561 128 561 128 586 75 c 1,44,-1
  586 75 l 1,37,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09AC u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09AC u09AC_u09CD.blwf
 EndChar
 StartChar: u09AC_u09CD.half_u09AD.pres
 Encoding: 65710 -1 326
@@ -18908,7 +18906,7 @@ Fore
  388 278 388 278 428 250 c 1,70,-1
  428 250 l 1,63,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09AC_u09CD.half u09AD
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AC_u09CD.half u09AD
 EndChar
 StartChar: u09AC_u09B0_u09CD.blwf.vatu
 Encoding: 65711 -1 327
@@ -18959,7 +18957,7 @@ Fore
  391 135 391 135 417 90 c 1,48,-1
  417 90 l 1,41,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u09AC u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09AC u09B0_u09CD.blwf
 EndChar
 StartChar: u09AC_u09B0_u09CD.blwf.vatu_u09C1.blws
 Encoding: 65712 -1 328
@@ -19028,7 +19026,7 @@ Fore
  311 139 311 139 352 80 c 1,70,-1
  352 80 l 1,63,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09AC_u09B0_u09CD.blwf.vatu u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09AC_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09AC_u09B0_u09CD.blwf.vatu_u09C2.blws
 Encoding: 65713 -1 329
@@ -19096,7 +19094,7 @@ Fore
  309 136 309 136 352 75 c 1,68,-1
  352 75 l 1,61,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09AC_u09B0_u09CD.blwf.vatu u09C2
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09AC_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09AC_u09CD.half_u09B2.pres
 Encoding: 65714 -1 330
@@ -19156,7 +19154,7 @@ Fore
  335 186 335 186 359 145 c 1,61,-1
  359 145 l 1,54,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09AC_u09CD.half u09B2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AC_u09CD.half u09B2
 EndChar
 StartChar: u09AD_u09B0_u09CD.blwf.vatu
 Encoding: 65715 -1 331
@@ -19212,7 +19210,7 @@ Fore
  -10 465 l 1,57,-1
  -10 465 l 1,53,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u09AD u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09AD u09B0_u09CD.blwf
 EndChar
 StartChar: u09AD_u09B0_u09CD.blwf.vatu_u09C1.blws
 Encoding: 65716 -1 332
@@ -19289,7 +19287,7 @@ Fore
  -10 465 l 1,83,-1
  -10 465 l 1,79,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09AD_u09B0_u09CD.blwf.vatu u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09AD_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09AD_u09B0_u09CD.blwf.vatu_u09C2.blws
 Encoding: 65717 -1 333
@@ -19367,7 +19365,7 @@ Fore
  -10 465 l 1,84,-1
  -10 465 l 1,80,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09AD_u09B0_u09CD.blwf.vatu u09C2
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09AD_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09AD_u09CD.half_u09B2.pres
 Encoding: 65718 -1 334
@@ -19449,7 +19447,7 @@ Fore
  -10 465 l 1,91,-1
  -10 465 l 1,87,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09AD_u09CD.half u09B2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AD_u09CD.half u09B2
 EndChar
 StartChar: u09AE_u09CD.half_u09A4.pres
 Encoding: 65719 -1 335
@@ -19518,7 +19516,7 @@ Fore
  383 -10 383 -10 302 -10 c 1,75,-1
  302 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09AE_u09CD.half u09A4
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AE_u09CD.half u09A4
 EndChar
 StartChar: u09AE_u09CD.half_u09A6.pres
 Encoding: 65720 -1 336
@@ -19580,7 +19578,7 @@ Fore
  230 335 230 335 251 335 c 1,64,-1
  251 335 l 1,51,52
 EndSplineSet
-Ligature: 0 1 'pres' u09AE_u09CD.half u09A6
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AE_u09CD.half u09A6
 EndChar
 StartChar: u09AE_u09CD.half_u09A8.pres
 Encoding: 65721 -1 337
@@ -19633,7 +19631,7 @@ Fore
  273 252 273 252 295 230 c 1,51,-1
  295 230 l 1,43,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09AE_u09CD.half u09A8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AE_u09CD.half u09A8
 EndChar
 StartChar: u09AE_u09CD.half_u09AA.pres
 Encoding: 65722 -1 338
@@ -19712,7 +19710,7 @@ Fore
  260 330 260 330 286 330 c 1,84,-1
  286 330 l 1,71,72
 EndSplineSet
-Ligature: 0 1 'pres' u09AE_u09CD.half u09AA
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AE_u09CD.half u09AA
 EndChar
 StartChar: u09AE_u09CD.half_u09AA_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65723 -1 339
@@ -19807,7 +19805,7 @@ Fore
  285 320 285 320 306 320 c 1,107,-1
  306 320 l 1,91,92
 EndSplineSet
-Ligature: 0 1 'pres' u09AE_u09CD.half u09AA_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AE_u09CD.half u09AA_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09AE_u09CD.half_u09AB.pres
 Encoding: 65724 -1 340
@@ -19883,7 +19881,7 @@ Fore
  255 335 255 335 281 335 c 1,79,-1
  281 335 l 1,66,67
 EndSplineSet
-Ligature: 0 1 'pres' u09AE_u09CD.half u09AB
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AE_u09CD.half u09AB
 EndChar
 StartChar: u09AE_u09CD.half_u09AB_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65725 -1 341
@@ -19971,7 +19969,7 @@ Fore
  279 335 279 335 305 335 c 1,96,-1
  305 335 l 1,83,84
 EndSplineSet
-Ligature: 0 1 'pres' u09AE_u09CD.half u09AB_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AE_u09CD.half u09AB_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09AE_u09AC_u09CD.blwf.blws
 Encoding: 65726 -1 342
@@ -20034,7 +20032,7 @@ Fore
  258 332 258 332 285 332 c 1,60,-1
  285 332 l 1,47,48
 EndSplineSet
-Ligature: 0 1 'blws' u09AE u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09AE u09AC_u09CD.blwf
 EndChar
 StartChar: u09AE_u09CD.half_u09AD.pres
 Encoding: 65727 -1 343
@@ -20112,7 +20110,7 @@ Fore
  426 340 426 340 455 340 c 1,84,-1
  455 340 l 1,71,72
 EndSplineSet
-Ligature: 0 1 'pres' u09AE_u09CD.half u09AD
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AE_u09CD.half u09AD
 EndChar
 StartChar: u09AE_u09CD.half_u09AD_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65728 -1 344
@@ -20206,7 +20204,7 @@ Fore
  306 335 306 335 337 335 c 1,108,-1
  337 335 l 1,95,96
 EndSplineSet
-Ligature: 0 1 'pres' u09AE_u09CD.half u09AD_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AE_u09CD.half u09AD_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09AE_u09CD.half_u09AE.pres
 Encoding: 65729 -1 345
@@ -20271,7 +20269,7 @@ Fore
  228 340 228 340 241 340 c 1,66,-1
  241 340 l 1,55,56
 EndSplineSet
-Ligature: 0 1 'pres' u09AE_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AE_u09CD.half u09AE
 EndChar
 StartChar: u09AE_u09B0_u09CD.blwf.vatu
 Encoding: 65730 -1 346
@@ -20342,7 +20340,7 @@ Fore
  340 330 340 330 351 330 c 1,74,-1
  351 330 l 1,58,59
 EndSplineSet
-Ligature: 0 1 'vatu' u09AE u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09AE u09B0_u09CD.blwf
 EndChar
 StartChar: u09AE_u09CD.half_u09B2.pres
 Encoding: 65731 -1 347
@@ -20430,7 +20428,7 @@ Fore
  344 330 344 330 359 330 c 1,98,-1
  359 330 l 1,82,83
 EndSplineSet
-Ligature: 0 1 'pres' u09AE_u09CD.half u09B2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AE_u09CD.half u09B2
 EndChar
 StartChar: u09AF_u09B0_u09CD.blwf.vatu
 Encoding: 65732 -1 348
@@ -20477,7 +20475,7 @@ Fore
  315 124 315 124 353 70 c 1,40,-1
  353 70 l 1,33,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u09AF u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09AF u09B0_u09CD.blwf
 EndChar
 StartChar: u09B0_u09C1.blws
 Encoding: 65733 -1 349
@@ -20543,7 +20541,7 @@ Fore
  142 15 142 15 128 15 c 1,64,-1
  128 15 l 1,52,53
 EndSplineSet
-Ligature: 0 1 'blws' u09B0 u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B0 u09C1
 EndChar
 StartChar: u09B0_u09C2.blws
 Encoding: 65734 -1 350
@@ -20608,7 +20606,7 @@ Fore
  122 15 122 15 108 15 c 1,62,-1
  108 15 l 1,50,51
 EndSplineSet
-Ligature: 0 1 'blws' u09B0 u09C2
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B0 u09C2
 EndChar
 StartChar: u09B2_u09CD.half_u0995.pres
 Encoding: 65735 -1 351
@@ -20685,7 +20683,7 @@ Fore
  357 95 357 95 391 55 c 1,81,-1
  391 55 l 1,74,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u0995
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u0995
 EndChar
 StartChar: u09B2_u09CD.half_u0997.pres
 Encoding: 65736 -1 352
@@ -20759,7 +20757,7 @@ Fore
  394 0 l 1,84,-1
  394 0 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u0997
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u0997
 EndChar
 StartChar: u09B2_u09CD.half_u0997.pres_afii61664_u09C1.blws
 Encoding: 65737 -1 353
@@ -20866,7 +20864,7 @@ Fore
  535 -100 535 -100 438 -100 c 1,129,-1
  438 -100 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'blws' u09B2_u09CD.half_u0997.pres afii61664 u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B2_u09CD.half_u0997.pres afii61664 u09C1
 EndChar
 StartChar: u09B2_u09CD.half_u0998.pres
 Encoding: 65738 -1 354
@@ -20937,7 +20935,7 @@ Fore
  628 120 628 120 660 65 c 1,76,-1
  660 65 l 1,59,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u0998
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u0998
 EndChar
 StartChar: u09B2_u09CD.half_u099F.pres
 Encoding: 65739 -1 355
@@ -21025,7 +21023,7 @@ Fore
  32 234 32 234 32 275 c 1,101,-1
  32 275 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u099F
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u099F
 EndChar
 StartChar: u09B2_u09CD.half_u099F_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65740 -1 356
@@ -21135,7 +21133,7 @@ Fore
  30 266 30 266 30 305 c 1,129,-1
  30 305 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u099F_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09B2_u09CD.half_u09A1.pres
 Encoding: 65741 -1 357
@@ -21204,7 +21202,7 @@ Fore
  -10 465 l 1,73,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u09A1
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u09A1
 EndChar
 StartChar: u09B2_u09CD.half_u09A1_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65742 -1 358
@@ -21291,7 +21289,7 @@ Fore
  -10 465 l 1,98,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u09A1_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u09A1_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09B2_u09CD.half_u09A2.pres
 Encoding: 65743 -1 359
@@ -21379,7 +21377,7 @@ Fore
  32 234 32 234 32 275 c 1,101,-1
  32 275 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u09A2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u09A2
 EndChar
 StartChar: u09B2_u09CD.half_u09A6.pres
 Encoding: 65744 -1 360
@@ -21443,7 +21441,7 @@ Fore
  31 266 31 266 31 305 c 1,69,-1
  31 305 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u09A6
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u09A6
 EndChar
 StartChar: u09B2_u09CD.half_u09AA.pres
 Encoding: 65745 -1 361
@@ -21519,7 +21517,7 @@ Fore
  229 65 229 65 232 35 c 1,84,-1
  232 35 l 1,72,73
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u09AA
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u09AA
 EndChar
 StartChar: u09B2_u09CD.half_u09AB.pres
 Encoding: 65746 -1 362
@@ -21595,7 +21593,7 @@ Fore
  570 -50 l 1,80,-1
  570 -50 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u09AB
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u09AB
 EndChar
 StartChar: u09B2_u09AC_u09CD.blwf.blws
 Encoding: 65747 -1 363
@@ -21658,7 +21656,7 @@ Fore
  369 89 369 89 398 60 c 1,65,-1
  398 60 l 1,58,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09B2 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B2 u09AC_u09CD.blwf
 EndChar
 StartChar: u09B2_u09CD.half_u09AE.pres
 Encoding: 65748 -1 364
@@ -21725,7 +21723,7 @@ Fore
  532 98 532 98 551 65 c 1,71,-1
  551 65 l 1,65,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u09AE
 EndChar
 StartChar: u09B2_u09B0_u09CD.blwf.vatu
 Encoding: 65749 -1 365
@@ -21790,7 +21788,7 @@ Fore
  476 0 l 1,71,-1
  476 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'vatu' u09B2 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09B2 u09B0_u09CD.blwf
 EndChar
 StartChar: u09B2_u09CD.half_u09B2.pres
 Encoding: 65750 -1 366
@@ -21870,7 +21868,7 @@ Fore
  275 174 275 174 287 140 c 1,91,-1
  287 140 l 1,56,57
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u09B2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u09B2
 EndChar
 StartChar: u09B6_afii61664_u09C1.blws
 Encoding: 65751 -1 367
@@ -21949,8 +21947,8 @@ Fore
  461 -10 461 -10 370 -10 c 1,89,-1
  370 -10 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'blws' u09B6 u09C1
-Ligature: 0 1 'blws' u09B6 afii61664 u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B6 u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B6 afii61664 u09C1
 EndChar
 StartChar: u09B6_u09CD.half_u099A.pres
 Encoding: 65752 -1 368
@@ -22018,7 +22016,7 @@ Fore
  361 80 361 80 378 80 c 1,68,-1
  378 80 l 1,58,59
 EndSplineSet
-Ligature: 0 1 'pres' u09B6_u09CD.half u099A
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B6_u09CD.half u099A
 EndChar
 StartChar: u09B6_u09CD.half_u099B.pres
 Encoding: 65753 -1 369
@@ -22103,7 +22101,7 @@ Fore
  383 210 383 210 397 210 c 1,93,-1
  397 210 l 1,83,84
 EndSplineSet
-Ligature: 0 1 'pres' u09B6_u09CD.half u099B
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B6_u09CD.half u099B
 EndChar
 StartChar: u09B6_u09CD.half_u09A4.pres
 Encoding: 65754 -1 370
@@ -22181,7 +22179,7 @@ Fore
  -10 465 l 1,84,-1
  -10 465 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B6_u09CD.half u09A4
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B6_u09CD.half u09A4
 EndChar
 StartChar: u09B6_u09CD.half_u09A8.pres
 Encoding: 65755 -1 371
@@ -22244,7 +22242,7 @@ Fore
  354 0 l 1,66,-1
  354 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09B6_u09CD.half u09A8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B6_u09CD.half u09A8
 EndChar
 StartChar: u09B6_u09CD.half_u09AE.pres
 Encoding: 65756 -1 372
@@ -22310,7 +22308,7 @@ Fore
  448 95 448 95 469 65 c 1,67,-1
  469 65 l 1,61,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B6_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B6_u09CD.half u09AE
 EndChar
 StartChar: u09B6_u09AC_u09CD.blwf.blws
 Encoding: 65757 -1 373
@@ -22373,7 +22371,7 @@ Fore
  287 97 287 97 309 65 c 1,63,-1
  309 65 l 1,56,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09B6 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B6 u09AC_u09CD.blwf
 EndChar
 StartChar: u09B6_u09B0_u09CD.blwf.vatu
 Encoding: 65758 -1 374
@@ -22441,7 +22439,7 @@ Fore
  429 0 l 1,73,-1
  429 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'vatu' u09B6 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09B6 u09B0_u09CD.blwf
 EndChar
 StartChar: u09B6_u09B0_u09CD.blwf.vatu_u09C0.psts
 Encoding: 65759 -1 375
@@ -22535,7 +22533,7 @@ Fore
  496 500 l 1,108,-1
  496 500 l 1,91,-1
 EndSplineSet
-Ligature: 0 1 'psts' u09B6_u09B0_u09CD.blwf.vatu u09C0
+Ligature2: "'psts' Post Base Substitutions in Bengali lookup 9" u09B6_u09B0_u09CD.blwf.vatu u09C0
 EndChar
 StartChar: u09B6_u09B0_u09CD.blwf.vatu_u09C1.blws
 Encoding: 65760 -1 376
@@ -22625,7 +22623,7 @@ Fore
  467 0 l 1,101,-1
  467 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'blws' u09B6_u09B0_u09CD.blwf.vatu u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B6_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09B6_u09B0_u09CD.blwf.vatu_u09C2.blws
 Encoding: 65761 -1 377
@@ -22714,7 +22712,7 @@ Fore
  470 0 l 1,99,-1
  470 0 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'blws' u09B6_u09B0_u09CD.blwf.vatu u09C2
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B6_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09B6_u09CD.half_u09B2.pres
 Encoding: 65762 -1 378
@@ -22793,7 +22791,7 @@ Fore
  372 0 l 1,89,-1
  372 0 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B6_u09CD.half u09B2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B6_u09CD.half u09B2
 EndChar
 StartChar: u09B7_u09CD.half_u0995.pres
 Encoding: 65763 -1 379
@@ -22867,7 +22865,7 @@ Fore
  254 372 254 372 265 310 c 1,74,-1
  265 310 l 1,64,65
 EndSplineSet
-Ligature: 0 1 'pres' u09B7_u09CD.half u0995
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B7_u09CD.half u0995
 EndChar
 StartChar: u09B7_u09CD.half_u0995_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65764 -1 380
@@ -22968,7 +22966,7 @@ Fore
  267 305 l 1,116,-1
  267 305 l 1,108,109
 EndSplineSet
-Ligature: 0 1 'pres' u09B7_u09CD.half u0995_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B7_u09CD.half u0995_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09B7_u09CD.half_u099F.pres
 Encoding: 65765 -1 381
@@ -23056,7 +23054,7 @@ Fore
  238 331 238 331 251 295 c 1,98,-1
  251 295 l 1,85,86
 EndSplineSet
-Ligature: 0 1 'pres' u09B7_u09CD.half u099F
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B7_u09CD.half u099F
 EndChar
 StartChar: u09B7_u09CD.half_u099F_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65766 -1 382
@@ -23165,7 +23163,7 @@ Fore
  305 335 305 335 318 300 c 1,128,-1
  318 300 l 1,115,116
 EndSplineSet
-Ligature: 0 1 'pres' u09B7_u09CD.half u099F_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B7_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09B7_u09CD.half_u09A0.pres
 Encoding: 65767 -1 383
@@ -23239,7 +23237,7 @@ Fore
  265 325 l 1,72,-1
  265 325 l 1,64,65
 EndSplineSet
-Ligature: 0 1 'pres' u09B7_u09CD.half u09A0
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B7_u09CD.half u09A0
 EndChar
 StartChar: u09B7_u09CD.half_u09A3.pres
 Encoding: 65768 -1 384
@@ -23314,7 +23312,7 @@ Fore
  307 290 l 1,73,-1
  307 290 l 1,70,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B7_u09CD.half u09A3
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B7_u09CD.half u09A3
 EndChar
 StartChar: u09B7_u09CD.half_u09AA.pres
 Encoding: 65769 -1 385
@@ -23390,7 +23388,7 @@ Fore
  272 320 l 1,77,-1
  272 320 l 1,69,70
 EndSplineSet
-Ligature: 0 1 'pres' u09B7_u09CD.half u09AA
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B7_u09CD.half u09AA
 EndChar
 StartChar: u09B7_u09CD.half_u09AA_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65770 -1 386
@@ -23487,7 +23485,7 @@ Fore
  219 354 219 354 250 310 c 1,109,-1
  250 310 l 1,99,100
 EndSplineSet
-Ligature: 0 1 'pres' u09B7_u09CD.half u09AA_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B7_u09CD.half u09AA_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09B7_u09CD.half_u09AB.pres
 Encoding: 65771 -1 387
@@ -23560,7 +23558,7 @@ Fore
  276 310 l 1,71,-1
  276 310 l 1,63,64
 EndSplineSet
-Ligature: 0 1 'pres' u09B7_u09CD.half u09AB
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B7_u09CD.half u09AB
 EndChar
 StartChar: u09B7_u09B0_u09CD.blwf.vatu
 Encoding: 65772 -1 388
@@ -23611,7 +23609,7 @@ Fore
  357 295 l 1,43,-1
  357 295 l 1,40,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u09B7 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09B7 u09B0_u09CD.blwf
 EndChar
 StartChar: u09B7_u09AC_u09CD.blwf.blws
 Encoding: 65773 -1 389
@@ -23673,7 +23671,7 @@ Fore
  239 371 239 371 259 315 c 1,56,-1
  259 315 l 1,46,47
 EndSplineSet
-Ligature: 0 1 'blws' u09B7 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B7 u09AC_u09CD.blwf
 EndChar
 StartChar: u09B7_u09CD.half_u09AE.pres
 Encoding: 65774 -1 390
@@ -23741,7 +23739,7 @@ Fore
  230 362 230 362 259 300 c 1,70,-1
  259 300 l 1,60,61
 EndSplineSet
-Ligature: 0 1 'pres' u09B7_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B7_u09CD.half u09AE
 EndChar
 StartChar: u09B8_u09CD.half_u0995.pres
 Encoding: 65775 -1 391
@@ -23815,7 +23813,7 @@ Fore
  303 341 303 341 348 345 c 1,75,-1
  348 345 l 1,65,66
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u0995
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u0995
 EndChar
 StartChar: u09B8_u09CD.half_u0995_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65776 -1 392
@@ -23916,7 +23914,7 @@ Fore
  327 370 327 370 367 370 c 1,118,-1
  367 370 l 1,108,109
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u0995_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u0995_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: glyph391
 Encoding: 65777 -1 393
@@ -24125,7 +24123,7 @@ Fore
  309 360 309 360 336 360 c 1,91,-1
  336 360 l 1,81,82
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u0996
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u0996
 EndChar
 StartChar: u09B8_u09CD.half_u099F.pres
 Encoding: 65779 -1 395
@@ -24214,7 +24212,7 @@ Fore
  271 350 271 350 280 350 c 1,100,-1
  280 350 l 1,89,90
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u099F
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u099F
 EndChar
 StartChar: u09B8_u09CD.half_u099F_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65780 -1 396
@@ -24320,7 +24318,7 @@ Fore
  359 335 359 335 401 335 c 1,123,-1
  401 335 l 1,113,114
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u099F_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: glyph395
 Encoding: 65781 -1 397
@@ -24525,7 +24523,7 @@ Fore
  310 350 310 350 352 350 c 1,77,-1
  352 350 l 1,67,68
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u09A4
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u09A4
 EndChar
 StartChar: u09B8_u09CD.half_u09A4.pres_u09C1.blws
 Encoding: 65783 -1 399
@@ -24610,7 +24608,7 @@ Fore
  329 360 329 360 376 360 c 1,96,-1
  376 360 l 1,86,87
 EndSplineSet
-Ligature: 0 1 'blws' u09B8_u09CD.half_u09A4.pres u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B8_u09CD.half_u09A4.pres u09C1
 EndChar
 StartChar: u09B8_u09CD.half_u09A4_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65784 -1 400
@@ -24686,7 +24684,7 @@ Fore
  331 350 331 350 366 350 c 1,81,-1
  366 350 l 1,71,72
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u09A4_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: u09B8_u09CD.half_u09A4_u09AC_u09CD.blwf.pres
 Encoding: 65785 -1 401
@@ -24769,7 +24767,7 @@ Fore
  321 350 321 350 369 350 c 1,89,-1
  369 350 l 1,79,80
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u09A4 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u09A4 u09AC_u09CD.blwf
 EndChar
 StartChar: u09B8_u09CD.half_u09A5.pres
 Encoding: 65786 -1 402
@@ -24841,7 +24839,7 @@ Fore
  283 345 283 345 327 345 c 1,76,-1
  327 345 l 1,66,67
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u09A5
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u09A5
 EndChar
 StartChar: u09B8_u09CD.half_u09A8.pres
 Encoding: 65787 -1 403
@@ -24902,7 +24900,7 @@ Fore
  318 345 318 345 359 345 c 1,59,-1
  359 345 l 1,49,50
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u09A8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u09A8
 EndChar
 StartChar: u09B8_u09CD.half_u09AA.pres
 Encoding: 65788 -1 404
@@ -24981,7 +24979,7 @@ Fore
  283 370 283 370 327 370 c 1,84,-1
  327 370 l 1,74,75
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u09AA
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u09AA
 EndChar
 StartChar: u09B8_u09CD.half_u09AA_u09B0_u09CD.blwf.vatu.pres
 Encoding: 65789 -1 405
@@ -25073,7 +25071,7 @@ Fore
  297 370 297 370 329 370 c 1,103,-1
  329 370 l 1,93,94
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u09AA_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u09AA_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: glyph404
 Encoding: 65790 -1 406
@@ -25296,7 +25294,7 @@ Fore
  283 370 283 370 327 370 c 1,125,-1
  327 370 l 1,115,116
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u09AA_u09CD.half u09B2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u09AA_u09CD.half u09B2
 EndChar
 StartChar: u09B8_u09CD.half_u09AB.pres
 Encoding: 65792 -1 408
@@ -25372,7 +25370,7 @@ Fore
  292 360 292 360 326 360 c 1,78,-1
  326 360 l 1,68,69
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u09AB
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u09AB
 EndChar
 StartChar: u09B8_u09AC_u09CD.blwf.blws
 Encoding: 65793 -1 409
@@ -25433,7 +25431,7 @@ Fore
  306 350 306 350 339 350 c 1,56,-1
  339 350 l 1,46,47
 EndSplineSet
-Ligature: 0 1 'blws' u09B8 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B8 u09AC_u09CD.blwf
 EndChar
 StartChar: u09B8_u09CD.half_u09AE.pres
 Encoding: 65794 -1 410
@@ -25498,7 +25496,7 @@ Fore
  540 127 540 127 567 95 c 1,66,-1
  567 95 l 1,52,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u09AE
 EndChar
 StartChar: u09B8_u09B0_u09CD.blwf.vatu
 Encoding: 65795 -1 411
@@ -25560,7 +25558,7 @@ Fore
  376 320 376 320 417 320 c 1,60,-1
  417 320 l 1,50,51
 EndSplineSet
-Ligature: 0 1 'vatu' u09B8 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09B8 u09B0_u09CD.blwf
 EndChar
 StartChar: u09B8_u09B0_u09CD.blwf.vatu_u09C1.blws
 Encoding: 65796 -1 412
@@ -25643,7 +25641,7 @@ Fore
  351 325 351 325 405 325 c 1,91,-1
  405 325 l 1,81,82
 EndSplineSet
-Ligature: 0 1 'blws' u09B8_u09B0_u09CD.blwf.vatu u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B8_u09B0_u09CD.blwf.vatu u09C1
 EndChar
 StartChar: u09B8_u09B0_u09CD.blwf.vatu_u09C2.blws
 Encoding: 65797 -1 413
@@ -25723,7 +25721,7 @@ Fore
  369 320 369 320 419 320 c 1,86,-1
  419 320 l 1,76,77
 EndSplineSet
-Ligature: 0 1 'blws' u09B8_u09B0_u09CD.blwf.vatu u09C2
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B8_u09B0_u09CD.blwf.vatu u09C2
 EndChar
 StartChar: u09B8_u09CD.half_u09B2.pres
 Encoding: 65798 -1 414
@@ -25799,7 +25797,7 @@ Fore
  367 327 367 327 377 315 c 1,83,-1
  377 315 l 1,75,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B8_u09CD.half u09B2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B8_u09CD.half u09B2
 EndChar
 StartChar: u09B9_u09C1.blws
 Encoding: 65799 -1 415
@@ -25860,7 +25858,7 @@ Fore
  -10 465 l 1,60,-1
  -10 465 l 1,56,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09B9 u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B9 u09C1
 EndChar
 StartChar: u09B9_u09C3.blws
 Encoding: 65800 -1 416
@@ -25924,7 +25922,7 @@ Fore
  399 -100 l 1,66,-1
  399 -100 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'blws' u09B9 u09C3
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B9 u09C3
 EndChar
 StartChar: u09B9_u09CD.half_u09A3.pres
 Encoding: 65801 -1 417
@@ -25991,7 +25989,7 @@ Fore
  257 -80 l 1,69,-1
  257 -80 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09B9_u09CD.half u09A3
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B9_u09CD.half u09A3
 EndChar
 StartChar: u09B9_u09CD.half_u09A8.pres
 Encoding: 65802 -1 418
@@ -26058,7 +26056,7 @@ Fore
  352 -105 l 1,71,-1
  352 -105 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09B9_u09CD.half u09A8
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B9_u09CD.half u09A8
 EndChar
 StartChar: u09B9_u09AC_u09CD.blwf.blws
 Encoding: 65803 -1 419
@@ -26124,7 +26122,7 @@ Fore
  399 -95 l 1,65,-1
  399 -95 l 1,24,25
 EndSplineSet
-Ligature: 0 1 'blws' u09B9 u09AC_u09CD.blwf
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09B9 u09AC_u09CD.blwf
 EndChar
 StartChar: u09B9_u09CD.half_u09AE.pres
 Encoding: 65804 -1 420
@@ -26209,7 +26207,7 @@ Fore
  226 360 226 360 271 360 c 1,92,-1
  271 360 l 1,81,82
 EndSplineSet
-Ligature: 0 1 'pres' u09B9_u09CD.half u09AE
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B9_u09CD.half u09AE
 EndChar
 StartChar: u09B9_u09B0_u09CD.blwf.vatu
 Encoding: 65805 -1 421
@@ -26278,7 +26276,7 @@ Fore
  488 -100 l 1,72,-1
  488 -100 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'vatu' u09B9 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09B9 u09B0_u09CD.blwf
 EndChar
 StartChar: u09B9_u09CD.half_u09B2.pres
 Encoding: 65806 -1 422
@@ -26354,7 +26352,7 @@ Fore
  437 -100 l 1,82,-1
  437 -100 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'pres' u09B9_u09CD.half u09B2
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B9_u09CD.half u09B2
 EndChar
 StartChar: u09DC_u09CD.half_u0997.pres
 Encoding: 65807 -1 423
@@ -26441,7 +26439,7 @@ Fore
  310 -130 310 -130 293 -130 c 1,95,-1
  293 -130 l 1,83,84
 EndSplineSet
-Ligature: 0 1 'pres' u09DC_u09CD.half u0997
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09DC_u09CD.half u0997
 EndChar
 StartChar: u09DC_u09B0_u09CD.blwf.vatu
 Encoding: 65808 -1 424
@@ -26514,7 +26512,7 @@ Fore
  305 -85 305 -85 288 -85 c 1,76,-1
  288 -85 l 1,64,65
 EndSplineSet
-Ligature: 0 1 'vatu' u09DC u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09DC u09B0_u09CD.blwf
 EndChar
 StartChar: u09DD_u09B0_u09CD.blwf.vatu
 Encoding: 65809 -1 425
@@ -26581,7 +26579,7 @@ Fore
  192 -70 192 -70 175 -70 c 1,67,-1
  175 -70 l 1,55,56
 EndSplineSet
-Ligature: 0 1 'vatu' u09DD u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09DD u09B0_u09CD.blwf
 EndChar
 StartChar: u09DF_u09B0_u09CD.blwf.vatu
 Encoding: 65810 -1 426
@@ -26638,7 +26636,7 @@ Fore
  154 75 154 75 140 75 c 1,53,-1
  140 75 l 1,41,42
 EndSplineSet
-Ligature: 0 1 'vatu' u09DF u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09DF u09B0_u09CD.blwf
 EndChar
 StartChar: u09F0_u09C1.blws
 Encoding: 65811 -1 427
@@ -26703,7 +26701,7 @@ Fore
  258 132 258 132 298 75 c 1,62,-1
  298 75 l 1,52,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09F0 u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09F0 u09C1
 EndChar
 StartChar: u09F0_u09C2.blws
 Encoding: 65812 -1 428
@@ -26767,7 +26765,7 @@ Fore
  254 132 254 132 294 75 c 1,60,-1
  294 75 l 1,50,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09F0 u09C2
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09F0 u09C2
 EndChar
 StartChar: u09F1_u09C1.blws
 Encoding: 65813 -1 429
@@ -26831,7 +26829,7 @@ Fore
  281 139 281 139 322 80 c 1,60,-1
  322 80 l 1,53,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09F1 u09C1
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09F1 u09C1
 EndChar
 StartChar: u09F1_u09C2.blws
 Encoding: 65814 -1 430
@@ -26894,7 +26892,7 @@ Fore
  280 136 280 136 323 75 c 1,58,-1
  323 75 l 1,51,-1
 EndSplineSet
-Ligature: 0 1 'blws' u09F1 u09C2
+Ligature2: "'blws' Below Base Substitutions in Bengali lookup 2" u09F1 u09C2
 EndChar
 StartChar: u09F1_u09B0_u09CD.blwf.vatu
 Encoding: 65815 -1 431
@@ -26949,7 +26947,7 @@ Fore
  320 139 320 139 358 85 c 1,51,-1
  358 85 l 1,44,-1
 EndSplineSet
-Ligature: 0 1 'vatu' u09F1 u09B0_u09CD.blwf
+Ligature2: "'vatu' Vattu Variants in Bengali lookup 11" u09F1 u09B0_u09CD.blwf
 EndChar
 StartChar: glyph430
 Encoding: 65816 -1 432
@@ -27072,7 +27070,7 @@ Fore
  202 697 202 697 187 697 c 1,64,-1
  187 697 l 1,52,53
 EndSplineSet
-Ligature: 0 1 'abvs' u0981 u09C0
+Ligature2: "'abvs' Above Base Substitutions in Bengali lookup 0" u0981 u09C0
 EndChar
 StartChar: u0981_u09D7.abvs
 Encoding: 65818 -1 434
@@ -27135,7 +27133,7 @@ Fore
  172 680 172 680 158 680 c 1,62,-1
  158 680 l 1,50,51
 EndSplineSet
-Ligature: 0 1 'abvs' u0981 u09D7
+Ligature2: "'abvs' Above Base Substitutions in Bengali lookup 0" u0981 u09D7
 EndChar
 StartChar: u09C7.init
 Encoding: 65819 -1 435
@@ -27239,8 +27237,8 @@ Fore
  -110 502 l 1,4,-1
  -110 502 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'rphf' u09F0 u09CD
-Ligature: 0 1 'rphf' u09B0 u09CD
+Ligature2: "'rphf' Reph Form in Bengali lookup 10" u09F0 u09CD
+Ligature2: "'rphf' Reph Form in Bengali lookup 10" u09B0 u09CD
 EndChar
 StartChar: u09B0_u09CD.blwf
 Encoding: 65822 -1 438
@@ -27268,8 +27266,8 @@ Fore
  -460 67 -460 67 -460 115 c 1,20,-1
  -460 115 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'blwf' u09F0 u09CD
-Ligature: 0 1 'blwf' u09B0 u09CD
+Ligature2: "'blwf' Below Base Forms in Bengali lookup 1" u09F0 u09CD
+Ligature2: "'blwf' Below Base Forms in Bengali lookup 1" u09B0 u09CD
 EndChar
 StartChar: glyph437
 Encoding: 65823 -1 439
@@ -27380,8 +27378,8 @@ Fore
  480 -254 l 1,50,-1
  480 -254 l 1,46,-1
 EndSplineSet
-Ligature: 0 1 'haln' u0995 u09CD
-Ligature: 0 1 'half' u0995 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u0995 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u0995 u09CD
 EndChar
 StartChar: u0996_u09CD.half
 Encoding: 65826 -1 442
@@ -27442,8 +27440,8 @@ Fore
  590 -254 l 1,56,-1
  590 -254 l 1,52,-1
 EndSplineSet
-Ligature: 0 1 'haln' u0996 u09CD
-Ligature: 0 1 'half' u0996 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u0996 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u0996 u09CD
 EndChar
 StartChar: u0997_u09CD.half
 Encoding: 65827 -1 443
@@ -27499,8 +27497,8 @@ Fore
  586 -254 l 1,48,-1
  586 -254 l 1,44,-1
 EndSplineSet
-Ligature: 0 1 'haln' u0997 u09CD
-Ligature: 0 1 'half' u0997 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u0997 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u0997 u09CD
 EndChar
 StartChar: u0998_u09CD.half
 Encoding: 65828 -1 444
@@ -27553,8 +27551,8 @@ Fore
  550 -254 l 1,41,-1
  550 -254 l 1,37,-1
 EndSplineSet
-Ligature: 0 1 'haln' u0998 u09CD
-Ligature: 0 1 'half' u0998 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u0998 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u0998 u09CD
 EndChar
 StartChar: u0999_u09CD.half
 Encoding: 65829 -1 445
@@ -27629,8 +27627,8 @@ Fore
  512 -254 l 1,80,-1
  512 -254 l 1,76,-1
 EndSplineSet
-Ligature: 0 1 'haln' u0999 u09CD
-Ligature: 0 1 'half' u0999 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u0999 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u0999 u09CD
 EndChar
 StartChar: u099A_u09CD.half
 Encoding: 65830 -1 446
@@ -27679,8 +27677,8 @@ Fore
  358 -234 l 1,38,-1
  358 -234 l 1,34,-1
 EndSplineSet
-Ligature: 0 1 'haln' u099A u09CD
-Ligature: 0 1 'half' u099A u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u099A u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u099A u09CD
 EndChar
 StartChar: u099B_u09CD.half
 Encoding: 65831 -1 447
@@ -27751,8 +27749,8 @@ Fore
  392 -234 l 1,70,-1
  392 -234 l 1,66,-1
 EndSplineSet
-Ligature: 0 1 'haln' u099B u09CD
-Ligature: 0 1 'half' u099B u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u099B u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u099B u09CD
 EndChar
 StartChar: u099C_u09CD.half
 Encoding: 65832 -1 448
@@ -27823,8 +27821,8 @@ Fore
  797 -254 l 1,73,-1
  797 -254 l 1,69,-1
 EndSplineSet
-Ligature: 0 1 'haln' u099C u09CD
-Ligature: 0 1 'half' u099C u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u099C u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u099C u09CD
 EndChar
 StartChar: u099D_u09CD.half
 Encoding: 65833 -1 449
@@ -27879,8 +27877,8 @@ Fore
  519 -254 l 1,41,-1
  519 -254 l 1,37,-1
 EndSplineSet
-Ligature: 0 1 'haln' u099D u09CD
-Ligature: 0 1 'half' u099D u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u099D u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u099D u09CD
 EndChar
 StartChar: u099E_u09CD.half
 Encoding: 65834 -1 450
@@ -27976,8 +27974,8 @@ Fore
  660 -254 l 1,108,-1
  660 -254 l 1,104,-1
 EndSplineSet
-Ligature: 0 1 'haln' u099E u09CD
-Ligature: 0 1 'half' u099E u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u099E u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u099E u09CD
 EndChar
 StartChar: u099F_u09CD.half
 Encoding: 65835 -1 451
@@ -28043,8 +28041,8 @@ Fore
  356 -254 l 1,65,-1
  356 -254 l 1,61,-1
 EndSplineSet
-Ligature: 0 1 'haln' u099F u09CD
-Ligature: 0 1 'half' u099F u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u099F u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u099F u09CD
 EndChar
 StartChar: u09A0_u09CD.half
 Encoding: 65836 -1 452
@@ -28102,8 +28100,8 @@ Fore
  396 -254 l 1,52,-1
  396 -254 l 1,48,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09A0 u09CD
-Ligature: 0 1 'half' u09A0 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09A0 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09A0 u09CD
 EndChar
 StartChar: u09A1_u09CD.half
 Encoding: 65837 -1 453
@@ -28154,8 +28152,8 @@ Fore
  487 -254 l 1,43,-1
  487 -254 l 1,39,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09A1 u09CD
-Ligature: 0 1 'half' u09A1 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09A1 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09A1 u09CD
 EndChar
 StartChar: u09A2_u09CD.half
 Encoding: 65838 -1 454
@@ -28199,8 +28197,8 @@ Fore
  361 -254 l 1,33,-1
  361 -254 l 1,29,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09A2 u09CD
-Ligature: 0 1 'half' u09A2 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09A2 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09A2 u09CD
 EndChar
 StartChar: u09A3_u09CD.half
 Encoding: 65839 -1 455
@@ -28251,8 +28249,8 @@ Fore
  540 -254 l 1,41,-1
  540 -254 l 1,37,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09A3 u09CD
-Ligature: 0 1 'half' u09A3 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09A3 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09A3 u09CD
 EndChar
 StartChar: u09A4_u09CD.half
 Encoding: 65840 -1 456
@@ -28306,8 +28304,8 @@ Fore
  503 -254 l 1,47,-1
  503 -254 l 1,43,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09A4 u09CD
-Ligature: 0 1 'half' u09A4 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09A4 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09A4 u09CD
 EndChar
 StartChar: u09A5_u09CD.half
 Encoding: 65841 -1 457
@@ -28364,8 +28362,8 @@ Fore
  579 -254 l 1,50,-1
  579 -254 l 1,46,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09A5 u09CD
-Ligature: 0 1 'half' u09A5 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09A5 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09A5 u09CD
 EndChar
 StartChar: u09A6_u09CD.half
 Encoding: 65842 -1 458
@@ -28410,8 +28408,8 @@ Fore
  518 -254 l 1,33,-1
  518 -254 l 1,29,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09A6 u09CD
-Ligature: 0 1 'half' u09A6 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09A6 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09A6 u09CD
 EndChar
 StartChar: u09A7_u09CD.half
 Encoding: 65843 -1 459
@@ -28468,8 +28466,8 @@ Fore
  511 -254 l 1,46,-1
  511 -254 l 1,42,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09A7 u09CD
-Ligature: 0 1 'half' u09A7 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09A7 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09A7 u09CD
 EndChar
 StartChar: u09A8_u09CD.half
 Encoding: 65844 -1 460
@@ -28515,8 +28513,8 @@ Fore
  541 -254 l 1,35,-1
  541 -254 l 1,31,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09A8 u09CD
-Ligature: 0 1 'half' u09A8 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09A8 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09A8 u09CD
 EndChar
 StartChar: u09AA_u09CD.half
 Encoding: 65845 -1 461
@@ -28573,8 +28571,8 @@ Fore
  605 -254 l 1,46,-1
  605 -254 l 1,42,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09AA u09CD
-Ligature: 0 1 'half' u09AA u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09AA u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09AA u09CD
 EndChar
 StartChar: u09AB_u09CD.half
 Encoding: 65846 -1 462
@@ -28626,8 +28624,8 @@ Fore
  513 -254 l 1,41,-1
  513 -254 l 1,37,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09AB u09CD
-Ligature: 0 1 'half' u09AB u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09AB u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09AB u09CD
 EndChar
 StartChar: u09AC_u09CD.half
 Encoding: 65847 -1 463
@@ -28670,8 +28668,8 @@ Fore
  516 -254 l 1,28,-1
  516 -254 l 1,24,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09AC u09CD
-Ligature: 0 1 'half' u09AC u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09AC u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09AC u09CD
 EndChar
 StartChar: u09AD_u09CD.half
 Encoding: 65848 -1 464
@@ -28727,8 +28725,8 @@ Fore
  526 -254 l 1,50,-1
  526 -254 l 1,46,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09AD u09CD
-Ligature: 0 1 'half' u09AD u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09AD u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09AD u09CD
 EndChar
 StartChar: u09AE_u09CD.half
 Encoding: 65849 -1 465
@@ -28776,8 +28774,8 @@ Fore
  502 -254 l 1,36,-1
  502 -254 l 1,32,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09AE u09CD
-Ligature: 0 1 'half' u09AE u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09AE u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09AE u09CD
 EndChar
 StartChar: u09AF_u09CD.half
 Encoding: 65850 -1 466
@@ -28820,8 +28818,8 @@ Fore
  526 -254 l 1,26,-1
  526 -254 l 1,22,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09AF u09CD
-Ligature: 0 1 'half' u09AF u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09AF u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09AF u09CD
 EndChar
 StartChar: u09B0_u09CD.half
 Encoding: 65851 -1 467
@@ -28874,8 +28872,8 @@ Fore
  506 -254 l 1,41,-1
  506 -254 l 1,37,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09B0 u09CD
-Ligature: 0 1 'half' u09B0 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09B0 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09B0 u09CD
 EndChar
 StartChar: u09B2_u09CD.half
 Encoding: 65852 -1 468
@@ -28936,8 +28934,8 @@ Fore
  651 -254 l 1,57,-1
  651 -254 l 1,53,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09B2 u09CD
-Ligature: 0 1 'half' u09B2 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09B2 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09B2 u09CD
 EndChar
 StartChar: u09AC_u09CD.blwf
 Encoding: 65853 -1 469
@@ -28966,7 +28964,7 @@ Fore
  198 98 198 98 225 60 c 1,18,-1
  225 60 l 1,11,-1
 EndSplineSet
-Ligature: 0 1 'blwf' u09AC u09CD
+Ligature2: "'blwf' Below Base Forms in Bengali lookup 1" u09AC u09CD
 EndChar
 StartChar: u09B6_u09CD.half
 Encoding: 65854 -1 470
@@ -29026,8 +29024,8 @@ Fore
  562 -254 l 1,53,-1
  562 -254 l 1,49,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09B6 u09CD
-Ligature: 0 1 'half' u09B6 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09B6 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09B6 u09CD
 EndChar
 StartChar: u09B7_u09CD.half
 Encoding: 65855 -1 471
@@ -29074,8 +29072,8 @@ Fore
  508 -254 l 1,29,-1
  508 -254 l 1,25,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09B7 u09CD
-Ligature: 0 1 'half' u09B7 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09B7 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09B7 u09CD
 EndChar
 StartChar: u09B8_u09CD.half
 Encoding: 65856 -1 472
@@ -29131,8 +29129,8 @@ Fore
  596 -254 l 1,47,-1
  596 -254 l 1,43,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09B8 u09CD
-Ligature: 0 1 'half' u09B8 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09B8 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09B8 u09CD
 EndChar
 StartChar: u09B9_u09CD.half
 Encoding: 65857 -1 473
@@ -29185,8 +29183,8 @@ Fore
  407 -254 l 1,46,-1
  407 -254 l 1,42,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09B9 u09CD
-Ligature: 0 1 'half' u09B9 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09B9 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09B9 u09CD
 EndChar
 StartChar: u09DC_u09CD.half
 Encoding: 65858 -1 474
@@ -29247,8 +29245,8 @@ Fore
  602 -254 l 1,56,-1
  602 -254 l 1,52,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09DC u09CD
-Ligature: 0 1 'half' u09DC u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09DC u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09DC u09CD
 EndChar
 StartChar: u09DD_u09CD.half
 Encoding: 65859 -1 475
@@ -29303,8 +29301,8 @@ Fore
  474 -254 l 1,47,-1
  474 -254 l 1,43,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09DD u09CD
-Ligature: 0 1 'half' u09DD u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09DD u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09DD u09CD
 EndChar
 StartChar: u09DF_u09CD.half
 Encoding: 65860 -1 476
@@ -29357,8 +29355,8 @@ Fore
  531 -254 l 1,39,-1
  531 -254 l 1,35,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09DF u09CD
-Ligature: 0 1 'half' u09DF u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09DF u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09DF u09CD
 EndChar
 StartChar: glyph475
 Encoding: 65861 -1 477
@@ -29489,8 +29487,8 @@ Fore
  540 -254 l 1,37,-1
  540 -254 l 1,33,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09F1 u09CD
-Ligature: 0 1 'half' u09F1 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09F1 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09F1 u09CD
 EndChar
 StartChar: u09F0_u09CD.half
 Encoding: 65863 -1 479
@@ -29542,8 +29540,8 @@ Fore
  516 -254 l 1,39,-1
  516 -254 l 1,35,-1
 EndSplineSet
-Ligature: 0 1 'haln' u09F0 u09CD
-Ligature: 0 1 'half' u09F0 u09CD
+Ligature2: "'haln' Halant Forms in Bengali lookup 4" u09F0 u09CD
+Ligature2: "'half' Half Forms in Bengali lookup 3" u09F0 u09CD
 EndChar
 StartChar: glyph454
 Encoding: 65864 -1 480
@@ -29688,7 +29686,7 @@ Fore
  204 250 204 250 223 210 c 1,143,-1
  223 210 l 1,131,132
 EndSplineSet
-Ligature: 0 1 'pres' u0995_u09CD.half u099F_u09B0_u09CD.blwf.vatu
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u0995_u09CD.half u099F_u09B0_u09CD.blwf.vatu
 EndChar
 StartChar: bn_ma_tha
 Encoding: 65866 -1 482
@@ -29762,7 +29760,7 @@ Fore
  340 329 340 329 350 329 c 1,110,-1
  350 329 l 1,89,90
 EndSplineSet
-Ligature: 0 1 'pres' u09AE_u09CD.half u09A5
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09AE_u09CD.half u09A5
 EndChar
 StartChar: bn_la_ta
 Encoding: 65867 -1 483
@@ -29832,7 +29830,7 @@ Fore
  210 194 210 194 231 217 c 0,104,105
  298 292 298 292 394 266 c 1,1,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u09A4
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u09A4
 EndChar
 StartChar: bn_la_dha
 Encoding: 65868 -1 484
@@ -29904,7 +29902,7 @@ Fore
  461 138 461 138 507 72 c 1,91,-1
  507 72 l 1,85,-1
 EndSplineSet
-Ligature: 0 1 'pres' u09B2_u09CD.half u09A7
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u09A7
 EndChar
 EndChars
 EndSplineFont

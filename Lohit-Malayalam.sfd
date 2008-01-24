@@ -1,4 +1,4 @@
-SplineFontDB: 1.0
+SplineFontDB: 2.0
 FontName: Lohit-Malayalam
 FullName: Lohit Malayalam
 FamilyName: Lohit Malayalam
@@ -18,7 +18,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159524182
-ModificationTime: 1168250329
+ModificationTime: 1201014717
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -49,84 +49,89 @@ OS2SupYOff: 512
 OS2StrikeYSize: 50
 OS2StrikeYPos: 250
 OS2Vendor: 'PfEd'
-ScriptLang: 2
- 0 
- 1 mlym 1 dflt 
-ChainSub: coverage 0 1 'psts' 0 0 0 1
+Lookup: 6 0 0 "'akhn' Akhand in Malay+AQEA-lam lookup 0"  {"'akhn' Akhand in Malay+AQEA-lam lookup 0"  } ['akhn' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam lookup 1"  {"'akhn' Akhand in Malay+AQEA-lam lookup 1"  } ['akhn' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms in Malay+AQEA-lam lookup 2"  {"'blwf' Below Base Forms in Malay+AQEA-lam lookup 2"  } ['blwf' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Malay+AQEA-lam lookup 3"  {"'half' Half Forms in Malay+AQEA-lam lookup 3"  } ['half' ('mlym' <'dflt' > ) ]
+Lookup: 6 0 0 "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 4"  {"'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 4"  } ['pres' ('mlym' <'dflt' > ) ]
+Lookup: 6 0 0 "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5"  {"'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5"  } ['pres' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6"  {"'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6"  } ['pres' ('mlym' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 7"  {"'psts' Post Base Substitutions in Malay+AQEA-lam lookup 7"  } ['psts' ('mlym' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 8"  {"'psts' Post Base Substitutions in Malay+AQEA-lam lookup 8"  } ['psts' ('mlym' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 9"  {"'psts' Post Base Substitutions in Malay+AQEA-lam lookup 9"  } ['psts' ('mlym' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 10"  {"'psts' Post Base Substitutions in Malay+AQEA-lam lookup 10"  } ['psts' ('mlym' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 11"  {"'psts' Post Base Substitutions in Malay+AQEA-lam lookup 11"  } ['psts' ('mlym' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 12"  {"'psts' Post Base Substitutions in Malay+AQEA-lam lookup 12"  } ['psts' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 13"  {"'psts' Post Base Substitutions in Malay+AQEA-lam lookup 13"  } ['psts' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "'pstf' Post Base Forms in Malay+AQEA-lam lookup 14"  {"'pstf' Post Base Forms in Malay+AQEA-lam lookup 14"  } ['pstf' ('mlym' <'dflt' > ) ]
+Lookup: 4 0 0 "Ligature Substitution lookup 15"  {"Ligature Substitution lookup 15"  } []
+ChainSub2: coverage "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 12"  0 0 0 1
  2 1 0
   Coverage: 11 U0D2F U0D4D
   Coverage: 11 U0D2F U0D4D
   BCoverage: 22 U0D31_U0D4D_U0D31.akhn
  0
 EndFPST
-ChainSub: coverage 0 1 'psts' 0 0 0 1
+ChainSub2: coverage "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 11"  0 0 0 1
  2 1 0
   Coverage: 11 U0D2F U0D4D
   Coverage: 11 U0D2F U0D4D
   BCoverage: 8 glyph157
  0
 EndFPST
-ChainSub: coverage 0 1 'psts' 0 0 0 1
+ChainSub2: coverage "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 10"  0 0 0 1
  2 1 0
   Coverage: 17 U0D2F U0D35 U0D4D
   Coverage: 17 U0D2F U0D35 U0D4D
   BCoverage: 8 glyph138
  1
-  SeqLookup: 0 'L000'
+  SeqLookup: 0 "Ligature Substitution lookup 15" 
 EndFPST
-ChainSub: coverage 0 1 'psts' 0 0 0 1
+ChainSub2: coverage "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 9"  0 0 0 1
  2 1 0
   Coverage: 17 U0D2F U0D35 U0D4D
   Coverage: 17 U0D2F U0D35 U0D4D
   BCoverage: 8 glyph222
  1
-  SeqLookup: 0 'L000'
+  SeqLookup: 0 "Ligature Substitution lookup 15" 
 EndFPST
-ChainSub: coverage 0 1 'psts' 0 0 0 1
+ChainSub2: coverage "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 8"  0 0 0 1
  2 1 0
   Coverage: 17 U0D2F U0D35 U0D4D
   Coverage: 17 U0D2F U0D35 U0D4D
   BCoverage: 738 U0D15_U0D4D_U0D37.akhn glyph140 glyph141 glyph142 glyph143 glyph144 glyph145 glyph146 glyph147 glyph148 glyph149 glyph150 glyph151 glyph152 glyph153 glyph154 glyph155 glyph156 glyph157 glyph158 glyph159 glyph160 glyph161 glyph162 glyph163 glyph164 glyph165 U0D31_U0D4D_U0D31.akhn glyph167 glyph168 glyph169 glyph170 glyph171 glyph172 glyph173 glyph174 glyph175 glyph176 glyph177 glyph178 glyph179 glyph180 glyph181 glyph182 glyph183 glyph184 glyph185 glyph186 glyph187 glyph188 glyph189 glyph190 glyph191 glyph192 glyph193 glyph194 glyph195 glyph196 glyph197 glyph198 glyph199 U0D28_U0D4D_afii301.half_U0D31.pres glyph201 glyph202 glyph203 glyph204 glyph205 glyph206 glyph207 glyph208 glyph209 glyph210 glyph211 glyph212 glyph213 glyph214
  1
-  SeqLookup: 0 'L000'
+  SeqLookup: 0 "Ligature Substitution lookup 15" 
 EndFPST
-ChainSub: coverage 0 1 'psts' 0 0 0 1
+ChainSub2: coverage "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 7"  0 0 0 1
  2 1 0
   Coverage: 17 U0D2F U0D35 U0D4D
   Coverage: 17 U0D2F U0D35 U0D4D
   BCoverage: 215 U0D15 U0D16 U0D17 U0D18 U0D19 U0D1A U0D1B U0D1C U0D1D U0D1E U0D1F U0D20 U0D21 U0D22 U0D23 U0D24 U0D25 U0D26 U0D27 U0D28 U0D2A U0D2B U0D2C U0D2D U0D2E U0D2F U0D30 U0D31 U0D32 U0D33 U0D34 U0D35 U0D36 U0D37 U0D38 U0D39
  1
-  SeqLookup: 0 'L000'
+  SeqLookup: 0 "Ligature Substitution lookup 15" 
 EndFPST
-ChainSub: coverage 0 1 'pres' 0 0 0 1
+ChainSub2: coverage "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 5"  0 0 0 1
  2 1 0
   Coverage: 11 U0D30 U0D4D
   Coverage: 11 U0D30 U0D4D
   BCoverage: 738 U0D15_U0D4D_U0D37.akhn glyph140 glyph141 glyph142 glyph143 glyph144 glyph145 glyph146 glyph147 glyph148 glyph149 glyph150 glyph151 glyph152 glyph153 glyph154 glyph155 glyph156 glyph157 glyph158 glyph159 glyph160 glyph161 glyph162 glyph163 glyph164 glyph165 U0D31_U0D4D_U0D31.akhn glyph167 glyph168 glyph169 glyph170 glyph171 glyph172 glyph173 glyph174 glyph175 glyph176 glyph177 glyph178 glyph179 glyph180 glyph181 glyph182 glyph183 glyph184 glyph185 glyph186 glyph187 glyph188 glyph189 glyph190 glyph191 glyph192 glyph193 glyph194 glyph195 glyph196 glyph197 glyph198 glyph199 U0D28_U0D4D_afii301.half_U0D31.pres glyph201 glyph202 glyph203 glyph204 glyph205 glyph206 glyph207 glyph208 glyph209 glyph210 glyph211 glyph212 glyph213 glyph214
  0
 EndFPST
-ChainSub: coverage 0 1 'pres' 0 0 0 1
+ChainSub2: coverage "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 4"  0 0 0 1
  2 1 0
   Coverage: 11 U0D30 U0D4D
   Coverage: 11 U0D30 U0D4D
   BCoverage: 215 U0D15 U0D16 U0D17 U0D18 U0D19 U0D1A U0D1B U0D1C U0D1D U0D1E U0D1F U0D20 U0D21 U0D22 U0D23 U0D24 U0D25 U0D26 U0D27 U0D28 U0D2A U0D2B U0D2C U0D2D U0D2E U0D2F U0D30 U0D31 U0D32 U0D33 U0D34 U0D35 U0D36 U0D37 U0D38 U0D39
  0
 EndFPST
-ChainSub: coverage 0 1 'akhn' 0 0 0 1
+ChainSub2: coverage "'akhn' Akhand in Malay+AQEA-lam lookup 0"  0 0 0 1
  2 1 0
   Coverage: 5 U0D4D
   Coverage: 5 U0D2F
   BCoverage: 5 U0D33
  0
 EndFPST
-GenTags: 1 lg'L000'
-TableOrder: GSUB 6
-	'akhn'
-	'blwf'
-	'half'
-	'pres'
-	'psts'
-	'pstf'
 TtfTable: prep 11
 5QX@TNOT#hKm":5
 EndTtf
@@ -151,8 +156,8 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 27 12
-BeginChars: 65686 247
+WinInfo: 0 37 17
+BeginChars: 65686 246
 StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 800
@@ -187,7 +192,7 @@ Flags: W
 EndChar
 StartChar: space
 Encoding: 32 32 3
-Width: 128
+Width: 350
 GlyphClass: 2
 Flags: W
 EndChar
@@ -4636,7 +4641,7 @@ Fore
  -819 -248 -819 -248 -819 -176 c 1,50,-1
  -819 -176 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'blwf' U0D32 U0D4D
+Ligature2: "'blwf' Below Base Forms in Malay+AQEA-lam lookup 2" U0D32 U0D4D
 EndChar
 StartChar: glyph226
 Encoding: 65538 -1 87
@@ -4657,7 +4662,7 @@ Fore
  90 452 90 452 116 585 c 1,14,-1
  116 585 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pstf' U0D30 U0D4D
+Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam lookup 14" U0D30 U0D4D
 EndChar
 StartChar: glyph84
 Encoding: 65539 -1 88
@@ -5062,7 +5067,7 @@ Fore
  759 709 759 709 759 762 c 1,93,-1
  759 762 l 1,69,70
 EndSplineSet
-Ligature: 0 1 'half' U0D15 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D15 U0D4D
 EndChar
 StartChar: U0D16_U0D4D.half
 Encoding: 65556 -1 105
@@ -5129,7 +5134,7 @@ Fore
  809 709 809 709 809 762 c 1,71,-1
  809 762 l 1,47,48
 EndSplineSet
-Ligature: 0 1 'half' U0D16 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D16 U0D4D
 EndChar
 StartChar: U0D17_U0D4D.half
 Encoding: 65557 -1 106
@@ -5196,7 +5201,7 @@ Fore
  741 709 741 709 741 762 c 1,73,-1
  741 762 l 1,49,50
 EndSplineSet
-Ligature: 0 1 'half' U0D17 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D17 U0D4D
 EndChar
 StartChar: U0D18_U0D4D.half
 Encoding: 65558 -1 107
@@ -5270,7 +5275,7 @@ Fore
  1178 709 1178 709 1178 762 c 1,78,-1
  1178 762 l 1,54,55
 EndSplineSet
-Ligature: 0 1 'half' U0D18 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D18 U0D4D
 EndChar
 StartChar: U0D19_U0D4D.half
 Encoding: 65559 -1 108
@@ -5356,7 +5361,7 @@ Fore
  891 709 891 709 891 762 c 1,99,-1
  891 762 l 1,75,76
 EndSplineSet
-Ligature: 0 1 'half' U0D19 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D19 U0D4D
 EndChar
 StartChar: U0D1A_U0D4D.half
 Encoding: 65560 -1 109
@@ -5411,7 +5416,7 @@ Fore
  961 709 961 709 961 762 c 1,57,-1
  961 762 l 1,33,34
 EndSplineSet
-Ligature: 0 1 'half' U0D1A U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D1A U0D4D
 EndChar
 StartChar: U0D1B_U0D4D.half
 Encoding: 65561 -1 110
@@ -5489,7 +5494,7 @@ Fore
  1340 709 1340 709 1340 762 c 1,89,-1
  1340 762 l 1,65,66
 EndSplineSet
-Ligature: 0 1 'half' U0D1B U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D1B U0D4D
 EndChar
 StartChar: U0D1C_U0D4D.half
 Encoding: 65562 -1 111
@@ -5589,7 +5594,7 @@ Fore
  658 709 658 709 658 762 c 1,117,-1
  658 762 l 1,93,94
 EndSplineSet
-Ligature: 0 1 'half' U0D1C U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D1C U0D4D
 EndChar
 StartChar: U0D1D_U0D4D.half
 Encoding: 65563 -1 112
@@ -5687,7 +5692,7 @@ Fore
  1427 709 1427 709 1427 762 c 1,120,-1
  1427 762 l 1,96,97
 EndSplineSet
-Ligature: 0 1 'half' U0D1D U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D1D U0D4D
 EndChar
 StartChar: U0D1E_U0D4D.half
 Encoding: 65564 -1 113
@@ -5786,7 +5791,7 @@ Fore
  1114 709 1114 709 1114 762 c 1,117,-1
  1114 762 l 1,93,94
 EndSplineSet
-Ligature: 0 1 'half' U0D1E U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D1E U0D4D
 EndChar
 StartChar: U0D1F_U0D4D.half
 Encoding: 65565 -1 114
@@ -5845,7 +5850,7 @@ Fore
  429 709 429 709 429 762 c 1,65,-1
  429 762 l 1,41,42
 EndSplineSet
-Ligature: 0 1 'half' U0D1F U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D1F U0D4D
 EndChar
 StartChar: U0D20_U0D4D.half
 Encoding: 65566 -1 115
@@ -5894,7 +5899,7 @@ Fore
  482 709 482 709 482 762 c 1,44,-1
  482 762 l 1,20,21
 EndSplineSet
-Ligature: 0 1 'half' U0D20 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D20 U0D4D
 EndChar
 StartChar: U0D21_U0D4D.half
 Encoding: 65567 -1 116
@@ -5966,7 +5971,7 @@ Fore
  1009 709 1009 709 1009 762 c 1,83,-1
  1009 762 l 1,59,60
 EndSplineSet
-Ligature: 0 1 'half' U0D21 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D21 U0D4D
 EndChar
 StartChar: U0D22_U0D4D.half
 Encoding: 65568 -1 117
@@ -6051,7 +6056,7 @@ Fore
  1058 709 1058 709 1058 762 c 1,99,-1
  1058 762 l 1,75,76
 EndSplineSet
-Ligature: 0 1 'half' U0D22 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D22 U0D4D
 EndChar
 StartChar: U0D23_U0D4D.half
 Encoding: 65569 -1 118
@@ -6135,7 +6140,7 @@ Fore
  1069 709 1069 709 1069 762 c 1,96,-1
  1069 762 l 1,72,73
 EndSplineSet
-Ligature: 0 1 'half' U0D23 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D23 U0D4D
 EndChar
 StartChar: U0D24_U0D4D.half
 Encoding: 65570 -1 119
@@ -6210,7 +6215,7 @@ Fore
  711 709 711 709 711 762 c 1,86,-1
  711 762 l 1,62,63
 EndSplineSet
-Ligature: 0 1 'half' U0D24 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D24 U0D4D
 EndChar
 StartChar: U0D25_U0D4D.half
 Encoding: 65571 -1 120
@@ -6261,7 +6266,7 @@ Fore
  728 709 728 709 728 762 c 1,46,-1
  728 762 l 1,22,23
 EndSplineSet
-Ligature: 0 1 'half' U0D25 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D25 U0D4D
 EndChar
 StartChar: U0D26_U0D4D.half
 Encoding: 65572 -1 121
@@ -6323,7 +6328,7 @@ Fore
  468 709 468 709 468 762 c 1,68,-1
  468 762 l 1,44,45
 EndSplineSet
-Ligature: 0 1 'half' U0D26 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D26 U0D4D
 EndChar
 StartChar: U0D27_U0D4D.half
 Encoding: 65573 -1 122
@@ -6383,7 +6388,7 @@ Fore
  710 709 710 709 710 762 c 1,66,-1
  710 762 l 1,42,43
 EndSplineSet
-Ligature: 0 1 'half' U0D27 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D27 U0D4D
 EndChar
 StartChar: U0D28_U0D4D.half
 Encoding: 65574 -1 123
@@ -6443,7 +6448,7 @@ Fore
  705 709 705 709 705 762 c 1,66,-1
  705 762 l 1,42,43
 EndSplineSet
-Ligature: 0 1 'half' U0D28 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D28 U0D4D
 EndChar
 StartChar: U0D2A_U0D4D.half
 Encoding: 65575 -1 124
@@ -6497,7 +6502,7 @@ Fore
  809 709 809 709 809 762 c 1,54,-1
  809 762 l 1,30,31
 EndSplineSet
-Ligature: 0 1 'half' U0D2A U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D2A U0D4D
 EndChar
 StartChar: U0D2B_U0D4D.half
 Encoding: 65576 -1 125
@@ -6563,7 +6568,7 @@ Fore
  950 709 950 709 950 762 c 1,67,-1
  950 762 l 1,43,44
 EndSplineSet
-Ligature: 0 1 'half' U0D2B U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D2B U0D4D
 EndChar
 StartChar: U0D2C_U0D4D.half
 Encoding: 65577 -1 126
@@ -6642,7 +6647,7 @@ Fore
  1166 709 1166 709 1166 762 c 1,88,-1
  1166 762 l 1,64,65
 EndSplineSet
-Ligature: 0 1 'half' U0D2C U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D2C U0D4D
 EndChar
 StartChar: U0D2D_U0D4D.half
 Encoding: 65578 -1 127
@@ -6719,7 +6724,7 @@ Fore
  491 709 491 709 491 762 c 1,91,-1
  491 762 l 1,67,68
 EndSplineSet
-Ligature: 0 1 'half' U0D2D U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D2D U0D4D
 EndChar
 StartChar: U0D2E_U0D4D.half
 Encoding: 65579 -1 128
@@ -6776,7 +6781,7 @@ Fore
  508 709 508 709 508 762 c 1,56,-1
  508 762 l 1,32,33
 EndSplineSet
-Ligature: 0 1 'half' U0D2E U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D2E U0D4D
 EndChar
 StartChar: U0D2F_U0D4D.half
 Encoding: 65580 -1 129
@@ -6856,7 +6861,7 @@ Fore
  750 709 750 709 750 762 c 1,91,-1
  750 762 l 1,67,68
 EndSplineSet
-Ligature: 0 1 'half' U0D2F U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D2F U0D4D
 EndChar
 StartChar: U0D30_U0D4D.half
 Encoding: 65581 -1 130
@@ -6914,7 +6919,7 @@ Fore
  460 703 460 703 460 756 c 1,68,-1
  460 756 l 1,42,43
 EndSplineSet
-Ligature: 0 1 'half' U0D30 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D30 U0D4D
 EndChar
 StartChar: U0D31_U0D4D.half
 Encoding: 65582 -1 131
@@ -6963,7 +6968,7 @@ Fore
  507 709 507 709 507 762 c 1,49,-1
  507 762 l 1,25,26
 EndSplineSet
-Ligature: 0 1 'half' U0D31 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D31 U0D4D
 EndChar
 StartChar: U0D32_U0D4D.half
 Encoding: 65583 -1 132
@@ -7016,7 +7021,7 @@ Fore
  629 709 629 709 629 762 c 1,49,-1
  629 762 l 1,25,26
 EndSplineSet
-Ligature: 0 1 'half' U0D32 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D32 U0D4D
 EndChar
 StartChar: U0D33_U0D4D.half
 Encoding: 65584 -1 133
@@ -7099,7 +7104,7 @@ Fore
  38 175 38 175 38 257 c 1,94,-1
  38 257 l 1,35,36
 EndSplineSet
-Ligature: 0 1 'half' U0D33 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D33 U0D4D
 EndChar
 StartChar: U0D34_U0D4D.half
 Encoding: 65585 -1 134
@@ -7170,7 +7175,7 @@ Fore
  460 709 460 709 460 762 c 1,81,-1
  460 762 l 1,57,58
 EndSplineSet
-Ligature: 0 1 'half' U0D34 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D34 U0D4D
 EndChar
 StartChar: U0D35_U0D4D.half
 Encoding: 65586 -1 135
@@ -7224,7 +7229,7 @@ Fore
  852 709 852 709 852 762 c 1,54,-1
  852 762 l 1,30,31
 EndSplineSet
-Ligature: 0 1 'half' U0D35 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D35 U0D4D
 EndChar
 StartChar: U0D36_U0D4D.half
 Encoding: 65587 -1 136
@@ -7298,7 +7303,7 @@ Fore
  746 709 746 709 746 762 c 1,82,-1
  746 762 l 1,58,59
 EndSplineSet
-Ligature: 0 1 'half' U0D36 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D36 U0D4D
 EndChar
 StartChar: U0D37_U0D4D.half
 Encoding: 65588 -1 137
@@ -7379,7 +7384,7 @@ Fore
  958 709 958 709 958 762 c 1,85,-1
  958 762 l 1,61,62
 EndSplineSet
-Ligature: 0 1 'half' U0D37 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D37 U0D4D
 EndChar
 StartChar: U0D38_U0D4D.half
 Encoding: 65589 -1 138
@@ -7451,7 +7456,7 @@ Fore
  962 709 962 709 962 762 c 1,84,-1
  962 762 l 1,60,61
 EndSplineSet
-Ligature: 0 1 'half' U0D38 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D38 U0D4D
 EndChar
 StartChar: U0D39_U0D4D.half
 Encoding: 65590 -1 139
@@ -7520,7 +7525,7 @@ Fore
  1027 709 1027 709 1027 762 c 1,75,-1
  1027 762 l 1,51,52
 EndSplineSet
-Ligature: 0 1 'half' U0D39 U0D4D
+Ligature2: "'half' Half Forms in Malay+AQEA-lam lookup 3" U0D39 U0D4D
 EndChar
 StartChar: U0D15_U0D4D_U0D37.akhn
 Encoding: 65591 -1 140
@@ -7615,9 +7620,9 @@ Fore
  1255 70 l 1,104,-1
  1255 70 l 1,98,-1
 EndSplineSet
-Ligature: 0 1 'psts' U0D15_U0D4D.half U0D37
-Ligature: 0 1 'pres' U0D15_U0D4D.half U0D37
-Ligature: 0 1 'akhn' U0D15 U0D4D U0D37
+Ligature2: "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 13" U0D15_U0D4D.half U0D37
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6" U0D15_U0D4D.half U0D37
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D15 U0D4D U0D37
 EndChar
 StartChar: glyph137
 Encoding: 65592 -1 141
@@ -7654,7 +7659,7 @@ Fore
  176 585 l 1,36,-1
  176 585 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pstf' U0D2F U0D4D
+Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam lookup 14" U0D2F U0D4D
 EndChar
 StartChar: glyph138
 Encoding: 65593 -1 142
@@ -7675,7 +7680,7 @@ Fore
  90 452 90 452 116 585 c 1,14,-1
  116 585 l 1,0,-1
 EndSplineSet
-Ligature: 0 1 'pstf' U0D31 U0D4D
+Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam lookup 14" U0D31 U0D4D
 EndChar
 StartChar: glyph139
 Encoding: 65594 -1 143
@@ -7692,10 +7697,10 @@ Fore
  163 585 l 1,6,-1
  163 585 l 1,0,-1
 EndSplineSet
-Ligature: 0 65534 'L000' U0D4D U0D35
-Ligature: 0 65534 'L000' U0D4D U0D35
-Ligature: 0 65534 'L000' U0D35 U0D4D
-Ligature: 0 65534 'L000' U0D35 U0D4D
+Ligature2: "Ligature Substitution lookup 15" U0D4D U0D35
+Ligature2: "Ligature Substitution lookup 15" U0D4D U0D35
+Ligature2: "Ligature Substitution lookup 15" U0D35 U0D4D
+Ligature2: "Ligature Substitution lookup 15" U0D35 U0D4D
 EndChar
 StartChar: glyph140
 Encoding: 65595 -1 144
@@ -7778,7 +7783,7 @@ Fore
  29 88 29 88 29 156 c 1,93,-1
  29 156 l 1,40,41
 EndSplineSet
-Ligature: 0 1 'akhn' U0D15 U0D4D U0D15
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D15 U0D4D U0D15
 EndChar
 StartChar: glyph141
 Encoding: 65596 -1 145
@@ -7857,7 +7862,7 @@ Fore
  391 268 l 1,90,-1
  391 268 l 1,83,84
 EndSplineSet
-Ligature: 0 1 'akhn' U0D19 U0D4D U0D15
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D19 U0D4D U0D15
 EndChar
 StartChar: glyph142
 Encoding: 65597 -1 146
@@ -7949,7 +7954,7 @@ Fore
  516 283 516 283 516 222 c 1,109,-1
  516 222 l 1,98,99
 EndSplineSet
-Ligature: 0 1 'akhn' U0D19 U0D4D U0D19
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D19 U0D4D U0D19
 EndChar
 StartChar: glyph143
 Encoding: 65598 -1 147
@@ -7992,7 +7997,7 @@ Fore
  9 70 l 1,37,-1
  9 70 l 1,4,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D1A U0D4D U0D1A
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D1A U0D4D U0D1A
 EndChar
 StartChar: glyph144
 Encoding: 65599 -1 148
@@ -8077,7 +8082,7 @@ Fore
  40 152 40 152 40 269 c 1,99,-1
  40 269 l 1,24,25
 EndSplineSet
-Ligature: 0 1 'akhn' U0D1E U0D4D U0D1A
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D1E U0D4D U0D1A
 EndChar
 StartChar: glyph145
 Encoding: 65600 -1 149
@@ -8193,7 +8198,7 @@ Fore
  1534 303 1534 303 1534 239 c 1,140,-1
  1534 239 l 1,129,130
 EndSplineSet
-Ligature: 0 1 'akhn' U0D1E U0D4D U0D1E
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D1E U0D4D U0D1E
 EndChar
 StartChar: glyph146
 Encoding: 65601 -1 150
@@ -8243,7 +8248,7 @@ Fore
  29 333 29 333 29 386 c 1,55,-1
  29 386 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D1F U0D4D U0D1F
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D1F U0D4D U0D1F
 EndChar
 StartChar: glyph147
 Encoding: 65602 -1 151
@@ -8335,7 +8340,7 @@ Fore
  134 215 134 215 134 169 c 1,113,-1
  134 169 l 1,104,105
 EndSplineSet
-Ligature: 0 1 'akhn' U0D23 U0D4D U0D1F
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D23 U0D4D U0D1F
 EndChar
 StartChar: glyph148
 Encoding: 65603 -1 152
@@ -8454,7 +8459,7 @@ Fore
  341 -339 341 -339 341 -257 c 1,141,-1
  341 -257 l 1,81,82
 EndSplineSet
-Ligature: 0 1 'akhn' U0D23 U0D4D U0D23
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D23 U0D4D U0D23
 EndChar
 StartChar: glyph149
 Encoding: 65604 -1 153
@@ -8546,7 +8551,7 @@ Fore
  46 158 46 158 46 257 c 1,111,-1
  46 257 l 1,24,25
 EndSplineSet
-Ligature: 0 1 'akhn' U0D24 U0D4D U0D24
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D24 U0D4D U0D24
 EndChar
 StartChar: glyph150
 Encoding: 65605 -1 154
@@ -8612,7 +8617,7 @@ Fore
  42 195 42 195 42 289 c 1,76,-1
  42 289 l 1,12,13
 EndSplineSet
-Ligature: 0 1 'akhn' U0D28 U0D4D U0D24
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D28 U0D4D U0D24
 EndChar
 StartChar: glyph151
 Encoding: 65606 -1 155
@@ -8663,7 +8668,7 @@ Fore
  46 180 46 180 46 269 c 1,56,-1
  46 269 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D28 U0D4D U0D28
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D28 U0D4D U0D28
 EndChar
 StartChar: glyph152
 Encoding: 65607 -1 156
@@ -8718,7 +8723,7 @@ Fore
  33 138 33 138 33 199 c 1,60,-1
  33 199 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D2A U0D4D U0D2A
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D2A U0D4D U0D2A
 EndChar
 StartChar: glyph153
 Encoding: 65608 -1 157
@@ -8763,7 +8768,7 @@ Fore
  43 179 43 179 43 281 c 1,46,-1
  43 281 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D28 U0D4D U0D2A
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6" U0D2E_U0D4D.half U0D2A
 EndChar
 StartChar: glyph154
 Encoding: 65609 -1 158
@@ -8823,7 +8828,7 @@ Fore
  832 105 832 105 772 70 c 1,61,-1
  772 70 l 1,50,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D2E U0D4D U0D2E
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D2E U0D4D U0D2E
 EndChar
 StartChar: glyph155
 Encoding: 65610 -1 159
@@ -8887,8 +8892,8 @@ Fore
  40 199 40 199 40 339 c 1,67,-1
  40 339 l 1,29,30
 EndSplineSet
-Ligature: 0 1 'psts' U0D2F glyph137
-Ligature: 0 1 'pres' U0D2F_U0D4D.half U0D2F
+Ligature2: "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 13" U0D2F glyph137
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6" U0D2F_U0D4D.half U0D2F
 EndChar
 StartChar: glyph156
 Encoding: 65611 -1 160
@@ -8930,8 +8935,8 @@ Fore
  450 -211 l 1,36,-1
  450 -211 l 1,33,-1
 EndSplineSet
-Ligature: 0 1 'psts' U0D35 glyph139
-Ligature: 0 1 'pres' U0D35_U0D4D.half U0D35
+Ligature2: "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 13" U0D35 glyph139
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6" U0D35_U0D4D.half U0D35
 EndChar
 StartChar: glyph157
 Encoding: 65612 -1 161
@@ -9001,7 +9006,7 @@ Fore
  137 432 137 432 137 364 c 1,72,-1
  137 364 l 1,64,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D32 U0D4D U0D32
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D32 U0D4D U0D32
 EndChar
 StartChar: glyph158
 Encoding: 65613 -1 162
@@ -9104,7 +9109,7 @@ Fore
  367 421 367 421 367 351 c 1,120,-1
  367 351 l 1,114,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D15 U0D4D U0D33
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D15 U0D4D U0D33
 EndChar
 StartChar: glyph159
 Encoding: 65614 -1 163
@@ -9186,7 +9191,7 @@ Fore
  46 -248 46 -248 46 -176 c 1,95,-1
  46 -176 l 1,10,11
 EndSplineSet
-Ligature: 0 1 'akhn' U0D17 U0D4D U0D33
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D17 U0D4D U0D33
 EndChar
 StartChar: glyph160
 Encoding: 65615 -1 164
@@ -9256,7 +9261,7 @@ Fore
  114 -248 114 -248 114 -176 c 1,77,-1
  114 -176 l 1,10,11
 EndSplineSet
-Ligature: 0 1 'akhn' U0D2A U0D4D U0D33
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D2A U0D4D U0D33
 EndChar
 StartChar: glyph161
 Encoding: 65616 -1 165
@@ -9351,7 +9356,7 @@ Fore
  135 219 135 219 135 176 c 1,110,-1
  135 176 l 1,100,101
 EndSplineSet
-Ligature: 0 1 'akhn' U0D2C U0D4D U0D33
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D2C U0D4D U0D33
 EndChar
 StartChar: glyph162
 Encoding: 65617 -1 166
@@ -9424,7 +9429,7 @@ Fore
  380 111 380 111 322 70 c 1,79,-1
  322 70 l 1,68,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D2E U0D4D U0D33
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D2E U0D4D U0D33
 EndChar
 StartChar: glyph163
 Encoding: 65618 -1 167
@@ -9514,7 +9519,7 @@ Fore
  644 258 644 258 644 199 c 1,106,-1
  644 199 l 1,94,95
 EndSplineSet
-Ligature: 0 1 'akhn' U0D36 U0D4D U0D33
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D36 U0D4D U0D33
 EndChar
 StartChar: glyph164
 Encoding: 65619 -1 168
@@ -9604,7 +9609,7 @@ Fore
  43 200 43 200 43 300 c 1,108,-1
  43 300 l 1,49,50
 EndSplineSet
-Ligature: 0 1 'akhn' U0D38 U0D4D U0D33
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D38 U0D4D U0D33
 EndChar
 StartChar: glyph165
 Encoding: 65620 -1 169
@@ -9689,7 +9694,7 @@ Fore
  185 -248 185 -248 185 -176 c 1,98,-1
  185 -176 l 1,10,11
 EndSplineSet
-Ligature: 0 1 'akhn' U0D39 U0D4D U0D33
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D39 U0D4D U0D33
 EndChar
 StartChar: U0D31_U0D4D_U0D31.akhn
 Encoding: 65621 -1 170
@@ -9740,8 +9745,8 @@ Fore
  40 201 40 201 40 269 c 1,54,-1
  40 269 l 1,18,19
 EndSplineSet
-Ligature: 0 1 'pres' U0D31_U0D4D.half U0D31
-Ligature: 0 1 'akhn' U0D31 U0D4D U0D31
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6" U0D31_U0D4D.half U0D31
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D31 U0D4D U0D31
 EndChar
 StartChar: glyph167
 Encoding: 65622 -1 171
@@ -9796,7 +9801,7 @@ Fore
  43 187 43 187 43 257 c 1,62,-1
  43 257 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D26 U0D4D U0D26
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D26 U0D4D U0D26
 EndChar
 StartChar: glyph168
 Encoding: 65623 -1 172
@@ -9891,7 +9896,7 @@ Fore
  308 -291 308 -291 308 -212 c 1,119,-1
  308 -212 l 1,60,61
 EndSplineSet
-Ligature: 0 1 'akhn' U0D38 U0D4D U0D38
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D38 U0D4D U0D38
 EndChar
 StartChar: glyph169
 Encoding: 65624 -1 173
@@ -9976,7 +9981,7 @@ Fore
  268 -203 l 1,97,-1
  268 -203 l 1,49,50
 EndSplineSet
-Ligature: 0 1 'akhn' U0D17 U0D4D U0D17
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D17 U0D4D U0D17
 EndChar
 StartChar: glyph170
 Encoding: 65625 -1 174
@@ -10059,7 +10064,7 @@ Fore
  829 -163 829 -163 829 -211 c 1,96,-1
  829 -211 l 1,85,86
 EndSplineSet
-Ligature: 0 1 'akhn' U0D1A U0D4D U0D1B
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D1A U0D4D U0D1B
 EndChar
 StartChar: glyph171
 Encoding: 65626 -1 175
@@ -10188,7 +10193,7 @@ Fore
  1238 97 1238 97 1238 70 c 1,163,-1
  1238 70 l 1,151,152
 EndSplineSet
-Ligature: 0 1 'akhn' U0D1C U0D4D U0D1C
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D1C U0D4D U0D1C
 EndChar
 StartChar: glyph172
 Encoding: 65627 -1 176
@@ -10285,7 +10290,7 @@ Fore
  27 91 27 91 27 164 c 1,109,-1
  27 164 l 1,40,41
 EndSplineSet
-Ligature: 0 1 'akhn' U0D15 U0D4D U0D24
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D15 U0D4D U0D24
 EndChar
 StartChar: glyph173
 Encoding: 65628 -1 177
@@ -10351,7 +10356,7 @@ Fore
  40 191 40 191 40 281 c 1,75,-1
  40 281 l 1,12,13
 EndSplineSet
-Ligature: 0 1 'akhn' U0D24 U0D4D U0D28
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D24 U0D4D U0D28
 EndChar
 StartChar: glyph174
 Encoding: 65629 -1 178
@@ -10436,7 +10441,7 @@ Fore
  582 453 582 453 582 410 c 1,94,-1
  582 410 l 1,84,85
 EndSplineSet
-Ligature: 0 1 'akhn' U0D37 U0D4D U0D1F
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D37 U0D4D U0D1F
 EndChar
 StartChar: glyph175
 Encoding: 65630 -1 179
@@ -10489,7 +10494,7 @@ Fore
  40 210 40 210 40 304 c 1,58,-1
  40 304 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D28 U0D4D U0D26
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D28 U0D4D U0D26
 EndChar
 StartChar: glyph176
 Encoding: 65631 -1 180
@@ -10556,7 +10561,7 @@ Fore
  749 -216 l 1,70,-1
  749 -216 l 1,67,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D2C U0D4D U0D2C
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D2C U0D4D U0D2C
 EndChar
 StartChar: glyph177
 Encoding: 65632 -1 181
@@ -10655,7 +10660,7 @@ Fore
  261 -203 l 1,116,-1
  261 -203 l 1,71,72
 EndSplineSet
-Ligature: 0 1 'akhn' U0D36 U0D4D U0D36
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D36 U0D4D U0D36
 EndChar
 StartChar: glyph178
 Encoding: 65633 -1 182
@@ -10718,7 +10723,7 @@ Fore
  40 198 40 198 40 281 c 1,74,-1
  40 281 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D28 U0D4D U0D27
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D28 U0D4D U0D27
 EndChar
 StartChar: glyph179
 Encoding: 65634 -1 183
@@ -10787,7 +10792,7 @@ Fore
  1286 70 l 1,77,-1
  1286 70 l 1,69,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D38 U0D4D U0D25
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D38 U0D4D U0D25
 EndChar
 StartChar: glyph180
 Encoding: 65635 -1 184
@@ -10859,7 +10864,7 @@ Fore
  42 191 42 191 42 281 c 1,79,-1
  42 281 l 1,21,22
 EndSplineSet
-Ligature: 0 1 'akhn' U0D24 U0D4D U0D25
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D24 U0D4D U0D25
 EndChar
 StartChar: glyph181
 Encoding: 65636 -1 185
@@ -10916,7 +10921,7 @@ Fore
  1047 70 l 1,59,-1
  1047 70 l 1,51,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D28 U0D4D U0D25
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D28 U0D4D U0D25
 EndChar
 StartChar: glyph182
 Encoding: 65637 -1 186
@@ -10983,7 +10988,7 @@ Fore
  697 374 697 374 697 339 c 1,78,-1
  697 339 l 1,66,67
 EndSplineSet
-Ligature: 0 1 'akhn' U0D36 U0D4D U0D1A
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D36 U0D4D U0D1A
 EndChar
 StartChar: glyph183
 Encoding: 65638 -1 187
@@ -11043,7 +11048,7 @@ Fore
  33 132 33 132 33 199 c 1,69,-1
  33 199 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D39 U0D4D U0D28
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D39 U0D4D U0D28
 EndChar
 StartChar: glyph184
 Encoding: 65639 -1 188
@@ -11105,7 +11110,7 @@ Fore
  44 180 44 180 44 257 c 1,71,-1
  44 257 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D26 U0D4D U0D27
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D26 U0D4D U0D27
 EndChar
 StartChar: glyph185
 Encoding: 65640 -1 189
@@ -11218,8 +11223,8 @@ Fore
  740 245 740 245 740 211 c 1,136,-1
  740 211 l 1,127,128
 EndSplineSet
-Ligature: 0 1 'pres' U0D33_U0D4D.half U0D33
-Ligature: 0 1 'pres' U0D33 glyph222
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6" U0D33_U0D4D.half U0D33
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6" U0D33 glyph222
 EndChar
 StartChar: glyph186
 Encoding: 65641 -1 190
@@ -11275,7 +11280,7 @@ Fore
  868 110 868 110 810 70 c 1,56,-1
  810 70 l 1,45,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D2A U0D4D U0D2E
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6" U0D39_U0D4D.half U0D2E
 EndChar
 StartChar: glyph187
 Encoding: 65642 -1 191
@@ -11348,7 +11353,7 @@ Fore
  191 328 l 1,83,-1
  191 328 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'akhn' U0D36 U0D4D U0D31
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D36 U0D4D U0D31
 EndChar
 StartChar: glyph188
 Encoding: 65643 -1 192
@@ -11426,7 +11431,7 @@ Fore
  43 199 43 199 43 281 c 1,94,-1
  43 281 l 1,12,13
 EndSplineSet
-Ligature: 0 1 'akhn' U0D24 U0D4D U0D38
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D24 U0D4D U0D38
 EndChar
 StartChar: glyph189
 Encoding: 65644 -1 193
@@ -11476,7 +11481,7 @@ Fore
  733 110 733 110 675 70 c 1,51,-1
  675 70 l 1,40,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D28 U0D4D U0D2E
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D28 U0D4D U0D2E
 EndChar
 StartChar: glyph190
 Encoding: 65645 -1 194
@@ -11554,7 +11559,7 @@ Fore
  1024 110 1024 110 967 70 c 1,89,-1
  967 70 l 1,78,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D24 U0D4D U0D2E
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D24 U0D4D U0D2E
 EndChar
 StartChar: glyph191
 Encoding: 65646 -1 195
@@ -11628,7 +11633,7 @@ Fore
  1038 113 1038 113 983 70 c 1,82,-1
  983 70 l 1,71,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D23 U0D4D U0D2E
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D23 U0D4D U0D2E
 EndChar
 StartChar: glyph192
 Encoding: 65647 -1 196
@@ -11760,7 +11765,7 @@ Fore
  1583 271 1583 271 1583 211 c 1,164,-1
  1583 211 l 1,153,154
 EndSplineSet
-Ligature: 0 1 'akhn' U0D1C U0D4D U0D1E
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D1C U0D4D U0D1E
 EndChar
 StartChar: glyph193
 Encoding: 65648 -1 197
@@ -11856,7 +11861,7 @@ Fore
  43 199 43 199 43 281 c 1,119,-1
  43 281 l 1,12,13
 EndSplineSet
-Ligature: 0 1 'akhn' U0D24 U0D4D U0D2D
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D24 U0D4D U0D2D
 EndChar
 StartChar: glyph194
 Encoding: 65649 -1 198
@@ -11911,7 +11916,7 @@ Fore
  741 110 741 110 684 70 c 1,55,-1
  684 70 l 1,44,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D17 U0D4D U0D2E
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D17 U0D4D U0D2E
 EndChar
 StartChar: glyph195
 Encoding: 65650 -1 199
@@ -12019,7 +12024,7 @@ Fore
  654 -106 654 -106 654 -144 c 1,131,-1
  654 -144 l 1,124,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D38 U0D4D U0D15
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D38 U0D4D U0D15
 EndChar
 StartChar: glyph196
 Encoding: 65651 -1 200
@@ -12073,7 +12078,7 @@ Fore
  47 328 l 1,59,-1
  47 328 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D17 U0D4D U0D28
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D17 U0D4D U0D28
 EndChar
 StartChar: glyph197
 Encoding: 65652 -1 201
@@ -12160,7 +12165,7 @@ Fore
  42 154 42 154 42 263 c 1,102,-1
  42 263 l 1,11,12
 EndSplineSet
-Ligature: 0 1 'akhn' U0D23 U0D4D U0D21
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D23 U0D4D U0D21
 EndChar
 StartChar: glyph198
 Encoding: 65653 -1 202
@@ -12277,7 +12282,7 @@ Fore
  1216 97 1216 97 1216 70 c 1,146,-1
  1216 70 l 1,134,135
 EndSplineSet
-Ligature: 0 1 'akhn' U0D1E U0D4D U0D1C
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D1E U0D4D U0D1C
 EndChar
 StartChar: glyph199
 Encoding: 65654 -1 203
@@ -12358,9 +12363,9 @@ Fore
  42 197 42 197 42 294 c 1,100,-1
  42 294 l 1,0,1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D38 U0D4D U0D28
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D38 U0D4D U0D28
 EndChar
-StartChar: U0D28_U0D4D_afii301.half_U0D31.pres
+StartChar: U0D28_U0D4D.half_U0D31.pres
 Encoding: 65655 -1 204
 Width: 958
 GlyphClass: 2
@@ -12442,7 +12447,7 @@ Fore
  42 201 42 201 42 293 c 1,104,-1
  42 293 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'akhn' U0D28 U0D4D afii301 U0D31
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6" U0D28_U0D4D.half U0D31
 EndChar
 StartChar: glyph201
 Encoding: 65656 -1 205
@@ -12535,7 +12540,7 @@ Fore
  389 52 389 52 394 52 c 1,116,-1
  394 52 l 1,99,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D38 U0D4D U0D31 U0D4D U0D31
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D38 U0D4D U0D31 U0D4D U0D31
 EndChar
 StartChar: glyph202
 Encoding: 65657 -1 206
@@ -12630,7 +12635,7 @@ Fore
  337 -303 337 -303 337 -224 c 1,117,-1
  337 -224 l 1,58,59
 EndSplineSet
-Ligature: 0 1 'akhn' U0D21 U0D4D U0D21
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D21 U0D4D U0D21
 EndChar
 StartChar: glyph203
 Encoding: 65658 -1 207
@@ -12720,7 +12725,7 @@ Fore
  646 -247 646 -247 646 -174 c 1,105,-1
  646 -174 l 1,64,65
 EndSplineSet
-Ligature: 0 1 'akhn' U0D2C U0D4D U0D27
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D2C U0D4D U0D27
 EndChar
 StartChar: glyph204
 Encoding: 65659 -1 208
@@ -12811,7 +12816,7 @@ Fore
  42 147 42 147 42 251 c 1,106,-1
  42 251 l 1,11,12
 EndSplineSet
-Ligature: 0 1 'akhn' U0D2C U0D4D U0D26
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D2C U0D4D U0D26
 EndChar
 StartChar: glyph205
 Encoding: 65660 -1 209
@@ -12904,7 +12909,7 @@ Fore
  27 95 27 95 27 163 c 1,108,-1
  27 163 l 1,26,27
 EndSplineSet
-Ligature: 0 1 'akhn' U0D15 U0D4D U0D1F
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D15 U0D4D U0D1F
 EndChar
 StartChar: glyph206
 Encoding: 65661 -1 210
@@ -12972,80 +12977,9 @@ Fore
  43 199 43 199 43 281 c 1,78,-1
  43 281 l 1,12,13
 EndSplineSet
-Ligature: 0 1 'akhn' U0D24 U0D4D U0D26
-EndChar
-StartChar: glyph207
-Encoding: 65662 -1 211
-Width: 1183
-GlyphClass: 2
-Flags: W
-Fore
-43 281 m 1,0,1
- 43 411 43 411 108 502.5 c 128,-1,2
- 173 594 173 594 265 594 c 0,3,4
- 318 594 318 594 362.5 565.5 c 128,-1,5
- 407 537 407 537 429 489 c 1,6,7
- 464 538 464 538 513.5 566 c 128,-1,8
- 563 594 563 594 616 594 c 0,9,10
- 689 594 689 594 740.5 542.5 c 128,-1,11
- 792 491 792 491 792 419 c 0,12,13
- 792 388 792 388 780 326.5 c 128,-1,14
- 768 265 768 265 768 234 c 0,15,16
- 768 166 768 166 806 118 c 128,-1,17
- 844 70 844 70 897 70 c 0,18,19
- 970 70 970 70 1021.5 135.5 c 128,-1,20
- 1073 201 1073 201 1073 293 c 0,21,22
- 1073 364 1073 364 1035 426.5 c 128,-1,23
- 997 489 997 489 932 527 c 1,24,-1
- 967 585 l 1,25,26
- 1048 547 1048 547 1095.5 468 c 128,-1,27
- 1143 389 1143 389 1143 293 c 0,28,29
- 1143 208 1143 208 1106 137 c 128,-1,30
- 1069 66 1069 66 1004 29 c 1,31,32
- 1066 2 1066 2 1102.5 -49.5 c 128,-1,33
- 1139 -101 1139 -101 1139 -159 c 0,34,35
- 1139 -222 1139 -222 1095 -274 c 128,-1,36
- 1051 -326 1051 -326 980 -346 c 1,37,-1
- 943 -298 l 1,38,39
- 1000 -282 1000 -282 1035.5 -243 c 128,-1,40
- 1071 -204 1071 -204 1071 -159 c 0,41,42
- 1071 -99 1071 -99 1017 -56.5 c 128,-1,43
- 963 -14 963 -14 887 -14 c 0,44,45
- 810 -14 810 -14 755.5 -56.5 c 128,-1,46
- 701 -99 701 -99 701 -159 c 0,47,48
- 701 -204 701 -204 736.5 -243 c 128,-1,49
- 772 -282 772 -282 829 -298 c 1,50,-1
- 793 -346 l 1,51,52
- 722 -326 722 -326 677.5 -274 c 128,-1,53
- 633 -222 633 -222 633 -159 c 0,54,55
- 633 -95 633 -95 676 -40.5 c 128,-1,56
- 719 14 719 14 789 38 c 1,57,58
- 746 70 746 70 722 122 c 128,-1,59
- 698 174 698 174 698 234 c 0,60,61
- 698 265 698 265 710 326.5 c 128,-1,62
- 722 388 722 388 722 419 c 0,63,64
- 722 462 722 462 691 493 c 128,-1,65
- 660 524 660 524 616 524 c 0,66,67
- 553 524 553 524 508.5 481 c 128,-1,68
- 464 438 464 438 464 377 c 2,69,-1
- 464 0 l 1,70,-1
- 394 0 l 1,71,-1
- 394 377 l 2,72,73
- 394 438 394 438 356 481 c 128,-1,74
- 318 524 318 524 265 524 c 0,75,76
- 202 524 202 524 157.5 453 c 128,-1,77
- 113 382 113 382 113 281 c 0,78,79
- 113 202 113 202 153 139 c 128,-1,80
- 193 76 193 76 259 52 c 1,81,-1
- 243 -1 l 1,82,83
- 156 16 156 16 99.5 95.5 c 128,-1,84
- 43 175 43 175 43 281 c 1,85,-1
- 43 281 l 1,0,1
-EndSplineSet
-Ligature: 0 1 'akhn' U0D38 U0D4D U0D31
 EndChar
 StartChar: glyph208
-Encoding: 65663 -1 212
+Encoding: 65663 -1 211
 Width: 928
 GlyphClass: 2
 Flags: W
@@ -13158,10 +13092,10 @@ Fore
  143 -288 143 -288 143 -243 c 1,140,-1
  143 -243 l 1,98,99
 EndSplineSet
-Ligature: 0 1 'akhn' U0D2F U0D4D U0D15
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D2F U0D4D U0D15
 EndChar
 StartChar: glyph209
-Encoding: 65664 -1 213
+Encoding: 65664 -1 212
 Width: 920
 GlyphClass: 2
 Flags: W
@@ -13292,10 +13226,10 @@ Fore
  12 -284 12 -284 12 -237 c 1,164,-1
  12 -237 l 1,110,111
 EndSplineSet
-Ligature: 0 1 'akhn' U0D2F U0D4D U0D15 U0D4D U0D15
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D2F U0D4D U0D15 U0D4D U0D15
 EndChar
 StartChar: glyph210
-Encoding: 65665 -1 214
+Encoding: 65665 -1 213
 Width: 875
 GlyphClass: 2
 Flags: W
@@ -13401,10 +13335,10 @@ Fore
  270 -95 270 -95 270 -126 c 1,120,-1
  270 -126 l 1,113,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D32 U0D4D U0D15 U0D4D U0D15
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D32 U0D4D U0D15 U0D4D U0D15
 EndChar
 StartChar: glyph211
-Encoding: 65666 -1 215
+Encoding: 65666 -1 214
 Width: 1153
 GlyphClass: 2
 Flags: W
@@ -13517,10 +13451,10 @@ Fore
  672 -87 672 -87 672 -125 c 1,132,-1
  672 -125 l 1,125,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D37 U0D4D U0D15
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D37 U0D4D U0D15
 EndChar
 StartChar: glyph212
-Encoding: 65667 -1 216
+Encoding: 65667 -1 215
 Width: 828
 GlyphClass: 2
 Flags: W
@@ -13605,10 +13539,10 @@ Fore
  347 -87 347 -87 347 -125 c 1,96,-1
  347 -125 l 1,89,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D32 U0D4D U0D15
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D32 U0D4D U0D15
 EndChar
 StartChar: glyph213
-Encoding: 65668 -1 217
+Encoding: 65668 -1 216
 Width: 1095
 GlyphClass: 2
 Flags: W
@@ -13703,10 +13637,10 @@ Fore
  369 -236 369 -236 369 -185 c 1,122,-1
  369 -185 l 1,73,74
 EndSplineSet
-Ligature: 0 1 'akhn' U0D38 U0D4D U0D24
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D38 U0D4D U0D24
 EndChar
 StartChar: glyph214
-Encoding: 65669 -1 218
+Encoding: 65669 -1 217
 Width: 1095
 GlyphClass: 2
 Flags: W
@@ -13792,10 +13726,10 @@ Fore
  775 -109 775 -109 775 -148 c 1,106,-1
  775 -148 l 1,97,-1
 EndSplineSet
-Ligature: 0 1 'akhn' U0D38 U0D4D U0D2B
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D38 U0D4D U0D2B
 EndChar
 StartChar: glyph215
-Encoding: 65670 -1 219
+Encoding: 65670 -1 218
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -13834,7 +13768,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: glyph216
-Encoding: 65671 -1 220
+Encoding: 65671 -1 219
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -13872,7 +13806,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: glyph217
-Encoding: 65672 -1 221
+Encoding: 65672 -1 220
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -13926,7 +13860,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: glyph218
-Encoding: 65673 -1 222
+Encoding: 65673 -1 221
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -13967,7 +13901,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: glyph219
-Encoding: 65674 -1 223
+Encoding: 65674 -1 222
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -14006,7 +13940,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: glyph220
-Encoding: 65675 -1 224
+Encoding: 65675 -1 223
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -14039,7 +13973,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: glyph221
-Encoding: 65676 -1 225
+Encoding: 65676 -1 224
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -14075,7 +14009,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: glyph222
-Encoding: 65677 -1 226
+Encoding: 65677 -1 225
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -14118,10 +14052,10 @@ Fore
  -819 -248 -819 -248 -819 -176 c 1,50,-1
  -819 -176 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'blwf' U0D33 U0D4D
+Ligature2: "'blwf' Below Base Forms in Malay+AQEA-lam lookup 2" U0D33 U0D4D
 EndChar
 StartChar: glyph223
-Encoding: 65678 -1 227
+Encoding: 65678 -1 226
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -14172,7 +14106,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: glyph224
-Encoding: 65679 -1 228
+Encoding: 65679 -1 227
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -14192,7 +14126,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0D23_U0D4D_afii301.half
-Encoding: 65680 -1 229
+Encoding: 65680 -1 228
 Width: 1407
 GlyphClass: 2
 Flags: W
@@ -14279,11 +14213,11 @@ Fore
  1084 300 1084 300 1084 239 c 1,108,-1
  1084 239 l 1,96,97
 EndSplineSet
-Ligature: 0 1 'akhn' U0D23_U0D4D.half afii301
-Ligature: 0 1 'akhn' U0D23 U0D4D afii301
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D23_U0D4D.half afii301
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D23 U0D4D afii301
 EndChar
 StartChar: U0D28_U0D4D_afii301.half
-Encoding: 65681 -1 230
+Encoding: 65681 -1 229
 Width: 959
 GlyphClass: 2
 Flags: W
@@ -14346,11 +14280,11 @@ Fore
  42 201 42 201 42 293 c 1,77,-1
  42 293 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'akhn' U0D28_U0D4D.half afii301
-Ligature: 0 1 'akhn' U0D28 U0D4D afii301
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D28_U0D4D.half afii301
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D28 U0D4D afii301
 EndChar
 StartChar: U0D30_U0D4D_afii301.half
-Encoding: 65682 -1 231
+Encoding: 65682 -1 230
 Width: 646
 GlyphClass: 2
 Flags: W
@@ -14400,13 +14334,13 @@ Fore
  43 172 43 172 43 263 c 1,58,-1
  43 263 l 1,12,13
 EndSplineSet
-Ligature: 0 1 'akhn' U0D31_U0D4D.half afii301
-Ligature: 0 1 'akhn' U0D30_U0D4D.half afii301
-Ligature: 0 1 'akhn' U0D31 U0D4D afii301
-Ligature: 0 1 'akhn' U0D30 U0D4D afii301
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D31_U0D4D.half afii301
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D30_U0D4D.half afii301
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D31 U0D4D afii301
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D30 U0D4D afii301
 EndChar
 StartChar: U0D32_U0D4D_afii301.half
-Encoding: 65683 -1 232
+Encoding: 65683 -1 231
 Width: 989
 GlyphClass: 2
 Flags: W
@@ -14484,11 +14418,11 @@ Fore
  46 189 46 189 46 281 c 1,96,-1
  46 281 l 1,25,26
 EndSplineSet
-Ligature: 0 1 'akhn' U0D32_U0D4D.half afii301
-Ligature: 0 1 'akhn' U0D32 U0D4D afii301
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D32_U0D4D.half afii301
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D32 U0D4D afii301
 EndChar
 StartChar: U0D33_U0D4D_afii301.half
-Encoding: 65684 -1 233
+Encoding: 65684 -1 232
 Width: 944
 GlyphClass: 2
 Flags: W
@@ -14555,11 +14489,11 @@ Fore
  48 328 l 1,81,-1
  48 328 l 1,13,14
 EndSplineSet
-Ligature: 0 1 'akhn' U0D33_U0D4D.half afii301
-Ligature: 0 1 'akhn' U0D33 U0D4D afii301
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D33_U0D4D.half afii301
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1" U0D33 U0D4D afii301
 EndChar
 StartChar: U0031
-Encoding: 49 49 234
+Encoding: 49 49 233
 Width: 623
 GlyphClass: 2
 Flags: W
@@ -14581,7 +14515,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0032
-Encoding: 50 50 235
+Encoding: 50 50 234
 Width: 623
 GlyphClass: 2
 Flags: W
@@ -14613,7 +14547,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0033
-Encoding: 51 51 236
+Encoding: 51 51 235
 Width: 623
 GlyphClass: 2
 Flags: W
@@ -14652,7 +14586,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0034
-Encoding: 52 52 237
+Encoding: 52 52 236
 Width: 624
 GlyphClass: 2
 Flags: W
@@ -14678,7 +14612,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0035
-Encoding: 53 53 238
+Encoding: 53 53 237
 Width: 623
 GlyphClass: 2
 Flags: W
@@ -14711,7 +14645,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0036
-Encoding: 54 54 239
+Encoding: 54 54 238
 Width: 624
 GlyphClass: 2
 Flags: W
@@ -14749,7 +14683,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0037
-Encoding: 55 55 240
+Encoding: 55 55 239
 Width: 624
 GlyphClass: 2
 Flags: W
@@ -14768,7 +14702,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0038
-Encoding: 56 56 241
+Encoding: 56 56 240
 Width: 624
 GlyphClass: 2
 Flags: W
@@ -14814,7 +14748,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0039
-Encoding: 57 57 242
+Encoding: 57 57 241
 Width: 624
 GlyphClass: 2
 Flags: W
@@ -14852,7 +14786,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0030
-Encoding: 48 48 243
+Encoding: 48 48 242
 Width: 624
 GlyphClass: 2
 Flags: W
@@ -14880,7 +14814,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: U0030
-Encoding: 65685 -1 244
+Encoding: 65685 -1 243
 Width: 624
 GlyphClass: 2
 Flags: W
@@ -14908,7 +14842,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: uni0964
-Encoding: 2404 2404 245
+Encoding: 2404 2404 244
 Width: 304
 Flags: W
 TeX: 0 0 0 0
@@ -14922,7 +14856,7 @@ Fore
 EndSplineSet
 EndChar
 StartChar: uni0965
-Encoding: 2405 2405 246
+Encoding: 2405 2405 245
 Width: 493
 Flags: W
 TeX: 0 0 0 0
