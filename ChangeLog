@@ -1,5 +1,11 @@
 				  fonts-indic
-Current Version :- 2.1.8
+Current Version :- 2.1.9
+
+* Thu Feb 28 2007 Rahul Bhalerao <rbhalera@redhat.com> - 2.1.9
+- Resolved bugs(bugzilla.redhat.com):
+- Bug 431035: [ml_IN] Glyph to be formed for nine consonants + 0D4D + 0D32 
+- Bug 433437: [ml_IN] Rendering combination incorrect with 0D35
+- Bug 433440: [ml_IN] Rendering combination incorrect with 0D2F
 
 * Fri Jan 25 2007 Rahul Bhalerao <rbhalera@redhat.com> - 2.1.8
 - Bug 192812: [ml_IN]GPOS issues in new Malayalam font
