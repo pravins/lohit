@@ -6,6 +6,7 @@ Current Version :- 2.1.9
 - Bug 431035: [ml_IN] Glyph to be formed for nine consonants + 0D4D + 0D32 
 - Bug 433437: [ml_IN] Rendering combination incorrect with 0D35
 - Bug 433440: [ml_IN] Rendering combination incorrect with 0D2F
+- Contributions from Hiran Venugopalan (xRa glyphs and few other)
 
 * Fri Jan 25 2007 Rahul Bhalerao <rbhalera@redhat.com> - 2.1.8
 - Bug 192812: [ml_IN]GPOS issues in new Malayalam font
