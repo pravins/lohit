@@ -31530,7 +31530,8 @@ Fore
  381 -58 381 -58 381 39 c 1,134,-1
  381 39 l 1,76,-1
 EndSplineSet
-Ligature2: "'pstf' Post Base Forms in Kannada lookup 12" U0CB5 U0CCA
+Ligature2: "'akhn' Akhand in Kannada lookup 1" U0CB5 U0CC6 U0CC2
+LCarets2: 1 0 
 EndChar
 StartChar: glyph377
 Encoding: 65820 -1 380

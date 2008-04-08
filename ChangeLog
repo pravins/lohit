@@ -1,14 +1,24 @@
 				  fonts-indic
-Current Version :- 2.1.9
+Current Version :- 2.2.0
 
-* Thu Feb 28 2007 Rahul Bhalerao <rbhalera@redhat.com> - 2.1.9
+* Tue Apr 08 2008 Rahul Bhalerao <rbhalera@redhat.com> - 2.2.0
+- Resolved bugs (bugzilla.redhat.com):
+- Bug 202400: [hi_IN] New codepoints/glyphs in Unicode 5.0
+- Bug 205981: [hi_IN]The font file of Devanagari(lohit_hi.ttf) lacks the glyph
+of U+0x0904
+- Bug 206426: [hi_IN, mr_IN] Some Glyphs are missing and some GPOS shapes
+should be more perfect - Priority - C
+- Bug 239630: [hi_IN] the glyph of 0x0953 in lohit_hi.ttf is wrong.
+- Bug 428427: [kn_IN][fonts-indic] - 0CB5+0CCA is wrongly rendering
+
+* Thu Feb 28 2008 Rahul Bhalerao <rbhalera@redhat.com> - 2.1.9
 - Resolved bugs(bugzilla.redhat.com):
 - Bug 431035: [ml_IN] Glyph to be formed for nine consonants + 0D4D + 0D32 
 - Bug 433437: [ml_IN] Rendering combination incorrect with 0D35
 - Bug 433440: [ml_IN] Rendering combination incorrect with 0D2F
 - Contributions from Hiran Venugopalan (xRa glyphs and few other)
 
-* Fri Jan 25 2007 Rahul Bhalerao <rbhalera@redhat.com> - 2.1.8
+* Fri Jan 25 2008 Rahul Bhalerao <rbhalera@redhat.com> - 2.1.8
 - Bug 192812: [ml_IN]GPOS issues in new Malayalam font
 - Bug 402321: [ml_IN} Wrong combinations used for the conjunct 'ന്പ'
 - Bug 402331: [ml_IN] Wrong combinations used for conjunct 'ന്‍റ'
@@ -16,10 +26,10 @@ Current Version :- 2.1.9
 - Bug 429526: [ml_IN]: Removal of a glyph from font file
 - Bug 247233: Additional special character rendering for assamese [as-IN] and bengali [bn-IN]
 
-* Tue Jan 15 2007 Rahul Bhalerao <rbhalera@redhat.com> - 2.1.7
+* Tue Jan 15 2008 Rahul Bhalerao <rbhalera@redhat.com> - 2.1.7
 - Updated the makedist.sh script
 
-* Tue Jan 15 2007 Rahul Bhalerao <rbhalera@redhat.com> - 2.1.7
+* Tue Jan 15 2008 Rahul Bhalerao <rbhalera@redhat.com> - 2.1.7
 - Bug 233419: 	[kn_IN] GSUB's combinaing with additional dependent vowel are
 not rendering correctly
 
