@@ -18,7 +18,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1207654316
+ModificationTime: 1212672865
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -606,7 +606,11 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1961 37 17
+WinInfo: 0 37 17
+Grid
+-205 664.5 m 25,0,0
+ 872.5 664 l 25,0,0
+EndSplineSet
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Devanagari lookup 3" "Anchor-1"  "'abvm' Above Base Mark in Devanagari lookup 2" "Anchor-2"  "'abvm' Above Base Mark in Devanagari lookup 1" "Anchor-3"  "'blwm' Below Base Mark in Devanagari lookup 0" 
 BeginChars: 65751 350
 StartChar: .notdef
@@ -935,9 +939,9 @@ Flags: W
 TtfInstrs: 50
 5n*f(!"Ao/!!<3$!($Yt!"],r!(Hqh!!*'hFtYckFoX`h58QE_0eg0='EA.6"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-2" -127 15 mark 0
-AnchorPoint: "Anchor-1" -127 15 mark 0
-AnchorPoint: "Anchor-0" -119 676 mark 0
+AnchorPoint: "Anchor-2" -127 5 mark 0
+AnchorPoint: "Anchor-1" -127 5 mark 0
+AnchorPoint: "Anchor-0" -120 666 mark 0
 Fore
 -132 759 m 1,0,1
  -210 759 -210 759 -270 811.5 c 128,-1,2
@@ -967,7 +971,7 @@ Flags: W
 TtfInstrs: 48
 5n!_r!!<3&!!!!e!!3-$!(-`U!!*'#!(M,b2]-]<5<M.H497/j\c;m6!<<9R
 EndTtf
-AnchorPoint: "Anchor-0" -133 776 mark 0
+AnchorPoint: "Anchor-0" -133 666 mark 0
 Fore
 -177 832 m 1,0,-1
  -177 925 l 1,1,-1
@@ -1016,7 +1020,7 @@ Flags: W
 TtfInstrs: 50
 5n*fL!&4HS!%n7'!$;1^!!E9B!(Hqh!!*'hFtYckFoX034?kq/0eg0=5QCfb"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 640 711 basechar 0
+AnchorPoint: "Anchor-0" 636 664 basechar 0
 Fore
 309 47 m 1,0,1
  229 47 229 47 154 113.5 c 128,-1,2
@@ -1076,7 +1080,7 @@ Flags: W
 TtfInstrs: 57
 5nF#S!&Xa3!!<3U!!*'P!%e0m!$2+C!$)&/!!*'#!(M,b2]-]<0,H`8(H_^Q0Y.6P!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 792 713 basechar 0
+AnchorPoint: "Anchor-0" 792 664 basechar 0
 Fore
 310 47 m 1,0,1
  230 47 230 47 155 113.5 c 128,-1,2
@@ -1140,7 +1144,7 @@ Flags: W
 TtfInstrs: 38
 5mRH.!&sr[!!*'h!!*'#!(M,b2]-]<00DH"0eg0=2uisZ"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 377 713 basechar 0
+AnchorPoint: "Anchor-0" 377 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -1195,7 +1199,7 @@ TtfInstrs: 61
 5nO)o!!!!Y!%Ist!!3-K!%S%.!&ag%!!<3F!(Hqh!!*'hFtYckFoX034?jWE5<Js$0Y.6^!!*''
 .f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 416 711 basechar 0
+AnchorPoint: "Anchor-0" 439 579.199 basechar 0
 Fore
 415 -160 m 1,0,1
  344 -119 344 -119 290 -73 c 128,-1,2
@@ -1267,7 +1271,7 @@ Flags: W
 TtfInstrs: 46
 5mmZ)!"],3!"T&E!!3-$!(Hqh!!*'hFtYckFoX0X58QE_0eg0=-ia8J"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 461 713 basechar 0
+AnchorPoint: "Anchor-0" 461 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -1310,7 +1314,7 @@ Flags: W
 TtfInstrs: 46
 5mmZ<!$_IF!$VCX!!3-$!(Hqh!!*'hFtYckFoX0X58QE_0eg0=3rf9]"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 455 713 basechar 0
+AnchorPoint: "Anchor-0" 453 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -1367,7 +1371,7 @@ TtfInstrs: 54
 5n3l?!$_IF!$VCR!&ss;!!*'*!!`Kn!!*'#!(M,b2]-]<00DH]58QE_0eg0=8,rYj"Y0QQ
 EndTtf
 AnchorPoint: "Anchor-3" 471 26 basechar 0
-AnchorPoint: "Anchor-0" 449 704 basechar 0
+AnchorPoint: "Anchor-0" 460 664 basechar 0
 Fore
 205 493 m 1,0,1
  234 493 234 493 265 477.5 c 128,-1,2
@@ -1584,18 +1588,18 @@ Fore
  447 -63 447 -63 425 -88 c 128,-1,37
  403 -113 403 -113 368 -127 c 1,38,-1
  368 -127 l 1,0,-1
-221 819 m 1,39,40
- 148 819 148 819 91.5 869.5 c 128,-1,41
- 35 920 35 920 21 999 c 1,42,-1
- 88 999 l 1,43,44
- 97 944 97 944 135 908 c 128,-1,45
- 173 872 173 872 221 872 c 0,46,47
- 304 872 304 872 362.5 815.5 c 128,-1,48
- 421 759 421 759 421 679 c 1,49,-1
- 354 679 l 1,50,51
- 354 736 354 736 315 777.5 c 128,-1,52
- 276 819 276 819 221 819 c 1,53,-1
- 221 819 l 1,39,40
+221 804 m 5,39,40
+ 148 804 148 804 91.5 854.5 c 132,-1,41
+ 35 905 35 905 21 984 c 5,42,-1
+ 88 984 l 5,43,44
+ 97 929 97 929 135 893 c 132,-1,45
+ 173 857 173 857 221 857 c 4,46,47
+ 304 857 304 857 362.5 800.5 c 132,-1,48
+ 421 744 421 744 421 664 c 5,49,-1
+ 354 664 l 5,50,51
+ 354 721 354 721 315 762.5 c 132,-1,52
+ 276 804 276 804 221 804 c 5,53,-1
+ 221 804 l 5,39,40
 EndSplineSet
 EndChar
 StartChar: u090F
@@ -1606,7 +1610,7 @@ Flags: W
 TtfInstrs: 43
 5mdT0!(R#2!!*'$!!*'h!!*'#!(M,b2]-]<00DH`!AQ:>!%.aI!!OkQ
 EndTtf
-AnchorPoint: "Anchor-0" 385 713 basechar 0
+AnchorPoint: "Anchor-0" 265 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -1826,18 +1830,18 @@ Fore
  477 148 477 148 428.5 97.5 c 128,-1,66
  380 47 380 47 310 47 c 1,67,-1
  310 47 l 1,0,1
-743 819 m 1,68,69
- 670 819 670 819 613.5 869.5 c 128,-1,70
- 557 920 557 920 543 999 c 1,71,-1
- 610 999 l 1,72,73
- 619 944 619 944 657 908 c 128,-1,74
- 695 872 695 872 743 872 c 0,75,76
- 826 872 826 872 884.5 815.5 c 128,-1,77
- 943 759 943 759 943 679 c 1,78,-1
- 876 679 l 1,79,80
- 876 736 876 736 837 777.5 c 128,-1,81
- 798 819 798 819 743 819 c 1,82,-1
- 743 819 l 1,68,69
+743 806 m 5,68,69
+ 670 806 670 806 613.5 856.5 c 132,-1,70
+ 557 907 557 907 543 986 c 5,71,-1
+ 610 986 l 5,72,73
+ 619 931 619 931 657 895 c 132,-1,74
+ 695 859 695 859 743 859 c 4,75,76
+ 826 859 826 859 884.5 802.5 c 132,-1,77
+ 943 746 943 746 943 666 c 5,78,-1
+ 876 666 l 5,79,80
+ 876 723 876 723 837 764.5 c 132,-1,81
+ 798 806 798 806 743 806 c 5,82,-1
+ 743 806 l 5,68,69
 EndSplineSet
 EndChar
 StartChar: u0913
@@ -1987,8 +1991,8 @@ Flags: W
 TtfInstrs: 41
 5m[N0!#Yb;!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6C!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-3" 380 23 basechar 0
-AnchorPoint: "Anchor-0" 449 704 basechar 0
+AnchorPoint: "Anchor-3" 380 1 basechar 0
+AnchorPoint: "Anchor-0" 381 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -2043,7 +2047,7 @@ TtfInstrs: 50
 5n*f%!"&]4!!WE+!!N?'!!3-$!(Hqh!!*'hFtYckFoX0X58QE_0eg0=5l^oc"Y0QQ
 EndTtf
 AnchorPoint: "Anchor-3" 695 29 basechar 0
-AnchorPoint: "Anchor-0" 700 713 basechar 0
+AnchorPoint: "Anchor-0" 693 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -2106,7 +2110,7 @@ Flags: W
 TtfInstrs: 41
 5m[Mq!!N?'!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6%!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 386 713 basechar 0
+AnchorPoint: "Anchor-0" 386 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -2140,7 +2144,7 @@ Flags: W
 TtfInstrs: 41
 5m[Mq!!N?'!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.69!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 506 713 basechar 0
+AnchorPoint: "Anchor-0" 506 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -2191,7 +2195,7 @@ TtfInstrs: 46
 5mmZ.!#5J8!#,E(!!3-$!(Hqh!!*'hFtYckFoX0X58QE_0eg0=49,B^"Y0QQ
 EndTtf
 AnchorPoint: "Anchor-3" 394 50 basechar 0
-AnchorPoint: "Anchor-0" 500 713 basechar 0
+AnchorPoint: "Anchor-0" 499 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -2250,7 +2254,7 @@ Flags: W
 TtfInstrs: 41
 5m[Mq!!N?'!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6-!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 496 713 basechar 0
+AnchorPoint: "Anchor-0" 503 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -2292,7 +2296,7 @@ TtfInstrs: 48
 5n!`1!#GV9!!<3$!(d/$!"Juu!!*'#!(M,b2]-]<00DH8497/j\c>"r!<<9R
 EndTtf
 AnchorPoint: "Anchor-3" 322 61 basechar 0
-AnchorPoint: "Anchor-0" 526 713 basechar 0
+AnchorPoint: "Anchor-0" 526 664 basechar 0
 Fore
 310 33 m 1,0,1
  217 33 217 33 150.5 87.5 c 128,-1,2
@@ -2356,7 +2360,7 @@ Flags: W
 TtfInstrs: 41
 5m[N,!#5J7!"o8D!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6+!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 596 711 basechar 0
+AnchorPoint: "Anchor-0" 596 664 basechar 0
 Fore
 309 80 m 1,0,1
  237 80 237 80 159 176.5 c 128,-1,2
@@ -2394,7 +2398,7 @@ Flags: W
 TtfInstrs: 54
 5n3lM!!!!k!&4I!!!3-F!!*'B!$;21!!*'#!(M,b2]-]<00DH84?kq/0eg0=8cSkl"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 603 711 basechar 0
+AnchorPoint: "Anchor-0" 600 664 basechar 0
 Fore
 318 -47 m 1,0,1
  274 -27 274 -27 237.5 -1.5 c 128,-1,2
@@ -2464,7 +2468,7 @@ Flags: W
 TtfInstrs: 41
 5m[N;!$hOF!$M=b!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6<!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 603 711 basechar 0
+AnchorPoint: "Anchor-0" 603 664 basechar 0
 Fore
 218 120 m 1,0,1
  166 120 166 120 113 153 c 128,-1,2
@@ -2515,7 +2519,7 @@ TtfInstrs: 48
 5n!`5!#kn=!!<3$!([(t!"&]q!!*'#!(M,b2]-]<00DH8497/j\c<`N!<<9R
 EndTtf
 AnchorPoint: "Anchor-3" 324 45 basechar 0
-AnchorPoint: "Anchor-0" 426 713 basechar 0
+AnchorPoint: "Anchor-0" 421 664 basechar 0
 Fore
 325 13 m 1,0,1
  209 13 209 13 127 95 c 128,-1,2
@@ -2553,7 +2557,7 @@ TtfInstrs: 48
 5n!`;!$M=C!!<3$!$;1K!"&]q!!*'#!(M,b2]-]<00DH8497/j\c<rT!<<9R
 EndTtf
 AnchorPoint: "Anchor-3" 316 39 basechar 0
-AnchorPoint: "Anchor-0" 431 713 basechar 0
+AnchorPoint: "Anchor-0" 422 664 basechar 0
 Fore
 324 7 m 1,0,1
  220 7 220 7 132 96.5 c 128,-1,2
@@ -2595,7 +2599,7 @@ TtfInstrs: 48
 5n!`G!%e0O!!<3$!([)/!#bi,!!*'#!(M,b2]-]<00DH8497/j\c=A`!<<9R
 EndTtf
 AnchorPoint: "Anchor-3" 378 45 basechar 0
-AnchorPoint: "Anchor-0" 488 713 basechar 0
+AnchorPoint: "Anchor-0" 495 664 basechar 0
 Fore
 385 13 m 1,0,1
  280 13 280 13 180.5 92.5 c 128,-1,2
@@ -2644,7 +2648,7 @@ TtfInstrs: 46
 5mmZ1!#P\;!#GW+!!3-$!(Hqh!!*'hFtYckFoX0X58QE_0eg0=0)u"Q"Y0QQ
 EndTtf
 AnchorPoint: "Anchor-3" 332 47 basechar 0
-AnchorPoint: "Anchor-0" 428 713 basechar 0
+AnchorPoint: "Anchor-0" 428 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -2694,7 +2698,7 @@ TtfInstrs: 41
 5m[N!!"&],!!`K.!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6(!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 529 29 basechar 0
-AnchorPoint: "Anchor-0" 540 713 basechar 0
+AnchorPoint: "Anchor-0" 540 664 basechar 0
 Fore
 224 160 m 1,0,1
  157 160 157 160 110.5 208.5 c 128,-1,2
@@ -2733,7 +2737,7 @@ Flags: W
 TtfInstrs: 46
 5mmZ-!"8i/!"/c-!!iQ0!(Hqh!!*'hFtYckFoX0X58QE_0eg0=)#s[;"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 478 713 basechar 0
+AnchorPoint: "Anchor-0" 478 664 basechar 0
 Fore
 43 326 m 1,0,1
  43 390 43 390 84 434.5 c 128,-1,2
@@ -2768,7 +2772,7 @@ Flags: W
 TtfInstrs: 54
 5n3l5!#Yb<!#P]/!%e1%!!*'K!%7h:!!*'#!(M,b2]-]<00DH]58QE_0eg0=1&q=T"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 560 711 basechar 0
+AnchorPoint: "Anchor-0" 555 664 basechar 0
 Fore
 300 133 m 1,0,1
  205 133 205 133 131 199 c 128,-1,2
@@ -2820,7 +2824,7 @@ TtfInstrs: 43
 5mdT.!)*A.!!*'$!!*'h!!*'#!(M,b2]-]<00DH`!AQ:>!$VCD!!OkQ
 EndTtf
 AnchorPoint: "Anchor-3" 458 7 basechar 0
-AnchorPoint: "Anchor-0" 413 710 basechar 0
+AnchorPoint: "Anchor-0" 417 666 basechar 0
 Fore
 -21 606 m 1,0,-1
  -21 666 l 1,1,-1
@@ -2861,7 +2865,7 @@ Flags: W
 TtfInstrs: 54
 5n3l(!"8i/!"/d"!&ag7!!*'T!&4IC!!*'#!(M,b2]-]<00DH]58QE_0eg0=3rf9]"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 525 713 basechar 0
+AnchorPoint: "Anchor-0" 520 664 basechar 0
 Fore
 276 113 m 1,0,1
  201 113 201 113 148.5 154.5 c 128,-1,2
@@ -2919,7 +2923,7 @@ Flags: W
 TtfInstrs: 41
 5m[N"!"/c-!!iQ0!(Hqh!!E9kFtYckFoX0X5<Js$0Y.6%!!E9*.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 460 713 basechar 0
+AnchorPoint: "Anchor-0" 455 664 basechar 0
 Fore
 20 399 m 1,0,1
  20 413 20 413 34 423 c 128,-1,2
@@ -2953,7 +2957,7 @@ Flags: W
 TtfInstrs: 49
 5n!`6!#Yc2!"8i8!!*'*!!`Kn!!*'&!(M,b2]-]<00DH]5<Js$0Y.6*!!E9*.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 455 706 basechar 0
+AnchorPoint: "Anchor-0" 452 666 basechar 0
 Fore
 20 399 m 1,0,1
  20 413 20 413 34 423 c 128,-1,2
@@ -2984,6 +2988,7 @@ Fore
  226 -7 l 1,29,-1
  226 -7 l 1,25,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms in Devanagari lookup 48" u0928 u093C
 EndChar
 StartChar: u092A
@@ -2994,7 +2999,7 @@ Flags: W
 TtfInstrs: 41
 5m[Ms!!`K)!!E9(!(Hqh!!E9kFtYckFoX0X5<Js$0Y.6&!!E9*.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 405 713 basechar 0
+AnchorPoint: "Anchor-0" 404 664 basechar 0
 Fore
 57 366 m 1,0,-1
  57 606 l 1,1,-1
@@ -3032,7 +3037,7 @@ TtfInstrs: 41
 5m[N2!#kn=!!E9(!(Hqh!!E9kFtYckFoX0X5<Js$0Y.6:!!E9*.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 391 23 basechar 0
-AnchorPoint: "Anchor-0" 386 712 basechar 0
+AnchorPoint: "Anchor-0" 386 664 basechar 0
 Fore
 55 373 m 1,0,-1
  55 606 l 1,1,-1
@@ -3082,7 +3087,7 @@ Flags: W
 TtfInstrs: 41
 5m[N-!#>P8!##>F!(Hqh!!E9kFtYckFoX0X5<Js$0Y.66!!E9*.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 425 713 basechar 0
+AnchorPoint: "Anchor-0" 407 666.215 basechar 0
 Fore
 39 320 m 1,0,1
  39 399 39 399 97.5 456 c 128,-1,2
@@ -3130,7 +3135,7 @@ Flags: W
 TtfInstrs: 54
 5n3l1!#5J8!#,E.!$VCd!!*'@!$)&/!!*'&!(M,b2]-]<00DH]58QE_0eg0=/-#eQ"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 530 713 basechar 0
+AnchorPoint: "Anchor-0" 526 664 basechar 0
 Fore
 119 326 m 1,0,1
  119 337 119 337 128.5 345 c 128,-1,2
@@ -3179,7 +3184,7 @@ Flags: W
 TtfInstrs: 41
 5m[Mq!!N?'!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6'!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 447 713 basechar 0
+AnchorPoint: "Anchor-0" 447 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -3219,7 +3224,7 @@ TtfInstrs: 41
 5m[Mq!!N?'!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.60!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 466 26 basechar 0
-AnchorPoint: "Anchor-0" 465 713 basechar 0
+AnchorPoint: "Anchor-0" 464 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -3261,7 +3266,7 @@ Flags: W
 TtfInstrs: 38
 5mRH$!!*'$!!*'h!!*'#!(M,b2]-]<00DH"0eg0=)up!>"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 340 713 basechar 0
+AnchorPoint: "Anchor-0" 331 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -3296,7 +3301,7 @@ Flags: W
 TtfInstrs: 49
 5n!`9!#tu5!#kn<!!*'0!"Aot!!*'#!(M,b2]-]<00DH]5<Js$0Y.6-!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 344 705 basechar 0
+AnchorPoint: "Anchor-0" 335 665 basechar 0
 Fore
 365 0 m 1,0,1
  258 89 258 89 172.5 202.5 c 128,-1,2
@@ -3328,6 +3333,7 @@ Fore
  125 -7 l 1,32,-1
  125 -7 l 1,28,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms in Devanagari lookup 48" u0930 u093C
 EndChar
 StartChar: u0932
@@ -3338,7 +3344,7 @@ Flags: W
 TtfInstrs: 46
 5mmZ0!)3Ft!!N?'!!3-$!(Hqh!!*'hFtYckFoX0X5<M.20eg0=-NF/I"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 590 713 basechar 0
+AnchorPoint: "Anchor-0" 597 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -3383,7 +3389,7 @@ TtfInstrs: 52
 5n3l-!"f2B!"8i8!!N?0!)ERr!!*'h!!*'#!(M,b2]-]<00DH8497/j\c=bk!<<9R
 EndTtf
 AnchorPoint: "Anchor-3" 527 101 basechar 0
-AnchorPoint: "Anchor-0" 519 710 basechar 0
+AnchorPoint: "Anchor-0" 519 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -3441,7 +3447,7 @@ TtfInstrs: 41
 5m[NT!'1*V!"],@!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6K!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 553 98 basechar 0
-AnchorPoint: "Anchor-0" 519 713 basechar 0
+AnchorPoint: "Anchor-0" 515 664 basechar 0
 Fore
 224 73 m 1,0,1
  149 73 149 73 96.5 134.5 c 128,-1,2
@@ -3495,6 +3501,7 @@ Fore
  370 -20 l 1,62,-1
  370 -20 l 1,58,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms in Devanagari lookup 48" u0933 u093C
 EndChar
 StartChar: u0935
@@ -3505,7 +3512,7 @@ Flags: W
 TtfInstrs: 41
 5m[Mq!!N?'!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6/!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 420 711 basechar 0
+AnchorPoint: "Anchor-0" 410 665.216 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -3547,7 +3554,7 @@ TtfInstrs: 61
 5nO)0!"f24!"]-*!%e1%!#Yb=!!!!"!%@mr!(Hqh!!*'hFtYckFoX0X58QFH(H_^Q0Y.6<!!*''
 .f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 548 713 basechar 0
+AnchorPoint: "Anchor-0" 545.5 664.151 basechar 0
 Fore
 330 0 m 1,0,-1
  31 253 l 1,1,-1
@@ -3600,7 +3607,7 @@ Flags: W
 TtfInstrs: 41
 5m[Mq!!N?'!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6)!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 411 713 basechar 0
+AnchorPoint: "Anchor-0" 403.5 666.218 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -3641,7 +3648,7 @@ Flags: W
 TtfInstrs: 46
 5mmZ-!)3Ft!!N?'!!3-$!(Hqh!!*'hFtYckFoX0X5<M.20eg0=+92EB"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 575 713 basechar 0
+AnchorPoint: "Anchor-0" 576.5 664.639 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -3684,7 +3691,7 @@ TtfInstrs: 41
 5m[N:!$_J@!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6?!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 335 2 basechar 0
-AnchorPoint: "Anchor-0" 406 706 basechar 0
+AnchorPoint: "Anchor-0" 401 666 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -4026,20 +4033,20 @@ Flags: W
 TtfInstrs: 57
 5nF#+!"Ao/!!<3$!*K:0!"&]/!!<3'!!<3j!!*'#!(M,b2]-]<58QFH(H_^Q0Y.5p!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" -119 655 mark 0
+AnchorPoint: "Anchor-0" -127 665.882 mark 0
 Fore
--127 752 m 1,0,1
- -200 752 -200 752 -256.5 803 c 128,-1,2
- -313 854 -313 854 -326 932 c 1,3,-1
- -260 932 l 1,4,5
- -250 878 -250 878 -212 842 c 128,-1,6
- -174 806 -174 806 -127 806 c 0,7,8
- -79 806 -79 806 -41 842 c 128,-1,9
- -3 878 -3 878 7 932 c 1,10,-1
- 73 932 l 1,11,12
- 60 854 60 854 3.5 803 c 128,-1,13
- -53 752 -53 752 -127 752 c 1,14,-1
- -127 752 l 1,0,1
+-127 759 m 1,0,1
+ -200 759 -200 759 -256.5 810 c 128,-1,2
+ -313 861 -313 861 -326 939 c 1,3,-1
+ -260 939 l 1,4,5
+ -250 885 -250 885 -212 849 c 128,-1,6
+ -174 813 -174 813 -127 813 c 0,7,8
+ -79 813 -79 813 -41 849 c 128,-1,9
+ -3 885 -3 885 7 939 c 1,10,-1
+ 73 939 l 1,11,12
+ 60 861 60 861 3.5 810 c 128,-1,13
+ -53 759 -53 759 -127 759 c 1,14,-1
+ -127 759 l 1,0,1
 EndSplineSet
 EndChar
 StartChar: u0946
@@ -4050,20 +4057,20 @@ Flags: W
 TtfInstrs: 43
 5mdT"!"&^$!!E9(!&XaG!!*'#!(M,b2]-]<5<M.m!AQ:>!"T&1!!OkQ
 EndTtf
-AnchorPoint: "Anchor-0" -127 647 mark 0
+AnchorPoint: "Anchor-0" -127 665 mark 0
 Fore
--296 819 m 1,0,1
- -369 819 -369 819 -425.5 869.5 c 128,-1,2
- -482 920 -482 920 -495 999 c 1,3,-1
- -429 999 l 1,4,5
- -419 944 -419 944 -381.5 908 c 128,-1,6
- -344 872 -344 872 -296 872 c 0,7,8
- -213 872 -213 872 -154.5 815.5 c 128,-1,9
- -96 759 -96 759 -96 679 c 1,10,-1
- -162 679 l 1,11,12
- -162 736 -162 736 -201.5 777.5 c 128,-1,13
- -241 819 -241 819 -296 819 c 1,14,-1
- -296 819 l 1,0,1
+-296 807 m 1,0,1
+ -369 807 -369 807 -425.5 857.5 c 128,-1,2
+ -482 908 -482 908 -495 987 c 1,3,-1
+ -429 987 l 1,4,5
+ -419 932 -419 932 -381.5 896 c 128,-1,6
+ -344 860 -344 860 -296 860 c 0,7,8
+ -213 860 -213 860 -154.5 803.5 c 128,-1,9
+ -96 747 -96 747 -96 667 c 1,10,-1
+ -162 667 l 1,11,12
+ -162 724 -162 724 -201.5 765.5 c 128,-1,13
+ -241 807 -241 807 -296 807 c 1,14,-1
+ -296 807 l 1,0,1
 EndSplineSet
 PairPos2: "'abvm' Above Base Mark in Devanagari lookup 4" u0902 dx=0 dy=0 dh=0 dv=0 dx=8 dy=16 dh=0 dv=0
 EndChar
@@ -4076,7 +4083,7 @@ TtfInstrs: 43
 5mdSp!!<3&!!!!#!&XaG!!*'#!(M,b2]-]<5;*g8!AQ:>!!N?'!!OkQ
 EndTtf
 AnchorPoint: "Anchor-2" 0 0 basemark 0
-AnchorPoint: "Anchor-0" -122 633 mark 0
+AnchorPoint: "Anchor-0" -122 664 mark 0
 Fore
 -169 666 m 1,0,-1
  -415 959 l 1,1,-1
@@ -4095,7 +4102,7 @@ TtfInstrs: 43
 5mdSs!!WE)!!!!&!&XaG!!*'#!(M,b2]-]<5;*g8!AQ:>!!iQ*!!OkQ
 EndTtf
 AnchorPoint: "Anchor-2" 55 63 basemark 0
-AnchorPoint: "Anchor-0" -135 633 mark 0
+AnchorPoint: "Anchor-0" -135 664 mark 0
 Fore
 -192 666 m 1,0,-1
  -478 846 l 1,1,-1
@@ -4161,18 +4168,18 @@ Fore
  100 606 l 1,7,-1
  -13 606 l 1,8,-1
  -13 606 l 1,0,-1
--33 819 m 1,9,10
- -107 819 -107 819 -163.5 869.5 c 128,-1,11
- -220 920 -220 920 -233 999 c 1,12,-1
- -166 999 l 1,13,14
- -157 944 -157 944 -119 908 c 128,-1,15
- -81 872 -81 872 -33 872 c 0,16,17
- 49 872 49 872 107.5 815.5 c 128,-1,18
- 166 759 166 759 166 679 c 1,19,-1
- 100 679 l 1,20,21
- 100 736 100 736 60.5 777.5 c 128,-1,22
- 21 819 21 819 -33 819 c 1,23,-1
- -33 819 l 1,9,10
+-33 806 m 5,9,10
+ -107 806 -107 806 -163.5 856.5 c 132,-1,11
+ -220 907 -220 907 -233 986 c 5,12,-1
+ -166 986 l 5,13,14
+ -157 931 -157 931 -119 895 c 132,-1,15
+ -81 859 -81 859 -33 859 c 4,16,17
+ 49 859 49 859 107.5 802.5 c 132,-1,18
+ 166 746 166 746 166 666 c 5,19,-1
+ 100 666 l 5,20,21
+ 100 723 100 723 60.5 764.5 c 132,-1,22
+ 21 806 21 806 -33 806 c 5,23,-1
+ -33 806 l 5,9,10
 EndSplineSet
 EndChar
 StartChar: u094B
@@ -4344,14 +4351,14 @@ Flags: W
 TtfInstrs: 48
 5n!_r!!<3&!!!"'!!3-$!*T@l!!*'#!(M,b2]-]<5<M.H497/j\c;m6!<<9R
 EndTtf
-AnchorPoint: "Anchor-0" -127 628 mark 0
+AnchorPoint: "Anchor-0" -127 666 mark 0
 Fore
--172 672 m 1,0,-1
- -172 985 l 1,1,-1
- -85 985 l 1,2,-1
- -85 672 l 1,3,-1
- -172 672 l 1,4,-1
- -172 672 l 1,0,-1
+-172 710 m 5,0,-1
+ -172 1023 l 5,1,-1
+ -85 1023 l 5,2,-1
+ -85 710 l 5,3,-1
+ -172 710 l 5,4,-1
+ -172 710 l 5,0,-1
 EndSplineSet
 EndChar
 StartChar: u0952
@@ -4375,15 +4382,15 @@ StartChar: u0953
 Encoding: 2387 2387 94
 Width: 0
 GlyphClass: 4
-Flags: HW
-AnchorPoint: "Anchor-3" 458 658 mark 0
+Flags: W
+AnchorPoint: "Anchor-0" -69 664 mark 0
 Fore
-476 744 m 1,0,-1
- 422 955 l 1,1,-1
- 335 955 l 1,2,-1
- 427 744 l 1,3,-1
- 476 744 l 1,4,-1
- 476 744 l 1,0,-1
+-44 710 m 5,0,-1
+ -98 921 l 5,1,-1
+ -185 921 l 5,2,-1
+ -93 710 l 5,3,-1
+ -44 710 l 5,4,-1
+ -44 710 l 5,0,-1
 EndSplineSet
 EndChar
 StartChar: u0954
@@ -4394,14 +4401,14 @@ Flags: W
 TtfInstrs: 48
 5n!_p!!*'*!!E9(!!3-#!!`Kn!!*'#!(M,b2]-]<58QFH497/j\c;m6!<<9R
 EndTtf
-AnchorPoint: "Anchor-0" -143 615 mark 0
+AnchorPoint: "Anchor-0" -143 665 mark 0
 Fore
--178 664 m 1,0,-1
- -124 875 l 1,1,-1
- -37 875 l 1,2,-1
- -129 664 l 1,3,-1
- -178 664 l 1,4,-1
- -178 664 l 1,0,-1
+-178 714 m 5,0,-1
+ -124 925 l 5,1,-1
+ -37 925 l 5,2,-1
+ -129 714 l 5,3,-1
+ -178 714 l 5,4,-1
+ -178 714 l 5,0,-1
 EndSplineSet
 EndChar
 StartChar: u0958
@@ -4413,7 +4420,7 @@ TtfInstrs: 49
 5n!`T!&jlg!#bhT!!*'$!!*'h!!*'#!(M,b2]-]<00DH]5<Js$0Y.6H!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 386 23 basechar 0
-AnchorPoint: "Anchor-0" 382 713 basechar 0
+AnchorPoint: "Anchor-0" 385 664.5 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -4464,6 +4471,7 @@ Fore
  204 -13 l 1,59,-1
  204 -13 l 1,55,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms in Devanagari lookup 48" u0915 u093C
 EndChar
 StartChar: u0959
@@ -4474,7 +4482,7 @@ Flags: W
 TtfInstrs: 58
 5nF#e!(6et!"/c6!!rW0!!E9*!!*'$!!*'h!!*'#!(M,b2]-]<00DH84?kq/0eg0=8H8bk"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 711 711 basechar 0
+AnchorPoint: "Anchor-0" 707 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -4536,6 +4544,7 @@ Fore
  104 -13 l 1,72,-1
  104 -13 l 1,68,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms in Devanagari lookup 48" u0916 u093C
 EndChar
 StartChar: u095A
@@ -4546,7 +4555,7 @@ Flags: W
 TtfInstrs: 49
 5n!`6!#YbI!!WE,!!*'$!!*'h!!*'#!(M,b2]-]<00DH]5<Js$0Y.6*!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 392 710 basechar 0
+AnchorPoint: "Anchor-0" 392 666.223 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -4577,6 +4586,7 @@ Fore
  132 -13 l 1,29,-1
  132 -13 l 1,25,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms in Devanagari lookup 48" u0917 u093C
 EndChar
 StartChar: u095B
@@ -4587,7 +4597,7 @@ Flags: W
 TtfInstrs: 49
 5n!`<!$;1O!!WE,!!*'$!!*'h!!*'#!(M,b2]-]<00DH]5<Js$0Y.60!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 603 711 basechar 0
+AnchorPoint: "Anchor-0" 603 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -4622,6 +4632,7 @@ Fore
  181 -13 l 1,35,-1
  181 -13 l 1,31,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms in Devanagari lookup 48" u091C u093C
 EndChar
 StartChar: u095C
@@ -4633,7 +4644,7 @@ TtfInstrs: 41
 5m[NI!&"<g!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6@!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 407 50 basechar 0
-AnchorPoint: "Anchor-0" 502 711 basechar 0
+AnchorPoint: "Anchor-0" 502 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -4678,6 +4689,7 @@ Fore
  385 -133 l 1,51,-1
  385 -133 l 1,47,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms in Devanagari lookup 48" u0921 u093C
 EndChar
 StartChar: u095D
@@ -4689,7 +4701,7 @@ TtfInstrs: 41
 5m[NI!&"<g!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6@!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 332 58 basechar 0
-AnchorPoint: "Anchor-0" 428 711 basechar 0
+AnchorPoint: "Anchor-0" 427 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -4735,6 +4747,7 @@ Fore
  321 -133 l 1,51,-1
  321 -133 l 1,47,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms in Devanagari lookup 48" u0922 u093C
 EndChar
 StartChar: u095E
@@ -4746,7 +4759,7 @@ TtfInstrs: 49
 5n!`K!%n7G!#bhT!!*'$!!*'h!!*'#!(M,b2]-]<00DH]5<Js$0Y.6?!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 380 21 basechar 0
-AnchorPoint: "Anchor-0" 378 713 basechar 0
+AnchorPoint: "Anchor-0" 379 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -4793,6 +4806,7 @@ Fore
  172 -7 l 1,50,-1
  172 -7 l 1,46,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms in Devanagari lookup 48" u092B u093C
 EndChar
 StartChar: u095F
@@ -4803,7 +4817,7 @@ Flags: W
 TtfInstrs: 49
 5n!`A!$hP=!"],@!!*'.!"/cr!!*'#!(M,b2]-]<00DH]5<Js$0Y.65!!*''.f]PL
 EndTtf
-AnchorPoint: "Anchor-0" 465 708 basechar 0
+AnchorPoint: "Anchor-0" 465 665.192 basechar 0
 Fore
 257 127 m 1,0,1
  161 127 161 127 92.5 196.5 c 128,-1,2
@@ -4842,6 +4856,7 @@ Fore
  164 -7 l 1,40,-1
  164 -7 l 1,36,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms in Devanagari lookup 48" u092F u093C
 EndChar
 StartChar: u0960
@@ -4853,7 +4868,7 @@ TtfInstrs: 41
 5m[N=!%%[H!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6I!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 468 15 basechar 0
-AnchorPoint: "Anchor-0" 467 716 basechar 0
+AnchorPoint: "Anchor-0" 467 666 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -7325,7 +7340,7 @@ Flags: W
 TtfInstrs: 54
 5n3l#!!`K*!!WF-!#GVN!!*'5!"o9$!!*'#!(M,b2]-]<00DH]58QE_0eg0=/-#\N"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 572 720 basechar 0
+AnchorPoint: "Anchor-0" 578 664 basechar 0
 Fore
 13 290 m 1,0,-1
  197 409 l 1,1,2
@@ -7366,6 +7381,7 @@ Fore
  212 469 212 469 244 459 c 1,43,-1
  244 459 l 1,31,32
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0936 u0930_u094D.blwf
 EndChar
 StartChar: u095E_u0930_u094D.blwf.vatu
@@ -7377,7 +7393,7 @@ TtfInstrs: 49
 5n!`O!&=On!#bhT!!*'$!!*'h!!*'#!(M,b2]-]<00DH]5<Js$0Y.6C!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 415 23 basechar 0
-AnchorPoint: "Anchor-0" 412 633 basechar 0
+AnchorPoint: "Anchor-0" 412 664 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -7428,6 +7444,7 @@ Fore
  248 -53 l 1,54,-1
  248 -53 l 1,50,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u095E u0930_u094D.blwf
 EndChar
 StartChar: u0924_u094D.half_u0924.pres
@@ -7464,6 +7481,7 @@ Fore
  -13 606 l 1,26,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0924_u094D.half u0924
 EndChar
 StartChar: u0915_u094D_u0937.akhn
@@ -7474,7 +7492,7 @@ Flags: W
 TtfInstrs: 59
 5nF#>!)*AG!%n6Q!%e1D!!WE,!!*'$!!*'h!!*'#!(M,b2]-]<00DH]58QFH!AQ:>!(m4l!!OkQ
 EndTtf
-AnchorPoint: "Anchor-0" 528 723 basechar 0
+AnchorPoint: "Anchor-0" 528 666 basechar 0
 Fore
 425 606 m 1,0,-1
  425 666 l 1,1,-1
@@ -7533,6 +7551,7 @@ Fore
  186 481 186 481 218 459 c 1,72,-1
  218 459 l 1,61,62
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Devanagari lookup 1" u0915 u094D u0937
 EndChar
 StartChar: u091C_u094D_u091E.akhn
@@ -7543,7 +7562,7 @@ Flags: W
 TtfInstrs: 51
 5n*f8!(m53!!WE)!!N?'!!3-$!(Hqh!!*'hFtYckFoX0X58QFH!AQ:>!'gMb!!OkQ
 EndTtf
-AnchorPoint: "Anchor-0" 579 713 basechar 0
+AnchorPoint: "Anchor-0" 579 665 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -7594,6 +7613,7 @@ Fore
  -13 606 l 1,63,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Devanagari lookup 1" u091C u094D u091E
 EndChar
 StartChar: u0915_u094D.half
@@ -7644,6 +7664,7 @@ Fore
  -13 606 l 1,48,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0915 u094D
 EndChar
 StartChar: u0916_u094D.half
@@ -7703,6 +7724,7 @@ Fore
  578 233 578 233 537 233 c 1,60,-1
  537 233 l 1,34,35
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0916 u094D
 EndChar
 StartChar: u0917_u094D.half
@@ -7733,6 +7755,7 @@ Fore
  -13 606 l 1,20,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0917 u094D
 EndChar
 StartChar: u0918_u094D.half
@@ -7776,6 +7799,7 @@ Fore
  -13 606 l 1,38,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0918 u094D
 EndChar
 StartChar: u0919_u094D.half
@@ -7842,6 +7866,7 @@ Fore
  350 -87 l 1,66,-1
  350 -87 l 1,60,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0919 u094D
 EndChar
 StartChar: u091A_u094D.half
@@ -7880,6 +7905,7 @@ Fore
  -13 606 l 1,29,-1
  -13 606 l 1,25,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u091A u094D
 EndChar
 StartChar: u091B_u094D.half
@@ -7938,6 +7964,7 @@ Fore
  489 244 489 244 523 220 c 1,60,-1
  523 220 l 1,48,49
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u091B u094D
 EndChar
 StartChar: u091C_u094D.half
@@ -7974,6 +8001,7 @@ Fore
  -13 606 l 1,27,-1
  -13 606 l 1,23,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u091C u094D
 EndChar
 StartChar: u091D_u094D.half
@@ -8039,6 +8067,7 @@ Fore
  345 -47 l 1,71,-1
  345 -47 l 1,0,1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u091D u094D
 EndChar
 StartChar: u091E_u094D.half
@@ -8086,6 +8115,7 @@ Fore
  -13 606 l 1,44,-1
  -13 606 l 1,40,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u091E u094D
 EndChar
 StartChar: u091F_u094D.half
@@ -8130,6 +8160,7 @@ Fore
  278 -120 l 1,35,-1
  278 -120 l 1,29,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u091F u094D
 EndChar
 StartChar: u0920_u094D.half
@@ -8178,6 +8209,7 @@ Fore
  277 -113 l 1,41,-1
  277 -113 l 1,35,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0920 u094D
 EndChar
 StartChar: u0921_u094D.half
@@ -8234,6 +8266,7 @@ Fore
  338 -107 l 1,53,-1
  338 -107 l 1,47,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0921 u094D
 EndChar
 StartChar: u0922_u094D.half
@@ -8291,6 +8324,7 @@ Fore
  282 -120 l 1,53,-1
  282 -120 l 1,47,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0922 u094D
 EndChar
 StartChar: u0923_u094D.half
@@ -8325,6 +8359,7 @@ Fore
  189 226 189 226 230 226 c 1,23,-1
  230 226 l 1,14,15
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0923 u094D
 EndChar
 StartChar: u0924_u094D.half
@@ -8357,6 +8392,7 @@ Fore
  -13 606 l 1,21,-1
  -13 606 l 1,17,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0924 u094D
 EndChar
 StartChar: u0925_u094D.half
@@ -8405,6 +8441,7 @@ Fore
  409 606 l 1,44,-1
  409 606 l 1,40,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0925 u094D
 EndChar
 StartChar: u0926_u094D.half
@@ -8456,6 +8493,7 @@ Fore
  -13 606 l 1,45,-1
  -13 606 l 1,7,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0926 u094D
 EndChar
 StartChar: u0927_u094D.half
@@ -8512,6 +8550,7 @@ Fore
  350 606 l 1,55,-1
  350 606 l 1,51,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0927 u094D
 EndChar
 StartChar: u0928_u094D.half
@@ -8544,6 +8583,7 @@ Fore
  -13 606 l 1,21,-1
  -13 606 l 1,17,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0928 u094D
 EndChar
 StartChar: u0929_u094D.half
@@ -8582,6 +8622,7 @@ Fore
  261 -7 l 1,26,-1
  261 -7 l 1,22,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0929 u094D
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0929 u094D
 EndChar
@@ -8613,6 +8654,7 @@ Fore
  -13 606 l 1,20,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u092A u094D
 EndChar
 StartChar: u092B_u094D.half
@@ -8659,6 +8701,7 @@ Fore
  185 266 185 266 229 266 c 1,39,-1
  229 266 l 1,30,31
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u092B u094D
 EndChar
 StartChar: u092C_u094D.half
@@ -8704,6 +8747,7 @@ Fore
  -13 606 l 1,38,-1
  -13 606 l 1,34,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u092C u094D
 EndChar
 StartChar: u092D_u094D.half
@@ -8750,6 +8794,7 @@ Fore
  113 296 113 296 113 313 c 1,40,-1
  113 313 l 1,5,6
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u092D u094D
 EndChar
 StartChar: u092E_u094D.half
@@ -8782,6 +8827,7 @@ Fore
  -13 606 l 1,21,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u092E u094D
 EndChar
 StartChar: u092F_u094D.half
@@ -8818,6 +8864,7 @@ Fore
  -13 606 l 1,30,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u092F u094D
 EndChar
 StartChar: glyph206
@@ -8937,6 +8984,7 @@ Fore
  -13 606 l 1,35,-1
  -13 606 l 1,31,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0932 u094D
 EndChar
 StartChar: u0933_u094D.half
@@ -8993,6 +9041,7 @@ Fore
  -13 606 l 1,55,-1
  -13 606 l 1,51,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0933 u094D
 EndChar
 StartChar: u0934_u094D.half
@@ -9055,6 +9104,7 @@ Fore
  364 -27 l 1,60,-1
  364 -27 l 1,56,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0934 u094D
 EndChar
 StartChar: u0935_u094D.half
@@ -9093,6 +9143,7 @@ Fore
  -13 606 l 1,31,-1
  -13 606 l 1,27,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0935 u094D
 EndChar
 StartChar: u0936_u094D.half
@@ -9135,6 +9186,7 @@ Fore
  184 453 184 453 222 453 c 1,38,-1
  222 453 l 1,26,27
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0936 u094D
 EndChar
 StartChar: u0937_u094D.half
@@ -9169,6 +9221,7 @@ Fore
  197 253 197 253 249 253 c 1,23,-1
  249 253 l 1,15,16
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0937 u094D
 EndChar
 StartChar: u0938_u094D.half
@@ -9208,6 +9261,7 @@ Fore
  357 326 l 1,28,-1
  357 326 l 1,24,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0938 u094D
 EndChar
 StartChar: u0939_u094D.half
@@ -9251,6 +9305,7 @@ Fore
  -13 606 l 1,37,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0939 u094D
 EndChar
 StartChar: u0958_u094D.half
@@ -9307,6 +9362,7 @@ Fore
  198 -13 l 1,53,-1
  198 -13 l 1,49,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0958 u094D
 EndChar
 StartChar: u0959_u094D.half
@@ -9372,6 +9428,7 @@ Fore
  101 -13 l 1,65,-1
  101 -13 l 1,61,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0959 u094D
 EndChar
 StartChar: u095A_u094D.half
@@ -9408,6 +9465,7 @@ Fore
  136 -13 l 1,25,-1
  136 -13 l 1,21,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u095A u094D
 EndChar
 StartChar: u095B_u094D.half
@@ -9450,6 +9508,7 @@ Fore
  280 -7 l 1,32,-1
  280 -7 l 1,28,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u095B u094D
 EndChar
 StartChar: u095E_u094D.half
@@ -9502,6 +9561,7 @@ Fore
  196 0 l 1,44,-1
  196 0 l 1,40,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u095E u094D
 EndChar
 StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu
@@ -9542,6 +9602,7 @@ Fore
  205 479 205 479 240 459 c 1,34,-1
  240 459 l 1,23,24
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0936_u094D.half u0930_u094D.blwf
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0936_u0930_u094D.blwf.vatu u094D
 EndChar
@@ -9580,6 +9641,7 @@ Fore
  -13 606 l 1,28,-1
  -13 606 l 1,24,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0924_u094D.half u0930_u094D.blwf
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0924_u0930_u094D.blwf.vatu u094D
 EndChar
@@ -9615,6 +9677,7 @@ Fore
  -13 606 l 1,23,-1
  -13 606 l 1,19,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0924_u094D.half u0924_u094D.half
 EndChar
 StartChar: u0915_u094D_u0937.akhn_u094D.half
@@ -9685,6 +9748,7 @@ Fore
  434 606 l 1,76,-1
  434 606 l 1,72,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0915_u094D_u0937.akhn u094D
 EndChar
 StartChar: u091C_u094D_u091E.akhn_u094D.half
@@ -9739,6 +9803,7 @@ Fore
  -13 606 l 1,54,-1
  -13 606 l 1,50,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u091C_u094D_u091E.akhn u094D
 EndChar
 StartChar: glyph226
@@ -10112,6 +10177,7 @@ Fore
  153 852 l 1,33,-1
  153 852 l 1,29,-1
 EndSplineSet
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 76" glyph237
 Ligature2: "'abvs' Above Base Substitutions in Devanagari lookup 0" u0940 u0902
 EndChar
@@ -10161,6 +10227,7 @@ Fore
  -13 606 l 1,44,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 76" glyph238
 Ligature2: "'abvs' Above Base Substitutions in Devanagari lookup 0" u0940 u0930_u094D.rphf
 PairPos2: "'abvm' Above Base Mark in Devanagari lookup 4" u0902 dx=0 dy=0 dh=0 dv=0 dx=129 dy=-116 dh=0 dv=0
@@ -10217,6 +10284,7 @@ Fore
  213 719 l 1,49,-1
  213 719 l 1,45,-1
 EndSplineSet
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 76" glyph239
 Ligature2: "'abvs' Above Base Substitutions in Devanagari lookup 0" u0940_u0930_u094D.rphf.abvs u0902
 EndChar
@@ -10440,6 +10508,7 @@ Fore
  -361 -80 l 1,33,-1
  -361 -80 l 1,27,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'blws' Below Base Substitutions in Devanagari lookup 46" u0930_u094D.blwf u0941
 EndChar
 StartChar: u0930_u094D.blwf_u0942.blws
@@ -10479,6 +10548,7 @@ Fore
  -366 -60 l 1,30,-1
  -366 -60 l 1,24,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'blws' Below Base Substitutions in Devanagari lookup 46" u0930_u094D.blwf u0942
 EndChar
 StartChar: glyph242
@@ -10652,6 +10722,7 @@ Fore
  -13 606 l 1,19,-1
  -13 606 l 1,15,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0931 u094D
 EndChar
 StartChar: glyph247
@@ -10712,7 +10783,7 @@ TtfInstrs: 46
 5mmZ4!)NY6!#Yb;!!3-$!(Hqh!"JuuFtYckFoX0X5<M.20eg0=2ZO<f"Y0QQ
 EndTtf
 AnchorPoint: "Anchor-3" 394 31 basechar 0
-AnchorPoint: "Anchor-0" 394 633 basechar 0
+AnchorPoint: "Anchor-0" 396.5 666.22 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -10758,6 +10829,7 @@ Fore
  -13 606 l 1,54,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0915 u0930_u094D.blwf
 EndChar
 StartChar: u0916_u0930_u094D.blwf.vatu
@@ -10825,6 +10897,7 @@ Fore
  306 100 306 100 401 100 c 1,67,-1
  401 100 l 1,26,27
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0916 u0930_u094D.blwf
 EndChar
 StartChar: u0917_u0930_u094D.blwf.vatu
@@ -10863,6 +10936,7 @@ Fore
  -13 606 l 1,28,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0917 u0930_u094D.blwf
 EndChar
 StartChar: u091C_u0930_u094D.blwf.vatu
@@ -10905,6 +10979,7 @@ Fore
  -13 606 l 1,34,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u091C u0930_u094D.blwf
 EndChar
 StartChar: u091D_u0930_u094D.blwf.vatu
@@ -10978,6 +11053,7 @@ Fore
  454 306 454 306 485 306 c 1,77,-1
  485 306 l 1,55,56
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u091D u0930_u094D.blwf
 EndChar
 StartChar: u0924_u0930_u094D.blwf.vatu
@@ -11013,6 +11089,7 @@ Fore
  -13 606 l 1,25,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0924 u0930_u094D.blwf
 EndChar
 StartChar: u0926_u0930_u094D.blwf.vatu
@@ -11062,6 +11139,7 @@ Fore
  -13 606 l 1,46,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0926 u0930_u094D.blwf
 EndChar
 StartChar: u092A_u0930_u094D.blwf.vatu
@@ -11100,6 +11178,7 @@ Fore
  224 253 224 253 270 253 c 1,26,-1
  270 253 l 1,16,17
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u092A u0930_u094D.blwf
 EndChar
 StartChar: u092B_u0930_u094D.blwf.vatu
@@ -11111,7 +11190,7 @@ TtfInstrs: 41
 5m[N2!#kn=!!E9(!(Hqh!"JuuFtYckFoX0X5<Js$0Y.6>!"Ju4.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 412 15 basechar 0
-AnchorPoint: "Anchor-0" 404 633 basechar 0
+AnchorPoint: "Anchor-0" 411.5 666.216 basechar 0
 Fore
 77 373 m 1,0,-1
  77 606 l 1,1,-1
@@ -11156,6 +11235,7 @@ Fore
  202 280 202 280 244 280 c 1,49,-1
  244 280 l 1,40,41
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u092B u0930_u094D.blwf
 EndChar
 StartChar: u092C_u0930_u094D.blwf.vatu
@@ -11204,6 +11284,7 @@ Fore
  188 213 188 213 237 213 c 1,41,-1
  237 213 l 1,31,32
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u092C u0930_u094D.blwf
 EndChar
 StartChar: u092D_u0930_u094D.blwf.vatu
@@ -11256,6 +11337,7 @@ Fore
  120 306 120 306 120 326 c 1,47,-1
  120 326 l 1,0,1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u092D u0930_u094D.blwf
 EndChar
 StartChar: u092E_u0930_u094D.blwf.vatu
@@ -11298,6 +11380,7 @@ Fore
  176 386 l 1,30,-1
  176 386 l 1,26,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u092E u0930_u094D.blwf
 EndChar
 StartChar: u0935_u0930_u094D.blwf.vatu
@@ -11339,6 +11422,7 @@ Fore
  48 261 48 261 48 326 c 1,34,-1
  48 326 l 1,0,1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0935 u0930_u094D.blwf
 EndChar
 StartChar: u0938_u0930_u094D.blwf.vatu
@@ -11384,6 +11468,7 @@ Fore
  -13 606 l 1,35,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0938 u0930_u094D.blwf
 EndChar
 StartChar: u0939_u0930_u094D.blwf.vatu
@@ -11439,6 +11524,7 @@ Fore
  -13 606 l 1,53,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0939 u0930_u094D.blwf
 EndChar
 StartChar: glyph263
@@ -11502,6 +11588,7 @@ Fore
  200 478 200 478 233 466 c 1,66,-1
  233 466 l 1,54,55
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0936 u0943
 EndChar
 StartChar: u0915_u094D.half_u0915.pres
@@ -11513,7 +11600,7 @@ TtfInstrs: 41
 5m[N6!$;1A!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6n!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 402 31 basechar 0
-AnchorPoint: "Anchor-0" 404 633 basechar 0
+AnchorPoint: "Anchor-0" 400 666.219 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -11600,7 +11687,7 @@ TtfInstrs: 46
 5mmZ;!#bh=!#Yb;!!3-$!(Hqh!!*'hFtYckFoX0X58QE_0eg0=0)u"Q"Y0QQ
 EndTtf
 AnchorPoint: "Anchor-3" 436 23 basechar 0
-AnchorPoint: "Anchor-0" 442 633 basechar 0
+AnchorPoint: "Anchor-0" 434.5 664.201 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -11641,6 +11728,7 @@ Fore
  -13 606 l 1,46,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0915_u094D.half u0924
 EndChar
 StartChar: u0915_u094D.half_u0932.pres
@@ -11652,7 +11740,7 @@ TtfInstrs: 38
 5mRHO!&sr[!!*'h!!*'#!(M,b2]-]<00DH"0eg0=?iU3-"Y0QQ
 EndTtf
 AnchorPoint: "Anchor-3" 551 -111 basechar 0
-AnchorPoint: "Anchor-0" 394 633 basechar 0
+AnchorPoint: "Anchor-0" 394 664.723 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -11735,7 +11823,7 @@ TtfInstrs: 41
 5m[N0!#Yb;!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6T!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 398 23 basechar 0
-AnchorPoint: "Anchor-0" 398 633 basechar 0
+AnchorPoint: "Anchor-0" 403 665.719 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -11842,6 +11930,7 @@ Fore
  -13 606 l 1,47,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0917_u094D.half u0928
 EndChar
 StartChar: u0919_u094D.half_u0915.pres
@@ -11853,7 +11942,7 @@ TtfInstrs: 46
 5mmZF!%e1`!%S$U!!3-$!(Hqh!!*'hFtYckFoX0XrBECF0eg0=ErZ4@"Y0QQ
 EndTtf
 AnchorPoint: "Anchor-3" 343 -138 basechar 0
-AnchorPoint: "Anchor-0" 487 633 basechar 0
+AnchorPoint: "Anchor-0" 487 664.179 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -11941,6 +12030,7 @@ Fore
  662 373 662 373 643 373 c 1,114,-1
  643 373 l 1,102,103
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0919_u094D.half u0915
 EndChar
 StartChar: u0919_u094D.half_u0916.pres
@@ -11952,7 +12042,7 @@ TtfInstrs: 38
 5mRHZ!#GV:!!*'h!!*'#!(M,b2]-]<00DH"0eg0=GlRjF"Y0QQ
 EndTtf
 AnchorPoint: "Anchor-3" 474 -90 basechar 0
-AnchorPoint: "Anchor-0" 506 633 basechar 0
+AnchorPoint: "Anchor-0" 503.5 664.172 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -12044,6 +12134,7 @@ Fore
  671 373 671 373 652 373 c 1,120,-1
  652 373 l 1,108,109
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0919_u094D.half u0916
 EndChar
 StartChar: u0919_u094D.half_u0917.pres
@@ -12055,7 +12146,7 @@ TtfInstrs: 41
 5m[N0!#Ycn!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6f!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 450 -90 basechar 0
-AnchorPoint: "Anchor-0" 471 633 basechar 0
+AnchorPoint: "Anchor-0" 470 664.686 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -12126,6 +12217,7 @@ Fore
  639 373 639 373 621 373 c 1,89,-1
  621 373 l 1,77,78
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0919_u094D.half u0917
 EndChar
 StartChar: u0919_u094D.half_u0918.pres
@@ -12137,7 +12229,7 @@ TtfInstrs: 54
 5n3l2!#>QF!*0)"!!3-g!!*'$!!*'h!!*'#!(M,b2]-]<00DH84?kq/0eg0=B`J/6"Y0QQ
 EndTtf
 AnchorPoint: "Anchor-3" 442 -117 basechar 0
-AnchorPoint: "Anchor-0" 479 633 basechar 0
+AnchorPoint: "Anchor-0" 473.5 666.183 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -12219,6 +12311,7 @@ Fore
  640 373 640 373 622 373 c 1,104,-1
  622 373 l 1,92,93
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0919_u094D.half u0918
 EndChar
 StartChar: u0919_u094D.half_u092E.pres
@@ -12230,7 +12323,7 @@ TtfInstrs: 41
 5m[N-!#>QF!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6b!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 495 -106 basechar 0
-AnchorPoint: "Anchor-0" 498 633 basechar 0
+AnchorPoint: "Anchor-0" 496.5 664.675 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -12301,6 +12394,7 @@ Fore
  670 366 670 366 654 366 c 1,85,-1
  654 366 l 1,73,74
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0919_u094D.half u092E
 EndChar
 StartChar: u0919_u094D.half_u0915_u094D_u0937.akhn.pres
@@ -12312,7 +12406,7 @@ TtfInstrs: 43
 5mdTJ!#koC!!*'$!!!!g!!*'#!(M,b2]-]<0,H`8!AQ:>!/ggX!!OkQ
 EndTtf
 AnchorPoint: "Anchor-3" 500 -63 basechar 0
-AnchorPoint: "Anchor-0" 490 633 basechar 0
+AnchorPoint: "Anchor-0" 492.5 666 basechar 0
 Fore
 -13 666 m 1,0,-1
  720 666 l 1,1,-1
@@ -12418,6 +12512,7 @@ Fore
  157 125 157 125 188 113 c 1,138,-1
  188 113 l 1,126,127
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0919_u094D.half u0915_u094D_u0937.akhn
 EndChar
 StartChar: u091A_u094D.half_u091A.pres
@@ -12558,6 +12653,7 @@ Fore
  471 370 471 370 505 353 c 1,96,-1
  505 353 l 1,84,85
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091B_u094D.half u0935
 EndChar
 StartChar: u091C_u094D.half_u091C.pres
@@ -12671,6 +12767,7 @@ Fore
  -13 606 l 1,60,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091E_u094D.half u091A
 EndChar
 StartChar: u091E_u094D.half_u091C.pres
@@ -12730,6 +12827,7 @@ Fore
  1 606 l 1,59,-1
  1 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091E_u094D.half u091C
 EndChar
 StartChar: u091F_u094D.half_u091F.pres
@@ -12786,6 +12884,7 @@ Fore
  -13 606 l 1,54,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091F_u094D.half u091F
 EndChar
 StartChar: u091F_u094D.half_u0920.pres
@@ -12848,6 +12947,7 @@ Fore
  422 107 l 1,61,-1
  422 107 l 1,47,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091F_u094D.half u0920
 EndChar
 StartChar: u091F_u094D.half_u092F.pres
@@ -12913,6 +13013,7 @@ Fore
  834 160 834 160 882 160 c 1,65,-1
  882 160 l 1,47,48
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091F_u094D.half u092F
 EndChar
 StartChar: u091F_u094D.half_u0935.pres
@@ -12973,6 +13074,7 @@ Fore
  -13 606 l 1,60,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091F_u094D.half u0935
 EndChar
 StartChar: u0920_u094D.half_u0920.pres
@@ -13043,6 +13145,7 @@ Fore
  438 459 l 1,70,-1
  438 459 l 1,56,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0920_u094D.half u0920
 EndChar
 StartChar: u0920_u094D.half_u092F.pres
@@ -13111,6 +13214,7 @@ Fore
  854 166 854 166 903 166 c 1,71,-1
  903 166 l 1,53,54
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0920_u094D.half u092F
 EndChar
 StartChar: u0921_u094D.half_u0921.pres
@@ -13187,6 +13291,7 @@ Fore
  -13 606 l 1,86,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0921_u094D.half u0921
 EndChar
 StartChar: u0921_u094D.half_u0922.pres
@@ -13267,6 +13372,7 @@ Fore
  439 -140 439 -140 467 -140 c 1,88,-1
  467 -140 l 1,76,77
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0921_u094D.half u0922
 EndChar
 StartChar: u0921_u094D.half_u092F.pres
@@ -13342,6 +13448,7 @@ Fore
  846 173 846 173 890 173 c 1,82,-1
  890 173 l 1,64,65
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0921_u094D.half u092F
 EndChar
 StartChar: u0922_u094D.half_u0922.pres
@@ -13423,6 +13530,7 @@ Fore
  382 280 382 280 407 280 c 1,88,-1
  407 280 l 1,76,77
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0922_u094D.half u0922
 EndChar
 StartChar: u0922_u094D.half_u092F.pres
@@ -13501,6 +13609,7 @@ Fore
  816 166 816 166 870 166 c 1,84,-1
  870 166 l 1,66,67
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0922_u094D.half u092F
 EndChar
 StartChar: u0926_u094D.half_u0917.pres
@@ -13639,6 +13748,7 @@ Fore
  298 -20 298 -20 337 -20 c 1,83,-1
  337 -20 l 1,65,66
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.half u0918
 EndChar
 StartChar: u0926_u094D.half_u0926.pres
@@ -13697,6 +13807,7 @@ Fore
  -13 606 l 1,57,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.half u0926
 EndChar
 StartChar: u0926_u094D.half_u0927.pres
@@ -13775,6 +13886,7 @@ Fore
  365 -20 365 -20 403 -20 c 1,87,-1
  403 -20 l 1,69,70
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.half u0927
 EndChar
 StartChar: u0926_u094D.half_u0928.pres
@@ -13899,6 +14011,7 @@ Fore
  292 73 l 1,71,-1
  292 73 l 1,64,65
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.half u092C
 EndChar
 StartChar: u0926_u094D.half_u092D.pres
@@ -13970,6 +14083,7 @@ Fore
  -13 606 l 1,75,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.half u092D
 EndChar
 StartChar: u0926_u094D.half_u092E.pres
@@ -14022,6 +14136,7 @@ Fore
  354 206 l 1,44,-1
  354 206 l 1,31,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.half u092E
 EndChar
 StartChar: u0926_u094D.half_u092F.pres
@@ -14076,6 +14191,7 @@ Fore
  233 120 233 120 282 120 c 1,50,-1
  282 120 l 1,26,27
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.half u092F
 EndChar
 StartChar: u0926_u094D.half_u0935.pres
@@ -14139,6 +14255,7 @@ Fore
  208 33 208 33 233 33 c 1,65,-1
  233 33 l 1,53,54
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.half u0935
 EndChar
 StartChar: u0928_u094D.half_u0928.pres
@@ -14193,6 +14310,7 @@ Fore
  -13 606 l 1,54,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0928_u094D.half u0928
 EndChar
 StartChar: u092A_u094D.half_u0924.pres
@@ -14236,6 +14354,7 @@ Fore
  196 366 196 366 224 366 c 1,34,-1
  224 366 l 1,27,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u092A_u094D.half u0924
 EndChar
 StartChar: u092A_u094D.half_u0932.pres
@@ -14310,7 +14429,7 @@ TtfInstrs: 46
 5mmZR!&ssA!&afX!!3-$!(Hqh!!*'hFtYckFoX0X5<M.20eg0=<r`7$"Y0QQ
 EndTtf
 AnchorPoint: "Anchor-3" 532 -106 basechar 0
-AnchorPoint: "Anchor-0" 399 633 basechar 0
+AnchorPoint: "Anchor-0" 399 664.72 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -14444,6 +14563,7 @@ Fore
  358 245 358 245 384 220 c 1,68,-1
  384 220 l 1,45,46
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0932_u094D.half u0932
 EndChar
 StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu_u091A.pres
@@ -14509,6 +14629,7 @@ Fore
  213 493 213 493 240 486 c 1,63,-1
  240 486 l 1,51,52
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0936_u094D.half_u0930_u094D.blwf.vatu u091A
 EndChar
 StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu_u0928.pres
@@ -14519,7 +14640,7 @@ Flags: W
 TtfInstrs: 54
 5n3l*!"Ju1!"Ap'!$)%Z!!*';!#P]*!!*'#!(M,b2]-]<00DH]58QE_0eg0=56(]a"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 517 728 basechar 0
+AnchorPoint: "Anchor-0" 494.5 664.177 basechar 0
 Fore
 141 120 m 1,0,1
  141 130 141 130 148.5 140 c 128,-1,2
@@ -14572,6 +14693,7 @@ Fore
  212 477 212 477 248 459 c 1,60,-1
  248 459 l 1,49,50
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0936_u094D.half_u0930_u094D.blwf.vatu u0928
 EndChar
 StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu_u0932.pres
@@ -14639,6 +14761,7 @@ Fore
  198 493 198 493 226 479 c 1,68,-1
  226 479 l 1,56,57
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0936_u094D.half_u0930_u094D.blwf.vatu u0932
 EndChar
 StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu_u0935.pres
@@ -14703,6 +14826,7 @@ Fore
  212 511 212 511 245 499 c 1,65,-1
  245 499 l 1,53,54
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0936_u094D.half_u0930_u094D.blwf.vatu u0935
 EndChar
 StartChar: u0937_u094D.half_u091F.pres
@@ -14753,6 +14877,7 @@ Fore
  403 399 l 1,41,-1
  403 399 l 1,38,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0937_u094D.half u091F
 EndChar
 StartChar: u0937_u094D.half_u0920.pres
@@ -14807,6 +14932,7 @@ Fore
  407 419 l 1,47,-1
  407 419 l 1,44,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0937_u094D.half u0920
 EndChar
 StartChar: u0939_u094D.half_u0923.pres
@@ -14818,7 +14944,7 @@ TtfInstrs: 49
 5n!`M!&FTX!$;1^!!*'.!"/cr!!*'#!(M,b2]-]<00DH]5<Js$0Y.6O!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 633 15 basechar 0
-AnchorPoint: "Anchor-0" 415 633 basechar 0
+AnchorPoint: "Anchor-0" 417.5 664.5 basechar 0
 Fore
 453 293 m 1,0,-1
  346 293 l 1,1,-1
@@ -14875,6 +15001,7 @@ Fore
  -13 606 l 1,66,-1
  -13 606 l 1,10,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0939_u094D.half u0923
 EndChar
 StartChar: u0939_u094D.half_u0928.pres
@@ -14886,7 +15013,7 @@ TtfInstrs: 41
 5m[NF!&"=a!!3-$!(Hqh!!*'hFtYckFoX0X5<Js$0Y.6K!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 540 23 basechar 0
-AnchorPoint: "Anchor-0" 418 633 basechar 0
+AnchorPoint: "Anchor-0" 422 664.715 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -14938,6 +15065,7 @@ Fore
  -13 606 l 1,62,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0939_u094D.half u0928
 EndChar
 StartChar: u0939_u094D.half_u092E.pres
@@ -14949,7 +15077,7 @@ TtfInstrs: 49
 5n!`;!$M>r!!WE,!!*'$!!*'h!!*'#!(M,b2]-]<00DH]5<Js$0Y.6P!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 612 15 basechar 0
-AnchorPoint: "Anchor-0" 609 633 basechar 0
+AnchorPoint: "Anchor-0" 609 665.12 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -15007,6 +15135,7 @@ Fore
  381 220 l 1,67,-1
  381 220 l 1,49,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0939_u094D.half u092E
 EndChar
 StartChar: u0939_u094D.half_u092F.pres
@@ -15018,7 +15147,7 @@ TtfInstrs: 46
 5mmZ2!*fL.!!N?'!!3-$!(Hqh!!*'hFtYckFoX0X5<M.20eg0=6i[5f"Y0QQ
 EndTtf
 AnchorPoint: "Anchor-3" 668 21 basechar 0
-AnchorPoint: "Anchor-0" 673 633 basechar 0
+AnchorPoint: "Anchor-0" 666 664.093 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -15074,6 +15203,7 @@ Fore
  453 113 453 113 491 113 c 1,67,-1
  491 113 l 1,42,43
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0939_u094D.half u092F
 EndChar
 StartChar: u0939_u094D.half_u0932.pres
@@ -15085,7 +15215,7 @@ TtfInstrs: 49
 5n!`T!'1+@!#,DH!!*'$!!*'h!!*'#!(M,b2]-]<00DH]5<Js$0Y.6V!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 567 21 basechar 0
-AnchorPoint: "Anchor-0" 423 633 basechar 0
+AnchorPoint: "Anchor-0" 421 664.208 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -15144,6 +15274,7 @@ Fore
  -13 606 l 1,73,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0939_u094D.half u0932
 EndChar
 StartChar: u0939_u094D.half_u0935.pres
@@ -15155,7 +15286,7 @@ TtfInstrs: 49
 5n!`S!'(%@!#,DH!!*'$!!*'h!!*'#!(M,b2]-]<00DH]5<Js$0Y.6U!!*''.f]PL
 EndTtf
 AnchorPoint: "Anchor-3" 490 18 basechar 0
-AnchorPoint: "Anchor-0" 420 633 basechar 0
+AnchorPoint: "Anchor-0" 420 664.709 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -15213,6 +15344,7 @@ Fore
  -13 606 l 1,72,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0939_u094D.half u0935
 EndChar
 StartChar: u0938_u094D.half_u0924_u0930_u094D.blwf.vatu.pres
@@ -15271,6 +15403,7 @@ Fore
  -13 606 l 1,55,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0938_u094D.half u0924_u0930_u094D.blwf.vatu
 EndChar
 StartChar: u091C_u094D.half_u091C_u094D.half.pres
@@ -15325,6 +15458,7 @@ Fore
  -13 606 l 1,50,-1
  -13 606 l 1,46,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091C_u094D.half u091C_u094D.half
 EndChar
 StartChar: u0926_u0943.blws
@@ -15381,6 +15515,7 @@ Fore
  -13 606 l 1,56,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'blws' Below Base Substitutions in Devanagari lookup 46" u0926 u0943
 EndChar
 StartChar: u0930_u0941.psts
@@ -15391,7 +15526,7 @@ Flags: W
 TtfInstrs: 38
 5mRH6!$;1B!!*'h!!*'#!(M,b2]-]<00DH"0eg0=/-#\N"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 268 633 basechar 0
+AnchorPoint: "Anchor-0" 280.5 664.778 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -15429,6 +15564,7 @@ Fore
  -13 606 l 1,43,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 71" u0930 u0941
 EndChar
 StartChar: u0930_u0942.psts
@@ -15439,7 +15575,7 @@ Flags: W
 TtfInstrs: 38
 5mRHA!!*'$!!*'h!!*'#!(M,b2]-]<00DH"0eg0=2ZNjY"Y0QQ
 EndTtf
-AnchorPoint: "Anchor-0" 279 633 basechar 0
+AnchorPoint: "Anchor-0" 279 664.774 basechar 0
 Fore
 -13 606 m 1,0,-1
  -13 666 l 1,1,-1
@@ -15485,6 +15621,7 @@ Fore
  -13 606 l 1,54,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 71" u0930 u0942
 EndChar
 StartChar: u0939_u0943.blws
@@ -15548,6 +15685,7 @@ Fore
  -13 606 l 1,68,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'blws' Below Base Substitutions in Devanagari lookup 46" u0939 u0943
 EndChar
 StartChar: glyph324
@@ -15623,6 +15761,7 @@ Fore
  220 180 220 180 272 180 c 1,44,-1
  272 180 l 1,24,25
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0918 u0930_u094D.blwf
 EndChar
 StartChar: u091A_u0930_u094D.blwf.vatu
@@ -15664,6 +15803,7 @@ Fore
  -13 606 l 1,32,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u091A u0930_u094D.blwf
 EndChar
 StartChar: u0925_u0930_u094D.blwf.vatu
@@ -15715,6 +15855,7 @@ Fore
  261 136 l 1,49,-1
  261 136 l 1,0,1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0925 u0930_u094D.blwf
 EndChar
 StartChar: u0927_u0930_u094D.blwf.vatu
@@ -15773,6 +15914,7 @@ Fore
  238 117 l 1,58,-1
  238 117 l 1,0,1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0927 u0930_u094D.blwf
 EndChar
 StartChar: u0928_u0930_u094D.blwf.vatu
@@ -15811,6 +15953,7 @@ Fore
  28 372 28 372 28 399 c 1,28,-1
  28 399 l 1,0,1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0928 u0930_u094D.blwf
 EndChar
 StartChar: u0932_u0930_u094D.blwf.vatu
@@ -15858,6 +16001,7 @@ Fore
  365 20 l 1,42,-1
  365 20 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0932 u0930_u094D.blwf
 EndChar
 StartChar: u0919_u094D.half_u0915_u094D.half.half
@@ -15947,6 +16091,7 @@ Fore
  662 373 662 373 643 373 c 1,102,-1
  643 373 l 1,90,91
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0919_u094D.half u0915_u094D.half
 EndChar
 StartChar: u094B_u0902.abvs
@@ -15979,6 +16124,7 @@ Fore
  133 866 l 1,17,-1
  133 866 l 1,13,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Devanagari lookup 0" u094B u0902
 EndChar
 StartChar: u094B_u0930_u094D.rphf.abvs
@@ -16017,6 +16163,7 @@ Fore
  -13 606 l 1,29,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Devanagari lookup 0" u094B u0930_u094D.rphf
 PairPos2: "'abvm' Above Base Mark in Devanagari lookup 4" u0902 dx=0 dy=0 dh=0 dv=0 dx=87 dy=-115 dh=0 dv=0
 EndChar
@@ -16062,6 +16209,7 @@ Fore
  166 746 l 1,34,-1
  166 746 l 1,30,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Devanagari lookup 0" u094B_u0930_u094D.rphf.abvs u0902
 EndChar
 StartChar: u094C_u0902.abvs
@@ -16098,6 +16246,7 @@ Fore
  180 832 l 1,20,-1
  180 832 l 1,16,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Devanagari lookup 0" u094C u0902
 EndChar
 StartChar: u094C_u0930_u094D.rphf.abvs
@@ -16137,6 +16286,7 @@ Fore
  -13 606 l 1,29,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Devanagari lookup 0" u094C u0930_u094D.rphf
 PairPos2: "'abvm' Above Base Mark in Devanagari lookup 4" u0902 dx=0 dy=0 dh=0 dv=0 dx=127 dy=-105 dh=0 dv=0
 EndChar
@@ -16183,6 +16333,7 @@ Fore
  213 739 l 1,34,-1
  213 739 l 1,30,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Devanagari lookup 0" u094C_u0930_u094D.rphf.abvs u0902
 EndChar
 StartChar: u091E_u0930_u094D.blwf.vatu
@@ -16236,6 +16387,7 @@ Fore
  289 120 289 120 218 120 c 1,51,-1
  218 120 l 1,0,1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u091E u0930_u094D.blwf
 EndChar
 StartChar: u0923_u0930_u094D.blwf.vatu
@@ -16278,6 +16430,7 @@ Fore
  185 226 185 226 224 226 c 1,31,-1
  224 226 l 1,22,23
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0923 u0930_u094D.blwf
 EndChar
 StartChar: u092F_u0930_u094D.blwf.vatu
@@ -16321,6 +16474,7 @@ Fore
  200 193 200 193 260 193 c 1,35,-1
  260 193 l 1,21,22
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u092F u0930_u094D.blwf
 EndChar
 StartChar: u0937_u0930_u094D.blwf.vatu
@@ -16365,6 +16519,7 @@ Fore
  387 386 l 1,32,-1
  387 386 l 1,29,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0937 u0930_u094D.blwf
 EndChar
 StartChar: u0915_u094D_u0937.akhn_u0930_u094D.blwf.vatu
@@ -16437,6 +16592,7 @@ Fore
  186 481 186 481 218 459 c 1,76,-1
  218 459 l 1,65,66
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0915_u094D_u0937.akhn u0930_u094D.blwf
 EndChar
 StartChar: u091C_u094D_u091E.akhn_u0930_u094D.blwf.vatu
@@ -16501,14 +16657,15 @@ Fore
  -13 606 l 1,67,-1
  -13 606 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u091C_u094D_u091E.akhn u0930_u094D.blwf
 EndChar
 StartChar: uni097B
 Encoding: 2427 2427 344
 Width: 517
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
-AnchorPoint: "Anchor-3" 386 713 basechar 0
+AnchorPoint: "Anchor-0" 390 663 basechar 0
 Fore
 -14 -60 m 1,0,-1
  -14 0 l 1,1,-1
@@ -16543,9 +16700,9 @@ EndChar
 StartChar: uni097C
 Encoding: 2428 2428 345
 Width: 728
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
-AnchorPoint: "Anchor-3" 591 666 basechar 0
+AnchorPoint: "Anchor-0" 596 666 basechar 0
 Fore
 -2 -61 m 1,0,-1
  -2 -1 l 1,1,-1
@@ -16584,7 +16741,7 @@ EndChar
 StartChar: uni097D
 Encoding: 2429 2429 346
 Width: 631
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 284 255 m 1,0,-1
@@ -16606,9 +16763,9 @@ EndChar
 StartChar: uni097E
 Encoding: 2430 2430 347
 Width: 717
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
-AnchorPoint: "Anchor-3" 490 663 basechar 0
+AnchorPoint: "Anchor-0" 497 666 basechar 0
 Fore
 22 -60 m 1,0,-1
  22 0 l 1,1,-1
@@ -16657,9 +16814,9 @@ EndChar
 StartChar: uni097F
 Encoding: 2431 2431 348
 Width: 537
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
-AnchorPoint: "Anchor-3" 405 663 basechar 0
+AnchorPoint: "Anchor-0" 406 665 basechar 0
 Fore
 -15 -60 m 1,0,-1
  -15 0 l 1,1,-1
@@ -16707,7 +16864,7 @@ EndChar
 StartChar: uni0904
 Encoding: 2308 2308 349
 Width: 768
-Flags: HW
+Flags: W
 TeX: 0 0 0 0
 Fore
 473 806 m 1,0,1

@@ -1,6 +1,10 @@
 				  fonts-indic
 Current Version :- 2.2.1
 
+* Fri Jun 06 2008 Rahul Bhalerao <rbhalera@redhat.com>
+- Improved Anchoring(blwm Anchor-0) for Hindi font.
+- Corrected positioning of U+0953 for Hindi font.
+
 * Tue Apr 29 2008 Rahul Bhalerao <rbhalera@redhat.com> - 2.2.1
 - Resolved bugs (bugzilla.redhat.com):
 - Bug 444559 Processed: [ml_IN] Wrong shape for conjuncts formed using 0D30
