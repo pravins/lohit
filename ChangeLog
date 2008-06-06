@@ -2,6 +2,9 @@
 Current Version :- 2.2.1
 
 * Fri Jun 06 2008 Rahul Bhalerao <rbhalera@redhat.com>
+- Bug 445176: [ml_IN] Conjuncts combining with 0D30 do not form the pre based glyph
+
+* Fri Jun 06 2008 Rahul Bhalerao <rbhalera@redhat.com>
 - Improved Anchoring(blwm Anchor-0) for Hindi font.
 - Corrected positioning of U+0953 for Hindi font.
 
