@@ -1,5 +1,9 @@
 				  fonts-indic
-Current Version :- 2.2.1
+Current Version :- 2.3.0
+
+* Wed Aug 20 2008 Rahul Bhalerao <rbhalera@redhat.com> - 2.3.0
+- Bug 215902: [hi_IN, mr_IN]Incorrect extent of 0x093f when attached to a composite character which has width greater than a single character (hi_IN & maybe others)
+- Forked Lohit Hindi into Marathi, Maithili, Kashmiri, Konkani, Sindhi and Nepali.
 
 * Fri Jun 06 2008 Rahul Bhalerao <rbhalera@redhat.com>
 - Bug 445176: [ml_IN] Conjuncts combining with 0D30 do not form the pre based glyph
