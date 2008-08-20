@@ -1,7 +1,7 @@
 SplineFontDB: 2.0
-FontName: Lohit-Hindi
-FullName: Lohit Hindi
-FamilyName: Lohit Hindi
+FontName: Lohit-Maithili
+FullName: Lohit Maithili
+FamilyName: Lohit Maithili
 Weight: Book
 Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA. - under General Public License
 Version: 1.00
@@ -11,13 +11,13 @@ UnderlineWidth: 26
 Ascent: 819
 Descent: 205
 Order2: 1
-XUID: [1021 808 1214965479 4125520]
+XUID: [1021 808 1214965479 5270873]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1219217602
+ModificationTime: 1219224637
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -631,14 +631,14 @@ EndTtf
 TtfTable: maxp 32
 !!*'"!E]>l!"8i-!!!!"!!*'^!'gMa!(6g*z
 EndTtf
-LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Hindi" "" "Version 1.00" 
+LangName: 1033 "" "" "Regular" "" "" "Version 1.00" 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 37 17
+WinInfo: 37 37 17
 Grid
 -205 664.5 m 25,0,0
  872.5 664 l 25,0,0
