@@ -1,5 +1,9 @@
 				  fonts-indic
-Current Version :- 2.3.0
+Current Version :- 2.3.1
+
+* Tue Sep 09 2008 Rahul Bhalerao <rbhalera@redhat.com> - 2.3.1
+- Bug 216400: [te_IN] - Anaconda GUI - Release Notes button is overlapping
+with other texts in a specific page
 
 * Wed Aug 20 2008 Rahul Bhalerao <rbhalera@redhat.com> - 2.3.0
 - Bug 215902: [hi_IN, mr_IN]Incorrect extent of 0x093f when attached to a composite character which has width greater than a single character (hi_IN & maybe others)
