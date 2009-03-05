@@ -1,7 +1,7 @@
 SplineFontDB: 3.0
-FontName: Lohit-Bengali
-FullName: Lohit Bengali
-FamilyName: Lohit Bengali
+FontName: Lohit-Assamese
+FullName: Lohit Assamese
+FamilyName: Lohit Assamese
 Weight: Book
 Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA. - under General Public License
 Version: 1.00
@@ -13,14 +13,13 @@ Descent: 154
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
-XUID: [1021 648 100124046 5181693]
+XUID: [1021 648 100124046 2710748]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1163146539
-ModificationTime: 1236256980
+ModificationTime: 1236259886
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -357,7 +356,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "ACE: Automatic Control EquipmentsLohit Bengali" "" "Version 1.00" 
+LangName: 1033 "" "" "Regular" "" "" "Version 1.00" 
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -10639,7 +10638,6 @@ Encoding: 2546 2546 133
 Width: 591
 VWidth: 499
 GlyphClass: 2
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -10662,7 +10660,6 @@ Encoding: 2547 2547 134
 Width: 591
 VWidth: 499
 GlyphClass: 2
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -10710,7 +10707,6 @@ Encoding: 2548 2548 135
 Width: 591
 VWidth: 499
 GlyphClass: 2
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -10733,7 +10729,6 @@ Encoding: 2549 2549 136
 Width: 591
 VWidth: 499
 GlyphClass: 2
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -10778,7 +10773,6 @@ Encoding: 2550 2550 137
 Width: 591
 VWidth: 499
 GlyphClass: 2
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -10883,7 +10877,6 @@ Encoding: 2552 2552 139
 Width: 591
 VWidth: 499
 GlyphClass: 2
-Flags: H
 LayerCount: 2
 Fore
 SplineSet
@@ -10923,7 +10916,7 @@ Encoding: 2553 2553 140
 Width: 657
 VWidth: 499
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
