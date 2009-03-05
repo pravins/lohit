@@ -6,8 +6,9 @@ ver=`cat ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mv TTFfiles lohit-fonts-$ver
 cp COPYING ChangeLog README AUTHORS lohit-fonts-$ver
 cd lohit-fonts-$ver
-mkdir -p bengali gujarati  hindi  kannada  malayalam  oriya  punjabi  tamil  telugu marathi maithili konkani kashmiri sindhi nepali
+mkdir -p assamese bengali gujarati  hindi  kannada  malayalam  oriya  punjabi  tamil  telugu marathi maithili konkani kashmiri sindhi nepali
 
+mv lohit_as.ttf assamese
 mv lohit_bn.ttf bengali
 mv lohit_gu.ttf gujarati
 mv lohit_hi.ttf hindi

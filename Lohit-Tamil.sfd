@@ -1,4 +1,4 @@
-SplineFontDB: 1.0
+SplineFontDB: 3.0
 FontName: Lohit-Tamil
 FullName: Lohit Tamil
 FamilyName: Lohit Tamil
@@ -10,7 +10,9 @@ UnderlinePosition: -300
 UnderlineWidth: 20
 Ascent: 666
 Descent: 167
-Order2: 1
+LayerCount: 2
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
 XUID: [1021 140 1710970845 9878666]
 FSType: 0
 OS2Version: 1
@@ -48,53 +50,331 @@ OS2SupYOff: 500
 OS2StrikeYSize: 50
 OS2StrikeYPos: 250
 OS2Vendor: 'ACE '
-ScriptLang: 1
- 1 taml 1 dflt 
-TableOrder: GPOS 1
-	'abvm'
-TableOrder: GSUB 5
-	'abvs'
-	'akhn'
-	'blws'
-	'half'
-	'haln'
-TtfTable: prep 11
-5QX@TNOT#hKm":5
-EndTtf
-TtfTable: fpgm 100
-5Qq;o!s/HRG"!OX"!pA\@;$K&BOF4[/4C\c"!pA\@;$m!?plRt+<\2o^c2t35QNc&/M&"eYWt/\
-YQ6Yls1gTG/-2tEFs':g(aDLYBHUD"YQH0r33WH1'!MBpAN3gE
-EndTtf
-TtfTable: cvt  184
-z!&=Vgs3:UT!YYOm!V?Gls6Ke.s3^q0!a,L&!Z:t1!c7l^s-s*r!(HtX!6G36!f@&&!e:<!
-!N5t9!A":!![I_6!Z(fP!^6Qu!WrC(!R1S,s'PoD!T4#&s"a["!4`.Rs/Q0$!':4%!$200rt,27
-ru(p6ro="UrpB^K!NlKg!jVfb!%7nX!WN,1!kJG3rn.<c!ZV6Ss47=Drn[^Es8)l,s%NGPrq?H'
-!MBA^
-EndTtf
-TtfTable: maxp 32
-!!*'"!;->d!"8i-!!!!"!!*'^!'gMa!(6g*z
-EndTtf
+Lookup: 4 0 0 "'abvs' Above Base Substitutions in Tamil lookup 0"  {"'abvs' Above Base Substitutions in Tamil lookup 0 subtable"  } ['abvs' ('taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'akhn' Akhand in Tamil lookup 1"  {"'akhn' Akhand in Tamil lookup 1 subtable"  } ['akhn' ('taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'blws' Below Base Substitutions in Tamil lookup 2"  {"'blws' Below Base Substitutions in Tamil lookup 2 subtable"  } ['blws' ('taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Tamil lookup 3"  {"'half' Half Forms in Tamil lookup 3 subtable"  } ['half' ('taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'haln' Halant Forms in Tamil lookup 4"  {"'haln' Halant Forms in Tamil lookup 4 subtable"  } ['haln' ('taml' <'dflt' > ) ]
+Lookup: 260 0 0 "'abvm' Above Base Mark in Tamil lookup 0"  {"'abvm' Above Base Mark in Tamil lookup 0 subtable"  } ['abvm' ('taml' <'dflt' > ) ]
+DEI: 91125
+TtTable: prep
+NPUSHB
+ 2
+ 69
+ 1
+SCANTYPE
+PUSHW_1
+ 511
+SCANCTRL
+SROUND
+RTG
+EndTTInstrs
+TtTable: fpgm
+NPUSHB
+ 5
+ 5
+ 4
+ 3
+ 2
+ 0
+FDEF
+SROUND
+RCVT
+DUP
+PUSHB_1
+ 3
+CINDEX
+RCVT
+SWAP
+SUB
+ROUND[Grey]
+RTG
+SWAP
+ROUND[Grey]
+ADD
+WCVTP
+ENDF
+FDEF
+RCVT
+DUP
+PUSHB_1
+ 3
+CINDEX
+RCVT
+SWAP
+SUB
+ROUND[Grey]
+SWAP
+ROUND[Grey]
+ADD
+WCVTP
+ENDF
+FDEF
+DUP
+DUP
+PUSHW_1
+ -64
+SHPIX
+SRP2
+PUSHB_2
+ 64
+ 1
+SHZ[rp2]
+SHPIX
+ENDF
+FDEF
+DUP
+DUP
+PUSHB_1
+ 64
+SHPIX
+SRP2
+PUSHB_1
+ 1
+SHZ[rp2]
+PUSHW_1
+ -64
+SHPIX
+ENDF
+FDEF
+SVTCA[x-axis]
+PUSHB_1
+ 70
+SROUND
+DUP
+GC[orig]
+ROUND[Grey]
+RTG
+SWAP
+GC[cur]
+SUB
+ROUND[Grey]
+DUP
+IF
+DUP
+PUSHB_1
+ 3
+CINDEX
+SWAP
+SHPIX
+PUSHB_1
+ 2
+CINDEX
+SRP2
+PUSHB_1
+ 1
+SHZ[rp2]
+NEG
+SHPIX
+EIF
+ENDF
+EndTTInstrs
+ShortTable: cvt  92
+  0
+  0
+  50
+  700
+  -50
+  100
+  530
+  -30
+  500
+  680
+  -20
+  542
+  -46
+  400
+  600
+  -1
+  536
+  -11
+  620
+  -220
+  -100
+  350
+  70
+  240
+  200
+  -10
+  650
+  630
+  640
+  380
+  423
+  -60
+  300
+  550
+  547
+  -187
+  534
+  -148
+  573
+  -150
+  514
+  -168
+  460
+  -110
+  -160
+  704
+  480
+  545
+  -205
+  290
+  185
+  544
+  -85
+  342
+  59
+  370
+  30
+  410
+  -240
+  -250
+  -230
+  420
+  -285
+  -260
+  -275
+  -280
+  430
+  660
+  690
+  140
+  40
+  610
+  510
+  -70
+  698
+  595
+  -295
+  360
+  540
+  445
+  -41
+  670
+  -290
+  665
+  -5
+  695
+  -180
+  -200
+  -265
+  440
+  415
+  -270
+EndShort
+ShortTable: maxp 16
+  1
+  0
+  245
+  162
+  12
+  0
+  0
+  1
+  1
+  60
+  64
+  0
+  68
+  111
+  0
+  0
+EndShort
 LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Tamil" "" "Version 1.00" 
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -24
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 40 16
-AnchorClass: "Anchor-0" abvm 0 0 1 0 
+WinInfo: 0 28 13
+AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Tamil lookup 0 subtable" 
 BeginChars: 65649 245
+
 StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 800
 GlyphClass: 2
 Flags: W
-TtfInstrs: 111
-5pQF8!!WE+!!<3&!!<3-!!iQ+!!N?(!!E9&!!3-#!!N?.!!`K,!!3-$!!<3-!!WE)!!N?(!!E9(
-!!3-#!!*'h!!*'"!(M,b2]-]<58QH\(HaoErB(*F(HhX44?kt,4>AP$!"&]+!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 36
+ 7
+ 6
+ 4
+ 3
+ 2
+ 3
+ 9
+ 8
+ 2
+ 5
+ 2
+ 4
+ 1
+ 2
+ 0
+ 5
+ 8
+ 7
+ 4
+ 2
+ 1
+ 3
+ 9
+ 6
+ 2
+ 5
+ 2
+ 4
+ 3
+ 2
+ 0
+ 1
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIRP[rp0,min,rnd,black]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIRP[rp0,min,rnd,black]
+ALIGNRP
+SVTCA[x-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIRP[rp0,min,rnd,black]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIRP[rp0,min,rnd,black]
+ALIGNRP
+IUP[x]
+IUP[y]
+PUSHW_3
+ 10
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 100 0 m 1,0,-1
  100 700 l 1,1,-1
  700 700 l 1,2,-1
@@ -109,33 +389,77 @@ Fore
  150 50 l 1,5,-1
 EndSplineSet
 EndChar
+
 StartChar: .null
 Encoding: 0 0 1
 Width: 0
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 EndChar
+
 StartChar: nonmarkingreturn
 Encoding: 12 12 2
 Width: 0
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 EndChar
+
 StartChar: space
 Encoding: 32 32 3
 Width: 250
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 EndChar
+
 StartChar: exclam
 Encoding: 33 33 4
 Width: 230
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l%!!rW,!!iQ0!"f2B!!3-2!!WEm!!*'&!(M,b2]-]<58QFH(H_^Q0Y.6'!!E9*.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 10
+ 9
+ 2
+ 8
+ 7
+ 17
+ 16
+ 2
+ 15
+ 6
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 27
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 10 m 1,0,1
  75 27 75 27 86.5 38.5 c 128,-1,2
  98 50 98 50 115 50 c 256,3,4
@@ -159,16 +483,57 @@ Fore
  75 470 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: quotedbl
 Encoding: 34 34 5
 Width: 340
 GlyphClass: 2
 Flags: W
-TtfInstrs: 61
-5nX/(!!iQ.!!E9(!!N?&!!iQ0!!WE)!!<3%!!<3j!!*'&!(M,b2]-]<58QFH(H_^Q0Y.5k!!E9*
-.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 9
+ 8
+ 5
+ 4
+ 3
+ 5
+ 0
+ 8
+ 7
+ 6
+ 2
+ 3
+ 1
+ 3
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 10
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 500 m 1,0,-1
  75 700 l 1,1,-1
  140 700 l 1,2,-1
@@ -183,15 +548,56 @@ Fore
  205 500 l 1,5,-1
 EndSplineSet
 EndChar
+
 StartChar: numbersign
 Encoding: 35 35 6
 Width: 787
 GlyphClass: 2
 Flags: W
-TtfInstrs: 59
-5nO):!#knT!#GV<!!!!+!"Ju<!"&].!!rW3!(Hqh!!E9kFtYckFoX`C4?jWE!AQ:>!$VCG!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 28
+ 27
+ 24
+ 23
+ 4
+ 0
+ 10
+ 14
+ 13
+ 10
+ 3
+ 9
+ 9
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 34
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 148 -20 m 1,0,-1
  177 115 l 1,1,-1
  75 115 l 1,2,-1
@@ -230,15 +636,50 @@ Fore
  313 445 l 1,29,-1
 EndSplineSet
 EndChar
+
 StartChar: dollar
 Encoding: 36 36 7
 Width: 463
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!`;!$M=D!!!!-!"f2B!"/cr!!*'&!(M,b2]-]<5<M.H497/j\c=Md"98TU
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 34
+ 33
+ 2
+ 0
+ 12
+ 17
+ 16
+ 11
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 51
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 198 -46 m 1,0,-1
  198 4 l 1,1,2
  170 4 170 4 138 20.5 c 128,-1,3
@@ -283,16 +724,71 @@ Fore
  198 306 l 1,43,-1
 EndSplineSet
 EndChar
+
 StartChar: percent
 Encoding: 37 37 8
 Width: 650
 GlyphClass: 2
 Flags: W
-TtfInstrs: 86
-5ofq5!"&]4!!iQ+!!N?'!"Jud!&O[3!&=NW!!<3*!!!!"!%%[d!#>PL!"Ju4!!N?3!(Hqh!!E9k
-FtYckFoX`C4?jWE58QE_0eg0=8H8kn"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 29
+ 11
+ 10
+ 9
+ 8
+ 2
+ 5
+ 1
+ 14
+ 53
+ 52
+ 51
+ 50
+ 4
+ 3
+ 6
+ 0
+ 1
+ 38
+ 29
+ 22
+ 21
+ 14
+ 5
+ 5
+ 13
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 73
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 0 m 1,0,-1
  535 600 l 1,1,-1
  575 600 l 1,2,-1
@@ -357,16 +853,65 @@ Fore
  375 100 l 1,56,57
 EndSplineSet
 EndChar
+
 StartChar: ampersand
 Encoding: 38 38 9
 Width: 653
 GlyphClass: 2
 Flags: W
-TtfInstrs: 73
-5o'GJ!%%[I!$qUW!"Ao:!!3-.!"],]!%S$M!!<3$!"T&@!"Aot!!*'&!(M,b2]-]<5Q)B\58QFH
-(H_^Q0Y.6S!!E9*.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 22
+ 39
+ 38
+ 2
+ 37
+ 17
+ 13
+ 12
+ 2
+ 11
+ 16
+ 44
+ 43
+ 1
+ 3
+ 0
+ 15
+ 16
+ 13
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+MIRP[rp0,min,rnd,black]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 71
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 226 -1 m 1,0,1
  163 -1 163 -1 119 37.5 c 128,-1,2
  75 76 75 76 75 131 c 0,3,4
@@ -421,15 +966,50 @@ Fore
  247 321 l 1,58,59
 EndSplineSet
 EndChar
+
 StartChar: quotesingle
 Encoding: 39 39 10
 Width: 215
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!_r!!<3&!!!!)!!3-$!!<3j!!*'&!(M,b2]-]<5<M.H497/j\c;m6"98TU
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 4
+ 3
+ 2
+ 0
+ 8
+ 2
+ 1
+ 3
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 5
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 500 m 1,0,-1
  75 700 l 1,1,-1
  140 700 l 1,2,-1
@@ -438,15 +1018,43 @@ Fore
  75 500 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: parenleft
 Encoding: 40 40 11
 Width: 350
 GlyphClass: 2
 Flags: W
-TtfInstrs: 37
-5mRGu!##>7!"o9$!!*'&!(M,b2]-]<5<f0'0Y.5p!!E9*.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 8
+ 11
+ 19
+ 3
+ 18
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 15
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 200 m 1,0,1
  75 325 75 325 116.5 434 c 128,-1,2
  158 543 158 543 235 620 c 1,3,-1
@@ -461,15 +1069,43 @@ Fore
  75 200 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: parenright
 Encoding: 41 41 12
 Width: 350
 GlyphClass: 2
 Flags: W
-TtfInstrs: 37
-5mRH"!##>;!"o9$!!*'&!(M,b2]-]<5<f0'0Y.5p!!E9*.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 8
+ 13
+ 19
+ 7
+ 18
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 15
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 -200 m 1,0,1
  152 -123 152 -123 193.5 -19 c 128,-1,2
  235 85 235 85 235 200 c 256,3,4
@@ -484,15 +1120,47 @@ Fore
  75 -200 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: asterisk
 Encoding: 42 42 13
 Width: 850
 GlyphClass: 2
 Flags: W
-TtfInstrs: 43
-5mdT!!!iQ=!!E9'!!iQo!!*'&!(M,b2]-]<5<M.m!AQ:>!"Ao2!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 10
+ 10
+ 8
+ 20
+ 4
+ 2
+ 8
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 13
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 200 m 1,0,-1
  275 320 l 1,1,-1
  275 500 l 1,2,-1
@@ -509,15 +1177,47 @@ Fore
  75 200 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: plus
 Encoding: 43 43 14
 Width: 500
 GlyphClass: 2
 Flags: W
-TtfInstrs: 43
-5mdT!!!rW,!!E9(!#5K'!!*'&!(M,b2]-]<5<M.m!AQ:>!"Ao2!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 10
+ 10
+ 9
+ 2
+ 4
+ 3
+ 21
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 13
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 180 m 1,0,-1
  75 220 l 1,1,-1
  225 220 l 1,2,-1
@@ -534,15 +1234,56 @@ Fore
  75 180 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: comma
 Encoding: 44 44 15
 Width: 230
 GlyphClass: 2
 Flags: W
-TtfInstrs: 58
-5nF#&!#,D9!!<3&!!3-9!"Ju<!!3-)!!*'h!!*'&!(M,b2]-]<58QFH(Han_0eg0=&HDq6"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 16
+ 9
+ 20
+ 4
+ 3
+ 2
+ 2
+ 22
+ 14
+ 13
+ 2
+ 6
+ 1
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 17
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 30 m 1,0,1
  75 47 75 47 86.5 58.5 c 128,-1,2
  98 70 98 70 115 70 c 256,3,4
@@ -558,15 +1299,50 @@ Fore
  75 30 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: hyphen
 Encoding: 45 45 16
 Width: 400
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!_r!!<3&!!!!9!!3-$!#GW)!!*'&!(M,b2]-]<5<M.H497/j\c;m6"98TU
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 4
+ 3
+ 2
+ 0
+ 24
+ 2
+ 1
+ 23
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 5
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 200 m 1,0,-1
  75 240 l 1,1,-1
  325 240 l 1,2,-1
@@ -575,15 +1351,53 @@ Fore
  75 200 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: period
 Encoding: 46 46 17
 Width: 230
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l%!!rW,!!iQB!!E9(!!3-%!#>Q(!!*'&!(M,b2]-]<58QFH(H_^Q0Y.5n!!E9*.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 10
+ 9
+ 2
+ 8
+ 25
+ 4
+ 3
+ 2
+ 2
+ 22
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 13
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 30 m 1,0,1
  75 47 75 47 86.5 58.5 c 128,-1,2
  98 70 98 70 115 70 c 256,3,4
@@ -596,15 +1410,50 @@ Fore
  75 30 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: slash
 Encoding: 47 47 18
 Width: 400
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!_r!!<3&!!!!5!!3-$!#bi,!!*'&!(M,b2]-]<5<M.H497/j\c;m6"98TU
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 4
+ 3
+ 2
+ 0
+ 20
+ 2
+ 1
+ 26
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 5
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 -100 m 1,0,-1
  275 650 l 1,1,-1
  325 650 l 1,2,-1
@@ -613,15 +1462,53 @@ Fore
  75 -100 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: zero
 Encoding: 48 48 19
 Width: 500
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l%!!rW,!!iQB!!E9(!!3-%!#ko-!!*'&!(M,b2]-]<58QFH(H_^Q0Y.6&!!E9*.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 10
+ 9
+ 2
+ 8
+ 25
+ 4
+ 3
+ 2
+ 2
+ 27
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 26
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 50 300 m 1,0,1
  50 437 50 437 108.5 533.5 c 128,-1,2
  167 630 167 630 250 630 c 256,3,4
@@ -644,15 +1531,50 @@ Fore
  100 300 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: one
 Encoding: 49 49 20
 Width: 500
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!`$!"&]F!"T&>!!3-#!!*'h!!*'&!(M,b2]-]<58QFH497/j\c<9A"98TU
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 11
+ 10
+ 27
+ 15
+ 14
+ 2
+ 0
+ 1
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 16
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 85 0 m 1,0,-1
  85 40 l 1,1,-1
  225 40 l 1,2,-1
@@ -670,15 +1592,53 @@ Fore
  85 0 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: two
 Encoding: 50 50 21
 Width: 500
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l3!#GV:!#>PS!$_If!!3-#!!*'h!!*'#!(M,b2]-]<58QFH(H_^Q0Y.60!!*''.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 24
+ 23
+ 2
+ 22
+ 28
+ 35
+ 34
+ 2
+ 0
+ 1
+ 70
+ 1
+ 1
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 36
+ 1
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 55 0 m 1,0,-1
  55 40 l 2,1,2
  55 100 55 100 106 164.5 c 128,-1,3
@@ -708,15 +1668,50 @@ Fore
  55 0 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: three
 Encoding: 51 51 22
 Width: 500
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!`2!#P\;!#GVQ!"],@!"o9$!!*'*!(M,b2]-]<5<M.H497/j\c<]M#QP#Y
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 25
+ 24
+ 2
+ 23
+ 25
+ 16
+ 15
+ 18
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 28
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 50 190 m 1,0,-1
  100 190 l 1,1,2
  111 125 111 125 153.5 82.5 c 128,-1,3
@@ -742,15 +1737,47 @@ Fore
  50 190 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: four
 Encoding: 52 52 23
 Width: 500
 GlyphClass: 2
 Flags: W
-TtfInstrs: 43
-5mdSo!!3-5!"/c6!!*'h!!*'*!(M,b2]-]<5<M.m!AQ:>!#,D=!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 10
+ 3
+ 2
+ 18
+ 11
+ 10
+ 1
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 20
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 50 140 m 1,0,-1
  50 170 l 1,1,-1
  310 620 l 1,2,-1
@@ -775,15 +1802,50 @@ Fore
  110 180 l 1,16,-1
 EndSplineSet
 EndChar
+
 StartChar: five
 Encoding: 53 53 24
 Width: 500
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!`6!#tt?!#knU!"],@!"o9$!!*'*!(M,b2]-]<5<M.H497/j\c<iQ#QP#Y
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 29
+ 28
+ 2
+ 27
+ 25
+ 16
+ 15
+ 18
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 32
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 60 120 m 1,0,-1
  100 140 l 1,1,2
  118 90 118 90 156.5 60 c 128,-1,3
@@ -811,15 +1873,53 @@ Fore
  60 120 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: six
 Encoding: 54 54 25
 Width: 500
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l2!#>P9!#5JO!!E9(!!3-%!#ko-!!*'+!(M,b2]-]<58QFH(H_^Q0Y.63!!rW/.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 23
+ 22
+ 2
+ 21
+ 25
+ 4
+ 3
+ 2
+ 2
+ 27
+ 70
+ 1
+ 9
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 39
+ 9
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 55 320 m 1,0,1
  55 448 55 448 118 539 c 128,-1,2
  181 630 181 630 270 630 c 0,3,4
@@ -851,15 +1951,47 @@ Fore
  105 260 l 1,26,27
 EndSplineSet
 EndChar
+
 StartChar: seven
 Encoding: 55 55 26
 Width: 499
 GlyphClass: 2
 Flags: W
-TtfInstrs: 43
-5mdSn!!*'4!!iQ0!!*'h!!*'+!(M,b2]-]<5<M.m!AQ:>!"],:!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 10
+ 2
+ 1
+ 18
+ 8
+ 7
+ 1
+ 70
+ 1
+ 9
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 16
+ 9
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 67 500 m 1,0,-1
  67 620 l 1,1,-1
  407 620 l 1,2,-1
@@ -877,15 +2009,53 @@ Fore
  67 500 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: eight
 Encoding: 56 56 27
 Width: 500
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l1!#5J8!#,DN!"&]4!!3-+!#ko-!!*'*!(M,b2]-]<58QFH(H_^Q0Y.6?!!iQ..f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 22
+ 21
+ 2
+ 20
+ 25
+ 10
+ 9
+ 2
+ 8
+ 27
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 51
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 50 170 m 1,0,1
  50 224 50 224 80 268 c 128,-1,2
  110 312 110 312 160 330 c 1,3,4
@@ -926,15 +2096,53 @@ Fore
  130 460 l 1,38,39
 EndSplineSet
 EndChar
+
 StartChar: nine
 Encoding: 57 57 28
 Width: 500
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l%!!rW,!!iQB!!E9(!!3-%!#ko-!!*'*!(M,b2]-]<58QFH(H_^Q0Y.63!!iQ..f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 10
+ 9
+ 2
+ 8
+ 25
+ 4
+ 3
+ 2
+ 2
+ 27
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 39
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 55 420 m 1,0,1
  55 507 55 507 107.5 568.5 c 128,-1,2
  160 630 160 630 235 630 c 0,3,4
@@ -966,15 +2174,53 @@ Fore
  105 420 l 1,26,27
 EndSplineSet
 EndChar
+
 StartChar: colon
 Encoding: 58 58 29
 Width: 230
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l2!#>P9!#5JO!!E9(!!3-%!$)&/!!*'*!(M,b2]-]<58QFH(H_^Q0Y.6&!!iQ..f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 23
+ 22
+ 2
+ 21
+ 25
+ 4
+ 3
+ 2
+ 2
+ 29
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 26
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 340 m 1,0,1
  75 357 75 357 86.5 368.5 c 128,-1,2
  98 380 98 380 115 380 c 256,3,4
@@ -997,15 +2243,56 @@ Fore
  75 30 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: semicolon
 Encoding: 59 59 30
 Width: 230
 GlyphClass: 2
 Flags: W
-TtfInstrs: 58
-5nF#3!#,D9!!<3&!!3-@!#knV!!3-6!!*'h!!*'*!(M,b2]-]<58QFH(Han_0eg0=*WQHG"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 16
+ 22
+ 20
+ 4
+ 3
+ 2
+ 2
+ 29
+ 27
+ 26
+ 2
+ 19
+ 1
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 30
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 340 m 1,0,1
  75 357 75 357 86.5 368.5 c 128,-1,2
  98 380 98 380 115 380 c 256,3,4
@@ -1031,15 +2318,43 @@ Fore
  75 30 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: less
 Encoding: 60 60 31
 Width: 551
 GlyphClass: 2
 Flags: W
-TtfInstrs: 37
-5mRGk!$;1D!$2,0!!*'"!(M,b2]-]<5<f0'0Y.5i!!!!&.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 8
+ 1
+ 31
+ 4
+ 30
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 8
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 475 5 m 1,0,-1
  476 -60 l 1,1,-1
  75 138 l 1,2,-1
@@ -1051,15 +2366,53 @@ Fore
  475 5 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: equal
 Encoding: 61 61 32
 Width: 400
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l$!!iQ+!!N?+!!E9&!!3-#!$D82!!*'*!(M,b2]-]<58QFH(H_^Q0Y.5k!!iQ..f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 9
+ 8
+ 2
+ 5
+ 5
+ 4
+ 1
+ 2
+ 0
+ 32
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 10
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 300 m 1,0,-1
  325 300 l 1,1,-1
  325 260 l 1,2,-1
@@ -1074,15 +2427,43 @@ Fore
  75 100 l 1,5,-1
 EndSplineSet
 EndChar
+
 StartChar: greater
 Encoding: 62 62 33
 Width: 551
 GlyphClass: 2
 Flags: W
-TtfInstrs: 37
-5mRGp!$;1C!$2,0!!*'"!(M,b2]-]<5<f0'0Y.5i!!!!&.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 8
+ 6
+ 31
+ 3
+ 30
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 8
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 76 5 m 1,0,-1
  416 178 l 1,1,-1
  76 353 l 1,2,-1
@@ -1094,15 +2475,53 @@ Fore
  76 5 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: question
 Encoding: 63 63 34
 Width: 500
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l%!!rW,!!iQ0!"f2B!!3-2!$M>3!!*'*!(M,b2]-]<58QFH(H_^Q0Y.66!!iQ..f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 10
+ 9
+ 2
+ 8
+ 7
+ 17
+ 16
+ 2
+ 15
+ 33
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 42
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 205 10 m 1,0,1
  205 27 205 27 216.5 38.5 c 128,-1,2
  228 50 228 50 245 50 c 256,3,4
@@ -1137,15 +2556,54 @@ Fore
  75 370 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: at
 Encoding: 64 64 35
 Width: 842
 GlyphClass: 2
 Flags: W
-TtfInstrs: 55
-5n<rP!&FTU!!<3$!$_IK!!WE)!!N?H!(Hqh!!iQoFtYckFoX`C4?jWE!AQ:>!(-_l!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 15
+ 52
+ 51
+ 1
+ 3
+ 0
+ 35
+ 7
+ 6
+ 2
+ 5
+ 34
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 67
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 429 -187 m 1,0,1
  282 -187 282 -187 178.5 -80 c 128,-1,2
  75 27 75 27 75 178 c 0,3,4
@@ -1197,15 +2655,50 @@ Fore
  426 45 l 1,53,54
 EndSplineSet
 EndChar
+
 StartChar: bracketleft
 Encoding: 91 91 36
 Width: 395
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!`!!!`K*!!!!F!!3-$!$hP6!!*'*!(M,b2]-]<5<M.H497/j\c<$:#QP#Y
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 8
+ 7
+ 2
+ 0
+ 37
+ 2
+ 1
+ 36
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 9
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 -148 m 1,0,-1
  75 534 l 1,1,-1
  320 534 l 1,2,-1
@@ -1218,15 +2711,43 @@ Fore
  75 -148 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: backslash
 Encoding: 92 92 37
 Width: 594
 GlyphClass: 2
 Flags: W
-TtfInstrs: 37
-5mRGk!%.aK!%%\8!!*'"!(M,b2]-]<5<f0'0Y.5f!!!!&.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 8
+ 1
+ 39
+ 3
+ 38
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 5
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 519 -120 m 1,0,-1
  475 -150 l 1,1,-1
  75 543 l 1,2,-1
@@ -1235,15 +2756,50 @@ Fore
  519 -120 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: bracketright
 Encoding: 93 93 38
 Width: 395
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!`!!!`K*!!!!J!!WE,!%7h:!!*'*!(M,b2]-]<5<M.H497/j\c<$:#QP#Y
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 8
+ 7
+ 2
+ 0
+ 41
+ 6
+ 5
+ 40
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 9
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 -168 m 1,0,-1
  75 -126 l 1,1,-1
  271 -126 l 1,2,-1
@@ -1256,15 +2812,48 @@ Fore
  75 -168 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: asciicircum
 Encoding: 94 94 39
 Width: 470
 GlyphClass: 2
 Flags: W
-TtfInstrs: 45
-5mmYs!!E9'!!!!K!!3-&!(Hqh!!!!gFtYckFoX`k(H_^Q0Y.5h!!!!&.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 11
+ 6
+ 4
+ 2
+ 0
+ 42
+ 2
+ 3
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 7
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 460 m 1,0,-1
  75 528 l 1,1,-1
  235 700 l 1,2,-1
@@ -1275,15 +2864,50 @@ Fore
  75 460 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: underscore
 Encoding: 95 95 40
 Width: 623
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!_p!!*'N!!E9(!!3-#!%S%=!!*'"!(M,b2]-]<58QFH497/j\c;m6!!!0Q
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 2
+ 1
+ 44
+ 4
+ 3
+ 2
+ 0
+ 43
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 5
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 548 -110 m 1,0,-1
  548 -160 l 1,1,-1
  75 -160 l 1,2,-1
@@ -1292,15 +2916,43 @@ Fore
  548 -110 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: grave
 Encoding: 96 96 41
 Width: 306
 GlyphClass: 2
 Flags: W
-TtfInstrs: 37
-5mRGk!%n6U!%e1?!!*'"!(M,b2]-]<5<f0'0Y.5k!!!!&.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 8
+ 1
+ 46
+ 6
+ 45
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 10
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 231 495 m 1,0,-1
  202 480 l 1,1,-1
  82 638 l 2,2,3
@@ -1312,15 +2964,47 @@ Fore
  231 495 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: braceleft
 Encoding: 123 123 42
 Width: 450
 GlyphClass: 2
 Flags: W
-TtfInstrs: 43
-5mdT/!#GVh!!`K.!&"=A!!*'*!(M,b2]-]<5<M.m!AQ:>!$D7I!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 10
+ 24
+ 23
+ 48
+ 7
+ 6
+ 47
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 32
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 185 m 1,0,1
  116 185 116 185 145.5 209.5 c 128,-1,2
  175 234 175 234 175 268 c 2,3,-1
@@ -1348,15 +3032,50 @@ Fore
  75 185 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: bar
 Encoding: 124 124 43
 Width: 210
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!_r!!<3&!!!!@!!3-$!%It<!!*'"!(M,b2]-]<5<M.H497/j\c;m6!!!0Q
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 4
+ 3
+ 2
+ 0
+ 31
+ 2
+ 1
+ 42
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 5
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 -60 m 1,0,-1
  75 460 l 1,1,-1
  135 460 l 1,2,-1
@@ -1365,15 +3084,47 @@ Fore
  75 -60 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: braceright
 Encoding: 125 125 44
 Width: 450
 GlyphClass: 2
 Flags: W
-TtfInstrs: 43
-5mdSt!!`KX!#YbR!&"=A!!*'*!(M,b2]-]<5<M.m!AQ:>!$D7I!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 10
+ 8
+ 7
+ 48
+ 25
+ 24
+ 47
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 32
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 375 185 m 1,0,-1
  375 155 l 1,1,2
  334 155 334 155 304.5 130.5 c 128,-1,3
@@ -1401,15 +3152,48 @@ Fore
  375 185 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: asciitilde
 Encoding: 126 126 45
 Width: 645
 GlyphClass: 2
 Flags: W
-TtfInstrs: 45
-5mmZ+!&=NW!!<3&!!3-T!(Hqh!!iQoFtYckFoX`C4?ij$0Y.6!!!iQ..f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 11
+ 19
+ 50
+ 4
+ 3
+ 2
+ 2
+ 49
+ 70
+ 1
+ 8
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 21
+ 8
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 220 m 1,0,1
  103 253 103 253 141 271.5 c 128,-1,2
  179 290 179 290 220 290 c 0,3,4
@@ -1428,15 +3212,47 @@ Fore
  75 220 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: cent
 Encoding: 162 162 46
 Width: 452
 GlyphClass: 2
 Flags: W
-TtfInstrs: 43
-5mdT7!$;1t!!iQ0!&FUE!!*'4!(M,b2]-]<5<M.m!AQ:>!&+Bc!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 10
+ 32
+ 31
+ 52
+ 8
+ 7
+ 51
+ 70
+ 1
+ 18
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 48
+ 18
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 51 225 m 1,0,1
  51 327 51 327 102.5 388.5 c 128,-1,2
  154 450 154 450 239 450 c 0,3,4
@@ -1477,15 +3293,50 @@ Fore
  285 402 l 1,37,38
 EndSplineSet
 EndChar
+
 StartChar: multiply
 Encoding: 215 215 47
 Width: 433
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!`%!"&]-!!!!W!!WE+!&XaG!!*'"!(M,b2]-]<5<M.H497/j\c<0>!!!0Q
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 12
+ 10
+ 2
+ 0
+ 54
+ 6
+ 4
+ 53
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 13
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 110 59 m 1,0,-1
  75 94 l 1,1,-1
  181 200 l 1,2,-1
@@ -1502,15 +3353,53 @@ Fore
  110 59 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: divide
 Encoding: 247 247 48
 Width: 480
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l%!!rW,!!iQa!#>PL!!3-7!&jmI!!*'"!(M,b2]-]<58QFH(H_^Q0Y.6+!!!!&.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 10
+ 9
+ 2
+ 8
+ 56
+ 22
+ 21
+ 2
+ 20
+ 55
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 31
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 200 70 m 1,0,1
  200 87 200 87 211.5 98.5 c 128,-1,2
  223 110 223 110 240 110 c 256,3,4
@@ -1539,12 +3428,15 @@ Fore
  200 330 l 1,18,19
 EndSplineSet
 EndChar
+
 StartChar: uni0964
 Encoding: 2404 2404 49
 Width: 275
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 150 0 m 1,0,-1
  150 500 l 1,1,-1
  200 500 l 1,2,-1
@@ -1553,12 +3445,15 @@ Fore
  150 0 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0965
 Encoding: 2405 2405 50
 Width: 435
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 150 0 m 1,0,-1
  150 500 l 1,1,-1
  200 500 l 1,2,-1
@@ -1573,13 +3468,16 @@ Fore
  310 0 l 1,5,-1
 EndSplineSet
 EndChar
+
 StartChar: u0b82
 Encoding: 2946 2946 51
 Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-0" -100 437 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -203 550 m 1,0,1
  -203 591 -203 591 -173.5 620.5 c 128,-1,2
  -144 650 -144 650 -103 650 c 256,3,4
@@ -1602,15 +3500,56 @@ Fore
  -163 550 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: u0B83
 Encoding: 2947 2947 52
 Width: 654
 GlyphClass: 2
 Flags: W
-TtfInstrs: 59
-5nO)\!'L<E!$hOh!!N?H!#Yb>!!<3&!!3-=!(Hqh!"JuuFtYckFoX`C4?jWE!AQ:>!)<M(!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 62
+ 61
+ 60
+ 36
+ 35
+ 5
+ 34
+ 25
+ 4
+ 3
+ 2
+ 2
+ 26
+ 70
+ 1
+ 14
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 78
+ 14
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 227 550 m 1,0,1
  227 591 227 591 256.5 620.5 c 128,-1,2
  286 650 286 650 327 650 c 256,3,4
@@ -1673,16 +3612,56 @@ Fore
  467 90 l 1,65,66
 EndSplineSet
 EndChar
+
 StartChar: u0B85
 Encoding: 2949 2949 53
 Width: 926
 GlyphClass: 2
 Flags: W
-TtfInstrs: 56
-5n<r=!$D7U!#GVN!!3-8!'($$!$2+L!(Hqh!#,E&FtYckFoX`h58QFH497/j\c>8$'EA:e
-EndTtf
+TtInstrs:
+NPUSHW
+ 15
+ 33
+ 32
+ 20
+ 23
+ 22
+ 2
+ 21
+ 57
+ 31
+ 30
+ 13
+ 70
+ 1
+ 20
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 72
+ 20
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 468 420 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 21 90 m 1,0,1
  21 115 21 115 41.5 132.5 c 128,-1,2
  62 150 62 150 91 150 c 2,3,-1
@@ -1740,17 +3719,59 @@ Fore
  71 90 l 1,58,59
 EndSplineSet
 EndChar
+
 StartChar: u0B86
 Encoding: 2950 2950 54
 Width: 1054
 GlyphClass: 2
 Flags: W
-TtfInstrs: 61
-5nO)H!%@mL!%7h.!#GVN!!3-8!'($$!$2+L!(Hqh!#,E&FtYckFoX`h58QFH(H_^Q0Y.7%!#,D:
-.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 42
+ 41
+ 2
+ 40
+ 58
+ 23
+ 22
+ 2
+ 21
+ 57
+ 31
+ 30
+ 13
+ 70
+ 1
+ 20
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 110
+ 20
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 521 437 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 21 100 m 1,0,1
  21 121 21 121 38.5 135.5 c 128,-1,2
  56 150 56 150 81 150 c 2,3,-1
@@ -1834,17 +3855,62 @@ Fore
  71 90 l 1,96,97
 EndSplineSet
 EndChar
+
 StartChar: u0B87
 Encoding: 2951 2951 55
 Width: 811
 GlyphClass: 2
 Flags: W
-TtfInstrs: 67
-5nj;r!)NYk!)!;a!!N?o!':/s!#>P9!#5JP!#knV!!*'h!!*'A!(M,b2]-]<5<M.H4?jWE!AQ:>
-!.+\f!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 81
+ 80
+ 79
+ 75
+ 74
+ 5
+ 73
+ 59
+ 23
+ 22
+ 2
+ 21
+ 26
+ 27
+ 26
+ 1
+ 70
+ 1
+ 31
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 123
+ 31
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 415 667 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 266 270 m 1,0,1
  266 241 266 241 283.5 220.5 c 128,-1,2
  301 200 301 200 326 200 c 256,3,4
@@ -1937,16 +4003,55 @@ Fore
  376 -155 l 1,110,111
 EndSplineSet
 EndChar
+
 StartChar: u0B88
 Encoding: 2952 2952 56
 Width: 588
 GlyphClass: 2
 Flags: W
-TtfInstrs: 55
-5n<r%!!iQ.!!<3(!!*',!!*'$!!!!.!(Hqh!!!!gFtYckFoX`C4?jWE!AQ:>!$qUF!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 15
+ 9
+ 8
+ 5
+ 3
+ 4
+ 1
+ 10
+ 1
+ 2
+ 0
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 37
+ 0
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 322 412 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  575 400 l 1,1,-1
  575 360 l 1,2,-1
@@ -1981,16 +4086,54 @@ Fore
  195 200 l 1,24,25
 EndSplineSet
 EndChar
+
 StartChar: u0B89
 Encoding: 2953 2953 57
 Width: 756
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l,!"],3!"T&i!$M=b!!3-B!!*'h!!*'1!(M,b2]-]<58QFH(H_^Q0Y.6D!"T&5.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 17
+ 16
+ 2
+ 15
+ 57
+ 33
+ 32
+ 2
+ 31
+ 1
+ 70
+ 1
+ 15
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 56
+ 15
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 385 425 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 88 280 m 1,0,1
  88 259 88 259 102.5 244.5 c 128,-1,2
  117 230 117 230 138 230 c 256,3,4
@@ -2035,17 +4178,62 @@ Fore
  48 290 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: u0B8A
 Encoding: 2954 2954 58
 Width: 1049
 GlyphClass: 2
 Flags: W
-TtfInstrs: 67
-5nj;j!([)[!$2+\!!N?B!'($3!%e0P!%\*N!)3Ge!"Aot!!*'1!(M,b2]-]<5<M.H4?jWE!AQ:>
-!,;KE!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 73
+ 72
+ 71
+ 30
+ 29
+ 5
+ 28
+ 57
+ 46
+ 45
+ 2
+ 44
+ 1
+ 77
+ 76
+ 13
+ 70
+ 1
+ 15
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 106
+ 15
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 518 419 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 88 280 m 1,0,1
  88 259 88 259 102.5 244.5 c 128,-1,2
  117 230 117 230 138 230 c 256,3,4
@@ -2130,17 +4318,59 @@ Fore
  478 240 l 1,69,70
 EndSplineSet
 EndChar
+
 StartChar: u0B8E
 Encoding: 2958 2958 59
 Width: 650
 GlyphClass: 2
 Flags: W
-TtfInstrs: 61
-5nO)?!$D7C!$;1Y!%S%!!!*'I!%%[I!$qUS!(Hqh!"AotFtYckFoX`C4?kqm(H_^Q0Y.69!"Ao3
-.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 33
+ 32
+ 2
+ 31
+ 25
+ 43
+ 42
+ 1
+ 39
+ 38
+ 2
+ 37
+ 13
+ 70
+ 1
+ 13
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 45
+ 13
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 354 412 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 174 110 m 1,0,1
  174 77 174 77 191.5 53.5 c 128,-1,2
  209 30 209 30 234 30 c 256,3,4
@@ -2178,16 +4408,52 @@ Fore
  454 360 l 1,13,-1
 EndSplineSet
 EndChar
+
 StartChar: u0B8F
 Encoding: 2959 2959 60
 Width: 649
 GlyphClass: 2
 Flags: W
-TtfInstrs: 50
-5n*fG!%.ar!!*'I!%%[I!$qUS!(Hqh!"AotFtYckFoX`C4?l%20eg0=1B7ja"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 13
+ 45
+ 39
+ 42
+ 1
+ 39
+ 38
+ 2
+ 37
+ 13
+ 70
+ 1
+ 13
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 51
+ 13
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 358 412 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 173 110 m 1,0,1
  173 77 173 77 190.5 53.5 c 128,-1,2
  208 30 208 30 233 30 c 256,3,4
@@ -2229,17 +4495,60 @@ Fore
  453 360 l 1,13,-1
 EndSplineSet
 EndChar
+
 StartChar: u0B90
 Encoding: 2960 2960 61
 Width: 669
 GlyphClass: 2
 Flags: W
-TtfInstrs: 65
-5nj<!!)rqs!)ESi!!N?s!'C64!%S%!!%%[l!!N?J!'($K!!*'E!(M,b2]-]<58QFH(H_^Q0Y.6q
-!$_II.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 85
+ 84
+ 83
+ 79
+ 78
+ 5
+ 77
+ 60
+ 44
+ 43
+ 42
+ 38
+ 37
+ 5
+ 36
+ 57
+ 70
+ 1
+ 35
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 101
+ 35
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 344 410 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 33 -60 m 1,0,1
  33 6 33 6 77 53 c 128,-1,2
  121 100 121 100 183 100 c 2,3,-1
@@ -2315,16 +4624,54 @@ Fore
  83 240 l 1,88,89
 EndSplineSet
 EndChar
+
 StartChar: u0B92
 Encoding: 2962 2962 62
 Width: 698
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l:!$2+A!$)&$!!E9(!!3-%!'L<O!!*'E!(M,b2]-]<58QFH(H_^Q0Y.6o!$_II.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 31
+ 30
+ 2
+ 29
+ 59
+ 4
+ 3
+ 2
+ 2
+ 61
+ 70
+ 1
+ 35
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 99
+ 35
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 348 422 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 40 150 m 1,0,1
  40 262 40 262 128 341 c 128,-1,2
  216 420 216 420 340 420 c 0,3,4
@@ -2397,16 +4744,54 @@ Fore
  140 120 l 1,86,87
 EndSplineSet
 EndChar
+
 StartChar: u0B93
 Encoding: 2963 2963 63
 Width: 699
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l:!$2+A!$)&$!!E9(!!3-%!'L<O!!*'E!(M,b2]-]<58QFH(H_^Q0Y.7)!$_II.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 31
+ 30
+ 2
+ 29
+ 59
+ 4
+ 3
+ 2
+ 2
+ 61
+ 70
+ 1
+ 35
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 114
+ 35
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 340 430 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 41 170 m 1,0,1
  41 274 41 274 129 347 c 128,-1,2
  217 420 217 420 341 420 c 0,3,4
@@ -2490,17 +4875,71 @@ Fore
  181 -140 l 1,101,102
 EndSplineSet
 EndChar
+
 StartChar: u0B94
 Encoding: 2964 2964 64
 Width: 1421
 GlyphClass: 2
 Flags: W
-TtfInstrs: 81
-5oBYE!$2+A!$)&$!!E9(!!3-%!'L=-!-eKd!!<4C!!*(f!-%u?!,qoI!(Hqh!$;21FtYckFoX`C
-4?jWE58QFH(H_^Q0Y.7Q!$;1E.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 31
+ 30
+ 2
+ 29
+ 59
+ 4
+ 3
+ 2
+ 2
+ 61
+ 121
+ 120
+ 117
+ 3
+ 116
+ 1
+ 153
+ 113
+ 2
+ 112
+ 13
+ 70
+ 1
+ 31
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 154
+ 31
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 715 418 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 40 150 m 1,0,1
  40 262 40 262 128 341 c 128,-1,2
  216 420 216 420 340 420 c 0,3,4
@@ -2616,17 +5055,60 @@ Fore
  1065 400 l 1,112,-1
 EndSplineSet
 EndChar
+
 StartChar: u0B95
 Encoding: 2965 2965 65
 Width: 533
 GlyphClass: 2
 Flags: W
-TtfInstrs: 64
-5na5O!%n7'!$)%Z!!N?A!#YbY!!*'W!"o85!"f2?!(Hqh!#ko-FtYckFoX`C4?l%H497/j\c=Vg
-)ZU$l
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 47
+ 46
+ 45
+ 29
+ 28
+ 5
+ 27
+ 25
+ 31
+ 1
+ 53
+ 18
+ 2
+ 17
+ 13
+ 70
+ 1
+ 27
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 54
+ 27
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 268 402 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -2674,16 +5156,56 @@ Fore
  128 400 l 1,17,-1
 EndSplineSet
 EndChar
+
 StartChar: u0B99
 Encoding: 2969 2969 66
 Width: 730
 GlyphClass: 2
 Flags: W
-TtfInstrs: 57
-5nF#@!$VCS!!<33!!*'C!$D7S!!<35!"Aot!!*'"!(M,b2]-]<58QFH(H_^Q0Y.61!!!!&.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 16
+ 35
+ 34
+ 16
+ 3
+ 15
+ 1
+ 33
+ 32
+ 18
+ 3
+ 17
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 37
+ 0
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 365 400 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 245 40 m 1,0,-1
  355 40 l 2,1,2
  392 40 392 40 418.5 66.5 c 128,-1,3
@@ -2718,16 +5240,54 @@ Fore
  245 40 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0B9A
 Encoding: 2970 2970 67
 Width: 462
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l8!#tt?!#knU!$_IV!!3-4!"Aot!!*'7!(M,b2]-]<58QFH(H_^Q0Y.60!#5J;.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 29
+ 28
+ 2
+ 27
+ 25
+ 35
+ 18
+ 2
+ 17
+ 13
+ 70
+ 1
+ 21
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 36
+ 21
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 244 403 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -2763,17 +5323,65 @@ Fore
  128 400 l 1,17,-1
 EndSplineSet
 EndChar
+
 StartChar: u0B9C
 Encoding: 2972 2972 68
 Width: 695
 GlyphClass: 2
 Flags: W
-TtfInstrs: 72
-5o'GM!%@mL!%7h2!+c.@!+Q!@!"],6!"T&i!$hOh!!3-E!!*'h!!*'7!(M,b2]-]<58QFH(Hanu
-497/j\c?CD'`\Cf
-EndTtf
+TtInstrs:
+NPUSHW
+ 22
+ 42
+ 41
+ 2
+ 40
+ 62
+ 101
+ 100
+ 99
+ 17
+ 16
+ 5
+ 15
+ 57
+ 36
+ 35
+ 2
+ 34
+ 1
+ 70
+ 1
+ 21
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 104
+ 21
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 352 408 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 82 200 m 1,0,1
  82 175 82 175 102.5 157.5 c 128,-1,2
  123 140 123 140 152 140 c 0,3,4
@@ -2850,17 +5458,60 @@ Fore
  357 320 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: u0B9E
 Encoding: 2974 2974 69
 Width: 895
 GlyphClass: 2
 Flags: W
-TtfInstrs: 63
-5nX/i!(d.l!([)S!$VCd!!*'_!'C6C!!<34!"Aot!!*'7!(M,b2]-]<58QFH4?jWE!AQ:>!)3G.
-!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 74
+ 73
+ 2
+ 72
+ 63
+ 34
+ 33
+ 1
+ 61
+ 60
+ 59
+ 3
+ 16
+ 13
+ 70
+ 1
+ 21
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 77
+ 21
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 465 411 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 309 110 m 1,0,1
  309 77 309 77 329.5 53.5 c 128,-1,2
  350 30 350 30 379 30 c 256,3,4
@@ -2920,16 +5571,51 @@ Fore
  59 160 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: u0B9F
 Encoding: 2975 2975 70
 Width: 663
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!_t!!N?(!!!!"!!3-$!"Aot!!*'"!(M,b2]-]<5<M.H497/j\c;s8!!!0Q
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 6
+ 5
+ 2
+ 0
+ 1
+ 2
+ 1
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 7
+ 0
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 344 408 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 75 0 m 1,0,-1
  75 400 l 1,1,-1
  125 400 l 1,2,-1
@@ -2940,17 +5626,76 @@ Fore
  75 0 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BA3
 Encoding: 2979 2979 71
 Width: 1060
 GlyphClass: 2
 Flags: W
-TtfInstrs: 92
-5p$)K!-8-\!*K;(!*9.j!(Hqo!(?l*!&4I-!&"=&!%IsP!%@n.!':0A!!*'Y!&afY!&X`c!(Hqh
-!%n7@FtYckFoX`C4?kqm(Hanu497/j\c?pS/cZ&*
-EndTtf
+TtInstrs:
+NPUSHW
+ 31
+ 116
+ 115
+ 114
+ 89
+ 88
+ 87
+ 71
+ 70
+ 8
+ 69
+ 25
+ 49
+ 48
+ 47
+ 43
+ 42
+ 5
+ 41
+ 57
+ 59
+ 58
+ 1
+ 55
+ 54
+ 2
+ 53
+ 13
+ 70
+ 1
+ 46
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 119
+ 46
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 549 420 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 154 110 m 1,0,1
  154 77 154 77 171.5 53.5 c 128,-1,2
  189 30 189 30 214 30 c 256,3,4
@@ -3040,16 +5785,49 @@ Fore
  44 170 l 1,39,40
 EndSplineSet
 EndChar
+
 StartChar: u0BA4
 Encoding: 2980 2980 72
 Width: 543
 GlyphClass: 2
 Flags: W
-TtfInstrs: 45
-5mmZ<!'gNI!"o85!"f2?!(Hqh!#GW)FtYckFoX`C4?ij$0Y.6J!#GV=.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 11
+ 36
+ 64
+ 61
+ 18
+ 2
+ 17
+ 13
+ 70
+ 1
+ 23
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 62
+ 23
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 262 400 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 178 360 m 1,0,-1
  178 220 l 1,1,-1
  278 220 l 1,2,-1
@@ -3103,17 +5881,58 @@ Fore
  128 400 l 1,17,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BA8
 Encoding: 2984 2984 73
 Width: 535
 GlyphClass: 2
 Flags: W
-TtfInstrs: 60
-5nO)3!'pT8!%Isr!!<3J!!*'N!!*'$!!!!.!(Hqh!"8isFtYckFoX`C4?jWE563Jm\c=;^$igG]
-
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 21
+ 65
+ 43
+ 42
+ 39
+ 3
+ 38
+ 1
+ 44
+ 1
+ 2
+ 0
+ 13
+ 70
+ 1
+ 12
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 45
+ 12
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 252 406 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  435 400 l 1,1,-1
  435 360 l 1,2,-1
@@ -3152,17 +5971,71 @@ Fore
  75 400 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BA9
 Encoding: 2985 2985 74
 Width: 808
 GlyphClass: 2
 Flags: W
-TtfInstrs: 82
-5oK_m!(?lU!%S%!!!N?O!#Yc1!)!:n!(m5O!$;1^!!*'s!)NY7!!<3>!"Aot!!*'.!(M,b2]-]<
-58QFH4?jWE58QE_0eg0=;?.+*"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 26
+ 70
+ 69
+ 68
+ 43
+ 42
+ 5
+ 41
+ 25
+ 76
+ 75
+ 2
+ 74
+ 57
+ 31
+ 30
+ 1
+ 81
+ 80
+ 27
+ 3
+ 26
+ 13
+ 70
+ 1
+ 12
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 82
+ 12
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 422 412 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 152 110 m 1,0,1
  152 77 152 77 172.5 53.5 c 128,-1,2
  193 30 193 30 222 30 c 256,3,4
@@ -3226,16 +6099,52 @@ Fore
  592 400 l 1,26,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BAA
 Encoding: 2986 2986 75
 Width: 620
 GlyphClass: 2
 Flags: W
-TtfInstrs: 50
-5n*es!!<3%!!WE,!!3-&!!*'/!(Hqh!!!!gFtYckFoX`C4?kq/0eg0=#ljr*"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 13
+ 4
+ 3
+ 1
+ 6
+ 5
+ 2
+ 3
+ 1
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 9
+ 0
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 304 402 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 495 40 m 1,0,-1
  495 400 l 1,1,-1
  545 400 l 1,2,-1
@@ -3248,17 +6157,60 @@ Fore
  495 40 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BAE
 Encoding: 2990 2990 76
 Width: 671
 GlyphClass: 2
 Flags: W
-TtfInstrs: 63
-5nX/:!#bhH!!<30!'(#m!"o85!"f23!#5JJ!"Aot!!*'.!(M,b2]-]<5<M.H4?jWE!AQ:>!#ttI
-!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 27
+ 26
+ 13
+ 3
+ 12
+ 57
+ 19
+ 18
+ 2
+ 17
+ 1
+ 21
+ 20
+ 13
+ 70
+ 1
+ 12
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 28
+ 12
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 354 416 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 365 300 m 1,0,-1
  365 40 l 1,1,-1
  505 40 l 2,2,3
@@ -3285,17 +6237,62 @@ Fore
  425 410 l 1,12,13
 EndSplineSet
 EndChar
+
 StartChar: u0BAF
 Encoding: 2991 2991 77
 Width: 715
 GlyphClass: 2
 Flags: W
-TtfInstrs: 67
-5nj;*!!iQ+!!`KA!!E9(!!*'8!#5JC!"8i/!!N?'!"Aot!!*')!(M,b2]-]<58QFH4?jWE!AQ:>
-!#YbA!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 9
+ 8
+ 2
+ 7
+ 25
+ 4
+ 3
+ 1
+ 22
+ 21
+ 13
+ 12
+ 2
+ 5
+ 1
+ 13
+ 70
+ 1
+ 7
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 25
+ 7
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 345 397 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 590 40 m 1,0,-1
  590 400 l 1,1,-1
  640 400 l 1,2,-1
@@ -3320,16 +6317,57 @@ Fore
  590 40 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BB0
 Encoding: 2992 2992 78
 Width: 431
 GlyphClass: 2
 Flags: W
-TtfInstrs: 58
-5nF#$!%\*\!"Ju1!!E9&!"],2!!3-#!"Aot!!*')!(M,b2]-]<58QFH(Han_0eg0=&HE%9"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 16
+ 7
+ 44
+ 15
+ 14
+ 2
+ 4
+ 1
+ 16
+ 1
+ 2
+ 0
+ 13
+ 70
+ 1
+ 7
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 17
+ 7
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 252 403 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  425 400 l 1,1,-1
  425 360 l 1,2,-1
@@ -3348,17 +6386,61 @@ Fore
  75 400 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BB1
 Encoding: 2993 2993 79
 Width: 567
 GlyphClass: 2
 Flags: W
-TtfInstrs: 66
-5nj;5!##>>!!rW2!!E9(!!N?(!'($4!%n6u!!<3I!!*'h!!*'+!(M,b2]-]<58QFH(Han_0eg0=
-0`VL["Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 20
+ 19
+ 10
+ 9
+ 8
+ 4
+ 3
+ 5
+ 2
+ 57
+ 47
+ 46
+ 38
+ 3
+ 37
+ 1
+ 70
+ 1
+ 9
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 49
+ 9
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 274 414 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 72 300 m 1,0,1
  72 346 72 346 104 378 c 128,-1,2
  136 410 136 410 182 410 c 0,3,4
@@ -3398,16 +6480,55 @@ Fore
  72 300 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0BB2
 Encoding: 2994 2994 80
 Width: 692
 GlyphClass: 2
 Flags: W
-TtfInstrs: 56
-5nF#N!&+C+!#P\P!!N?<!#YbK!($Ys!"Aot!!*'+!(M,b2]-]<5<h@K497/j\c>"r#lk,Z
-EndTtf
+TtInstrs:
+NPUSHW
+ 16
+ 49
+ 48
+ 47
+ 24
+ 23
+ 5
+ 22
+ 25
+ 17
+ 66
+ 16
+ 13
+ 70
+ 1
+ 9
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 65
+ 9
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 344 434 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 154 100 m 1,0,1
  154 71 154 71 171.5 50.5 c 128,-1,2
  189 30 189 30 214 30 c 256,3,4
@@ -3457,17 +6578,71 @@ Fore
  594 220 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: u0BB3
 Encoding: 2995 2995 81
 Width: 752
 GlyphClass: 2
 Flags: W
-TtfInstrs: 81
-5oBYS!%\*O!%S$e!&FU1!!3-T!'(#p!#5JH!!<35!!*'X!"Ju1!"Ao;!(Hqh!!rWpFtYckFoX`C
-4?jWE58QFH(H_^Q0Y.6C!!rW/.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 45
+ 44
+ 2
+ 43
+ 25
+ 51
+ 50
+ 2
+ 49
+ 57
+ 22
+ 21
+ 18
+ 3
+ 17
+ 1
+ 54
+ 14
+ 2
+ 13
+ 13
+ 70
+ 1
+ 9
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 55
+ 9
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 392 415 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 166 120 m 1,0,1
  166 87 166 87 183.5 63.5 c 128,-1,2
  201 40 201 40 226 40 c 256,3,4
@@ -3513,17 +6688,70 @@ Fore
  396 400 l 1,13,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BB4
 Encoding: 2996 2996 82
 Width: 671
 GlyphClass: 2
 Flags: W
-TtfInstrs: 80
-5oBYF!$;1B!$2,+!'gNK!"Ao1!"8if!&ss;!##>F!!E96!!*'\!'(#g!(Hqh!!rWpFtYckFoX`h
-58QFH(Hanu497/j\c>"r#lk,Z
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 32
+ 31
+ 2
+ 30
+ 65
+ 64
+ 63
+ 13
+ 3
+ 12
+ 57
+ 56
+ 55
+ 19
+ 18
+ 4
+ 17
+ 1
+ 58
+ 57
+ 13
+ 70
+ 1
+ 9
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 65
+ 9
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 350 416 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 365 300 m 1,0,-1
  365 40 l 1,1,-1
  505 40 l 2,2,3
@@ -3577,17 +6805,64 @@ Fore
  425 410 l 1,12,13
 EndSplineSet
 EndChar
+
 StartChar: u0BB5
 Encoding: 2997 2997 83
 Width: 798
 GlyphClass: 2
 Flags: W
-TtfInstrs: 69
-5nj;L!%IsM!%@mc!&4I-!!3-R!'(#k!"],2!"T&>!"Aot!!*'5!(M,b2]-]<5<M.m58QFH(H_^Q
-0Y.6D!##>9.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 43
+ 42
+ 2
+ 41
+ 25
+ 49
+ 48
+ 2
+ 47
+ 57
+ 17
+ 16
+ 1
+ 15
+ 14
+ 13
+ 70
+ 1
+ 19
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 56
+ 19
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 392 417 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 163 110 m 1,0,1
  163 77 163 77 183.5 53.5 c 128,-1,2
  204 30 204 30 233 30 c 0,3,4
@@ -3632,13 +6907,16 @@ Fore
  673 40 l 1,13,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BB6
 Encoding: 2998 2998 84
 Width: 855
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-0" 420 405 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 562 360 m 1,0,-1
  562 104 l 2,1,2
  562 40 562 40 645 40 c 128,-1,3
@@ -3663,17 +6941,69 @@ Fore
  294 400 l 1,6,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BB7
 Encoding: 2999 2999 85
 Width: 933
 GlyphClass: 2
 Flags: W
-TtfInstrs: 78
-5o9SS!%e13!)NYk!!3-q!'($5!&"='!!<3O!!*(-!+,^N!!<3F!"Aot!!*'5!(M,b2]-]<58QFH
-(Hanu4?kq/0eg0=@/pr@"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 24
+ 46
+ 45
+ 58
+ 80
+ 79
+ 2
+ 78
+ 57
+ 48
+ 47
+ 44
+ 3
+ 43
+ 1
+ 96
+ 95
+ 35
+ 3
+ 34
+ 13
+ 70
+ 1
+ 19
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 97
+ 19
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 501 408 mark 0
+LayerCount: 2
 Fore
+SplineSet
 165 110 m 1,0,1
  165 77 165 77 182.5 53.5 c 128,-1,2
  200 30 200 30 225 30 c 0,3,4
@@ -3751,17 +7081,60 @@ Fore
  655 400 l 1,34,35
 EndSplineSet
 EndChar
+
 StartChar: u0BB8
 Encoding: 3000 3000 86
 Width: 895
 GlyphClass: 2
 Flags: W
-TtfInstrs: 64
-5na5m!)*Ac!%S%!!!N?O!#Yb^!($ZD!&X`W!$qUU!(Hqh!##?%FtYckFo_J*4?l%H497/j\c>P,
-'*&1d
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 77
+ 76
+ 75
+ 43
+ 42
+ 5
+ 41
+ 25
+ 36
+ 66
+ 54
+ 53
+ 1
+ 37
+ 15
+ 70
+ 1
+ 19
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIRP[rp0,min,rnd,black]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 80
+ 19
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 438 435 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 175 110 m 1,0,1
  175 77 175 77 192.5 53.5 c 128,-1,2
  210 30 210 30 235 30 c 256,3,4
@@ -3822,17 +7195,64 @@ Fore
  45 180 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: u0BB9
 Encoding: 3001 3001 87
 Width: 1021
 GlyphClass: 2
 Flags: W
-TtfInstrs: 72
-5o0MB!'1*j!+Q"<!*K;(!*9.4!"],9!"T&i!'($=!&+BT!&"<Q!(Hqh!##?%FtYckFoX`C4?jWE
-563Jm\c?@C'*&1d
-EndTtf
+TtInstrs:
+NPUSHW
+ 23
+ 30
+ 58
+ 100
+ 99
+ 98
+ 89
+ 88
+ 87
+ 17
+ 16
+ 8
+ 15
+ 57
+ 57
+ 56
+ 48
+ 3
+ 47
+ 1
+ 70
+ 1
+ 19
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 103
+ 19
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 495 414 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 167 110 m 1,0,1
  167 77 167 77 187.5 53.5 c 128,-1,2
  208 30 208 30 237 30 c 256,3,4
@@ -3910,15 +7330,54 @@ Fore
  717 370 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: u0BBE
 Encoding: 3006 3006 88
 Width: 436
 GlyphClass: 2
 Flags: W
-TtfInstrs: 55
-5n<r%!!iQ.!!<3(!!*',!!*'$!!!!.!(Hqh!!!!gFtYckFoX`C4?jWE!AQ:>!"/c,!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 15
+ 9
+ 8
+ 5
+ 3
+ 4
+ 1
+ 10
+ 1
+ 2
+ 0
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 11
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  430 400 l 1,1,-1
  430 360 l 1,2,-1
@@ -3933,15 +7392,55 @@ Fore
  75 400 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BBF
 Encoding: 3007 3007 89
 Width: 540
 GlyphClass: 2
 Flags: W
-TtfInstrs: 56
-5n<qu!!<3&!!3-f!!iQ0!!*'5!"o8@!(Hqh!!!!gFtYckFoX`h5<M.H497/j\c<NH!!!0Q
-EndTtf
+TtInstrs:
+NPUSHW
+ 15
+ 4
+ 3
+ 2
+ 2
+ 67
+ 8
+ 7
+ 1
+ 19
+ 18
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 23
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 490 m 1,0,1
  75 560 75 560 133.5 610 c 128,-1,2
  192 660 192 660 275 660 c 0,3,4
@@ -3962,15 +7461,50 @@ Fore
  75 490 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0BC0
 Encoding: 3008 3008 90
 Width: 450
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!_r!!<3&!!3-g!#>PL!"Aot!!*'"!(M,b2]-]<5<M.H497/j\c=)X!!!0Q
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 4
+ 3
+ 2
+ 2
+ 68
+ 22
+ 21
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 39
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 550 m 1,0,1
  75 608 75 608 122 649 c 128,-1,2
  169 690 169 690 235 690 c 0,3,4
@@ -4002,16 +7536,54 @@ Fore
  225 580 l 1,26,27
 EndSplineSet
 EndChar
+
 StartChar: u0BC1
 Encoding: 3009 3009 91
 Width: 433
 GlyphClass: 4
 Flags: W
-TtfInstrs: 53
-5n3l$!!iQ+!!`Km!!<3&!!3-$!"Aot!!*'#!(M,b2]-]<58QFH(H_^Q0Y.6&!!*''.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 9
+ 8
+ 2
+ 7
+ 69
+ 3
+ 2
+ 2
+ 1
+ 13
+ 70
+ 1
+ 1
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 26
+ 1
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 66 0 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -169 360 m 1,0,-1
  -169 400 l 1,1,-1
  271 400 l 2,2,3
@@ -4036,17 +7608,65 @@ Fore
  191 270 l 1,14,15
 EndSplineSet
 EndChar
+
 StartChar: u0BC2
 Encoding: 3010 3010 92
 Width: 632
 GlyphClass: 4
 Flags: W
-TtfInstrs: 72
-5o'G/!"/c.!"&]q!!WE,!!3-'!!rWR!$2+\!#tt>!!N?&!"Aot!!*'#!(M,b2]-]<58QFH(Hanu
-497/j\c=Pe!<<9R
-EndTtf
+TtInstrs:
+NPUSHW
+ 22
+ 12
+ 11
+ 2
+ 10
+ 70
+ 6
+ 5
+ 2
+ 4
+ 9
+ 40
+ 30
+ 29
+ 28
+ 1
+ 5
+ 0
+ 13
+ 70
+ 1
+ 1
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 52
+ 1
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 18 0 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -169 400 m 1,0,-1
  101 400 l 1,1,-1
  101 440 l 2,2,3
@@ -4089,16 +7709,58 @@ Fore
  156 360 l 1,41,42
 EndSplineSet
 EndChar
+
 StartChar: u0BC6
 Encoding: 3014 3014 93
 Width: 649
 GlyphClass: 2
 Flags: W
-TtfInstrs: 61
-5nO)J!%S$N!%Isd!"f2B!!3-2!(-`$!#,D6!(Hqh!!*'hFtYckFoX`h58QFH(H_^Q0Y.6;!!*''
-.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 44
+ 43
+ 2
+ 42
+ 25
+ 17
+ 16
+ 2
+ 15
+ 67
+ 21
+ 20
+ 1
+ 70
+ 1
+ 1
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 47
+ 1
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 264 125 m 1,0,1
  264 86 264 86 287.5 58 c 128,-1,2
  311 30 311 30 344 30 c 256,3,4
@@ -4136,15 +7798,53 @@ Fore
  44 310 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: u0BC7
 Encoding: 3015 3015 94
 Width: 592
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3lC!%.aJ!%%[`!!E9(!!3-%!#bi,!!*'0!(M,b2]-]<58QFH(H_^Q0Y.6Q!"Ju4.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 40
+ 39
+ 2
+ 38
+ 25
+ 4
+ 3
+ 2
+ 2
+ 26
+ 70
+ 1
+ 14
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 69
+ 14
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 41 330 m 1,0,1
  41 463 41 463 129 556.5 c 128,-1,2
  217 650 217 650 341 650 c 0,3,4
@@ -4197,16 +7897,60 @@ Fore
  381 150 l 1,56,57
 EndSplineSet
 EndChar
+
 StartChar: u0BC8
 Encoding: 3016 3016 95
 Width: 789
 GlyphClass: 2
 Flags: W
-TtfInstrs: 67
-5nsB"!)rqs!'1*?!&sr_!%@mc!$hOh!$VCa!$)%C!#tu!!(Hqh!"JuuFtYckFoX`C4?jWE!AQ:>
-!*B42!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 85
+ 84
+ 83
+ 58
+ 57
+ 56
+ 6
+ 41
+ 25
+ 36
+ 35
+ 34
+ 30
+ 29
+ 5
+ 28
+ 57
+ 70
+ 1
+ 14
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 88
+ 14
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 153 110 m 1,0,1
  153 77 153 77 170.5 53.5 c 128,-1,2
  188 30 188 30 213 30 c 0,3,4
@@ -4272,16 +8016,72 @@ Fore
  43 160 l 1,26,27
 EndSplineSet
 EndChar
+
 StartChar: u0BCA
 Encoding: 3018 3018 96
 Width: 1045
 GlyphClass: 2
 Flags: W
-TtfInstrs: 85
-5oTeT!%S$N!%Isd!"f2B!!3-2!(-`G!&jm7!&FTi!!N?:!!*'[!&+BS!&"<]!(Hqh!"JuuFtYck
-FoX`C4?jWE58QFH(H_^Q0Y.6F!"Ju4.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 27
+ 44
+ 43
+ 2
+ 42
+ 25
+ 17
+ 16
+ 2
+ 15
+ 67
+ 56
+ 55
+ 52
+ 51
+ 21
+ 5
+ 20
+ 1
+ 57
+ 48
+ 2
+ 47
+ 13
+ 70
+ 1
+ 14
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 58
+ 14
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 264 125 m 1,0,1
  264 86 264 86 287.5 58 c 128,-1,2
  311 30 311 30 344 30 c 256,3,4
@@ -4331,16 +8131,70 @@ Fore
  684 400 l 1,47,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BCB
 Encoding: 3019 3019 97
 Width: 992
 GlyphClass: 2
 Flags: W
-TtfInstrs: 81
-5oBYN!%.aJ!%%[`!!E9(!!3-%!#bi4!)3Gc!!<3m!!*'q!(Hqi!(?ks!(Hqh!"JuuFtYckFoX`C
-4?jWE58QFH(H_^Q0Y.6\!"Ju4.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 40
+ 39
+ 2
+ 38
+ 25
+ 4
+ 3
+ 2
+ 2
+ 26
+ 78
+ 77
+ 74
+ 3
+ 73
+ 1
+ 79
+ 70
+ 2
+ 69
+ 13
+ 70
+ 1
+ 14
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 80
+ 14
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 41 330 m 1,0,1
  41 463 41 463 129 556.5 c 128,-1,2
  217 650 217 650 341 650 c 0,3,4
@@ -4405,16 +8259,75 @@ Fore
  631 400 l 1,69,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BCC
 Encoding: 3020 3020 98
 Width: 1365
 GlyphClass: 2
 Flags: W
-TtfInstrs: 91
-5op#2!*]G,!%\+#!!N?P!#YbK!"],3!"T&s!(?lU!'pTM!#5J;!#,D6!+c-n!!3-_!"Aot!!*'0
-!(M,b2]-]<58QFH(Hanu4?jWE!AQ:>!+l3@!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 30
+ 92
+ 91
+ 90
+ 44
+ 43
+ 5
+ 42
+ 25
+ 17
+ 16
+ 2
+ 15
+ 67
+ 69
+ 68
+ 65
+ 64
+ 21
+ 5
+ 20
+ 1
+ 101
+ 61
+ 2
+ 60
+ 13
+ 70
+ 1
+ 14
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 102
+ 14
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 264 125 m 1,0,1
  264 86 264 86 287.5 58 c 128,-1,2
  311 30 311 30 344 30 c 256,3,4
@@ -4495,15 +8408,53 @@ Fore
  1009 400 l 1,60,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BCD
 Encoding: 3021 3021 99
 Width: 102
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l%!!rW,!!iQq!!E9(!!3-%!(R#Y!!*'&!(M,b2]-]<58QFH(H_^Q0Y.5n!!E9*.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 10
+ 9
+ 2
+ 8
+ 72
+ 4
+ 3
+ 2
+ 2
+ 71
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 13
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 -247 560 m 1,0,1
  -247 581 -247 581 -232.5 595.5 c 128,-1,2
  -218 610 -218 610 -197 610 c 256,3,4
@@ -4516,16 +8467,70 @@ Fore
  -247 560 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0BD7
 Encoding: 3031 3031 100
 Width: 752
 GlyphClass: 2
 Flags: W
-TtfInstrs: 81
-5oBYS!%\*O!%S$e!&FU1!!3-T!'(#p!#5JH!!<35!!*'X!"Ju1!"Ao;!(Hqh!!E9kFtYckFoX`C
-4?jWE58QFH(H_^Q0Y.6C!!E9*.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 45
+ 44
+ 2
+ 43
+ 25
+ 51
+ 50
+ 2
+ 49
+ 57
+ 22
+ 21
+ 18
+ 3
+ 17
+ 1
+ 54
+ 14
+ 2
+ 13
+ 13
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 55
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 166 120 m 1,0,1
  166 87 166 87 183.5 63.5 c 128,-1,2
  201 40 201 40 226 40 c 256,3,4
@@ -4571,16 +8576,59 @@ Fore
  396 400 l 1,13,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BE7
 Encoding: 3047 3047 101
 Width: 570
 GlyphClass: 2
 Flags: W
-TtfInstrs: 64
-5na5O!%n7'!$)%Z!!N?A!#YbY!!*'W!"o85!"f2?!(Hqh!!E9kFtYckFoX`C4?l%H497/j\c=Vg
-"98TU
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 47
+ 46
+ 45
+ 29
+ 28
+ 5
+ 27
+ 25
+ 31
+ 1
+ 53
+ 18
+ 2
+ 17
+ 13
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 54
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 200 220 m 1,0,-1
  300 220 l 1,1,-1
  300 360 l 1,2,-1
@@ -4628,15 +8676,53 @@ Fore
  150 400 l 1,17,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BE8
 Encoding: 3048 3048 102
 Width: 590
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l,!"],3!"T&i!$M=b!!3-B!!*'h!!*'&!(M,b2]-]<58QFH(H_^Q0Y.6D!!E9*.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 17
+ 16
+ 2
+ 15
+ 57
+ 33
+ 32
+ 2
+ 31
+ 1
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 56
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 280 m 1,0,1
  90 259 90 259 104.5 244.5 c 128,-1,2
  119 230 119 230 140 230 c 256,3,4
@@ -4681,15 +8767,52 @@ Fore
  50 290 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: u0BE9
 Encoding: 3049 3049 103
 Width: 635
 GlyphClass: 2
 Flags: W
-TtfInstrs: 52
-5n3l=!$M=S!"],5!!!!"!!3-$!"Aot!!*'&!(M,b2]-]<5<M.H497/j\c<rT"98TU
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 34
+ 33
+ 17
+ 16
+ 4
+ 0
+ 1
+ 2
+ 1
+ 13
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 35
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 50 0 m 1,0,-1
  50 400 l 1,1,-1
  410 400 l 1,2,-1
@@ -4722,15 +8845,53 @@ Fore
  50 0 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BEA
 Encoding: 3050 3050 104
 Width: 540
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3l:!$2+A!$)%W!$qUX!!3-4!"Aot!!*'&!(M,b2]-]<58QFH(H_^Q0Y.62!!E9*.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 31
+ 30
+ 2
+ 29
+ 25
+ 37
+ 18
+ 2
+ 17
+ 13
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 38
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 200 220 m 1,0,-1
  300 220 l 1,1,-1
  300 360 l 1,2,-1
@@ -4768,16 +8929,67 @@ Fore
  150 400 l 1,17,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BEB
 Encoding: 3051 3051 105
 Width: 730
 GlyphClass: 2
 Flags: W
-TtfInstrs: 76
-5o0MB!$)%@!#ttP!$hOh!!3-E!"Ju>!"Ju:!!<3.!!*'3!"],>!(Hqh!!E9kFtYckFoX`h58QFH
-(Hanu497/j\c=Gb"98TU
-EndTtf
+TtInstrs:
+NPUSHW
+ 23
+ 30
+ 29
+ 2
+ 28
+ 19
+ 36
+ 35
+ 2
+ 34
+ 14
+ 15
+ 14
+ 11
+ 3
+ 10
+ 1
+ 17
+ 16
+ 13
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 49
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 360 -180 m 1,0,1
  472 -180 472 -180 551 -98 c 128,-1,2
  630 -16 630 -16 630 100 c 0,3,4
@@ -4818,16 +9030,59 @@ Fore
  360 -180 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0BEC
 Encoding: 3052 3052 106
 Width: 675
 GlyphClass: 2
 Flags: W
-TtfInstrs: 63
-5nX/H!%7gK!%.aa!$VCd!$2+B!$)%?!#>PL!"Aot!!*'&!(M,b2]-]<5<M.H4?jWE!AQ:>!%\*Q
-!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 41
+ 40
+ 2
+ 39
+ 25
+ 34
+ 33
+ 30
+ 3
+ 29
+ 1
+ 22
+ 21
+ 13
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 44
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 200 360 m 1,0,-1
  200 220 l 1,1,-1
  300 220 l 1,2,-1
@@ -4871,16 +9126,58 @@ Fore
  50 130 l 1,17,18
 EndSplineSet
 EndChar
+
 StartChar: u0BED
 Encoding: 3053 3053 107
 Width: 625
 GlyphClass: 2
 Flags: W
-TtfInstrs: 61
-5nO)?!$D7C!$;1Y!%S%!!!*'I!%%[I!$qUS!(Hqh!!E9kFtYckFoX`C4?kqm(H_^Q0Y.69!!E9*
-.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 33
+ 32
+ 2
+ 31
+ 25
+ 43
+ 42
+ 1
+ 39
+ 38
+ 2
+ 37
+ 13
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 45
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 180 110 m 1,0,1
  180 77 180 77 197.5 53.5 c 128,-1,2
  215 30 215 30 240 30 c 256,3,4
@@ -4918,16 +9215,58 @@ Fore
  460 360 l 1,13,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BEE
 Encoding: 3054 3054 108
 Width: 830
 GlyphClass: 2
 Flags: W
-TtfInstrs: 61
-5nO)$!!N?(!!E9n!#>PL!!3-7!'($#!$)%K!(Hqh!!E9kFtYckFoX`h58QFH(H_^Q0Y.6V!!E9*
-.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 6
+ 5
+ 2
+ 4
+ 73
+ 22
+ 21
+ 2
+ 20
+ 57
+ 30
+ 29
+ 13
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 74
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 730 -50 m 1,0,-1
  730 110 l 1,1,-1
  630 110 l 1,2,3
@@ -4988,16 +9327,58 @@ Fore
  480 150 l 1,60,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BEF
 Encoding: 3055 3055 109
 Width: 770
 GlyphClass: 2
 Flags: W
-TtfInstrs: 62
-5nX/k!)!;a!'pTM!!N?e!#Ybk!&+BR!$_If!"Aot!!*'&!(M,b2]-]<5<M.m58QE_0eg0=:B1Lt
-"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 76
+ 75
+ 74
+ 65
+ 64
+ 5
+ 63
+ 25
+ 49
+ 48
+ 1
+ 35
+ 34
+ 13
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 79
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 200 220 m 1,0,-1
  300 220 l 1,1,-1
  300 360 l 1,2,-1
@@ -5063,15 +9444,56 @@ Fore
  50 130 l 1,30,31
 EndSplineSet
 EndChar
+
 StartChar: u0BF0
 Encoding: 3056 3056 110
 Width: 538
 GlyphClass: 2
 Flags: W
-TtfInstrs: 59
-5nO)C!$hOh!!E9(!!N?(!#YbY!$2+A!$)%K!(Hqh!!E9kFtYckFoX`C4?jWE!AQ:>!%7gM!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 37
+ 36
+ 35
+ 4
+ 3
+ 5
+ 2
+ 25
+ 31
+ 30
+ 2
+ 29
+ 13
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 40
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 253 40 m 1,0,1
  233 16 233 16 209.5 3 c 128,-1,2
  186 -10 186 -10 163 -10 c 0,3,4
@@ -5105,16 +9527,59 @@ Fore
  253 40 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0BF1
 Encoding: 3057 3057 111
 Width: 557
 GlyphClass: 2
 Flags: W
-TtfInstrs: 65
-5nj;>!#ttX!!E9(!!N?(!'(#r!#GVG!"Ju7!!N?-!!*'h!!*'&!(M,b2]-]<58QFH(H_^Q0Y.6,
-!!E9*.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 29
+ 28
+ 27
+ 4
+ 3
+ 5
+ 2
+ 57
+ 24
+ 23
+ 15
+ 14
+ 8
+ 5
+ 7
+ 1
+ 70
+ 1
+ 4
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 32
+ 4
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 272 360 m 1,0,1
  283 383 283 383 310 396.5 c 128,-1,2
  337 410 337 410 372 410 c 2,3,-1
@@ -5144,15 +9609,52 @@ Fore
  272 360 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0BF2
 Encoding: 3058 3058 112
 Width: 618
 GlyphClass: 2
 Flags: W
-TtfInstrs: 51
-5n*fE!%It2!'1*?!!*'8!#5JC!(Hqh!#ko-FtYckFoX`h5<M.m!AQ:>!(6f+!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 13
+ 43
+ 42
+ 60
+ 58
+ 57
+ 1
+ 22
+ 21
+ 13
+ 70
+ 1
+ 27
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 68
+ 27
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 360 m 1,0,-1
  178 220 l 1,1,-1
  278 220 l 1,2,-1
@@ -5212,16 +9714,58 @@ Fore
  28 130 l 1,17,18
 EndSplineSet
 EndChar
+
 StartChar: u0BF3
 Encoding: 3059 3059 113
 Width: 741
 GlyphClass: 2
 Flags: W
-TtfInstrs: 61
-5nO)Q!&=NU!&4Hk!"f2B!!3-2!'(#s!#P\:!(Hqh!!!!gFtYckFoX`h58QFH(H_^Q0Y.6B!!!!&
-.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 51
+ 50
+ 2
+ 49
+ 25
+ 17
+ 16
+ 2
+ 15
+ 57
+ 25
+ 24
+ 1
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 54
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 163 110 m 1,0,1
  163 77 163 77 183.5 53.5 c 128,-1,2
  204 30 204 30 233 30 c 0,3,4
@@ -5264,16 +9808,63 @@ Fore
  43 190 l 1,13,14
 EndSplineSet
 EndChar
+
 StartChar: u0BF4
 Encoding: 3060 3060 114
 Width: 864
 GlyphClass: 2
 Flags: W
-TtfInstrs: 70
-5nsA@!$)%W!#P\=!#GW-!)<Mg!!3-o!!*'r!)ERr!(R"u!(Hqh!#ko-FtYckFoX`C4?jWE58QE_
-0eg0=E<$pX"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 30
+ 29
+ 25
+ 24
+ 4
+ 23
+ 74
+ 78
+ 77
+ 2
+ 76
+ 1
+ 80
+ 79
+ 2
+ 71
+ 13
+ 70
+ 1
+ 27
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 113
+ 27
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 365 300 m 1,0,-1
  365 40 l 1,1,-1
  505 40 l 2,2,3
@@ -5360,16 +9951,74 @@ Fore
  750 560 l 1,100,101
 EndSplineSet
 EndChar
+
 StartChar: u0BF5
 Encoding: 3061 3061 115
 Width: 1465
 GlyphClass: 2
 Flags: W
-TtfInstrs: 89
-5ofqF!#kn>!#bi%!$VCd!!3-C!"K!+!)NYi!)*AN!&X`\!&OZV!&+C+!"T&3!"Ju<!(Hqh!"Juu
-FtYckFoX`C4?jWE58QFH(H_^Q0Y.7/!"Ju4.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 29
+ 28
+ 27
+ 2
+ 26
+ 63
+ 34
+ 33
+ 2
+ 32
+ 14
+ 81
+ 80
+ 77
+ 76
+ 54
+ 53
+ 6
+ 52
+ 1
+ 48
+ 47
+ 15
+ 3
+ 14
+ 13
+ 70
+ 1
+ 14
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 120
+ 14
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 314 110 m 1,0,1
  314 77 314 77 333.5 53.5 c 128,-1,2
  353 30 353 30 380 30 c 256,3,4
@@ -5460,16 +10109,57 @@ Fore
  756 40 l 1,13,-1
 EndSplineSet
 EndChar
+
 StartChar: u0BF6
 Encoding: 3062 3062 116
 Width: 644
 GlyphClass: 2
 Flags: W
-TtfInstrs: 61
-5nX/6!#>PL!!<38!':/k!"Ju:!"&]-!!N?'!"Aot!!*'0!(M,b2]-]<58QFH(H_^Q0Y.6>!"Ju4
-.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 23
+ 22
+ 21
+ 3
+ 20
+ 59
+ 15
+ 14
+ 11
+ 10
+ 2
+ 5
+ 1
+ 13
+ 70
+ 1
+ 14
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 50
+ 14
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 69 110 m 1,0,-1
  69 400 l 1,1,-1
  119 400 l 1,2,-1
@@ -5514,16 +10204,62 @@ Fore
  114 -150 l 1,37,38
 EndSplineSet
 EndChar
+
 StartChar: u0BF7
 Encoding: 3063 3063 117
 Width: 1087
 GlyphClass: 2
 Flags: W
-TtfInstrs: 68
-5nj;t!)`du!)W_6!'UBG!$_IG!$VCD!"f2B!!3-2!"Aot!!*'G!(M,b2]-]<58QFH(Hanu497/j
-\c?4?,le*!
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 83
+ 82
+ 2
+ 81
+ 25
+ 62
+ 61
+ 35
+ 3
+ 34
+ 1
+ 17
+ 16
+ 2
+ 15
+ 13
+ 70
+ 1
+ 37
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 99
+ 37
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 174 110 m 1,0,1
  174 77 174 77 191.5 53.5 c 128,-1,2
  209 30 209 30 234 30 c 256,3,4
@@ -5600,16 +10336,62 @@ Fore
  609 152 l 1,86,87
 EndSplineSet
 EndChar
+
 StartChar: u0BF8
 Encoding: 3064 3064 118
 Width: 1298
 GlyphClass: 2
 Flags: W
-TtfInstrs: 69
-5nsAA!$2,$!!E9(!!3-%!$M=t!&4I-!$M=b!$)%D!#tt>!(Hqh!$qV7FtYckFoX`C4?jWE5<Js$
-0Y.7'!$qUK.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 31
+ 30
+ 58
+ 4
+ 3
+ 2
+ 2
+ 33
+ 50
+ 49
+ 48
+ 33
+ 32
+ 29
+ 6
+ 28
+ 1
+ 70
+ 1
+ 37
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 112
+ 37
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 50 250 m 1,0,1
  50 374 50 374 138 462 c 128,-1,2
  226 550 226 550 350 550 c 0,3,4
@@ -5696,16 +10478,70 @@ Fore
  960 170 l 1,101,102
 EndSplineSet
 EndChar
+
 StartChar: u0BF9
 Encoding: 3065 3065 119
 Width: 1002
 GlyphClass: 2
 Flags: W
-TtfInstrs: 81
-5oBYD!$)%@!#ttP!$hOh!!3-E!"Ju>!"Ju:!!<3.!!*'H!"f24!"],>!(Hqh!!!!gFtYckFoX`C
-4?jWE58QFH(H_^Q0Y.6L!!!!&.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 30
+ 29
+ 2
+ 28
+ 19
+ 36
+ 35
+ 2
+ 34
+ 14
+ 15
+ 14
+ 11
+ 3
+ 10
+ 1
+ 38
+ 17
+ 2
+ 16
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 64
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 372 -180 m 1,0,1
  484 -180 484 -180 563 -98 c 128,-1,2
  642 -16 642 -16 642 100 c 0,3,4
@@ -5757,16 +10593,67 @@ Fore
  372 -180 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0BFA
 Encoding: 3066 3066 120
 Width: 973
 GlyphClass: 2
 Flags: W
-TtfInstrs: 78
-5oBY<!#5J8!#,E+!*fM.!)!;a!(d/7!$M=I!"Ao/!'UBG!"T&3!"Ju<!(Hqh!$qV7FtYckFoX`C
-4?jWE58QE_0eg0=>lZ/N"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 22
+ 21
+ 2
+ 20
+ 75
+ 92
+ 91
+ 75
+ 74
+ 73
+ 34
+ 33
+ 7
+ 13
+ 1
+ 62
+ 61
+ 15
+ 3
+ 14
+ 13
+ 70
+ 1
+ 37
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 93
+ 37
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 560 280 m 1,0,1
  560 259 560 259 574.5 244.5 c 128,-1,2
  589 230 589 230 610 230 c 0,3,4
@@ -5840,15 +10727,56 @@ Fore
  75 0 l 1,13,-1
 EndSplineSet
 EndChar
+
 StartChar: afii61664
 Encoding: 8204 8204 121
 Width: 0
 GlyphClass: 2
 Flags: W
-TtfInstrs: 58
-5nF"s!!*'#!!*'&!!<3&!!!!m!!3-$!!<3j!!*'#!(M,b2]-]<5<M.H497\F0eg0="TSQ'"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 16
+ 1
+ 1
+ 1
+ 1
+ 4
+ 3
+ 2
+ 0
+ 76
+ 2
+ 1
+ 3
+ 70
+ 1
+ 1
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+MIAP[rnd]
+MIRP[rp0,min,rnd,black]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 5
+ 1
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 1 -295 m 1,0,-1
  0 700 l 1,1,-1
  40 700 l 1,2,-1
@@ -5857,16 +10785,82 @@ Fore
  1 -295 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: afii301
 Encoding: 8205 8205 122
 Width: 0
 GlyphClass: 2
 Flags: W
-TtfInstrs: 100
-5p-.5!!*'$!!!!"!!iQ*!!3-#!!*'*!!*'$!!!!"!!iQ*!!3-#!!*'*!!`K*!!!!m!!E9(!!<3j
-!!*'$!(M,b2]-]<5<M.H497Y_4T-'Y58QH\(HaE+\c<$:!WWBS
-EndTtf
+TtInstrs:
+NPUSHW
+ 32
+ 8
+ 1
+ 2
+ 0
+ 1
+ 8
+ 1
+ 2
+ 0
+ 1
+ 8
+ 1
+ 2
+ 0
+ 1
+ 8
+ 1
+ 2
+ 0
+ 1
+ 8
+ 7
+ 2
+ 0
+ 76
+ 4
+ 3
+ 3
+ 70
+ 1
+ 2
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIRP[rp0,min,rnd,black]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIRP[rp0,min,rnd,black]
+SLOOP
+ALIGNRP
+IUP[x]
+IUP[y]
+PUSHW_3
+ 9
+ 2
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 0 -295 m 1,0,-1
  0 660 l 1,1,-1
  -160 660 l 1,2,-1
@@ -5879,16 +10873,66 @@ Fore
  0 -295 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: endash
 Encoding: 8211 8211 123
 Width: 500
 GlyphClass: 2
 Flags: W
-TtfInstrs: 74
-5o'G'!!*'$!!!!"!!E9&!!3-#!!*'&!!<3&!!!!9!!3-$!#GW)!!*'$!(M,b2]-]<5<M.H497Y_
-4T-'Y0eg0="TST("Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 22
+ 4
+ 1
+ 2
+ 0
+ 1
+ 4
+ 1
+ 2
+ 0
+ 1
+ 4
+ 3
+ 2
+ 0
+ 24
+ 2
+ 1
+ 23
+ 70
+ 1
+ 2
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIRP[rp0,min,rnd,black]
+SLOOP
+ALIGNRP
+IUP[x]
+IUP[y]
+PUSHW_3
+ 5
+ 2
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 0 200 m 1,0,-1
  0 240 l 1,1,-1
  450 240 l 1,2,-1
@@ -5897,16 +10941,66 @@ Fore
  0 200 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: emdash
 Encoding: 8212 8212 124
 Width: 1000
 GlyphClass: 2
 Flags: W
-TtfInstrs: 74
-5o'G'!!*'$!!!!"!!E9&!!3-#!!*'&!!<3&!!!!9!!3-$!#GW)!!*'$!(M,b2]-]<5<M.H497Y_
-4T-'Y0eg0="TST("Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 22
+ 4
+ 1
+ 2
+ 0
+ 1
+ 4
+ 1
+ 2
+ 0
+ 1
+ 4
+ 3
+ 2
+ 0
+ 24
+ 2
+ 1
+ 23
+ 70
+ 1
+ 2
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIRP[rp0,min,rnd,black]
+SLOOP
+ALIGNRP
+IUP[x]
+IUP[y]
+PUSHW_3
+ 5
+ 2
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 0 200 m 1,0,-1
  0 240 l 1,1,-1
  1000 240 l 1,2,-1
@@ -5915,15 +11009,51 @@ Fore
  0 200 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: quoteleft
 Encoding: 8216 8216 125
 Width: 235
 GlyphClass: 2
 Flags: W
-TtfInstrs: 50
-5n*f(!"Ao0!"8j%!!<3E!"&]8!(Hqh!!3-iFtYckFoX`k58QE_0eg0=&HDk4"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 13
+ 14
+ 13
+ 2
+ 12
+ 77
+ 3
+ 33
+ 10
+ 13
+ 70
+ 1
+ 2
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 17
+ 2
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 420 m 1,0,1
  75 462 75 462 94 496.5 c 128,-1,2
  113 531 113 531 145 550 c 1,3,-1
@@ -5939,15 +11069,48 @@ Fore
  75 420 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: quoteright
 Encoding: 8217 8217 126
 Width: 230
 GlyphClass: 2
 Flags: W
-TtfInstrs: 45
-5mmZ!!)3Fr!!<3&!!3-q!(Hqh!!3-iFtYckFoX`C4?ij$0Y.5r!!3-(.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 11
+ 9
+ 77
+ 4
+ 3
+ 2
+ 2
+ 78
+ 70
+ 1
+ 2
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 17
+ 2
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 500 m 1,0,1
  75 517 75 517 86.5 528.5 c 128,-1,2
  98 540 98 540 115 540 c 256,3,4
@@ -5963,16 +11126,58 @@ Fore
  75 500 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: quotedblleft
 Encoding: 8220 8220 127
 Width: 370
 GlyphClass: 2
 Flags: W
-TtfInstrs: 62
-5nX/>!$2+\!"Ju<!!N?2!)3G-!!<3E!#knF!"Aot!!*'$!(M,b2]-]<5<M.m58QE_0eg0=+ohZE
-"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 31
+ 30
+ 29
+ 14
+ 13
+ 5
+ 12
+ 77
+ 20
+ 3
+ 33
+ 27
+ 10
+ 13
+ 70
+ 1
+ 2
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 34
+ 2
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 420 m 1,0,1
  75 462 75 462 94 496.5 c 128,-1,2
  113 531 113 531 145 550 c 1,3,-1
@@ -6001,15 +11206,53 @@ Fore
  210 420 l 1,17,18
 EndSplineSet
 EndChar
+
 StartChar: quotedblright
 Encoding: 8221 8221 128
 Width: 355
 GlyphClass: 2
 Flags: W
-TtfInstrs: 54
-5n<r6!!rX"!#5JJ!##>8!!<3)!!3-q!(Hqh!!3-iFtYckFoX`C4?kq/0eg0=+ohZE"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 15
+ 26
+ 9
+ 77
+ 21
+ 20
+ 19
+ 4
+ 3
+ 5
+ 2
+ 78
+ 70
+ 1
+ 2
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 34
+ 2
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 500 m 1,0,1
  75 517 75 517 86.5 528.5 c 128,-1,2
  98 540 98 540 115 540 c 256,3,4
@@ -6038,16 +11281,62 @@ Fore
  200 500 l 1,17,18
 EndSplineSet
 EndChar
+
 StartChar: ellipsis
 Encoding: 8230 8230 129
 Width: 793
 GlyphClass: 2
 Flags: W
-TtfInstrs: 71
-5o0M2!"Ao8!!rW2!!N?*!!<3,!!!!#!"8i8!!`K.!!3-(!!*'#!(Hqh!!3-iFtYckFoX`C4?jWE
-!AQ:>!"T&2!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 23
+ 14
+ 13
+ 10
+ 9
+ 8
+ 5
+ 4
+ 3
+ 8
+ 0
+ 2
+ 12
+ 11
+ 7
+ 6
+ 2
+ 5
+ 1
+ 1
+ 70
+ 1
+ 2
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 15
+ 2
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 168 50 m 1,0,-1
  168 0 l 1,1,-1
  75 0 l 1,2,-1
@@ -6068,15 +11357,50 @@ Fore
  718 50 l 1,10,-1
 EndSplineSet
 EndChar
+
 StartChar: minus
 Encoding: 8722 8722 130
 Width: 400
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!_r!!<3&!!!!9!!3-$!#GW)!!*'$!(M,b2]-]<5<M.H497/j\c;m6!WWBS
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 4
+ 3
+ 2
+ 0
+ 24
+ 2
+ 1
+ 23
+ 70
+ 1
+ 2
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 5
+ 2
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 200 m 1,0,-1
  75 240 l 1,1,-1
  325 240 l 1,2,-1
@@ -6085,16 +11409,58 @@ Fore
  75 200 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: uni25CC
 Encoding: 9676 9676 131
 Width: 636
 GlyphClass: 2
 Flags: W
-TtfInstrs: 61
-5nO)5!#>P9!#5K1!!E9(!!3-%!)ES&!!`K7!(Hqh!!3-iFtYckFo_J'58QFH(H_^Q0Y.7S!!3-(
-.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 23
+ 22
+ 2
+ 21
+ 80
+ 4
+ 3
+ 2
+ 2
+ 79
+ 11
+ 7
+ 15
+ 70
+ 1
+ 2
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIRP[rp0,min,rnd,black]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 156
+ 2
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 286 413 m 1,0,1
  286 426 286 426 295.5 435.5 c 128,-1,2
  305 445 305 445 318 445 c 0,3,4
@@ -6217,16 +11583,74 @@ Fore
  391 19 l 1,143,144
 EndSplineSet
 EndChar
+
 StartChar: u0B95_u0BBF.abvs
 Encoding: 65537 -1 132
 Width: 683
 GlyphClass: 2
 Flags: W
-TtfInstrs: 89
-5ofqo!(6fS!&FU1!!N?W!#YbS!#P\;!#GW&!&X`s!!3-?!!*'m!%7gp!"o87!"f2?!(Hqh!$qV7
-FtYckFoX`C4?jWE58QFH(H_^Q0Y.6X!$qUK.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 29
+ 69
+ 68
+ 67
+ 51
+ 50
+ 5
+ 49
+ 25
+ 25
+ 24
+ 2
+ 23
+ 67
+ 53
+ 29
+ 2
+ 28
+ 1
+ 75
+ 40
+ 39
+ 18
+ 4
+ 17
+ 13
+ 70
+ 1
+ 37
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 76
+ 37
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -6289,18 +11713,68 @@ Fore
  128 400 l 1,75,-1
  128 400 l 1,17,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0B95 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B95 u0BBF
 EndChar
+
 StartChar: u0B99_u0BBF.abvs
 Encoding: 65538 -1 133
 Width: 870
 GlyphClass: 2
 Flags: W
-TtfInstrs: 76
-5o9S>!#P\;!#GW4!'^HI!%n7'!$)%C!#tt>!'gN8!%S$M!!E9%!"Aot!!*'"!(M,b2]-]<58QFH
-(Hanu497/j\c>"r!!!0Q
-EndTtf
+TtInstrs:
+NPUSHW
+ 24
+ 25
+ 24
+ 2
+ 23
+ 81
+ 63
+ 62
+ 46
+ 45
+ 29
+ 5
+ 28
+ 1
+ 64
+ 44
+ 43
+ 1
+ 4
+ 0
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 65
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  380 400 l 1,1,-1
  380 360 l 1,2,-1
@@ -6354,18 +11828,70 @@ Fore
  75 400 l 1,64,-1
  75 400 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0B99 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B99 u0BBF
 EndChar
+
 StartChar: u0B9A_u0BBF.abvs
 Encoding: 65539 -1 134
 Width: 653
 GlyphClass: 2
 Flags: W
-TtfInstrs: 78
-5o9SX!&=NU!&4Hk!#YbR!!3-:!(-`,!#tt>!'($-!%.aZ!!E96!"Aot!!*'A!(M,b2]-]<58QFH
-4?jWE58QE_0eg0=3WL6%"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 24
+ 51
+ 50
+ 2
+ 49
+ 25
+ 25
+ 24
+ 2
+ 23
+ 67
+ 29
+ 28
+ 1
+ 57
+ 40
+ 39
+ 18
+ 4
+ 17
+ 13
+ 70
+ 1
+ 31
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 58
+ 31
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -6416,18 +11942,65 @@ Fore
  128 400 l 1,57,-1
  128 400 l 1,17,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0B9A u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B9A u0BBF
 EndChar
+
 StartChar: u0B9C_u0BBF.abvs
 Encoding: 65540 -1 135
 Width: 847
 GlyphClass: 2
 Flags: W
-TtfInstrs: 70
-5nsAa!'UAa!'L<G!#GVN!!3-8!(-`H!&ss;!#kn@!#bh<!(Hqh!$;21FtYckFoX`C4?jWE58QE_
-0eg0=I/k>h"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 63
+ 62
+ 2
+ 61
+ 62
+ 23
+ 22
+ 2
+ 21
+ 67
+ 57
+ 56
+ 55
+ 27
+ 4
+ 26
+ 1
+ 70
+ 1
+ 31
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 125
+ 31
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 82 200 m 1,0,1
  82 175 82 175 102.5 157.5 c 128,-1,2
  123 140 123 140 152 140 c 0,3,4
@@ -6518,18 +12091,75 @@ Fore
  336 367 336 367 357 330 c 1,124,-1
  357 330 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' u0B9C u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B9C u0BBF
 EndChar
+
 StartChar: u0B9E_u0BBF.abvs
 Encoding: 65541 -1 136
 Width: 1050
 GlyphClass: 2
 Flags: W
-TtfInstrs: 87
-5o]l4!+,^-!+#Xi!(6fS!!3-e!(-`W!(R#5!!<3E!!*'u!)`e[!'C6C!!N?6!"Aot!!*'A!(M,b
-2]-]<58QFH(Hanu4?jWE!AQ:>!+Q!N!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 28
+ 96
+ 95
+ 2
+ 94
+ 63
+ 68
+ 67
+ 2
+ 66
+ 67
+ 72
+ 71
+ 34
+ 3
+ 33
+ 1
+ 83
+ 82
+ 61
+ 60
+ 59
+ 5
+ 16
+ 13
+ 70
+ 1
+ 31
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 99
+ 31
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 310 110 m 1,0,1
  310 77 310 77 330.5 53.5 c 128,-1,2
  351 30 351 30 380 30 c 256,3,4
@@ -6604,18 +12234,59 @@ Fore
  60 -14 60 -14 60 160 c 1,98,-1
  60 160 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' u0B9E u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B9E u0BBF
 EndChar
+
 StartChar: u0B9F_u0BBF.abvs
 Encoding: 65542 -1 137
 Width: 663
 GlyphClass: 2
 Flags: W
-TtfInstrs: 60
-5nO)1!"o8n!#5JJ!"f2B!!E9%!!*'$!!*'/!(Hqh!!!!gFtYckFoX`h58QFH497/j\c<oS!!!0Q
-
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 19
+ 18
+ 59
+ 21
+ 20
+ 17
+ 16
+ 4
+ 0
+ 1
+ 2
+ 1
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 34
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 0 m 1,0,-1
  75 400 l 1,1,-1
  125 400 l 1,2,-1
@@ -6647,18 +12318,81 @@ Fore
  265 223 265 223 265 190 c 1,33,-1
  265 190 l 1,22,23
 EndSplineSet
-Ligature: 0 0 'abvs' u0B9F u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B9F u0BBF
 EndChar
+
 StartChar: u0BA3_u0BBF.abvs
 Encoding: 65543 -1 138
 Width: 1239
 GlyphClass: 2
 Flags: W
-TtfInstrs: 99
-5p?;U!."Wj!+5e6!+#Y#!)3G!!)*A1!&"=)!!3-P!(-`Q!'pT@!!<3V!!*(Y!/gh@!'L<1!!N?M
-!"Aot!!*'U!(M,b2]-]<58QFH(Hanu4?jWE!AQ:>!0$t7!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 34
+ 123
+ 122
+ 121
+ 96
+ 95
+ 94
+ 78
+ 77
+ 8
+ 76
+ 25
+ 47
+ 46
+ 2
+ 45
+ 67
+ 66
+ 65
+ 51
+ 3
+ 50
+ 1
+ 140
+ 139
+ 62
+ 61
+ 40
+ 5
+ 39
+ 13
+ 70
+ 1
+ 51
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 141
+ 51
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 154 110 m 1,0,1
  154 77 154 77 171.5 53.5 c 128,-1,2
  189 30 189 30 214 30 c 256,3,4
@@ -6763,18 +12497,65 @@ Fore
  763 400 763 400 794 400 c 1,140,-1
  794 400 l 1,39,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BA3 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BA3 u0BBF
 EndChar
+
 StartChar: u0BA4_u0BBF.abvs
 Encoding: 65544 -1 139
 Width: 683
 GlyphClass: 2
 Flags: W
-TtfInstrs: 70
-5nsA\!'gN%!#P\;!#GW&!$)%Z!!*'u!%7gp!"o87!"f2?!(Hqh!$M>3FtYckFoX`C4?kqm(Han_
-0eg0=;ue'A"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 58
+ 64
+ 25
+ 24
+ 2
+ 23
+ 67
+ 29
+ 28
+ 1
+ 83
+ 40
+ 39
+ 18
+ 4
+ 17
+ 13
+ 70
+ 1
+ 33
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 84
+ 33
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 360 m 1,0,-1
  178 220 l 1,1,-1
  278 220 l 1,2,-1
@@ -6843,18 +12624,71 @@ Fore
  128 400 l 1,83,-1
  128 400 l 1,17,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BA4 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BA4 u0BBF
 EndChar
+
 StartChar: u0BA8_u0BBF.abvs
 Encoding: 65545 -1 140
 Width: 690
 GlyphClass: 2
 Flags: W
-TtfInstrs: 81
-5oK_R!)`e&!!`K*!!WEj!'pTM!'L<E!"8i2!"/c-!($Z%!#>P8!!E9%!"Aot!!*'8!(M,b2]-]<
-58QFH(Hanu4?ij$0Y.6O!#>P<.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 26
+ 43
+ 82
+ 8
+ 7
+ 2
+ 6
+ 67
+ 65
+ 64
+ 61
+ 60
+ 12
+ 5
+ 11
+ 1
+ 66
+ 23
+ 22
+ 1
+ 4
+ 0
+ 13
+ 70
+ 1
+ 22
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 67
+ 22
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  255 400 l 1,1,2
  240 426 240 426 232.5 448.5 c 128,-1,3
@@ -6908,18 +12742,78 @@ Fore
  75 400 l 1,66,-1
  75 400 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BA8 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BA8 u0BBF
 EndChar
+
 StartChar: u0BA9_u0BBF.abvs
 Encoding: 65546 -1 141
 Width: 997
 GlyphClass: 2
 Flags: W
-TtfInstrs: 93
-5p$)3!*]G,!'pTM!!N?e!#Yb\!$M=D!$D8/!&Xa5!%%[J!$qUG!+u:D!&4I-!#knA!#bhH!(Hqh
-!#>Q(FtYckFoX`C4?jWE58QFH(H_^Q0Y.6t!#>P<.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 31
+ 92
+ 91
+ 90
+ 65
+ 64
+ 5
+ 63
+ 25
+ 34
+ 33
+ 2
+ 32
+ 67
+ 53
+ 52
+ 38
+ 3
+ 37
+ 1
+ 103
+ 102
+ 49
+ 48
+ 27
+ 5
+ 26
+ 13
+ 70
+ 1
+ 22
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 104
+ 22
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 152 110 m 1,0,1
  152 77 152 77 172.5 53.5 c 128,-1,2
  193 30 193 30 222 30 c 256,3,4
@@ -6998,18 +12892,65 @@ Fore
  557 400 557 400 592 400 c 1,103,-1
  592 400 l 1,26,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BA9 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BA9 u0BBF
 EndChar
+
 StartChar: u0BAA_u0BBF.abvs
 Encoding: 65547 -1 142
 Width: 760
 GlyphClass: 2
 Flags: W
-TtfInstrs: 70
-5nsA-!"&]-!!rWm!$D7`!"T&3!"Ju0!$VCd!$2+B!$)%K!(Hqh!!!!gFtYckFoX`C4?jWE58QE_
-0eg0=,ldoF"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 11
+ 10
+ 2
+ 9
+ 67
+ 32
+ 31
+ 15
+ 3
+ 14
+ 1
+ 34
+ 33
+ 30
+ 3
+ 29
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 37
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 495 40 m 1,0,-1
  495 280 l 1,1,2
  483 266 483 266 462 258 c 128,-1,3
@@ -7041,18 +12982,65 @@ Fore
  495 40 l 1,36,-1
  495 40 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BAA u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BAA u0BBF
 EndChar
+
 StartChar: u0BAE_u0BBF.abvs
 Encoding: 65548 -1 143
 Width: 820
 GlyphClass: 2
 Flags: W
-TtfInstrs: 70
-5nsA6!##>6!"o8M!%@mr!%.a`!!E9<!!*'M!%IsM!$VCP!(Hqh!#>Q(FtYckFoX`C4?jWE58QE_
-0eg0=1&r'i"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 20
+ 19
+ 2
+ 18
+ 26
+ 41
+ 40
+ 39
+ 24
+ 4
+ 23
+ 1
+ 43
+ 42
+ 2
+ 34
+ 13
+ 70
+ 1
+ 22
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 50
+ 22
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 365 300 m 1,0,-1
  365 40 l 1,1,-1
  505 40 l 2,2,3
@@ -7094,18 +13082,75 @@ Fore
  379 410 379 410 425 410 c 1,49,-1
  425 410 l 1,12,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BAE u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BAE u0BBF
 EndChar
+
 StartChar: u0BAF_u0BBF.abvs
 Encoding: 65549 -1 144
 Width: 855
 GlyphClass: 2
 Flags: W
-TtfInstrs: 87
-5o]kN!$hOG!$_I]!"/c6!!3-,!(-`/!$;1O!!<32!!*'T!&4I&!%7gg!!N?C!"Aot!!*'5!(M,b
-2]-]<58QFH(Hanu4?jWE!AQ:>!&X`i!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 28
+ 37
+ 36
+ 2
+ 35
+ 25
+ 11
+ 10
+ 2
+ 9
+ 67
+ 32
+ 31
+ 15
+ 3
+ 14
+ 1
+ 50
+ 49
+ 41
+ 40
+ 30
+ 5
+ 29
+ 13
+ 70
+ 1
+ 19
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 53
+ 19
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 590 40 m 1,0,-1
  590 280 l 1,1,2
  576 266 576 266 555 258 c 128,-1,3
@@ -7149,18 +13194,68 @@ Fore
  590 40 l 1,52,-1
  590 40 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BAF u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BAF u0BBF
 EndChar
+
 StartChar: u0BB0_u0BBF.abvs
 Encoding: 65550 -1 145
 Width: 600
 GlyphClass: 2
 Flags: W
-TtfInstrs: 76
-5o9S-!!`K*!!WEj!$;1^!#knV!"8i2!"/c-!$D7X!#>P8!!E9%!"Aot!!*'5!(M,b2]-]<58QFH
-(Hanu497/j\c<lR'*&1d
-EndTtf
+TtInstrs:
+NPUSHW
+ 24
+ 8
+ 7
+ 2
+ 6
+ 67
+ 31
+ 30
+ 27
+ 26
+ 12
+ 5
+ 11
+ 1
+ 32
+ 23
+ 22
+ 1
+ 4
+ 0
+ 13
+ 70
+ 1
+ 19
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 33
+ 19
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  245 400 l 1,1,2
  217 416 217 416 201 445.5 c 128,-1,3
@@ -7190,18 +13285,66 @@ Fore
  75 400 l 1,32,-1
  75 400 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB0 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB0 u0BBF
 EndChar
+
 StartChar: u0BB1_u0BBF.abvs
 Encoding: 65551 -1 146
 Width: 717
 GlyphClass: 2
 Flags: W
-TtfInstrs: 72
-5o'GI!##>>!!rW,!!iQl!'pTM!&ss;!"Ju4!"Ao/!#P\<!"Aot!!*'3!(M,b2]-]<5<M.H4?jWE
-563Jm\c>;%&HDtb
-EndTtf
+TtInstrs:
+NPUSHW
+ 22
+ 38
+ 19
+ 10
+ 9
+ 2
+ 8
+ 67
+ 65
+ 64
+ 56
+ 55
+ 14
+ 5
+ 13
+ 1
+ 24
+ 3
+ 13
+ 70
+ 1
+ 17
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 73
+ 17
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 272 360 m 1,0,1
  284 380 284 380 303 391 c 128,-1,2
  322 402 322 402 342 400 c 1,3,4
@@ -7257,18 +13400,63 @@ Fore
  252 384 252 384 272 360 c 1,72,-1
  272 360 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB1 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB1 u0BBF
 EndChar
+
 StartChar: u0BB2_u0BBF.abvs
 Encoding: 65552 -1 147
 Width: 849
 GlyphClass: 2
 Flags: W
-TtfInstrs: 67
-5nj;f!(6fS!%\+#!!N?P!#YbQ!#>P9!#5K4!#knV!!*'h!!*'3!(M,b2]-]<5<M.H4?jWE!AQ:>
-!*'"2!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 69
+ 68
+ 67
+ 44
+ 43
+ 5
+ 42
+ 25
+ 23
+ 22
+ 2
+ 21
+ 83
+ 27
+ 26
+ 1
+ 70
+ 1
+ 17
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 85
+ 17
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 154 100 m 1,0,1
  154 71 154 71 171.5 50.5 c 128,-1,2
  189 30 189 30 214 30 c 256,3,4
@@ -7331,18 +13519,76 @@ Fore
  594 115 594 115 594 175 c 1,84,-1
  594 175 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB2 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB2 u0BBF
 EndChar
+
 StartChar: u0BB3_u0BBF.abvs
 Encoding: 65553 -1 148
 Width: 921
 GlyphClass: 2
 Flags: W
-TtfInstrs: 89
-5ofqm!($Ye!'pTa!#5JJ!!3-6!(-`;!%S$t!%.aa!!N?>!!*'n!$hOh!"Ju3!"Ao;!(Hqh!"f3#
-FtYckFoX`C4?jWE58QFH(H_^Q0Y.6Y!"f27.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 29
+ 67
+ 66
+ 2
+ 65
+ 84
+ 21
+ 20
+ 2
+ 19
+ 67
+ 44
+ 43
+ 40
+ 39
+ 25
+ 5
+ 24
+ 1
+ 76
+ 36
+ 35
+ 14
+ 4
+ 13
+ 13
+ 70
+ 1
+ 17
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 77
+ 17
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 166 120 m 1,0,1
  166 87 166 87 183.5 63.5 c 128,-1,2
  201 40 201 40 226 40 c 256,3,4
@@ -7403,18 +13649,75 @@ Fore
  396 400 l 1,76,-1
  396 400 l 1,13,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB3 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB3 u0BBF
 EndChar
+
 StartChar: u0BB4_u0BBF.abvs
 Encoding: 65554 -1 149
 Width: 820
 GlyphClass: 2
 Flags: W
-TtfInstrs: 87
-5o]k_!&X`X!&O[A!#,DH!!3-5!#bi4!)3GB!%7gp!#P\?!#GV9!)NYk!!3-E!"Aot!!*'3!(M,b
-2]-]<58QFH(Hanu4?jWE!AQ:>!*9.4!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 28
+ 54
+ 53
+ 2
+ 52
+ 65
+ 20
+ 19
+ 2
+ 18
+ 26
+ 78
+ 77
+ 41
+ 40
+ 39
+ 24
+ 6
+ 23
+ 1
+ 80
+ 79
+ 2
+ 34
+ 13
+ 70
+ 1
+ 17
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 87
+ 17
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 365 300 m 1,0,-1
  365 40 l 1,1,-1
  505 40 l 2,2,3
@@ -7483,18 +13786,69 @@ Fore
  379 410 379 410 425 410 c 1,86,-1
  425 410 l 1,12,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB4 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB4 u0BBF
 EndChar
+
 StartChar: u0BB5_u0BBF.abvs
 Encoding: 65555 -1 150
 Width: 948
 GlyphClass: 2
 Flags: W
-TtfInstrs: 76
-5o0Mk!(Hqi!(?l*!#P\P!!3-9!(-`<!%\*i!!<3?!!*'M!%IsX!(Hqh!$;21FtYckFoX`h58QFH
-(Hanu497/j\c>\0*rlHp
-EndTtf
+TtInstrs:
+NPUSHW
+ 23
+ 71
+ 70
+ 2
+ 69
+ 25
+ 24
+ 23
+ 2
+ 22
+ 67
+ 45
+ 44
+ 28
+ 3
+ 27
+ 1
+ 43
+ 42
+ 13
+ 70
+ 1
+ 31
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 84
+ 31
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 163 110 m 1,0,1
  163 77 163 77 183.5 53.5 c 128,-1,2
  204 30 204 30 233 30 c 0,3,4
@@ -7558,18 +13912,71 @@ Fore
  673 40 l 1,83,-1
  673 40 l 1,13,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB5 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB5 u0BBF
 EndChar
+
 StartChar: u0BB7_u0BBF.abvs
 Encoding: 65556 -1 151
 Width: 1090
 GlyphClass: 2
 Flags: W
-TtfInstrs: 80
-5oBYf!'^HE!%@mr!!3-J!(-`Q!'pTK!'L<6!!N?R!!*(?!-%u?!$VCP!(Hqh!$;21FtYckFoX`C
-4?jWE58QFH497/j\c?dO*rlHp
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 64
+ 63
+ 58
+ 41
+ 40
+ 2
+ 39
+ 67
+ 66
+ 65
+ 62
+ 61
+ 45
+ 5
+ 44
+ 1
+ 114
+ 113
+ 2
+ 34
+ 13
+ 70
+ 1
+ 31
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 115
+ 31
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 165 110 m 1,0,1
  165 77 165 77 182.5 53.5 c 128,-1,2
  200 30 200 30 225 30 c 0,3,4
@@ -7659,18 +14066,67 @@ Fore
  614 400 614 400 670 400 c 1,114,-1
  670 400 l 1,34,35
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB7 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB7 u0BBF
 EndChar
+
 StartChar: u0BB8_u0BBF.abvs
 Encoding: 65557 -1 152
 Width: 1044
 GlyphClass: 2
 Flags: W
-TtfInstrs: 74
-5o0Ml!(R#Y!%%[l!!N?J!#YbN!##>6!"o8M!&4I-!#P\<!#GV9!(Hqh!$2,0FtYckFoX`C4?jWE
-58QE_0eg0=?2u#H"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 23
+ 72
+ 71
+ 70
+ 38
+ 37
+ 5
+ 36
+ 25
+ 20
+ 19
+ 2
+ 18
+ 26
+ 49
+ 48
+ 24
+ 3
+ 23
+ 1
+ 70
+ 1
+ 30
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 94
+ 30
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 179 110 m 1,0,1
  179 77 179 77 196.5 53.5 c 128,-1,2
  214 30 214 30 239 30 c 256,3,4
@@ -7740,18 +14196,64 @@ Fore
  799 130 799 130 799 200 c 1,93,-1
  799 200 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB8 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB8 u0BBF
 EndChar
+
 StartChar: u0BB9_u0BBF.abvs
 Encoding: 65558 -1 153
 Width: 1209
 GlyphClass: 2
 Flags: W
-TtfInstrs: 69
-5nsAU!'1)r!#>P9!#5K$!)<Mg!(?lU!#knA!#bh<!"T&?!(Hqh!$2,0FtYckFo_J*(Hanu4?ij$
-0Y.73!$2+D.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 51
+ 58
+ 23
+ 22
+ 2
+ 21
+ 67
+ 78
+ 77
+ 69
+ 68
+ 27
+ 5
+ 26
+ 1
+ 15
+ 15
+ 70
+ 1
+ 30
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIRP[rp0,min,rnd,black]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 124
+ 30
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 164 110 m 1,0,1
  164 77 164 77 184.5 53.5 c 128,-1,2
  205 30 205 30 234 30 c 256,3,4
@@ -7843,18 +14345,71 @@ Fore
  738 389 738 389 754 370 c 1,123,-1
  754 370 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB9 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB9 u0BBF
 EndChar
+
 StartChar: u0B95_u0BC0.abvs
 Encoding: 65559 -1 154
 Width: 533
 GlyphClass: 2
 Flags: W
-TtfInstrs: 81
-5oK_o!(R#Y!&ag7!!N?Z!#YbS!#P\;!#GW'!&srZ!)<ME!%Is]!!E96!"Aot!!*'F!(M,b2]-]<
-58QFH58QFH(H_^Q0Y.6h!$hOJ.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 26
+ 72
+ 71
+ 70
+ 54
+ 53
+ 5
+ 52
+ 25
+ 25
+ 24
+ 2
+ 23
+ 68
+ 56
+ 1
+ 78
+ 43
+ 42
+ 18
+ 4
+ 17
+ 13
+ 70
+ 1
+ 36
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 92
+ 36
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -7928,18 +14483,66 @@ Fore
  328 605 328 605 328 580 c 1,91,-1
  328 580 l 1,79,80
 EndSplineSet
-Ligature: 0 0 'abvs' u0B95 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B95 u0BC0
 EndChar
+
 StartChar: u0B99_u0BC0.abvs
 Encoding: 65560 -1 155
 Width: 730
 GlyphClass: 2
 Flags: W
-TtfInstrs: 72
-5o'G9!#5J8!#,E$!'C6C!%S$O!%IsL!'L<2!%7gJ!!E9%!"Aot!!*'F!(M,b2]-]<58QFH(Hanu
-497/j\c>A',QIuu
-EndTtf
+TtInstrs:
+NPUSHW
+ 22
+ 22
+ 21
+ 2
+ 20
+ 68
+ 60
+ 59
+ 43
+ 3
+ 42
+ 1
+ 61
+ 41
+ 40
+ 1
+ 4
+ 0
+ 13
+ 70
+ 1
+ 36
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 75
+ 36
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  385 400 l 1,1,-1
  385 360 l 1,2,-1
@@ -8000,18 +14603,65 @@ Fore
  555 605 555 605 555 580 c 1,74,-1
  555 580 l 1,62,63
 EndSplineSet
-Ligature: 0 0 'abvs' u0B99 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B99 u0BC0
 EndChar
+
 StartChar: u0B9A_u0BC0.abvs
 Encoding: 65561 -1 156
 Width: 462
 GlyphClass: 2
 Flags: W
-TtfInstrs: 70
-5nsAX!&X`X!&OZn!#YbR!!3-:!(6fL!%S%!!"o87!"f2?!(Hqh!$2,0FtYckFoX`C4?jWE58QE_
-0eg0=8cTn4"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 54
+ 53
+ 2
+ 52
+ 25
+ 25
+ 24
+ 2
+ 23
+ 68
+ 60
+ 43
+ 42
+ 18
+ 4
+ 17
+ 13
+ 70
+ 1
+ 30
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 74
+ 30
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -8073,18 +14723,63 @@ Fore
  328 605 328 605 328 580 c 1,73,-1
  328 580 l 1,61,62
 EndSplineSet
-Ligature: 0 0 'abvs' u0B9A u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B9A u0BC0
 EndChar
+
 StartChar: u0B9C_u0BC0.abvs
 Encoding: 65562 -1 157
 Width: 697
 GlyphClass: 2
 Flags: W
-TtfInstrs: 66
-5na5b!'pSd!'gNJ!#GVN!!3-8!(6fL!':/^!'1)\!(Hqh!$2,0FtYckFoX`C4?jWE58QE_0eg0=
-N;t"""Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 66
+ 65
+ 2
+ 64
+ 62
+ 23
+ 22
+ 2
+ 21
+ 68
+ 60
+ 59
+ 2
+ 58
+ 1
+ 70
+ 1
+ 30
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 141
+ 30
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 83 200 m 1,0,1
  83 175 83 175 103.5 157.5 c 128,-1,2
  124 140 124 140 153 140 c 0,3,4
@@ -8186,18 +14881,71 @@ Fore
  543 605 543 605 543 580 c 1,140,-1
  543 580 l 1,128,129
 EndSplineSet
-Ligature: 0 0 'abvs' u0B9C u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B9C u0BC0
 EndChar
+
 StartChar: u0B9E_u0BC0.abvs
 Encoding: 65563 -1 158
 Width: 896
 GlyphClass: 2
 Flags: W
-TtfInstrs: 80
-5oBZ4!+Gp0!+>jl!(6fS!!3-e!(6f2!$M=C!*0)"!'L<E!':/a!"],>!(Hqh!$2,0FtYckFoX`C
-4?kqm(Hanu497/j\c?dO*WQ?o
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 99
+ 98
+ 2
+ 97
+ 63
+ 68
+ 67
+ 2
+ 66
+ 68
+ 34
+ 33
+ 1
+ 86
+ 85
+ 61
+ 60
+ 59
+ 5
+ 16
+ 13
+ 70
+ 1
+ 30
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 115
+ 30
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 310 110 m 1,0,1
  310 77 310 77 330.5 53.5 c 128,-1,2
  351 30 351 30 380 30 c 256,3,4
@@ -8283,17 +15031,52 @@ Fore
  665 607 665 607 665 580 c 1,114,-1
  665 580 l 1,102,103
 EndSplineSet
-Ligature: 0 0 'abvs' u0B9E u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B9E u0BC0
 EndChar
+
 StartChar: u0B9F_u0BC0.abvs
 Encoding: 65564 -1 159
 Width: 663
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!`E!%S$N!"Ao/!"T&>!"Aot!!*'"!(M,b2]-]<5<M.H497/j\c=;^!!!0Q
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 44
+ 43
+ 2
+ 13
+ 1
+ 15
+ 14
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 45
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 355 200 m 1,0,1
  355 175 355 175 372.5 157.5 c 128,-1,2
  390 140 390 140 415 140 c 256,3,4
@@ -8330,18 +15113,77 @@ Fore
  75 0 l 1,44,-1
  75 0 l 1,13,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0B9F u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B9F u0BC0
 EndChar
+
 StartChar: u0BA3_u0BC0.abvs
 Encoding: 65565 -1 160
 Width: 1020
 GlyphClass: 2
 Flags: W
-TtfInstrs: 92
-5p$)U!.=ip!+Q"<!+>k)!)NY$!)ES4!(?lU!!*(\!0.%F!'gN4!!N?M!"Ao]!%n6Q!%e0Q!(Hqh
-!&=ODFtYckFoX`C4?jWE5<M.H497/j\cA9$1&qJ.
-EndTtf
+TtInstrs:
+NPUSHW
+ 31
+ 126
+ 125
+ 124
+ 99
+ 98
+ 97
+ 81
+ 80
+ 8
+ 79
+ 25
+ 69
+ 68
+ 1
+ 143
+ 142
+ 65
+ 64
+ 40
+ 5
+ 39
+ 13
+ 47
+ 46
+ 2
+ 45
+ 3
+ 70
+ 1
+ 50
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 157
+ 50
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 154 110 m 1,0,1
  154 77 154 77 171.5 53.5 c 128,-1,2
  189 30 189 30 214 30 c 256,3,4
@@ -8457,18 +15299,60 @@ Fore
  894 605 894 605 894 580 c 1,156,-1
  894 580 l 1,144,145
 EndSplineSet
-Ligature: 0 0 'abvs' u0BA3 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BA3 u0BC0
 EndChar
+
 StartChar: u0BA4_u0BC0.abvs
 Encoding: 65566 -1 161
 Width: 543
 GlyphClass: 2
 Flags: W
-TtfInstrs: 62
-5nX/\!'gN%!#P\;!#GW'!*0(M!%Is]!!E96!"Aot!!*'B!(M,b2]-]<58QFH(Han_0eg0=A,m_P
-"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 61
+ 64
+ 25
+ 24
+ 2
+ 23
+ 68
+ 86
+ 43
+ 42
+ 18
+ 4
+ 17
+ 13
+ 70
+ 1
+ 32
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 100
+ 32
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 360 m 1,0,-1
  178 220 l 1,1,-1
  278 220 l 1,2,-1
@@ -8548,18 +15432,69 @@ Fore
  318 605 318 605 318 580 c 1,99,-1
  318 580 l 1,87,88
 EndSplineSet
-Ligature: 0 0 'abvs' u0BA4 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BA4 u0BC0
 EndChar
+
 StartChar: u0BA8_u0BC0.abvs
 Encoding: 65567 -1 162
 Width: 534
 GlyphClass: 2
 Flags: W
-TtfInstrs: 77
-5o9SS!'pSj!!`K*!!WEk!(6fS!'gMd!'^Ga!(?l+!#Yb;!!E9%!"Aot!!*'7!(M,b2]-]<58QFH
-(Hanu4?ij$0Y.6_!#5J;.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 24
+ 46
+ 65
+ 8
+ 7
+ 2
+ 6
+ 68
+ 68
+ 67
+ 64
+ 3
+ 63
+ 1
+ 69
+ 26
+ 25
+ 1
+ 4
+ 0
+ 13
+ 70
+ 1
+ 21
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 83
+ 21
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  245 400 l 1,1,2
  203 424 203 424 179 464.5 c 128,-1,3
@@ -8624,18 +15559,74 @@ Fore
  305 605 305 605 305 580 c 1,82,-1
  305 580 l 1,70,71
 EndSplineSet
-Ligature: 0 0 'abvs' u0BA8 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BA8 u0BC0
 EndChar
+
 StartChar: u0BA9_u0BC0.abvs
 Encoding: 65568 -1 163
 Width: 808
 GlyphClass: 2
 Flags: W
-TtfInstrs: 86
-5o]l3!+#Y2!(6fS!!N?h!#Ybr!&jlY!,;LJ!&O[3!#knA!#bhH!$VCd!!3-C!!<3j!!*'7!(M,b
-2]-]<58QFH(HaoE58QE_0eg0=GQ8HY"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 28
+ 95
+ 94
+ 93
+ 68
+ 67
+ 5
+ 66
+ 25
+ 56
+ 55
+ 1
+ 106
+ 105
+ 52
+ 51
+ 27
+ 5
+ 26
+ 13
+ 34
+ 33
+ 2
+ 32
+ 3
+ 70
+ 1
+ 21
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 120
+ 21
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 152 110 m 1,0,1
  152 77 152 77 172.5 53.5 c 128,-1,2
  193 30 193 30 222 30 c 256,3,4
@@ -8725,18 +15716,61 @@ Fore
  692 605 692 605 692 580 c 1,119,-1
  692 580 l 1,107,108
 EndSplineSet
-Ligature: 0 0 'abvs' u0BA9 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BA9 u0BC0
 EndChar
+
 StartChar: u0BAA_u0BC0.abvs
 Encoding: 65569 -1 164
 Width: 620
 GlyphClass: 2
 Flags: W
-TtfInstrs: 63
-5nX/'!!`K*!!WEk!$)%Z!!*'A!$2+Z!!<3>!"Aot!!*'7!(M,b2]-]<58QFH4?jWE!AQ:>!&"<e
-!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 8
+ 7
+ 2
+ 6
+ 68
+ 29
+ 28
+ 1
+ 31
+ 30
+ 27
+ 3
+ 26
+ 13
+ 70
+ 1
+ 21
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 47
+ 21
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 495 40 m 1,0,-1
  495 300 l 1,1,2
  412 300 412 300 353.5 358.5 c 128,-1,3
@@ -8775,18 +15809,63 @@ Fore
  445 605 445 605 445 580 c 1,46,-1
  445 580 l 1,34,35
 EndSplineSet
-Ligature: 0 0 'abvs' u0BAA u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BAA u0BC0
 EndChar
+
 StartChar: u0BAE_u0BC0.abvs
 Encoding: 65570 -1 165
 Width: 673
 GlyphClass: 2
 Flags: W
-TtfInstrs: 66
-5na53!"o85!"f3!!%S%!!!3-L!!*'O!%\*O!$hOR!(Hqh!#5K'FtYckFoX`C4?jWE58QE_0eg0=
-5l_W""Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 19
+ 18
+ 2
+ 17
+ 68
+ 43
+ 42
+ 2
+ 41
+ 1
+ 45
+ 44
+ 2
+ 36
+ 13
+ 70
+ 1
+ 21
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 65
+ 21
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 365 300 m 1,0,-1
  365 40 l 1,1,-1
  505 40 l 2,2,3
@@ -8838,18 +15917,71 @@ Fore
  495 605 495 605 495 580 c 1,64,-1
  495 580 l 1,52,53
 EndSplineSet
-Ligature: 0 0 'abvs' u0BAE u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BAE u0BC0
 EndChar
+
 StartChar: u0BAF_u0BC0.abvs
 Encoding: 65571 -1 166
 Width: 715
 GlyphClass: 2
 Flags: W
-TtfInstrs: 80
-5oBYH!$M=D!$D7Z!!iQ0!!3-)!(6f-!#tt>!&"=)!%%[l!#knA!#bhH!(Hqh!"]-"FtYckFoX`C
-4?kqm(Hanu497/j\c=qp&-)ka
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 34
+ 33
+ 2
+ 32
+ 25
+ 8
+ 7
+ 2
+ 6
+ 68
+ 29
+ 28
+ 1
+ 47
+ 46
+ 38
+ 37
+ 27
+ 5
+ 26
+ 13
+ 70
+ 1
+ 16
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 63
+ 16
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 590 40 m 1,0,-1
  590 300 l 1,1,2
  507 300 507 300 448.5 358.5 c 128,-1,3
@@ -8900,18 +16032,66 @@ Fore
  540 605 540 605 540 580 c 1,62,-1
  540 580 l 1,50,51
 EndSplineSet
-Ligature: 0 0 'abvs' u0BAF u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BAF u0BC0
 EndChar
+
 StartChar: u0BB0_u0BC0.abvs
 Encoding: 65572 -1 167
 Width: 431
 GlyphClass: 2
 Flags: W
-TtfInstrs: 72
-5o'G+!!`K*!!WEk!$VCd!$2+B!$)%?!$_I^!#Yb;!!E9%!"Aot!!*'2!(M,b2]-]<58QFH(Hanu
-497/j\c=Gb&-)ka
-EndTtf
+TtInstrs:
+NPUSHW
+ 22
+ 8
+ 7
+ 2
+ 6
+ 68
+ 34
+ 33
+ 30
+ 3
+ 29
+ 1
+ 35
+ 26
+ 25
+ 1
+ 4
+ 0
+ 13
+ 70
+ 1
+ 16
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 49
+ 16
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  215 400 l 1,1,2
  173 424 173 424 149 464.5 c 128,-1,3
@@ -8952,18 +16132,62 @@ Fore
  275 605 275 605 275 580 c 1,48,-1
  275 580 l 1,36,37
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB0 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB0 u0BC0
 EndChar
+
 StartChar: u0BB1_u0BC0.abvs
 Encoding: 65573 -1 168
 Width: 565
 GlyphClass: 2
 Flags: W
-TtfInstrs: 65
-5na5F!##>>!!rW,!!iR)!'pTM!&sr\!&jlY!#knI!(Hqh!"T'!FtYckFoX`k(Hanu4?ij$0Y.6b
-!"T&5.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 38
+ 19
+ 10
+ 9
+ 2
+ 8
+ 85
+ 65
+ 64
+ 56
+ 3
+ 55
+ 1
+ 27
+ 13
+ 70
+ 1
+ 15
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 86
+ 15
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 272 360 m 1,0,1
  284 381 284 381 303 393 c 128,-1,2
  322 405 322 405 342 405 c 1,3,4
@@ -9028,17 +16252,58 @@ Fore
  412 605 412 605 412 580 c 1,85,-1
  412 580 l 1,73,74
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB1 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB1 u0BC0
 EndChar
+
 StartChar: u0BB2_u0BC0.abvs
 Encoding: 65574 -1 169
 Width: 693
 GlyphClass: 2
 Flags: W
-TtfInstrs: 59
-5nO)f!(R#Y!&"=)!!N?S!#YbQ!#>P9!#5K%!(Hqh!"T'!FtYckFoX`C4?jWE!AQ:>!+c-@!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 72
+ 71
+ 70
+ 47
+ 46
+ 5
+ 45
+ 25
+ 23
+ 22
+ 2
+ 21
+ 68
+ 70
+ 1
+ 15
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 101
+ 15
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 154 100 m 1,0,1
  154 71 154 71 171.5 50.5 c 128,-1,2
  189 30 189 30 214 30 c 256,3,4
@@ -9112,18 +16377,74 @@ Fore
  554 605 554 605 554 580 c 1,100,-1
  554 580 l 1,88,89
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB2 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB2 u0BC0
 EndChar
+
 StartChar: u0BB3_u0BC0.abvs
 Encoding: 65575 -1 170
 Width: 752
 GlyphClass: 2
 Flags: W
-TtfInstrs: 85
-5oTen!(?kh!(6f)!&"=)!%S$O!%IsL!)ESB!%%[U!!E92!"AoC!#,D7!##>7!(Hqh!"T'!FtYck
-FoX`C4?jWE58QFH(H_^Q0Y.6i!"T&5.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 27
+ 70
+ 69
+ 2
+ 68
+ 25
+ 47
+ 46
+ 43
+ 3
+ 42
+ 1
+ 79
+ 39
+ 38
+ 14
+ 4
+ 13
+ 13
+ 21
+ 20
+ 2
+ 19
+ 3
+ 70
+ 1
+ 15
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 93
+ 15
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 166 120 m 1,0,1
  166 85 166 85 183.5 60 c 128,-1,2
  201 35 201 35 226 35 c 256,3,4
@@ -9195,18 +16516,73 @@ Fore
  636 605 636 605 636 580 c 1,92,-1
  636 580 l 1,80,81
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB3 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB3 u0BC0
 EndChar
+
 StartChar: u0BB4_u0BC0.abvs
 Encoding: 65576 -1 171
 Width: 673
 GlyphClass: 2
 Flags: W
-TtfInstrs: 83
-5oK__!&jlZ!&agC!##>F!!3-4!(6f`!)ESF!%IsO!%@mK!)`eo!!3-G!"Aot!!*'1!(M,b2]-]<
-58QFH(Hanu4?jWE!AQ:>!+l3A!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 26
+ 56
+ 55
+ 2
+ 54
+ 65
+ 19
+ 18
+ 2
+ 17
+ 68
+ 80
+ 79
+ 43
+ 42
+ 4
+ 41
+ 1
+ 82
+ 81
+ 2
+ 36
+ 13
+ 70
+ 1
+ 15
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 102
+ 15
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 365 300 m 1,0,-1
  365 40 l 1,1,-1
  505 40 l 2,2,3
@@ -9285,18 +16661,65 @@ Fore
  495 605 495 605 495 580 c 1,101,-1
  495 580 l 1,89,90
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB4 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB4 u0BC0
 EndChar
+
 StartChar: u0BB5_u0BC0.abvs
 Encoding: 65577 -1 172
 Width: 798
 GlyphClass: 2
 Flags: W
-TtfInstrs: 69
-5nj;e!(-_f!($Z'!#5JJ!!3-6!(6f:!%@mK!%7gp!"Aot!!*'>!(M,b2]-]<5<M.m58QFH(H_^Q
-0Y.6j!#ttB.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 68
+ 67
+ 2
+ 66
+ 25
+ 21
+ 20
+ 2
+ 19
+ 68
+ 42
+ 41
+ 1
+ 40
+ 39
+ 13
+ 70
+ 1
+ 28
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 94
+ 28
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 163 110 m 1,0,1
  163 77 163 77 183.5 53.5 c 128,-1,2
  204 30 204 30 233 30 c 0,3,4
@@ -9367,18 +16790,69 @@ Fore
  623 605 623 605 623 580 c 1,93,-1
  623 580 l 1,81,82
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB5 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB5 u0BC0
 EndChar
+
 StartChar: u0BB7_u0BC0.abvs
 Encoding: 65578 -1 173
 Width: 933
 GlyphClass: 2
 Flags: W
-TtfInstrs: 76
-5o0Mj!(?lK!([)[!(6eh!(-_e!-eK)!!3-E!"AoW!%7gK!%.aK!(Hqh!#tu.FtYckFoX`C4?jWE
-58QFH497/j\c@Hb)up-m
-EndTtf
+TtInstrs:
+NPUSHW
+ 23
+ 70
+ 69
+ 58
+ 72
+ 71
+ 68
+ 3
+ 67
+ 1
+ 120
+ 58
+ 2
+ 34
+ 13
+ 41
+ 40
+ 2
+ 39
+ 3
+ 70
+ 1
+ 28
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 134
+ 28
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 165 110 m 1,0,1
  165 77 165 77 182.5 53.5 c 128,-1,2
  200 30 200 30 225 30 c 0,3,4
@@ -9481,18 +16955,63 @@ Fore
  695 605 695 605 695 580 c 1,133,-1
  695 580 l 1,121,122
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB7 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB7 u0BC0
 EndChar
+
 StartChar: u0BB8_u0BC0.abvs
 Encoding: 65579 -1 174
 Width: 893
 GlyphClass: 2
 Flags: W
-TtfInstrs: 67
-5nj;r!)NYk!&"=)!!N?S!#Ybt!'(#[!#GVN!!3-8!!<3j!!*'>!(M,b2]-]<58QFH4?jWE!AQ:>
-!-A2\!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 81
+ 80
+ 79
+ 47
+ 46
+ 5
+ 45
+ 25
+ 58
+ 57
+ 1
+ 23
+ 22
+ 2
+ 21
+ 3
+ 70
+ 1
+ 28
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 116
+ 28
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 175 110 m 1,0,1
  175 77 175 77 192.5 53.5 c 128,-1,2
  210 30 210 30 235 30 c 256,3,4
@@ -9577,18 +17096,62 @@ Fore
  775 605 775 605 775 580 c 1,115,-1
  775 580 l 1,103,104
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB8 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB8 u0BC0
 EndChar
+
 StartChar: u0BB9_u0BC0.abvs
 Encoding: 65580 -1 175
 Width: 1040
 GlyphClass: 2
 Flags: W
-TtfInstrs: 65
-5na5V!'1*W!)NYd!!<3k!!*'J!"AoE!#>P9!#5J9!(Hqh!#tu.FtYckFoX`C4?l%H4?ij$0Y.7C
-!#ttB.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 54
+ 58
+ 81
+ 80
+ 72
+ 3
+ 71
+ 1
+ 40
+ 13
+ 23
+ 22
+ 2
+ 21
+ 3
+ 70
+ 1
+ 28
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 140
+ 28
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 166 110 m 1,0,1
  166 77 166 77 186.5 53.5 c 128,-1,2
  207 30 207 30 236 30 c 256,3,4
@@ -9691,17 +17254,55 @@ Fore
  866 605 866 605 866 580 c 1,139,-1
  866 580 l 1,127,128
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB9 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB9 u0BC0
 EndChar
+
 StartChar: u0B95_u0BC1.blws
 Encoding: 65581 -1 176
 Width: 736
 GlyphClass: 2
 Flags: W
-TtfInstrs: 53
-5n3lT!&sr[!&jmB!#,Dn!%n7'!"Aot!!*'A!(M,b2]-]<5<M.p(H_^Q0Y.6H!$;1E.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 14
+ 57
+ 56
+ 2
+ 55
+ 63
+ 20
+ 57
+ 46
+ 45
+ 13
+ 70
+ 1
+ 31
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 60
+ 31
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 365 220 m 1,0,-1
  465 220 l 1,1,-1
  465 360 l 1,2,-1
@@ -9752,18 +17353,63 @@ Fore
  45 -61 45 -61 45 80 c 1,59,-1
  45 80 l 1,17,18
 EndSplineSet
-Ligature: 0 0 'blws' u0B95 u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0B95 u0BC1
 EndChar
+
 StartChar: u0B99_u0BC1.blws
 Encoding: 65582 -1 177
 Width: 730
 GlyphClass: 2
 Flags: W
-TtfInstrs: 67
-5nj;3!"f33!$qUj!#,D8!##>5!%%[W!"T&1!!E9%!"Aot!!*'"!(M,b2]-]<58QFH(HaoE!AQ:>
-!%.aH!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 18
+ 17
+ 86
+ 37
+ 36
+ 20
+ 3
+ 19
+ 1
+ 38
+ 16
+ 15
+ 1
+ 4
+ 0
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 39
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  435 400 l 1,1,-1
  435 360 l 1,2,-1
@@ -9799,17 +17445,57 @@ Fore
  75 400 l 1,38,-1
  75 400 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'blws' u0B99 u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0B99 u0BC1
 EndChar
+
 StartChar: u0B9A_u0BC1.blws
 Encoding: 65583 -1 178
 Width: 544
 GlyphClass: 2
 Flags: W
-TtfInstrs: 56
-5n<rA!$hOG!$_I]!$2+\!!*'8!#5JC!(Hqh!#ko-FtYckFoX`h5<M.H497/j\c=,Y)ZU$l
-EndTtf
+TtInstrs:
+NPUSHW
+ 15
+ 37
+ 36
+ 2
+ 35
+ 25
+ 30
+ 29
+ 1
+ 22
+ 21
+ 13
+ 70
+ 1
+ 27
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 40
+ 27
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 360 m 1,0,-1
  178 220 l 1,1,-1
  278 220 l 1,2,-1
@@ -9848,17 +17534,52 @@ Fore
  28 72 28 72 28 130 c 1,39,-1
  28 130 l 1,17,18
 EndSplineSet
-Ligature: 0 0 'blws' u0B9A u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0B9A u0BC1
 EndChar
+
 StartChar: glyph175
 Encoding: 65584 -1 179
 Width: 590
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!_r!!<3&!!!!"!!3-$!"Aot!!*'"!(M,b2]-]<5<M.H497/j\c<';!!!0Q
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 4
+ 3
+ 2
+ 0
+ 1
+ 2
+ 1
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 10
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 0 m 1,0,-1
  75 400 l 1,1,-1
  515 400 l 1,2,-1
@@ -9873,16 +17594,60 @@ Fore
  115 40 l 1,5,-1
 EndSplineSet
 EndChar
+
 StartChar: u0B9E_u0BC1.blws
 Encoding: 65585 -1 180
 Width: 946
 GlyphClass: 2
 Flags: W
-TtfInstrs: 65
-5na5F!$qUH!$hP/!'1*?!!*'B!$;1Q!"],5!"T&=!(Hqh!#5K'FtYckFoX`C4?kqm(H_^Q0Y.6l
-!#5J;.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 38
+ 37
+ 2
+ 36
+ 63
+ 58
+ 57
+ 1
+ 32
+ 31
+ 17
+ 16
+ 4
+ 15
+ 13
+ 70
+ 1
+ 21
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 96
+ 21
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 171 110 m 1,0,1
  171 77 171 77 191.5 53.5 c 128,-1,2
  212 30 212 30 241 30 c 256,3,4
@@ -9957,18 +17722,69 @@ Fore
  71 -112 71 -112 71 -120 c 1,95,-1
  71 -120 l 1,82,83
 EndSplineSet
-Ligature: 0 0 'blws' u0B9E u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0B9E u0BC1
 EndChar
+
 StartChar: u0B9F_u0BC1.blws
 Encoding: 65586 -1 181
 Width: 744
 GlyphClass: 2
 Flags: W
-TtfInstrs: 76
-5o0M?!#bh=!#Yc<!$M=b!!3-B!"JuT!$hOS!!<31!!*'2!"T&=!(Hqh!!!!gFtYckFoX`h58QFH
-(Hanu497/j\c=;^!!!0Q
-EndTtf
+TtInstrs:
+NPUSHW
+ 23
+ 27
+ 26
+ 2
+ 25
+ 87
+ 33
+ 32
+ 2
+ 31
+ 14
+ 37
+ 36
+ 14
+ 3
+ 13
+ 1
+ 16
+ 15
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 45
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 109 160 m 1,0,1
  109 27 109 27 178 -66.5 c 128,-1,2
  247 -160 247 -160 344 -160 c 0,3,4
@@ -10004,18 +17820,69 @@ Fore
  109 342 109 342 109 160 c 1,44,-1
  109 160 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u0B9F u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0B9F u0BC1
 EndChar
+
 StartChar: u0BA3_u0BC1.blws
 Encoding: 65587 -1 182
 Width: 1169
 GlyphClass: 2
 Flags: W
-TtfInstrs: 78
-5oBY\!&X`X!&O[?!/LW1!/:K*!.b+R!.Y&0!0$u;!&+C+!%7gN!%.aU!(Hqh!&+CBFtYckFoX`C
-4?jWE58QE_0eg0=S,b5C"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 54
+ 53
+ 2
+ 52
+ 63
+ 136
+ 135
+ 134
+ 130
+ 129
+ 5
+ 128
+ 57
+ 141
+ 140
+ 48
+ 47
+ 40
+ 5
+ 39
+ 13
+ 70
+ 1
+ 48
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 156
+ 48
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 154 110 m 1,0,1
  154 77 154 77 171.5 53.5 c 128,-1,2
  189 30 189 30 214 30 c 256,3,4
@@ -10130,17 +17997,56 @@ Fore
  134 -100 l 1,155,-1
  134 -100 l 1,142,143
 EndSplineSet
-Ligature: 0 0 'blws' u0BA3 u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BA3 u0BC1
 EndChar
+
 StartChar: u0BA4_u0BC1.blws
 Encoding: 65588 -1 183
 Width: 723
 GlyphClass: 2
 Flags: W
-TtfInstrs: 55
-5n<rb!(?kh!(6fO!'gNK!&FTW!&=N`!(Hqh!%7h:FtYckFoX`C4?jWE!AQ:>!(d/=!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 15
+ 70
+ 69
+ 2
+ 68
+ 63
+ 64
+ 63
+ 51
+ 3
+ 50
+ 13
+ 70
+ 1
+ 40
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 73
+ 40
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -10203,18 +18109,65 @@ Fore
  3 -178 3 -178 3 -120 c 1,72,-1
  3 -120 l 1,28,29
 EndSplineSet
-Ligature: 0 0 'blws' u0BA4 u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BA4 u0BC1
 EndChar
+
 StartChar: u0BA8_u0BC1.blws
 Encoding: 65589 -1 184
 Width: 720
 GlyphClass: 2
 Flags: W
-TtfInstrs: 70
-5nsAL!%@mL!%7h3!##>F!"T&3!"Ju0!$hOh!#5J9!#,DB!(Hqh!!!!gFtYckFoX`C4?jWE58QE_
-0eg0=2uipY"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 42
+ 41
+ 2
+ 40
+ 63
+ 19
+ 18
+ 15
+ 3
+ 14
+ 1
+ 36
+ 35
+ 21
+ 3
+ 20
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 56
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 5 -120 m 1,0,1
  5 -95 5 -95 21 -77.5 c 128,-1,2
  37 -60 37 -60 60 -60 c 2,3,-1
@@ -10262,18 +18215,64 @@ Fore
  55 -112 55 -112 55 -120 c 1,55,-1
  55 -120 l 1,45,46
 EndSplineSet
-Ligature: 0 0 'blws' u0BA8 u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BA8 u0BC1
 EndChar
+
 StartChar: u0BA9_u0BC1.blws
 Encoding: 65590 -1 185
 Width: 967
 GlyphClass: 2
 Flags: W
-TtfInstrs: 69
-5nsAK!%7gK!%.b2!+c.@!+5e6!+#XE!!WEA!'($(!$VCP!(Hqh!%7h:FtYckFoX`h58QFH(H_^Q
-0Y.7(!%7gN.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 41
+ 40
+ 2
+ 39
+ 63
+ 101
+ 100
+ 96
+ 95
+ 94
+ 27
+ 6
+ 26
+ 57
+ 35
+ 34
+ 13
+ 70
+ 1
+ 40
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 113
+ 40
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 152 110 m 1,0,1
  152 81 152 81 172.5 60.5 c 128,-1,2
  193 40 193 40 222 40 c 256,3,4
@@ -10358,18 +18357,61 @@ Fore
  152 -100 l 1,112,-1
  152 -100 l 1,102,103
 EndSplineSet
-Ligature: 0 0 'blws' u0BA9 u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BA9 u0BC1
 EndChar
+
 StartChar: u0BAA_u0BC1.blws
 Encoding: 65591 -1 186
 Width: 620
 GlyphClass: 2
 Flags: W
-TtfInstrs: 63
-5nX/'!!`L*!"&]4!!3-#!!*'(!!N?(!!<3%!"Aot!!*'"!(M,b2]-]<58QFH(HaoE!AQ:>!"/c,
-!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 8
+ 7
+ 87
+ 10
+ 9
+ 2
+ 0
+ 1
+ 6
+ 5
+ 2
+ 3
+ 1
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 11
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 0 m 1,0,-1
  75 400 l 1,1,-1
  125 400 l 1,2,-1
@@ -10383,18 +18425,71 @@ Fore
  75 0 l 1,10,-1
  75 0 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'blws' u0BAA u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BAA u0BC1
 EndChar
+
 StartChar: u0BAE_u0BC1.blws
 Encoding: 65592 -1 187
 Width: 925
 GlyphClass: 2
 Flags: W
-TtfInstrs: 80
-5oBYG!$D7C!$;2*!#GVN!#5J9!!<3]!$)%Z!#knJ!!E92!!*'2!"T&=!(Hqh!"f3#FtYckFoX`h
-58QFH(Hanu497/j\c=Da&HDtb
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 33
+ 32
+ 2
+ 31
+ 63
+ 23
+ 22
+ 21
+ 3
+ 3
+ 57
+ 29
+ 28
+ 27
+ 14
+ 4
+ 13
+ 1
+ 16
+ 15
+ 13
+ 70
+ 1
+ 17
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 48
+ 17
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 44 90 m 1,0,1
  44 196 44 196 107 284 c 128,-1,2
  170 372 170 372 274 410 c 1,3,-1
@@ -10434,18 +18529,60 @@ Fore
  624 330 624 330 619 300 c 1,47,-1
  619 300 l 1,36,-1
 EndSplineSet
-Ligature: 0 0 'blws' u0BAE u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BAE u0BC1
 EndChar
+
 StartChar: u0BAF_u0BC1.blws
 Encoding: 65593 -1 188
 Width: 715
 GlyphClass: 2
 Flags: W
-TtfInstrs: 62
-5nX/0!"]-3!##>F!!*'1!"Ju:!"&]-!!N?'!"Aot!!*'3!(M,b2]-]<58QFH4?kq/0eg0=)ZUHM
-"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 17
+ 16
+ 87
+ 19
+ 18
+ 1
+ 15
+ 14
+ 11
+ 10
+ 2
+ 5
+ 1
+ 13
+ 70
+ 1
+ 17
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 27
+ 17
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 70 110 m 1,0,-1
  70 400 l 1,1,-1
  120 400 l 1,2,-1
@@ -10471,18 +18608,64 @@ Fore
  70 60 70 60 70 110 c 1,26,-1
  70 110 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'blws' u0BAF u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BAF u0BC1
 EndChar
+
 StartChar: u0BB0_u0BC1.blws
 Encoding: 65594 -1 189
 Width: 772
 GlyphClass: 2
 Flags: W
-TtfInstrs: 68
-5nj;?!$)%@!#tu'!$_J(!"T&>!"/c/!"&],!"f2B!"Aot!!*'4!(M,b2]-]<5<M.H4?l%H497/j
-\c=5\&c`(c
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 30
+ 29
+ 2
+ 28
+ 63
+ 35
+ 57
+ 15
+ 14
+ 11
+ 3
+ 10
+ 1
+ 17
+ 16
+ 13
+ 70
+ 1
+ 18
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 43
+ 18
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 395 -220 m 1,0,1
  515 -220 515 -220 600 -126.5 c 128,-1,2
  685 -33 685 -33 685 100 c 0,3,4
@@ -10518,18 +18701,72 @@ Fore
  269 -220 269 -220 395 -220 c 1,42,-1
  395 -220 l 1,0,1
 EndSplineSet
-Ligature: 0 0 'blws' u0BB0 u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BB0 u0BC1
 EndChar
+
 StartChar: u0BB1_u0BC1.blws
 Encoding: 65595 -1 190
 Width: 697
 GlyphClass: 2
 Flags: W
-TtfInstrs: 82
-5oK_?!#GV:!#>Q!!"&]4!!iQ-!!<3)!!3-\!&=O/!%@mM!%7gJ!"o8D!"Aot!!*'.!(M,b2]-]<
-5<M.H4?jWE58QE_0eg0=56))l"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 26
+ 24
+ 23
+ 2
+ 22
+ 63
+ 10
+ 9
+ 8
+ 4
+ 3
+ 5
+ 2
+ 57
+ 50
+ 49
+ 41
+ 3
+ 40
+ 1
+ 18
+ 17
+ 13
+ 70
+ 1
+ 12
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 63
+ 12
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 72 300 m 1,0,1
  72 346 72 346 104 378 c 128,-1,2
  136 410 136 410 182 410 c 0,3,4
@@ -10580,18 +18817,63 @@ Fore
  62 -112 62 -112 62 -120 c 1,62,-1
  62 -120 l 1,52,53
 EndSplineSet
-Ligature: 0 0 'blws' u0BB1 u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BB1 u0BC1
 EndChar
+
 StartChar: u0BB2_u0BC1.blws
 Encoding: 65596 -1 191
 Width: 859
 GlyphClass: 2
 Flags: W
-TtfInstrs: 66
-5na5Y!&sr[!&jm[!%@n7!'pTM!!3-R!!*'U!&=N`!(Hqh!"8isFtYckFoX`h58QFH58QE_0eg0=
->lY95"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 57
+ 56
+ 2
+ 55
+ 88
+ 41
+ 66
+ 65
+ 64
+ 2
+ 47
+ 1
+ 51
+ 50
+ 13
+ 70
+ 1
+ 12
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 93
+ 12
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 164 100 m 1,0,1
  164 71 164 71 178.5 50.5 c 128,-1,2
  193 30 193 30 214 30 c 0,3,4
@@ -10663,18 +18945,64 @@ Fore
  44 101 44 101 44 180 c 1,92,-1
  44 180 l 1,24,25
 EndSplineSet
-Ligature: 0 0 'blws' u0BB2 u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BB2 u0BC1
 EndChar
+
 StartChar: u0BB3_u0BC1.blws
 Encoding: 65597 -1 192
 Width: 1075
 GlyphClass: 2
 Flags: W
-TtfInstrs: 68
-5nj;n!)*@o!)!;X!)`f"!$;1^!#kn?!#bh<!'gNK!"Aot!!*'.!(M,b2]-]<5<M.H4?l%H497/j
-\c>e3$igG]
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 77
+ 76
+ 2
+ 75
+ 65
+ 82
+ 89
+ 31
+ 30
+ 27
+ 3
+ 26
+ 1
+ 64
+ 63
+ 13
+ 70
+ 1
+ 12
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 87
+ 12
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 370 100 m 1,0,1
  370 71 370 71 387.5 50.5 c 128,-1,2
  405 30 405 30 430 30 c 256,3,4
@@ -10741,18 +19069,65 @@ Fore
  110 264 110 264 110 200 c 1,86,-1
  110 200 l 1,13,14
 EndSplineSet
-Ligature: 0 0 'blws' u0BB3 u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BB3 u0BC1
 EndChar
+
 StartChar: u0BB4_u0BC1.blws
 Encoding: 65598 -1 193
 Width: 890
 GlyphClass: 2
 Flags: W
-TtfInstrs: 70
-5nsA_!'C5_!':0H!"T'5!&=O/!&+Bt!!E9G!!*'G!$hOR!(Hqh!$;21FtYckFoX`h58QFH58QE_
-0eg0=5QDl+"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 61
+ 60
+ 2
+ 59
+ 65
+ 15
+ 90
+ 50
+ 49
+ 48
+ 35
+ 4
+ 34
+ 1
+ 37
+ 36
+ 13
+ 70
+ 1
+ 31
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 64
+ 31
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 602 40 m 1,0,-1
  722 40 l 2,1,2
  751 40 751 40 771.5 72 c 128,-1,3
@@ -10804,18 +19179,62 @@ Fore
  52 -52 52 -52 52 110 c 1,63,-1
  52 110 l 1,12,13
 EndSplineSet
-Ligature: 0 0 'blws' u0BB4 u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BB4 u0BC1
 EndChar
+
 StartChar: u0BB5_u0BC1.blws
 Encoding: 65599 -1 194
 Width: 798
 GlyphClass: 2
 Flags: W
-TtfInstrs: 64
-5nX/0!"]-3!&FU1!!3-T!'(#m!"o84!"T&>!"Aot!!*'7!(M,b2]-]<5<M.m58QFH497/j\c=bk
-'`\Cf
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 17
+ 16
+ 87
+ 51
+ 50
+ 2
+ 49
+ 57
+ 19
+ 18
+ 1
+ 15
+ 14
+ 13
+ 70
+ 1
+ 21
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 58
+ 21
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 163 110 m 1,0,1
  163 77 163 77 183.5 53.5 c 128,-1,2
  204 30 204 30 233 30 c 0,3,4
@@ -10861,18 +19280,60 @@ Fore
  673 40 l 1,57,-1
  673 40 l 1,13,-1
 EndSplineSet
-Ligature: 0 0 'blws' u0BB5 u0BC1
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BB5 u0BC1
 EndChar
+
 StartChar: u0B95_u0BC2.blws
 Encoding: 65600 -1 195
 Width: 836
 GlyphClass: 2
 Flags: W
-TtfInstrs: 62
-5nX/n!)<Mg!(6fS!!N?h!#Ybm!&=NT!$_If!"Aot!!*'K!(M,b2]-]<5<M.m58QE_0eg0=;?/-G
-"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 79
+ 78
+ 77
+ 68
+ 67
+ 5
+ 66
+ 25
+ 51
+ 50
+ 1
+ 35
+ 34
+ 13
+ 70
+ 1
+ 41
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 82
+ 41
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -10940,18 +19401,66 @@ Fore
  28 72 28 72 28 130 c 1,81,-1
  28 130 l 1,30,31
 EndSplineSet
-Ligature: 0 0 'blws' u0B95 u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0B95 u0BC2
 EndChar
+
 StartChar: u0B99_u0BC2.blws
 Encoding: 65601 -1 196
 Width: 836
 GlyphClass: 2
 Flags: W
-TtfInstrs: 72
-5o'G>!#bh=!#Yc$!)!;a!'1)^!'(#[!)*A(!"T&1!!E9%!"Aot!!*'"!(M,b2]-]<58QFH(Hanu
-497/j\c>G)!!!0Q
-EndTtf
+TtInstrs:
+NPUSHW
+ 22
+ 27
+ 26
+ 2
+ 25
+ 63
+ 75
+ 74
+ 58
+ 3
+ 57
+ 1
+ 76
+ 16
+ 15
+ 1
+ 4
+ 0
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 77
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  435 400 l 1,1,-1
  435 360 l 1,2,-1
@@ -11013,18 +19522,60 @@ Fore
  75 400 l 1,76,-1
  75 400 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'blws' u0B99 u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0B99 u0BC2
 EndChar
+
 StartChar: u0B9A_u0BC2.blws
 Encoding: 65602 -1 197
 Width: 798
 GlyphClass: 2
 Flags: W
-TtfInstrs: 61
-5nO)c!(6eg!(-`j!%%[l!!*'V!&FTV!#,DB!(Hqh!%.b9FtYckFoX`C4?kqm(H_^Q0Y.6T!%.aM
-.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 69
+ 68
+ 2
+ 67
+ 91
+ 38
+ 37
+ 1
+ 52
+ 51
+ 2
+ 20
+ 13
+ 70
+ 1
+ 39
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 72
+ 39
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 339 360 m 1,0,-1
  339 220 l 1,1,-1
  439 220 l 1,2,-1
@@ -11085,17 +19636,52 @@ Fore
  49 -65 49 -65 49 80 c 1,71,-1
  49 80 l 1,17,18
 EndSplineSet
-Ligature: 0 0 'blws' u0B9A u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0B9A u0BC2
 EndChar
+
 StartChar: glyph194
 Encoding: 65603 -1 198
 Width: 590
 GlyphClass: 2
 Flags: W
-TtfInstrs: 48
-5n!_r!!<3&!!!!"!!3-$!"Aot!!*'"!(M,b2]-]<5<M.H497/j\c<';!!!0Q
-EndTtf
+TtInstrs:
+NPUSHW
+ 12
+ 4
+ 3
+ 2
+ 0
+ 1
+ 2
+ 1
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 10
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 0 m 1,0,-1
  75 400 l 1,1,-1
  515 400 l 1,2,-1
@@ -11110,16 +19696,60 @@ Fore
  115 40 l 1,5,-1
 EndSplineSet
 EndChar
+
 StartChar: u0B9E_u0BC2.blws
 Encoding: 65604 -1 199
 Width: 1101
 GlyphClass: 2
 Flags: W
-TtfInstrs: 65
-5na5L!%S$N!%It5!'L<E!!*'B!$;1Q!"],5!"T&=!(Hqh!#bi,FtYckFoX`C4?kqm(H_^Q0Y.6l
-!#bh@.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 44
+ 43
+ 2
+ 42
+ 63
+ 61
+ 60
+ 1
+ 32
+ 31
+ 17
+ 16
+ 4
+ 15
+ 13
+ 70
+ 1
+ 26
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 96
+ 26
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 171 110 m 1,0,1
  171 77 171 77 191.5 53.5 c 128,-1,2
  212 30 212 30 241 30 c 256,3,4
@@ -11196,18 +19826,65 @@ Fore
  71 -112 71 -112 71 -120 c 1,95,-1
  71 -120 l 1,85,86
 EndSplineSet
-Ligature: 0 0 'blws' u0B9E u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0B9E u0BC2
 EndChar
+
 StartChar: u0B9F_u0BC2.blws
 Encoding: 65605 -1 200
 Width: 633
 GlyphClass: 2
 Flags: W
-TtfInstrs: 69
-5nj;<!#bh=!#Yc<!$M=b!!3-B!"Ju=!"Ao/!"],@!"Aot!!*'"!(M,b2]-]<5<M.m58QFH(H_^Q
-0Y.6L!!!!&.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 27
+ 26
+ 2
+ 25
+ 87
+ 33
+ 32
+ 2
+ 31
+ 14
+ 14
+ 13
+ 1
+ 16
+ 15
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 64
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 112 160 m 1,0,1
  112 27 112 27 178 -66.5 c 128,-1,2
  244 -160 244 -160 337 -160 c 0,3,4
@@ -11256,18 +19933,69 @@ Fore
  462 455 462 455 462 430 c 1,63,-1
  462 430 l 1,51,52
 EndSplineSet
-Ligature: 0 0 'blws' u0B9F u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0B9F u0BC2
 EndChar
+
 StartChar: u0BA3_u0BC2.blws
 Encoding: 65606 -1 201
 Width: 1340
 GlyphClass: 2
 Flags: W
-TtfInstrs: 78
-5oBYb!':/^!'1*E!0.&=!/po6!/COX!/:J6!0[DG!&+C+!%7gN!%.aU!(Hqh!&agHFtYckFoX`C
-4?jWE58QE_0eg0=U&[(O"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 60
+ 59
+ 2
+ 58
+ 63
+ 142
+ 141
+ 140
+ 136
+ 135
+ 5
+ 134
+ 57
+ 147
+ 146
+ 48
+ 47
+ 40
+ 5
+ 39
+ 13
+ 70
+ 1
+ 54
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 162
+ 54
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 159 110 m 1,0,1
  159 77 159 77 175 53.5 c 128,-1,2
  191 30 191 30 214 30 c 0,3,4
@@ -11388,17 +20116,56 @@ Fore
  134 -100 l 1,161,-1
  134 -100 l 1,148,149
 EndSplineSet
-Ligature: 0 0 'blws' u0BA3 u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BA3 u0BC2
 EndChar
+
 StartChar: u0BA4_u0BC2.blws
 Encoding: 65607 -1 202
 Width: 878
 GlyphClass: 2
 Flags: W
-TtfInstrs: 55
-5n<rh!)!:n!(m5U!'gNK!&FTW!&=N`!(Hqh!%n7@FtYckFoX`C4?jWE!AQ:>!)ESI!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 15
+ 76
+ 75
+ 2
+ 74
+ 63
+ 64
+ 63
+ 51
+ 3
+ 50
+ 13
+ 70
+ 1
+ 46
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 79
+ 46
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -11467,18 +20234,65 @@ Fore
  3 -178 3 -178 3 -120 c 1,78,-1
  3 -120 l 1,28,29
 EndSplineSet
-Ligature: 0 0 'blws' u0BA4 u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BA4 u0BC2
 EndChar
+
 StartChar: u0BA8_u0BC2.blws
 Encoding: 65608 -1 203
 Width: 875
 GlyphClass: 2
 Flags: W
-TtfInstrs: 70
-5nsAR!&"<R!%n79!##>F!"T&3!"Ju0!$hOh!#5J9!#,DB!(Hqh!!!!gFtYckFoX`C4?jWE58QE_
-0eg0=4obQ_"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 48
+ 47
+ 2
+ 46
+ 63
+ 19
+ 18
+ 15
+ 3
+ 14
+ 1
+ 36
+ 35
+ 21
+ 3
+ 20
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 62
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 5 -120 m 1,0,1
  5 -95 5 -95 28.5 -77.5 c 128,-1,2
  52 -60 52 -60 85 -60 c 2,3,-1
@@ -11532,18 +20346,64 @@ Fore
  55 -112 55 -112 55 -120 c 1,61,-1
  55 -120 l 1,51,52
 EndSplineSet
-Ligature: 0 0 'blws' u0BA8 u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BA8 u0BC2
 EndChar
+
 StartChar: u0BA9_u0BC2.blws
 Encoding: 65609 -1 204
 Width: 1148
 GlyphClass: 2
 Flags: W
-TtfInstrs: 69
-5nsAQ!%n6Q!%e18!,_dR!,2FH!+u9N!!WEA!'($(!$VCP!(Hqh!%n7@FtYckFoX`h58QFH(H_^Q
-0Y.74!%n6T.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 47
+ 46
+ 2
+ 45
+ 63
+ 110
+ 109
+ 105
+ 104
+ 103
+ 27
+ 6
+ 26
+ 57
+ 35
+ 34
+ 13
+ 70
+ 1
+ 46
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 125
+ 46
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 152 110 m 1,0,1
  152 81 152 81 172.5 60.5 c 128,-1,2
  193 40 193 40 222 40 c 256,3,4
@@ -11638,18 +20498,64 @@ Fore
  152 -100 l 1,124,-1
  152 -100 l 1,111,112
 EndSplineSet
-Ligature: 0 0 'blws' u0BA9 u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BA9 u0BC2
 EndChar
+
 StartChar: u0BAA_u0BC2.blws
 Encoding: 65610 -1 205
 Width: 705
 GlyphClass: 2
 Flags: W
-TtfInstrs: 68
-5nj;2!"],3!"T'6!&+C+!!3-#!!*'(!!N?(!!<3%!"Aot!!*'"!(M,b2]-]<58QFH(Hanu497/j
-\c=Gb!!!0Q
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 17
+ 16
+ 2
+ 15
+ 91
+ 48
+ 47
+ 2
+ 0
+ 1
+ 6
+ 5
+ 2
+ 3
+ 1
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 49
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 0 m 1,0,-1
  75 400 l 1,1,-1
  125 400 l 1,2,-1
@@ -11689,18 +20595,73 @@ Fore
  75 0 l 1,48,-1
  75 0 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'blws' u0BAA u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BAA u0BC2
 EndChar
+
 StartChar: u0BAE_u0BC2.blws
 Encoding: 65611 -1 206
 Width: 923
 GlyphClass: 2
 Flags: W
-TtfInstrs: 84
-5oTeh!'^Gb!'UBI!&ag7!&OZr!#ttB!#knu!'C6C!'1*3!!E9Q!!*'Q!%n6\!(Hqh!$2,0FtYck
-FoX`h58QFH(Hanu497/j\c>(t*WQ?o
-EndTtf
+TtInstrs:
+NPUSHW
+ 27
+ 64
+ 63
+ 2
+ 62
+ 63
+ 54
+ 53
+ 52
+ 29
+ 28
+ 5
+ 27
+ 57
+ 60
+ 59
+ 58
+ 45
+ 4
+ 44
+ 1
+ 47
+ 46
+ 13
+ 70
+ 1
+ 30
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 67
+ 30
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 116 235 m 1,0,1
  123 233 123 233 135.5 231.5 c 128,-1,2
  148 230 148 230 166 230 c 0,3,4
@@ -11754,18 +20715,63 @@ Fore
  56 -32 56 -32 56 130 c 1,66,-1
  56 130 l 1,25,26
 EndSplineSet
-Ligature: 0 0 'blws' u0BAE u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BAE u0BC2
 EndChar
+
 StartChar: u0BAF_u0BC2.blws
 Encoding: 65612 -1 207
 Width: 826
 GlyphClass: 2
 Flags: W
-TtfInstrs: 67
-5nj;;!#Yb<!#P]#!'($=!!*'1!"Ju:!"&]-!!N?'!"Aot!!*'@!(M,b2]-]<58QFH4?jWE!AQ:>
-!'pT+!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 26
+ 25
+ 2
+ 24
+ 63
+ 57
+ 56
+ 1
+ 15
+ 14
+ 11
+ 10
+ 2
+ 5
+ 1
+ 13
+ 70
+ 1
+ 30
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 65
+ 30
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 70 110 m 1,0,-1
  70 400 l 1,1,-1
  120 400 l 1,2,-1
@@ -11817,18 +20823,69 @@ Fore
  70 60 70 60 70 110 c 1,64,-1
  70 110 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'blws' u0BAF u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BAF u0BC2
 EndChar
+
 StartChar: u0BB0_u0BC2.blws
 Encoding: 65613 -1 208
 Width: 781
 GlyphClass: 2
 Flags: W
-TtfInstrs: 76
-5o0MB!$)%@!#tu'!$hOh!!3-E!'(#i!"Ju:!!<3.!!*'3!"],>!(Hqh!"o9$FtYckFoX`h58QFH
-(Hanu497/j\c=tq&c`(c
-EndTtf
+TtInstrs:
+NPUSHW
+ 23
+ 30
+ 29
+ 2
+ 28
+ 63
+ 36
+ 35
+ 2
+ 34
+ 57
+ 15
+ 14
+ 11
+ 3
+ 10
+ 1
+ 17
+ 16
+ 13
+ 70
+ 1
+ 18
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 64
+ 18
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 404 -220 m 1,0,1
  524 -220 524 -220 609 -126.5 c 128,-1,2
  694 -33 694 -33 694 100 c 0,3,4
@@ -11879,18 +20936,72 @@ Fore
  132 308 132 308 124 260 c 1,63,-1
  124 260 l 1,51,52
 EndSplineSet
-Ligature: 0 0 'blws' u0BB0 u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BB0 u0BC2
 EndChar
+
 StartChar: u0BB1_u0BC2.blws
 Encoding: 65614 -1 209
 Width: 853
 GlyphClass: 2
 Flags: W
-TtfInstrs: 82
-5oK_E!$)%@!#tu'!"&]4!!iQ-!!<3)!!3-\!&ss;!&"<S!%n6P!"o8D!"Aot!!*'4!(M,b2]-]<
-5<M.H4?jWE58QE_0eg0=70!r#"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 26
+ 30
+ 29
+ 2
+ 28
+ 63
+ 10
+ 9
+ 8
+ 4
+ 3
+ 5
+ 2
+ 57
+ 56
+ 55
+ 47
+ 3
+ 46
+ 1
+ 18
+ 17
+ 13
+ 70
+ 1
+ 18
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 69
+ 18
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 72 300 m 1,0,1
  72 346 72 346 104 378 c 128,-1,2
  136 410 136 410 182 410 c 0,3,4
@@ -11947,18 +21058,63 @@ Fore
  62 -112 62 -112 62 -120 c 1,68,-1
  62 -120 l 1,58,59
 EndSplineSet
-Ligature: 0 0 'blws' u0BB1 u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BB1 u0BC2
 EndChar
+
 StartChar: u0BB2_u0BC2.blws
 Encoding: 65615 -1 210
 Width: 1020
 GlyphClass: 2
 Flags: W
-TtfInstrs: 66
-5na5b!'pSd!'gNK!%\+5!)3Ge!!3-U!!*'X!&X`c!(Hqh!"o9$FtYckFoX`h58QFH58QE_0eg0=
-B`JbG"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 66
+ 65
+ 2
+ 64
+ 63
+ 44
+ 61
+ 77
+ 76
+ 2
+ 50
+ 1
+ 54
+ 53
+ 13
+ 70
+ 1
+ 18
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 105
+ 18
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 164 100 m 1,0,1
  164 71 164 71 178.5 50.5 c 128,-1,2
  193 30 193 30 214 30 c 0,3,4
@@ -12040,18 +21196,72 @@ Fore
  44 101 44 101 44 180 c 1,104,-1
  44 180 l 1,27,28
 EndSplineSet
-Ligature: 0 0 'blws' u0BB2 u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BB2 u0BC2
 EndChar
+
 StartChar: u0BB3_u0BC2.blws
 Encoding: 65616 -1 211
 Width: 1072
 GlyphClass: 2
 Flags: W
-TtfInstrs: 82
-5oK`)!*0($!*'"b!*oS0!*]Fm!(?kk!(6fI!%@mr!$qUI!$hOF!(m5_!"Aot!!*'4!(M,b2]-]<
-5<M.H4?jWE58QE_0eg0=@fR,A"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 26
+ 87
+ 86
+ 2
+ 85
+ 65
+ 93
+ 92
+ 91
+ 70
+ 69
+ 5
+ 68
+ 57
+ 41
+ 40
+ 37
+ 3
+ 36
+ 1
+ 74
+ 73
+ 13
+ 70
+ 1
+ 18
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 99
+ 18
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 107 240 m 1,0,1
  150 248 150 248 178.5 276 c 128,-1,2
  207 304 207 304 207 340 c 0,3,4
@@ -12127,18 +21337,75 @@ Fore
  171 206 171 206 107 200 c 1,98,-1
  107 200 l 1,23,24
 EndSplineSet
-Ligature: 0 0 'blws' u0BB3 u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BB3 u0BC2
 EndChar
+
 StartChar: u0BB4_u0BC2.blws
 Encoding: 65617 -1 212
 Width: 910
 GlyphClass: 2
 Flags: W
-TtfInstrs: 87
-5o]l&!)W^t!)NZ"!'pTM!!3-b!'($L!(HrW!&sr]!&jlY!'1*?!$)%Z!!E9@!"Aot!!*'H!(M,b
-2]-]<58QFH(Hanu4?jWE!AQ:>!*'"G!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 28
+ 82
+ 81
+ 2
+ 80
+ 91
+ 65
+ 64
+ 2
+ 63
+ 57
+ 71
+ 70
+ 69
+ 56
+ 4
+ 55
+ 1
+ 58
+ 57
+ 29
+ 28
+ 4
+ 27
+ 13
+ 70
+ 1
+ 38
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 85
+ 38
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 604 40 m 1,0,-1
  744 40 l 2,1,2
  773 40 773 40 793.5 72 c 128,-1,3
@@ -12205,18 +21472,69 @@ Fore
  54 -47 54 -47 54 110 c 1,84,-1
  54 110 l 1,25,26
 EndSplineSet
-Ligature: 0 0 'blws' u0BB4 u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BB4 u0BC2
 EndChar
+
 StartChar: u0BB5_u0BC2.blws
 Encoding: 65618 -1 213
 Width: 940
 GlyphClass: 2
 Flags: W
-TtfInstrs: 76
-5o0M>!#Yb<!#P]?!*K;(!!3.%!'($>!&ss3!!<3:!!*'1!"Ju<!(Hqh!$_J5FtYckFoX`h58QFH
-(Hanu497/j\c?+<,6.lt
-EndTtf
+TtInstrs:
+NPUSHW
+ 23
+ 26
+ 25
+ 2
+ 24
+ 91
+ 89
+ 88
+ 2
+ 87
+ 57
+ 57
+ 56
+ 47
+ 3
+ 22
+ 1
+ 15
+ 14
+ 13
+ 70
+ 1
+ 35
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 96
+ 35
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 163 110 m 1,0,1
  163 77 163 77 183.5 53.5 c 128,-1,2
  204 30 204 30 233 30 c 0,3,4
@@ -12288,19 +21606,64 @@ Fore
  673 40 l 1,95,-1
  673 40 l 1,13,-1
 EndSplineSet
-Ligature: 0 0 'blws' u0BB5 u0BC2
+Ligature2: "'blws' Below Base Substitutions in Tamil lookup 2 subtable" u0BB5 u0BC2
 EndChar
+
 StartChar: u0B95_u0BCD_u0BB7.akhn
 Encoding: 65619 -1 214
 Width: 1158
 GlyphClass: 2
 Flags: W
-TtfInstrs: 67
-5nj<(!*]Fa!+#Y2!*T@)!*K:&!)W_m!)ESS!!E9\!"Aot!!*'b!(M,b2]-]<58QFH(HaoE!AQ:>
-!.=i4!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 92
+ 91
+ 58
+ 94
+ 93
+ 90
+ 3
+ 89
+ 1
+ 81
+ 80
+ 79
+ 56
+ 4
+ 55
+ 13
+ 70
+ 1
+ 64
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 125
+ 64
+ 5
+CALL
+EndTTInstrs
 AnchorPoint: "Anchor-0" 1086 -6 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -12403,18 +21766,68 @@ Fore
  28 72 28 72 28 130 c 1,124,-1
  28 130 l 1,51,52
 EndSplineSet
-Ligature: 0 0 'akhn' u0B95 u0BCD u0BB7
+Ligature2: "'akhn' Akhand in Tamil lookup 1 subtable" u0B95 u0BCD u0BB7
 EndChar
+
 StartChar: u0B95_u0BCD_u0BB7.akhn_u0BBF.abvs
 Encoding: 65620 -1 215
 Width: 1313
 GlyphClass: 2
 Flags: W
-TtfInstrs: 75
-5o0Mu!)NYV!'1*?!!3-[!#bi9!)`em!)<MX!!N?c!!*(C!-J8N!(Hqh!'gNRFtYckFoX`h58QFH
-(HaoE!AQ:>!07+F!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 23
+ 81
+ 80
+ 58
+ 58
+ 57
+ 2
+ 56
+ 26
+ 83
+ 82
+ 79
+ 78
+ 62
+ 5
+ 61
+ 1
+ 118
+ 117
+ 13
+ 70
+ 1
+ 64
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 143
+ 64
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -12530,18 +21943,71 @@ Fore
  826 405 826 405 888 405 c 1,142,-1
  888 405 l 1,51,52
 EndSplineSet
-Ligature: 0 0 'abvs' u0B95_u0BCD_u0BB7.akhn u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B95_u0BCD_u0BB7.akhn u0BBF
 EndChar
+
 StartChar: u0B95_u0BCD_u0BB7.akhn_u0BC0.abvs
 Encoding: 65621 -1 216
 Width: 1158
 GlyphClass: 2
 Flags: W
-TtfInstrs: 80
-5oBZ(!*0(\!*K;(!*'"$!)rq!!0dJ2!.+]=!!E9X!"Aoh!'(#\!&sr\!(Hqh!'gNRFtYckFoX`C
-4?jWE58QFH497/j\cAH)5QCs<
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 87
+ 86
+ 58
+ 89
+ 88
+ 85
+ 3
+ 84
+ 1
+ 148
+ 124
+ 123
+ 75
+ 4
+ 51
+ 13
+ 58
+ 57
+ 2
+ 56
+ 3
+ 70
+ 1
+ 64
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 162
+ 64
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -12670,18 +22136,78 @@ Fore
  908 605 908 605 908 580 c 1,161,-1
  908 580 l 1,149,150
 EndSplineSet
-Ligature: 0 0 'abvs' u0B95_u0BCD_u0BB7.akhn u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0B95_u0BCD_u0BB7.akhn u0BC0
 EndChar
-StartChar: u0BB7_u0BCD.half_u0BB0_u0BC0.abvs
+
+StartChar: u0BB6_u0BCD.half_u0BB0_u0BC0.abvs
 Encoding: 65622 -1 217
 Width: 1084
 GlyphClass: 2
 Flags: W
-TtfInstrs: 93
-5p$(l!'^Gb!'UBI!$M=b!!3-B!(-a$!,2FA!+5e4!*fL.!"Ao/!&FU1!#bhT!"T&5!"Ju<!(Hqh
-!!!!gFtYckFoX`C4?jWE58QFH(H_^Q0Y.7"!!!!&.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 31
+ 64
+ 63
+ 2
+ 62
+ 63
+ 33
+ 32
+ 2
+ 31
+ 67
+ 106
+ 105
+ 97
+ 96
+ 93
+ 92
+ 6
+ 13
+ 1
+ 51
+ 50
+ 26
+ 25
+ 15
+ 5
+ 14
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 107
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 915 530 m 1,0,1
  915 505 915 505 932.5 487.5 c 128,-1,2
  950 470 950 470 975 470 c 256,3,4
@@ -12764,19 +22290,70 @@ Fore
  75 0 l 1,106,-1
  75 0 l 1,13,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB8_u0BCD.half u0BB0 u0BC0
-Ligature: 0 0 'abvs' u0BB7_u0BCD.half u0BB0 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB8_u0BCD.half u0BB0 u0BC0
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB6_u0BCD.half u0BB0 u0BC0
 EndChar
+
 StartChar: u0B95_u0BCD.half
 Encoding: 65623 -1 218
 Width: 533
 GlyphClass: 2
 Flags: W
-TtfInstrs: 77
-5o9ST!%n7'!$)%Z!!N?A!#Ybt!'(#\!&ssK!$;1A!&X`h!!3-4!"Aot!!*'=!(M,b2]-]<58QFH
-58QFH(H_^Q0Y.6O!#knA.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 24
+ 47
+ 46
+ 45
+ 29
+ 28
+ 5
+ 27
+ 25
+ 58
+ 57
+ 2
+ 56
+ 71
+ 31
+ 1
+ 53
+ 18
+ 2
+ 17
+ 13
+ 70
+ 1
+ 27
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 67
+ 27
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -12833,19 +22410,66 @@ Fore
  217 539 217 539 217 560 c 1,66,-1
  217 560 l 1,54,55
 EndSplineSet
-Ligature: 0 0 'haln' u0B95 u0BCD
-Ligature: 0 0 'half' u0B95 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0B95 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0B95 u0BCD
 EndChar
+
 StartChar: u0B99_u0BCD.half
 Encoding: 65624 -1 219
 Width: 730
 GlyphClass: 2
 Flags: W
-TtfInstrs: 70
-5nsAK!%7gK!%.b:!$_If!"],4!"T&1!$M=b!"o86!"f2?!(Hqh!#ko-FtYckFoX`C4?jWE58QE_
-0eg0=1&r6n"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 21
+ 41
+ 40
+ 2
+ 39
+ 71
+ 35
+ 34
+ 16
+ 3
+ 15
+ 1
+ 33
+ 32
+ 18
+ 3
+ 17
+ 13
+ 70
+ 1
+ 27
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 50
+ 27
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 245 40 m 1,0,-1
  355 40 l 2,1,2
  392 40 392 40 418.5 66.5 c 128,-1,3
@@ -12889,19 +22513,64 @@ Fore
  316 539 316 539 316 560 c 1,49,-1
  316 560 l 1,37,38
 EndSplineSet
-Ligature: 0 0 'haln' u0B99 u0BCD
-Ligature: 0 0 'half' u0B99 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0B99 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0B99 u0BCD
 EndChar
+
 StartChar: u0B9A_u0BCD.half
 Encoding: 65625 -1 220
 Width: 462
 GlyphClass: 2
 Flags: W
-TtfInstrs: 66
-5na5=!#tt?!#knU!%7gp!!3-I!(R#6!"o85!"f2?!(Hqh!#5K'FtYckFoX`C4?jWE58QE_0eg0=
-0`Vpg"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 29
+ 28
+ 2
+ 27
+ 25
+ 40
+ 39
+ 2
+ 38
+ 71
+ 35
+ 18
+ 2
+ 17
+ 13
+ 70
+ 1
+ 21
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 49
+ 21
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -12946,19 +22615,64 @@ Fore
  182 539 182 539 182 560 c 1,48,-1
  182 560 l 1,36,37
 EndSplineSet
-Ligature: 0 0 'haln' u0B9A u0BCD
-Ligature: 0 0 'half' u0B9A u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0B9A u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0B9A u0BCD
 EndChar
+
 StartChar: u0B9C_u0BCD.half
 Encoding: 65626 -1 221
 Width: 695
 GlyphClass: 2
 Flags: W
-TtfInstrs: 66
-5na5J!%@mL!%7h2!,MXN!!3.8!(R#7!$_IF!$VCD!(Hqh!#5K'FtYckFoX`C4?jWE58QE_0eg0=
-FT<-V"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 42
+ 41
+ 2
+ 40
+ 62
+ 108
+ 107
+ 2
+ 106
+ 71
+ 36
+ 35
+ 2
+ 34
+ 1
+ 70
+ 1
+ 21
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 117
+ 21
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 82 200 m 1,0,1
  82 175 82 175 102.5 157.5 c 128,-1,2
  123 140 123 140 152 140 c 0,3,4
@@ -13044,19 +22758,70 @@ Fore
  298 539 298 539 298 560 c 1,116,-1
  298 560 l 1,104,105
 EndSplineSet
-Ligature: 0 0 'haln' u0B9C u0BCD
-Ligature: 0 0 'half' u0B9C u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0B9C u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0B9C u0BCD
 EndChar
+
 StartChar: u0B9E_u0BCD.half
 Encoding: 65627 -1 222
 Width: 895
 GlyphClass: 2
 Flags: W
-TtfInstrs: 76
-5o0Mn!(d.l!([)S!)W_m!!3-r!(R#5!$M=C!'L<E!':/_!"],>!(Hqh!#5K'FtYckFoX`C4?kqm
-(Hanu497/j\c>n6'`\Cf
-EndTtf
+TtInstrs:
+NPUSHW
+ 23
+ 74
+ 73
+ 2
+ 72
+ 63
+ 81
+ 80
+ 2
+ 79
+ 71
+ 34
+ 33
+ 1
+ 61
+ 60
+ 59
+ 3
+ 16
+ 13
+ 70
+ 1
+ 21
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 90
+ 21
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 309 110 m 1,0,1
  309 77 309 77 329.5 53.5 c 128,-1,2
  350 30 350 30 379 30 c 256,3,4
@@ -13125,19 +22890,61 @@ Fore
  398 539 398 539 398 560 c 1,89,-1
  398 560 l 1,77,78
 EndSplineSet
-Ligature: 0 0 'haln' u0B9E u0BCD
-Ligature: 0 0 'half' u0B9E u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0B9E u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0B9E u0BCD
 EndChar
+
 StartChar: u0B9F_u0BCD.half
 Encoding: 65628 -1 223
 Width: 663
 GlyphClass: 2
 Flags: W
-TtfInstrs: 61
-5nO))!"&]-!!rWq!!WE,!!3-#!!*'$!!*'/!(Hqh!!!!gFtYckFoX`h58QFH(H_^Q0Y.5u!!!!&
-.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 11
+ 10
+ 2
+ 9
+ 71
+ 6
+ 5
+ 2
+ 0
+ 1
+ 2
+ 1
+ 13
+ 70
+ 1
+ 0
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 20
+ 0
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 0 m 1,0,-1
  75 400 l 1,1,-1
  125 400 l 1,2,-1
@@ -13157,19 +22964,75 @@ Fore
  282 539 282 539 282 560 c 1,19,-1
  282 560 l 1,7,8
 EndSplineSet
-Ligature: 0 0 'haln' u0B9F u0BCD
-Ligature: 0 0 'half' u0B9F u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0B9F u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0B9F u0BCD
 EndChar
+
 StartChar: u0BA3_u0BCD.half
 Encoding: 65629 -1 224
 Width: 1060
 GlyphClass: 2
 Flags: W
-TtfInstrs: 86
-5o]lH!-8-\!*K;(!*9.j!(Hqo!(?l*!.+]l!!3.G!(R#N!'1)\!&jm9!!3-X!"Aot!!*'P!(M,b
-2]-]<58QFH4?jWE58QE_0eg0=KE*V)"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 28
+ 116
+ 115
+ 114
+ 89
+ 88
+ 87
+ 71
+ 70
+ 8
+ 69
+ 25
+ 123
+ 122
+ 2
+ 121
+ 71
+ 59
+ 58
+ 1
+ 55
+ 54
+ 2
+ 53
+ 13
+ 70
+ 1
+ 46
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 132
+ 46
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 154 110 m 1,0,1
  154 77 154 77 171.5 53.5 c 128,-1,2
  189 30 189 30 214 30 c 256,3,4
@@ -13268,18 +23131,59 @@ Fore
  481 539 481 539 481 560 c 1,131,-1
  481 560 l 1,119,120
 EndSplineSet
-Ligature: 0 0 'haln' u0BA3 u0BCD
-Ligature: 0 0 'half' u0BA3 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BA3 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BA3 u0BCD
 EndChar
+
 StartChar: u0BA4_u0BCD.half
 Encoding: 65630 -1 225
 Width: 543
 GlyphClass: 2
 Flags: W
-TtfInstrs: 58
-5nF#A!'gNN!'pSd!'gNS!'L;p!!3-4!"Aot!!*'9!(M,b2]-]<58QFH(Han_0eg0=9)ob."Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 16
+ 36
+ 64
+ 66
+ 65
+ 2
+ 64
+ 71
+ 61
+ 18
+ 2
+ 17
+ 13
+ 70
+ 1
+ 23
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 75
+ 23
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 360 m 1,0,-1
  178 220 l 1,1,-1
  278 220 l 1,2,-1
@@ -13342,19 +23246,68 @@ Fore
  222 539 222 539 222 560 c 1,74,-1
  222 560 l 1,62,63
 EndSplineSet
-Ligature: 0 0 'haln' u0BA4 u0BCD
-Ligature: 0 0 'half' u0BA4 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BA4 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BA4 u0BCD
 EndChar
+
 StartChar: u0BA8_u0BCD.half
 Encoding: 65631 -1 226
 Width: 535
 GlyphClass: 2
 Flags: W
-TtfInstrs: 73
-5o'G8!'pT>!&+BS!&"=B!%S%!!%.aK!%%[H!%\*N!!3-#!"Aot!!*'.!(M,b2]-]<58QFH(Hanu
-4?ij$0Y.6F!"8i2.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 22
+ 21
+ 65
+ 49
+ 48
+ 2
+ 47
+ 71
+ 43
+ 42
+ 39
+ 3
+ 38
+ 1
+ 44
+ 1
+ 2
+ 0
+ 13
+ 70
+ 1
+ 12
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 58
+ 12
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  435 400 l 1,1,-1
  435 360 l 1,2,-1
@@ -13402,19 +23355,73 @@ Fore
  218 539 218 539 218 560 c 1,57,-1
  218 560 l 1,45,46
 EndSplineSet
-Ligature: 0 0 'haln' u0BA8 u0BCD
-Ligature: 0 0 'half' u0BA8 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BA8 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BA8 u0BCD
 EndChar
+
 StartChar: u0BA9_u0BCD.half
 Encoding: 65632 -1 227
 Width: 808
 GlyphClass: 2
 Flags: W
-TtfInstrs: 82
-5oK_m!(?lU!%S%!!!N?O!#Yc;!*'"#!)rqg!$;1^!!*'s!)NY7!!<3>!"Aot!!*'.!(M,b2]-]<
-58QFH4?jWE58QE_0eg0=?N:K7"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 26
+ 70
+ 69
+ 68
+ 43
+ 42
+ 5
+ 41
+ 25
+ 86
+ 85
+ 2
+ 84
+ 71
+ 31
+ 30
+ 1
+ 81
+ 80
+ 27
+ 3
+ 26
+ 13
+ 70
+ 1
+ 12
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 95
+ 12
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 152 110 m 1,0,1
  152 77 152 77 172.5 53.5 c 128,-1,2
  193 30 193 30 222 30 c 256,3,4
@@ -13487,19 +23494,62 @@ Fore
  355 539 355 539 355 560 c 1,94,-1
  355 560 l 1,82,83
 EndSplineSet
-Ligature: 0 0 'haln' u0BA9 u0BCD
-Ligature: 0 0 'half' u0BA9 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BA9 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BA9 u0BCD
 EndChar
+
 StartChar: u0BAA_u0BCD.half
 Encoding: 65633 -1 228
 Width: 620
 GlyphClass: 2
 Flags: W
-TtfInstrs: 63
-5nX/,!"8i/!"/cs!!E9(!!*'(!!N?(!!<3%!"Aot!!*'.!(M,b2]-]<58QFH4?jWE!AQ:>!#>PC
-!!OkQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 18
+ 13
+ 12
+ 2
+ 11
+ 71
+ 4
+ 3
+ 1
+ 6
+ 5
+ 2
+ 3
+ 1
+ 13
+ 70
+ 1
+ 12
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 22
+ 12
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 495 40 m 1,0,-1
  495 400 l 1,1,-1
  545 400 l 1,2,-1
@@ -13521,19 +23571,61 @@ Fore
  261 539 261 539 261 560 c 1,21,-1
  261 560 l 1,9,10
 EndSplineSet
-Ligature: 0 0 'haln' u0BAA u0BCD
-Ligature: 0 0 'half' u0BAA u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BAA u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BAA u0BCD
 EndChar
+
 StartChar: u0BAE_u0BCD.half
 Encoding: 65634 -1 229
 Width: 671
 GlyphClass: 2
 Flags: W
-TtfInstrs: 61
-5nO)>!$;1B!$2,1!##>F!!3-4!!*'7!#,DB!(Hqh!"8isFtYckFoX`h58QFH(H_^Q0Y.65!"8i2
-.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 32
+ 31
+ 2
+ 30
+ 71
+ 19
+ 18
+ 2
+ 17
+ 1
+ 21
+ 20
+ 13
+ 70
+ 1
+ 12
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 41
+ 12
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 365 300 m 1,0,-1
  365 40 l 1,1,-1
  505 40 l 2,2,3
@@ -13569,19 +23661,72 @@ Fore
  286 539 286 539 286 560 c 1,40,-1
  286 560 l 1,28,29
 EndSplineSet
-Ligature: 0 0 'haln' u0BAE u0BCD
-Ligature: 0 0 'half' u0BAE u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BAE u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BAE u0BCD
 EndChar
+
 StartChar: u0BAF_u0BCD.half
 Encoding: 65635 -1 230
 Width: 715
 GlyphClass: 2
 Flags: W
-TtfInstrs: 80
-5oBY/!!iQ+!!`KA!$)%Z!!3->!(R"l!!<3%!#>PL!"Ao:!!3-(!!*'/!(Hqh!!`KnFtYckFoX`C
-4?kqm(Hanu497/j\c=&W#64oX
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 9
+ 8
+ 2
+ 7
+ 25
+ 29
+ 28
+ 2
+ 27
+ 71
+ 4
+ 3
+ 1
+ 22
+ 21
+ 13
+ 12
+ 2
+ 5
+ 1
+ 13
+ 70
+ 1
+ 7
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 38
+ 7
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 590 40 m 1,0,-1
  590 400 l 1,1,-1
  640 400 l 1,2,-1
@@ -13615,19 +23760,65 @@ Fore
  308 539 308 539 308 560 c 1,37,-1
  308 560 l 1,25,26
 EndSplineSet
-Ligature: 0 0 'haln' u0BAF u0BCD
-Ligature: 0 0 'half' u0BAF u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BAF u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BAF u0BCD
 EndChar
+
 StartChar: u0BB0_u0BCD.half
 Encoding: 65636 -1 231
 Width: 436
 GlyphClass: 2
 Flags: W
-TtfInstrs: 68
-5nj;0!"Ju1!"Aou!!rW2!!N?)!!E9&!"&],!!3-#!"Aot!!*')!(M,b2]-]<58QFH(Hanu497/j
-\c<QI#64oX
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 15
+ 14
+ 2
+ 13
+ 71
+ 9
+ 8
+ 5
+ 3
+ 4
+ 1
+ 10
+ 1
+ 2
+ 0
+ 13
+ 70
+ 1
+ 7
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 24
+ 7
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 75 400 m 1,0,-1
  430 400 l 1,1,-1
  430 360 l 1,2,-1
@@ -13651,19 +23842,60 @@ Fore
  169 539 169 539 169 560 c 1,23,-1
  169 560 l 1,11,12
 EndSplineSet
-Ligature: 0 0 'haln' u0BB0 u0BCD
-Ligature: 0 0 'half' u0BB0 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BB0 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BB0 u0BCD
 EndChar
+
 StartChar: u0BB1_u0BCD.half
 Encoding: 65637 -1 232
 Width: 567
 GlyphClass: 2
 Flags: W
-TtfInstrs: 60
-5nO)2!##>i!&OZW!&FUF!&"=)!%%[J!$qUG!(Hqh!!rWpFtYckFoX`C4?jWE563Jm\c=no#lk,Z
-
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 20
+ 19
+ 53
+ 52
+ 2
+ 51
+ 71
+ 47
+ 46
+ 38
+ 3
+ 37
+ 1
+ 70
+ 1
+ 9
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 62
+ 9
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 72 300 m 1,0,1
  72 346 72 346 104 378 c 128,-1,2
  136 410 136 410 182 410 c 0,3,4
@@ -13712,19 +23944,62 @@ Fore
  234 539 234 539 234 560 c 1,61,-1
  234 560 l 1,49,50
 EndSplineSet
-Ligature: 0 0 'haln' u0BB1 u0BCD
-Ligature: 0 0 'half' u0BB1 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BB1 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BB1 u0BCD
 EndChar
+
 StartChar: u0BB2_u0BCD.half
 Encoding: 65638 -1 233
 Width: 692
 GlyphClass: 2
 Flags: W
-TtfInstrs: 64
-5na5Q!&+C+!#P\P!!N?<!#Yc*!(6eg!(-`V!"],>!(Hqh!!rWpFtYckFoX`k(Hanu497/j\c>J*
-#lk,Z
-EndTtf
+TtInstrs:
+NPUSHW
+ 19
+ 49
+ 48
+ 47
+ 24
+ 23
+ 5
+ 22
+ 25
+ 69
+ 68
+ 2
+ 67
+ 71
+ 16
+ 13
+ 70
+ 1
+ 9
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 78
+ 9
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 154 100 m 1,0,1
  154 71 154 71 171.5 50.5 c 128,-1,2
  189 30 189 30 214 30 c 256,3,4
@@ -13783,19 +24058,73 @@ Fore
  297 539 297 539 297 560 c 1,77,-1
  297 560 l 1,65,66
 EndSplineSet
-Ligature: 0 0 'haln' u0BB2 u0BCD
-Ligature: 0 0 'half' u0BB2 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BB2 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BB2 u0BCD
 EndChar
+
 StartChar: u0BB3_u0BCD.half
 Encoding: 65639 -1 234
 Width: 752
 GlyphClass: 2
 Flags: W
-TtfInstrs: 81
-5oBYS!%\*O!%S$e!':0A!!3-\!(R#)!#5JH!!<35!!*'X!"Ju1!"Ao;!(Hqh!!rWpFtYckFoX`C
-4?jWE58QFH(H_^Q0Y.6P!!rW/.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 45
+ 44
+ 2
+ 43
+ 25
+ 59
+ 58
+ 2
+ 57
+ 71
+ 22
+ 21
+ 18
+ 3
+ 17
+ 1
+ 54
+ 14
+ 2
+ 13
+ 13
+ 70
+ 1
+ 9
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 68
+ 9
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 166 120 m 1,0,1
  166 87 166 87 183.5 63.5 c 128,-1,2
  201 40 201 40 226 40 c 256,3,4
@@ -13850,19 +24179,71 @@ Fore
  327 539 327 539 327 560 c 1,67,-1
  327 560 l 1,55,56
 EndSplineSet
-Ligature: 0 0 'haln' u0BB3 u0BCD
-Ligature: 0 0 'half' u0BB3 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BB3 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BB3 u0BCD
 EndChar
+
 StartChar: u0BB4_u0BCD.half
 Encoding: 65640 -1 235
 Width: 671
 GlyphClass: 2
 Flags: W
-TtfInstrs: 78
-5o9SE!$;1B!$2,+!(?lU!!3-f!(R#K!&jlk!"o87!"f23!'1*?!"Aot!!*'+!(M,b2]-]<5<M.H
-4?jWE58QE_0eg0=:&kS#"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 24
+ 32
+ 31
+ 2
+ 30
+ 65
+ 69
+ 68
+ 2
+ 67
+ 71
+ 56
+ 55
+ 19
+ 18
+ 4
+ 17
+ 1
+ 58
+ 57
+ 13
+ 70
+ 1
+ 9
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 78
+ 9
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 365 300 m 1,0,-1
  365 40 l 1,1,-1
  505 40 l 2,2,3
@@ -13925,19 +24306,66 @@ Fore
  286 539 286 539 286 560 c 1,77,-1
  286 560 l 1,65,66
 EndSplineSet
-Ligature: 0 0 'haln' u0BB4 u0BCD
-Ligature: 0 0 'half' u0BB4 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BB4 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BB4 u0BCD
 EndChar
+
 StartChar: u0BB5_u0BCD.half
 Encoding: 65641 -1 236
 Width: 798
 GlyphClass: 2
 Flags: W
-TtfInstrs: 69
-5nj;L!%IsM!%@mc!'C6C!!3-]!(R#$!"],2!"T&>!"Aot!!*'5!(M,b2]-]<5<M.m58QFH(H_^Q
-0Y.6Q!##>9.f]PL
-EndTtf
+TtInstrs:
+NPUSHW
+ 20
+ 43
+ 42
+ 2
+ 41
+ 25
+ 60
+ 59
+ 2
+ 58
+ 71
+ 17
+ 16
+ 1
+ 15
+ 14
+ 13
+ 70
+ 1
+ 19
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 69
+ 19
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 163 110 m 1,0,1
  163 77 163 77 183.5 53.5 c 128,-1,2
  204 30 204 30 233 30 c 0,3,4
@@ -13991,19 +24419,71 @@ Fore
  350 539 350 539 350 560 c 1,68,-1
  350 560 l 1,56,57
 EndSplineSet
-Ligature: 0 0 'haln' u0BB5 u0BCD
-Ligature: 0 0 'half' u0BB5 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BB5 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BB5 u0BCD
 EndChar
+
 StartChar: u0BB7_u0BCD.half
 Encoding: 65642 -1 237
 Width: 933
 GlyphClass: 2
 Flags: W
-TtfInstrs: 78
-5o9SS!%e13!+c.@!!3.1!(R#C!&"='!!<3O!!*(-!+,^N!!<3F!"Aot!!*'5!(M,b2]-]<58QFH
-(Hanu4?kq/0eg0=D?(=M"Y0QQ
-EndTtf
+TtInstrs:
+NPUSHW
+ 24
+ 46
+ 45
+ 58
+ 101
+ 100
+ 2
+ 99
+ 71
+ 48
+ 47
+ 44
+ 3
+ 43
+ 1
+ 96
+ 95
+ 35
+ 3
+ 34
+ 13
+ 70
+ 1
+ 19
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 110
+ 19
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 165 110 m 1,0,1
  165 77 165 77 182.5 53.5 c 128,-1,2
  200 30 200 30 225 30 c 0,3,4
@@ -14090,19 +24570,67 @@ Fore
  417 539 417 539 417 560 c 1,109,-1
  417 560 l 1,97,98
 EndSplineSet
-Ligature: 0 0 'haln' u0BB7 u0BCD
-Ligature: 0 0 'half' u0BB7 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BB7 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BB7 u0BCD
 EndChar
+
 StartChar: u0BB8_u0BCD.half
 Encoding: 65643 -1 238
 Width: 895
 GlyphClass: 2
 Flags: W
-TtfInstrs: 72
-5o'Gp!)*Ac!%S%!!!N?O!#Yc9!)ik!!)`ee!&ag7!!*'G!"T'!!!*'5!(M,b2]-]<rBED/(Hanu
-497/j\c?"9'*&1d
-EndTtf
+TtInstrs:
+NPUSHW
+ 22
+ 77
+ 76
+ 75
+ 43
+ 42
+ 5
+ 41
+ 25
+ 84
+ 83
+ 2
+ 82
+ 71
+ 54
+ 53
+ 1
+ 37
+ 15
+ 70
+ 1
+ 19
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIRP[rp0,min,rnd,black]
+MIAP[rnd]
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 93
+ 19
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 175 110 m 1,0,1
  175 77 175 77 192.5 53.5 c 128,-1,2
  210 30 210 30 235 30 c 256,3,4
@@ -14172,19 +24700,60 @@ Fore
  398 539 398 539 398 560 c 1,92,-1
  398 560 l 1,80,81
 EndSplineSet
-Ligature: 0 0 'haln' u0BB8 u0BCD
-Ligature: 0 0 'half' u0BB8 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BB8 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BB8 u0BCD
 EndChar
+
 StartChar: u0BB9_u0BCD.half
 Encoding: 65644 -1 239
 Width: 1021
 GlyphClass: 2
 Flags: W
-TtfInstrs: 60
-5nO)<!'1*q!,;K8!,2F'!'($=!&+BT!&"<Q!(Hqh!##?%FtYckFoX`C4?jWE563Jm\c?gP'*&1d
-
-EndTtf
+TtInstrs:
+NPUSHW
+ 17
+ 30
+ 58
+ 107
+ 106
+ 2
+ 105
+ 71
+ 57
+ 56
+ 48
+ 3
+ 47
+ 1
+ 70
+ 1
+ 19
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 116
+ 19
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 167 110 m 1,0,1
  167 77 167 77 187.5 53.5 c 128,-1,2
  208 30 208 30 237 30 c 256,3,4
@@ -14271,19 +24840,72 @@ Fore
  461 539 461 539 461 560 c 1,115,-1
  461 560 l 1,103,104
 EndSplineSet
-Ligature: 0 0 'haln' u0BB9 u0BCD
-Ligature: 0 0 'half' u0BB9 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BB9 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BB9 u0BCD
 EndChar
+
 StartChar: u0B95_u0BCD_u0BB7.akhn_u0BCD.half
 Encoding: 65645 -1 240
 Width: 1158
 GlyphClass: 2
 Flags: W
-TtfInstrs: 80
-5oBZ-!*]Fa!.b-#!!3.M!(R#q!*oS.!!<4(!!*'s!)NYk!&sr]!&jle!(Hqh!'gNRFtYckFoX`C
-4?jWE58QFH497/j\c@Tf5QCs<
-EndTtf
+TtInstrs:
+NPUSHW
+ 25
+ 92
+ 91
+ 58
+ 129
+ 128
+ 2
+ 127
+ 71
+ 94
+ 93
+ 90
+ 3
+ 89
+ 1
+ 81
+ 80
+ 79
+ 56
+ 4
+ 55
+ 13
+ 70
+ 1
+ 64
+ 70
+SROUND
+MDAP[rnd]
+SHZ[rp1]
+RTG
+SROUND
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+SLOOP
+ALIGNRP
+MIAP[rnd]
+ALIGNRP
+SVTCA[x-axis]
+IUP[x]
+IUP[y]
+PUSHW_3
+ 138
+ 64
+ 5
+CALL
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 178 220 m 1,0,-1
  278 220 l 1,1,-1
  278 360 l 1,2,-1
@@ -14396,15 +25018,18 @@ Fore
  530 539 530 539 530 560 c 1,137,-1
  530 560 l 1,125,126
 EndSplineSet
-Ligature: 0 0 'haln' u0B95_u0BCD_u0BB7.akhn u0BCD
-Ligature: 0 0 'half' u0B95_u0BCD_u0BB7.akhn u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0B95_u0BCD_u0BB7.akhn u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0B95_u0BCD_u0BB7.akhn u0BCD
 EndChar
+
 StartChar: u0BB6_u0BCD.half
 Encoding: 65646 -1 241
 Width: 855
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 350 565 m 1,0,1
  350 586 350 586 364.5 600.5 c 128,-1,2
  379 615 379 615 400 615 c 256,3,4
@@ -14438,15 +25063,18 @@ Fore
  294 39 294 39 294 124 c 2,39,-1
  294 400 l 1,19,-1
 EndSplineSet
-Ligature: 0 0 'haln' u0BB6 u0BCD
-Ligature: 0 0 'half' u0BB6 u0BCD
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BB6 u0BCD
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BB6 u0BCD
 EndChar
+
 StartChar: u0BB6_u0BC0.half
 Encoding: 65647 -1 242
 Width: 855
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 301 550 m 1,0,1
  301 608 301 608 348 649 c 128,-1,2
  395 690 395 690 461 690 c 0,3,4
@@ -14499,15 +25127,18 @@ Fore
  294 38 294 38 294 123 c 2,65,-1
  294 399 l 1,45,-1
 EndSplineSet
-Ligature: 0 0 'haln' u0BB6 u0BC0
-Ligature: 0 0 'half' u0BB6 u0BC0
+Ligature2: "'haln' Halant Forms in Tamil lookup 4 subtable" u0BB6 u0BC0
+Ligature2: "'half' Half Forms in Tamil lookup 3 subtable" u0BB6 u0BC0
 EndChar
+
 StartChar: u0BB6_u0BBF.abvs
 Encoding: 65648 -1 243
 Width: 855
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 464 489 m 1,0,1
  464 559 464 559 522.5 609 c 128,-1,2
  581 659 581 659 664 659 c 0,3,4
@@ -14549,14 +25180,17 @@ Fore
  294 39 294 39 294 124 c 2,49,-1
  294 400 l 1,29,-1
 EndSplineSet
-Ligature: 0 0 'abvs' u0BB6 u0BBF
+Ligature2: "'abvs' Above Base Substitutions in Tamil lookup 0 subtable" u0BB6 u0BBF
 EndChar
+
 StartChar: u0BE6
 Encoding: 3046 3046 244
 Width: 476
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 49 263 m 1,0,1
  49 366 49 366 100 443 c 128,-1,2
  151 520 151 520 238 520 c 256,3,4

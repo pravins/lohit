@@ -2,6 +2,7 @@
 test -d TTFfiles || mkdir TTFfiles
 ./generate.pe *.sfd
 cd TTFfiles
+mv Lohit-Assamese.ttf lohit_as.ttf
 mv Lohit-Bengali.ttf lohit_bn.ttf
 mv Lohit-Hindi.ttf lohit_hi.ttf
 mv Lohit-Malayalam.ttf lohit_ml.ttf 

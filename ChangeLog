@@ -1,5 +1,14 @@
 				  fonts-indic
-Current Version :- 2.3.1
+Current Version :- 2.3.8
+
+* Thu Mar 05 2009 Rahul Bhalerao <rbhalera@redhat.com> - 2.3.8
+- Bug 428427 - [kn_IN][fonts-indic] - 0CB5+0CCA is wrongly rendering 
+- Bug 450699 - [ta_IN]Errors in "sh" and "shrI" in Lohit Tamil font (fixed in font, needs rendering update)
+- Bug 476427 - [te_IN] - Consonant+Virama+Consonant+Virama+space renders the second virama as a separate glyph in lohit-telugu font
+- Bug 479100 - [kn_IN] Conjunct combination of U0C9D with U0CCA/U0CCB is rendering wrongly
+- Bug 483530 - [bn_IN]Lohit Bengali font cheating about character support
+- Added Lohit-Assamese
+- Modified README file.
 
 * Tue Sep 09 2008 Rahul Bhalerao <rbhalera@redhat.com> - 2.3.1
 - Bug 216400: [te_IN] - Anaconda GUI - Release Notes button is overlapping
