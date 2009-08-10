@@ -4,7 +4,7 @@ FullName: Lohit Gujarati
 FamilyName: Lohit Gujarati
 Weight: Book
 Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA. - under General Public License
-Version: 1.00
+Version: 2.4.0
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -98,7 +98,7 @@ EndTtf
 TtfTable: maxp 32
 !!*'"!F#Po!"8i-!!!!"!!*'^!'gMa!(6g*z
 EndTtf
-LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Gujarati" "" "Version 1.00" 
+LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Gujarati" "" "Version 2.4.0" 
 GaspTable: 3 8 2 18 1 255 3
 Encoding: UnicodeBmp
 UnicodeInterp: none

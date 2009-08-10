@@ -1,23 +1,26 @@
-SplineFontDB: 1.0
+SplineFontDB: 3.0
 FontName: Lohit-Punjabi
 FullName: Lohit Punjabi
 FamilyName: Lohit Punjabi
 Weight: Book
 Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA. - under General Public License
-Version: 1.00
+Version: 2.4.0
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
 Ascent: 615
 Descent: 154
-Order2: 1
+LayerCount: 2
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
+NeedsXUIDChange: 1
 XUID: [1021 648 100124046 5567902]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159495707
-ModificationTime: 1165924150
+ModificationTime: 1248773929
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -48,87 +51,519 @@ OS2SupYOff: 500
 OS2StrikeYSize: 50
 OS2StrikeYPos: 250
 OS2Vendor: 'ACE '
-ScriptLang: 2
- 1 guru 1 dflt 
- 0 
-ChainSub: coverage 0 0 'psts' 0 0 0 1
+Lookup: 4 0 0 "'abvs' Above Base Substitutions in Gurmukhi lookup 0"  {"'abvs' Above Base Substitutions in Gurmukhi lookup 0 subtable"  } ['abvs' ('guru' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms in Gurmukhi lookup 1"  {"'blwf' Below Base Forms in Gurmukhi lookup 1 subtable"  } ['blwf' ('guru' <'dflt' > ) ]
+Lookup: 4 0 0 "'nukt' Nukta Forms in Gurmukhi lookup 2"  {"'nukt' Nukta Forms in Gurmukhi lookup 2 subtable"  } ['nukt' ('guru' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Gurmukhi lookup 3"  {"'psts' Post Base Substitutions in Gurmukhi lookup 3 subtable"  } ['psts' ('guru' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Gurmukhi lookup 4"  {"'psts' Post Base Substitutions in Gurmukhi lookup 4 subtable"  } ['psts' ('guru' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Gurmukhi lookup 5"  {"'psts' Post Base Substitutions in Gurmukhi lookup 5 subtable"  } ['psts' ('guru' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Gurmukhi lookup 6"  {"'psts' Post Base Substitutions in Gurmukhi lookup 6 subtable"  } ['psts' ('guru' <'dflt' > ) ]
+Lookup: 4 0 0 "'psts' Post Base Substitutions in Gurmukhi lookup 7"  {"'psts' Post Base Substitutions in Gurmukhi lookup 7 subtable"  } ['psts' ('guru' <'dflt' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants in Gurmukhi lookup 8"  {"'vatu' Vattu Variants in Gurmukhi lookup 8 subtable"  } ['vatu' ('guru' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 9"  {"Single Substitution lookup 9 subtable"  } []
+Lookup: 260 0 0 "'abvm' Above Base Mark in Gurmukhi lookup 0"  {"'abvm' Above Base Mark in Gurmukhi lookup 0 subtable"  } ['abvm' ('guru' <'dflt' > ) ]
+Lookup: 260 0 0 "'abvm' Above Base Mark in Gurmukhi lookup 1"  {"'abvm' Above Base Mark in Gurmukhi lookup 1 subtable"  } ['abvm' ('guru' <'dflt' > ) ]
+DEI: 91125
+ChainSub2: coverage "'psts' Post Base Substitutions in Gurmukhi lookup 6 subtable"  0 0 0 1
  1 1 0
   Coverage: 5 u0A70
   BCoverage: 5 u0A4C
  1
-  SeqLookup: 0 'L000'
+  SeqLookup: 0 "Single Substitution lookup 9" 
 EndFPST
-ChainSub: coverage 0 0 'psts' 0 0 0 1
+ChainSub2: coverage "'psts' Post Base Substitutions in Gurmukhi lookup 5 subtable"  0 0 0 1
  1 1 0
   Coverage: 5 u0A70
   BCoverage: 5 u0A4B
  1
-  SeqLookup: 0 'L000'
+  SeqLookup: 0 "Single Substitution lookup 9" 
 EndFPST
-ChainSub: coverage 0 0 'psts' 0 0 0 1
+ChainSub2: coverage "'psts' Post Base Substitutions in Gurmukhi lookup 4 subtable"  0 0 0 1
  1 1 0
   Coverage: 5 u0A70
   BCoverage: 5 u0A48
  1
-  SeqLookup: 0 'L000'
+  SeqLookup: 0 "Single Substitution lookup 9" 
 EndFPST
-ChainSub: coverage 0 0 'psts' 0 0 0 1
+ChainSub2: coverage "'psts' Post Base Substitutions in Gurmukhi lookup 3 subtable"  0 0 0 1
  1 1 0
   Coverage: 5 u0A70
   BCoverage: 5 u0A47
  1
-  SeqLookup: 0 'L000'
+  SeqLookup: 0 "Single Substitution lookup 9" 
 EndFPST
-GenTags: 1 sb'L000'
-TableOrder: GPOS 1
-	'abvm'
-TableOrder: GSUB 5
-	'abvs'
-	'blwf'
-	'nukt'
-	'psts'
-	'vatu'
-TtfTable: prep 11
-5QX@TNOT#hKm":5
-EndTtf
-TtfTable: fpgm 100
-5Qq;o!s/HRG"!OX"!pA\@;$K&BOF4[/4C\c"!pA\@;$m!?plRt+<\2o^c2t35QNc&/M&"eYWt/\
-YQ6Yls1gTG/-2tEFs':g(aDLYBHUD"YQH0r33WH1'!MBpAN3gE
-EndTtf
-TtfTable: cvt  596
-z!&=Vgs3:UTs24n6![[n]!V6;_!E&nM!/LV/s8N,n!b22&!<3$R!SdY(!+l3a!*TF&s4@>J
-!%7iqs7QLJ!C-Z0!ZV0js5sA5!LEd:!D`\O!0dPBs(VUcs1/6J!:^#cs,mAr!WW2Ys7lX6!JUSD
-!#P^J!'^HCs2Y3[!VQK]!%%_]s1n^O!':10!VcZr!Pe[Y!X8Zcs6'J1!#ttW!Ib!^s5s@-!@n.F
-!&XaEs6BZj!%J"r!HJ5%!"K$/!.=i?!;-=l!U9_.s3^mM!([(9!TF11!<)pWs.9=+!,2B<!g*OX
-s4ICts)%h6!q-'r!bMGrs+gZ_!AXYr!NuLX!'UFss-E^E!:p2.!b_O@!T*lo!m1Sa!]g?!![IeJ
-!9O@:s%rg3!J:Fps3puk!mpth!%e85!\+0k!M09:!V-2<!A"7K!*9.7!MBH#!PSR#!+5f^!([->
-!&O^i!3-%Z!)3H+!'C9U!1!Y8!D*:C!K-q&!<`F@!Fu1^!J^]F!*]I6!CQoo!IOo?!EfF]!2'@3
-!,M\)!Q+mds0)NF!$;5[!8.?p!$2(0s)e:7!XJj+!'pZN!k/4?!YYOhs5O&7s#g>h!,hnI!?hHi
-!#G[!!Jgbu!$D<P!Cd%Y!gE\+!-ePqs!\";!os>!s6Tad!Z_?@""=7.!pp#V!FPmf"Yg'R!6Y>Y
-!/pu/!=]#8s0r*,!Dib-!(d68!Y5=B!7(Xks%!(n!1*^<!B1$crn7;2rl"rT!!WD;!>,;@
-EndTtf
-TtfTable: maxp 32
-!!*'"!1EnL!"8i-!!!!"!!*'^!'gMa!;HP)z
-EndTtf
-LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Punjabi" "" "Version 1.00" 
+TtTable: prep
+NPUSHB
+ 2
+ 69
+ 1
+SCANTYPE
+PUSHW_1
+ 511
+SCANCTRL
+SROUND
+RTG
+EndTTInstrs
+TtTable: fpgm
+NPUSHB
+ 5
+ 5
+ 4
+ 3
+ 2
+ 0
+FDEF
+SROUND
+RCVT
+DUP
+PUSHB_1
+ 3
+CINDEX
+RCVT
+SWAP
+SUB
+ROUND[Grey]
+RTG
+SWAP
+ROUND[Grey]
+ADD
+WCVTP
+ENDF
+FDEF
+RCVT
+DUP
+PUSHB_1
+ 3
+CINDEX
+RCVT
+SWAP
+SUB
+ROUND[Grey]
+SWAP
+ROUND[Grey]
+ADD
+WCVTP
+ENDF
+FDEF
+DUP
+DUP
+PUSHW_1
+ -64
+SHPIX
+SRP2
+PUSHB_2
+ 64
+ 1
+SHZ[rp2]
+SHPIX
+ENDF
+FDEF
+DUP
+DUP
+PUSHB_1
+ 64
+SHPIX
+SRP2
+PUSHB_1
+ 1
+SHZ[rp2]
+PUSHW_1
+ -64
+SHPIX
+ENDF
+FDEF
+SVTCA[x-axis]
+PUSHB_1
+ 70
+SROUND
+DUP
+GC[orig]
+ROUND[Grey]
+RTG
+SWAP
+GC[cur]
+SUB
+ROUND[Grey]
+DUP
+IF
+DUP
+PUSHB_1
+ 3
+CINDEX
+SWAP
+SHPIX
+PUSHB_1
+ 2
+CINDEX
+SRP2
+PUSHB_1
+ 1
+SHZ[rp2]
+NEG
+SHPIX
+EIF
+ENDF
+EndTTInstrs
+ShortTable: cvt  298
+  0
+  0
+  50
+  700
+  -50
+  100
+  -60
+  80
+  550
+  105
+  499
+  158
+  338
+  46
+  136
+  48
+  -1
+  502
+  610
+  -96
+  255
+  49
+  475
+  -44
+  102
+  47
+  90
+  510
+  -40
+  250
+  40
+  210
+  -10
+  560
+  320
+  290
+  539
+  -42
+  -25
+  44
+  407
+  43
+  335
+  51
+  148
+  650
+  -150
+  640
+  -70
+  450
+  240
+  -90
+  -110
+  190
+  511
+  -31
+  -7
+  27
+  390
+  70
+  24
+  187
+  63
+  56
+  -56
+  283
+  501
+  -17
+  38
+  362
+  -63
+  278
+  59
+  126
+  504
+  257
+  448
+  33
+  518
+  313
+  -24
+  294
+  28
+  26
+  381
+  -66
+  -26
+  -49
+  299
+  78
+  53
+  68
+  -21
+  178
+  42
+  379
+  370
+  484
+  14
+  340
+  125
+  75
+  245
+  85
+  490
+  543
+  -46
+  89
+  71
+  -48
+  482
+  724
+  253
+  -200
+  -97
+  361
+  104
+  -248
+  657
+  588
+  -39
+  206
+  -146
+  166
+  750
+  -245
+  614
+  232
+  -120
+  181
+  306
+  200
+  431
+  219
+  62
+  445
+  -105
+  55
+  243
+  110
+  615
+  -160
+  479
+  109
+  714
+  710
+  570
+  280
+  548
+  343
+  230
+  730
+  -175
+  447
+  387
+  542
+  -45
+  -223
+  720
+  -55
+  45
+  655
+  554
+  30
+  414
+  36
+  497
+  -131
+  300
+  337
+  87
+  20
+  416
+  266
+  446
+  236
+  96
+  220
+  72
+  382
+  52
+  360
+  170
+  227
+  77
+  103
+  60
+  332
+  150
+  383
+  329
+  215
+  395
+  35
+  260
+  366
+  356
+  130
+  391
+  411
+  91
+  270
+  324
+  94
+  380
+  330
+  345
+  310
+  160
+  368
+  108
+  410
+  451
+  41
+  -80
+  371
+  31
+  367
+  217
+  117
+  29
+  -270
+  -140
+  -95
+  520
+  595
+  65
+  575
+  695
+  525
+  530
+  -35
+  -30
+  -205
+  -195
+  10
+  111
+  439
+  289
+  208
+  23
+  402
+  392
+  372
+  32
+  440
+  325
+  -15
+  660
+  115
+  120
+  555
+  -215
+  580
+  740
+  25
+  -20
+  -255
+  541
+  680
+  809
+  309
+  749
+  409
+  352
+  57
+  1329
+  590
+  202
+  -62
+  140
+  639
+  269
+  9
+  -72
+  422
+  336
+  16
+  73
+  630
+  527
+  441
+  207
+  122
+  -185
+  -250
+  151
+  301
+  311
+  350
+  -295
+  -285
+  -315
+  705
+  5
+  -65
+  273
+  13
+EndShort
+ShortTable: maxp 16
+  1
+  0
+  154
+  144
+  12
+  0
+  0
+  1
+  1
+  60
+  64
+  0
+  248
+  100
+  0
+  0
+EndShort
+LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Punjabi" "" "Version 2.4.0" 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 33 33 15
-AnchorClass: "Anchor-0" abvm 0 0 1 0 "Anchor-1" abvm 0 0 2 0 
-BeginChars: 65555 154
+WinInfo: 2508 33 13
+AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Gurmukhi lookup 1 subtable" "Anchor-1"  "'abvm' Above Base Mark in Gurmukhi lookup 0 subtable" 
+BeginChars: 65555 156
+
 StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 800
 GlyphClass: 2
 Flags: W
-TtfInstrs: 21
-[fca:!!`T0!<=c/0/EV^1+tF<0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_8
+ 4
+ 2
+ 6
+ 0
+ 7
+ 3
+ 5
+ 1
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp2]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 100 700 m 1,0,-1
  700 700 l 1,1,-1
  700 0 l 1,2,-1
@@ -141,33 +576,48 @@ Fore
  650 50 l 1,4,-1
 EndSplineSet
 EndChar
+
 StartChar: .null
-Encoding: 65537 0 1
+Encoding: 0 0 1
 Width: 0
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 EndChar
+
 StartChar: nonmarkingreturn
-Encoding: 65538 12 2
+Encoding: 12 12 2
 Width: 0
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 EndChar
+
 StartChar: space
 Encoding: 32 32 3
 Width: 215
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 EndChar
+
 StartChar: exclam
 Encoding: 33 33 4
 Width: 260
 GlyphClass: 2
 Flags: W
-TtfInstrs: 7
-YlFn[1GLQ`
-EndTtf
+TtInstrs:
+PUSHB_2
+ 0
+ 4
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 20 m 1,0,-1
  170 20 l 1,1,-1
  170 -60 l 1,2,-1
@@ -180,15 +630,28 @@ Fore
  105 550 l 1,4,-1
 EndSplineSet
 EndChar
+
 StartChar: quotedbl
 Encoding: 34 34 5
 Width: 376
 GlyphClass: 2
 Flags: W
-TtfInstrs: 11
-ZN^R7!A?5^1GLQ`
-EndTtf
+TtInstrs:
+PUSHB_4
+ 6
+ 5
+ 2
+ 1
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 119 499 m 1,0,-1
  90 657 l 1,1,-1
  150 657 l 1,2,-1
@@ -201,15 +664,49 @@ Fore
  249 499 l 1,4,-1
 EndSplineSet
 EndChar
+
 StartChar: numbersign
 Encoding: 35 35 6
 Width: 732
 GlyphClass: 2
 Flags: W
-TtfInstrs: 32
-5Re)C"<8C"*XiGf*s`5S0/GC;1D)DD0/F1r0/G=:
-EndTtf
+TtInstrs:
+NPUSHB
+ 13
+ 11
+ 31
+ 4
+ 28
+ 28
+ 26
+ 30
+ 12
+ 12
+ 15
+ 31
+ 8
+ 11
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SRP1
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+SRP1
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 140 384 m 1,0,-1
  285 384 l 1,1,-1
  322 502 l 1,2,-1
@@ -246,12 +743,15 @@ Fore
  316 338 l 1,28,-1
 EndSplineSet
 EndChar
+
 StartChar: dollar
 Encoding: 36 36 7
 Width: 565
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 136 149 m 1,0,1
  136 104 136 104 169.5 67 c 128,-1,2
  203 30 203 30 255 17 c 1,3,-1
@@ -293,12 +793,15 @@ Fore
  209 471 209 471 179 443.5 c 128,-1,42
 EndSplineSet
 EndChar
+
 StartChar: percent
 Encoding: 37 37 8
 Width: 650
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 125 472 m 128,-1,1
  160 510 160 510 210 510 c 256,2,3
  260 510 260 510 295 472 c 128,-1,4
@@ -342,12 +845,15 @@ Fore
  360 83 360 83 383.5 56.5 c 128,-1,41
 EndSplineSet
 EndChar
+
 StartChar: ampersand
 Encoding: 38 38 9
 Width: 602
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 124.5 204 m 128,-1,1
  159 249 159 249 219 284 c 1,2,3
  184 328 184 328 166 366.5 c 128,-1,4
@@ -391,15 +897,24 @@ Fore
  198 407 198 407 213 377.5 c 128,-1,43
 EndSplineSet
 EndChar
+
 StartChar: quotesingle
 Encoding: 39 39 10
 Width: 246
 GlyphClass: 2
 Flags: W
-TtfInstrs: 7
-YlXqZ1GLQ`
-EndTtf
+TtInstrs:
+PUSHB_2
+ 2
+ 1
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 119 499 m 1,0,-1
  90 657 l 1,1,-1
  150 657 l 1,2,-1
@@ -407,12 +922,15 @@ Fore
  119 499 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: parenleft
 Encoding: 40 40 11
 Width: 410
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 143.5 489 m 128,-1,1
  197 596 197 596 290 650 c 1,2,-1
  320 610 l 1,3,4
@@ -426,12 +944,15 @@ Fore
  90 382 90 382 143.5 489 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: parenright
 Encoding: 41 41 12
 Width: 410
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 266.5 11 m 128,-1,1
  213 -96 213 -96 120 -150 c 1,2,-1
  90 -110 l 1,3,4
@@ -445,15 +966,19 @@ Fore
  320 118 320 118 266.5 11 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: asterisk
 Encoding: 42 42 13
 Width: 465
 GlyphClass: 2
-Flags: HW
-TtfInstrs: 2
-0e`S-
-EndTtf
+Flags: W
+TtInstrs:
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 186.24 509.6 m 5,0,-1
  146.64 535.4 l 5,1,-1
  212.64 612.8 l 5,2,-1
@@ -476,15 +1001,30 @@ Fore
  186.24 509.6 l 5,0,-1
 EndSplineSet
 EndChar
+
 StartChar: plus
 Encoding: 43 43 14
 Width: 530
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZNC74"op;4!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 3
+ 2
+ 5
+ 6
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 300 m 1,0,-1
  240 300 l 1,1,-1
  240 450 l 5,2,-1
@@ -500,15 +1040,24 @@ Fore
  90 300 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: comma
 Encoding: 44 44 15
 Width: 280
 GlyphClass: 2
 Flags: W
-TtfInstrs: 7
-YlOhX1,1H_
-EndTtf
+TtInstrs:
+PUSHB_2
+ 1
+ 0
+MDAP[rnd]
+SHP[rp2]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 90 m 1,0,-1
  190 90 l 1,1,-1
  190 0 l 2,2,3
@@ -521,15 +1070,25 @@ Fore
  90 90 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: hyphen
 Encoding: 45 45 16
 Width: 530
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-YlOn+0/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 300 m 1,0,-1
  440 300 l 1,1,-1
  440 250 l 1,2,-1
@@ -537,15 +1096,25 @@ Fore
  90 300 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: period
 Encoding: 46 46 17
 Width: 270
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-YlOn+0/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 90 m 1,0,-1
  180 90 l 1,1,-1
  180 0 l 1,2,-1
@@ -553,15 +1122,24 @@ Fore
  90 90 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: slash
 Encoding: 47 47 18
 Width: 420
 GlyphClass: 2
 Flags: W
-TtfInstrs: 7
-YlY"\1GLQ`
-EndTtf
+TtInstrs:
+PUSHB_2
+ 2
+ 3
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 290 650 m 1,0,-1
  330 650 l 1,1,-1
  130 -150 l 1,2,-1
@@ -569,12 +1147,15 @@ Fore
  290 650 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: zero
 Encoding: 48 48 19
 Width: 430
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 88 63.5 m 128,-1,1
  40 134 40 134 40 252 c 256,2,3
  40 370 40 370 88 440.5 c 128,-1,4
@@ -595,15 +1176,34 @@ Fore
  263 20 263 20 291.5 83.5 c 128,-1,13
 EndSplineSet
 EndChar
+
 StartChar: one
 Encoding: 49 49 20
 Width: 430
 GlyphClass: 2
 Flags: W
-TtfInstrs: 17
-[1*9>'G;&Z0/G7;!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_6
+ 13
+ 5
+ 0
+ 20
+ 18
+ 19
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 110 24 m 1,0,-1
  138 24 l 2,1,2
  158 24 158 24 172.5 33.5 c 128,-1,3
@@ -624,12 +1224,15 @@ Fore
  110 24 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: two
 Encoding: 50 50 21
 Width: 429
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 173 152 m 128,-1,1
  283 282 283 282 283 343 c 0,2,3
  283 389 283 389 254.5 422 c 128,-1,4
@@ -652,12 +1255,15 @@ Fore
  63 22 63 22 173 152 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: three
 Encoding: 51 51 22
 Width: 430
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 94.5 -4.5 m 128,-1,1
  68 8 68 8 68 25 c 0,2,3
  68 35 68 35 76 42 c 128,-1,4
@@ -690,15 +1296,30 @@ Fore
  121 -17 121 -17 94.5 -4.5 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: four
 Encoding: 52 52 23
 Width: 430
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZNU^E!!"Z-!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 5
+ 11
+ 11
+ 0
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp2]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 257 126 m 1,0,-1
  40 126 l 1,1,-1
  40 175 l 1,2,-1
@@ -717,12 +1338,15 @@ Fore
  257 175 l 1,11,-1
 EndSplineSet
 EndChar
+
 StartChar: five
 Encoding: 53 53 24
 Width: 430
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 87.5 5.5 m 128,-1,1
  61 18 61 18 61 35 c 0,2,3
  61 47 61 47 71.5 55 c 128,-1,4
@@ -750,12 +1374,15 @@ Fore
  114 -7 114 -7 87.5 5.5 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: six
 Encoding: 54 54 25
 Width: 430
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 100.5 54.5 m 128,-1,1
  49 116 49 116 49 203 c 0,2,3
  49 333 49 333 139 425.5 c 128,-1,4
@@ -783,15 +1410,25 @@ Fore
  266 19 266 19 290.5 56.5 c 128,-1,20
 EndSplineSet
 EndChar
+
 StartChar: seven
 Encoding: 55 55 26
 Width: 429
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-Ym(4/0/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 6
+ 1
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 318 448 m 1,0,-1
  129 448 l 2,1,2
  110 448 110 448 92 433 c 128,-1,3
@@ -804,12 +1441,15 @@ Fore
  318 448 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: eight
 Encoding: 56 56 27
 Width: 430
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 113 31 m 128,-1,1
  68 69 68 69 68 122 c 0,2,3
  68 154 68 154 96 189 c 128,-1,4
@@ -847,12 +1487,15 @@ Fore
  260 314 260 314 279.5 347 c 128,-1,37
 EndSplineSet
 EndChar
+
 StartChar: nine
 Encoding: 57 57 28
 Width: 429
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 78 3 m 1,0,1
  169 27 169 27 230.5 86 c 128,-1,2
  292 145 292 145 305 220 c 1,3,4
@@ -878,15 +1521,29 @@ Fore
  248 220 248 220 271.5 226.5 c 128,-1,20
 EndSplineSet
 EndChar
+
 StartChar: colon
 Encoding: 58 58 29
 Width: 280
 GlyphClass: 2
 Flags: W
-TtfInstrs: 12
-ZNLL5!rsu10/G=:
-EndTtf
+TtInstrs:
+PUSHB_4
+ 4
+ 7
+ 0
+ 3
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 370 m 1,0,-1
  190 370 l 1,1,-1
  190 280 l 1,2,-1
@@ -899,15 +1556,29 @@ Fore
  90 90 l 1,4,-1
 EndSplineSet
 EndChar
+
 StartChar: semicolon
 Encoding: 59 59 30
 Width: 280
 GlyphClass: 2
 Flags: W
-TtfInstrs: 12
-ZO76C$32_80/G=:
-EndTtf
+TtInstrs:
+PUSHB_4
+ 11
+ 14
+ 0
+ 10
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 90 m 1,0,-1
  190 90 l 1,1,-1
  190 0 l 2,2,3
@@ -925,15 +1596,25 @@ Fore
  90 370 l 1,11,-1
 EndSplineSet
 EndChar
+
 StartChar: less
 Encoding: 60 60 31
 Width: 527
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-YlOn+0/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 277 m 1,0,-1
  437 484 l 1,1,-1
  437 430 l 1,2,-1
@@ -944,15 +1625,29 @@ Fore
  90 277 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: equal
 Encoding: 61 61 32
 Width: 530
 GlyphClass: 2
 Flags: W
-TtfInstrs: 12
-ZNUO6!WXl00/G=:
-EndTtf
+TtInstrs:
+PUSHB_4
+ 5
+ 6
+ 1
+ 2
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 340 m 1,0,-1
  440 340 l 1,1,-1
  440 290 l 1,2,-1
@@ -965,15 +1660,25 @@ Fore
  90 175 l 1,4,-1
 EndSplineSet
 EndChar
+
 StartChar: greater
 Encoding: 62 62 33
 Width: 527
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-Ylk./0/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 4
+ 3
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 14 m 1,0,-1
  90 70 l 1,1,-1
  388 250 l 1,2,-1
@@ -984,12 +1689,15 @@ Fore
  90 14 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: question
 Encoding: 63 63 34
 Width: 580
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 245 25 m 1,0,-1
  330 25 l 1,1,-1
  330 -50 l 1,2,-1
@@ -1018,12 +1726,15 @@ Fore
  90 456 90 456 148.5 503 c 128,-1,5
 EndSplineSet
 EndChar
+
 StartChar: at
 Encoding: 64 64 35
 Width: 814
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 293.5 341.5 m 128,-1,1
  334 384 334 384 392 384 c 0,2,3
  418 384 418 384 441.5 373.5 c 128,-1,4
@@ -1072,15 +1783,34 @@ Fore
  302 199 302 199 328 169 c 128,-1,53
 EndSplineSet
 EndChar
+
 StartChar: bracketleft
 Encoding: 91 91 36
 Width: 480
 GlyphClass: 2
 Flags: W
-TtfInstrs: 17
-[0$C4"p+f*0/G7;!A?2_0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_6
+ 3
+ 0
+ 5
+ 6
+ 2
+ 1
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp2]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 700 m 1,0,-1
  390 700 l 1,1,-1
  390 650 l 1,2,-1
@@ -1092,15 +1822,24 @@ Fore
  90 700 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: backslash
 Encoding: 92 92 37
 Width: 485
 GlyphClass: 2
 Flags: W
-TtfInstrs: 7
-YlXqZ1GLQ`
-EndTtf
+TtInstrs:
+PUSHB_2
+ 2
+ 1
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 344 -97 m 1,0,-1
  90 610 l 1,1,-1
  141 610 l 1,2,-1
@@ -1108,15 +1847,34 @@ Fore
  344 -97 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: bracketright
 Encoding: 93 93 38
 Width: 480
 GlyphClass: 2
 Flags: W
-TtfInstrs: 17
-[0-^<"p+f*0/G7;!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_6
+ 4
+ 7
+ 5
+ 6
+ 2
+ 1
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 390 -200 m 1,0,-1
  90 -200 l 1,1,-1
  90 -150 l 1,2,-1
@@ -1128,15 +1886,25 @@ Fore
  390 -200 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: asciicircum
 Encoding: 94 94 39
 Width: 534
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-Ym(:10/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 6
+ 3
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 298 361 m 1,0,-1
  444 104 l 1,1,-1
  385 104 l 1,2,-1
@@ -1147,15 +1915,25 @@ Fore
  298 361 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: underscore
 Encoding: 95 95 40
 Width: 715
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-YlOn+0/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 -197 m 1,0,-1
  625 -197 l 1,1,-1
  625 -248 l 1,2,-1
@@ -1163,15 +1941,24 @@ Fore
  90 -197 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: grave
 Encoding: 96 96 41
 Width: 286
 GlyphClass: 2
 Flags: W
-TtfInstrs: 7
-YlXqZ1GLQ`
-EndTtf
+TtInstrs:
+PUSHB_2
+ 2
+ 1
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 159 499 m 1,0,-1
  90 657 l 1,1,-1
  155 657 l 1,2,-1
@@ -1179,12 +1966,15 @@ Fore
  159 499 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: braceleft
 Encoding: 123 123 42
 Width: 394
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 143.5 258.5 m 128,-1,1
  166 284 166 284 166 320 c 2,2,-1
  166 419 l 2,3,4
@@ -1211,15 +2001,24 @@ Fore
  121 233 121 233 143.5 258.5 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: bar
 Encoding: 124 124 43
 Width: 230
 GlyphClass: 2
 Flags: W
-TtfInstrs: 7
-YlOhX1,1H_
-EndTtf
+TtInstrs:
+PUSHB_2
+ 1
+ 0
+MDAP[rnd]
+SHP[rp2]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 750 m 1,0,-1
  140 750 l 1,1,-1
  140 -245 l 1,2,-1
@@ -1227,15 +2026,24 @@ Fore
  90 750 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: braceright
 Encoding: 125 125 44
 Width: 395
 GlyphClass: 2
 Flags: W
-TtfInstrs: 7
-YnJ$/1GLQ`
-EndTtf
+TtInstrs:
+PUSHB_2
+ 19
+ 26
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 305 232 m 1,0,1
  274 232 274 232 251.5 207.5 c 128,-1,2
  229 183 229 183 229 148 c 2,3,-1
@@ -1262,15 +2070,25 @@ Fore
  305 232 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: asciitilde
 Encoding: 126 126 45
 Width: 572
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-YlbaA0/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 3
+ 22
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 262 m 1,0,1
  115 283 115 283 142.5 294.5 c 128,-1,2
  170 306 170 306 196 306 c 256,3,4
@@ -1292,15 +2110,30 @@ Fore
  90 262 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: multiply
 Encoding: 215 215 46
 Width: 562
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZNgL6$32_8!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 7
+ 1
+ 4
+ 10
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 92 m 1,0,-1
  237 240 l 1,1,-1
  90 387 l 1,2,-1
@@ -1316,12 +2149,15 @@ Fore
  90 92 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: divide
 Encoding: 247 247 47
 Width: 599
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 259 144 m 128,-1,1
  275 160 275 160 298 160 c 256,2,3
  321 160 321 160 337 145.5 c 128,-1,4
@@ -1347,12 +2183,15 @@ Fore
  243 413 243 413 259 429 c 128,-1,17
 EndSplineSet
 EndChar
+
 StartChar: uni0964
 Encoding: 2404 2404 48
 Width: 275
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 150 0 m 1,0,-1
  150 500 l 1,1,-1
  200 500 l 1,2,-1
@@ -1361,12 +2200,15 @@ Fore
  150 0 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0965
 Encoding: 2405 2405 49
 Width: 435
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 150 0 m 1,0,-1
  150 500 l 1,1,-1
  200 500 l 1,2,-1
@@ -1381,6 +2223,7 @@ Fore
  310 0 l 1,5,-1
 EndSplineSet
 EndChar
+
 StartChar: uni0A01
 Encoding: 2561 2561 50
 Width: 0
@@ -1388,7 +2231,9 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-1" -360 506 mark 0
 AnchorPoint: "Anchor-0" -354 506 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -397 688 m 128,-1,1
  -397 699 -397 699 -388 707.5 c 128,-1,2
  -379 716 -379 716 -365.5 716 c 128,-1,3
@@ -1411,6 +2256,7 @@ Fore
  -298 539 -298 539 -357 539 c 128,-1,9
 EndSplineSet
 EndChar
+
 StartChar: u0A02
 Encoding: 2562 2562 51
 Width: 0
@@ -1418,7 +2264,9 @@ GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-1" -110 532 mark 0
 AnchorPoint: "Anchor-0" -116 526 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -147 692 m 128,-1,1
  -134 705 -134 705 -115 705 c 256,2,3
  -96 705 -96 705 -83 692 c 128,-1,4
@@ -1430,12 +2278,15 @@ Fore
  -160 679 -160 679 -147 692 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: uni0A03
 Encoding: 2563 2563 52
 Width: 316
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 107 122 m 128,-1,1
  107 91 107 91 129.5 69 c 128,-1,2
  152 47 152 47 184 47 c 128,-1,3
@@ -1474,15 +2325,30 @@ Fore
  68 421 68 421 68 471.5 c 128,-1,25
 EndSplineSet
 EndChar
+
 StartChar: u0A05
 Encoding: 2565 2565 53
 Width: 619
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZOmZX&-+@>!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 17
+ 14
+ 15
+ 16
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 39 500 m 2,0,1
  77 500 77 500 110.5 464 c 128,-1,2
  144 428 144 428 159 370 c 1,3,-1
@@ -1525,16 +2391,35 @@ Fore
  39 500 l 2,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0A06
 Encoding: 2566 2566 54
 Width: 854
 GlyphClass: 2
 Flags: W
-TtfInstrs: 17
-[1O)f%M'*N0/EV^1G:O=0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_6
+ 17
+ 20
+ 21
+ 14
+ 15
+ 16
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
 AnchorPoint: "Anchor-0" 738 486 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 39 500 m 2,0,1
  77 500 77 500 110.5 464 c 128,-1,2
  144 428 144 428 159 370 c 1,3,-1
@@ -1581,13 +2466,16 @@ Fore
  39 500 l 2,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0A07
 Encoding: 2567 2567 55
 Width: 685
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-0" 434 480 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 328 226 m 128,-1,1
  356 254 356 254 380 265 c 1,2,3
  334 286 334 286 307 336.5 c 128,-1,4
@@ -1635,13 +2523,16 @@ Fore
  330 384 330 384 368 337 c 128,-1,50
 EndSplineSet
 EndChar
+
 StartChar: u0A08
 Encoding: 2568 2568 56
 Width: 688
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-0" 664 480 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 548 500 m 1,0,-1
  548 570 l 2,1,2
  548 607 548 607 524.5 633.5 c 128,-1,3
@@ -1689,13 +2580,16 @@ Fore
  103 384 103 384 141 337 c 128,-1,50
 EndSplineSet
 EndChar
+
 StartChar: u0A09
 Encoding: 2569 2569 57
 Width: 532
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-0" 558 480 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 47 500 m 1,0,1
  47 595 47 595 111.5 662.5 c 128,-1,2
  176 730 176 730 267 730 c 0,3,4
@@ -1751,13 +2645,16 @@ Fore
  147 -95 l 1,51,52
 EndSplineSet
 EndChar
+
 StartChar: u0A0A
 Encoding: 2570 2570 58
 Width: 532
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-0" 528 480 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 47 500 m 1,0,1
  47 595 47 595 111.5 662.5 c 128,-1,2
  176 730 176 730 267 730 c 0,3,4
@@ -1818,13 +2715,16 @@ Fore
  147 -40 l 1,62,63
 EndSplineSet
 EndChar
+
 StartChar: u0A0F
 Encoding: 2575 2575 59
 Width: 458
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-0" 400 480 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 468 500 m 1,0,-1
  468 450 l 1,1,-1
  393 450 l 1,2,-1
@@ -1868,13 +2768,16 @@ Fore
  78 694 78 694 98.5 707 c 128,-1,36
 EndSplineSet
 EndChar
+
 StartChar: u0A10
 Encoding: 2576 2576 60
 Width: 619
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-0" 536 480 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 39 500 m 2,0,1
  77 500 77 500 110.5 464 c 128,-1,2
  144 428 144 428 159 370 c 1,3,-1
@@ -1939,13 +2842,16 @@ Fore
  199 727 199 727 219.5 738.5 c 128,-1,54
 EndSplineSet
 EndChar
+
 StartChar: u0A13
 Encoding: 2579 2579 61
 Width: 533
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-0" 480 480 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 47 500 m 1,0,1
  47 595 47 595 120 662.5 c 128,-1,2
  193 730 193 730 297 730 c 2,3,-1
@@ -1987,13 +2893,16 @@ Fore
  145 150 145 150 193.5 100 c 128,-1,38
 EndSplineSet
 EndChar
+
 StartChar: u0A14
 Encoding: 2580 2580 62
 Width: 619
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-0" 640 480 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 39 500 m 2,0,1
  77 500 77 500 110.5 464 c 128,-1,2
  144 428 144 428 159 370 c 1,3,-1
@@ -2062,12 +2971,15 @@ Fore
  414 626 414 626 416.5 636 c 128,-1,54
 EndSplineSet
 EndChar
+
 StartChar: u0A15
 Encoding: 2581 2581 63
 Width: 487
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 497 500 m 1,0,-1
  497 450 l 1,1,-1
  416 450 l 1,2,3
@@ -2102,12 +3014,15 @@ Fore
  86 167 86 167 112.5 143.5 c 128,-1,31
 EndSplineSet
 EndChar
+
 StartChar: u0A16
 Encoding: 2582 2582 64
 Width: 477
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 102 500 m 1,0,1
  119 463 119 463 128 425 c 128,-1,2
  137 387 137 387 137 350 c 1,3,-1
@@ -2141,12 +3056,15 @@ Fore
  127 178 127 178 164 154 c 128,-1,27
 EndSplineSet
 EndChar
+
 StartChar: u0A17
 Encoding: 2583 2583 65
 Width: 556
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 566 500 m 1,0,-1
  566 450 l 1,1,-1
  466 450 l 1,2,-1
@@ -2177,15 +3095,34 @@ Fore
  86 183 86 183 137 126.5 c 128,-1,22
 EndSplineSet
 EndChar
+
 StartChar: u0A18
 Encoding: 2584 2584 66
 Width: 586
 GlyphClass: 2
 Flags: W
-TtfInstrs: 17
-[3?\Q3$9@E0/G7;!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_6
+ 34
+ 31
+ 57
+ 56
+ 32
+ 33
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 106 500 m 1,0,1
  126 466 126 466 136 428 c 128,-1,2
  146 390 146 390 146 350 c 0,3,4
@@ -2231,12 +3168,15 @@ Fore
  106 500 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0A19
 Encoding: 2585 2585 67
 Width: 487
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 497 500 m 1,0,-1
  497 450 l 1,1,-1
  122 450 l 1,2,-1
@@ -2279,15 +3219,36 @@ Fore
  102 135 102 135 122.5 117.5 c 128,-1,41
 EndSplineSet
 EndChar
+
 StartChar: u0A1A
 Encoding: 2586 2586 68
 Width: 494
 GlyphClass: 2
 Flags: W
-TtfInstrs: 19
-[M],^'c@&h!&$,]1BB-b1GLQ`
-EndTtf
+TtInstrs:
+PUSHB_7
+ 25
+ 2
+ 22
+ 21
+ 25
+ 2
+ 23
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 504 500 m 1,0,-1
  504 450 l 1,1,-1
  410 450 l 1,2,-1
@@ -2318,12 +3279,15 @@ Fore
  360 230 l 1,25,-1
 EndSplineSet
 EndChar
+
 StartChar: u0A1B
 Encoding: 2587 2587 69
 Width: 519
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 529 500 m 1,0,-1
  529 450 l 1,1,-1
  457 450 l 1,2,-1
@@ -2370,15 +3334,45 @@ Fore
  407 135 407 135 389.5 152.5 c 128,-1,45
 EndSplineSet
 EndChar
+
 StartChar: u0A1C
 Encoding: 2588 2588 70
 Width: 483
 GlyphClass: 2
 Flags: W
-TtfInstrs: 28
-5RR_s('Y'^(C:6K'`]mC&Ml'r!A?5^1G^a>
-EndTtf
+TtInstrs:
+NPUSHB
+ 11
+ 5
+ 2
+ 22
+ 6
+ 9
+ 24
+ 23
+ 9
+ 5
+ 5
+ 21
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SRP1
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 493 500 m 1,0,-1
  493 450 l 1,1,-1
  393 450 l 1,2,-1
@@ -2404,12 +3398,15 @@ Fore
  493 500 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0A1D
 Encoding: 2589 2589 71
 Width: 439
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 449 500 m 1,0,-1
  449 450 l 1,1,-1
  382 450 l 1,2,3
@@ -2451,15 +3448,45 @@ Fore
  103 385 103 385 145.5 342.5 c 128,-1,44
 EndSplineSet
 EndChar
+
 StartChar: u0A1E
 Encoding: 2590 2590 72
 Width: 483
 GlyphClass: 2
 Flags: W
-TtfInstrs: 28
-5RRWA,9S!/-R0cC$NMh90/G7;1BB-b0/G=:
-EndTtf
+TtInstrs:
+NPUSHB
+ 11
+ 2
+ 40
+ 35
+ 32
+ 29
+ 3
+ 39
+ 35
+ 33
+ 12
+ 11
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 493 500 m 1,0,-1
  493 450 l 1,1,-1
  433 450 l 1,2,-1
@@ -2497,15 +3524,30 @@ Fore
  103 450 l 1,35,36
 EndSplineSet
 EndChar
+
 StartChar: u0A1F
 Encoding: 2591 2591 73
 Width: 438
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZN:p\(]Z3F!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 2
+ 23
+ 25
+ 24
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 448 500 m 1,0,-1
  448 450 l 1,1,-1
  379 450 l 1,2,-1
@@ -2529,13 +3571,16 @@ Fore
  448 500 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0A20
 Encoding: 2592 2592 74
 Width: 480
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-1" 238 474 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 490 500 m 1,0,-1
  490 450 l 1,1,-1
  265 450 l 1,2,-1
@@ -2563,12 +3608,15 @@ Fore
  85 103 85 103 130.5 76.5 c 128,-1,20
 EndSplineSet
 EndChar
+
 StartChar: u0A21
 Encoding: 2593 2593 75
 Width: 477
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 487 500 m 1,0,-1
  487 450 l 1,1,-1
  396 450 l 1,2,3
@@ -2616,12 +3664,15 @@ Fore
  86 82 86 82 112.5 66 c 128,-1,51
 EndSplineSet
 EndChar
+
 StartChar: u0A22
 Encoding: 2594 2594 76
 Width: 510
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 520 500 m 1,0,-1
  520 450 l 1,1,-1
  441 450 l 1,2,-1
@@ -2661,15 +3712,30 @@ Fore
  272 55 272 55 295 47.5 c 128,-1,36
 EndSplineSet
 EndChar
+
 StartChar: u0A23
 Encoding: 2595 2595 77
 Width: 508
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZN;X//-%=Z!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 2
+ 43
+ 45
+ 44
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 518 500 m 1,0,-1
  518 450 l 1,1,-1
  265 450 l 1,2,3
@@ -2706,15 +3772,30 @@ Fore
  518 500 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0A24
 Encoding: 2596 2596 78
 Width: 475
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZN;L'-ibnV!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 2
+ 39
+ 41
+ 40
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 485 500 m 1,0,-1
  485 450 l 1,1,-1
  396 450 l 1,2,3
@@ -2748,12 +3829,15 @@ Fore
  485 500 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0A25
 Encoding: 2597 2597 79
 Width: 464
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 474 500 m 1,0,-1
  474 450 l 1,1,-1
  374 450 l 1,2,-1
@@ -2788,15 +3872,43 @@ Fore
  126 258 126 258 118.5 243 c 128,-1,27
 EndSplineSet
 EndChar
+
 StartChar: u0A26
 Encoding: 2598 2598 80
 Width: 509
 GlyphClass: 2
 Flags: W
-TtfInstrs: 26
-5RIQ6+<M0t"!%UV!&$,]1D)Dr1BB-b0e`S-
-EndTtf
+TtInstrs:
+NPUSHB
+ 10
+ 2
+ 30
+ 32
+ 31
+ 17
+ 3
+ 3
+ 29
+ 7
+ 14
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SRP1
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 519 500 m 1,0,-1
  519 450 l 1,1,-1
  440 450 l 1,2,-1
@@ -2826,12 +3938,15 @@ Fore
  519 500 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0A27
 Encoding: 2599 2599 81
 Width: 464
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 -10 500 m 1,0,-1
  474 500 l 1,1,-1
  474 450 l 1,2,-1
@@ -2862,16 +3977,31 @@ Fore
  126 423 126 423 135 400 c 128,-1,21
 EndSplineSet
 EndChar
+
 StartChar: u0A28
 Encoding: 2600 2600 82
 Width: 470
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZN;0j*rmrM!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 2
+ 30
+ 32
+ 31
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
 AnchorPoint: "Anchor-1" 232 474 basechar 0
+LayerCount: 2
 Fore
+SplineSet
 480 500 m 1,0,-1
  480 450 l 1,1,-1
  260 450 l 1,2,-1
@@ -2900,15 +4030,36 @@ Fore
  480 500 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0A2A
 Encoding: 2602 2602 83
 Width: 464
 GlyphClass: 2
 Flags: W
-TtfInstrs: 19
-[M0;`!$Mja!&$,]1BB-b1GLQ`
-EndTtf
+TtInstrs:
+PUSHB_7
+ 20
+ 17
+ 14
+ 0
+ 33
+ 15
+ 16
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 -10 500 m 1,0,-1
  79 500 l 1,1,2
  113 466 113 466 131 428.5 c 128,-1,3
@@ -2938,12 +4089,15 @@ Fore
  -10 500 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0A2B
 Encoding: 2603 2603 84
 Width: 448
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 458 500 m 1,0,-1
  458 450 l 1,1,-1
  380 450 l 1,2,-1
@@ -2979,12 +4133,15 @@ Fore
  171 84 171 84 204 67 c 128,-1,31
 EndSplineSet
 EndChar
+
 StartChar: u0A2C
 Encoding: 2604 2604 85
 Width: 485
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 495 500 m 1,0,-1
  495 450 l 1,1,-1
  395 450 l 1,2,-1
@@ -3021,12 +4178,15 @@ Fore
  141 151 141 151 172 135.5 c 128,-1,27
 EndSplineSet
 EndChar
+
 StartChar: u0A2D
 Encoding: 2605 2605 86
 Width: 452
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 462 500 m 1,0,-1
  462 450 l 1,1,-1
  376 450 l 1,2,3
@@ -3069,15 +4229,49 @@ Fore
  100 239 100 239 120.5 224.5 c 128,-1,43
 EndSplineSet
 EndChar
+
 StartChar: u0A2E
 Encoding: 2606 2606 87
 Width: 508
 GlyphClass: 2
 Flags: W
-TtfInstrs: 32
-5Re/)!uMFQ"s"Zg#Rgk:0/G7;0/EV^1G^[?&Ml-q
-EndTtf
+TtInstrs:
+NPUSHB
+ 13
+ 13
+ 3
+ 3
+ 24
+ 12
+ 9
+ 6
+ 29
+ 28
+ 7
+ 8
+ 12
+ 5
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 118 500 m 1,0,1
  138 466 138 466 148 428 c 128,-1,2
  158 390 158 390 158 350 c 2,3,-1
@@ -3106,12 +4300,15 @@ Fore
  118 500 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0A2F
 Encoding: 2607 2607 88
 Width: 550
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 560 500 m 1,0,-1
  560 450 l 1,1,-1
  460 450 l 1,2,-1
@@ -3143,12 +4340,15 @@ Fore
  120 427 120 427 125 401.5 c 128,-1,21
 EndSplineSet
 EndChar
+
 StartChar: u0A30
 Encoding: 2608 2608 89
 Width: 441
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 451 500 m 1,0,-1
  451 450 l 1,1,-1
  356 450 l 1,2,-1
@@ -3175,12 +4375,15 @@ Fore
  86 178 86 178 146.5 114 c 128,-1,18
 EndSplineSet
 EndChar
+
 StartChar: u0A32
 Encoding: 2610 2610 90
 Width: 542
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 552 500 m 1,0,-1
  552 450 l 1,1,-1
  431 450 l 1,2,3
@@ -3221,12 +4424,15 @@ Fore
  166 404 166 404 193.5 352 c 128,-1,44
 EndSplineSet
 EndChar
+
 StartChar: u0A33
 Encoding: 2611 2611 91
 Width: 542
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 552 500 m 1,0,-1
  552 450 l 1,1,-1
  431 450 l 1,2,3
@@ -3275,17 +4481,49 @@ Fore
  431 -57 431 -57 431 -40 c 256,61,50
  431 -23 431 -23 442.5 -11.5 c 128,-1,51
 EndSplineSet
-Ligature: 0 0 'nukt' u0A32 u0A3C
+Ligature2: "'nukt' Nukta Forms in Gurmukhi lookup 2 subtable" u0A32 u0A3C
 EndChar
+
 StartChar: u0A35
 Encoding: 2613 2613 92
 Width: 471
 GlyphClass: 2
 Flags: W
-TtfInstrs: 30
-5R[]9+Wpk.&ePlf$k!%g1D)Dr1G:O;1BB-b0e`S-
-EndTtf
+TtInstrs:
+NPUSHB
+ 12
+ 2
+ 31
+ 33
+ 32
+ 3
+ 30
+ 18
+ 17
+ 22
+ 12
+ 12
+ 11
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SRP1
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 481 500 m 1,0,-1
  481 450 l 1,1,-1
  421 450 l 1,2,-1
@@ -3317,12 +4555,15 @@ Fore
  481 500 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0A36
 Encoding: 2614 2614 93
 Width: 507
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 228.5 88.5 m 128,-1,1
  240 100 240 100 257 100 c 256,2,3
  274 100 274 100 285.5 88.5 c 128,-1,4
@@ -3358,14 +4599,17 @@ Fore
  112 450 l 1,39,34
  131 416 131 416 144 368 c 128,-1,35
 EndSplineSet
-Ligature: 0 0 'nukt' u0A38 u0A3C
+Ligature2: "'nukt' Nukta Forms in Gurmukhi lookup 2 subtable" u0A38 u0A3C
 EndChar
+
 StartChar: u0A38
 Encoding: 2616 2616 94
 Width: 507
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 517 500 m 1,0,-1
  517 450 l 1,1,-1
  417 450 l 1,2,-1
@@ -3393,15 +4637,30 @@ Fore
  131 416 131 416 144 368 c 128,-1,23
 EndSplineSet
 EndChar
+
 StartChar: u0A39
 Encoding: 2617 2617 95
 Width: 464
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZN;!`)?;EH!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 2
+ 25
+ 27
+ 26
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 474 500 m 1,0,-1
  474 450 l 1,1,-1
  379 450 l 1,2,-1
@@ -3427,12 +4686,15 @@ Fore
  474 500 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0A3C
 Encoding: 2620 2620 96
 Width: 0
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 -258.5 -51.5 m 128,-1,1
  -247 -40 -247 -40 -230 -40 c 256,2,3
  -213 -40 -213 -40 -201.5 -51.5 c 128,-1,4
@@ -3444,15 +4706,30 @@ Fore
  -270 -63 -270 -63 -258.5 -51.5 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: u0A3E
 Encoding: 2622 2622 97
 Width: 230
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZNCC3#66D5!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 3
+ 6
+ 0
+ 7
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 -10 500 m 1,0,-1
  240 500 l 1,1,-1
  240 450 l 1,2,-1
@@ -3464,15 +4741,30 @@ Fore
  -10 500 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0A3F
 Encoding: 2623 2623 98
 Width: 230
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZP!uh('$!D!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 18
+ 21
+ 23
+ 22
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 500 m 1,0,-1
  90 570 l 2,1,2
  90 628 90 628 128 669 c 128,-1,3
@@ -3496,12 +4788,15 @@ Fore
  90 500 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: u0A40
 Encoding: 2624 2624 99
 Width: 230
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 -99 669 m 128,-1,1
  -58 710 -58 710 0 710 c 256,2,3
  58 710 58 710 99 669 c 128,-1,4
@@ -3527,15 +4822,25 @@ Fore
  -140 628 -140 628 -99 669 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: u0A41
 Encoding: 2625 2625 100
 Width: 0
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-Ylb=50/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 3
+ 10
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 -415 -95 m 1,0,1
  -383 -110 -383 -110 -345 -117.5 c 128,-1,2
  -307 -125 -307 -125 -265 -125 c 256,3,4
@@ -3549,15 +4854,29 @@ Fore
  -415 -95 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0A42
 Encoding: 2626 2626 101
 Width: 0
 GlyphClass: 2
 Flags: W
-TtfInstrs: 12
-ZO70D"9:)20/G=:
-EndTtf
+TtInstrs:
+PUSHB_4
+ 11
+ 12
+ 3
+ 4
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 -420 -140 m 1,0,1
  -349 -173 -349 -173 -270 -173 c 128,-1,2
  -191 -173 -191 -173 -120 -140 c 1,3,-1
@@ -3574,13 +4893,16 @@ Fore
  -420 -40 l 1,8,9
 EndSplineSet
 EndChar
+
 StartChar: u0A47
 Encoding: 2631 2631 102
 Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-1" -114 508 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -384.5 707 m 128,-1,1
  -364 720 -364 720 -335 720 c 0,2,3
  -264 720 -264 720 -201 665 c 128,-1,4
@@ -3595,13 +4917,16 @@ Fore
  -405 694 -405 694 -384.5 707 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: u0A48
 Encoding: 2632 2632 103
 Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-1" -106 508 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -394.5 738.5 m 128,-1,1
  -374 750 -374 750 -345 750 c 0,2,3
  -280 750 -280 750 -212 687.5 c 128,-1,4
@@ -3626,16 +4951,24 @@ Fore
  -415 727 -415 727 -394.5 738.5 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: u0A4B
 Encoding: 2635 2635 104
 Width: 0
 GlyphClass: 4
 Flags: W
-TtfInstrs: 6
-YR1@`0e`S-
-EndTtf
+TtInstrs:
+PUSHB_1
+ 10
+SVTCA[y-axis]
+MDAP[rnd]
+IUP[x]
+IUP[y]
+EndTTInstrs
 AnchorPoint: "Anchor-1" -116 508 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -375 695 m 1,0,1
  -370 669 -370 669 -352 652 c 128,-1,2
  -334 635 -334 635 -310 635 c 0,3,4
@@ -3653,13 +4986,16 @@ Fore
  -375 695 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0A4C
 Encoding: 2636 2636 105
 Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-1" -112 508 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -202.5 636 m 128,-1,1
  -200 646 -200 646 -195 655 c 1,2,-1
  -245 655 l 2,3,4
@@ -3688,12 +5024,15 @@ Fore
  -205 626 -205 626 -202.5 636 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: u0A4D
 Encoding: 2637 2637 106
 Width: 0
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 -154.5 -9.5 m 128,-1,1
  -136 0 -136 0 -115 0 c 0,2,3
  -92 0 -92 0 -71.5 -8 c 128,-1,4
@@ -3710,12 +5049,15 @@ Fore
  -173 -19 -173 -19 -154.5 -9.5 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: u0A59
 Encoding: 2649 2649 107
 Width: 501
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 42.5 78.5 m 128,-1,1
  54 90 54 90 71 90 c 256,2,3
  88 90 88 90 99.5 78.5 c 128,-1,4
@@ -3757,14 +5099,17 @@ Fore
  135 240 135 240 121 220 c 1,48,38
  151 178 151 178 188 154 c 128,-1,39
 EndSplineSet
-Ligature: 0 0 'nukt' u0A16 u0A3C
+Ligature2: "'nukt' Nukta Forms in Gurmukhi lookup 2 subtable" u0A16 u0A3C
 EndChar
+
 StartChar: u0A5A
 Encoding: 2650 2650 108
 Width: 579
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 45.5 68.5 m 128,-1,1
  57 80 57 80 74 80 c 256,2,3
  91 80 91 80 102.5 68.5 c 128,-1,4
@@ -3803,14 +5148,17 @@ Fore
  109 257 109 257 109 240 c 0,43,33
  109 205 109 205 160 152.5 c 128,-1,34
 EndSplineSet
-Ligature: 0 0 'nukt' u0A17 u0A3C
+Ligature2: "'nukt' Nukta Forms in Gurmukhi lookup 2 subtable" u0A17 u0A3C
 EndChar
+
 StartChar: u0A5B
 Encoding: 2651 2651 109
 Width: 483
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 219.5 88.5 m 128,-1,1
  231 100 231 100 248 100 c 256,2,3
  265 100 265 100 276.5 88.5 c 128,-1,4
@@ -3844,17 +5192,32 @@ Fore
  -10 450 l 1,36,-1
  -10 500 l 1,12,-1
 EndSplineSet
-Ligature: 0 0 'nukt' u0A1C u0A3C
+Ligature2: "'nukt' Nukta Forms in Gurmukhi lookup 2 subtable" u0A1C u0A3C
 EndChar
+
 StartChar: u0A5C
 Encoding: 2652 2652 110
 Width: 513
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZN<$E2ZPKe!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 2
+ 54
+ 56
+ 55
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 523 500 m 1,0,-1
  523 450 l 1,1,-1
  432 450 l 1,2,3
@@ -3899,14 +5262,17 @@ Fore
  -10 500 l 1,56,-1
  523 500 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'nukt' u0A21 u0A3C
+Ligature2: "'nukt' Nukta Forms in Gurmukhi lookup 2 subtable" u0A21 u0A3C
 EndChar
+
 StartChar: u0A5E
 Encoding: 2654 2654 111
 Width: 480
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 43.5 68.5 m 128,-1,1
  55 80 55 80 72 80 c 256,2,3
  89 80 89 80 100.5 68.5 c 128,-1,4
@@ -3950,14 +5316,17 @@ Fore
  201 141 201 141 177 115 c 1,53,42
  203 84 203 84 236 67 c 128,-1,43
 EndSplineSet
-Ligature: 0 0 'nukt' u0A2B u0A3C
+Ligature2: "'nukt' Nukta Forms in Gurmukhi lookup 2 subtable" u0A2B u0A3C
 EndChar
+
 StartChar: u0A66
 Encoding: 2662 2662 112
 Width: 480
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 98.5 391.5 m 128,-1,1
  157 450 157 450 240 450 c 256,2,3
  323 450 323 450 381.5 391.5 c 128,-1,4
@@ -3978,12 +5347,15 @@ Fore
  90 188 90 188 134 144 c 128,-1,13
 EndSplineSet
 EndChar
+
 StartChar: u0A67
 Encoding: 2663 2663 113
 Width: 480
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 90.5 463.5 m 128,-1,1
  136 500 136 500 200 500 c 0,2,3
  272 500 272 500 323.5 463.5 c 128,-1,4
@@ -4011,12 +5383,15 @@ Fore
  95 344 95 344 124.5 322 c 128,-1,22
 EndSplineSet
 EndChar
+
 StartChar: u0A68
 Encoding: 2664 2664 114
 Width: 479
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 138 487.5 m 128,-1,1
  189 500 189 500 235 500 c 0,2,3
  322 500 322 500 383.5 450 c 128,-1,4
@@ -4046,12 +5421,15 @@ Fore
  87 475 87 475 138 487.5 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: u0A69
 Encoding: 2665 2665 115
 Width: 480
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 125.5 490.5 m 128,-1,1
  176 500 176 500 230 500 c 0,2,3
  317 500 317 500 378.5 466.5 c 128,-1,4
@@ -4096,12 +5474,15 @@ Fore
  75 481 75 481 125.5 490.5 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: u0A6A
 Encoding: 2666 2666 116
 Width: 480
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 81 462 m 128,-1,1
  122 500 122 500 180 500 c 1,2,-1
  190 450 l 1,3,4
@@ -4140,15 +5521,30 @@ Fore
  110 97 110 97 148 73.5 c 128,-1,39
 EndSplineSet
 EndChar
+
 StartChar: u0A6B
 Encoding: 2667 2667 117
 Width: 480
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZOREN'EBdB!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 14
+ 13
+ 9
+ 20
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 93 500 m 1,0,1
  123 470 123 470 139 431 c 128,-1,2
  155 392 155 392 155 350 c 0,3,4
@@ -4174,12 +5570,15 @@ Fore
  93 500 l 1,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0A6C
 Encoding: 2668 2668 118
 Width: 479
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 106.5 417.5 m 128,-1,1
  171 460 171 460 262 460 c 1,2,3
  229 530 229 530 258.5 595 c 128,-1,4
@@ -4224,12 +5623,15 @@ Fore
  42 375 42 375 106.5 417.5 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: u0A6D
 Encoding: 2669 2669 119
 Width: 480
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 163.5 456 m 128,-1,1
  212 500 212 500 280 500 c 256,2,3
  348 500 348 500 396.5 441.5 c 128,-1,4
@@ -4251,12 +5653,15 @@ Fore
  115 412 115 412 163.5 456 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: u0A6E
 Encoding: 2670 2670 120
 Width: 480
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 75.5 456.5 m 128,-1,1
  111 500 111 500 135 500 c 0,2,3
  145 500 145 500 152.5 491 c 128,-1,4
@@ -4280,12 +5685,15 @@ Fore
  40 413 40 413 75.5 456.5 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: u0A6F
 Encoding: 2671 2671 121
 Width: 480
 GlyphClass: 4
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 75.5 456.5 m 128,-1,1
  111 500 111 500 135 500 c 0,2,3
  145 500 145 500 152.5 491 c 128,-1,4
@@ -4318,13 +5726,16 @@ Fore
  40 413 40 413 75.5 456.5 c 128,-1,1
 EndSplineSet
 EndChar
+
 StartChar: u0A70
 Encoding: 2672 2672 122
 Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-1" -114 490 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -185.5 720.5 m 128,-1,1
  -156 750 -156 750 -115 750 c 256,2,3
  -74 750 -74 750 -44.5 720.5 c 128,-1,4
@@ -4345,36 +5756,49 @@ Fore
  -215 616 -215 616 -215 650 c 0,25,0
  -215 691 -215 691 -185.5 720.5 c 128,-1,1
 EndSplineSet
-Substitution: 0 65534 'L000' glyph147
+Substitution2: "Single Substitution lookup 9 subtable" glyph147
 EndChar
+
 StartChar: u0A71
 Encoding: 2673 2673 123
 Width: 0
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-Ylb=50/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 3
+ 10
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
--235 740 m 1,0,1
- -235 694 -235 694 -200 662 c 128,-1,2
- -165 630 -165 630 -115 630 c 256,3,4
- -65 630 -65 630 -30 662 c 128,-1,5
- 5 694 5 694 5 740 c 1,6,-1
- 25 740 l 1,7,8
- 25 674 25 674 -16 627 c 128,-1,9
- -57 580 -57 580 -115 580 c 256,10,11
- -173 580 -173 580 -214 627 c 128,-1,12
- -255 674 -255 674 -255 740 c 1,13,-1
- -235 740 l 1,0,1
+SplineSet
+-235 740 m 5,0,1
+ -235 694 -235 694 -200 662 c 132,-1,2
+ -165 630 -165 630 -115 630 c 260,3,4
+ -65 630 -65 630 -30 662 c 132,-1,5
+ 5 694 5 694 5 740 c 5,6,-1
+ 25 740 l 5,7,8
+ 25 674 25 674 -16 627 c 132,-1,9
+ -57 580 -57 580 -115 580 c 260,10,11
+ -173 580 -173 580 -214 627 c 132,-1,12
+ -255 674 -255 674 -255 740 c 5,13,-1
+ -235 740 l 5,0,1
 EndSplineSet
 EndChar
+
 StartChar: u0A72
 Encoding: 2674 2674 124
 Width: 458
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 468 500 m 1,0,-1
  468 450 l 1,1,-1
  393 450 l 1,2,-1
@@ -4406,12 +5830,15 @@ Fore
  103 384 103 384 141 337 c 128,-1,30
 EndSplineSet
 EndChar
+
 StartChar: u0A73
 Encoding: 2675 2675 125
 Width: 531
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 47 500 m 1,0,1
  47 595 47 595 111.5 662.5 c 128,-1,2
  176 730 176 730 267 730 c 0,3,4
@@ -4456,12 +5883,15 @@ Fore
  145 150 145 150 193.5 100 c 128,-1,42
 EndSplineSet
 EndChar
+
 StartChar: u0A74
 Encoding: 2676 2676 126
 Width: 895
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 409 500 m 1,0,1
  409 595 409 595 476.5 662.5 c 128,-1,2
  544 730 544 730 639 730 c 0,3,4
@@ -4539,15 +5969,24 @@ Fore
  79 344 79 344 108.5 322 c 128,-1,86
 EndSplineSet
 EndChar
+
 StartChar: afii61664
 Encoding: 8204 8204 127
 Width: 220
 GlyphClass: 2
 Flags: W
-TtfInstrs: 7
-YlOhX1,1H_
-EndTtf
+TtInstrs:
+PUSHB_2
+ 1
+ 0
+MDAP[rnd]
+SHP[rp2]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 750 m 1,0,-1
  130 750 l 1,1,-1
  130 -245 l 1,2,-1
@@ -4555,15 +5994,30 @@ Fore
  90 750 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: afii301
 Encoding: 8205 8205 128
 Width: 220
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZNC1/!<=c/!A?2_0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 3
+ 0
+ 2
+ 1
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp2]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 750 m 1,0,-1
  260 750 l 1,1,-1
  260 710 l 1,2,-1
@@ -4573,15 +6027,25 @@ Fore
  90 750 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: endash
 Encoding: 8211 8211 129
 Width: 480
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-YlOn+0/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 0 300 m 1,0,-1
  501 300 l 1,1,-1
  501 250 l 1,2,-1
@@ -4589,15 +6053,25 @@ Fore
  0 300 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: emdash
 Encoding: 8212 8212 130
 Width: 1000
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-YlOn+0/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 0 300 m 1,0,-1
  1000 300 l 1,1,-1
  1000 250 l 1,2,-1
@@ -4605,15 +6079,25 @@ Fore
  0 300 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: quoteleft
 Encoding: 8216 8216 131
 Width: 290
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-YmLI20/>79
-EndTtf
+TtInstrs:
+PUSHB_2
+ 10
+ 0
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp2]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 200 510 m 1,0,-1
  90 510 l 1,1,-1
  90 600 l 2,2,3
@@ -4626,15 +6110,25 @@ Fore
  200 510 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: quoteright
 Encoding: 8217 8217 132
 Width: 292
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-YlG+20/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 0
+ 10
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 590 m 1,0,-1
  200 590 l 1,1,-1
  202 500 l 2,2,3
@@ -4647,15 +6141,29 @@ Fore
  90 590 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: quotedblleft
 Encoding: 8220 8220 133
 Width: 450
 GlyphClass: 2
 Flags: W
-TtfInstrs: 12
-ZP<iT!!"Z-0/G=:
-EndTtf
+TtInstrs:
+PUSHB_4
+ 21
+ 11
+ 10
+ 0
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp2]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 200 510 m 1,0,-1
  90 510 l 1,1,-1
  90 600 l 2,2,3
@@ -4678,15 +6186,29 @@ Fore
  360 510 l 1,11,-1
 EndSplineSet
 EndChar
+
 StartChar: quotedblright
 Encoding: 8221 8221 134
 Width: 472
 GlyphClass: 2
 Flags: W
-TtfInstrs: 12
-ZO7KJ$32_80/G=:
-EndTtf
+TtInstrs:
+PUSHB_4
+ 11
+ 21
+ 0
+ 10
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 590 m 1,0,-1
  200 590 l 1,1,-1
  202 500 l 2,2,3
@@ -4709,15 +6231,32 @@ Fore
  270 590 l 1,11,-1
 EndSplineSet
 EndChar
+
 StartChar: ellipsis
 Encoding: 8230 8230 135
 Width: 648
 GlyphClass: 2
 Flags: W
-TtfInstrs: 15
-[0[*B"9AKU1+tF:1GLQ`
-EndTtf
+TtInstrs:
+PUSHB_6
+ 9
+ 8
+ 5
+ 4
+ 1
+ 0
+MDAP[rnd]
+SHP[rp2]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 9 45 m 1,0,-1
  119 45 l 1,1,-1
  119 0 l 1,2,-1
@@ -4735,15 +6274,25 @@ Fore
  529 45 l 1,8,-1
 EndSplineSet
 EndChar
+
 StartChar: minus
 Encoding: 8722 8722 136
 Width: 530
 GlyphClass: 2
 Flags: W
-TtfInstrs: 8
-YlOn+0/G=:
-EndTtf
+TtInstrs:
+PUSHB_2
+ 1
+ 2
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 90 300 m 1,0,-1
  440 300 l 1,1,-1
  440 250 l 1,2,-1
@@ -4751,12 +6300,15 @@ Fore
  90 300 l 1,0,-1
 EndSplineSet
 EndChar
+
 StartChar: uni25CC
 Encoding: 9676 9676 137
 Width: 720
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 334.5 514.5 m 128,-1,1
  345 525 345 525 360 525 c 256,2,3
  375 525 375 525 385.5 514.5 c 128,-1,4
@@ -4867,12 +6419,15 @@ Fore
  441 68 441 68 451.5 78.5 c 128,-1,133
 EndSplineSet
 EndChar
+
 StartChar: u0A15_u0A30_u0A4D.blwf.vatu
 Encoding: 65539 -1 138
 Width: 487
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 497 500 m 1,0,-1
  497 450 l 1,1,-1
  416 450 l 1,2,3
@@ -4918,14 +6473,17 @@ Fore
  86 233 86 233 86 200 c 256,57,46
  86 167 86 167 112.5 143.5 c 128,-1,47
 EndSplineSet
-Ligature: 0 0 'vatu' u0A15 u0A30_u0A4D.blwf
+Ligature2: "'vatu' Vattu Variants in Gurmukhi lookup 8 subtable" u0A15 u0A30_u0A4D.blwf
 EndChar
+
 StartChar: u0A21_u0A30_u0A4D.blwf.vatu
 Encoding: 65540 -1 139
 Width: 479
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 489 500 m 1,0,-1
  489 450 l 1,1,-1
  396 450 l 1,2,3
@@ -4986,17 +6544,32 @@ Fore
  86 124 86 124 86 105 c 0,80,69
  86 82 86 82 112.5 66 c 128,-1,70
 EndSplineSet
-Ligature: 0 0 'vatu' u0A21 u0A30_u0A4D.blwf
+Ligature2: "'vatu' Vattu Variants in Gurmukhi lookup 8 subtable" u0A21 u0A30_u0A4D.blwf
 EndChar
+
 StartChar: u0A24_u0A30_u0A4D.blwf.vatu
 Encoding: 65541 -1 140
 Width: 477
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZN<0M3rgoi!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 2
+ 58
+ 60
+ 59
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 487 500 m 1,0,-1
  487 450 l 1,1,-1
  396 450 l 1,2,3
@@ -5043,17 +6616,32 @@ Fore
  -10 500 l 1,60,-1
  487 500 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u0A24 u0A30_u0A4D.blwf
+Ligature2: "'vatu' Vattu Variants in Gurmukhi lookup 8 subtable" u0A24 u0A30_u0A4D.blwf
 EndChar
+
 StartChar: u0A26_u0A30_u0A4D.blwf.vatu
 Encoding: 65542 -1 141
 Width: 510
 GlyphClass: 2
 Flags: W
-TtfInstrs: 13
-ZN;j;1&rs`!A?5`0E;(Q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 2
+ 49
+ 51
+ 50
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 520 500 m 1,0,-1
  520 450 l 1,1,-1
  440 450 l 1,2,-1
@@ -5096,14 +6684,17 @@ Fore
  -10 500 l 1,51,-1
  520 500 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'vatu' u0A26 u0A30_u0A4D.blwf
+Ligature2: "'vatu' Vattu Variants in Gurmukhi lookup 8 subtable" u0A26 u0A30_u0A4D.blwf
 EndChar
+
 StartChar: u0A2D_u0A30_u0A4D.blwf.vatu
 Encoding: 65543 -1 142
 Width: 456
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 466 500 m 1,0,-1
  466 450 l 1,1,-1
  376 450 l 1,2,3
@@ -5159,14 +6750,17 @@ Fore
  100 281 100 281 100 260 c 256,72,61
  100 239 100 239 120.5 224.5 c 128,-1,62
 EndSplineSet
-Ligature: 0 0 'vatu' u0A2D u0A30_u0A4D.blwf
+Ligature2: "'vatu' Vattu Variants in Gurmukhi lookup 8 subtable" u0A2D u0A30_u0A4D.blwf
 EndChar
+
 StartChar: u0A39_u0A4D.blwf
 Encoding: 65544 -1 143
 Width: 0
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 -280.5 -84.5 m 128,-1,1
  -266 -70 -266 -70 -245 -70 c 2,2,-1
  -195 -70 l 1,3,-1
@@ -5187,14 +6781,17 @@ Fore
  -295 -152 -295 -152 -295 -120 c 0,23,0
  -295 -99 -295 -99 -280.5 -84.5 c 128,-1,1
 EndSplineSet
-Ligature: 0 0 'blwf' u0A39 u0A4D
+Ligature2: "'blwf' Below Base Forms in Gurmukhi lookup 1 subtable" u0A39 u0A4D
 EndChar
+
 StartChar: u0A35_u0A4D.blwf
 Encoding: 65545 -1 144
 Width: 0
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 -294.5 -47.5 m 128,-1,1
  -274 -30 -274 -30 -245 -30 c 2,2,-1
  -135 -30 l 1,3,-1
@@ -5224,15 +6821,18 @@ Fore
  -315 -104 -315 -104 -315 -90 c 0,34,0
  -315 -65 -315 -65 -294.5 -47.5 c 128,-1,1
 EndSplineSet
-Ligature: 0 0 'blwf' u0A35 u0A4D
+Ligature2: "'blwf' Below Base Forms in Gurmukhi lookup 1 subtable" u0A35 u0A4D
 EndChar
+
 StartChar: u0A30_u0A4D.blwf
 Encoding: 65546 -1 145
 Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-1" -186 478 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -189.5 -79 m 128,-1,1
  -169 -60 -169 -60 -140 -60 c 1,2,-1
  -140 0 l 1,3,-1
@@ -5248,15 +6848,18 @@ Fore
  -210 -150 -210 -150 -210 -125 c 0,16,0
  -210 -98 -210 -98 -189.5 -79 c 128,-1,1
 EndSplineSet
-Ligature: 0 0 'blwf' u0A30 u0A4D
+Ligature2: "'blwf' Below Base Forms in Gurmukhi lookup 1 subtable" u0A30 u0A4D
 EndChar
+
 StartChar: u0A47_u0A02.abvs
 Encoding: 65547 -1 146
 Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-1" -112 508 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -384.5 707 m 128,-1,1
  -364 720 -364 720 -335 720 c 0,2,3
  -264 720 -264 720 -201 665 c 128,-1,4
@@ -5279,15 +6882,18 @@ Fore
  -110 666 -110 666 -110 685 c 256,27,16
  -110 704 -110 704 -97 717 c 128,-1,17
 EndSplineSet
-Ligature: 0 0 'abvs' u0A47 u0A02
+Ligature2: "'abvs' Above Base Substitutions in Gurmukhi lookup 0 subtable" u0A47 u0A02
 EndChar
+
 StartChar: u0A48_u0A02.abvs
 Encoding: 65548 -1 147
 Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-1" -110 496 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -394.5 738.5 m 128,-1,1
  -374 750 -374 750 -345 750 c 0,2,3
  -280 750 -280 750 -212 687.5 c 128,-1,4
@@ -5320,15 +6926,18 @@ Fore
  -105 641 -105 641 -105 660 c 256,42,31
  -105 679 -105 679 -92 692 c 128,-1,32
 EndSplineSet
-Ligature: 0 0 'abvs' u0A48 u0A02
+Ligature2: "'abvs' Above Base Substitutions in Gurmukhi lookup 0 subtable" u0A48 u0A02
 EndChar
+
 StartChar: u0A4B_u0A02.abvs
 Encoding: 65549 -1 148
 Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-1" -114 506 mark 0
+LayerCount: 2
 Fore
+SplineSet
 -375 695 m 1,0,1
  -370 669 -370 669 -352 652 c 128,-1,2
  -334 635 -334 635 -310 635 c 0,3,4
@@ -5354,14 +6963,17 @@ Fore
  -85 641 -85 641 -85 660 c 256,31,20
  -85 679 -85 679 -72 692 c 128,-1,21
 EndSplineSet
-Ligature: 0 0 'abvs' u0A4B u0A02
+Ligature2: "'abvs' Above Base Substitutions in Gurmukhi lookup 0 subtable" u0A4B u0A02
 EndChar
+
 StartChar: u0A4C_u0A02.abvs
 Encoding: 65550 -1 149
 Width: 0
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 -202.5 636 m 128,-1,1
  -200 646 -200 646 -195 655 c 1,2,-1
  -245 655 l 2,3,4
@@ -5398,14 +7010,17 @@ Fore
  -15 676 -15 676 -15 695 c 256,46,35
  -15 714 -15 714 -2 727 c 128,-1,36
 EndSplineSet
-Ligature: 0 0 'abvs' u0A4C u0A02
+Ligature2: "'abvs' Above Base Substitutions in Gurmukhi lookup 0 subtable" u0A4C u0A02
 EndChar
+
 StartChar: u0A40_u0A02.abvs
 Encoding: 65551 -1 150
 Width: 230
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 178 717 m 128,-1,1
  191 730 191 730 210 730 c 256,2,3
  229 730 229 730 242 717 c 128,-1,4
@@ -5439,14 +7054,17 @@ Fore
  -140 570 l 2,37,12
  -140 628 -140 628 -99 669 c 128,-1,13
 EndSplineSet
-Ligature: 0 0 'abvs' u0A40 u0A02
+Ligature2: "'abvs' Above Base Substitutions in Gurmukhi lookup 0 subtable" u0A40 u0A02
 EndChar
+
 StartChar: glyph147
 Encoding: 65552 -1 151
 Width: 198
 GlyphClass: 2
 Flags: W
+LayerCount: 2
 Fore
+SplineSet
 198 500 m 1,0,-1
  198 450 l 1,1,-1
  2 450 l 1,2,-1
@@ -5463,15 +7081,29 @@ Fore
  48 679 48 679 61 692 c 128,-1,5
 EndSplineSet
 EndChar
+
 StartChar: glyph148
 Encoding: 65553 -1 152
 Width: 298
 GlyphClass: 2
 Flags: W
-TtfInstrs: 12
-ZO.9V&-+@>&Ml-q
-EndTtf
+TtInstrs:
+PUSHB_4
+ 10
+ 17
+ 17
+ 16
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+SRP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 33 740 m 1,0,1
  33 694 33 694 68 662 c 128,-1,2
  103 630 103 630 153 630 c 256,3,4
@@ -5490,15 +7122,45 @@ Fore
  298 500 l 1,14,-1
 EndSplineSet
 EndChar
+
 StartChar: glyph149
 Encoding: 65554 -1 153
 Width: 542
 GlyphClass: 2
 Flags: W
-TtfInstrs: 28
-5RR_s%0d1N%K[(C$ihq:0/G7;!A?5^1G^a>
-EndTtf
+TtInstrs:
+NPUSHB
+ 11
+ 5
+ 2
+ 13
+ 6
+ 11
+ 15
+ 14
+ 2
+ 13
+ 5
+ 12
+SVTCA[y-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SVTCA[x-axis]
+MDAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+SHP[rp1]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
 Fore
+SplineSet
 552 500 m 1,0,-1
  552 450 l 1,1,-1
  452 450 l 1,2,-1
@@ -5517,7 +7179,44 @@ Fore
  -10 500 l 1,15,-1
  552 500 l 1,0,-1
 EndSplineSet
-Ligature: 0 0 'psts' u0A2F u0A4D
+Ligature2: "'psts' Post Base Substitutions in Gurmukhi lookup 7 subtable" u0A2F u0A4D
+EndChar
+
+StartChar: uni0A51
+Encoding: 2641 2641 154
+Width: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+-112.915 -246.507 m 4,0,1
+ -135.968 -226.033 -135.968 -226.033 -243.845 -26.9502 c 5,2,-1
+ -218.21 -14.9971 l 5,3,4
+ -194.642 -55.501 -194.642 -55.501 -174.457 -88.6729 c 132,-1,5
+ -154.271 -121.844 -154.271 -121.844 -130.873 -156.965 c 4,6,7
+ -119.345 -174.995 -119.345 -174.995 -105.593 -186.917 c 132,-1,8
+ -91.8408 -198.84 -91.8408 -198.84 -77.7461 -203.97 c 4,9,10
+ -40.6582 -217.47 -40.6582 -217.47 -23.9209 -207.277 c 5,11,-1
+ -24.0254 -276.954 l 5,12,13
+ -67.1338 -285.822 -67.1338 -285.822 -112.915 -246.507 c 4,0,1
+EndSplineSet
+EndChar
+
+StartChar: uni0A75
+Encoding: 2677 2677 155
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-242.302 -42.1855 m 5,0,1
+ -252.73 -166.933 -252.73 -166.933 -201.16 -190.594 c 260,2,3
+ -162.214 -208.01 -162.214 -208.01 -128.775 -131.27 c 5,4,-1
+ -109.981 -138.11 l 5,5,6
+ -142.668 -266.493 -142.668 -266.493 -214.261 -238.578 c 260,7,8
+ -305.506 -203 -305.506 -203 -264.096 -35.3447 c 5,9,-1
+ -242.302 -42.1855 l 5,0,1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

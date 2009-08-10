@@ -1,5 +1,8 @@
 				  fonts-indic
-Current Version :- 2.3.8
+Current Version :- 2.4.0
+
+* Tue Aug 04 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.0
+- Added Unicode 5.1 support in All Lohit fonts 
 
 * Thu Mar 05 2009 Rahul Bhalerao <rbhalera@redhat.com> - 2.3.8
 - Bug 428427 - [kn_IN][fonts-indic] - 0CB5+0CCA is wrongly rendering 
