@@ -3,8 +3,8 @@ FontName: Lohit-Maithili
 FullName: Lohit Maithili
 FamilyName: Lohit Maithili
 Weight: Book
-Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA. - under General Public License
-Version: 2.4.0
+Copyright:   Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
+Version: 2.4.1
 ItalicAngle: 0
 UnderlinePosition: -399
 UnderlineWidth: 26
@@ -13,14 +13,13 @@ Descent: 205
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 808 1214965479 5270873]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1249299047
+ModificationTime: 1250058177
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -896,7 +895,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "" "" "Version 2.4.0" 
+LangName: 1033 "" "" "Regular" "" "" "Version 2.4.1" 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -10004,7 +10003,7 @@ StartChar: u0970
 Encoding: 2416 2416 120
 Width: 545
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet

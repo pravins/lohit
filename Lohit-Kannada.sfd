@@ -3,8 +3,8 @@ FontName: Lohit-Kannada
 FullName: Lohit Kannada
 FamilyName: Lohit Kannada
 Weight: Book
-Copyright: Copyright (c) 2003, Modular Infotech, Pune, INDIA. 520913 - under General Public License
-Version: 2.4.0
+Copyright:   Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
+Version: 2.4.1
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -13,14 +13,13 @@ Descent: 404
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 722 38139966 6691028]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161073346
-ModificationTime: 1248951944
+ModificationTime: 1250058124
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -351,7 +350,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Kannada : 19-7-2006" "" "Version 2.4.0" 
+LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Kannada : 19-7-2006" "" "Version 2.4.1" 
 GaspTable: 1 65535 2
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -5673,7 +5672,7 @@ StartChar: U0CF2
 Encoding: 3314 3314 92
 Width: 922
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet

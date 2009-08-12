@@ -1,5 +1,8 @@
 				  fonts-indic
-Current Version :- 2.4.0
+Current Version :- 2.4.1
+
+* Wed Aug 12 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.1
+- Update Copyright 
 
 * Tue Aug 04 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.0
 - Added Unicode 5.1 support in All Lohit fonts 
