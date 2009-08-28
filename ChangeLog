@@ -1,5 +1,9 @@
 				  fonts-indic
-Current Version :- 2.4.1
+Current Version :- 2.4.2
+
+* Fri Aug 28 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.2
+- added conf file for all fonts 
+- contributions from Parag Nemade <pnemade@redhat.com> for conf files
 
 * Wed Aug 12 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.1
 - Update Copyright 
