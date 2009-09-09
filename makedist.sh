@@ -20,7 +20,7 @@ for i in assamese bengali gujarati  hindi  kannada  malayalam  oriya  punjabi  t
 do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-ttf-$ver
-cp COPYRIGHT COPYING ChangeLog.old README README AUTHORS $i/* lohit-$i-ttf-$ver
+cp COPYRIGHT COPYING ChangeLog.old README README.cvs AUTHORS $i/* lohit-$i-ttf-$ver
 rm -rf lohit-$i-ttf-$ver/.svn lohit-$i-ttf-$ver/*.sfd
 tar -cf lohit-$i-ttf-$ver.tar lohit-$i-ttf-$ver
 gzip lohit-$i-ttf-$ver.tar
