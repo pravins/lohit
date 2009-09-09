@@ -1,21 +1,19 @@
 #!/bin/sh
-test -d TTFfiles || mkdir TTFfiles
-./generate.pe *.sfd
-cd TTFfiles
-mv Lohit-Assamese.ttf lohit_as.ttf
-mv Lohit-Bengali.ttf lohit_bn.ttf
-mv Lohit-Hindi.ttf lohit_hi.ttf
-mv Lohit-Malayalam.ttf lohit_ml.ttf 
-mv Lohit-Punjabi.ttf  lohit_pa.ttf
-mv Lohit-Telugu.ttf lohit_te.ttf
-mv Lohit-Gujarati.ttf lohit_gu.ttf
-mv Lohit-Kannada.ttf lohit_kn.ttf
-mv Lohit-Oriya.ttf lohit_or.ttf
-mv Lohit-Tamil.ttf lohit_ta.ttf
-mv Lohit-Marathi.ttf lohit_mr.ttf
-mv Lohit-Maithili.ttf lohit_mai.ttf
-mv Lohit-Kashmiri.ttf lohit_ks.ttf
-mv Lohit-Konkani.ttf lohit_kok.ttf
-mv Lohit-Nepali.ttf lohit_ne.ttf
-mv Lohit-Sindhi.ttf lohit_sd.ttf
-cd ..
+./generate.pe */*.sfd
+mv Lohit-Assamese.ttf assamese/
+mv Lohit-Bengali.ttf bengali/
+mv Lohit-Hindi.ttf hindi/
+mv Lohit-Malayalam.ttf malayalam/
+mv Lohit-Punjabi.ttf  punjabi/
+mv Lohit-Telugu.ttf telugu/
+mv Lohit-Gujarati.ttf gujarati/
+mv Lohit-Kannada.ttf kannada/
+mv Lohit-Oriya.ttf oriya/
+mv Lohit-Tamil.ttf tamil/
+mv Lohit-Marathi.ttf marathi/
+mv Lohit-Maithili.ttf maithili/
+mv Lohit-Kashmiri.ttf kashmiri/
+mv Lohit-Konkani.ttf konkani/
+mv Lohit-Nepali.ttf nepali/
+mv Lohit-Sindhi.ttf sindhi/
+

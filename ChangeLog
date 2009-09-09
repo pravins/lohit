@@ -1,5 +1,9 @@
 				  fonts-indic
-Current Version :- 2.4.2
+Current Version :- 2.4.3
+* Wed Sep 09 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.3
+- updated conf file for all language
+- added changelog for individual lang
+- modified makedist.sh generate.sh for releasing new tarballs
 
 * Fri Aug 28 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.2
 - added conf file for all fonts 
