@@ -9,7 +9,7 @@ rm -rf lohit-fonts-svnsnap-$date1/.svn
 
 tar -cf lohit-fonts-svnsnap-$date1.tar lohit-fonts-svnsnap-$date1
 gzip lohit-fonts-svnsnap-$date1.tar
-mv lohit-fonts-svnsnap-$date1.tar trunk/
+mv lohit-fonts-svnsnap-$date1.tar.gz trunk/
 rm -rf lohit-fonts-svnsnap-$date1
 cd trunk
 
@@ -20,7 +20,7 @@ for i in assamese bengali gujarati  hindi  kannada  malayalam  oriya  punjabi  t
 do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-ttf-$ver
-cp COPYRIGHT COPYING ChangeLog.old README AUTHORS $i/* lohit-$i-ttf-$ver
+cp COPYRIGHT COPYING ChangeLog.old README README AUTHORS $i/* lohit-$i-ttf-$ver
 rm -rf lohit-$i-ttf-$ver/.svn lohit-$i-ttf-$ver/*.sfd
 tar -cf lohit-$i-ttf-$ver.tar lohit-$i-ttf-$ver
 gzip lohit-$i-ttf-$ver.tar
@@ -32,7 +32,7 @@ for i in assamese bengali gujarati  hindi  kannada  malayalam  oriya  punjabi  t
 do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-$ver
-cp COPYRIGHT COPYING ChangeLog.old README AUTHORS generate.pe $i/* lohit-$i-$ver
+cp COPYRIGHT COPYING ChangeLog.old README README.cvs AUTHORS generate.pe $i/* lohit-$i-$ver
 rm -rf lohit-$i-$ver/.svn
 rm -rf lohit-$i-$ver/*.ttf
 tar -cf lohit-$i-$ver.tar lohit-$i-$ver
@@ -40,5 +40,7 @@ gzip lohit-$i-$ver.tar
 rm -rf lohit-$i-$ver
 done
 
+mkdir release_tar
+mv *.tar* release_tar
 rm ChangeLog.old
 rm -rf */*.ttf
