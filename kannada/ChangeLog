@@ -1,5 +1,8 @@
 				  lohit-kannada
-Current Version :- 2.4.3
+Current Version :- 2.4.4
+
+* Fri Sep 18 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.4
+- fix rh bug 524148
 
 * Fri Aug 28 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.3
 - first release with split tarball

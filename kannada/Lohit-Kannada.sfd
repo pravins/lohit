@@ -3,8 +3,8 @@ FontName: Lohit-Kannada
 FullName: Lohit Kannada
 FamilyName: Lohit Kannada
 Weight: Book
-Copyright:   Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
-Version: 2.4.3
+Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
+Version: 2.4.4
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -13,13 +13,14 @@ Descent: 404
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
+NeedsXUIDChange: 1
 XUID: [1021 722 38139966 6691028]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161073346
-ModificationTime: 1250058124
+ModificationTime: 1253192077
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -350,15 +351,16 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Kannada : 19-7-2006" "" "Version 2.4.3" 
+LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Kannada : 19-7-2006" "" "Version 2.4.4" 
 GaspTable: 1 65535 2
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
-DisplaySize: -72
+DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 3204 18 8
+WinInfo: 148 37 13
 Grid
 239 468 m 5
  239 452 243.5 438.333 252.5 427 c 132
@@ -9060,7 +9062,8 @@ StartChar: U0CB2_U0CBE.abvs
 Encoding: 65584 -1 144
 Width: 1264
 GlyphClass: 2
-Flags: W
+Flags: HW
+AnchorPoint: "Anchor-0" 441 -114 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9124,6 +9127,7 @@ SplineSet
  340 91 340 91 445 91 c 1,82,-1
  445 91 l 1,13,14
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 0" U0CB2 U0CBE
 EndChar
 
@@ -10054,7 +10058,6 @@ SplineSet
  172 -287 172 -287 172 -260 c 1,122,-1
  172 -260 l 1,83,84
 EndSplineSet
-Ligature2: "'akhn' Akhand in Kannada lookup 1" U0CB2 U0CBE U0CB2 U0CCD
 EndChar
 
 StartChar: U0C95_U0CBF.abvs
