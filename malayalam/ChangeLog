@@ -1,5 +1,9 @@
 				  lohit-malayalam
-Current Version :- 2.4.3
+Current Version :- 2.4.4
+
+* Fri Aug 28 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.4
+- fixes rh bugs 523163, 52167, 52166, 524149 and 524156
+- patch from sshedmak@redhat.com
 
 * Fri Aug 28 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.3
 - first release with split tarball

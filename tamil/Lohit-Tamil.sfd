@@ -3,8 +3,8 @@ FontName: Lohit-Tamil
 FullName: Lohit Tamil
 FamilyName: Lohit Tamil
 Weight: Book
-Copyright:   Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
-Version: 2.4.3
+Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
+Version: 2.4.4
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1160992028
-ModificationTime: 1248866847
+ModificationTime: 1253375125
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -282,14 +282,15 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Tamil" "" "Version 2.4.3" 
+LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Tamil" "" "Version 2.4.4" 
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 2912 28 11
+WinInfo: 0 25 11
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Tamil lookup 0 subtable" 
 BeginChars: 65649 246
 
@@ -6873,38 +6874,38 @@ SplineSet
  204 190 204 190 183.5 166.5 c 128,-1,11
  163 143 163 143 163 110 c 1,12,-1
  163 110 l 1,0,1
-673 40 m 5,13,-1
- 673 400 l 5,14,-1
- 723 400 l 5,15,-1
- 723 0 l 5,16,-1
- 393 0 l 5,17,-1
- 393 30 l 5,18,19
- 417 59 417 59 430 100 c 132,-1,20
- 443 141 443 141 443 190 c 4,21,22
- 443 265 443 265 390.5 317.5 c 132,-1,23
- 338 370 338 370 263 370 c 260,24,25
- 188 370 188 370 135.5 317.5 c 132,-1,26
- 83 265 83 265 83 190 c 4,27,28
- 83 156 83 156 96 122.5 c 132,-1,29
- 109 89 109 89 133 60 c 5,30,31
- 128 74 128 74 125.5 86.5 c 132,-1,32
- 123 99 123 99 123 110 c 4,33,34
- 123 160 123 160 155 195 c 132,-1,35
- 187 230 187 230 233 230 c 4,36,37
- 283 230 283 230 318 195 c 132,-1,38
- 353 160 353 160 353 110 c 260,39,40
- 353 60 353 60 318 25 c 132,-1,41
- 283 -10 283 -10 233 -10 c 4,42,43
- 154 -10 154 -10 98.5 48.5 c 132,-1,44
- 43 107 43 107 43 190 c 4,45,46
- 43 281 43 281 107.5 345.5 c 132,-1,47
- 172 410 172 410 263 410 c 4,48,49
- 358 410 358 410 425.5 345.5 c 132,-1,50
- 493 281 493 281 493 190 c 4,51,52
- 493 150 493 150 483 112 c 132,-1,53
- 473 74 473 74 453 40 c 5,54,-1
- 673 40 l 5,55,-1
- 673 40 l 5,13,-1
+673 40 m 1,13,-1
+ 673 400 l 1,14,-1
+ 723 400 l 1,15,-1
+ 723 0 l 1,16,-1
+ 393 0 l 1,17,-1
+ 393 30 l 1,18,19
+ 417 59 417 59 430 100 c 128,-1,20
+ 443 141 443 141 443 190 c 0,21,22
+ 443 265 443 265 390.5 317.5 c 128,-1,23
+ 338 370 338 370 263 370 c 256,24,25
+ 188 370 188 370 135.5 317.5 c 128,-1,26
+ 83 265 83 265 83 190 c 0,27,28
+ 83 156 83 156 96 122.5 c 128,-1,29
+ 109 89 109 89 133 60 c 1,30,31
+ 128 74 128 74 125.5 86.5 c 128,-1,32
+ 123 99 123 99 123 110 c 0,33,34
+ 123 160 123 160 155 195 c 128,-1,35
+ 187 230 187 230 233 230 c 0,36,37
+ 283 230 283 230 318 195 c 128,-1,38
+ 353 160 353 160 353 110 c 256,39,40
+ 353 60 353 60 318 25 c 128,-1,41
+ 283 -10 283 -10 233 -10 c 0,42,43
+ 154 -10 154 -10 98.5 48.5 c 128,-1,44
+ 43 107 43 107 43 190 c 0,45,46
+ 43 281 43 281 107.5 345.5 c 128,-1,47
+ 172 410 172 410 263 410 c 0,48,49
+ 358 410 358 410 425.5 345.5 c 128,-1,50
+ 493 281 493 281 493 190 c 0,51,52
+ 493 150 493 150 483 112 c 128,-1,53
+ 473 74 473 74 453 40 c 1,54,-1
+ 673 40 l 1,55,-1
+ 673 40 l 1,13,-1
 EndSplineSet
 EndChar
 
@@ -7541,7 +7542,7 @@ StartChar: u0BC1
 Encoding: 3009 3009 91
 Width: 433
 GlyphClass: 4
-Flags: W
+Flags: HW
 TtInstrs:
 NPUSHW
  14
@@ -7580,7 +7581,6 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-0" 66 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7613,7 +7613,7 @@ StartChar: u0BC2
 Encoding: 3010 3010 92
 Width: 632
 GlyphClass: 4
-Flags: W
+Flags: HW
 TtInstrs:
 NPUSHW
  22
@@ -7663,7 +7663,6 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-0" 18 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9956,7 +9955,7 @@ StartChar: u0BF5
 Encoding: 3061 3061 115
 Width: 1465
 GlyphClass: 2
-Flags: HW
+Flags: W
 TtInstrs:
 NPUSHW
  29

@@ -32,7 +32,7 @@ for i in assamese bengali gujarati  hindi  kannada  malayalam  oriya  punjabi  t
 do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-$ver
-cp COPYRIGHT COPYING ChangeLog.old README README.cvs AUTHORS generate.pe $i/* lohit-$i-$ver
+cp COPYRIGHT COPYING ChangeLog.old README README.cvs AUTHORS Makefile generate.pe $i/* lohit-$i-$ver
 rm -rf lohit-$i-$ver/.svn
 rm -rf lohit-$i-$ver/*.ttf
 tar -cf lohit-$i-$ver.tar lohit-$i-$ver
