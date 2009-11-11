@@ -7001,7 +7001,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-0" 501 408 mark 0
+AnchorPoint: "Anchor-0" 501 408 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7542,7 +7542,7 @@ StartChar: u0BC1
 Encoding: 3009 3009 91
 Width: 433
 GlyphClass: 4
-Flags: HW
+Flags: W
 TtInstrs:
 NPUSHW
  14
@@ -7613,7 +7613,7 @@ StartChar: u0BC2
 Encoding: 3010 3010 92
 Width: 632
 GlyphClass: 4
-Flags: HW
+Flags: W
 TtInstrs:
 NPUSHW
  22
