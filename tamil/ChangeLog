@@ -1,5 +1,9 @@
 				  lohit-tamil
-Current Version :- 2.4.4
+Current Version :- 2.4.5
+
+* Tue Nov 24 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.5
+- fixed rh bug 536724
+- updated ascent, descent values as well OS/2 metrics
 
 * Fri Aug 28 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.4
 - fixe rh bug 524457
