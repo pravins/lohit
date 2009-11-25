@@ -4,7 +4,7 @@ FullName: Lohit Telugu
 FamilyName: Lohit Telugu
 Weight: Book
 Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
-Version: 2.4.4
+Version: 2.4.5
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -13,25 +13,24 @@ Descent: 334
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 648 100124046 8549501]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1153280036
-ModificationTime: 1253096611
+ModificationTime: 1259131491
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 200
 VLineGap: 0
 Panose: 2 0 6 0 0 0 0 0 0 0
-OS2TypoAscent: 0
+OS2TypoAscent: 927
 OS2TypoAOffset: 1
-OS2TypoDescent: 0
+OS2TypoDescent: -450
 OS2TypoDOffset: 1
-OS2TypoLinegap: 0
+OS2TypoLinegap: 20
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -2880,7 +2879,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Telugu : 19-7-2006" "" "Version 2.4.4" 
+LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Telugu : 19-7-2006" "" "Version 2.4.5" 
 GaspTable: 1 65535 2
 Encoding: UnicodeBmp
 Compacted: 1
@@ -2889,7 +2888,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 252 28 11
+WinInfo: 0 28 11
 AnchorClass2: "Anchor-0"  "'blwm' Below Base Mark in Telugu lookup 0" 
 BeginChars: 65989 556
 
@@ -2938,7 +2937,7 @@ EndChar
 
 StartChar: space
 Encoding: 32 32 3
-Width: 102
+Width: 300
 VWidth: 819
 GlyphClass: 2
 Flags: W
@@ -11640,6 +11639,7 @@ SplineSet
  52.7998 668 l 1,101,102
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C18 U0C3F
 EndChar
 
@@ -12155,6 +12155,7 @@ SplineSet
  620 660.8 l 1,104,105
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1E U0C3F
 EndChar
 
@@ -17335,6 +17336,7 @@ SplineSet
  77.5996 660.8 l 1,102,103
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C37 U0C40
 EndChar
 
@@ -23332,6 +23334,7 @@ SplineSet
  128 346.4 l 1,37,38
 EndSplineSet
 Validated: 5
+LCarets2: 3 0 0 0 
 Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C47 U0C37 U0C4D
 EndChar
 
@@ -23416,6 +23419,7 @@ SplineSet
  550.4 561.6 l 1,83,84
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C15 U0C4A
 EndChar
 
@@ -23536,6 +23540,7 @@ SplineSet
  767.2 561.6 l 1,130,131
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C16 U0C4A
 EndChar
 
@@ -23603,6 +23608,7 @@ SplineSet
  614.4 561.6 l 1,58,59
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C17 U0C4A
 EndChar
 
@@ -23701,6 +23707,7 @@ SplineSet
  84 444.8 l 1,92,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C18 U0C4A
 EndChar
 
@@ -23810,6 +23817,7 @@ SplineSet
  736.8 561.6 l 1,116,117
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C19 U0C4A
 EndChar
 
@@ -23900,6 +23908,7 @@ SplineSet
  677.6 561.6 l 1,89,90
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1A U0C4A
 EndChar
 
@@ -23998,6 +24007,7 @@ SplineSet
  691.2 561.6 l 1,97,98
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1B U0C4A
 EndChar
 
@@ -24113,6 +24123,7 @@ SplineSet
  740 561.6 l 1,128,129
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1C U0C4A
 EndChar
 
@@ -24208,6 +24219,7 @@ SplineSet
  33.5996 242.4 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1D U0C4A
 EndChar
 
@@ -24325,6 +24337,7 @@ SplineSet
  886.4 561.6 l 1,124,125
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1E U0C4A
 EndChar
 
@@ -24427,6 +24440,7 @@ SplineSet
  806.4 561.6 l 1,106,107
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1F U0C4A
 EndChar
 
@@ -24509,6 +24523,7 @@ SplineSet
  632 561.6 l 1,75,76
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C20 U0C4A
 EndChar
 
@@ -24610,6 +24625,7 @@ SplineSet
  708.8 561.6 l 1,106,107
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C21 U0C4A
 EndChar
 
@@ -24717,6 +24733,7 @@ SplineSet
  660.8 561.6 l 1,112,113
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C22 U0C4A
 EndChar
 
@@ -24833,6 +24850,7 @@ SplineSet
  825.6 561.6 l 1,127,128
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C23 U0C4A
 EndChar
 
@@ -24938,6 +24956,7 @@ SplineSet
  719.2 561.6 l 1,111,112
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C24 U0C4A
 EndChar
 
@@ -25036,6 +25055,7 @@ SplineSet
  660.8 561.6 l 1,95,96
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C25 U0C4A
 EndChar
 
@@ -25122,6 +25142,7 @@ SplineSet
  660.8 561.6 l 1,84,85
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C26 U0C4A
 EndChar
 
@@ -25214,6 +25235,7 @@ SplineSet
  660.8 561.6 l 1,90,91
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C27 U0C4A
 EndChar
 
@@ -25297,6 +25319,7 @@ SplineSet
  652.8 561.6 l 1,82,83
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C28 U0C4A
 EndChar
 
@@ -25390,6 +25413,7 @@ SplineSet
  699.2 315.2 l 1,93,94
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2A U0C4A
 EndChar
 
@@ -25489,6 +25513,7 @@ SplineSet
  699.2 315.2 l 1,99,100
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2B U0C4A
 EndChar
 
@@ -25588,6 +25613,7 @@ SplineSet
  736.8 561.6 l 1,106,107
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2C U0C4A
 EndChar
 
@@ -25693,6 +25719,7 @@ SplineSet
  697.6 561.6 l 1,112,113
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2D U0C4A
 EndChar
 
@@ -25782,6 +25809,7 @@ SplineSet
  23.2002 118.4 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2E U0C4A
 EndChar
 
@@ -25873,6 +25901,7 @@ SplineSet
  753.6 243.2 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2F U0C4A
 EndChar
 
@@ -25949,6 +25978,7 @@ SplineSet
  604.8 561.6 l 1,70,71
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C30 U0C4A
 EndChar
 
@@ -26065,6 +26095,7 @@ SplineSet
  881.6 561.6 l 1,126,127
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C31 U0C4A
 EndChar
 
@@ -26155,6 +26186,7 @@ SplineSet
  727.2 561.6 l 1,91,92
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C32 U0C4A
 EndChar
 
@@ -26262,6 +26294,7 @@ SplineSet
  623.2 561.6 l 1,113,114
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C33 U0C4A
 EndChar
 
@@ -26351,6 +26384,7 @@ SplineSet
  648.8 561.6 l 1,89,90
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C35 U0C4A
 EndChar
 
@@ -26448,6 +26482,7 @@ SplineSet
  569.6 561.6 l 1,101,102
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C36 U0C4A
 EndChar
 
@@ -26548,6 +26583,7 @@ SplineSet
  704.8 315.2 l 1,102,103
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C37 U0C4A
 EndChar
 
@@ -26635,6 +26671,7 @@ SplineSet
  697.6 315.2 l 1,86,87
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C38 U0C4A
 EndChar
 
@@ -26761,6 +26798,7 @@ SplineSet
  1084 561.6 l 1,136,137
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C39 U0C4A
 EndChar
 
@@ -26873,6 +26911,7 @@ SplineSet
  567.2 561.6 l 1,120,121
 EndSplineSet
 Validated: 5
+LCarets2: 3 0 0 0 
 Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C4A U0C37 U0C4D
 EndChar
 
@@ -26971,6 +27010,7 @@ SplineSet
  550.4 561.6 l 1,103,104
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C15 U0C4B
 EndChar
 
@@ -27106,6 +27146,7 @@ SplineSet
  760 567.2 l 1,151,152
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C16 U0C4B
 EndChar
 
@@ -27187,6 +27228,7 @@ SplineSet
  614.4 561.6 l 1,78,79
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C17 U0C4B
 EndChar
 
@@ -27295,6 +27337,7 @@ SplineSet
  1113.6 379.2 l 1,109,110
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C18 U0C4B
 EndChar
 
@@ -27419,6 +27462,7 @@ SplineSet
  736.8 561.6 l 1,137,138
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C19 U0C4B
 EndChar
 
@@ -27523,6 +27567,7 @@ SplineSet
  676 561.6 l 1,109,110
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1A U0C4B
 EndChar
 
@@ -27635,6 +27680,7 @@ SplineSet
  691.2 561.6 l 1,117,118
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1B U0C4B
 EndChar
 
@@ -27765,6 +27811,7 @@ SplineSet
  738.4 563.2 l 1,149,150
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1C U0C4B
 EndChar
 
@@ -27873,6 +27920,7 @@ SplineSet
  1444 379.2 l 1,111,112
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1D U0C4B
 EndChar
 
@@ -28004,6 +28052,7 @@ SplineSet
  880 561.6 l 1,144,145
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1E U0C4B
 EndChar
 
@@ -28120,6 +28169,7 @@ SplineSet
  806.4 561.6 l 1,126,127
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1F U0C4B
 EndChar
 
@@ -28216,6 +28266,7 @@ SplineSet
  632 561.6 l 1,95,96
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C20 U0C4B
 EndChar
 
@@ -28330,6 +28381,7 @@ SplineSet
  708.8 561.6 l 1,124,125
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C21 U0C4B
 EndChar
 
@@ -28451,6 +28503,7 @@ SplineSet
  660.8 561.6 l 1,132,133
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C22 U0C4B
 EndChar
 
@@ -28581,6 +28634,7 @@ SplineSet
  825.6 561.6 l 1,147,148
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C23 U0C4B
 EndChar
 
@@ -28700,6 +28754,7 @@ SplineSet
  719.2 561.6 l 1,131,132
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C24 U0C4B
 EndChar
 
@@ -28812,6 +28867,7 @@ SplineSet
  660.8 561.6 l 1,115,116
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C25 U0C4B
 EndChar
 
@@ -28912,6 +28968,7 @@ SplineSet
  660.8 561.6 l 1,104,105
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C26 U0C4B
 EndChar
 
@@ -29018,6 +29075,7 @@ SplineSet
  659.2 561.6 l 1,110,111
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C27 U0C4B
 EndChar
 
@@ -29115,6 +29173,7 @@ SplineSet
  652.8 561.6 l 1,102,103
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C28 U0C4B
 EndChar
 
@@ -29223,6 +29282,7 @@ SplineSet
  703.2 308.8 l 1,114,115
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2A U0C4B
 EndChar
 
@@ -29337,6 +29397,7 @@ SplineSet
  697.6 308.8 l 1,120,121
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2B U0C4B
 EndChar
 
@@ -29451,6 +29512,7 @@ SplineSet
  736.8 567.2 l 1,127,128
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2C U0C4B
 EndChar
 
@@ -29571,6 +29633,7 @@ SplineSet
  697.6 567.2 l 1,133,134
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2D U0C4B
 EndChar
 
@@ -29670,6 +29733,7 @@ SplineSet
  1108 379.2 l 1,101,102
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2E U0C4B
 EndChar
 
@@ -29772,6 +29836,7 @@ SplineSet
  1383.2 379.2 l 1,106,107
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2F U0C4B
 EndChar
 
@@ -29862,6 +29927,7 @@ SplineSet
  604.8 561.6 l 1,90,91
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C30 U0C4B
 EndChar
 
@@ -29991,6 +30057,7 @@ SplineSet
  874.4 567.2 l 1,144,145
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C31 U0C4B
 EndChar
 
@@ -30095,6 +30162,7 @@ SplineSet
  727.2 567.2 l 1,111,112
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C32 U0C4B
 EndChar
 
@@ -30217,6 +30285,7 @@ SplineSet
  623.2 567.2 l 1,134,135
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C33 U0C4B
 EndChar
 
@@ -30320,6 +30389,7 @@ SplineSet
  648.8 561.6 l 1,109,110
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C35 U0C4B
 EndChar
 
@@ -30432,6 +30502,7 @@ SplineSet
  569.6 567.2 l 1,122,123
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C36 U0C4B
 EndChar
 
@@ -30547,6 +30618,7 @@ SplineSet
  708.8 308.8 l 1,123,124
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C37 U0C4B
 EndChar
 
@@ -30649,6 +30721,7 @@ SplineSet
  697.6 308.8 l 1,107,108
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C38 U0C4B
 EndChar
 
@@ -30790,6 +30863,7 @@ SplineSet
  1111.2 567.2 l 1,157,158
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C39 U0C4B
 EndChar
 
@@ -30916,6 +30990,7 @@ SplineSet
  567.2 561.6 l 1,140,141
 EndSplineSet
 Validated: 37
+LCarets2: 3 0 0 0 
 Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C4B U0C37 U0C4D
 EndChar
 
@@ -30994,6 +31069,7 @@ SplineSet
  587.2 526.4 l 1,73,74
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C15 U0C4C
 EndChar
 
@@ -31111,6 +31187,7 @@ SplineSet
  776.8 526.4 l 1,123,124
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C16 U0C4C
 EndChar
 
@@ -31174,6 +31251,7 @@ SplineSet
  604 526.4 l 1,50,51
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C17 U0C4C
 EndChar
 
@@ -31294,6 +31372,7 @@ SplineSet
  1088 536 l 1,126,127
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C18 U0C4C
 EndChar
 
@@ -31398,6 +31477,7 @@ SplineSet
  828 526.4 l 1,107,108
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C19 U0C4C
 EndChar
 
@@ -31485,6 +31565,7 @@ SplineSet
  720.8 526.4 l 1,82,83
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1A U0C4C
 EndChar
 
@@ -31578,6 +31659,7 @@ SplineSet
  754.4 526.4 l 1,88,89
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1B U0C4C
 EndChar
 
@@ -31682,6 +31764,7 @@ SplineSet
  740.8 526.4 l 1,113,114
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1C U0C4C
 EndChar
 
@@ -31792,6 +31875,7 @@ SplineSet
  1425.6 536 l 1,115,116
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1D U0C4C
 EndChar
 
@@ -31903,6 +31987,7 @@ SplineSet
  1039.2 526.4 l 1,114,115
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1E U0C4C
 EndChar
 
@@ -32000,6 +32085,7 @@ SplineSet
  836 526.4 l 1,97,98
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1F U0C4C
 EndChar
 
@@ -32076,6 +32162,7 @@ SplineSet
  662.4 526.4 l 1,65,66
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C20 U0C4C
 EndChar
 
@@ -32171,6 +32258,7 @@ SplineSet
  740.8 526.4 l 1,95,96
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C21 U0C4C
 EndChar
 
@@ -32272,6 +32360,7 @@ SplineSet
  724.8 526.4 l 1,101,102
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C22 U0C4C
 EndChar
 
@@ -32382,6 +32471,7 @@ SplineSet
  882.4 526.4 l 1,117,118
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C23 U0C4C
 EndChar
 
@@ -32484,6 +32574,7 @@ SplineSet
  736 526.4 l 1,104,105
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C24 U0C4C
 EndChar
 
@@ -32576,6 +32667,7 @@ SplineSet
  697.6 526.4 l 1,85,86
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C25 U0C4C
 EndChar
 
@@ -32656,6 +32748,7 @@ SplineSet
  691.2 526.4 l 1,74,75
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C26 U0C4C
 EndChar
 
@@ -32742,6 +32835,7 @@ SplineSet
  684 526.4 l 1,80,81
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C27 U0C4C
 EndChar
 
@@ -32820,6 +32914,7 @@ SplineSet
  655.2 526.4 l 1,73,74
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C28 U0C4C
 EndChar
 
@@ -32911,6 +33006,7 @@ SplineSet
  676 336 l 1,89,90
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2A U0C4C
 EndChar
 
@@ -33008,6 +33104,7 @@ SplineSet
  689.6 336 l 1,95,96
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2B U0C4C
 EndChar
 
@@ -33104,6 +33201,7 @@ SplineSet
  719.2 526.4 l 1,99,100
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2C U0C4C
 EndChar
 
@@ -33200,6 +33298,7 @@ SplineSet
  707.2 526.4 l 1,99,100
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2D U0C4C
 EndChar
 
@@ -33303,6 +33402,7 @@ SplineSet
  1088 536 l 1,108,109
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2E U0C4C
 EndChar
 
@@ -33413,6 +33513,7 @@ SplineSet
  753.6 243.2 l 1,26,27
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2F U0C4C
 EndChar
 
@@ -33483,6 +33584,7 @@ SplineSet
  628 526.4 l 1,60,61
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C30 U0C4C
 EndChar
 
@@ -33592,6 +33694,7 @@ SplineSet
  822.4 526.4 l 1,114,115
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C31 U0C4C
 EndChar
 
@@ -33674,6 +33777,7 @@ SplineSet
  730.4 526.4 l 1,79,80
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C32 U0C4C
 EndChar
 
@@ -33776,6 +33880,7 @@ SplineSet
  632 526.4 l 1,104,105
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C33 U0C4C
 EndChar
 
@@ -33860,6 +33965,7 @@ SplineSet
  678.4 526.4 l 1,80,81
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C35 U0C4C
 EndChar
 
@@ -33954,6 +34060,7 @@ SplineSet
  572.8 526.4 l 1,94,95
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C36 U0C4C
 EndChar
 
@@ -34052,6 +34159,7 @@ SplineSet
  691.2 336 l 1,98,99
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C37 U0C4C
 EndChar
 
@@ -34137,6 +34245,7 @@ SplineSet
  681.6 336 l 1,82,83
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C38 U0C4C
 EndChar
 
@@ -34257,6 +34366,7 @@ SplineSet
  1039.2 526.4 l 1,126,127
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C39 U0C4C
 EndChar
 
@@ -34363,6 +34473,7 @@ SplineSet
  617.6 526.4 l 1,110,111
 EndSplineSet
 Validated: 5
+LCarets2: 3 0 0 0 
 Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C4C U0C37 U0C4D
 EndChar
 
@@ -34429,6 +34540,7 @@ SplineSet
  118.4 353.6 l 1,0,1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C15 U0C4D
 EndChar
 
@@ -34531,6 +34643,7 @@ SplineSet
  460 0 l 1,27,28
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C16 U0C4D
 EndChar
 
@@ -34581,6 +34694,7 @@ SplineSet
  36.7998 0 l 1,0,1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C17 U0C4D
 EndChar
 
@@ -34678,6 +34792,7 @@ SplineSet
  217.6 444.8 l 1,74,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C18 U0C4D
 EndChar
 
@@ -34770,6 +34885,7 @@ SplineSet
  43.2002 144 l 1,0,1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C19 U0C4D
 EndChar
 
@@ -34844,6 +34960,7 @@ SplineSet
  428 0 l 1,0,1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C1A U0C4D
 EndChar
 
@@ -34924,6 +35041,7 @@ SplineSet
  428 0 l 1,0,1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C1B U0C4D
 EndChar
 
@@ -35017,6 +35135,7 @@ SplineSet
  44.7998 144 l 1,0,1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C1C U0C4D
 EndChar
 
@@ -35113,6 +35232,7 @@ SplineSet
  33.5996 235.2 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C1D U0C4D
 EndChar
 
@@ -35212,6 +35332,7 @@ SplineSet
  186.4 118.4 l 1,98,99
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C1E U0C4D
 EndChar
 
@@ -35294,6 +35415,7 @@ SplineSet
  38.4004 220 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C1F U0C4D
 EndChar
 
@@ -35358,6 +35480,7 @@ SplineSet
  231.2 196 l 1,58,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C20 U0C4D
 EndChar
 
@@ -35441,6 +35564,7 @@ SplineSet
  35.2002 209.6 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C21 U0C4D
 EndChar
 
@@ -35530,6 +35654,7 @@ SplineSet
  35.2002 209.6 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C22 U0C4D
 EndChar
 
@@ -35628,6 +35753,7 @@ SplineSet
  43.2002 346.4 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C23 U0C4D
 EndChar
 
@@ -35715,6 +35841,7 @@ SplineSet
  470.4 402.4 l 1,26,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C24 U0C4D
 EndChar
 
@@ -35795,6 +35922,7 @@ SplineSet
  284 248.8 l 1,78,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C25 U0C4D
 EndChar
 
@@ -35863,6 +35991,7 @@ SplineSet
  35.2002 196 l 1,20,21
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C26 U0C4D
 EndChar
 
@@ -35937,6 +36066,7 @@ SplineSet
  35.2002 196 l 1,20,21
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C27 U0C4D
 EndChar
 
@@ -36002,6 +36132,7 @@ SplineSet
  394.4 65.5996 l 1,0,1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C28 U0C4D
 EndChar
 
@@ -36078,6 +36209,7 @@ SplineSet
  224 444.8 l 1,46,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C2A U0C4D
 EndChar
 
@@ -36160,6 +36292,7 @@ SplineSet
  210.4 444.8 l 1,52,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C2B U0C4D
 EndChar
 
@@ -36241,6 +36374,7 @@ SplineSet
  462.4 65.5996 l 1,0,1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C2C U0C4D
 EndChar
 
@@ -36328,6 +36462,7 @@ SplineSet
  450.4 65.5996 l 1,0,1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C2D U0C4D
 EndChar
 
@@ -36413,6 +36548,7 @@ SplineSet
  23.2002 118.4 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C2E U0C4D
 EndChar
 
@@ -36499,6 +36635,7 @@ SplineSet
  760 243.2 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C2F U0C4D
 EndChar
 
@@ -36557,6 +36694,7 @@ SplineSet
  33.5996 242.4 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C30 U0C4D
 EndChar
 
@@ -36655,6 +36793,7 @@ SplineSet
  38.4004 247.2 l 1,13,14
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C31 U0C4D
 EndChar
 
@@ -36726,6 +36865,7 @@ SplineSet
  346.4 65.5996 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C32 U0C4D
 EndChar
 
@@ -36815,6 +36955,7 @@ SplineSet
  287.2 169.6 l 1,26,27
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C33 U0C4D
 EndChar
 
@@ -36886,6 +37027,7 @@ SplineSet
  23.2002 118.4 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C35 U0C4D
 EndChar
 
@@ -36965,6 +37107,7 @@ SplineSet
  157.6 151.2 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C36 U0C4D
 EndChar
 
@@ -37048,6 +37191,7 @@ SplineSet
  217.6 444.8 l 1,55,-1
 EndSplineSet
 Validated: 37
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C37 U0C4D
 EndChar
 
@@ -37118,6 +37262,7 @@ SplineSet
  228.8 444.8 l 1,39,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C38 U0C4D
 EndChar
 
@@ -37218,6 +37363,7 @@ SplineSet
  244.8 444.8 l 1,77,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C39 U0C4D
 EndChar
 
@@ -37312,6 +37458,7 @@ SplineSet
  128 346.4 l 1,37,38
 EndSplineSet
 Validated: 517
+LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C15_U0C37_U0C4D.akhn U0C4D
 EndChar
 
@@ -37408,6 +37555,7 @@ SplineSet
  44.7998 144 l 1,0,1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C1C U0C41
 EndChar
 
@@ -37525,6 +37673,7 @@ SplineSet
  957.6 379.2 l 1,130,131
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C1C U0C42
 EndChar
 
@@ -37603,6 +37752,7 @@ SplineSet
  11.2002 633.6 l 1,67,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C2A U0C41
 EndChar
 
@@ -37706,6 +37856,7 @@ SplineSet
  11.2002 633.6 l 1,99,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C2A U0C42
 EndChar
 
@@ -37788,6 +37939,7 @@ SplineSet
  11.2002 633.6 l 1,72,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C2B U0C41
 EndChar
 
@@ -37895,6 +38047,7 @@ SplineSet
  11.2002 633.6 l 1,104,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C2B U0C42
 EndChar
 
@@ -37968,6 +38121,7 @@ SplineSet
  716.8 156 l 1,58,59
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C35 U0C41
 EndChar
 
@@ -38067,6 +38221,7 @@ SplineSet
  991.2 379.2 l 1,99,100
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C35 U0C42
 EndChar
 
@@ -38109,6 +38264,7 @@ SplineSet
  2.40039 -130.4 l 1,0,1
 EndSplineSet
 Validated: 1
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph496
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C15 U0C4D
 EndChar
@@ -38190,6 +38346,7 @@ SplineSet
  -208 -384.8 l 1,27,28
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph497
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C16 U0C4D
 EndChar
@@ -38217,6 +38374,7 @@ SplineSet
  -488 -406.4 l 1,0,1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph498
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C17 U0C4D
 EndChar
@@ -38285,6 +38443,7 @@ SplineSet
  -800.8 -308.8 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph499
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C18 U0C4D
 EndChar
@@ -38354,6 +38513,7 @@ SplineSet
  -565.6 -301.6 l 1,0,1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph500
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C19 U0C4D
 EndChar
@@ -38401,6 +38561,7 @@ SplineSet
  -140 -79.2002 l 1,0,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph501
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C1A U0C4D
 EndChar
@@ -38454,6 +38615,7 @@ SplineSet
  -148 -79.2002 l 1,0,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph502
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C1B U0C4D
 EndChar
@@ -38529,6 +38691,7 @@ SplineSet
  -565.6 -295.2 l 1,0,1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph503
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C1C U0C4D
 EndChar
@@ -38600,6 +38763,7 @@ SplineSet
  -905.6 -212 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph504
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C1D U0C4D
 EndChar
@@ -38677,6 +38841,7 @@ SplineSet
  -625.6 -144 l 1,14,15
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph505
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C1E U0C4D
 EndChar
@@ -38738,6 +38903,7 @@ SplineSet
  -608 -223.2 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph506
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C1F U0C4D
 EndChar
@@ -38779,6 +38945,7 @@ SplineSet
  -395.2 -223.2 l 1,18,19
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph507
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C20 U0C4D
 EndChar
@@ -38838,6 +39005,7 @@ SplineSet
  -629.6 -256 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph508
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C21 U0C4D
 EndChar
@@ -38901,6 +39069,7 @@ SplineSet
  -629.6 -262.4 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph509
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C22 U0C4D
 EndChar
@@ -38976,6 +39145,7 @@ SplineSet
  -565.6 -138.4 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph510
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C23 U0C4D
 EndChar
@@ -39016,6 +39186,7 @@ SplineSet
  -144.8 -223.2 l 1,18,19
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph511
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C24 U0C4D
 EndChar
@@ -39071,6 +39242,7 @@ SplineSet
  -382.4 -223.2 l 1,44,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph512
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C25 U0C4D
 EndChar
@@ -39116,6 +39288,7 @@ SplineSet
  -617.6 -296.8 l 1,20,21
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph513
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C26 U0C4D
 EndChar
@@ -39165,6 +39338,7 @@ SplineSet
  -617.6 -296.8 l 1,20,21
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph514
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C27 U0C4D
 EndChar
@@ -39218,6 +39392,7 @@ SplineSet
  -260 -194.4 l 1,14,15
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph515
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C28 U0C4D
 EndChar
@@ -39267,6 +39442,7 @@ SplineSet
  -223.2 -201.6 l 1,13,14
 EndSplineSet
 Validated: 5
+LCarets2: 1 0 
 Substitution2: "Single Substitution lookup 324" glyph516
 Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C2A U0C4D
 EndChar
@@ -39909,7 +40085,7 @@ Encoding: 65916 -1 468
 Width: 115
 VWidth: 819
 GlyphClass: 4
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -40007,7 +40183,7 @@ Encoding: 65918 -1 470
 Width: 0
 VWidth: 819
 GlyphClass: 4
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -41035,6 +41211,7 @@ SplineSet
  659.2 -277.6 l 1,131,-1
 EndSplineSet
 Validated: 549
+LCarets2: 2 0 0 
 Ligature2: "'blws' Below Base Substitutions in Telugu lookup 316" U0C37 U0C1F_U0C4D.blwf U0C30_U0C4D.blwf
 Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C37_U0C4D.haln U0C24 U0C30_U0C4D.blwf
 EndChar
@@ -44337,7 +44514,7 @@ Encoding: 65978 -1 530
 Width: 561
 VWidth: 819
 GlyphClass: 4
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -44430,7 +44607,7 @@ Encoding: 65980 -1 532
 Width: 762
 VWidth: 819
 GlyphClass: 4
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
