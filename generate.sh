@@ -16,4 +16,4 @@ mv Lohit-Kashmiri.ttf kashmiri/
 mv Lohit-Konkani.ttf konkani/
 mv Lohit-Nepali.ttf nepali/
 mv Lohit-Sindhi.ttf sindhi/
-
+mv Lohit-Devanagari.ttf devanagari/
