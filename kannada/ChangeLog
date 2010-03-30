@@ -2,7 +2,7 @@
 Current Version :- 2.4.5
 
 * Thu Mar 18 2010 Pravin Satpute <psatpute@redhat.com> - 2.4.5
-- fix rh bugzilla 559462, 530085
+- fix rh bugzilla 559462, 576105
 - added panctuation marks and arabic numerals
 
 * Fri Sep 18 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.4
