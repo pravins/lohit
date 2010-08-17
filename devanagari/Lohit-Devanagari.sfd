@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1279275514
+ModificationTime: 1282027168
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -903,7 +903,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 57313 37 13
+WinInfo: 2257 37 13
 GridOrder2: 1
 Grid
 26 225 m 1,0,-1
@@ -29570,8 +29570,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: india_currency_symbol
-Encoding: 57344 57344 352
+StartChar: uni20B9
+Encoding: 8377 8377 352
 Width: 609
 Flags: HW
 LayerCount: 2
