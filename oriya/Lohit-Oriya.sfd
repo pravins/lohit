@@ -3,7 +3,7 @@ FontName: Lohit-Oriya
 FullName: Lohit Oriya
 FamilyName: Lohit Oriya
 Weight: Book
-Copyright:   Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
+Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
 Version: 2.4.3
 ItalicAngle: 0
 UnderlinePosition: -300
@@ -13,14 +13,13 @@ Descent: 246
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 808 1214965479 15809157]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1158849336
-ModificationTime: 1248861233
+ModificationTime: 1282212414
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -51,9 +50,11 @@ OS2SupYOff: 512
 OS2StrikeYSize: 50
 OS2StrikeYPos: 250
 OS2Vendor: 'MODI'
+Lookup: 4 0 0 "'pres' Pre Base Substitutions in Oriya lookup 85"  {"'pres' Pre Base Substitutions in Oriya lookup 85-1"  "'pres' Pre Base Substitutions in Oriya lookup 85-2"  } ['pres' ('orya' <'dflt' > ) ]
 Lookup: 4 0 0 "'abvs' Above Base Substitutions in Oriya lookup 0"  {"'abvs' Above Base Substitutions in Oriya lookup 0 subtable"  } ['abvs' ('orya' <'dflt' > ) ]
 Lookup: 4 0 0 "'akhn' Akhand in Oriya lookup 1"  {"'akhn' Akhand in Oriya lookup 1 subtable"  } ['akhn' ('orya' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms in Oriya lookup 2"  {"'blwf' Below Base Forms in Oriya lookup 2 subtable"  } ['blwf' ('orya' <'dflt' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Oriya lookup 86"  {"'half' Half Forms in Oriya lookup 86-1"  } ['half' ('orya' <'dflt' > ) ]
 Lookup: 6 0 0 "'blws' Below Base Substitutions in Oriya lookup 3"  {"'blws' Below Base Substitutions in Oriya lookup 3 subtable"  } ['blws' ('orya' <'dflt' > ) ]
 Lookup: 6 0 0 "'blws' Below Base Substitutions in Oriya lookup 4"  {"'blws' Below Base Substitutions in Oriya lookup 4 subtable"  } ['blws' ('orya' <'dflt' > ) ]
 Lookup: 6 0 0 "'blws' Below Base Substitutions in Oriya lookup 5"  {"'blws' Below Base Substitutions in Oriya lookup 5 subtable"  } ['blws' ('orya' <'dflt' > ) ]
@@ -966,7 +967,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 2688 28 11
+WinInfo: 2884 28 11
 BeginChars: 65864 424
 
 StartChar: .notdef
@@ -1107,7 +1108,7 @@ StartChar: U0965
 Encoding: 2405 2405 9
 Width: 724
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1129,7 +1130,7 @@ StartChar: U0B01
 Encoding: 2817 2817 10
 Width: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1154,14 +1155,14 @@ SplineSet
  -98.9219 996.232 -98.9219 996.232 -118.667 995.147 c 24,27,28
  -146 993.778 -146 993.778 -161 1011 c 0,15,16
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: U0B02
 Encoding: 2818 2818 11
 Width: 339
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1185,7 +1186,7 @@ SplineSet
  139 531 139 531 170 531 c 1,25,-1
  170 531 l 1,13,14
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: U0B03
@@ -5249,7 +5250,7 @@ StartChar: U0B71
 Encoding: 2929 2929 90
 Width: 639
 GlyphClass: 2
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5970,6 +5971,7 @@ SplineSet
  362 238 l 1,101,102
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B15_U0B4D.haln U0B15 
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B15 U0B4D_U0B15.blwf
 EndChar
 
@@ -6406,24 +6408,26 @@ SplineSet
  625 267 l 1,60,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'akhn' Akhand in Oriya lookup 1 subtable" U0B15 U0B4D U0B37 
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B15_U0B4D.haln U0B37
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B15 U0B4D_U0B37.blwf
 EndChar
 
 StartChar: U0B15_U0B4D_U0B37.blwf_U0B4D_U0B23.blwf.abvs
 Encoding: 65559 -1 116
 Width: 758
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-30 223 m 1,0,1
+30 223 m 0,0,1
  30 266 30 266 70 310 c 128,-1,2
  110 354 110 354 178 386 c 1,3,4
  126 395 126 395 92.5 441.5 c 128,-1,5
  59 488 59 488 59 550 c 0,6,7
  59 633 59 633 144 691.5 c 128,-1,8
- 229 750 229 750 349 750 c 0,9,10
+ 229 750 229 750 349 750 c 1,9,10
  413 744 413 744 461.5 725 c 128,-1,11
  510 706 510 706 535 676 c 1,12,-1
  535 725 l 1,13,-1
@@ -6470,45 +6474,41 @@ SplineSet
  133 197 133 197 120 184 c 128,-1,70
  107 171 107 171 88 171 c 0,71,72
  64 171 64 171 47 186 c 128,-1,73
- 30 201 30 201 30 223 c 1,74,-1
- 30 223 l 1,0,1
-490 -74 m 1,75,76
- 511 -74 511 -74 526 -63.5 c 128,-1,77
- 541 -53 541 -53 541 -38 c 0,78,79
- 541 -22 541 -22 528 -11 c 128,-1,80
- 515 0 515 0 497 0 c 0,81,82
- 475 0 475 0 460 -11 c 128,-1,83
- 445 -22 445 -22 445 -38 c 0,84,85
- 445 -53 445 -53 458 -63.5 c 128,-1,86
- 471 -74 471 -74 490 -74 c 1,87,-1
- 490 -74 l 1,75,76
-371 238 m 1,88,89
- 427 238 427 238 471.5 262.5 c 128,-1,90
- 516 287 516 287 535 328 c 1,91,-1
- 402 438 l 1,92,93
- 357 426 357 426 312 389 c 128,-1,94
- 267 352 267 352 267 328 c 0,95,96
- 267 291 267 291 297.5 264.5 c 128,-1,97
- 328 238 328 238 371 238 c 1,98,-1
- 371 238 l 1,88,89
-231 423 m 1,99,-1
- 355 490 l 1,100,-1
- 194 647 l 1,101,102
- 168 631 168 631 150.5 605.5 c 128,-1,103
- 133 580 133 580 128 551 c 1,104,105
- 128 503 128 503 157 467 c 128,-1,106
- 186 431 186 431 231 423 c 1,107,-1
- 231 423 l 1,99,-1
-535 397 m 1,108,-1
- 535 542 l 1,109,110
- 525 596 525 596 476 636.5 c 128,-1,111
- 427 677 427 677 355 690 c 0,112,113
- 351 690 351 690 304.5 690 c 128,-1,114
- 258 690 258 690 245 679 c 1,115,-1
- 535 397 l 1,116,-1
- 535 397 l 1,108,-1
+ 30 201 30 201 30 223 c 0,0,1
+490 -74 m 0,74,75
+ 511 -74 511 -74 526 -63.5 c 128,-1,76
+ 541 -53 541 -53 541 -38 c 0,77,78
+ 541 -22 541 -22 528 -11 c 128,-1,79
+ 515 0 515 0 497 0 c 0,80,81
+ 475 0 475 0 460 -11 c 128,-1,82
+ 445 -22 445 -22 445 -38 c 0,83,84
+ 445 -53 445 -53 458 -63.5 c 128,-1,85
+ 471 -74 471 -74 490 -74 c 0,74,75
+371 238 m 0,86,87
+ 427 238 427 238 471.5 262.5 c 128,-1,88
+ 516 287 516 287 535 328 c 1,89,-1
+ 402 438 l 1,90,91
+ 357 426 357 426 312 389 c 128,-1,92
+ 267 352 267 352 267 328 c 0,93,94
+ 267 291 267 291 297.5 264.5 c 128,-1,95
+ 328 238 328 238 371 238 c 0,86,87
+231 423 m 1,96,-1
+ 355 490 l 1,97,-1
+ 194 647 l 1,98,99
+ 168 631 168 631 150.5 605.5 c 128,-1,100
+ 133 580 133 580 128 551 c 1,101,102
+ 128 503 128 503 157 467 c 128,-1,103
+ 186 431 186 431 231 423 c 1,96,-1
+535 397 m 1,104,-1
+ 535 542 l 1,105,106
+ 525 596 525 596 476 636.5 c 128,-1,107
+ 427 677 427 677 355 690 c 1,108,-1
+ 304.5 690 l 2,109,110
+ 258 690 258 690 245 679 c 1,111,-1
+ 535 397 l 1,104,-1
 EndSplineSet
-Validated: 549
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-2" glyph285 U0B23
+LCarets2: 2 0 0 
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B15 U0B4D_U0B37.blwf U0B4D_U0B23.blwf
 EndChar
 
@@ -6774,6 +6774,7 @@ SplineSet
  526 -90 l 1,84,-1
 EndSplineSet
 Validated: 37
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B15_U0B4D.haln U0B38
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B15 U0B4D_U0B38.blwf
 EndChar
 
@@ -6858,6 +6859,7 @@ SplineSet
  275 260 l 1,84,85
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B17_U0B4D.haln U0B26
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B17 U0B4D_U0B26.blwf
 EndChar
 
@@ -6928,6 +6930,7 @@ SplineSet
  297 260 l 1,63,64
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B17_U0B4D.haln U0B27
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B17 U0B4D_U0B27.blwf
 EndChar
 
@@ -7237,6 +7240,7 @@ SplineSet
  705 534 l 1,103,104
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B19_U0B4D.haln U0B15
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B19 U0B4D_U0B15.blwf
 EndChar
 
@@ -7376,6 +7380,7 @@ SplineSet
  664 431 l 1,159,160
 EndSplineSet
 Validated: 517
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B19_U0B4D_U0B15.blwf.abvs U0B4D U0B24
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B19 U0B4D_U0B15.blwf U0B4D_U0B24.blwf
 EndChar
 
@@ -7492,6 +7497,10 @@ SplineSet
  650 476 l 1,124,125
 EndSplineSet
 Validated: 517
+Ligature2: "'akhn' Akhand in Oriya lookup 1 subtable" U0B19 U0B15 U0B4D U0B37 U0B4D
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-2" U0B19_U0B4D_U0B15.blwf.abvs U0B4D U0B37
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B19_U0B4D_U0B15.blwf.abvs U0B37 U0B4D
+LCarets2: 2 0 0 
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B19 U0B4D_U0B15.blwf U0B4D_U0B37.blwf
 EndChar
 
@@ -7592,6 +7601,7 @@ SplineSet
  726 571 l 1,106,107
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B19_U0B4D.haln U0B16
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B19 U0B4D_U0B16.blwf
 EndChar
 
@@ -7685,6 +7695,7 @@ SplineSet
  721 557 l 1,94,95
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B19_U0B4D.haln U0B17
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B19 U0B4D_U0B17.blwf
 EndChar
 
@@ -7765,6 +7776,7 @@ SplineSet
  725 557 l 1,76,77
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B19_U0B4D.haln U0B18
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B19 U0B4D_U0B18.blwf
 EndChar
 
@@ -7835,6 +7847,7 @@ SplineSet
  445 52 l 1,66,67
 EndSplineSet
 Validated: 37
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B1A_U0B4D.haln U0B1A
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B1A U0B4D_U0B1A.blwf
 EndChar
 
@@ -7947,6 +7960,7 @@ SplineSet
  441 171 l 1,122,123
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B1A_U0B4D.haln U0B1B
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B1A U0B4D_U0B1B.blwf
 EndChar
 
@@ -8153,6 +8167,7 @@ SplineSet
  318 43 l 1,67,68
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B1C_U0B4D.haln U0B1C
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B1C U0B4D_U0B1C.blwf
 EndChar
 
@@ -8366,6 +8381,7 @@ SplineSet
  364 38 l 1,119,120
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B1C_U0B4D.haln U0B1D
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B1C U0B4D_U0B1D.blwf
 EndChar
 
@@ -8632,6 +8648,7 @@ SplineSet
  532 0 l 1,0,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B1E_U0B4D.haln U0B1A
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B1E U0B4D_U0B1A.blwf
 EndChar
 
@@ -8739,6 +8756,7 @@ SplineSet
  312 162 l 1,109,110
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B1E_U0B4D.haln U0B1B
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B1E U0B4D_U0B1B.blwf
 EndChar
 
@@ -8837,6 +8855,7 @@ SplineSet
  742 0 l 1,102,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B1E_U0B4D.haln U0B1C
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B1E U0B4D_U0B1C.blwf
 EndChar
 
@@ -8935,6 +8954,7 @@ SplineSet
  258 52 l 1,95,96
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B1E_U0B4D.haln U0B1D
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B1E U0B4D_U0B1D.blwf
 EndChar
 
@@ -9005,6 +9025,7 @@ SplineSet
  439 59 l 1,64,65
 EndSplineSet
 Validated: 37
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B1F_U0B4D.haln U0B1F
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B1F U0B4D_U0B1F.blwf
 EndChar
 
@@ -9100,6 +9121,7 @@ SplineSet
  503 29 l 1,99,100
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B21_U0B4D.haln U0B17
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B21 U0B4D_U0B17.blwf
 EndChar
 
@@ -9193,6 +9215,7 @@ SplineSet
  316 -14 l 1,0,1
 EndSplineSet
 Validated: 37
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B21_U0B4D.haln U0B21
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B21 U0B4D_U0B21.blwf
 EndChar
 
@@ -9286,6 +9309,7 @@ SplineSet
  460 267 l 1,79,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B23_U0B4D.haln U0B1F
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B23 U0B4D_U0B1F.blwf
 EndChar
 
@@ -9370,6 +9394,7 @@ SplineSet
  451 251 l 1,57,58
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B23_U0B4D.haln U0B20
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B23 U0B4D_U0B20.blwf
 EndChar
 
@@ -9451,6 +9476,7 @@ SplineSet
  261 223 l 1,80,81
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B23_U0B4D.haln U0B21
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B23 U0B4D_U0B21.blwf
 EndChar
 
@@ -9624,6 +9650,7 @@ SplineSet
  251 171 l 1,85,86
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B23_U0B4D.haln U0B22
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B23 U0B4D_U0B22.blwf
 EndChar
 
@@ -9716,6 +9743,7 @@ SplineSet
  110 423 l 1,50,51
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B23_U0B4D.haln U0B23
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B23 U0B4D_U0B23.blwf
 EndChar
 
@@ -9791,6 +9819,7 @@ SplineSet
  587 -229 l 1,73,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B24_U0B4D.haln U0B15
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B24 U0B4D_U0B15.blwf
 EndChar
 
@@ -10106,6 +10135,7 @@ SplineSet
  544 0 l 1,0,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B24_U0B4D.haln U0B25
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B24 U0B4D_U0B25.blwf
 EndChar
 
@@ -10237,6 +10267,7 @@ SplineSet
  789 -252 l 1,48,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B24_U0B4D.haln U0B2A
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B24 U0B4D_U0B2A.blwf
 EndChar
 
@@ -10516,6 +10547,7 @@ SplineSet
  534 193 l 1,24,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B24_U0B4D.haln U0B38
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B24 U0B4D_U0B38.blwf
 EndChar
 
@@ -10733,6 +10765,7 @@ SplineSet
  481 -151 l 1,90,91
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B26_U0B4D.haln U0B17
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B26 U0B4D_U0B17.blwf
 EndChar
 
@@ -10822,6 +10855,7 @@ SplineSet
  410 74 l 1,76,77
 EndSplineSet
 Validated: 37
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B26_U0B4D.haln U0B18
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B26 U0B4D_U0B18.blwf
 EndChar
 
@@ -10885,6 +10919,7 @@ SplineSet
  502 0 l 1,0,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B26_U0B4D.haln U0B26
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B26 U0B4D_U0B26.blwf
 EndChar
 
@@ -10953,6 +10988,7 @@ SplineSet
  452 183 l 1,42,43
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B26_U0B4D.haln U0B27 
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B26 U0B4D_U0B27.blwf
 EndChar
 
@@ -11834,6 +11870,7 @@ SplineSet
  587 52 l 1,91,92
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B28_U0B4D.haln U0B25
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B28 U0B4D_U0B25.blwf
 EndChar
 
@@ -11894,6 +11931,7 @@ SplineSet
  465 0 l 1,0,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B28_U0B4D.haln U0B26
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B28 U0B4D_U0B26.blwf
 EndChar
 
@@ -12100,6 +12138,7 @@ SplineSet
  371 133 l 1,49,50
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B28_U0B4D.haln U0B27
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B28 U0B4D_U0B27.blwf
 EndChar
 
@@ -12631,6 +12670,7 @@ SplineSet
  579 229 l 1,81,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B2A_U0B4D.haln U0B2A
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B2A U0B4D_U0B2A.blwf
 EndChar
 
@@ -12779,6 +12819,7 @@ SplineSet
  535 245 l 1,68,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B2A_U0B4D.haln U0B38
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B2A U0B4D_U0B38.blwf
 EndChar
 
@@ -12860,6 +12901,7 @@ SplineSet
  323 252 l 1,81,82
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B2C_U0B4D.haln U0B1C
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B2C U0B4D_U0B1C.blwf
 EndChar
 
@@ -12926,6 +12968,7 @@ SplineSet
  225 126 l 1,59,60
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B2C_U0B4D.haln U0B26
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B2C U0B4D_U0B26.blwf
 EndChar
 
@@ -13001,6 +13044,7 @@ SplineSet
  307 328 l 1,69,70
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B2C_U0B4D.haln U0B27
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B2C U0B4D_U0B27.blwf
 EndChar
 
@@ -13065,6 +13109,7 @@ SplineSet
  391 467 l 1,53,54
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B2E_U0B4D.haln U0B2A
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B2E U0B4D_U0B2A.blwf
 EndChar
 
@@ -13209,6 +13254,7 @@ SplineSet
  631 519 l 1,73,74
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B2E_U0B4D.haln U0B2B
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B2E U0B4D_U0B2B.blwf
 EndChar
 
@@ -13559,6 +13605,7 @@ SplineSet
  461 104 l 1,88,89
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B33_U0B4D.haln U0B15
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B33 U0B4D_U0B15.blwf
 EndChar
 
@@ -13830,6 +13877,7 @@ SplineSet
  284 0 l 1,78,79
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B33_U0B4D.haln U0B2A
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B33 U0B4D_U0B2A.blwf
 EndChar
 
@@ -13937,6 +13985,7 @@ SplineSet
  555 96 l 1,115,116
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B33_U0B4D.haln U0B2B
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B33 U0B4D_U0B2B.blwf
 EndChar
 
@@ -14028,6 +14077,7 @@ SplineSet
  367 212 l 1,88,89
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B32_U0B4D.haln U0B15
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B32 U0B4D_U0B15.blwf
 EndChar
 
@@ -14123,6 +14173,7 @@ SplineSet
  429 -74 l 1,98,99
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B32_U0B4D.haln U0B17
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B32 U0B4D_U0B17.blwf
 EndChar
 
@@ -14307,6 +14358,7 @@ SplineSet
  637 -23 l 1,101,102
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B36_U0B4D.haln U0B1A
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B36 U0B4D_U0B1A.blwf
 EndChar
 
@@ -14446,6 +14498,7 @@ SplineSet
  258 171 l 1,163,164
 EndSplineSet
 Validated: 37
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B36_U0B4D.haln U0B1B
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B36 U0B4D_U0B1B.blwf
 EndChar
 
@@ -14697,6 +14750,7 @@ SplineSet
  593 333 l 1,79,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B37_U0B4D.haln U0B15
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B37 U0B4D_U0B15.blwf
 EndChar
 
@@ -14873,6 +14927,7 @@ SplineSet
  550 354 l 1,92,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B37_U0B4D.haln U0B1F
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B37 U0B4D_U0B1F.blwf
 EndChar
 
@@ -15056,6 +15111,7 @@ SplineSet
  594 342 l 1,77,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B37_U0B4D.haln U0B20
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B37 U0B4D_U0B20.blwf
 EndChar
 
@@ -15146,6 +15202,7 @@ SplineSet
  564 371 l 1,92,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B37_U0B4D.haln U0B23
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B37 U0B4D_U0B23.blwf
 EndChar
 
@@ -15237,6 +15294,7 @@ SplineSet
  584 245 l 1,91,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B37_U0B4D.haln U0B2A
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B37 U0B4D_U0B2A.blwf
 EndChar
 
@@ -15437,6 +15495,7 @@ SplineSet
  642 157 l 1,107,108
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B37_U0B4D.haln U0B2B
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B37 U0B4D_U0B2B.blwf
 EndChar
 
@@ -15509,6 +15568,7 @@ SplineSet
  236 281 l 1,56,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B38_U0B4D.haln U0B15
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B38 U0B4D_U0B15.blwf
 EndChar
 
@@ -15591,6 +15651,7 @@ SplineSet
  332 260 l 1,72,73
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B38_U0B4D.haln U0B16
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B38 U0B4D_U0B16.blwf
 EndChar
 
@@ -15791,6 +15852,7 @@ SplineSet
  521 209 l 1,67,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B38_U0B4D.haln U0B25
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B38 U0B4D_U0B25.blwf
 EndChar
 
@@ -16013,6 +16075,7 @@ SplineSet
  367 148 l 1,50,51
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B38_U0B4D.haln U0B2A
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B38 U0B4D_U0B2A.blwf
 EndChar
 
@@ -16102,6 +16165,7 @@ SplineSet
  635 148 l 1,85,86
 EndSplineSet
 Validated: 5
+Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 85-1" U0B38_U0B4D.haln U0B2B
 Ligature2: "'abvs' Above Base Substitutions in Oriya lookup 0 subtable" U0B38 U0B4D_U0B2B.blwf
 EndChar
 
@@ -17030,6 +17094,7 @@ SplineSet
  687 -244 l 1,73,-1
 EndSplineSet
 Validated: 37
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B15 U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B15 U0B4D
 EndChar
 
@@ -17154,6 +17219,7 @@ SplineSet
  782 -244 l 1,52,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B17 U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B17 U0B4D
 EndChar
 
@@ -17298,6 +17364,7 @@ SplineSet
  651 -245 l 1,80,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B19 U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B19 U0B4D
 EndChar
 
@@ -17356,6 +17423,7 @@ SplineSet
  644 -245 l 1,54,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B1A U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B1A U0B4D
 EndChar
 
@@ -17530,6 +17598,7 @@ SplineSet
  668 -244 l 1,84,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B1C U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B1C U0B4D
 EndChar
 
@@ -17693,6 +17762,7 @@ SplineSet
  606 -249 l 1,104,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B1E U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B1E U0B4D
 EndChar
 
@@ -17751,6 +17821,7 @@ SplineSet
  597 -245 l 1,52,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B1F U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B1F U0B4D
 EndChar
 
@@ -17852,6 +17923,7 @@ SplineSet
  652 -245 l 1,59,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B21 U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B21 U0B4D
 EndChar
 
@@ -17991,6 +18063,7 @@ SplineSet
  783 -244 l 1,62,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B23 U0B4D 
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B23 U0B4D
 EndChar
 
@@ -18054,6 +18127,7 @@ SplineSet
  642 -245 l 1,63,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B24 U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B24 U0B4D
 EndChar
 
@@ -18170,6 +18244,8 @@ SplineSet
  629 -244 l 1,53,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B26 U0B4D 
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B26 U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B26 U0B4D
 EndChar
 
@@ -18269,6 +18345,7 @@ SplineSet
  625 -244 l 1,51,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B28 U0B4D 
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B28 U0B4D
 EndChar
 
@@ -18325,6 +18402,7 @@ SplineSet
  792 -244 l 1,48,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B2A U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B2A U0B4D
 EndChar
 
@@ -18461,6 +18539,7 @@ SplineSet
  651 -244 l 1,57,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B2C U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B2C U0B4D
 EndChar
 
@@ -18583,6 +18662,7 @@ SplineSet
  782 -244 l 1,43,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B2E U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B2E U0B4D
 EndChar
 
@@ -18774,6 +18854,7 @@ SplineSet
  761 -244 l 1,61,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B32 U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B32 U0B4D
 EndChar
 
@@ -18837,6 +18918,7 @@ SplineSet
  663 -244 l 1,59,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B33 U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B33 U0B4D
 EndChar
 
@@ -18979,6 +19061,7 @@ SplineSet
  758 -244 l 1,71,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B36 U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B36 U0B4D
 EndChar
 
@@ -19044,6 +19127,7 @@ SplineSet
  773 -244 l 1,56,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B37 U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B37 U0B4D
 EndChar
 
@@ -19090,6 +19174,7 @@ SplineSet
  581 71 l 1,22,-1
 EndSplineSet
 Validated: 5
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B38 U0B4D
 Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B38 U0B4D
 EndChar
 
@@ -19463,7 +19548,7 @@ EndChar
 StartChar: glyph285
 Encoding: 65732 -1 289
 Width: 787
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -19530,7 +19615,9 @@ SplineSet
  805 -245 l 1,73,-1
  805 -245 l 1,69,-1
 EndSplineSet
-Validated: 5
+Ligature2: "'haln' Halant Forms in Oriya lookup 78 subtable" U0B15_U0B4D_U0B37.blwf.abvs U0B4D
+LCarets2: 1 0 
+Ligature2: "'half' Half Forms in Oriya lookup 86-1" U0B15_U0B4D_U0B37.blwf.abvs U0B4D
 EndChar
 
 StartChar: U0B15_U0B4D_U0B30.blwf.abvs
@@ -26456,7 +26543,7 @@ SplineSet
  -227 -228 -227 -228 -186 -248.5 c 5,41,42
  -187 -267 -187 -267 -186 -285.5 c 5,0,1
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: uni0B62
@@ -26498,13 +26585,13 @@ SplineSet
  -138 -354 -138 -354 -138 -382 c 1,48,-1
  -138 -382 l 1,39,40
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
 
 StartChar: uni0B63
 Encoding: 2915 2915 423
 Width: 639
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -26545,7 +26632,7 @@ SplineSet
  -138 -353 -138 -353 -138 -381 c 9,57,58
  -120.5 -390 -120.5 -390 -75 -368 c 0,49,50
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 EndChars
 EndSplineFont

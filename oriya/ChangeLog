@@ -1,6 +1,12 @@
 				  lohit-oriya
 Current Version :- 2.4.3
 
+* Mon Oct 25 2010 Pravin Satpute <psatpute@redhat.com> - 2.4.4
+- removed prepend_first from conf file, see bug #578037 for more info
+- gsub rules were not working well with qt, added pres and some akhn gsub for resolving it
+- see bug #623995 and bug #639977
+- tested thoroughly now oriya fonts render perfect on oowriter, pango and qt as well
+
 * Fri Aug 28 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.3
 - first release with split tarball
 - see Changelog.old for previous changes
