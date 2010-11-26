@@ -13,14 +13,13 @@ Descent: 205
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 808 1214965479 5361592]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1286534373
+ModificationTime: 1290763804
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -51,96 +50,98 @@ OS2SupYOff: 666
 OS2StrikeYSize: 67
 OS2StrikeYPos: 333
 OS2Vendor: 'ACE '
-Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 60"  {"'pres' Pre Base Substitutions in Devanagari lookup 60-1"  } ['pres' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "'abvs' Above Base Substitutions in Devanagari lookup 0"  {"'abvs' Above Base Substitutions in Devanagari lookup 0"  } ['abvs' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "'akhn' Akhand in Devanagari lookup 1"  {"'akhn' Akhand in Devanagari lookup 1"  } ['akhn' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "'blwf' Below Base Forms in Devanagari lookup 2"  {"'blwf' Below Base Forms in Devanagari lookup 2"  } ['blwf' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 3"  {"'blws' Below Base Substitutions in Devanagari lookup 3"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 4"  {"'blws' Below Base Substitutions in Devanagari lookup 4"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 5"  {"'blws' Below Base Substitutions in Devanagari lookup 5"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 6"  {"'blws' Below Base Substitutions in Devanagari lookup 6"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 7"  {"'blws' Below Base Substitutions in Devanagari lookup 7"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 8"  {"'blws' Below Base Substitutions in Devanagari lookup 8"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 9"  {"'blws' Below Base Substitutions in Devanagari lookup 9"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 10"  {"'blws' Below Base Substitutions in Devanagari lookup 10"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 11"  {"'blws' Below Base Substitutions in Devanagari lookup 11"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 12"  {"'blws' Below Base Substitutions in Devanagari lookup 12"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 13"  {"'blws' Below Base Substitutions in Devanagari lookup 13"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 14"  {"'blws' Below Base Substitutions in Devanagari lookup 14"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 15"  {"'blws' Below Base Substitutions in Devanagari lookup 15"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 16"  {"'blws' Below Base Substitutions in Devanagari lookup 16"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 17"  {"'blws' Below Base Substitutions in Devanagari lookup 17"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 18"  {"'blws' Below Base Substitutions in Devanagari lookup 18"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 19"  {"'blws' Below Base Substitutions in Devanagari lookup 19"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 20"  {"'blws' Below Base Substitutions in Devanagari lookup 20"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 21"  {"'blws' Below Base Substitutions in Devanagari lookup 21"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 22"  {"'blws' Below Base Substitutions in Devanagari lookup 22"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 23"  {"'blws' Below Base Substitutions in Devanagari lookup 23"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 24"  {"'blws' Below Base Substitutions in Devanagari lookup 24"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 25"  {"'blws' Below Base Substitutions in Devanagari lookup 25"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 26"  {"'blws' Below Base Substitutions in Devanagari lookup 26"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 27"  {"'blws' Below Base Substitutions in Devanagari lookup 27"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 28"  {"'blws' Below Base Substitutions in Devanagari lookup 28"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 29"  {"'blws' Below Base Substitutions in Devanagari lookup 29"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 30"  {"'blws' Below Base Substitutions in Devanagari lookup 30"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 31"  {"'blws' Below Base Substitutions in Devanagari lookup 31"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 32"  {"'blws' Below Base Substitutions in Devanagari lookup 32"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 33"  {"'blws' Below Base Substitutions in Devanagari lookup 33"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 34"  {"'blws' Below Base Substitutions in Devanagari lookup 34"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 35"  {"'blws' Below Base Substitutions in Devanagari lookup 35"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 36"  {"'blws' Below Base Substitutions in Devanagari lookup 36"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 37"  {"'blws' Below Base Substitutions in Devanagari lookup 37"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 38"  {"'blws' Below Base Substitutions in Devanagari lookup 38"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 39"  {"'blws' Below Base Substitutions in Devanagari lookup 39"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 40"  {"'blws' Below Base Substitutions in Devanagari lookup 40"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 41"  {"'blws' Below Base Substitutions in Devanagari lookup 41"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 42"  {"'blws' Below Base Substitutions in Devanagari lookup 42"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 43"  {"'blws' Below Base Substitutions in Devanagari lookup 43"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 44"  {"'blws' Below Base Substitutions in Devanagari lookup 44"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 45"  {"'blws' Below Base Substitutions in Devanagari lookup 45"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "'blws' Below Base Substitutions in Devanagari lookup 46"  {"'blws' Below Base Substitutions in Devanagari lookup 46"  } ['blws' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "'half' Half Forms in Devanagari lookup 47"  {"'half' Half Forms in Devanagari lookup 47"  } ['half' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "'nukt' Nukta Forms in Devanagari lookup 48"  {"'nukt' Nukta Forms in Devanagari lookup 48"  } ['nukt' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 49"  {"'pres' Pre Base Substitutions in Devanagari lookup 49"  } ['pres' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 50"  {"'pres' Pre Base Substitutions in Devanagari lookup 50"  } ['pres' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 51"  {"'pres' Pre Base Substitutions in Devanagari lookup 51"  } ['pres' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 52"  {"'pres' Pre Base Substitutions in Devanagari lookup 52"  } ['pres' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 53"  {"'pres' Pre Base Substitutions in Devanagari lookup 53"  } ['pres' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 54"  {"'pres' Pre Base Substitutions in Devanagari lookup 54"  } ['pres' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 55"  {"'pres' Pre Base Substitutions in Devanagari lookup 55"  } ['pres' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 56"  {"'pres' Pre Base Substitutions in Devanagari lookup 56"  } ['pres' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 57"  {"'pres' Pre Base Substitutions in Devanagari lookup 57"  } ['pres' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 58"  {"'psts' Post Base Substitutions in Devanagari lookup 58"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 59"  {"'psts' Post Base Substitutions in Devanagari lookup 59"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 60"  {"'psts' Post Base Substitutions in Devanagari lookup 60"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 61"  {"'psts' Post Base Substitutions in Devanagari lookup 61"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 62"  {"'psts' Post Base Substitutions in Devanagari lookup 62"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 63"  {"'psts' Post Base Substitutions in Devanagari lookup 63"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 64"  {"'psts' Post Base Substitutions in Devanagari lookup 64"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 65"  {"'psts' Post Base Substitutions in Devanagari lookup 65"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 66"  {"'psts' Post Base Substitutions in Devanagari lookup 66"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 67"  {"'psts' Post Base Substitutions in Devanagari lookup 67"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 68"  {"'psts' Post Base Substitutions in Devanagari lookup 68"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 69"  {"'psts' Post Base Substitutions in Devanagari lookup 69"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 70"  {"'psts' Post Base Substitutions in Devanagari lookup 70"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "'psts' Post Base Substitutions in Devanagari lookup 71"  {"'psts' Post Base Substitutions in Devanagari lookup 71"  } ['psts' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "'rphf' Reph Form in Devanagari lookup 72"  {"'rphf' Reph Form in Devanagari lookup 72"  } ['rphf' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "'vatu' Vattu Variants in Devanagari lookup 73"  {"'vatu' Vattu Variants in Devanagari lookup 73"  } ['vatu' ('deva' <'dflt' > ) ]
+Lookup: 1 0 0 "'locl' Localized Forms in Devanagari lookup 84"  {"'locl' Localized Forms in Devanagari lookup 84-1"  } ['locl' ('deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 60"  {"'pres' Pre Base Substitutions in Devanagari lookup 60-1"  } ['pres' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 4 0 0 "'abvs' Above Base Substitutions in Devanagari lookup 0"  {"'abvs' Above Base Substitutions in Devanagari lookup 0"  } ['abvs' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 4 0 0 "'akhn' Akhand in Devanagari lookup 1"  {"'akhn' Akhand in Devanagari lookup 1"  } ['akhn' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms in Devanagari lookup 2"  {"'blwf' Below Base Forms in Devanagari lookup 2"  } ['blwf' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 3"  {"'blws' Below Base Substitutions in Devanagari lookup 3"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 4"  {"'blws' Below Base Substitutions in Devanagari lookup 4"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 5"  {"'blws' Below Base Substitutions in Devanagari lookup 5"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 6"  {"'blws' Below Base Substitutions in Devanagari lookup 6"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 7"  {"'blws' Below Base Substitutions in Devanagari lookup 7"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 8"  {"'blws' Below Base Substitutions in Devanagari lookup 8"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 9"  {"'blws' Below Base Substitutions in Devanagari lookup 9"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 10"  {"'blws' Below Base Substitutions in Devanagari lookup 10"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 11"  {"'blws' Below Base Substitutions in Devanagari lookup 11"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 12"  {"'blws' Below Base Substitutions in Devanagari lookup 12"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 13"  {"'blws' Below Base Substitutions in Devanagari lookup 13"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 14"  {"'blws' Below Base Substitutions in Devanagari lookup 14"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 15"  {"'blws' Below Base Substitutions in Devanagari lookup 15"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 16"  {"'blws' Below Base Substitutions in Devanagari lookup 16"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 17"  {"'blws' Below Base Substitutions in Devanagari lookup 17"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 18"  {"'blws' Below Base Substitutions in Devanagari lookup 18"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 19"  {"'blws' Below Base Substitutions in Devanagari lookup 19"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 20"  {"'blws' Below Base Substitutions in Devanagari lookup 20"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 21"  {"'blws' Below Base Substitutions in Devanagari lookup 21"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 22"  {"'blws' Below Base Substitutions in Devanagari lookup 22"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 23"  {"'blws' Below Base Substitutions in Devanagari lookup 23"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 24"  {"'blws' Below Base Substitutions in Devanagari lookup 24"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 25"  {"'blws' Below Base Substitutions in Devanagari lookup 25"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 26"  {"'blws' Below Base Substitutions in Devanagari lookup 26"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 27"  {"'blws' Below Base Substitutions in Devanagari lookup 27"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 28"  {"'blws' Below Base Substitutions in Devanagari lookup 28"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 29"  {"'blws' Below Base Substitutions in Devanagari lookup 29"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 30"  {"'blws' Below Base Substitutions in Devanagari lookup 30"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 31"  {"'blws' Below Base Substitutions in Devanagari lookup 31"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 32"  {"'blws' Below Base Substitutions in Devanagari lookup 32"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 33"  {"'blws' Below Base Substitutions in Devanagari lookup 33"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 34"  {"'blws' Below Base Substitutions in Devanagari lookup 34"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 35"  {"'blws' Below Base Substitutions in Devanagari lookup 35"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 36"  {"'blws' Below Base Substitutions in Devanagari lookup 36"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 37"  {"'blws' Below Base Substitutions in Devanagari lookup 37"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 38"  {"'blws' Below Base Substitutions in Devanagari lookup 38"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 39"  {"'blws' Below Base Substitutions in Devanagari lookup 39"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 40"  {"'blws' Below Base Substitutions in Devanagari lookup 40"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 41"  {"'blws' Below Base Substitutions in Devanagari lookup 41"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 42"  {"'blws' Below Base Substitutions in Devanagari lookup 42"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 43"  {"'blws' Below Base Substitutions in Devanagari lookup 43"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 44"  {"'blws' Below Base Substitutions in Devanagari lookup 44"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'blws' Below Base Substitutions in Devanagari lookup 45"  {"'blws' Below Base Substitutions in Devanagari lookup 45"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 4 0 0 "'blws' Below Base Substitutions in Devanagari lookup 46"  {"'blws' Below Base Substitutions in Devanagari lookup 46"  } ['blws' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Devanagari lookup 47"  {"'half' Half Forms in Devanagari lookup 47"  } ['half' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 4 0 0 "'nukt' Nukta Forms in Devanagari lookup 48"  {"'nukt' Nukta Forms in Devanagari lookup 48"  } ['nukt' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 49"  {"'pres' Pre Base Substitutions in Devanagari lookup 49"  } ['pres' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 50"  {"'pres' Pre Base Substitutions in Devanagari lookup 50"  } ['pres' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 51"  {"'pres' Pre Base Substitutions in Devanagari lookup 51"  } ['pres' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 52"  {"'pres' Pre Base Substitutions in Devanagari lookup 52"  } ['pres' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 53"  {"'pres' Pre Base Substitutions in Devanagari lookup 53"  } ['pres' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 54"  {"'pres' Pre Base Substitutions in Devanagari lookup 54"  } ['pres' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 55"  {"'pres' Pre Base Substitutions in Devanagari lookup 55"  } ['pres' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 56"  {"'pres' Pre Base Substitutions in Devanagari lookup 56"  } ['pres' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 4 0 0 "'pres' Pre Base Substitutions in Devanagari lookup 57"  {"'pres' Pre Base Substitutions in Devanagari lookup 57"  } ['pres' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 58"  {"'psts' Post Base Substitutions in Devanagari lookup 58"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 59"  {"'psts' Post Base Substitutions in Devanagari lookup 59"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 60"  {"'psts' Post Base Substitutions in Devanagari lookup 60"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 61"  {"'psts' Post Base Substitutions in Devanagari lookup 61"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 62"  {"'psts' Post Base Substitutions in Devanagari lookup 62"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 63"  {"'psts' Post Base Substitutions in Devanagari lookup 63"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 64"  {"'psts' Post Base Substitutions in Devanagari lookup 64"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 65"  {"'psts' Post Base Substitutions in Devanagari lookup 65"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 66"  {"'psts' Post Base Substitutions in Devanagari lookup 66"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 67"  {"'psts' Post Base Substitutions in Devanagari lookup 67"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 68"  {"'psts' Post Base Substitutions in Devanagari lookup 68"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 69"  {"'psts' Post Base Substitutions in Devanagari lookup 69"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 70"  {"'psts' Post Base Substitutions in Devanagari lookup 70"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 4 0 0 "'psts' Post Base Substitutions in Devanagari lookup 71"  {"'psts' Post Base Substitutions in Devanagari lookup 71"  } ['psts' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 4 0 0 "'rphf' Reph Form in Devanagari lookup 72"  {"'rphf' Reph Form in Devanagari lookup 72"  } ['rphf' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants in Devanagari lookup 73"  {"'vatu' Vattu Variants in Devanagari lookup 73"  } ['vatu' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 4 0 0 "'locl' Localized Forms in Devanagari lookup 85"  {"'locl' Localized Forms in Devanagari lookup 85-1"  } ['locl' ('deva' <'NEP ' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 74"  {"Single Substitution lookup 74"  } []
 Lookup: 1 0 0 "Single Substitution lookup 75"  {"Single Substitution lookup 75"  } []
 Lookup: 1 0 0 "Single Substitution lookup 76"  {"Single Substitution lookup 76"  } []
 Lookup: 1 0 0 "Single Substitution lookup 77"  {"Single Substitution lookup 77"  } []
 Lookup: 1 0 0 "Single Substitution in Devanagari lookup 79"  {"Single Substitution in Devanagari lookup 79-1"  } []
-Lookup: 6 0 0 "'pres' Pre Base Substituions in Devanagari lookup 59"  {"'pres' Pre Base Substituions in Devanagari lookup 59-3"  "'pres' Pre Base Substituions in Devanagari lookup 59-1"  "'pres' Pre Base Substituions in Devanagari lookup 59-2"  } ['pres' ('deva' <'dflt' > ) ]
+Lookup: 6 0 0 "'pres' Pre Base Substituions in Devanagari lookup 59"  {"'pres' Pre Base Substituions in Devanagari lookup 59-3"  "'pres' Pre Base Substituions in Devanagari lookup 59-1"  "'pres' Pre Base Substituions in Devanagari lookup 59-2"  } ['pres' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
 Lookup: 1 0 0 "Single Substitution in Devanagari lookup 81"  {"Single Substitution in Devanagari lookup 81-2"  "Single Substitution in Devanagari lookup 81-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 78"  {"Single Substitution lookup 78"  } []
-Lookup: 1 0 0 "Single Substitution in Devanagari lookup 80"  {"Singal Substitution in Devanagari lookup 80-1"  } ['    ' ('deva' <'dflt' > ) ]
-Lookup: 260 0 0 "'blwm' Below Base Mark in Devanagari lookup 0"  {"'blwm' Below Base Mark in Devanagari lookup 0"  } ['blwm' ('deva' <'dflt' > ) ]
-Lookup: 262 0 0 "'abvm' Above Base Mark in Devanagari lookup 1"  {"'abvm' Above Base Mark in Devanagari lookup 1"  } ['abvm' ('deva' <'dflt' > ) ]
-Lookup: 260 0 0 "'abvm' Above Base Mark in Devanagari lookup 2"  {"'abvm' Above Base Mark in Devanagari lookup 2"  } ['abvm' ('deva' <'dflt' > ) ]
-Lookup: 260 0 0 "'abvm' Above Base Mark in Devanagari lookup 3"  {"'abvm' Above Base Mark in Devanagari lookup 3"  } ['abvm' ('deva' <'dflt' > ) ]
-Lookup: 258 0 0 "'abvm' Above Base Mark in Devanagari lookup 4"  {"'abvm' Above Base Mark in Devanagari lookup 4"  } ['abvm' ('deva' <'dflt' > ) ]
-Lookup: 258 0 0 "'blwm' Below Base Mark in Devanagari lookup 5"  {"'blwm' Below Base Mark in Devanagari lookup 5"  } ['blwm' ('deva' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution in Devanagari lookup 80"  {"Singal Substitution in Devanagari lookup 80-1"  } ['    ' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 260 0 0 "'blwm' Below Base Mark in Devanagari lookup 0"  {"'blwm' Below Base Mark in Devanagari lookup 0"  } ['blwm' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 262 0 0 "'abvm' Above Base Mark in Devanagari lookup 1"  {"'abvm' Above Base Mark in Devanagari lookup 1"  } ['abvm' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 260 0 0 "'abvm' Above Base Mark in Devanagari lookup 2"  {"'abvm' Above Base Mark in Devanagari lookup 2"  } ['abvm' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 260 0 0 "'abvm' Above Base Mark in Devanagari lookup 3"  {"'abvm' Above Base Mark in Devanagari lookup 3"  } ['abvm' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 258 0 0 "'abvm' Above Base Mark in Devanagari lookup 4"  {"'abvm' Above Base Mark in Devanagari lookup 4"  } ['abvm' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 258 0 0 "'blwm' Below Base Mark in Devanagari lookup 5"  {"'blwm' Below Base Mark in Devanagari lookup 5"  } ['blwm' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
 DEI: 91125
 ChainSub2: coverage "'pres' Pre Base Substituions in Devanagari lookup 59-3"  0 0 0 1
  1 0 1
@@ -152,7 +153,7 @@ EndFPST
 ChainSub2: coverage "'pres' Pre Base Substituions in Devanagari lookup 59-2"  0 0 0 1
  1 0 1
   Coverage: 8 glyph206
-  FCoverage: 189 u0924_u094D.half_u0924.pres u0939_u094D.half_u0923.pres u0939_u094D.half_u0928.pres u0939_u094D.half_u092E.pres u0939_u094D.half_u092F.pres u0938_u094D.half_u0924_u0930_u094D.blwf.vatu.pres
+  FCoverage: 223 u0924_u094D.half_u0924.pres u0917_u094D.half u095A_u094D.half u0939_u094D.half_u0923.pres u0939_u094D.half_u0928.pres u0939_u094D.half_u092E.pres u0939_u094D.half_u092F.pres u0938_u094D.half_u0924_u0930_u094D.blwf.vatu.pres
  1
   SeqLookup: 0 "Single Substitution in Devanagari lookup 81" 
 EndFPST
@@ -898,15 +899,75 @@ ShortTable: maxp 16
 EndShort
 LangName: 1033 "" "" "Regular" "" "" "Version 2.4.3" 
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 2244 34 13
+WinInfo: 0 34 13
+Grid
+318 -47 m 1
+ 288.667 -33.6667 261.833 -18.5 237.5 -1.5 c 128
+ 213.167 15.5 191.333 33.6667 172 53 c 1
+ 137.333 53 107.5 60.8333 82.5 76.5 c 128
+ 57.5 92.1667 45 111 45 133 c 0
+ 45 148.333 50.1667 161 60.5 171 c 128
+ 70.8333 181 83.6667 186 99 186 c 0
+ 117.667 186 136.5 180.333 155.5 169 c 128
+ 174.5 157.667 191 141.333 205 120 c 1
+ 243 126.667 274.667 141.833 300 165.5 c 128
+ 325.333 189.167 338 216 338 246 c 0
+ 338 256.667 334.667 266 328 274 c 128
+ 321.333 282 313.667 286 305 286 c 0
+ 291.667 286 272.833 281.667 248.5 273 c 128
+ 224.167 264.333 205.333 260 192 260 c 0
+ 168 260 137.5 280.833 100.5 322.5 c 128
+ 63.5 364.167 45 398.667 45 426 c 0
+ 45 450 54.8333 470.5 74.5 487.5 c 128
+ 94.1667 504.5 117.667 513 145 513 c 2
+ 312 513 l 1
+ 312 606 l 1
+ -13 606 l 1
+ -13 666 l 1
+ 744 666 l 1
+ 744 606 l 1
+ 631 606 l 1
+ 631 0 l 1
+ 565 0 l 1
+ 565 266 l 1
+ 550.333 260 535.667 255.167 521 251.5 c 128
+ 506.333 247.833 492 246 478 246 c 0
+ 465.333 246 453 247.167 441 249.5 c 128
+ 429 251.833 417 255.333 405 260 c 1
+ 405 210 390.333 168.667 361 136 c 128
+ 331.667 103.333 290.667 82.3333 238 73 c 1
+ 260.667 54.3333 281.5 38.8333 300.5 26.5 c 128
+ 319.5 14.1667 336.667 5.33333 352 0 c 1
+ 318 -47 l 1
+ 318 -47 l 1
+478 306 m 1
+ 488 306 500.333 308.333 515 313 c 128
+ 529.667 317.667 546.333 324.333 565 333 c 1
+ 565 606 l 1
+ 378 606 l 1
+ 378 446 l 1
+ 145 446 l 2
+ 136.333 446 128.667 444 122 440 c 128
+ 115.333 436 112 431.333 112 426 c 0
+ 112 409.333 122 388.5 142 363.5 c 128
+ 162 338.5 178.667 326 192 326 c 256
+ 205.333 326 224.167 330.5 248.5 339.5 c 128
+ 272.833 348.5 291.667 353 305 353 c 0
+ 317.667 353 329.667 351.167 341 347.5 c 128
+ 352.333 343.833 362.667 339 372 333 c 0
+ 384 324.333 399.167 317.667 417.5 313 c 128
+ 435.833 308.333 456 306 478 306 c 1
+ 478 306 l 1
+EndSplineSet
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Devanagari lookup 3" "Anchor-1"  "'abvm' Above Base Mark in Devanagari lookup 2" "Anchor-2"  "'abvm' Above Base Mark in Devanagari lookup 1" "Anchor-3"  "'blwm' Below Base Mark in Devanagari lookup 0" 
-BeginChars: 65751 361
+BeginChars: 65751 365
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -4349,6 +4410,7 @@ SplineSet
  445 306 445 306 478 306 c 1,73,-1
  478 306 l 1,51,52
 EndSplineSet
+Substitution2: "'locl' Localized Forms in Devanagari lookup 84-1" np_zha
 PairPos2: "'blwm' Below Base Mark in Devanagari lookup 5" u093C dx=0 dy=0 dh=0 dv=0 dx=-85 dy=-16 dh=0 dv=0
 EndChar
 
@@ -6911,7 +6973,7 @@ StartChar: u0941
 Encoding: 2369 2369 78
 Width: 0
 GlyphClass: 4
-Flags: WO
+Flags: W
 TtInstrs:
 NPUSHW
  15
@@ -9805,6 +9867,7 @@ SplineSet
  513 -60 513 -60 466 -87 c 1,46,-1
  466 -87 l 1,0,-1
 EndSplineSet
+Substitution2: "'locl' Localized Forms in Devanagari lookup 84-1" np5
 EndChar
 
 StartChar: u096C
@@ -10027,6 +10090,7 @@ SplineSet
  403 0 403 0 346 0 c 1,22,-1
  346 0 l 1,0,1
 EndSplineSet
+Substitution2: "'locl' Localized Forms in Devanagari lookup 84-1" np8
 EndChar
 
 StartChar: u096F
@@ -29560,7 +29624,7 @@ EndChar
 StartChar: uni0956
 Encoding: 2390 2390 353
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-3" -259 -1 mark 0
 LayerCount: 2
 Fore
@@ -29582,7 +29646,7 @@ EndChar
 StartChar: uni0957
 Encoding: 2391 2391 354
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-3" -265 0 mark 0
 LayerCount: 2
 Fore
@@ -29615,7 +29679,7 @@ EndChar
 StartChar: uni0976
 Encoding: 2422 2422 355
 Width: 768
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-3" 640 711 basechar 0
 LayerCount: 2
 Fore
@@ -29685,7 +29749,7 @@ EndChar
 StartChar: uni0977
 Encoding: 2423 2423 356
 Width: 768
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-3" 640 711 basechar 0
 LayerCount: 2
 Fore
@@ -29928,6 +29992,191 @@ SplineSet
  100 606 l 1,11,-1
  -13 606 l 1,12,-1
  -13 606 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: npu0915_u0930_u094D.blwf.vatu
+Encoding: 65570 -1 361
+Width: 771
+GlyphClass: 3
+Flags: W
+AnchorPoint: "Anchor-3" 394 31 basechar 0
+AnchorPoint: "Anchor-0" 396.5 666.22 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+365 374 m 1,0,1
+ 296.183 442.352 296.183 442.352 272.5 460.5 c 0,2,3
+ 219.186 501.354 219.186 501.354 176 507 c 0,4,5
+ 137.185 512.075 137.185 512.075 9 422 c 1,6,-1
+ 49 368 l 1,7,8
+ 145.654 438 145.654 438 167 437 c 0,9,10
+ 189.037 437 189.037 437 232.5 399.5 c 0,11,12
+ 302.862 338.791 302.862 338.791 315 326 c 1,13,-1
+ 147 197 l 1,14,15
+ 163.5 170.5 163.5 170.5 180 144 c 1,16,-1
+ 364 286 l 1,17,-1
+ 365 227 l 1,18,-1
+ 365 0 l 1,19,-1
+ 431 0 l 1,20,-1
+ 431 328 l 1,21,22
+ 448 372 448 372 486.5 405.5 c 128,-1,23
+ 525 439 525 439 571 439 c 0,24,25
+ 607 439 607 439 632.5 406 c 128,-1,26
+ 658 373 658 373 658 326 c 0,27,28
+ 658 272 658 272 626 219 c 128,-1,29
+ 594 166 594 166 538 127 c 1,30,-1
+ 598 87 l 1,31,32
+ 658 137 658 137 691 199.5 c 128,-1,33
+ 724 262 724 262 724 326 c 0,34,35
+ 724 401 724 401 679.5 453.5 c 128,-1,36
+ 635 506 635 506 571 506 c 0,37,38
+ 527 506 527 506 490 484.5 c 128,-1,39
+ 453 463 453 463 431 426 c 1,40,-1
+ 431 606 l 1,41,-1
+ 783 606 l 1,42,-1
+ 783 666 l 1,43,-1
+ -13 666 l 1,44,-1
+ -13 606 l 1,45,-1
+ -13 606 l 1,46,-1
+ 365 606 l 1,47,-1
+ 365 374 l 1,0,1
+EndSplineSet
+LCarets2: 2 0 0 
+Ligature2: "'locl' Localized Forms in Devanagari lookup 85-1" u0915 u0930 u094D
+EndChar
+
+StartChar: np8
+Encoding: 65569 -1 362
+Width: 664
+GlyphClass: 2
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+425.177 516.162 m 1,0,-1
+ 548.521 517.09 l 1,1,-1
+ 547.102 576.179 l 1,2,-1
+ 66.002 577.881 l 1,3,-1
+ 66.4209 518.793 l 1,4,-1
+ 342.468 518.402 l 1,5,-1
+ 136.372 325.587 l 2,6,7
+ 111.812 302.609 111.812 302.609 100.517 249.775 c 0,8,9
+ 92.1689 210.732 92.1689 210.732 98.5947 174.295 c 0,10,11
+ 113.875 87.6318 113.875 87.6318 159.438 43.8159 c 128,-1,12
+ 205 0 205 0 307 0 c 1,13,-1
+ 307 0 l 1,14,15
+ 364 0 364 0 421.5 31.5 c 128,-1,16
+ 479 63 479 63 527 120 c 1,17,-1
+ 480 166 l 1,18,19
+ 438 116 438 116 392.5 88 c 128,-1,20
+ 347 60 347 60 307 60 c 0,21,22
+ 192.873 60 192.873 60 170.485 186.971 c 0,23,24
+ 165.623 214.546 165.623 214.546 171.449 241.974 c 0,25,26
+ 180.398 280.746 180.398 280.746 192.513 292.397 c 2,27,-1
+ 425.177 516.162 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: np5
+Encoding: 65568 -1 363
+Width: 665
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+412 73 m 1,0,1
+ 403.802 105.792 403.802 105.792 374 137 c 0,2,3
+ 347.659 164.584 347.659 164.584 308 166 c 0,4,5
+ 280 167 280 167 263 151.5 c 128,-1,6
+ 246 136 246 136 246 114 c 0,7,8
+ 246 73 246 73 283.25 39.5 c 128,-1,9
+ 320.5 6 320.5 6 370.5 6 c 1,10,11
+ 424.865 -111.79 424.865 -111.79 488.5 -149.5 c 1,12,-1
+ 539 -106 l 1,13,14
+ 519 -97 519 -97 496.5 -69 c 128,-1,15
+ 474 -41 474 -41 442 15 c 1,16,17
+ 517 111 517 111 479 353 c 1,18,19
+ 505 384 505 384 519 414.5 c 128,-1,20
+ 533 445 533 445 533 473 c 0,21,22
+ 533 517 533 517 513.5 548 c 128,-1,23
+ 494 579 494 579 466 579 c 0,24,25
+ 433 579 433 579 409.5 548 c 128,-1,26
+ 386 517 386 517 386 473 c 0,27,28
+ 386 431 386 431 389.5 402.5 c 128,-1,29
+ 393 374 393 374 399 360 c 1,30,31
+ 381 346 381 346 359 339.5 c 128,-1,32
+ 337 333 337 333 313 333 c 0,33,34
+ 252 333 252 333 209 379.5 c 128,-1,35
+ 166 426 166 426 166 493 c 0,36,37
+ 166 547 166 547 178 596.5 c 128,-1,38
+ 190 646 190 646 213 686 c 1,39,-1
+ 153 712 l 1,40,41
+ 127 667 127 667 113.5 611 c 128,-1,42
+ 100 555 100 555 100 493 c 0,43,44
+ 100 402 100 402 162.5 337.5 c 128,-1,45
+ 225 273 225 273 313 273 c 0,46,47
+ 342 273 342 273 369.5 281.5 c 128,-1,48
+ 397 290 397 290 419 306 c 1,49,50
+ 453.5 209 453.5 209 412 73 c 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: np_zha
+Encoding: 65567 -1 364
+Width: 799
+VWidth: 2048
+GlyphClass: 2
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+371.972 425.639 m 0,0,-1
+ 390.451 441.479 l 1,1,2
+ 474.663 504.852 474.663 504.852 570.451 460.318 c 0,3,4
+ 611.491 441.238 611.491 441.238 640.772 405.479 c 128,-1,5
+ 670.052 369.719 670.052 369.719 686.132 324.119 c 128,-1,6
+ 702.211 278.52 702.211 278.52 702.211 231.479 c 0,7,8
+ 702.211 183.957 702.211 183.957 684.211 140.039 c 0,9,10
+ 670.939 107.656 670.939 107.656 626.852 63.4785 c 0,11,12
+ 626.377 63.0034 626.377 63.0034 632.611 56.5195 c 2,13,-1
+ 734.372 -49.3223 l 1,14,-1
+ 682.092 -91.082 l 1,15,-1
+ 570.731 22.918 l 1,16,-1
+ 565.932 27.957 l 0,17,18
+ 565.677 29.5471 565.677 29.5471 555.332 27.4785 c 0,19,20
+ 492.703 14.9548 492.703 14.9548 442.772 61.5586 c 0,21,22
+ 391.117 109.767 391.117 109.767 405.092 163.318 c 0,23,24
+ 416.487 206.998 416.487 206.998 452.611 206.998 c 0,25,26
+ 487.342 206.998 487.342 206.998 533.251 164.758 c 0,27,28
+ 545.251 153.719 545.251 153.719 554.132 144.357 c 128,-1,29
+ 563.011 134.998 563.011 134.998 568.052 128.758 c 0,30,-1
+ 573.092 122.52 l 0,31,32
+ 605.211 154.042 605.211 154.042 616.532 185.639 c 0,33,34
+ 638.52 248.923 638.52 248.923 615.892 315.119 c 0,35,36
+ 600 364 600 364 563.892 385.598 c 0,37,38
+ 471.834 441.364 471.834 441.364 415.892 366.598 c 0,39,40
+ 402.691 349.078 402.691 349.078 391.172 330.598 c 0,41,-1
+ 369.332 294.357 l 2,42,43
+ 338.833 243.748 338.833 243.748 321.572 227.879 c 0,44,45
+ 280.588 190.197 280.588 190.197 227.491 190.197 c 0,46,47
+ 164.705 190.197 164.705 190.197 93.0107 221.998 c 1,48,-1
+ 92.1318 296.998 l 1,49,50
+ 164.932 254.96 164.932 254.96 206.132 255.799 c 0,51,52
+ 227.731 255.799 227.731 255.799 247.172 264.438 c 128,-1,53
+ 266.611 273.078 266.611 273.078 281.731 291.078 c 0,54,55
+ 308.611 323.079 308.611 323.079 308.611 406.678 c 0,56,57
+ 308.611 422.998 308.611 422.998 304.292 442.197 c 128,-1,58
+ 299.972 461.398 299.972 461.398 292.532 481.318 c 0,59,60
+ 249 591 249 591 223.372 605.598 c 1,61,-1
+ -12.5488 605.598 l 0,62,-1
+ -13 666 l 0,63,-1
+ 808.772 666.357 l 0,64,-1
+ 809 607 l 0,65,-1
+ 312 606 l 1,66,67
+ 325.757 595.556 325.757 595.556 352 526 c 0,68,69
+ 370.177 478.407 370.177 478.407 371.972 425.639 c 0,0,-1
 EndSplineSet
 EndChar
 EndChars

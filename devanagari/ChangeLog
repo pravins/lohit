@@ -2,6 +2,10 @@
 Current Version :- 2.4.3
 
 - added new rupee sign @ U+E000 location
+- added local feature for Nepali Language 
+- added Nepali variants for 5, 8, 'kra', 'jha' resolved bug 648362, 648429,
+648434
+- resolved shirorekha bug for ग्मि   bug 648424
 
 * Fri Aug 28 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.3
 - first release for lohit devanagri 
