@@ -1,7 +1,7 @@
-				  lohit-hindi
-Current Version :- 2.4.3
+				  lohit-devanagari
+Current Version :- 2.4.4
 
-- added new rupee sign @ U+E000 location
+- added new rupee sign 
 - added local feature for Nepali Language 
 - added Nepali variants for 5, 8, 'kra', 'jha' resolved bug 648362, 648429,
 648434
