@@ -13,13 +13,14 @@ Descent: 154
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
+NeedsXUIDChange: 1
 XUID: [1021 648 100124046 5567902]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159495707
-ModificationTime: 1269957425
+ModificationTime: 1296713255
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -2230,7 +2231,7 @@ StartChar: uni0A01
 Encoding: 2561 2561 50
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -360 506 mark 0
 AnchorPoint: "Anchor-0" -354 506 mark 0
 LayerCount: 2
@@ -5023,24 +5024,16 @@ StartChar: u0A4D
 Encoding: 2637 2637 106
 Width: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
+AnchorPoint: "Anchor-2" 59 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
--154.5 -9.5 m 128,-1,1
- -136 0 -136 0 -115 0 c 0,2,3
- -92 0 -92 0 -71.5 -8 c 128,-1,4
- -51 -16 -51 -16 -35 -30 c 2,5,-1
- 135 -175 l 1,6,-1
- 115 -195 l 1,7,8
- 79 -165 79 -165 44.5 -138 c 128,-1,9
- 10 -111 10 -111 -24 -86 c 0,10,11
- -41 -73 -41 -73 -58 -66.5 c 128,-1,12
- -75 -60 -75 -60 -90 -60 c 0,13,14
- -106 -60 -106 -60 -119 -65 c 128,-1,15
- -132 -70 -132 -70 -140 -80 c 1,16,-1
- -185 -35 l 1,17,0
- -173 -19 -173 -19 -154.5 -9.5 c 128,-1,1
+-138.5 -2 m 1,0,1
+ -140 -66 l 1,2,3
+ -38.0146 -67.1375 -38.0146 -67.1375 94.5 -177.5 c 1,4,-1
+ 143 -177 l 1,5,6
+ 0 2 0 2 -138.5 -2 c 1,0,1
 EndSplineSet
 EndChar
 
@@ -6301,7 +6294,7 @@ Encoding: 9676 9676 137
 Width: 720
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-2" 361 -1 basechar 0
+AnchorPoint: "Anchor-2" 361 -2 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7196,20 +7189,17 @@ EndChar
 StartChar: uni0A51
 Encoding: 2641 2641 154
 Width: 0
-Flags: W
+Flags: HW
+AnchorPoint: "Anchor-2" -47 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
--112.915 -246.507 m 4,0,1
- -135.968 -226.033 -135.968 -226.033 -243.845 -26.9502 c 5,2,-1
- -218.21 -14.9971 l 5,3,4
- -194.642 -55.501 -194.642 -55.501 -174.457 -88.6729 c 132,-1,5
- -154.271 -121.844 -154.271 -121.844 -130.873 -156.965 c 4,6,7
- -119.345 -174.995 -119.345 -174.995 -105.593 -186.917 c 132,-1,8
- -91.8408 -198.84 -91.8408 -198.84 -77.7461 -203.97 c 4,9,10
- -40.6582 -217.47 -40.6582 -217.47 -23.9209 -207.277 c 5,11,-1
- -24.0254 -276.954 l 5,12,13
- -67.1338 -285.822 -67.1338 -285.822 -112.915 -246.507 c 4,0,1
+-16.75 -251.25 m 24,0,-1
+ -24.0254 -276.954 l 1,1,2
+ -109.5 -278.5 -109.5 -278.5 -243.845 -26.9502 c 1,3,-1
+ -218.21 -14.9971 l 1,4,5
+ -101 -193 -101 -193 -23.9209 -216.277 c 9,6,7
+ -16.7043 -224.74 -16.7043 -224.74 -16.75 -251.25 c 24,0,-1
 EndSplineSet
 EndChar
 
@@ -7217,6 +7207,7 @@ StartChar: uni0A75
 Encoding: 2677 2677 155
 Width: 0
 Flags: W
+AnchorPoint: "Anchor-2" -150 4 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7332,9 +7323,9 @@ EndChar
 
 StartChar: u0A47_u0A71.abvs
 Encoding: 65528 -1 158
-AltUni2: 00fff8.ffffffff.0
+AltUni2: 00fff8.ffffffff.0 00fff8.ffffffff.0
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -112 508 mark 0
 LayerCount: 2
 Fore
@@ -7368,9 +7359,9 @@ EndChar
 
 StartChar: u0A48_u0A71.abvs
 Encoding: 65529 -1 159
-AltUni2: 00fff9.ffffffff.0
+AltUni2: 00fff9.ffffffff.0 00fff9.ffffffff.0
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -110 496 mark 0
 LayerCount: 2
 Fore
@@ -7414,9 +7405,9 @@ EndChar
 
 StartChar: u0A4B_u0A71.abvs
 Encoding: 65530 -1 160
-AltUni2: 00fffa.ffffffff.0
+AltUni2: 00fffa.ffffffff.0 00fffa.ffffffff.0
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -114 506 mark 0
 LayerCount: 2
 Fore
@@ -7453,9 +7444,9 @@ EndChar
 
 StartChar: u0A4C_u0A71.abvs
 Encoding: 65531 -1 161
-AltUni2: 00fffb.ffffffff.0
+AltUni2: 00fffb.ffffffff.0 00fffb.ffffffff.0
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7502,9 +7493,9 @@ EndChar
 
 StartChar: u0A47_u0A70.abvs
 Encoding: 65524 -1 162
-AltUni2: 00fff4.ffffffff.0
+AltUni2: 00fff4.ffffffff.0 00fff4.ffffffff.0
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -112 508 mark 0
 LayerCount: 2
 Fore
@@ -7546,9 +7537,9 @@ EndChar
 
 StartChar: u0A48_u0A70.abvs
 Encoding: 65525 -1 163
-AltUni2: 00fff5.ffffffff.0
+AltUni2: 00fff5.ffffffff.0 00fff5.ffffffff.0
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -110 496 mark 0
 LayerCount: 2
 Fore
@@ -7600,9 +7591,9 @@ EndChar
 
 StartChar: u0A4B_u0A70.abvs
 Encoding: 65526 -1 164
-AltUni2: 00fff6.ffffffff.0
+AltUni2: 00fff6.ffffffff.0 00fff6.ffffffff.0
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -114 506 mark 0
 LayerCount: 2
 Fore
@@ -7647,9 +7638,9 @@ EndChar
 
 StartChar: u0A4C_u0A70.abvs
 Encoding: 65527 -1 165
-AltUni2: 00fff7.ffffffff.0
+AltUni2: 00fff7.ffffffff.0 00fff7.ffffffff.0
 Width: 0
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
