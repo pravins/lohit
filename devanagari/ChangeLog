@@ -1,6 +1,8 @@
 				  lohit-devanagari
 Current Version :- 2.4.4
 
+- resolved bug 670467, 648423
+
 - added new rupee sign 
 - added local feature for Nepali Language 
 - added Nepali variants for 5, 8, 'kra', 'jha' resolved bug 648362, 648429,
