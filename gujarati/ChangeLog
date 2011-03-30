@@ -1,11 +1,15 @@
 				  lohit-gujarati
-Current Version :- 2.4.4
+Current Version :- 2.4.5
 
-* Fri Aug 28 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.3
-- first release with split tarball
-- see Changelog.old for previous changes
+* Tue Oct 27 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.5
+- updated in .conf file
+- added Indian Rupee Symbol
+- removed hinting instructoins, for more information see rh bugzilla #682667
 
 * Tue Oct 27 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.4
 - updated latin digit positions
 - fix rh bug #530943 
 
+* Fri Aug 28 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.3
+- first release with split tarball
+- see Changelog.old for previous changes
