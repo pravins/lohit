@@ -4,7 +4,7 @@ FullName: Lohit Devanagari
 FamilyName: Lohit Devanagari
 Weight: Book
 Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
-Version: 2.4.4
+Version: 2.4.5
 ItalicAngle: 0
 UnderlinePosition: -399
 UnderlineWidth: 26
@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1298281368
+ModificationTime: 1301469818
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -898,7 +898,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "" "" "Version 2.4.4" 
+LangName: 1033 "" "" "Regular" "" "" "Version 2.4.5" 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -914,81 +914,7 @@ StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 1065
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 36
- 7
- 6
- 4
- 3
- 2
- 3
- 9
- 8
- 2
- 5
- 2
- 4
- 1
- 2
- 0
- 5
- 8
- 7
- 4
- 2
- 1
- 3
- 9
- 6
- 2
- 5
- 2
- 4
- 3
- 2
- 0
- 1
- 70
- 1
- 0
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-ALIGNRP
-SVTCA[x-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-ALIGNRP
-IUP[x]
-IUP[y]
-PUSHW_3
- 10
- 0
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1062,42 +988,7 @@ StartChar: exclam
 Encoding: 33 33 4
 Width: 339
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 7
- 6
- 6
- 4
- 3
- 2
- 0
- 1
- 70
- 1
- 6
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 10
- 6
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1120,49 +1011,7 @@ StartChar: quotedbl
 Encoding: 34 34 5
 Width: 460
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 18
- 8
- 7
- 3
- 3
- 2
- 8
- 9
- 6
- 5
- 4
- 1
- 5
- 0
- 7
- 70
- 1
- 6
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 10
- 6
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1185,42 +1034,7 @@ StartChar: quotesingle
 Encoding: 39 39 6
 Width: 287
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 3
- 2
- 8
- 4
- 1
- 2
- 0
- 7
- 70
- 1
- 0
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 0
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1237,42 +1051,7 @@ StartChar: parenleft
 Encoding: 40 40 7
 Width: 486
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 14
- 13
- 2
- 0
- 17
- 7
- 6
- 16
- 70
- 1
- 6
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 15
- 6
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1295,42 +1074,7 @@ StartChar: parenright
 Encoding: 41 41 8
 Width: 466
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 14
- 13
- 2
- 0
- 17
- 7
- 6
- 16
- 70
- 1
- 6
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 15
- 6
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1353,42 +1097,7 @@ StartChar: comma
 Encoding: 44 44 9
 Width: 359
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 3
- 2
- 0
- 23
- 2
- 1
- 22
- 70
- 1
- 0
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 0
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1405,42 +1114,7 @@ StartChar: hyphen
 Encoding: 45 45 10
 Width: 692
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 3
- 2
- 0
- 25
- 2
- 1
- 24
- 70
- 1
- 0
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 0
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1457,42 +1131,7 @@ StartChar: period
 Encoding: 46 46 11
 Width: 279
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 2
- 1
- 22
- 4
- 3
- 2
- 0
- 1
- 70
- 1
- 0
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 0
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1509,42 +1148,7 @@ StartChar: colon
 Encoding: 58 58 12
 Width: 279
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 7
- 6
- 34
- 4
- 3
- 2
- 0
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 10
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1567,42 +1171,7 @@ StartChar: semicolon
 Encoding: 59 59 13
 Width: 366
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 3
- 2
- 0
- 23
- 7
- 6
- 35
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 10
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1625,45 +1194,7 @@ StartChar: question
 Encoding: 63 63 14
 Width: 665
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 20
- 19
- 2
- 18
- 40
- 4
- 3
- 2
- 0
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 28
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1698,42 +1229,7 @@ StartChar: underscore
 Encoding: 95 95 15
 Width: 912
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 3
- 2
- 0
- 50
- 2
- 1
- 49
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1750,48 +1246,7 @@ StartChar: grave
 Encoding: 96 96 16
 Width: 0
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 2
- 1
- 2
- 1
- 3
- 2
- 8
- 4
- 1
- 2
- 0
- 7
- 70
- 1
- 2
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-MIAP[rnd]
-MIRP[rp0,min,rnd,black]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 2
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1808,43 +1263,7 @@ StartChar: u0901
 Encoding: 2305 2305 17
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 14
- 13
- 1
- 3
- 0
- 66
- 17
- 16
- 65
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 20
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-2" -127 5 mark 0
 AnchorPoint: "Anchor-1" -127 5 mark 0
 AnchorPoint: "Anchor-0" -120 666 mark 0
@@ -1876,42 +1295,7 @@ StartChar: u0902
 Encoding: 2306 2306 18
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 3
- 2
- 0
- 68
- 2
- 1
- 67
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" -133 666 mark 0
 LayerCount: 2
 Fore
@@ -1929,46 +1313,7 @@ StartChar: u0903
 Encoding: 2307 2307 19
 Width: 339
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 12
- 11
- 1
- 3
- 0
- 70
- 20
- 19
- 2
- 18
- 69
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 26
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1999,43 +1344,7 @@ StartChar: u0905
 Encoding: 2309 2309 20
 Width: 768
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 50
- 49
- 1
- 46
- 45
- 31
- 30
- 4
- 29
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 64
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 636 664 basechar 0
 LayerCount: 2
 Fore
@@ -2095,47 +1404,7 @@ StartChar: u0906
 Encoding: 2310 2310 21
 Width: 1042
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 54
- 53
- 50
- 3
- 49
- 1
- 46
- 45
- 31
- 30
- 4
- 29
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 68
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 792 664 basechar 0
 LayerCount: 2
 Fore
@@ -2199,36 +1468,7 @@ StartChar: u0907
 Encoding: 2311 2311 22
 Width: 503
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 25
- 56
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 56
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 377 664 basechar 0
 LayerCount: 2
 Fore
@@ -2282,50 +1522,7 @@ StartChar: u0908
 Encoding: 2312 2312 23
 Width: 510
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 81
- 0
- 56
- 42
- 41
- 2
- 40
- 43
- 55
- 54
- 35
- 3
- 34
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 82
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 439 579.199 basechar 0
 LayerCount: 2
 Fore
@@ -2397,41 +1594,7 @@ StartChar: u0909
 Encoding: 2313 2313 24
 Width: 631
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 17
- 16
- 2
- 15
- 21
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 40
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 461 664 basechar 0
 LayerCount: 2
 Fore
@@ -2474,41 +1637,7 @@ StartChar: u090A
 Encoding: 2314 2314 25
 Width: 921
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 36
- 35
- 2
- 34
- 21
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 59
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 453 664 basechar 0
 LayerCount: 2
 Fore
@@ -2564,46 +1693,7 @@ StartChar: u090B
 Encoding: 2315 2315 26
 Width: 864
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 36
- 35
- 2
- 34
- 15
- 56
- 55
- 1
- 8
- 7
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 72
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 471 26 basechar 0
 AnchorPoint: "Anchor-0" 460 664 basechar 0
 LayerCount: 2
@@ -2671,46 +1761,7 @@ StartChar: u090C
 Encoding: 2316 2316 27
 Width: 703
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 39
- 38
- 2
- 37
- 17
- 67
- 0
- 1
- 16
- 15
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 68
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2771,50 +1822,7 @@ StartChar: u090D
 Encoding: 2317 2317 28
 Width: 490
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 38
- 0
- 71
- 50
- 49
- 43
- 3
- 42
- 3
- 6
- 1
- 15
- 14
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 54
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2869,46 +1877,7 @@ StartChar: u090E
 Encoding: 2318 2318 29
 Width: 490
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 38
- 0
- 71
- 6
- 1
- 15
- 14
- 43
- 42
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 54
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -2963,39 +1932,7 @@ StartChar: u090F
 Encoding: 2319 2319 30
 Width: 486
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 25
- 71
- 31
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 39
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 265 664 basechar 0
 LayerCount: 2
 Fore
@@ -3039,43 +1976,7 @@ StartChar: u0910
 Encoding: 2320 2320 31
 Width: 491
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 29
- 71
- 4
- 43
- 6
- 5
- 2
- 3
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 43
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3122,56 +2023,7 @@ StartChar: u0911
 Encoding: 2321 2321 32
 Width: 1042
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 22
- 79
- 78
- 72
- 3
- 71
- 3
- 54
- 53
- 50
- 3
- 49
- 1
- 46
- 45
- 31
- 30
- 4
- 29
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 83
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3246,47 +2098,7 @@ StartChar: u0912
 Encoding: 2322 2322 33
 Width: 1042
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 54
- 53
- 50
- 3
- 49
- 1
- 46
- 45
- 72
- 71
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 83
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3361,49 +2173,7 @@ StartChar: u0913
 Encoding: 2323 2323 34
 Width: 1042
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 58
- 57
- 54
- 3
- 53
- 1
- 50
- 49
- 46
- 3
- 45
- 48
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 72
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3470,49 +2240,7 @@ StartChar: u0914
 Encoding: 2324 2324 35
 Width: 1042
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 61
- 60
- 57
- 3
- 56
- 1
- 53
- 52
- 46
- 3
- 45
- 51
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 75
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -3582,38 +2310,7 @@ StartChar: u0915
 Encoding: 2325 2325 36
 Width: 749
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 26
- 25
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 55
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 380 1 basechar 0
 AnchorPoint: "Anchor-0" 381 664 basechar 0
 LayerCount: 2
@@ -3668,43 +2365,7 @@ StartChar: u0916
 Encoding: 2326 2326 37
 Width: 825
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 11
- 10
- 9
- 6
- 4
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 65
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 695 29 basechar 0
 AnchorPoint: "Anchor-0" 693 664 basechar 0
 LayerCount: 2
@@ -3768,38 +2429,7 @@ StartChar: u0917
 Encoding: 2327 2327 38
 Width: 517
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 25
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 386 664 basechar 0
 LayerCount: 2
 Fore
@@ -3833,38 +2463,7 @@ StartChar: u0918
 Encoding: 2328 2328 39
 Width: 636
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 45
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 506 664 basechar 0
 LayerCount: 2
 Fore
@@ -3914,41 +2513,7 @@ StartChar: u0919
 Encoding: 2329 2329 40
 Width: 717
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 22
- 21
- 2
- 20
- 72
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 60
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 394 50 basechar 0
 AnchorPoint: "Anchor-0" 499 664 basechar 0
 LayerCount: 2
@@ -4008,38 +2573,7 @@ StartChar: u091A
 Encoding: 2330 2330 41
 Width: 637
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 33
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 503 664 basechar 0
 LayerCount: 2
 Fore
@@ -4080,42 +2614,7 @@ StartChar: u091B
 Encoding: 2331 2331 42
 Width: 709
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 24
- 23
- 1
- 3
- 0
- 73
- 15
- 14
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 65
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 322 61 basechar 0
 AnchorPoint: "Anchor-0" 526 664 basechar 0
 LayerCount: 2
@@ -4180,38 +2679,7 @@ StartChar: u091C
 Encoding: 2332 2332 43
 Width: 728
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 22
- 21
- 1
- 18
- 17
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 31
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 596 664 basechar 0
 LayerCount: 2
 Fore
@@ -4249,46 +2717,7 @@ StartChar: u091D
 Encoding: 2333 2333 44
 Width: 731
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 50
- 0
- 74
- 49
- 36
- 2
- 35
- 1
- 32
- 31
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 74
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 600 664 basechar 0
 LayerCount: 2
 Fore
@@ -4359,38 +2788,7 @@ StartChar: u091E
 Encoding: 2334 2334 45
 Width: 737
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 37
- 36
- 1
- 33
- 32
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 48
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 603 664 basechar 0
 LayerCount: 2
 Fore
@@ -4440,42 +2838,7 @@ StartChar: u091F
 Encoding: 2335 2335 46
 Width: 565
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 28
- 27
- 1
- 3
- 0
- 72
- 11
- 10
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 29
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 324 45 basechar 0
 AnchorPoint: "Anchor-0" 421 664 basechar 0
 LayerCount: 2
@@ -4513,42 +2876,7 @@ StartChar: u0920
 Encoding: 2336 2336 47
 Width: 580
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 34
- 33
- 1
- 3
- 0
- 31
- 11
- 10
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 35
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 316 39 basechar 0
 AnchorPoint: "Anchor-0" 422 664 basechar 0
 LayerCount: 2
@@ -4590,42 +2918,7 @@ StartChar: u0921
 Encoding: 2337 2337 48
 Width: 631
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 46
- 45
- 1
- 3
- 0
- 72
- 27
- 26
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 47
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 378 45 basechar 0
 AnchorPoint: "Anchor-0" 495 664 basechar 0
 LayerCount: 2
@@ -4674,41 +2967,7 @@ StartChar: u0922
 Encoding: 2338 2338 49
 Width: 579
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 25
- 24
- 2
- 23
- 72
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 47
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 332 47 basechar 0
 AnchorPoint: "Anchor-0" 428 664 basechar 0
 LayerCount: 2
@@ -4758,38 +3017,7 @@ StartChar: u0923
 Encoding: 2339 2339 50
 Width: 669
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 11
- 10
- 1
- 7
- 6
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 28
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 529 29 basechar 0
 AnchorPoint: "Anchor-0" 540 664 basechar 0
 LayerCount: 2
@@ -4829,41 +3057,7 @@ StartChar: u0924
 Encoding: 2340 2340 51
 Width: 608
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 21
- 12
- 2
- 11
- 1
- 8
- 7
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 25
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 478 664 basechar 0
 LayerCount: 2
 Fore
@@ -4898,46 +3092,7 @@ StartChar: u0925
 Encoding: 2341 2341 52
 Width: 685
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 26
- 25
- 2
- 24
- 75
- 45
- 44
- 1
- 41
- 40
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 50
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 555 664 basechar 0
 LayerCount: 2
 Fore
@@ -4988,39 +3143,7 @@ StartChar: u0926
 Encoding: 2342 2342 53
 Width: 541
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 23
- 76
- 22
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 34
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 458 7 basechar 0
 AnchorPoint: "Anchor-0" 417 666 basechar 0
 LayerCount: 2
@@ -5062,46 +3185,7 @@ StartChar: u0927
 Encoding: 2343 2343 54
 Width: 648
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 13
- 12
- 2
- 11
- 75
- 54
- 53
- 1
- 50
- 49
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 59
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 520 664 basechar 0
 LayerCount: 2
 Fore
@@ -5159,38 +3243,7 @@ StartChar: u0928
 Encoding: 2344 2344 55
 Width: 585
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 12
- 11
- 1
- 8
- 7
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 25
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 455 664 basechar 0
 LayerCount: 2
 Fore
@@ -5224,43 +3277,7 @@ StartChar: u0929
 Encoding: 2345 2345 56
 Width: 585
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 29
- 25
- 77
- 12
- 11
- 1
- 8
- 7
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 30
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 452 666 basechar 0
 LayerCount: 2
 Fore
@@ -5302,38 +3319,7 @@ StartChar: u092A
 Encoding: 2346 2346 57
 Width: 536
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 8
- 7
- 1
- 4
- 3
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 26
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 404 664 basechar 0
 LayerCount: 2
 Fore
@@ -5370,38 +3356,7 @@ StartChar: u092B
 Encoding: 2347 2347 58
 Width: 774
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 28
- 27
- 1
- 4
- 3
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 46
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 391 23 basechar 0
 AnchorPoint: "Anchor-0" 386 664 basechar 0
 LayerCount: 2
@@ -5452,38 +3407,7 @@ StartChar: u092C
 Encoding: 2348 2348 59
 Width: 537
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 23
- 22
- 1
- 19
- 18
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 42
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 407 666.215 basechar 0
 LayerCount: 2
 Fore
@@ -5531,46 +3455,7 @@ StartChar: u092D
 Encoding: 2349 2349 60
 Width: 657
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 22
- 21
- 2
- 20
- 78
- 34
- 33
- 1
- 30
- 29
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 44
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 526 664 basechar 0
 LayerCount: 2
 Fore
@@ -5619,38 +3504,7 @@ StartChar: u092E
 Encoding: 2350 2350 61
 Width: 579
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 27
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 447 664 basechar 0
 LayerCount: 2
 Fore
@@ -5689,38 +3543,7 @@ StartChar: u092F
 Encoding: 2351 2351 62
 Width: 596
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 36
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 466 26 basechar 0
 AnchorPoint: "Anchor-0" 464 664 basechar 0
 LayerCount: 2
@@ -5763,36 +3586,7 @@ StartChar: u0930
 Encoding: 2352 2352 63
 Width: 436
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 15
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 28
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 331 664 basechar 0
 LayerCount: 2
 Fore
@@ -5827,43 +3621,7 @@ StartChar: u0931
 Encoding: 2353 2353 64
 Width: 442
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 32
- 28
- 77
- 27
- 0
- 1
- 14
- 13
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 33
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 335 665 basechar 0
 LayerCount: 2
 Fore
@@ -5906,41 +3664,7 @@ StartChar: u0932
 Encoding: 2354 2354 65
 Width: 727
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 24
- 77
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 39
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 597 664 basechar 0
 LayerCount: 2
 Fore
@@ -5984,44 +3708,7 @@ StartChar: u0933
 Encoding: 2355 2355 66
 Width: 735
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 18
- 17
- 16
- 12
- 11
- 5
- 10
- 79
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 58
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 527 101 basechar 0
 AnchorPoint: "Anchor-0" 519 664 basechar 0
 LayerCount: 2
@@ -6079,38 +3766,7 @@ StartChar: u0934
 Encoding: 2356 2356 67
 Width: 733
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 62
- 58
- 80
- 16
- 15
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 63
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 553 98 basechar 0
 AnchorPoint: "Anchor-0" 515 664 basechar 0
 LayerCount: 2
@@ -6176,38 +3832,7 @@ StartChar: u0935
 Encoding: 2357 2357 68
 Width: 543
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 35
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 410 665.216 basechar 0
 LayerCount: 2
 Fore
@@ -6248,50 +3873,7 @@ StartChar: u0936
 Encoding: 2358 2358 69
 Width: 676
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 18
- 17
- 2
- 16
- 78
- 45
- 44
- 25
- 3
- 0
- 1
- 41
- 40
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 48
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 545.5 664.151 basechar 0
 LayerCount: 2
 Fore
@@ -6344,38 +3926,7 @@ StartChar: u0937
 Encoding: 2359 2359 70
 Width: 535
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 29
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 403.5 666.218 basechar 0
 LayerCount: 2
 Fore
@@ -6416,41 +3967,7 @@ StartChar: u0938
 Encoding: 2360 2360 71
 Width: 709
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 21
- 77
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 32
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 576.5 664.639 basechar 0
 LayerCount: 2
 Fore
@@ -6492,38 +4009,7 @@ StartChar: u0939
 Encoding: 2361 2361 72
 Width: 527
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 36
- 35
- 81
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 51
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 335 2 basechar 0
 AnchorPoint: "Anchor-0" 401 666 basechar 0
 LayerCount: 2
@@ -6576,37 +4062,7 @@ StartChar: u093C
 Encoding: 2364 2364 73
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 4
- 0
- 82
- 2
- 31
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6623,46 +4079,7 @@ StartChar: u093D
 Encoding: 2365 2365 74
 Width: 442
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 34
- 33
- 1
- 3
- 0
- 84
- 20
- 19
- 2
- 18
- 83
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 35
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6699,38 +4116,7 @@ StartChar: u093E
 Encoding: 2366 2366 75
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 9
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6751,50 +4137,7 @@ StartChar: u093F
 Encoding: 2367 2367 76
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 9
- 8
- 2
- 7
- 43
- 26
- 25
- 1
- 22
- 21
- 2
- 3
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 29
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -6834,50 +4177,7 @@ StartChar: u0940
 Encoding: 2368 2368 77
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 19
- 18
- 2
- 17
- 43
- 26
- 25
- 1
- 22
- 21
- 2
- 3
- 1
- 70
- 1
- 7
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 29
- 7
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-1" 263 55 basechar 0
 LayerCount: 2
 Fore
@@ -6914,46 +4214,7 @@ StartChar: u0941
 Encoding: 2369 2369 78
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 26
- 25
- 1
- 3
- 0
- 86
- 21
- 20
- 2
- 19
- 85
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 27
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" -143 61 mark 0
 LayerCount: 2
 Fore
@@ -6986,47 +4247,7 @@ StartChar: u0942
 Encoding: 2370 2370 79
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 26
- 25
- 10
- 1
- 4
- 0
- 88
- 7
- 6
- 2
- 5
- 87
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 27
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" -130 69 mark 0
 LayerCount: 2
 Fore
@@ -7059,46 +4280,7 @@ StartChar: u0943
 Encoding: 2371 2371 80
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 22
- 21
- 1
- 3
- 0
- 86
- 7
- 6
- 2
- 5
- 64
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 23
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" -127 50 mark 0
 LayerCount: 2
 Fore
@@ -7128,55 +4310,7 @@ StartChar: u0944
 Encoding: 2372 2372 81
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 21
- 37
- 36
- 1
- 3
- 0
- 44
- 13
- 12
- 2
- 11
- 87
- 16
- 15
- 14
- 3
- 10
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 38
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" -130 69 mark 0
 LayerCount: 2
 Fore
@@ -7217,47 +4351,7 @@ StartChar: u0945
 Encoding: 2373 2373 82
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 14
- 13
- 1
- 3
- 0
- 89
- 11
- 10
- 4
- 3
- 3
- 3
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 15
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" -127 665.882 mark 0
 LayerCount: 2
 Fore
@@ -7281,39 +4375,7 @@ StartChar: u0946
 Encoding: 2374 2374 83
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 11
- 10
- 78
- 4
- 3
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 15
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" -127 665 mark 0
 LayerCount: 2
 Fore
@@ -7338,39 +4400,7 @@ StartChar: u0947
 Encoding: 2375 2375 84
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 4
- 3
- 2
- 0
- 2
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-2" 0 0 basemark 0
 AnchorPoint: "Anchor-0" -122 664 mark 0
 LayerCount: 2
@@ -7389,39 +4419,7 @@ StartChar: u0948
 Encoding: 2376 2376 85
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 7
- 6
- 2
- 0
- 5
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 8
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-2" 55 63 basemark 0
 AnchorPoint: "Anchor-0" -135 664 mark 0
 LayerCount: 2
@@ -7443,79 +4441,7 @@ StartChar: u0949
 Encoding: 2377 2377 86
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 35
- 23
- 16
- 2
- 9
- 1
- 23
- 16
- 2
- 9
- 1
- 23
- 16
- 2
- 9
- 1
- 23
- 16
- 2
- 9
- 1
- 20
- 19
- 13
- 3
- 12
- 3
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-SLOOP
-ALIGNRP
-IUP[x]
-IUP[y]
-PUSHW_3
- 24
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7548,43 +4474,7 @@ StartChar: u094A
 Encoding: 2378 2378 87
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 6
- 5
- 1
- 2
- 1
- 13
- 12
- 53
- 70
- 1
- 10
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 24
- 10
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7617,45 +4507,7 @@ StartChar: u094B
 Encoding: 2379 2379 88
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 10
- 9
- 1
- 6
- 5
- 2
- 3
- 1
- 4
- 53
- 70
- 1
- 10
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 13
- 10
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-1" 231 111 basechar 0
 LayerCount: 2
 Fore
@@ -7681,46 +4533,7 @@ StartChar: u094C
 Encoding: 2380 2380 89
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 13
- 12
- 1
- 9
- 8
- 5
- 2
- 4
- 1
- 7
- 53
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 16
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-1" 335 71 basechar 0
 LayerCount: 2
 Fore
@@ -7750,35 +4563,7 @@ StartChar: u094D
 Encoding: 2381 2381 90
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 4
- 17
- 2
- 31
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 7
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" -119 42 mark 0
 LayerCount: 2
 Fore
@@ -7798,42 +4583,7 @@ StartChar: u0950
 Encoding: 2384 2384 91
 Width: 977
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 60
- 59
- 2
- 58
- 72
- 97
- 96
- 45
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 100
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -7918,42 +4668,7 @@ StartChar: u0951
 Encoding: 2385 2385 92
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 3
- 2
- 0
- 91
- 2
- 1
- 90
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" -127 666 mark 0
 LayerCount: 2
 Fore
@@ -7971,42 +4686,7 @@ StartChar: u0952
 Encoding: 2386 2386 93
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 3
- 2
- 0
- 92
- 2
- 1
- 15
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -8041,42 +4721,7 @@ StartChar: u0954
 Encoding: 2388 2388 95
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 2
- 1
- 8
- 4
- 3
- 2
- 0
- 7
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" -143 665 mark 0
 LayerCount: 2
 Fore
@@ -8094,43 +4739,7 @@ StartChar: u0958
 Encoding: 2392 2392 96
 Width: 753
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 59
- 55
- 15
- 26
- 25
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 60
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 386 23 basechar 0
 AnchorPoint: "Anchor-0" 385 664.5 basechar 0
 LayerCount: 2
@@ -8193,48 +4802,7 @@ StartChar: u0959
 Encoding: 2393 2393 97
 Width: 836
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 72
- 68
- 15
- 11
- 10
- 9
- 6
- 4
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 73
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 707 664 basechar 0
 LayerCount: 2
 Fore
@@ -8307,43 +4875,7 @@ StartChar: u095A
 Encoding: 2394 2394 98
 Width: 517
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 29
- 25
- 15
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 30
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 392 666.223 basechar 0
 LayerCount: 2
 Fore
@@ -8385,43 +4917,7 @@ StartChar: u095B
 Encoding: 2395 2395 99
 Width: 733
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 35
- 31
- 15
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 36
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 603 664 basechar 0
 LayerCount: 2
 Fore
@@ -8467,38 +4963,7 @@ StartChar: u095C
 Encoding: 2396 2396 100
 Width: 632
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 51
- 47
- 23
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 52
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 407 50 basechar 0
 AnchorPoint: "Anchor-0" 502 664 basechar 0
 LayerCount: 2
@@ -8555,38 +5020,7 @@ StartChar: u095D
 Encoding: 2397 2397 101
 Width: 572
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 51
- 47
- 23
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 52
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 332 58 basechar 0
 AnchorPoint: "Anchor-0" 427 664 basechar 0
 LayerCount: 2
@@ -8644,43 +5078,7 @@ StartChar: u095E
 Encoding: 2398 2398 102
 Width: 765
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 50
- 46
- 77
- 26
- 25
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 51
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 380 21 basechar 0
 AnchorPoint: "Anchor-0" 379 664 basechar 0
 LayerCount: 2
@@ -8739,43 +5137,7 @@ StartChar: u095F
 Encoding: 2399 2399 103
 Width: 596
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 40
- 36
- 77
- 16
- 15
- 1
- 12
- 11
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 41
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 465 665.192 basechar 0
 LayerCount: 2
 Fore
@@ -8825,38 +5187,7 @@ StartChar: u0960
 Encoding: 2400 2400 104
 Width: 882
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 39
- 38
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 61
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 468 15 basechar 0
 AnchorPoint: "Anchor-0" 467 666 basechar 0
 LayerCount: 2
@@ -8918,46 +5249,7 @@ StartChar: u0961
 Encoding: 2401 2401 105
 Width: 708
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 48
- 47
- 2
- 46
- 93
- 82
- 0
- 1
- 16
- 15
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 83
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9029,60 +5321,7 @@ StartChar: u0962
 Encoding: 2402 2402 106
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 25
- 25
- 1
- 25
- 1
- 25
- 1
- 25
- 1
- 32
- 31
- 2
- 30
- 95
- 13
- 12
- 11
- 7
- 6
- 5
- 5
- 94
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-MIAP[rnd]
-MIRP[rp0,min,rnd,black]
-MIAP[rnd]
-MIRP[rp0,min,rnd,black]
-IUP[x]
-IUP[y]
-PUSHW_3
- 61
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" -141 37 mark 0
 LayerCount: 2
 Fore
@@ -9137,48 +5376,7 @@ StartChar: u0963
 Encoding: 2403 2403 107
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 41
- 40
- 2
- 39
- 96
- 13
- 12
- 11
- 7
- 6
- 5
- 5
- 73
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 76
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" -138 34 mark 0
 LayerCount: 2
 Fore
@@ -9244,41 +5442,7 @@ StartChar: u0964
 Encoding: 2404 2404 108
 Width: 366
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 4
- 3
- 2
- 0
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9295,48 +5459,7 @@ StartChar: u0965
 Encoding: 2405 2405 109
 Width: 579
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 9
- 8
- 5
- 4
- 3
- 5
- 0
- 1
- 7
- 6
- 2
- 3
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 10
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9359,46 +5482,7 @@ StartChar: u0966
 Encoding: 2406 2406 110
 Width: 665
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 12
- 11
- 1
- 3
- 0
- 22
- 7
- 6
- 2
- 5
- 97
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 26
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9429,45 +5513,7 @@ StartChar: u0967
 Encoding: 2407 2407 111
 Width: 665
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 15
- 14
- 2
- 0
- 81
- 11
- 10
- 2
- 9
- 98
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 29
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9501,42 +5547,7 @@ StartChar: u0968
 Encoding: 2408 2408 112
 Width: 665
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 34
- 0
- 74
- 27
- 26
- 2
- 25
- 99
- 70
- 1
- 9
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 35
- 9
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9573,42 +5584,7 @@ StartChar: u0969
 Encoding: 2409 2409 113
 Width: 664
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 50
- 0
- 100
- 35
- 34
- 2
- 33
- 28
- 70
- 1
- 9
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 51
- 9
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9656,41 +5632,7 @@ StartChar: u096A
 Encoding: 2410 2410 114
 Width: 664
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 26
- 75
- 38
- 37
- 1
- 3
- 0
- 1
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 52
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9739,37 +5681,7 @@ StartChar: u096B
 Encoding: 2411 2411 115
 Width: 665
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 46
- 0
- 102
- 17
- 101
- 70
- 1
- 6
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 47
- 6
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9815,42 +5727,7 @@ StartChar: u096C
 Encoding: 2412 2412 116
 Width: 665
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 50
- 0
- 103
- 16
- 15
- 2
- 14
- 91
- 70
- 1
- 6
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 51
- 6
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9898,41 +5775,7 @@ StartChar: u096D
 Encoding: 2413 2413 117
 Width: 665
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 7
- 91
- 28
- 27
- 1
- 3
- 0
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 42
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -9974,41 +5817,7 @@ StartChar: u096E
 Encoding: 2414 2414 118
 Width: 665
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 7
- 78
- 22
- 21
- 1
- 3
- 0
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 23
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10038,42 +5847,7 @@ StartChar: u096F
 Encoding: 2415 2415 119
 Width: 664
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 30
- 0
- 82
- 15
- 14
- 2
- 13
- 13
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 44
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10117,46 +5891,7 @@ StartChar: u0970
 Encoding: 2416 2416 120
 Width: 545
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 12
- 11
- 1
- 3
- 0
- 77
- 7
- 6
- 2
- 5
- 104
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 26
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10187,58 +5922,7 @@ StartChar: afii61664
 Encoding: 8204 8204 121
 Width: 0
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 22
- 4
- 1
- 2
- 0
- 1
- 4
- 1
- 2
- 0
- 1
- 4
- 3
- 2
- 0
- 54
- 2
- 1
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-SLOOP
-ALIGNRP
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10255,58 +5939,7 @@ StartChar: afii301
 Encoding: 8205 8205 122
 Width: 0
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 22
- 6
- 1
- 2
- 0
- 1
- 6
- 1
- 2
- 0
- 1
- 6
- 5
- 2
- 0
- 54
- 2
- 1
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-SLOOP
-ALIGNRP
-IUP[x]
-IUP[y]
-PUSHW_3
- 7
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10325,58 +5958,7 @@ StartChar: endash
 Encoding: 8211 8211 123
 Width: 665
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 22
- 4
- 1
- 2
- 0
- 1
- 4
- 1
- 2
- 0
- 1
- 4
- 3
- 2
- 0
- 106
- 2
- 1
- 105
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-SLOOP
-ALIGNRP
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10393,58 +5975,7 @@ StartChar: emdash
 Encoding: 8212 8212 124
 Width: 1331
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 22
- 4
- 1
- 2
- 0
- 1
- 4
- 1
- 2
- 0
- 1
- 4
- 3
- 2
- 0
- 106
- 2
- 1
- 105
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-SLOOP
-ALIGNRP
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10461,42 +5992,7 @@ StartChar: quoteleft
 Encoding: 8216 8216 125
 Width: 352
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 3
- 2
- 0
- 108
- 2
- 1
- 107
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10513,42 +6009,7 @@ StartChar: quoteright
 Encoding: 8217 8217 126
 Width: 386
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 3
- 2
- 0
- 108
- 2
- 1
- 109
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10565,49 +6026,7 @@ StartChar: quotedblleft
 Encoding: 8220 8220 127
 Width: 539
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 18
- 9
- 8
- 5
- 4
- 3
- 5
- 0
- 108
- 7
- 6
- 2
- 3
- 1
- 107
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 10
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10630,49 +6049,7 @@ StartChar: quotedblright
 Encoding: 8221 8221 128
 Width: 572
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 18
- 9
- 8
- 5
- 4
- 3
- 5
- 0
- 108
- 7
- 6
- 2
- 3
- 1
- 109
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 10
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10695,54 +6072,7 @@ StartChar: ellipsis
 Encoding: 8230 8230 129
 Width: 1038
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 23
- 12
- 11
- 7
- 6
- 2
- 5
- 1
- 110
- 14
- 13
- 10
- 9
- 8
- 5
- 4
- 3
- 8
- 0
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 15
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10771,42 +6101,7 @@ StartChar: minus
 Encoding: 8722 8722 130
 Width: 692
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 3
- 2
- 0
- 25
- 2
- 1
- 24
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10823,50 +6118,7 @@ StartChar: uni25CC
 Encoding: 9676 9676 131
 Width: 918
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 23
- 22
- 2
- 21
- 76
- 4
- 3
- 2
- 2
- 28
- 5
- 1
- 9
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIRP[rp0,min,rnd,black]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 156
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -10997,47 +6249,7 @@ StartChar: numbersign
 Encoding: 35 35 132
 Width: 934
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 8
- 7
- 4
- 3
- 3
- 10
- 22
- 21
- 18
- 3
- 17
- 9
- 70
- 1
- 6
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 34
- 6
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11084,46 +6296,7 @@ StartChar: dollar
 Encoding: 36 36 133
 Width: 712
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 30
- 29
- 12
- 13
- 12
- 11
- 50
- 43
- 2
- 21
- 70
- 1
- 6
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 51
- 6
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11176,42 +6349,7 @@ StartChar: percent
 Encoding: 37 37 134
 Width: 885
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 2
- 1
- 13
- 4
- 3
- 2
- 0
- 1
- 70
- 1
- 6
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 57
- 6
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11268,45 +6406,7 @@ StartChar: ampersand
 Encoding: 38 38 135
 Width: 761
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 30
- 29
- 2
- 28
- 15
- 10
- 9
- 2
- 8
- 14
- 70
- 1
- 6
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 57
- 6
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11361,49 +6461,7 @@ StartChar: asterisk
 Encoding: 42 42 136
 Width: 680
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 43
- 42
- 2
- 41
- 19
- 4
- 3
- 2
- 2
- 18
- 53
- 31
- 70
- 1
- 6
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 78
- 6
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11474,42 +6532,7 @@ StartChar: plus
 Encoding: 43 43 137
 Width: 872
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 12
- 11
- 2
- 0
- 21
- 6
- 5
- 20
- 70
- 1
- 6
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 13
- 6
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11534,42 +6557,7 @@ StartChar: slash
 Encoding: 47 47 138
 Width: 672
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 3
- 2
- 0
- 27
- 2
- 1
- 26
- 70
- 1
- 0
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 0
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11586,45 +6574,7 @@ StartChar: zero
 Encoding: 48 48 139
 Width: 633
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 4
- 3
- 2
- 2
- 28
- 10
- 9
- 2
- 8
- 1
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 26
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11655,39 +6605,7 @@ StartChar: one
 Encoding: 49 49 140
 Width: 413
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 5
- 4
- 29
- 7
- 6
- 1
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 10
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11708,45 +6626,7 @@ StartChar: two
 Encoding: 50 50 141
 Width: 633
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 30
- 29
- 2
- 0
- 31
- 19
- 18
- 2
- 17
- 30
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 31
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11781,45 +6661,7 @@ StartChar: three
 Encoding: 51 51 142
 Width: 635
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 39
- 38
- 2
- 37
- 32
- 27
- 26
- 2
- 25
- 29
- 70
- 1
- 17
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 42
- 17
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11861,39 +6703,7 @@ StartChar: four
 Encoding: 52 52 143
 Width: 635
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 3
- 2
- 29
- 9
- 8
- 1
- 70
- 1
- 0
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 16
- 0
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -11958,45 +6768,7 @@ StartChar: six
 Encoding: 54 54 145
 Width: 635
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 24
- 23
- 2
- 22
- 32
- 5
- 4
- 2
- 3
- 29
- 70
- 1
- 6
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 40
- 6
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12037,39 +6809,7 @@ StartChar: seven
 Encoding: 55 55 146
 Width: 635
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 2
- 1
- 33
- 7
- 6
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 12
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12091,45 +6831,7 @@ StartChar: eight
 Encoding: 56 56 147
 Width: 635
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 22
- 21
- 2
- 20
- 32
- 10
- 9
- 2
- 8
- 29
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 51
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12178,45 +6880,7 @@ StartChar: nine
 Encoding: 57 57 148
 Width: 635
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 11
- 10
- 2
- 9
- 32
- 4
- 3
- 2
- 2
- 29
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 40
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12257,35 +6921,7 @@ StartChar: less
 Encoding: 60 60 149
 Width: 661
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 6
- 37
- 2
- 36
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 8
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12305,42 +6941,7 @@ StartChar: equal
 Encoding: 61 61 150
 Width: 798
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 3
- 2
- 0
- 39
- 7
- 6
- 38
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 10
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12363,35 +6964,7 @@ StartChar: greater
 Encoding: 62 62 151
 Width: 661
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 1
- 37
- 5
- 36
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 8
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12411,53 +6984,7 @@ StartChar: at
 Encoding: 64 64 152
 Width: 1043
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 19
- 32
- 31
- 2
- 30
- 42
- 38
- 37
- 2
- 36
- 41
- 25
- 24
- 2
- 23
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 66
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12516,42 +7043,7 @@ StartChar: bracketleft
 Encoding: 91 91 153
 Width: 392
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 8
- 7
- 2
- 0
- 44
- 2
- 1
- 43
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 9
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12572,42 +7064,7 @@ StartChar: backslash
 Encoding: 92 92 154
 Width: 605
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 1
- 2
- 0
- 46
- 3
- 2
- 45
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12624,42 +7081,7 @@ StartChar: bracketright
 Encoding: 93 93 155
 Width: 392
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 8
- 7
- 2
- 0
- 44
- 6
- 5
- 43
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 9
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12680,46 +7102,7 @@ StartChar: asciicircum
 Encoding: 94 94 156
 Width: 671
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 6
- 5
- 3
- 3
- 2
- 48
- 7
- 1
- 2
- 0
- 47
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 8
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12739,39 +7122,7 @@ StartChar: braceleft
 Encoding: 123 123 157
 Width: 484
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 24
- 23
- 52
- 7
- 6
- 51
- 70
- 1
- 2
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 32
- 2
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12807,42 +7158,7 @@ StartChar: bar
 Encoding: 124 124 158
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 4
- 3
- 2
- 0
- 54
- 2
- 1
- 53
- 70
- 1
- 2
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 2
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12859,42 +7175,7 @@ StartChar: braceright
 Encoding: 125 125 159
 Width: 486
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 8
- 7
- 56
- 25
- 24
- 55
- 21
- 9
- 70
- 1
- 2
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIRP[rp0,min,rnd,black]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 32
- 2
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12930,45 +7211,7 @@ StartChar: asciitilde
 Encoding: 126 126 160
 Width: 721
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 18
- 17
- 2
- 16
- 58
- 5
- 4
- 2
- 3
- 57
- 70
- 1
- 2
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 27
- 2
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -12999,46 +7242,7 @@ StartChar: cent
 Encoding: 162 162 161
 Width: 749
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 32
- 31
- 60
- 8
- 7
- 59
- 4
- 3
- 2
- 2
- 70
- 1
- 2
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 48
- 2
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -13087,42 +7291,7 @@ StartChar: multiply
 Encoding: 215 215 162
 Width: 665
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 12
- 10
- 2
- 0
- 62
- 6
- 4
- 61
- 70
- 1
- 2
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 13
- 2
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -13147,45 +7316,7 @@ StartChar: divide
 Encoding: 247 247 163
 Width: 832
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 22
- 21
- 2
- 20
- 64
- 10
- 9
- 2
- 8
- 63
- 70
- 1
- 2
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 31
- 2
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -13222,39 +7353,7 @@ StartChar: u0947_u0902.abvs
 Encoding: 65538 -1 164
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 4
- 3
- 2
- 0
- 2
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 10
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" -122 636 mark 0
 LayerCount: 2
 Fore
@@ -13279,39 +7378,7 @@ StartChar: u0947_u0930_u094D.rphf.abvs
 Encoding: 65539 -1 165
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 21
- 20
- 2
- 0
- 2
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 22
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" -117 644 mark 0
 LayerCount: 2
 Fore
@@ -13343,39 +7410,7 @@ StartChar: u0947_u0930_u094D.rphf.abvs_u0902.abvs
 Encoding: 65540 -1 166
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 26
- 25
- 2
- 5
- 7
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 27
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" -127 644 mark 0
 LayerCount: 2
 Fore
@@ -13412,39 +7447,7 @@ StartChar: u0948_u0902.abvs
 Encoding: 65541 -1 167
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 7
- 6
- 2
- 0
- 5
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 13
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" -138 636 mark 0
 LayerCount: 2
 Fore
@@ -13472,51 +7475,7 @@ StartChar: u0948_u0930_u094D.rphf.abvs
 Encoding: 65542 -1 168
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 18
- 10
- 1
- 10
- 1
- 10
- 1
- 10
- 1
- 24
- 23
- 2
- 0
- 5
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-MIAP[rnd]
-MIRP[rp0,min,rnd,black]
-MIAP[rnd]
-MIRP[rp0,min,rnd,black]
-IUP[x]
-IUP[y]
-PUSHW_3
- 25
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" -111 631 mark 0
 LayerCount: 2
 Fore
@@ -13551,51 +7510,7 @@ StartChar: u0948_u0930_u094D.rphf.abvs_u0902.abvs
 Encoding: 65543 -1 169
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 18
- 15
- 1
- 15
- 1
- 15
- 1
- 15
- 1
- 29
- 28
- 2
- 5
- 10
- 53
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-MIAP[rnd]
-MIRP[rp0,min,rnd,black]
-MIAP[rnd]
-MIRP[rp0,min,rnd,black]
-IUP[x]
-IUP[y]
-PUSHW_3
- 30
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" -103 631 mark 0
 LayerCount: 2
 Fore
@@ -13635,44 +7550,7 @@ StartChar: u0930_u094D.rphf
 Encoding: 65544 -1 170
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 7
- 6
- 2
- 5
- 43
- 20
- 19
- 2
- 0
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 21
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" -71 633 mark 0
 LayerCount: 2
 Fore
@@ -13701,44 +7579,7 @@ StartChar: u0930_u094D.rphf_u0902.abvs
 Encoding: 65545 -1 171
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 7
- 6
- 2
- 5
- 43
- 20
- 19
- 2
- 0
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 26
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" -109 636 mark 0
 LayerCount: 2
 Fore
@@ -13773,37 +7614,7 @@ StartChar: glyph172
 Encoding: 65546 -1 172
 Width: 0
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 4
- 0
- 81
- 2
- 111
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 5
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -13820,47 +7631,7 @@ StartChar: u0930_u094D.blwf
 Encoding: 65547 -1 173
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 7
- 6
- 4
- 3
- 4
- 0
- 17
- 2
- 1
- 87
- 5
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 8
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" -135 74 mark 0
 LayerCount: 2
 Fore
@@ -13882,46 +7653,7 @@ StartChar: u0936_u0930_u094D.blwf.vatu
 Encoding: 65548 -1 174
 Width: 709
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 8
- 7
- 2
- 6
- 91
- 23
- 22
- 1
- 19
- 18
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 44
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 578 664 basechar 0
 LayerCount: 2
 Fore
@@ -13973,43 +7705,7 @@ StartChar: u095E_u0930_u094D.blwf.vatu
 Encoding: 65549 -1 175
 Width: 794
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 54
- 50
- 112
- 26
- 25
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 55
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 415 23 basechar 0
 AnchorPoint: "Anchor-0" 412 664 basechar 0
 LayerCount: 2
@@ -14072,41 +7768,7 @@ StartChar: u0924_u094D.half_u0924.pres
 Encoding: 65550 -1 176
 Width: 743
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 15
- 6
- 2
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 27
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -14143,49 +7805,7 @@ StartChar: u0915_u094D_u0937.akhn
 Encoding: 65551 -1 177
 Width: 657
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 33
- 76
- 47
- 46
- 2
- 45
- 75
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 74
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 528 666 basechar 0
 LayerCount: 2
 Fore
@@ -14255,44 +7875,7 @@ StartChar: u091C_u094D_u091E.akhn
 Encoding: 65552 -1 178
 Width: 711
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 30
- 74
- 29
- 6
- 2
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 64
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 579 665 basechar 0
 LayerCount: 2
 Fore
@@ -14354,38 +7937,7 @@ StartChar: u0915_u094D.half
 Encoding: 65553 -1 179
 Width: 584
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 20
- 19
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 49
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -14436,41 +7988,7 @@ StartChar: u0916_u094D.half
 Encoding: 65554 -1 180
 Width: 656
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 22
- 21
- 2
- 20
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 61
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -14530,41 +8048,7 @@ StartChar: u0917_u094D.half
 Encoding: 65555 -1 181
 Width: 253
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 9
- 8
- 2
- 7
- 113
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 21
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -14595,41 +8079,7 @@ StartChar: u0918_u094D.half
 Encoding: 65556 -1 182
 Width: 478
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 27
- 26
- 2
- 25
- 114
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 40
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -14673,39 +8123,7 @@ StartChar: u0919_u094D.half
 Encoding: 65557 -1 183
 Width: 723
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 64
- 17
- 62
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 67
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -14772,42 +8190,7 @@ StartChar: u091A_u094D.half
 Encoding: 65558 -1 184
 Width: 478
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 24
- 23
- 1
- 3
- 0
- 115
- 27
- 26
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 30
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -14846,42 +8229,7 @@ StartChar: u091B_u094D.half
 Encoding: 65559 -1 185
 Width: 709
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 47
- 46
- 1
- 3
- 0
- 73
- 15
- 14
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 61
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -14940,42 +8288,7 @@ StartChar: u091C_u094D.half
 Encoding: 65560 -1 186
 Width: 588
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 22
- 21
- 1
- 3
- 0
- 79
- 25
- 24
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 28
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15012,41 +8325,7 @@ StartChar: u091D_u094D.half
 Encoding: 65561 -1 187
 Width: 544
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 71
- 0
- 74
- 70
- 1
- 32
- 31
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 72
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15112,42 +8391,7 @@ StartChar: u091E_u094D.half
 Encoding: 65562 -1 188
 Width: 459
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 39
- 38
- 1
- 3
- 0
- 115
- 42
- 41
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 45
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15195,36 +8439,7 @@ StartChar: u091F_u094D.half
 Encoding: 65563 -1 189
 Width: 565
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 33
- 116
- 11
- 10
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 36
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15269,36 +8484,7 @@ StartChar: u0920_u094D.half
 Encoding: 65564 -1 190
 Width: 577
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 39
- 116
- 11
- 10
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 42
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15347,36 +8533,7 @@ StartChar: u0921_u094D.half
 Encoding: 65565 -1 191
 Width: 631
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 51
- 117
- 27
- 26
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 54
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15433,36 +8590,7 @@ StartChar: u0922_u094D.half
 Encoding: 65566 -1 192
 Width: 579
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 51
- 88
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 54
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15520,41 +8648,7 @@ StartChar: u0923_u094D.half
 Encoding: 65567 -1 193
 Width: 454
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 9
- 8
- 2
- 7
- 118
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 24
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15589,38 +8683,7 @@ StartChar: u0924_u094D.half
 Encoding: 65568 -1 194
 Width: 376
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 16
- 0
- 21
- 19
- 18
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 22
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15653,50 +8716,7 @@ StartChar: u0925_u094D.half
 Encoding: 65569 -1 195
 Width: 541
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 39
- 38
- 1
- 3
- 0
- 115
- 24
- 23
- 2
- 22
- 91
- 42
- 41
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 45
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15744,36 +8764,7 @@ StartChar: u0926_u094D.half
 Encoding: 65570 -1 196
 Width: 549
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 3
- 119
- 9
- 8
- 70
- 1
- 8
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 46
- 8
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15825,50 +8816,7 @@ StartChar: u0927_u094D.half
 Encoding: 65571 -1 197
 Width: 490
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 50
- 49
- 1
- 3
- 0
- 70
- 13
- 12
- 2
- 11
- 78
- 53
- 52
- 70
- 1
- 8
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 56
- 8
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15924,42 +8872,7 @@ StartChar: u0928_u094D.half
 Encoding: 65572 -1 198
 Width: 394
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 16
- 15
- 1
- 3
- 0
- 120
- 19
- 18
- 70
- 1
- 10
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 22
- 10
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -15992,38 +8905,7 @@ StartChar: u0929_u094D.half
 Encoding: 65573 -1 199
 Width: 394
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 26
- 22
- 77
- 19
- 18
- 70
- 1
- 10
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 27
- 10
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -16062,41 +8944,7 @@ StartChar: u092A_u094D.half
 Encoding: 65574 -1 200
 Width: 352
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 16
- 15
- 2
- 14
- 121
- 2
- 1
- 70
- 1
- 10
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 21
- 10
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -16127,38 +8975,7 @@ StartChar: u092B_u094D.half
 Encoding: 65575 -1 201
 Width: 588
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 20
- 19
- 1
- 2
- 1
- 70
- 1
- 10
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 40
- 10
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -16205,42 +9022,7 @@ StartChar: u092C_u094D.half
 Encoding: 65576 -1 202
 Width: 366
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 22
- 21
- 1
- 3
- 0
- 122
- 36
- 35
- 70
- 1
- 10
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 39
- 10
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -16286,49 +9068,7 @@ StartChar: u092D_u094D.half
 Encoding: 65577 -1 203
 Width: 466
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 38
- 37
- 2
- 36
- 121
- 27
- 26
- 2
- 25
- 78
- 2
- 1
- 70
- 1
- 10
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 41
- 10
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -16375,41 +9115,7 @@ StartChar: u092E_u094D.half
 Encoding: 65578 -1 204
 Width: 399
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 13
- 12
- 2
- 11
- 113
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 22
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -16442,41 +9148,7 @@ StartChar: u092F_u094D.half
 Encoding: 65579 -1 205
 Width: 412
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 21
- 20
- 2
- 19
- 5
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 31
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -16513,50 +9185,7 @@ StartChar: glyph206
 Encoding: 65580 -1 206
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 9
- 8
- 2
- 7
- 43
- 26
- 25
- 1
- 22
- 21
- 2
- 3
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 29
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -16594,47 +9223,7 @@ StartChar: glyph207
 Encoding: 65581 -1 207
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 31
- 30
- 123
- 26
- 25
- 1
- 22
- 21
- 2
- 3
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 34
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -16675,38 +9264,7 @@ StartChar: u0932_u094D.half
 Encoding: 65582 -1 208
 Width: 540
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 30
- 0
- 1
- 33
- 32
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 36
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -16748,45 +9306,7 @@ StartChar: u0933_u094D.half
 Encoding: 65583 -1 209
 Width: 657
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 24
- 23
- 19
- 18
- 17
- 1
- 6
- 0
- 79
- 53
- 52
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 56
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -16843,38 +9363,7 @@ StartChar: u0934_u094D.half
 Encoding: 65584 -1 210
 Width: 656
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 60
- 56
- 76
- 53
- 52
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 61
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -16937,42 +9426,7 @@ StartChar: u0935_u094D.half
 Encoding: 65585 -1 211
 Width: 346
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 26
- 25
- 1
- 3
- 0
- 124
- 29
- 28
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 32
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -17011,42 +9465,7 @@ StartChar: u0936_u094D.half
 Encoding: 65586 -1 212
 Width: 444
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 18
- 17
- 2
- 16
- 98
- 25
- 0
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 39
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -17089,41 +9508,7 @@ StartChar: u0937_u094D.half
 Encoding: 65587 -1 213
 Width: 368
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 10
- 9
- 2
- 8
- 125
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 24
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -17158,36 +9543,7 @@ StartChar: u0938_u094D.half
 Encoding: 65588 -1 214
 Width: 523
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 13
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 29
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -17227,36 +9583,7 @@ StartChar: u0939_u094D.half
 Encoding: 65589 -1 215
 Width: 565
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 22
- 81
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 38
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -17300,43 +9627,7 @@ StartChar: u0958_u094D.half
 Encoding: 65590 -1 216
 Width: 584
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 53
- 49
- 15
- 20
- 19
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 54
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -17393,46 +9684,7 @@ StartChar: u0959_u094D.half
 Encoding: 65591 -1 217
 Width: 673
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 65
- 61
- 15
- 22
- 21
- 2
- 20
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 66
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -17498,38 +9750,7 @@ StartChar: u095A_u094D.half
 Encoding: 65592 -1 218
 Width: 270
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 25
- 21
- 15
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 26
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -17566,38 +9787,7 @@ StartChar: u095B_u094D.half
 Encoding: 65593 -1 219
 Width: 599
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 32
- 28
- 77
- 25
- 24
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 33
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -17640,42 +9830,7 @@ StartChar: u095E_u094D.half
 Encoding: 65594 -1 220
 Width: 588
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 44
- 40
- 20
- 3
- 19
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 45
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -17728,42 +9883,7 @@ StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu
 Encoding: 65595 -1 221
 Width: 366
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 22
- 0
- 126
- 15
- 14
- 2
- 13
- 75
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 36
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -17805,38 +9925,7 @@ StartChar: u0924_u094D.half_u0930_u094D.blwf.vatu
 Encoding: 65596 -1 222
 Width: 371
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 23
- 0
- 127
- 26
- 25
- 70
- 1
- 13
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 29
- 13
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -17875,38 +9964,7 @@ StartChar: u0924_u094D.half_u0924_u094D.half.pres
 Encoding: 65597 -1 223
 Width: 331
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 18
- 0
- 1
- 21
- 20
- 70
- 1
- 13
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 24
- 13
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -17941,46 +9999,7 @@ StartChar: u0915_u094D_u0937.akhn_u094D.half
 Encoding: 65598 -1 224
 Width: 547
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 59
- 0
- 31
- 19
- 18
- 2
- 17
- 28
- 75
- 74
- 70
- 1
- 13
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 78
- 13
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -18051,41 +10070,7 @@ StartChar: u091C_u094D_u091E.akhn_u094D.half
 Encoding: 65599 -1 225
 Width: 479
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 49
- 0
- 81
- 48
- 1
- 52
- 51
- 70
- 1
- 21
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 55
- 21
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -18140,50 +10125,7 @@ StartChar: glyph226
 Encoding: 65600 -1 226
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 9
- 8
- 2
- 7
- 43
- 26
- 25
- 1
- 22
- 21
- 2
- 3
- 1
- 70
- 1
- 21
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 34
- 21
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -18224,50 +10166,7 @@ StartChar: glyph227
 Encoding: 65601 -1 227
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 15
- 14
- 2
- 13
- 128
- 45
- 44
- 1
- 41
- 40
- 2
- 3
- 1
- 70
- 1
- 21
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 48
- 21
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -18316,50 +10215,7 @@ StartChar: glyph228
 Encoding: 65602 -1 228
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 20
- 19
- 2
- 18
- 128
- 50
- 49
- 1
- 46
- 45
- 7
- 3
- 6
- 70
- 1
- 21
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 53
- 21
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -18413,50 +10269,7 @@ StartChar: glyph229
 Encoding: 65603 -1 229
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 9
- 8
- 2
- 7
- 129
- 26
- 25
- 1
- 22
- 21
- 2
- 3
- 1
- 70
- 1
- 0
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 29
- 0
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -18492,48 +10305,7 @@ StartChar: glyph230
 Encoding: 65604 -1 230
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 31
- 30
- 130
- 4
- 3
- 1
- 28
- 27
- 8
- 7
- 4
- 0
- 70
- 1
- 21
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 34
- 21
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -18574,51 +10346,7 @@ StartChar: glyph231
 Encoding: 65605 -1 231
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 18
- 21
- 20
- 2
- 19
- 43
- 4
- 3
- 1
- 47
- 46
- 8
- 7
- 4
- 0
- 70
- 1
- 21
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 48
- 21
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -18667,51 +10395,7 @@ StartChar: glyph232
 Encoding: 65606 -1 232
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 18
- 26
- 25
- 2
- 24
- 43
- 9
- 8
- 1
- 52
- 51
- 13
- 12
- 4
- 5
- 70
- 1
- 21
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 53
- 21
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -18765,59 +10449,7 @@ StartChar: u0940_u0902.abvs
 Encoding: 65607 -1 233
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 23
- 19
- 1
- 19
- 1
- 19
- 1
- 19
- 1
- 31
- 30
- 123
- 26
- 25
- 1
- 22
- 21
- 2
- 3
- 1
- 70
- 1
- 7
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-MIAP[rnd]
-MIRP[rp0,min,rnd,black]
-MIAP[rnd]
-MIRP[rp0,min,rnd,black]
-IUP[x]
-IUP[y]
-PUSHW_3
- 34
- 7
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -18861,50 +10493,7 @@ StartChar: u0940_u0930_u094D.rphf.abvs
 Encoding: 65608 -1 234
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 19
- 18
- 2
- 17
- 123
- 42
- 41
- 1
- 38
- 37
- 2
- 3
- 1
- 70
- 1
- 7
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 45
- 7
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -18954,50 +10543,7 @@ StartChar: u0940_u0930_u094D.rphf.abvs_u0902.abvs
 Encoding: 65609 -1 235
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 19
- 18
- 2
- 17
- 123
- 42
- 41
- 1
- 38
- 37
- 2
- 3
- 1
- 70
- 1
- 7
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 50
- 7
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -19052,50 +10598,7 @@ StartChar: glyph236
 Encoding: 65610 -1 236
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 17
- 19
- 18
- 2
- 17
- 43
- 26
- 25
- 1
- 22
- 21
- 2
- 3
- 1
- 70
- 1
- 7
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 29
- 7
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-1" 207 111 basechar 0
 LayerCount: 2
 Fore
@@ -19132,52 +10635,7 @@ StartChar: glyph237
 Encoding: 65611 -1 237
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 19
- 31
- 30
- 19
- 18
- 4
- 17
- 43
- 26
- 25
- 1
- 22
- 21
- 2
- 3
- 1
- 70
- 1
- 7
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 34
- 7
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -19218,53 +10676,7 @@ StartChar: glyph238
 Encoding: 65612 -1 238
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 20
- 25
- 24
- 23
- 19
- 18
- 5
- 17
- 43
- 42
- 41
- 1
- 38
- 37
- 2
- 3
- 1
- 70
- 1
- 7
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 45
- 7
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -19311,53 +10723,7 @@ StartChar: glyph239
 Encoding: 65613 -1 239
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 20
- 30
- 29
- 28
- 24
- 23
- 5
- 22
- 43
- 47
- 46
- 1
- 43
- 42
- 7
- 3
- 6
- 70
- 1
- 7
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 50
- 7
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -19409,41 +10775,7 @@ StartChar: u0930_u094D.blwf_u0941.blws
 Encoding: 65614 -1 240
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 26
- 25
- 1
- 3
- 0
- 131
- 28
- 85
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 34
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" -127 63 mark 0
 LayerCount: 2
 Fore
@@ -19485,35 +10817,7 @@ StartChar: u0930_u094D.blwf_u0942.blws
 Encoding: 65615 -1 241
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 10
- 132
- 25
- 73
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 31
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" -127 58 mark 0
 LayerCount: 2
 Fore
@@ -19553,46 +10857,7 @@ StartChar: glyph242
 Encoding: 65616 -1 242
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 26
- 25
- 1
- 3
- 0
- 132
- 21
- 20
- 2
- 19
- 133
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 27
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" -130 -29 mark 0
 LayerCount: 2
 Fore
@@ -19624,47 +10889,7 @@ StartChar: glyph243
 Encoding: 65617 -1 243
 Width: 0
 GlyphClass: 4
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 26
- 25
- 10
- 1
- 4
- 0
- 134
- 7
- 6
- 2
- 5
- 133
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 27
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" -138 -34 mark 0
 LayerCount: 2
 Fore
@@ -19696,39 +10921,7 @@ StartChar: glyph244
 Encoding: 65618 -1 244
 Width: 0
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 23
- 22
- 135
- 21
- 20
- 127
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 31
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -19763,38 +10956,7 @@ StartChar: glyph245
 Encoding: 65619 -1 245
 Width: 625
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 42
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -19838,42 +11000,7 @@ StartChar: u0931_u094D.half
 Encoding: 65620 -1 246
 Width: 287
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 14
- 13
- 1
- 3
- 0
- 25
- 17
- 16
- 70
- 1
- 0
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 20
- 0
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -19904,38 +11031,7 @@ StartChar: glyph247
 Encoding: 65621 -1 247
 Width: 685
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 35
- 11
- 1
- 2
- 1
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 50
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -19984,41 +11080,7 @@ StartChar: u0915_u0930_u094D.blwf.vatu
 Encoding: 65622 -1 248
 Width: 769
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 28
- 80
- 26
- 25
- 1
- 2
- 1
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 55
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 394 31 basechar 0
 AnchorPoint: "Anchor-0" 396.5 666.22 basechar 0
 LayerCount: 2
@@ -20076,41 +11138,7 @@ StartChar: u0916_u0930_u094D.blwf.vatu
 Encoding: 65623 -1 249
 Width: 820
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 8
- 136
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 68
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 692 15 basechar 0
 LayerCount: 2
 Fore
@@ -20178,38 +11206,7 @@ StartChar: u0917_u0930_u094D.blwf.vatu
 Encoding: 65624 -1 250
 Width: 529
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 29
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -20248,41 +11245,7 @@ StartChar: u091C_u0930_u094D.blwf.vatu
 Encoding: 65625 -1 251
 Width: 725
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 8
- 15
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 35
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -20325,41 +11288,7 @@ StartChar: u091D_u0930_u094D.blwf.vatu
 Encoding: 65626 -1 252
 Width: 737
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 24
- 74
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 78
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -20433,38 +11362,7 @@ StartChar: u0924_u0930_u094D.blwf.vatu
 Encoding: 65627 -1 253
 Width: 539
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 26
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -20500,42 +11398,7 @@ StartChar: u0926_u0930_u094D.blwf.vatu
 Encoding: 65628 -1 254
 Width: 547
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 35
- 112
- 32
- 9
- 30
- 1
- 2
- 1
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-MIRP[rp0,min,rnd,black]
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 47
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -20585,41 +11448,7 @@ StartChar: u092A_u0930_u094D.blwf.vatu
 Encoding: 65629 -1 255
 Width: 576
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 8
- 6
- 2
- 5
- 1
- 2
- 1
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 27
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -20658,38 +11487,7 @@ StartChar: u092B_u0930_u094D.blwf.vatu
 Encoding: 65630 -1 256
 Width: 797
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 28
- 27
- 1
- 4
- 3
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 50
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 412 15 basechar 0
 AnchorPoint: "Anchor-0" 411.5 666.216 basechar 0
 LayerCount: 2
@@ -20746,41 +11544,7 @@ StartChar: u092C_u0930_u094D.blwf.vatu
 Encoding: 65631 -1 257
 Width: 549
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 25
- 23
- 2
- 22
- 1
- 19
- 18
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 42
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -20829,49 +11593,7 @@ StartChar: u092D_u0930_u094D.blwf.vatu
 Encoding: 65632 -1 258
 Width: 659
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 22
- 21
- 2
- 20
- 78
- 36
- 34
- 2
- 33
- 1
- 30
- 29
- 70
- 1
- 14
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 48
- 14
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -20924,41 +11646,7 @@ StartChar: u092E_u0930_u094D.blwf.vatu
 Encoding: 65633 -1 259
 Width: 581
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 14
- 77
- 12
- 11
- 1
- 8
- 7
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 31
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -21001,41 +11689,7 @@ StartChar: u0935_u0930_u094D.blwf.vatu
 Encoding: 65634 -1 260
 Width: 553
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 29
- 27
- 2
- 26
- 1
- 23
- 22
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 35
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -21077,41 +11731,7 @@ StartChar: u0938_u0930_u094D.blwf.vatu
 Encoding: 65635 -1 261
 Width: 784
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 25
- 6
- 2
- 5
- 1
- 2
- 1
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 36
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -21157,38 +11777,7 @@ StartChar: u0939_u0930_u094D.blwf.vatu
 Encoding: 65636 -1 262
 Width: 552
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 39
- 38
- 23
- 2
- 1
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 54
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 330 -85 basechar 0
 LayerCount: 2
 Fore
@@ -21311,38 +11900,7 @@ StartChar: u0915_u094D.half_u0915.pres
 Encoding: 65638 -1 264
 Width: 777
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 32
- 31
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 98
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 402 31 basechar 0
 AnchorPoint: "Anchor-0" 400 666.219 basechar 0
 LayerCount: 2
@@ -21429,41 +11987,7 @@ StartChar: u0915_u094D.half_u0924.pres
 Encoding: 65639 -1 265
 Width: 813
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 35
- 26
- 2
- 25
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 47
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 436 23 basechar 0
 AnchorPoint: "Anchor-0" 434.5 664.201 basechar 0
 LayerCount: 2
@@ -21516,36 +12040,7 @@ StartChar: u0915_u094D.half_u0932.pres
 Encoding: 65640 -1 266
 Width: 760
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 58
- 56
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 96
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 551 -111 basechar 0
 AnchorPoint: "Anchor-0" 394 664.723 basechar 0
 LayerCount: 2
@@ -21628,38 +12123,7 @@ StartChar: u0915_u094D.half_u0935.pres
 Encoding: 65641 -1 267
 Width: 764
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 26
- 25
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 72
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 398 23 basechar 0
 AnchorPoint: "Anchor-0" 403 665.719 basechar 0
 LayerCount: 2
@@ -21727,38 +12191,7 @@ StartChar: u0917_u094D.half_u0928.pres
 Encoding: 65642 -1 268
 Width: 524
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 48
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -21809,41 +12242,7 @@ StartChar: u0919_u094D.half_u0915.pres
 Encoding: 65643 -1 269
 Width: 707
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 46
- 45
- 103
- 43
- 9
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 115
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 343 -138 basechar 0
 AnchorPoint: "Anchor-0" 487 664.179 basechar 0
 LayerCount: 2
@@ -21943,36 +12342,7 @@ StartChar: u0919_u094D.half_u0916.pres
 Encoding: 65644 -1 270
 Width: 712
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 69
- 23
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 121
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 474 -90 basechar 0
 AnchorPoint: "Anchor-0" 503.5 664.172 basechar 0
 LayerCount: 2
@@ -22076,38 +12446,7 @@ StartChar: u0919_u094D.half_u0917.pres
 Encoding: 65645 -1 271
 Width: 680
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 26
- 25
- 137
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 90
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 450 -90 basechar 0
 AnchorPoint: "Anchor-0" 470 664.686 basechar 0
 LayerCount: 2
@@ -22190,46 +12529,7 @@ StartChar: u0919_u094D.half_u0918.pres
 Encoding: 65646 -1 272
 Width: 676
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 23
- 22
- 100
- 86
- 85
- 2
- 68
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 105
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 442 -117 basechar 0
 AnchorPoint: "Anchor-0" 473.5 666.183 basechar 0
 LayerCount: 2
@@ -22323,38 +12623,7 @@ StartChar: u0919_u094D.half_u092E.pres
 Encoding: 65647 -1 273
 Width: 708
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 23
- 22
- 100
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 86
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 495 -106 basechar 0
 AnchorPoint: "Anchor-0" 496.5 664.675 basechar 0
 LayerCount: 2
@@ -22437,39 +12706,7 @@ StartChar: u0919_u094D.half_u0915_u094D_u0937.akhn.pres
 Encoding: 65648 -1 274
 Width: 707
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 51
- 27
- 92
- 1
- 2
- 0
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 139
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 500 -63 basechar 0
 AnchorPoint: "Anchor-0" 492.5 666 basechar 0
 LayerCount: 2
@@ -22587,38 +12824,7 @@ StartChar: u091A_u094D.half_u091A.pres
 Encoding: 65649 -1 275
 Width: 648
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 51
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -22671,38 +12877,7 @@ StartChar: u091B_u094D.half_u0935.pres
 Encoding: 65650 -1 276
 Width: 668
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 13
- 12
- 23
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 97
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 452 -103 basechar 0
 LayerCount: 2
 Fore
@@ -22790,38 +12965,7 @@ StartChar: u091C_u094D.half_u091C.pres
 Encoding: 65651 -1 277
 Width: 772
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 44
- 43
- 1
- 40
- 39
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 53
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -22874,43 +13018,7 @@ StartChar: u091E_u094D.half_u091A.pres
 Encoding: 65652 -1 278
 Width: 720
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 11
- 10
- 9
- 6
- 4
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 61
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -22971,46 +13079,7 @@ StartChar: u091E_u094D.half_u091C.pres
 Encoding: 65653 -1 279
 Width: 720
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 15
- 14
- 2
- 13
- 15
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 60
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -23070,41 +13139,7 @@ StartChar: u091F_u094D.half_u091F.pres
 Encoding: 65654 -1 280
 Width: 555
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 35
- 34
- 2
- 33
- 100
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 55
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 308 -117 basechar 0
 LayerCount: 2
 Fore
@@ -23161,46 +13196,7 @@ StartChar: u091F_u094D.half_u0920.pres
 Encoding: 65655 -1 281
 Width: 579
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 27
- 26
- 2
- 25
- 138
- 57
- 23
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 62
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 311 -101 basechar 0
 LayerCount: 2
 Fore
@@ -23263,38 +13259,7 @@ StartChar: u091F_u094D.half_u092F.pres
 Encoding: 65656 -1 282
 Width: 1207
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 66
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 1078 23 basechar 0
 LayerCount: 2
 Fore
@@ -23360,38 +13325,7 @@ StartChar: u091F_u094D.half_u0935.pres
 Encoding: 65657 -1 283
 Width: 555
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 21
- 20
- 139
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 61
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 416 -146 basechar 0
 LayerCount: 2
 Fore
@@ -23452,46 +13386,7 @@ StartChar: u0920_u094D.half_u0920.pres
 Encoding: 65658 -1 284
 Width: 600
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 21
- 20
- 2
- 19
- 100
- 51
- 17
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 71
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 319 -106 basechar 0
 LayerCount: 2
 Fore
@@ -23562,38 +13457,7 @@ StartChar: u0920_u094D.half_u092F.pres
 Encoding: 65659 -1 285
 Width: 1222
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 72
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -23662,46 +13526,7 @@ StartChar: u0921_u094D.half_u0921.pres
 Encoding: 65660 -1 286
 Width: 644
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 40
- 39
- 2
- 38
- 140
- 49
- 36
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 87
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 370 -114 basechar 0
 LayerCount: 2
 Fore
@@ -23778,41 +13603,7 @@ StartChar: u0921_u094D.half_u0922.pres
 Encoding: 65661 -1 287
 Width: 628
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 42
- 41
- 2
- 40
- 141
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 89
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 410 -178 basechar 0
 LayerCount: 2
 Fore
@@ -23893,38 +13684,7 @@ StartChar: u0921_u094D.half_u092F.pres
 Encoding: 65662 -1 288
 Width: 1222
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 83
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -24000,44 +13760,7 @@ StartChar: u0922_u094D.half_u0922.pres
 Encoding: 65663 -1 289
 Width: 596
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 45
- 44
- 2
- 43
- 100
- 30
- 9
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 89
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 338 -109 basechar 0
 LayerCount: 2
 Fore
@@ -24119,38 +13842,7 @@ StartChar: u0922_u094D.half_u092F.pres
 Encoding: 65664 -1 290
 Width: 1202
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 85
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -24229,47 +13921,7 @@ StartChar: u0926_u094D.half_u0917.pres
 Encoding: 65665 -1 291
 Width: 539
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 40
- 39
- 38
- 3
- 28
- 76
- 36
- 27
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 65
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 447 5 basechar 0
 LayerCount: 2
 Fore
@@ -24330,41 +13982,7 @@ StartChar: u0926_u094D.half_u0918.pres
 Encoding: 65666 -1 292
 Width: 665
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 28
- 27
- 136
- 36
- 9
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 85
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 601 -79 basechar 0
 LayerCount: 2
 Fore
@@ -24442,36 +14060,7 @@ StartChar: u0926_u094D.half_u0926.pres
 Encoding: 65667 -1 293
 Width: 557
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 39
- 74
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 59
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 474 -13 basechar 0
 LayerCount: 2
 Fore
@@ -24530,44 +14119,7 @@ StartChar: u0926_u094D.half_u0927.pres
 Encoding: 65668 -1 294
 Width: 732
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 28
- 27
- 136
- 36
- 9
- 31
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-MIRP[rp0,min,rnd,black]
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 88
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 665 -82 basechar 0
 LayerCount: 2
 Fore
@@ -24646,46 +14198,7 @@ StartChar: u0926_u094D.half_u0928.pres
 Encoding: 65669 -1 295
 Width: 575
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 42
- 41
- 2
- 40
- 74
- 25
- 24
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 57
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 500 23 basechar 0
 LayerCount: 2
 Fore
@@ -24740,44 +14253,7 @@ StartChar: u0926_u094D.half_u092C.pres
 Encoding: 65670 -1 296
 Width: 549
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 38
- 37
- 2
- 36
- 81
- 30
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 72
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 458 13 basechar 0
 LayerCount: 2
 Fore
@@ -24847,44 +14323,7 @@ StartChar: u0926_u094D.half_u092D.pres
 Encoding: 65671 -1 297
 Width: 617
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 38
- 37
- 2
- 36
- 142
- 52
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 76
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 545 13 basechar 0
 LayerCount: 2
 Fore
@@ -24956,38 +14395,7 @@ StartChar: u0926_u094D.half_u092E.pres
 Encoding: 65672 -1 298
 Width: 713
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 45
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -25040,38 +14448,7 @@ StartChar: u0926_u094D.half_u092F.pres
 Encoding: 65673 -1 299
 Width: 715
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 51
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -25126,42 +14503,7 @@ StartChar: u0926_u094D.half_u0935.pres
 Encoding: 65674 -1 300
 Width: 559
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 38
- 37
- 36
- 3
- 31
- 76
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 66
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 479 10 basechar 0
 LayerCount: 2
 Fore
@@ -25225,38 +14567,7 @@ StartChar: u0928_u094D.half_u0928.pres
 Encoding: 65675 -1 301
 Width: 663
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 55
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -25311,41 +14622,7 @@ StartChar: u092A_u094D.half_u0924.pres
 Encoding: 65676 -1 302
 Width: 569
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 15
- 6
- 2
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 35
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -25389,42 +14666,7 @@ StartChar: u092A_u094D.half_u0932.pres
 Encoding: 65677 -1 303
 Width: 601
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 34
- 33
- 11
- 3
- 10
- 133
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 65
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 466 -31 basechar 0
 LayerCount: 2
 Fore
@@ -25487,41 +14729,7 @@ StartChar: u092B_u094D.half_u0932.pres
 Encoding: 65678 -1 304
 Width: 776
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 58
- 56
- 61
- 54
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 87
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 532 -106 basechar 0
 AnchorPoint: "Anchor-0" 399 664.72 basechar 0
 LayerCount: 2
@@ -25600,41 +14808,7 @@ StartChar: u0932_u094D.half_u0932.pres
 Encoding: 65679 -1 305
 Width: 736
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 24
- 15
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 69
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 612 18 basechar 0
 LayerCount: 2
 Fore
@@ -25701,46 +14875,7 @@ StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu_u091A.pres
 Encoding: 65680 -1 306
 Width: 625
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 8
- 7
- 2
- 6
- 78
- 22
- 21
- 1
- 18
- 17
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 64
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -25806,46 +14941,7 @@ StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu_u0928.pres
 Encoding: 65681 -1 307
 Width: 627
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 15
- 14
- 2
- 13
- 78
- 29
- 28
- 1
- 25
- 24
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 63
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 494.5 664.177 basechar 0
 LayerCount: 2
 Fore
@@ -25909,49 +15005,7 @@ StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu_u0932.pres
 Encoding: 65682 -1 308
 Width: 912
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 41
- 40
- 2
- 39
- 78
- 24
- 6
- 2
- 5
- 1
- 2
- 1
- 70
- 1
- 19
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 69
- 19
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 780 23 basechar 0
 LayerCount: 2
 Fore
@@ -26019,46 +15073,7 @@ StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu_u0935.pres
 Encoding: 65683 -1 309
 Width: 624
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 31
- 30
- 2
- 29
- 78
- 45
- 44
- 1
- 41
- 40
- 70
- 1
- 11
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 66
- 11
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -26123,41 +15138,7 @@ StartChar: u0937_u094D.half_u091F.pres
 Encoding: 65684 -1 310
 Width: 555
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 20
- 19
- 2
- 18
- 15
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 42
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 338 18 basechar 0
 LayerCount: 2
 Fore
@@ -26208,41 +15189,7 @@ StartChar: u0937_u094D.half_u0920.pres
 Encoding: 65685 -1 311
 Width: 600
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 26
- 25
- 2
- 24
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 48
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 316 26 basechar 0
 LayerCount: 2
 Fore
@@ -26297,43 +15244,7 @@ StartChar: u0939_u094D.half_u0923.pres
 Encoding: 65686 -1 312
 Width: 720
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 52
- 51
- 4
- 31
- 30
- 1
- 12
- 11
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 67
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 633 15 basechar 0
 AnchorPoint: "Anchor-0" 417.5 664.5 basechar 0
 LayerCount: 2
@@ -26402,38 +15313,7 @@ StartChar: u0939_u094D.half_u0928.pres
 Encoding: 65687 -1 313
 Width: 620
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 48
- 47
- 102
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 63
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 540 23 basechar 0
 AnchorPoint: "Anchor-0" 422 664.715 basechar 0
 LayerCount: 2
@@ -26497,43 +15377,7 @@ StartChar: u0939_u094D.half_u092E.pres
 Encoding: 65688 -1 314
 Width: 740
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 34
- 33
- 133
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 68
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 612 15 basechar 0
 AnchorPoint: "Anchor-0" 609 665.12 basechar 0
 LayerCount: 2
@@ -26603,41 +15447,7 @@ StartChar: u0939_u094D.half_u092F.pres
 Encoding: 65689 -1 315
 Width: 797
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 26
- 92
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 68
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 668 21 basechar 0
 AnchorPoint: "Anchor-0" 666 664.093 basechar 0
 LayerCount: 2
@@ -26705,43 +15515,7 @@ StartChar: u0939_u094D.half_u0932.pres
 Encoding: 65690 -1 316
 Width: 647
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 59
- 58
- 143
- 20
- 19
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 74
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 567 21 basechar 0
 AnchorPoint: "Anchor-0" 421 664.208 basechar 0
 LayerCount: 2
@@ -26812,43 +15586,7 @@ StartChar: u0939_u094D.half_u0935.pres
 Encoding: 65691 -1 317
 Width: 576
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 58
- 57
- 144
- 20
- 19
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 73
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-3" 490 18 basechar 0
 AnchorPoint: "Anchor-0" 420 664.709 basechar 0
 LayerCount: 2
@@ -26918,38 +15656,7 @@ StartChar: u0938_u094D.half_u0924_u0930_u094D.blwf.vatu.pres
 Encoding: 65692 -1 318
 Width: 924
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 56
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -27008,42 +15715,7 @@ StartChar: u091C_u094D.half_u091C_u094D.half.pres
 Encoding: 65693 -1 319
 Width: 506
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 12
- 22
- 21
- 1
- 3
- 0
- 21
- 48
- 47
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 51
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -27098,41 +15770,7 @@ StartChar: u0926_u0943.blws
 Encoding: 65694 -1 320
 Width: 552
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 40
- 39
- 2
- 38
- 44
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 57
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -27189,36 +15827,7 @@ StartChar: u0930_u0941.psts
 Encoding: 65695 -1 321
 Width: 639
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 33
- 31
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 44
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 280.5 664.778 basechar 0
 LayerCount: 2
 Fore
@@ -27267,36 +15876,7 @@ StartChar: u0930_u0942.psts
 Encoding: 65696 -1 322
 Width: 760
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 8
- 44
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 55
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 AnchorPoint: "Anchor-0" 279 664.774 basechar 0
 LayerCount: 2
 Fore
@@ -27353,38 +15933,7 @@ StartChar: u0939_u0943.blws
 Encoding: 65697 -1 323
 Width: 547
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 9
- 54
- 53
- 119
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 69
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -27448,38 +15997,7 @@ StartChar: glyph324
 Encoding: 65698 -1 324
 Width: 0
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 10
- 8
- 145
- 1
- 120
- 7
- 1
- 70
- 1
- 7
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MIAP[rnd]
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 17
- 7
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -27504,41 +16022,7 @@ StartChar: u0918_u0930_u094D.blwf.vatu
 Encoding: 65699 -1 325
 Width: 644
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 8
- 81
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 7
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 45
- 7
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -27589,41 +16073,7 @@ StartChar: u091A_u0930_u094D.blwf.vatu
 Encoding: 65700 -1 326
 Width: 637
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 8
- 81
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 7
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 33
- 7
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -27665,49 +16115,7 @@ StartChar: u0925_u0930_u094D.blwf.vatu
 Encoding: 65701 -1 327
 Width: 692
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 47
- 81
- 26
- 25
- 2
- 24
- 75
- 45
- 44
- 1
- 41
- 40
- 70
- 1
- 7
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 50
- 7
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -27759,49 +16167,7 @@ StartChar: u0927_u0930_u094D.blwf.vatu
 Encoding: 65702 -1 328
 Width: 653
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 56
- 81
- 13
- 12
- 2
- 11
- 75
- 54
- 53
- 1
- 50
- 49
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 59
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -27860,41 +16226,7 @@ StartChar: u0928_u0930_u094D.blwf.vatu
 Encoding: 65703 -1 329
 Width: 593
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 14
- 12
- 2
- 11
- 1
- 8
- 7
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 29
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -27933,41 +16265,7 @@ StartChar: u0932_u0930_u094D.blwf.vatu
 Encoding: 65704 -1 330
 Width: 731
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 40
- 39
- 2
- 20
- 1
- 36
- 35
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 43
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -28015,44 +16313,7 @@ StartChar: u0919_u094D.half_u0915_u094D.half.half
 Encoding: 65705 -1 331
 Width: 704
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 89
- 88
- 2
- 0
- 103
- 86
- 9
- 57
- 56
- 70
- 1
- 4
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIRP[rp0,min,rnd,black]
-MIAP[rnd]
-SLOOP
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 103
- 4
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -28142,45 +16403,7 @@ StartChar: u094B_u0902.abvs
 Encoding: 65706 -1 332
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 10
- 9
- 1
- 6
- 5
- 2
- 3
- 1
- 4
- 53
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 18
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -28213,45 +16436,7 @@ StartChar: u094B_u0930_u094D.rphf.abvs
 Encoding: 65707 -1 333
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 27
- 26
- 1
- 23
- 22
- 2
- 3
- 1
- 4
- 53
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 30
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -28291,45 +16476,7 @@ StartChar: u094B_u0930_u094D.rphf.abvs_u0902.abvs
 Encoding: 65708 -1 334
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 14
- 27
- 26
- 1
- 23
- 22
- 2
- 3
- 1
- 4
- 53
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 35
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -28374,58 +16521,7 @@ StartChar: u094C_u0902.abvs
 Encoding: 65709 -1 335
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 23
- 6
- 1
- 6
- 1
- 6
- 1
- 6
- 1
- 13
- 12
- 1
- 9
- 8
- 5
- 2
- 4
- 1
- 7
- 53
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-MIAP[rnd]
-MIRP[rp0,min,rnd,black]
-MIAP[rnd]
-MIRP[rp0,min,rnd,black]
-IUP[x]
-IUP[y]
-PUSHW_3
- 21
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -28461,46 +16557,7 @@ StartChar: u094C_u0930_u094D.rphf.abvs
 Encoding: 65710 -1 336
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 27
- 26
- 1
- 23
- 22
- 5
- 2
- 4
- 1
- 7
- 53
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 30
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -28541,46 +16598,7 @@ StartChar: u094C_u0930_u094D.rphf.abvs_u0902.abvs
 Encoding: 65711 -1 337
 Width: 266
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 15
- 27
- 26
- 1
- 23
- 22
- 5
- 2
- 4
- 1
- 7
- 53
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MIAP[rnd]
-MDAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 35
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -28626,41 +16644,7 @@ StartChar: u091E_u0930_u094D.blwf.vatu
 Encoding: 65712 -1 338
 Width: 737
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 39
- 81
- 37
- 36
- 1
- 33
- 32
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 52
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -28714,41 +16698,7 @@ StartChar: u0923_u0930_u094D.blwf.vatu
 Encoding: 65713 -1 339
 Width: 669
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 13
- 81
- 11
- 10
- 1
- 7
- 6
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 32
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -28791,41 +16741,7 @@ StartChar: u092F_u0930_u094D.blwf.vatu
 Encoding: 65714 -1 340
 Width: 599
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 8
- 77
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 36
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -28869,41 +16785,7 @@ StartChar: u0937_u0930_u094D.blwf.vatu
 Encoding: 65715 -1 341
 Width: 553
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 11
- 8
- 15
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 33
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -28948,49 +16830,7 @@ StartChar: u0915_u094D_u0937.akhn_u0930_u094D.blwf.vatu
 Encoding: 65716 -1 342
 Width: 657
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 16
- 37
- 76
- 51
- 50
- 2
- 49
- 75
- 6
- 5
- 1
- 2
- 1
- 70
- 1
- 3
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 78
- 3
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -29063,44 +16903,7 @@ StartChar: u091C_u094D_u091E.akhn_u0930_u094D.blwf.vatu
 Encoding: 65717 -1 343
 Width: 711
 GlyphClass: 2
-Flags: W
-TtInstrs:
-NPUSHW
- 13
- 34
- 74
- 33
- 6
- 2
- 5
- 1
- 2
- 1
- 70
- 1
- 1
- 70
-SROUND
-MDAP[rnd]
-SHZ[rp1]
-RTG
-SROUND
-SVTCA[y-axis]
-MDAP[rnd]
-ALIGNRP
-MIAP[rnd]
-SLOOP
-ALIGNRP
-MIAP[rnd]
-SVTCA[x-axis]
-IUP[x]
-IUP[y]
-PUSHW_3
- 68
- 1
- 5
-CALL
-EndTTInstrs
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -30293,7 +18096,7 @@ EndChar
 StartChar: nepali_jha_half
 Encoding: 65533 65533 367
 Width: 702
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" 526 664 basechar 0
 LayerCount: 2
 Fore

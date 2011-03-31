@@ -1,8 +1,11 @@
 				  lohit-devanagari
-Current Version :- 2.4.4
+Current Version :- 2.4.5
 
+* Thu Mar 31 2010 Pravin Satpute <psatpute@redhat.com> - 2.4.5
+- removed hinting instructions, see rh bugzilla #682667
 - resolved bug 670467, 648423
 
+* Tue Dec 28 2010 Pravin Satpute <psatpute@redhat.com> - 2.4.4
 - added new rupee sign 
 - added local feature for Nepali Language 
 - added Nepali variants for 5, 8, 'kra', 'jha' resolved bug 648362, 648429,
