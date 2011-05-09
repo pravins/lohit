@@ -4,7 +4,7 @@ FullName: Lohit Malayalam
 FamilyName: Lohit Malayalam
 Weight: Book
 Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
-Version: 2.4.4
+Version: 2.4.5
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -13,14 +13,13 @@ Descent: 374
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 761 1808917587 3643938]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159524182
-ModificationTime: 1302675201
+ModificationTime: 1304935180
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -70,6 +69,7 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 13"  {"'p
 Lookup: 4 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 14"  {"'psts' Post Base Substitutions in Malay+AQEA-lam lookup 14 subtable"  } ['psts' ('mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions lookup 17"  {"'psts' Post Base Substitutions lookup 17-1"  } ['psts' ('DFLT' <'dflt' > 'mlym' <'dflt' > 'mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms in Malay+AQEA-lam lookup 15"  {"'pstf' Post Base Forms in Malay+AQEA-lam lookup 15 subtable"  } ['pstf' ('mlym' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 13 subtable"  0 0 0 1
  2 1 0
@@ -341,7 +341,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Malayalam : 19-7-2006" "" "Version 2.4.4" 
+LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Malayalam : 19-7-2006" "" "Version 2.4.5" 
 GaspTable: 1 65535 2
 Encoding: UnicodeBmp
 Compacted: 1
@@ -351,7 +351,9 @@ DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 0 42 9
-BeginChars: 65725 299
+BeginPrivate: 0
+EndPrivate
+BeginChars: 65725 300
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -19736,6 +19738,38 @@ SplineSet
  -703 -45 -703 -45 -509 -37 c 1,61,62
  -395 -37 -395 -37 -356 -108 c 1,63,64
  -311 -33 -311 -33 -229 -34 c 0,21,22
+EndSplineSet
+EndChar
+
+StartChar: uni20B9
+Encoding: 8377 8377 299
+Width: 624
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+358 499 m 0,0,1
+ 359 508 359 508 359 513 c 1,2,-1
+ 59 513 l 1,3,-1
+ 85 576 l 1,4,-1
+ 346 576 l 1,5,6
+ 340 588 340 588 331 598 c 0,7,8
+ 280 653 280 653 165 653 c 2,9,-1
+ 59 653 l 1,10,-1
+ 85 716 l 1,11,-1
+ 583 716 l 1,12,-1
+ 557 653 l 1,13,-1
+ 367 653 l 1,14,15
+ 406 630 406 630 420 576 c 1,16,-1
+ 583 576 l 1,17,-1
+ 557 513 l 1,18,-1
+ 429 513 l 1,19,20
+ 429 357.613 429 357.613 171 339 c 1,21,-1
+ 507 -1 l 1,22,-1
+ 407 -1 l 1,23,-1
+ 70 336 l 1,24,-1
+ 70 395 l 1,25,26
+ 345.891 393 345.891 393 358 499 c 0,0,1
 EndSplineSet
 EndChar
 EndChars
