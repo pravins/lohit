@@ -1,5 +1,10 @@
 				  lohit-kannada
-Current Version :- 2.4.5
+Current Version :- 2.4.6
+
+* Thu Mar 18 2010 Pravin Satpute <psatpute@redhat.com> - 2.4.6
+- fix rh bugzilla 578032, 576105, 673414, 692362 and 694705
+- added new rupee symbol
+- enable autohint in fontconfig file
 
 * Thu Mar 18 2010 Pravin Satpute <psatpute@redhat.com> - 2.4.5
 - fix rh bugzilla 559462, 576105
