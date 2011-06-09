@@ -1,6 +1,8 @@
 				  lohit-devanagari
 Current Version :- 2.4.5
 
+- applied patch from Bernard Massot <bmassot@free.fr> for fixing self interecting paths
+
 * Thu Mar 31 2011 Pravin Satpute <psatpute@redhat.com> - 2.4.5
 - removed hinting instructions, see rh bugzilla #682667
 - resolved bug 670467, 648423
