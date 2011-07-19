@@ -13,14 +13,13 @@ Descent: 205
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 808 1214965479 5361592]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1304969534
+ModificationTime: 1311070966
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -155,7 +154,7 @@ EndFPST
 ChainSub2: coverage "'pres' Pre Base Substituions in Devanagari lookup 59-2"  0 0 0 1
  1 0 1
   Coverage: 8 glyph206
-  FCoverage: 223 u0924_u094D.half_u0924.pres u0917_u094D.half u095A_u094D.half u0939_u094D.half_u0923.pres u0939_u094D.half_u0928.pres u0939_u094D.half_u092E.pres u0939_u094D.half_u092F.pres u0938_u094D.half_u0924_u0930_u094D.blwf.vatu.pres
+  FCoverage: 279 u0924_u094D.half_u0924.pres u0917_u094D.half u095A_u094D.half u0939_u094D.half_u0923.pres u0939_u094D.half_u0928.pres u0939_u094D.half_u092E.pres u0939_u094D.half_u092F.pres u0938_u094D.half_u0924_u0930_u094D.blwf.vatu.pres u091E_u094D.half_u091A.pres u091E_u094D.half_u091C.pres
  1
   SeqLookup: 0 "Single Substitution in Devanagari lookup 81" 
 EndFPST
@@ -169,7 +168,7 @@ EndFPST
 ChainSub2: coverage "'pres' Pre Base Substituions in Devanagari lookup 59-1"  0 0 0 1
  1 0 1
   Coverage: 8 glyph206
-  FCoverage: 1599 u0915_u094D.half_u0915.pres u0915_u094D.half_u0924.pres u0915_u094D.half_u0932.pres u0915_u094D.half_u0935.pres u0917_u094D.half_u0928.pres u0919_u094D.half_u0915.pres u0919_u094D.half_u0916.pres u0919_u094D.half_u0917.pres u0919_u094D.half_u0918.pres u0919_u094D.half_u092E.pres u0919_u094D.half_u0915_u094D_u0937.akhn.pres u091A_u094D.half_u091A.pres u091B_u094D.half_u0935.pres u091E_u094D.half_u091A.pres u091F_u094D.half_u091F.pres u091F_u094D.half_u0920.pres u091F_u094D.half_u0935.pres u0920_u094D.half_u0920.pres u0921_u094D.half_u0921.pres u0921_u094D.half_u0922.pres u0922_u094D.half_u0922.pres u0926_u094D.half_u0917.pres u0926_u094D.half_u0918.pres u0926_u094D.half_u0926.pres u0926_u094D.half_u0927.pres u0926_u094D.half_u0928.pres u0926_u094D.half_u092C.pres u0926_u094D.half_u092D.pres u0926_u094D.half_u092E.pres u0926_u094D.half_u0935.pres u0928_u094D.half_u0928.pres u092A_u094D.half_u0924.pres u092A_u094D.half_u0932.pres u092B_u094D.half_u0932.pres u0932_u094D.half_u0932.pres u0936_u094D.half_u0930_u094D.blwf.vatu_u091A.pres u0936_u094D.half_u0930_u094D.blwf.vatu_u0928.pres u0936_u094D.half_u0930_u094D.blwf.vatu_u0932.pres u0936_u094D.half_u0930_u094D.blwf.vatu_u0935.pres u0937_u094D.half_u091F.pres u0937_u094D.half_u0920.pres u0939_u094D.half_u0923.pres u0939_u094D.half_u0928.pres u0939_u094D.half_u0932.pres u0939_u094D.half_u0935.pres u091C_u094D.half_u091C_u094D.half.pres u0919_u094D.half_u0915_u094D.half.half u091E_u0930_u094D.blwf.vatu u0923_u0930_u094D.blwf.vatu u092F_u0930_u094D.blwf.vatu u0937_u0930_u094D.blwf.vatu u0915_u094D_u0937.akhn_u0930_u094D.blwf.vatu
+  FCoverage: 1571 u0915_u094D.half_u0915.pres u0915_u094D.half_u0924.pres u0915_u094D.half_u0932.pres u0915_u094D.half_u0935.pres u0917_u094D.half_u0928.pres u0919_u094D.half_u0915.pres u0919_u094D.half_u0916.pres u0919_u094D.half_u0917.pres u0919_u094D.half_u0918.pres u0919_u094D.half_u092E.pres u0919_u094D.half_u0915_u094D_u0937.akhn.pres u091A_u094D.half_u091A.pres u091B_u094D.half_u0935.pres u091F_u094D.half_u091F.pres u091F_u094D.half_u0920.pres u091F_u094D.half_u0935.pres u0920_u094D.half_u0920.pres u0921_u094D.half_u0921.pres u0921_u094D.half_u0922.pres u0922_u094D.half_u0922.pres u0926_u094D.half_u0917.pres u0926_u094D.half_u0918.pres u0926_u094D.half_u0926.pres u0926_u094D.half_u0927.pres u0926_u094D.half_u0928.pres u0926_u094D.half_u092C.pres u0926_u094D.half_u092D.pres u0926_u094D.half_u092E.pres u0926_u094D.half_u0935.pres u0928_u094D.half_u0928.pres u092A_u094D.half_u0924.pres u092A_u094D.half_u0932.pres u092B_u094D.half_u0932.pres u0932_u094D.half_u0932.pres u0936_u094D.half_u0930_u094D.blwf.vatu_u091A.pres u0936_u094D.half_u0930_u094D.blwf.vatu_u0928.pres u0936_u094D.half_u0930_u094D.blwf.vatu_u0932.pres u0936_u094D.half_u0930_u094D.blwf.vatu_u0935.pres u0937_u094D.half_u091F.pres u0937_u094D.half_u0920.pres u0939_u094D.half_u0923.pres u0939_u094D.half_u0928.pres u0939_u094D.half_u0932.pres u0939_u094D.half_u0935.pres u091C_u094D.half_u091C_u094D.half.pres u0919_u094D.half_u0915_u094D.half.half u091E_u0930_u094D.blwf.vatu u0923_u0930_u094D.blwf.vatu u092F_u0930_u094D.blwf.vatu u0937_u0930_u094D.blwf.vatu u0915_u094D_u0937.akhn_u0930_u094D.blwf.vatu
  1
   SeqLookup: 0 "Single Substitution in Devanagari lookup 79" 
 EndFPST
@@ -907,6 +906,8 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 0 38 14
+BeginPrivate: 0
+EndPrivate
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Devanagari lookup 3" "Anchor-1"  "'abvm' Above Base Mark in Devanagari lookup 2" "Anchor-2"  "'abvm' Above Base Mark in Devanagari lookup 1" "Anchor-3"  "'blwm' Below Base Mark in Devanagari lookup 0" 
 BeginChars: 65724 368

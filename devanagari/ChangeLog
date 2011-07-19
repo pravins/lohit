@@ -1,6 +1,7 @@
 				  lohit-devanagari
 Current Version :- 2.4.5
 
+- resolved bug 722382
 - applied patch from Bernard Massot <bmassot@free.fr> for fixing self interecting paths
 
 * Thu Mar 31 2011 Pravin Satpute <psatpute@redhat.com> - 2.4.5
