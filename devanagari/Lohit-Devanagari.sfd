@@ -135,7 +135,7 @@ Lookup: 1 0 0 "Single Substitution in Devanagari lookup 79"  {"Single Substituti
 Lookup: 6 0 0 "'pres' Pre Base Substituions in Devanagari lookup 59"  {"'pres' Pre Base Substituions in Devanagari lookup 59-3"  "'pres' Pre Base Substituions in Devanagari lookup 59-1"  "'pres' Pre Base Substituions in Devanagari lookup 59-2"  } ['pres' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
 Lookup: 1 0 0 "Single Substitution in Devanagari lookup 81"  {"Single Substitution in Devanagari lookup 81-2"  "Single Substitution in Devanagari lookup 81-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 78"  {"Single Substitution lookup 78"  } []
-Lookup: 1 0 0 "Single Substitution in Devanagari lookup 80"  {"Singal Substitution in Devanagari lookup 80-1"  } ['    ' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
+Lookup: 1 0 0 "Single Substitution in Devanagari lookup 80"  {"Singal Substitution in Devanagari lookup 80-1"  } []
 Lookup: 260 0 0 "'blwm' Below Base Mark in Devanagari lookup 0"  {"'blwm' Below Base Mark in Devanagari lookup 0"  } ['blwm' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
 Lookup: 262 0 0 "'abvm' Above Base Mark in Devanagari lookup 1"  {"'abvm' Above Base Mark in Devanagari lookup 1"  } ['abvm' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]
 Lookup: 260 0 0 "'abvm' Above Base Mark in Devanagari lookup 2"  {"'abvm' Above Base Mark in Devanagari lookup 2"  } ['abvm' ('deva' <'dflt' > 'deva' <'NEP ' > ) ]

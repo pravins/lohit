@@ -3,6 +3,7 @@ Current Version :- 2.4.5
 
 - resolved bug 722382
 - applied patch from Bernard Massot <bmassot@free.fr> for fixing self interecting paths
+- removed script tag from single subst feature, patch from Bernard Massot <bmassot@free.fr> 
 
 * Thu Mar 31 2011 Pravin Satpute <psatpute@redhat.com> - 2.4.5
 - removed hinting instructions, see rh bugzilla #682667
