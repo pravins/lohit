@@ -1,7 +1,8 @@
 				  lohit-oriya
-Current Version :- 2.4.3
+Current Version :- 2.4.4
 
-* Mon Oct 25 2010 Pravin Satpute <psatpute@redhat.com> - 2.4.4
+* Tue Aug 30 2011 Pravin Satpute <psatpute@redhat.com> - 2.4.4
+- added Indian rupee sign U+20B9
 - removed prepend_first from conf file, see bug #578037 for more info
 - gsub rules were not working well with qt, added pres and some akhn gsub for resolving it
 - see bug #623995 and bug #639977
