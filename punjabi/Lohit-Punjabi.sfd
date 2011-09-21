@@ -3,8 +3,8 @@ FontName: Lohit-Punjabi
 FullName: Lohit Punjabi
 FamilyName: Lohit Punjabi
 Weight: Book
-Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
-Version: 2.4.4
+Copyright: Copyright 2011 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
+Version: 2.5.0
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -13,14 +13,13 @@ Descent: 154
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 648 100124046 5567902]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159495707
-ModificationTime: 1296713255
+ModificationTime: 1316598861
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -64,6 +63,7 @@ Lookup: 1 0 0 "Single Substitution lookup 9"  {"Single Substitution lookup 9 sub
 Lookup: 260 0 0 "'blwm' Below Base Mark lookup 2"  {"'blwm' Below Base Mark lookup 2-1"  } ['blwm' ('guru' <'dflt' > ) ]
 Lookup: 260 0 0 "'abvm' Above Base Mark in Gurmukhi lookup 0"  {"'abvm' Above Base Mark in Gurmukhi lookup 0 subtable"  } ['abvm' ('guru' <'dflt' > ) ]
 Lookup: 260 0 0 "'abvm' Above Base Mark in Gurmukhi lookup 1"  {"'abvm' Above Base Mark in Gurmukhi lookup 1 subtable"  } ['abvm' ('guru' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'psts' Post Base Substitutions in Gurmukhi lookup 6 subtable"  0 0 0 1
  1 1 0
@@ -523,7 +523,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Punjabi" "" "Version 2.4.4" 
+LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Punjabi" "" "Version 2.5.0" 
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -532,6 +532,8 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 0 37 14
+BeginPrivate: 0
+EndPrivate
 TeXData: 1 0 0 293164 146582 97721 0 1048576 97721 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-2"  "'blwm' Below Base Mark lookup 2-1" "Anchor-0"  "'abvm' Above Base Mark in Gurmukhi lookup 1 subtable" "Anchor-1"  "'abvm' Above Base Mark in Gurmukhi lookup 0 subtable" 
 BeginChars: 65555 166
@@ -5024,7 +5026,7 @@ StartChar: u0A4D
 Encoding: 2637 2637 106
 Width: 0
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 59 0 mark 0
 LayerCount: 2
 Fore
@@ -7189,7 +7191,7 @@ EndChar
 StartChar: uni0A51
 Encoding: 2641 2641 154
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" -47 0 mark 0
 LayerCount: 2
 Fore

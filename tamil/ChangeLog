@@ -1,5 +1,10 @@
 				  lohit-tamil
-Current Version :- 2.4.5
+Current Version :- 2.5.0
+
+* Wed Sep 21 2011 Pravin Satpute <psatpute@redhat.com> - 2.5.0
+- relicensing to OFL 1.1
+- resolved 629824, 673419
+- updated conf file
 
 * Tue Nov 24 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.5
 - fixed rh bug 536724

@@ -16,11 +16,11 @@ cd trunk
 sh generate.sh
 cp ChangeLog ChangeLog.old
 #for generating binary tar ball
-for i in assamese bengali devanagari gujarati  hindi  kannada  malayalam  oriya  punjabi  tamil  telugu marathi maithili konkani kashmiri sindhi nepali
+for i in assamese bengali devanagari gujarati  kannada  malayalam  oriya  punjabi  tamil  telugu 
 do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-ttf-$ver
-cp COPYRIGHT COPYING ChangeLog.old README README.cvs AUTHORS $i/* lohit-$i-ttf-$ver
+cp COPYRIGHT OFL.txt ChangeLog.old README README.cvs AUTHORS $i/* lohit-$i-ttf-$ver
 rm -rf lohit-$i-ttf-$ver/.svn lohit-$i-ttf-$ver/*.sfd
 tar -cf lohit-$i-ttf-$ver.tar lohit-$i-ttf-$ver
 gzip lohit-$i-ttf-$ver.tar
@@ -28,11 +28,11 @@ rm -rf lohit-$i-ttf-$ver
 done
 
 #for generating source tar ball
-for i in assamese bengali devanagari gujarati  hindi  kannada  malayalam  oriya  punjabi  tamil  telugu marathi maithili konkani kashmiri sindhi nepali
+for i in assamese bengali devanagari gujarati  kannada  malayalam  oriya  punjabi  tamil  telugu
 do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-$ver
-cp COPYRIGHT COPYING ChangeLog.old README README.cvs AUTHORS Makefile generate.pe $i/* lohit-$i-$ver
+cp COPYRIGHT OFL.txt ChangeLog.old README README.cvs AUTHORS Makefile generate.pe $i/* lohit-$i-$ver
 rm -rf lohit-$i-$ver/.svn
 rm -rf lohit-$i-$ver/*.ttf
 tar -cf lohit-$i-$ver.tar lohit-$i-$ver

@@ -1,5 +1,8 @@
 				  lohit-tegulu
-Current Version :- 2.4.6
+Current Version :- 2.5.0
+
+* Wed Sep 21 2011 Pravin Satpute <psatpute@redhat.com> - 2.5.0
+- relicensing to OFL 1.1
 
 * Tue Aug 30 2011 Pravin Satpute <psatpute@redhat.com> - 2.4.6
 - Major bug fixing for below base glyphs merging

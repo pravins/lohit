@@ -3,8 +3,8 @@ FontName: Lohit-Gujarati
 FullName: Lohit Gujarati
 FamilyName: Lohit Gujarati
 Weight: Book
-Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
-Version: 2.4.5
+Copyright: Copyright 2011 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt).
+Version: 2.5.0
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -13,14 +13,13 @@ Descent: 167
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 648 100124046 12582592]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1301460384
+ModificationTime: 1316598291
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -68,6 +67,7 @@ Lookup: 1 0 0 "Single Substitution lookup 13"  {"Single Substitution lookup 13 s
 Lookup: 260 0 0 "'blwm' Below Base Mark in Gujarati lookup 0"  {"'blwm' Below Base Mark in Gujarati lookup 0 subtable"  } ['blwm' ('gujr' <'dflt' > ) ]
 Lookup: 260 0 0 "'blwm' Below Base Mark in Gujarati lookup 1"  {"'blwm' Below Base Mark in Gujarati lookup 1 subtable"  } ['blwm' ('gujr' <'dflt' > ) ]
 Lookup: 260 0 0 "'abvm' Above Base Mark in Gujarati lookup 2"  {"'abvm' Above Base Mark in Gujarati lookup 2 subtable"  } ['abvm' ('gujr' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'psts' Post Base Substitutions in Gujarati lookup 7 subtable"  0 0 0 1
  1 0 1
@@ -365,15 +365,16 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Gujarati" "" "Version 2.4.5" 
-GaspTable: 3 8 2 18 1 255 3
+LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Gujarati" "" "Version 2.5.0" 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 38 14
+WinInfo: 38 38 14
+BeginPrivate: 0
+EndPrivate
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Gujarati lookup 2 subtable" "Anchor-1"  "'blwm' Below Base Mark in Gujarati lookup 1 subtable" "Anchor-2"  "'blwm' Below Base Mark in Gujarati lookup 0 subtable" 
 BeginChars: 65773 346
 
@@ -381,7 +382,7 @@ StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 800
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -428,7 +429,7 @@ StartChar: exclam
 Encoding: 33 33 4
 Width: 290
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -457,7 +458,7 @@ StartChar: quotedbl
 Encoding: 34 34 5
 Width: 376
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -480,7 +481,7 @@ StartChar: quotesingle
 Encoding: 39 39 6
 Width: 246
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -497,7 +498,7 @@ StartChar: parenleft
 Encoding: 40 40 7
 Width: 465
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -520,7 +521,7 @@ StartChar: parenright
 Encoding: 41 41 8
 Width: 450
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -543,7 +544,7 @@ StartChar: comma
 Encoding: 44 44 9
 Width: 355
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -569,7 +570,7 @@ StartChar: hyphen
 Encoding: 45 45 10
 Width: 620
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -586,7 +587,7 @@ StartChar: period
 Encoding: 46 46 11
 Width: 290
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -607,7 +608,7 @@ StartChar: colon
 Encoding: 58 58 12
 Width: 310
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -638,7 +639,7 @@ StartChar: semicolon
 Encoding: 59 59 13
 Width: 340
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -674,7 +675,7 @@ StartChar: question
 Encoding: 63 63 14
 Width: 506
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -723,7 +724,7 @@ StartChar: underscore
 Encoding: 95 95 15
 Width: 715
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -740,7 +741,7 @@ StartChar: grave
 Encoding: 96 96 16
 Width: 286
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -757,7 +758,7 @@ StartChar: u0A81
 Encoding: 2404 2404 17
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -774,7 +775,7 @@ StartChar: u0A82
 Encoding: 2405 2405 18
 Width: 420
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -797,7 +798,7 @@ StartChar: u0A83
 Encoding: 2689 2689 19
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -114 -16 mark 0
 LayerCount: 2
 Fore
@@ -831,7 +832,7 @@ StartChar: u0A85
 Encoding: 2690 2690 20
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -116 60 mark 0
 LayerCount: 2
 Fore
@@ -853,7 +854,7 @@ StartChar: u0A86
 Encoding: 2691 2691 21
 Width: 305
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -884,7 +885,7 @@ StartChar: u0A87
 Encoding: 2693 2693 22
 Width: 731
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -933,7 +934,7 @@ StartChar: u0A88
 Encoding: 2694 2694 23
 Width: 971
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -988,7 +989,7 @@ StartChar: u0A89
 Encoding: 2695 2695 24
 Width: 529
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1038,7 +1039,7 @@ StartChar: u0A8A
 Encoding: 2696 2696 25
 Width: 532
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1092,7 +1093,7 @@ StartChar: u0A8B
 Encoding: 2697 2697 26
 Width: 550
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1138,7 +1139,7 @@ StartChar: u0A8C
 Encoding: 2698 2698 27
 Width: 735
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1190,7 +1191,7 @@ StartChar: u0A8D
 Encoding: 2699 2699 28
 Width: 879
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1251,7 +1252,7 @@ StartChar: u0A8F
 Encoding: 2700 2700 29
 Width: 610
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1305,7 +1306,7 @@ StartChar: u0A90
 Encoding: 2701 2701 30
 Width: 731
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1366,7 +1367,7 @@ StartChar: u0A91
 Encoding: 2703 2703 31
 Width: 731
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1425,7 +1426,7 @@ StartChar: u0A93
 Encoding: 2704 2704 32
 Width: 731
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1494,7 +1495,7 @@ StartChar: u0A94
 Encoding: 2705 2705 33
 Width: 968
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1561,7 +1562,7 @@ StartChar: u0A95
 Encoding: 2707 2707 34
 Width: 971
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1626,7 +1627,7 @@ StartChar: u0A96
 Encoding: 2708 2708 35
 Width: 969
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -1701,7 +1702,7 @@ StartChar: u0A97
 Encoding: 2709 2709 36
 Width: 474
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 224 0 basechar 0
 AnchorPoint: "Anchor-1" 234 -12 basechar 0
 AnchorPoint: "Anchor-0" 260 0 basechar 0
@@ -1749,7 +1750,7 @@ StartChar: u0A98
 Encoding: 2710 2710 37
 Width: 636
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 228 42 basechar 0
 LayerCount: 2
 Fore
@@ -1791,7 +1792,7 @@ StartChar: u0A99
 Encoding: 2711 2711 38
 Width: 578
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 178 100 basechar 0
 LayerCount: 2
 Fore
@@ -1829,7 +1830,7 @@ StartChar: u0A9A
 Encoding: 2712 2712 39
 Width: 560
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 152 32 basechar 0
 LayerCount: 2
 Fore
@@ -1874,7 +1875,7 @@ StartChar: u0A9B
 Encoding: 2713 2713 40
 Width: 539
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 264 0 basechar 0
 AnchorPoint: "Anchor-1" 262 0 basechar 0
 AnchorPoint: "Anchor-0" 288 -8 basechar 0
@@ -1926,7 +1927,7 @@ StartChar: u0A9C
 Encoding: 2714 2714 41
 Width: 638
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 290 58 basechar 0
 LayerCount: 2
 Fore
@@ -1969,7 +1970,7 @@ StartChar: u0A9D
 Encoding: 2715 2715 42
 Width: 622
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 296 0 basechar 0
 AnchorPoint: "Anchor-1" 288 -6 basechar 0
 AnchorPoint: "Anchor-0" 430 -6 basechar 0
@@ -2029,7 +2030,7 @@ StartChar: u0A9E
 Encoding: 2716 2716 43
 Width: 594
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 368 4 basechar 0
 AnchorPoint: "Anchor-1" 372 0 basechar 0
 AnchorPoint: "Anchor-0" 526 0 basechar 0
@@ -2085,7 +2086,7 @@ StartChar: u0A9F
 Encoding: 2717 2717 44
 Width: 620
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 148 356 basechar 0
 LayerCount: 2
 Fore
@@ -2137,7 +2138,7 @@ StartChar: u0AA0
 Encoding: 2718 2718 45
 Width: 673
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 322 142 basechar 0
 LayerCount: 2
 Fore
@@ -2176,7 +2177,7 @@ StartChar: u0AA1
 Encoding: 2719 2719 46
 Width: 442
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 216 0 basechar 0
 AnchorPoint: "Anchor-1" 236 -12 basechar 0
 AnchorPoint: "Anchor-0" 238 0 basechar 0
@@ -2218,7 +2219,7 @@ StartChar: u0AA2
 Encoding: 2720 2720 47
 Width: 495
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 256 -16 basechar 0
 AnchorPoint: "Anchor-1" 248 -12 basechar 0
 AnchorPoint: "Anchor-0" 272 -8 basechar 0
@@ -2263,7 +2264,7 @@ StartChar: u0AA3
 Encoding: 2721 2721 48
 Width: 498
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 264 -8 basechar 0
 AnchorPoint: "Anchor-1" 268 -12 basechar 0
 AnchorPoint: "Anchor-0" 272 -8 basechar 0
@@ -2305,7 +2306,7 @@ StartChar: u0AA4
 Encoding: 2722 2722 49
 Width: 478
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 240 -8 basechar 0
 AnchorPoint: "Anchor-1" 238 -12 basechar 0
 AnchorPoint: "Anchor-0" 264 0 basechar 0
@@ -2362,7 +2363,7 @@ StartChar: u0AA5
 Encoding: 2723 2723 50
 Width: 758
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 314 -30 basechar 0
 LayerCount: 2
 Fore
@@ -2414,7 +2415,7 @@ StartChar: u0AA6
 Encoding: 2724 2724 51
 Width: 561
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 64 16 basechar 0
 LayerCount: 2
 Fore
@@ -2444,7 +2445,7 @@ StartChar: u0AA7
 Encoding: 2725 2725 52
 Width: 594
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 86 96 basechar 0
 LayerCount: 2
 Fore
@@ -2492,7 +2493,7 @@ StartChar: u0AA8
 Encoding: 2726 2726 53
 Width: 465
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 256 -8 basechar 0
 LayerCount: 2
 Fore
@@ -2533,7 +2534,7 @@ StartChar: u0AAA
 Encoding: 2727 2727 54
 Width: 596
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 224 56 basechar 0
 LayerCount: 2
 Fore
@@ -2574,7 +2575,7 @@ StartChar: u0AAB
 Encoding: 2728 2728 55
 Width: 587
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 198 60 basechar 0
 LayerCount: 2
 Fore
@@ -2613,7 +2614,7 @@ StartChar: u0AAC
 Encoding: 2730 2730 56
 Width: 562
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 226 112 basechar 0
 LayerCount: 2
 Fore
@@ -2649,7 +2650,7 @@ StartChar: u0AAD
 Encoding: 2731 2731 57
 Width: 444
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 142 -12 basechar 0
 AnchorPoint: "Anchor-1" 258 -88 basechar 0
 AnchorPoint: "Anchor-0" 244 0 basechar 0
@@ -2702,7 +2703,7 @@ StartChar: u0AAE
 Encoding: 2732 2732 58
 Width: 664
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 240 90 basechar 0
 LayerCount: 2
 Fore
@@ -2741,7 +2742,7 @@ StartChar: u0AAF
 Encoding: 2733 2733 59
 Width: 695
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 364 128 basechar 0
 LayerCount: 2
 Fore
@@ -2783,7 +2784,7 @@ StartChar: u0AB0
 Encoding: 2734 2734 60
 Width: 566
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 280 100 basechar 0
 LayerCount: 2
 Fore
@@ -2831,7 +2832,7 @@ StartChar: u0AB2
 Encoding: 2735 2735 61
 Width: 554
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 90 90 basechar 0
 LayerCount: 2
 Fore
@@ -2872,7 +2873,7 @@ StartChar: u0AB3
 Encoding: 2736 2736 62
 Width: 373
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 276 -6 basechar 0
 AnchorPoint: "Anchor-0" 178 0 basechar 0
 LayerCount: 2
@@ -2912,7 +2913,7 @@ StartChar: u0AB5
 Encoding: 2738 2738 63
 Width: 608
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 100 34 basechar 0
 LayerCount: 2
 Fore
@@ -2950,7 +2951,7 @@ StartChar: u0AB6
 Encoding: 2739 2739 64
 Width: 666
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 292 88 basechar 0
 LayerCount: 2
 Fore
@@ -2992,7 +2993,7 @@ StartChar: u0AB7
 Encoding: 2741 2741 65
 Width: 550
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 244 122 basechar 0
 LayerCount: 2
 Fore
@@ -3026,7 +3027,7 @@ StartChar: u0AB8
 Encoding: 2742 2742 66
 Width: 611
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 140 100 basechar 0
 LayerCount: 2
 Fore
@@ -3074,7 +3075,7 @@ StartChar: u0AB9
 Encoding: 2743 2743 67
 Width: 552
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 242 110 basechar 0
 LayerCount: 2
 Fore
@@ -3114,7 +3115,7 @@ StartChar: u0ABC
 Encoding: 2744 2744 68
 Width: 630
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 94 40 basechar 0
 LayerCount: 2
 Fore
@@ -3162,7 +3163,7 @@ StartChar: u0ABD
 Encoding: 2745 2745 69
 Width: 468
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" 122 -14 basechar 0
 AnchorPoint: "Anchor-1" 304 -42 basechar 0
 AnchorPoint: "Anchor-0" 276 -8 basechar 0
@@ -3215,7 +3216,7 @@ StartChar: u0ABE
 Encoding: 2748 2748 70
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-2" -432 4 mark 0
 AnchorPoint: "Anchor-1" -426 6 mark 0
 LayerCount: 2
@@ -3238,7 +3239,7 @@ StartChar: u0ABF
 Encoding: 2749 2749 71
 Width: 525
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -3281,7 +3282,7 @@ StartChar: u0AC0
 Encoding: 2750 2750 72
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -3298,7 +3299,7 @@ StartChar: u0AC1
 Encoding: 2751 2751 73
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -3325,7 +3326,7 @@ StartChar: u0AC2
 Encoding: 2752 2752 74
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -3352,7 +3353,7 @@ StartChar: u0AC3
 Encoding: 2753 2753 75
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -118 12 mark 0
 LayerCount: 2
 Fore
@@ -3384,7 +3385,7 @@ StartChar: u0AC4
 Encoding: 2754 2754 76
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -138 12 mark 0
 LayerCount: 2
 Fore
@@ -3416,7 +3417,7 @@ StartChar: u0AC5
 Encoding: 2755 2755 77
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -108 6 mark 0
 LayerCount: 2
 Fore
@@ -3446,7 +3447,7 @@ StartChar: u0AC7
 Encoding: 2756 2756 78
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -148 6 mark 0
 LayerCount: 2
 Fore
@@ -3489,7 +3490,7 @@ StartChar: u0AC8
 Encoding: 2757 2757 79
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -118 -6 mark 0
 LayerCount: 2
 Fore
@@ -3513,7 +3514,7 @@ StartChar: u0AC9
 Encoding: 2759 2759 80
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -124 -8 mark 0
 LayerCount: 2
 Fore
@@ -3535,7 +3536,7 @@ StartChar: u0ACB
 Encoding: 2760 2760 81
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -128 0 mark 0
 LayerCount: 2
 Fore
@@ -3567,7 +3568,7 @@ StartChar: u0ACC
 Encoding: 2761 2761 82
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -3596,7 +3597,7 @@ StartChar: u0ACD
 Encoding: 2763 2763 83
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -3623,7 +3624,7 @@ StartChar: u0AD0
 Encoding: 2764 2764 84
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -3660,7 +3661,7 @@ StartChar: u0AE0
 Encoding: 2765 2765 85
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -3679,7 +3680,7 @@ StartChar: u0AE1
 Encoding: 2768 2768 86
 Width: 1009
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -3769,7 +3770,7 @@ StartChar: u0AE2
 Encoding: 2784 2784 87
 Width: 917
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -3850,7 +3851,7 @@ StartChar: u0AE3
 Encoding: 2785 2785 88
 Width: 592
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -3915,7 +3916,7 @@ StartChar: u0AE6
 Encoding: 2786 2786 89
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -108 28 mark 0
 LayerCount: 2
 Fore
@@ -3970,7 +3971,7 @@ StartChar: u0AE7
 Encoding: 2787 2787 90
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -118 42 mark 0
 LayerCount: 2
 Fore
@@ -4036,7 +4037,7 @@ StartChar: u0AE8
 Encoding: 2790 2790 91
 Width: 550
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4067,7 +4068,7 @@ StartChar: u0AE9
 Encoding: 2791 2791 92
 Width: 549
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4107,7 +4108,7 @@ StartChar: u0AEA
 Encoding: 2792 2792 93
 Width: 549
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4157,7 +4158,7 @@ StartChar: u0AEB
 Encoding: 2793 2793 94
 Width: 549
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4199,7 +4200,7 @@ StartChar: u0AEC
 Encoding: 2794 2794 95
 Width: 552
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4240,7 +4241,7 @@ StartChar: u0AED
 Encoding: 2795 2795 96
 Width: 550
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4283,7 +4284,7 @@ StartChar: u0AEE
 Encoding: 2796 2796 97
 Width: 550
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4328,7 +4329,7 @@ StartChar: u0AEF
 Encoding: 2797 2797 98
 Width: 549
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4366,7 +4367,7 @@ StartChar: u0AF1
 Encoding: 2798 2798 99
 Width: 550
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4395,7 +4396,7 @@ StartChar: uni0AEF
 Encoding: 2799 2799 100
 Width: 550
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4432,7 +4433,7 @@ StartChar: uni0AF1
 Encoding: 2801 2801 101
 Width: 717
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4503,7 +4504,7 @@ StartChar: afii61664
 Encoding: 8204 8204 102
 Width: 220
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4520,7 +4521,7 @@ StartChar: afii301
 Encoding: 8205 8205 103
 Width: 480
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4541,7 +4542,7 @@ StartChar: endash
 Encoding: 8211 8211 104
 Width: 550
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4558,7 +4559,7 @@ StartChar: emdash
 Encoding: 8212 8212 105
 Width: 1024
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4575,7 +4576,7 @@ StartChar: quoteleft
 Encoding: 8216 8216 106
 Width: 355
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4601,7 +4602,7 @@ StartChar: quoteright
 Encoding: 8217 8217 107
 Width: 355
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4627,7 +4628,7 @@ StartChar: quotedblleft
 Encoding: 8220 8220 108
 Width: 435
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4650,7 +4651,7 @@ StartChar: quotedblright
 Encoding: 8221 8221 109
 Width: 460
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4673,7 +4674,7 @@ StartChar: ellipsis
 Encoding: 8230 8230 110
 Width: 810
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4702,7 +4703,7 @@ StartChar: minus
 Encoding: 8722 8722 111
 Width: 620
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4719,7 +4720,7 @@ StartChar: uni25CC
 Encoding: 9676 9676 112
 Width: 720
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4850,7 +4851,7 @@ StartChar: u0A97_u0AE0.half
 Encoding: 65571 -1 113
 Width: 419
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4896,7 +4897,7 @@ StartChar: u0A98_u0AE0.half
 Encoding: 65572 -1 114
 Width: 467
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4934,7 +4935,7 @@ StartChar: u0A99_u0AE0.half
 Encoding: 65573 -1 115
 Width: 397
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -4966,7 +4967,7 @@ StartChar: u0A9A_u0AE0.half
 Encoding: 65574 -1 116
 Width: 389
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5007,7 +5008,7 @@ StartChar: u0A9B_u0AE0.half
 Encoding: 65575 -1 117
 Width: 491
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5065,7 +5066,7 @@ StartChar: u0A9C_u0AE0.half
 Encoding: 65576 -1 118
 Width: 468
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5104,7 +5105,7 @@ StartChar: u0A9D_u0AE0.half
 Encoding: 65577 -1 119
 Width: 546
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5170,7 +5171,7 @@ StartChar: u0A9E_u0AE0.half
 Encoding: 65578 -1 120
 Width: 496
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5224,7 +5225,7 @@ StartChar: u0A9F_u0AE0.half
 Encoding: 65579 -1 121
 Width: 555
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5273,7 +5274,7 @@ StartChar: u0AA0_u0AE0.half
 Encoding: 65580 -1 122
 Width: 502
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5308,7 +5309,7 @@ StartChar: u0AA1_u0AE0.half
 Encoding: 65581 -1 123
 Width: 398
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5356,7 +5357,7 @@ StartChar: u0AA2_u0AE0.half
 Encoding: 65582 -1 124
 Width: 433
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5407,7 +5408,7 @@ StartChar: u0AA3_u0AE0.half
 Encoding: 65583 -1 125
 Width: 442
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5455,7 +5456,7 @@ StartChar: u0AA4_u0AE0.half
 Encoding: 65584 -1 126
 Width: 424
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5518,7 +5519,7 @@ StartChar: u0AA5_u0AE0.half
 Encoding: 65585 -1 127
 Width: 578
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5564,7 +5565,7 @@ StartChar: u0AA6_u0AE0.half
 Encoding: 65586 -1 128
 Width: 391
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5590,7 +5591,7 @@ StartChar: u0AA7_u0AE0.half
 Encoding: 65587 -1 129
 Width: 424
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5634,7 +5635,7 @@ StartChar: u0AA8_u0AE0.half
 Encoding: 65588 -1 130
 Width: 431
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5683,7 +5684,7 @@ StartChar: u0AAA_u0AE0.half
 Encoding: 65589 -1 131
 Width: 426
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5720,7 +5721,7 @@ StartChar: u0AAB_u0AE0.half
 Encoding: 65590 -1 132
 Width: 417
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5755,7 +5756,7 @@ StartChar: u0AAC_u0AE0.half
 Encoding: 65591 -1 133
 Width: 392
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5787,7 +5788,7 @@ StartChar: u0AAD_u0AE0.half
 Encoding: 65592 -1 134
 Width: 383
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5838,7 +5839,7 @@ StartChar: u0AAE_u0AE0.half
 Encoding: 65593 -1 135
 Width: 495
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5873,7 +5874,7 @@ StartChar: u0AAF_u0AE0.half
 Encoding: 65594 -1 136
 Width: 525
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5911,7 +5912,7 @@ StartChar: u0AB0_u0AE0.half
 Encoding: 65595 -1 137
 Width: 356
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5955,7 +5956,7 @@ StartChar: u0AB2_u0AE0.half
 Encoding: 65596 -1 138
 Width: 384
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5992,7 +5993,7 @@ StartChar: u0AB5_u0AE0.half
 Encoding: 65597 -1 139
 Width: 438
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6026,7 +6027,7 @@ StartChar: u0AB6_u0AE0.half
 Encoding: 65598 -1 140
 Width: 426
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6062,7 +6063,7 @@ StartChar: u0AB7_u0AE0.half
 Encoding: 65599 -1 141
 Width: 380
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6092,7 +6093,7 @@ StartChar: u0AB8_u0AE0.half
 Encoding: 65600 -1 142
 Width: 393
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6134,7 +6135,7 @@ StartChar: u0AB9_u0AE0.half
 Encoding: 65601 -1 143
 Width: 403
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6170,7 +6171,7 @@ StartChar: u0ABC_u0AE0.half
 Encoding: 65602 -1 144
 Width: 421
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6214,7 +6215,7 @@ StartChar: u0ABD_u0AE0.half
 Encoding: 65603 -1 145
 Width: 441
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6259,7 +6260,7 @@ StartChar: u0A97_u0AE0_u0AB9.akhn_u0AE0.psts
 Encoding: 65604 -1 146
 Width: 465
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6313,7 +6314,7 @@ StartChar: u0A9E_u0AE0_u0AA0.akhn_u0AE0.psts
 Encoding: 65605 -1 147
 Width: 473
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6358,7 +6359,7 @@ StartChar: u0AA6_u0AE0_u0AB3.akhn_u0AE0.half
 Encoding: 65606 -1 148
 Width: 403
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6387,7 +6388,7 @@ StartChar: u0AB8_u0AE0_u0AB3.akhn_u0AE0.half
 Encoding: 65607 -1 149
 Width: 479
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6429,7 +6430,7 @@ StartChar: u0AA6_u0AE0_u0AA6.akhn_u0AE0.psts
 Encoding: 65608 -1 150
 Width: 428
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6457,7 +6458,7 @@ StartChar: u0A97_u0AB3_u0AE0.blwf.vatu
 Encoding: 65609 -1 151
 Width: 462
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 246 8 basechar 0
 AnchorPoint: "Anchor-0" 266 0 basechar 0
 LayerCount: 2
@@ -6508,7 +6509,7 @@ StartChar: u0A98_u0AB3_u0AE0.blwf.vatu
 Encoding: 65610 -1 152
 Width: 636
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6554,7 +6555,7 @@ StartChar: u0A99_u0AB3_u0AE0.blwf.vatu
 Encoding: 65611 -1 153
 Width: 581
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6596,7 +6597,7 @@ StartChar: u0A9A_u0AB3_u0AE0.blwf.vatu
 Encoding: 65612 -1 154
 Width: 564
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6642,7 +6643,7 @@ StartChar: glyph187
 Encoding: 65613 -1 155
 Width: 539
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6697,7 +6698,7 @@ StartChar: u0A9C_u0AB3_u0AE0.blwf.vatu
 Encoding: 65614 -1 156
 Width: 638
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6741,7 +6742,7 @@ StartChar: glyph189
 Encoding: 65615 -1 157
 Width: 620
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 306 -122 basechar 0
 LayerCount: 2
 Fore
@@ -6805,7 +6806,7 @@ StartChar: u0A9E_u0AB3_u0AE0.blwf.vatu
 Encoding: 65616 -1 158
 Width: 611
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 402 6 basechar 0
 AnchorPoint: "Anchor-0" 546 -8 basechar 0
 LayerCount: 2
@@ -6867,7 +6868,7 @@ StartChar: u0A9F_u0AB3_u0AE0.blwf.vatu
 Encoding: 65617 -1 159
 Width: 631
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6922,7 +6923,7 @@ StartChar: u0AA0_u0AB3_u0AE0.blwf.vatu
 Encoding: 65618 -1 160
 Width: 673
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -6965,7 +6966,7 @@ StartChar: glyph193
 Encoding: 65619 -1 161
 Width: 442
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7010,7 +7011,7 @@ StartChar: glyph194
 Encoding: 65620 -1 162
 Width: 496
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7058,7 +7059,7 @@ StartChar: glyph195
 Encoding: 65621 -1 163
 Width: 498
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7103,7 +7104,7 @@ StartChar: glyph196
 Encoding: 65622 -1 164
 Width: 478
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7163,7 +7164,7 @@ StartChar: u0AA5_u0AB3_u0AE0.blwf.vatu
 Encoding: 65623 -1 165
 Width: 764
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7219,7 +7220,7 @@ StartChar: u0AA6_u0AE0_u0AB3.akhn
 Encoding: 65624 -1 166
 Width: 573
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7252,7 +7253,7 @@ StartChar: u0AA7_u0AB3_u0AE0.blwf.vatu
 Encoding: 65625 -1 167
 Width: 600
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7301,7 +7302,7 @@ StartChar: u0AA8_u0AB3_u0AE0.blwf.vatu
 Encoding: 65626 -1 168
 Width: 499
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7356,7 +7357,7 @@ StartChar: u0AAA_u0AB3_u0AE0.blwf.vatu
 Encoding: 65627 -1 169
 Width: 601
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7398,7 +7399,7 @@ StartChar: u0AAB_u0AB3_u0AE0.blwf.vatu
 Encoding: 65628 -1 170
 Width: 589
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7441,7 +7442,7 @@ StartChar: u0AAC_u0AB3_u0AE0.blwf.vatu
 Encoding: 65629 -1 171
 Width: 573
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7478,7 +7479,7 @@ StartChar: u0AAD_u0AB3_u0AE0.blwf.vatu
 Encoding: 65630 -1 172
 Width: 464
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 292 -76 basechar 0
 LayerCount: 2
 Fore
@@ -7533,7 +7534,7 @@ StartChar: u0AAE_u0AB3_u0AE0.blwf.vatu
 Encoding: 65631 -1 173
 Width: 667
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7576,7 +7577,7 @@ StartChar: u0AAF_u0AB3_u0AE0.blwf.vatu
 Encoding: 65632 -1 174
 Width: 692
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7622,7 +7623,7 @@ StartChar: u0AB0_u0AB3_u0AE0.blwf.vatu
 Encoding: 65633 -1 175
 Width: 566
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7674,7 +7675,7 @@ StartChar: u0AB2_u0AB3_u0AE0.blwf.vatu
 Encoding: 65634 -1 176
 Width: 570
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7716,7 +7717,7 @@ StartChar: u0AB5_u0AB3_u0AE0.blwf.vatu
 Encoding: 65635 -1 177
 Width: 608
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7758,7 +7759,7 @@ StartChar: u0AB6_u0AB3_u0AE0.blwf.vatu
 Encoding: 65636 -1 178
 Width: 666
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7804,7 +7805,7 @@ StartChar: u0AB7_u0AB3_u0AE0.blwf.vatu
 Encoding: 65637 -1 179
 Width: 559
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7839,7 +7840,7 @@ StartChar: u0AB8_u0AE0_u0AB3.akhn
 Encoding: 65638 -1 180
 Width: 635
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7930,7 +7931,7 @@ StartChar: u0ABC_u0AB3_u0AE0.blwf.vatu
 Encoding: 65640 -1 182
 Width: 630
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -7982,7 +7983,7 @@ StartChar: u0ABD_u0AB3_u0AE0.blwf.vatu
 Encoding: 65641 -1 183
 Width: 539
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 354 -52 basechar 0
 LayerCount: 2
 Fore
@@ -8033,7 +8034,7 @@ StartChar: u0AC9_u0A85.abvs
 Encoding: 65642 -1 184
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -116 -8 mark 0
 LayerCount: 2
 Fore
@@ -8066,7 +8067,7 @@ StartChar: u0AC9_u0AB3_u0AE0.rphf.abvs
 Encoding: 65643 -1 185
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -122 -8 mark 0
 LayerCount: 2
 Fore
@@ -8100,7 +8101,7 @@ StartChar: u0AC9_u0AB3_u0AE0.rphf_u0A85.abvs.abvs
 Encoding: 65644 -1 186
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -114 -8 mark 0
 LayerCount: 2
 Fore
@@ -8144,7 +8145,7 @@ StartChar: u0ACB_u0A85.abvs
 Encoding: 65645 -1 187
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -120 0 mark 0
 LayerCount: 2
 Fore
@@ -8187,7 +8188,7 @@ StartChar: u0ACB_u0AB3_u0AE0.rphf.abvs
 Encoding: 65646 -1 188
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -100 0 mark 0
 LayerCount: 2
 Fore
@@ -8229,7 +8230,7 @@ StartChar: u0ACB_u0AB3_u0AE0.rphf_u0A85.abvs.abvs
 Encoding: 65647 -1 189
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -112 0 mark 0
 LayerCount: 2
 Fore
@@ -8281,7 +8282,7 @@ StartChar: u0AC2_u0A85.abvs
 Encoding: 65648 -1 190
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8319,7 +8320,7 @@ StartChar: u0AC2_u0AB3_u0AE0.rphf.abvs
 Encoding: 65649 -1 191
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8356,7 +8357,7 @@ StartChar: u0AC2_u0AB3_u0AE0.rphf_u0A85.abvs.abvs
 Encoding: 65650 -1 192
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8403,7 +8404,7 @@ StartChar: u0ACD_u0A85.abvs
 Encoding: 65651 -1 193
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8441,7 +8442,7 @@ StartChar: u0ACD_u0AB3_u0AE0.rphf.abvs
 Encoding: 65652 -1 194
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8480,7 +8481,7 @@ StartChar: u0ACD_u0AB3_u0AE0.rphf_u0A85.abvs.abvs
 Encoding: 65653 -1 195
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8529,7 +8530,7 @@ StartChar: u0AD0_u0A85.abvs
 Encoding: 65654 -1 196
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8577,7 +8578,7 @@ StartChar: u0AD0_u0AB3_u0AE0.rphf.abvs
 Encoding: 65655 -1 197
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8624,7 +8625,7 @@ StartChar: u0AD0_u0AB3_u0AE0.rphf_u0A85.abvs.abvs
 Encoding: 65656 -1 198
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8681,7 +8682,7 @@ StartChar: u0AC8_u0A85.abvs
 Encoding: 65657 -1 199
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -118 -6 mark 0
 LayerCount: 2
 Fore
@@ -8716,7 +8717,7 @@ StartChar: u0ACC_u0A85.abvs
 Encoding: 65658 -1 200
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8756,7 +8757,7 @@ StartChar: u0A89_u0A85.abvs
 Encoding: 65659 -1 201
 Width: 529
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8817,7 +8818,7 @@ StartChar: u0A8A_u0A85.abvs
 Encoding: 65660 -1 202
 Width: 533
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8882,7 +8883,7 @@ StartChar: u0A8B_u0A85.abvs
 Encoding: 65661 -1 203
 Width: 551
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8939,7 +8940,7 @@ StartChar: u0A8C_u0A85.abvs
 Encoding: 65662 -1 204
 Width: 735
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -9002,7 +9003,7 @@ StartChar: u0AB3_u0AC3.blws
 Encoding: 65663 -1 205
 Width: 664
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" 176 0 basechar 0
 LayerCount: 2
 Fore
@@ -9057,7 +9058,7 @@ StartChar: glyph238
 Encoding: 65664 -1 206
 Width: 680
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" 176 0 basechar 0
 LayerCount: 2
 Fore
@@ -9114,7 +9115,7 @@ StartChar: u0ABD_u0AC5.blws
 Encoding: 65665 -1 207
 Width: 545
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 344 -48 basechar 0
 LayerCount: 2
 Fore
@@ -9174,7 +9175,7 @@ StartChar: u0A9E_u0AC0.psts
 Encoding: 65666 -1 208
 Width: 779
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -9231,7 +9232,7 @@ StartChar: u0A9E_u0AC2.psts
 Encoding: 65667 -1 209
 Width: 784
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -9297,7 +9298,7 @@ StartChar: u0AB3_u0AC4.blws
 Encoding: 65668 -1 210
 Width: 437
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -9349,7 +9350,7 @@ StartChar: u0AA8_u0AC5.blws
 Encoding: 65669 -1 211
 Width: 466
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -9396,7 +9397,7 @@ StartChar: u0A97_u0AE0.half_u0A97.psts
 Encoding: 65670 -1 212
 Width: 885
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 632 -12 basechar 0
 AnchorPoint: "Anchor-0" 650 -8 basechar 0
 LayerCount: 2
@@ -9472,7 +9473,7 @@ StartChar: u0A99_u0AE0.half_u0AAB.psts
 Encoding: 65671 -1 213
 Width: 634
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -9521,7 +9522,7 @@ StartChar: u0A9B_u0AE0.half_u0A97.psts
 Encoding: 65672 -1 214
 Width: 555
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 274 -172 basechar 0
 AnchorPoint: "Anchor-0" 274 -16 basechar 0
 LayerCount: 2
@@ -9610,7 +9611,7 @@ StartChar: u0A9B_u0AE0.half_u0A98.psts
 Encoding: 65673 -1 215
 Width: 585
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 446 -174 basechar 0
 AnchorPoint: "Anchor-0" 312 -8 basechar 0
 LayerCount: 2
@@ -9711,7 +9712,7 @@ StartChar: u0A9B_u0AE0.half_u0A99.psts
 Encoding: 65674 -1 216
 Width: 551
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 360 -168 basechar 0
 AnchorPoint: "Anchor-0" 296 0 basechar 0
 LayerCount: 2
@@ -9788,7 +9789,7 @@ StartChar: u0A9B_u0AE0.half_u0A9A.psts
 Encoding: 65675 -1 217
 Width: 552
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 354 -182 basechar 0
 AnchorPoint: "Anchor-0" 296 0 basechar 0
 LayerCount: 2
@@ -9875,7 +9876,7 @@ StartChar: u0A9B_u0AE0.half_u0AB0.psts
 Encoding: 65676 -1 218
 Width: 548
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 348 -164 basechar 0
 AnchorPoint: "Anchor-0" 282 0 basechar 0
 LayerCount: 2
@@ -10067,7 +10068,7 @@ StartChar: u0A9E_u0AE0.half_u0A9E.pres
 Encoding: 65678 -1 220
 Width: 599
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 366 -12 basechar 0
 AnchorPoint: "Anchor-0" 532 -6 basechar 0
 LayerCount: 2
@@ -10165,7 +10166,7 @@ StartChar: u0AA0_u0AE0.half_u0A9C.psts
 Encoding: 65679 -1 221
 Width: 631
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -10218,7 +10219,7 @@ StartChar: u0AA0_u0AE0.half_u0A9E.psts
 Encoding: 65680 -1 222
 Width: 661
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -10271,7 +10272,7 @@ StartChar: u0AA1_u0AE0.half_u0AA1.pres
 Encoding: 65681 -1 223
 Width: 588
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 318 -36 basechar 0
 AnchorPoint: "Anchor-0" 344 6 basechar 0
 LayerCount: 2
@@ -10332,7 +10333,7 @@ StartChar: u0AA1_u0AE0.half_u0AB2.pres
 Encoding: 65682 -1 224
 Width: 941
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -10398,7 +10399,7 @@ StartChar: u0AA1_u0AE0.half_u0AB7.pres
 Encoding: 65683 -1 225
 Width: 443
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 344 -174 basechar 0
 AnchorPoint: "Anchor-0" 232 -6 basechar 0
 LayerCount: 2
@@ -10461,7 +10462,7 @@ StartChar: u0AA2_u0AE0.half_u0AA2.pres
 Encoding: 65684 -1 226
 Width: 610
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 312 -40 basechar 0
 AnchorPoint: "Anchor-0" 348 0 basechar 0
 LayerCount: 2
@@ -10530,7 +10531,7 @@ StartChar: u0AA2_u0AE0.half_u0AB2.pres
 Encoding: 65685 -1 227
 Width: 1023
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -10602,7 +10603,7 @@ StartChar: u0AA3_u0AE0.half_u0AA3.pres
 Encoding: 65686 -1 228
 Width: 592
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 322 -76 basechar 0
 AnchorPoint: "Anchor-0" 334 0 basechar 0
 LayerCount: 2
@@ -10675,7 +10676,7 @@ StartChar: u0AA3_u0AE0.half_u0AB2.pres
 Encoding: 65687 -1 229
 Width: 1012
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -10744,7 +10745,7 @@ StartChar: u0AA3_u0AE0.half_u0AA4.pres
 Encoding: 65688 -1 230
 Width: 604
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 296 -42 basechar 0
 AnchorPoint: "Anchor-0" 354 0 basechar 0
 LayerCount: 2
@@ -10819,7 +10820,7 @@ StartChar: u0AA4_u0AE0.half_u0AA4.pres
 Encoding: 65689 -1 231
 Width: 602
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 308 -26 basechar 0
 AnchorPoint: "Anchor-0" 336 0 basechar 0
 LayerCount: 2
@@ -10898,7 +10899,7 @@ StartChar: u0AA4_u0AE0.half_u0AB2.pres
 Encoding: 65690 -1 232
 Width: 990
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -10980,7 +10981,7 @@ StartChar: u0AA6_u0AE0_u0AA6.akhn
 Encoding: 65691 -1 233
 Width: 598
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -11012,7 +11013,7 @@ StartChar: u0AA8_u0AE0.half_u0AB2.pres
 Encoding: 65692 -1 234
 Width: 588
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -11062,7 +11063,7 @@ StartChar: u0AA8_u0AE0.half_u0A99.psts
 Encoding: 65693 -1 235
 Width: 493
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 390 -14 basechar 0
 AnchorPoint: "Anchor-0" 324 0 basechar 0
 LayerCount: 2
@@ -11132,7 +11133,7 @@ StartChar: u0AA8_u0AE0.half_u0AB7.pres
 Encoding: 65694 -1 236
 Width: 602
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 500 -26 basechar 0
 AnchorPoint: "Anchor-0" 406 0 basechar 0
 LayerCount: 2
@@ -11200,7 +11201,7 @@ StartChar: u0AA8_u0AE0.half_u0AA8.pres
 Encoding: 65695 -1 237
 Width: 518
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 450 -64 basechar 0
 AnchorPoint: "Anchor-0" 330 0 basechar 0
 LayerCount: 2
@@ -11271,7 +11272,7 @@ StartChar: u0AA8_u0AE0.half_u0AAA.pres
 Encoding: 65696 -1 238
 Width: 600
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 520 -14 basechar 0
 AnchorPoint: "Anchor-0" 420 0 basechar 0
 LayerCount: 2
@@ -11352,7 +11353,7 @@ StartChar: u0AA8_u0AE0.half_u0AAF.psts
 Encoding: 65697 -1 239
 Width: 687
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 592 -18 basechar 0
 AnchorPoint: "Anchor-0" 516 -10 basechar 0
 LayerCount: 2
@@ -11432,7 +11433,7 @@ StartChar: u0AA8_u0AE0.half_u0AB0.pres
 Encoding: 65698 -1 240
 Width: 645
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -11492,7 +11493,7 @@ StartChar: u0AA8_u0AE0.half_u0AAB.pres
 Encoding: 65699 -1 241
 Width: 506
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 382 -32 basechar 0
 AnchorPoint: "Anchor-0" 322 0 basechar 0
 LayerCount: 2
@@ -11557,7 +11558,7 @@ StartChar: u0AAB_u0AE0.half_u0AAB.pres
 Encoding: 65700 -1 242
 Width: 556
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -11598,7 +11599,7 @@ StartChar: u0AAC_u0AE0.half_u0AA6.pres
 Encoding: 65701 -1 243
 Width: 561
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -11641,7 +11642,7 @@ StartChar: u0AB5_u0AE0.half_u0AB5.psts
 Encoding: 65702 -1 244
 Width: 669
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -11694,7 +11695,7 @@ StartChar: u0AB8_u0AE0.half_u0AB7.pres
 Encoding: 65703 -1 245
 Width: 645
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -11757,7 +11758,7 @@ StartChar: u0AB8_u0AE0.half_u0AAB.pres
 Encoding: 65704 -1 246
 Width: 646
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -11814,7 +11815,7 @@ StartChar: u0AB8_u0AE0.half_u0A9C.psts
 Encoding: 65705 -1 247
 Width: 646
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -11876,7 +11877,7 @@ StartChar: u0AB8_u0AE0.half_u0AB5.pres
 Encoding: 65706 -1 248
 Width: 961
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -11943,7 +11944,7 @@ StartChar: u0AB9_u0AE0.half_u0AA1.psts
 Encoding: 65707 -1 249
 Width: 764
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 546 -12 basechar 0
 AnchorPoint: "Anchor-0" 548 -2 basechar 0
 LayerCount: 2
@@ -12006,7 +12007,7 @@ StartChar: u0AB9_u0AE0.half_u0AA2.psts
 Encoding: 65708 -1 250
 Width: 814
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 576 2 basechar 0
 AnchorPoint: "Anchor-0" 572 -6 basechar 0
 LayerCount: 2
@@ -12074,7 +12075,7 @@ StartChar: u0ABC_u0AE0.half_u0AA6_u0AE0_u0AB3.akhn.psts
 Encoding: 65709 -1 251
 Width: 904
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -12138,7 +12139,7 @@ StartChar: u0ABD_u0AE0.half_u0AB0.psts
 Encoding: 65710 -1 252
 Width: 779
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -12203,7 +12204,7 @@ StartChar: u0ABD_u0AE0.half_u0AB2.psts
 Encoding: 65711 -1 253
 Width: 771
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -12263,7 +12264,7 @@ StartChar: u0ABD_u0AE0.half_u0AAB.pres
 Encoding: 65712 -1 254
 Width: 578
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 498 6 basechar 0
 AnchorPoint: "Anchor-0" 290 -8 basechar 0
 LayerCount: 2
@@ -12332,7 +12333,7 @@ StartChar: u0ABD_u0AE0.half_u0AA5.pres
 Encoding: 65713 -1 255
 Width: 584
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 500 -6 basechar 0
 AnchorPoint: "Anchor-0" 294 -8 basechar 0
 LayerCount: 2
@@ -12399,7 +12400,7 @@ StartChar: u0ABD_u0AE0.half_u0AB5.psts
 Encoding: 65714 -1 256
 Width: 578
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 496 -6 basechar 0
 AnchorPoint: "Anchor-0" 274 -8 basechar 0
 LayerCount: 2
@@ -12468,7 +12469,7 @@ StartChar: u0ABD_u0AE0.half_u0AB7.pres
 Encoding: 65715 -1 257
 Width: 541
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 456 -6 basechar 0
 AnchorPoint: "Anchor-0" 316 -8 basechar 0
 LayerCount: 2
@@ -12533,7 +12534,7 @@ StartChar: u0AB6_u0AE0.half_u0AB2.psts
 Encoding: 65716 -1 258
 Width: 966
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -12598,7 +12599,7 @@ StartChar: u0A97_u0AE0_u0AB9.akhn
 Encoding: 65717 -1 259
 Width: 637
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -12655,7 +12656,7 @@ StartChar: u0A9E_u0AE0_u0AA0.akhn
 Encoding: 65718 -1 260
 Width: 668
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -12704,7 +12705,7 @@ StartChar: u0AB3_u0AE0.blwf
 Encoding: 65719 -1 261
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -124 6 mark 0
 LayerCount: 2
 Fore
@@ -12725,7 +12726,7 @@ StartChar: u0AB3_u0AE0.blwf_u0AC3.blws
 Encoding: 65720 -1 262
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -120 20 mark 0
 LayerCount: 2
 Fore
@@ -12763,7 +12764,7 @@ StartChar: u0AB3_u0AE0.blwf_u0AC4.blws
 Encoding: 65721 -1 263
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" -116 18 mark 0
 LayerCount: 2
 Fore
@@ -12797,7 +12798,7 @@ StartChar: u0AB3_u0AE0.rphf
 Encoding: 65722 -1 264
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -120 -12 mark 0
 LayerCount: 2
 Fore
@@ -12826,7 +12827,7 @@ StartChar: u0AB3_u0AE0.rphf_u0A85.abvs
 Encoding: 65723 -1 265
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-0" -126 -12 mark 0
 LayerCount: 2
 Fore
@@ -12865,7 +12866,7 @@ StartChar: u0AA5_u0AC3.blws
 Encoding: 65724 -1 266
 Width: 759
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -12937,7 +12938,7 @@ StartChar: u0A9D_u0AE0.half_u0AB7.pres
 Encoding: 65725 -1 267
 Width: 602
 GlyphClass: 2
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-1" 446 -198 basechar 0
 AnchorPoint: "Anchor-0" 448 0 basechar 0
 LayerCount: 2
@@ -13018,7 +13019,7 @@ StartChar: glyph300
 Encoding: 65726 -1 268
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13045,7 +13046,7 @@ StartChar: glyph301
 Encoding: 65727 -1 269
 Width: 240
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13070,7 +13071,7 @@ StartChar: u0A9E_u0ACD.psts
 Encoding: 65728 -1 270
 Width: 779
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13137,7 +13138,7 @@ StartChar: u0A9E_u0ACD_u0A85.abvs.psts
 Encoding: 65729 -1 271
 Width: 779
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13214,7 +13215,7 @@ StartChar: u0A9E_u0ACD_u0AB3_u0AE0.rphf.abvs.psts
 Encoding: 65730 -1 272
 Width: 779
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13292,7 +13293,7 @@ StartChar: u0A9E_u0ACD_u0AB3_u0AE0.rphf_u0A85.abvs.abvs.psts
 Encoding: 65731 -1 273
 Width: 779
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13380,7 +13381,7 @@ StartChar: u0A9E_u0AD0.psts
 Encoding: 65732 -1 274
 Width: 779
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13457,7 +13458,7 @@ StartChar: u0A9E_u0AD0_u0A85.abvs.psts
 Encoding: 65733 -1 275
 Width: 779
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13544,7 +13545,7 @@ StartChar: u0A9E_u0AD0_u0AB3_u0AE0.rphf.abvs.psts
 Encoding: 65734 -1 276
 Width: 779
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13630,7 +13631,7 @@ StartChar: u0A9E_u0AD0_u0AB3_u0AE0.rphf_u0A85.abvs.abvs.psts
 Encoding: 65735 -1 277
 Width: 779
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13726,7 +13727,7 @@ StartChar: u0A9E_u0ACC.psts
 Encoding: 65736 -1 278
 Width: 779
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13795,7 +13796,7 @@ StartChar: u0A9E_u0ACC_u0A85.abvs.psts
 Encoding: 65737 -1 279
 Width: 779
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13874,7 +13875,7 @@ StartChar: glyph312
 Encoding: 65738 -1 280
 Width: 606
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13914,7 +13915,7 @@ StartChar: u0A97_u0AE0.haln
 Encoding: 65739 -1 281
 Width: 474
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13968,7 +13969,7 @@ StartChar: u0A98_u0AE0.haln
 Encoding: 65740 -1 282
 Width: 636
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14018,7 +14019,7 @@ StartChar: u0A99_u0AE0.haln
 Encoding: 65741 -1 283
 Width: 578
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14064,7 +14065,7 @@ StartChar: u0A9A_u0AE0.haln
 Encoding: 65742 -1 284
 Width: 560
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14117,7 +14118,7 @@ StartChar: u0A9B_u0AE0.haln
 Encoding: 65743 -1 285
 Width: 491
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14175,7 +14176,7 @@ StartChar: u0A9C_u0AE0.haln
 Encoding: 65744 -1 286
 Width: 638
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14226,7 +14227,7 @@ StartChar: u0A9D_u0AE0.haln
 Encoding: 65745 -1 287
 Width: 546
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14292,7 +14293,7 @@ StartChar: u0A9E_u0AE0.haln
 Encoding: 65746 -1 288
 Width: 594
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14354,7 +14355,7 @@ StartChar: u0A9F_u0AE0.haln
 Encoding: 65747 -1 289
 Width: 620
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14414,7 +14415,7 @@ StartChar: u0AA0_u0AE0.haln
 Encoding: 65748 -1 290
 Width: 673
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14461,7 +14462,7 @@ StartChar: u0AA1_u0AE0.haln
 Encoding: 65749 -1 291
 Width: 398
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14509,7 +14510,7 @@ StartChar: u0AA2_u0AE0.haln
 Encoding: 65750 -1 292
 Width: 433
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14560,7 +14561,7 @@ StartChar: u0AA3_u0AE0.haln
 Encoding: 65751 -1 293
 Width: 442
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14608,7 +14609,7 @@ StartChar: u0AA4_u0AE0.haln
 Encoding: 65752 -1 294
 Width: 424
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14671,7 +14672,7 @@ StartChar: u0AA5_u0AE0.haln
 Encoding: 65753 -1 295
 Width: 758
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14731,7 +14732,7 @@ StartChar: u0AA6_u0AE0.haln
 Encoding: 65754 -1 296
 Width: 561
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14769,7 +14770,7 @@ StartChar: u0AA7_u0AE0.haln
 Encoding: 65755 -1 297
 Width: 594
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14825,7 +14826,7 @@ StartChar: u0AA8_u0AE0.haln
 Encoding: 65756 -1 298
 Width: 431
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14874,7 +14875,7 @@ StartChar: u0AAA_u0AE0.haln
 Encoding: 65757 -1 299
 Width: 596
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14923,7 +14924,7 @@ StartChar: u0AAB_u0AE0.haln
 Encoding: 65758 -1 300
 Width: 587
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -14970,7 +14971,7 @@ StartChar: u0AAC_u0AE0.haln
 Encoding: 65759 -1 301
 Width: 562
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15014,7 +15015,7 @@ StartChar: u0AAD_u0AE0.haln
 Encoding: 65760 -1 302
 Width: 444
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15073,7 +15074,7 @@ StartChar: u0AAE_u0AE0.haln
 Encoding: 65761 -1 303
 Width: 664
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15120,7 +15121,7 @@ StartChar: u0AAF_u0AE0.haln
 Encoding: 65762 -1 304
 Width: 695
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15170,7 +15171,7 @@ StartChar: u0AB0_u0AE0.haln
 Encoding: 65763 -1 305
 Width: 566
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15226,7 +15227,7 @@ StartChar: u0AB2_u0AE0.haln
 Encoding: 65764 -1 306
 Width: 554
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15275,7 +15276,7 @@ StartChar: u0AB3_u0AE0.haln
 Encoding: 65765 -1 307
 Width: 373
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15322,7 +15323,7 @@ StartChar: u0AB5_u0AE0.haln
 Encoding: 65766 -1 308
 Width: 608
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15368,7 +15369,7 @@ StartChar: u0AB6_u0AE0.haln
 Encoding: 65767 -1 309
 Width: 666
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15418,7 +15419,7 @@ StartChar: u0AB7_u0AE0.haln
 Encoding: 65768 -1 310
 Width: 550
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15460,7 +15461,7 @@ StartChar: u0AB8_u0AE0.haln
 Encoding: 65769 -1 311
 Width: 611
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15516,7 +15517,7 @@ StartChar: u0AB9_u0AE0.haln
 Encoding: 65770 -1 312
 Width: 552
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15564,7 +15565,7 @@ StartChar: u0ABC_u0AE0.haln
 Encoding: 65771 -1 313
 Width: 630
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -15620,7 +15621,7 @@ StartChar: u0ABD_u0AE0.haln
 Encoding: 65772 -1 314
 Width: 468
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet

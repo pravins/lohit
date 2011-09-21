@@ -3,8 +3,8 @@ FontName: Lohit-Bengali
 FullName: Lohit Bengali
 FamilyName: Lohit Bengali
 Weight: Book
-Copyright:   Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
-Version: 2.4.3
+Copyright: Copyright 2011 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n   Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
+Version: 2.5.0
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1163146539
-ModificationTime: 1250058071
+ModificationTime: 1316598225
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -66,6 +66,7 @@ Lookup: 260 0 0 "'blwm' Below Base Mark in Bengali lookup 0"  {"'blwm' Below Bas
 Lookup: 260 0 0 "'abvm' Above Base Mark in Bengali lookup 1"  {"'abvm' Above Base Mark in Bengali lookup 1"  } ['abvm' ('beng' <'dflt' > ) ]
 Lookup: 264 0 0 "'abvm' Above Base Mark in Bengali lookup 2"  {"'abvm' Above Base Mark in Bengali lookup 2"  } ['abvm' ('beng' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Positioning lookup 3"  {"Single Positioning lookup 3"  } []
+MarkAttachClasses: 1
 DEI: 91125
 ChainPos2: coverage "'abvm' Above Base Mark in Bengali lookup 2"  0 0 0 1
  1 2 0
@@ -356,7 +357,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "ACE: Automatic Control EquipmentsLohit Bengali" "" "Version 2.4.3" 
+LangName: 1033 "" "" "Regular" "ACE: Automatic Control EquipmentsLohit Bengali" "" "Version 2.5.0" 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -364,6 +365,8 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 2368 37 13
+BeginPrivate: 0
+EndPrivate
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Bengali lookup 1" "Anchor-1"  "'abvm' Above Base Mark in Bengali lookup 1" "Anchor-2"  "'blwm' Below Base Mark in Bengali lookup 0" 
 BeginChars: 65869 485
 

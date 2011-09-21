@@ -3,8 +3,8 @@ FontName: Lohit-Telugu
 FullName: Lohit Telugu
 FamilyName: Lohit Telugu
 Weight: Book
-Copyright: Copyright (c) 2003, Automatic Control Equipments, Pune, INDIA.\n  Copyright 2006 Modular Infotech Pvt Ltd.\n  Copyright 2009 Red Hat, Inc.\n\n  Licensed under the GNU General Public License, version 2 (see file COPYING) along with the following exception:\n\n  As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
-Version: 2.4.6
+Copyright: Copyright 2011 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
+Version: 2.5.0
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1153280036
-ModificationTime: 1314684137
+ModificationTime: 1316599176
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2914,7 +2914,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Telugu : 19-7-2006" "" "Version 2.4.6" 
+LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Telugu : 19-7-2006" "" "Version 2.5.0" 
 GaspTable: 1 65535 2
 Encoding: Custom
 Compacted: 1

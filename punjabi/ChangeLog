@@ -1,5 +1,8 @@
 				  lohit-punjabi
-Current Version :- 2.4.4
+Current Version :- 2.5.0
+
+* Wed Sep 21 2011 Pravin Satpute <psatpute@redhat.com> - 2.5.0
+- relicensing to OFL 1.1
 
 * Wed Mar 24 2010 Pravin Satpute <psatpute@redhat.com> - 2.4.4
 - fixed PFM Family name, ascent/descent values in OS
