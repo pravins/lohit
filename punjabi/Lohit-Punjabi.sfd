@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159495707
-ModificationTime: 1316598861
+ModificationTime: 1318242525
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -536,7 +536,7 @@ BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 293164 146582 97721 0 1048576 97721 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-2"  "'blwm' Below Base Mark lookup 2-1" "Anchor-0"  "'abvm' Above Base Mark in Gurmukhi lookup 1 subtable" "Anchor-1"  "'abvm' Above Base Mark in Gurmukhi lookup 0 subtable" 
-BeginChars: 65555 166
+BeginChars: 65555 167
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -7693,6 +7693,38 @@ SplineSet
  -205 626 -205 626 -202.5 636 c 128,-1,27
 EndSplineSet
 Ligature2: "'abvs' Above Base Substitutions in Gurmukhi lookup 0 subtable" u0A4C u0A70
+EndChar
+
+StartChar: uni20B9
+Encoding: 8377 8377 166
+Width: 475
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+268.85 375.438 m 0,0,1
+ 269.601 382.197 269.601 382.197 269.601 385.952 c 1,2,-1
+ 44.308 385.952 l 1,3,-1
+ 63.8334 433.264 l 1,4,-1
+ 259.838 433.264 l 1,5,6
+ 255.332 442.275 255.332 442.275 248.573 449.785 c 0,7,8
+ 210.273 491.089 210.273 491.089 123.911 491.089 c 2,9,-1
+ 44.3084 491.089 l 1,10,-1
+ 63.8338 538.4 l 1,11,-1
+ 437.82 538.4 l 1,12,-1
+ 418.295 491.089 l 1,13,-1
+ 275.609 491.089 l 1,14,15
+ 304.897 473.816 304.897 473.816 315.411 433.264 c 1,16,-1
+ 437.82 433.264 l 1,17,-1
+ 418.295 385.952 l 1,18,-1
+ 322.17 385.952 l 1,19,20
+ 322.17 269.26 322.17 269.26 128.418 255.282 c 1,21,-1
+ 380.746 -0.0500634 l 1,22,-1
+ 305.648 -0.0500634 l 1,23,-1
+ 52.5688 253.029 l 1,24,-1
+ 52.5688 297.337 l 1,25,26
+ 259.757 295.835 259.757 295.835 268.85 375.438 c 0,0,1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
