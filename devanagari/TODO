@@ -1,0 +1,14 @@
+1. Proper Bold for Lohit Devanagari 
+	- https://bugzilla.redhat.com/show_bug.cgi?id=648350
+2. [kn_IN] 0CB0 + 200D + 0CCD + 0C95+ 0CBE consonant is wrongly rendering
+	- https://bugzilla.redhat.com/show_bug.cgi?id=694724
+3. [te_IN] Lohit font has different glyph shape for * character (used for password characters)
+	- https://bugzilla.redhat.com/show_bug.cgi?id=718949
+4. [kn_IN] Text Cut for 3rd word (System) in Menu Bar on Desktop Panel
+	- https://bugzilla.redhat.com/show_bug.cgi?id=748710
+5. [mr_IN] Add Marathi required language specific glyphs in Devanagari
+	- https://bugzilla.redhat.com/show_bug.cgi?id=766493
+
+RFE:
+1. Support Devanagari Extended and Vedic Extensions
+2. Add Devanagari Script Northern Variant in Lohit Devanagari Font
