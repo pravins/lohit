@@ -13,13 +13,14 @@ Descent: 154
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
+NeedsXUIDChange: 1
 XUID: [1021 648 100124046 5181693]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1163146539
-ModificationTime: 1316598225
+ModificationTime: 1328791635
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -364,11 +365,11 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 2368 37 13
+WinInfo: 8322 38 14
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Bengali lookup 1" "Anchor-1"  "'abvm' Above Base Mark in Bengali lookup 1" "Anchor-2"  "'blwm' Below Base Mark in Bengali lookup 0" 
-BeginChars: 65869 485
+BeginChars: 65869 487
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -47550,6 +47551,58 @@ SplineSet
  507 72 l 1,85,-1
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u09A7
+EndChar
+
+StartChar: uni09FB
+Encoding: 2555 2555 485
+Width: 374
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+319 0 m 1,0,-1
+ 117.8 217.04 l 1,1,2
+ -41.2 385.04 -41.2 385.04 156.8 464.04 c 1,3,-1
+ 177.8 425.04 l 1,4,5
+ 31.8 375.04 31.8 375.04 140.8 258.04 c 1,6,-1
+ 347.9 31.6 l 1,7,-1
+ 319 0.000377493 l 1,8,-1
+ 319 0.000377493 l 1,9,-1
+ 319 0 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni20B9
+Encoding: 8377 8377 486
+Width: 408
+VWidth: 1024
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+229.16 342.721 m 0,0,1
+ 229.84 348.84 229.84 348.84 229.84 352.24 c 1,2,-1
+ 25.8398 352.24 l 1,3,-1
+ 43.5205 395.08 l 1,4,-1
+ 221 395.08 l 1,5,6
+ 216.92 403.24 216.92 403.24 210.8 410.04 c 0,7,8
+ 176.12 447.439 176.12 447.439 97.9199 447.439 c 2,9,-1
+ 25.8398 447.439 l 1,10,-1
+ 43.5205 490.279 l 1,11,-1
+ 382.16 490.279 l 1,12,-1
+ 364.479 447.439 l 1,13,-1
+ 235.279 447.439 l 1,14,15
+ 261.8 431.8 261.8 431.8 271.32 395.08 c 1,16,-1
+ 382.16 395.08 l 1,17,-1
+ 364.479 352.24 l 1,18,-1
+ 277.439 352.24 l 1,19,20
+ 277.439 246.576 277.439 246.576 102 233.92 c 1,21,-1
+ 330.479 2.7207 l 1,22,-1
+ 262.479 2.7207 l 1,23,-1
+ 33.3203 231.88 l 1,24,-1
+ 33.3203 272 l 1,25,26
+ 220.926 270.64 220.926 270.64 229.16 342.721 c 0,0,1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
