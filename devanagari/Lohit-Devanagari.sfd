@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1328790176
+ModificationTime: 1328856503
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -909,13 +909,9 @@ FitToEm: 1
 WinInfo: 0 38 14
 BeginPrivate: 0
 EndPrivate
-Grid
-466 1024 m 25
- -452 1024 l 25
-EndSplineSet
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Devanagari lookup 3" "Anchor-1"  "'abvm' Above Base Mark in Devanagari lookup 2" "Anchor-2"  "'abvm' Above Base Mark in Devanagari lookup 1" "Anchor-3"  "'blwm' Below Base Mark in Devanagari lookup 0" 
-BeginChars: 65724 385
+BeginChars: 65724 386
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -18258,6 +18254,30 @@ SplineSet
  573 878 l 1,2,-1
  573 818 l 1,3,-1
  47 818 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: afii57929
+Encoding: 700 700 385
+Width: 314
+VWidth: 2048
+GlyphClass: 4
+Flags: WO
+LayerCount: 2
+Fore
+SplineSet
+217.8 770.6 m 2,0,1
+ 217.8 738.8 217.8 738.8 215.1 713 c 128,-1,2
+ 212.4 687.2 212.4 687.2 206.4 664.7 c 128,-1,3
+ 200.4 642.2 200.4 642.2 191.7 622.4 c 128,-1,4
+ 183 602.6 183 602.6 171 583.4 c 1,5,-1
+ 97.2002 583.4 l 1,6,7
+ 124.2 622.4 124.2 622.4 138.9 662 c 128,-1,8
+ 153.6 701.6 153.6 701.6 153.6 739.4 c 1,9,-1
+ 100.8 739.4 l 1,10,-1
+ 100.8 857.6 l 1,11,-1
+ 217.8 857.6 l 1,12,-1
+ 217.8 770.6 l 2,0,1
 EndSplineSet
 EndChar
 EndChars

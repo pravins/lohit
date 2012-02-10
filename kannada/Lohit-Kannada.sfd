@@ -1621,7 +1621,7 @@ EndChar
 
 StartChar: U0C97
 Encoding: 3223 3223 25
-Width: 620
+Width: 650
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-0" 388 -21 basechar 0
@@ -19849,9 +19849,10 @@ EndChar
 
 StartChar: U0CB8_U0CC6.abvs
 Encoding: 65706 -1 266
-Width: 545
+Width: 572
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" 265 -31 basechar 0
 LayerCount: 2
 Fore
 SplineSet
