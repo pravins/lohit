@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1163146539
-ModificationTime: 1329051075
+ModificationTime: 1329998149
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -365,7 +365,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 37 13
+WinInfo: 0 32 13
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Bengali lookup 1" "Anchor-1"  "'abvm' Above Base Mark in Bengali lookup 1" "Anchor-2"  "'blwm' Below Base Mark in Bengali lookup 0" 
@@ -496,7 +496,7 @@ StartChar: exclam
 Encoding: 33 33 4
 Width: 290
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -523,7 +523,7 @@ StartChar: quotedbl
 Encoding: 34 34 5
 Width: 376
 GlyphClass: 2
-Flags: HW
+Flags: W
 TtInstrs:
 NPUSHW
  18
@@ -961,7 +961,7 @@ StartChar: quotesingle
 Encoding: 39 39 10
 Width: 246
 GlyphClass: 2
-Flags: HW
+Flags: W
 TtInstrs:
 NPUSHW
  12
@@ -2498,7 +2498,7 @@ StartChar: question
 Encoding: 63 63 34
 Width: 485
 GlyphClass: 2
-Flags: HW
+Flags: W
 TtInstrs:
 NPUSHW
  15
@@ -5031,7 +5031,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 293 0 basechar 0
+AnchorPoint: "Anchor-2" 291 0 basechar 0
 AnchorPoint: "Anchor-1" 291 0 basechar 0
 AnchorPoint: "Anchor-0" 292 -2 basechar 0
 LayerCount: 2
@@ -5478,7 +5478,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 247 -2 basechar 0
+AnchorPoint: "Anchor-2" 247 6 basechar 0
 AnchorPoint: "Anchor-1" 233 -5 basechar 0
 AnchorPoint: "Anchor-0" 257 -5 basechar 0
 LayerCount: 2
@@ -5551,7 +5551,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 326 -4 basechar 0
+AnchorPoint: "Anchor-2" 326 6 basechar 0
 AnchorPoint: "Anchor-1" 301 -4 basechar 0
 AnchorPoint: "Anchor-0" 292 -4 basechar 0
 LayerCount: 2
@@ -5970,7 +5970,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 233 5 basechar 0
+AnchorPoint: "Anchor-2" 233 13 basechar 0
 AnchorPoint: "Anchor-1" 190 -5 basechar 0
 AnchorPoint: "Anchor-0" 405 45 basechar 0
 LayerCount: 2
@@ -6071,7 +6071,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 247 -2 basechar 0
+AnchorPoint: "Anchor-2" 247 14 basechar 0
 AnchorPoint: "Anchor-1" 185 0 basechar 0
 AnchorPoint: "Anchor-0" 200 0 basechar 0
 LayerCount: 2
@@ -6792,7 +6792,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 419 1 basechar 0
+AnchorPoint: "Anchor-2" 410 1 basechar 0
 AnchorPoint: "Anchor-1" 415 0 basechar 0
 AnchorPoint: "Anchor-0" 418 0 basechar 0
 LayerCount: 2
@@ -7517,7 +7517,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 309 5 basechar 0
+AnchorPoint: "Anchor-2" 315 5 basechar 0
 AnchorPoint: "Anchor-1" 312 -1 basechar 0
 AnchorPoint: "Anchor-0" 312 -5 basechar 0
 LayerCount: 2
@@ -7591,7 +7591,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 396 2 basechar 0
+AnchorPoint: "Anchor-2" 399 2 basechar 0
 AnchorPoint: "Anchor-1" 380 0 basechar 0
 AnchorPoint: "Anchor-0" 397 -5 basechar 0
 LayerCount: 2
@@ -7671,7 +7671,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 264 1 basechar 0
+AnchorPoint: "Anchor-2" 264 11 basechar 0
 AnchorPoint: "Anchor-1" 250 0 basechar 0
 AnchorPoint: "Anchor-0" 245 0 basechar 0
 LayerCount: 2
@@ -8197,7 +8197,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" -105 -20 mark 0
+AnchorPoint: "Anchor-2" -110 -20 mark 0
 LayerCount: 2
 Fore
 SplineSet
