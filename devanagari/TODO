@@ -6,8 +6,6 @@
 	- https://bugzilla.redhat.com/show_bug.cgi?id=718949
 4. [kn_IN] Text Cut for 3rd word (System) in Menu Bar on Desktop Panel
 	- https://bugzilla.redhat.com/show_bug.cgi?id=748710
-5. [mr_IN] Add Marathi required language specific glyphs in Devanagari
-	- https://bugzilla.redhat.com/show_bug.cgi?id=766493
 
 RFE:
 1. Support Devanagari Extended and Vedic Extensions

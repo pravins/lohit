@@ -13,13 +13,14 @@ Descent: 154
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
+NeedsXUIDChange: 1
 XUID: [1021 648 100124046 5567902]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159495707
-ModificationTime: 1318242525
+ModificationTime: 1330332063
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -974,9 +975,9 @@ EndChar
 
 StartChar: asterisk
 Encoding: 42 42 13
-Width: 465
+Width: 430
 GlyphClass: 2
-Flags: W
+Flags: HW
 TtInstrs:
 IUP[x]
 IUP[y]
@@ -984,26 +985,26 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-186.24 509.6 m 5,0,-1
- 146.64 535.4 l 5,1,-1
- 212.64 612.8 l 5,2,-1
- 111.44 595.6 l 5,3,-1
- 107.04 647.2 l 5,4,-1
- 208.24 638.6 l 5,5,-1
- 151.04 707.4 l 5,6,-1
- 199.44 728.9 l 5,7,-1
- 230.24 655.8 l 5,8,-1
- 265.44 728.9 l 5,9,-1
- 309.44 707.4 l 5,10,-1
- 256.64 638.6 l 5,11,-1
- 357.84 651.5 l 5,12,-1
- 357.84 604.2 l 5,13,-1
- 256.64 612.8 l 5,14,-1
- 331.44 535.4 l 5,15,-1
- 283.04 509.6 l 5,16,-1
- 239.04 604.2 l 5,17,-1
- 186.24 509.6 l 5,18,-1
- 186.24 509.6 l 5,0,-1
+169.2 369.6 m 1,0,-1
+ 129.6 395.4 l 1,1,-1
+ 195.6 472.8 l 1,2,-1
+ 94.4004 455.6 l 1,3,-1
+ 90 507.2 l 1,4,-1
+ 191.2 498.6 l 1,5,-1
+ 134 567.4 l 1,6,-1
+ 182.4 588.9 l 1,7,-1
+ 213.2 515.8 l 1,8,-1
+ 248.4 588.9 l 1,9,-1
+ 292.4 567.4 l 1,10,-1
+ 239.6 498.6 l 1,11,-1
+ 340.8 511.5 l 1,12,-1
+ 340.8 464.2 l 1,13,-1
+ 239.6 472.8 l 1,14,-1
+ 314.4 395.4 l 1,15,-1
+ 266 369.6 l 1,16,-1
+ 222 464.2 l 1,17,-1
+ 169.2 369.6 l 1,18,-1
+ 169.2 369.6 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -7698,7 +7699,7 @@ EndChar
 StartChar: uni20B9
 Encoding: 8377 8377 166
 Width: 475
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
