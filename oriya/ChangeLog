@@ -1,5 +1,12 @@
 				  lohit-oriya
-Current Version :- 2.4.4
+Current Version :- 2.5.1
+
+* Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
+- added u0B72, u0B73, u0B74, u0B75, u0B76, u0B77
+- added autohint instructions in conf file
+
+* Wed Sep 21 2011 Pravin Satpute <psatpute@redhat.com> - 2.5.0
+- relicensing to OFL 1.1
 
 * Tue Aug 30 2011 Pravin Satpute <psatpute@redhat.com> - 2.4.4
 - added Indian rupee sign U+20B9

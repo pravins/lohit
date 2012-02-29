@@ -3,8 +3,8 @@ FontName: Lohit-Tamil
 FullName: Lohit Tamil
 FamilyName: Lohit Tamil
 Weight: Book
-Copyright: Copyright 2011 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit> \n\n Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
-Version: 2.5.0
+Copyright: Copyright 2011-12 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit> \n\n Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
+Version: 2.5.1
 ItalicAngle: 0
 UnderlinePosition: -368
 UnderlineWidth: 24
@@ -13,14 +13,13 @@ Descent: 324
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 140 1710970845 9878666]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1160992028
-ModificationTime: 1330332300
+ModificationTime: 1330513690
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -283,14 +282,14 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "ACE: Automatic Control Equipments Lohit Tamil" "" "Version 2.5.0" 
+LangName: 1033 "" "" "Regular" "" "" "Version 2.5.1" 
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 28 11
+WinInfo: 56 28 11
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Tamil lookup 0 subtable" 
@@ -1141,7 +1140,7 @@ StartChar: asterisk
 Encoding: 42 42 13
 Width: 559
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet

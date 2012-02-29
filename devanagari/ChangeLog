@@ -1,10 +1,11 @@
 				  lohit-devanagari
-Current Version :- 2.5.0
+Current Version :- 2.5.1
 
+* Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - added U+02BC characters for used in maithili
 - enabled marathi localized shape for marathi locl, #766493
 - added Unicode 6.0 characters support
-- improved astestar sign
+- improved asterisk sign
 
 * Wed Sep 21 2011 Pravin Satpute <psatpute@redhat.com> - 2.5.0
 - relicensing to OFL 1.1

@@ -16,7 +16,7 @@ cd trunk
 sh generate.sh
 cp ChangeLog ChangeLog.old
 #for generating binary tar ball
-for i in assamese bengali devanagari gujarati  kannada  malayalam  oriya  punjabi  tamil  telugu 
+for i in assamese bengali devanagari gujarati  kannada  malayalam  marathi nepali oriya  punjabi  tamil  telugu 
 do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-ttf-$ver
@@ -28,7 +28,7 @@ rm -rf lohit-$i-ttf-$ver
 done
 
 #for generating source tar ball
-for i in assamese bengali devanagari gujarati  kannada  malayalam  oriya  punjabi  tamil  telugu
+for i in assamese bengali devanagari gujarati  kannada  malayalam marathi nepali  oriya  punjabi  tamil  telugu
 do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-$ver

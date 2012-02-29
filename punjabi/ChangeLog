@@ -1,7 +1,9 @@
 				  lohit-punjabi
-Current Version :- 2.5.0
+Current Version :- 2.5.1
 
+* Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - added rupee symbol U+20B9
+- added autohint instructions in conf file
 
 * Wed Sep 21 2011 Pravin Satpute <psatpute@redhat.com> - 2.5.0
 - relicensing to OFL 1.1

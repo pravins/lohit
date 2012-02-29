@@ -1,5 +1,8 @@
 				  lohit-malayalam
-Current Version :- 2.5.0
+Current Version :- 2.5.1
+
+* Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
+- added characters u0D3D, u0D44, 0D29, 0D3A
 
 * Wed Sep 21 2011 Pravin Satpute <psatpute@redhat.com> - 2.5.0
 - relicensing to OFL 1.1

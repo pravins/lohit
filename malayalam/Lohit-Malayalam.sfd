@@ -3,8 +3,8 @@ FontName: Lohit-Malayalam
 FullName: Lohit Malayalam
 FamilyName: Lohit Malayalam
 Weight: Book
-Copyright: Copyright 2011 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
-Version: 2.5.0
+Copyright: Copyright 2011-12 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
+Version: 2.5.1
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -13,14 +13,13 @@ Descent: 374
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 761 1808917587 3643938]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159524182
-ModificationTime: 1328791911
+ModificationTime: 1330512877
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -342,7 +341,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Malayalam : 19-7-2006" "" "Version 2.5.0" 
+LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Malayalam : 19-7-2006" "" "Version 2.5.1" 
 GaspTable: 1 65535 2
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -19776,7 +19775,7 @@ EndChar
 StartChar: uni0D3D
 Encoding: 3389 3389 300
 Width: 354
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet

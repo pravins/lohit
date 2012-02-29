@@ -3,8 +3,8 @@ FontName: Lohit-Oriya
 FullName: Lohit Oriya
 FamilyName: Lohit Oriya
 Weight: Book
-Copyright: Copyright 2011 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
-Version: 2.5.0
+Copyright: Copyright 2011-12 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
+Version: 2.5.1
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -13,14 +13,13 @@ Descent: 246
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 808 1214965479 15809157]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1158849336
-ModificationTime: 1328792268
+ModificationTime: 1330513417
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -961,7 +960,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Oriya : 19-7-2006" "" "Version 2.5.0" 
+LangName: 1033 "" "" "Regular" "" "" "Version 2.5.1" 
 GaspTable: 1 65535 2
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -26675,7 +26674,7 @@ EndChar
 StartChar: uni0B72
 Encoding: 2930 2930 425
 Width: 246
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -26691,7 +26690,7 @@ EndChar
 StartChar: uni0B73
 Encoding: 2931 2931 426
 Width: 485
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -26717,7 +26716,7 @@ EndChar
 StartChar: uni0B74
 Encoding: 2932 2932 427
 Width: 775
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -26757,7 +26756,7 @@ EndChar
 StartChar: uni0B75
 Encoding: 2933 2933 428
 Width: 551
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -26774,7 +26773,7 @@ EndChar
 StartChar: uni0B76
 Encoding: 2934 2934 429
 Width: 751
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -26818,7 +26817,7 @@ EndChar
 StartChar: uni0B77
 Encoding: 2935 2935 430
 Width: 935
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet

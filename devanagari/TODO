@@ -8,5 +8,5 @@
 	- https://bugzilla.redhat.com/show_bug.cgi?id=748710
 
 RFE:
-1. Support Devanagari Extended and Vedic Extensions
+1. Support Vedic Extensions
 2. Add Devanagari Script Northern Variant in Lohit Devanagari Font

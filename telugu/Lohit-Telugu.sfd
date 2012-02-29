@@ -3,8 +3,8 @@ FontName: Lohit-Telugu
 FullName: Lohit Telugu
 FamilyName: Lohit Telugu
 Weight: Book
-Copyright: Copyright 2011 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
-Version: 2.5.0
+Copyright: Copyright 2011-12 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
+Version: 2.5.1
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -13,14 +13,13 @@ Descent: 334
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 648 100124046 8549501]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1153280036
-ModificationTime: 1329733166
+ModificationTime: 1330513821
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2915,7 +2914,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Telugu : 19-7-2006" "" "Version 2.5.0" 
+LangName: 1033 "" "" "Regular" "" "" "Version 2.5.1" 
 GaspTable: 1 65535 2
 Encoding: Custom
 Compacted: 1
@@ -39217,7 +39216,7 @@ Encoding: 65887 -1 436
 Width: 0
 VWidth: 819
 GlyphClass: 4
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 SplineSet
@@ -41170,7 +41169,7 @@ Encoding: 65918 -1 467
 Width: 0
 VWidth: 819
 GlyphClass: 4
-Flags: HW
+Flags: W
 LayerCount: 2
 Back
 SplineSet

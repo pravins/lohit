@@ -3,8 +3,8 @@ FontName: Lohit-Kannada
 FullName: Lohit Kannada
 FamilyName: Lohit Kannada
 Weight: Book
-Copyright: Copyright 2011 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
-Version: 2.5.0
+Copyright: Copyright 2011-12 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
+Version: 2.5.1
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -13,14 +13,13 @@ Descent: 404
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 722 38139966 6691028]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161073346
-ModificationTime: 1330331656
+ModificationTime: 1330512711
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -368,7 +367,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Kannada : 19-7-2006" "" "Version 2.5.0" 
+LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Kannada : 19-7-2006" "" "Version 2.5.1" 
 GaspTable: 1 65535 2
 Encoding: UnicodeBmp
 Compacted: 1
@@ -53992,7 +53991,7 @@ EndChar
 StartChar: asterisk
 Encoding: 42 42 616
 Width: 559
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -54123,7 +54122,7 @@ EndChar
 StartChar: one
 Encoding: 49 49 622
 Width: 634
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
