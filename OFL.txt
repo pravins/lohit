@@ -1,4 +1,4 @@
-Copyright 2011 Lohit Fonts Project contributors
+Copyright 2011-12 Lohit Fonts Project contributors
   <http://fedorahosted.org/lohit>, 
 with Reserved Font Name Lohit.
 
