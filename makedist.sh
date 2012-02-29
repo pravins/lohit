@@ -12,6 +12,7 @@ gzip lohit-fonts-svnsnap-$date1.tar
 mv lohit-fonts-svnsnap-$date1.tar.gz trunk/
 rm -rf lohit-fonts-svnsnap-$date1
 cd trunk
+mkdir lohit-ttf-$date1
 
 sh generate.sh
 cp ChangeLog ChangeLog.old
@@ -21,11 +22,18 @@ do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-ttf-$ver
 cp COPYRIGHT OFL.txt ChangeLog.old README README.cvs AUTHORS $i/* lohit-$i-ttf-$ver
+cp $i/*.ttf lohit-ttf-$date1
 rm -rf lohit-$i-ttf-$ver/.svn lohit-$i-ttf-$ver/*.sfd
 tar -cf lohit-$i-ttf-$ver.tar lohit-$i-ttf-$ver
 gzip lohit-$i-ttf-$ver.tar
 rm -rf lohit-$i-ttf-$ver
 done
+
+cp COPYRIGHT OFL.txt lohit-ttf-$date1/
+tar -cf lohit-ttf-$date1.tar lohit-ttf-$date1/
+gzip lohit-ttf-$date1.tar
+rm -rf lohit-ttf-$date1
+
 
 #for generating source tar ball
 for i in assamese bengali devanagari gujarati  kannada  malayalam marathi nepali  oriya  punjabi  tamil  telugu
