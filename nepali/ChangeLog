@@ -1,6 +1,8 @@
 				  lohit-nepali
 Current Version :- 2.5.1
 
+- corrected u0938 "स" character shape, #799004
+
 * Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - This is fork of Lohit Devanagari specifically for marathi language
 - Using Lohit Devanagari with mr_IN locale is equivalent to this font
