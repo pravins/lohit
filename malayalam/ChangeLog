@@ -1,6 +1,9 @@
 				  lohit-malayalam
 Current Version :- 2.5.1
 
+- corrected shape of U+0D3A #798870
+- added character U+0D4E and anchor point
+
 * Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - added characters u0D3D, u0D44, 0D29, 0D3A
 
