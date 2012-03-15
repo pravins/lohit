@@ -13,13 +13,14 @@ Descent: 334
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
+NeedsXUIDChange: 1
 XUID: [1021 648 100124046 8549501]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1153280036
-ModificationTime: 1330513821
+ModificationTime: 1331793272
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2916,14 +2917,13 @@ ShortTable: maxp 16
 EndShort
 LangName: 1033 "" "" "Regular" "" "" "Version 2.5.1" 
 GaspTable: 1 65535 2
-Encoding: Custom
-Compacted: 1
+Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 336 28 11
+WinInfo: 0 28 11
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2979,7 +2979,7 @@ Grid
  -629.96 -175.36 l 1
 EndSplineSet
 AnchorClass2: "Anchor-3"  "'blwm' Below Base Mark in Telugu lookup 0-2" "Anchor-1"  "'blwm' Below Base Mark in Telugu lookup 0-1" "Anchor-0"  "'blwm' Below Base Mark in Telugu lookup 0" 
-BeginChars: 65989 626
+BeginChars: 66007 567
 
 StartChar: U0C2C_U0C41.psts
 Encoding: 65536 -1 0
@@ -7968,33 +7968,8 @@ EndSplineSet
 Validated: 5
 EndChar
 
-StartChar: minus
-Encoding: 8722 8722 86
-Width: 640
-VWidth: 819
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 -248 m 1,0,-1
- 80 312 l 1,1,-1
- 560 312 l 1,2,-1
- 560 -248 l 1,3,-1
- 80 -248 l 1,4,-1
- 80 -248 l 1,0,-1
-120 -208 m 1,5,-1
- 520 -208 l 1,6,-1
- 520 272 l 1,7,-1
- 120 272 l 1,8,-1
- 120 -208 l 1,9,-1
- 120 -208 l 1,5,-1
-EndSplineSet
-Validated: 5
-EndChar
-
 StartChar: uni25CC
-Encoding: 9676 9676 87
+Encoding: 9676 9676 86
 Width: 870
 VWidth: 819
 GlyphClass: 2
@@ -8127,7 +8102,7 @@ Validated: 5
 EndChar
 
 StartChar: U0C16_U0C41.psts
-Encoding: 65539 -1 88
+Encoding: 65537 -1 87
 Width: 989
 VWidth: 819
 GlyphClass: 2
@@ -8222,7 +8197,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C16 U0C41
 EndChar
 
 StartChar: U0C17_U0C41.psts
-Encoding: 65540 -1 89
+Encoding: 65538 -1 88
 Width: 874
 VWidth: 819
 GlyphClass: 2
@@ -8272,7 +8247,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C17 U0C41
 EndChar
 
 StartChar: U0C19_U0C41.psts
-Encoding: 65541 -1 90
+Encoding: 65539 -1 89
 Width: 990
 VWidth: 819
 GlyphClass: 2
@@ -8350,7 +8325,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C19 U0C41
 EndChar
 
 StartChar: U0C1A_U0C41.psts
-Encoding: 65542 -1 91
+Encoding: 65540 -1 90
 Width: 1022
 VWidth: 819
 GlyphClass: 2
@@ -8424,7 +8399,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C1A U0C41
 EndChar
 
 StartChar: U0C1B_U0C41.psts
-Encoding: 65543 -1 92
+Encoding: 65541 -1 91
 Width: 1022
 VWidth: 819
 GlyphClass: 2
@@ -8505,7 +8480,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C1B U0C41
 EndChar
 
 StartChar: U0C1F_U0C41.psts
-Encoding: 65544 -1 93
+Encoding: 65542 -1 92
 Width: 1119
 VWidth: 819
 GlyphClass: 2
@@ -8579,7 +8554,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C1F U0C41
 EndChar
 
 StartChar: U0C20_U0C41.psts
-Encoding: 65545 -1 94
+Encoding: 65543 -1 93
 Width: 910
 VWidth: 819
 GlyphClass: 2
@@ -8641,7 +8616,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C20 U0C41
 EndChar
 
 StartChar: U0C23_U0C41.psts
-Encoding: 65546 -1 95
+Encoding: 65544 -1 94
 Width: 1139
 VWidth: 819
 GlyphClass: 2
@@ -8727,7 +8702,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C23 U0C41
 EndChar
 
 StartChar: U0C24_U0C41.psts
-Encoding: 65547 -1 96
+Encoding: 65545 -1 95
 Width: 1017
 VWidth: 819
 GlyphClass: 2
@@ -8815,7 +8790,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C24 U0C41
 EndChar
 
 StartChar: U0C25_U0C41.psts
-Encoding: 65548 -1 97
+Encoding: 65546 -1 96
 Width: 1023
 VWidth: 819
 GlyphClass: 2
@@ -8892,7 +8867,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C25 U0C41
 EndChar
 
 StartChar: U0C26_U0C41.psts
-Encoding: 65549 -1 98
+Encoding: 65547 -1 97
 Width: 1023
 VWidth: 819
 GlyphClass: 2
@@ -8958,7 +8933,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C26 U0C41
 EndChar
 
 StartChar: U0C27_U0C41.psts
-Encoding: 65550 -1 99
+Encoding: 65548 -1 98
 Width: 1023
 VWidth: 819
 GlyphClass: 2
@@ -9030,7 +9005,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C27 U0C41
 EndChar
 
 StartChar: U0C28_U0C41.psts
-Encoding: 65551 -1 100
+Encoding: 65549 -1 99
 Width: 983
 VWidth: 819
 GlyphClass: 2
@@ -9096,7 +9071,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C28 U0C41
 EndChar
 
 StartChar: U0C15_U0C3E.abvs
-Encoding: 65552 -1 101
+Encoding: 65550 -1 100
 Width: 800
 VWidth: 819
 GlyphClass: 2
@@ -9163,7 +9138,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C15 U0C3E
 EndChar
 
 StartChar: U0C16_U0C3E.abvs
-Encoding: 65553 -1 102
+Encoding: 65551 -1 101
 Width: 967
 VWidth: 819
 GlyphClass: 2
@@ -9268,7 +9243,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C16 U0C3E
 EndChar
 
 StartChar: U0C17_U0C3E.abvs
-Encoding: 65554 -1 103
+Encoding: 65552 -1 102
 Width: 843
 VWidth: 819
 GlyphClass: 2
@@ -9319,7 +9294,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C17 U0C3E
 EndChar
 
 StartChar: U0C18_U0C3E.abvs
-Encoding: 65555 -1 104
+Encoding: 65553 -1 103
 Width: 1312
 VWidth: 819
 GlyphClass: 2
@@ -9426,7 +9401,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C18 U0C3E
 EndChar
 
 StartChar: U0C19_U0C3E.abvs
-Encoding: 65556 -1 105
+Encoding: 65554 -1 104
 Width: 930
 VWidth: 819
 GlyphClass: 2
@@ -9517,7 +9492,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C19 U0C3E
 EndChar
 
 StartChar: U0C1A_U0C3E.abvs
-Encoding: 65557 -1 106
+Encoding: 65555 -1 105
 Width: 936
 VWidth: 819
 GlyphClass: 2
@@ -9591,7 +9566,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1A U0C3E
 EndChar
 
 StartChar: U0C1B_U0C3E.abvs
-Encoding: 65558 -1 107
+Encoding: 65556 -1 106
 Width: 950
 VWidth: 819
 GlyphClass: 2
@@ -9672,7 +9647,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1B U0C3E
 EndChar
 
 StartChar: U0C1C_U0C3E.abvs
-Encoding: 65559 -1 108
+Encoding: 65557 -1 107
 Width: 931
 VWidth: 819
 GlyphClass: 2
@@ -9770,7 +9745,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1C U0C3E
 EndChar
 
 StartChar: U0C1D_U0C3E.abvs
-Encoding: 65560 -1 109
+Encoding: 65558 -1 108
 Width: 1643
 VWidth: 819
 GlyphClass: 4
@@ -9875,7 +9850,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1D U0C3E
 EndChar
 
 StartChar: U0C1E_U0C3E.abvs
-Encoding: 65561 -1 110
+Encoding: 65559 -1 109
 Width: 1140
 VWidth: 819
 GlyphClass: 2
@@ -9973,7 +9948,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1E U0C3E
 EndChar
 
 StartChar: U0C1F_U0C3E.abvs
-Encoding: 65562 -1 111
+Encoding: 65560 -1 110
 Width: 1024
 VWidth: 819
 GlyphClass: 2
@@ -10058,7 +10033,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1F U0C3E
 EndChar
 
 StartChar: U0C20_U0C3E.abvs
-Encoding: 65563 -1 112
+Encoding: 65561 -1 111
 Width: 886
 VWidth: 819
 GlyphClass: 2
@@ -10123,7 +10098,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C20 U0C3E
 EndChar
 
 StartChar: U0C21_U0C3E.abvs
-Encoding: 65564 -1 113
+Encoding: 65562 -1 112
 Width: 949
 VWidth: 819
 GlyphClass: 2
@@ -10206,7 +10181,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C21 U0C3E
 EndChar
 
 StartChar: U0C22_U0C3E.abvs
-Encoding: 65565 -1 114
+Encoding: 65563 -1 113
 Width: 949
 VWidth: 819
 GlyphClass: 2
@@ -10295,7 +10270,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C22 U0C3E
 EndChar
 
 StartChar: U0C23_U0C3E.abvs
-Encoding: 65566 -1 115
+Encoding: 65564 -1 114
 Width: 1018
 VWidth: 819
 GlyphClass: 2
@@ -10393,7 +10368,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C23 U0C3E
 EndChar
 
 StartChar: U0C24_U0C3E.abvs
-Encoding: 65567 -1 116
+Encoding: 65565 -1 115
 Width: 944
 VWidth: 819
 GlyphClass: 2
@@ -10483,7 +10458,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C24 U0C3E
 EndChar
 
 StartChar: U0C25_U0C3E.abvs
-Encoding: 65568 -1 117
+Encoding: 65566 -1 116
 Width: 949
 VWidth: 819
 GlyphClass: 2
@@ -10564,7 +10539,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C25 U0C3E
 EndChar
 
 StartChar: U0C26_U0C3E.abvs
-Encoding: 65569 -1 118
+Encoding: 65567 -1 117
 Width: 949
 VWidth: 819
 GlyphClass: 2
@@ -10633,7 +10608,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C26 U0C3E
 EndChar
 
 StartChar: U0C27_U0C3E.abvs
-Encoding: 65570 -1 119
+Encoding: 65568 -1 118
 Width: 949
 VWidth: 819
 GlyphClass: 2
@@ -10708,7 +10683,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C27 U0C3E
 EndChar
 
 StartChar: U0C28_U0C3E.abvs
-Encoding: 65571 -1 120
+Encoding: 65569 -1 119
 Width: 942
 VWidth: 819
 GlyphClass: 2
@@ -10774,7 +10749,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C28 U0C3E
 EndChar
 
 StartChar: U0C2A_U0C3E.abvs
-Encoding: 65572 -1 121
+Encoding: 65570 -1 120
 Width: 907
 VWidth: 819
 GlyphClass: 2
@@ -10852,7 +10827,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2A U0C3E
 EndChar
 
 StartChar: U0C2B_U0C3E.abvs
-Encoding: 65573 -1 122
+Encoding: 65571 -1 121
 Width: 895
 VWidth: 819
 GlyphClass: 2
@@ -10936,7 +10911,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2B U0C3E
 EndChar
 
 StartChar: U0C2C_U0C3E.abvs
-Encoding: 65574 -1 123
+Encoding: 65572 -1 122
 Width: 930
 VWidth: 819
 GlyphClass: 2
@@ -11020,7 +10995,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2C U0C3E
 EndChar
 
 StartChar: U0C2D_U0C3E.abvs
-Encoding: 65575 -1 124
+Encoding: 65573 -1 123
 Width: 931
 VWidth: 819
 GlyphClass: 2
@@ -11110,7 +11085,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2D U0C3E
 EndChar
 
 StartChar: U0C2E_U0C3E.abvs
-Encoding: 65576 -1 125
+Encoding: 65574 -1 124
 Width: 1312
 VWidth: 819
 GlyphClass: 2
@@ -11207,7 +11182,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2E U0C3E
 EndChar
 
 StartChar: U0C2F_U0C3E.abvs
-Encoding: 65577 -1 126
+Encoding: 65575 -1 125
 Width: 1588
 VWidth: 819
 GlyphClass: 2
@@ -11305,7 +11280,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2F U0C3E
 EndChar
 
 StartChar: U0C30_U0C3E.abvs
-Encoding: 65578 -1 127
+Encoding: 65576 -1 126
 Width: 827
 VWidth: 819
 GlyphClass: 2
@@ -11364,7 +11339,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C30 U0C3E
 EndChar
 
 StartChar: U0C31_U0C3E.abvs
-Encoding: 65579 -1 128
+Encoding: 65577 -1 127
 Width: 1012
 VWidth: 819
 GlyphClass: 2
@@ -11462,7 +11437,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C31 U0C3E
 EndChar
 
 StartChar: U0C32_U0C3E.abvs
-Encoding: 65580 -1 129
+Encoding: 65578 -1 128
 Width: 940
 VWidth: 819
 GlyphClass: 2
@@ -11536,7 +11511,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C32 U0C3E
 EndChar
 
 StartChar: U0C33_U0C3E.abvs
-Encoding: 65581 -1 130
+Encoding: 65579 -1 129
 Width: 897
 VWidth: 819
 GlyphClass: 2
@@ -11626,7 +11601,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C33 U0C3E
 EndChar
 
 StartChar: U0C35_U0C3E.abvs
-Encoding: 65582 -1 131
+Encoding: 65580 -1 130
 Width: 890
 VWidth: 819
 GlyphClass: 2
@@ -11698,7 +11673,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C35 U0C3E
 EndChar
 
 StartChar: U0C36_U0C3E.abvs
-Encoding: 65583 -1 132
+Encoding: 65581 -1 131
 Width: 836
 VWidth: 819
 GlyphClass: 2
@@ -11780,7 +11755,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C36 U0C3E
 EndChar
 
 StartChar: U0C37_U0C3E.abvs
-Encoding: 65584 -1 133
+Encoding: 65582 -1 132
 Width: 912
 VWidth: 819
 GlyphClass: 2
@@ -11865,7 +11840,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C37 U0C3E
 EndChar
 
 StartChar: U0C38_U0C3E.abvs
-Encoding: 65585 -1 134
+Encoding: 65583 -1 133
 Width: 900
 VWidth: 819
 GlyphClass: 2
@@ -11937,7 +11912,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C38 U0C3E
 EndChar
 
 StartChar: U0C39_U0C3E.abvs
-Encoding: 65586 -1 135
+Encoding: 65584 -1 134
 Width: 884
 VWidth: 819
 GlyphClass: 2
@@ -12039,7 +12014,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C39 U0C3E
 EndChar
 
 StartChar: U0C15_U0C3E_U0C37_U0C4D.akhn
-Encoding: 65587 -1 136
+Encoding: 65585 -1 135
 Width: 822
 VWidth: 819
 GlyphClass: 2
@@ -12134,7 +12109,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C3E U0C37 U0C4D
 EndChar
 
 StartChar: U0C15_U0C3F.abvs
-Encoding: 65588 -1 137
+Encoding: 65586 -1 136
 Width: 473
 VWidth: 819
 GlyphClass: 2
@@ -12204,7 +12179,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C15 U0C3F
 EndChar
 
 StartChar: U0C16_U0C3F.abvs
-Encoding: 65589 -1 138
+Encoding: 65587 -1 137
 Width: 738
 VWidth: 819
 GlyphClass: 2
@@ -12304,7 +12279,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C16 U0C3F
 EndChar
 
 StartChar: U0C17_U0C3F.abvs
-Encoding: 65590 -1 139
+Encoding: 65588 -1 138
 Width: 526
 VWidth: 819
 GlyphClass: 2
@@ -12356,7 +12331,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C17 U0C3F
 EndChar
 
 StartChar: U0C18_U0C3F.abvs
-Encoding: 65591 -1 140
+Encoding: 65589 -1 139
 Width: 944
 VWidth: 819
 GlyphClass: 2
@@ -12456,7 +12431,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C18 U0C3F
 EndChar
 
 StartChar: U0C19_U0C3F.abvs
-Encoding: 65592 -1 141
+Encoding: 65590 -1 140
 Width: 618
 VWidth: 819
 GlyphClass: 2
@@ -12550,7 +12525,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C19 U0C3F
 EndChar
 
 StartChar: U0C1A_U0C3F.abvs
-Encoding: 65593 -1 142
+Encoding: 65591 -1 141
 Width: 639
 VWidth: 819
 GlyphClass: 2
@@ -12618,7 +12593,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1A U0C3F
 EndChar
 
 StartChar: U0C1B_U0C3F.abvs
-Encoding: 65594 -1 143
+Encoding: 65592 -1 142
 Width: 639
 VWidth: 819
 GlyphClass: 2
@@ -12691,7 +12666,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1B U0C3F
 EndChar
 
 StartChar: U0C1C_U0C3F.abvs
-Encoding: 65595 -1 144
+Encoding: 65593 -1 143
 Width: 666
 VWidth: 819
 GlyphClass: 2
@@ -12781,7 +12756,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1C U0C3F
 EndChar
 
 StartChar: U0C1D_U0C3F.abvs
-Encoding: 65596 -1 145
+Encoding: 65594 -1 144
 Width: 1290
 VWidth: 819
 GlyphClass: 2
@@ -12870,7 +12845,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1D U0C3F
 EndChar
 
 StartChar: U0C1E_U0C3F.abvs
-Encoding: 65597 -1 146
+Encoding: 65595 -1 145
 Width: 810
 VWidth: 819
 GlyphClass: 2
@@ -12972,7 +12947,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1E U0C3F
 EndChar
 
 StartChar: U0C1F_U0C3F.abvs
-Encoding: 65598 -1 147
+Encoding: 65596 -1 146
 Width: 742
 VWidth: 819
 GlyphClass: 2
@@ -13060,7 +13035,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1F U0C3F
 EndChar
 
 StartChar: U0C20_U0C3F.abvs
-Encoding: 65599 -1 148
+Encoding: 65597 -1 147
 Width: 544
 VWidth: 819
 GlyphClass: 2
@@ -13126,7 +13101,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C20 U0C3F
 EndChar
 
 StartChar: U0C21_U0C3F.abvs
-Encoding: 65600 -1 149
+Encoding: 65598 -1 148
 Width: 672
 VWidth: 819
 GlyphClass: 2
@@ -13212,7 +13187,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C21 U0C3F
 EndChar
 
 StartChar: U0C22_U0C3F.abvs
-Encoding: 65601 -1 150
+Encoding: 65599 -1 149
 Width: 672
 VWidth: 819
 GlyphClass: 2
@@ -13304,7 +13279,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C22 U0C3F
 EndChar
 
 StartChar: U0C23_U0C3F.abvs
-Encoding: 65602 -1 151
+Encoding: 65600 -1 150
 Width: 761
 VWidth: 819
 GlyphClass: 2
@@ -13406,7 +13381,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C23 U0C3F
 EndChar
 
 StartChar: U0C24_U0C3F.abvs
-Encoding: 65603 -1 152
+Encoding: 65601 -1 151
 Width: 676
 VWidth: 819
 GlyphClass: 2
@@ -13492,7 +13467,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C24 U0C3F
 EndChar
 
 StartChar: U0C25_U0C3F.abvs
-Encoding: 65604 -1 153
+Encoding: 65602 -1 152
 Width: 651
 VWidth: 819
 GlyphClass: 2
@@ -13575,7 +13550,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C25 U0C3F
 EndChar
 
 StartChar: U0C26_U0C3F.abvs
-Encoding: 65605 -1 154
+Encoding: 65603 -1 153
 Width: 651
 VWidth: 819
 GlyphClass: 2
@@ -13642,7 +13617,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C26 U0C3F
 EndChar
 
 StartChar: U0C27_U0C3F.abvs
-Encoding: 65606 -1 155
+Encoding: 65604 -1 154
 Width: 651
 VWidth: 819
 GlyphClass: 2
@@ -13716,7 +13691,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C27 U0C3F
 EndChar
 
 StartChar: U0C28_U0C3F.abvs
-Encoding: 65607 -1 156
+Encoding: 65605 -1 155
 Width: 608
 VWidth: 819
 GlyphClass: 2
@@ -13776,7 +13751,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C28 U0C3F
 EndChar
 
 StartChar: U0C2A_U0C3F.abvs
-Encoding: 65608 -1 157
+Encoding: 65606 -1 156
 Width: 572
 VWidth: 819
 GlyphClass: 2
@@ -13854,7 +13829,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2A U0C3F
 EndChar
 
 StartChar: U0C2B_U0C3F.abvs
-Encoding: 65609 -1 158
+Encoding: 65607 -1 157
 Width: 577
 VWidth: 819
 GlyphClass: 2
@@ -13938,7 +13913,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2B U0C3F
 EndChar
 
 StartChar: U0C2C_U0C3F.abvs
-Encoding: 65610 -1 159
+Encoding: 65608 -1 158
 Width: 703
 VWidth: 819
 GlyphClass: 2
@@ -14014,7 +13989,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2C U0C3F
 EndChar
 
 StartChar: U0C2D_U0C3F.abvs
-Encoding: 65611 -1 160
+Encoding: 65609 -1 159
 Width: 703
 VWidth: 819
 GlyphClass: 2
@@ -14096,7 +14071,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2D U0C3F
 EndChar
 
 StartChar: U0C2E_U0C3F.abvs
-Encoding: 65612 -1 161
+Encoding: 65610 -1 160
 Width: 956
 VWidth: 819
 GlyphClass: 2
@@ -14177,7 +14152,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2E U0C3F
 EndChar
 
 StartChar: U0C2F_U0C3F.abvs
-Encoding: 65613 -1 162
+Encoding: 65611 -1 161
 Width: 1288
 VWidth: 819
 GlyphClass: 2
@@ -14239,7 +14214,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2F U0C3F
 EndChar
 
 StartChar: U0C30_U0C3F.abvs
-Encoding: 65614 -1 163
+Encoding: 65612 -1 162
 Width: 545
 VWidth: 819
 GlyphClass: 2
@@ -14295,7 +14270,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C30 U0C3F
 EndChar
 
 StartChar: U0C31_U0C3F.abvs
-Encoding: 65615 -1 164
+Encoding: 65613 -1 163
 Width: 756
 VWidth: 819
 GlyphClass: 2
@@ -14396,7 +14371,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C31 U0C3F
 EndChar
 
 StartChar: U0C32_U0C3F.abvs
-Encoding: 65616 -1 165
+Encoding: 65614 -1 164
 Width: 613
 VWidth: 819
 GlyphClass: 2
@@ -14463,7 +14438,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C32 U0C3F
 EndChar
 
 StartChar: U0C33_U0C3F.abvs
-Encoding: 65617 -1 166
+Encoding: 65615 -1 165
 Width: 588
 VWidth: 819
 GlyphClass: 2
@@ -14546,7 +14521,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C33 U0C3F
 EndChar
 
 StartChar: U0C35_U0C3F.abvs
-Encoding: 65618 -1 167
+Encoding: 65616 -1 166
 Width: 588
 VWidth: 819
 GlyphClass: 2
@@ -14612,7 +14587,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C35 U0C3F
 EndChar
 
 StartChar: U0C36_U0C3F.abvs
-Encoding: 65619 -1 168
+Encoding: 65617 -1 167
 Width: 503
 VWidth: 819
 GlyphClass: 2
@@ -14688,7 +14663,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C36 U0C3F
 EndChar
 
 StartChar: U0C37_U0C3F.abvs
-Encoding: 65620 -1 169
+Encoding: 65618 -1 168
 Width: 600
 VWidth: 819
 GlyphClass: 2
@@ -14773,7 +14748,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C37 U0C3F
 EndChar
 
 StartChar: U0C38_U0C3F.abvs
-Encoding: 65621 -1 170
+Encoding: 65619 -1 169
 Width: 590
 VWidth: 819
 GlyphClass: 2
@@ -14845,7 +14820,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C38 U0C3F
 EndChar
 
 StartChar: U0C39_U0C3F.abvs
-Encoding: 65622 -1 171
+Encoding: 65620 -1 170
 Width: 882
 VWidth: 819
 GlyphClass: 2
@@ -14948,7 +14923,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C39 U0C3F
 EndChar
 
 StartChar: U0C15_U0C3F_U0C37_U0C4D.akhn
-Encoding: 65623 -1 172
+Encoding: 65621 -1 171
 Width: 511
 VWidth: 819
 GlyphClass: 2
@@ -15045,7 +15020,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C3F U0C37 U0C4D
 EndChar
 
 StartChar: U0C15_U0C40.abvs
-Encoding: 65624 -1 173
+Encoding: 65622 -1 172
 Width: 473
 VWidth: 819
 GlyphClass: 2
@@ -15129,7 +15104,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C15 U0C40
 EndChar
 
 StartChar: U0C16_U0C40.abvs
-Encoding: 65625 -1 174
+Encoding: 65623 -1 173
 Width: 734
 VWidth: 819
 GlyphClass: 2
@@ -15243,7 +15218,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C16 U0C40
 EndChar
 
 StartChar: U0C17_U0C40.abvs
-Encoding: 65626 -1 175
+Encoding: 65624 -1 174
 Width: 524
 VWidth: 819
 GlyphClass: 2
@@ -15308,7 +15283,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C17 U0C40
 EndChar
 
 StartChar: U0C18_U0C40.abvs
-Encoding: 65627 -1 176
+Encoding: 65625 -1 175
 Width: 958
 VWidth: 819
 GlyphClass: 2
@@ -15421,7 +15396,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C18 U0C40
 EndChar
 
 StartChar: U0C19_U0C40.abvs
-Encoding: 65628 -1 177
+Encoding: 65626 -1 176
 Width: 618
 VWidth: 819
 GlyphClass: 2
@@ -15529,7 +15504,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C19 U0C40
 EndChar
 
 StartChar: U0C1A_U0C40.abvs
-Encoding: 65629 -1 178
+Encoding: 65627 -1 177
 Width: 639
 VWidth: 819
 GlyphClass: 2
@@ -15611,7 +15586,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1A U0C40
 EndChar
 
 StartChar: U0C1B_U0C40.abvs
-Encoding: 65630 -1 179
+Encoding: 65628 -1 178
 Width: 639
 VWidth: 819
 GlyphClass: 2
@@ -15697,7 +15672,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1B U0C40
 EndChar
 
 StartChar: U0C1C_U0C40.abvs
-Encoding: 65631 -1 180
+Encoding: 65629 -1 179
 Width: 664
 VWidth: 819
 GlyphClass: 2
@@ -15801,7 +15776,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1C U0C40
 EndChar
 
 StartChar: U0C1D_U0C40.abvs
-Encoding: 65632 -1 181
+Encoding: 65630 -1 180
 Width: 1290
 VWidth: 819
 GlyphClass: 2
@@ -15904,7 +15879,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1D U0C40
 EndChar
 
 StartChar: U0C1E_U0C40.abvs
-Encoding: 65633 -1 182
+Encoding: 65631 -1 181
 Width: 810
 VWidth: 819
 GlyphClass: 2
@@ -16019,7 +15994,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1E U0C40
 EndChar
 
 StartChar: U0C1F_U0C40.abvs
-Encoding: 65634 -1 183
+Encoding: 65632 -1 182
 Width: 742
 VWidth: 819
 GlyphClass: 2
@@ -16121,7 +16096,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1F U0C40
 EndChar
 
 StartChar: U0C20_U0C40.abvs
-Encoding: 65635 -1 184
+Encoding: 65633 -1 183
 Width: 544
 VWidth: 819
 GlyphClass: 2
@@ -16201,7 +16176,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C20 U0C40
 EndChar
 
 StartChar: U0C21_U0C40.abvs
-Encoding: 65636 -1 185
+Encoding: 65634 -1 184
 Width: 672
 VWidth: 819
 GlyphClass: 2
@@ -16301,7 +16276,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C21 U0C40
 EndChar
 
 StartChar: U0C22_U0C40.abvs
-Encoding: 65637 -1 186
+Encoding: 65635 -1 185
 Width: 672
 VWidth: 819
 GlyphClass: 2
@@ -16407,7 +16382,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C22 U0C40
 EndChar
 
 StartChar: U0C23_U0C40.abvs
-Encoding: 65638 -1 187
+Encoding: 65636 -1 186
 Width: 761
 VWidth: 819
 GlyphClass: 2
@@ -16523,7 +16498,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C23 U0C40
 EndChar
 
 StartChar: U0C24_U0C40.abvs
-Encoding: 65639 -1 188
+Encoding: 65637 -1 187
 Width: 676
 VWidth: 819
 GlyphClass: 2
@@ -16622,7 +16597,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C24 U0C40
 EndChar
 
 StartChar: U0C25_U0C40.abvs
-Encoding: 65640 -1 189
+Encoding: 65638 -1 188
 Width: 651
 VWidth: 819
 GlyphClass: 2
@@ -16717,7 +16692,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C25 U0C40
 EndChar
 
 StartChar: U0C26_U0C40.abvs
-Encoding: 65641 -1 190
+Encoding: 65639 -1 189
 Width: 650
 VWidth: 819
 GlyphClass: 2
@@ -16800,7 +16775,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C26 U0C40
 EndChar
 
 StartChar: U0C27_U0C40.abvs
-Encoding: 65642 -1 191
+Encoding: 65640 -1 190
 Width: 651
 VWidth: 819
 GlyphClass: 2
@@ -16887,7 +16862,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C27 U0C40
 EndChar
 
 StartChar: U0C28_U0C40.abvs
-Encoding: 65643 -1 192
+Encoding: 65641 -1 191
 Width: 608
 VWidth: 819
 GlyphClass: 2
@@ -16961,7 +16936,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C28 U0C40
 EndChar
 
 StartChar: U0C2A_U0C40.abvs
-Encoding: 65644 -1 193
+Encoding: 65642 -1 192
 Width: 580
 VWidth: 819
 GlyphClass: 2
@@ -17053,7 +17028,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2A U0C40
 EndChar
 
 StartChar: U0C2B_U0C40.abvs
-Encoding: 65645 -1 194
+Encoding: 65643 -1 193
 Width: 586
 VWidth: 819
 GlyphClass: 2
@@ -17151,7 +17126,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2B U0C40
 EndChar
 
 StartChar: U0C2C_U0C40.abvs
-Encoding: 65646 -1 195
+Encoding: 65644 -1 194
 Width: 703
 VWidth: 819
 GlyphClass: 2
@@ -17241,7 +17216,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2C U0C40
 EndChar
 
 StartChar: U0C2D_U0C40.abvs
-Encoding: 65647 -1 196
+Encoding: 65645 -1 195
 Width: 701
 VWidth: 819
 GlyphClass: 2
@@ -17337,7 +17312,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2D U0C40
 EndChar
 
 StartChar: U0C2E_U0C40.abvs
-Encoding: 65648 -1 197
+Encoding: 65646 -1 196
 Width: 963
 VWidth: 819
 GlyphClass: 2
@@ -17432,7 +17407,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2E U0C40
 EndChar
 
 StartChar: U0C2F_U0C40.abvs
-Encoding: 65649 -1 198
+Encoding: 65647 -1 197
 Width: 1649
 VWidth: 819
 GlyphClass: 2
@@ -17520,7 +17495,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2F U0C40
 EndChar
 
 StartChar: U0C30_U0C40.abvs
-Encoding: 65650 -1 199
+Encoding: 65648 -1 198
 Width: 545
 VWidth: 819
 GlyphClass: 2
@@ -17590,7 +17565,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C30 U0C40
 EndChar
 
 StartChar: U0C31_U0C40.abvs
-Encoding: 65651 -1 200
+Encoding: 65649 -1 199
 Width: 757
 VWidth: 819
 GlyphClass: 2
@@ -17705,7 +17680,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C31 U0C40
 EndChar
 
 StartChar: U0C32_U0C40.abvs
-Encoding: 65652 -1 201
+Encoding: 65650 -1 200
 Width: 613
 VWidth: 819
 GlyphClass: 2
@@ -17785,7 +17760,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C32 U0C40
 EndChar
 
 StartChar: U0C33_U0C40.abvs
-Encoding: 65653 -1 202
+Encoding: 65651 -1 201
 Width: 590
 VWidth: 819
 GlyphClass: 2
@@ -17883,7 +17858,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C33 U0C40
 EndChar
 
 StartChar: U0C35_U0C40.abvs
-Encoding: 65654 -1 203
+Encoding: 65652 -1 202
 Width: 587
 VWidth: 819
 GlyphClass: 2
@@ -17963,7 +17938,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C35 U0C40
 EndChar
 
 StartChar: U0C36_U0C40.abvs
-Encoding: 65655 -1 204
+Encoding: 65653 -1 203
 Width: 485
 VWidth: 819
 GlyphClass: 2
@@ -18053,7 +18028,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C36 U0C40
 EndChar
 
 StartChar: U0C37_U0C40.abvs
-Encoding: 65656 -1 205
+Encoding: 65654 -1 204
 Width: 602
 VWidth: 819
 GlyphClass: 2
@@ -18153,7 +18128,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C37 U0C40
 EndChar
 
 StartChar: U0C38_U0C40.abvs
-Encoding: 65657 -1 206
+Encoding: 65655 -1 205
 Width: 596
 VWidth: 819
 GlyphClass: 2
@@ -18239,7 +18214,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C38 U0C40
 EndChar
 
 StartChar: U0C39_U0C40.abvs
-Encoding: 65658 -1 207
+Encoding: 65656 -1 206
 Width: 882
 VWidth: 819
 GlyphClass: 2
@@ -18355,7 +18330,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C39 U0C40
 EndChar
 
 StartChar: U0C15_U0C40_U0C37_U0C4D.akhn
-Encoding: 65659 -1 208
+Encoding: 65657 -1 207
 Width: 511
 VWidth: 819
 GlyphClass: 2
@@ -18465,7 +18440,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C40 U0C37 U0C4D
 EndChar
 
 StartChar: U0C15_U0C46.abvs
-Encoding: 65660 -1 209
+Encoding: 65658 -1 208
 Width: 473
 VWidth: 819
 GlyphClass: 2
@@ -18521,7 +18496,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C15 U0C46
 EndChar
 
 StartChar: U0C16_U0C46.abvs
-Encoding: 65661 -1 210
+Encoding: 65659 -1 209
 Width: 707
 VWidth: 819
 GlyphClass: 2
@@ -18615,7 +18590,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C16 U0C46
 EndChar
 
 StartChar: U0C17_U0C46.abvs
-Encoding: 65662 -1 211
+Encoding: 65660 -1 210
 Width: 519
 VWidth: 819
 GlyphClass: 2
@@ -18654,7 +18629,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C17 U0C46
 EndChar
 
 StartChar: U0C18_U0C46.abvs
-Encoding: 65663 -1 212
+Encoding: 65661 -1 211
 Width: 950
 VWidth: 819
 GlyphClass: 2
@@ -18739,7 +18714,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C18 U0C46
 EndChar
 
 StartChar: U0C19_U0C46.abvs
-Encoding: 65664 -1 213
+Encoding: 65662 -1 212
 Width: 618
 VWidth: 819
 GlyphClass: 2
@@ -18819,7 +18794,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C19 U0C46
 EndChar
 
 StartChar: U0C1A_U0C46.abvs
-Encoding: 65665 -1 214
+Encoding: 65663 -1 213
 Width: 641
 VWidth: 819
 GlyphClass: 2
@@ -18884,7 +18859,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1A U0C46
 EndChar
 
 StartChar: U0C1B_U0C46.abvs
-Encoding: 65666 -1 215
+Encoding: 65664 -1 214
 Width: 641
 VWidth: 819
 GlyphClass: 2
@@ -18955,7 +18930,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1B U0C46
 EndChar
 
 StartChar: U0C1C_U0C46.abvs
-Encoding: 65667 -1 216
+Encoding: 65665 -1 215
 Width: 645
 VWidth: 819
 GlyphClass: 2
@@ -19042,7 +19017,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1C U0C46
 EndChar
 
 StartChar: U0C1D_U0C46.abvs
-Encoding: 65668 -1 217
+Encoding: 65666 -1 216
 Width: 1280
 VWidth: 819
 GlyphClass: 2
@@ -19123,7 +19098,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1D U0C46
 EndChar
 
 StartChar: U0C1E_U0C46.abvs
-Encoding: 65669 -1 218
+Encoding: 65667 -1 217
 Width: 827
 VWidth: 819
 GlyphClass: 2
@@ -19211,7 +19186,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1E U0C46
 EndChar
 
 StartChar: U0C1F_U0C46.abvs
-Encoding: 65670 -1 219
+Encoding: 65668 -1 218
 Width: 742
 VWidth: 819
 GlyphClass: 2
@@ -19286,7 +19261,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1F U0C46
 EndChar
 
 StartChar: U0C20_U0C46.abvs
-Encoding: 65671 -1 220
+Encoding: 65669 -1 219
 Width: 540
 VWidth: 819
 GlyphClass: 2
@@ -19339,7 +19314,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C20 U0C46
 EndChar
 
 StartChar: U0C21_U0C46.abvs
-Encoding: 65672 -1 221
+Encoding: 65670 -1 220
 Width: 672
 VWidth: 819
 GlyphClass: 2
@@ -19412,7 +19387,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C21 U0C46
 EndChar
 
 StartChar: U0C22_U0C46.abvs
-Encoding: 65673 -1 222
+Encoding: 65671 -1 221
 Width: 672
 VWidth: 819
 GlyphClass: 2
@@ -19491,7 +19466,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C22 U0C46
 EndChar
 
 StartChar: U0C23_U0C46.abvs
-Encoding: 65674 -1 223
+Encoding: 65672 -1 222
 Width: 761
 VWidth: 819
 GlyphClass: 2
@@ -19579,7 +19554,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C23 U0C46
 EndChar
 
 StartChar: U0C24_U0C46.abvs
-Encoding: 65675 -1 224
+Encoding: 65673 -1 223
 Width: 655
 VWidth: 819
 GlyphClass: 2
@@ -19659,7 +19634,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C24 U0C46
 EndChar
 
 StartChar: U0C25_U0C46.abvs
-Encoding: 65676 -1 225
+Encoding: 65674 -1 224
 Width: 644
 VWidth: 819
 GlyphClass: 2
@@ -19729,7 +19704,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C25 U0C46
 EndChar
 
 StartChar: U0C26_U0C46.abvs
-Encoding: 65677 -1 226
+Encoding: 65675 -1 225
 Width: 643
 VWidth: 819
 GlyphClass: 2
@@ -19787,7 +19762,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C26 U0C46
 EndChar
 
 StartChar: U0C27_U0C46.abvs
-Encoding: 65678 -1 227
+Encoding: 65676 -1 226
 Width: 645
 VWidth: 819
 GlyphClass: 2
@@ -19851,7 +19826,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C27 U0C46
 EndChar
 
 StartChar: U0C28_U0C46.abvs
-Encoding: 65679 -1 228
+Encoding: 65677 -1 227
 Width: 606
 VWidth: 819
 GlyphClass: 2
@@ -19908,7 +19883,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C28 U0C46
 EndChar
 
 StartChar: U0C2A_U0C46.abvs
-Encoding: 65680 -1 229
+Encoding: 65678 -1 228
 Width: 572
 VWidth: 819
 GlyphClass: 2
@@ -19973,7 +19948,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2A U0C46
 EndChar
 
 StartChar: U0C2B_U0C46.abvs
-Encoding: 65681 -1 230
+Encoding: 65679 -1 229
 Width: 577
 VWidth: 819
 GlyphClass: 2
@@ -20044,7 +20019,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2B U0C46
 EndChar
 
 StartChar: U0C2C_U0C46.abvs
-Encoding: 65682 -1 231
+Encoding: 65680 -1 230
 Width: 672
 VWidth: 819
 GlyphClass: 2
@@ -20118,7 +20093,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2C U0C46
 EndChar
 
 StartChar: U0C2D_U0C46.abvs
-Encoding: 65683 -1 232
+Encoding: 65681 -1 231
 Width: 645
 VWidth: 819
 GlyphClass: 2
@@ -20198,7 +20173,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2D U0C46
 EndChar
 
 StartChar: U0C2E_U0C46.abvs
-Encoding: 65684 -1 233
+Encoding: 65682 -1 232
 Width: 956
 VWidth: 819
 GlyphClass: 2
@@ -20274,7 +20249,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2E U0C46
 EndChar
 
 StartChar: U0C2F_U0C46.abvs
-Encoding: 65685 -1 234
+Encoding: 65683 -1 233
 Width: 1240
 VWidth: 819
 GlyphClass: 2
@@ -20352,7 +20327,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2F U0C46
 EndChar
 
 StartChar: U0C30_U0C46.abvs
-Encoding: 65686 -1 235
+Encoding: 65684 -1 234
 Width: 540
 VWidth: 819
 GlyphClass: 2
@@ -20400,7 +20375,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C30 U0C46
 EndChar
 
 StartChar: U0C31_U0C46.abvs
-Encoding: 65687 -1 236
+Encoding: 65685 -1 235
 Width: 757
 VWidth: 819
 GlyphClass: 2
@@ -20487,7 +20462,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C31 U0C46
 EndChar
 
 StartChar: U0C32_U0C46.abvs
-Encoding: 65688 -1 237
+Encoding: 65686 -1 236
 Width: 668
 VWidth: 819
 GlyphClass: 2
@@ -20551,7 +20526,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C32 U0C46
 EndChar
 
 StartChar: U0C33_U0C46.abvs
-Encoding: 65689 -1 238
+Encoding: 65687 -1 237
 Width: 563
 VWidth: 819
 GlyphClass: 2
@@ -20631,7 +20606,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C33 U0C46
 EndChar
 
 StartChar: U0C35_U0C46.abvs
-Encoding: 65690 -1 239
+Encoding: 65688 -1 238
 Width: 576
 VWidth: 819
 GlyphClass: 2
@@ -20693,7 +20668,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C35 U0C46
 EndChar
 
 StartChar: U0C36_U0C46.abvs
-Encoding: 65691 -1 240
+Encoding: 65689 -1 239
 Width: 500
 VWidth: 819
 GlyphClass: 2
@@ -20765,7 +20740,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C36 U0C46
 EndChar
 
 StartChar: U0C37_U0C46.abvs
-Encoding: 65692 -1 241
+Encoding: 65690 -1 240
 Width: 600
 VWidth: 819
 GlyphClass: 2
@@ -20837,7 +20812,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C37 U0C46
 EndChar
 
 StartChar: U0C38_U0C46.abvs
-Encoding: 65693 -1 242
+Encoding: 65691 -1 241
 Width: 590
 VWidth: 819
 GlyphClass: 2
@@ -20896,7 +20871,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C38 U0C46
 EndChar
 
 StartChar: U0C39_U0C46.abvs
-Encoding: 65694 -1 243
+Encoding: 65692 -1 242
 Width: 882
 VWidth: 819
 GlyphClass: 2
@@ -20985,7 +20960,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C39 U0C46
 EndChar
 
 StartChar: U0C15_U0C46_U0C37_U0C4D.akhn
-Encoding: 65695 -1 244
+Encoding: 65693 -1 243
 Width: 511
 VWidth: 819
 GlyphClass: 2
@@ -21068,7 +21043,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C46 U0C37 U0C4D
 EndChar
 
 StartChar: U0C15_U0C47.abvs
-Encoding: 65696 -1 245
+Encoding: 65694 -1 244
 Width: 473
 VWidth: 819
 GlyphClass: 2
@@ -21139,7 +21114,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C15 U0C47
 EndChar
 
 StartChar: U0C16_U0C47.abvs
-Encoding: 65697 -1 246
+Encoding: 65695 -1 245
 Width: 707
 VWidth: 819
 GlyphClass: 2
@@ -21248,7 +21223,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C16 U0C47
 EndChar
 
 StartChar: U0C17_U0C47.abvs
-Encoding: 65698 -1 247
+Encoding: 65696 -1 246
 Width: 519
 VWidth: 819
 GlyphClass: 2
@@ -21302,7 +21277,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C17 U0C47
 EndChar
 
 StartChar: U0C18_U0C47.abvs
-Encoding: 65699 -1 248
+Encoding: 65697 -1 247
 Width: 957
 VWidth: 819
 GlyphClass: 2
@@ -21402,7 +21377,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C18 U0C47
 EndChar
 
 StartChar: U0C19_U0C47.abvs
-Encoding: 65700 -1 249
+Encoding: 65698 -1 248
 Width: 620
 VWidth: 819
 GlyphClass: 2
@@ -21498,7 +21473,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C19 U0C47
 EndChar
 
 StartChar: U0C1A_U0C47.abvs
-Encoding: 65701 -1 250
+Encoding: 65699 -1 249
 Width: 641
 VWidth: 819
 GlyphClass: 2
@@ -21577,7 +21552,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1A U0C47
 EndChar
 
 StartChar: U0C1B_U0C47.abvs
-Encoding: 65702 -1 251
+Encoding: 65700 -1 250
 Width: 641
 VWidth: 819
 GlyphClass: 2
@@ -21662,7 +21637,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1B U0C47
 EndChar
 
 StartChar: U0C1C_U0C47.abvs
-Encoding: 65703 -1 252
+Encoding: 65701 -1 251
 Width: 647
 VWidth: 819
 GlyphClass: 2
@@ -21764,7 +21739,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1C U0C47
 EndChar
 
 StartChar: U0C1D_U0C47.abvs
-Encoding: 65704 -1 253
+Encoding: 65702 -1 252
 Width: 1288
 VWidth: 819
 GlyphClass: 2
@@ -21860,7 +21835,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1D U0C47
 EndChar
 
 StartChar: U0C1E_U0C47.abvs
-Encoding: 65705 -1 254
+Encoding: 65703 -1 253
 Width: 827
 VWidth: 819
 GlyphClass: 2
@@ -21963,7 +21938,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1E U0C47
 EndChar
 
 StartChar: U0C1F_U0C47.abvs
-Encoding: 65706 -1 255
+Encoding: 65704 -1 254
 Width: 742
 VWidth: 819
 GlyphClass: 2
@@ -22052,7 +22027,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1F U0C47
 EndChar
 
 StartChar: U0C20_U0C47.abvs
-Encoding: 65707 -1 256
+Encoding: 65705 -1 255
 Width: 540
 VWidth: 819
 GlyphClass: 2
@@ -22121,7 +22096,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C20 U0C47
 EndChar
 
 StartChar: U0C21_U0C47.abvs
-Encoding: 65708 -1 257
+Encoding: 65706 -1 256
 Width: 672
 VWidth: 819
 GlyphClass: 2
@@ -22208,7 +22183,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C21 U0C47
 EndChar
 
 StartChar: U0C22_U0C47.abvs
-Encoding: 65709 -1 258
+Encoding: 65707 -1 257
 Width: 672
 VWidth: 819
 GlyphClass: 2
@@ -22301,7 +22276,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C22 U0C47
 EndChar
 
 StartChar: U0C23_U0C47.abvs
-Encoding: 65710 -1 259
+Encoding: 65708 -1 258
 Width: 761
 VWidth: 819
 GlyphClass: 2
@@ -22403,7 +22378,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C23 U0C47
 EndChar
 
 StartChar: U0C24_U0C47.abvs
-Encoding: 65711 -1 260
+Encoding: 65709 -1 259
 Width: 655
 VWidth: 819
 GlyphClass: 2
@@ -22497,7 +22472,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C24 U0C47
 EndChar
 
 StartChar: U0C25_U0C47.abvs
-Encoding: 65712 -1 261
+Encoding: 65710 -1 260
 Width: 645
 VWidth: 819
 GlyphClass: 2
@@ -22577,7 +22552,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C25 U0C47
 EndChar
 
 StartChar: U0C26_U0C47.abvs
-Encoding: 65713 -1 262
+Encoding: 65711 -1 261
 Width: 643
 VWidth: 819
 GlyphClass: 2
@@ -22646,7 +22621,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C26 U0C47
 EndChar
 
 StartChar: U0C27_U0C47.abvs
-Encoding: 65714 -1 263
+Encoding: 65712 -1 262
 Width: 645
 VWidth: 819
 GlyphClass: 2
@@ -22720,7 +22695,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C27 U0C47
 EndChar
 
 StartChar: U0C28_U0C47.abvs
-Encoding: 65715 -1 264
+Encoding: 65713 -1 263
 Width: 606
 VWidth: 819
 GlyphClass: 2
@@ -22791,7 +22766,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C28 U0C47
 EndChar
 
 StartChar: U0C2A_U0C47.abvs
-Encoding: 65716 -1 265
+Encoding: 65714 -1 264
 Width: 572
 VWidth: 819
 GlyphClass: 2
@@ -22870,7 +22845,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2A U0C47
 EndChar
 
 StartChar: U0C2B_U0C47.abvs
-Encoding: 65717 -1 266
+Encoding: 65715 -1 265
 Width: 579
 VWidth: 819
 GlyphClass: 2
@@ -22955,7 +22930,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2B U0C47
 EndChar
 
 StartChar: U0C2C_U0C47.abvs
-Encoding: 65718 -1 267
+Encoding: 65716 -1 266
 Width: 672
 VWidth: 819
 GlyphClass: 2
@@ -23043,7 +23018,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2C U0C47
 EndChar
 
 StartChar: U0C2D_U0C47.abvs
-Encoding: 65719 -1 268
+Encoding: 65717 -1 267
 Width: 645
 VWidth: 819
 GlyphClass: 2
@@ -23137,7 +23112,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2D U0C47
 EndChar
 
 StartChar: U0C2E_U0C47.abvs
-Encoding: 65720 -1 269
+Encoding: 65718 -1 268
 Width: 957
 VWidth: 819
 GlyphClass: 2
@@ -23228,7 +23203,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2E U0C47
 EndChar
 
 StartChar: U0C2F_U0C47.abvs
-Encoding: 65721 -1 270
+Encoding: 65719 -1 269
 Width: 1240
 VWidth: 819
 GlyphClass: 2
@@ -23320,7 +23295,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2F U0C47
 EndChar
 
 StartChar: U0C30_U0C47.abvs
-Encoding: 65722 -1 271
+Encoding: 65720 -1 270
 Width: 540
 VWidth: 819
 GlyphClass: 2
@@ -23382,7 +23357,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C30 U0C47
 EndChar
 
 StartChar: U0C31_U0C47.abvs
-Encoding: 65723 -1 272
+Encoding: 65721 -1 271
 Width: 757
 VWidth: 819
 GlyphClass: 2
@@ -23484,7 +23459,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C31 U0C47
 EndChar
 
 StartChar: U0C32_U0C47.abvs
-Encoding: 65724 -1 273
+Encoding: 65722 -1 272
 Width: 666
 VWidth: 819
 GlyphClass: 2
@@ -23562,7 +23537,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C32 U0C47
 EndChar
 
 StartChar: U0C33_U0C47.abvs
-Encoding: 65725 -1 274
+Encoding: 65723 -1 273
 Width: 561
 VWidth: 819
 GlyphClass: 2
@@ -23656,7 +23631,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C33 U0C47
 EndChar
 
 StartChar: U0C35_U0C47.abvs
-Encoding: 65726 -1 275
+Encoding: 65724 -1 274
 Width: 576
 VWidth: 819
 GlyphClass: 2
@@ -23732,7 +23707,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C35 U0C47
 EndChar
 
 StartChar: U0C36_U0C47.abvs
-Encoding: 65727 -1 276
+Encoding: 65725 -1 275
 Width: 501
 VWidth: 819
 GlyphClass: 2
@@ -23818,7 +23793,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C36 U0C47
 EndChar
 
 StartChar: U0C37_U0C47.abvs
-Encoding: 65728 -1 277
+Encoding: 65726 -1 276
 Width: 600
 VWidth: 819
 GlyphClass: 2
@@ -23904,7 +23879,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C37 U0C47
 EndChar
 
 StartChar: U0C38_U0C47.abvs
-Encoding: 65729 -1 278
+Encoding: 65727 -1 277
 Width: 590
 VWidth: 819
 GlyphClass: 2
@@ -23977,7 +23952,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C38 U0C47
 EndChar
 
 StartChar: U0C39_U0C47.abvs
-Encoding: 65730 -1 279
+Encoding: 65728 -1 278
 Width: 882
 VWidth: 819
 GlyphClass: 2
@@ -24080,7 +24055,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C39 U0C47
 EndChar
 
 StartChar: U0C15_U0C47_U0C37_U0C4D.akhn
-Encoding: 65731 -1 280
+Encoding: 65729 -1 279
 Width: 511
 VWidth: 819
 GlyphClass: 2
@@ -24177,7 +24152,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C47 U0C37 U0C4D
 EndChar
 
 StartChar: U0C15_U0C4A.abvs
-Encoding: 65732 -1 281
+Encoding: 65730 -1 280
 Width: 734
 VWidth: 819
 GlyphClass: 2
@@ -24262,7 +24237,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C15 U0C4A
 EndChar
 
 StartChar: U0C16_U0C4A.abvs
-Encoding: 65733 -1 282
+Encoding: 65731 -1 281
 Width: 950
 VWidth: 819
 GlyphClass: 2
@@ -24383,7 +24358,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C16 U0C4A
 EndChar
 
 StartChar: U0C17_U0C4A.abvs
-Encoding: 65734 -1 283
+Encoding: 65732 -1 282
 Width: 798
 VWidth: 819
 GlyphClass: 2
@@ -24451,7 +24426,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C17 U0C4A
 EndChar
 
 StartChar: U0C18_U0C4A.abvs
-Encoding: 65735 -1 284
+Encoding: 65733 -1 283
 Width: 1338
 VWidth: 819
 GlyphClass: 2
@@ -24550,7 +24525,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C18 U0C4A
 EndChar
 
 StartChar: U0C19_U0C4A.abvs
-Encoding: 65736 -1 285
+Encoding: 65734 -1 284
 Width: 920
 VWidth: 819
 GlyphClass: 2
@@ -24660,7 +24635,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C19 U0C4A
 EndChar
 
 StartChar: U0C1A_U0C4A.abvs
-Encoding: 65737 -1 286
+Encoding: 65735 -1 285
 Width: 860
 VWidth: 819
 GlyphClass: 2
@@ -24751,7 +24726,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1A U0C4A
 EndChar
 
 StartChar: U0C1B_U0C4A.abvs
-Encoding: 65738 -1 287
+Encoding: 65736 -1 286
 Width: 874
 VWidth: 819
 GlyphClass: 2
@@ -24850,7 +24825,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1B U0C4A
 EndChar
 
 StartChar: U0C1C_U0C4A.abvs
-Encoding: 65739 -1 288
+Encoding: 65737 -1 287
 Width: 923
 VWidth: 819
 GlyphClass: 2
@@ -24966,7 +24941,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1C U0C4A
 EndChar
 
 StartChar: U0C1D_U0C4A.abvs
-Encoding: 65740 -1 289
+Encoding: 65738 -1 288
 Width: 1655
 VWidth: 819
 GlyphClass: 2
@@ -25062,7 +25037,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1D U0C4A
 EndChar
 
 StartChar: U0C1E_U0C4A.abvs
-Encoding: 65741 -1 290
+Encoding: 65739 -1 289
 Width: 1070
 VWidth: 819
 GlyphClass: 2
@@ -25180,7 +25155,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1E U0C4A
 EndChar
 
 StartChar: U0C1F_U0C4A.abvs
-Encoding: 65742 -1 291
+Encoding: 65740 -1 290
 Width: 990
 VWidth: 819
 GlyphClass: 2
@@ -25283,7 +25258,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1F U0C4A
 EndChar
 
 StartChar: U0C20_U0C4A.abvs
-Encoding: 65743 -1 292
+Encoding: 65741 -1 291
 Width: 816
 VWidth: 819
 GlyphClass: 2
@@ -25366,7 +25341,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C20 U0C4A
 EndChar
 
 StartChar: U0C21_U0C4A.abvs
-Encoding: 65744 -1 293
+Encoding: 65742 -1 292
 Width: 892
 VWidth: 819
 GlyphClass: 2
@@ -25468,7 +25443,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C21 U0C4A
 EndChar
 
 StartChar: U0C22_U0C4A.abvs
-Encoding: 65745 -1 294
+Encoding: 65743 -1 293
 Width: 844
 VWidth: 819
 GlyphClass: 2
@@ -25576,7 +25551,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C22 U0C4A
 EndChar
 
 StartChar: U0C23_U0C4A.abvs
-Encoding: 65746 -1 295
+Encoding: 65744 -1 294
 Width: 1008
 VWidth: 819
 GlyphClass: 2
@@ -25693,7 +25668,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C23 U0C4A
 EndChar
 
 StartChar: U0C24_U0C4A.abvs
-Encoding: 65747 -1 296
+Encoding: 65745 -1 295
 Width: 903
 VWidth: 819
 GlyphClass: 2
@@ -25799,7 +25774,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C24 U0C4A
 EndChar
 
 StartChar: U0C25_U0C4A.abvs
-Encoding: 65748 -1 297
+Encoding: 65746 -1 296
 Width: 844
 VWidth: 819
 GlyphClass: 2
@@ -25898,7 +25873,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C25 U0C4A
 EndChar
 
 StartChar: U0C26_U0C4A.abvs
-Encoding: 65749 -1 298
+Encoding: 65747 -1 297
 Width: 844
 VWidth: 819
 GlyphClass: 2
@@ -25985,7 +25960,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C26 U0C4A
 EndChar
 
 StartChar: U0C27_U0C4A.abvs
-Encoding: 65750 -1 299
+Encoding: 65748 -1 298
 Width: 844
 VWidth: 819
 GlyphClass: 2
@@ -26078,7 +26053,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C27 U0C4A
 EndChar
 
 StartChar: U0C28_U0C4A.abvs
-Encoding: 65751 -1 300
+Encoding: 65749 -1 299
 Width: 836
 VWidth: 819
 GlyphClass: 2
@@ -26162,7 +26137,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C28 U0C4A
 EndChar
 
 StartChar: U0C2A_U0C4A.abvs
-Encoding: 65752 -1 301
+Encoding: 65750 -1 300
 Width: 903
 VWidth: 819
 GlyphClass: 2
@@ -26256,7 +26231,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2A U0C4A
 EndChar
 
 StartChar: U0C2B_U0C4A.abvs
-Encoding: 65753 -1 302
+Encoding: 65751 -1 301
 Width: 903
 VWidth: 819
 GlyphClass: 2
@@ -26356,7 +26331,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2B U0C4A
 EndChar
 
 StartChar: U0C2C_U0C4A.abvs
-Encoding: 65754 -1 303
+Encoding: 65752 -1 302
 Width: 920
 VWidth: 819
 GlyphClass: 2
@@ -26456,7 +26431,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2C U0C4A
 EndChar
 
 StartChar: U0C2D_U0C4A.abvs
-Encoding: 65755 -1 304
+Encoding: 65753 -1 303
 Width: 881
 VWidth: 819
 GlyphClass: 2
@@ -26562,7 +26537,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2D U0C4A
 EndChar
 
 StartChar: U0C2E_U0C4A.abvs
-Encoding: 65756 -1 305
+Encoding: 65754 -1 304
 Width: 1338
 VWidth: 819
 GlyphClass: 2
@@ -26652,7 +26627,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2E U0C4A
 EndChar
 
 StartChar: U0C2F_U0C4A.abvs
-Encoding: 65757 -1 306
+Encoding: 65755 -1 305
 Width: 1607
 VWidth: 819
 GlyphClass: 2
@@ -26744,7 +26719,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2F U0C4A
 EndChar
 
 StartChar: U0C30_U0C4A.abvs
-Encoding: 65758 -1 307
+Encoding: 65756 -1 306
 Width: 788
 VWidth: 819
 GlyphClass: 2
@@ -26821,7 +26796,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C30 U0C4A
 EndChar
 
 StartChar: U0C31_U0C4A.abvs
-Encoding: 65759 -1 308
+Encoding: 65757 -1 307
 Width: 1064
 VWidth: 819
 GlyphClass: 2
@@ -26938,7 +26913,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C31 U0C4A
 EndChar
 
 StartChar: U0C32_U0C4A.abvs
-Encoding: 65760 -1 309
+Encoding: 65758 -1 308
 Width: 911
 VWidth: 819
 GlyphClass: 2
@@ -27029,7 +27004,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C32 U0C4A
 EndChar
 
 StartChar: U0C33_U0C4A.abvs
-Encoding: 65761 -1 310
+Encoding: 65759 -1 309
 Width: 806
 VWidth: 819
 GlyphClass: 2
@@ -27137,7 +27112,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C33 U0C4A
 EndChar
 
 StartChar: U0C35_U0C4A.abvs
-Encoding: 65762 -1 311
+Encoding: 65760 -1 310
 Width: 832
 VWidth: 819
 GlyphClass: 2
@@ -27227,7 +27202,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C35 U0C4A
 EndChar
 
 StartChar: U0C36_U0C4A.abvs
-Encoding: 65763 -1 312
+Encoding: 65761 -1 311
 Width: 753
 VWidth: 819
 GlyphClass: 2
@@ -27325,7 +27300,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C36 U0C4A
 EndChar
 
 StartChar: U0C37_U0C4A.abvs
-Encoding: 65764 -1 313
+Encoding: 65762 -1 312
 Width: 908
 VWidth: 819
 GlyphClass: 2
@@ -27426,7 +27401,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C37 U0C4A
 EndChar
 
 StartChar: U0C38_U0C4A.abvs
-Encoding: 65765 -1 314
+Encoding: 65763 -1 313
 Width: 901
 VWidth: 819
 GlyphClass: 2
@@ -27514,7 +27489,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C38 U0C4A
 EndChar
 
 StartChar: U0C39_U0C4A.abvs
-Encoding: 65766 -1 315
+Encoding: 65764 -1 314
 Width: 1267
 VWidth: 819
 GlyphClass: 2
@@ -27641,7 +27616,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C39 U0C4A
 EndChar
 
 StartChar: U0C15_U0C4A_U0C37_U0C4D.akhn
-Encoding: 65767 -1 316
+Encoding: 65765 -1 315
 Width: 750
 VWidth: 819
 GlyphClass: 2
@@ -27752,7 +27727,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C4A U0C37 U0C4D
 EndChar
 
 StartChar: U0C15_U0C4B.abvs
-Encoding: 65768 -1 317
+Encoding: 65766 -1 316
 Width: 734
 VWidth: 819
 GlyphClass: 2
@@ -27851,7 +27826,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C15 U0C4B
 EndChar
 
 StartChar: U0C16_U0C4B.abvs
-Encoding: 65769 -1 318
+Encoding: 65767 -1 317
 Width: 944
 VWidth: 819
 GlyphClass: 2
@@ -27987,7 +27962,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C16 U0C4B
 EndChar
 
 StartChar: U0C17_U0C4B.abvs
-Encoding: 65770 -1 319
+Encoding: 65768 -1 318
 Width: 798
 VWidth: 819
 GlyphClass: 2
@@ -28069,7 +28044,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C17 U0C4B
 EndChar
 
 StartChar: U0C18_U0C4B.abvs
-Encoding: 65771 -1 320
+Encoding: 65769 -1 319
 Width: 1319
 VWidth: 819
 GlyphClass: 2
@@ -28178,7 +28153,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C18 U0C4B
 EndChar
 
 StartChar: U0C19_U0C4B.abvs
-Encoding: 65772 -1 321
+Encoding: 65770 -1 320
 Width: 920
 VWidth: 819
 GlyphClass: 2
@@ -28303,7 +28278,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C19 U0C4B
 EndChar
 
 StartChar: U0C1A_U0C4B.abvs
-Encoding: 65773 -1 322
+Encoding: 65771 -1 321
 Width: 859
 VWidth: 819
 GlyphClass: 2
@@ -28408,7 +28383,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1A U0C4B
 EndChar
 
 StartChar: U0C1B_U0C4B.abvs
-Encoding: 65774 -1 323
+Encoding: 65772 -1 322
 Width: 874
 VWidth: 819
 GlyphClass: 2
@@ -28521,7 +28496,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1B U0C4B
 EndChar
 
 StartChar: U0C1C_U0C4B.abvs
-Encoding: 65775 -1 324
+Encoding: 65773 -1 323
 Width: 922
 VWidth: 819
 GlyphClass: 2
@@ -28652,7 +28627,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1C U0C4B
 EndChar
 
 StartChar: U0C1D_U0C4B.abvs
-Encoding: 65776 -1 325
+Encoding: 65774 -1 324
 Width: 1649
 VWidth: 819
 GlyphClass: 2
@@ -28761,7 +28736,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1D U0C4B
 EndChar
 
 StartChar: U0C1E_U0C4B.abvs
-Encoding: 65777 -1 326
+Encoding: 65775 -1 325
 Width: 1063
 VWidth: 819
 GlyphClass: 2
@@ -28893,7 +28868,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1E U0C4B
 EndChar
 
 StartChar: U0C1F_U0C4B.abvs
-Encoding: 65778 -1 327
+Encoding: 65776 -1 326
 Width: 990
 VWidth: 819
 GlyphClass: 2
@@ -29010,7 +28985,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1F U0C4B
 EndChar
 
 StartChar: U0C20_U0C4B.abvs
-Encoding: 65779 -1 328
+Encoding: 65777 -1 327
 Width: 816
 VWidth: 819
 GlyphClass: 2
@@ -29107,7 +29082,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C20 U0C4B
 EndChar
 
 StartChar: U0C21_U0C4B.abvs
-Encoding: 65780 -1 329
+Encoding: 65778 -1 328
 Width: 892
 VWidth: 819
 GlyphClass: 2
@@ -29222,7 +29197,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C21 U0C4B
 EndChar
 
 StartChar: U0C22_U0C4B.abvs
-Encoding: 65781 -1 330
+Encoding: 65779 -1 329
 Width: 844
 VWidth: 819
 GlyphClass: 2
@@ -29344,7 +29319,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C22 U0C4B
 EndChar
 
 StartChar: U0C23_U0C4B.abvs
-Encoding: 65782 -1 331
+Encoding: 65780 -1 330
 Width: 1008
 VWidth: 819
 GlyphClass: 2
@@ -29475,7 +29450,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C23 U0C4B
 EndChar
 
 StartChar: U0C24_U0C4B.abvs
-Encoding: 65783 -1 332
+Encoding: 65781 -1 331
 Width: 903
 VWidth: 819
 GlyphClass: 2
@@ -29595,7 +29570,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C24 U0C4B
 EndChar
 
 StartChar: U0C25_U0C4B.abvs
-Encoding: 65784 -1 333
+Encoding: 65782 -1 332
 Width: 844
 VWidth: 819
 GlyphClass: 2
@@ -29708,7 +29683,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C25 U0C4B
 EndChar
 
 StartChar: U0C26_U0C4B.abvs
-Encoding: 65785 -1 334
+Encoding: 65783 -1 333
 Width: 844
 VWidth: 819
 GlyphClass: 2
@@ -29809,7 +29784,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C26 U0C4B
 EndChar
 
 StartChar: U0C27_U0C4B.abvs
-Encoding: 65786 -1 335
+Encoding: 65784 -1 334
 Width: 843
 VWidth: 819
 GlyphClass: 2
@@ -29916,7 +29891,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C27 U0C4B
 EndChar
 
 StartChar: U0C28_U0C4B.abvs
-Encoding: 65787 -1 336
+Encoding: 65785 -1 335
 Width: 836
 VWidth: 819
 GlyphClass: 2
@@ -30014,7 +29989,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C28 U0C4B
 EndChar
 
 StartChar: U0C2A_U0C4B.abvs
-Encoding: 65788 -1 337
+Encoding: 65786 -1 336
 Width: 907
 VWidth: 819
 GlyphClass: 2
@@ -30123,7 +30098,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2A U0C4B
 EndChar
 
 StartChar: U0C2B_U0C4B.abvs
-Encoding: 65789 -1 338
+Encoding: 65787 -1 337
 Width: 901
 VWidth: 819
 GlyphClass: 2
@@ -30238,7 +30213,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2B U0C4B
 EndChar
 
 StartChar: U0C2C_U0C4B.abvs
-Encoding: 65790 -1 339
+Encoding: 65788 -1 338
 Width: 920
 VWidth: 819
 GlyphClass: 2
@@ -30353,7 +30328,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2C U0C4B
 EndChar
 
 StartChar: U0C2D_U0C4B.abvs
-Encoding: 65791 -1 340
+Encoding: 65789 -1 339
 Width: 881
 VWidth: 819
 GlyphClass: 2
@@ -30474,7 +30449,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2D U0C4B
 EndChar
 
 StartChar: U0C2E_U0C4B.abvs
-Encoding: 65792 -1 341
+Encoding: 65790 -1 340
 Width: 1313
 VWidth: 819
 GlyphClass: 2
@@ -30574,7 +30549,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2E U0C4B
 EndChar
 
 StartChar: U0C2F_U0C4B.abvs
-Encoding: 65793 -1 342
+Encoding: 65791 -1 341
 Width: 1588
 VWidth: 819
 GlyphClass: 2
@@ -30677,7 +30652,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2F U0C4B
 EndChar
 
 StartChar: U0C30_U0C4B.abvs
-Encoding: 65794 -1 343
+Encoding: 65792 -1 342
 Width: 788
 VWidth: 819
 GlyphClass: 2
@@ -30768,7 +30743,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C30 U0C4B
 EndChar
 
 StartChar: U0C31_U0C4B.abvs
-Encoding: 65795 -1 344
+Encoding: 65793 -1 343
 Width: 1058
 VWidth: 819
 GlyphClass: 2
@@ -30898,7 +30873,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C31 U0C4B
 EndChar
 
 StartChar: U0C32_U0C4B.abvs
-Encoding: 65796 -1 345
+Encoding: 65794 -1 344
 Width: 911
 VWidth: 819
 GlyphClass: 2
@@ -31003,7 +30978,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C32 U0C4B
 EndChar
 
 StartChar: U0C33_U0C4B.abvs
-Encoding: 65797 -1 346
+Encoding: 65795 -1 345
 Width: 806
 VWidth: 819
 GlyphClass: 2
@@ -31126,7 +31101,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C33 U0C4B
 EndChar
 
 StartChar: U0C35_U0C4B.abvs
-Encoding: 65798 -1 347
+Encoding: 65796 -1 346
 Width: 832
 VWidth: 819
 GlyphClass: 2
@@ -31230,7 +31205,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C35 U0C4B
 EndChar
 
 StartChar: U0C36_U0C4B.abvs
-Encoding: 65799 -1 348
+Encoding: 65797 -1 347
 Width: 753
 VWidth: 819
 GlyphClass: 2
@@ -31343,7 +31318,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C36 U0C4B
 EndChar
 
 StartChar: U0C37_U0C4B.abvs
-Encoding: 65800 -1 349
+Encoding: 65798 -1 348
 Width: 912
 VWidth: 819
 GlyphClass: 2
@@ -31459,7 +31434,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C37 U0C4B
 EndChar
 
 StartChar: U0C38_U0C4B.abvs
-Encoding: 65801 -1 350
+Encoding: 65799 -1 349
 Width: 901
 VWidth: 819
 GlyphClass: 2
@@ -31562,7 +31537,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C38 U0C4B
 EndChar
 
 StartChar: U0C39_U0C4B.abvs
-Encoding: 65802 -1 351
+Encoding: 65800 -1 350
 Width: 1294
 VWidth: 819
 GlyphClass: 2
@@ -31704,7 +31679,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C39 U0C4B
 EndChar
 
 StartChar: U0C15_U0C4B_U0C37_U0C4D.akhn
-Encoding: 65803 -1 352
+Encoding: 65801 -1 351
 Width: 750
 VWidth: 819
 GlyphClass: 2
@@ -31829,7 +31804,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C4B U0C37 U0C4D
 EndChar
 
 StartChar: U0C15_U0C4C.abvs
-Encoding: 65804 -1 353
+Encoding: 65802 -1 352
 Width: 771
 VWidth: 819
 GlyphClass: 2
@@ -31908,7 +31883,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C15 U0C4C
 EndChar
 
 StartChar: U0C16_U0C4C.abvs
-Encoding: 65805 -1 354
+Encoding: 65803 -1 353
 Width: 960
 VWidth: 819
 GlyphClass: 2
@@ -32026,7 +32001,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C16 U0C4C
 EndChar
 
 StartChar: U0C17_U0C4C.abvs
-Encoding: 65806 -1 355
+Encoding: 65804 -1 354
 Width: 787
 VWidth: 819
 GlyphClass: 2
@@ -32090,7 +32065,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C17 U0C4C
 EndChar
 
 StartChar: U0C18_U0C4C.abvs
-Encoding: 65807 -1 356
+Encoding: 65805 -1 355
 Width: 1270
 VWidth: 819
 GlyphClass: 2
@@ -32211,7 +32186,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C18 U0C4C
 EndChar
 
 StartChar: U0C19_U0C4C.abvs
-Encoding: 65808 -1 357
+Encoding: 65806 -1 356
 Width: 1012
 VWidth: 819
 GlyphClass: 2
@@ -32316,7 +32291,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C19 U0C4C
 EndChar
 
 StartChar: U0C1A_U0C4C.abvs
-Encoding: 65809 -1 358
+Encoding: 65807 -1 357
 Width: 904
 VWidth: 819
 GlyphClass: 2
@@ -32404,7 +32379,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1A U0C4C
 EndChar
 
 StartChar: U0C1B_U0C4C.abvs
-Encoding: 65810 -1 359
+Encoding: 65808 -1 358
 Width: 938
 VWidth: 819
 GlyphClass: 2
@@ -32498,7 +32473,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1B U0C4C
 EndChar
 
 StartChar: U0C1C_U0C4C.abvs
-Encoding: 65811 -1 360
+Encoding: 65809 -1 359
 Width: 924
 VWidth: 819
 GlyphClass: 2
@@ -32603,7 +32578,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1C U0C4C
 EndChar
 
 StartChar: U0C1D_U0C4C.abvs
-Encoding: 65812 -1 361
+Encoding: 65810 -1 360
 Width: 1607
 VWidth: 819
 GlyphClass: 2
@@ -32714,7 +32689,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1D U0C4C
 EndChar
 
 StartChar: U0C1E_U0C4C.abvs
-Encoding: 65813 -1 362
+Encoding: 65811 -1 361
 Width: 1222
 VWidth: 819
 GlyphClass: 2
@@ -32826,7 +32801,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1E U0C4C
 EndChar
 
 StartChar: U0C1F_U0C4C.abvs
-Encoding: 65814 -1 363
+Encoding: 65812 -1 362
 Width: 1020
 VWidth: 819
 GlyphClass: 2
@@ -32924,7 +32899,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C1F U0C4C
 EndChar
 
 StartChar: U0C20_U0C4C.abvs
-Encoding: 65815 -1 364
+Encoding: 65813 -1 363
 Width: 845
 VWidth: 819
 GlyphClass: 2
@@ -33001,7 +32976,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C20 U0C4C
 EndChar
 
 StartChar: U0C21_U0C4C.abvs
-Encoding: 65816 -1 365
+Encoding: 65814 -1 364
 Width: 924
 VWidth: 819
 GlyphClass: 2
@@ -33097,7 +33072,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C21 U0C4C
 EndChar
 
 StartChar: U0C22_U0C4C.abvs
-Encoding: 65817 -1 366
+Encoding: 65815 -1 365
 Width: 908
 VWidth: 819
 GlyphClass: 2
@@ -33199,7 +33174,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C22 U0C4C
 EndChar
 
 StartChar: U0C23_U0C4C.abvs
-Encoding: 65818 -1 367
+Encoding: 65816 -1 366
 Width: 1066
 VWidth: 819
 GlyphClass: 2
@@ -33310,7 +33285,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C23 U0C4C
 EndChar
 
 StartChar: U0C24_U0C4C.abvs
-Encoding: 65819 -1 368
+Encoding: 65817 -1 367
 Width: 919
 VWidth: 819
 GlyphClass: 2
@@ -33413,7 +33388,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C24 U0C4C
 EndChar
 
 StartChar: U0C25_U0C4C.abvs
-Encoding: 65820 -1 369
+Encoding: 65818 -1 368
 Width: 881
 VWidth: 819
 GlyphClass: 2
@@ -33506,7 +33481,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C25 U0C4C
 EndChar
 
 StartChar: U0C26_U0C4C.abvs
-Encoding: 65821 -1 370
+Encoding: 65819 -1 369
 Width: 874
 VWidth: 819
 GlyphClass: 2
@@ -33587,7 +33562,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C26 U0C4C
 EndChar
 
 StartChar: U0C27_U0C4C.abvs
-Encoding: 65822 -1 371
+Encoding: 65820 -1 370
 Width: 868
 VWidth: 819
 GlyphClass: 2
@@ -33674,7 +33649,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C27 U0C4C
 EndChar
 
 StartChar: U0C28_U0C4C.abvs
-Encoding: 65823 -1 372
+Encoding: 65821 -1 371
 Width: 839
 VWidth: 819
 GlyphClass: 2
@@ -33753,7 +33728,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C28 U0C4C
 EndChar
 
 StartChar: U0C2A_U0C4C.abvs
-Encoding: 65824 -1 373
+Encoding: 65822 -1 372
 Width: 880
 VWidth: 819
 GlyphClass: 2
@@ -33845,7 +33820,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2A U0C4C
 EndChar
 
 StartChar: U0C2B_U0C4C.abvs
-Encoding: 65825 -1 374
+Encoding: 65823 -1 373
 Width: 893
 VWidth: 819
 GlyphClass: 2
@@ -33943,7 +33918,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2B U0C4C
 EndChar
 
 StartChar: U0C2C_U0C4C.abvs
-Encoding: 65826 -1 375
+Encoding: 65824 -1 374
 Width: 903
 VWidth: 819
 GlyphClass: 2
@@ -34040,7 +34015,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2C U0C4C
 EndChar
 
 StartChar: U0C2D_U0C4C.abvs
-Encoding: 65827 -1 376
+Encoding: 65825 -1 375
 Width: 890
 VWidth: 819
 GlyphClass: 2
@@ -34137,7 +34112,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2D U0C4C
 EndChar
 
 StartChar: U0C2E_U0C4C.abvs
-Encoding: 65828 -1 377
+Encoding: 65826 -1 376
 Width: 1270
 VWidth: 819
 GlyphClass: 2
@@ -34241,7 +34216,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2E U0C4C
 EndChar
 
 StartChar: U0C2F_U0C4C.abvs
-Encoding: 65829 -1 378
+Encoding: 65827 -1 377
 Width: 1552
 VWidth: 819
 GlyphClass: 2
@@ -34352,7 +34327,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C2F U0C4C
 EndChar
 
 StartChar: U0C30_U0C4C.abvs
-Encoding: 65830 -1 379
+Encoding: 65828 -1 378
 Width: 812
 VWidth: 819
 GlyphClass: 2
@@ -34423,7 +34398,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C30 U0C4C
 EndChar
 
 StartChar: U0C31_U0C4C.abvs
-Encoding: 65831 -1 380
+Encoding: 65829 -1 379
 Width: 1006
 VWidth: 819
 GlyphClass: 2
@@ -34533,7 +34508,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C31 U0C4C
 EndChar
 
 StartChar: U0C32_U0C4C.abvs
-Encoding: 65832 -1 381
+Encoding: 65830 -1 380
 Width: 913
 VWidth: 819
 GlyphClass: 2
@@ -34616,7 +34591,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C32 U0C4C
 EndChar
 
 StartChar: U0C33_U0C4C.abvs
-Encoding: 65833 -1 382
+Encoding: 65831 -1 381
 Width: 816
 VWidth: 819
 GlyphClass: 2
@@ -34719,7 +34694,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C33 U0C4C
 EndChar
 
 StartChar: U0C35_U0C4C.abvs
-Encoding: 65834 -1 383
+Encoding: 65832 -1 382
 Width: 862
 VWidth: 819
 GlyphClass: 2
@@ -34804,7 +34779,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C35 U0C4C
 EndChar
 
 StartChar: U0C36_U0C4C.abvs
-Encoding: 65835 -1 384
+Encoding: 65833 -1 383
 Width: 756
 VWidth: 819
 GlyphClass: 2
@@ -34899,7 +34874,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C36 U0C4C
 EndChar
 
 StartChar: U0C37_U0C4C.abvs
-Encoding: 65836 -1 385
+Encoding: 65834 -1 384
 Width: 895
 VWidth: 819
 GlyphClass: 2
@@ -34998,7 +34973,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C37 U0C4C
 EndChar
 
 StartChar: U0C38_U0C4C.abvs
-Encoding: 65837 -1 386
+Encoding: 65835 -1 385
 Width: 885
 VWidth: 819
 GlyphClass: 2
@@ -35084,7 +35059,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C38 U0C4C
 EndChar
 
 StartChar: U0C39_U0C4C.abvs
-Encoding: 65838 -1 387
+Encoding: 65836 -1 386
 Width: 1222
 VWidth: 819
 GlyphClass: 2
@@ -35205,7 +35180,7 @@ Ligature2: "'abvs' Above Base Substitutions in Telugu lookup 1" U0C39 U0C4C
 EndChar
 
 StartChar: U0C15_U0C4C_U0C37_U0C4D.akhn
-Encoding: 65839 -1 388
+Encoding: 65837 -1 387
 Width: 800
 VWidth: 819
 GlyphClass: 2
@@ -35312,7 +35287,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C4C U0C37 U0C4D
 EndChar
 
 StartChar: U0C15_U0C4D.haln
-Encoding: 65840 -1 389
+Encoding: 65838 -1 388
 Width: 473
 VWidth: 819
 GlyphClass: 2
@@ -35379,7 +35354,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C15 U0C4D
 EndChar
 
 StartChar: U0C16_U0C4D.haln
-Encoding: 65841 -1 390
+Encoding: 65839 -1 389
 Width: 705
 VWidth: 819
 GlyphClass: 2
@@ -35482,7 +35457,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C16 U0C4D
 EndChar
 
 StartChar: U0C17_U0C4D.haln
-Encoding: 65842 -1 391
+Encoding: 65840 -1 390
 Width: 519
 VWidth: 819
 GlyphClass: 2
@@ -35533,7 +35508,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C17 U0C4D
 EndChar
 
 StartChar: U0C18_U0C4D.haln
-Encoding: 65843 -1 392
+Encoding: 65841 -1 391
 Width: 950
 VWidth: 819
 GlyphClass: 2
@@ -35631,7 +35606,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C18 U0C4D
 EndChar
 
 StartChar: U0C19_U0C4D.haln
-Encoding: 65844 -1 393
+Encoding: 65842 -1 392
 Width: 618
 VWidth: 819
 GlyphClass: 2
@@ -35724,7 +35699,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C19 U0C4D
 EndChar
 
 StartChar: U0C1A_U0C4D.haln
-Encoding: 65845 -1 394
+Encoding: 65843 -1 393
 Width: 640
 VWidth: 819
 GlyphClass: 2
@@ -35799,7 +35774,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C1A U0C4D
 EndChar
 
 StartChar: U0C1B_U0C4D.haln
-Encoding: 65846 -1 395
+Encoding: 65844 -1 394
 Width: 641
 VWidth: 819
 GlyphClass: 2
@@ -35880,7 +35855,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C1B U0C4D
 EndChar
 
 StartChar: U0C1C_U0C4D.haln
-Encoding: 65847 -1 396
+Encoding: 65845 -1 395
 Width: 644
 VWidth: 819
 GlyphClass: 2
@@ -35974,7 +35949,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C1C U0C4D
 EndChar
 
 StartChar: U0C1D_U0C4D.haln
-Encoding: 65848 -1 397
+Encoding: 65846 -1 396
 Width: 1183
 VWidth: 819
 GlyphClass: 2
@@ -36071,7 +36046,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C1D U0C4D
 EndChar
 
 StartChar: U0C1E_U0C4D.haln
-Encoding: 65849 -1 398
+Encoding: 65847 -1 397
 Width: 810
 VWidth: 819
 GlyphClass: 2
@@ -36171,7 +36146,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C1E U0C4D
 EndChar
 
 StartChar: U0C1F_U0C4D.haln
-Encoding: 65850 -1 399
+Encoding: 65848 -1 398
 Width: 740
 VWidth: 819
 GlyphClass: 2
@@ -36254,7 +36229,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C1F U0C4D
 EndChar
 
 StartChar: U0C20_U0C4D.haln
-Encoding: 65851 -1 400
+Encoding: 65849 -1 399
 Width: 540
 VWidth: 819
 GlyphClass: 2
@@ -36319,7 +36294,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C20 U0C4D
 EndChar
 
 StartChar: U0C21_U0C4D.haln
-Encoding: 65852 -1 401
+Encoding: 65850 -1 400
 Width: 672
 VWidth: 819
 GlyphClass: 2
@@ -36403,7 +36378,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C21 U0C4D
 EndChar
 
 StartChar: U0C22_U0C4D.haln
-Encoding: 65853 -1 402
+Encoding: 65851 -1 401
 Width: 672
 VWidth: 819
 GlyphClass: 2
@@ -36493,7 +36468,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C22 U0C4D
 EndChar
 
 StartChar: U0C23_U0C4D.haln
-Encoding: 65854 -1 403
+Encoding: 65852 -1 402
 Width: 761
 VWidth: 819
 GlyphClass: 2
@@ -36592,7 +36567,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C23 U0C4D
 EndChar
 
 StartChar: U0C24_U0C4D.haln
-Encoding: 65855 -1 404
+Encoding: 65853 -1 403
 Width: 654
 VWidth: 819
 GlyphClass: 2
@@ -36680,7 +36655,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C24 U0C4D
 EndChar
 
 StartChar: U0C25_U0C4D.haln
-Encoding: 65856 -1 405
+Encoding: 65854 -1 404
 Width: 645
 VWidth: 819
 GlyphClass: 2
@@ -36761,7 +36736,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C25 U0C4D
 EndChar
 
 StartChar: U0C26_U0C4D.haln
-Encoding: 65857 -1 406
+Encoding: 65855 -1 405
 Width: 644
 VWidth: 819
 GlyphClass: 2
@@ -36830,7 +36805,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C26 U0C4D
 EndChar
 
 StartChar: U0C27_U0C4D.haln
-Encoding: 65858 -1 407
+Encoding: 65856 -1 406
 Width: 645
 VWidth: 819
 GlyphClass: 2
@@ -36905,7 +36880,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C27 U0C4D
 EndChar
 
 StartChar: U0C28_U0C4D.haln
-Encoding: 65859 -1 408
+Encoding: 65857 -1 407
 Width: 606
 VWidth: 819
 GlyphClass: 2
@@ -36971,7 +36946,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C28 U0C4D
 EndChar
 
 StartChar: U0C2A_U0C4D.haln
-Encoding: 65860 -1 409
+Encoding: 65858 -1 408
 Width: 572
 VWidth: 819
 GlyphClass: 2
@@ -37048,7 +37023,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C2A U0C4D
 EndChar
 
 StartChar: U0C2B_U0C4D.haln
-Encoding: 65861 -1 410
+Encoding: 65859 -1 409
 Width: 577
 VWidth: 819
 GlyphClass: 2
@@ -37131,7 +37106,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C2B U0C4D
 EndChar
 
 StartChar: U0C2C_U0C4D.haln
-Encoding: 65862 -1 411
+Encoding: 65860 -1 410
 Width: 672
 VWidth: 819
 GlyphClass: 2
@@ -37213,7 +37188,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C2C U0C4D
 EndChar
 
 StartChar: U0C2D_U0C4D.haln
-Encoding: 65863 -1 412
+Encoding: 65861 -1 411
 Width: 645
 VWidth: 819
 GlyphClass: 2
@@ -37301,7 +37276,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C2D U0C4D
 EndChar
 
 StartChar: U0C2E_U0C4D.haln
-Encoding: 65864 -1 413
+Encoding: 65862 -1 412
 Width: 949
 VWidth: 819
 GlyphClass: 2
@@ -37387,7 +37362,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C2E U0C4D
 EndChar
 
 StartChar: U0C2F_U0C4D.haln
-Encoding: 65865 -1 414
+Encoding: 65863 -1 413
 Width: 1240
 VWidth: 819
 GlyphClass: 2
@@ -37474,7 +37449,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C2F U0C4D
 EndChar
 
 StartChar: U0C30_U0C4D.haln
-Encoding: 65866 -1 415
+Encoding: 65864 -1 414
 Width: 540
 VWidth: 819
 GlyphClass: 2
@@ -37533,7 +37508,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C30 U0C4D
 EndChar
 
 StartChar: U0C31_U0C4D.haln
-Encoding: 65867 -1 416
+Encoding: 65865 -1 415
 Width: 757
 VWidth: 819
 GlyphClass: 2
@@ -37632,7 +37607,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C31 U0C4D
 EndChar
 
 StartChar: U0C32_U0C4D.haln
-Encoding: 65868 -1 417
+Encoding: 65866 -1 416
 Width: 666
 VWidth: 819
 GlyphClass: 2
@@ -37704,7 +37679,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C32 U0C4D
 EndChar
 
 StartChar: U0C33_U0C4D.haln
-Encoding: 65869 -1 418
+Encoding: 65867 -1 417
 Width: 561
 VWidth: 819
 GlyphClass: 2
@@ -37794,7 +37769,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C33 U0C4D
 EndChar
 
 StartChar: U0C35_U0C4D.haln
-Encoding: 65870 -1 419
+Encoding: 65868 -1 418
 Width: 576
 VWidth: 819
 GlyphClass: 2
@@ -37866,7 +37841,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C35 U0C4D
 EndChar
 
 StartChar: U0C36_U0C4D.haln
-Encoding: 65871 -1 420
+Encoding: 65869 -1 419
 Width: 500
 VWidth: 819
 GlyphClass: 2
@@ -37946,7 +37921,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C36 U0C4D
 EndChar
 
 StartChar: U0C37_U0C4D.haln
-Encoding: 65872 -1 421
+Encoding: 65870 -1 420
 Width: 600
 VWidth: 819
 GlyphClass: 2
@@ -38030,7 +38005,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C37 U0C4D
 EndChar
 
 StartChar: U0C38_U0C4D.haln
-Encoding: 65873 -1 422
+Encoding: 65871 -1 421
 Width: 590
 VWidth: 819
 GlyphClass: 2
@@ -38101,7 +38076,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C38 U0C4D
 EndChar
 
 StartChar: U0C39_U0C4D.haln
-Encoding: 65874 -1 423
+Encoding: 65872 -1 422
 Width: 882
 VWidth: 819
 GlyphClass: 2
@@ -38202,7 +38177,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C39 U0C4D
 EndChar
 
 StartChar: U0C15_U0C37_U0C4D.akhn_U0C4D.haln
-Encoding: 65875 -1 424
+Encoding: 65873 -1 423
 Width: 511
 VWidth: 819
 GlyphClass: 2
@@ -38295,7 +38270,7 @@ Ligature2: "'haln' Halant Forms in Telugu lookup 317" U0C15_U0C37_U0C4D.akhn U0C
 EndChar
 
 StartChar: U0C1C_U0C41.psts
-Encoding: 65876 -1 425
+Encoding: 65874 -1 424
 Width: 849
 VWidth: 819
 GlyphClass: 2
@@ -38392,7 +38367,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C1C U0C41
 EndChar
 
 StartChar: U0C1C_U0C42.psts
-Encoding: 65877 -1 426
+Encoding: 65875 -1 425
 Width: 1162
 VWidth: 819
 GlyphClass: 2
@@ -38510,7 +38485,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C1C U0C42
 EndChar
 
 StartChar: U0C2A_U0C41.psts
-Encoding: 65878 -1 427
+Encoding: 65876 -1 426
 Width: 822
 VWidth: 819
 GlyphClass: 2
@@ -38589,7 +38564,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C2A U0C41
 EndChar
 
 StartChar: U0C2A_U0C42.psts
-Encoding: 65879 -1 428
+Encoding: 65877 -1 427
 Width: 1196
 VWidth: 819
 GlyphClass: 2
@@ -38693,7 +38668,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C2A U0C42
 EndChar
 
 StartChar: U0C2B_U0C41.psts
-Encoding: 65880 -1 429
+Encoding: 65878 -1 428
 Width: 822
 VWidth: 819
 GlyphClass: 2
@@ -38776,7 +38751,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C2B U0C41
 EndChar
 
 StartChar: U0C2B_U0C42.psts
-Encoding: 65881 -1 430
+Encoding: 65879 -1 429
 Width: 1196
 VWidth: 819
 GlyphClass: 2
@@ -38884,7 +38859,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C2B U0C42
 EndChar
 
 StartChar: U0C35_U0C41.psts
-Encoding: 65882 -1 431
+Encoding: 65880 -1 430
 Width: 822
 VWidth: 819
 GlyphClass: 2
@@ -38958,7 +38933,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C35 U0C41
 EndChar
 
 StartChar: U0C35_U0C42.psts
-Encoding: 65883 -1 432
+Encoding: 65881 -1 431
 Width: 1196
 VWidth: 819
 GlyphClass: 2
@@ -39058,7 +39033,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C35 U0C42
 EndChar
 
 StartChar: U0C15_U0C4D.blwf
-Encoding: 65884 -1 433
+Encoding: 65882 -1 432
 Width: 500
 VWidth: 819
 GlyphClass: 4
@@ -39102,7 +39077,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C15 U0C4D
 EndChar
 
 StartChar: U0C16_U0C4D.blwf
-Encoding: 65885 -1 434
+Encoding: 65883 -1 433
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -39184,7 +39159,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C16 U0C4D
 EndChar
 
 StartChar: U0C17_U0C4D.blwf
-Encoding: 65886 -1 435
+Encoding: 65884 -1 434
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -39212,7 +39187,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C17 U0C4D
 EndChar
 
 StartChar: U0C18_U0C4D.blwf
-Encoding: 65887 -1 436
+Encoding: 65885 -1 435
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -39332,7 +39307,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C18 U0C4D
 EndChar
 
 StartChar: U0C19_U0C4D.blwf
-Encoding: 65888 -1 437
+Encoding: 65886 -1 436
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -39402,7 +39377,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C19 U0C4D
 EndChar
 
 StartChar: U0C1A_U0C4D.blwf
-Encoding: 65889 -1 438
+Encoding: 65887 -1 437
 Width: 412
 VWidth: 819
 GlyphClass: 4
@@ -39450,7 +39425,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C1A U0C4D
 EndChar
 
 StartChar: U0C1B_U0C4D.blwf
-Encoding: 65890 -1 439
+Encoding: 65888 -1 438
 Width: 402
 VWidth: 819
 GlyphClass: 4
@@ -39504,7 +39479,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C1B U0C4D
 EndChar
 
 StartChar: U0C1C_U0C4D.blwf
-Encoding: 65891 -1 440
+Encoding: 65889 -1 439
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -39580,7 +39555,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C1C U0C4D
 EndChar
 
 StartChar: U0C1D_U0C4D.blwf
-Encoding: 65892 -1 441
+Encoding: 65890 -1 440
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -39704,7 +39679,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C1D U0C4D
 EndChar
 
 StartChar: U0C1E_U0C4D.blwf
-Encoding: 65893 -1 442
+Encoding: 65891 -1 441
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -39782,7 +39757,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C1E U0C4D
 EndChar
 
 StartChar: U0C1F_U0C4D.blwf
-Encoding: 65894 -1 443
+Encoding: 65892 -1 442
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -39844,7 +39819,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C1F U0C4D
 EndChar
 
 StartChar: U0C20_U0C4D.blwf
-Encoding: 65895 -1 444
+Encoding: 65893 -1 443
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -39886,7 +39861,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C20 U0C4D
 EndChar
 
 StartChar: U0C21_U0C4D.blwf
-Encoding: 65896 -1 445
+Encoding: 65894 -1 444
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -39946,7 +39921,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C21 U0C4D
 EndChar
 
 StartChar: U0C22_U0C4D.blwf
-Encoding: 65897 -1 446
+Encoding: 65895 -1 445
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -40010,7 +39985,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C22 U0C4D
 EndChar
 
 StartChar: U0C23_U0C4D.blwf
-Encoding: 65898 -1 447
+Encoding: 65896 -1 446
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -40085,7 +40060,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C23 U0C4D
 EndChar
 
 StartChar: U0C24_U0C4D.blwf
-Encoding: 65899 -1 448
+Encoding: 65897 -1 447
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -40125,7 +40100,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C24 U0C4D
 EndChar
 
 StartChar: U0C25_U0C4D.blwf
-Encoding: 65900 -1 449
+Encoding: 65898 -1 448
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -40181,7 +40156,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C25 U0C4D
 EndChar
 
 StartChar: U0C26_U0C4D.blwf
-Encoding: 65901 -1 450
+Encoding: 65899 -1 449
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -40227,7 +40202,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C26 U0C4D
 EndChar
 
 StartChar: U0C27_U0C4D.blwf
-Encoding: 65902 -1 451
+Encoding: 65900 -1 450
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -40277,7 +40252,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C27 U0C4D
 EndChar
 
 StartChar: U0C28_U0C4D.blwf
-Encoding: 65903 -1 452
+Encoding: 65901 -1 451
 Width: 254
 VWidth: 819
 GlyphClass: 4
@@ -40331,7 +40306,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C28 U0C4D
 EndChar
 
 StartChar: U0C2A_U0C4D.blwf
-Encoding: 65904 -1 453
+Encoding: 65902 -1 452
 Width: 315
 VWidth: 819
 GlyphClass: 4
@@ -40381,7 +40356,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C2A U0C4D
 EndChar
 
 StartChar: U0C2B_U0C4D.blwf
-Encoding: 65905 -1 454
+Encoding: 65903 -1 453
 Width: 318
 VWidth: 819
 GlyphClass: 4
@@ -40435,7 +40410,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C2B U0C4D
 EndChar
 
 StartChar: U0C2C_U0C4D.blwf
-Encoding: 65906 -1 455
+Encoding: 65904 -1 454
 Width: 383
 VWidth: 819
 GlyphClass: 4
@@ -40493,7 +40468,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C2C U0C4D
 EndChar
 
 StartChar: U0C2D_U0C4D.blwf
-Encoding: 65907 -1 456
+Encoding: 65905 -1 455
 Width: 384
 VWidth: 819
 GlyphClass: 4
@@ -40555,7 +40530,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C2D U0C4D
 EndChar
 
 StartChar: U0C2E_U0C4D.blwf
-Encoding: 65908 -1 457
+Encoding: 65906 -1 456
 Width: 246
 VWidth: 819
 GlyphClass: 4
@@ -40615,7 +40590,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C2E U0C4D
 EndChar
 
 StartChar: U0C2F_U0C4D.blwf
-Encoding: 65909 -1 458
+Encoding: 65907 -1 457
 Width: 370
 VWidth: 819
 GlyphClass: 4
@@ -40674,7 +40649,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C2F U0C4D
 EndChar
 
 StartChar: U0C30_U0C4D.blwf
-Encoding: 65910 -1 459
+Encoding: 65908 -1 458
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -40706,7 +40681,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C30 U0C4D
 EndChar
 
 StartChar: U0C31_U0C4D.blwf
-Encoding: 65911 -1 460
+Encoding: 65909 -1 459
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -40785,7 +40760,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C31 U0C4D
 EndChar
 
 StartChar: U0C32_U0C4D.blwf
-Encoding: 65912 -1 461
+Encoding: 65910 -1 460
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -40831,7 +40806,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C32 U0C4D
 EndChar
 
 StartChar: U0C33_U0C4D.blwf
-Encoding: 65913 -1 462
+Encoding: 65911 -1 461
 Width: 304
 VWidth: 819
 GlyphClass: 4
@@ -40899,7 +40874,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C33 U0C4D
 EndChar
 
 StartChar: U0C35_U0C4D.blwf
-Encoding: 65914 -1 463
+Encoding: 65912 -1 462
 Width: 350
 VWidth: 819
 GlyphClass: 4
@@ -40961,7 +40936,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C35 U0C4D
 EndChar
 
 StartChar: U0C36_U0C4D.blwf
-Encoding: 65915 -1 464
+Encoding: 65913 -1 463
 Width: 264
 VWidth: 819
 GlyphClass: 4
@@ -41023,7 +40998,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C36 U0C4D
 EndChar
 
 StartChar: U0C37_U0C4D.blwf
-Encoding: 65916 -1 465
+Encoding: 65914 -1 464
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -41121,7 +41096,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C37 U0C4D
 EndChar
 
 StartChar: U0C38_U0C4D.blwf
-Encoding: 65917 -1 466
+Encoding: 65915 -1 465
 Width: 343
 VWidth: 819
 GlyphClass: 4
@@ -41165,7 +41140,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C38 U0C4D
 EndChar
 
 StartChar: U0C39_U0C4D.blwf
-Encoding: 65918 -1 467
+Encoding: 65916 -1 466
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -41297,7 +41272,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C39 U0C4D
 EndChar
 
 StartChar: U0C15_U0C4D.blwf_U0C37_U0C4D.blwf.blwf
-Encoding: 65919 -1 468
+Encoding: 65917 -1 467
 Width: 0
 VWidth: 819
 GlyphClass: 2
@@ -41398,7 +41373,7 @@ Ligature2: "'blwf' Below Base Forms in Telugu lookup 4" U0C15_U0C4D.blwf U0C37_U
 EndChar
 
 StartChar: U0C56_U0C24_U0C4D.blwf.blws
-Encoding: 65920 -1 469
+Encoding: 65918 -1 468
 Width: 0
 VWidth: 819
 GlyphClass: 2
@@ -41462,7 +41437,7 @@ Ligature2: "'blws' Below Base Substitutions in Telugu lookup 316" U0C56 U0C24_U0
 EndChar
 
 StartChar: glyph471
-Encoding: 65921 -1 470
+Encoding: 65919 -1 469
 Width: 412
 VWidth: 819
 GlyphClass: 2
@@ -41545,7 +41520,7 @@ Validated: 5
 EndChar
 
 StartChar: U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws
-Encoding: 65922 -1 471
+Encoding: 65920 -1 470
 Width: 0
 VWidth: 819
 GlyphClass: 2
@@ -41596,7 +41571,7 @@ Ligature2: "'blws' Below Base Substitutions in Telugu lookup 316" U0C24_U0C4D.bl
 EndChar
 
 StartChar: glyph473
-Encoding: 65923 -1 472
+Encoding: 65921 -1 471
 Width: 0
 VWidth: 819
 GlyphClass: 2
@@ -41667,7 +41642,7 @@ Validated: 5
 EndChar
 
 StartChar: U0C15_U0C37_U0C4D.akhn
-Encoding: 65924 -1 473
+Encoding: 65922 -1 472
 Width: 511
 VWidth: 819
 GlyphClass: 2
@@ -41746,7 +41721,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C37 U0C4D
 EndChar
 
 StartChar: U0C36_U0C40.abvs_U0C30_U0C4D.blwf.blws
-Encoding: 65925 -1 474
+Encoding: 65923 -1 473
 Width: 701
 VWidth: 819
 GlyphClass: 2
@@ -41848,7 +41823,7 @@ Ligature2: "'blws' Below Base Substitutions in Telugu lookup 316" U0C36_U0C40.ab
 EndChar
 
 StartChar: U0C38_U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws
-Encoding: 65926 -1 475
+Encoding: 65924 -1 474
 Width: 716
 VWidth: 819
 GlyphClass: 2
@@ -41940,7 +41915,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C38_U0C4D.haln U0C1F U0C30_U0C4D
 EndChar
 
 StartChar: U0C38_U0C3F.abvs_U0C24_U0C4D.blwf_U0C30_U0C4D.blwf.blws
-Encoding: 65927 -1 476
+Encoding: 65925 -1 475
 Width: 716
 VWidth: 819
 GlyphClass: 2
@@ -42046,7 +42021,7 @@ Ligature2: "'blws' Below Base Substitutions in Telugu lookup 316" U0C38_U0C3F.ab
 EndChar
 
 StartChar: U0C38_U0C24_U0C30_U0C40.akhn
-Encoding: 65928 -1 477
+Encoding: 65926 -1 476
 Width: 716
 VWidth: 819
 GlyphClass: 2
@@ -42166,7 +42141,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C38 U0C24 U0C30 U0C40
 EndChar
 
 StartChar: U0C37_U0C1F_U0C4D.blwf_U0C30_U0C4D.blwf.blws
-Encoding: 65929 -1 478
+Encoding: 65927 -1 477
 Width: 713
 VWidth: 819
 GlyphClass: 2
@@ -42291,7 +42266,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C37_U0C4D.haln U0C24 U0C30_U0C4D
 EndChar
 
 StartChar: U0C37_U0C1F_U0C30_U0C40.akhn
-Encoding: 65930 -1 479
+Encoding: 65928 -1 478
 Width: 704
 VWidth: 819
 GlyphClass: 2
@@ -42443,7 +42418,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C37 U0C1F U0C30 U0C40
 EndChar
 
 StartChar: U0C15_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts
-Encoding: 65931 -1 480
+Encoding: 65929 -1 479
 Width: 963
 VWidth: 819
 GlyphClass: 2
@@ -42562,7 +42537,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C15_U0C37_U0C
 EndChar
 
 StartChar: U0C15_U0C3F_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts
-Encoding: 65932 -1 481
+Encoding: 65930 -1 480
 Width: 963
 VWidth: 819
 GlyphClass: 2
@@ -42699,7 +42674,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C15_U0C3F_U0C
 EndChar
 
 StartChar: U0C15_U0C40_U0C37_U0C4D.akhn_U0C2E_U0C4D.blwf.psts
-Encoding: 65933 -1 482
+Encoding: 65931 -1 481
 Width: 963
 VWidth: 819
 GlyphClass: 2
@@ -42849,7 +42824,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C15_U0C40_U0C
 EndChar
 
 StartChar: U0C37_U0C3F.abvs_U0C1F_U0C4D.blwf_U0C30_U0C4D.blwf.blws
-Encoding: 65934 -1 483
+Encoding: 65932 -1 482
 Width: 604
 VWidth: 819
 GlyphClass: 2
@@ -42987,7 +42962,7 @@ Ligature2: "'blws' Below Base Substitutions in Telugu lookup 316" U0C37_U0C3F.ab
 EndChar
 
 StartChar: U0C15_U0C41.psts
-Encoding: 65935 -1 484
+Encoding: 65933 -1 483
 Width: 881
 VWidth: 819
 GlyphClass: 2
@@ -43052,7 +43027,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C15 U0C41
 EndChar
 
 StartChar: U0C21_U0C41.psts
-Encoding: 65936 -1 485
+Encoding: 65934 -1 484
 Width: 1076
 VWidth: 819
 GlyphClass: 2
@@ -43135,7 +43110,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C21 U0C41
 EndChar
 
 StartChar: U0C22_U0C41.psts
-Encoding: 65937 -1 486
+Encoding: 65935 -1 485
 Width: 1076
 VWidth: 819
 GlyphClass: 2
@@ -43226,7 +43201,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C22 U0C41
 EndChar
 
 StartChar: U0C39_U0C41.psts
-Encoding: 65938 -1 487
+Encoding: 65936 -1 486
 Width: 1175
 VWidth: 819
 GlyphClass: 2
@@ -43326,7 +43301,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C39 U0C41
 EndChar
 
 StartChar: U0C15_U0C42.psts
-Encoding: 65939 -1 488
+Encoding: 65937 -1 487
 Width: 1188
 VWidth: 819
 GlyphClass: 2
@@ -43417,7 +43392,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C15 U0C42
 EndChar
 
 StartChar: U0C21_U0C42.psts
-Encoding: 65940 -1 489
+Encoding: 65938 -1 488
 Width: 1470
 VWidth: 819
 GlyphClass: 2
@@ -43518,7 +43493,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C21 U0C42
 EndChar
 
 StartChar: U0C22_U0C42.psts
-Encoding: 65941 -1 490
+Encoding: 65939 -1 489
 Width: 1470
 VWidth: 819
 GlyphClass: 2
@@ -43627,7 +43602,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C22 U0C42
 EndChar
 
 StartChar: U0C39_U0C42.psts
-Encoding: 65942 -1 491
+Encoding: 65940 -1 490
 Width: 1564
 VWidth: 819
 GlyphClass: 2
@@ -43751,7 +43726,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C39 U0C42
 EndChar
 
 StartChar: glyph493
-Encoding: 65943 -1 492
+Encoding: 65941 -1 491
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -43775,7 +43750,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph494
-Encoding: 65944 -1 493
+Encoding: 65942 -1 492
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -43801,7 +43776,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph495
-Encoding: 65945 -1 494
+Encoding: 65943 -1 493
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -43827,7 +43802,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph496
-Encoding: 65946 -1 495
+Encoding: 65944 -1 494
 Width: 491
 VWidth: 819
 GlyphClass: 4
@@ -43868,7 +43843,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph497
-Encoding: 65947 -1 496
+Encoding: 65945 -1 495
 Width: 460
 VWidth: 819
 GlyphClass: 4
@@ -43947,7 +43922,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph498
-Encoding: 65948 -1 497
+Encoding: 65946 -1 496
 Width: 423
 VWidth: 819
 GlyphClass: 4
@@ -43972,7 +43947,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph499
-Encoding: 65949 -1 498
+Encoding: 65947 -1 497
 Width: 736
 VWidth: 819
 GlyphClass: 4
@@ -44038,7 +44013,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph500
-Encoding: 65950 -1 499
+Encoding: 65948 -1 498
 Width: 500
 VWidth: 819
 GlyphClass: 4
@@ -44105,7 +44080,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph501
-Encoding: 65951 -1 500
+Encoding: 65949 -1 499
 Width: 526
 VWidth: 819
 GlyphClass: 4
@@ -44150,7 +44125,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph502
-Encoding: 65952 -1 501
+Encoding: 65950 -1 500
 Width: 526
 VWidth: 819
 GlyphClass: 4
@@ -44201,7 +44176,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph503
-Encoding: 65953 -1 502
+Encoding: 65951 -1 501
 Width: 500
 VWidth: 819
 GlyphClass: 4
@@ -44274,7 +44249,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph504
-Encoding: 65954 -1 503
+Encoding: 65952 -1 502
 Width: 604
 VWidth: 819
 GlyphClass: 4
@@ -44395,7 +44370,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph505
-Encoding: 65955 -1 504
+Encoding: 65953 -1 503
 Width: 560
 VWidth: 819
 GlyphClass: 4
@@ -44470,7 +44445,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph506
-Encoding: 65956 -1 505
+Encoding: 65954 -1 504
 Width: 542
 VWidth: 819
 GlyphClass: 4
@@ -44529,7 +44504,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph507
-Encoding: 65957 -1 506
+Encoding: 65955 -1 505
 Width: 396
 VWidth: 819
 GlyphClass: 4
@@ -44568,7 +44543,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph508
-Encoding: 65958 -1 507
+Encoding: 65956 -1 506
 Width: 564
 VWidth: 819
 GlyphClass: 4
@@ -44625,7 +44600,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph509
-Encoding: 65959 -1 508
+Encoding: 65957 -1 507
 Width: 564
 VWidth: 819
 GlyphClass: 4
@@ -44686,7 +44661,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph510
-Encoding: 65960 -1 509
+Encoding: 65958 -1 508
 Width: 500
 VWidth: 819
 GlyphClass: 4
@@ -44759,7 +44734,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph511
-Encoding: 65961 -1 510
+Encoding: 65959 -1 509
 Width: 587
 VWidth: 819
 GlyphClass: 4
@@ -44797,7 +44772,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph512
-Encoding: 65962 -1 511
+Encoding: 65960 -1 510
 Width: 552
 VWidth: 819
 GlyphClass: 4
@@ -44850,7 +44825,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph513
-Encoding: 65963 -1 512
+Encoding: 65961 -1 511
 Width: 552
 VWidth: 819
 GlyphClass: 4
@@ -44893,7 +44868,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph514
-Encoding: 65964 -1 513
+Encoding: 65962 -1 512
 Width: 552
 VWidth: 819
 GlyphClass: 4
@@ -44940,7 +44915,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph515
-Encoding: 65965 -1 514
+Encoding: 65963 -1 513
 Width: 549
 VWidth: 819
 GlyphClass: 4
@@ -44991,7 +44966,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph516
-Encoding: 65966 -1 515
+Encoding: 65964 -1 514
 Width: 512
 VWidth: 819
 GlyphClass: 4
@@ -45038,7 +45013,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph517
-Encoding: 65967 -1 516
+Encoding: 65965 -1 515
 Width: 512
 VWidth: 819
 GlyphClass: 4
@@ -45089,7 +45064,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph518
-Encoding: 65968 -1 517
+Encoding: 65966 -1 516
 Width: 512
 VWidth: 819
 GlyphClass: 4
@@ -45144,7 +45119,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph519
-Encoding: 65969 -1 518
+Encoding: 65967 -1 517
 Width: 518
 VWidth: 819
 GlyphClass: 4
@@ -45203,7 +45178,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph520
-Encoding: 65970 -1 519
+Encoding: 65968 -1 518
 Width: 477
 VWidth: 819
 GlyphClass: 4
@@ -45260,7 +45235,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph521
-Encoding: 65971 -1 520
+Encoding: 65969 -1 519
 Width: 408
 VWidth: 819
 GlyphClass: 4
@@ -45317,7 +45292,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph522
-Encoding: 65972 -1 521
+Encoding: 65970 -1 520
 Width: 655
 VWidth: 819
 GlyphClass: 4
@@ -45343,7 +45318,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph523
-Encoding: 65973 -1 522
+Encoding: 65971 -1 521
 Width: 560
 VWidth: 819
 GlyphClass: 4
@@ -45418,7 +45393,7 @@ Validated: 37
 EndChar
 
 StartChar: glyph524
-Encoding: 65974 -1 523
+Encoding: 65972 -1 522
 Width: 484
 VWidth: 819
 GlyphClass: 4
@@ -45461,7 +45436,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph525
-Encoding: 65975 -1 524
+Encoding: 65973 -1 523
 Width: 523
 VWidth: 819
 GlyphClass: 4
@@ -45526,7 +45501,7 @@ Validated: 37
 EndChar
 
 StartChar: glyph526
-Encoding: 65976 -1 525
+Encoding: 65974 -1 524
 Width: 526
 VWidth: 819
 GlyphClass: 4
@@ -45585,7 +45560,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph527
-Encoding: 65977 -1 526
+Encoding: 65975 -1 525
 Width: 435
 VWidth: 819
 GlyphClass: 4
@@ -45644,7 +45619,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph528
-Encoding: 65978 -1 527
+Encoding: 65976 -1 526
 Width: 561
 VWidth: 819
 GlyphClass: 4
@@ -45696,7 +45671,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph529
-Encoding: 65979 -1 528
+Encoding: 65977 -1 527
 Width: 512
 VWidth: 819
 GlyphClass: 4
@@ -45737,7 +45712,7 @@ Validated: 1
 EndChar
 
 StartChar: glyph530
-Encoding: 65980 -1 529
+Encoding: 65978 -1 528
 Width: 762
 VWidth: 819
 GlyphClass: 4
@@ -45805,7 +45780,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph531
-Encoding: 65981 -1 530
+Encoding: 65979 -1 529
 Width: 565
 VWidth: 819
 GlyphClass: 2
@@ -45904,7 +45879,7 @@ EndSplineSet
 EndChar
 
 StartChar: nounicode-3-1-57
-Encoding: 65982 -1 531
+Encoding: 65980 -1 530
 Width: 565
 VWidth: 819
 GlyphClass: 2
@@ -45982,7 +45957,7 @@ EndSplineSet
 EndChar
 
 StartChar: U0C15_U0C41_U0C37_U0C4D.akhn
-Encoding: 65983 -1 532
+Encoding: 65981 -1 531
 Width: 866
 VWidth: 819
 GlyphClass: 2
@@ -46105,7 +46080,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C41 U0C37 U0C4D
 EndChar
 
 StartChar: U0C15_U0C42_U0C37_U0C4D.akhn
-Encoding: 65984 -1 533
+Encoding: 65982 -1 532
 Width: 1214
 VWidth: 819
 GlyphClass: 2
@@ -46252,7 +46227,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C42 U0C37 U0C4D
 EndChar
 
 StartChar: U0C15_U0C46_U0C56_U0C37_U0C4D.akhn
-Encoding: 65985 -1 534
+Encoding: 65983 -1 533
 Width: 511
 VWidth: 819
 GlyphClass: 2
@@ -46359,7 +46334,7 @@ Ligature2: "'akhn' Akhand in Telugu lookup 3" U0C15 U0C46 U0C56 U0C37 U0C4D
 EndChar
 
 StartChar: glyph536
-Encoding: 65986 -1 535
+Encoding: 65984 -1 534
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -46385,7 +46360,7 @@ EndSplineSet
 EndChar
 
 StartChar: glyph537
-Encoding: 65987 -1 536
+Encoding: 65985 -1 535
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -46411,7 +46386,7 @@ Validated: 5
 EndChar
 
 StartChar: glyph538
-Encoding: 65988 -1 537
+Encoding: 65986 -1 536
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -46437,7 +46412,7 @@ Validated: 5
 EndChar
 
 StartChar: uni0964
-Encoding: 2404 2404 538
+Encoding: 2404 2404 537
 Width: 819
 VWidth: 819
 LayerCount: 2
@@ -46453,7 +46428,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0965
-Encoding: 2405 2405 539
+Encoding: 2405 2405 538
 Width: 819
 VWidth: 819
 LayerCount: 2
@@ -46474,7 +46449,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0C62
-Encoding: 3170 3170 540
+Encoding: 3170 3170 539
 Width: 0
 VWidth: 819
 Flags: W
@@ -46516,7 +46491,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0C63
-Encoding: 3171 3171 541
+Encoding: 3171 3171 540
 Width: 0
 VWidth: 819
 Flags: W
@@ -46575,7 +46550,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0C58
-Encoding: 3160 3160 542
+Encoding: 3160 3160 541
 Width: 640
 VWidth: 819
 Flags: W
@@ -46657,7 +46632,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0C59
-Encoding: 3161 3161 543
+Encoding: 3161 3161 542
 Width: 651
 VWidth: 819
 Flags: W
@@ -46757,7 +46732,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0C78
-Encoding: 3192 3192 544
+Encoding: 3192 3192 543
 Width: 707
 VWidth: 2048
 Flags: W
@@ -46801,7 +46776,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0C79
-Encoding: 3193 3193 545
+Encoding: 3193 3193 544
 Width: 161
 VWidth: 2048
 Flags: W
@@ -46817,7 +46792,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0C7A
-Encoding: 3194 3194 546
+Encoding: 3194 3194 545
 Width: 482
 VWidth: 2048
 Flags: W
@@ -46845,7 +46820,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0C7B
-Encoding: 3195 3195 547
+Encoding: 3195 3195 546
 Width: 836
 VWidth: 2048
 Flags: W
@@ -46886,7 +46861,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0C7C
-Encoding: 3196 3196 548
+Encoding: 3196 3196 547
 Width: 797
 VWidth: 2048
 Flags: W
@@ -46902,7 +46877,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0C7D
-Encoding: 3197 3197 549
+Encoding: 3197 3197 548
 Width: 801
 VWidth: 2048
 Flags: W
@@ -46941,7 +46916,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0C7E
-Encoding: 3198 3198 550
+Encoding: 3198 3198 549
 Width: 876
 VWidth: 2048
 Flags: W
@@ -46996,7 +46971,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0C7F
-Encoding: 3199 3199 551
+Encoding: 3199 3199 550
 Width: 963
 VWidth: 2048
 Flags: W
@@ -47038,7 +47013,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0C3D
-Encoding: 3133 3133 552
+Encoding: 3133 3133 551
 Width: 1027
 VWidth: 0
 Flags: W
@@ -47066,7 +47041,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni20B9
-Encoding: 8377 8377 553
+Encoding: 8377 8377 552
 Width: 622
 VWidth: 0
 Flags: W
@@ -47099,7 +47074,7 @@ EndSplineSet
 EndChar
 
 StartChar: ai_extended
-Encoding: 65464 -1 554
+Encoding: 65987 -1 553
 Width: 0
 VWidth: 819
 GlyphClass: 4
@@ -47136,1327 +47111,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniFFB9
-Encoding: 65465 -1 555
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFBA
-Encoding: 65466 -1 556
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFBB
-Encoding: 65467 -1 557
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFBC
-Encoding: 65468 65468 558
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFBD
-Encoding: 65469 65469 559
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFBE
-Encoding: 65470 65470 560
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFBF
-Encoding: 65471 65471 561
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFC0
-Encoding: 65472 65472 562
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFC1
-Encoding: 65473 65473 563
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFC2
-Encoding: 65474 65474 564
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFC3
-Encoding: 65475 65475 565
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFC4
-Encoding: 65476 65476 566
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFC5
-Encoding: 65477 65477 567
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFC6
-Encoding: 65478 65478 568
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFC7
-Encoding: 65479 65479 569
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFC8
-Encoding: 65480 65480 570
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFC9
-Encoding: 65481 65481 571
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFCA
-Encoding: 65482 65482 572
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFCB
-Encoding: 65483 65483 573
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFCC
-Encoding: 65484 65484 574
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFCD
-Encoding: 65485 65485 575
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFCE
-Encoding: 65486 65486 576
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFCF
-Encoding: 65487 65487 577
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFD0
-Encoding: 65488 65488 578
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFD1
-Encoding: 65489 65489 579
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFD2
-Encoding: 65490 65490 580
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFD3
-Encoding: 65491 65491 581
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFD4
-Encoding: 65492 65492 582
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFD5
-Encoding: 65493 65493 583
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFD6
-Encoding: 65494 65494 584
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFD7
-Encoding: 65495 65495 585
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFD8
-Encoding: 65496 65496 586
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFD9
-Encoding: 65497 65497 587
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFDA
-Encoding: 65498 65498 588
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFDB
-Encoding: 65499 65499 589
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFDC
-Encoding: 65500 65500 590
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFDD
-Encoding: 65501 65501 591
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFDE
-Encoding: 65502 65502 592
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFDF
-Encoding: 65503 65503 593
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFE0
-Encoding: 65504 65504 594
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFE1
-Encoding: 65505 65505 595
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFE2
-Encoding: 65506 65506 596
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFE3
-Encoding: 65507 65507 597
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFE4
-Encoding: 65508 -1 598
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFE5
-Encoding: 65509 -1 599
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFE6
-Encoding: 65510 -1 600
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFE7
-Encoding: 65511 65511 601
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFE8
-Encoding: 65512 65512 602
-Width: 1024
-VWidth: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uniFFE9
-Encoding: 65513 65513 603
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFEA
-Encoding: 65514 65514 604
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFEB
-Encoding: 65515 65515 605
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFEC
-Encoding: 65516 65516 606
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFED
-Encoding: 65517 65517 607
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFEE
-Encoding: 65518 65518 608
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFEF
-Encoding: 65519 65519 609
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFF0
-Encoding: 65520 65520 610
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFF1
-Encoding: 65521 65521 611
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
-StartChar: uniFFF2
-Encoding: 65522 65522 612
-Width: 640
-VWidth: 819
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-80 0 m 1,0,-1
- 80 560 l 1,1,-1
- 560 560 l 1,2,-1
- 560 0 l 1,3,-1
- 80 0 l 1,4,-1
- 80 0 l 1,0,-1
-120 40 m 1,5,-1
- 520 40 l 1,6,-1
- 520 520 l 1,7,-1
- 120 520 l 1,8,-1
- 120 40 l 1,9,-1
- 120 40 l 1,5,-1
-EndSplineSet
-EndChar
-
 StartChar: U0C38_U0C41.psts
-Encoding: 65523 -1 613
+Encoding: 65994 -1 554
 Width: 966
 VWidth: 819
 GlyphClass: 2
@@ -48526,7 +47182,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C38 U0C41
 EndChar
 
 StartChar: U0C37_U0C41.psts
-Encoding: 65524 -1 614
+Encoding: 65995 -1 555
 Width: 949
 VWidth: 819
 GlyphClass: 2
@@ -48606,7 +47262,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C37 U0C41
 EndChar
 
 StartChar: U0C36_U0C41.psts
-Encoding: 65525 -1 615
+Encoding: 65996 -1 556
 Width: 832
 VWidth: 819
 GlyphClass: 2
@@ -48685,7 +47341,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C36 U0C41
 EndChar
 
 StartChar: U0C33_U0C41.psts
-Encoding: 65526 -1 616
+Encoding: 65997 -1 557
 Width: 915
 VWidth: 819
 GlyphClass: 2
@@ -48774,7 +47430,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C33 U0C41
 EndChar
 
 StartChar: U0C32_U0C41.psts
-Encoding: 65527 -1 617
+Encoding: 65998 -1 558
 Width: 960
 VWidth: 819
 GlyphClass: 2
@@ -48837,7 +47493,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C32 U0C41
 EndChar
 
 StartChar: U0C31_U0C41.psts
-Encoding: 65528 -1 618
+Encoding: 65999 -1 559
 Width: 1129
 VWidth: 819
 GlyphClass: 2
@@ -48922,7 +47578,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C31 U0C41
 EndChar
 
 StartChar: U0C30_U0C41.psts
-Encoding: 65529 -1 619
+Encoding: 66000 -1 560
 Width: 910
 VWidth: 819
 GlyphClass: 2
@@ -48979,7 +47635,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C30 U0C41
 EndChar
 
 StartChar: U0C2F_U0C41.psts
-Encoding: 65530 -1 620
+Encoding: 66001 -1 561
 Width: 1608
 VWidth: 819
 GlyphClass: 2
@@ -49066,7 +47722,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C2F U0C41
 EndChar
 
 StartChar: U0C2E_U0C41.psts
-Encoding: 65531 -1 621
+Encoding: 66002 -1 562
 Width: 1331
 VWidth: 819
 GlyphClass: 2
@@ -49151,7 +47807,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C2E U0C41
 EndChar
 
 StartChar: U0C1D_U0C41.psts
-Encoding: 65532 -1 622
+Encoding: 66003 -1 563
 Width: 1559
 VWidth: 819
 GlyphClass: 2
@@ -49244,7 +47900,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C1D U0C41
 EndChar
 
 StartChar: U0C18_U0C41.psts
-Encoding: 65533 -1 623
+Encoding: 66004 -1 564
 Width: 1277
 VWidth: 819
 GlyphClass: 2
@@ -49339,7 +47995,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C18 U0C41
 EndChar
 
 StartChar: U0C1E_U0C41.psts
-Encoding: 65534 -1 624
+Encoding: 66005 -1 565
 Width: 1095
 VWidth: 819
 GlyphClass: 2
@@ -49430,7 +48086,7 @@ Ligature2: "'psts' Post Base Substitutions in Telugu lookup 318" U0C1E U0C41
 EndChar
 
 StartChar: U0C2D_U0C41.psts
-Encoding: 65535 -1 625
+Encoding: 66006 -1 566
 Width: 1023
 VWidth: 819
 GlyphClass: 2

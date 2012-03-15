@@ -1,6 +1,8 @@
 				  lohit-tegulu
 Current Version :- 2.5.1
 
+- removed unwanted squarebox characters from wrong unicode points. #803563
+
 * Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - Updated character U0C1D_U0C4D.blwdf, U0C18_U0C4D.blwf and glyph-504
 
