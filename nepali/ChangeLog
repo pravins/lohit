@@ -1,7 +1,9 @@
 				  lohit-nepali
-Current Version :- 2.5.1
+Current Version :- 2.5.1.1
 
+* Thu Mar 22 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1.1
 - corrected u0938 "स" character shape, #799004
+- resolved issues of improper rendering in Nepali locale
 
 * Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - This is fork of Lohit Devanagari specifically for marathi language

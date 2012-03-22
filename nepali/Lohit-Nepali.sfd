@@ -13,14 +13,13 @@ Descent: 205
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 808 1214965479 5361592]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1330670515
+ModificationTime: 1332401586
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -126,7 +125,6 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions in Devanagari lookup 70"  {"'psts'
 Lookup: 4 0 0 "'psts' Post Base Substitutions in Devanagari lookup 71"  {"'psts' Post Base Substitutions in Devanagari lookup 71"  } ['psts' ('deva' <'dflt' > ) ]
 Lookup: 4 0 0 "'rphf' Reph Form in Devanagari lookup 72"  {"'rphf' Reph Form in Devanagari lookup 72"  } ['rphf' ('deva' <'dflt' > ) ]
 Lookup: 4 0 0 "'vatu' Vattu Variants in Devanagari lookup 73"  {"'vatu' Vattu Variants in Devanagari lookup 73"  } ['vatu' ('deva' <'dflt' > ) ]
-Lookup: 4 0 0 "'locl' Localized Forms in Devanagari lookup 85"  {"'locl' Localized Forms in Devanagari lookup 85-1"  } ['locl' ('deva' <'NEP ' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 74"  {"Single Substitution lookup 74"  } []
 Lookup: 1 0 0 "Single Substitution lookup 75"  {"Single Substitution lookup 75"  } []
 Lookup: 1 0 0 "Single Substitution lookup 76"  {"Single Substitution lookup 76"  } []
@@ -905,7 +903,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 24 24 14
+WinInfo: 44 44 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -8051,7 +8049,6 @@ SplineSet
  345 -47 l 1,0,1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Devanagari lookup 47" u091D u094D
 EndChar
 
 StartChar: u091E_u094D.half
@@ -8924,9 +8921,8 @@ SplineSet
  225 88 225 88 321 53 c 1,33,-1
  294 0 l 1,4,5
 EndSplineSet
-Ligature2: "'half' Half Forms in Devanagari lookup 47" mr_la u094D
-LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0932 u094D
+LCarets2: 1 0 
 EndChar
 
 StartChar: u0933_u094D.half
@@ -9114,9 +9110,8 @@ SplineSet
  376 53 l 5,36,-1
  336 0 l 5,12,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Devanagari lookup 47" mr_sha u094D
-LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0936 u094D
+LCarets2: 1 0 
 EndChar
 
 StartChar: u0937_u094D.half
@@ -9156,7 +9151,7 @@ StartChar: u0938_u094D.half
 Encoding: 65588 -1 214
 Width: 523
 GlyphClass: 2
-Flags: HW
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -10680,7 +10675,6 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0915 u0930_u094D.blwf
 EndChar
 
 StartChar: u0916_u0930_u094D.blwf.vatu
@@ -17142,8 +17136,8 @@ SplineSet
  365 606 l 1,45,-1
  365 374 l 1,0,1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0915 u0930_u094D.blwf
 LCarets2: 2 0 0 
-Ligature2: "'locl' Localized Forms in Devanagari lookup 85-1" u0915 u0930 u094D
 EndChar
 
 StartChar: lig_0926_0927_0930_092f
@@ -17303,7 +17297,7 @@ SplineSet
  633.141 460 633.141 460 738 435 c 1,46,-1
  737 374 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Devanagari lookup 47" nepali_jha_091d u094D
+Ligature2: "'half' Half Forms in Devanagari lookup 47" u091D u094D
 EndChar
 
 StartChar: uni0900
