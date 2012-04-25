@@ -4,6 +4,8 @@ Current Version :- 2.5.1
 * Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - improved asterisk glyph
 - added autohint instructions in .conf file
+- improved numbers, patch from Shriramana Sharma <samjnaa@gmail.com>
+- New font Lohit Tamil Classical script
 
 * Wed Sep 21 2011 Pravin Satpute <psatpute@redhat.com> - 2.5.0
 - relicensing to OFL 1.1
