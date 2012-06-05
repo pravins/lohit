@@ -9,6 +9,7 @@ mv Lohit-Gujarati.ttf gujarati/
 mv Lohit-Kannada.ttf kannada/
 mv Lohit-Oriya.ttf oriya/
 mv Lohit-Tamil.ttf tamil/
+mv Lohit-TamilClassical.ttf tamil-classical/
 mv Lohit-Devanagari.ttf devanagari/
 mv Lohit-Marathi.ttf marathi/
 mv Lohit-Nepali.ttf nepali/
