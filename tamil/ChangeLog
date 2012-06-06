@@ -1,6 +1,8 @@
 				  lohit-tamil
 Current Version :- 2.5.1
 
+- updated Zero and Five numeral
+
 * Tue Jun 05 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - improved asterisk glyph
 - added autohint instructions in .conf file

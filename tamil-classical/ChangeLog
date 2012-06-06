@@ -1,6 +1,8 @@
 				  lohit-tamilclassical
 Current Version :- 2.5.1
 
+- updated Zero and Five numeral
+
 * Tue Jun 05 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - First release with the fork of Lohit Tamil with added ligatures specifically for Tamil Classical.
 - Patches from Shriramana Sharma <samjnaa@gmail.com>
