@@ -13,13 +13,14 @@ Descent: 154
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
+NeedsXUIDChange: 1
 XUID: [1021 648 100124046 2710748]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1163146539
-ModificationTime: 1330511354
+ModificationTime: 1341984711
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -364,11 +365,11 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 64 32 13
+WinInfo: 2200 44 17
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Bengali lookup 1" "Anchor-1"  "'abvm' Above Base Mark in Bengali lookup 1" "Anchor-2"  "'blwm' Below Base Mark in Bengali lookup 0" 
-BeginChars: 65869 489
+BeginChars: 65869 487
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -47511,24 +47512,8 @@ EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09B2_u09CD.half u09A7
 EndChar
 
-StartChar: uni09E4
-Encoding: 2532 2532 485
-Width: 769
-VWidth: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni09E5
-Encoding: 2533 2533 486
-Width: 769
-VWidth: 0
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: uni09FB
-Encoding: 2555 2555 487
+Encoding: 2555 2555 485
 Width: 374
 Flags: W
 LayerCount: 2
@@ -47547,7 +47532,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni20B9
-Encoding: 8377 8377 488
+Encoding: 8377 8377 486
 Width: 408
 VWidth: 1024
 Flags: W
