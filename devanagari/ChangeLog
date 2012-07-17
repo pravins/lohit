@@ -2,6 +2,7 @@
 Current Version :- 2.5.1
 
 - corrected u0938 "स" character shape, #799004
+- improved shape of localized marathi sha, patch from Shriramana Sharma
 
 * Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - added U+02BC characters for used in maithili
