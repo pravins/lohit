@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1343296588
+ModificationTime: 1343309662
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -909,12 +909,12 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65376 24 15
+WinInfo: 65208 38 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Devanagari lookup 3" "Anchor-1"  "'abvm' Above Base Mark in Devanagari lookup 2" "Anchor-2"  "'abvm' Above Base Mark in Devanagari lookup 1" "Anchor-3"  "'blwm' Below Base Mark in Devanagari lookup 0" 
-BeginChars: 65728 407
+BeginChars: 65728 406
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -10589,56 +10589,8 @@ LCarets2: 1 0
 Ligature2: "'half' Half Forms in Devanagari lookup 47" u0931 u094D
 EndChar
 
-StartChar: glyph247
-Encoding: 65621 -1 247
-Width: 685
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
--13 606 m 1,0,-1
- -13 666 l 1,1,-1
- 699 666 l 1,2,-1
- 699 606 l 1,3,-1
- 523 606 l 1,4,-1
- 523 459 l 1,5,6
- 574 443 574 443 605.5 382.5 c 128,-1,7
- 637 322 637 322 637 240 c 0,8,9
- 637 176 637 176 596 112 c 128,-1,10
- 555 48 555 48 483 0 c 1,11,-1
- 443 53 l 1,12,13
- 503 93 503 93 536.5 142.5 c 128,-1,14
- 570 192 570 192 570 240 c 0,15,16
- 570 304 570 304 542.5 348.5 c 128,-1,17
- 515 393 515 393 477 393 c 0,18,19
- 437 393 437 393 399.5 342.5 c 128,-1,20
- 362 292 362 292 344 213 c 1,21,-1
- 284 233 l 1,22,23
- 289 257 289 257 297.5 280.5 c 128,-1,24
- 306 304 306 304 317 326 c 1,25,26
- 298 357 298 357 269.5 375 c 128,-1,27
- 241 393 241 393 210 393 c 0,28,29
- 169 393 169 393 140 355.5 c 128,-1,30
- 111 318 111 318 111 266 c 0,31,32
- 111 201 111 201 156 143 c 128,-1,33
- 201 85 201 85 277 53 c 1,34,-1
- 250 0 l 1,35,36
- 157 40 157 40 100.5 112.5 c 128,-1,37
- 44 185 44 185 44 266 c 0,38,39
- 44 346 44 346 92.5 402.5 c 128,-1,40
- 141 459 141 459 210 459 c 0,41,42
- 256 459 256 459 294.5 440 c 128,-1,43
- 333 421 333 421 357 386 c 1,44,45
- 376 414 376 414 401.5 433.5 c 128,-1,46
- 427 453 427 453 457 459 c 1,47,-1
- 457 606 l 1,48,-1
- -13 606 l 1,0,-1
-EndSplineSet
-EndChar
-
 StartChar: u0915_u0930_u094D.blwf.vatu
-Encoding: 65622 -1 248
+Encoding: 65622 -1 247
 Width: 769
 GlyphClass: 2
 Flags: W
@@ -10695,7 +10647,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0915 u0930_u094D.blw
 EndChar
 
 StartChar: u0916_u0930_u094D.blwf.vatu
-Encoding: 65623 -1 249
+Encoding: 65623 -1 248
 Width: 820
 GlyphClass: 2
 Flags: W
@@ -10761,7 +10713,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0916 u0930_u094D.blw
 EndChar
 
 StartChar: u0917_u0930_u094D.blwf.vatu
-Encoding: 65624 -1 250
+Encoding: 65624 -1 249
 Width: 529
 GlyphClass: 2
 Flags: W
@@ -10799,7 +10751,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0917 u0930_u094D.blw
 EndChar
 
 StartChar: u091C_u0930_u094D.blwf.vatu
-Encoding: 65625 -1 251
+Encoding: 65625 -1 250
 Width: 725
 GlyphClass: 2
 Flags: W
@@ -10841,7 +10793,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u091C u0930_u094D.blw
 EndChar
 
 StartChar: u091D_u0930_u094D.blwf.vatu
-Encoding: 65626 -1 252
+Encoding: 65626 -1 251
 Width: 737
 GlyphClass: 2
 Flags: W
@@ -10913,7 +10865,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u091D u0930_u094D.blw
 EndChar
 
 StartChar: u0924_u0930_u094D.blwf.vatu
-Encoding: 65627 -1 253
+Encoding: 65627 -1 252
 Width: 539
 GlyphClass: 2
 Flags: W
@@ -10948,7 +10900,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0924 u0930_u094D.blw
 EndChar
 
 StartChar: u0926_u0930_u094D.blwf.vatu
-Encoding: 65628 -1 254
+Encoding: 65628 -1 253
 Width: 547
 GlyphClass: 2
 Flags: W
@@ -10997,7 +10949,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0926 u0930_u094D.blw
 EndChar
 
 StartChar: u092A_u0930_u094D.blwf.vatu
-Encoding: 65629 -1 255
+Encoding: 65629 -1 254
 Width: 576
 GlyphClass: 2
 Flags: W
@@ -11034,7 +10986,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u092A u0930_u094D.blw
 EndChar
 
 StartChar: u092B_u0930_u094D.blwf.vatu
-Encoding: 65630 -1 256
+Encoding: 65630 -1 255
 Width: 797
 GlyphClass: 2
 Flags: W
@@ -11089,7 +11041,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u092B u0930_u094D.blw
 EndChar
 
 StartChar: u092C_u0930_u094D.blwf.vatu
-Encoding: 65631 -1 257
+Encoding: 65631 -1 256
 Width: 549
 GlyphClass: 2
 Flags: W
@@ -11136,7 +11088,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u092C u0930_u094D.blw
 EndChar
 
 StartChar: u092D_u0930_u094D.blwf.vatu
-Encoding: 65632 -1 258
+Encoding: 65632 -1 257
 Width: 659
 GlyphClass: 2
 Flags: W
@@ -11188,7 +11140,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u092D u0930_u094D.blw
 EndChar
 
 StartChar: u092E_u0930_u094D.blwf.vatu
-Encoding: 65633 -1 259
+Encoding: 65633 -1 258
 Width: 581
 GlyphClass: 2
 Flags: W
@@ -11229,7 +11181,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u092E u0930_u094D.blw
 EndChar
 
 StartChar: u0935_u0930_u094D.blwf.vatu
-Encoding: 65634 -1 260
+Encoding: 65634 -1 259
 Width: 553
 GlyphClass: 2
 Flags: W
@@ -11270,7 +11222,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0935 u0930_u094D.blw
 EndChar
 
 StartChar: u0938_u0930_u094D.blwf.vatu
-Encoding: 65635 -1 261
+Encoding: 65635 -1 260
 Width: 784
 GlyphClass: 2
 Flags: W
@@ -11315,7 +11267,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0938 u0930_u094D.blw
 EndChar
 
 StartChar: u0939_u0930_u094D.blwf.vatu
-Encoding: 65636 -1 262
+Encoding: 65636 -1 261
 Width: 552
 GlyphClass: 2
 Flags: W
@@ -11370,7 +11322,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0939 u0930_u094D.blw
 EndChar
 
 StartChar: glyph263
-Encoding: 65637 -1 263
+Encoding: 65637 -1 262
 Width: 625
 GlyphClass: 2
 Flags: W
@@ -11432,7 +11384,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0936 u0943
 EndChar
 
 StartChar: u0915_u094D.half_u0915.pres
-Encoding: 65638 -1 264
+Encoding: 65638 -1 263
 Width: 777
 GlyphClass: 2
 Flags: W
@@ -11516,7 +11468,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0915_u094D.half_u0924.pres
-Encoding: 65639 -1 265
+Encoding: 65639 -1 264
 Width: 813
 GlyphClass: 2
 Flags: W
@@ -11568,7 +11520,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0915_u094D.h
 EndChar
 
 StartChar: u0915_u094D.half_u0932.pres
-Encoding: 65640 -1 266
+Encoding: 65640 -1 265
 Width: 760
 GlyphClass: 2
 Flags: W
@@ -11650,7 +11602,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0915_u094D.half_u0935.pres
-Encoding: 65641 -1 267
+Encoding: 65641 -1 266
 Width: 764
 GlyphClass: 2
 Flags: W
@@ -11716,7 +11668,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0917_u094D.half_u0928.pres
-Encoding: 65642 -1 268
+Encoding: 65642 -1 267
 Width: 524
 GlyphClass: 2
 Flags: W
@@ -11766,7 +11718,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0917_u094D.h
 EndChar
 
 StartChar: u0919_u094D.half_u0915.pres
-Encoding: 65643 -1 269
+Encoding: 65643 -1 268
 Width: 707
 GlyphClass: 2
 Flags: W
@@ -11864,7 +11816,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0919_u094D.h
 EndChar
 
 StartChar: u0919_u094D.half_u0916.pres
-Encoding: 65644 -1 270
+Encoding: 65644 -1 269
 Width: 712
 GlyphClass: 2
 Flags: W
@@ -11966,7 +11918,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0919_u094D.h
 EndChar
 
 StartChar: u0919_u094D.half_u0917.pres
-Encoding: 65645 -1 271
+Encoding: 65645 -1 270
 Width: 680
 GlyphClass: 2
 Flags: W
@@ -12047,7 +11999,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0919_u094D.h
 EndChar
 
 StartChar: u0919_u094D.half_u0918.pres
-Encoding: 65646 -1 272
+Encoding: 65646 -1 271
 Width: 676
 GlyphClass: 2
 Flags: W
@@ -12138,7 +12090,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0919_u094D.h
 EndChar
 
 StartChar: u0919_u094D.half_u092E.pres
-Encoding: 65647 -1 273
+Encoding: 65647 -1 272
 Width: 708
 GlyphClass: 2
 Flags: W
@@ -12218,7 +12170,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0919_u094D.h
 EndChar
 
 StartChar: u0919_u094D.half_u0915_u094D_u0937.akhn.pres
-Encoding: 65648 -1 274
+Encoding: 65648 -1 273
 Width: 707
 GlyphClass: 2
 Flags: W
@@ -12332,7 +12284,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0919_u094D.h
 EndChar
 
 StartChar: u091A_u094D.half_u091A.pres
-Encoding: 65649 -1 275
+Encoding: 65649 -1 274
 Width: 648
 GlyphClass: 2
 Flags: W
@@ -12384,7 +12336,7 @@ EndSplineSet
 EndChar
 
 StartChar: u091B_u094D.half_u0935.pres
-Encoding: 65650 -1 276
+Encoding: 65650 -1 275
 Width: 668
 GlyphClass: 2
 Flags: W
@@ -12469,7 +12421,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091B_u094D.h
 EndChar
 
 StartChar: u091C_u094D.half_u091C.pres
-Encoding: 65651 -1 277
+Encoding: 65651 -1 276
 Width: 772
 GlyphClass: 2
 Flags: W
@@ -12521,7 +12473,7 @@ EndSplineSet
 EndChar
 
 StartChar: u091E_u094D.half_u091A.pres
-Encoding: 65652 -1 278
+Encoding: 65652 -1 277
 Width: 720
 GlyphClass: 2
 Flags: W
@@ -12581,7 +12533,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091E_u094D.h
 EndChar
 
 StartChar: u091E_u094D.half_u091C.pres
-Encoding: 65653 -1 279
+Encoding: 65653 -1 278
 Width: 720
 GlyphClass: 2
 Flags: W
@@ -12640,7 +12592,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091E_u094D.h
 EndChar
 
 StartChar: u091F_u094D.half_u091F.pres
-Encoding: 65654 -1 280
+Encoding: 65654 -1 279
 Width: 555
 GlyphClass: 2
 Flags: W
@@ -12696,7 +12648,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091F_u094D.h
 EndChar
 
 StartChar: u091F_u094D.half_u0920.pres
-Encoding: 65655 -1 281
+Encoding: 65655 -1 280
 Width: 579
 GlyphClass: 2
 Flags: W
@@ -12757,7 +12709,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091F_u094D.h
 EndChar
 
 StartChar: u091F_u094D.half_u092F.pres
-Encoding: 65656 -1 282
+Encoding: 65656 -1 281
 Width: 1207
 GlyphClass: 2
 Flags: W
@@ -12821,7 +12773,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091F_u094D.h
 EndChar
 
 StartChar: u091F_u094D.half_u0935.pres
-Encoding: 65657 -1 283
+Encoding: 65657 -1 282
 Width: 555
 GlyphClass: 2
 Flags: W
@@ -12881,7 +12833,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091F_u094D.h
 EndChar
 
 StartChar: u0920_u094D.half_u0920.pres
-Encoding: 65658 -1 284
+Encoding: 65658 -1 283
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -12949,7 +12901,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0920_u094D.h
 EndChar
 
 StartChar: u0920_u094D.half_u092F.pres
-Encoding: 65659 -1 285
+Encoding: 65659 -1 284
 Width: 1222
 GlyphClass: 2
 Flags: W
@@ -13016,7 +12968,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0920_u094D.h
 EndChar
 
 StartChar: u0921_u094D.half_u0921.pres
-Encoding: 65660 -1 286
+Encoding: 65660 -1 285
 Width: 644
 GlyphClass: 2
 Flags: W
@@ -13092,7 +13044,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0921_u094D.h
 EndChar
 
 StartChar: u0921_u094D.half_u0922.pres
-Encoding: 65661 -1 287
+Encoding: 65661 -1 286
 Width: 628
 GlyphClass: 2
 Flags: W
@@ -13171,7 +13123,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0921_u094D.h
 EndChar
 
 StartChar: u0921_u094D.half_u092F.pres
-Encoding: 65662 -1 288
+Encoding: 65662 -1 287
 Width: 1222
 GlyphClass: 2
 Flags: W
@@ -13245,7 +13197,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0921_u094D.h
 EndChar
 
 StartChar: u0922_u094D.half_u0922.pres
-Encoding: 65663 -1 289
+Encoding: 65663 -1 288
 Width: 596
 GlyphClass: 2
 Flags: W
@@ -13324,7 +13276,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0922_u094D.h
 EndChar
 
 StartChar: u0922_u094D.half_u092F.pres
-Encoding: 65664 -1 290
+Encoding: 65664 -1 289
 Width: 1202
 GlyphClass: 2
 Flags: W
@@ -13400,7 +13352,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0922_u094D.h
 EndChar
 
 StartChar: u0926_u094D.half_u0917.pres
-Encoding: 65665 -1 291
+Encoding: 65665 -1 290
 Width: 539
 GlyphClass: 2
 Flags: W
@@ -13460,7 +13412,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0926_u094D.half_u0918.pres
-Encoding: 65666 -1 292
+Encoding: 65666 -1 291
 Width: 665
 GlyphClass: 2
 Flags: W
@@ -13535,7 +13487,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.h
 EndChar
 
 StartChar: u0926_u094D.half_u0926.pres
-Encoding: 65667 -1 293
+Encoding: 65667 -1 292
 Width: 557
 GlyphClass: 2
 Flags: W
@@ -13593,7 +13545,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.h
 EndChar
 
 StartChar: u0926_u094D.half_u0927.pres
-Encoding: 65668 -1 294
+Encoding: 65668 -1 293
 Width: 732
 GlyphClass: 2
 Flags: W
@@ -13670,7 +13622,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.h
 EndChar
 
 StartChar: u0926_u094D.half_u0928.pres
-Encoding: 65669 -1 295
+Encoding: 65669 -1 294
 Width: 575
 GlyphClass: 2
 Flags: W
@@ -13724,7 +13676,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0926_u094D.half_u092C.pres
-Encoding: 65670 -1 296
+Encoding: 65670 -1 295
 Width: 549
 GlyphClass: 2
 Flags: W
@@ -13791,7 +13743,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.h
 EndChar
 
 StartChar: u0926_u094D.half_u092D.pres
-Encoding: 65671 -1 297
+Encoding: 65671 -1 296
 Width: 617
 GlyphClass: 2
 Flags: W
@@ -13862,7 +13814,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.h
 EndChar
 
 StartChar: u0926_u094D.half_u092E.pres
-Encoding: 65672 -1 298
+Encoding: 65672 -1 297
 Width: 713
 GlyphClass: 2
 Flags: W
@@ -13913,7 +13865,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.h
 EndChar
 
 StartChar: u0926_u094D.half_u092F.pres
-Encoding: 65673 -1 299
+Encoding: 65673 -1 298
 Width: 715
 GlyphClass: 2
 Flags: W
@@ -13966,7 +13918,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.h
 EndChar
 
 StartChar: u0926_u094D.half_u0935.pres
-Encoding: 65674 -1 300
+Encoding: 65674 -1 299
 Width: 559
 GlyphClass: 2
 Flags: W
@@ -14028,7 +13980,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0926_u094D.h
 EndChar
 
 StartChar: u0928_u094D.half_u0928.pres
-Encoding: 65675 -1 301
+Encoding: 65675 -1 300
 Width: 663
 GlyphClass: 2
 Flags: W
@@ -14082,7 +14034,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0928_u094D.h
 EndChar
 
 StartChar: u092A_u094D.half_u0924.pres
-Encoding: 65676 -1 302
+Encoding: 65676 -1 301
 Width: 569
 GlyphClass: 2
 Flags: W
@@ -14124,7 +14076,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u092A_u094D.h
 EndChar
 
 StartChar: u092A_u094D.half_u0932.pres
-Encoding: 65677 -1 303
+Encoding: 65677 -1 302
 Width: 601
 GlyphClass: 2
 Flags: W
@@ -14185,7 +14137,7 @@ EndSplineSet
 EndChar
 
 StartChar: u092B_u094D.half_u0932.pres
-Encoding: 65678 -1 304
+Encoding: 65678 -1 303
 Width: 776
 GlyphClass: 2
 Flags: W
@@ -14262,7 +14214,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0932_u094D.half_u0932.pres
-Encoding: 65679 -1 305
+Encoding: 65679 -1 304
 Width: 736
 GlyphClass: 2
 Flags: W
@@ -14327,7 +14279,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0932_u094D.h
 EndChar
 
 StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu_u091A.pres
-Encoding: 65680 -1 306
+Encoding: 65680 -1 305
 Width: 625
 GlyphClass: 2
 Flags: W
@@ -14391,7 +14343,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0936_u094D.h
 EndChar
 
 StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu_u0928.pres
-Encoding: 65681 -1 307
+Encoding: 65681 -1 306
 Width: 627
 GlyphClass: 2
 Flags: W
@@ -14454,7 +14406,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0936_u094D.h
 EndChar
 
 StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu_u0932.pres
-Encoding: 65682 -1 308
+Encoding: 65682 -1 307
 Width: 912
 GlyphClass: 2
 Flags: W
@@ -14520,7 +14472,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0936_u094D.h
 EndChar
 
 StartChar: u0936_u094D.half_u0930_u094D.blwf.vatu_u0935.pres
-Encoding: 65683 -1 309
+Encoding: 65683 -1 308
 Width: 624
 GlyphClass: 2
 Flags: W
@@ -14584,7 +14536,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0936_u094D.h
 EndChar
 
 StartChar: u0937_u094D.half_u091F.pres
-Encoding: 65684 -1 310
+Encoding: 65684 -1 309
 Width: 555
 GlyphClass: 2
 Flags: W
@@ -14632,7 +14584,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0937_u094D.h
 EndChar
 
 StartChar: u0937_u094D.half_u0920.pres
-Encoding: 65685 -1 311
+Encoding: 65685 -1 310
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -14684,7 +14636,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0937_u094D.h
 EndChar
 
 StartChar: u0939_u094D.half_u0923.pres
-Encoding: 65686 -1 312
+Encoding: 65686 -1 311
 Width: 720
 GlyphClass: 2
 Flags: W
@@ -14751,7 +14703,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0939_u094D.h
 EndChar
 
 StartChar: u0939_u094D.half_u0928.pres
-Encoding: 65687 -1 313
+Encoding: 65687 -1 312
 Width: 620
 GlyphClass: 2
 Flags: W
@@ -14814,7 +14766,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0939_u094D.h
 EndChar
 
 StartChar: u0939_u094D.half_u092E.pres
-Encoding: 65688 -1 314
+Encoding: 65688 -1 313
 Width: 740
 GlyphClass: 2
 Flags: W
@@ -14882,7 +14834,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0939_u094D.h
 EndChar
 
 StartChar: u0939_u094D.half_u092F.pres
-Encoding: 65689 -1 315
+Encoding: 65689 -1 314
 Width: 797
 GlyphClass: 2
 Flags: W
@@ -14948,7 +14900,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0939_u094D.h
 EndChar
 
 StartChar: u0939_u094D.half_u0932.pres
-Encoding: 65690 -1 316
+Encoding: 65690 -1 315
 Width: 647
 GlyphClass: 2
 Flags: W
@@ -15018,7 +14970,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0939_u094D.h
 EndChar
 
 StartChar: u0939_u094D.half_u0935.pres
-Encoding: 65691 -1 317
+Encoding: 65691 -1 316
 Width: 576
 GlyphClass: 2
 Flags: W
@@ -15087,7 +15039,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0939_u094D.h
 EndChar
 
 StartChar: u0938_u094D.half_u0924_u0930_u094D.blwf.vatu.pres
-Encoding: 65692 -1 318
+Encoding: 65692 -1 317
 Width: 924
 GlyphClass: 2
 Flags: W
@@ -15144,7 +15096,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u0938_u094D.h
 EndChar
 
 StartChar: u091C_u094D.half_u091C_u094D.half.pres
-Encoding: 65693 -1 319
+Encoding: 65693 -1 318
 Width: 506
 GlyphClass: 2
 Flags: W
@@ -15196,7 +15148,7 @@ Ligature2: "'pres' Pre Base Substitutions in Devanagari lookup 57" u091C_u094D.h
 EndChar
 
 StartChar: u0926_u0943.blws
-Encoding: 65694 -1 320
+Encoding: 65694 -1 319
 Width: 552
 GlyphClass: 2
 Flags: W
@@ -15252,7 +15204,7 @@ Ligature2: "'blws' Below Base Substitutions in Devanagari lookup 46" u0926 u0943
 EndChar
 
 StartChar: u0930_u0941.psts
-Encoding: 65695 -1 321
+Encoding: 65695 -1 320
 Width: 639
 GlyphClass: 2
 Flags: W
@@ -15300,7 +15252,7 @@ Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 71" u0930 u0941
 EndChar
 
 StartChar: u0930_u0942.psts
-Encoding: 65696 -1 322
+Encoding: 65696 -1 321
 Width: 760
 GlyphClass: 2
 Flags: W
@@ -15356,7 +15308,7 @@ Ligature2: "'psts' Post Base Substitutions in Devanagari lookup 71" u0930 u0942
 EndChar
 
 StartChar: u0939_u0943.blws
-Encoding: 65697 -1 323
+Encoding: 65697 -1 322
 Width: 547
 GlyphClass: 2
 Flags: W
@@ -15419,7 +15371,7 @@ Ligature2: "'blws' Below Base Substitutions in Devanagari lookup 46" u0939 u0943
 EndChar
 
 StartChar: glyph324
-Encoding: 65698 -1 324
+Encoding: 65698 -1 323
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -15443,7 +15395,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0918_u0930_u094D.blwf.vatu
-Encoding: 65699 -1 325
+Encoding: 65699 -1 324
 Width: 644
 GlyphClass: 2
 Flags: W
@@ -15492,7 +15444,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0918 u0930_u094D.blw
 EndChar
 
 StartChar: u091A_u0930_u094D.blwf.vatu
-Encoding: 65700 -1 326
+Encoding: 65700 -1 325
 Width: 637
 GlyphClass: 2
 Flags: W
@@ -15533,7 +15485,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u091A u0930_u094D.blw
 EndChar
 
 StartChar: u0925_u0930_u094D.blwf.vatu
-Encoding: 65701 -1 327
+Encoding: 65701 -1 326
 Width: 692
 GlyphClass: 2
 Flags: W
@@ -15584,7 +15536,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0925 u0930_u094D.blw
 EndChar
 
 StartChar: u0927_u0930_u094D.blwf.vatu
-Encoding: 65702 -1 328
+Encoding: 65702 -1 327
 Width: 653
 GlyphClass: 2
 Flags: W
@@ -15642,7 +15594,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0927 u0930_u094D.blw
 EndChar
 
 StartChar: u0928_u0930_u094D.blwf.vatu
-Encoding: 65703 -1 329
+Encoding: 65703 -1 328
 Width: 593
 GlyphClass: 2
 Flags: W
@@ -15680,7 +15632,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0928 u0930_u094D.blw
 EndChar
 
 StartChar: u0932_u0930_u094D.blwf.vatu
-Encoding: 65704 -1 330
+Encoding: 65704 -1 329
 Width: 731
 GlyphClass: 2
 Flags: W
@@ -15728,7 +15680,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0932 u0930_u094D.blw
 EndChar
 
 StartChar: u0919_u094D.half_u0915_u094D.half.half
-Encoding: 65705 -1 331
+Encoding: 65705 -1 330
 Width: 704
 GlyphClass: 2
 Flags: W
@@ -15816,7 +15768,7 @@ Ligature2: "'half' Half Forms in Devanagari lookup 47" u0919_u094D.half u0915_u0
 EndChar
 
 StartChar: u094B_u0902.abvs
-Encoding: 65706 -1 332
+Encoding: 65706 -1 331
 Width: 266
 GlyphClass: 2
 Flags: W
@@ -15847,7 +15799,7 @@ Ligature2: "'abvs' Above Base Substitutions in Devanagari lookup 0" u094B u0902
 EndChar
 
 StartChar: u094B_u0930_u094D.rphf.abvs
-Encoding: 65707 -1 333
+Encoding: 65707 -1 332
 Width: 266
 GlyphClass: 2
 Flags: W
@@ -15886,7 +15838,7 @@ PairPos2: "'abvm' Above Base Mark in Devanagari lookup 4" u0902 dx=0 dy=0 dh=0 d
 EndChar
 
 StartChar: u094B_u0930_u094D.rphf.abvs_u0902.abvs
-Encoding: 65708 -1 334
+Encoding: 65708 -1 333
 Width: 266
 GlyphClass: 2
 Flags: W
@@ -15929,7 +15881,7 @@ Ligature2: "'abvs' Above Base Substitutions in Devanagari lookup 0" u094B_u0930_
 EndChar
 
 StartChar: u094C_u0902.abvs
-Encoding: 65709 -1 335
+Encoding: 65709 -1 334
 Width: 266
 GlyphClass: 2
 Flags: W
@@ -15963,7 +15915,7 @@ Ligature2: "'abvs' Above Base Substitutions in Devanagari lookup 0" u094C u0902
 EndChar
 
 StartChar: u094C_u0930_u094D.rphf.abvs
-Encoding: 65710 -1 336
+Encoding: 65710 -1 335
 Width: 266
 GlyphClass: 2
 Flags: W
@@ -16003,7 +15955,7 @@ PairPos2: "'abvm' Above Base Mark in Devanagari lookup 4" u0902 dx=0 dy=0 dh=0 d
 EndChar
 
 StartChar: u094C_u0930_u094D.rphf.abvs_u0902.abvs
-Encoding: 65711 -1 337
+Encoding: 65711 -1 336
 Width: 266
 GlyphClass: 2
 Flags: W
@@ -16047,7 +15999,7 @@ Ligature2: "'abvs' Above Base Substitutions in Devanagari lookup 0" u094C_u0930_
 EndChar
 
 StartChar: u091E_u0930_u094D.blwf.vatu
-Encoding: 65712 -1 338
+Encoding: 65712 -1 337
 Width: 737
 GlyphClass: 2
 Flags: W
@@ -16100,7 +16052,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u091E u0930_u094D.blw
 EndChar
 
 StartChar: u0923_u0930_u094D.blwf.vatu
-Encoding: 65713 -1 339
+Encoding: 65713 -1 338
 Width: 669
 GlyphClass: 2
 Flags: W
@@ -16141,7 +16093,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0923 u0930_u094D.blw
 EndChar
 
 StartChar: u092F_u0930_u094D.blwf.vatu
-Encoding: 65714 -1 340
+Encoding: 65714 -1 339
 Width: 599
 GlyphClass: 2
 Flags: W
@@ -16183,7 +16135,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u092F u0930_u094D.blw
 EndChar
 
 StartChar: u0937_u0930_u094D.blwf.vatu
-Encoding: 65715 -1 341
+Encoding: 65715 -1 340
 Width: 553
 GlyphClass: 2
 Flags: W
@@ -16225,7 +16177,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0937 u0930_u094D.blw
 EndChar
 
 StartChar: u0915_u094D_u0937.akhn_u0930_u094D.blwf.vatu
-Encoding: 65716 -1 342
+Encoding: 65716 -1 341
 Width: 657
 GlyphClass: 2
 Flags: W
@@ -16296,7 +16248,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0915_u094D_u0937.akh
 EndChar
 
 StartChar: u091C_u094D_u091E.akhn_u0930_u094D.blwf.vatu
-Encoding: 65717 -1 343
+Encoding: 65717 -1 342
 Width: 711
 GlyphClass: 2
 Flags: W
@@ -16360,7 +16312,7 @@ Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u091C_u094D_u091E.akh
 EndChar
 
 StartChar: uni097B
-Encoding: 2427 2427 344
+Encoding: 2427 2427 343
 Width: 517
 Flags: W
 AnchorPoint: "Anchor-0" 390 663 basechar 0
@@ -16395,7 +16347,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni097C
-Encoding: 2428 2428 345
+Encoding: 2428 2428 344
 Width: 728
 Flags: W
 AnchorPoint: "Anchor-0" 596 666 basechar 0
@@ -16436,7 +16388,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni097D
-Encoding: 2429 2429 346
+Encoding: 2429 2429 345
 Width: 631
 Flags: W
 LayerCount: 2
@@ -16460,7 +16412,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni097E
-Encoding: 2430 2430 347
+Encoding: 2430 2430 346
 Width: 717
 Flags: W
 AnchorPoint: "Anchor-0" 497 666 basechar 0
@@ -16511,7 +16463,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni097F
-Encoding: 2431 2431 348
+Encoding: 2431 2431 347
 Width: 537
 Flags: W
 AnchorPoint: "Anchor-0" 406 665 basechar 0
@@ -16558,7 +16510,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0904
-Encoding: 2308 2308 349
+Encoding: 2308 2308 348
 Width: 768
 Flags: W
 LayerCount: 2
@@ -16625,7 +16577,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0972
-Encoding: 2418 2418 350
+Encoding: 2418 2418 349
 Width: 768
 Flags: W
 AnchorPoint: "Anchor-0" 636 664 basechar 0
@@ -16694,7 +16646,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0971
-Encoding: 2417 2417 351
+Encoding: 2417 2417 350
 Width: 180
 Flags: W
 LayerCount: 2
@@ -16709,7 +16661,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni20B9
-Encoding: 8377 8377 352
+Encoding: 8377 8377 351
 Width: 609
 Flags: W
 LayerCount: 2
@@ -16741,7 +16693,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0956
-Encoding: 2390 2390 353
+Encoding: 2390 2390 352
 Width: 0
 Flags: W
 AnchorPoint: "Anchor-3" -259 -1 mark 0
@@ -16763,7 +16715,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0957
-Encoding: 2391 2391 354
+Encoding: 2391 2391 353
 Width: 0
 Flags: W
 AnchorPoint: "Anchor-3" -265 0 mark 0
@@ -16796,7 +16748,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0976
-Encoding: 2422 2422 355
+Encoding: 2422 2422 354
 Width: 768
 Flags: W
 AnchorPoint: "Anchor-3" 640 711 basechar 0
@@ -16865,7 +16817,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0977
-Encoding: 2423 2423 356
+Encoding: 2423 2423 355
 Width: 768
 Flags: W
 AnchorPoint: "Anchor-3" 640 711 basechar 0
@@ -16945,7 +16897,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0973
-Encoding: 2419 2419 357
+Encoding: 2419 2419 356
 Width: 768
 Flags: W
 AnchorPoint: "Anchor-0" 636 664 basechar 0
@@ -17007,7 +16959,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0974
-Encoding: 2420 2420 358
+Encoding: 2420 2420 357
 Width: 1042
 Flags: W
 LayerCount: 2
@@ -17072,7 +17024,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni093A
-Encoding: 2362 2362 359
+Encoding: 2362 2362 358
 Width: 0
 Flags: W
 AnchorPoint: "Anchor-0" -133 666 mark 0
@@ -17088,7 +17040,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni093B
-Encoding: 2363 2363 360
+Encoding: 2363 2363 359
 Width: 266
 Flags: W
 LayerCount: 2
@@ -17111,10 +17063,10 @@ EndSplineSet
 EndChar
 
 StartChar: npu0915_u0930_u094D.blwf.vatu
-Encoding: 65718 -1 361
+Encoding: 65718 -1 360
 Width: 771
 GlyphClass: 3
-Flags: HW
+Flags: W
 AnchorPoint: "Anchor-3" 394 31 basechar 0
 AnchorPoint: "Anchor-0" 396.5 666.22 basechar 0
 LayerCount: 2
@@ -17201,7 +17153,7 @@ Ligature2: "'locl' Localized Forms in Devanagari lookup 85-1" u0915 u0930 u094D
 EndChar
 
 StartChar: np8
-Encoding: 65719 -1 362
+Encoding: 65719 -1 361
 Width: 664
 GlyphClass: 2
 Flags: W
@@ -17232,7 +17184,7 @@ EndSplineSet
 EndChar
 
 StartChar: np5
-Encoding: 65720 -1 363
+Encoding: 65720 -1 362
 Width: 665
 GlyphClass: 2
 Flags: W
@@ -17277,7 +17229,7 @@ EndSplineSet
 EndChar
 
 StartChar: np_zha
-Encoding: 65721 -1 364
+Encoding: 65721 -1 363
 Width: 799
 VWidth: 2048
 GlyphClass: 2
@@ -17334,7 +17286,7 @@ EndSplineSet
 EndChar
 
 StartChar: lig_0926_0927_0930_092f
-Encoding: 65722 -1 365
+Encoding: 65722 -1 364
 Width: 1284
 GlyphClass: 3
 Flags: W
@@ -17443,7 +17395,7 @@ Ligature2: "'akhn' Akhand in Devanagari lookup 1" u0926 u094D u0927 u094D u0930 
 EndChar
 
 StartChar: nepali_jha_091d
-Encoding: 65723 -1 366
+Encoding: 65723 -1 365
 Width: 913
 GlyphClass: 2
 Flags: W
@@ -17504,7 +17456,7 @@ EndSplineSet
 EndChar
 
 StartChar: nepali_jha_half
-Encoding: 65724 -1 367
+Encoding: 65724 -1 366
 Width: 702
 Flags: W
 AnchorPoint: "Anchor-0" 526 664 basechar 0
@@ -17555,7 +17507,7 @@ Ligature2: "'half' Half Forms in Devanagari lookup 47" nepali_jha_091d u094D
 EndChar
 
 StartChar: uni0900
-Encoding: 2304 2304 368
+Encoding: 2304 2304 367
 Width: 0
 Flags: W
 AnchorPoint: "Anchor-0" -120 666 mark 0
@@ -17584,7 +17536,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni094E
-Encoding: 2382 2382 369
+Encoding: 2382 2382 368
 Width: 266
 VWidth: 0
 Flags: W
@@ -17602,7 +17554,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni094F
-Encoding: 2383 2383 370
+Encoding: 2383 2383 369
 Width: 266
 VWidth: 0
 Flags: W
@@ -17645,7 +17597,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0955
-Encoding: 2389 2389 371
+Encoding: 2389 2389 370
 Width: 0
 VWidth: 0
 Flags: W
@@ -17675,7 +17627,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0975
-Encoding: 2421 2421 372
+Encoding: 2421 2421 371
 Width: 1042
 VWidth: 0
 Flags: W
@@ -17757,7 +17709,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0979
-Encoding: 2425 2425 373
+Encoding: 2425 2425 372
 Width: 728
 VWidth: 0
 Flags: W
@@ -17808,7 +17760,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni097A
-Encoding: 2426 2426 374
+Encoding: 2426 2426 373
 Width: 596
 VWidth: 0
 Flags: W
@@ -17852,7 +17804,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8F2
-Encoding: 43250 43250 375
+Encoding: 43250 43250 374
 Width: 632
 Flags: W
 LayerCount: 2
@@ -17878,7 +17830,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8F3
-Encoding: 43251 43251 376
+Encoding: 43251 43251 375
 Width: 632
 Flags: W
 LayerCount: 2
@@ -17911,7 +17863,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8F4
-Encoding: 43252 43252 377
+Encoding: 43252 43252 376
 Width: 632
 Flags: W
 LayerCount: 2
@@ -17960,7 +17912,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8F5
-Encoding: 43253 43253 378
+Encoding: 43253 43253 377
 Width: 654
 Flags: W
 LayerCount: 2
@@ -18017,7 +17969,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8F6
-Encoding: 43254 43254 379
+Encoding: 43254 43254 378
 Width: 650
 Flags: W
 LayerCount: 2
@@ -18091,7 +18043,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8F7
-Encoding: 43255 43255 380
+Encoding: 43255 43255 379
 Width: 626
 Flags: W
 LayerCount: 2
@@ -18144,7 +18096,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8F8
-Encoding: 43256 43256 381
+Encoding: 43256 43256 380
 Width: 709
 Flags: W
 AnchorPoint: "Anchor-3" 324.218 55.55 basechar 0
@@ -18197,7 +18149,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8F9
-Encoding: 43257 43257 382
+Encoding: 43257 43257 381
 Width: 709
 Flags: W
 AnchorPoint: "Anchor-0" 529.218 667.55 basechar 0
@@ -18239,7 +18191,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8FA
-Encoding: 43258 43258 383
+Encoding: 43258 43258 382
 Width: 615
 Flags: W
 LayerCount: 2
@@ -18257,7 +18209,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8FB
-Encoding: 43259 43259 384
+Encoding: 43259 43259 383
 Width: 621
 Flags: W
 LayerCount: 2
@@ -18272,7 +18224,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii57929
-Encoding: 700 700 385
+Encoding: 700 700 384
 Width: 314
 VWidth: 2048
 GlyphClass: 4
@@ -18296,7 +18248,7 @@ EndSplineSet
 EndChar
 
 StartChar: mr_la
-Encoding: 65725 -1 386
+Encoding: 65725 -1 385
 Width: 807
 Flags: W
 AnchorPoint: "Anchor-0" 597 664 basechar 0
@@ -18344,7 +18296,7 @@ EndSplineSet
 EndChar
 
 StartChar: mr_sha
-Encoding: 65726 -1 387
+Encoding: 65726 -1 386
 Width: 676
 Flags: W
 AnchorPoint: "Anchor-0" 545.5 663.151 basechar 0
@@ -18390,7 +18342,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8E0
-Encoding: 43232 43232 388
+Encoding: 43232 43232 387
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -127.242 721.256 mark 0
@@ -18419,7 +18371,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8E1
-Encoding: 43233 43233 389
+Encoding: 43233 43233 388
 Width: 0
 Flags: W
 AnchorPoint: "Anchor-0" -137.242 681.256 mark 0
@@ -18451,7 +18403,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8E2
-Encoding: 43234 43234 390
+Encoding: 43234 43234 389
 Width: 0
 VWidth: 0
 Flags: W
@@ -18490,7 +18442,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8E3
-Encoding: 43235 43235 391
+Encoding: 43235 43235 390
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -147.242 671.256 mark 0
@@ -18541,7 +18493,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8E4
-Encoding: 43236 43236 392
+Encoding: 43236 43236 391
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -130.242 681.256 mark 0
@@ -18592,7 +18544,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8E5
-Encoding: 43237 43237 393
+Encoding: 43237 43237 392
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -137.242 681.256 mark 0
@@ -18641,7 +18593,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8E6
-Encoding: 43238 43238 394
+Encoding: 43238 43238 393
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -137.242 679.256 mark 0
@@ -18692,7 +18644,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8E7
-Encoding: 43239 43239 395
+Encoding: 43239 43239 394
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -137.242 681.256 mark 0
@@ -18734,7 +18686,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8E8
-Encoding: 43240 43240 396
+Encoding: 43240 43240 395
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -137.242 681.256 mark 0
@@ -18764,7 +18716,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8E9
-Encoding: 43241 43241 397
+Encoding: 43241 43241 396
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -137.242 674.256 mark 0
@@ -18808,7 +18760,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8EA
-Encoding: 43242 43242 398
+Encoding: 43242 43242 397
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -137.242 681.256 mark 0
@@ -18872,7 +18824,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8EB
-Encoding: 43243 43243 399
+Encoding: 43243 43243 398
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -137.242 681.256 mark 0
@@ -18915,7 +18867,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8EC
-Encoding: 43244 43244 400
+Encoding: 43244 43244 399
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -131.242 681.256 mark 0
@@ -18971,7 +18923,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8ED
-Encoding: 43245 43245 401
+Encoding: 43245 43245 400
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -137.242 681.256 mark 0
@@ -19003,7 +18955,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8EE
-Encoding: 43246 43246 402
+Encoding: 43246 43246 401
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -137.242 681.256 mark 0
@@ -19036,7 +18988,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8EF
-Encoding: 43247 43247 403
+Encoding: 43247 43247 402
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -137.242 681.256 mark 0
@@ -19073,7 +19025,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8F0
-Encoding: 43248 43248 404
+Encoding: 43248 43248 403
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -137.242 681.256 mark 0
@@ -19133,7 +19085,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA8F1
-Encoding: 43249 43249 405
+Encoding: 43249 43249 404
 Width: 0
 VWidth: 0
 AnchorPoint: "Anchor-0" -137.242 681.256 mark 0
@@ -19171,7 +19123,7 @@ EndSplineSet
 EndChar
 
 StartChar: mr_sha_half
-Encoding: 65727 -1 406
+Encoding: 65727 -1 405
 Width: 444
 Flags: W
 LayerCount: 2
