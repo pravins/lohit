@@ -13,14 +13,13 @@ Descent: 374
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 761 1808917587 3643938]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159524182
-ModificationTime: 1331029848
+ModificationTime: 1342768874
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -346,12 +345,13 @@ EndShort
 LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Malayalam : 19-7-2006" "" "Version 2.5.1" 
 GaspTable: 1 65535 2
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 3268 38 14
+WinInfo: 0 38 14
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "anchor-1"  "'abvm' Above Base Mark lookup 0-1" 
@@ -1690,7 +1690,7 @@ Encoding: 3349 3349 21
 Width: 1015
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 510 610 basechar 0
+AnchorPoint: "anchor-1" 510 659 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2526,7 +2526,7 @@ Encoding: 3363 3363 35
 Width: 1290
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 690 610 basechar 0
+AnchorPoint: "anchor-1" 690 660 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11001,6 +11001,7 @@ Encoding: 65626 -1 173
 Width: 910
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 519 619.3 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11081,6 +11082,7 @@ SplineSet
  268 -203 l 1,97,-1
  268 -203 l 1,49,50
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D17 U0D4D U0D17
 EndChar
 
@@ -19955,7 +19957,7 @@ EndChar
 StartChar: uni0D3A
 Encoding: 3386 3386 303
 Width: 914
-Flags: HW
+Flags: W
 AnchorPoint: "anchor-1" 460 610 basechar 0
 LayerCount: 2
 Fore
@@ -19977,7 +19979,8 @@ EndChar
 StartChar: uni0D4E
 Encoding: 3406 3406 304
 Width: 0
-Flags: W
+Flags: HW
+AnchorPoint: "anchor-1" 466 700 mark 0
 LayerCount: 2
 Fore
 SplineSet

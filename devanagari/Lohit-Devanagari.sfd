@@ -908,12 +908,12 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 2112 44 17
+WinInfo: 64988 44 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Devanagari lookup 3" "Anchor-1"  "'abvm' Above Base Mark in Devanagari lookup 2" "Anchor-2"  "'abvm' Above Base Mark in Devanagari lookup 1" "Anchor-3"  "'blwm' Below Base Mark in Devanagari lookup 0" 
-BeginChars: 65727 407
+BeginChars: 65728 407
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -17463,7 +17463,7 @@ EndSplineSet
 EndChar
 
 StartChar: nepali_jha_half
-Encoding: 65533 65533 367
+Encoding: 65724 -1 367
 Width: 702
 Flags: W
 AnchorPoint: "Anchor-0" 526 664 basechar 0
@@ -18255,7 +18255,7 @@ EndSplineSet
 EndChar
 
 StartChar: mr_la
-Encoding: 65724 -1 386
+Encoding: 65725 -1 386
 Width: 807
 Flags: W
 AnchorPoint: "Anchor-0" 597 664 basechar 0
@@ -18303,7 +18303,7 @@ EndSplineSet
 EndChar
 
 StartChar: mr_sha
-Encoding: 65725 -1 387
+Encoding: 65726 -1 387
 Width: 676
 Flags: W
 AnchorPoint: "Anchor-0" 545.5 663.151 basechar 0
@@ -19130,7 +19130,7 @@ EndSplineSet
 EndChar
 
 StartChar: mr_sha_half
-Encoding: 65726 -1 406
+Encoding: 65727 -1 406
 Width: 444
 Flags: W
 LayerCount: 2
