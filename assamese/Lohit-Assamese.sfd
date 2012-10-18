@@ -13,14 +13,13 @@ Descent: 154
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 648 100124046 2710748]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1163146539
-ModificationTime: 1341984711
+ModificationTime: 1350549894
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -365,7 +364,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 2200 44 17
+WinInfo: 0 38 14
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Bengali lookup 1" "Anchor-1"  "'abvm' Above Base Mark in Bengali lookup 1" "Anchor-2"  "'blwm' Below Base Mark in Bengali lookup 0" 
@@ -17261,7 +17260,7 @@ SplineSet
  136 60 136 60 144 60 c 1,100,-1
  144 60 l 1,89,90
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099A_u09CD.half u099B u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099A_u09CD.half u099B_u09AC_u09CD.blwf.blws
 EndChar
 
 StartChar: u099A_u09CD.half_u099E.pres
@@ -18160,7 +18159,7 @@ SplineSet
  685 -10 685 -10 713 -30 c 1,126,-1
  713 -30 l 1,117,118
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099C_u09CD.half u099C u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u099C_u09CD.half u099C_u09AC_u09CD.blwf.blws
 EndChar
 
 StartChar: u099C_u09CD.half_u099D.pres
@@ -22386,7 +22385,7 @@ SplineSet
  -10 465 l 1,80,-1
  -10 465 l 1,76,-1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A4_u09CD.half u09A4 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A4_u09CD.half u09A4_u09AC_u09CD.blwf.blws
 EndChar
 
 StartChar: u09A4_u09CD.half_u09A5.pres
@@ -24131,7 +24130,7 @@ SplineSet
  460 -36 460 -36 495 -65 c 1,56,-1
  495 -65 l 1,47,48
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u09A6 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u09A6_u09AC_u09CD.blwf.blws
 EndChar
 
 StartChar: u09A6_u09CD.half_u09A7.pres
@@ -24335,7 +24334,7 @@ SplineSet
  327 140 327 140 345 115 c 1,73,-1
  345 115 l 1,66,-1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u09A7 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A6_u09CD.half u09A7_u09AC_u09CD.blwf.blws
 EndChar
 
 StartChar: u09A6_u09CD.half_u09A8.pres
@@ -26891,7 +26890,7 @@ SplineSet
  280 -132 280 -132 304 -160 c 1,92,-1
  304 -160 l 1,85,-1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A4 u09AC_u09CD.blwf
+Ligature2: "'pres' Pre Base Substitutions in Bengali lookup 7" u09A8_u09CD.half u09A4_u09AC_u09CD.blwf.blws
 EndChar
 
 StartChar: u09A8_u09CD.half_u09A5.pres
