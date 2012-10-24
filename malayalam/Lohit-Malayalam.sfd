@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159524182
-ModificationTime: 1351109571
+ModificationTime: 1351112158
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -10837,8 +10837,7 @@ SplineSet
  40 201 40 201 40 269 c 1,54,-1
  40 269 l 1,18,19
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D31_U0D4D.half U0D31
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D31 U0D4D U0D31
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D31 U0D31 U0D4D
 EndChar
 
 StartChar: glyph167
@@ -13642,6 +13641,7 @@ SplineSet
  42 201 42 201 42 293 c 1,104,-1
  42 293 l 1,13,14
 EndSplineSet
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D28 U0D31 U0D4D
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D28_U0D4D.half U0D31
 EndChar
 
@@ -13738,7 +13738,7 @@ SplineSet
  389 52 389 52 394 52 c 1,116,-1
  394 52 l 1,99,-1
 EndSplineSet
-Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D38 U0D4D U0D31 U0D4D U0D31
+Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D38 U0D31 U0D4D U0D31 U0D4D
 EndChar
 
 StartChar: glyph202
