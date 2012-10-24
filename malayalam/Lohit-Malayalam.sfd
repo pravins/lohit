@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159524182
-ModificationTime: 1342768874
+ModificationTime: 1351109571
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -52,6 +52,7 @@ OS2StrikeYPos: 250
 OS2Vendor: 'PfEd'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80808001.00002000.00000000.00000000
+Lookup: 4 0 0 "'pref' Pre Base Forms in Malay+AQEA-lam lookup 17"  {"'pref' Pre Base Forms in Malay+AQEA-lam lookup 17-1"  } ['pref' ('DFLT' <'dflt' > 'mlym' <'dflt' > ) ]
 Lookup: 6 0 0 "'akhn' Akhand in Malay+AQEA-lam lookup 0"  {"'akhn' Akhand in Malay+AQEA-lam lookup 0 subtable"  } ['akhn' ('mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'akhn' Akhand in Malay+AQEA-lam lookup 1"  {"'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable"  } ['akhn' ('mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms in Malay+AQEA-lam lookup 2"  {"'blwf' Below Base Forms in Malay+AQEA-lam lookup 2 subtable"  } ['blwf' ('mlym' <'dflt' > ) ]
@@ -343,7 +344,7 @@ ShortTable: maxp 16
   0
 EndShort
 LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Malayalam : 19-7-2006" "" "Version 2.5.1" 
-GaspTable: 1 65535 2
+GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -5223,7 +5224,7 @@ SplineSet
  90 452 90 452 116 585 c 1,14,-1
  116 585 l 1,0,-1
 EndSplineSet
-Ligature2: "'pstf' Post Base Forms in Malay+AQEA-lam lookup 15 subtable" U0D30 U0D4D
+Ligature2: "'pref' Pre Base Forms in Malay+AQEA-lam lookup 17-1" U0D30 U0D4D
 EndChar
 
 StartChar: glyph84
@@ -19979,7 +19980,7 @@ EndChar
 StartChar: uni0D4E
 Encoding: 3406 3406 304
 Width: 0
-Flags: HW
+Flags: W
 AnchorPoint: "anchor-1" 466 700 mark 0
 LayerCount: 2
 Fore
