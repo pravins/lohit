@@ -17645,7 +17645,7 @@ SplineSet
  327 -305 327 -305 292.5 -242.5 c 128,-1,59
  258 -180 258 -180 258 -106 c 0,26,27
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D31_U0D4D_U0D31.akhn U0D4D U0D30
+Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" glyph226 U0D31_U0D4D.half U0D31
 EndChar
 
 StartChar: glyph147_U0D4D_U0D30
