@@ -1,6 +1,7 @@
 				  lohit-devanagari
-Current Version :- 2.5.1
+Current Version :- 2.5.2
 
+* Thu Nov 08 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.2
 - corrected u0938 "स" character shape, #799004
 - improved shape of localized marathi sha, patch from Shriramana Sharma
 - added marathi localized mr_la_la_lig glyph
