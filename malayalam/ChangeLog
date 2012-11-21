@@ -1,10 +1,12 @@
 				  lohit-malayalam
-Current Version :- 2.5.1
+Current Version :- 2.5.2
 
+* Thu Nov 22 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.2
 - corrected shape of U+0D3A #798870
+- corrected panose values
 - added character U+0D4E and anchor point
 - changed U+0D30 U+0D4D to pref feature
-- corrected issues till utrrs gsub test case no. 150
+- corrected issues till utrrs gsub test case no. 150 against harfbuzz
 
 * Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - added characters u0D3D, u0D44, 0D29, 0D3A
