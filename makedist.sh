@@ -2,16 +2,14 @@
 
 echo Creating tarball of Checked Out Lohit Font files distribution
 date1=`date +%Y%m%d`
-cd ..
 echo $date1
-cp -r trunk lohit-fonts-svnsnap-$date1
-rm -rf lohit-fonts-svnsnap-$date1/.svn
+cp -r ../lohit /tmp/lohit-fonts-svnsnap-$date1
+rm -rf /tmp/lohit-fonts-svnsnap-$date1/.git
+mv /tmp/lohit-fonts-svnsnap-$date1 .
 
 tar -cf lohit-fonts-svnsnap-$date1.tar lohit-fonts-svnsnap-$date1
 gzip lohit-fonts-svnsnap-$date1.tar
-mv lohit-fonts-svnsnap-$date1.tar.gz trunk/
 rm -rf lohit-fonts-svnsnap-$date1
-cd trunk
 mkdir lohit-ttf-$date1
 
 sh generate.sh
@@ -23,7 +21,7 @@ ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-ttf-$ver
 cp COPYRIGHT OFL.txt ChangeLog.old README README.cvs AUTHORS $i/* lohit-$i-ttf-$ver
 cp $i/*.ttf lohit-ttf-$date1
-rm -rf lohit-$i-ttf-$ver/.svn lohit-$i-ttf-$ver/*.sfd
+rm -rf lohit-$i-ttf-$ver/.git lohit-$i-ttf-$ver/*.sfd
 tar -cf lohit-$i-ttf-$ver.tar lohit-$i-ttf-$ver
 gzip lohit-$i-ttf-$ver.tar
 rm -rf lohit-$i-ttf-$ver
@@ -41,7 +39,7 @@ do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-$ver
 cp COPYRIGHT OFL.txt ChangeLog.old README README.cvs AUTHORS Makefile generate.pe $i/* lohit-$i-$ver
-rm -rf lohit-$i-$ver/.svn
+rm -rf lohit-$i-$ver/.git
 rm -rf lohit-$i-$ver/*.ttf
 tar -cf lohit-$i-$ver.tar lohit-$i-$ver
 gzip lohit-$i-$ver.tar

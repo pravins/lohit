@@ -2,8 +2,6 @@
 	- https://bugzilla.redhat.com/show_bug.cgi?id=648350
 2. [kn_IN] 0CB0 + 200D + 0CCD + 0C95+ 0CBE consonant is wrongly rendering
 	- https://bugzilla.redhat.com/show_bug.cgi?id=694724
-3. [te_IN] Lohit font has different glyph shape for * character (used for password characters)
-	- https://bugzilla.redhat.com/show_bug.cgi?id=718949
 4. [kn_IN] Text Cut for 3rd word (System) in Menu Bar on Desktop Panel
 	- https://bugzilla.redhat.com/show_bug.cgi?id=748710
 

@@ -6,6 +6,7 @@ Current Version :- 2.5.2
 - improved shape of localized marathi sha, patch from Shriramana Sharma
 - added marathi localized mr_la_la_lig glyph
 - improved positioning of U+A8FB
+- corrected panose values #803294
 
 * Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - added U+02BC characters for used in maithili
