@@ -1,7 +1,9 @@
 				  lohit-gujarati
-Current Version :- 2.5.1
+Current Version :- 2.5.2
 
+* Thu Nov 22 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.2
 - Resolved #872942
+- Corrected panose values
 
 * Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - improved asterisk shape
