@@ -2,8 +2,13 @@
 	- https://bugzilla.redhat.com/show_bug.cgi?id=648350
 2. [kn_IN] 0CB0 + 200D + 0CCD + 0C95+ 0CBE consonant is wrongly rendering
 	- https://bugzilla.redhat.com/show_bug.cgi?id=694724
-4. [kn_IN] Text Cut for 3rd word (System) in Menu Bar on Desktop Panel
+3. [kn_IN] Text Cut for 3rd word (System) in Menu Bar on Desktop Panel
 	- https://bugzilla.redhat.com/show_bug.cgi?id=748710
+4. Add Basic latin support in all Lohit fonts
+5. Hint Lohit fonts ttf with ttfautohint
+6. Add Web fonts support in Makefile
+7. Testing and bugfixes of Lohit Telugu, Oriya and Kannada against Harfbuzz NG
+8. Lohit punjabi issues on Windows of Overlapping
 
 RFE:
 1. Support Vedic Extensions
