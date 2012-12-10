@@ -908,7 +908,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 38 38 14
+WinInfo: 646 38 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -18226,7 +18226,7 @@ StartChar: afii57929
 Encoding: 700 700 384
 Width: 314
 VWidth: 2048
-GlyphClass: 4
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
