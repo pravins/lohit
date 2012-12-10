@@ -13,7 +13,6 @@ Descent: 205
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 808 1214965479 5361592]
 FSType: 0
 OS2Version: 1
@@ -909,7 +908,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65208 38 14
+WinInfo: 38 38 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -6821,7 +6820,7 @@ EndChar
 StartChar: asciicircum
 Encoding: 94 94 156
 Width: 671
-GlyphClass: 4
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
