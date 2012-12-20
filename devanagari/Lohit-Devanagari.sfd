@@ -903,12 +903,13 @@ ShortTable: maxp 16
 EndShort
 LangName: 1033 "" "" "Regular" "" "" "Version 2.5.1" 
 Encoding: UnicodeBmp
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 646 38 14
+WinInfo: 0 38 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -7396,8 +7397,8 @@ SplineSet
  13 290 l 1,12,-1
 EndSplineSet
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" mr_sha u0930_u094D.blwf
-LCarets2: 1 0 
 Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" u0936 u0930_u094D.blwf
+Ligature2: "'vatu' Vattu Variants in Devanagari lookup 73" mr_sha_half u0930
 EndChar
 
 StartChar: u095E_u0930_u094D.blwf.vatu
