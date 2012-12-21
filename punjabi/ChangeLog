@@ -1,5 +1,9 @@
 				  lohit-punjabi
-Current Version :- 2.5.1
+Current Version :- 2.5.3
+
+* Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
+- Dropping RFN from OFL.txt
+- Skipped 2.5.2, for matching version with family
 
 * Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - added rupee symbol U+20B9

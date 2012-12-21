@@ -1,5 +1,8 @@
 				  lohit-gujarati
-Current Version :- 2.5.2
+Current Version :- 2.5.3
+
+* Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
+- Dropping RFN from OFL.txt
 
 * Thu Nov 22 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.2
 - Resolved #872942

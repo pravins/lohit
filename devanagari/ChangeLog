@@ -1,5 +1,8 @@
 				  lohit-devanagari
-Current Version :- 2.5.2
+Current Version :- 2.5.3
+* Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
+- added rule for श्री in Marrathi locale
+- Dropping RFN from OFL.txt
 
 * Thu Nov 08 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.2
 - corrected u0938 "स" character shape, #799004
@@ -8,7 +11,6 @@ Current Version :- 2.5.2
 - improved positioning of U+A8FB
 - corrected panose values #803294
 - corrected glyph class of "asciicircum"
-- added rule for श्री in Marrathi locale
 
 * Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
 - added U+02BC characters for used in maithili
