@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159524182
-ModificationTime: 1351112158
+ModificationTime: 1357120242
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1915,7 +1915,7 @@ StartChar: U0D19
 Encoding: 3353 3353 25
 Width: 1067
 GlyphClass: 2
-Flags: W
+Flags: WO
 AnchorPoint: "anchor-1" 560 610 basechar 0
 LayerCount: 2
 Fore
@@ -3519,7 +3519,7 @@ Encoding: 3384 3384 55
 Width: 1138
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 590 610 basechar 0
+AnchorPoint: "anchor-1" 590 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8538,6 +8538,7 @@ Encoding: 65593 -1 140
 Width: 1602
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 505 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8628,6 +8629,7 @@ SplineSet
  1255 70 l 1,104,-1
  1255 70 l 1,98,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 14 subtable" U0D15_U0D4D.half U0D37
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D15_U0D4D.half U0D37
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D15 U0D4D U0D37
@@ -8722,6 +8724,7 @@ Encoding: 65597 -1 144
 Width: 1412
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 690 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8800,6 +8803,7 @@ SplineSet
  29 88 29 88 29 156 c 1,93,-1
  29 156 l 1,40,41
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D15 U0D4D U0D15
 EndChar
 
@@ -8808,6 +8812,7 @@ Encoding: 65598 -1 145
 Width: 1032
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 490 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8882,6 +8887,7 @@ SplineSet
  391 268 l 1,90,-1
  391 268 l 1,83,84
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D19 U0D4D U0D15
 EndChar
 
@@ -8890,6 +8896,7 @@ Encoding: 65599 -1 146
 Width: 1391
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 393 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8977,6 +8984,7 @@ SplineSet
  516 283 516 283 516 222 c 1,109,-1
  516 222 l 1,98,99
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D19 U0D4D U0D19
 EndChar
 
@@ -8985,6 +8993,7 @@ Encoding: 65600 -1 147
 Width: 1117
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 610 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9023,6 +9032,7 @@ SplineSet
  9 70 l 1,37,-1
  9 70 l 1,4,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D1A U0D4D U0D1A
 EndChar
 
@@ -9031,6 +9041,7 @@ Encoding: 65601 -1 148
 Width: 1593
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 450 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9111,6 +9122,7 @@ SplineSet
  40 152 40 152 40 269 c 1,99,-1
  40 269 l 1,24,25
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D1E U0D4D U0D1A
 EndChar
 
@@ -9119,6 +9131,7 @@ Encoding: 65602 -1 149
 Width: 2068
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 442 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9230,6 +9243,7 @@ SplineSet
  1534 303 1534 303 1534 239 c 1,140,-1
  1534 239 l 1,129,130
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D1E U0D4D U0D1E
 EndChar
 
@@ -9238,6 +9252,7 @@ Encoding: 65603 -1 150
 Width: 598
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 450 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9283,6 +9298,7 @@ SplineSet
  29 333 29 333 29 386 c 1,55,-1
  29 386 l 1,0,1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D1F U0D4D U0D1F
 EndChar
 
@@ -9291,6 +9307,7 @@ Encoding: 65604 -1 151
 Width: 1417
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 690 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9378,6 +9395,7 @@ SplineSet
  134 215 134 215 134 169 c 1,113,-1
  134 169 l 1,104,105
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D23 U0D4D U0D1F
 EndChar
 
@@ -9386,6 +9404,7 @@ Encoding: 65605 -1 152
 Width: 1288
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 690 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9500,6 +9519,7 @@ SplineSet
  341 -339 341 -339 341 -257 c 1,141,-1
  341 -257 l 1,81,82
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D23 U0D4D U0D23
 EndChar
 
@@ -9508,6 +9528,7 @@ Encoding: 65606 -1 153
 Width: 1583
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 808 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9595,6 +9616,7 @@ SplineSet
  46 158 46 158 46 257 c 1,111,-1
  46 257 l 1,24,25
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D24 U0D4D U0D24
 EndChar
 
@@ -9603,6 +9625,7 @@ Encoding: 65607 -1 154
 Width: 1291
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 490 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9664,6 +9687,7 @@ SplineSet
  42 195 42 195 42 289 c 1,76,-1
  42 289 l 1,12,13
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D28 U0D4D U0D24
 EndChar
 
@@ -9672,6 +9696,7 @@ Encoding: 65608 -1 155
 Width: 1330
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 669 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9718,6 +9743,7 @@ SplineSet
  46 180 46 180 46 269 c 1,56,-1
  46 269 l 1,0,1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D28 U0D4D U0D28
 EndChar
 
@@ -9726,6 +9752,7 @@ Encoding: 65609 -1 156
 Width: 1000
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 470 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9776,6 +9803,7 @@ SplineSet
  33 138 33 138 33 199 c 1,60,-1
  33 199 l 1,0,1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D2A U0D4D U0D2A
 EndChar
 
@@ -9784,6 +9812,7 @@ Encoding: 65610 -1 157
 Width: 1268
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 456 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9824,6 +9853,7 @@ SplineSet
  43 179 43 179 43 281 c 1,46,-1
  43 281 l 1,0,1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D2E U0D4D U0D2A
 EndChar
 
@@ -9832,6 +9862,7 @@ Encoding: 65611 -1 158
 Width: 1170
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 589 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9887,6 +9918,7 @@ SplineSet
  832 105 832 105 772 70 c 1,61,-1
  772 70 l 1,50,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D2E U0D4D U0D2E
 EndChar
 
@@ -9895,6 +9927,7 @@ Encoding: 65612 -1 159
 Width: 997
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 430 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9954,6 +9987,7 @@ SplineSet
  40 199 40 199 40 339 c 1,67,-1
  40 339 l 1,29,30
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 14 subtable" U0D2F glyph137
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D2F_U0D4D.half U0D2F
 EndChar
@@ -9963,6 +9997,7 @@ Encoding: 65613 -1 160
 Width: 1043
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 480 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10000,6 +10035,7 @@ SplineSet
  450 -211 l 1,36,-1
  450 -211 l 1,33,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 14 subtable" U0D35 glyph139
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D35_U0D4D.half U0D35
 EndChar
@@ -10009,6 +10045,7 @@ Encoding: 65614 -1 161
 Width: 835
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 410 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10083,6 +10120,7 @@ Encoding: 65615 -1 162
 Width: 962
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 460 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10181,6 +10219,7 @@ SplineSet
  367 421 367 421 367 351 c 1,120,-1
  367 351 l 1,114,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D15_U0D4D.half U0D32
 EndChar
 
@@ -10189,6 +10228,7 @@ Encoding: 65616 -1 163
 Width: 910
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 500 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10266,6 +10306,7 @@ SplineSet
  46 -248 46 -248 46 -176 c 1,95,-1
  46 -176 l 1,10,11
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D17_U0D4D.half U0D32
 EndChar
 
@@ -10274,6 +10315,7 @@ Encoding: 65617 -1 164
 Width: 1000
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 470 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10339,6 +10381,7 @@ SplineSet
  114 -248 114 -248 114 -176 c 1,77,-1
  114 -176 l 1,10,11
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D2A_U0D4D.half U0D32
 EndChar
 
@@ -10346,7 +10389,8 @@ StartChar: glyph161
 Encoding: 65618 -1 165
 Width: 1360
 GlyphClass: 2
-Flags: W
+Flags: WO
+AnchorPoint: "anchor-1" 549 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10446,6 +10490,7 @@ Encoding: 65619 -1 166
 Width: 705
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 380 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10517,6 +10562,7 @@ Encoding: 65620 -1 167
 Width: 937
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 480 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10602,6 +10648,7 @@ SplineSet
  644 258 644 258 644 199 c 1,106,-1
  644 199 l 1,94,95
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D36_U0D4D.half U0D32
 EndChar
 
@@ -10610,6 +10657,7 @@ Encoding: 65621 -1 168
 Width: 1183
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 428 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10695,6 +10743,7 @@ SplineSet
  43 200 43 200 43 300 c 1,108,-1
  43 300 l 1,49,50
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D38_U0D4D.half U0D32
 EndChar
 
@@ -10703,6 +10752,7 @@ Encoding: 65622 -1 169
 Width: 1218
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 510 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10783,6 +10833,7 @@ SplineSet
  185 -248 185 -248 185 -176 c 1,98,-1
  185 -176 l 1,10,11
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D39_U0D4D.half U0D32
 EndChar
 
@@ -10791,6 +10842,7 @@ Encoding: 65623 -1 170
 Width: 711
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 357 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10837,6 +10889,7 @@ SplineSet
  40 201 40 201 40 269 c 1,54,-1
  40 269 l 1,18,19
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D31 U0D31 U0D4D
 EndChar
 
@@ -10845,6 +10898,7 @@ Encoding: 65624 -1 171
 Width: 696
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 370 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10895,6 +10949,7 @@ SplineSet
  43 187 43 187 43 257 c 1,62,-1
  43 257 l 1,0,1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D26 U0D4D U0D26
 EndChar
 
@@ -10903,6 +10958,7 @@ Encoding: 65625 -1 172
 Width: 1182
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 431 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10993,6 +11049,7 @@ SplineSet
  308 -291 308 -291 308 -212 c 1,119,-1
  308 -212 l 1,60,61
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D38 U0D4D U0D38
 EndChar
 
@@ -11091,6 +11148,7 @@ Encoding: 65627 -1 174
 Width: 1152
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 690 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11169,6 +11227,7 @@ SplineSet
  829 -163 829 -163 829 -211 c 1,96,-1
  829 -211 l 1,85,86
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D1A U0D4D U0D1B
 EndChar
 
@@ -11177,6 +11236,7 @@ Encoding: 65628 -1 175
 Width: 1483
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 420 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11301,6 +11361,7 @@ SplineSet
  1238 97 1238 97 1238 70 c 1,163,-1
  1238 70 l 1,151,152
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D1C U0D4D U0D1C
 EndChar
 
@@ -11309,6 +11370,7 @@ Encoding: 65629 -1 176
 Width: 1628
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 460 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11401,6 +11463,7 @@ SplineSet
  27 91 27 91 27 164 c 1,109,-1
  27 164 l 1,40,41
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D15 U0D4D U0D24
 EndChar
 
@@ -11409,6 +11472,7 @@ Encoding: 65630 -1 177
 Width: 1251
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 440 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11470,6 +11534,7 @@ SplineSet
  40 191 40 191 40 281 c 1,75,-1
  40 281 l 1,12,13
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D24 U0D4D U0D28
 EndChar
 
@@ -11478,6 +11543,7 @@ Encoding: 65631 -1 178
 Width: 1175
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 600 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11558,6 +11624,7 @@ SplineSet
  582 453 582 453 582 410 c 1,94,-1
  582 410 l 1,84,85
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D37 U0D4D U0D1F
 EndChar
 
@@ -11566,6 +11633,7 @@ Encoding: 65632 -1 179
 Width: 996
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 470 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11614,6 +11682,7 @@ SplineSet
  40 210 40 210 40 304 c 1,58,-1
  40 304 l 1,0,1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D28 U0D4D U0D26
 EndChar
 
@@ -11622,6 +11691,7 @@ Encoding: 65633 -1 180
 Width: 1360
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 541 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11684,6 +11754,7 @@ SplineSet
  749 -216 l 1,70,-1
  749 -216 l 1,67,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D2C U0D4D U0D2C
 EndChar
 
@@ -11692,6 +11763,7 @@ Encoding: 65634 -1 181
 Width: 939
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 450 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11786,6 +11858,7 @@ SplineSet
  261 -203 l 1,116,-1
  261 -203 l 1,71,72
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D36 U0D4D U0D36
 EndChar
 
@@ -11794,6 +11867,7 @@ Encoding: 65635 -1 182
 Width: 1511
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 461 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11852,6 +11926,7 @@ SplineSet
  40 198 40 198 40 281 c 1,74,-1
  40 281 l 1,0,1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D28 U0D4D U0D27
 EndChar
 
@@ -11860,6 +11935,7 @@ Encoding: 65636 -1 183
 Width: 1749
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 450 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11924,6 +12000,7 @@ SplineSet
  1286 70 l 1,77,-1
  1286 70 l 1,69,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D38 U0D4D U0D25
 EndChar
 
@@ -11932,6 +12009,7 @@ Encoding: 65637 -1 184
 Width: 1511
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 460 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11999,6 +12077,7 @@ SplineSet
  42 191 42 191 42 281 c 1,79,-1
  42 281 l 1,21,22
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D24 U0D4D U0D25
 EndChar
 
@@ -12007,6 +12086,7 @@ Encoding: 65638 -1 185
 Width: 1509
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 460 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12059,6 +12139,7 @@ SplineSet
  1047 70 l 1,59,-1
  1047 70 l 1,51,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D28 U0D4D U0D25
 EndChar
 
@@ -12067,6 +12148,7 @@ Encoding: 65639 -1 186
 Width: 1442
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 510 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12129,6 +12211,7 @@ SplineSet
  697 374 697 374 697 339 c 1,78,-1
  697 339 l 1,66,67
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D36 U0D4D U0D1A
 EndChar
 
@@ -12137,6 +12220,7 @@ Encoding: 65640 -1 187
 Width: 1477
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 610 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12192,6 +12276,7 @@ SplineSet
  33 132 33 132 33 199 c 1,69,-1
  33 199 l 1,0,1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D39 U0D4D U0D28
 EndChar
 
@@ -12200,6 +12285,7 @@ Encoding: 65641 -1 188
 Width: 1288
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 550 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12257,6 +12343,7 @@ SplineSet
  44 180 44 180 44 257 c 1,71,-1
  44 257 l 1,0,1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D26 U0D4D U0D27
 EndChar
 
@@ -12265,6 +12352,7 @@ Encoding: 65642 -1 189
 Width: 1282
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 340 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12373,6 +12461,7 @@ SplineSet
  740 245 740 245 740 211 c 1,136,-1
  740 211 l 1,127,128
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D33_U0D4D.half U0D33
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D33 glyph222
 EndChar
@@ -12382,6 +12471,7 @@ Encoding: 65643 -1 190
 Width: 1192
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 570 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12433,6 +12523,7 @@ SplineSet
  868 110 868 110 810 70 c 1,56,-1
  810 70 l 1,45,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D39_U0D4D.half U0D2E
 EndChar
 
@@ -12441,6 +12532,7 @@ Encoding: 65644 -1 191
 Width: 1266
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 640 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12516,6 +12608,7 @@ Encoding: 65645 -1 192
 Width: 1507
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 800 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12589,6 +12682,7 @@ SplineSet
  43 199 43 199 43 281 c 1,94,-1
  43 281 l 1,12,13
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D24 U0D4D U0D38
 EndChar
 
@@ -12597,6 +12691,7 @@ Encoding: 65646 -1 193
 Width: 1056
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 460 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12642,6 +12737,7 @@ SplineSet
  733 110 733 110 675 70 c 1,51,-1
  675 70 l 1,40,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D28 U0D4D U0D2E
 EndChar
 
@@ -12650,6 +12746,7 @@ Encoding: 65647 -1 194
 Width: 1347
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 430 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12723,6 +12820,7 @@ SplineSet
  1024 110 1024 110 967 70 c 1,89,-1
  967 70 l 1,78,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D24 U0D4D U0D2E
 EndChar
 
@@ -12731,6 +12829,7 @@ Encoding: 65648 -1 195
 Width: 1339
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 490 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12800,6 +12899,7 @@ SplineSet
  1038 113 1038 113 983 70 c 1,82,-1
  983 70 l 1,71,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D23 U0D4D U0D2E
 EndChar
 
@@ -12808,6 +12908,7 @@ Encoding: 65649 -1 196
 Width: 2085
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 460 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12935,6 +13036,7 @@ SplineSet
  1583 271 1583 271 1583 211 c 1,164,-1
  1583 211 l 1,153,154
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D1C U0D4D U0D1E
 EndChar
 
@@ -12943,6 +13045,7 @@ Encoding: 65650 -1 197
 Width: 1331
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 440 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13034,6 +13137,7 @@ SplineSet
  43 199 43 199 43 281 c 1,119,-1
  43 281 l 1,12,13
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D24 U0D4D U0D2D
 EndChar
 
@@ -13042,6 +13146,7 @@ Encoding: 65651 -1 198
 Width: 1063
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 463 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13092,6 +13197,7 @@ SplineSet
  741 110 741 110 684 70 c 1,55,-1
  684 70 l 1,44,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D17 U0D4D U0D2E
 EndChar
 
@@ -13100,6 +13206,7 @@ Encoding: 65652 -1 199
 Width: 1138
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 624 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13203,6 +13310,7 @@ SplineSet
  654 -106 654 -106 654 -144 c 1,131,-1
  654 -144 l 1,124,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D38 U0D4D U0D15
 EndChar
 
@@ -13211,6 +13319,7 @@ Encoding: 65653 -1 200
 Width: 1283
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 495 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13260,6 +13369,7 @@ SplineSet
  47 328 l 1,59,-1
  47 328 l 1,0,1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D17 U0D4D U0D28
 EndChar
 
@@ -13268,6 +13378,7 @@ Encoding: 65654 -1 201
 Width: 1905
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 690 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13350,6 +13461,7 @@ SplineSet
  42 154 42 154 42 263 c 1,102,-1
  42 263 l 1,11,12
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D23 U0D4D U0D21
 EndChar
 
@@ -13358,6 +13470,7 @@ Encoding: 65655 -1 202
 Width: 1481
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 554 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13470,6 +13583,7 @@ SplineSet
  1216 97 1216 97 1216 70 c 1,146,-1
  1216 70 l 1,134,135
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D1E U0D4D U0D1C
 EndChar
 
@@ -13478,6 +13592,7 @@ Encoding: 65656 -1 203
 Width: 1182
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 593 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13554,6 +13669,7 @@ SplineSet
  42 197 42 197 42 294 c 1,100,-1
  42 294 l 1,0,1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D38 U0D4D U0D28
 EndChar
 
@@ -13562,6 +13678,7 @@ Encoding: 65657 -1 204
 Width: 958
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 279 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13641,6 +13758,7 @@ SplineSet
  42 201 42 201 42 293 c 1,104,-1
  42 293 l 1,13,14
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D28 U0D31 U0D4D
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D28_U0D4D.half U0D31
 EndChar
@@ -13650,6 +13768,7 @@ Encoding: 65658 -1 205
 Width: 1183
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 621 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13738,6 +13857,7 @@ SplineSet
  389 52 389 52 394 52 c 1,116,-1
  394 52 l 1,99,-1
 EndSplineSet
+LCarets2: 4 0 0 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D38 U0D31 U0D4D U0D31 U0D4D
 EndChar
 
@@ -13746,6 +13866,7 @@ Encoding: 65659 -1 206
 Width: 1186
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 733 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13836,6 +13957,7 @@ SplineSet
  337 -303 337 -303 337 -224 c 1,117,-1
  337 -224 l 1,58,59
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D21 U0D4D U0D21
 EndChar
 
@@ -13844,6 +13966,7 @@ Encoding: 65660 -1 207
 Width: 1360
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 552 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13929,6 +14052,7 @@ SplineSet
  646 -247 646 -247 646 -174 c 1,105,-1
  646 -174 l 1,64,65
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D2C U0D4D U0D27
 EndChar
 
@@ -13936,7 +14060,8 @@ StartChar: glyph204
 Encoding: 65661 -1 208
 Width: 1360
 GlyphClass: 2
-Flags: W
+Flags: WO
+AnchorPoint: "anchor-1" 552 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14023,6 +14148,7 @@ SplineSet
  42 147 42 147 42 251 c 1,106,-1
  42 251 l 1,11,12
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D2C U0D4D U0D26
 EndChar
 
@@ -14031,6 +14157,7 @@ Encoding: 65662 -1 209
 Width: 993
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 472 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14119,6 +14246,7 @@ SplineSet
  27 95 27 95 27 163 c 1,108,-1
  27 163 l 1,26,27
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D15 U0D4D U0D1F
 EndChar
 
@@ -14127,6 +14255,7 @@ Encoding: 65663 -1 210
 Width: 927
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 452 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14197,6 +14326,7 @@ Encoding: 65664 -1 211
 Width: 928
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 492 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14308,6 +14438,7 @@ SplineSet
  143 -288 143 -288 143 -243 c 1,140,-1
  143 -243 l 1,98,99
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions in Malay+AQEA-lam lookup 6 subtable" U0D2F_U0D4D.half U0D15
 EndChar
 
@@ -14316,6 +14447,7 @@ Encoding: 65665 -1 212
 Width: 920
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 482 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14452,6 +14584,7 @@ Encoding: 65666 -1 213
 Width: 875
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 482 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14556,6 +14689,7 @@ SplineSet
  270 -95 270 -95 270 -126 c 1,120,-1
  270 -126 l 1,113,-1
 EndSplineSet
+LCarets2: 4 0 0 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D32 U0D4D U0D15 U0D4D U0D15
 EndChar
 
@@ -14564,6 +14698,7 @@ Encoding: 65667 -1 214
 Width: 1153
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 565 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14675,6 +14810,7 @@ SplineSet
  672 -87 672 -87 672 -125 c 1,132,-1
  672 -125 l 1,125,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D37 U0D4D U0D15
 EndChar
 
@@ -14683,6 +14819,7 @@ Encoding: 65668 -1 215
 Width: 828
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 441 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14766,6 +14903,7 @@ SplineSet
  347 -87 347 -87 347 -125 c 1,96,-1
  347 -125 l 1,89,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D32 U0D4D U0D15
 EndChar
 
@@ -14774,6 +14912,7 @@ Encoding: 65669 -1 216
 Width: 1095
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 424 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14867,6 +15006,7 @@ SplineSet
  369 -236 369 -236 369 -185 c 1,122,-1
  369 -185 l 1,73,74
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D38 U0D4D U0D24
 EndChar
 
@@ -14875,6 +15015,7 @@ Encoding: 65670 -1 217
 Width: 1095
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 422 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14959,6 +15100,7 @@ SplineSet
  775 -109 775 -109 775 -148 c 1,106,-1
  775 -148 l 1,97,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D38 U0D4D U0D2B
 EndChar
 
@@ -15394,6 +15536,7 @@ Encoding: 65681 -1 228
 Width: 1407
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 712 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15479,6 +15622,7 @@ SplineSet
  1084 300 1084 300 1084 239 c 1,108,-1
  1084 239 l 1,96,97
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D23_U0D4D.half afii301
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D23 U0D4D afii301
 EndChar
@@ -15488,6 +15632,7 @@ Encoding: 65682 -1 229
 Width: 959
 GlyphClass: 2
 Flags: W
+AnchorPoint: "anchor-1" 312 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15549,6 +15694,7 @@ SplineSet
  42 201 42 201 42 293 c 1,77,-1
  42 293 l 1,13,14
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D28_U0D4D.half afii301
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D28 U0D4D afii301
 EndChar
@@ -15606,6 +15752,7 @@ SplineSet
  43 172 43 172 43 263 c 1,58,-1
  43 263 l 1,12,13
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D30_U0D4D.half afii301
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D30 U0D4D afii301
 EndChar
@@ -15691,6 +15838,7 @@ SplineSet
  46 189 46 189 46 281 c 1,96,-1
  46 281 l 1,25,26
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D32_U0D4D.half afii301
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D32 U0D4D afii301
 EndChar
@@ -15765,6 +15913,7 @@ SplineSet
  48 328 l 1,81,-1
  48 328 l 1,13,14
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D33_U0D4D.half afii301
 Ligature2: "'akhn' Akhand in Malay+AQEA-lam lookup 1 subtable" U0D33 U0D4D afii301
 EndChar
@@ -19980,21 +20129,22 @@ EndChar
 StartChar: uni0D4E
 Encoding: 3406 3406 304
 Width: 0
+GlyphClass: 4
 Flags: W
-AnchorPoint: "anchor-1" 466 700 mark 0
+AnchorPoint: "anchor-1" -144 700 mark 0
 LayerCount: 2
 Fore
 SplineSet
-412 743 m 1,0,1
- 412 716 412 716 430.5 697 c 128,-1,2
- 449 678 449 678 476 678 c 128,-1,3
- 503 678 503 678 522 697 c 128,-1,4
- 541 716 541 716 541 743 c 128,-1,5
- 541 770 541 770 522 788.5 c 128,-1,6
- 503 807 503 807 476 807 c 128,-1,7
- 449 807 449 807 430.5 788.5 c 128,-1,8
- 412 770 412 770 412 743 c 1,9,-1
- 412 743 l 1,0,1
+-198 743 m 1,0,1
+ -198 716 -198 716 -179.5 697 c 128,-1,2
+ -161 678 -161 678 -134 678 c 128,-1,3
+ -107 678 -107 678 -88 697 c 128,-1,4
+ -69 716 -69 716 -69 743 c 128,-1,5
+ -69 770 -69 770 -88 788.5 c 128,-1,6
+ -107 807 -107 807 -134 807 c 128,-1,7
+ -161 807 -161 807 -179.5 788.5 c 128,-1,8
+ -198 770 -198 770 -198 743 c 1,9,-1
+ -198 743 l 1,0,1
 EndSplineSet
 EndChar
 EndChars
