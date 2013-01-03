@@ -9,6 +9,7 @@
 6. Add Web fonts support in Makefile
 7. Testing and bugfixes of Lohit Telugu, Oriya and Kannada against Harfbuzz NG
 8. Lohit punjabi issues on Windows of Overlapping
+9. Check Malayalam glyph157
 
 RFE:
 1. Support Vedic Extensions

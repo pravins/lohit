@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159524182
-ModificationTime: 1357126558
+ModificationTime: 1357189649
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1759,7 +1759,7 @@ Encoding: 3350 3350 22
 Width: 1010
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 510 610 basechar 0
+AnchorPoint: "anchor-1" 510 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1809,7 +1809,7 @@ Encoding: 3351 3351 23
 Width: 913
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 460 610 basechar 0
+AnchorPoint: "anchor-1" 460 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1859,7 +1859,7 @@ Encoding: 3352 3352 24
 Width: 1372
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 560 610 basechar 0
+AnchorPoint: "anchor-1" 691 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1916,7 +1916,7 @@ Encoding: 3353 3353 25
 Width: 1067
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 560 610 basechar 0
+AnchorPoint: "anchor-1" 560 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1985,7 +1985,7 @@ Encoding: 3354 3354 26
 Width: 1152
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 590 610 basechar 0
+AnchorPoint: "anchor-1" 575 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2023,7 +2023,7 @@ Encoding: 3355 3355 27
 Width: 1500
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 660 610 basechar 0
+AnchorPoint: "anchor-1" 750 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2084,7 +2084,7 @@ Encoding: 3356 3356 28
 Width: 831
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 460 610 basechar 0
+AnchorPoint: "anchor-1" 460 648 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2167,7 +2167,7 @@ Encoding: 3357 3357 29
 Width: 1606
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 850 610 basechar 0
+AnchorPoint: "anchor-1" 850 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2248,7 +2248,7 @@ Encoding: 3358 3358 30
 Width: 1277
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 650 610 basechar 0
+AnchorPoint: "anchor-1" 650 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2330,7 +2330,7 @@ Encoding: 3359 3359 31
 Width: 594
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 297 610 basechar 0
+AnchorPoint: "anchor-1" 297 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2372,7 +2372,7 @@ Encoding: 3360 3360 32
 Width: 660
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 330 610 basechar 0
+AnchorPoint: "anchor-1" 330 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2404,7 +2404,7 @@ Encoding: 3361 3361 33
 Width: 1183
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 620 610 basechar 0
+AnchorPoint: "anchor-1" 620 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2459,7 +2459,7 @@ Encoding: 3362 3362 34
 Width: 1232
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 620 610 basechar 0
+AnchorPoint: "anchor-1" 620 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2527,7 +2527,7 @@ Encoding: 3363 3363 35
 Width: 1290
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 690 660 basechar 0
+AnchorPoint: "anchor-1" 690 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2594,7 +2594,7 @@ Encoding: 3364 3364 36
 Width: 883
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 450 610 basechar 0
+AnchorPoint: "anchor-1" 450 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2652,7 +2652,7 @@ Encoding: 3365 3365 37
 Width: 914
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 460 610 basechar 0
+AnchorPoint: "anchor-1" 460 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2686,7 +2686,7 @@ Encoding: 3366 3366 38
 Width: 654
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 340 610 basechar 0
+AnchorPoint: "anchor-1" 340 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2731,7 +2731,7 @@ Encoding: 3367 3367 39
 Width: 904
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 460 610 basechar 0
+AnchorPoint: "anchor-1" 455 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2774,7 +2774,7 @@ Encoding: 3368 3368 40
 Width: 904
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 450 610 basechar 0
+AnchorPoint: "anchor-1" 450 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2817,7 +2817,7 @@ Encoding: 3370 3370 41
 Width: 1000
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 530 610 basechar 0
+AnchorPoint: "anchor-1" 500 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2854,7 +2854,7 @@ Encoding: 3371 3371 42
 Width: 1139
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 510 610 basechar 0
+AnchorPoint: "anchor-1" 568 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2903,7 +2903,7 @@ Encoding: 3372 3372 43
 Width: 1360
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 690 610 basechar 0
+AnchorPoint: "anchor-1" 690 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2965,7 +2965,7 @@ Encoding: 3373 3373 44
 Width: 663
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 360 610 basechar 0
+AnchorPoint: "anchor-1" 360 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3025,7 +3025,7 @@ Encoding: 3374 3374 45
 Width: 702
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 360 610 basechar 0
+AnchorPoint: "anchor-1" 360 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3065,7 +3065,7 @@ Encoding: 3375 3375 46
 Width: 953
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 510 610 basechar 0
+AnchorPoint: "anchor-1" 510 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3128,7 +3128,7 @@ Encoding: 3376 3376 47
 Width: 649
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 330 610 basechar 0
+AnchorPoint: "anchor-1" 330 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3169,7 +3169,7 @@ Encoding: 3377 3377 48
 Width: 710
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 360 610 basechar 0
+AnchorPoint: "anchor-1" 360 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3201,7 +3201,7 @@ Encoding: 3378 3378 49
 Width: 819
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 510 610 basechar 0
+AnchorPoint: "anchor-1" 440 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3237,7 +3237,7 @@ Encoding: 3379 3379 50
 Width: 663
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 330 610 basechar 0
+AnchorPoint: "anchor-1" 330 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3303,7 +3303,7 @@ Encoding: 3380 3380 51
 Width: 645
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 340 610 basechar 0
+AnchorPoint: "anchor-1" 340 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3361,7 +3361,7 @@ Encoding: 3381 3381 52
 Width: 1043
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 580 610 basechar 0
+AnchorPoint: "anchor-1" 550 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3398,7 +3398,7 @@ Encoding: 3382 3382 53
 Width: 940
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 510 610 basechar 0
+AnchorPoint: "anchor-1" 490 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3455,7 +3455,7 @@ Encoding: 3383 3383 54
 Width: 1153
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 540 610 basechar 0
+AnchorPoint: "anchor-1" 575 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3518,7 +3518,7 @@ StartChar: U0D38
 Encoding: 3384 3384 55
 Width: 1138
 GlyphClass: 2
-Flags: W
+Flags: WO
 AnchorPoint: "anchor-1" 590 650 basechar 0
 LayerCount: 2
 Fore
@@ -3574,7 +3574,7 @@ Encoding: 3385 3385 56
 Width: 1218
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 510 610 basechar 0
+AnchorPoint: "anchor-1" 600 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8724,7 +8724,7 @@ Encoding: 65597 -1 144
 Width: 1412
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 690 650 basechar 0
+AnchorPoint: "anchor-1" 700 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8812,7 +8812,7 @@ Encoding: 65598 -1 145
 Width: 1032
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 490 650 basechar 0
+AnchorPoint: "anchor-1" 515 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8896,7 +8896,7 @@ Encoding: 65599 -1 146
 Width: 1391
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 393 650 basechar 0
+AnchorPoint: "anchor-1" 700 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9041,7 +9041,7 @@ Encoding: 65601 -1 148
 Width: 1593
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 450 650 basechar 0
+AnchorPoint: "anchor-1" 800 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9131,7 +9131,7 @@ Encoding: 65602 -1 149
 Width: 2068
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 442 650 basechar 0
+AnchorPoint: "anchor-1" 1000 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9252,7 +9252,7 @@ Encoding: 65603 -1 150
 Width: 598
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 450 650 basechar 0
+AnchorPoint: "anchor-1" 281 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9528,7 +9528,7 @@ Encoding: 65606 -1 153
 Width: 1583
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 808 650 basechar 0
+AnchorPoint: "anchor-1" 798 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9625,7 +9625,7 @@ Encoding: 65607 -1 154
 Width: 1291
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 490 650 basechar 0
+AnchorPoint: "anchor-1" 650 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9812,7 +9812,7 @@ Encoding: 65610 -1 157
 Width: 1268
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 456 650 basechar 0
+AnchorPoint: "anchor-1" 626 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9927,7 +9927,7 @@ Encoding: 65612 -1 159
 Width: 997
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 430 650 basechar 0
+AnchorPoint: "anchor-1" 500 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9997,7 +9997,7 @@ Encoding: 65613 -1 160
 Width: 1043
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 480 650 basechar 0
+AnchorPoint: "anchor-1" 510 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10120,7 +10120,7 @@ Encoding: 65615 -1 162
 Width: 962
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 460 650 basechar 0
+AnchorPoint: "anchor-1" 480 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10228,7 +10228,7 @@ Encoding: 65616 -1 163
 Width: 910
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 500 650 basechar 0
+AnchorPoint: "anchor-1" 490 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10390,7 +10390,7 @@ Encoding: 65618 -1 165
 Width: 1360
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 549 650 basechar 0
+AnchorPoint: "anchor-1" 539 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10490,7 +10490,7 @@ Encoding: 65619 -1 166
 Width: 705
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 380 650 basechar 0
+AnchorPoint: "anchor-1" 350 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10657,7 +10657,7 @@ Encoding: 65621 -1 168
 Width: 1183
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 428 650 basechar 0
+AnchorPoint: "anchor-1" 612 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10752,7 +10752,7 @@ Encoding: 65622 -1 169
 Width: 1218
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 510 650 basechar 0
+AnchorPoint: "anchor-1" 590 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10958,7 +10958,7 @@ Encoding: 65625 -1 172
 Width: 1182
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 431 650 basechar 0
+AnchorPoint: "anchor-1" 581 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11058,7 +11058,7 @@ Encoding: 65626 -1 173
 Width: 910
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 519 619.3 basechar 0
+AnchorPoint: "anchor-1" 468 649.3 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11148,7 +11148,7 @@ Encoding: 65627 -1 174
 Width: 1152
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 690 650 basechar 0
+AnchorPoint: "anchor-1" 580 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11236,7 +11236,7 @@ Encoding: 65628 -1 175
 Width: 1483
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 420 650 basechar 0
+AnchorPoint: "anchor-1" 740 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11370,7 +11370,7 @@ Encoding: 65629 -1 176
 Width: 1628
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 460 650 basechar 0
+AnchorPoint: "anchor-1" 799 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11472,7 +11472,7 @@ Encoding: 65630 -1 177
 Width: 1251
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 440 650 basechar 0
+AnchorPoint: "anchor-1" 610 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11691,7 +11691,7 @@ Encoding: 65633 -1 180
 Width: 1360
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 541 650 basechar 0
+AnchorPoint: "anchor-1" 701 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11867,7 +11867,7 @@ Encoding: 65635 -1 182
 Width: 1511
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 461 650 basechar 0
+AnchorPoint: "anchor-1" 751 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11935,7 +11935,7 @@ Encoding: 65636 -1 183
 Width: 1749
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 450 650 basechar 0
+AnchorPoint: "anchor-1" 840 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12009,7 +12009,7 @@ Encoding: 65637 -1 184
 Width: 1511
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 460 650 basechar 0
+AnchorPoint: "anchor-1" 780 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12086,7 +12086,7 @@ Encoding: 65638 -1 185
 Width: 1509
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 460 650 basechar 0
+AnchorPoint: "anchor-1" 790 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12148,7 +12148,7 @@ Encoding: 65639 -1 186
 Width: 1442
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 510 650 basechar 0
+AnchorPoint: "anchor-1" 720 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12220,7 +12220,7 @@ Encoding: 65640 -1 187
 Width: 1477
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 610 650 basechar 0
+AnchorPoint: "anchor-1" 690 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12285,7 +12285,7 @@ Encoding: 65641 -1 188
 Width: 1288
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 550 650 basechar 0
+AnchorPoint: "anchor-1" 640 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12352,7 +12352,7 @@ Encoding: 65642 -1 189
 Width: 1282
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 340 650 basechar 0
+AnchorPoint: "anchor-1" 620 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12608,7 +12608,7 @@ Encoding: 65645 -1 192
 Width: 1507
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 800 650 basechar 0
+AnchorPoint: "anchor-1" 790 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12691,7 +12691,7 @@ Encoding: 65646 -1 193
 Width: 1056
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 460 650 basechar 0
+AnchorPoint: "anchor-1" 540 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12746,7 +12746,7 @@ Encoding: 65647 -1 194
 Width: 1347
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 430 650 basechar 0
+AnchorPoint: "anchor-1" 680 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12829,7 +12829,7 @@ Encoding: 65648 -1 195
 Width: 1339
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 490 650 basechar 0
+AnchorPoint: "anchor-1" 640 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12908,7 +12908,7 @@ Encoding: 65649 -1 196
 Width: 2085
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 460 650 basechar 0
+AnchorPoint: "anchor-1" 1030 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13045,7 +13045,7 @@ Encoding: 65650 -1 197
 Width: 1331
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 440 650 basechar 0
+AnchorPoint: "anchor-1" 670 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13146,7 +13146,7 @@ Encoding: 65651 -1 198
 Width: 1063
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 463 650 basechar 0
+AnchorPoint: "anchor-1" 513 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13206,7 +13206,7 @@ Encoding: 65652 -1 199
 Width: 1138
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 624 650 basechar 0
+AnchorPoint: "anchor-1" 604 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13319,7 +13319,7 @@ Encoding: 65653 -1 200
 Width: 1283
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 495 650 basechar 0
+AnchorPoint: "anchor-1" 639 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13378,7 +13378,7 @@ Encoding: 65654 -1 201
 Width: 1905
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 690 650 basechar 0
+AnchorPoint: "anchor-1" 910 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13470,7 +13470,7 @@ Encoding: 65655 -1 202
 Width: 1481
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 554 650 basechar 0
+AnchorPoint: "anchor-1" 724 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13866,7 +13866,7 @@ Encoding: 65659 -1 206
 Width: 1186
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 733 650 basechar 0
+AnchorPoint: "anchor-1" 613 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13966,7 +13966,7 @@ Encoding: 65660 -1 207
 Width: 1360
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 552 650 basechar 0
+AnchorPoint: "anchor-1" 712 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14061,7 +14061,7 @@ Encoding: 65661 -1 208
 Width: 1360
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 552 650 basechar 0
+AnchorPoint: "anchor-1" 712 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14157,7 +14157,7 @@ Encoding: 65662 -1 209
 Width: 993
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 472 650 basechar 0
+AnchorPoint: "anchor-1" 492 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14254,8 +14254,8 @@ StartChar: glyph206
 Encoding: 65663 -1 210
 Width: 927
 GlyphClass: 2
-Flags: W
-AnchorPoint: "anchor-1" 452 650 basechar 0
+Flags: WO
+AnchorPoint: "anchor-1" 472 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14584,7 +14584,7 @@ Encoding: 65666 -1 213
 Width: 875
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 482 650 basechar 0
+AnchorPoint: "anchor-1" 452 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14698,7 +14698,7 @@ Encoding: 65667 -1 214
 Width: 1153
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 565 650 basechar 0
+AnchorPoint: "anchor-1" 545 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14819,7 +14819,7 @@ Encoding: 65668 -1 215
 Width: 828
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 441 650 basechar 0
+AnchorPoint: "anchor-1" 451 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14912,7 +14912,7 @@ Encoding: 65669 -1 216
 Width: 1095
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 424 650 basechar 0
+AnchorPoint: "anchor-1" 584 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15015,7 +15015,7 @@ Encoding: 65670 -1 217
 Width: 1095
 GlyphClass: 2
 Flags: W
-AnchorPoint: "anchor-1" 422 650 basechar 0
+AnchorPoint: "anchor-1" 592 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19683,7 +19683,7 @@ StartChar: uni0D29
 Encoding: 3369 3369 297
 Width: 1012
 Flags: W
-AnchorPoint: "anchor-1" 550 610 basechar 0
+AnchorPoint: "anchor-1" 550 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19736,7 +19736,7 @@ StartChar: uni0D3A
 Encoding: 3386 3386 298
 Width: 914
 Flags: W
-AnchorPoint: "anchor-1" 460 610 basechar 0
+AnchorPoint: "anchor-1" 470 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -19759,7 +19759,7 @@ Encoding: 3406 3406 299
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "anchor-1" -144 700 mark 0
+AnchorPoint: "anchor-1" -131 670 mark 0
 LayerCount: 2
 Fore
 SplineSet

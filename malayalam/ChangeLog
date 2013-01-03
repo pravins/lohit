@@ -3,7 +3,7 @@ Current Version :- 2.5.3
 
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
 - Dropping RFN from OFL.txt
-- Added GPOS for U+0D4E works with harfbuzz
+- Added GPOS for U+0D4E with the help of Ani Peter <apeter@redhat.com>, works with harfbuzz
 - Removed duplicate chillu characters
 
 * Thu Nov 22 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.2
