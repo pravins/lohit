@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161073346
-ModificationTime: 1356686548
+ModificationTime: 1357296096
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -50,6 +50,8 @@ OS2SupYOff: 512
 OS2StrikeYSize: 50
 OS2StrikeYPos: 250
 OS2Vendor: 'MODI'
+Lookup: 4 0 0 "Ligature Substitution for Ra ZWJ"  {"Ligature Substitution for Ra ZWJ-1"  } []
+Lookup: 6 0 0 "'abvs' Above Base Substitutions lookup 20"  {"'abvs' Above Base Substitutions lookup 20-1"  } ['abvs' ('DFLT' <'dflt' > 'deva' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 5 0 0 "'psts' Post Base Substitutions lookup 18"  {"'psts' Post Base Substitutions lookup 18-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'abvs' Above Base Substitutions in Kannada lookup 0"  {"'abvs' Above Base Substitutions in Kannada lookup 0"  } ['abvs' ('knda' <'dflt' > ) ]
 Lookup: 4 0 0 "'akhn' Akhand in Kannada lookup 1"  {"'akhn' Akhand in Kannada lookup 1"  } ['akhn' ('knda' <'dflt' > ) ]
@@ -82,6 +84,26 @@ KernClass2: 4 2 "'kern' Horizontal Kerning lookup 2-1"
  84 U0C97_U0CCB.blwf U0C95_U0CCD.blwf U0C97_U0CCD.blwf U0CB3_U0CCD.blwf U0CB6_U0CCD.blwf
  358 exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash zero one two three four five six seven eight nine colon semicolon less equal greater question at bracketleft backslash bracketright asciicircum underscore grave braceleft bar braceright asciitilde cent multiply divide uni0964 uni0965
  0 {} 0 {} 0 {} 286 {} 0 {} 400 {} 0 {} 200 {}
+ChainSub2: class "'abvs' Above Base Substitutions lookup 20-1"  4 4 4 1
+  Class: 5 U0CB0
+  Class: 7 afii301
+  Class: 65 U0CBE U0CBF U0CC0 U0CC1 U0CC2 U0CC6 U0CC7 U0CC8 U0CCA U0CCB U0CCC
+  BClass: 5 U0CB0
+  BClass: 7 afii301
+  BClass: 65 U0CBE U0CBF U0CC0 U0CC1 U0CC2 U0CC6 U0CC7 U0CC8 U0CCA U0CCB U0CCC
+  FClass: 5 U0CB0
+  FClass: 7 afii301
+  FClass: 65 U0CBE U0CBF U0CC0 U0CC1 U0CC2 U0CC6 U0CC7 U0CC8 U0CCA U0CCB U0CCC
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 2 3
+ 1
+  SeqLookup: 0 "Ligature Substitution for Ra ZWJ" 
+  ClassNames: "All_Others"  "Cons"  "ZWJ"  "Matra"  
+  BClassNames: "All_Others"  "Cons"  "ZWJ"  "Matra"  
+  FClassNames: "All_Others"  "Cons"  "ZWJ"  "Matra"  
+EndFPST
 ContextSub2: glyph "'psts' Post Base Substitutions lookup 18-1"  0 0 0 1
  String: 18 afii301 parenright
  BString: 0 
@@ -4154,7 +4176,7 @@ StartChar: U0CC4
 Encoding: 3268 3268 66
 Width: 137
 GlyphClass: 4
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8868,6 +8890,7 @@ SplineSet
  150 468 150 468 196 507 c 1,62,-1
  196 507 l 1,13,-1
 EndSplineSet
+Ligature2: "Ligature Substitution for Ra ZWJ-1" U0CB0 afii301 U0CBE
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 0" U0CB0 U0CBE
 EndChar
 
@@ -12007,6 +12030,7 @@ SplineSet
  99 175 99 175 99 299 c 1,45,-1
  99 299 l 1,27,28
 EndSplineSet
+Ligature2: "Ligature Substitution for Ra ZWJ-1" U0CB0 afii301 U0CBF
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 0" U0CB0 U0CBF
 EndChar
 
@@ -15820,6 +15844,7 @@ SplineSet
  745 237 745 237 745 338 c 1,81,-1
  745 338 l 1,59,60
 EndSplineSet
+Ligature2: "Ligature Substitution for Ra ZWJ-1" U0CB0 afii301 U0CC0
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 0" U0CB0 U0CC0
 EndChar
@@ -19315,6 +19340,7 @@ SplineSet
  150 468 150 468 196 507 c 1,55,-1
  196 507 l 1,13,-1
 EndSplineSet
+Ligature2: "Ligature Substitution for Ra ZWJ-1" U0CB0 afii301 U0CC6
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 0" U0CB0 U0CC6
 EndChar
 
@@ -23229,6 +23255,7 @@ SplineSet
  745 237 745 237 745 338 c 1,91,-1
  745 338 l 1,69,70
 EndSplineSet
+Ligature2: "Ligature Substitution for Ra ZWJ-1" U0CB0 afii301 U0CC7
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 0" U0CB0 U0CC7
 EndChar
 
@@ -27845,6 +27872,7 @@ SplineSet
  399 -336 399 -336 399 -247 c 1,112,-1
  399 -247 l 1,69,70
 EndSplineSet
+Ligature2: "Ligature Substitution for Ra ZWJ-1" U0CB0 afii301 U0CC8
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 0" U0CB0 U0CC8
 EndChar
 
@@ -32359,6 +32387,7 @@ SplineSet
  150 468 150 468 196 507 c 1,107,-1
  196 507 l 1,13,-1
 EndSplineSet
+Ligature2: "Ligature Substitution for Ra ZWJ-1" U0CB0 afii301 U0CCA
 Ligature2: "'pstf' Post Base Forms in Kannada lookup 12" U0CB0 U0CCA
 EndChar
 
@@ -42047,6 +42076,7 @@ SplineSet
  150 468 150 468 196 507 c 1,78,-1
  196 507 l 1,13,-1
 EndSplineSet
+Ligature2: "Ligature Substitution for Ra ZWJ-1" U0CB0 afii301 U0CCC
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 0" U0CB0 U0CCC
 EndChar
 
