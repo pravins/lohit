@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161073346
-ModificationTime: 1357552537
+ModificationTime: 1357579625
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -104,13 +104,13 @@ ChainSub2: class "'psts' Post Base Substitutions lookup 22-2"  3 3 3 1
   FClassNames: "All_Others"  "Liga"  "Matra"  
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions lookup 22-1"  4 4 4 1
-  Class: 34 U0C9A U0C95 U0C9A_U0CC6.abvs U0CA1
+  Class: 51 U0C9A U0C95 U0C9A_U0CC6.abvs U0CA1 U0CA1_U0CC6.abvs
   Class: 49 U0C9A_0CCD.blwf U0CB7_U0CCD.blwf U0CA1_U0CCD.blwf
   Class: 17 U0CC3 U0CC4 U0CD6
-  BClass: 34 U0C9A U0C95 U0C9A_U0CC6.abvs U0CA1
+  BClass: 51 U0C9A U0C95 U0C9A_U0CC6.abvs U0CA1 U0CA1_U0CC6.abvs
   BClass: 49 U0C9A_0CCD.blwf U0CB7_U0CCD.blwf U0CA1_U0CCD.blwf
   BClass: 17 U0CC3 U0CC4 U0CD6
-  FClass: 34 U0C9A U0C95 U0C9A_U0CC6.abvs U0CA1
+  FClass: 51 U0C9A U0C95 U0C9A_U0CC6.abvs U0CA1 U0CA1_U0CC6.abvs
   FClass: 49 U0C9A_0CCD.blwf U0CB7_U0CCD.blwf U0CA1_U0CCD.blwf
   FClass: 17 U0CC3 U0CC4 U0CD6
  1 2 0
@@ -18345,6 +18345,7 @@ Encoding: 65685 -1 244
 Width: 744
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" 430 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -18423,6 +18424,7 @@ SplineSet
  107 137 107 137 107 234 c 1,102,-1
  107 234 l 1,48,49
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions in Kannada lookup 0" U0CA1 U0CC6
 EndChar
 
