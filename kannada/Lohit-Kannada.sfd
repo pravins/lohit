@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161073346
-ModificationTime: 1357628184
+ModificationTime: 1357632020
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -52936,7 +52936,6 @@ SplineSet
  -234 -410 l 1,0,1
 EndSplineSet
 Ligature2: "'blwf' Below Base Forms in Kannada lookup 2" U0CB5 U0CCD
-LCarets2: 1 -1 
 EndChar
 
 StartChar: U0CB6_U0CCD.blwf
@@ -52999,7 +52998,7 @@ EndChar
 StartChar: U0CB7_U0CCD.blwf
 Encoding: 66037 -1 596
 Width: 0
-GlyphClass: 3
+GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-0" 80 -84 mark 0
 LayerCount: 2
@@ -53044,7 +53043,6 @@ SplineSet
  -234 -392 -234 -392 -234 -338 c 129,-1,1
 EndSplineSet
 Ligature2: "'blwf' Below Base Forms in Kannada lookup 2" U0CB7 U0CCD
-LCarets2: 1 -5 
 EndChar
 
 StartChar: U0CB8_U0CCD.blwf
