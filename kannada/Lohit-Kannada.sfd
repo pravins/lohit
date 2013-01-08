@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161073346
-ModificationTime: 1357579625
+ModificationTime: 1357628184
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -74,7 +74,7 @@ Lookup: 1 0 0 "Single Substitution lookup 16"  {"Single Substitution lookup 16" 
 Lookup: 1 0 0 "Single Substitution lookup 17"  {"Single Substitution lookup 17"  } []
 Lookup: 1 0 0 "Single Substitution lookup 18"  {"Single Substitution lookup 18-1"  } []
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 4"  {"'kern' Horizontal Kerning lookup 4-1" [153,15,2] } ['kern' ('DFLT' <'dflt' > 'deva' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 8 0 "'blwm' Below Base Mark in Kannada lookup 0"  {"'blwm' Below Base Mark in Kannada lookup 0"  } ['blwm' ('knda' <'dflt' > ) ]
+Lookup: 260 0 0 "'blwm' Below Base Mark in Kannada lookup 0"  {"'blwm' Below Base Mark in Kannada lookup 0"  } ['blwm' ('DFLT' <'dflt' > 'deva' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Kannada lookup 1"  {"'kern' Horizontal Kerning in Kannada lookup 1" [153,15,0] } ['kern' ('knda' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 2"  {"'kern' Horizontal Kerning lookup 2-1" [153,0,0] } ['kern' ('DFLT' <'dflt' > 'deva' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 3"  {"'kern' Horizontal Kerning lookup 3-1" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'deva' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
@@ -105,13 +105,13 @@ ChainSub2: class "'psts' Post Base Substitutions lookup 22-2"  3 3 3 1
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions lookup 22-1"  4 4 4 1
   Class: 51 U0C9A U0C95 U0C9A_U0CC6.abvs U0CA1 U0CA1_U0CC6.abvs
-  Class: 49 U0C9A_0CCD.blwf U0CB7_U0CCD.blwf U0CA1_U0CCD.blwf
+  Class: 66 U0C9A_0CCD.blwf U0CB7_U0CCD.blwf U0CA1_U0CCD.blwf U0CAC_U0CCD.blwf
   Class: 17 U0CC3 U0CC4 U0CD6
   BClass: 51 U0C9A U0C95 U0C9A_U0CC6.abvs U0CA1 U0CA1_U0CC6.abvs
-  BClass: 49 U0C9A_0CCD.blwf U0CB7_U0CCD.blwf U0CA1_U0CCD.blwf
+  BClass: 66 U0C9A_0CCD.blwf U0CB7_U0CCD.blwf U0CA1_U0CCD.blwf U0CAC_U0CCD.blwf
   BClass: 17 U0CC3 U0CC4 U0CD6
   FClass: 51 U0C9A U0C95 U0C9A_U0CC6.abvs U0CA1 U0CA1_U0CC6.abvs
-  FClass: 49 U0C9A_0CCD.blwf U0CB7_U0CCD.blwf U0CA1_U0CCD.blwf
+  FClass: 66 U0C9A_0CCD.blwf U0CB7_U0CCD.blwf U0CA1_U0CCD.blwf U0CAC_U0CCD.blwf
   FClass: 17 U0CC3 U0CC4 U0CD6
  1 2 0
   ClsList: 3
@@ -438,7 +438,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 36 12
+WinInfo: 0 44 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -5934,7 +5934,7 @@ StartChar: glyph94
 Encoding: 65538 -1 97
 Width: 396
 GlyphClass: 2
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -46689,6 +46689,7 @@ SplineSet
  694 475 l 1,126,-1
  694 475 l 1,115,116
 EndSplineSet
+Ligature2: "'akhn' Akhand in Kannada lookup 1" U0C95 U0CCD U0CB7 U0CCD 
 Ligature2: "'akhn' Akhand in Kannada lookup 1" U0C95 U0CB7 U0CCD U0CCD
 EndChar
 
@@ -51429,7 +51430,7 @@ EndChar
 StartChar: U0C9A_0CCD.blwf
 Encoding: 66010 -1 569
 Width: 0
-GlyphClass: 3
+GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-0" 34 -40 mark 0
 LayerCount: 2
@@ -51495,7 +51496,6 @@ SplineSet
  -227 -458 -227 -458 -227 -410 c 1,77,-1
  -227 -410 l 1,0,1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'blwf' Below Base Forms in Kannada lookup 2" U0C9A U0CCD
 EndChar
 
@@ -51890,7 +51890,7 @@ EndChar
 StartChar: U0CA1_U0CCD.blwf
 Encoding: 66017 -1 576
 Width: 0
-GlyphClass: 3
+GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-0" 28 -94 mark 0
 LayerCount: 2
@@ -51949,7 +51949,6 @@ SplineSet
  137 -288 137 -288 137 -293 c 1,69,-1
  137 -293 l 1,57,58
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'blwf' Below Base Forms in Kannada lookup 2" U0CA1 U0CCD
 EndChar
 
@@ -52442,7 +52441,7 @@ EndChar
 StartChar: U0CAC_U0CCD.blwf
 Encoding: 66027 -1 586
 Width: 0
-GlyphClass: 3
+GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-0" 48 -70 mark 0
 LayerCount: 2
@@ -52494,6 +52493,7 @@ SplineSet
  -214 -422 -214 -422 -214 -371 c 1,61,-1
  -214 -371 l 1,0,1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'blwf' Below Base Forms in Kannada lookup 2" U0CAC U0CCD
 EndChar
 
