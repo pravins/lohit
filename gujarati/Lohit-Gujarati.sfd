@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1352197452
+ModificationTime: 1357640329
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -373,7 +373,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 27 27 12
+WinInfo: 0 44 17
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Gujarati lookup 2 subtable" "Anchor-1"  "'blwm' Below Base Mark in Gujarati lookup 1 subtable" "Anchor-2"  "'blwm' Below Base Mark in Gujarati lookup 0 subtable" 
@@ -2535,7 +2535,7 @@ StartChar: u0AAA
 Encoding: 2727 2727 54
 Width: 596
 GlyphClass: 2
-Flags: W
+Flags: WO
 AnchorPoint: "Anchor-2" 224 56 basechar 0
 LayerCount: 2
 Fore
@@ -2545,15 +2545,13 @@ SplineSet
  61 132 61 132 61 190 c 0,3,4
  61 226 61 226 84.5 256 c 128,-1,5
  108 286 108 286 146 300 c 1,6,7
- 104 311 104 311 77.5 339 c 128,-1,8
- 51 367 51 367 51 400 c 0,9,10
- 51 450 51 450 123 495 c 128,-1,11
- 195 540 195 540 306 560 c 1,12,-1
- 321 515 l 1,13,14
- 230 499 230 499 170.5 466.5 c 128,-1,15
- 111 434 111 434 111 400 c 256,16,17
- 111 366 111 366 156 345.5 c 128,-1,18
- 201 325 201 325 276 325 c 1,19,-1
+ 104 311 104 311 77.5 339 c 0,8,9
+ 32.501 397.256 32.501 397.256 77.9102 476.242 c 0,10,11
+ 97.7852 510.813 97.7852 510.813 177.24 590.863 c 1,12,-1
+ 222.013 555.159 l 1,13,14
+ 167.045 510.11 167.045 510.11 136.299 461.772 c 0,15,16
+ 83.1488 376.579 83.1488 376.579 156 346.5 c 0,17,18
+ 206.733 326 206.733 326 276 325 c 1,19,-1
  276 275 l 1,20,21
  212 275 212 275 166.5 250 c 128,-1,22
  121 225 121 225 121 190 c 0,23,24
