@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161073346
-ModificationTime: 1357632020
+ModificationTime: 1357794564
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -6429,7 +6429,8 @@ SplineSet
  140 -364 140 -364 102 -326 c 128,-1,48
  64 -288 64 -288 64 -234 c 129,-1,49
 EndSplineSet
-Kerns2: 66 370 "'kern' Horizontal Kerning lookup 4-1"  65 370 "'kern' Horizontal Kerning lookup 4-1" 
+Kerns2: 98 100 "'kern' Horizontal Kerning lookup 4-1"  97 100 "'kern' Horizontal Kerning lookup 4-1"  66 370 "'kern' Horizontal Kerning lookup 4-1"  65 370 "'kern' Horizontal Kerning lookup 4-1" 
+LCarets2: 2 0 0 
 Ligature2: "'akhn' Akhand in Kannada lookup 1" U0C95 U0CB7 U0CCD
 Ligature2: "'akhn' Akhand in Kannada lookup 1" U0C95 U0CCD U0CB7
 EndChar
@@ -29088,6 +29089,7 @@ SplineSet
  65 423 l 1,174,-1
  65 423 l 1,123,-1
 EndSplineSet
+LCarets2: 4 0 0 0 0 
 Ligature2: "'akhn' Akhand in Kannada lookup 1" U0C95 U0CC6 U0CB7 U0CCD U0CD6
 EndChar
 

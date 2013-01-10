@@ -6,7 +6,7 @@ Current Version :- 2.5.3
 - Removed wrongly map glyph from uni2212
 - Dropping RFN from OFL.txt
 - Skipped 2.5.2 for matching version with family
-- Added CCS for #825081
+- Added CCS for #825081, fixed mergin of K.SSA 
 
 
 * Wed Feb 29 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.1
