@@ -1,0 +1,62 @@
+all: ttf woff eot svg ttf-dist sfd-dist web-dist
+
+version:= 2.5.3
+
+ttf: ttf-bin
+	@echo "----------Generating ttf from sfd file----------"
+	/usr/bin/fontforge -script ../generate-ttf.pe *.sfd
+	@echo "----------Finished generating ttf file----------"
+	@echo " "
+
+woff: woff-bin
+	@echo "----------Generating woff from ttf file----------"
+	/usr/bin/fontforge -script ../generate-woff.pe *.ttf
+	@echo "----------Finished generating woff file----------"
+	@echo " "
+
+eot: eot-bin
+	@echo "----------Generating eot from ttf file----------"
+	/usr/bin/fontforge -script ../generate-eot.pe *.ttf
+	@echo "----------Finished generating eot file----------"
+	@echo " "
+
+svg: svg-bin
+	@echo "----------Generating svg from ttf file----------"
+	/usr/bin/fontforge -script ../generate-svg.pe *.ttf
+	@echo "----------Finished generating svg file----------"
+	@echo " "
+
+ttf-dist: dist
+	mkdir lohit-gujarati-ttf-$(version)
+	cp -p ../ChangeLog ChangeLog.old
+	cp -p ../COPYRIGHT ../OFL.txt ../README ../README.cvs ../AUTHORS  ChangeLog ChangeLog.old 66-lohit-gujarati.conf Lohit-Gujarati.ttf lohit-gujarati-ttf-$(version)
+	rm -rf lohit-gujarati-ttf-$(version)/.git
+	tar -cf lohit-gujarati-ttf-$(version).tar lohit-gujarati-ttf-$(version)
+	gzip lohit-gujarati-ttf-$(version).tar
+	rm -rf lohit-gujarati-ttf-$(version)
+
+sfd-dist: dist
+	mkdir lohit-gujarati-$(version)
+	cp -p ../ChangeLog ChangeLog.old
+	cp -p ../COPYRIGHT ../OFL.txt ../README ../README.cvs ../AUTHORS ../generate*.pe Makefile ChangeLog ChangeLog.old 66-lohit-gujarati.conf Lohit-Gujarati.sfd lohit-gujarati-$(version)
+	rm -rf lohit-gujarati-$(version)/.git
+	rm -rf lohit-gujarati-$(version)/*.ttf
+	tar -cf lohit-gujarati-$(version).tar lohit-gujarati-$(version)
+	gzip lohit-gujarati-$(version).tar
+	rm -rf lohit-gujarati-$(version)
+
+web-dist: webdist
+	mkdir lohit-gujarati-web-$(version)
+	cp -p ../ChangeLog ChangeLog.old
+	cp -p ../COPYRIGHT ../OFL.txt ../README ../README.cvs ../AUTHORS  ChangeLog ChangeLog.old Lohit-Gujarati.woff  Lohit-Gujarati.eot Lohit-Gujarati.svg lohit-gujarati-web-$(version)
+	rm -rf lohit-gujarati-web-$(version)/.git
+	tar -cf lohit-gujarati-web-$(version).tar lohit-gujarati-web-$(version)
+	gzip lohit-gujarati-web-$(version).tar
+	rm -rf lohit-gujarati-web-$(version)
+
+clean: cleanall
+	rm -f *.ttf *.eot *.woff *.svg
+	rm -rf *.tar.gz
+	rm -rf lohit-gujarati*
+
+.PHONY: ttf-bin woff-bin eot-bin svg-bin webdist dist cleanall version
