@@ -4,7 +4,7 @@ all-ttf:= assamese bengali devanagari gujarati kannada malayalam marathi nepali 
 all:
 	
 	for font in $(all-ttf); do \
-                 cd $${font};		cp ../generate* .;		 make all;		 rm -f generate*;		 cd ..; \
+                 cd $${font};	cp ../AUTHORS ../generate*.pe ../COPYRIGHT ../OFL.txt ../README ../README.cvs .;	 make all;		 rm -f generate* AUTHORS COPYRIHGT OFL.txt README README.cvs;		 cd ..; \
         done
 
 clean:
