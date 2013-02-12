@@ -4,32 +4,31 @@ version:= 2.5.3
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
-	/usr/bin/fontforge -script ../generate-ttf.pe *.sfd
+	/usr/bin/fontforge -script generate-ttf.pe *.sfd
 	@echo "----------Finished generating ttf file----------"
 	@echo " "
 
 woff: woff-bin
 	@echo "----------Generating woff from ttf file----------"
-	/usr/bin/fontforge -script ../generate-woff.pe *.ttf
+	/usr/bin/fontforge -script generate-woff.pe *.ttf
 	@echo "----------Finished generating woff file----------"
 	@echo " "
 
 eot: eot-bin
 	@echo "----------Generating eot from ttf file----------"
-	/usr/bin/fontforge -script ../generate-eot.pe *.ttf
+	/usr/bin/fontforge -script generate-eot.pe *.ttf
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 
 svg: svg-bin
 	@echo "----------Generating svg from ttf file----------"
-	/usr/bin/fontforge -script ../generate-svg.pe *.ttf
+	/usr/bin/fontforge -script generate-svg.pe *.ttf
 	@echo "----------Finished generating svg file----------"
 	@echo " "
 
 ttf-dist: dist
 	mkdir lohit-bengali-ttf-$(version)
-	cp -p ../ChangeLog ChangeLog.old
-	cp -p ../COPYRIGHT ../OFL.txt ../README ../README.cvs ../AUTHORS  ChangeLog ChangeLog.old 66-lohit-bengali.conf Lohit-Bengali.ttf lohit-bengali-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog ChangeLog.old 66-lohit-bengali.conf Lohit-Bengali.ttf lohit-bengali-ttf-$(version)
 	rm -rf lohit-bengali-ttf-$(version)/.git
 	tar -cf lohit-bengali-ttf-$(version).tar lohit-bengali-ttf-$(version)
 	gzip lohit-bengali-ttf-$(version).tar
@@ -37,8 +36,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-bengali-$(version)
-	cp -p ../ChangeLog ChangeLog.old
-	cp -p ../COPYRIGHT ../OFL.txt ../README ../README.cvs ../AUTHORS ../generate*.pe Makefile ChangeLog ChangeLog.old 66-lohit-bengali.conf Lohit-Bengali.sfd lohit-bengali-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS generate*.pe Makefile ChangeLog 66-lohit-bengali.conf Lohit-Bengali.sfd lohit-bengali-$(version)
 	rm -rf lohit-bengali-$(version)/.git
 	rm -rf lohit-bengali-$(version)/*.ttf
 	tar -cf lohit-bengali-$(version).tar lohit-bengali-$(version)
@@ -47,8 +45,7 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-bengali-web-$(version)
-	cp -p ../ChangeLog ChangeLog.old
-	cp -p ../COPYRIGHT ../OFL.txt ../README ../README.cvs ../AUTHORS  ChangeLog ChangeLog.old Lohit-Bengali.woff  Lohit-Bengali.eot Lohit-Bengali.svg lohit-bengali-web-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Bengali.woff  Lohit-Bengali.eot Lohit-Bengali.svg lohit-bengali-web-$(version)
 	rm -rf lohit-bengali-web-$(version)/.git
 	tar -cf lohit-bengali-web-$(version).tar lohit-bengali-web-$(version)
 	gzip lohit-bengali-web-$(version).tar

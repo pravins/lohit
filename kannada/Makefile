@@ -4,32 +4,31 @@ version:= 2.5.3
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
-	/usr/bin/fontforge -script ../generate-ttf.pe *.sfd
+	/usr/bin/fontforge -script generate-ttf.pe *.sfd
 	@echo "----------Finished generating ttf file----------"
 	@echo " "
 
 woff: woff-bin
 	@echo "----------Generating woff from ttf file----------"
-	/usr/bin/fontforge -script ../generate-woff.pe *.ttf
+	/usr/bin/fontforge -script generate-woff.pe *.ttf
 	@echo "----------Finished generating woff file----------"
 	@echo " "
 
 eot: eot-bin
 	@echo "----------Generating eot from ttf file----------"
-	/usr/bin/fontforge -script ../generate-eot.pe *.ttf
+	/usr/bin/fontforge -script generate-eot.pe *.ttf
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 
 svg: svg-bin
 	@echo "----------Generating svg from ttf file----------"
-	/usr/bin/fontforge -script ../generate-svg.pe *.ttf
+	/usr/bin/fontforge -script generate-svg.pe *.ttf
 	@echo "----------Finished generating svg file----------"
 	@echo " "
 
 ttf-dist: dist
 	mkdir lohit-kannada-ttf-$(version)
-	cp -p ../ChangeLog ChangeLog.old
-	cp -p ../COPYRIGHT ../OFL.txt ../README ../README.cvs ../AUTHORS  ChangeLog ChangeLog.old 66-lohit-kannada.conf Lohit-Kannada.ttf lohit-kannada-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog  66-lohit-kannada.conf Lohit-Kannada.ttf lohit-kannada-ttf-$(version)
 	rm -rf lohit-kannada-ttf-$(version)/.git
 	tar -cf lohit-kannada-ttf-$(version).tar lohit-kannada-ttf-$(version)
 	gzip lohit-kannada-ttf-$(version).tar
@@ -37,8 +36,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-kannada-$(version)
-	cp -p ../ChangeLog ChangeLog.old
-	cp -p ../COPYRIGHT ../OFL.txt ../README ../README.cvs ../AUTHORS ../generate*.pe Makefile ChangeLog ChangeLog.old 66-lohit-kannada.conf Lohit-Kannada.sfd lohit-kannada-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS generate*.pe Makefile ChangeLog 66-lohit-kannada.conf Lohit-Kannada.sfd lohit-kannada-$(version)
 	rm -rf lohit-kannada-$(version)/.git
 	rm -rf lohit-kannada-$(version)/*.ttf
 	tar -cf lohit-kannada-$(version).tar lohit-kannada-$(version)
@@ -47,8 +45,8 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-kannada-web-$(version)
-	cp -p ../ChangeLog ChangeLog.old
-	cp -p ../COPYRIGHT ../OFL.txt ../README ../README.cvs ../AUTHORS  ChangeLog ChangeLog.old Lohit-Kannada.woff  Lohit-Kannada.eot Lohit-Kannada.svg lohit-kannada-web-$(version)
+	cp -p ChangeLog 
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog  Lohit-Kannada.woff  Lohit-Kannada.eot Lohit-Kannada.svg lohit-kannada-web-$(version)
 	rm -rf lohit-kannada-web-$(version)/.git
 	tar -cf lohit-kannada-web-$(version).tar lohit-kannada-web-$(version)
 	gzip lohit-kannada-web-$(version).tar
