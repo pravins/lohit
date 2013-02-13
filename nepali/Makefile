@@ -1,4 +1,4 @@
-all: ttf woff eot svg ttf-dist sfd-dist web-dist
+all: ttf woff eot ttf-dist sfd-dist web-dist
 
 version:= 2.5.3
 
@@ -20,12 +20,6 @@ eot: eot-bin
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 
-svg: svg-bin
-	@echo "----------Generating svg from ttf file----------"
-	/usr/bin/fontforge -script generate-svg.pe *.ttf
-	@echo "----------Finished generating svg file----------"
-	@echo " "
-
 ttf-dist: dist
 	mkdir lohit-nepali-ttf-$(version)
 	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog  65-0-lohit-nepali.conf Lohit-Nepali.ttf lohit-nepali-ttf-$(version)
@@ -45,15 +39,15 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-nepali-web-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Nepali.woff  Lohit-Nepali.eot Lohit-Nepali.svg lohit-nepali-web-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Nepali.woff  Lohit-Nepali.eot lohit-nepali-web-$(version)
 	rm -rf lohit-nepali-web-$(version)/.git
 	tar -cf lohit-nepali-web-$(version).tar lohit-nepali-web-$(version)
 	gzip lohit-nepali-web-$(version).tar
 	rm -rf lohit-nepali-web-$(version)
 
 clean: cleanall
-	rm -f *.ttf *.eot *.woff *.svg
+	rm -f *.ttf *.eot *.woff
 	rm -rf *.tar.gz
 	rm -rf lohit-nepali*
 
-.PHONY: ttf-bin woff-bin eot-bin svg-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version

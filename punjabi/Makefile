@@ -1,4 +1,4 @@
-all: ttf woff eot svg ttf-dist sfd-dist web-dist
+all: ttf woff eot ttf-dist sfd-dist web-dist
 
 version:= 2.5.3
 
@@ -20,12 +20,6 @@ eot: eot-bin
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 
-svg: svg-bin
-	@echo "----------Generating svg from ttf file----------"
-	/usr/bin/fontforge -script generate-svg.pe *.ttf
-	@echo "----------Finished generating svg file----------"
-	@echo " "
-
 ttf-dist: dist
 	mkdir lohit-punjabi-ttf-$(version)
 	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog  66-lohit-punjabi.conf Lohit-Punjabi.ttf lohit-punjabi-ttf-$(version)
@@ -45,15 +39,15 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-punjabi-web-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Punjabi.woff  Lohit-Punjabi.eot Lohit-Punjabi.svg lohit-punjabi-web-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Punjabi.woff  Lohit-Punjabi.eot lohit-punjabi-web-$(version)
 	rm -rf lohit-punjabi-web-$(version)/.git
 	tar -cf lohit-punjabi-web-$(version).tar lohit-punjabi-web-$(version)
 	gzip lohit-punjabi-web-$(version).tar
 	rm -rf lohit-punjabi-web-$(version)
 
 clean: cleanall
-	rm -f *.ttf *.eot *.woff *.svg
+	rm -f *.ttf *.eot *.woff
 	rm -rf *.tar.gz
 	rm -rf lohit-punjabi*
 
-.PHONY: ttf-bin woff-bin eot-bin svg-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version

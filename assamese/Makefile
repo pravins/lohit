@@ -1,4 +1,4 @@
-all: ttf woff eot svg ttf-dist sfd-dist web-dist
+all: ttf woff eot ttf-dist sfd-dist web-dist
 
 version:= 2.5.3
 
@@ -20,12 +20,6 @@ eot: eot-bin
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 
-svg: svg-bin
-	@echo "----------Generating svg from ttf file----------"
-	/usr/bin/fontforge -script generate-svg.pe *.ttf
-	@echo "----------Finished generating svg file----------"
-	@echo " "
-
 ttf-dist: dist
 	mkdir lohit-assamese-ttf-$(version)
 	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog 66-lohit-assamese.conf Lohit-Assamese.ttf lohit-assamese-ttf-$(version)
@@ -45,7 +39,7 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-assamese-web-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Assamese.woff  Lohit-Assamese.eot Lohit-Assamese.svg lohit-assamese-web-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Assamese.woff  Lohit-Assamese.eot lohit-assamese-web-$(version)
 	rm -rf lohit-assamese-web-$(version)/.git
 	tar -cf lohit-assamese-web-$(version).tar lohit-assamese-web-$(version)
 	gzip lohit-assamese-web-$(version).tar
@@ -56,4 +50,4 @@ clean: cleanall
 	rm -rf *.tar.gz
 	rm -rf lohit-assamese*
 
-.PHONY: ttf-bin woff-bin eot-bin svg-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version

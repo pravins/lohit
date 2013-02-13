@@ -1,4 +1,4 @@
-all: ttf woff eot svg ttf-dist sfd-dist web-dist
+all: ttf woff eot ttf-dist sfd-dist web-dist
 
 version:= 2.5.3
 
@@ -18,12 +18,6 @@ eot: eot-bin
 	@echo "----------Generating eot from ttf file----------"
 	java -jar /usr/share/java/sfnttool.jar -e -x Lohit-Bengali.ttf Lohit-Bengali.eot
 	@echo "----------Finished generating eot file----------"
-	@echo " "
-
-svg: svg-bin
-	@echo "----------Generating svg from ttf file----------"
-	/usr/bin/fontforge -script generate-svg.pe *.ttf
-	@echo "----------Finished generating svg file----------"
 	@echo " "
 
 ttf-dist: dist
@@ -46,15 +40,15 @@ sfd-dist: dist
 web-dist: webdist
 	mkdir lohit-devanagari-web-$(version)
 	cp -p ChangeLog ChangeLog.old
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Devanagari.woff  Lohit-Devanagari.eot Lohit-Devanagari.svg lohit-devanagari-web-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Devanagari.woff  Lohit-Devanagari.eot lohit-devanagari-web-$(version)
 	rm -rf lohit-devanagari-web-$(version)/.git
 	tar -cf lohit-devanagari-web-$(version).tar lohit-devanagari-web-$(version)
 	gzip lohit-devanagari-web-$(version).tar
 	rm -rf lohit-devanagari-web-$(version)
 
 clean: cleanall
-	rm -f *.ttf *.eot *.woff *.svg
+	rm -f *.ttf *.eot *.woff
 	rm -rf *.tar.gz
 	rm -rf lohit-devanagari*
 
-.PHONY: ttf-bin woff-bin eot-bin svg-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version

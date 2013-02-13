@@ -1,4 +1,4 @@
-all: ttf woff eot svg ttf-dist sfd-dist web-dist
+all: ttf woff eot ttf-dist sfd-dist web-dist
 
 version:= 2.5.2
 
@@ -18,12 +18,6 @@ eot: eot-bin
 	@echo "----------Generating eot from ttf file----------"
 	java -jar /usr/share/java/sfnttool.jar -e -x Lohit-Marathi.ttf Lohit-Marathi.eot
 	@echo "----------Finished generating eot file----------"
-	@echo " "
-
-svg: svg-bin
-	@echo "----------Generating svg from ttf file----------"
-	/usr/bin/fontforge -script generate-svg.pe *.ttf
-	@echo "----------Finished generating svg file----------"
 	@echo " "
 
 ttf-dist: dist
@@ -48,15 +42,15 @@ sfd-dist: dist
 web-dist: webdist
 	mkdir lohit-marathi-web-$(version)
 	cp -p ChangeLog 
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog  Lohit-Marathi.woff  Lohit-Marathi.eot Lohit-Marathi.svg lohit-marathi-web-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog  Lohit-Marathi.woff  Lohit-Marathi.eot lohit-marathi-web-$(version)
 	rm -rf lohit-marathi-web-$(version)/.git
 	tar -cf lohit-marathi-web-$(version).tar lohit-marathi-web-$(version)
 	gzip lohit-marathi-web-$(version).tar
 	rm -rf lohit-marathi-web-$(version)
 
 clean: cleanall
-	rm -f *.ttf *.eot *.woff *.svg
+	rm -f *.ttf *.eot *.woff
 	rm -rf *.tar.gz
 	rm -rf lohit-marathi*
 
-.PHONY: ttf-bin woff-bin eot-bin svg-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version

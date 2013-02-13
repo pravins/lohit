@@ -1,4 +1,4 @@
-all: ttf woff eot svg ttf-dist sfd-dist web-dist
+all: ttf woff eot ttf-dist sfd-dist web-dist
 
 version:= 2.5.3
 
@@ -20,15 +20,9 @@ eot: eot-bin
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 
-svg: svg-bin
-	@echo "----------Generating svg from ttf file----------"
-	/usr/bin/fontforge -script generate-svg.pe *.ttf
-	@echo "----------Finished generating svg file----------"
-	@echo " "
-
 ttf-dist: dist
 	mkdir lohit-gujarati-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog ChangeLog.old 66-lohit-gujarati.conf Lohit-Gujarati.ttf lohit-gujarati-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog 66-lohit-gujarati.conf Lohit-Gujarati.ttf lohit-gujarati-ttf-$(version)
 	rm -rf lohit-gujarati-ttf-$(version)/.git
 	tar -cf lohit-gujarati-ttf-$(version).tar lohit-gujarati-ttf-$(version)
 	gzip lohit-gujarati-ttf-$(version).tar
@@ -45,16 +39,15 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-gujarati-web-$(version)
-	cp -p ChangeLog ChangeLog.old
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Gujarati.woff  Lohit-Gujarati.eot Lohit-Gujarati.svg lohit-gujarati-web-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Gujarati.woff  Lohit-Gujarati.eot lohit-gujarati-web-$(version)
 	rm -rf lohit-gujarati-web-$(version)/.git
 	tar -cf lohit-gujarati-web-$(version).tar lohit-gujarati-web-$(version)
 	gzip lohit-gujarati-web-$(version).tar
 	rm -rf lohit-gujarati-web-$(version)
 
 clean: cleanall
-	rm -f *.ttf *.eot *.woff *.svg
+	rm -f *.ttf *.eot *.woff
 	rm -rf *.tar.gz
 	rm -rf lohit-gujarati*
 
-.PHONY: ttf-bin woff-bin eot-bin svg-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version

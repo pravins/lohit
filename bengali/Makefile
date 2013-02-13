@@ -1,4 +1,4 @@
-all: ttf woff eot svg ttf-dist sfd-dist web-dist
+all: ttf woff eot ttf-dist sfd-dist web-dist
 
 version:= 2.5.3
 
@@ -20,12 +20,6 @@ eot: eot-bin
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 
-svg: svg-bin
-	@echo "----------Generating svg from ttf file----------"
-	/usr/bin/fontforge -script generate-svg.pe *.ttf
-	@echo "----------Finished generating svg file----------"
-	@echo " "
-
 ttf-dist: dist
 	mkdir lohit-bengali-ttf-$(version)
 	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog ChangeLog.old 66-lohit-bengali.conf Lohit-Bengali.ttf lohit-bengali-ttf-$(version)
@@ -45,15 +39,15 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-bengali-web-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Bengali.woff  Lohit-Bengali.eot Lohit-Bengali.svg lohit-bengali-web-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Bengali.woff  Lohit-Bengali.eot lohit-bengali-web-$(version)
 	rm -rf lohit-bengali-web-$(version)/.git
 	tar -cf lohit-bengali-web-$(version).tar lohit-bengali-web-$(version)
 	gzip lohit-bengali-web-$(version).tar
 	rm -rf lohit-bengali-web-$(version)
 
 clean: cleanall
-	rm -f *.ttf *.eot *.woff *.svg
+	rm -f *.ttf *.eot *.woff
 	rm -rf *.tar.gz
 	rm -rf lohit-bengali*
 
-.PHONY: ttf-bin woff-bin eot-bin svg-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version

@@ -1,4 +1,4 @@
-all: ttf woff eot svg ttf-dist sfd-dist web-dist
+all: ttf woff eot ttf-dist sfd-dist web-dist
 
 version:= 2.5.3
 
@@ -20,12 +20,6 @@ eot: eot-bin
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 
-svg: svg-bin
-	@echo "----------Generating svg from ttf file----------"
-	/usr/bin/fontforge -script generate-svg.pe *.ttf
-	@echo "----------Finished generating svg file----------"
-	@echo " "
-
 ttf-dist: dist
 	mkdir lohit-tamil-classical-ttf-$(version)
 	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog 66-lohit-tamil-classical.conf Lohit-Tamil-Classical.ttf lohit-tamil-classical-ttf-$(version)
@@ -45,15 +39,15 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-tamil-classical-web-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Tamil-Classical.woff  Lohit-Tamil-Classical.eot Lohit-Tamil-Classical.svg lohit-tamil-classical-web-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Tamil-Classical.woff  Lohit-Tamil-Classical.eot lohit-tamil-classical-web-$(version)
 	rm -rf lohit-tamil-classical-web-$(version)/.git
 	tar -cf lohit-tamil-classical-web-$(version).tar lohit-tamil-classical-web-$(version)
 	gzip lohit-tamil-classical-web-$(version).tar
 	rm -rf lohit-tamil-classical-web-$(version)
 
 clean: cleanall
-	rm -f *.ttf *.eot *.woff *.svg
+	rm -f *.ttf *.eot *.woff
 	rm -rf *.tar.gz
 	rm -rf lohit-tamil-classical*
 
-.PHONY: ttf-bin woff-bin eot-bin svg-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version

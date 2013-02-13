@@ -1,4 +1,4 @@
-all: ttf woff eot svg ttf-dist sfd-dist web-dist
+all: ttf woff eot ttf-dist sfd-dist web-dist
 
 version:= 2.5.3
 
@@ -18,12 +18,6 @@ eot: eot-bin
 	@echo "----------Generating eot from ttf file----------"
 	java -jar /usr/share/java/sfnttool.jar -e -x Lohit-Kannada.ttf Lohit-Kannada.eot
 	@echo "----------Finished generating eot file----------"
-	@echo " "
-
-svg: svg-bin
-	@echo "----------Generating svg from ttf file----------"
-	/usr/bin/fontforge -script generate-svg.pe *.ttf
-	@echo "----------Finished generating svg file----------"
 	@echo " "
 
 ttf-dist: dist
@@ -46,15 +40,15 @@ sfd-dist: dist
 web-dist: webdist
 	mkdir lohit-kannada-web-$(version)
 	cp -p ChangeLog 
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog  Lohit-Kannada.woff  Lohit-Kannada.eot Lohit-Kannada.svg lohit-kannada-web-$(version)
+	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog  Lohit-Kannada.woff  Lohit-Kannada.eot lohit-kannada-web-$(version)
 	rm -rf lohit-kannada-web-$(version)/.git
 	tar -cf lohit-kannada-web-$(version).tar lohit-kannada-web-$(version)
 	gzip lohit-kannada-web-$(version).tar
 	rm -rf lohit-kannada-web-$(version)
 
 clean: cleanall
-	rm -f *.ttf *.eot *.woff *.svg
+	rm -f *.ttf *.eot *.woff
 	rm -rf *.tar.gz
 	rm -rf lohit-kannada*
 
-.PHONY: ttf-bin woff-bin eot-bin svg-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version
