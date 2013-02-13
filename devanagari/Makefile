@@ -10,13 +10,13 @@ ttf: ttf-bin
 
 woff: woff-bin
 	@echo "----------Generating woff from ttf file----------"
-	/usr/bin/fontforge -script generate-woff.pe *.ttf
+	java -jar /usr/share/java/sfnttool.jar -w Lohit-Devanagari.ttf Lohit-Devanagari.woff
 	@echo "----------Finished generating woff file----------"
 	@echo " "
 
 eot: eot-bin
 	@echo "----------Generating eot from ttf file----------"
-	/usr/bin/fontforge -script generate-eot.pe *.ttf
+	java -jar /usr/share/java/sfnttool.jar -e -x Lohit-Bengali.ttf Lohit-Bengali.eot
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 
