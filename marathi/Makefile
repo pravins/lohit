@@ -22,7 +22,6 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-marathi-ttf-$(version)
-	cp -p ChangeLog 
 	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog 65-0-lohit-marathi.conf Lohit-Marathi.ttf lohit-marathi-ttf-$(version)
 	rm -rf lohit-marathi-ttf-$(version)/.git
 	tar -cf lohit-marathi-ttf-$(version).tar lohit-marathi-ttf-$(version)
@@ -31,7 +30,6 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-marathi-$(version)
-	cp -p ChangeLog 
 	cp -p COPYRIGHT OFL.txt README README.git AUTHORS generate*.pe Makefile ChangeLog  65-0-lohit-marathi.conf Lohit-Marathi.sfd lohit-marathi-$(version)
 	rm -rf lohit-marathi-$(version)/.git
 	rm -rf lohit-marathi-$(version)/*.ttf
