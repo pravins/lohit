@@ -4,7 +4,7 @@ version:= 2.5.3
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
-	/usr/bin/fontforge -script generate-ttf.pe *.sfd
+	./generate.pe *.sfd
 	@echo "----------Finished generating ttf file----------"
 	@echo " "
 
@@ -22,7 +22,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-devanagari-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog 66-lohit-devanagari.conf Lohit-Devanagari.ttf lohit-devanagari-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog 66-lohit-devanagari.conf Lohit-Devanagari.ttf lohit-devanagari-ttf-$(version)
 	rm -rf lohit-devanagari-ttf-$(version)/.git
 	tar -cf lohit-devanagari-ttf-$(version).tar lohit-devanagari-ttf-$(version)
 	gzip lohit-devanagari-ttf-$(version).tar
@@ -30,7 +30,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-devanagari-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS generate*.pe Makefile ChangeLog 66-lohit-devanagari.conf Lohit-Devanagari.sfd lohit-devanagari-$(version)
+	cp -p COPYRIGHT OFL.txt README README.git AUTHORS generate*.pe Makefile ChangeLog 66-lohit-devanagari.conf Lohit-Devanagari.sfd lohit-devanagari-$(version)
 	rm -rf lohit-devanagari-$(version)/.git
 	rm -rf lohit-devanagari-$(version)/*.ttf
 	tar -cf lohit-devanagari-$(version).tar lohit-devanagari-$(version)
@@ -40,7 +40,7 @@ sfd-dist: dist
 web-dist: webdist
 	mkdir lohit-devanagari-web-$(version)
 	cp -p ChangeLog ChangeLog.old
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Devanagari.woff  Lohit-Devanagari.eot lohit-devanagari-web-$(version)
+	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog Lohit-Devanagari.woff  Lohit-Devanagari.eot lohit-devanagari-web-$(version)
 	rm -rf lohit-devanagari-web-$(version)/.git
 	tar -cf lohit-devanagari-web-$(version).tar lohit-devanagari-web-$(version)
 	gzip lohit-devanagari-web-$(version).tar

@@ -1,8 +1,13 @@
 Lohit Fonts Project
 
+prerequisite to building Lohit fonts
+1. fontforge for "make ttf"
+1. sfntly for building web fonts.
+
 Scripts Usage:-
-Lohit CVS is now included with 2 shell scripts 
-1)generate.sh
+Lohit git is now included with required Makefiles. 
+1)make all
+  run this command from parent directory, it will generate all source, binary and web tarball.
   Once you checkout the .sfd files from lohit CVS, you just need to execute this script 
   and you will get all .ttf files in respective language directory. You can then install those font files
   by copying them to ~/.fonts directory. Then execute fc-cache command and then relogin to use that font.

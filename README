@@ -4,7 +4,7 @@
    Example
    $tar -xvf lohit-hindi-2.4.3.tar.gz 
    $cd lohit-hindi-2.4.3
-   $make
+   $make ttf
 
 2) Installing font (.ttf) file
    You can then install .ttf font files by copying them to ~/.fonts directory. 

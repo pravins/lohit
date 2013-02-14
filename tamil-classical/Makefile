@@ -4,7 +4,7 @@ version:= 2.5.3
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
-	/usr/bin/fontforge -script generate-ttf.pe *.sfd
+	./generate.pe *.sfd
 	@echo "----------Finished generating ttf file----------"
 	@echo " "
 
@@ -22,7 +22,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-tamil-classical-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog 66-lohit-tamil-classical.conf Lohit-Tamil-Classical.ttf lohit-tamil-classical-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog 66-lohit-tamil-classical.conf Lohit-Tamil-Classical.ttf lohit-tamil-classical-ttf-$(version)
 	rm -rf lohit-tamil-classical-ttf-$(version)/.git
 	tar -cf lohit-tamil-classical-ttf-$(version).tar lohit-tamil-classical-ttf-$(version)
 	gzip lohit-tamil-classical-ttf-$(version).tar
@@ -30,7 +30,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-tamil-classical-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS generate*.pe Makefile ChangeLog 66-lohit-tamil-classical.conf Lohit-Tamil-Classical.sfd lohit-tamil-classical-$(version)
+	cp -p COPYRIGHT OFL.txt README README.git AUTHORS generate*.pe Makefile ChangeLog 66-lohit-tamil-classical.conf Lohit-Tamil-Classical.sfd lohit-tamil-classical-$(version)
 	rm -rf lohit-tamil-classical-$(version)/.git
 	rm -rf lohit-tamil-classical-$(version)/*.ttf
 	tar -cf lohit-tamil-classical-$(version).tar lohit-tamil-classical-$(version)
@@ -39,7 +39,7 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-tamil-classical-web-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Tamil-Classical.woff  Lohit-Tamil-Classical.eot lohit-tamil-classical-web-$(version)
+	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog Lohit-Tamil-Classical.woff  Lohit-Tamil-Classical.eot lohit-tamil-classical-web-$(version)
 	rm -rf lohit-tamil-classical-web-$(version)/.git
 	tar -cf lohit-tamil-classical-web-$(version).tar lohit-tamil-classical-web-$(version)
 	gzip lohit-tamil-classical-web-$(version).tar

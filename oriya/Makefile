@@ -4,7 +4,7 @@ version:= 2.5.3
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
-	/usr/bin/fontforge -script generate-ttf.pe *.sfd
+	./generate.pe *.sfd
 	@echo "----------Finished generating ttf file----------"
 	@echo " "
 
@@ -22,7 +22,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-oriya-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog  66-lohit-oriya.conf Lohit-Oriya.ttf lohit-oriya-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog  66-lohit-oriya.conf Lohit-Oriya.ttf lohit-oriya-ttf-$(version)
 	rm -rf lohit-oriya-ttf-$(version)/.git
 	tar -cf lohit-oriya-ttf-$(version).tar lohit-oriya-ttf-$(version)
 	gzip lohit-oriya-ttf-$(version).tar
@@ -30,7 +30,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-oriya-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS generate*.pe Makefile ChangeLog  66-lohit-oriya.conf Lohit-Oriya.sfd lohit-oriya-$(version)
+	cp -p COPYRIGHT OFL.txt README README.git AUTHORS generate*.pe Makefile ChangeLog  66-lohit-oriya.conf Lohit-Oriya.sfd lohit-oriya-$(version)
 	rm -rf lohit-oriya-$(version)/.git
 	rm -rf lohit-oriya-$(version)/*.ttf
 	tar -cf lohit-oriya-$(version).tar lohit-oriya-$(version)
@@ -39,7 +39,7 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-oriya-web-$(version)
-	cp -p COPYRIGHT OFL.txt README README.cvs AUTHORS  ChangeLog Lohit-Oriya.woff  Lohit-Oriya.eot lohit-oriya-web-$(version)
+	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog Lohit-Oriya.woff  Lohit-Oriya.eot lohit-oriya-web-$(version)
 	rm -rf lohit-oriya-web-$(version)/.git
 	tar -cf lohit-oriya-web-$(version).tar lohit-oriya-web-$(version)
 	gzip lohit-oriya-web-$(version).tar
