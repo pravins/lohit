@@ -39,7 +39,6 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-kannada-web-$(version)
-	cp -p ChangeLog 
 	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog  Lohit-Kannada.woff  Lohit-Kannada.eot lohit-kannada-web-$(version)
 	rm -rf lohit-kannada-web-$(version)/.git
 	tar -cf lohit-kannada-web-$(version).tar lohit-kannada-web-$(version)

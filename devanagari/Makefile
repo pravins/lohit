@@ -16,7 +16,7 @@ woff: woff-bin
 
 eot: eot-bin
 	@echo "----------Generating eot from ttf file----------"
-	java -jar /usr/share/java/sfnttool.jar -e -x Lohit-Bengali.ttf Lohit-Bengali.eot
+	java -jar /usr/share/java/sfnttool.jar -e -x Lohit-Devanagari.ttf Lohit-Devanagari.eot
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 
@@ -39,7 +39,6 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-devanagari-web-$(version)
-	cp -p ChangeLog ChangeLog.old
 	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog Lohit-Devanagari.woff  Lohit-Devanagari.eot lohit-devanagari-web-$(version)
 	rm -rf lohit-devanagari-web-$(version)/.git
 	tar -cf lohit-devanagari-web-$(version).tar lohit-devanagari-web-$(version)
