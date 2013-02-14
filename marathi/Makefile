@@ -39,7 +39,6 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-marathi-web-$(version)
-	cp -p ChangeLog 
 	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog  Lohit-Marathi.woff  Lohit-Marathi.eot lohit-marathi-web-$(version)
 	rm -rf lohit-marathi-web-$(version)/.git
 	tar -cf lohit-marathi-web-$(version).tar lohit-marathi-web-$(version)
