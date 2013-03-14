@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159524182
-ModificationTime: 1357189649
+ModificationTime: 1363253223
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3518,7 +3518,7 @@ StartChar: U0D38
 Encoding: 3384 3384 55
 Width: 1138
 GlyphClass: 2
-Flags: WO
+Flags: W
 AnchorPoint: "anchor-1" 590 650 basechar 0
 LayerCount: 2
 Fore
@@ -14254,7 +14254,7 @@ StartChar: glyph206
 Encoding: 65663 -1 210
 Width: 927
 GlyphClass: 2
-Flags: WO
+Flags: W
 AnchorPoint: "anchor-1" 472 650 basechar 0
 LayerCount: 2
 Fore
@@ -19278,7 +19278,7 @@ EndChar
 
 StartChar: uni0D74
 Encoding: 3444 3444 290
-Width: 1414
+Width: 850
 GlyphClass: 2
 Flags: W
 LayerCount: 2

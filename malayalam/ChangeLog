@@ -1,6 +1,8 @@
 				  lohit-malayalam
 Current Version :- 2.5.3
 
+- Corrected width of U+0D74 character
+
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
 - Dropping RFN from OFL.txt
 - Added GPOS for U+0D4E with the help of Ani Peter <apeter@redhat.com>, works with harfbuzz
