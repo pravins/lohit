@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1158849336
-ModificationTime: 1330513417
+ModificationTime: 1366797648
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -51,7 +51,7 @@ OS2StrikeYSize: 50
 OS2StrikeYPos: 250
 OS2Vendor: 'MODI'
 Lookup: 4 0 0 "'pres' Pre Base Substitutions in Oriya lookup 85"  {"'pres' Pre Base Substitutions in Oriya lookup 85-1"  "'pres' Pre Base Substitutions in Oriya lookup 85-2"  } ['pres' ('orya' <'dflt' > ) ]
-Lookup: 4 0 0 "'abvs' Above Base Substitutions in Oriya lookup 0"  {"'abvs' Above Base Substitutions in Oriya lookup 0 subtable"  } ['abvs' ('orya' <'dflt' > ) ]
+Lookup: 4 8 0 "'abvs' Above Base Substitutions in Oriya lookup 0"  {"'abvs' Above Base Substitutions in Oriya lookup 0 subtable"  } ['abvs' ('orya' <'dflt' > ) ]
 Lookup: 4 0 0 "'akhn' Akhand in Oriya lookup 1"  {"'akhn' Akhand in Oriya lookup 1 subtable"  } ['akhn' ('orya' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms in Oriya lookup 2"  {"'blwf' Below Base Forms in Oriya lookup 2 subtable"  } ['blwf' ('orya' <'dflt' > ) ]
 Lookup: 4 0 0 "'half' Half Forms in Oriya lookup 86"  {"'half' Half Forms in Oriya lookup 86-1"  } ['half' ('orya' <'dflt' > ) ]
@@ -961,14 +961,14 @@ ShortTable: maxp 16
   0
 EndShort
 LangName: 1033 "" "" "Regular" "" "" "Version 2.5.3" 
-GaspTable: 1 65535 2
+GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 2828 14 11
+WinInfo: 0 33 14
 BeginPrivate: 0
 EndPrivate
 BeginChars: 65864 431
@@ -4013,7 +4013,7 @@ EndChar
 StartChar: U0B3F
 Encoding: 2879 2879 62
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -4418,7 +4418,7 @@ EndChar
 StartChar: U0B56
 Encoding: 2902 2902 72
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -16555,7 +16555,7 @@ EndChar
 StartChar: U0B30_U0B4D.rphf
 Encoding: 65682 -1 239
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore

@@ -1,6 +1,8 @@
 				  lohit-oriya
 Current Version :- 2.5.3
 
+- Resolves rh#923215: Test case 123 gusb of utrrs
+
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
 - Dropping RFN from OFL.txt
 - Skipped 2.5.2, for matching version with family
