@@ -6,8 +6,9 @@
 	- https://bugzilla.redhat.com/show_bug.cgi?id=748710
 4. Add Basic latin support in all Lohit fonts
 5. Hint Lohit fonts ttf with ttfautohint
-6. Add Web fonts support in Makefile
-7. Testing and bugfixes of Lohit Telugu, Oriya and Kannada against Harfbuzz NG
+	- Need Latin Shape to resolve this problem
+6. Add Web fonts support in Makefile - Done
+7. Testing and bugfixes of Lohit Telugu, Oriya and Kannada against Harfbuzz NG - Done
 8. Lohit punjabi issues on Windows of Overlapping
 9. Check Malayalam glyph157
 

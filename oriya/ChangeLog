@@ -1,6 +1,7 @@
 				  lohit-oriya
-Current Version :- 2.5.3
+Current Version :- 2.5.4
 
+* Mon May 27 2013 Pravin Satpute <psatpute@redhat.com> - 2.5.4
 - Resolves rh#923215: Test case 123 gusb of utrrs
 
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
