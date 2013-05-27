@@ -2,7 +2,10 @@ Lohit Fonts Project
 
 prerequisite to building Lohit fonts
 1. fontforge for "make ttf"
-1. sfntly for building web fonts.
+2. sfntly for building web fonts.
+	- Download "sfntly-read-only.zip" from http://code.google.com/p/sfntly/downloads/list 
+	- Go to java folder and run $ant
+	- Copy sfnttool.jar to /usr/share/java/
 
 Scripts Usage:-
 Lohit git is now included with required Makefiles. 

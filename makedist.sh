@@ -19,7 +19,7 @@ for i in assamese bengali devanagari gujarati  kannada  malayalam  marathi nepal
 do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-ttf-$ver
-cp COPYRIGHT OFL.txt ChangeLog.old README README.cvs AUTHORS $i/* lohit-$i-ttf-$ver
+cp COPYRIGHT OFL.txt ChangeLog.old README README.git AUTHORS $i/* lohit-$i-ttf-$ver
 cp $i/*.ttf lohit-ttf-$date1
 rm -rf lohit-$i-ttf-$ver/.git lohit-$i-ttf-$ver/*.sfd
 tar -cf lohit-$i-ttf-$ver.tar lohit-$i-ttf-$ver
@@ -38,7 +38,7 @@ for i in assamese bengali devanagari gujarati  kannada  malayalam marathi nepali
 do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-$ver
-cp COPYRIGHT OFL.txt ChangeLog.old README README.cvs AUTHORS Makefile generate.pe $i/* lohit-$i-$ver
+cp COPYRIGHT OFL.txt ChangeLog.old README README.git AUTHORS Makefile generate.pe $i/* lohit-$i-$ver
 rm -rf lohit-$i-$ver/.git
 rm -rf lohit-$i-$ver/*.ttf
 tar -cf lohit-$i-$ver.tar lohit-$i-$ver
