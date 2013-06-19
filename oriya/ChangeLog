@@ -1,5 +1,8 @@
 				  lohit-oriya
-Current Version :- 2.5.4
+Current Version :- 2.5.4.1
+
+* Wed Jun 19 2013 Pravin Satpute <psatpute@redhat.com> - 2.5.4.1
+- Corrected Makefile with release tarball
 
 * Mon May 27 2013 Pravin Satpute <psatpute@redhat.com> - 2.5.4
 - Resolves rh#923215: Test case 123 gusb of utrrs
