@@ -1,6 +1,8 @@
 				  lohit-punjabi
 Current Version :- 2.5.3
 
+- Improved positioning of U+0A71
+
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
 - Dropping RFN from OFL.txt
 - Skipped 2.5.2, for matching version with family
