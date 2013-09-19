@@ -51,8 +51,8 @@ OS2StrikeYSize: 50
 OS2StrikeYPos: 250
 OS2Vendor: 'MODI'
 Lookup: 4 0 0 "Ligature Substitution for Ra ZWJ"  {"Ligature Substitution for Ra ZWJ-1"  } []
-Lookup: 6 0 0 "'abvs' Above Base Substitutions lookup 20"  {"'abvs' Above Base Substitutions lookup 20-1"  } ['abvs' ('DFLT' <'dflt' > 'deva' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 5 0 0 "'psts' Post Base Substitutions lookup 18"  {"'psts' Post Base Substitutions lookup 18-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'abvs' Above Base Substitutions lookup 20"  {"'abvs' Above Base Substitutions lookup 20-1"  } ['abvs' ('knda' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 5 0 0 "'psts' Post Base Substitutions lookup 18"  {"'psts' Post Base Substitutions lookup 18-1"  } ['psts' ('knda' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'abvs' Above Base Substitutions in Kannada lookup 0"  {"'abvs' Above Base Substitutions in Kannada lookup 0"  } ['abvs' ('knda' <'dflt' > ) ]
 Lookup: 4 0 0 "'akhn' Akhand in Kannada lookup 1"  {"'akhn' Akhand in Kannada lookup 1"  } ['akhn' ('knda' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms in Kannada lookup 2"  {"'blwf' Below Base Forms in Kannada lookup 2"  } ['blwf' ('knda' <'dflt' > ) ]
@@ -67,18 +67,18 @@ Lookup: 4 0 0 "'blws' Below Base Substitutions in Kannada lookup 10"  {"'blws' B
 Lookup: 4 0 0 "'haln' Halant Forms in Kannada lookup 11"  {"'haln' Halant Forms in Kannada lookup 11"  } ['haln' ('knda' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms in Kannada lookup 12"  {"'pstf' Post Base Forms in Kannada lookup 12"  } ['pstf' ('knda' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions in Kannada lookup 13"  {"'psts' Post Base Substitutions in Kannada lookup 13"  } ['psts' ('knda' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 22"  {"'psts' Post Base Substitutions lookup 22-3"  "'psts' Post Base Substitutions lookup 22-1"  "'psts' Post Base Substitutions lookup 22-2"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 22"  {"'psts' Post Base Substitutions lookup 22-3"  "'psts' Post Base Substitutions lookup 22-1"  "'psts' Post Base Substitutions lookup 22-2"  } ['psts' ('knda' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'rphf' Reph Form in Kannada lookup 14"  {"'rphf' Reph Form in Kannada lookup 14"  } ['rphf' ('knda' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 15"  {"Single Substitution lookup 15"  } []
 Lookup: 1 0 0 "Single Substitution lookup 16"  {"Single Substitution lookup 16"  } []
 Lookup: 1 0 0 "Single Substitution lookup 17"  {"Single Substitution lookup 17"  } []
 Lookup: 1 0 0 "Single Substitution lookup 18"  {"Single Substitution lookup 18-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 19"  {"Single Substitution lookup 19-1"  } []
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 4"  {"'kern' Horizontal Kerning lookup 4-1" [153,15,2] } ['kern' ('DFLT' <'dflt' > 'deva' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'blwm' Below Base Mark in Kannada lookup 0"  {"'blwm' Below Base Mark in Kannada lookup 0"  } ['blwm' ('DFLT' <'dflt' > 'deva' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 4"  {"'kern' Horizontal Kerning lookup 4-1" [153,15,2] } ['kern' ('knda' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'blwm' Below Base Mark in Kannada lookup 0"  {"'blwm' Below Base Mark in Kannada lookup 0"  } ['blwm' ('knda' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Kannada lookup 1"  {"'kern' Horizontal Kerning in Kannada lookup 1" [153,15,0] } ['kern' ('knda' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 2"  {"'kern' Horizontal Kerning lookup 2-1" [153,0,0] } ['kern' ('DFLT' <'dflt' > 'deva' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 3"  {"'kern' Horizontal Kerning lookup 3-1" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'deva' <'dflt' > 'knda' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 2"  {"'kern' Horizontal Kerning lookup 2-1" [153,0,0] } ['kern' ('knda' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 3"  {"'kern' Horizontal Kerning lookup 3-1" [153,15,0] } ['kern' ('knda' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 4 2 "'kern' Horizontal Kerning lookup 2-1" 

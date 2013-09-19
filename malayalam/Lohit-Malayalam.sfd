@@ -70,7 +70,7 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 13"  {"'p
 Lookup: 4 0 0 "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 14"  {"'psts' Post Base Substitutions in Malay+AQEA-lam lookup 14 subtable"  } ['psts' ('mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions lookup 17"  {"'psts' Post Base Substitutions lookup 17-1"  } ['psts' ('DFLT' <'dflt' > 'mlym' <'dflt' > 'mlym' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms in Malay+AQEA-lam lookup 15"  {"'pstf' Post Base Forms in Malay+AQEA-lam lookup 15 subtable"  } ['pstf' ('mlym' <'dflt' > ) ]
-Lookup: 260 0 0 "'abvm' Above Base Mark lookup 0"  {"'abvm' Above Base Mark lookup 0-1"  } ['abvm' ('DFLT' <'dflt' > 'deva' <'dflt' > 'mlym' <'dflt' > ) ]
+Lookup: 260 0 0 "'abvm' Above Base Mark lookup 0"  {"'abvm' Above Base Mark lookup 0-1"  } ['abvm' ('DFLT' <'dflt' > 'mlym' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'psts' Post Base Substitutions in Malay+AQEA-lam lookup 13 subtable"  0 0 0 1
