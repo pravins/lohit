@@ -22,7 +22,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-punjabi-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog  66-lohit-punjabi.conf Lohit-Punjabi.ttf lohit-punjabi-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  66-lohit-punjabi.conf Lohit-Punjabi.ttf lohit-punjabi-ttf-$(version)
 	rm -rf lohit-punjabi-ttf-$(version)/.git
 	tar -cf lohit-punjabi-ttf-$(version).tar lohit-punjabi-ttf-$(version)
 	gzip lohit-punjabi-ttf-$(version).tar
@@ -30,7 +30,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-punjabi-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS generate*.pe Makefile ChangeLog  66-lohit-punjabi.conf Lohit-Punjabi.sfd lohit-punjabi-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog  66-lohit-punjabi.conf Lohit-Punjabi.sfd lohit-punjabi-$(version)
 	rm -rf lohit-punjabi-$(version)/.git
 	rm -rf lohit-punjabi-$(version)/*.ttf
 	tar -cf lohit-punjabi-$(version).tar lohit-punjabi-$(version)
@@ -39,7 +39,7 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-punjabi-web-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog Lohit-Punjabi.woff  Lohit-Punjabi.eot lohit-punjabi-web-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog Lohit-Punjabi.woff  Lohit-Punjabi.eot lohit-punjabi-web-$(version)
 	rm -rf lohit-punjabi-web-$(version)/.git
 	tar -cf lohit-punjabi-web-$(version).tar lohit-punjabi-web-$(version)
 	gzip lohit-punjabi-web-$(version).tar

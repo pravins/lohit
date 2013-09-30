@@ -22,7 +22,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-tamil-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog  66-lohit-tamil.conf Lohit-Tamil.ttf lohit-tamil-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  66-lohit-tamil.conf Lohit-Tamil.ttf lohit-tamil-ttf-$(version)
 	rm -rf lohit-tamil-ttf-$(version)/.git
 	tar -cf lohit-tamil-ttf-$(version).tar lohit-tamil-ttf-$(version)
 	gzip lohit-tamil-ttf-$(version).tar
@@ -30,7 +30,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-tamil-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS generate*.pe Makefile ChangeLog 66-lohit-tamil.conf Lohit-Tamil.sfd lohit-tamil-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog 66-lohit-tamil.conf Lohit-Tamil.sfd lohit-tamil-$(version)
 	rm -rf lohit-tamil-$(version)/.git
 	rm -rf lohit-tamil-$(version)/*.ttf
 	tar -cf lohit-tamil-$(version).tar lohit-tamil-$(version)
@@ -39,7 +39,7 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-tamil-web-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog Lohit-Tamil.woff  Lohit-Tamil.eot lohit-tamil-web-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog Lohit-Tamil.woff  Lohit-Tamil.eot lohit-tamil-web-$(version)
 	rm -rf lohit-tamil-web-$(version)/.git
 	tar -cf lohit-tamil-web-$(version).tar lohit-tamil-web-$(version)
 	gzip lohit-tamil-web-$(version).tar

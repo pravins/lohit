@@ -22,7 +22,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-nepali-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog  65-0-lohit-nepali.conf Lohit-Nepali.ttf lohit-nepali-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  65-0-lohit-nepali.conf Lohit-Nepali.ttf lohit-nepali-ttf-$(version)
 	rm -rf lohit-nepali-ttf-$(version)/.git
 	tar -cf lohit-nepali-ttf-$(version).tar lohit-nepali-ttf-$(version)
 	gzip lohit-nepali-ttf-$(version).tar
@@ -30,7 +30,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-nepali-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS generate*.pe Makefile ChangeLog  65-0-lohit-nepali.conf Lohit-Nepali.sfd lohit-nepali-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog  65-0-lohit-nepali.conf Lohit-Nepali.sfd lohit-nepali-$(version)
 	rm -rf lohit-nepali-$(version)/.git
 	rm -rf lohit-nepali-$(version)/*.ttf
 	tar -cf lohit-nepali-$(version).tar lohit-nepali-$(version)
@@ -39,7 +39,7 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-nepali-web-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog Lohit-Nepali.woff  Lohit-Nepali.eot lohit-nepali-web-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog Lohit-Nepali.woff  Lohit-Nepali.eot lohit-nepali-web-$(version)
 	rm -rf lohit-nepali-web-$(version)/.git
 	tar -cf lohit-nepali-web-$(version).tar lohit-nepali-web-$(version)
 	gzip lohit-nepali-web-$(version).tar

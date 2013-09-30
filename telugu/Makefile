@@ -22,7 +22,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-telugu-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog  66-lohit-telugu.conf Lohit-Telugu.ttf lohit-telugu-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  66-lohit-telugu.conf Lohit-Telugu.ttf lohit-telugu-ttf-$(version)
 	rm -rf lohit-telugu-ttf-$(version)/.git
 	tar -cf lohit-telugu-ttf-$(version).tar lohit-telugu-ttf-$(version)
 	gzip lohit-telugu-ttf-$(version).tar
@@ -30,7 +30,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-telugu-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS generate*.pe Makefile ChangeLog  66-lohit-telugu.conf Lohit-Telugu.sfd lohit-telugu-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog  66-lohit-telugu.conf Lohit-Telugu.sfd lohit-telugu-$(version)
 	rm -rf lohit-telugu-$(version)/.git
 	rm -rf lohit-telugu-$(version)/*.ttf
 	tar -cf lohit-telugu-$(version).tar lohit-telugu-$(version)
@@ -39,7 +39,7 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-telugu-web-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog  Lohit-Telugu.woff  Lohit-Telugu.eot lohit-telugu-web-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  Lohit-Telugu.woff  Lohit-Telugu.eot lohit-telugu-web-$(version)
 	rm -rf lohit-telugu-web-$(version)/.git
 	tar -cf lohit-telugu-web-$(version).tar lohit-telugu-web-$(version)
 	gzip lohit-telugu-web-$(version).tar

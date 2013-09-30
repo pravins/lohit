@@ -22,7 +22,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-assamese-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog 66-lohit-assamese.conf Lohit-Assamese.ttf lohit-assamese-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog 66-lohit-assamese.conf Lohit-Assamese.ttf lohit-assamese-ttf-$(version)
 	rm -rf lohit-assamese-ttf-$(version)/.git
 	tar -cf lohit-assamese-ttf-$(version).tar lohit-assamese-ttf-$(version)
 	gzip lohit-assamese-ttf-$(version).tar
@@ -30,7 +30,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-assamese-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS generate*.pe Makefile ChangeLog 66-lohit-assamese.conf Lohit-Assamese.sfd lohit-assamese-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog 66-lohit-assamese.conf Lohit-Assamese.sfd lohit-assamese-$(version)
 	rm -rf lohit-assamese-$(version)/.git
 	rm -rf lohit-assamese-$(version)/*.ttf
 	tar -cf lohit-assamese-$(version).tar lohit-assamese-$(version)
@@ -39,7 +39,7 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-assamese-web-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog Lohit-Assamese.woff  Lohit-Assamese.eot lohit-assamese-web-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog Lohit-Assamese.woff  Lohit-Assamese.eot lohit-assamese-web-$(version)
 	rm -rf lohit-assamese-web-$(version)/.git
 	tar -cf lohit-assamese-web-$(version).tar lohit-assamese-web-$(version)
 	gzip lohit-assamese-web-$(version).tar

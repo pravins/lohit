@@ -22,7 +22,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-kannada-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog  66-lohit-kannada.conf Lohit-Kannada.ttf lohit-kannada-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  66-lohit-kannada.conf Lohit-Kannada.ttf lohit-kannada-ttf-$(version)
 	rm -rf lohit-kannada-ttf-$(version)/.git
 	tar -cf lohit-kannada-ttf-$(version).tar lohit-kannada-ttf-$(version)
 	gzip lohit-kannada-ttf-$(version).tar
@@ -30,7 +30,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-kannada-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS generate*.pe Makefile ChangeLog 66-lohit-kannada.conf Lohit-Kannada.sfd lohit-kannada-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog 66-lohit-kannada.conf Lohit-Kannada.sfd lohit-kannada-$(version)
 	rm -rf lohit-kannada-$(version)/.git
 	rm -rf lohit-kannada-$(version)/*.ttf
 	tar -cf lohit-kannada-$(version).tar lohit-kannada-$(version)
@@ -39,7 +39,7 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-kannada-web-$(version)
-	cp -p COPYRIGHT OFL.txt README README.git AUTHORS  ChangeLog  Lohit-Kannada.woff  Lohit-Kannada.eot lohit-kannada-web-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  Lohit-Kannada.woff  Lohit-Kannada.eot lohit-kannada-web-$(version)
 	rm -rf lohit-kannada-web-$(version)/.git
 	tar -cf lohit-kannada-web-$(version).tar lohit-kannada-web-$(version)
 	gzip lohit-kannada-web-$(version).tar
