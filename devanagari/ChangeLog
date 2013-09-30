@@ -1,5 +1,15 @@
 				  lohit-devanagari
-Current Version :- 2.5.3
+Current Version :- 2.91.0
+
+* Tue Oct 1 2013 Pravin Satpute <psatpute@redhat.com> - 2.91.0
+- First release of devanagari after re-writing all rules
+- Open type rules are available in .fea file for easy reusability
+- Supports deva and dev2 both
+- Follows AGL guidelines
+- Testing done with Harbufzz and Uniscribe
+- Test file available with tarball
+
+
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
 - added rule for श्री in Marrathi locale
 - Dropping RFN from OFL.txt
@@ -39,3 +49,4 @@ Current Version :- 2.5.3
 - first release for lohit devanagri 
 - using lohit hindi as a base for start, so keeping same version
 
+For older change see https://git.fedorahosted.org/cgit/lohit.git/plain/ChangeLog
