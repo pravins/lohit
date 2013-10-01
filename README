@@ -1,7 +1,10 @@
 Lohit Fonts Project
 
 prerequisite to building Lohit fonts
-1. fontforge for "make ttf"
+1a. Open font in Fontforge, import .fea file and generate fonts
+1b. Using Makefile
+	- python and fontforge
+	- make ttf
 2. sfntly for building web fonts.
 	- Download "sfntly-read-only.zip" from http://code.google.com/p/sfntly/downloads/list 
 	- Go to java folder and run $ant
