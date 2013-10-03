@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1380625186
+ModificationTime: 1380641824
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -80,9 +80,8 @@ Lookup: 4 0 0 "BlwsSub_Ligature_Ukaar"  {"BlwsSub_Ligature_Ukaar subtable"  } ['
 Lookup: 6 0 0 "PstsSub_Chain_ExtdEMatra"  {"PstsSub_Chain_ExtdEMatra subtable"  } ['psts' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 25"  {"Single Substitution lookup 25 subtable"  } []
 Lookup: 4 0 0 "PstsSub_Ligature_Ra"  {"PstsSub_Ligature_Ra subtable"  } ['psts' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
-Lookup: 6 0 0 "PstsSub_Chain_Eyelash"  {"PstsSub_Chain_Eyelash subtable"  } ['psts' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 6 0 0 "PstsSub_Chain_Eyelash"  {"PstsSub_Chain_Eyelash-1"  } ['psts' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 4 0 0 "Ligature Substitution lookup 28"  {"Ligature Substitution lookup 28 subtable"  } []
-Lookup: 4 0 0 "PstsSub_Ligature_Zwj"  {"PstsSub_Ligature_Zwj subtable"  } ['psts' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 260 0 0 "blwmBelowBaseMarklookup0"  {"blwmBelowBaseMarklookup0 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 262 0 0 "abvmAboveBaseMarklookup1"  {"abvmAboveBaseMarklookup1 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 260 0 0 "abvmAboveBaseMarklookup2"  {"abvmAboveBaseMarklookup2 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
@@ -91,11 +90,25 @@ Lookup: 258 0 0 "abvmAboveBaseMarklookup4"  {"abvmAboveBaseMarklookup4 subtable"
 Lookup: 258 0 0 "blwmBelowBaseMarklookup5"  {"blwmBelowBaseMarklookup5 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "PstsSub_Chain_Eyelash subtable"  0 0 0 1
- 2 0 1
-  Coverage: 18 rradeva viramadeva
-  Coverage: 33 radeva viramadeva zerowidthjoiner
-  FCoverage: 13 yadeva hadeva
+ChainSub2: glyph "PstsSub_Chain_Eyelash-1"  0 0 0 4
+ String: 18 rradeva viramadeva
+ BString: 0
+ FString: 6 yadeva
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 28" 
+ String: 18 rradeva viramadeva
+ BString: 0
+ FString: 6 hadeva
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 28" 
+ String: 24 rphfdeva zerowidthjoiner
+ BString: 0
+ FString: 6 yadeva
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 28" 
+ String: 24 rphfdeva zerowidthjoiner
+ BString: 0
+ FString: 6 hadeva
  1
   SeqLookup: 0 "Ligature Substitution lookup 28" 
 EndFPST
@@ -428,12 +441,12 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 34 12
+WinInfo: 0 38 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor0"  "blwmBelowBaseMarklookup0 subtable" "Anchor1"  "abvmAboveBaseMarklookup1 subtable" "Anchor2"  "abvmAboveBaseMarklookup2 subtable" "Anchor3"  "abvmAboveBaseMarklookup3 subtable" 
-BeginChars: 65728 403
+BeginChars: 65728 404
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -12267,11 +12280,8 @@ SplineSet
  286 306 286 306 257.5 299.5 c 128,-1,17
  229 293 229 293 201 293 c 0,4,5
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "PstsSub_Ligature_Zwj subtable" rradeva viramadeva
-Ligature2: "PstsSub_Ligature_Zwj subtable" radeva viramadeva zerowidthjoiner
-Ligature2: "Ligature Substitution lookup 28 subtable" radeva viramadeva
-Ligature2: "Ligature Substitution lookup 28 subtable" radeva viramadeva zerowidthjoiner
+Ligature2: "Ligature Substitution lookup 28 subtable" rphfdeva zerowidthjoiner
+Ligature2: "Ligature Substitution lookup 28 subtable" rradeva viramadeva
 EndChar
 
 StartChar: kadeva_viramadeva_radeva
@@ -18460,6 +18470,23 @@ SplineSet
 EndSplineSet
 Ligature2: "HalfFormslookup10 subtable" mr_shadeva viramadeva
 MultipleSubs2: "LocalizedMrFormslookup4 subtable" mr_shadeva viramadeva
+EndChar
+
+StartChar: zerowidthjoiner
+Encoding: 8205 8205 403
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+0 -326 m 1,0,-1
+ 0 999 l 1,1,-1
+ 226 999 l 1,2,-1
+ 226 945 l 1,3,-1
+ 53 945 l 1,4,-1
+ 53 -326 l 1,5,-1
+ 0 -326 l 1,0,-1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

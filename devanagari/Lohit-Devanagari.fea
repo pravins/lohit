@@ -361,16 +361,19 @@ lookup PstsSub_Ligature_Ra {
     sub \radeva \uuvowelsigndeva  by \radeva_uuvowelsigndeva;
 } PstsSub_Ligature_Ra;
 
+lookup LigatureSubstitutionlookup28 {
+  lookupflag 0;
+    sub \rphfdeva \zerowidthjoiner  by \radeva_viramadeva;
+    sub \rradeva \viramadeva  by \radeva_viramadeva;
+} LigatureSubstitutionlookup28;
+
 lookup PstsSub_Chain_Eyelash {
   lookupflag 0;
-    sub [\rradeva \viramadeva ]' [\radeva \viramadeva \zerowidthjoiner ]' [\yadeva \hadeva ]  by \radeva_viramadeva;
+    sub  \rradeva'lookup LigatureSubstitutionlookup28  \viramadeva'lookup LigatureSubstitutionlookup28  \yadeva  ;
+    sub  \rradeva'lookup LigatureSubstitutionlookup28  \viramadeva'lookup LigatureSubstitutionlookup28  \hadeva  ;
+    sub  \rphfdeva'lookup LigatureSubstitutionlookup28  \zerowidthjoiner'lookup LigatureSubstitutionlookup28  \yadeva  ;
+    sub  \rphfdeva'lookup LigatureSubstitutionlookup28  \zerowidthjoiner'lookup LigatureSubstitutionlookup28  \hadeva  ;
 } PstsSub_Chain_Eyelash;
-
-lookup PstsSub_Ligature_Zwj {
-  lookupflag 0;
-    sub \rradeva \viramadeva  by \radeva_viramadeva;
-    sub \radeva \viramadeva \zerowidthjoiner  by \radeva_viramadeva;
-} PstsSub_Ligature_Zwj;
 
 feature locl {
 
@@ -596,19 +599,16 @@ feature psts {
       lookup PstsSub_Chain_ExtdEMatra;
       lookup PstsSub_Ligature_Ra;
       lookup PstsSub_Chain_Eyelash;
-      lookup PstsSub_Ligature_Zwj;
      language MAR  exclude_dflt;
       lookup PostBaseSubstitutionslookup;
       lookup PstsSub_Chain_ExtdEMatra;
       lookup PstsSub_Ligature_Ra;
       lookup PstsSub_Chain_Eyelash;
-      lookup PstsSub_Ligature_Zwj;
      language NEP  exclude_dflt;
       lookup PostBaseSubstitutionslookup;
       lookup PstsSub_Chain_ExtdEMatra;
       lookup PstsSub_Ligature_Ra;
       lookup PstsSub_Chain_Eyelash;
-      lookup PstsSub_Ligature_Zwj;
 
   script deva;
      language dflt ;
@@ -616,19 +616,16 @@ feature psts {
       lookup PstsSub_Chain_ExtdEMatra;
       lookup PstsSub_Ligature_Ra;
       lookup PstsSub_Chain_Eyelash;
-      lookup PstsSub_Ligature_Zwj;
      language MAR  exclude_dflt;
       lookup PostBaseSubstitutionslookup;
       lookup PstsSub_Chain_ExtdEMatra;
       lookup PstsSub_Ligature_Ra;
       lookup PstsSub_Chain_Eyelash;
-      lookup PstsSub_Ligature_Zwj;
      language NEP  exclude_dflt;
       lookup PostBaseSubstitutionslookup;
       lookup PstsSub_Chain_ExtdEMatra;
       lookup PstsSub_Ligature_Ra;
       lookup PstsSub_Chain_Eyelash;
-      lookup PstsSub_Ligature_Zwj;
 } psts;
 
 feature blws {
@@ -1060,7 +1057,7 @@ feature abvm {
 	\yadeva_viramadeva_radeva \ssadeva_viramadeva_radeva 
 	\ka_virama_ssa_virama_radeva \ja_virama_nya_virama_radeva 
 	\nep_ka_virama_ra \nep_five \nep_zha \nep_jha \nep_jha_virama \mr_ladeva 
-	\mr_shadeva ];
+	\mr_shadeva \zerowidthjoiner ];
 @GDEF_Ligature = [\nep_eight \da_ddha_ra_yadeva \mr_shadeva_viramadeva ];
 @GDEF_Mark = [\candrabinduinverteddeva \candrabindudeva \anusvaradeva 
 	\oevowelsigndeva \nuktadeva \ivowelsigndeva \uvowelsigndeva \uuvowelsigndeva 

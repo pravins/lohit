@@ -1,7 +1,7 @@
 				  lohit-devanagari
 Current Version :- 2.91.0
 
-* Tue Oct 1 2013 Pravin Satpute <psatpute@redhat.com> - 2.91.0
+* Thu Oct 03 2013 Pravin Satpute <psatpute@redhat.com> - 2.91.0
 - First release of devanagari after re-writing all rules
 - Open type rules are available in .fea file for easy reusability
 - Supports deva and dev2 both
