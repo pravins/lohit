@@ -1,8 +1,11 @@
 				  lohit-malayalam
-Current Version :- 2.5.3
+Current Version :- 2.5.4
 
+* Mon Oct 07 2013 Pravin Satpute <psatpute@redhat.com> - 2.5.4
 - Corrected width of U+0D74 character
 - Removed deva tag from sfd
+- Removed 0x79-0x7e, 0x80,0x84, 0x85, 0x88 glyphs #1013269
+- Deleted wrong glyph of Samvruthokaram #1013183
 
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
 - Dropping RFN from OFL.txt
