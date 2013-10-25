@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1380641824
+ModificationTime: 1382696878
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -73,9 +73,9 @@ Lookup: 6 0 0 "PresSub_Chain_IVowelSign_0"  {"PresSub_Chain_IVowelSign_0 subtabl
 Lookup: 1 0 0 "Single Substitution lookup 17"  {"Single Substitution lookup 17 subtable"  } []
 Lookup: 6 0 0 "PresSub_Chain_IVowelSign_1"  {"PresSub_Chain_IVowelSign_1 subtable"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 19"  {"Single Substitution lookup 19 subtable"  } []
-Lookup: 4 0 0 "PreBaseSubstitutionslookup2"  {"PreBaseSubstitutionslookup2 subtable"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 4 6 0 "PreBaseSubstitutionslookup2"  {"PreBaseSubstitutionslookup2 subtable"  } ['pres' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
 Lookup: 4 0 0 "AboveBaseSubstitutionslookup"  {"AboveBaseSubstitutionslookup subtable"  } ['abvs' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
-Lookup: 4 0 0 "PostBaseSubstitutionslookup"  {"PostBaseSubstitutionslookup subtable"  } ['psts' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 4 6 0 "PostBaseSubstitutionslookup"  {"PostBaseSubstitutionslookup subtable"  } ['psts' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
 Lookup: 4 0 0 "BlwsSub_Ligature_Ukaar"  {"BlwsSub_Ligature_Ukaar subtable"  } ['blws' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 6 0 0 "PstsSub_Chain_ExtdEMatra"  {"PstsSub_Chain_ExtdEMatra subtable"  } ['psts' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 25"  {"Single Substitution lookup 25 subtable"  } []
@@ -92,22 +92,22 @@ MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: glyph "PstsSub_Chain_Eyelash-1"  0 0 0 4
  String: 18 rradeva viramadeva
- BString: 0
+ BString: 0 
  FString: 6 yadeva
  1
   SeqLookup: 0 "Ligature Substitution lookup 28" 
  String: 18 rradeva viramadeva
- BString: 0
+ BString: 0 
  FString: 6 hadeva
  1
   SeqLookup: 0 "Ligature Substitution lookup 28" 
  String: 24 rphfdeva zerowidthjoiner
- BString: 0
+ BString: 0 
  FString: 6 yadeva
  1
   SeqLookup: 0 "Ligature Substitution lookup 28" 
  String: 24 rphfdeva zerowidthjoiner
- BString: 0
+ BString: 0 
  FString: 6 hadeva
  1
   SeqLookup: 0 "Ligature Substitution lookup 28" 
@@ -441,7 +441,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 38 14
+WinInfo: 0 44 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -4701,7 +4701,7 @@ EndChar
 StartChar: ivowelsigndeva
 Encoding: 2367 2367 112
 Width: 266
-GlyphClass: 4
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -9158,6 +9158,7 @@ SplineSet
  -360 -220 l 1,0,-1
 EndSplineSet
 Ligature2: "BelowBaseFormslookup9 subtable" viramadeva radeva
+Ligature2: "BelowBaseFormslookup9 subtable" radeva viramadeva
 EndChar
 
 StartChar: shadeva_viramadeva_radeva
@@ -9300,6 +9301,7 @@ SplineSet
  577 606 l 1,25,-1
  -13 606 l 1,0,-1
 EndSplineSet
+Ligature2: "ConjunctFormslookup11 subtable" tadeva viramadeva tadeva
 EndChar
 
 StartChar: kadeva_viramadeva_ssadeva
@@ -12280,6 +12282,7 @@ SplineSet
  286 306 286 306 257.5 299.5 c 128,-1,17
  229 293 229 293 201 293 c 0,4,5
 EndSplineSet
+Ligature2: "HalfFormslookup10 subtable" radeva viramadeva zerowidthjoiner
 Ligature2: "Ligature Substitution lookup 28 subtable" rphfdeva zerowidthjoiner
 Ligature2: "Ligature Substitution lookup 28 subtable" rradeva viramadeva
 EndChar
@@ -13400,7 +13403,7 @@ EndChar
 StartChar: ngadeva_viramadeva_kadeva
 Encoding: 65643 -1 318
 Width: 707
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor3" 487 664 basechar 0
 AnchorPoint: "Anchor0" 343 -138 basechar 0
@@ -13497,7 +13500,7 @@ EndChar
 StartChar: ngadeva_viramadeva_khadeva
 Encoding: 65644 -1 319
 Width: 712
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor3" 504 664 basechar 0
 AnchorPoint: "Anchor0" 474 -90 basechar 0
@@ -13598,7 +13601,7 @@ EndChar
 StartChar: ngadeva_viramadeva_gadeva
 Encoding: 65645 -1 320
 Width: 680
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor3" 470 665 basechar 0
 AnchorPoint: "Anchor0" 450 -90 basechar 0
@@ -13678,7 +13681,7 @@ EndChar
 StartChar: ngadeva_viramadeva_ghadeva
 Encoding: 65646 -1 321
 Width: 676
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor3" 474 666 basechar 0
 AnchorPoint: "Anchor0" 442 -117 basechar 0
@@ -13768,7 +13771,7 @@ EndChar
 StartChar: ngadeva_viramadeva_madeva
 Encoding: 65647 -1 322
 Width: 708
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor3" 496 665 basechar 0
 AnchorPoint: "Anchor0" 495 -106 basechar 0
@@ -13847,7 +13850,7 @@ EndChar
 StartChar: nga_virama_ka_virama_ssadeva
 Encoding: 65648 -1 323
 Width: 707
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor3" 492 666 basechar 0
 AnchorPoint: "Anchor0" 500 -63 basechar 0
