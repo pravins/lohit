@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1383121063
+ModificationTime: 1383139310
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -9208,6 +9208,7 @@ SplineSet
  57 240 l 1,41,-1
  13 290 l 1,12,-1
 EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup1 subtable" mr_shadeva_viramadeva radeva
 Ligature2: "VattuVariantslookup30 subtable" shadeva_viramadeva_alt radeva
 Ligature2: "VattuVariantslookup30 subtable" shadeva vatudeva
 EndChar
@@ -13069,6 +13070,7 @@ SplineSet
  100 304 100 304 47 266 c 1,61,-1
  13 313 l 1,12,-1
 EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup1 subtable" mr_shadeva_viramadeva rvocalicvowelsigndeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva rvocalicvowelsigndeva
 EndChar
 
