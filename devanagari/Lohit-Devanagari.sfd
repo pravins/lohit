@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1383206764
+ModificationTime: 1383292004
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -442,7 +442,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 44 17
+WinInfo: 0 34 12
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -11355,7 +11355,6 @@ SplineSet
  272 108 272 108 345 47 c 1,21,-1
  298 0 l 1,4,5
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "PreBaseSubstitutionslookup1 subtable" tadeva_viramadeva tadeva_viramadeva
 EndChar
 
@@ -12780,7 +12779,6 @@ SplineSet
  138 169 138 169 94.5 215.5 c 132,-1,39
  51 262 51 262 51 320 c 4,10,11
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "VattuVariantslookup30 subtable" badeva radeva_viramadeva
 EndChar
 
@@ -15948,7 +15946,7 @@ EndChar
 StartChar: shadeva_viramadeva_cadeva
 Encoding: 65680 -1 355
 Width: 625
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -16004,14 +16002,14 @@ SplineSet
  60 313 l 1,60,-1
  13 360 l 1,23,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva cadeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" mr_shadeva_viramadeva cadeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva cadeva
 EndChar
 
 StartChar: shadeva_viramadeva_nadeva
 Encoding: 65681 -1 356
 Width: 627
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor3" 494 664 basechar 0
 LayerCount: 2
@@ -16066,14 +16064,14 @@ SplineSet
  174 64 174 64 157.5 81.5 c 128,-1,57
  141 99 141 99 141 120 c 0,10,11
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva nadeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" mr_shadeva_viramadeva nadeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva nadeva
 EndChar
 
 StartChar: shadeva_viramadeva_ladeva
 Encoding: 65682 -1 357
 Width: 912
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor0" 780 23 basechar 0
 LayerCount: 2
@@ -16132,14 +16130,14 @@ SplineSet
  746 606 l 1,65,-1
  426 606 l 1,12,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva ladeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" mr_shadeva_viramadeva ladeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva ladeva
 EndChar
 
 StartChar: shadeva_viramadeva_vadeva
 Encoding: 65683 -1 358
 Width: 624
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -16195,8 +16193,8 @@ SplineSet
  237 93 237 93 184.5 130.5 c 128,-1,12
  132 168 132 168 132 220 c 128,-1,13
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva vadeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" mr_shadeva_viramadeva vadeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva vadeva
 EndChar
 
 StartChar: ssadeva_viramadeva_ttadeva
@@ -18501,9 +18499,10 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniFFFD
+StartChar: ba_virama_ra_viramadeva
 Encoding: 65533 -1 404
 Width: 366
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -18540,6 +18539,8 @@ SplineSet
  373 304 l 9,35,-1
  373 198 l 17,14,-1
 EndSplineSet
+Ligature2: "HalfFormslookup10 subtable" badeva_viramadeva_radeva viramadeva
+Ligature2: "VattuVariantslookup30 subtable" badeva radeva_viramadeva viramadeva
 EndChar
 EndChars
 EndSplineFont
