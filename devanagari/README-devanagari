@@ -1,10 +1,6 @@
 This readme is specifically for Lohit Devanagari. For instruction on installation and other stuff open README
 - To generate ttf from feature file
 
-Known Issue:
-	- Ligature starting with name ivowelsigndeva_* are not enabled due to problem with Harfbuzz NG. 
-    	- https://bugs.freedesktop.org/show_bug.cgi?id=69266
-
 Glyphs not in used:
 	- yapostdeva
 	- nadeva_viramadeva_alt
@@ -28,14 +24,14 @@ Glyph names are as follows, please check sfd file for actual shapes
 * iideva
 * udeva
 * uudeva
-* vocalicrdeva
-* vocalicldeva
-* candraedeva
-* shortedeva
+* rvocalicdeva
+* lvocalicdeva
+* ecandradeva
+* eshortdeva
 * edeva
 * aideva
-* candraodeva
-* shortodeva
+* ocandradeva
+* oshortdeva
 * odeva
 * audeva
 * kadeva
@@ -102,7 +98,7 @@ Glyph names are as follows, please check sfd file for actual shapes
 * anudattadeva
 * gravedeva
 * acutedeva
-* longecandravowelsigndeva
+* ecandralongvowelsigndeva
 * uevowelsigndeva
 * uuevowelsigndeva
 * qadeva
@@ -117,8 +113,8 @@ Glyph names are as follows, please check sfd file for actual shapes
 * llvocalicdeva
 * lvocalicvowelsigndeva
 * llvocalicvowelsigndeva
-* dandadeva
-* dbldandadeva
+* danda
+* dbldanda
 * zerodeva
 * onedeva
 * twodeva
@@ -139,13 +135,19 @@ Glyph names are as follows, please check sfd file for actual shapes
 * uuedeva
 * zhadeva
 * yaheavydeva
-* gabardeva
-* jabardeva
+* ggadeva
+* jjadeva
 * glottalstopdeva
 * dddadeva
 * bbadeva
 * zerowidthnonjoiner
-* zerowidthjoiner
+* endash
+* emdash
+* quoteleft
+* quoteright
+* quotedblleft
+* quotedblright
+* ellipsis
 * inr_currency
 * minus
 * dottedcircle
@@ -177,7 +179,7 @@ Glyph names are as follows, please check sfd file for actual shapes
 * gapfillerdeva
 * caretdeva
 * headstrokedeva
-* extendedisigndeva
+* iextendedsigndeva
 * evowelsigndeva_anusvaradeva
 * evowelsigndeva_rphfdeva
 * evowel_rphf_anuswaradeva
@@ -185,9 +187,9 @@ Glyph names are as follows, please check sfd file for actual shapes
 * aivowelsigndeva_rphfdeva
 * aivowelsign_rphf_anuswaradeva
 * rphfdeva
-* rphfdeva_anuswaradeva
+* rphfdeva_anusvaradeva
 * viramadeva_radeva_alt
-* vatudeva
+* radeva_viramadeva
 * shadeva_viramadeva_radeva
 * phadeva_radeva_nuktadeva
 * tadeva_viramadeva_tadeva
@@ -220,8 +222,8 @@ Glyph names are as follows, please check sfd file for actual shapes
 * bhadeva_viramadeva
 * madeva_viramadeva
 * yadeva_viramadeva
-* extendedivowelsigndeva
-* extendedivowelsign_anuswaradeva
+* iextendedvowelsigndeva
+* iextendedvowelsign_anuswaradeva
 * ladeva_viramadeva
 * lladeva_viramadeva
 * llladeva_viramadeva
@@ -236,7 +238,7 @@ Glyph names are as follows, please check sfd file for actual shapes
 * zadeva_viramadeva
 * fadeva_viramadeva
 * shadeva_viramadeva_alt
-* ta_virama_ra_virama_deva
+* ta_virama_ra_viramadeva
 * ta_virama_ta_viramadeva
 * ka_virama_ssa_viramadeva
 * ja_virama_nya_viramadeva
@@ -245,20 +247,20 @@ Glyph names are as follows, please check sfd file for actual shapes
 * ivowel_rphf_anusvaradeva
 * shortiiivowelsigndeva
 * shortiiivowel_anuswaradeva
-* shortiiivowelsign_rphf
+* shortiiivowelsign_rphfdeva
 * shortiiivowel_rphf_anusvara
 * iivowelsigndeva_anusvaradeva
 * iivowelsigndeva_rphfdeva
 * iivowelsign_rphf_anusvaradeva
-* extendediideva
-* extendediideva_anusvaradeva
-* extendediideva_rphfdeva
-* extendedii_rphf_anusvaradeva
+* iiextendeddeva
+* iiextendeddeva_anusvaradeva
+* iiextendeddeva_rphfdeva
+* iiextended_rphf_anusvaradeva
 * vattudeva_ulowdeva
 * vattudeva_uulowdeva
 * glyph244
-* yapostdeva
-* radeva_viramadeva
+* yadeva_alt
+* radeva_viramadeva.alt
 * kadeva_viramadeva_radeva
 * khadeva_viramadeva_radeva
 * gadeva_viramadeva_radeva
@@ -302,7 +304,7 @@ Glyph names are as follows, please check sfd file for actual shapes
 * ddadeva_viramadeva_yadeva
 * ddhadeva_viramadeva_ddhadeva
 * ddhadeva_viramadeva_yadeva
-* dadeva_viraamdeva_gadeva
+* dadeva_viramadeva_gadeva
 * dadeva_viramadeva_ghadeva
 * dadeva_viramadeva_dadeva
 * dadeva_viramadeva_dhadeva
@@ -355,13 +357,15 @@ Glyph names are as follows, please check sfd file for actual shapes
 * ssadeva_viramadeva_radeva
 * ka_virama_ssa_virama_radeva
 * ja_virama_nya_virama_radeva
-* nep_kadeva_viramadeva_radeva
-* nep_eightdeva
-* nep_fivedeva
-* nep_zhadeva
-* daddharayadeva
-* nep_jhadeva
-* nep_jhadeva_viramadeva
+* nep_ka_virama_ra
+* nep_eight
+* nep_five
+* nep_zha
+* da_ddha_ra_yadeva
+* nep_jha
+* nep_jha_virama
 * mr_ladeva
 * mr_shadeva
 * mr_shadeva_viramadeva
+* zerowidthjoiner
+* ba_virama_ra_viramadeva
