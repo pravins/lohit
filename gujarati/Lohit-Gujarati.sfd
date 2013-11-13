@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1384365274
+ModificationTime: 1384366155
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -5727,6 +5727,7 @@ SplineSet
  506 -240 l 1,44,-1
  506 -240 l 1,38,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Gujarati lookup 4-1" daguj viramaguj
 EndChar
 
@@ -5734,8 +5735,7 @@ StartChar: dhaguj_viramaguj
 Encoding: 65589 -1 131
 Width: 426
 GlyphClass: 2
-Flags: WO
-AnchorPoint: "Anchor-2" 224 56 basechar 0
+Flags: W
 LayerCount: 2
 Fore
 SplineSet

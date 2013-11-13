@@ -1,3 +1,12 @@
+# How to use
+# On Linux running make will generate ttf for you. For other platforms follow below steps
+# 1. Open Lohit-Devanagari.sfd in Fontforge
+# 2. Click on Fontforge File -> Merge Feature info and Select this feature file and save
+# 3. Now Generate ttf as you do for other fonts.
+# 4. Done
+# Copyright (C) 2013 Pravin Satpute <psatpute AT redhat DOT com> and Sneha Kore <skore AT redhat DOT com>
+# License: OFL 1.1
+# License URL: http://scripts.sil.org/OFL
 
 # GSUB 
 
