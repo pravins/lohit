@@ -1,5 +1,15 @@
 				  lohit-gujarati
-Current Version :- 2.5.3
+Current Version :- 2.91.0
+
+* Wed Nov 13 2013 Pravin Satpute <psatpute@redhat.com> - 2.91.0
+- First release of devanagari after re-writing all rules
+- Open type rules are available in .fea file for easy reusability.
+- Supports 'gjr2' and 'gujr' both.
+- Follows AGL guidelines
+- Testing done with Harbufzz and Uniscribe
+- Removed the rakkar glyphs for "cha","tta","ttha","dda","ddha" & written rule seperately for them for trakkar form(ra_virama_uvowel & ra_virama_uuvowel)
+- added iivowelsigngujarati EMatras.
+- Test file available with tarball.
 
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
 - Dropping RFN from OFL.txt

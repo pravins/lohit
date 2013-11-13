@@ -3,8 +3,8 @@ FontName: Lohit-Gujarati
 FullName: Lohit Gujarati
 FamilyName: Lohit Gujarati
 Weight: Book
-Copyright: Copyright 2011-12 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt).
-Version: 2.5.3
+Copyright: Copyright 2011-13 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\nOpen type tables written by:\nPravin Satpute <psatpute AT redhat DOT com>\nSneha Kore <skore At redhat DOT com>\n\n   Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
+Version: 2.91.0
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1357640329
+ModificationTime: 1384365274
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -50,36 +50,82 @@ OS2SupYOff: 500
 OS2StrikeYSize: 50
 OS2StrikeYPos: 250
 OS2Vendor: 'ACE '
-Lookup: 4 0 0 "'akhn' Akhand in Gujarati lookup 0"  {"'akhn' Akhand in Gujarati lookup 0 subtable"  } ['akhn' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'rphf' Reph Form in Gujarati lookup 1"  {"'rphf' Reph Form in Gujarati lookup 1 subtable"  } ['rphf' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'blwf' Below Base Forms in Gujarati lookup 2"  {"'blwf' Below Base Forms in Gujarati lookup 2 subtable"  } ['blwf' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'half' Half Forms in Gujarati lookup 3"  {"'half' Half Forms in Gujarati lookup 3 subtable"  } ['half' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'vatu' Vattu Variants in Gujarati lookup 4"  {"'vatu' Vattu Variants in Gujarati lookup 4 subtable"  } ['vatu' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'blws' Below Base Substitutions in Gujarati lookup 5"  {"'blws' Below Base Substitutions in Gujarati lookup 5 subtable"  } ['blws' ('gujr' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Gujarati lookup 6"  {"'psts' Post Base Substitutions in Gujarati lookup 6 subtable"  } ['psts' ('gujr' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Gujarati lookup 7"  {"'psts' Post Base Substitutions in Gujarati lookup 7 subtable"  } ['psts' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 8"  {"'psts' Post Base Substitutions in Gujarati lookup 8 subtable"  } ['psts' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'abvs' Above Base Substitutions in Gujarati lookup 9"  {"'abvs' Above Base Substitutions in Gujarati lookup 9 subtable"  } ['abvs' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'haln' Halant Forms in Gujarati lookup 10"  {"'haln' Halant Forms in Gujarati lookup 10 subtable"  } ['haln' ('gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'pres' Pre Base Substitutions in Gujarati lookup 11"  {"'pres' Pre Base Substitutions in Gujarati lookup 11 subtable"  } ['pres' ('gujr' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 12"  {"Single Substitution lookup 12 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 13"  {"Single Substitution lookup 13 subtable"  } []
-Lookup: 260 0 0 "'blwm' Below Base Mark in Gujarati lookup 0"  {"'blwm' Below Base Mark in Gujarati lookup 0 subtable"  } ['blwm' ('gujr' <'dflt' > ) ]
-Lookup: 260 0 0 "'blwm' Below Base Mark in Gujarati lookup 1"  {"'blwm' Below Base Mark in Gujarati lookup 1 subtable"  } ['blwm' ('gujr' <'dflt' > ) ]
-Lookup: 260 0 0 "'abvm' Above Base Mark in Gujarati lookup 2"  {"'abvm' Above Base Mark in Gujarati lookup 2 subtable"  } ['abvm' ('gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'akhn' Akhand in Gujarati lookup 1"  {"'akhn' Akhand in Gujarati lookup 1-1"  } ['akhn' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'rphf' Reph Form in Gujarati lookup 2"  {"'rphf' Reph Form in Gujarati lookup 2-1"  } ['rphf' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'rkrf' Rakar Forms in Gujarati lookup 5"  {"'rkrf' Rakar Forms in Gujarati lookup 5-1"  } ['rkrf' ('gjr2' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms in Gujarati lookup 3"  {"'blwf' Below Base Forms in Gujarati lookup 3-1"  } ['blwf' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Gujarati lookup 4"  {"'half' Half Forms in Gujarati lookup 4-1"  } ['half' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'cjct' Conjunct Forms in Gujarati lookup 5"  {"'cjct' Conjunct Forms in Gujarati lookup 5-1"  } ['cjct' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants in Gujarati lookup 7"  {"'vatu' Vattu Variants in Gujarati lookup 7-1"  } ['vatu' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'pres' Pre Base Substitutions lookup 24"  {"'pres' Pre Base Substitutions lookup 24-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'abvs' Above Base Substitutions in Gujarati lookup 8"  {"'abvs' Above Base Substitutions in Gujarati lookup 8-1"  } ['abvs' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'blws' Below Base Substitutions in Gujarati lookup 6"  {"'blws' Below Base Substitutions in Gujarati lookup 6-1"  } ['blws' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 9"  {"'psts' Post Base Substitutions in Gujarati lookup 9-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Gujarati lookup 10"  {"'psts' Post Base Substitutions in Gujarati lookup 10-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 12"  {"Single Substitution lookup 12-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions in Gujarati lookup 13"  {"'psts' Post Base Substitutions in Gujarati lookup 13-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 13"  {"Single Substitution lookup 13-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 19"  {"'psts' Post Base Substitutions lookup 19-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 14"  {"Single Substitution lookup 14-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 20"  {"'psts' Post Base Substitutions lookup 20-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 15"  {"Single Substitution lookup 15-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 21"  {"'psts' Post Base Substitutions lookup 21-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 16"  {"Single Substitution lookup 16-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 22"  {"'psts' Post Base Substitutions lookup 22-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 17"  {"Single Substitution lookup 17-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 23"  {"'psts' Post Base Substitutions lookup 23-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 18"  {"Single Substitution lookup 18-1"  } []
+Lookup: 260 0 0 "'blwm' Below Base Mark in Gujarati lookup 0"  {"'blwm' Below Base Mark in Gujarati lookup 0 subtable"  } ['blwm' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 260 0 0 "'blwm' Below Base Mark in Gujarati lookup 1"  {"'blwm' Below Base Mark in Gujarati lookup 1 subtable"  } ['blwm' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 260 0 0 "'abvm' Above Base Mark in Gujarati lookup 2"  {"'abvm' Above Base Mark in Gujarati lookup 2 subtable"  } ['abvm' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "'psts' Post Base Substitutions in Gujarati lookup 7 subtable"  0 0 0 1
+ChainSub2: coverage "'psts' Post Base Substitutions lookup 23-1"  0 0 0 1
  1 0 1
-  Coverage: 5 u0AC1
-  FCoverage: 55 u0A97_u0AE0.half_u0A97.psts u0AB6_u0AE0.half_u0AB2.psts
+  Coverage: 13 ivowelsignguj
+  FCoverage: 22 chaguj_viramaguj_yaguj
+ 1
+  SeqLookup: 0 "Single Substitution lookup 18" 
+EndFPST
+ChainSub2: coverage "'psts' Post Base Substitutions lookup 22-1"  0 0 0 1
+ 1 0 1
+  Coverage: 13 ivowelsignguj
+  FCoverage: 23 ddhaguj_viramaguj_yaguj
+ 1
+  SeqLookup: 0 "Single Substitution lookup 17" 
+EndFPST
+ChainSub2: coverage "'psts' Post Base Substitutions lookup 21-1"  0 0 0 1
+ 1 0 1
+  Coverage: 13 ivowelsignguj
+  FCoverage: 22 ddaguj_viramaguj_yaguj
+ 1
+  SeqLookup: 0 "Single Substitution lookup 16" 
+EndFPST
+ChainSub2: coverage "'psts' Post Base Substitutions lookup 20-1"  0 0 0 1
+ 1 0 1
+  Coverage: 13 ivowelsignguj
+  FCoverage: 23 tthaguj_viramaguj_yaguj
+ 1
+  SeqLookup: 0 "Single Substitution lookup 15" 
+EndFPST
+ChainSub2: coverage "'psts' Post Base Substitutions lookup 19-1"  0 0 0 1
+ 1 0 1
+  Coverage: 13 ivowelsignguj
+  FCoverage: 91 ttaguj_viramaguj_yaguj shaguj_viramaguj_laguj saguj_viramaguj_nyaguj llaguj_viramaguj_yaguj
+ 1
+  SeqLookup: 0 "Single Substitution lookup 14" 
+EndFPST
+ChainSub2: coverage "'psts' Post Base Substitutions in Gujarati lookup 13-1"  0 0 0 1
+ 1 0 1
+  Coverage: 13 ivowelsignguj
+  FCoverage: 70 kaguj_viramaguj_kaguj ssaguj_viramaguj_ttaguj ssaguj_viramaguj_tthaguj
  1
   SeqLookup: 0 "Single Substitution lookup 13" 
 EndFPST
-ChainSub2: coverage "'psts' Post Base Substitutions in Gujarati lookup 6 subtable"  0 0 0 1
+ChainSub2: coverage "'psts' Post Base Substitutions in Gujarati lookup 10-1"  0 0 0 1
  1 0 1
-  Coverage: 5 u0AC1
-  FCoverage: 257 u0A97 u0AA1 u0AA2 u0AA3 u0AA4 u0AA8 u0AAD u0AB3 u0ABD u0A97_u0AB3_u0AE0.blwf.vatu glyph193 glyph194 glyph195 glyph196 u0AA8_u0AB3_u0AE0.blwf.vatu u0AAD_u0AB3_u0AE0.blwf.vatu u0AA8_u0AE0.half_u0A99.psts u0AB9_u0AE0.half_u0AA1.psts u0AB9_u0AE0.half_u0AA2.psts
+  Coverage: 13 ivowelsignguj
+  FCoverage: 149 kaguj jhaguj ttaguj tthaguj ddhaguj daguj phaguj raguj haguj kaguj_viramaguj_raguj daguj_viramaguj_raguj phaguj_viramaguj_raguj haguj_viramdeva_raguj
  1
   SeqLookup: 0 "Single Substitution lookup 12" 
 EndFPST
@@ -365,7 +411,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "" "" "Version 2.5.3" 
+LangName: 1033 "" "" "Regular" "FontForge 2.0 : Lohit Gujarati : 12-11-2013" "" "2.91.0" "" "Lohit is a trademark of Red Hat, Inc.+AAoA" "" "" "" "" "" "OFL 1.1" "http://scripts.sil.org/OFL" 
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -373,11 +419,11 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 44 17
+WinInfo: 0 38 14
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Gujarati lookup 2 subtable" "Anchor-1"  "'blwm' Below Base Mark in Gujarati lookup 1 subtable" "Anchor-2"  "'blwm' Below Base Mark in Gujarati lookup 0 subtable" 
-BeginChars: 65773 347
+BeginChars: 65773 314
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -755,7 +801,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A81
+StartChar: danda
 Encoding: 2404 2404 17
 Width: 240
 GlyphClass: 2
@@ -772,7 +818,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A82
+StartChar: doubledanda
 Encoding: 2405 2405 18
 Width: 420
 GlyphClass: 2
@@ -795,7 +841,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A83
+StartChar: candrabinduguj
 Encoding: 2689 2689 19
 Width: 0
 GlyphClass: 4
@@ -829,7 +875,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A85
+StartChar: anusvaraguj
 Encoding: 2690 2690 20
 Width: 0
 GlyphClass: 4
@@ -851,7 +897,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A86
+StartChar: visargaguj
 Encoding: 2691 2691 21
 Width: 305
 GlyphClass: 2
@@ -882,7 +928,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A87
+StartChar: aguj
 Encoding: 2693 2693 22
 Width: 731
 GlyphClass: 2
@@ -931,7 +977,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A88
+StartChar: aaguj
 Encoding: 2694 2694 23
 Width: 971
 GlyphClass: 2
@@ -986,7 +1032,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A89
+StartChar: iguj
 Encoding: 2695 2695 24
 Width: 529
 GlyphClass: 2
@@ -1036,7 +1082,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A8A
+StartChar: iiguj
 Encoding: 2696 2696 25
 Width: 532
 GlyphClass: 2
@@ -1090,7 +1136,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A8B
+StartChar: uguj
 Encoding: 2697 2697 26
 Width: 550
 GlyphClass: 2
@@ -1136,7 +1182,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A8C
+StartChar: uuguj
 Encoding: 2698 2698 27
 Width: 735
 GlyphClass: 2
@@ -1188,7 +1234,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A8D
+StartChar: rvocalicguj
 Encoding: 2699 2699 28
 Width: 879
 GlyphClass: 2
@@ -1249,7 +1295,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A8F
+StartChar: lvocalicguj
 Encoding: 2700 2700 29
 Width: 610
 GlyphClass: 2
@@ -1303,7 +1349,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A90
+StartChar: ecandraguj
 Encoding: 2701 2701 30
 Width: 731
 GlyphClass: 2
@@ -1364,7 +1410,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A91
+StartChar: eguj
 Encoding: 2703 2703 31
 Width: 731
 GlyphClass: 2
@@ -1423,7 +1469,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A93
+StartChar: aiguj
 Encoding: 2704 2704 32
 Width: 731
 GlyphClass: 2
@@ -1492,7 +1538,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A94
+StartChar: ocandraguj
 Encoding: 2705 2705 33
 Width: 968
 GlyphClass: 2
@@ -1559,7 +1605,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A95
+StartChar: oguj
 Encoding: 2707 2707 34
 Width: 971
 GlyphClass: 2
@@ -1624,7 +1670,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A96
+StartChar: auguj
 Encoding: 2708 2708 35
 Width: 969
 GlyphClass: 2
@@ -1699,7 +1745,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A97
+StartChar: kaguj
 Encoding: 2709 2709 36
 Width: 474
 GlyphClass: 2
@@ -1747,7 +1793,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A98
+StartChar: khaguj
 Encoding: 2710 2710 37
 Width: 636
 GlyphClass: 2
@@ -1789,7 +1835,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A99
+StartChar: gaguj
 Encoding: 2711 2711 38
 Width: 578
 GlyphClass: 2
@@ -1827,7 +1873,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A9A
+StartChar: ghaguj
 Encoding: 2712 2712 39
 Width: 560
 GlyphClass: 2
@@ -1872,13 +1918,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A9B
+StartChar: ngaguj
 Encoding: 2713 2713 40
 Width: 539
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-1" 265.75 3 basechar 0
 AnchorPoint: "Anchor-2" 264 0 basechar 0
-AnchorPoint: "Anchor-1" 262 0 basechar 0
 AnchorPoint: "Anchor-0" 288 -8 basechar 0
 LayerCount: 2
 Fore
@@ -1924,7 +1970,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A9C
+StartChar: caguj
 Encoding: 2714 2714 41
 Width: 638
 GlyphClass: 2
@@ -1967,13 +2013,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A9D
+StartChar: chaguj
 Encoding: 2715 2715 42
 Width: 622
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-2" 296 0 basechar 0
-AnchorPoint: "Anchor-1" 288 -6 basechar 0
+AnchorPoint: "Anchor-1" 288 3 basechar 0
 AnchorPoint: "Anchor-0" 430 -6 basechar 0
 LayerCount: 2
 Fore
@@ -2027,7 +2073,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A9E
+StartChar: jaguj
 Encoding: 2716 2716 43
 Width: 594
 GlyphClass: 2
@@ -2083,7 +2129,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A9F
+StartChar: jhaguj
 Encoding: 2717 2717 44
 Width: 620
 GlyphClass: 2
@@ -2135,7 +2181,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AA0
+StartChar: nyaguj
 Encoding: 2718 2718 45
 Width: 673
 GlyphClass: 2
@@ -2174,14 +2220,14 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AA1
+StartChar: ttaguj
 Encoding: 2719 2719 46
 Width: 442
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-2" 216 0 basechar 0
-AnchorPoint: "Anchor-1" 236 -12 basechar 0
-AnchorPoint: "Anchor-0" 238 0 basechar 0
+AnchorPoint: "Anchor-1" 236 0 basechar 0
+AnchorPoint: "Anchor-0" 238 -4 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2216,13 +2262,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AA2
+StartChar: tthaguj
 Encoding: 2720 2720 47
 Width: 495
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-2" 256 -16 basechar 0
-AnchorPoint: "Anchor-1" 248 -12 basechar 0
+AnchorPoint: "Anchor-1" 254 2 basechar 0
 AnchorPoint: "Anchor-0" 272 -8 basechar 0
 LayerCount: 2
 Fore
@@ -2261,14 +2307,14 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AA3
+StartChar: ddaguj
 Encoding: 2721 2721 48
 Width: 498
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor-0" 272 -10 basechar 0
 AnchorPoint: "Anchor-2" 264 -8 basechar 0
-AnchorPoint: "Anchor-1" 268 -12 basechar 0
-AnchorPoint: "Anchor-0" 272 -8 basechar 0
+AnchorPoint: "Anchor-1" 265.75 3 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2303,13 +2349,13 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AA4
+StartChar: ddhaguj
 Encoding: 2722 2722 49
 Width: 478
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-2" 240 -8 basechar 0
-AnchorPoint: "Anchor-1" 238 -12 basechar 0
+AnchorPoint: "Anchor-1" 238 0 basechar 0
 AnchorPoint: "Anchor-0" 264 0 basechar 0
 LayerCount: 2
 Fore
@@ -2360,7 +2406,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AA5
+StartChar: nnaguj
 Encoding: 2723 2723 50
 Width: 758
 GlyphClass: 2
@@ -2412,7 +2458,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AA6
+StartChar: taguj
 Encoding: 2724 2724 51
 Width: 561
 GlyphClass: 2
@@ -2442,7 +2488,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AA7
+StartChar: thaguj
 Encoding: 2725 2725 52
 Width: 594
 GlyphClass: 2
@@ -2490,7 +2536,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AA8
+StartChar: daguj
 Encoding: 2726 2726 53
 Width: 465
 GlyphClass: 2
@@ -2531,11 +2577,11 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AAA
+StartChar: dhaguj
 Encoding: 2727 2727 54
 Width: 596
 GlyphClass: 2
-Flags: WO
+Flags: W
 AnchorPoint: "Anchor-2" 224 56 basechar 0
 LayerCount: 2
 Fore
@@ -2570,7 +2616,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AAB
+StartChar: naguj
 Encoding: 2728 2728 55
 Width: 587
 GlyphClass: 2
@@ -2609,7 +2655,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AAC
+StartChar: paguj
 Encoding: 2730 2730 56
 Width: 562
 GlyphClass: 2
@@ -2645,7 +2691,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AAD
+StartChar: phaguj
 Encoding: 2731 2731 57
 Width: 444
 GlyphClass: 2
@@ -2698,7 +2744,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AAE
+StartChar: baguj
 Encoding: 2732 2732 58
 Width: 664
 GlyphClass: 2
@@ -2737,7 +2783,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AAF
+StartChar: bhaguj
 Encoding: 2733 2733 59
 Width: 695
 GlyphClass: 2
@@ -2779,7 +2825,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AB0
+StartChar: maguj
 Encoding: 2734 2734 60
 Width: 566
 GlyphClass: 2
@@ -2827,7 +2873,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AB2
+StartChar: yaguj
 Encoding: 2735 2735 61
 Width: 554
 GlyphClass: 2
@@ -2868,7 +2914,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AB3
+StartChar: raguj
 Encoding: 2736 2736 62
 Width: 373
 GlyphClass: 2
@@ -2908,7 +2954,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AB5
+StartChar: laguj
 Encoding: 2738 2738 63
 Width: 608
 GlyphClass: 2
@@ -2946,7 +2992,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AB6
+StartChar: llaguj
 Encoding: 2739 2739 64
 Width: 666
 GlyphClass: 2
@@ -2988,7 +3034,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AB7
+StartChar: vaguj
 Encoding: 2741 2741 65
 Width: 550
 GlyphClass: 2
@@ -3022,7 +3068,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AB8
+StartChar: shaguj
 Encoding: 2742 2742 66
 Width: 611
 GlyphClass: 2
@@ -3070,7 +3116,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AB9
+StartChar: ssaguj
 Encoding: 2743 2743 67
 Width: 552
 GlyphClass: 2
@@ -3110,7 +3156,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0ABC
+StartChar: saguj
 Encoding: 2744 2744 68
 Width: 630
 GlyphClass: 2
@@ -3158,7 +3204,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0ABD
+StartChar: haguj
 Encoding: 2745 2745 69
 Width: 468
 GlyphClass: 2
@@ -3211,7 +3257,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0ABE
+StartChar: nuktaguj
 Encoding: 2748 2748 70
 Width: 0
 GlyphClass: 4
@@ -3234,7 +3280,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0ABF
+StartChar: avagrahaguj
 Encoding: 2749 2749 71
 Width: 525
 GlyphClass: 2
@@ -3277,7 +3323,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AC0
+StartChar: aavowelsignguj
 Encoding: 2750 2750 72
 Width: 240
 GlyphClass: 2
@@ -3294,7 +3340,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AC1
+StartChar: ivowelsignguj
 Encoding: 2751 2751 73
 Width: 240
 GlyphClass: 2
@@ -3317,11 +3363,16 @@ SplineSet
  90 500 l 1,16,-1
  90 500 l 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 13 subtable" glyph301
-Substitution2: "Single Substitution lookup 12 subtable" glyph300
+Substitution2: "Single Substitution lookup 12-1" isignguj
+Substitution2: "Single Substitution lookup 13-1" iisignguj
+Substitution2: "Single Substitution lookup 14-1" iisignguj.alt1
+Substitution2: "Single Substitution lookup 15-1" iisignguj.alt2
+Substitution2: "Single Substitution lookup 16-1" iisignguj.alt3
+Substitution2: "Single Substitution lookup 17-1" iisignguj.alt4
+Substitution2: "Single Substitution lookup 18-1" iisignguj.alt5
 EndChar
 
-StartChar: u0AC2
+StartChar: iivowelsignguj
 Encoding: 2752 2752 74
 Width: 240
 GlyphClass: 2
@@ -3348,7 +3399,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AC3
+StartChar: uvowelsignguj
 Encoding: 2753 2753 75
 Width: 0
 GlyphClass: 4
@@ -3380,7 +3431,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AC4
+StartChar: uuvowelsignguj
 Encoding: 2754 2754 76
 Width: 0
 GlyphClass: 4
@@ -3412,7 +3463,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AC5
+StartChar: rvocalicvowelsignguj
 Encoding: 2755 2755 77
 Width: 0
 GlyphClass: 4
@@ -3442,7 +3493,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AC7
+StartChar: rrvocalicvowelsignguj
 Encoding: 2756 2756 78
 Width: 0
 GlyphClass: 4
@@ -3485,7 +3536,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AC8
+StartChar: ecandravowelsignguj
 Encoding: 2757 2757 79
 Width: 0
 GlyphClass: 4
@@ -3509,7 +3560,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AC9
+StartChar: evowelsignguj
 Encoding: 2759 2759 80
 Width: 0
 GlyphClass: 4
@@ -3531,7 +3582,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0ACB
+StartChar: aivowelsignguj
 Encoding: 2760 2760 81
 Width: 0
 GlyphClass: 4
@@ -3563,7 +3614,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0ACC
+StartChar: ocandravowelsignguj
 Encoding: 2761 2761 82
 Width: 240
 GlyphClass: 2
@@ -3592,7 +3643,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0ACD
+StartChar: ovowelsignguj
 Encoding: 2763 2763 83
 Width: 240
 GlyphClass: 2
@@ -3619,7 +3670,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AD0
+StartChar: auvowelsignguj
 Encoding: 2764 2764 84
 Width: 240
 GlyphClass: 2
@@ -3656,7 +3707,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AE0
+StartChar: viramaguj
 Encoding: 2765 2765 85
 Width: 0
 GlyphClass: 4
@@ -3675,7 +3726,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AE1
+StartChar: omguj
 Encoding: 2768 2768 86
 Width: 1009
 GlyphClass: 2
@@ -3765,7 +3816,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AE2
+StartChar: rrvocalicguj
 Encoding: 2784 2784 87
 Width: 917
 GlyphClass: 2
@@ -3846,7 +3897,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AE3
+StartChar: llvocalicguj
 Encoding: 2785 2785 88
 Width: 592
 GlyphClass: 2
@@ -3911,7 +3962,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AE6
+StartChar: lvocalicvowelsignguj
 Encoding: 2786 2786 89
 Width: 0
 GlyphClass: 4
@@ -3966,7 +4017,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AE7
+StartChar: llvocalicvowelsignguj
 Encoding: 2787 2787 90
 Width: 0
 GlyphClass: 4
@@ -4032,7 +4083,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AE8
+StartChar: zeroguj
 Encoding: 2790 2790 91
 Width: 550
 GlyphClass: 2
@@ -4063,7 +4114,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AE9
+StartChar: oneguj
 Encoding: 2791 2791 92
 Width: 549
 GlyphClass: 2
@@ -4103,7 +4154,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AEA
+StartChar: twoguj
 Encoding: 2792 2792 93
 Width: 549
 GlyphClass: 2
@@ -4153,7 +4204,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AEB
+StartChar: threeguj
 Encoding: 2793 2793 94
 Width: 549
 GlyphClass: 2
@@ -4195,7 +4246,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AEC
+StartChar: fourguj
 Encoding: 2794 2794 95
 Width: 552
 GlyphClass: 2
@@ -4236,7 +4287,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AED
+StartChar: fiveguj
 Encoding: 2795 2795 96
 Width: 550
 GlyphClass: 2
@@ -4279,7 +4330,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AEE
+StartChar: sixguj
 Encoding: 2796 2796 97
 Width: 550
 GlyphClass: 2
@@ -4324,7 +4375,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AEF
+StartChar: sevenguj
 Encoding: 2797 2797 98
 Width: 549
 GlyphClass: 2
@@ -4362,7 +4413,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0AF1
+StartChar: eightguj
 Encoding: 2798 2798 99
 Width: 550
 GlyphClass: 2
@@ -4391,7 +4442,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0AEF
+StartChar: nineguj
 Encoding: 2799 2799 100
 Width: 550
 GlyphClass: 2
@@ -4428,7 +4479,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0AF1
+StartChar: rupeeguj
 Encoding: 2801 2801 101
 Width: 717
 GlyphClass: 2
@@ -4499,7 +4550,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: afii61664
+StartChar: zerowidthnonjoiner
 Encoding: 8204 8204 102
 Width: 220
 GlyphClass: 2
@@ -4516,7 +4567,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: afii301
+StartChar: zerowidthjoiner
 Encoding: 8205 8205 103
 Width: 480
 GlyphClass: 2
@@ -4715,7 +4766,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni25CC
+StartChar: dottedcircle
 Encoding: 9676 9676 112
 Width: 720
 GlyphClass: 2
@@ -4846,7 +4897,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A97_u0AE0.half
+StartChar: kaguj_viramaguj
 Encoding: 65571 -1 113
 Width: 419
 GlyphClass: 2
@@ -4889,10 +4940,10 @@ SplineSet
  311 -10 311 -10 234 -10 c 1,44,-1
  234 -10 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0A97 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" kaguj viramaguj
 EndChar
 
-StartChar: u0A98_u0AE0.half
+StartChar: khaguj_viramaguj
 Encoding: 65572 -1 114
 Width: 467
 GlyphClass: 2
@@ -4927,10 +4978,10 @@ SplineSet
  92 175 92 175 92 235 c 1,30,-1
  92 235 l 1,0,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0A98 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" khaguj viramaguj
 EndChar
 
-StartChar: u0A99_u0AE0.half
+StartChar: gaguj_viramaguj
 Encoding: 65573 -1 115
 Width: 397
 GlyphClass: 2
@@ -4959,10 +5010,10 @@ SplineSet
  250 145 250 145 173 145 c 1,26,-1
  173 145 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0A99 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" gaguj viramaguj
 EndChar
 
-StartChar: u0A9A_u0AE0.half
+StartChar: ghaguj_viramaguj
 Encoding: 65574 -1 116
 Width: 389
 GlyphClass: 2
@@ -5000,10 +5051,10 @@ SplineSet
  59 353 59 353 59 385 c 1,37,-1
  59 385 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0A9A u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" ghaguj viramaguj
 EndChar
 
-StartChar: u0A9B_u0AE0.half
+StartChar: ngaguj_viramaguj
 Encoding: 65575 -1 117
 Width: 491
 GlyphClass: 2
@@ -5058,10 +5109,10 @@ SplineSet
  496 -235 l 1,56,-1
  496 -235 l 1,50,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0A9B u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" ngaguj viramaguj
 EndChar
 
-StartChar: u0A9C_u0AE0.half
+StartChar: caguj_viramaguj
 Encoding: 65576 -1 118
 Width: 468
 GlyphClass: 2
@@ -5097,10 +5148,10 @@ SplineSet
  33 265 l 1,35,-1
  33 265 l 1,0,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0A9C u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" caguj viramaguj
 EndChar
 
-StartChar: u0A9D_u0AE0.half
+StartChar: chaguj_viramaguj
 Encoding: 65577 -1 119
 Width: 546
 GlyphClass: 2
@@ -5163,11 +5214,10 @@ SplineSet
  541 -240 l 5,68,-1
  541 -240 l 5,62,-1
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0A9D u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" chaguj viramaguj
 EndChar
 
-StartChar: u0A9E_u0AE0.half
+StartChar: jaguj_viramaguj
 Encoding: 65578 -1 120
 Width: 496
 GlyphClass: 2
@@ -5218,10 +5268,10 @@ SplineSet
  342 50 342 50 367 50 c 1,57,-1
  367 50 l 1,45,46
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0A9E u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" jaguj viramaguj
 EndChar
 
-StartChar: u0A9F_u0AE0.half
+StartChar: jhaguj_viramaguj
 Encoding: 65579 -1 121
 Width: 555
 GlyphClass: 2
@@ -5267,10 +5317,10 @@ SplineSet
  484 -10 484 -10 420 -10 c 1,51,-1
  420 -10 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0A9F u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" jhaguj viramaguj
 EndChar
 
-StartChar: u0AA0_u0AE0.half
+StartChar: nyaguj_viramaguj
 Encoding: 65580 -1 122
 Width: 502
 GlyphClass: 2
@@ -5302,10 +5352,10 @@ SplineSet
  53 177 53 177 22 230 c 1,29,-1
  22 230 l 1,0,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AA0 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" nyaguj viramaguj
 EndChar
 
-StartChar: u0AA1_u0AE0.half
+StartChar: ttaguj_viramaguj
 Encoding: 65581 -1 123
 Width: 398
 GlyphClass: 2
@@ -5350,10 +5400,10 @@ SplineSet
  478 -235 l 1,45,-1
  478 -235 l 1,39,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AA1 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" ttaguj viramaguj
 EndChar
 
-StartChar: u0AA2_u0AE0.half
+StartChar: tthaguj_viramaguj
 Encoding: 65582 -1 124
 Width: 433
 GlyphClass: 2
@@ -5401,10 +5451,10 @@ SplineSet
  508 -245 l 1,47,-1
  508 -245 l 1,41,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AA2 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" tthaguj viramaguj
 EndChar
 
-StartChar: u0AA3_u0AE0.half
+StartChar: ddaguj_viramaguj
 Encoding: 65583 -1 125
 Width: 442
 GlyphClass: 2
@@ -5449,10 +5499,10 @@ SplineSet
  517 -240 l 1,43,-1
  517 -240 l 1,37,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AA3 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" ddaguj viramaguj
 EndChar
 
-StartChar: u0AA4_u0AE0.half
+StartChar: ddhaguj_viramaguj
 Encoding: 65584 -1 126
 Width: 424
 GlyphClass: 2
@@ -5512,10 +5562,10 @@ SplineSet
  494 -235 l 1,66,-1
  494 -235 l 1,60,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AA4 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" ddhaguj viramaguj
 EndChar
 
-StartChar: u0AA5_u0AE0.half
+StartChar: nnaguj_viramaguj
 Encoding: 65585 -1 127
 Width: 578
 GlyphClass: 2
@@ -5558,10 +5608,10 @@ SplineSet
  419 160 419 160 344 160 c 1,43,-1
  344 160 l 1,17,18
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AA5 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" nnaguj viramaguj
 EndChar
 
-StartChar: u0AA6_u0AE0.half
+StartChar: taguj_viramaguj
 Encoding: 65586 -1 128
 Width: 391
 GlyphClass: 2
@@ -5584,10 +5634,10 @@ SplineSet
  41 121 41 121 41 210 c 1,16,-1
  41 210 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AA6 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" taguj viramaguj
 EndChar
 
-StartChar: u0AA7_u0AE0.half
+StartChar: thaguj_viramaguj
 Encoding: 65587 -1 129
 Width: 424
 GlyphClass: 2
@@ -5628,10 +5678,10 @@ SplineSet
  182 361 182 361 224 350 c 1,42,-1
  224 350 l 1,30,31
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AA7 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" thaguj viramaguj
 EndChar
 
-StartChar: u0AA8_u0AE0.half
+StartChar: daguj_viramaguj
 Encoding: 65588 -1 130
 Width: 431
 GlyphClass: 2
@@ -5677,47 +5727,46 @@ SplineSet
  506 -240 l 1,44,-1
  506 -240 l 1,38,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AA8 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" daguj viramaguj
 EndChar
 
-StartChar: u0AAA_u0AE0.half
+StartChar: dhaguj_viramaguj
 Encoding: 65589 -1 131
 Width: 426
 GlyphClass: 2
-Flags: W
+Flags: WO
+AnchorPoint: "Anchor-2" 224 56 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-226 50 m 1,0,1
- 158 50 158 50 109.5 91 c 128,-1,2
- 61 132 61 132 61 190 c 0,3,4
- 61 226 61 226 84.5 256 c 128,-1,5
- 108 286 108 286 146 300 c 1,6,7
- 104 311 104 311 77.5 339 c 128,-1,8
- 51 367 51 367 51 400 c 0,9,10
- 51 450 51 450 123 495 c 128,-1,11
- 195 540 195 540 306 560 c 1,12,-1
- 321 515 l 1,13,14
- 230 499 230 499 170.5 466.5 c 128,-1,15
- 111 434 111 434 111 400 c 256,16,17
- 111 366 111 366 156 345.5 c 128,-1,18
- 201 325 201 325 276 325 c 1,19,-1
- 276 275 l 1,20,21
- 212 275 212 275 166.5 250 c 128,-1,22
- 121 225 121 225 121 190 c 0,23,24
- 121 153 121 153 152 126.5 c 128,-1,25
- 183 100 183 100 226 100 c 0,26,27
- 288 100 288 100 347 140 c 128,-1,28
- 406 180 406 180 446 250 c 1,29,-1
- 446 170 l 1,30,31
- 407 114 407 114 348.5 82 c 128,-1,32
- 290 50 290 50 226 50 c 1,33,-1
- 226 50 l 1,0,1
+446 170 m 1,0,1
+ 407 114 407 114 348.5 82 c 128,-1,2
+ 290 50 290 50 226 50 c 0,3,4
+ 158 50 158 50 109.5 91 c 128,-1,5
+ 61 132 61 132 61 190 c 0,6,7
+ 61 226 61 226 84.5 256 c 128,-1,8
+ 108 286 108 286 146 300 c 1,9,10
+ 104 311 104 311 77.5 339 c 1,11,12
+ 32.501 397.256 32.501 397.256 77.9102 476.242 c 0,13,14
+ 97.7852 510.813 97.7852 510.813 177.24 590.863 c 1,15,-1
+ 222.013 555.159 l 1,16,17
+ 167.045 510.109 167.045 510.109 136.299 461.772 c 0,18,19
+ 83.1488 376.579 83.1488 376.579 156 346.5 c 0,20,21
+ 206.733 325.998 206.733 325.998 276 325 c 1,22,-1
+ 276 275 l 1,23,24
+ 212 275 212 275 166.5 250 c 128,-1,25
+ 121 225 121 225 121 190 c 0,26,27
+ 121 153 121 153 152 126.5 c 128,-1,28
+ 183 100 183 100 226 100 c 0,29,30
+ 288 100 288 100 347 140 c 128,-1,31
+ 406 180 406 180 446 250 c 1,32,-1
+ 446 170 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AAA u0AE0
+LCarets2: 1 0 
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" dhaguj viramaguj
 EndChar
 
-StartChar: u0AAB_u0AE0.half
+StartChar: naguj_viramaguj
 Encoding: 65590 -1 132
 Width: 417
 GlyphClass: 2
@@ -5749,10 +5798,10 @@ SplineSet
  153 110 153 110 192 110 c 1,28,-1
  192 110 l 1,16,17
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AAB u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" naguj viramaguj
 EndChar
 
-StartChar: u0AAC_u0AE0.half
+StartChar: paguj_viramaguj
 Encoding: 65591 -1 133
 Width: 392
 GlyphClass: 2
@@ -5781,10 +5830,10 @@ SplineSet
  97 390 l 1,24,-1
  97 390 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AAC u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" paguj viramaguj
 EndChar
 
-StartChar: u0AAD_u0AE0.half
+StartChar: phaguj_viramaguj
 Encoding: 65592 -1 134
 Width: 383
 GlyphClass: 2
@@ -5832,10 +5881,10 @@ SplineSet
  70 42 70 42 37 75 c 1,51,-1
  37 75 l 1,0,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AAD u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" phaguj viramaguj
 EndChar
 
-StartChar: u0AAE_u0AE0.half
+StartChar: baguj_viramaguj
 Encoding: 65593 -1 135
 Width: 495
 GlyphClass: 2
@@ -5867,10 +5916,10 @@ SplineSet
  45 215 45 215 45 300 c 1,27,-1
  45 300 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AAE u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" baguj viramaguj
 EndChar
 
-StartChar: u0AAF_u0AE0.half
+StartChar: bhaguj_viramaguj
 Encoding: 65594 -1 136
 Width: 525
 GlyphClass: 2
@@ -5905,10 +5954,10 @@ SplineSet
  50 197 50 197 50 290 c 1,33,-1
  50 290 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AAF u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" bhaguj viramaguj
 EndChar
 
-StartChar: u0AB0_u0AE0.half
+StartChar: maguj_viramaguj
 Encoding: 65595 -1 137
 Width: 356
 GlyphClass: 2
@@ -5949,10 +5998,10 @@ SplineSet
  131 100 131 100 156 100 c 1,37,-1
  156 100 l 1,26,27
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AB0 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" maguj viramaguj
 EndChar
 
-StartChar: u0AB2_u0AE0.half
+StartChar: yaguj_viramaguj
 Encoding: 65596 -1 138
 Width: 384
 GlyphClass: 2
@@ -5986,10 +6035,10 @@ SplineSet
  34 197 34 197 34 280 c 1,31,-1
  34 280 l 1,0,-1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AB2 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" yaguj viramaguj
 EndChar
 
-StartChar: u0AB5_u0AE0.half
+StartChar: laguj_viramaguj
 Encoding: 65597 -1 139
 Width: 438
 GlyphClass: 2
@@ -6020,10 +6069,10 @@ SplineSet
  248 0 l 1,23,-1
  248 0 l 1,5,6
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AB5 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" laguj viramaguj
 EndChar
 
-StartChar: u0AB6_u0AE0.half
+StartChar: llaguj_viramaguj
 Encoding: 65598 -1 140
 Width: 426
 GlyphClass: 2
@@ -6056,10 +6105,11 @@ SplineSet
  46 215 46 215 46 300 c 1,30,-1
  46 300 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AB6 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" llaguj viramaguj
+LCarets2: 1 0 
 EndChar
 
-StartChar: u0AB7_u0AE0.half
+StartChar: vaguj_viramaguj
 Encoding: 65599 -1 141
 Width: 380
 GlyphClass: 2
@@ -6086,10 +6136,10 @@ SplineSet
  40 241 40 241 40 320 c 1,22,-1
  40 320 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AB7 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" vaguj viramaguj
 EndChar
 
-StartChar: u0AB8_u0AE0.half
+StartChar: shaguj_viramaguj
 Encoding: 65600 -1 142
 Width: 393
 GlyphClass: 2
@@ -6128,10 +6178,10 @@ SplineSet
  286 0 l 1,39,-1
  286 0 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AB8 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" shaguj viramaguj
 EndChar
 
-StartChar: u0AB9_u0AE0.half
+StartChar: ssaguj_viramaguj
 Encoding: 65601 -1 143
 Width: 403
 GlyphClass: 2
@@ -6164,10 +6214,10 @@ SplineSet
  218 160 218 160 268 160 c 1,27,-1
  268 160 l 1,19,20
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AB9 u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" ssaguj viramaguj
 EndChar
 
-StartChar: u0ABC_u0AE0.half
+StartChar: saguj_viramaguj
 Encoding: 65602 -1 144
 Width: 421
 GlyphClass: 2
@@ -6208,10 +6258,10 @@ SplineSet
  21 470 l 1,39,-1
  21 470 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0ABC u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" saguj viramaguj
 EndChar
 
-StartChar: u0ABD_u0AE0.half
+StartChar: haguj_viramaguj
 Encoding: 65603 -1 145
 Width: 441
 GlyphClass: 2
@@ -6253,10 +6303,10 @@ SplineSet
  338 -50 338 -50 301 -50 c 1,44,-1
  301 -50 l 1,0,1
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0ABD u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" haguj viramaguj
 EndChar
 
-StartChar: u0A97_u0AE0_u0AB9.akhn_u0AE0.psts
+StartChar: ka_virama_ssa_viramaguj
 Encoding: 65604 -1 146
 Width: 465
 GlyphClass: 2
@@ -6307,10 +6357,10 @@ SplineSet
  335 -75 l 1,57,-1
  335 -75 l 1,0,1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A97_u0AE0_u0AB9.akhn u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" kaguj_viramaguj_ssaguj viramaguj
 EndChar
 
-StartChar: u0A9E_u0AE0_u0AA0.akhn_u0AE0.psts
+StartChar: ja_virama_nya_viramaguj
 Encoding: 65605 -1 147
 Width: 473
 GlyphClass: 2
@@ -6352,10 +6402,10 @@ SplineSet
  328 -65 l 1,43,-1
  328 -65 l 1,0,1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9E_u0AE0_u0AA0.akhn u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" jaguj_viramaguj_nyaguj viramaguj
 EndChar
 
-StartChar: u0AA6_u0AE0_u0AB3.akhn_u0AE0.half
+StartChar: ta_virama_ra_viramaguj
 Encoding: 65606 -1 148
 Width: 403
 GlyphClass: 2
@@ -6380,11 +6430,11 @@ SplineSet
  98 100 l 1,18,-1
  98 100 l 1,0,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AA6_u0AE0_u0AB3.akhn u0AE0
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AA6_u0AE0_u0AB3.akhn u0AE0
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" taguj_viramaguj_raguj viramaguj
+Ligature2: "'vatu' Vattu Variants in Gujarati lookup 7-1" taguj_viramaguj_raguj viramaguj
 EndChar
 
-StartChar: u0AB8_u0AE0_u0AB3.akhn_u0AE0.half
+StartChar: shaguj_viramaguj_alt
 Encoding: 65607 -1 149
 Width: 479
 GlyphClass: 2
@@ -6423,10 +6473,10 @@ SplineSet
  234 360 234 360 264 355 c 1,39,-1
  264 355 l 1,27,28
 EndSplineSet
-Ligature2: "'half' Half Forms in Gujarati lookup 3 subtable" u0AB8_u0AE0_u0AB3.akhn u0AE0
+LCarets2: 1 0 
 EndChar
 
-StartChar: u0AA6_u0AE0_u0AA6.akhn_u0AE0.psts
+StartChar: ta_virama_ta_viramaguj
 Encoding: 65608 -1 150
 Width: 428
 GlyphClass: 2
@@ -6451,10 +6501,11 @@ SplineSet
  88 119 88 119 88 195 c 1,18,-1
  88 195 l 1,0,1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AA6_u0AE0_u0AA6.akhn u0AE0
+Ligature2: "'vatu' Vattu Variants in Gujarati lookup 7-1" taguj_viramaguj_taguj viramaguj 
+Ligature2: "'half' Half Forms in Gujarati lookup 4-1" taguj_viramaguj_taguj viramaguj 
 EndChar
 
-StartChar: u0A97_u0AB3_u0AE0.blwf.vatu
+StartChar: kaguj_viramaguj_raguj
 Encoding: 65609 -1 151
 Width: 462
 GlyphClass: 2
@@ -6502,10 +6553,11 @@ SplineSet
  307 0 307 0 235 0 c 1,47,-1
  235 0 l 1,0,1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0A97 u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" kaguj raguj viramaguj 
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" kaguj viramaguj raguj
 EndChar
 
-StartChar: u0A98_u0AB3_u0AE0.blwf.vatu
+StartChar: khaguj_viramaguj_raguj
 Encoding: 65610 -1 152
 Width: 636
 GlyphClass: 2
@@ -6548,10 +6600,10 @@ SplineSet
  91 218 91 218 91 280 c 1,38,-1
  91 280 l 1,0,-1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0A98 u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" khaguj viramaguj raguj
 EndChar
 
-StartChar: u0A99_u0AB3_u0AE0.blwf.vatu
+StartChar: gaguj_viramaguj_raguj
 Encoding: 65611 -1 153
 Width: 581
 GlyphClass: 2
@@ -6590,10 +6642,10 @@ SplineSet
  253 145 253 145 176 145 c 1,35,-1
  176 145 l 1,9,10
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0A99 u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" gaguj viramaguj raguj
 EndChar
 
-StartChar: u0A9A_u0AB3_u0AE0.blwf.vatu
+StartChar: ghaguj_viramaguj_raguj
 Encoding: 65612 -1 154
 Width: 564
 GlyphClass: 2
@@ -6636,66 +6688,11 @@ SplineSet
  414 500 l 1,41,-1
  414 500 l 1,0,-1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0A9A u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" ghaguj viramaguj raguj
 EndChar
 
-StartChar: glyph187
-Encoding: 65613 -1 155
-Width: 539
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-239 -9 m 1,0,1
- 157 -2 157 -2 98 48 c 128,-1,2
- 39 98 39 98 26 170 c 1,3,-1
- 71 185 l 1,4,5
- 89 119 89 119 142 77 c 128,-1,6
- 195 35 195 35 261 35 c 0,7,8
- 319 35 319 35 360 70 c 128,-1,9
- 401 105 401 105 401 155 c 0,10,11
- 401 194 401 194 373 222 c 128,-1,12
- 345 250 345 250 306 250 c 2,13,-1
- 216 250 l 2,14,15
- 160 250 160 250 120.5 283.5 c 128,-1,16
- 81 317 81 317 81 365 c 0,17,18
- 81 421 81 421 125 460.5 c 128,-1,19
- 169 500 169 500 231 500 c 2,20,-1
- 396 500 l 1,21,-1
- 396 450 l 1,22,-1
- 226 450 l 2,23,24
- 191 450 191 450 166 426.5 c 128,-1,25
- 141 403 141 403 141 370 c 0,26,27
- 141 341 141 341 163 320.5 c 128,-1,28
- 185 300 185 300 216 300 c 2,29,-1
- 316 300 l 2,30,31
- 376 300 376 300 418.5 257.5 c 128,-1,32
- 461 215 461 215 461 155 c 0,33,34
- 461 94 461 94 412.5 47.5 c 128,-1,35
- 364 1 364 1 292 -8 c 1,36,-1
- 446 -155 l 1,37,-1
- 407 -196 l 1,38,-1
- 266 -53 l 1,39,-1
- 128 -193 l 1,40,-1
- 90 -153 l 1,41,-1
- 239 -9 l 1,42,-1
- 239 -9 l 1,0,1
-461 315 m 1,43,44
- 440 315 440 315 425.5 329.5 c 128,-1,45
- 411 344 411 344 411 365 c 0,46,47
- 411 388 411 388 427 404 c 128,-1,48
- 443 420 443 420 466 420 c 0,49,50
- 485 420 485 420 498 405.5 c 128,-1,51
- 511 391 511 391 511 370 c 0,52,53
- 511 347 511 347 496.5 331 c 128,-1,54
- 482 315 482 315 461 315 c 1,55,-1
- 461 315 l 1,43,44
-EndSplineSet
-EndChar
-
-StartChar: u0A9C_u0AB3_u0AE0.blwf.vatu
-Encoding: 65614 -1 156
+StartChar: caguj_viramaguj_raguj
+Encoding: 65614 -1 155
 Width: 638
 GlyphClass: 2
 Flags: W
@@ -6735,75 +6732,11 @@ SplineSet
  33 265 l 1,39,-1
  33 265 l 1,0,-1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0A9C u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" caguj viramaguj raguj
 EndChar
 
-StartChar: glyph189
-Encoding: 65615 -1 157
-Width: 620
-GlyphClass: 2
-Flags: W
-AnchorPoint: "Anchor-1" 306 -122 basechar 0
-LayerCount: 2
-Fore
-SplineSet
-268 -4 m 1,0,1
- 181 2 181 2 121.5 48 c 128,-1,2
- 62 94 62 94 62 155 c 0,3,4
- 62 198 62 198 84 232.5 c 128,-1,5
- 106 267 106 267 142 280 c 1,6,7
- 107 289 107 289 84.5 318.5 c 128,-1,8
- 62 348 62 348 62 385 c 0,9,10
- 62 435 62 435 106 470 c 128,-1,11
- 150 505 150 505 212 505 c 2,12,-1
- 262 505 l 1,13,-1
- 262 455 l 1,14,-1
- 232 455 l 2,15,16
- 180 455 180 455 151 436.5 c 128,-1,17
- 122 418 122 418 122 385 c 0,18,19
- 122 354 122 354 153 332 c 128,-1,20
- 184 310 184 310 227 310 c 2,21,-1
- 272 310 l 1,22,-1
- 272 260 l 1,23,-1
- 232 260 l 2,24,25
- 186 260 186 260 154 229 c 128,-1,26
- 122 198 122 198 122 155 c 0,27,28
- 122 103 122 103 168.5 71.5 c 128,-1,29
- 215 40 215 40 292 40 c 0,30,31
- 376 40 376 40 437.5 99 c 128,-1,32
- 499 158 499 158 507 245 c 1,33,34
- 493 233 493 233 474.5 226.5 c 128,-1,35
- 456 220 456 220 437 220 c 0,36,37
- 381 220 381 220 341.5 259.5 c 128,-1,38
- 302 299 302 299 302 355 c 0,39,40
- 302 415 302 415 343 457.5 c 128,-1,41
- 384 500 384 500 442 500 c 0,42,43
- 494 500 494 500 530.5 450 c 128,-1,44
- 567 400 567 400 567 330 c 0,45,46
- 567 199 567 199 496.5 103 c 128,-1,47
- 426 7 426 7 322 -4 c 1,48,-1
- 475 -150 l 1,49,-1
- 436 -191 l 1,50,-1
- 295 -48 l 1,51,-1
- 157 -188 l 1,52,-1
- 119 -148 l 1,53,-1
- 268 -4 l 1,54,-1
- 268 -4 l 1,0,1
-437 265 m 1,55,56
- 468 265 468 265 490 293 c 128,-1,57
- 512 321 512 321 512 360 c 0,58,59
- 512 397 512 397 491.5 423.5 c 128,-1,60
- 471 450 471 450 442 450 c 0,61,62
- 409 450 409 450 385.5 422 c 128,-1,63
- 362 394 362 394 362 355 c 0,64,65
- 362 318 362 318 384 291.5 c 128,-1,66
- 406 265 406 265 437 265 c 1,67,-1
- 437 265 l 1,55,56
-EndSplineSet
-EndChar
-
-StartChar: u0A9E_u0AB3_u0AE0.blwf.vatu
-Encoding: 65616 -1 158
+StartChar: jaguj_viramaguj_raguj
+Encoding: 65616 -1 156
 Width: 611
 GlyphClass: 2
 Flags: W
@@ -6861,11 +6794,11 @@ SplineSet
  366 50 366 50 391 50 c 1,62,-1
  391 50 l 1,50,51
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0A9E u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" jaguj viramaguj raguj
 EndChar
 
-StartChar: u0A9F_u0AB3_u0AE0.blwf.vatu
-Encoding: 65617 -1 159
+StartChar: jhaguj_viramaguj_raguj
+Encoding: 65617 -1 157
 Width: 631
 GlyphClass: 2
 Flags: W
@@ -6916,11 +6849,12 @@ SplineSet
  495 -10 495 -10 433 -10 c 1,57,-1
  433 -10 l 1,0,1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0A9F u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" jhaguj viramaguj raguj
+LCarets2: 1 0 
 EndChar
 
-StartChar: u0AA0_u0AB3_u0AE0.blwf.vatu
-Encoding: 65618 -1 160
+StartChar: nyaguj_viramaguj_raguj
+Encoding: 65618 -1 158
 Width: 673
 GlyphClass: 2
 Flags: W
@@ -6959,209 +6893,11 @@ SplineSet
  54 177 54 177 23 230 c 1,37,-1
  23 230 l 1,0,-1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AA0 u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" nyaguj viramaguj raguj
 EndChar
 
-StartChar: glyph193
-Encoding: 65619 -1 161
-Width: 442
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-202 -9 m 1,0,1
- 131 -2 131 -2 83.5 42.5 c 128,-1,2
- 36 87 36 87 36 145 c 0,3,4
- 36 195 36 195 77.5 239 c 128,-1,5
- 119 283 119 283 186 305 c 0,6,7
- 240 325 240 325 273 349.5 c 128,-1,8
- 306 374 306 374 306 395 c 0,9,10
- 306 424 306 424 282.5 444.5 c 128,-1,11
- 259 465 259 465 226 465 c 0,12,13
- 204 465 204 465 176 451 c 128,-1,14
- 148 437 148 437 116 410 c 1,15,-1
- 86 445 l 1,16,17
- 117 476 117 476 153.5 493 c 128,-1,18
- 190 510 190 510 226 510 c 0,19,20
- 284 510 284 510 325 478 c 128,-1,21
- 366 446 366 446 366 400 c 0,22,23
- 366 359 366 359 323 321 c 128,-1,24
- 280 283 280 283 211 265 c 0,25,26
- 159 246 159 246 127.5 213 c 128,-1,27
- 96 180 96 180 96 145 c 0,28,29
- 96 99 96 99 134 67 c 128,-1,30
- 172 35 172 35 226 35 c 0,31,32
- 268 35 268 35 310 64.5 c 128,-1,33
- 352 94 352 94 381 145 c 1,34,-1
- 421 120 l 1,35,36
- 396 66 396 66 349 31.5 c 128,-1,37
- 302 -3 302 -3 246 -9 c 1,38,-1
- 404 -160 l 1,39,-1
- 365 -201 l 1,40,-1
- 224 -58 l 1,41,-1
- 86 -198 l 1,42,-1
- 48 -158 l 1,43,-1
- 202 -9 l 1,44,-1
- 202 -9 l 1,0,1
-EndSplineSet
-EndChar
-
-StartChar: glyph194
-Encoding: 65620 -1 162
-Width: 496
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-229 -13 m 1,0,1
- 152 -4 152 -4 100.5 45.5 c 128,-1,2
- 49 95 49 95 49 160 c 0,3,4
- 49 212 49 212 79 257 c 128,-1,5
- 109 302 109 302 159 325 c 1,6,7
- 125 337 125 337 104.5 359 c 128,-1,8
- 84 381 84 381 84 405 c 0,9,10
- 84 444 84 444 120.5 472 c 128,-1,11
- 157 500 157 500 209 500 c 2,12,-1
- 399 500 l 1,13,-1
- 399 450 l 1,14,-1
- 219 450 l 2,15,16
- 188 450 188 450 166 438.5 c 128,-1,17
- 144 427 144 427 144 410 c 0,18,19
- 144 384 144 384 177.5 366 c 128,-1,20
- 211 348 211 348 258 348 c 0,21,22
- 339 348 339 348 396.5 296 c 128,-1,23
- 454 244 454 244 454 170 c 0,24,25
- 454 100 454 100 405 47.5 c 128,-1,26
- 356 -5 356 -5 282 -14 c 1,27,-1
- 435 -160 l 1,28,-1
- 396 -201 l 1,29,-1
- 255 -58 l 1,30,-1
- 117 -198 l 1,31,-1
- 79 -158 l 1,32,-1
- 229 -13 l 1,33,-1
- 229 -13 l 1,0,1
-254 30 m 1,34,35
- 312 30 312 30 353 69.5 c 128,-1,36
- 394 109 394 109 394 165 c 256,37,38
- 394 221 394 221 354.5 260.5 c 128,-1,39
- 315 300 315 300 259 300 c 0,40,41
- 197 300 197 300 153 259 c 128,-1,42
- 109 218 109 218 109 160 c 0,43,44
- 109 106 109 106 151.5 68 c 128,-1,45
- 194 30 194 30 254 30 c 1,46,-1
- 254 30 l 1,34,35
-EndSplineSet
-EndChar
-
-StartChar: glyph195
-Encoding: 65621 -1 163
-Width: 498
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-239 -9 m 1,0,1
- 158 -2 158 -2 99 48 c 128,-1,2
- 40 98 40 98 27 170 c 1,3,-1
- 72 185 l 1,4,5
- 90 119 90 119 143 77 c 128,-1,6
- 196 35 196 35 262 35 c 0,7,8
- 320 35 320 35 361 70 c 128,-1,9
- 402 105 402 105 402 155 c 0,10,11
- 402 192 402 192 371 218.5 c 128,-1,12
- 340 245 340 245 297 245 c 2,13,-1
- 217 245 l 2,14,15
- 159 245 159 245 118 281.5 c 128,-1,16
- 77 318 77 318 77 370 c 0,17,18
- 77 424 77 424 122.5 462 c 128,-1,19
- 168 500 168 500 232 500 c 2,20,-1
- 397 500 l 1,21,-1
- 397 450 l 1,22,-1
- 227 450 l 2,23,24
- 190 450 190 450 163.5 426.5 c 128,-1,25
- 137 403 137 403 137 370 c 256,26,27
- 137 337 137 337 162 313.5 c 128,-1,28
- 187 290 187 290 222 290 c 2,29,-1
- 317 290 l 2,30,31
- 377 290 377 290 419.5 250.5 c 128,-1,32
- 462 211 462 211 462 155 c 0,33,34
- 462 92 462 92 410.5 45 c 128,-1,35
- 359 -2 359 -2 283 -9 c 1,36,-1
- 441 -160 l 1,37,-1
- 402 -201 l 1,38,-1
- 261 -58 l 1,39,-1
- 123 -198 l 1,40,-1
- 85 -158 l 1,41,-1
- 239 -9 l 1,42,-1
- 239 -9 l 1,0,1
-EndSplineSet
-EndChar
-
-StartChar: glyph196
-Encoding: 65622 -1 164
-Width: 478
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-216 -9 m 1,0,1
- 139 -4 139 -4 86.5 42 c 128,-1,2
- 34 88 34 88 34 150 c 0,3,4
- 34 208 34 208 83.5 255 c 128,-1,5
- 133 302 133 302 209 315 c 0,6,7
- 262 329 262 329 295.5 353 c 128,-1,8
- 329 377 329 377 329 400 c 0,9,10
- 329 427 329 427 301 446 c 128,-1,11
- 273 465 273 465 234 465 c 0,12,13
- 212 465 212 465 187.5 456 c 128,-1,14
- 163 447 163 447 139 430 c 1,15,-1
- 104 465 l 1,16,17
- 130 487 130 487 165 498.5 c 128,-1,18
- 200 510 200 510 239 510 c 0,19,20
- 301 510 301 510 345 479 c 128,-1,21
- 389 448 389 448 389 405 c 0,22,23
- 389 369 389 369 348 332 c 128,-1,24
- 307 295 307 295 239 270 c 1,25,26
- 176 259 176 259 135 225 c 128,-1,27
- 94 191 94 191 94 150 c 0,28,29
- 94 102 94 102 136 68 c 128,-1,30
- 178 34 178 34 237 34 c 0,31,32
- 249 34 249 34 261 35.5 c 128,-1,33
- 273 37 273 37 284 40 c 1,34,35
- 256 56 256 56 240 80 c 128,-1,36
- 224 104 224 104 224 130 c 0,37,38
- 224 171 224 171 257.5 200.5 c 128,-1,39
- 291 230 291 230 339 230 c 0,40,41
- 382 230 382 230 413 200.5 c 128,-1,42
- 444 171 444 171 444 130 c 0,43,44
- 444 78 444 78 391 38 c 128,-1,45
- 338 -2 338 -2 260 -9 c 1,46,-1
- 418 -160 l 1,47,-1
- 379 -201 l 1,48,-1
- 238 -58 l 1,49,-1
- 100 -198 l 1,50,-1
- 62 -158 l 1,51,-1
- 216 -9 l 1,52,-1
- 216 -9 l 1,0,1
-339 60 m 1,53,54
- 358 60 358 60 371 80.5 c 128,-1,55
- 384 101 384 101 384 130 c 0,56,57
- 384 155 384 155 371 172.5 c 128,-1,58
- 358 190 358 190 339 190 c 0,59,60
- 316 190 316 190 300 171 c 128,-1,61
- 284 152 284 152 284 125 c 256,62,63
- 284 98 284 98 300 79 c 128,-1,64
- 316 60 316 60 339 60 c 1,65,-1
- 339 60 l 1,53,54
-EndSplineSet
-EndChar
-
-StartChar: u0AA5_u0AB3_u0AE0.blwf.vatu
-Encoding: 65623 -1 165
+StartChar: nnaguj_viramaguj_raguj
+Encoding: 65623 -1 159
 Width: 764
 GlyphClass: 2
 Flags: W
@@ -7213,11 +6949,11 @@ SplineSet
  614 500 l 1,52,-1
  614 500 l 1,44,-1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AA5 u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" nnaguj viramaguj raguj
 EndChar
 
-StartChar: u0AA6_u0AE0_u0AB3.akhn
-Encoding: 65624 -1 166
+StartChar: taguj_viramaguj_raguj
+Encoding: 65624 -1 160
 Width: 573
 GlyphClass: 2
 Flags: W
@@ -7245,12 +6981,11 @@ SplineSet
  423 500 l 1,22,-1
  423 500 l 1,0,-1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AA6 u0AB3_u0AE0.blwf
-Ligature2: "'akhn' Akhand in Gujarati lookup 0 subtable" u0AA6 u0AE0 u0AB3
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" taguj viramaguj raguj
 EndChar
 
-StartChar: u0AA7_u0AB3_u0AE0.blwf.vatu
-Encoding: 65625 -1 167
+StartChar: thaguj_viramaguj_raguj
+Encoding: 65625 -1 161
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -7295,11 +7030,11 @@ SplineSet
  188 361 188 361 230 350 c 1,46,-1
  230 350 l 1,34,35
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AA7 u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" thaguj viramaguj raguj
 EndChar
 
-StartChar: u0AA8_u0AB3_u0AE0.blwf.vatu
-Encoding: 65626 -1 168
+StartChar: daguj_viramaguj_raguj
+Encoding: 65626 -1 162
 Width: 499
 GlyphClass: 2
 Flags: W
@@ -7350,11 +7085,12 @@ SplineSet
  311 158 311 158 318 145 c 1,56,-1
  318 145 l 1,44,45
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AA8 u0AB3_u0AE0.blwf
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj raguj 
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" daguj viramaguj raguj
 EndChar
 
-StartChar: u0AAA_u0AB3_u0AE0.blwf.vatu
-Encoding: 65627 -1 169
+StartChar: dhaguj_viramaguj_raguj
+Encoding: 65627 -1 163
 Width: 601
 GlyphClass: 2
 Flags: W
@@ -7392,11 +7128,11 @@ SplineSet
  66 146 66 146 66 190 c 1,37,-1
  66 190 l 1,0,1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AAA u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" dhaguj viramaguj raguj
 EndChar
 
-StartChar: u0AAB_u0AB3_u0AE0.blwf.vatu
-Encoding: 65628 -1 170
+StartChar: naguj_viramaguj_raguj
+Encoding: 65628 -1 164
 Width: 589
 GlyphClass: 2
 Flags: W
@@ -7435,11 +7171,11 @@ SplineSet
  163 175 163 175 194 175 c 1,36,-1
  194 175 l 1,24,25
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AAB u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" naguj viramaguj raguj
 EndChar
 
-StartChar: u0AAC_u0AB3_u0AE0.blwf.vatu
-Encoding: 65629 -1 171
+StartChar: paguj_viramaguj_raguj
+Encoding: 65629 -1 165
 Width: 573
 GlyphClass: 2
 Flags: W
@@ -7472,11 +7208,11 @@ SplineSet
  108 400 l 1,28,-1
  108 400 l 1,0,1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AAC u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" paguj viramaguj raguj
 EndChar
 
-StartChar: u0AAD_u0AB3_u0AE0.blwf.vatu
-Encoding: 65630 -1 172
+StartChar: phaguj_viramaguj_raguj
+Encoding: 65630 -1 166
 Width: 464
 GlyphClass: 2
 Flags: W
@@ -7527,11 +7263,11 @@ SplineSet
  365 -110 l 1,54,-1
  365 -110 l 1,0,1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AAD u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" phaguj viramaguj raguj
 EndChar
 
-StartChar: u0AAE_u0AB3_u0AE0.blwf.vatu
-Encoding: 65631 -1 173
+StartChar: baguj_viramaguj_raguj
+Encoding: 65631 -1 167
 Width: 667
 GlyphClass: 2
 Flags: W
@@ -7570,11 +7306,11 @@ SplineSet
  47 235 47 235 47 312 c 1,35,-1
  47 312 l 1,0,1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AAE u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" baguj viramaguj raguj
 EndChar
 
-StartChar: u0AAF_u0AB3_u0AE0.blwf.vatu
-Encoding: 65632 -1 174
+StartChar: bhaguj_viramaguj_raguj
+Encoding: 65632 -1 168
 Width: 692
 GlyphClass: 2
 Flags: W
@@ -7616,11 +7352,11 @@ SplineSet
  47 214 47 214 47 290 c 1,41,-1
  47 290 l 1,0,1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AAF u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" bhaguj viramaguj raguj
 EndChar
 
-StartChar: u0AB0_u0AB3_u0AE0.blwf.vatu
-Encoding: 65633 -1 175
+StartChar: maguj_viramaguj_raguj
+Encoding: 65633 -1 169
 Width: 566
 GlyphClass: 2
 Flags: W
@@ -7668,11 +7404,11 @@ SplineSet
  128 120 128 120 151 120 c 1,45,-1
  151 120 l 1,34,35
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AB0 u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" maguj viramaguj raguj
 EndChar
 
-StartChar: u0AB2_u0AB3_u0AE0.blwf.vatu
-Encoding: 65634 -1 176
+StartChar: yaguj_viramaguj_raguj
+Encoding: 65634 -1 170
 Width: 570
 GlyphClass: 2
 Flags: W
@@ -7710,11 +7446,11 @@ SplineSet
  50 217 50 217 50 280 c 1,35,-1
  50 280 l 1,0,-1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AB2 u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" yaguj viramaguj raguj
 EndChar
 
-StartChar: u0AB5_u0AB3_u0AE0.blwf.vatu
-Encoding: 65635 -1 177
+StartChar: laguj_viramaguj_raguj
+Encoding: 65635 -1 171
 Width: 608
 GlyphClass: 2
 Flags: W
@@ -7752,11 +7488,11 @@ SplineSet
  248 0 l 1,31,-1
  248 0 l 1,13,14
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AB5 u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" laguj viramaguj raguj
 EndChar
 
-StartChar: u0AB6_u0AB3_u0AE0.blwf.vatu
-Encoding: 65636 -1 178
+StartChar: llaguj_viramaguj_raguj
+Encoding: 65636 -1 172
 Width: 666
 GlyphClass: 2
 Flags: W
@@ -7798,11 +7534,11 @@ SplineSet
  46 215 46 215 46 300 c 1,42,-1
  46 300 l 1,0,1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AB6 u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" llaguj viramaguj raguj
 EndChar
 
-StartChar: u0AB7_u0AB3_u0AE0.blwf.vatu
-Encoding: 65637 -1 179
+StartChar: vaguj_viramaguj_raguj
+Encoding: 65637 -1 173
 Width: 559
 GlyphClass: 2
 Flags: W
@@ -7833,11 +7569,12 @@ SplineSet
  49 246 49 246 49 320 c 1,26,-1
  49 320 l 1,0,1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AB7 u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" vaguj viramaguj raguj
+LCarets2: 1 0 
 EndChar
 
-StartChar: u0AB8_u0AE0_u0AB3.akhn
-Encoding: 65638 -1 180
+StartChar: shaguj_viramaguj_raguj
+Encoding: 65638 -1 174
 Width: 635
 GlyphClass: 2
 Flags: W
@@ -7884,12 +7621,12 @@ SplineSet
  218 365 218 365 250 350 c 1,50,-1
  250 350 l 1,38,39
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AB8 u0AB3_u0AE0.blwf
-Ligature2: "'akhn' Akhand in Gujarati lookup 0 subtable" u0AB8 u0AE0 u0AB3
+Ligature2: "'akhn' Akhand in Gujarati lookup 1-1" shaguj viramaguj raguj 
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" shaguj viramaguj raguj
 EndChar
 
-StartChar: u0AB9_u0AB3_u0AE0.blwf.vatu
-Encoding: 65639 -1 181
+StartChar: ssaguj_viramaguj_raguj
+Encoding: 65639 -1 175
 Width: 562
 GlyphClass: 2
 Flags: W
@@ -7924,11 +7661,11 @@ SplineSet
  150 290 l 2,33,34
  152 220 152 220 234 198 c 0,0,1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0AB9 u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" ssaguj viramaguj raguj
 EndChar
 
-StartChar: u0ABC_u0AB3_u0AE0.blwf.vatu
-Encoding: 65640 -1 182
+StartChar: saguj_viramaguj_raguj
+Encoding: 65640 -1 176
 Width: 630
 GlyphClass: 2
 Flags: W
@@ -7976,11 +7713,11 @@ SplineSet
  20 470 l 1,47,-1
  20 470 l 1,0,1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0ABC u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" saguj viramaguj raguj
 EndChar
 
-StartChar: u0ABD_u0AB3_u0AE0.blwf.vatu
-Encoding: 65641 -1 183
+StartChar: haguj_viramdeva_raguj
+Encoding: 65641 -1 177
 Width: 539
 GlyphClass: 2
 Flags: W
@@ -8027,11 +7764,11 @@ SplineSet
  298 300 l 1,48,-1
  298 300 l 1,0,1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 4 subtable" u0ABD u0AB3_u0AE0.blwf
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" haguj viramaguj raguj
 EndChar
 
-StartChar: u0AC9_u0A85.abvs
-Encoding: 65642 -1 184
+StartChar: evowelsignguj_anusvaraguj
+Encoding: 65642 -1 178
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8060,11 +7797,11 @@ SplineSet
  -47 635 -47 635 -70 635 c 1,23,-1
  -70 635 l 1,11,12
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0AC9 u0A85
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" evowelsignguj anusvaraguj
 EndChar
 
-StartChar: u0AC9_u0AB3_u0AE0.rphf.abvs
-Encoding: 65643 -1 185
+StartChar: evowelsignguj_rphfguj
+Encoding: 65643 -1 179
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8094,11 +7831,11 @@ SplineSet
  -406 705 -406 705 -445 705 c 1,26,-1
  -445 705 l 1,0,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0AC9 u0AB3_u0AE0.rphf
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" evowelsignguj rphfguj
 EndChar
 
-StartChar: u0AC9_u0AB3_u0AE0.rphf_u0A85.abvs.abvs
-Encoding: 65644 -1 186
+StartChar: evowelsignguj_rphfguj_anusvara
+Encoding: 65644 -1 180
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8138,11 +7875,11 @@ SplineSet
  -406 705 -406 705 -445 705 c 1,39,-1
  -445 705 l 1,13,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0AC9 u0AB3_u0AE0.rphf_u0A85.abvs
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" evowelsignguj rphfguj anusvaraguj
 EndChar
 
-StartChar: u0ACB_u0A85.abvs
-Encoding: 65645 -1 187
+StartChar: aivowelsignguj_anusvaraguj
+Encoding: 65645 -1 181
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8181,11 +7918,11 @@ SplineSet
  -27 645 -27 645 -50 645 c 1,34,-1
  -50 645 l 1,22,23
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0ACB u0A85
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aivowelsignguj anusvaraguj
 EndChar
 
-StartChar: u0ACB_u0AB3_u0AE0.rphf.abvs
-Encoding: 65646 -1 188
+StartChar: aivowelsignguj_rphfguj
+Encoding: 65646 -1 182
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8223,11 +7960,11 @@ SplineSet
  -461 705 -461 705 -500 705 c 1,34,-1
  -500 705 l 1,24,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0ACB u0AB3_u0AE0.rphf
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aivowelsignguj rphfguj
 EndChar
 
-StartChar: u0ACB_u0AB3_u0AE0.rphf_u0A85.abvs.abvs
-Encoding: 65647 -1 189
+StartChar: aivowelsignguj_rphfguj_anusvara
+Encoding: 65647 -1 183
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8275,11 +8012,11 @@ SplineSet
  -461 705 -461 705 -500 705 c 1,47,-1
  -500 705 l 1,37,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0ACB u0AB3_u0AE0.rphf_u0A85.abvs
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aivowelsignguj rphfguj anusvaraguj
 EndChar
 
-StartChar: u0AC2_u0A85.abvs
-Encoding: 65648 -1 190
+StartChar: iivowelsignguj_anusvaraguj
+Encoding: 65648 -1 184
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8313,11 +8050,11 @@ SplineSet
  228 630 228 630 205 630 c 1,31,-1
  205 630 l 1,19,20
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0AC2 u0A85
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iivowelsignguj anusvaraguj
 EndChar
 
-StartChar: u0AC2_u0AB3_u0AE0.rphf.abvs
-Encoding: 65649 -1 191
+StartChar: iivowelsignguj_rphfguj
+Encoding: 65649 -1 185
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8350,27 +8087,27 @@ SplineSet
  -150 560 l 1,31,-1
  -150 560 l 1,0,1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0AC2 u0AB3_u0AE0.rphf
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iivowelsignguj rphfguj
 EndChar
 
-StartChar: u0AC2_u0AB3_u0AE0.rphf_u0A85.abvs.abvs
-Encoding: 65650 -1 192
+StartChar: iivowelsignguj_rphfguj_anusvara
+Encoding: 65650 -1 186
 Width: 240
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-245 550 m 1,0,1
- 222 550 222 550 206 561.5 c 128,-1,2
- 190 573 190 573 190 590 c 0,3,4
- 190 611 190 611 206 625.5 c 128,-1,5
- 222 640 222 640 245 640 c 256,6,7
- 268 640 268 640 284 627 c 128,-1,8
- 300 614 300 614 300 595 c 256,9,10
- 300 576 300 576 284 563 c 128,-1,11
- 268 550 268 550 245 550 c 1,12,-1
- 245 550 l 1,0,1
+245 550 m 5,0,1
+ 222 550 222 550 206 561.5 c 132,-1,2
+ 190 573 190 573 190 590 c 4,3,4
+ 190 611 190 611 206 625.5 c 132,-1,5
+ 222 640 222 640 245 640 c 260,6,7
+ 268 640 268 640 284 627 c 132,-1,8
+ 300 614 300 614 300 595 c 260,9,10
+ 300 576 300 576 284 563 c 132,-1,11
+ 268 550 268 550 245 550 c 5,12,-1
+ 245 550 l 5,0,1
 -150 560 m 1,13,14
  -150 635 -150 635 -104.5 687.5 c 128,-1,15
  -59 740 -59 740 5 740 c 0,16,17
@@ -8397,11 +8134,12 @@ SplineSet
  -150 560 l 1,44,-1
  -150 560 l 1,13,14
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0AC2 u0AB3_u0AE0.rphf_u0A85.abvs
+LCarets2: 1 0 
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iivowelsignguj rphfguj_anusvaraguj
 EndChar
 
-StartChar: u0ACD_u0A85.abvs
-Encoding: 65651 -1 193
+StartChar: ovowelsignguj_anusvaraguj
+Encoding: 65651 -1 187
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8435,11 +8173,11 @@ SplineSet
  163 640 163 640 140 640 c 1,28,-1
  140 640 l 1,16,17
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0ACD u0A85
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ovowelsignguj anusvaraguj
 EndChar
 
-StartChar: u0ACD_u0AB3_u0AE0.rphf.abvs
-Encoding: 65652 -1 194
+StartChar: ovowelsignguj_rphfguj
+Encoding: 65652 -1 188
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8455,30 +8193,31 @@ SplineSet
 -205 710 m 1,5,-1
  -205 755 l 1,6,7
  -155 755 -155 755 -90 723 c 128,-1,8
- -25 691 -25 691 47 630 c 1,9,10
- 35 678 35 678 73 716.5 c 128,-1,11
- 111 755 111 755 170 755 c 0,12,13
- 195 755 195 755 222 743.5 c 128,-1,14
- 249 732 249 732 275 710 c 1,15,-1
- 255 675 l 1,16,17
- 234 690 234 690 212.5 697.5 c 128,-1,18
- 191 705 191 705 170 705 c 0,19,20
- 139 705 139 705 117 683 c 128,-1,21
- 95 661 95 661 95 630 c 0,22,23
- 95 617 95 617 100.5 602.5 c 128,-1,24
- 106 588 106 588 116 574 c 1,25,-1
- 155 540 l 1,26,-1
- 120 505 l 1,27,-1
+ -25 691 -25 691 47 630 c 5,9,10
+ 35 678 35 678 73 716.5 c 132,-1,11
+ 111 755 111 755 170 755 c 4,12,13
+ 195 755 195 755 222 743.5 c 132,-1,14
+ 249 732 249 732 275 710 c 5,15,-1
+ 255 675 l 5,16,17
+ 234 690 234 690 212.5 697.5 c 132,-1,18
+ 191 705 191 705 170 705 c 4,19,20
+ 139 705 139 705 117 683 c 132,-1,21
+ 95 661 95 661 95 630 c 4,22,23
+ 95 617 95 617 100.5 602.5 c 132,-1,24
+ 106 588 106 588 116 574 c 5,25,-1
+ 155 540 l 5,26,-1
+ 120 505 l 5,27,-1
  0 605 l 2,28,29
  -61 656 -61 656 -113.5 683 c 128,-1,30
  -166 710 -166 710 -205 710 c 1,31,-1
  -205 710 l 1,5,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0ACD u0AB3_u0AE0.rphf
+LCarets2: 1 0 
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ovowelsignguj rphfguj
 EndChar
 
-StartChar: u0ACD_u0AB3_u0AE0.rphf_u0A85.abvs.abvs
-Encoding: 65653 -1 195
+StartChar: ovowelsignguj_rphfguj_anusvara
+Encoding: 65653 -1 189
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8523,11 +8262,11 @@ SplineSet
  -166 715 -166 715 -205 715 c 1,44,-1
  -205 715 l 1,18,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0ACD u0AB3_u0AE0.rphf_u0A85.abvs
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ovowelsignguj rphfguj_anusvaraguj
 EndChar
 
-StartChar: u0AD0_u0A85.abvs
-Encoding: 65654 -1 196
+StartChar: auvowelsignguj_anusvaraguj
+Encoding: 65654 -1 190
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8571,11 +8310,11 @@ SplineSet
  -224 705 -224 705 -265 705 c 1,39,-1
  -265 705 l 1,29,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0AD0 u0A85
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" auvowelsignguj anusvaraguj
 EndChar
 
-StartChar: u0AD0_u0AB3_u0AE0.rphf.abvs
-Encoding: 65655 -1 197
+StartChar: auvowelsignguj_rphfguj
+Encoding: 65655 -1 191
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8618,11 +8357,11 @@ SplineSet
  -224 705 -224 705 -265 705 c 1,39,-1
  -265 705 l 1,29,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0AD0 u0AB3_u0AE0.rphf
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" auvowelsignguj rphfguj
 EndChar
 
-StartChar: u0AD0_u0AB3_u0AE0.rphf_u0A85.abvs.abvs
-Encoding: 65656 -1 198
+StartChar: auvowelsignguj_rphfguj_anusvara
+Encoding: 65656 -1 192
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8675,11 +8414,11 @@ SplineSet
  -224 705 -224 705 -265 705 c 1,52,-1
  -265 705 l 1,42,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0AD0 u0AB3_u0AE0.rphf_u0A85.abvs
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" auvowelsignguj rphfguj_anusvaraguj
 EndChar
 
-StartChar: u0AC8_u0A85.abvs
-Encoding: 65657 -1 199
+StartChar: ecandravowelsignguj_anusvara
+Encoding: 65657 -1 193
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8710,11 +8449,11 @@ SplineSet
  -90 500 -90 500 -120 500 c 1,27,-1
  -120 500 l 1,13,14
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0AC8 u0A85
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" ecandravowelsignguj anusvaraguj
 EndChar
 
-StartChar: u0ACC_u0A85.abvs
-Encoding: 65658 -1 200
+StartChar: ocandravowelsignguj_anusvara
+Encoding: 65658 -1 194
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8750,11 +8489,11 @@ SplineSet
  138 625 138 625 115 625 c 1,32,-1
  115 625 l 1,20,21
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0ACC u0A85
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ocandravowelsignguj anusvaraguj
 EndChar
 
-StartChar: u0A89_u0A85.abvs
-Encoding: 65659 -1 201
+StartChar: iguj_anusvaraguj
+Encoding: 65659 -1 195
 Width: 529
 GlyphClass: 2
 Flags: W
@@ -8811,11 +8550,11 @@ SplineSet
  251 590 251 590 228 590 c 1,66,-1
  228 590 l 1,54,55
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0A89 u0A85
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iguj anusvaraguj
 EndChar
 
-StartChar: u0A8A_u0A85.abvs
-Encoding: 65660 -1 202
+StartChar: iiguj_anusvaraguj
+Encoding: 65660 -1 196
 Width: 533
 GlyphClass: 2
 Flags: W
@@ -8876,11 +8615,11 @@ SplineSet
  270 590 270 590 247 590 c 1,72,-1
  247 590 l 1,60,61
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0A8A u0A85
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iiguj anusvaraguj
 EndChar
 
-StartChar: u0A8B_u0A85.abvs
-Encoding: 65661 -1 203
+StartChar: uguj_anusvaraguj
+Encoding: 65661 -1 197
 Width: 551
 GlyphClass: 2
 Flags: W
@@ -8933,11 +8672,10 @@ SplineSet
  488 590 488 590 465 590 c 1,60,-1
  465 590 l 1,48,49
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0A8B u0A85
 EndChar
 
-StartChar: u0A8C_u0A85.abvs
-Encoding: 65662 -1 204
+StartChar: uuguj_anusvaraguj
+Encoding: 65662 -1 198
 Width: 735
 GlyphClass: 2
 Flags: W
@@ -8996,11 +8734,10 @@ SplineSet
  723 620 723 620 700 620 c 1,68,-1
  700 620 l 1,56,57
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0A8C u0A85
 EndChar
 
-StartChar: u0AB3_u0AC3.blws
-Encoding: 65663 -1 205
+StartChar: raguj_uvowelsignguj_alt
+Encoding: 65663 -1 199
 Width: 664
 GlyphClass: 2
 Flags: W
@@ -9051,11 +8788,11 @@ SplineSet
  515 100 515 100 434 100 c 1,54,-1
  434 100 l 1,34,-1
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 5 subtable" u0AB3 u0AC3
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" raguj uvowelsignguj
 EndChar
 
-StartChar: glyph238
-Encoding: 65664 -1 206
+StartChar: raguj_uuvowelsignguj_alt
+Encoding: 65664 -1 200
 Width: 680
 GlyphClass: 2
 Flags: W
@@ -9109,10 +8846,11 @@ SplineSet
  580 60 l 1,58,-1
  580 60 l 1,32,33
 EndSplineSet
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" raguj uuvowelsignguj
 EndChar
 
-StartChar: u0ABD_u0AC5.blws
-Encoding: 65665 -1 207
+StartChar: haguj_rvocalicvowelsignguj
+Encoding: 65665 -1 201
 Width: 545
 GlyphClass: 2
 Flags: W
@@ -9168,11 +8906,11 @@ SplineSet
  460 -55 l 1,64,-1
  460 -55 l 1,0,-1
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 5 subtable" u0ABD u0AC5
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" haguj rvocalicvowelsignguj
 EndChar
 
-StartChar: u0A9E_u0AC0.psts
-Encoding: 65666 -1 208
+StartChar: jaguj_aavowelsignguj
+Encoding: 65666 -1 202
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -9225,11 +8963,11 @@ SplineSet
  375 50 375 50 398 50 c 1,60,-1
  398 50 l 1,48,49
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9E u0AC0
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj aavowelsignguj
 EndChar
 
-StartChar: u0A9E_u0AC2.psts
-Encoding: 65667 -1 209
+StartChar: jaguj_iivowelsignguj
+Encoding: 65667 -1 203
 Width: 784
 GlyphClass: 2
 Flags: W
@@ -9291,11 +9029,11 @@ SplineSet
  357 185 357 185 367 185 c 1,75,-1
  367 185 l 1,63,64
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9E u0AC2
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj iivowelsignguj
 EndChar
 
-StartChar: u0AB3_u0AC4.blws
-Encoding: 65668 -1 210
+StartChar: raguj_uuvowelsignguj
+Encoding: 65668 -1 204
 Width: 437
 GlyphClass: 2
 Flags: W
@@ -9343,11 +9081,12 @@ SplineSet
  353 -130 l 1,54,-1
  353 -130 l 1,0,1
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 5 subtable" u0AB3 u0AC4
+LCarets2: 1 0 
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" raguj uuvowelsignguj
 EndChar
 
-StartChar: u0AA8_u0AC5.blws
-Encoding: 65669 -1 211
+StartChar: da_rvocalicvowelsignguj
+Encoding: 65669 -1 205
 Width: 466
 GlyphClass: 2
 Flags: W
@@ -9390,11 +9129,11 @@ SplineSet
  184 260 184 260 238 260 c 1,47,-1
  238 260 l 1,0,-1
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 5 subtable" u0AA8 u0AC5
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" daguj rvocalicvowelsignguj
 EndChar
 
-StartChar: u0A97_u0AE0.half_u0A97.psts
-Encoding: 65670 -1 212
+StartChar: kaguj_viramaguj_kaguj
+Encoding: 65670 -1 206
 Width: 885
 GlyphClass: 2
 Flags: W
@@ -9466,11 +9205,11 @@ SplineSet
  309 -10 309 -10 232 -10 c 1,84,-1
  232 -10 l 1,0,1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A97_u0AE0.half u0A97
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" kaguj_viramaguj kaguj
 EndChar
 
-StartChar: u0A99_u0AE0.half_u0AAB.psts
-Encoding: 65671 -1 213
+StartChar: gaguj_viramaguj_naguj
+Encoding: 65671 -1 207
 Width: 634
 GlyphClass: 2
 Flags: W
@@ -9515,13 +9254,13 @@ SplineSet
  484 230 l 1,46,-1
  484 230 l 1,27,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A99_u0AE0.half u0AAB
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" gaguj_viramaguj naguj
 EndChar
 
-StartChar: u0A9B_u0AE0.half_u0A97.psts
-Encoding: 65672 -1 214
+StartChar: ngaguj_viramaguj_kaguj
+Encoding: 65672 -1 208
 Width: 555
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 274 -172 basechar 0
 AnchorPoint: "Anchor-0" 274 -16 basechar 0
@@ -9604,13 +9343,13 @@ SplineSet
  503 355 503 355 482 355 c 1,99,-1
  482 355 l 1,87,88
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9B_u0AE0.half u0A97
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ngaguj_viramaguj kaguj
 EndChar
 
-StartChar: u0A9B_u0AE0.half_u0A98.psts
-Encoding: 65673 -1 215
+StartChar: ngaguj_viramaguj_khaguj
+Encoding: 65673 -1 209
 Width: 585
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 446 -174 basechar 0
 AnchorPoint: "Anchor-0" 312 -8 basechar 0
@@ -9705,13 +9444,13 @@ SplineSet
  538 355 538 355 517 355 c 1,110,-1
  517 355 l 1,98,99
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9B_u0AE0.half u0A98
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ngaguj_viramaguj khaguj
 EndChar
 
-StartChar: u0A9B_u0AE0.half_u0A99.psts
-Encoding: 65674 -1 216
+StartChar: ngaguj_viramaguj_gaguj
+Encoding: 65674 -1 210
 Width: 551
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 360 -168 basechar 0
 AnchorPoint: "Anchor-0" 296 0 basechar 0
@@ -9782,13 +9521,13 @@ SplineSet
  502 355 502 355 481 355 c 1,84,-1
  481 355 l 1,72,73
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9B_u0AE0.half u0A99
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ngaguj_viramaguj gaguj
 EndChar
 
-StartChar: u0A9B_u0AE0.half_u0A9A.psts
-Encoding: 65675 -1 217
+StartChar: ngaguj_viramaguj_ghaguj
+Encoding: 65675 -1 211
 Width: 552
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 354 -182 basechar 0
 AnchorPoint: "Anchor-0" 296 0 basechar 0
@@ -9869,13 +9608,13 @@ SplineSet
  503 355 503 355 482 355 c 1,95,-1
  482 355 l 1,83,84
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9B_u0AE0.half u0A9A
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ngaguj_viramaguj ghaguj
 EndChar
 
-StartChar: u0A9B_u0AE0.half_u0AB0.psts
-Encoding: 65676 -1 218
+StartChar: ngaguj_viramaguj_maguj
+Encoding: 65676 -1 212
 Width: 548
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 348 -164 basechar 0
 AnchorPoint: "Anchor-0" 282 0 basechar 0
@@ -9960,13 +9699,13 @@ SplineSet
  499 355 499 355 478 355 c 1,96,-1
  478 355 l 1,84,85
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9B_u0AE0.half u0AB0
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ngaguj_viramaguj maguj
 EndChar
 
-StartChar: u0A9B_u0AE0_u0A97_u0AE0_u0AB9.akhn
-Encoding: 65677 -1 219
+StartChar: nga_virama_ka_virama_ssaguj
+Encoding: 65677 -1 213
 Width: 555
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 394 -168 basechar 0
 AnchorPoint: "Anchor-0" 302 0 basechar 0
@@ -10061,11 +9800,11 @@ SplineSet
  506 355 506 355 485 355 c 1,116,-1
  485 355 l 1,104,105
 EndSplineSet
-Ligature2: "'akhn' Akhand in Gujarati lookup 0 subtable" u0A9B u0AE0 u0A97 u0AE0 u0AB9
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ngaguj_viramaguj kaguj_viramaguj_ssaguj
 EndChar
 
-StartChar: u0A9E_u0AE0.half_u0A9E.pres
-Encoding: 65678 -1 220
+StartChar: jaguj_viramaguj_jaguj
+Encoding: 65678 -1 214
 Width: 599
 GlyphClass: 2
 Flags: W
@@ -10159,11 +9898,11 @@ SplineSet
  345 253 345 253 370 253 c 1,115,-1
  370 253 l 1,103,104
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0A9E_u0AE0.half u0A9E
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" jaguj_viramaguj jaguj
 EndChar
 
-StartChar: u0AA0_u0AE0.half_u0A9C.psts
-Encoding: 65679 -1 221
+StartChar: nyaguj_viramaguj_caguj
+Encoding: 65679 -1 215
 Width: 631
 GlyphClass: 2
 Flags: W
@@ -10212,11 +9951,11 @@ SplineSet
  481 500 l 1,51,-1
  481 500 l 1,0,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AA0_u0AE0.half u0A9C
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" nyaguj_viramaguj caguj
 EndChar
 
-StartChar: u0AA0_u0AE0.half_u0A9E.psts
-Encoding: 65680 -1 222
+StartChar: nyaguj_viramaguj_jaguj
+Encoding: 65680 -1 216
 Width: 661
 GlyphClass: 2
 Flags: W
@@ -10265,11 +10004,11 @@ SplineSet
  511 500 l 1,51,-1
  511 500 l 1,0,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AA0_u0AE0.half u0A9E
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" nyaguj_viramaguj jaguj
 EndChar
 
-StartChar: u0AA1_u0AE0.half_u0AA1.pres
-Encoding: 65681 -1 223
+StartChar: ttaguj_viramaguj_ttaguj
+Encoding: 65681 -1 217
 Width: 588
 GlyphClass: 2
 Flags: W
@@ -10326,11 +10065,11 @@ SplineSet
  372 -50 372 -50 283 -50 c 1,66,-1
  283 -50 l 1,0,1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA1_u0AE0.half u0AA1
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ttaguj_viramaguj ttaguj
 EndChar
 
-StartChar: u0AA1_u0AE0.half_u0AB2.pres
-Encoding: 65682 -1 224
+StartChar: ttaguj_viramaguj_yaguj
+Encoding: 65682 -1 218
 Width: 941
 GlyphClass: 2
 Flags: W
@@ -10392,11 +10131,12 @@ SplineSet
  287 -10 287 -10 226 -10 c 1,72,-1
  226 -10 l 1,0,1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA1_u0AE0.half u0AB2
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ttaguj_viramaguj yaguj
+LCarets2: 1 0 
 EndChar
 
-StartChar: u0AA1_u0AE0.half_u0AB7.pres
-Encoding: 65683 -1 225
+StartChar: ttaguj_viramaguj_vaguj
+Encoding: 65683 -1 219
 Width: 443
 GlyphClass: 2
 Flags: W
@@ -10455,11 +10195,11 @@ SplineSet
  244 119 244 119 221 119 c 1,66,-1
  221 119 l 1,0,1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA1_u0AE0.half u0AB7
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ttaguj_viramaguj vaguj
 EndChar
 
-StartChar: u0AA2_u0AE0.half_u0AA2.pres
-Encoding: 65684 -1 226
+StartChar: tthaguj_viramaguj_tthaguj
+Encoding: 65684 -1 220
 Width: 610
 GlyphClass: 2
 Flags: W
@@ -10524,11 +10264,11 @@ SplineSet
  214 250 214 250 305 250 c 1,75,-1
  305 250 l 1,63,64
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA2_u0AE0.half u0AA2
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" tthaguj_viramaguj tthaguj
 EndChar
 
-StartChar: u0AA2_u0AE0.half_u0AB2.pres
-Encoding: 65685 -1 227
+StartChar: tthaguj_viramaguj_yaguj
+Encoding: 65685 -1 221
 Width: 1023
 GlyphClass: 2
 Flags: W
@@ -10596,11 +10336,11 @@ SplineSet
  193 25 193 25 253 25 c 1,76,-1
  253 25 l 1,64,65
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA2_u0AE0.half u0AB2
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" tthaguj_viramaguj yaguj
 EndChar
 
-StartChar: u0AA3_u0AE0.half_u0AA3.pres
-Encoding: 65686 -1 228
+StartChar: ddaguj_viramaguj_ddaguj
+Encoding: 65686 -1 222
 Width: 592
 GlyphClass: 2
 Flags: W
@@ -10669,11 +10409,11 @@ SplineSet
  419 -90 419 -90 324 -90 c 1,84,-1
  324 -90 l 1,0,1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA3_u0AE0.half u0AA3
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ddaguj_viramaguj ddaguj
 EndChar
 
-StartChar: u0AA3_u0AE0.half_u0AB2.pres
-Encoding: 65687 -1 229
+StartChar: ddaguj_viramaguj_yaguj
+Encoding: 65687 -1 223
 Width: 1012
 GlyphClass: 2
 Flags: W
@@ -10738,11 +10478,10 @@ SplineSet
  724 45 724 45 662 45 c 1,72,-1
  662 45 l 1,37,38
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA3_u0AE0.half u0AB2
 EndChar
 
-StartChar: u0AA3_u0AE0.half_u0AA4.pres
-Encoding: 65688 -1 230
+StartChar: ddaguj_viramaguj_ddhaguj
+Encoding: 65688 -1 224
 Width: 604
 GlyphClass: 2
 Flags: W
@@ -10813,11 +10552,11 @@ SplineSet
  415 10 415 10 434 10 c 1,85,-1
  434 10 l 1,73,74
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA3_u0AE0.half u0AA4
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ddaguj_viramaguj ddhaguj
 EndChar
 
-StartChar: u0AA4_u0AE0.half_u0AA4.pres
-Encoding: 65689 -1 231
+StartChar: ddhaguj_viramaguj_ddhaguj
+Encoding: 65689 -1 225
 Width: 602
 GlyphClass: 2
 Flags: W
@@ -10892,11 +10631,11 @@ SplineSet
  407 235 407 235 434 235 c 1,90,-1
  434 235 l 1,78,79
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA4_u0AE0.half u0AA4
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ddhaguj_viramaguj ddhaguj
 EndChar
 
-StartChar: u0AA4_u0AE0.half_u0AB2.pres
-Encoding: 65690 -1 232
+StartChar: ddhaguj_viramaguj_yaguj
+Encoding: 65690 -1 226
 Width: 990
 GlyphClass: 2
 Flags: W
@@ -10974,11 +10713,12 @@ SplineSet
  317 60 317 60 340 60 c 1,92,-1
  340 60 l 1,80,81
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA4_u0AE0.half u0AB2
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ddhaguj_viramaguj yaguj
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ddaguj_viramaguj yaguj
 EndChar
 
-StartChar: u0AA6_u0AE0_u0AA6.akhn
-Encoding: 65691 -1 233
+StartChar: taguj_viramaguj_taguj
+Encoding: 65691 -1 227
 Width: 598
 GlyphClass: 2
 Flags: W
@@ -11006,11 +10746,11 @@ SplineSet
  88 118 88 118 88 195 c 1,22,-1
  88 195 l 1,0,1
 EndSplineSet
-Ligature2: "'akhn' Akhand in Gujarati lookup 0 subtable" u0AA6 u0AE0 u0AA6
+Ligature2: "'akhn' Akhand in Gujarati lookup 1-1" taguj viramaguj taguj
 EndChar
 
-StartChar: u0AA8_u0AE0.half_u0AB2.pres
-Encoding: 65692 -1 234
+StartChar: daguj_viramaguj_yaguj
+Encoding: 65692 -1 228
 Width: 588
 GlyphClass: 2
 Flags: W
@@ -11056,11 +10796,12 @@ SplineSet
  28 317 28 317 28 355 c 1,50,-1
  28 355 l 1,0,1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA8_u0AE0.half u0AB2
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj yaguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj yaguj 
 EndChar
 
-StartChar: u0AA8_u0AE0.half_u0A99.psts
-Encoding: 65693 -1 235
+StartChar: da_virama_gaguj_pri_a
+Encoding: 65693 -1 229
 Width: 493
 GlyphClass: 2
 Flags: W
@@ -11127,10 +10868,11 @@ SplineSet
  308 173 308 173 315 160 c 1,79,-1
  315 160 l 1,67,68
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj gaguj 
 EndChar
 
-StartChar: u0AA8_u0AE0.half_u0AB7.pres
-Encoding: 65694 -1 236
+StartChar: daguj_viramaguj_vaguj_pri_a
+Encoding: 65694 -1 230
 Width: 602
 GlyphClass: 2
 Flags: W
@@ -11194,11 +10936,12 @@ SplineSet
  419 172 419 172 429 155 c 1,73,-1
  429 155 l 1,61,62
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA8_u0AE0.half u0AB7
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj vaguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj vaguj 
 EndChar
 
-StartChar: u0AA8_u0AE0.half_u0AA8.pres
-Encoding: 65695 -1 237
+StartChar: daguj_viramaguj_daguj_pri_a
+Encoding: 65695 -1 231
 Width: 518
 GlyphClass: 2
 Flags: W
@@ -11265,11 +11008,12 @@ SplineSet
  368 104 368 104 380 90 c 1,78,-1
  380 90 l 1,66,67
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA8_u0AE0.half u0AA8
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj daguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj daguj 
 EndChar
 
-StartChar: u0AA8_u0AE0.half_u0AAA.pres
-Encoding: 65696 -1 238
+StartChar: daguj_viramaguj_dhaguj_pri_a
+Encoding: 65696 -1 232
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -11346,11 +11090,12 @@ SplineSet
  421 168 421 168 428 155 c 1,94,-1
  428 155 l 1,82,83
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA8_u0AE0.half u0AAA
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj dhaguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj dhaguj 
 EndChar
 
-StartChar: u0AA8_u0AE0.half_u0AAF.psts
-Encoding: 65697 -1 239
+StartChar: daguj_viramaguj_jaguj_pri_a
+Encoding: 65697 -1 233
 Width: 687
 GlyphClass: 2
 Flags: W
@@ -11427,10 +11172,12 @@ SplineSet
  499 166 499 166 511 145 c 1,93,-1
  511 145 l 1,81,82
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj jaguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj jaguj 
 EndChar
 
-StartChar: u0AA8_u0AE0.half_u0AB0.pres
-Encoding: 65698 -1 240
+StartChar: daguj_viramaguj_maguj_pri_a
+Encoding: 65698 -1 234
 Width: 645
 GlyphClass: 2
 Flags: W
@@ -11486,11 +11233,12 @@ SplineSet
  212 55 212 55 235 55 c 1,61,-1
  235 55 l 1,51,52
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA8_u0AE0.half u0AB0
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj maguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj maguj 
 EndChar
 
-StartChar: u0AA8_u0AE0.half_u0AAB.pres
-Encoding: 65699 -1 241
+StartChar: daguj_viramaguj_naguj_pri_a
+Encoding: 65699 -1 235
 Width: 506
 GlyphClass: 2
 Flags: W
@@ -11551,11 +11299,12 @@ SplineSet
  318 158 318 158 325 145 c 1,69,-1
  325 145 l 1,57,58
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AA8_u0AE0.half u0AAB
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj naguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj naguj 
 EndChar
 
-StartChar: u0AAB_u0AE0.half_u0AAB.pres
-Encoding: 65700 -1 242
+StartChar: naguj_viramaguj_naguj
+Encoding: 65700 -1 236
 Width: 556
 GlyphClass: 2
 Flags: W
@@ -11592,11 +11341,11 @@ SplineSet
  406 310 l 1,36,-1
  406 310 l 1,0,-1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AAB_u0AE0.half u0AAB
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" naguj_viramaguj naguj
 EndChar
 
-StartChar: u0AAC_u0AE0.half_u0AA6.pres
-Encoding: 65701 -1 243
+StartChar: paguj_viramaguj_taguj
+Encoding: 65701 -1 237
 Width: 561
 GlyphClass: 2
 Flags: W
@@ -11635,11 +11384,11 @@ SplineSet
  76 93 76 93 76 145 c 1,37,-1
  76 145 l 1,0,1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AAC_u0AE0.half u0AA6
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" paguj_viramaguj taguj
 EndChar
 
-StartChar: u0AB5_u0AE0.half_u0AB5.psts
-Encoding: 65702 -1 244
+StartChar: laguj_viramaguj_laguj
+Encoding: 65702 -1 238
 Width: 669
 GlyphClass: 2
 Flags: W
@@ -11688,11 +11437,12 @@ SplineSet
  269 -25 l 1,46,-1
  269 -25 l 1,13,14
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AB5_u0AE0.half u0AB5
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" laguj_viramaguj laguj
+LCarets2: 1 0 
 EndChar
 
-StartChar: u0AB8_u0AE0.half_u0AB7.pres
-Encoding: 65703 -1 245
+StartChar: shaguj_viramaguj_vaguj_pri_a
+Encoding: 65703 -1 239
 Width: 645
 GlyphClass: 2
 Flags: W
@@ -11750,12 +11500,11 @@ SplineSet
  216 376 216 376 245 365 c 1,64,-1
  245 365 l 1,52,53
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AB8_u0AE0.half u0AB7
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AB8_u0AE0_u0AB3.akhn_u0AE0.half u0AB7
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" shaguj_viramaguj vaguj
 EndChar
 
-StartChar: u0AB8_u0AE0.half_u0AAB.pres
-Encoding: 65704 -1 246
+StartChar: shaguj_viramaguj_naguj_pri_a
+Encoding: 65704 -1 240
 Width: 646
 GlyphClass: 2
 Flags: W
@@ -11807,12 +11556,11 @@ SplineSet
  214 351 214 351 246 340 c 1,57,-1
  246 340 l 1,45,46
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AB8_u0AE0.half u0AAB
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AB8_u0AE0_u0AB3.akhn_u0AE0.half u0AAB
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" shaguj_viramaguj naguj
 EndChar
 
-StartChar: u0AB8_u0AE0.half_u0A9C.psts
-Encoding: 65705 -1 247
+StartChar: shaguj_viramaguj_caguj
+Encoding: 65705 -1 241
 Width: 646
 GlyphClass: 2
 Flags: W
@@ -11869,12 +11617,11 @@ SplineSet
  231 384 231 384 261 370 c 1,61,-1
  261 370 l 1,49,50
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AB8_u0AE0_u0AB3.akhn_u0AE0.half u0A9C
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AB8_u0AE0.half u0A9C
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" shaguj_viramaguj caguj
 EndChar
 
-StartChar: u0AB8_u0AE0.half_u0AB5.pres
-Encoding: 65706 -1 248
+StartChar: shaguj_viramaguj_laguj
+Encoding: 65706 -1 242
 Width: 961
 GlyphClass: 2
 Flags: W
@@ -11936,12 +11683,12 @@ SplineSet
  811 500 l 1,66,-1
  811 500 l 1,58,-1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0AB8_u0AE0.half u0AB5
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AB8_u0AE0_u0AB3.akhn_u0AE0.half u0AB5
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" shaguj_viramaguj laguj
+LCarets2: 1 0 
 EndChar
 
-StartChar: u0AB9_u0AE0.half_u0AA1.psts
-Encoding: 65707 -1 249
+StartChar: ssaguj_viramaguj_ttaguj
+Encoding: 65707 -1 243
 Width: 764
 GlyphClass: 2
 Flags: W
@@ -12000,11 +11747,11 @@ SplineSet
  218 160 218 160 268 160 c 1,64,-1
  268 160 l 1,56,57
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AB9_u0AE0.half u0AA1
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ssaguj_viramaguj ttaguj
 EndChar
 
-StartChar: u0AB9_u0AE0.half_u0AA2.psts
-Encoding: 65708 -1 250
+StartChar: ssaguj_viramaguj_tthaguj
+Encoding: 65708 -1 244
 Width: 814
 GlyphClass: 2
 Flags: W
@@ -12068,11 +11815,11 @@ SplineSet
  516 35 516 35 578 35 c 1,69,-1
  578 35 l 1,57,58
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AB9_u0AE0.half u0AA2
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ssaguj_viramaguj tthaguj
 EndChar
 
-StartChar: u0ABC_u0AE0.half_u0AA6_u0AE0_u0AB3.akhn.psts
-Encoding: 65709 -1 251
+StartChar: saguj_viramaguj_nyaguj
+Encoding: 65709 -1 245
 Width: 904
 GlyphClass: 2
 Flags: W
@@ -12132,11 +11879,12 @@ SplineSet
  39 245 l 1,62,-1
  39 245 l 1,23,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0ABC_u0AE0.half u0AA6_u0AE0_u0AB3.akhn
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" saguj_viramaguj nyaguj
+LCarets2: 1 0 
 EndChar
 
-StartChar: u0ABD_u0AE0.half_u0AB0.psts
-Encoding: 65710 -1 252
+StartChar: haguj_viramaguj_maguj
+Encoding: 65710 -1 246
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -12197,11 +11945,11 @@ SplineSet
  353 105 353 105 374 105 c 1,66,-1
  374 105 l 1,56,57
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0ABD_u0AE0.half u0AB0
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" haguj_viramaguj maguj
 EndChar
 
-StartChar: u0ABD_u0AE0.half_u0AB2.psts
-Encoding: 65711 -1 253
+StartChar: haguj_viramaguj_yaguj
+Encoding: 65711 -1 247
 Width: 771
 GlyphClass: 2
 Flags: W
@@ -12257,11 +12005,11 @@ SplineSet
  51 72 51 72 51 165 c 1,62,-1
  51 165 l 1,0,1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0ABD_u0AE0.half u0AB2
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" haguj_viramaguj yaguj
 EndChar
 
-StartChar: u0ABD_u0AE0.half_u0AAB.pres
-Encoding: 65712 -1 254
+StartChar: haguj_viramaguj_naguj
+Encoding: 65712 -1 248
 Width: 578
 GlyphClass: 2
 Flags: W
@@ -12326,11 +12074,11 @@ SplineSet
  278 58 278 58 301 58 c 1,73,-1
  301 58 l 1,61,62
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0ABD_u0AE0.half u0AAB
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" haguj_viramaguj naguj
 EndChar
 
-StartChar: u0ABD_u0AE0.half_u0AA5.pres
-Encoding: 65713 -1 255
+StartChar: haguj_viramaguj_nnaguj
+Encoding: 65713 -1 249
 Width: 584
 GlyphClass: 2
 Flags: W
@@ -12393,11 +12141,11 @@ SplineSet
  244 313 244 313 231 306 c 1,69,-1
  231 306 l 1,55,-1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0ABD_u0AE0.half u0AA5
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" haguj_viramaguj nnaguj
 EndChar
 
-StartChar: u0ABD_u0AE0.half_u0AB5.psts
-Encoding: 65714 -1 256
+StartChar: haguj_viramaguj_laguj
+Encoding: 65714 -1 250
 Width: 578
 GlyphClass: 2
 Flags: W
@@ -12462,11 +12210,11 @@ SplineSet
  113 387 113 387 113 410 c 1,69,-1
  113 410 l 1,19,20
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0ABD_u0AE0.half u0AB5
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" haguj_viramaguj laguj
 EndChar
 
-StartChar: u0ABD_u0AE0.half_u0AB7.pres
-Encoding: 65715 -1 257
+StartChar: haguj_viramaguj_vaguj
+Encoding: 65715 -1 251
 Width: 541
 GlyphClass: 2
 Flags: W
@@ -12527,11 +12275,11 @@ SplineSet
  113 387 113 387 113 410 c 1,68,-1
  113 410 l 1,0,1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0ABD_u0AE0.half u0AB7
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" haguj_viramaguj vaguj
 EndChar
 
-StartChar: u0AB6_u0AE0.half_u0AB2.psts
-Encoding: 65716 -1 258
+StartChar: llaguj_viramaguj_yaguj
+Encoding: 65716 -1 252
 Width: 966
 GlyphClass: 2
 Flags: W
@@ -12592,11 +12340,12 @@ SplineSet
  446 197 446 197 446 280 c 1,66,-1
  446 280 l 1,31,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0AB6_u0AE0.half u0AB2
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" llaguj_viramaguj yaguj
+LCarets2: 1 0 
 EndChar
 
-StartChar: u0A97_u0AE0_u0AB9.akhn
-Encoding: 65717 -1 259
+StartChar: kaguj_viramaguj_ssaguj
+Encoding: 65717 -1 253
 Width: 637
 GlyphClass: 2
 Flags: W
@@ -12649,11 +12398,11 @@ SplineSet
  337 -75 l 1,59,-1
  337 -75 l 1,0,1
 EndSplineSet
-Ligature2: "'akhn' Akhand in Gujarati lookup 0 subtable" u0A97 u0AE0 u0AB9
+Ligature2: "'akhn' Akhand in Gujarati lookup 1-1" kaguj viramaguj ssaguj
 EndChar
 
-StartChar: u0A9E_u0AE0_u0AA0.akhn
-Encoding: 65718 -1 260
+StartChar: jaguj_viramaguj_nyaguj
+Encoding: 65718 -1 254
 Width: 668
 GlyphClass: 2
 Flags: W
@@ -12698,11 +12447,11 @@ SplineSet
  328 -80 l 1,47,-1
  328 -80 l 1,0,1
 EndSplineSet
-Ligature2: "'akhn' Akhand in Gujarati lookup 0 subtable" u0A9E u0AE0 u0AA0
+Ligature2: "'akhn' Akhand in Gujarati lookup 1-1" jaguj viramaguj nyaguj
 EndChar
 
-StartChar: u0AB3_u0AE0.blwf
-Encoding: 65719 -1 261
+StartChar: viramaguj_raguj
+Encoding: 65719 -1 255
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12719,11 +12468,12 @@ SplineSet
  -262 -198 l 1,6,-1
  -262 -198 l 1,0,-1
 EndSplineSet
-Ligature2: "'blwf' Below Base Forms in Gujarati lookup 2 subtable" u0AB3 u0AE0
+LCarets2: 1 0 
+Ligature2: "'blwf' Below Base Forms in Gujarati lookup 3-1" viramaguj raguj 
 EndChar
 
-StartChar: u0AB3_u0AE0.blwf_u0AC3.blws
-Encoding: 65720 -1 262
+StartChar: raguj_viramaguj_uvowelsignguj
+Encoding: 65720 -1 256
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12757,11 +12507,11 @@ SplineSet
  16 -250 16 -250 -85 -250 c 1,31,-1
  -85 -250 l 1,0,1
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 5 subtable" u0AB3_u0AE0.blwf u0AC3
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" viramaguj_raguj uvowelsignguj
 EndChar
 
-StartChar: u0AB3_u0AE0.blwf_u0AC4.blws
-Encoding: 65721 -1 263
+StartChar: raguj_viramaguj_uuvowelsignguj
+Encoding: 65721 -1 257
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12791,11 +12541,11 @@ SplineSet
  265 -240 l 1,25,-1
  265 -240 l 1,0,1
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 5 subtable" u0AB3_u0AE0.blwf u0AC4
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" viramaguj_raguj uuvowelsignguj
 EndChar
 
-StartChar: u0AB3_u0AE0.rphf
-Encoding: 65722 -1 264
+StartChar: rphfguj
+Encoding: 65722 -1 258
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12803,28 +12553,28 @@ AnchorPoint: "Anchor-0" -120 -12 mark 0
 LayerCount: 2
 Fore
 SplineSet
--125 485 m 1,0,1
- -176 499 -176 499 -208 539 c 128,-1,2
- -240 579 -240 579 -240 630 c 0,3,4
- -240 680 -240 680 -202 715 c 128,-1,5
- -164 750 -164 750 -110 750 c 0,6,7
- -82 750 -82 750 -56 741 c 128,-1,8
- -30 732 -30 732 -10 715 c 1,9,-1
- -30 670 l 1,10,11
- -51 685 -51 685 -70 692.5 c 128,-1,12
- -89 700 -89 700 -105 700 c 0,13,14
- -136 700 -136 700 -158 678 c 128,-1,15
- -180 656 -180 656 -180 625 c 0,16,17
- -180 596 -180 596 -156 565 c 128,-1,18
- -132 534 -132 534 -90 510 c 1,19,-1
- -125 485 l 1,20,-1
- -125 485 l 1,0,1
+-125 485 m 5,0,1
+ -176 499 -176 499 -208 539 c 132,-1,2
+ -240 579 -240 579 -240 630 c 4,3,4
+ -240 680 -240 680 -202 715 c 132,-1,5
+ -164 750 -164 750 -110 750 c 4,6,7
+ -82 750 -82 750 -56 741 c 132,-1,8
+ -30 732 -30 732 -10 715 c 5,9,-1
+ -30 670 l 5,10,11
+ -51 685 -51 685 -70 692.5 c 132,-1,12
+ -89 700 -89 700 -105 700 c 4,13,14
+ -136 700 -136 700 -158 678 c 132,-1,15
+ -180 656 -180 656 -180 625 c 4,16,17
+ -180 596 -180 596 -156 565 c 132,-1,18
+ -132 534 -132 534 -90 510 c 5,19,-1
+ -125 485 l 5,20,-1
+ -125 485 l 5,0,1
 EndSplineSet
-Ligature2: "'rphf' Reph Form in Gujarati lookup 1 subtable" u0AB3 u0AE0
+Ligature2: "'rphf' Reph Form in Gujarati lookup 2-1" raguj viramaguj
 EndChar
 
-StartChar: u0AB3_u0AE0.rphf_u0A85.abvs
-Encoding: 65723 -1 265
+StartChar: rphfguj_anusvaraguj
+Encoding: 65723 -1 259
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12859,11 +12609,11 @@ SplineSet
  -47 550 -47 550 -70 550 c 1,33,-1
  -70 550 l 1,21,22
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 9 subtable" u0AB3_u0AE0.rphf u0A85
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" rphfguj anusvaraguj
 EndChar
 
-StartChar: u0AA5_u0AC3.blws
-Encoding: 65724 -1 266
+StartChar: nnaguj_uvowelsignguj
+Encoding: 65724 -1 260
 Width: 759
 GlyphClass: 2
 Flags: W
@@ -12931,11 +12681,12 @@ SplineSet
  631 -205 631 -205 554 -205 c 1,75,-1
  554 -205 l 1,49,50
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 5 subtable" u0AA5 u0AC3
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" nnaguj uvowelsignguj
+LCarets2: 1 0 
 EndChar
 
-StartChar: u0A9D_u0AE0.half_u0AB7.pres
-Encoding: 65725 -1 267
+StartChar: chaguj_viramaguj_vaguj
+Encoding: 65725 -1 261
 Width: 602
 GlyphClass: 2
 Flags: W
@@ -13012,11 +12763,11 @@ SplineSet
  399 339 399 339 430 339 c 1,89,-1
  430 339 l 1,77,78
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0A9D_u0AE0.half u0AB7
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" chaguj_viramaguj vaguj
 EndChar
 
-StartChar: glyph300
-Encoding: 65726 -1 268
+StartChar: isignguj
+Encoding: 65726 -1 262
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -13042,8 +12793,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: glyph301
-Encoding: 65727 -1 269
+StartChar: iisignguj
+Encoding: 65727 -1 263
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -13067,8 +12818,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A9E_u0ACD.psts
-Encoding: 65728 -1 270
+StartChar: jaguj_ovowelsignguj
+Encoding: 65728 -1 264
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13131,11 +12882,11 @@ SplineSet
  377 710 377 710 338 710 c 1,71,-1
  338 710 l 1,61,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9E u0ACD
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ovowelsignguj
 EndChar
 
-StartChar: u0A9E_u0ACD_u0A85.abvs.psts
-Encoding: 65729 -1 271
+StartChar: ja_ovowelsign_anusvaraguj
+Encoding: 65729 -1 265
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13208,11 +12959,11 @@ SplineSet
  736 645 736 645 713 645 c 1,84,-1
  713 645 l 1,72,73
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9E u0ACD_u0A85.abvs
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ovowelsignguj anusvaraguj
 EndChar
 
-StartChar: u0A9E_u0ACD_u0AB3_u0AE0.rphf.abvs.psts
-Encoding: 65730 -1 272
+StartChar: ja_ovowelsign_rphfguj
+Encoding: 65730 -1 266
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13286,11 +13037,11 @@ SplineSet
  372 715 372 715 333 715 c 1,87,-1
  333 715 l 1,61,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9E u0ACD_u0AB3_u0AE0.rphf.abvs
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ovowelsignguj rphfguj
 EndChar
 
-StartChar: u0A9E_u0ACD_u0AB3_u0AE0.rphf_u0A85.abvs.abvs.psts
-Encoding: 65731 -1 273
+StartChar: ja_ovowelsign_rphfguj_anusvara
+Encoding: 65731 -1 267
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13374,11 +13125,11 @@ SplineSet
  372 715 372 715 333 715 c 1,100,-1
  333 715 l 1,74,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9E u0ACD_u0AB3_u0AE0.rphf_u0A85.abvs.abvs
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ovowelsignguj rphfguj_anusvaraguj
 EndChar
 
-StartChar: u0A9E_u0AD0.psts
-Encoding: 65732 -1 274
+StartChar: jaguj_auvowelsignguj
+Encoding: 65732 -1 268
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13451,11 +13202,11 @@ SplineSet
  302 705 302 705 263 705 c 1,82,-1
  263 705 l 1,72,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9E u0AD0
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj auvowelsignguj
 EndChar
 
-StartChar: u0A9E_u0AD0_u0A85.abvs.psts
-Encoding: 65733 -1 275
+StartChar: ja_auvowelsign_anusvaraguj
+Encoding: 65733 -1 269
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13538,11 +13289,11 @@ SplineSet
  756 635 756 635 733 635 c 1,95,-1
  733 635 l 1,83,84
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9E u0AD0_u0A85.abvs
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj auvowelsignguj anusvaraguj
 EndChar
 
-StartChar: u0A9E_u0AD0_u0AB3_u0AE0.rphf.abvs.psts
-Encoding: 65734 -1 276
+StartChar: ja_auvowelsign_rphfguj
+Encoding: 65734 -1 270
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13624,11 +13375,11 @@ SplineSet
  312 705 312 705 273 705 c 1,95,-1
  273 705 l 1,85,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9E u0AD0_u0AB3_u0AE0.rphf.abvs
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj auvowelsignguj rphfguj
 EndChar
 
-StartChar: u0A9E_u0AD0_u0AB3_u0AE0.rphf_u0A85.abvs.abvs.psts
-Encoding: 65735 -1 277
+StartChar: ja_auvowelsign_rphf_anusvara
+Encoding: 65735 -1 271
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13720,11 +13471,11 @@ SplineSet
  322 705 322 705 283 705 c 1,108,-1
  283 705 l 1,98,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9E u0AD0_u0AB3_u0AE0.rphf_u0A85.abvs.abvs
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj auvowelsignguj rphfguj_anusvaraguj
 EndChar
 
-StartChar: u0A9E_u0ACC.psts
-Encoding: 65736 -1 278
+StartChar: jaguj_ocandravowelsignguj
+Encoding: 65736 -1 272
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13789,11 +13540,11 @@ SplineSet
  693 505 693 505 663 505 c 1,75,-1
  663 505 l 1,61,62
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9E u0ACC
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ocandravowelsignguj
 EndChar
 
-StartChar: u0A9E_u0ACC_u0A85.abvs.psts
-Encoding: 65737 -1 279
+StartChar: ja_ocandravowelsign_anusvara
+Encoding: 65737 -1 273
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13868,11 +13619,11 @@ SplineSet
  693 505 693 505 663 505 c 1,88,-1
  663 505 l 1,74,75
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 8 subtable" u0A9E u0ACC_u0A85.abvs
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ocandravowelsignguj anusvaraguj
 EndChar
 
-StartChar: glyph312
-Encoding: 65738 -1 280
+StartChar: yaguj_alt
+Encoding: 65738 -1 274
 Width: 606
 GlyphClass: 2
 Flags: W
@@ -13911,1773 +13662,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A97_u0AE0.haln
-Encoding: 65739 -1 281
-Width: 474
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-232 -10 m 1,0,1
- 168 -10 168 -10 115 14 c 128,-1,2
- 62 38 62 38 32 80 c 1,3,-1
- 72 110 l 1,4,5
- 100 77 100 77 142 58.5 c 128,-1,6
- 184 40 184 40 232 40 c 0,7,8
- 284 40 284 40 320.5 65 c 128,-1,9
- 357 90 357 90 357 125 c 0,10,11
- 357 155 357 155 326 187.5 c 128,-1,12
- 295 220 295 220 242 245 c 1,13,-1
- 52 180 l 1,14,-1
- 32 225 l 1,15,-1
- 187 280 l 1,16,17
- 134 305 134 305 103 337.5 c 128,-1,18
- 72 370 72 370 72 400 c 0,19,20
- 72 446 72 446 127.5 478 c 128,-1,21
- 183 510 183 510 262 510 c 0,22,23
- 302 510 302 510 336.5 503.5 c 128,-1,24
- 371 497 371 497 397 485 c 1,25,-1
- 382 435 l 1,26,27
- 356 447 356 447 326.5 453.5 c 128,-1,28
- 297 460 297 460 267 460 c 0,29,30
- 211 460 211 460 171.5 442.5 c 128,-1,31
- 132 425 132 425 132 400 c 0,32,33
- 132 377 132 377 165 351 c 128,-1,34
- 198 325 198 325 252 305 c 1,35,-1
- 412 360 l 1,36,-1
- 437 315 l 1,37,-1
- 302 270 l 1,38,39
- 360 243 360 243 392 201 c 128,-1,40
- 424 159 424 159 417 120 c 1,41,42
- 417 66 417 66 363 28 c 128,-1,43
- 309 -10 309 -10 232 -10 c 1,44,-1
- 232 -10 l 1,0,1
-481 -245 m 1,45,-1
- 231 -75 l 1,46,-1
- 171 -105 l 1,47,-1
- 156 -60 l 1,48,-1
- 231 -25 l 1,49,-1
- 511 -210 l 1,50,-1
- 481 -245 l 1,51,-1
- 481 -245 l 1,45,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0A97 u0AE0
-EndChar
-
-StartChar: u0A98_u0AE0.haln
-Encoding: 65740 -1 282
-Width: 636
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-91 235 m 1,0,-1
- 91 400 l 2,1,2
- 91 421 91 421 82 435.5 c 128,-1,3
- 73 450 73 450 61 450 c 2,4,-1
- 21 450 l 1,5,-1
- 21 500 l 1,6,-1
- 86 500 l 2,7,8
- 113 500 113 500 132 479.5 c 128,-1,9
- 151 459 151 459 151 430 c 2,10,-1
- 151 235 l 2,11,12
- 151 198 151 198 174.5 171.5 c 128,-1,13
- 198 145 198 145 231 145 c 0,14,15
- 262 145 262 145 284 168.5 c 128,-1,16
- 306 192 306 192 306 225 c 2,17,-1
- 306 395 l 1,18,-1
- 366 395 l 1,19,-1
- 366 325 l 1,20,-1
- 486 325 l 1,21,-1
- 486 500 l 1,22,-1
- 546 500 l 1,23,-1
- 546 0 l 1,24,-1
- 486 0 l 1,25,-1
- 486 270 l 1,26,-1
- 366 270 l 1,27,-1
- 366 215 l 2,28,29
- 366 163 366 163 325 126.5 c 128,-1,30
- 284 90 284 90 226 90 c 0,31,32
- 170 90 170 90 130.5 132.5 c 128,-1,33
- 91 175 91 175 91 235 c 1,34,-1
- 91 235 l 1,0,-1
-767 -235 m 1,35,-1
- 517 -65 l 1,36,-1
- 457 -95 l 1,37,-1
- 442 -50 l 1,38,-1
- 517 -15 l 1,39,-1
- 797 -200 l 1,40,-1
- 767 -235 l 1,41,-1
- 767 -235 l 1,35,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0A98 u0AE0
-EndChar
-
-StartChar: u0A99_u0AE0.haln
-Encoding: 65741 -1 283
-Width: 578
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-428 500 m 1,0,-1
- 488 500 l 1,1,-1
- 488 0 l 1,2,-1
- 428 0 l 1,3,-1
- 428 500 l 1,4,-1
- 428 500 l 1,0,-1
-173 145 m 1,5,6
- 128 145 128 145 87 167.5 c 128,-1,7
- 46 190 46 190 18 230 c 1,8,-1
- 53 265 l 1,9,10
- 70 235 70 235 102.5 217.5 c 128,-1,11
- 135 200 135 200 173 200 c 0,12,13
- 225 200 225 200 261.5 236.5 c 128,-1,14
- 298 273 298 273 298 325 c 0,15,16
- 298 375 298 375 263 410 c 128,-1,17
- 228 445 228 445 178 445 c 0,18,19
- 152 445 152 445 129.5 437 c 128,-1,20
- 107 429 107 429 93 415 c 1,21,-1
- 53 450 l 1,22,23
- 77 474 77 474 111 487 c 128,-1,24
- 145 500 145 500 183 500 c 0,25,26
- 255 500 255 500 306.5 448.5 c 128,-1,27
- 358 397 358 397 358 325 c 0,28,29
- 358 250 358 250 304 197.5 c 128,-1,30
- 250 145 250 145 173 145 c 1,31,-1
- 173 145 l 1,5,6
-711 -235 m 1,32,-1
- 461 -65 l 1,33,-1
- 401 -95 l 1,34,-1
- 386 -50 l 1,35,-1
- 461 -15 l 1,36,-1
- 741 -200 l 1,37,-1
- 711 -235 l 1,38,-1
- 711 -235 l 1,32,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0A99 u0AE0
-EndChar
-
-StartChar: u0A9A_u0AE0.haln
-Encoding: 65742 -1 284
-Width: 560
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-410 500 m 1,0,-1
- 470 500 l 1,1,-1
- 470 0 l 1,2,-1
- 410 0 l 1,3,-1
- 410 120 l 1,4,5
- 384 82 384 82 336 61 c 128,-1,6
- 288 40 288 40 230 40 c 0,7,8
- 160 40 160 40 110 81 c 128,-1,9
- 60 122 60 122 60 180 c 0,10,11
- 60 216 60 216 77.5 246 c 128,-1,12
- 95 276 95 276 125 290 c 1,13,14
- 95 304 95 304 77.5 331 c 128,-1,15
- 60 358 60 358 60 390 c 0,16,17
- 60 436 60 436 96.5 468 c 128,-1,18
- 133 500 133 500 185 500 c 2,19,-1
- 275 500 l 1,20,-1
- 275 450 l 1,21,-1
- 205 450 l 2,22,23
- 170 450 170 450 145 431.5 c 128,-1,24
- 120 413 120 413 120 387 c 256,25,26
- 120 361 120 361 145 343 c 128,-1,27
- 170 325 170 325 205 325 c 2,28,-1
- 285 325 l 1,29,-1
- 285 275 l 1,30,-1
- 210 275 l 2,31,32
- 173 275 173 275 146.5 247 c 128,-1,33
- 120 219 120 219 120 180 c 0,34,35
- 120 143 120 143 152 116.5 c 128,-1,36
- 184 90 184 90 230 90 c 0,37,38
- 282 90 282 90 329.5 116.5 c 128,-1,39
- 377 143 377 143 410 190 c 1,40,-1
- 410 500 l 1,41,-1
- 410 500 l 1,0,-1
-685 -235 m 1,42,-1
- 435 -65 l 1,43,-1
- 375 -95 l 1,44,-1
- 360 -50 l 1,45,-1
- 435 -15 l 1,46,-1
- 715 -200 l 1,47,-1
- 685 -235 l 1,48,-1
- 685 -235 l 1,42,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0A9A u0AE0
-EndChar
-
-StartChar: u0A9B_u0AE0.haln
-Encoding: 65743 -1 285
-Width: 491
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-266 -10 m 1,0,1
- 176 -10 176 -10 108 41 c 128,-1,2
- 40 92 40 92 26 170 c 1,3,-1
- 71 185 l 1,4,5
- 89 119 89 119 142 77 c 128,-1,6
- 195 35 195 35 261 35 c 0,7,8
- 319 35 319 35 360 70 c 128,-1,9
- 401 105 401 105 401 155 c 0,10,11
- 401 194 401 194 373 222 c 128,-1,12
- 345 250 345 250 306 250 c 2,13,-1
- 216 250 l 2,14,15
- 160 250 160 250 120.5 283.5 c 128,-1,16
- 81 317 81 317 81 365 c 0,17,18
- 81 421 81 421 125 460.5 c 128,-1,19
- 169 500 169 500 231 500 c 2,20,-1
- 396 500 l 1,21,-1
- 396 450 l 1,22,-1
- 226 450 l 2,23,24
- 191 450 191 450 166 426.5 c 128,-1,25
- 141 403 141 403 141 370 c 0,26,27
- 141 341 141 341 163 320.5 c 128,-1,28
- 185 300 185 300 216 300 c 2,29,-1
- 316 300 l 2,30,31
- 376 300 376 300 418.5 257.5 c 128,-1,32
- 461 215 461 215 461 155 c 0,33,34
- 461 87 461 87 404 38.5 c 128,-1,35
- 347 -10 347 -10 266 -10 c 1,36,-1
- 266 -10 l 1,0,1
-461 315 m 1,37,38
- 440 315 440 315 425.5 329.5 c 128,-1,39
- 411 344 411 344 411 365 c 0,40,41
- 411 388 411 388 427 404 c 128,-1,42
- 443 420 443 420 466 420 c 0,43,44
- 485 420 485 420 498 405.5 c 128,-1,45
- 511 391 511 391 511 370 c 0,46,47
- 511 347 511 347 496.5 331 c 128,-1,48
- 482 315 482 315 461 315 c 1,49,-1
- 461 315 l 1,37,38
-496 -235 m 1,50,-1
- 246 -65 l 1,51,-1
- 186 -95 l 1,52,-1
- 171 -50 l 1,53,-1
- 246 -15 l 1,54,-1
- 526 -200 l 1,55,-1
- 496 -235 l 1,56,-1
- 496 -235 l 1,50,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0A9B u0AE0
-EndChar
-
-StartChar: u0A9C_u0AE0.haln
-Encoding: 65744 -1 286
-Width: 638
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-33 265 m 1,0,-1
- 118 265 l 2,1,2
- 186 265 186 265 227 293.5 c 128,-1,3
- 268 322 268 322 268 370 c 0,4,5
- 268 409 268 409 233 437 c 128,-1,6
- 198 465 198 465 148 465 c 0,7,8
- 120 465 120 465 94 456 c 128,-1,9
- 68 447 68 447 48 430 c 1,10,-1
- 18 470 l 1,11,12
- 40 492 40 492 75 503.5 c 128,-1,13
- 110 515 110 515 153 515 c 0,14,15
- 225 515 225 515 276.5 471 c 128,-1,16
- 328 427 328 427 328 365 c 0,17,18
- 328 307 328 307 285 264 c 128,-1,19
- 242 221 242 221 178 215 c 1,20,21
- 178 169 178 169 213 137 c 128,-1,22
- 248 105 248 105 298 105 c 0,23,24
- 352 105 352 105 404.5 157 c 128,-1,25
- 457 209 457 209 488 295 c 1,26,-1
- 488 500 l 1,27,-1
- 548 500 l 1,28,-1
- 548 0 l 1,29,-1
- 488 0 l 1,30,-1
- 488 180 l 1,31,32
- 455 122 455 122 404 88.5 c 128,-1,33
- 353 55 353 55 298 55 c 0,34,35
- 220 55 220 55 169 100.5 c 128,-1,36
- 118 146 118 146 118 215 c 1,37,-1
- 33 215 l 1,38,-1
- 33 265 l 1,39,-1
- 33 265 l 1,0,-1
-761 -235 m 1,40,-1
- 511 -65 l 1,41,-1
- 451 -95 l 1,42,-1
- 436 -50 l 1,43,-1
- 511 -15 l 1,44,-1
- 791 -200 l 1,45,-1
- 761 -235 l 1,46,-1
- 761 -235 l 1,40,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0A9C u0AE0
-EndChar
-
-StartChar: u0A9D_u0AE0.haln
-Encoding: 65745 -1 287
-Width: 546
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-291 -5 m 1,0,1
- 196 -5 196 -5 128.5 40.5 c 128,-1,2
- 61 86 61 86 61 150 c 0,3,4
- 61 195 61 195 84.5 230.5 c 128,-1,5
- 108 266 108 266 146 280 c 1,6,7
- 108 290 108 290 84.5 319.5 c 128,-1,8
- 61 349 61 349 61 385 c 0,9,10
- 61 435 61 435 105 470 c 128,-1,11
- 149 505 149 505 211 505 c 2,12,-1
- 261 505 l 1,13,-1
- 261 455 l 1,14,-1
- 231 455 l 2,15,16
- 179 455 179 455 150 436.5 c 128,-1,17
- 121 418 121 418 121 385 c 0,18,19
- 121 354 121 354 152 332 c 128,-1,20
- 183 310 183 310 226 310 c 2,21,-1
- 271 310 l 1,22,-1
- 271 260 l 1,23,-1
- 231 260 l 2,24,25
- 185 260 185 260 153 229 c 128,-1,26
- 121 198 121 198 121 155 c 0,27,28
- 121 107 121 107 167.5 78.5 c 128,-1,29
- 214 50 214 50 291 50 c 0,30,31
- 375 50 375 50 437 106 c 128,-1,32
- 499 162 499 162 506 245 c 1,33,34
- 492 233 492 233 473.5 226.5 c 128,-1,35
- 455 220 455 220 436 220 c 0,36,37
- 380 220 380 220 340.5 259.5 c 128,-1,38
- 301 299 301 299 301 355 c 0,39,40
- 301 415 301 415 342 457.5 c 128,-1,41
- 383 500 383 500 441 500 c 0,42,43
- 493 500 493 500 529.5 450 c 128,-1,44
- 566 400 566 400 566 330 c 0,45,46
- 566 178 566 178 491 86.5 c 128,-1,47
- 416 -5 416 -5 291 -5 c 1,48,-1
- 291 -5 l 1,0,1
-436 265 m 1,49,50
- 467 265 467 265 489 293 c 128,-1,51
- 511 321 511 321 511 360 c 0,52,53
- 511 397 511 397 490.5 423.5 c 128,-1,54
- 470 450 470 450 441 450 c 0,55,56
- 408 450 408 450 384.5 422 c 128,-1,57
- 361 394 361 394 361 355 c 0,58,59
- 361 318 361 318 383 291.5 c 128,-1,60
- 405 265 405 265 436 265 c 1,61,-1
- 436 265 l 1,49,50
-541 -240 m 1,62,-1
- 291 -70 l 1,63,-1
- 231 -100 l 1,64,-1
- 216 -55 l 1,65,-1
- 291 -20 l 1,66,-1
- 571 -205 l 1,67,-1
- 541 -240 l 1,68,-1
- 541 -240 l 1,62,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0A9D u0AE0
-EndChar
-
-StartChar: u0A9E_u0AE0.haln
-Encoding: 65746 -1 288
-Width: 594
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-367 0 m 1,0,1
- 317 0 317 0 282 31 c 128,-1,2
- 247 62 247 62 247 105 c 0,3,4
- 247 146 247 146 271.5 192.5 c 128,-1,5
- 296 239 296 239 342 285 c 1,6,7
- 283 369 283 369 235.5 414.5 c 128,-1,8
- 188 460 188 460 157 460 c 0,9,10
- 130 460 130 460 111 436.5 c 128,-1,11
- 92 413 92 413 92 380 c 0,12,13
- 92 351 92 351 109.5 330.5 c 128,-1,14
- 127 310 127 310 152 310 c 0,15,16
- 172 310 172 310 188.5 319.5 c 128,-1,17
- 205 329 205 329 212 345 c 1,18,-1
- 252 315 l 1,19,20
- 237 289 237 289 210.5 274.5 c 128,-1,21
- 184 260 184 260 152 260 c 0,22,23
- 102 260 102 260 67 295 c 128,-1,24
- 32 330 32 330 32 380 c 0,25,26
- 32 434 32 434 68.5 472 c 128,-1,27
- 105 510 105 510 157 510 c 0,28,29
- 208 510 208 510 267 459 c 128,-1,30
- 326 408 326 408 377 320 c 1,31,32
- 413 363 413 363 466 429.5 c 128,-1,33
- 519 496 519 496 542 510 c 1,34,-1
- 582 480 l 1,35,36
- 530 428 530 428 486 376.5 c 128,-1,37
- 442 325 442 325 407 275 c 1,38,39
- 441 226 441 226 459 182.5 c 128,-1,40
- 477 139 477 139 477 105 c 0,41,42
- 477 62 477 62 445 31 c 128,-1,43
- 413 0 413 0 367 0 c 1,44,-1
- 367 0 l 1,0,1
-367 50 m 1,45,46
- 388 50 388 50 402.5 66 c 128,-1,47
- 417 82 417 82 417 105 c 0,48,49
- 417 131 417 131 404 163 c 128,-1,50
- 391 195 391 195 367 230 c 1,51,52
- 338 188 338 188 322.5 156 c 128,-1,53
- 307 124 307 124 307 105 c 0,54,55
- 307 82 307 82 324.5 66 c 128,-1,56
- 342 50 342 50 367 50 c 1,57,-1
- 367 50 l 1,45,46
-616 -235 m 1,58,-1
- 366 -65 l 1,59,-1
- 306 -95 l 1,60,-1
- 291 -50 l 1,61,-1
- 366 -15 l 1,62,-1
- 646 -200 l 1,63,-1
- 616 -235 l 1,64,-1
- 616 -235 l 1,58,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0A9E u0AE0
-EndChar
-
-StartChar: u0A9F_u0AE0.haln
-Encoding: 65747 -1 289
-Width: 620
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-420 -10 m 1,0,1
- 381 -10 381 -10 351 0.5 c 128,-1,2
- 321 11 321 11 305 30 c 1,3,-1
- 335 65 l 1,4,5
- 361 50 361 50 380 42.5 c 128,-1,6
- 399 35 399 35 410 35 c 0,7,8
- 456 35 456 35 488 68 c 128,-1,9
- 520 101 520 101 520 147 c 0,10,11
- 520 194 520 194 488 227 c 128,-1,12
- 456 260 456 260 410 260 c 0,13,14
- 391 260 391 260 373 253.5 c 128,-1,15
- 355 247 355 247 341 235 c 1,16,17
- 334 152 334 152 274.5 96 c 128,-1,18
- 215 40 215 40 135 40 c 0,19,20
- 102 40 102 40 72.5 50.5 c 128,-1,21
- 43 61 43 61 20 80 c 1,22,-1
- 40 120 l 1,23,24
- 57 105 57 105 81.5 97.5 c 128,-1,25
- 106 90 106 90 135 90 c 0,26,27
- 197 90 197 90 241 142.5 c 128,-1,28
- 285 195 285 195 285 270 c 0,29,30
- 285 342 285 342 247 393.5 c 128,-1,31
- 209 445 209 445 155 445 c 0,32,33
- 131 445 131 445 105 436 c 128,-1,34
- 79 427 79 427 55 410 c 1,35,-1
- 30 445 l 1,36,37
- 59 469 59 469 91 482 c 128,-1,38
- 123 495 123 495 155 495 c 0,39,40
- 216 495 216 495 266.5 452 c 128,-1,41
- 317 409 317 409 335 340 c 1,42,-1
- 525 510 l 1,43,-1
- 560 475 l 1,44,-1
- 355 300 l 1,45,46
- 366 305 366 305 379.5 307.5 c 128,-1,47
- 393 310 393 310 410 310 c 0,48,49
- 478 310 478 310 526.5 262 c 128,-1,50
- 575 214 575 214 575 146 c 0,51,52
- 575 81 575 81 529.5 35.5 c 128,-1,53
- 484 -10 484 -10 420 -10 c 1,54,-1
- 420 -10 l 1,0,1
-670 -235 m 1,55,-1
- 420 -65 l 1,56,-1
- 360 -95 l 1,57,-1
- 345 -50 l 1,58,-1
- 420 -15 l 1,59,-1
- 700 -200 l 1,60,-1
- 670 -235 l 1,61,-1
- 670 -235 l 1,55,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0A9F u0AE0
-EndChar
-
-StartChar: u0AA0_u0AE0.haln
-Encoding: 65748 -1 290
-Width: 673
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-23 230 m 1,0,-1
- 63 260 l 1,1,2
- 88 216 88 216 125.5 190.5 c 128,-1,3
- 163 165 163 165 203 165 c 0,4,5
- 255 165 255 165 291.5 204.5 c 128,-1,6
- 328 244 328 244 328 300 c 256,7,8
- 328 356 328 356 291.5 395.5 c 128,-1,9
- 255 435 255 435 203 435 c 0,10,11
- 170 435 170 435 137 418 c 128,-1,12
- 104 401 104 401 78 370 c 1,13,-1
- 43 410 l 1,14,15
- 75 448 75 448 117 469 c 128,-1,16
- 159 490 159 490 203 490 c 0,17,18
- 281 490 281 490 335 441 c 128,-1,19
- 389 392 389 392 383 325 c 1,20,-1
- 523 325 l 1,21,-1
- 523 500 l 1,22,-1
- 583 500 l 1,23,-1
- 583 0 l 1,24,-1
- 523 0 l 1,25,-1
- 523 275 l 1,26,-1
- 383 275 l 1,27,28
- 377 207 377 207 325 161 c 128,-1,29
- 273 115 273 115 203 115 c 0,30,31
- 150 115 150 115 102 146 c 128,-1,32
- 54 177 54 177 23 230 c 1,33,-1
- 23 230 l 1,0,-1
-806 -235 m 1,34,-1
- 556 -65 l 1,35,-1
- 496 -95 l 1,36,-1
- 481 -50 l 1,37,-1
- 556 -15 l 1,38,-1
- 836 -200 l 1,39,-1
- 806 -235 l 1,40,-1
- 806 -235 l 1,34,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AA0 u0AE0
-EndChar
-
-StartChar: u0AA1_u0AE0.haln
-Encoding: 65749 -1 291
-Width: 398
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-228 -10 m 1,0,1
- 149 -10 149 -10 93.5 35.5 c 128,-1,2
- 38 81 38 81 38 145 c 0,3,4
- 38 195 38 195 79.5 239 c 128,-1,5
- 121 283 121 283 188 305 c 0,6,7
- 242 325 242 325 275 349.5 c 128,-1,8
- 308 374 308 374 308 395 c 0,9,10
- 308 424 308 424 284.5 444.5 c 128,-1,11
- 261 465 261 465 228 465 c 0,12,13
- 202 465 202 465 172 449.5 c 128,-1,14
- 142 434 142 434 113 405 c 1,15,-1
- 78 440 l 1,16,17
- 106 473 106 473 145.5 491.5 c 128,-1,18
- 185 510 185 510 228 510 c 0,19,20
- 286 510 286 510 327 478 c 128,-1,21
- 368 446 368 446 368 400 c 0,22,23
- 368 359 368 359 325 321 c 128,-1,24
- 282 283 282 283 213 265 c 0,25,26
- 161 246 161 246 129.5 213 c 128,-1,27
- 98 180 98 180 98 145 c 0,28,29
- 98 99 98 99 136 67 c 128,-1,30
- 174 35 174 35 228 35 c 0,31,32
- 268 35 268 35 308.5 64.5 c 128,-1,33
- 349 94 349 94 378 145 c 1,34,-1
- 418 120 l 1,35,36
- 390 61 390 61 338.5 25.5 c 128,-1,37
- 287 -10 287 -10 228 -10 c 1,38,-1
- 228 -10 l 1,0,1
-478 -235 m 1,39,-1
- 228 -65 l 1,40,-1
- 178 -95 l 1,41,-1
- 148 -60 l 1,42,-1
- 228 -15 l 1,43,-1
- 508 -200 l 1,44,-1
- 478 -235 l 1,45,-1
- 478 -235 l 1,39,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AA1 u0AE0
-EndChar
-
-StartChar: u0AA2_u0AE0.haln
-Encoding: 65750 -1 292
-Width: 433
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-258 -15 m 1,0,1
- 171 -15 171 -15 109.5 36.5 c 128,-1,2
- 48 88 48 88 48 160 c 0,3,4
- 48 207 48 207 77.5 251.5 c 128,-1,5
- 107 296 107 296 158 325 c 1,6,7
- 124 337 124 337 103.5 360.5 c 128,-1,8
- 83 384 83 384 83 410 c 0,9,10
- 83 447 83 447 119.5 473.5 c 128,-1,11
- 156 500 156 500 208 500 c 2,12,-1
- 398 500 l 1,13,-1
- 398 450 l 1,14,-1
- 218 450 l 2,15,16
- 187 450 187 450 165 438.5 c 128,-1,17
- 143 427 143 427 143 410 c 0,18,19
- 143 385 143 385 180.5 365 c 128,-1,20
- 218 345 218 345 273 340 c 0,21,22
- 349 333 349 333 401 284 c 128,-1,23
- 453 235 453 235 453 170 c 0,24,25
- 453 93 453 93 396 39 c 128,-1,26
- 339 -15 339 -15 258 -15 c 1,27,-1
- 258 -15 l 1,0,1
-253 35 m 1,28,29
- 311 35 311 35 352 73 c 128,-1,30
- 393 111 393 111 393 165 c 0,31,32
- 393 221 393 221 353.5 260.5 c 128,-1,33
- 314 300 314 300 258 300 c 0,34,35
- 196 300 196 300 152 259 c 128,-1,36
- 108 218 108 218 108 160 c 0,37,38
- 108 108 108 108 150.5 71.5 c 128,-1,39
- 193 35 193 35 253 35 c 1,40,-1
- 253 35 l 1,28,29
-508 -245 m 1,41,-1
- 258 -75 l 1,42,-1
- 208 -105 l 1,43,-1
- 178 -70 l 1,44,-1
- 258 -25 l 1,45,-1
- 538 -210 l 1,46,-1
- 508 -245 l 1,47,-1
- 508 -245 l 1,41,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AA2 u0AE0
-EndChar
-
-StartChar: u0AA3_u0AE0.haln
-Encoding: 65751 -1 293
-Width: 442
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-267 -10 m 1,0,1
- 177 -10 177 -10 109 41 c 128,-1,2
- 41 92 41 92 27 170 c 1,3,-1
- 72 185 l 1,4,5
- 90 119 90 119 143 77 c 128,-1,6
- 196 35 196 35 262 35 c 0,7,8
- 320 35 320 35 361 70 c 128,-1,9
- 402 105 402 105 402 155 c 0,10,11
- 402 192 402 192 371 218.5 c 128,-1,12
- 340 245 340 245 297 245 c 2,13,-1
- 212 245 l 2,14,15
- 156 245 156 245 116.5 281.5 c 128,-1,16
- 77 318 77 318 77 370 c 0,17,18
- 77 424 77 424 122.5 462 c 128,-1,19
- 168 500 168 500 232 500 c 2,20,-1
- 397 500 l 1,21,-1
- 397 450 l 1,22,-1
- 227 450 l 2,23,24
- 190 450 190 450 163.5 426.5 c 128,-1,25
- 137 403 137 403 137 370 c 0,26,27
- 137 339 137 339 159 317 c 128,-1,28
- 181 295 181 295 212 295 c 2,29,-1
- 297 295 l 2,30,31
- 365 295 365 295 413.5 254 c 128,-1,32
- 462 213 462 213 462 155 c 0,33,34
- 462 87 462 87 405 38.5 c 128,-1,35
- 348 -10 348 -10 267 -10 c 1,36,-1
- 267 -10 l 1,0,1
-517 -240 m 1,37,-1
- 267 -70 l 1,38,-1
- 217 -100 l 1,39,-1
- 187 -65 l 1,40,-1
- 267 -20 l 1,41,-1
- 547 -205 l 1,42,-1
- 517 -240 l 1,43,-1
- 517 -240 l 1,37,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AA3 u0AE0
-EndChar
-
-StartChar: u0AA4_u0AE0.haln
-Encoding: 65752 -1 294
-Width: 424
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-244 -10 m 1,0,1
- 157 -10 157 -10 95.5 37 c 128,-1,2
- 34 84 34 84 34 150 c 0,3,4
- 34 208 34 208 83.5 255 c 128,-1,5
- 133 302 133 302 209 315 c 0,6,7
- 262 329 262 329 295.5 353 c 128,-1,8
- 329 377 329 377 329 400 c 0,9,10
- 329 427 329 427 304 446 c 128,-1,11
- 279 465 279 465 244 465 c 0,12,13
- 222 465 222 465 197.5 456 c 128,-1,14
- 173 447 173 447 149 430 c 1,15,-1
- 114 465 l 1,16,17
- 140 487 140 487 172 498.5 c 128,-1,18
- 204 510 204 510 239 510 c 0,19,20
- 301 510 301 510 345 479 c 128,-1,21
- 389 448 389 448 389 405 c 0,22,23
- 389 369 389 369 348 332 c 128,-1,24
- 307 295 307 295 239 270 c 1,25,26
- 176 259 176 259 135 225 c 128,-1,27
- 94 191 94 191 94 150 c 0,28,29
- 94 102 94 102 134.5 68 c 128,-1,30
- 175 34 175 34 232 34 c 0,31,32
- 247 34 247 34 260 35.5 c 128,-1,33
- 273 37 273 37 284 40 c 1,34,35
- 256 56 256 56 240 80 c 128,-1,36
- 224 104 224 104 224 130 c 0,37,38
- 224 171 224 171 257.5 200.5 c 128,-1,39
- 291 230 291 230 339 230 c 0,40,41
- 382 230 382 230 413 200.5 c 128,-1,42
- 444 171 444 171 444 130 c 0,43,44
- 444 72 444 72 385.5 31 c 128,-1,45
- 327 -10 327 -10 244 -10 c 1,46,-1
- 244 -10 l 1,0,1
-339 60 m 1,47,48
- 358 60 358 60 371 80.5 c 128,-1,49
- 384 101 384 101 384 130 c 0,50,51
- 384 155 384 155 371 172.5 c 128,-1,52
- 358 190 358 190 339 190 c 0,53,54
- 316 190 316 190 300 171 c 128,-1,55
- 284 152 284 152 284 125 c 256,56,57
- 284 98 284 98 300 79 c 128,-1,58
- 316 60 316 60 339 60 c 1,59,-1
- 339 60 l 1,47,48
-494 -235 m 1,60,-1
- 244 -65 l 1,61,-1
- 194 -95 l 1,62,-1
- 164 -60 l 1,63,-1
- 244 -15 l 1,64,-1
- 524 -200 l 1,65,-1
- 494 -235 l 1,66,-1
- 494 -235 l 1,60,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AA4 u0AE0
-EndChar
-
-StartChar: u0AA5_u0AE0.haln
-Encoding: 65753 -1 295
-Width: 758
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-538 20 m 1,0,1
- 500 -7 500 -7 446 -21 c 128,-1,2
- 392 -35 392 -35 328 -35 c 0,3,4
- 224 -35 224 -35 151 30.5 c 128,-1,5
- 78 96 78 96 78 189 c 2,6,-1
- 78 500 l 1,7,-1
- 138 500 l 1,8,-1
- 138 190 l 2,9,10
- 138 118 138 118 193.5 66.5 c 128,-1,11
- 249 15 249 15 328 15 c 0,12,13
- 387 15 387 15 434.5 26.5 c 128,-1,14
- 482 38 482 38 513 60 c 1,15,-1
- 538 20 l 1,16,-1
- 538 20 l 1,0,1
-323 160 m 1,17,18
- 303 160 303 160 281 166.5 c 128,-1,19
- 259 173 259 173 238 185 c 1,20,-1
- 258 230 l 1,21,22
- 272 220 272 220 288.5 215 c 128,-1,23
- 305 210 305 210 323 210 c 0,24,25
- 375 210 375 210 411.5 248 c 128,-1,26
- 448 286 448 286 448 340 c 0,27,28
- 448 390 448 390 417 425 c 128,-1,29
- 386 460 386 460 343 460 c 0,30,31
- 324 460 324 460 305.5 453.5 c 128,-1,32
- 287 447 287 447 273 435 c 1,33,-1
- 243 475 l 1,34,35
- 264 490 264 490 289.5 497.5 c 128,-1,36
- 315 505 315 505 343 505 c 0,37,38
- 411 505 411 505 459.5 456.5 c 128,-1,39
- 508 408 508 408 508 340 c 0,40,41
- 508 265 508 265 454 212.5 c 128,-1,42
- 400 160 400 160 323 160 c 1,43,-1
- 323 160 l 1,17,18
-608 500 m 1,44,-1
- 668 500 l 1,45,-1
- 668 0 l 1,46,-1
- 608 0 l 1,47,-1
- 608 500 l 1,48,-1
- 608 500 l 1,44,-1
-886 -235 m 1,49,-1
- 636 -65 l 1,50,-1
- 576 -95 l 1,51,-1
- 561 -50 l 1,52,-1
- 636 -15 l 1,53,-1
- 916 -200 l 1,54,-1
- 886 -235 l 1,55,-1
- 886 -235 l 1,49,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AA5 u0AE0
-EndChar
-
-StartChar: u0AA6_u0AE0.haln
-Encoding: 65754 -1 296
-Width: 561
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-41 210 m 1,0,1
- 41 293 41 293 111.5 351.5 c 128,-1,2
- 182 410 182 410 281 410 c 2,3,-1
- 411 410 l 1,4,-1
- 411 500 l 1,5,-1
- 471 500 l 1,6,-1
- 471 0 l 1,7,-1
- 411 0 l 1,8,-1
- 411 360 l 1,9,-1
- 281 360 l 2,10,11
- 206 360 206 360 153.5 316 c 128,-1,12
- 101 272 101 272 101 210 c 0,13,14
- 101 140 101 140 153.5 90 c 128,-1,15
- 206 40 206 40 281 40 c 1,16,-1
- 271 -5 l 1,17,18
- 176 -5 176 -5 108.5 58 c 128,-1,19
- 41 121 41 121 41 210 c 1,20,-1
- 41 210 l 1,0,1
-692 -235 m 1,21,-1
- 442 -65 l 1,22,-1
- 382 -95 l 1,23,-1
- 367 -50 l 1,24,-1
- 442 -15 l 1,25,-1
- 722 -200 l 1,26,-1
- 692 -235 l 1,27,-1
- 692 -235 l 1,21,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AA6 u0AE0
-EndChar
-
-StartChar: u0AA7_u0AE0.haln
-Encoding: 65755 -1 297
-Width: 594
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-39 305 m 1,0,-1
- 89 305 l 2,1,2
- 115 305 115 305 136.5 309 c 128,-1,3
- 158 313 158 313 174 320 c 1,4,5
- 127 337 127 337 98 373 c 128,-1,6
- 69 409 69 409 69 450 c 0,7,8
- 69 500 69 500 110 535 c 128,-1,9
- 151 570 151 570 209 570 c 0,10,11
- 265 570 265 570 304.5 535 c 128,-1,12
- 344 500 344 500 344 450 c 0,13,14
- 344 369 344 369 272 312 c 128,-1,15
- 200 255 200 255 99 255 c 1,16,17
- 110 194 110 194 156.5 154.5 c 128,-1,18
- 203 115 203 115 264 115 c 0,19,20
- 314 115 314 115 361.5 143 c 128,-1,21
- 409 171 409 171 444 220 c 1,22,-1
- 444 500 l 1,23,-1
- 504 500 l 1,24,-1
- 504 0 l 1,25,-1
- 444 0 l 1,26,-1
- 444 145 l 1,27,28
- 412 107 412 107 363.5 86 c 128,-1,29
- 315 65 315 65 259 65 c 0,30,31
- 168 65 168 65 103.5 135.5 c 128,-1,32
- 39 206 39 206 39 305 c 1,33,-1
- 39 305 l 1,0,-1
-224 350 m 1,34,35
- 252 366 252 366 268 393 c 128,-1,36
- 284 420 284 420 284 450 c 0,37,38
- 284 481 284 481 263.5 503 c 128,-1,39
- 243 525 243 525 214 525 c 0,40,41
- 179 525 179 525 154 503 c 128,-1,42
- 129 481 129 481 129 450 c 0,43,44
- 129 417 129 417 155.5 389 c 128,-1,45
- 182 361 182 361 224 350 c 1,46,-1
- 224 350 l 1,34,35
-718 -235 m 1,47,-1
- 468 -65 l 1,48,-1
- 408 -95 l 1,49,-1
- 393 -50 l 1,50,-1
- 468 -15 l 1,51,-1
- 748 -200 l 1,52,-1
- 718 -235 l 1,53,-1
- 718 -235 l 1,47,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AA7 u0AE0
-EndChar
-
-StartChar: u0AA8_u0AE0.haln
-Encoding: 65756 -1 298
-Width: 431
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-256 -10 m 1,0,1
- 171 -10 171 -10 111 38.5 c 128,-1,2
- 51 87 51 87 51 155 c 0,3,4
- 51 199 51 199 77 237 c 128,-1,5
- 103 275 103 275 146 295 c 1,6,7
- 117 306 117 306 99 330.5 c 128,-1,8
- 81 355 81 355 81 385 c 0,9,10
- 81 435 81 435 122 470 c 128,-1,11
- 163 505 163 505 221 505 c 2,12,-1
- 361 505 l 1,13,-1
- 361 455 l 1,14,-1
- 216 455 l 2,15,16
- 185 455 185 455 163 435 c 128,-1,17
- 141 415 141 415 141 387 c 256,18,19
- 141 359 141 359 163 339.5 c 128,-1,20
- 185 320 185 320 216 320 c 2,21,-1
- 321 320 l 1,22,-1
- 321 270 l 1,23,-1
- 246 270 l 2,24,25
- 190 270 190 270 150.5 236.5 c 128,-1,26
- 111 203 111 203 111 155 c 256,27,28
- 111 107 111 107 153.5 73.5 c 128,-1,29
- 196 40 196 40 256 40 c 0,30,31
- 312 40 312 40 353.5 65 c 128,-1,32
- 395 90 395 90 406 130 c 1,33,-1
- 451 110 l 1,34,35
- 437 57 437 57 382.5 23.5 c 128,-1,36
- 328 -10 328 -10 256 -10 c 1,37,-1
- 256 -10 l 1,0,1
-506 -240 m 1,38,-1
- 256 -70 l 1,39,-1
- 196 -100 l 1,40,-1
- 181 -55 l 1,41,-1
- 256 -20 l 1,42,-1
- 536 -205 l 1,43,-1
- 506 -240 l 1,44,-1
- 506 -240 l 1,38,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AA8 u0AE0
-EndChar
-
-StartChar: u0AAA_u0AE0.haln
-Encoding: 65757 -1 299
-Width: 596
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-226 50 m 1,0,1
- 158 50 158 50 109.5 91 c 128,-1,2
- 61 132 61 132 61 190 c 0,3,4
- 61 226 61 226 84.5 256 c 128,-1,5
- 108 286 108 286 146 300 c 1,6,7
- 104 311 104 311 77.5 339 c 128,-1,8
- 51 367 51 367 51 400 c 0,9,10
- 51 450 51 450 123 495 c 128,-1,11
- 195 540 195 540 306 560 c 1,12,-1
- 321 515 l 1,13,14
- 230 499 230 499 170.5 466.5 c 128,-1,15
- 111 434 111 434 111 400 c 256,16,17
- 111 366 111 366 156 345.5 c 128,-1,18
- 201 325 201 325 276 325 c 1,19,-1
- 276 275 l 1,20,21
- 212 275 212 275 166.5 250 c 128,-1,22
- 121 225 121 225 121 190 c 0,23,24
- 121 153 121 153 152 126.5 c 128,-1,25
- 183 100 183 100 226 100 c 0,26,27
- 288 100 288 100 347 140 c 128,-1,28
- 406 180 406 180 446 250 c 1,29,-1
- 446 500 l 1,30,-1
- 506 500 l 1,31,-1
- 506 0 l 1,32,-1
- 446 0 l 1,33,-1
- 446 170 l 1,34,35
- 407 114 407 114 348.5 82 c 128,-1,36
- 290 50 290 50 226 50 c 1,37,-1
- 226 50 l 1,0,1
-732 -235 m 1,38,-1
- 482 -65 l 1,39,-1
- 422 -95 l 1,40,-1
- 407 -50 l 1,41,-1
- 482 -15 l 1,42,-1
- 762 -200 l 1,43,-1
- 732 -235 l 1,44,-1
- 732 -235 l 1,38,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AAA u0AE0
-EndChar
-
-StartChar: u0AAB_u0AE0.haln
-Encoding: 65758 -1 300
-Width: 587
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-37 215 m 1,0,1
- 37 283 37 283 84 331.5 c 128,-1,2
- 131 380 131 380 197 380 c 2,3,-1
- 437 380 l 1,4,-1
- 437 500 l 1,5,-1
- 497 500 l 1,6,-1
- 497 0 l 1,7,-1
- 437 0 l 1,8,-1
- 437 330 l 1,9,-1
- 297 330 l 1,10,11
- 321 310 321 310 334 280 c 128,-1,12
- 347 250 347 250 347 215 c 0,13,14
- 347 151 347 151 301.5 105.5 c 128,-1,15
- 256 60 256 60 192 60 c 256,16,17
- 128 60 128 60 82.5 105.5 c 128,-1,18
- 37 151 37 151 37 215 c 1,19,-1
- 37 215 l 1,0,1
-192 105 m 1,20,21
- 231 105 231 105 259 136 c 128,-1,22
- 287 167 287 167 287 210 c 0,23,24
- 287 260 287 260 259 295 c 128,-1,25
- 231 330 231 330 192 330 c 256,26,27
- 153 330 153 330 125 295 c 128,-1,28
- 97 260 97 260 97 210 c 0,29,30
- 97 167 97 167 125 136 c 128,-1,31
- 153 105 153 105 192 105 c 1,32,-1
- 192 105 l 1,20,21
-714 -235 m 1,33,-1
- 464 -65 l 1,34,-1
- 404 -95 l 1,35,-1
- 389 -50 l 1,36,-1
- 464 -15 l 1,37,-1
- 744 -200 l 1,38,-1
- 714 -235 l 1,39,-1
- 714 -235 l 1,33,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AAB u0AE0
-EndChar
-
-StartChar: u0AAC_u0AE0.haln
-Encoding: 65759 -1 301
-Width: 562
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-97 390 m 1,0,1
- 97 415 97 415 86.5 432.5 c 128,-1,2
- 76 450 76 450 62 450 c 2,3,-1
- 12 450 l 1,4,-1
- 12 500 l 1,5,-1
- 72 500 l 2,6,7
- 109 500 109 500 135.5 470.5 c 128,-1,8
- 162 441 162 441 162 400 c 2,9,-1
- 162 270 l 2,10,11
- 162 227 162 227 197 196 c 128,-1,12
- 232 165 232 165 282 165 c 0,13,14
- 328 165 328 165 364 193 c 128,-1,15
- 400 221 400 221 412 265 c 1,16,-1
- 412 500 l 1,17,-1
- 472 500 l 1,18,-1
- 472 0 l 1,19,-1
- 412 0 l 1,20,-1
- 412 170 l 1,21,22
- 386 144 386 144 352 129.5 c 128,-1,23
- 318 115 318 115 282 115 c 0,24,25
- 205 115 205 115 151 160.5 c 128,-1,26
- 97 206 97 206 97 270 c 2,27,-1
- 97 390 l 1,28,-1
- 97 390 l 1,0,1
-694 -235 m 1,29,-1
- 444 -65 l 1,30,-1
- 384 -95 l 1,31,-1
- 369 -50 l 1,32,-1
- 444 -15 l 1,33,-1
- 724 -200 l 1,34,-1
- 694 -235 l 1,35,-1
- 694 -235 l 1,29,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AAC u0AE0
-EndChar
-
-StartChar: u0AAD_u0AE0.haln
-Encoding: 65760 -1 302
-Width: 444
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-36 75 m 1,0,-1
- 66 105 l 1,1,2
- 98 78 98 78 135.5 64 c 128,-1,3
- 173 50 173 50 211 50 c 0,4,5
- 261 50 261 50 296 76.5 c 128,-1,6
- 331 103 331 103 331 140 c 0,7,8
- 331 162 331 162 298.5 190.5 c 128,-1,9
- 266 219 266 219 211 245 c 1,10,-1
- 51 190 l 1,11,-1
- 31 230 l 1,12,-1
- 156 280 l 1,13,14
- 117 303 117 303 94 332.5 c 128,-1,15
- 71 362 71 362 71 390 c 0,16,17
- 71 438 71 438 122.5 471.5 c 128,-1,18
- 174 505 174 505 246 505 c 0,19,20
- 289 505 289 505 322 498.5 c 128,-1,21
- 355 492 355 492 376 480 c 1,22,-1
- 361 435 l 1,23,24
- 327 447 327 447 299.5 453.5 c 128,-1,25
- 272 460 272 460 251 460 c 0,26,27
- 203 460 203 460 169.5 439.5 c 128,-1,28
- 136 419 136 419 136 390 c 0,29,30
- 136 370 136 370 157.5 345.5 c 128,-1,31
- 179 321 179 321 216 300 c 1,32,-1
- 381 360 l 1,33,-1
- 401 320 l 1,34,-1
- 271 270 l 1,35,36
- 328 243 328 243 362 208 c 128,-1,37
- 396 173 396 173 396 140 c 0,38,39
- 396 88 396 88 353 49.5 c 128,-1,40
- 310 11 310 11 246 5 c 1,41,42
- 259 -31 259 -31 290.5 -53 c 128,-1,43
- 322 -75 322 -75 361 -75 c 1,44,-1
- 346 -120 l 1,45,46
- 293 -115 293 -115 249 -83 c 128,-1,47
- 205 -51 205 -51 181 0 c 1,48,49
- 144 3 144 3 106.5 22.5 c 128,-1,50
- 69 42 69 42 36 75 c 1,51,-1
- 36 75 l 1,0,-1
-370 -255 m 1,52,-1
- 120 -85 l 1,53,-1
- 60 -115 l 1,54,-1
- 45 -70 l 1,55,-1
- 120 -35 l 1,56,-1
- 400 -220 l 1,57,-1
- 370 -255 l 1,58,-1
- 370 -255 l 1,52,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AAD u0AE0
-EndChar
-
-StartChar: u0AAE_u0AE0.haln
-Encoding: 65761 -1 303
-Width: 664
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-44 300 m 1,0,1
- 44 395 44 395 100.5 447.5 c 128,-1,2
- 157 500 157 500 259 500 c 2,3,-1
- 299 500 l 1,4,-1
- 299 450 l 1,5,-1
- 264 450 l 2,6,7
- 188 450 188 450 146 410.5 c 128,-1,8
- 104 371 104 371 104 300 c 0,9,10
- 104 238 104 238 143.5 194 c 128,-1,11
- 183 150 183 150 239 150 c 0,12,13
- 274 150 274 150 299 173.5 c 128,-1,14
- 324 197 324 197 324 230 c 2,15,-1
- 324 350 l 1,16,-1
- 384 350 l 1,17,-1
- 384 295 l 1,18,-1
- 514 295 l 1,19,-1
- 514 500 l 1,20,-1
- 574 500 l 1,21,-1
- 574 0 l 1,22,-1
- 514 0 l 1,23,-1
- 514 245 l 1,24,-1
- 384 245 l 1,25,26
- 384 177 384 177 344.5 136 c 128,-1,27
- 305 95 305 95 239 95 c 0,28,29
- 158 95 158 95 101 155 c 128,-1,30
- 44 215 44 215 44 300 c 1,31,-1
- 44 300 l 1,0,1
-798 -235 m 1,32,-1
- 548 -65 l 1,33,-1
- 488 -95 l 1,34,-1
- 473 -50 l 1,35,-1
- 548 -15 l 1,36,-1
- 828 -200 l 1,37,-1
- 798 -235 l 1,38,-1
- 798 -235 l 1,32,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AAE u0AE0
-EndChar
-
-StartChar: u0AAF_u0AE0.haln
-Encoding: 65762 -1 304
-Width: 695
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-50 290 m 1,0,1
- 50 379 50 379 108.5 442 c 128,-1,2
- 167 505 167 505 250 505 c 0,3,4
- 314 505 314 505 359.5 468.5 c 128,-1,5
- 405 432 405 432 405 380 c 2,6,-1
- 405 285 l 1,7,-1
- 545 285 l 1,8,-1
- 545 500 l 1,9,-1
- 605 500 l 1,10,-1
- 605 0 l 1,11,-1
- 545 0 l 1,12,-1
- 545 235 l 1,13,-1
- 405 235 l 1,14,15
- 405 208 405 208 387.5 189 c 128,-1,16
- 370 170 370 170 345 170 c 256,17,18
- 320 170 320 170 302.5 186 c 128,-1,19
- 285 202 285 202 285 225 c 0,20,21
- 285 250 285 250 302.5 267.5 c 128,-1,22
- 320 285 320 285 345 285 c 1,23,-1
- 345 375 l 1,24,25
- 339 410 339 410 313.5 432.5 c 128,-1,26
- 288 455 288 455 255 455 c 0,27,28
- 195 455 195 455 152.5 408 c 128,-1,29
- 110 361 110 361 110 295 c 0,30,31
- 110 212 110 212 153.5 143 c 128,-1,32
- 197 74 197 74 270 40 c 1,33,-1
- 245 -5 l 1,34,35
- 156 37 156 37 103 117 c 128,-1,36
- 50 197 50 197 50 290 c 1,37,-1
- 50 290 l 1,0,1
-825 -235 m 1,38,-1
- 575 -65 l 1,39,-1
- 515 -95 l 1,40,-1
- 500 -50 l 1,41,-1
- 575 -15 l 1,42,-1
- 855 -200 l 1,43,-1
- 825 -235 l 1,44,-1
- 825 -235 l 1,38,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AAF u0AE0
-EndChar
-
-StartChar: u0AB0_u0AE0.haln
-Encoding: 65763 -1 305
-Width: 566
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-36 160 m 1,0,1
- 36 206 36 206 69.5 238 c 128,-1,2
- 103 270 103 270 151 270 c 2,3,-1
- 186 270 l 1,4,-1
- 186 370 l 2,5,6
- 186 401 186 401 170 423 c 128,-1,7
- 154 445 154 445 131 445 c 2,8,-1
- 66 445 l 1,9,-1
- 66 500 l 1,10,-1
- 132 500 l 2,11,12
- 179 500 179 500 212.5 462 c 128,-1,13
- 246 424 246 424 246 370 c 2,14,-1
- 246 270 l 1,15,-1
- 416 270 l 1,16,-1
- 416 500 l 1,17,-1
- 476 500 l 1,18,-1
- 476 0 l 1,19,-1
- 416 0 l 1,20,-1
- 416 225 l 1,21,-1
- 246 225 l 1,22,-1
- 246 140 l 2,23,24
- 246 103 246 103 218 76.5 c 128,-1,25
- 190 50 190 50 151 50 c 0,26,27
- 103 50 103 50 69.5 82 c 128,-1,28
- 36 114 36 114 36 160 c 1,29,-1
- 36 160 l 1,0,1
-151 100 m 1,30,31
- 166 103 166 103 176 115.5 c 128,-1,32
- 186 128 186 128 186 145 c 2,33,-1
- 186 225 l 1,34,-1
- 156 225 l 2,35,36
- 131 225 131 225 113.5 206 c 128,-1,37
- 96 187 96 187 96 160 c 0,38,39
- 96 135 96 135 112 117.5 c 128,-1,40
- 128 100 128 100 151 100 c 1,41,-1
- 151 100 l 1,30,31
-702 -235 m 1,42,-1
- 452 -65 l 1,43,-1
- 392 -95 l 1,44,-1
- 377 -50 l 1,45,-1
- 452 -15 l 1,46,-1
- 732 -200 l 1,47,-1
- 702 -235 l 1,48,-1
- 702 -235 l 1,42,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AB0 u0AE0
-EndChar
-
-StartChar: u0AB2_u0AE0.haln
-Encoding: 65764 -1 306
-Width: 554
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-34 280 m 1,0,-1
- 34 310 l 1,1,-1
- 159 310 l 2,2,3
- 182 310 182 310 198 329 c 128,-1,4
- 214 348 214 348 214 375 c 0,5,6
- 214 406 214 406 192 428 c 128,-1,7
- 170 450 170 450 139 450 c 2,8,-1
- 49 450 l 1,9,-1
- 49 500 l 1,10,-1
- 139 500 l 2,11,12
- 197 500 197 500 238 465 c 128,-1,13
- 279 430 279 430 279 380 c 0,14,15
- 279 332 279 332 244 298.5 c 128,-1,16
- 209 265 209 265 159 265 c 2,17,-1
- 94 265 l 1,18,19
- 94 209 94 209 136.5 169.5 c 128,-1,20
- 179 130 179 130 239 130 c 0,21,22
- 287 130 287 130 331.5 165.5 c 128,-1,23
- 376 201 376 201 404 260 c 1,24,-1
- 404 500 l 1,25,-1
- 464 500 l 1,26,-1
- 464 0 l 1,27,-1
- 404 0 l 1,28,-1
- 404 170 l 1,29,30
- 380 128 380 128 335.5 104 c 128,-1,31
- 291 80 291 80 239 80 c 0,32,33
- 154 80 154 80 94 138.5 c 128,-1,34
- 34 197 34 197 34 280 c 1,35,-1
- 34 280 l 1,0,-1
-688 -235 m 1,36,-1
- 438 -65 l 1,37,-1
- 378 -95 l 1,38,-1
- 363 -50 l 1,39,-1
- 438 -15 l 1,40,-1
- 718 -200 l 1,41,-1
- 688 -235 l 1,42,-1
- 688 -235 l 1,36,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AB2 u0AE0
-EndChar
-
-StartChar: u0AB3_u0AE0.haln
-Encoding: 65765 -1 307
-Width: 373
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-24 230 m 1,0,-1
- 129 230 l 2,1,2
- 181 230 181 230 217.5 265 c 128,-1,3
- 254 300 254 300 254 350 c 0,4,5
- 254 389 254 389 220.5 417 c 128,-1,6
- 187 445 187 445 139 445 c 0,7,8
- 108 445 108 445 82 438.5 c 128,-1,9
- 56 432 56 432 39 420 c 1,10,-1
- 9 470 l 1,11,12
- 33 487 33 487 66.5 496 c 128,-1,13
- 100 505 100 505 139 505 c 0,14,15
- 211 505 211 505 262.5 459.5 c 128,-1,16
- 314 414 314 414 314 350 c 0,17,18
- 314 282 314 282 268 231.5 c 128,-1,19
- 222 181 222 181 154 175 c 1,20,-1
- 169 95 l 2,21,22
- 172 75 172 75 186.5 62.5 c 128,-1,23
- 201 50 201 50 219 50 c 2,24,-1
- 344 50 l 1,25,-1
- 344 0 l 1,26,-1
- 219 0 l 2,27,28
- 177 0 177 0 146 22.5 c 128,-1,29
- 115 45 115 45 109 80 c 2,30,-1
- 89 180 l 1,31,-1
- 24 180 l 1,32,-1
- 24 230 l 1,33,-1
- 24 230 l 1,0,-1
-392 -235 m 1,34,-1
- 142 -65 l 1,35,-1
- 82 -95 l 1,36,-1
- 67 -50 l 1,37,-1
- 142 -15 l 1,38,-1
- 422 -200 l 1,39,-1
- 392 -235 l 1,40,-1
- 392 -235 l 1,34,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AB3 u0AE0
-EndChar
-
-StartChar: u0AB5_u0AE0.haln
-Encoding: 65766 -1 308
-Width: 608
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-458 500 m 1,0,-1
- 518 500 l 1,1,-1
- 518 0 l 1,2,-1
- 458 0 l 1,3,-1
- 458 245 l 1,4,-1
- 263 245 l 1,5,-1
- 263 295 l 1,6,-1
- 458 295 l 1,7,-1
- 458 500 l 1,8,-1
- 458 500 l 1,0,-1
-248 0 m 1,9,10
- 167 0 167 0 110 74.5 c 128,-1,11
- 53 149 53 149 53 255 c 0,12,13
- 53 356 53 356 113 428 c 128,-1,14
- 173 500 173 500 258 500 c 2,15,-1
- 323 500 l 1,16,-1
- 323 450 l 1,17,-1
- 263 450 l 2,18,19
- 201 450 201 450 157 393 c 128,-1,20
- 113 336 113 336 113 255 c 0,21,22
- 113 170 113 170 155.5 110 c 128,-1,23
- 198 50 198 50 258 50 c 2,24,-1
- 323 50 l 1,25,-1
- 323 0 l 1,26,-1
- 248 0 l 1,27,-1
- 248 0 l 1,9,10
-741 -235 m 1,28,-1
- 491 -65 l 1,29,-1
- 431 -95 l 1,30,-1
- 416 -50 l 1,31,-1
- 491 -15 l 1,32,-1
- 771 -200 l 1,33,-1
- 741 -235 l 1,34,-1
- 741 -235 l 1,28,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AB5 u0AE0
-EndChar
-
-StartChar: u0AB6_u0AE0.haln
-Encoding: 65767 -1 309
-Width: 666
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-46 300 m 1,0,1
- 46 383 46 383 94.5 441.5 c 128,-1,2
- 143 500 143 500 211 500 c 2,3,-1
- 271 500 l 1,4,-1
- 271 450 l 1,5,-1
- 221 450 l 2,6,7
- 173 450 173 450 139.5 406 c 128,-1,8
- 106 362 106 362 106 300 c 0,9,10
- 106 236 106 236 139.5 190.5 c 128,-1,11
- 173 145 173 145 221 145 c 0,12,13
- 266 145 266 145 288.5 176.5 c 128,-1,14
- 311 208 311 208 311 270 c 2,15,-1
- 311 330 l 2,16,17
- 311 419 311 419 345 464.5 c 128,-1,18
- 379 510 379 510 446 510 c 0,19,20
- 502 510 502 510 541.5 472 c 128,-1,21
- 581 434 581 434 581 380 c 2,22,-1
- 581 0 l 1,23,-1
- 521 0 l 1,24,-1
- 521 380 l 2,25,26
- 521 413 521 413 499 436.5 c 128,-1,27
- 477 460 477 460 446 460 c 0,28,29
- 406 460 406 460 386 427 c 128,-1,30
- 366 394 366 394 366 330 c 2,31,-1
- 366 270 l 2,32,33
- 366 183 366 183 329.5 139 c 128,-1,34
- 293 95 293 95 221 95 c 256,35,36
- 149 95 149 95 97.5 155 c 128,-1,37
- 46 215 46 215 46 300 c 1,38,-1
- 46 300 l 1,0,1
-797 -235 m 1,39,-1
- 547 -65 l 1,40,-1
- 487 -95 l 1,41,-1
- 472 -50 l 1,42,-1
- 547 -15 l 1,43,-1
- 827 -200 l 1,44,-1
- 797 -235 l 1,45,-1
- 797 -235 l 1,39,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AB6 u0AE0
-EndChar
-
-StartChar: u0AB7_u0AE0.haln
-Encoding: 65768 -1 310
-Width: 550
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-40 320 m 1,0,1
- 40 395 40 395 87 447.5 c 128,-1,2
- 134 500 134 500 200 500 c 2,3,-1
- 270 500 l 1,4,-1
- 280 450 l 1,5,-1
- 220 450 l 2,6,7
- 170 450 170 450 135 412 c 128,-1,8
- 100 374 100 374 100 320 c 0,9,10
- 100 262 100 262 147 221 c 128,-1,11
- 194 180 194 180 260 180 c 0,12,13
- 299 180 299 180 335 193 c 128,-1,14
- 371 206 371 206 400 230 c 1,15,-1
- 400 500 l 1,16,-1
- 460 500 l 1,17,-1
- 460 0 l 1,18,-1
- 400 0 l 1,19,-1
- 400 170 l 1,20,21
- 377 151 377 151 339.5 140.5 c 128,-1,22
- 302 130 302 130 255 130 c 0,23,24
- 166 130 166 130 103 185.5 c 128,-1,25
- 40 241 40 241 40 320 c 1,26,-1
- 40 320 l 1,0,1
-680 -235 m 1,27,-1
- 430 -65 l 1,28,-1
- 370 -95 l 1,29,-1
- 355 -50 l 1,30,-1
- 430 -15 l 1,31,-1
- 710 -200 l 1,32,-1
- 680 -235 l 1,33,-1
- 680 -235 l 1,27,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AB7 u0AE0
-EndChar
-
-StartChar: u0AB8_u0AE0.haln
-Encoding: 65769 -1 311
-Width: 611
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-286 0 m 1,0,1
- 262 67 262 67 208.5 112.5 c 128,-1,2
- 155 158 155 158 86 170 c 1,3,-1
- 46 170 l 1,4,-1
- 46 215 l 1,5,-1
- 126 215 l 2,6,7
- 188 215 188 215 232 260.5 c 128,-1,8
- 276 306 276 306 276 370 c 0,9,10
- 276 407 276 407 249.5 433.5 c 128,-1,11
- 223 460 223 460 186 460 c 256,12,13
- 149 460 149 460 122.5 441 c 128,-1,14
- 96 422 96 422 96 395 c 0,15,16
- 96 370 96 370 112 352.5 c 128,-1,17
- 128 335 128 335 151 335 c 1,18,-1
- 176 340 l 1,19,-1
- 186 300 l 1,20,21
- 179 295 179 295 167.5 292.5 c 128,-1,22
- 156 290 156 290 141 290 c 0,23,24
- 98 290 98 290 67 318 c 128,-1,25
- 36 346 36 346 36 385 c 0,26,27
- 36 447 36 447 77.5 478.5 c 128,-1,28
- 119 510 119 510 201 510 c 0,29,30
- 257 510 257 510 296.5 469 c 128,-1,31
- 336 428 336 428 336 370 c 0,32,33
- 336 307 336 307 297.5 255 c 128,-1,34
- 259 203 259 203 196 180 c 1,35,36
- 245 157 245 157 284 110.5 c 128,-1,37
- 323 64 323 64 346 0 c 1,38,-1
- 286 0 l 1,39,-1
- 286 0 l 1,0,1
-461 500 m 1,40,-1
- 521 500 l 1,41,-1
- 521 0 l 1,42,-1
- 461 0 l 1,43,-1
- 461 500 l 1,44,-1
- 461 500 l 1,40,-1
-737 -235 m 1,45,-1
- 487 -65 l 1,46,-1
- 427 -95 l 1,47,-1
- 412 -50 l 1,48,-1
- 487 -15 l 1,49,-1
- 767 -200 l 1,50,-1
- 737 -235 l 1,51,-1
- 737 -235 l 1,45,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AB8 u0AE0
-EndChar
-
-StartChar: u0AB9_u0AE0.haln
-Encoding: 65770 -1 312
-Width: 552
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-22 445 m 1,0,-1
- 22 500 l 1,1,-1
- 67 500 l 2,2,3
- 100 500 100 500 123.5 481 c 128,-1,4
- 147 462 147 462 147 435 c 1,5,-1
- 402 260 l 1,6,-1
- 402 500 l 1,7,-1
- 462 500 l 1,8,-1
- 462 0 l 1,9,-1
- 402 0 l 1,10,-1
- 402 150 l 1,11,12
- 371 128 371 128 336.5 116.5 c 128,-1,13
- 302 105 302 105 267 105 c 0,14,15
- 192 105 192 105 139.5 156.5 c 128,-1,16
- 87 208 87 208 87 280 c 2,17,-1
- 87 380 l 2,18,19
- 87 407 87 407 79.5 426 c 128,-1,20
- 72 445 72 445 62 445 c 2,21,-1
- 22 445 l 1,22,-1
- 22 445 l 1,0,-1
-267 160 m 1,23,24
- 301 160 301 160 332 173 c 128,-1,25
- 363 186 363 186 387 210 c 1,26,-1
- 147 375 l 1,27,-1
- 147 280 l 2,28,29
- 147 230 147 230 182 195 c 128,-1,30
- 217 160 217 160 267 160 c 1,31,-1
- 267 160 l 1,23,24
-679 -235 m 1,32,-1
- 429 -65 l 1,33,-1
- 369 -95 l 1,34,-1
- 354 -50 l 1,35,-1
- 429 -15 l 1,36,-1
- 709 -200 l 1,37,-1
- 679 -235 l 1,38,-1
- 679 -235 l 1,32,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0AB9 u0AE0
-EndChar
-
-StartChar: u0ABC_u0AE0.haln
-Encoding: 65771 -1 313
-Width: 630
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-20 470 m 1,0,1
- 39 489 39 489 71.5 499.5 c 128,-1,2
- 104 510 104 510 145 510 c 0,3,4
- 223 510 223 510 278.5 464.5 c 128,-1,5
- 334 419 334 419 334 355 c 0,6,7
- 334 338 334 338 330.5 321.5 c 128,-1,8
- 327 305 327 305 320 290 c 1,9,-1
- 480 290 l 1,10,-1
- 480 500 l 1,11,-1
- 540 500 l 1,12,-1
- 540 0 l 1,13,-1
- 480 0 l 1,14,-1
- 480 240 l 1,15,-1
- 295 240 l 1,16,17
- 266 211 266 211 228.5 195.5 c 128,-1,18
- 191 180 191 180 150 180 c 1,19,-1
- 165 85 l 2,20,21
- 168 68 168 68 181 56.5 c 128,-1,22
- 194 45 194 45 210 45 c 2,23,-1
- 340 45 l 1,24,-1
- 340 0 l 1,25,-1
- 210 0 l 2,26,27
- 172 0 172 0 144 21 c 128,-1,28
- 116 42 116 42 110 75 c 2,29,-1
- 90 180 l 1,30,-1
- 30 180 l 1,31,-1
- 30 230 l 1,32,-1
- 140 230 l 2,33,34
- 196 230 196 230 235.5 266.5 c 128,-1,35
- 275 303 275 303 275 355 c 0,36,37
- 275 398 275 398 237 429 c 128,-1,38
- 199 460 199 460 145 460 c 0,39,40
- 120 460 120 460 95.5 452.5 c 128,-1,41
- 71 445 71 445 50 430 c 1,42,-1
- 20 470 l 1,43,-1
- 20 470 l 1,0,1
-760 -235 m 1,44,-1
- 510 -65 l 1,45,-1
- 450 -95 l 1,46,-1
- 435 -50 l 1,47,-1
- 510 -15 l 1,48,-1
- 790 -200 l 1,49,-1
- 760 -235 l 1,50,-1
- 760 -235 l 1,44,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0ABC u0AE0
-EndChar
-
-StartChar: u0ABD_u0AE0.haln
-Encoding: 65772 -1 314
-Width: 468
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-300 -50 m 1,0,1
- 199 -50 199 -50 127 14.5 c 128,-1,2
- 55 79 55 79 55 170 c 0,3,4
- 55 223 55 223 76.5 266 c 128,-1,5
- 98 309 98 309 135 330 c 1,6,7
- 114 345 114 345 102 365 c 128,-1,8
- 90 385 90 385 90 405 c 0,9,10
- 90 444 90 444 125 472 c 128,-1,11
- 160 500 160 500 210 500 c 2,12,-1
- 380 500 l 1,13,-1
- 380 450 l 1,14,-1
- 210 450 l 2,15,16
- 185 450 185 450 167.5 437 c 128,-1,17
- 150 424 150 424 150 405 c 0,18,19
- 150 391 150 391 159.5 377.5 c 128,-1,20
- 169 364 169 364 185 355 c 1,21,22
- 205 362 205 362 226.5 366 c 128,-1,23
- 248 370 248 370 270 370 c 0,24,25
- 336 370 336 370 383 327.5 c 128,-1,26
- 430 285 430 285 430 225 c 0,27,28
- 430 173 430 173 387.5 136.5 c 128,-1,29
- 345 100 345 100 285 100 c 2,30,-1
- 255 100 l 1,31,-1
- 255 150 l 1,32,-1
- 285 150 l 2,33,34
- 320 150 320 150 345 172 c 128,-1,35
- 370 194 370 194 370 225 c 0,36,37
- 370 264 370 264 340.5 292 c 128,-1,38
- 311 320 311 320 270 320 c 0,39,40
- 206 320 206 320 160.5 276 c 128,-1,41
- 115 232 115 232 115 170 c 0,42,43
- 115 100 115 100 169 50 c 128,-1,44
- 223 0 223 0 300 0 c 0,45,46
- 330 0 330 0 354 5 c 128,-1,47
- 378 10 378 10 395 20 c 1,48,-1
- 410 -30 l 1,49,50
- 393 -40 393 -40 365 -45 c 128,-1,51
- 337 -50 337 -50 300 -50 c 1,52,-1
- 300 -50 l 1,0,1
-478 -245 m 1,53,-1
- 288 -115 l 1,54,-1
- 228 -145 l 1,55,-1
- 213 -100 l 1,56,-1
- 288 -65 l 1,57,-1
- 508 -210 l 1,58,-1
- 478 -245 l 1,59,-1
- 478 -245 l 1,53,-1
-EndSplineSet
-Ligature2: "'haln' Halant Forms in Gujarati lookup 10 subtable" u0ABD u0AE0
-EndChar
-
 StartChar: numbersign
-Encoding: 35 35 315
+Encoding: 35 35 275
 Width: 732
 Flags: W
 LayerCount: 2
@@ -15723,7 +13709,7 @@ EndSplineSet
 EndChar
 
 StartChar: dollar
-Encoding: 36 36 316
+Encoding: 36 36 276
 Width: 565
 Flags: W
 LayerCount: 2
@@ -15775,7 +13761,7 @@ EndSplineSet
 EndChar
 
 StartChar: percent
-Encoding: 37 37 317
+Encoding: 37 37 277
 Width: 720
 Flags: W
 LayerCount: 2
@@ -15831,7 +13817,7 @@ EndSplineSet
 EndChar
 
 StartChar: ampersand
-Encoding: 38 38 318
+Encoding: 38 38 278
 Width: 602
 Flags: W
 LayerCount: 2
@@ -15885,7 +13871,7 @@ EndSplineSet
 EndChar
 
 StartChar: asterisk
-Encoding: 42 42 319
+Encoding: 42 42 279
 Width: 510
 Flags: W
 LayerCount: 2
@@ -15914,7 +13900,7 @@ EndSplineSet
 EndChar
 
 StartChar: plus
-Encoding: 43 43 320
+Encoding: 43 43 280
 Width: 570
 Flags: W
 LayerCount: 2
@@ -15938,7 +13924,7 @@ EndSplineSet
 EndChar
 
 StartChar: slash
-Encoding: 47 47 321
+Encoding: 47 47 281
 Width: 630
 Flags: W
 LayerCount: 2
@@ -15954,7 +13940,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero
-Encoding: 48 48 322
+Encoding: 48 48 282
 Width: 479
 Flags: W
 LayerCount: 2
@@ -15984,7 +13970,7 @@ EndSplineSet
 EndChar
 
 StartChar: one
-Encoding: 49 49 323
+Encoding: 49 49 283
 Width: 478
 Flags: W
 LayerCount: 2
@@ -16004,7 +13990,7 @@ EndSplineSet
 EndChar
 
 StartChar: two
-Encoding: 50 50 324
+Encoding: 50 50 284
 Width: 479
 Flags: W
 LayerCount: 2
@@ -16038,7 +14024,7 @@ EndSplineSet
 EndChar
 
 StartChar: three
-Encoding: 51 51 325
+Encoding: 51 51 285
 Width: 479
 Flags: W
 LayerCount: 2
@@ -16079,7 +14065,7 @@ EndSplineSet
 EndChar
 
 StartChar: four
-Encoding: 52 52 326
+Encoding: 52 52 286
 Width: 478
 Flags: W
 LayerCount: 2
@@ -16107,7 +14093,7 @@ EndSplineSet
 EndChar
 
 StartChar: five
-Encoding: 53 53 327
+Encoding: 53 53 287
 Width: 479
 Flags: W
 LayerCount: 2
@@ -16142,7 +14128,7 @@ EndSplineSet
 EndChar
 
 StartChar: six
-Encoding: 54 54 328
+Encoding: 54 54 288
 Width: 479
 Flags: W
 LayerCount: 2
@@ -16182,7 +14168,7 @@ EndSplineSet
 EndChar
 
 StartChar: seven
-Encoding: 55 55 329
+Encoding: 55 55 289
 Width: 479
 Flags: W
 LayerCount: 2
@@ -16203,7 +14189,7 @@ EndSplineSet
 EndChar
 
 StartChar: eight
-Encoding: 56 56 330
+Encoding: 56 56 290
 Width: 479
 Flags: W
 LayerCount: 2
@@ -16251,7 +14237,7 @@ EndSplineSet
 EndChar
 
 StartChar: nine
-Encoding: 57 57 331
+Encoding: 57 57 291
 Width: 478
 Flags: W
 LayerCount: 2
@@ -16291,7 +14277,7 @@ EndSplineSet
 EndChar
 
 StartChar: less
-Encoding: 60 60 332
+Encoding: 60 60 292
 Width: 527
 Flags: W
 LayerCount: 2
@@ -16310,7 +14296,7 @@ EndSplineSet
 EndChar
 
 StartChar: equal
-Encoding: 61 61 333
+Encoding: 61 61 293
 Width: 480
 Flags: W
 LayerCount: 2
@@ -16332,7 +14318,7 @@ EndSplineSet
 EndChar
 
 StartChar: greater
-Encoding: 62 62 334
+Encoding: 62 62 294
 Width: 527
 Flags: W
 LayerCount: 2
@@ -16351,7 +14337,7 @@ EndSplineSet
 EndChar
 
 StartChar: bracketleft
-Encoding: 91 91 335
+Encoding: 91 91 295
 Width: 480
 Flags: W
 LayerCount: 2
@@ -16371,7 +14357,7 @@ EndSplineSet
 EndChar
 
 StartChar: backslash
-Encoding: 92 92 336
+Encoding: 92 92 296
 Width: 485
 Flags: W
 LayerCount: 2
@@ -16387,7 +14373,7 @@ EndSplineSet
 EndChar
 
 StartChar: bracketright
-Encoding: 93 93 337
+Encoding: 93 93 297
 Width: 480
 Flags: W
 LayerCount: 2
@@ -16407,7 +14393,7 @@ EndSplineSet
 EndChar
 
 StartChar: asciicircum
-Encoding: 94 94 338
+Encoding: 94 94 298
 Width: 534
 Flags: W
 LayerCount: 2
@@ -16426,7 +14412,7 @@ EndSplineSet
 EndChar
 
 StartChar: braceleft
-Encoding: 123 123 339
+Encoding: 123 123 299
 Width: 394
 Flags: W
 LayerCount: 2
@@ -16461,7 +14447,7 @@ EndSplineSet
 EndChar
 
 StartChar: bar
-Encoding: 124 124 340
+Encoding: 124 124 300
 Width: 230
 Flags: W
 LayerCount: 2
@@ -16477,7 +14463,7 @@ EndSplineSet
 EndChar
 
 StartChar: braceright
-Encoding: 125 125 341
+Encoding: 125 125 301
 Width: 395
 Flags: W
 LayerCount: 2
@@ -16512,7 +14498,7 @@ EndSplineSet
 EndChar
 
 StartChar: asciitilde
-Encoding: 126 126 342
+Encoding: 126 126 302
 Width: 572
 Flags: W
 LayerCount: 2
@@ -16542,7 +14528,7 @@ EndSplineSet
 EndChar
 
 StartChar: multiply
-Encoding: 215 215 343
+Encoding: 215 215 303
 Width: 477
 Flags: W
 LayerCount: 2
@@ -16566,7 +14552,7 @@ EndSplineSet
 EndChar
 
 StartChar: divide
-Encoding: 247 247 344
+Encoding: 247 247 304
 Width: 530
 Flags: W
 LayerCount: 2
@@ -16601,8 +14587,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni20B9
-Encoding: 8377 8377 345
+StartChar: inr_currency
+Encoding: 8377 8377 305
 Width: 608
 VWidth: 1024
 Flags: W
@@ -16634,8 +14620,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u0A9B_u0AED.half_u0AAF.pres
-Encoding: 65570 -1 346
+StartChar: chaguj_viramaguj_yaguj
+Encoding: 65570 -1 306
 Width: 1112
 Flags: W
 LayerCount: 2
@@ -16717,7 +14703,204 @@ SplineSet
  824 45 824 45 762 45 c 1,97,-1
  762 45 l 1,62,63
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions in Gujarati lookup 11 subtable" u0A9D_u0AE0.half u0AB2
+EndChar
+
+StartChar: iisignguj.alt1
+Encoding: 65569 -1 307
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 500 m 1,0,1
+ 90 604 90 604 238 677 c 128,-1,2
+ 386 750 386 750 556 750 c 0,3,4
+ 825 750 825 750 953 682 c 128,-1,5
+ 1081 614 1081 614 1091 498 c 5,6,-1
+ 1031 498 l 5,7,8
+ 1016 583 1016 583 895 641.5 c 128,-1,9
+ 774 700 774 700 556 700 c 0,10,11
+ 411 700 411 700 280.5 641.5 c 128,-1,12
+ 150 583 150 583 150 500 c 2,13,-1
+ 150 0 l 1,14,-1
+ 90 0 l 1,15,-1
+ 90 500 l 1,16,-1
+ 90 500 l 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: iisignguj.alt2
+Encoding: 65568 -1 308
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 500 m 1,0,1
+ 90 582.977 90 582.977 251 677 c 0,2,3
+ 376 750 376 750 606 750 c 0,4,5
+ 878 750 878 750 1022 680.5 c 132,-1,6
+ 1166 611 1166 611 1176 495 c 5,7,-1
+ 1116 495 l 5,8,9
+ 1101 580 1101 580 964 640 c 132,-1,10
+ 827 700 827 700 616 700 c 0,11,12
+ 437 700 437 700 293.5 641.5 c 128,-1,13
+ 150 583 150 583 150 500 c 2,14,-1
+ 150 0 l 1,15,-1
+ 90 0 l 1,16,-1
+ 90 500 l 1,17,-1
+ 90 500 l 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: iisignguj.alt3
+Encoding: 65567 -1 309
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 500 m 1,0,1
+ 90 604 90 604 249.5 677 c 128,-1,2
+ 409 750 409 750 579 750 c 0,3,4
+ 897 750 897 750 1025 681 c 132,-1,5
+ 1153 612 1153 612 1163 496 c 5,6,-1
+ 1103 496 l 5,7,8
+ 1088 581 1088 581 967 640.5 c 132,-1,9
+ 846 700 846 700 579 700 c 0,10,11
+ 434 700 434 700 292 641.5 c 128,-1,12
+ 150 583 150 583 150 500 c 2,13,-1
+ 150 0 l 1,14,-1
+ 90 0 l 1,15,-1
+ 90 500 l 1,16,-1
+ 90 500 l 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: iisignguj.alt4
+Encoding: 65566 -1 310
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 500 m 1,0,1
+ 90 604 90 604 251.5 674.5 c 128,-1,2
+ 413 745 413 745 583 745 c 0,3,4
+ 850.535 745 850.535 745 995.5 676.5 c 0,5,6
+ 1132 612 1132 612 1142 496 c 1,7,-1
+ 1082 496 l 1,8,9
+ 1066.28 585.064 1066.28 585.064 937.5 636 c 0,10,11
+ 788.327 695 788.327 695 583 695 c 0,12,13
+ 438 695 438 695 294 639 c 128,-1,14
+ 150 583 150 583 150 500 c 2,15,-1
+ 150 0 l 1,16,-1
+ 90 0 l 1,17,-1
+ 90 500 l 1,18,-1
+ 90 500 l 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: iisignguj.alt5
+Encoding: 65565 -1 311
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 500 m 1,0,1
+ 90 604 90 604 255 676.5 c 128,-1,2
+ 420 749 420 749 590 749 c 0,3,4
+ 965.967 749 965.967 749 1126 675.5 c 0,5,6
+ 1253.53 615.421 1253.53 615.421 1263.5 495 c 5,7,-1
+ 1203.5 495 l 5,8,9
+ 1189.51 574.207 1189.51 574.207 1068 635 c 0,10,11
+ 940.079 699 940.079 699 590 699 c 0,12,13
+ 445 699 445 699 297.5 641 c 128,-1,14
+ 150 583 150 583 150 500 c 2,15,-1
+ 150 0 l 1,16,-1
+ 90 0 l 1,17,-1
+ 90 500 l 1,18,-1
+ 90 500 l 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: ivowelsignguj_rphfguj
+Encoding: 65564 -1 312
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 500 m 2,0,1
+ 90 604 90 604 170.5 677 c 128,-1,2
+ 251 750 251 750 365 750 c 0,3,4
+ 482 750 482 750 558.5 683 c 0,5,6
+ 562.505 679.492 562.505 679.492 566.328 675.864 c 1,7,8
+ 575.827 697.341 575.827 697.341 595 715 c 0,9,10
+ 633 750 633 750 687 750 c 0,11,12
+ 715 750 715 750 741 741 c 128,-1,13
+ 767 732 767 732 787 715 c 1,14,-1
+ 767 670 l 1,15,16
+ 746 685 746 685 727 692.5 c 128,-1,17
+ 708 700 708 700 692 700 c 0,18,19
+ 661 700 661 700 639 678 c 0,20,21
+ 609.333 648.333 609.333 648.333 617 625 c 1,22,23
+ 641.523 505 l 1,24,-1
+ 585 505 l 1,25,26
+ 569 593 569 593 509 646.5 c 128,-1,27
+ 449 700 449 700 365 700 c 0,28,29
+ 276 700 276 700 213 638.5 c 128,-1,30
+ 150 577 150 577 150 490 c 2,31,-1
+ 150 0 l 1,32,-1
+ 90 0 l 1,33,-1
+ 90 500 l 2,0,1
+EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ivowelsignguj rphfguj
+EndChar
+
+StartChar: ivowelsignguj_rphfguj_anusvara
+Encoding: 65563 -1 313
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+701 570 m 1,0,1
+ 678 570 678 570 662 581.5 c 128,-1,2
+ 646 593 646 593 646 610 c 0,3,4
+ 646 631 646 631 662 645.5 c 128,-1,5
+ 678 660 678 660 701 660 c 256,6,7
+ 724 660 724 660 740 647 c 128,-1,8
+ 756 634 756 634 756 615 c 256,9,10
+ 756 596 756 596 740 583 c 128,-1,11
+ 724 570 724 570 701 570 c 1,12,-1
+ 701 570 l 1,0,1
+90 500 m 2,13,14
+ 90 604 90 604 170.5 677 c 128,-1,15
+ 251 750 251 750 365 750 c 0,16,17
+ 482 750 482 750 558.5 683 c 0,18,19
+ 562.505 679.492 562.505 679.492 566.328 675.864 c 1,20,21
+ 575.827 697.341 575.827 697.341 595 715 c 0,22,23
+ 633 750 633 750 687 750 c 0,24,25
+ 715 750 715 750 741 741 c 128,-1,26
+ 767 732 767 732 787 715 c 1,27,-1
+ 767 670 l 1,28,29
+ 746 685 746 685 727 692.5 c 128,-1,30
+ 708 700 708 700 692 700 c 0,31,32
+ 661 700 661 700 639 678 c 0,33,34
+ 609.333 648.333 609.333 648.333 617 625 c 1,35,-1
+ 641.523 505 l 1,36,-1
+ 585 505 l 1,37,38
+ 569 593 569 593 509 646.5 c 128,-1,39
+ 449 700 449 700 365 700 c 0,40,41
+ 276 700 276 700 213 638.5 c 128,-1,42
+ 150 577 150 577 150 490 c 2,43,-1
+ 150 0 l 1,44,-1
+ 90 0 l 1,45,-1
+ 90 500 l 2,13,14
+EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ivowelsignguj rphfguj_anusvaraguj
 EndChar
 EndChars
 EndSplineFont
