@@ -169,9 +169,22 @@ lookup presPreBaseSubstitutionslookup2 {
     sub \haguj_viramaguj \vaguj  by \haguj_viramaguj_vaguj;
     sub \llaguj_viramaguj \yaguj  by \llaguj_viramaguj_yaguj;
     sub \chaguj_viramaguj \vaguj  by \chaguj_viramaguj_vaguj;
+    sub \chaguj_viramaguj \yaguj  by \chaguj_viramaguj_yaguj;
     sub \ivowelsignguj \rphfguj  by \ivowelsignguj_rphfguj;
     sub \ivowelsignguj \rphfguj_anusvaraguj  by \ivowelsignguj_rphfguj_anusvara;
 } presPreBaseSubstitutionslookup2;
+
+lookup presPreBaseSubstitutionslookupr {
+  lookupflag IgnoreBaseGlyphs, IgnoreLigatures;
+    sub \ivowelsignguj \rphfguj  by \ivowelsignguj_rphfguj;
+    sub \ivowelsignguj \rphfguj_anusvaraguj  by \ivowelsignguj_rphfguj_anusvara;
+    sub \iisignguj.alt5 \rphfguj_anusvaraguj  by \ivowelsignguj_rphfguj_anusvara;
+    sub \iisignguj.alt4 \rphfguj_anusvaraguj  by \ivowelsignguj_rphfguj_anusvara;
+    sub \iisignguj.alt3 \rphfguj_anusvaraguj  by \ivowelsignguj_rphfguj_anusvara;
+    sub \iisignguj.alt2 \rphfguj_anusvaraguj  by \ivowelsignguj_rphfguj_anusvara;
+    sub \iisignguj.alt1 \rphfguj_anusvaraguj  by \ivowelsignguj_rphfguj_anusvara;
+    sub \iisignguj \rphfguj_anusvaraguj  by \ivowelsignguj_rphfguj_anusvara;
+} presPreBaseSubstitutionslookupr;
 
 lookup abvsAboveBaseSubstitutionsinGuj {
   lookupflag 0;
@@ -341,10 +354,12 @@ feature pres {
   script gjr2;
      language dflt ;
       lookup presPreBaseSubstitutionslookup2;
+      lookup presPreBaseSubstitutionslookupr;
 
   script gujr;
      language dflt ;
       lookup presPreBaseSubstitutionslookup2;
+      lookup presPreBaseSubstitutionslookupr;
 } pres;
 
 feature abvs {
@@ -638,12 +653,12 @@ feature abvm {
 	\ampersand \asterisk \plus \slash \zero \one \two \three \four \five \six \seven 
 	\eight \nine \less \equal \greater \bracketleft \backslash \bracketright 
 	\asciicircum \braceleft \bar \braceright \asciitilde \multiply \divide 
-	\inr_currency \chaguj_viramaguj_yaguj \iisignguj.alt1 \iisignguj.alt2 
-	\iisignguj.alt3 \iisignguj.alt4 \iisignguj.alt5 ];
+	\inr_currency \iisignguj.alt1 \iisignguj.alt2 \iisignguj.alt3 
+	\iisignguj.alt4 \iisignguj.alt5 ];
 @GDEF_Ligature = [\ngaguj_viramaguj_kaguj \ngaguj_viramaguj_khaguj 
 	\ngaguj_viramaguj_gaguj \ngaguj_viramaguj_ghaguj \ngaguj_viramaguj_maguj 
-	\nga_virama_ka_virama_ssaguj \ivowelsignguj_rphfguj 
-	\ivowelsignguj_rphfguj_anusvara ];
+	\nga_virama_ka_virama_ssaguj \chaguj_viramaguj_yaguj 
+	\ivowelsignguj_rphfguj \ivowelsignguj_rphfguj_anusvara ];
 @GDEF_Mark = [\candrabinduguj \anusvaraguj \nuktaguj \uvowelsignguj 
 	\uuvowelsignguj \rvocalicvowelsignguj \rrvocalicvowelsignguj 
 	\ecandravowelsignguj \evowelsignguj \aivowelsignguj \viramaguj 
