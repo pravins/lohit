@@ -3364,13 +3364,13 @@ SplineSet
  90 500 l 1,16,-1
  90 500 l 1,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 12-1" isignguj
-Substitution2: "Single Substitution lookup 13-1" iisignguj
-Substitution2: "Single Substitution lookup 14-1" iisignguj.alt1
-Substitution2: "Single Substitution lookup 15-1" iisignguj.alt2
-Substitution2: "Single Substitution lookup 16-1" iisignguj.alt3
-Substitution2: "Single Substitution lookup 17-1" iisignguj.alt4
-Substitution2: "Single Substitution lookup 18-1" iisignguj.alt5
+Substitution2: "Single Substitution lookup 12-1" ivowelsignguj.alt6
+Substitution2: "Single Substitution lookup 13-1" ivowelsignguj.alt7
+Substitution2: "Single Substitution lookup 14-1" ivowelsignguj.alt1
+Substitution2: "Single Substitution lookup 15-1" ivowelsignguj.alt2
+Substitution2: "Single Substitution lookup 16-1" ivowelsignguj.alt3
+Substitution2: "Single Substitution lookup 17-1" ivowelsignguj.alt4
+Substitution2: "Single Substitution lookup 18-1" ivowelsignguj.alt5
 EndChar
 
 StartChar: iivowelsignguj
@@ -12766,7 +12766,7 @@ EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" chaguj_viramaguj vaguj
 EndChar
 
-StartChar: isignguj
+StartChar: ivowelsignguj.alt6
 Encoding: 65726 -1 262
 Width: 240
 GlyphClass: 2
@@ -12793,7 +12793,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: iisignguj
+StartChar: ivowelsignguj.alt7
 Encoding: 65727 -1 263
 Width: 240
 GlyphClass: 2
@@ -14706,7 +14706,7 @@ EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" chaguj_viramaguj yaguj
 EndChar
 
-StartChar: iisignguj.alt1
+StartChar: ivowelsignguj.alt1
 Encoding: 65569 -1 307
 Width: 240
 Flags: W
@@ -14730,7 +14730,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: iisignguj.alt2
+StartChar: ivowelsignguj.alt2
 Encoding: 65568 -1 308
 Width: 240
 Flags: W
@@ -14754,7 +14754,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: iisignguj.alt3
+StartChar: ivowelsignguj.alt3
 Encoding: 65567 -1 309
 Width: 240
 Flags: W
@@ -14778,7 +14778,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: iisignguj.alt4
+StartChar: ivowelsignguj.alt4
 Encoding: 65566 -1 310
 Width: 240
 Flags: W
@@ -14802,7 +14802,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: iisignguj.alt5
+StartChar: ivowelsignguj.alt5
 Encoding: 65565 -1 311
 Width: 240
 Flags: W
@@ -14903,12 +14903,12 @@ SplineSet
  90 500 l 2,13,14
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" iisignguj.alt5 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" iisignguj.alt4 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" iisignguj.alt3 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" iisignguj.alt2 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" iisignguj.alt1 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" iisignguj rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt5 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt4 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt3 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt2 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt1 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt7 rphfguj_anusvaraguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ivowelsignguj rphfguj_anusvaraguj
 EndChar
 EndChars
