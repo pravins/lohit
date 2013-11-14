@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1384366155
+ModificationTime: 1384424212
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -58,6 +58,7 @@ Lookup: 4 0 0 "'half' Half Forms in Gujarati lookup 4"  {"'half' Half Forms in G
 Lookup: 4 0 0 "'cjct' Conjunct Forms in Gujarati lookup 5"  {"'cjct' Conjunct Forms in Gujarati lookup 5-1"  } ['cjct' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'vatu' Vattu Variants in Gujarati lookup 7"  {"'vatu' Vattu Variants in Gujarati lookup 7-1"  } ['vatu' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'pres' Pre Base Substitutions lookup 24"  {"'pres' Pre Base Substitutions lookup 24-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 4 6 0 "'pres' Pre Base Substitutions lookup reph_anu"  {"'pres' Pre Base Substitutions lookup reph_anu-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'abvs' Above Base Substitutions in Gujarati lookup 8"  {"'abvs' Above Base Substitutions in Gujarati lookup 8-1"  } ['abvs' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'blws' Below Base Substitutions in Gujarati lookup 6"  {"'blws' Below Base Substitutions in Gujarati lookup 6-1"  } ['blws' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 9"  {"'psts' Post Base Substitutions in Gujarati lookup 9-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
@@ -419,7 +420,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 38 14
+WinInfo: 0 34 12
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Gujarati lookup 2 subtable" "Anchor-1"  "'blwm' Below Base Mark in Gujarati lookup 1 subtable" "Anchor-2"  "'blwm' Below Base Mark in Gujarati lookup 0 subtable" 
@@ -5727,7 +5728,6 @@ SplineSet
  506 -240 l 1,44,-1
  506 -240 l 1,38,-1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'half' Half Forms in Gujarati lookup 4-1" daguj viramaguj
 EndChar
 
@@ -10868,7 +10868,7 @@ SplineSet
  308 173 308 173 315 160 c 1,79,-1
  315 160 l 1,67,68
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj gaguj 
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj gaguj
 EndChar
 
 StartChar: daguj_viramaguj_vaguj_pri_a
@@ -14703,6 +14703,7 @@ SplineSet
  824 45 824 45 762 45 c 1,97,-1
  762 45 l 1,62,63
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" chaguj_viramaguj yaguj
 EndChar
 
 StartChar: iisignguj.alt1
@@ -14856,6 +14857,7 @@ SplineSet
  90 0 l 1,33,-1
  90 500 l 2,0,1
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj 
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ivowelsignguj rphfguj
 EndChar
 
@@ -14900,6 +14902,13 @@ SplineSet
  90 0 l 1,45,-1
  90 500 l 2,13,14
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" iisignguj.alt5 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" iisignguj.alt4 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" iisignguj.alt3 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" iisignguj.alt2 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" iisignguj.alt1 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" iisignguj rphfguj_anusvaraguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ivowelsignguj rphfguj_anusvaraguj
 EndChar
 EndChars
