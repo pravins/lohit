@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1384492955
+ModificationTime: 1384496960
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -11753,7 +11753,7 @@ EndChar
 StartChar: ssaguj_viramaguj_tthaguj
 Encoding: 65708 -1 244
 Width: 814
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 576 2 basechar 0
 AnchorPoint: "Anchor-0" 572 -6 basechar 0
@@ -12796,7 +12796,7 @@ EndChar
 StartChar: ivowelsignguj.alt7
 Encoding: 65727 -1 263
 Width: 240
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -14805,6 +14805,7 @@ EndChar
 StartChar: ivowelsignguj.alt5
 Encoding: 65565 -1 311
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -14857,8 +14858,8 @@ SplineSet
  90 0 l 1,33,-1
  90 500 l 2,0,1
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt7 rphfguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj
-Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ivowelsignguj rphfguj
 EndChar
 
 StartChar: ivowelsignguj_rphfguj_anusvara
@@ -14910,7 +14911,6 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt3 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt2 rphfguj_anusvaraguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt1 rphfguj_anusvaraguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt7 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ivowelsignguj rphfguj_anusvaraguj
 EndChar
 EndChars
 EndSplineFont
