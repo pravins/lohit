@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1384516275
+ModificationTime: 1384517734
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -9806,7 +9806,7 @@ EndChar
 StartChar: jaguj_viramaguj_jaguj
 Encoding: 65678 -1 214
 Width: 599
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 366 -12 basechar 0
 AnchorPoint: "Anchor-0" 532 -6 basechar 0
@@ -9904,7 +9904,7 @@ EndChar
 StartChar: nyaguj_viramaguj_caguj
 Encoding: 65679 -1 215
 Width: 631
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9957,7 +9957,7 @@ EndChar
 StartChar: nyaguj_viramaguj_jaguj
 Encoding: 65680 -1 216
 Width: 661
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -10010,7 +10010,7 @@ EndChar
 StartChar: ttaguj_viramaguj_ttaguj
 Encoding: 65681 -1 217
 Width: 588
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 318 -36 basechar 0
 AnchorPoint: "Anchor-0" 344 6 basechar 0
@@ -10071,7 +10071,7 @@ EndChar
 StartChar: ttaguj_viramaguj_yaguj
 Encoding: 65682 -1 218
 Width: 941
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -10132,13 +10132,12 @@ SplineSet
  226 -10 l 1,0,1
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ttaguj_viramaguj yaguj
-LCarets2: 1 0 
 EndChar
 
 StartChar: ttaguj_viramaguj_vaguj
 Encoding: 65683 -1 219
 Width: 443
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 344 -174 basechar 0
 AnchorPoint: "Anchor-0" 232 -6 basechar 0
@@ -10201,7 +10200,7 @@ EndChar
 StartChar: tthaguj_viramaguj_tthaguj
 Encoding: 65684 -1 220
 Width: 610
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 312 -40 basechar 0
 AnchorPoint: "Anchor-0" 348 0 basechar 0
@@ -10270,7 +10269,7 @@ EndChar
 StartChar: tthaguj_viramaguj_yaguj
 Encoding: 65685 -1 221
 Width: 1023
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -10342,7 +10341,7 @@ EndChar
 StartChar: ddaguj_viramaguj_ddaguj
 Encoding: 65686 -1 222
 Width: 592
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 322 -76 basechar 0
 AnchorPoint: "Anchor-0" 334 0 basechar 0
@@ -10415,7 +10414,7 @@ EndChar
 StartChar: ddaguj_viramaguj_yaguj
 Encoding: 65687 -1 223
 Width: 1012
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -10483,7 +10482,7 @@ EndChar
 StartChar: ddaguj_viramaguj_ddhaguj
 Encoding: 65688 -1 224
 Width: 604
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 296 -42 basechar 0
 AnchorPoint: "Anchor-0" 354 0 basechar 0
@@ -10558,7 +10557,7 @@ EndChar
 StartChar: ddhaguj_viramaguj_ddhaguj
 Encoding: 65689 -1 225
 Width: 602
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 308 -26 basechar 0
 AnchorPoint: "Anchor-0" 336 0 basechar 0
@@ -10637,7 +10636,7 @@ EndChar
 StartChar: ddhaguj_viramaguj_yaguj
 Encoding: 65690 -1 226
 Width: 990
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -10720,7 +10719,7 @@ EndChar
 StartChar: taguj_viramaguj_taguj
 Encoding: 65691 -1 227
 Width: 598
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -10752,7 +10751,7 @@ EndChar
 StartChar: daguj_viramaguj_yaguj
 Encoding: 65692 -1 228
 Width: 588
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -10796,14 +10795,14 @@ SplineSet
  28 317 28 317 28 355 c 1,50,-1
  28 355 l 1,0,1
 EndSplineSet
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj yaguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj yaguj
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj yaguj 
 EndChar
 
 StartChar: da_virama_gaguj_pri_a
 Encoding: 65693 -1 229
 Width: 493
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 390 -14 basechar 0
 AnchorPoint: "Anchor-0" 324 0 basechar 0
@@ -10874,7 +10873,7 @@ EndChar
 StartChar: daguj_viramaguj_vaguj_pri_a
 Encoding: 65694 -1 230
 Width: 602
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 500 -26 basechar 0
 AnchorPoint: "Anchor-0" 406 0 basechar 0
@@ -10936,14 +10935,14 @@ SplineSet
  419 172 419 172 429 155 c 1,73,-1
  429 155 l 1,61,62
 EndSplineSet
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj vaguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj vaguj
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj vaguj 
 EndChar
 
 StartChar: daguj_viramaguj_daguj_pri_a
 Encoding: 65695 -1 231
 Width: 518
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 450 -64 basechar 0
 AnchorPoint: "Anchor-0" 330 0 basechar 0
@@ -11008,14 +11007,14 @@ SplineSet
  368 104 368 104 380 90 c 1,78,-1
  380 90 l 1,66,67
 EndSplineSet
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj daguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj daguj
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj daguj 
 EndChar
 
 StartChar: daguj_viramaguj_dhaguj_pri_a
 Encoding: 65696 -1 232
 Width: 600
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 520 -14 basechar 0
 AnchorPoint: "Anchor-0" 420 0 basechar 0
@@ -11090,14 +11089,14 @@ SplineSet
  421 168 421 168 428 155 c 1,94,-1
  428 155 l 1,82,83
 EndSplineSet
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj dhaguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj dhaguj
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj dhaguj 
 EndChar
 
 StartChar: daguj_viramaguj_jaguj_pri_a
 Encoding: 65697 -1 233
 Width: 687
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 592 -18 basechar 0
 AnchorPoint: "Anchor-0" 516 -10 basechar 0
@@ -11172,14 +11171,14 @@ SplineSet
  499 166 499 166 511 145 c 1,93,-1
  511 145 l 1,81,82
 EndSplineSet
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj jaguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj jaguj
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj jaguj 
 EndChar
 
 StartChar: daguj_viramaguj_maguj_pri_a
 Encoding: 65698 -1 234
 Width: 645
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -11233,14 +11232,14 @@ SplineSet
  212 55 212 55 235 55 c 1,61,-1
  235 55 l 1,51,52
 EndSplineSet
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj maguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj maguj
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj maguj 
 EndChar
 
 StartChar: daguj_viramaguj_naguj_pri_a
 Encoding: 65699 -1 235
 Width: 506
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 382 -32 basechar 0
 AnchorPoint: "Anchor-0" 322 0 basechar 0
@@ -11299,14 +11298,14 @@ SplineSet
  318 158 318 158 325 145 c 1,69,-1
  325 145 l 1,57,58
 EndSplineSet
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj naguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj naguj
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj naguj 
 EndChar
 
 StartChar: naguj_viramaguj_naguj
 Encoding: 65700 -1 236
 Width: 556
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -11347,7 +11346,7 @@ EndChar
 StartChar: paguj_viramaguj_taguj
 Encoding: 65701 -1 237
 Width: 561
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -11390,7 +11389,7 @@ EndChar
 StartChar: laguj_viramaguj_laguj
 Encoding: 65702 -1 238
 Width: 669
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -11438,13 +11437,12 @@ SplineSet
  269 -25 l 1,13,14
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" laguj_viramaguj laguj
-LCarets2: 1 0 
 EndChar
 
 StartChar: shaguj_viramaguj_vaguj_pri_a
 Encoding: 65703 -1 239
 Width: 645
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -11506,7 +11504,7 @@ EndChar
 StartChar: shaguj_viramaguj_naguj_pri_a
 Encoding: 65704 -1 240
 Width: 646
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -11562,7 +11560,7 @@ EndChar
 StartChar: shaguj_viramaguj_caguj
 Encoding: 65705 -1 241
 Width: 646
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -11623,7 +11621,7 @@ EndChar
 StartChar: shaguj_viramaguj_laguj
 Encoding: 65706 -1 242
 Width: 961
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -11684,13 +11682,12 @@ SplineSet
  811 500 l 1,58,-1
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" shaguj_viramaguj laguj
-LCarets2: 1 0 
 EndChar
 
 StartChar: ssaguj_viramaguj_ttaguj
 Encoding: 65707 -1 243
 Width: 764
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 546 -12 basechar 0
 AnchorPoint: "Anchor-0" 548 -2 basechar 0
@@ -11821,7 +11818,7 @@ EndChar
 StartChar: saguj_viramaguj_nyaguj
 Encoding: 65709 -1 245
 Width: 904
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -11880,13 +11877,12 @@ SplineSet
  39 245 l 1,23,-1
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" saguj_viramaguj nyaguj
-LCarets2: 1 0 
 EndChar
 
 StartChar: haguj_viramaguj_maguj
 Encoding: 65710 -1 246
 Width: 779
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -11951,7 +11947,7 @@ EndChar
 StartChar: haguj_viramaguj_yaguj
 Encoding: 65711 -1 247
 Width: 771
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -12011,7 +12007,7 @@ EndChar
 StartChar: haguj_viramaguj_naguj
 Encoding: 65712 -1 248
 Width: 578
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 498 6 basechar 0
 AnchorPoint: "Anchor-0" 290 -8 basechar 0
@@ -12080,7 +12076,7 @@ EndChar
 StartChar: haguj_viramaguj_nnaguj
 Encoding: 65713 -1 249
 Width: 584
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 500 -6 basechar 0
 AnchorPoint: "Anchor-0" 294 -8 basechar 0
@@ -12147,7 +12143,7 @@ EndChar
 StartChar: haguj_viramaguj_laguj
 Encoding: 65714 -1 250
 Width: 578
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 496 -6 basechar 0
 AnchorPoint: "Anchor-0" 274 -8 basechar 0
@@ -12216,7 +12212,7 @@ EndChar
 StartChar: haguj_viramaguj_vaguj
 Encoding: 65715 -1 251
 Width: 541
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor-1" 456 -6 basechar 0
 AnchorPoint: "Anchor-0" 316 -8 basechar 0
@@ -12281,7 +12277,7 @@ EndChar
 StartChar: llaguj_viramaguj_yaguj
 Encoding: 65716 -1 252
 Width: 966
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -12341,7 +12337,6 @@ SplineSet
  446 280 l 1,31,-1
 EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" llaguj_viramaguj yaguj
-LCarets2: 1 0 
 EndChar
 
 StartChar: kaguj_viramaguj_ssaguj
@@ -14863,7 +14858,6 @@ SplineSet
  90 0 l 1,33,-1
  90 500 l 2,0,1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ivowelsignguj rphfguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt7 rphfguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt6 rphfguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt5 rphfguj
@@ -14916,7 +14910,6 @@ SplineSet
  90 0 l 1,45,-1
  90 500 l 2,13,14
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ivowelsignguj rphfguj_anusvaraguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt7 rphfguj anusvaraguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt1 rphfguj anusvaraguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt2 rphfguj anusvaraguj
