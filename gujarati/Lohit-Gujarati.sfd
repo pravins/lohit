@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1384506509
+ModificationTime: 1384516275
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -14917,14 +14917,14 @@ SplineSet
  90 500 l 2,13,14
 EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ivowelsignguj rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt7 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt1 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt2 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt3 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt4 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt5 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt6 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt7 rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt1 rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt2 rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt3 rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt4 rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt5 rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt6 rphfguj anusvaraguj
 EndChar
 EndChars
 EndSplineFont
