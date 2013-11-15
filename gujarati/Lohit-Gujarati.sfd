@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1384424212
+ModificationTime: 1384492955
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -58,72 +58,72 @@ Lookup: 4 0 0 "'half' Half Forms in Gujarati lookup 4"  {"'half' Half Forms in G
 Lookup: 4 0 0 "'cjct' Conjunct Forms in Gujarati lookup 5"  {"'cjct' Conjunct Forms in Gujarati lookup 5-1"  } ['cjct' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'vatu' Vattu Variants in Gujarati lookup 7"  {"'vatu' Vattu Variants in Gujarati lookup 7-1"  } ['vatu' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'pres' Pre Base Substitutions lookup 24"  {"'pres' Pre Base Substitutions lookup 24-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 6 0 0 "'pres' Pre Base Substitutions in Gujarati lookup 10"  {"'pres' Pre Base Substitutions in Gujarati lookup 10-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 12"  {"Single Substitution lookup 12-1"  } []
+Lookup: 6 0 0 "'pres' Pre Base Substitutions in Gujarati lookup 13"  {"'pres' Pre Base Substitutions in Gujarati lookup 13-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 13"  {"Single Substitution lookup 13-1"  } []
+Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 19"  {"'pres' Pre Base Substitutions lookup 19-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 14"  {"Single Substitution lookup 14-1"  } []
+Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 20"  {"'pres' Pre Base Substitutions lookup 20-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 15"  {"Single Substitution lookup 15-1"  } []
+Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 21"  {"'pres' Pre Base Substitutions lookup 21-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 16"  {"Single Substitution lookup 16-1"  } []
+Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 22"  {"'pres' Pre Base Substitutions lookup 22-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 17"  {"Single Substitution lookup 17-1"  } []
+Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 23"  {"'pres' Pre Base Substitutions lookup 23-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 18"  {"Single Substitution lookup 18-1"  } []
 Lookup: 4 6 0 "'pres' Pre Base Substitutions lookup reph_anu"  {"'pres' Pre Base Substitutions lookup reph_anu-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'abvs' Above Base Substitutions in Gujarati lookup 8"  {"'abvs' Above Base Substitutions in Gujarati lookup 8-1"  } ['abvs' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'blws' Below Base Substitutions in Gujarati lookup 6"  {"'blws' Below Base Substitutions in Gujarati lookup 6-1"  } ['blws' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 9"  {"'psts' Post Base Substitutions in Gujarati lookup 9-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Gujarati lookup 10"  {"'psts' Post Base Substitutions in Gujarati lookup 10-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 12"  {"Single Substitution lookup 12-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions in Gujarati lookup 13"  {"'psts' Post Base Substitutions in Gujarati lookup 13-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 13"  {"Single Substitution lookup 13-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 19"  {"'psts' Post Base Substitutions lookup 19-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 14"  {"Single Substitution lookup 14-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 20"  {"'psts' Post Base Substitutions lookup 20-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 15"  {"Single Substitution lookup 15-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 21"  {"'psts' Post Base Substitutions lookup 21-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 16"  {"Single Substitution lookup 16-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 22"  {"'psts' Post Base Substitutions lookup 22-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 17"  {"Single Substitution lookup 17-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 23"  {"'psts' Post Base Substitutions lookup 23-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 18"  {"Single Substitution lookup 18-1"  } []
 Lookup: 260 0 0 "'blwm' Below Base Mark in Gujarati lookup 0"  {"'blwm' Below Base Mark in Gujarati lookup 0 subtable"  } ['blwm' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 260 0 0 "'blwm' Below Base Mark in Gujarati lookup 1"  {"'blwm' Below Base Mark in Gujarati lookup 1 subtable"  } ['blwm' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 260 0 0 "'abvm' Above Base Mark in Gujarati lookup 2"  {"'abvm' Above Base Mark in Gujarati lookup 2 subtable"  } ['abvm' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "'psts' Post Base Substitutions lookup 23-1"  0 0 0 1
+ChainSub2: coverage "'pres' Pre Base Substitutions lookup 23-1"  0 0 0 1
  1 0 1
   Coverage: 13 ivowelsignguj
   FCoverage: 22 chaguj_viramaguj_yaguj
  1
   SeqLookup: 0 "Single Substitution lookup 18" 
 EndFPST
-ChainSub2: coverage "'psts' Post Base Substitutions lookup 22-1"  0 0 0 1
+ChainSub2: coverage "'pres' Pre Base Substitutions lookup 22-1"  0 0 0 1
  1 0 1
   Coverage: 13 ivowelsignguj
   FCoverage: 23 ddhaguj_viramaguj_yaguj
  1
   SeqLookup: 0 "Single Substitution lookup 17" 
 EndFPST
-ChainSub2: coverage "'psts' Post Base Substitutions lookup 21-1"  0 0 0 1
+ChainSub2: coverage "'pres' Pre Base Substitutions lookup 21-1"  0 0 0 1
  1 0 1
   Coverage: 13 ivowelsignguj
   FCoverage: 22 ddaguj_viramaguj_yaguj
  1
   SeqLookup: 0 "Single Substitution lookup 16" 
 EndFPST
-ChainSub2: coverage "'psts' Post Base Substitutions lookup 20-1"  0 0 0 1
+ChainSub2: coverage "'pres' Pre Base Substitutions lookup 20-1"  0 0 0 1
  1 0 1
   Coverage: 13 ivowelsignguj
   FCoverage: 23 tthaguj_viramaguj_yaguj
  1
   SeqLookup: 0 "Single Substitution lookup 15" 
 EndFPST
-ChainSub2: coverage "'psts' Post Base Substitutions lookup 19-1"  0 0 0 1
+ChainSub2: coverage "'pres' Pre Base Substitutions lookup 19-1"  0 0 0 1
  1 0 1
   Coverage: 13 ivowelsignguj
   FCoverage: 91 ttaguj_viramaguj_yaguj shaguj_viramaguj_laguj saguj_viramaguj_nyaguj llaguj_viramaguj_yaguj
  1
   SeqLookup: 0 "Single Substitution lookup 14" 
 EndFPST
-ChainSub2: coverage "'psts' Post Base Substitutions in Gujarati lookup 13-1"  0 0 0 1
+ChainSub2: coverage "'pres' Pre Base Substitutions in Gujarati lookup 13-1"  0 0 0 1
  1 0 1
   Coverage: 13 ivowelsignguj
   FCoverage: 70 kaguj_viramaguj_kaguj ssaguj_viramaguj_ttaguj ssaguj_viramaguj_tthaguj
  1
   SeqLookup: 0 "Single Substitution lookup 13" 
 EndFPST
-ChainSub2: coverage "'psts' Post Base Substitutions in Gujarati lookup 10-1"  0 0 0 1
+ChainSub2: coverage "'pres' Pre Base Substitutions in Gujarati lookup 10-1"  0 0 0 1
  1 0 1
   Coverage: 13 ivowelsignguj
   FCoverage: 149 kaguj jhaguj ttaguj tthaguj ddhaguj daguj phaguj raguj haguj kaguj_viramaguj_raguj daguj_viramaguj_raguj phaguj_viramaguj_raguj haguj_viramdeva_raguj
@@ -14857,7 +14857,7 @@ SplineSet
  90 0 l 1,33,-1
  90 500 l 2,0,1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj 
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ivowelsignguj rphfguj
 EndChar
 
@@ -14902,6 +14902,7 @@ SplineSet
  90 0 l 1,45,-1
  90 500 l 2,13,14
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt6 rphfguj_anusvaraguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj_anusvaraguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt5 rphfguj_anusvaraguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt4 rphfguj_anusvaraguj
