@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1384496960
+ModificationTime: 1384506509
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -74,8 +74,8 @@ Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 23"  {"'pres' Pre Base Subst
 Lookup: 1 0 0 "Single Substitution lookup 18"  {"Single Substitution lookup 18-1"  } []
 Lookup: 4 6 0 "'pres' Pre Base Substitutions lookup reph_anu"  {"'pres' Pre Base Substitutions lookup reph_anu-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'abvs' Above Base Substitutions in Gujarati lookup 8"  {"'abvs' Above Base Substitutions in Gujarati lookup 8-1"  } ['abvs' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'blws' Below Base Substitutions in Gujarati lookup 6"  {"'blws' Below Base Substitutions in Gujarati lookup 6-1"  } ['blws' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 9"  {"'psts' Post Base Substitutions in Gujarati lookup 9-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'blws' Below Base Substitutions in Gujarati lookup 6"  {"'blws' Below Base Substitutions in Gujarati lookup 6-1"  } ['blws' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 260 0 0 "'blwm' Below Base Mark in Gujarati lookup 0"  {"'blwm' Below Base Mark in Gujarati lookup 0 subtable"  } ['blwm' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 260 0 0 "'blwm' Below Base Mark in Gujarati lookup 1"  {"'blwm' Below Base Mark in Gujarati lookup 1 subtable"  } ['blwm' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 260 0 0 "'abvm' Above Base Mark in Gujarati lookup 2"  {"'abvm' Above Base Mark in Gujarati lookup 2 subtable"  } ['abvm' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
@@ -12769,7 +12769,7 @@ EndChar
 StartChar: ivowelsignguj.alt6
 Encoding: 65726 -1 262
 Width: 240
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -14709,6 +14709,7 @@ EndChar
 StartChar: ivowelsignguj.alt1
 Encoding: 65569 -1 307
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -14733,6 +14734,7 @@ EndChar
 StartChar: ivowelsignguj.alt2
 Encoding: 65568 -1 308
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -14757,6 +14759,7 @@ EndChar
 StartChar: ivowelsignguj.alt3
 Encoding: 65567 -1 309
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -14781,6 +14784,7 @@ EndChar
 StartChar: ivowelsignguj.alt4
 Encoding: 65566 -1 310
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -14830,6 +14834,7 @@ EndChar
 StartChar: ivowelsignguj_rphfguj
 Encoding: 65564 -1 312
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -14858,13 +14863,21 @@ SplineSet
  90 0 l 1,33,-1
  90 500 l 2,0,1
 EndSplineSet
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ivowelsignguj rphfguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt7 rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt6 rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt5 rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt4 rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt3 rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt2 rphfguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt1 rphfguj
 EndChar
 
 StartChar: ivowelsignguj_rphfguj_anusvara
 Encoding: 65563 -1 313
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -14903,14 +14916,15 @@ SplineSet
  90 0 l 1,45,-1
  90 500 l 2,13,14
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt6 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt5 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt4 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt3 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt2 rphfguj_anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt1 rphfguj_anusvaraguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ivowelsignguj rphfguj_anusvaraguj
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt7 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt1 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt2 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt3 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt4 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt5 rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj_anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt6 rphfguj_anusvaraguj
 EndChar
 EndChars
 EndSplineFont
