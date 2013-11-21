@@ -98,7 +98,7 @@ Glyph names are as follows, please check sfd file for actual shapes
 * nineguj
 * rupeeguj
 * zerowidthnonjoiner
-* zerowidthjoiner
+* zerojoiner
 * endash
 * emdash
 * quoteleft

@@ -30,8 +30,9 @@ if __name__ == "__main__":
             font.removeLookup(lookup)
 
         # Remove all GPOS lookups 
-        for lookup in font.gpos_lookups:
-            font.removeLookup(lookup)        
+        # These lines are disable since gpos tables are font specific and simply importing from lohit will not help it.
+        # for lookup in font.gpos_lookups:
+        #    font.removeLookup(lookup)        
 
         # Merge the new featurefile 
         font.mergeFeature(sys.argv[2])

@@ -4568,7 +4568,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: zerowidthjoiner
+StartChar: zerojoin
 Encoding: 8205 8205 103
 Width: 480
 GlyphClass: 2
