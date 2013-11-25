@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1385104920
+ModificationTime: 1385369112
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -115,7 +115,7 @@ EndFPST
 ChainSub2: coverage "PstsSub_Chain_ExtdEMatra subtable"  0 0 0 1
  1 1 0
   Coverage: 113 iivowelsigndeva iivowelsigndeva_anusvaradeva iivowelsigndeva_radeva_viramadeva.alt1 iivowelsign_rphf_anusvaradeva
-  BCoverage: 234 rvocalicdeva kadeva phadeva qadeva fadeva rrvocalicdeva phadeva_radeva_nuktadeva phadeva_viramadeva_radeva kadeva_viramadeva_kadeva ta_virama_ta_virama_kadeva kadeva_viramadeva_ladeva kadeva_viramadeva_vadeva phadeva_viramadeva_ladeva
+  BCoverage: 232 rvocalicdeva kadeva phadeva qadeva fadeva rrvocalicdeva phadeva_radeva_nuktadeva phadeva_viramadeva_radeva kadeva_viramadeva_kadeva kadeva_viramadeva_tadeva kadeva_viramadeva_ladeva kadeva_viramadeva_vadeva phadeva_viramadeva_ladeva
  1
   SeqLookup: 0 "Single Substitution lookup 25" 
 EndFPST
@@ -136,7 +136,7 @@ EndFPST
 ChainSub2: coverage "PresSub_Chain_VowelSign contextual 2"  0 0 0 1
  1 0 1
   Coverage: 22 iextendedvowelsigndeva
-  FCoverage: 1354 kadeva_viramadeva_kadeva ta_virama_ta_virama_kadeva kadeva_viramadeva_ladeva kadeva_viramadeva_vadeva gadeva_viramadeva_nadeva ngadeva_viramadeva_kadeva ngadeva_viramadeva_khadeva ngadeva_viramadeva_gadeva ngadeva_viramadeva_ghadeva ngadeva_viramadeva_madeva nga_virama_ka_virama_ssadeva cadeva_viramadeva_cadeva chadeva_viramadeva_vadeva ttadeva_viramadeva_ttadeva ttadeva_viramadeva_tthadeva ttadeva_viramadeva_vadeva tthadeva_viraamdeva_tthadeva ddadeva_viramadeva_ddadeva ddadeva_viramadeva_ddhadeva ddhadeva_viramadeva_ddhadeva dadeva_viramadeva_gadeva dadeva_viramadeva_ghadeva dadeva_viramadeva_dadeva dadeva_viramadeva_dhadeva dadeva_viramadeva_nadeva dadeva_viramadeva_badeva dadeva_viramadeva_bhadeva dadeva_viraamdeva_madeva dadeva_viramadeva_vadeva nadeva_viramadeva_nadeva padeva_viramadeva_tadeva padeva_viramadeva_ladeva phadeva_viramadeva_ladeva ladeva_viramadeva_ladeva shadeva_viramadeva_cadeva shadeva_viramadeva_nadeva shadeva_viramadeva_ladeva shadeva_viramadeva_vadeva ssadeva_viramadeva_ttadeva ssadeva_viramadeva_tthadeva hadeva_viramadeva_nnadeva hadeva_viramadeva_nadeva hadeva_viramadeva_ladeva hadeva_viramadeva_vadeva ja_virama_ja_viramadeva nga_virama_ka_viramadeva nyadeva_viramadeva_radeva nnadeva_viramadeva_radeva yadeva_viramadeva_radeva ssadeva_viramadeva_radeva ka_virama_ssa_virama_radeva ja_virama_nya_virama_radeva
+  FCoverage: 1352 kadeva_viramadeva_kadeva kadeva_viramadeva_tadeva kadeva_viramadeva_ladeva kadeva_viramadeva_vadeva gadeva_viramadeva_nadeva ngadeva_viramadeva_kadeva ngadeva_viramadeva_khadeva ngadeva_viramadeva_gadeva ngadeva_viramadeva_ghadeva ngadeva_viramadeva_madeva nga_virama_ka_virama_ssadeva cadeva_viramadeva_cadeva chadeva_viramadeva_vadeva ttadeva_viramadeva_ttadeva ttadeva_viramadeva_tthadeva ttadeva_viramadeva_vadeva tthadeva_viraamdeva_tthadeva ddadeva_viramadeva_ddadeva ddadeva_viramadeva_ddhadeva ddhadeva_viramadeva_ddhadeva dadeva_viramadeva_gadeva dadeva_viramadeva_ghadeva dadeva_viramadeva_dadeva dadeva_viramadeva_dhadeva dadeva_viramadeva_nadeva dadeva_viramadeva_badeva dadeva_viramadeva_bhadeva dadeva_viraamdeva_madeva dadeva_viramadeva_vadeva nadeva_viramadeva_nadeva padeva_viramadeva_tadeva padeva_viramadeva_ladeva phadeva_viramadeva_ladeva ladeva_viramadeva_ladeva shadeva_viramadeva_cadeva shadeva_viramadeva_nadeva shadeva_viramadeva_ladeva shadeva_viramadeva_vadeva ssadeva_viramadeva_ttadeva ssadeva_viramadeva_tthadeva hadeva_viramadeva_nnadeva hadeva_viramadeva_nadeva hadeva_viramadeva_ladeva hadeva_viramadeva_vadeva ja_virama_ja_viramadeva nga_virama_ka_viramadeva nyadeva_viramadeva_radeva nnadeva_viramadeva_radeva yadeva_viramadeva_radeva ssadeva_viramadeva_radeva ka_virama_ssa_virama_radeva ja_virama_nya_virama_radeva
  1
   SeqLookup: 0 "Single Substitution lookup 15" 
 EndFPST
@@ -3355,7 +3355,6 @@ SplineSet
  318 -47 l 1,21,22
 EndSplineSet
 Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
-Substitution2: "LocalizedNpFormslookup2 subtable" nep_zha
 EndChar
 
 StartChar: nyadeva
@@ -7048,6 +7047,7 @@ SplineSet
  455 169 455 169 412.5 124.5 c 128,-1,41
  370 80 370 80 309 80 c 0,12,13
 EndSplineSet
+Substitution2: "LocalizedNpFormslookup2 subtable" nep_zha
 EndChar
 
 StartChar: yaheavydeva
@@ -13158,7 +13158,7 @@ EndSplineSet
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" kadeva viramadeva kadeva
 EndChar
 
-StartChar: ta_virama_ta_virama_kadeva
+StartChar: kadeva_viramadeva_tadeva
 Encoding: 65639 -1 314
 Width: 813
 GlyphClass: 2
