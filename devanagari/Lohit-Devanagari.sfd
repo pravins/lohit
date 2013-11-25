@@ -15938,6 +15938,7 @@ SplineSet
  570 606 l 1,66,-1
  -13 606 l 1,23,-1
 EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ladeva_viramadeva mr_ladeva 
 Ligature2: "PreBaseSubstitutionslookup1 subtable" ladeva_viramadeva ladeva
 EndChar
 
@@ -16620,6 +16621,7 @@ SplineSet
  382 606 l 1,72,-1
  -13 606 l 1,0,-1
 EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva mr_ladeva 
 Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva ladeva
 EndChar
 
