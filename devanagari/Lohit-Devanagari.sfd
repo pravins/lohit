@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1385374061
+ModificationTime: 1385377620
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -17318,6 +17318,7 @@ SplineSet
  565 130 l 1,41,-1
  365 20 l 1,0,-1
 EndSplineSet
+Ligature2: "VattuVariantslookup30 subtable" mr_ladeva viramadeva_radeva
 Ligature2: "VattuVariantslookup30 subtable" ladeva viramadeva_radeva
 EndChar
 
