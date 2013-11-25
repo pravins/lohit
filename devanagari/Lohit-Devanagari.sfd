@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1385369112
+ModificationTime: 1385374061
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -4165,7 +4165,7 @@ EndChar
 StartChar: rradeva
 Encoding: 2353 2353 98
 Width: 442
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor3" 335 665 basechar 0
 LayerCount: 2
@@ -9087,7 +9087,6 @@ SplineSet
  -128 666 l 1,0,1
 EndSplineSet
 Ligature2: "RephFormlookup7 subtable" radeva viramadeva
-Ligature2: "AboveBaseSubstitutionslookup subtable" radeva viramadeva
 EndChar
 
 StartChar: radeva_viramadeva_anusvaradeva
@@ -9157,8 +9156,8 @@ SplineSet
  -280 -220 l 1,6,-1
  -360 -220 l 1,0,-1
 EndSplineSet
-Ligature2: "BelowBaseFormslookup9 subtable" viramadeva radeva
 Ligature2: "BelowBaseFormslookup9 subtable" radeva viramadeva
+Ligature2: "BelowBaseFormslookup9 subtable" viramadeva radeva
 EndChar
 
 StartChar: shadeva_viramadeva_radeva
@@ -12266,7 +12265,7 @@ EndChar
 StartChar: radeva_viramadeva.alt
 Encoding: 65621 -1 296
 Width: 287
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -12288,9 +12287,9 @@ SplineSet
  286 306 286 306 257.5 299.5 c 128,-1,17
  229 293 229 293 201 293 c 0,4,5
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 28 subtable" viramadeva_radeva zerowidthjoiner
-Ligature2: "HalfFormslookup10 subtable" radeva viramadeva zerowidthjoiner
 Ligature2: "Ligature Substitution lookup 28 subtable" rradeva viramadeva
+Ligature2: "HalfFormslookup10 subtable" radeva viramadeva zerowidthjoiner
+Ligature2: "Ligature Substitution lookup 28 subtable" viramadeva_radeva zerowidthjoiner
 EndChar
 
 StartChar: kadeva_viramadeva_radeva
