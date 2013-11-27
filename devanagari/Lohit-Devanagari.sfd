@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1385377620
+ModificationTime: 1385557791
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -66,13 +66,15 @@ Lookup: 4 0 0 "HalfFormslookup10"  {"HalfFormslookup10 subtable"  } ['half' ('de
 Lookup: 4 0 0 "VattuVariantslookup30"  {"VattuVariantslookup30 subtable"  } ['vatu' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
 Lookup: 4 0 0 "ConjunctFormslookup11"  {"ConjunctFormslookup11 subtable"  } ['cjct' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 4 0 0 "PreBaseSubstitutionslookup1"  {"PreBaseSubstitutionslookup1 subtable"  } ['pres' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
-Lookup: 1 0 0 "SingleSubs_ExtdISign_lookup13"  {"SingleSubs_ExtdISign_lookup13 per glyph data 0"  "SingleSubs_ExtdISign_lookup13 per glyph data 1"  } []
-Lookup: 6 0 0 "PresSub_Chain_VowelSign"  {"PresSub_Chain_VowelSign contextual 0"  "PresSub_Chain_VowelSign contextual 1"  "PresSub_Chain_VowelSign contextual 2"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 15"  {"Single Substitution lookup 15 subtable"  } []
-Lookup: 6 0 0 "PresSub_Chain_IVowelSign_0"  {"PresSub_Chain_IVowelSign_0 subtable"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 17"  {"Single Substitution lookup 17 subtable"  } []
-Lookup: 6 0 0 "PresSub_Chain_IVowelSign_1"  {"PresSub_Chain_IVowelSign_1 subtable"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 19"  {"Single Substitution lookup 19 subtable"  } []
+Lookup: 1 0 0 "SingleSubs_isign_alt1_lookup13"  {"SingleSubs_ExtdISign_lookup13 per glyph data 0"  } []
+Lookup: 6 0 0 "PresSub_Chain_VowelSign"  {"PresSub_Chain_VowelSign_alt1 contextual 0"  "PresSub_Chain_VowelSign_alt3 contextual 2"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 1 0 0 "Single Substitution isign_alt3 lookup 15"  {"Single Substitution lookup 15 subtable"  } []
+Lookup: 6 0 0 "PresSub_Chain_IVowelSign_alt2_0"  {"PresSub_Chain_IVowelSign_0 subtable"  } ['pres' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution isign_alt2 lookup 17"  {"Single Substitution lookup 17 subtable"  } []
+Lookup: 6 0 0 "PresSub_Chain_IVowelSign_alt4_1"  {"PresSub_Chain_IVowelSign_1 subtable"  } ['pres' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution isign_alt4 lookup 19"  {"Single Substitution lookup 19 subtable"  } []
+Lookup: 1 0 0 "Single Substitution Lookup for isign_tha"  {"Single Substitution Lookup for isign_tha-1"  } []
+Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 30"  {"'pres' Pre Base Substitutions isign_tha lookup 30-1"  } ['pres' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
 Lookup: 4 6 0 "PreBaseSubstitutionslookup2"  {"PreBaseSubstitutionslookup2 subtable"  } ['pres' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
 Lookup: 4 0 0 "AboveBaseSubstitutionslookup"  {"AboveBaseSubstitutionslookup subtable"  } ['abvs' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 4 0 0 "PostBaseSubstitutionslookup"  {"PostBaseSubstitutionslookup subtable"  } ['psts' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
@@ -90,6 +92,13 @@ Lookup: 258 0 0 "abvmAboveBaseMarklookup4"  {"abvmAboveBaseMarklookup4 subtable"
 Lookup: 258 0 0 "blwmBelowBaseMarklookup5"  {"blwmBelowBaseMarklookup5 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'pres' Pre Base Substitutions isign_tha lookup 30-1"  0 0 0 1
+ 1 0 1
+  Coverage: 9 isigndeva
+  FCoverage: 243 thadeva bhadeva lladeva llladeva shadeva sadeva shadeva_viramadeva_radeva jadeva_viramadeva_nyadeva bhadeva_viramadeva_radeva nyadeva_viramadeva_cadeva nyadeva_viramadeva_jadeva thadeva_viramadeva_radeva ja_virama_nya_virama_radeva shadeva.alt
+ 1
+  SeqLookup: 0 "Single Substitution Lookup for isign_tha" 
+EndFPST
 ChainSub2: glyph "PstsSub_Chain_Eyelash-1"  0 0 0 4
  String: 18 rradeva viramadeva
  BString: 0 
@@ -114,45 +123,38 @@ ChainSub2: glyph "PstsSub_Chain_Eyelash-1"  0 0 0 4
 EndFPST
 ChainSub2: coverage "PstsSub_Chain_ExtdEMatra subtable"  0 0 0 1
  1 1 0
-  Coverage: 113 iivowelsigndeva iivowelsigndeva_anusvaradeva iivowelsigndeva_radeva_viramadeva.alt1 iivowelsign_rphf_anusvaradeva
+  Coverage: 89 iisigndeva iisigndeva_anusvaradeva iisigndeva_radeva_viramadeva iisign_ra_virama_anusvara
   BCoverage: 232 rvocalicdeva kadeva phadeva qadeva fadeva rrvocalicdeva phadeva_radeva_nuktadeva phadeva_viramadeva_radeva kadeva_viramadeva_kadeva kadeva_viramadeva_tadeva kadeva_viramadeva_ladeva kadeva_viramadeva_vadeva phadeva_viramadeva_ladeva
  1
   SeqLookup: 0 "Single Substitution lookup 25" 
 EndFPST
 ChainSub2: coverage "PresSub_Chain_IVowelSign_1 subtable"  0 0 0 1
  1 0 1
-  Coverage: 14 ivowelsigndeva
-  FCoverage: 109 ttadeva_viramadeva_ttadeva ttadeva_viramadeva_tthadeva ttadeva_viramadeva_vadeva tthadeva_viraamdeva_tthadeva
+  Coverage: 9 isigndeva
+  FCoverage: 698 dhadeva kadeva_viramadeva_ssadeva ngadeva_viramadeva_kadeva ngadeva_viramadeva_khadeva ngadeva_viramadeva_gadeva ngadeva_viramadeva_ghadeva ngadeva_viramadeva_madeva nga_virama_ka_virama_ssadeva cadeva_viramadeva_cadeva chadeva_viramadeva_vadeva ddadeva_viramadeva_ddadeva ddadeva_viramadeva_ddhadeva dadeva_viramadeva_ghadeva dadeva_viramadeva_dhadeva nadeva_viramadeva_nadeva shadeva_viramadeva_cadeva shadeva_viramadeva_nadeva shadeva_viramadeva_ladeva shadeva_viramadeva_vadeva hadeva_viramadeva_madeva hadeva_viramadeva_yadeva ghadeva_viramadeva_radeva cadeva_viramadeva_radeva dhadeva_viramadeva_radeva nadeva_viramadeva_radeva ssadeva_viramadeva_radeva ka_virama_ssa_virama_radeva ladeva.alt
  1
-  SeqLookup: 0 "Single Substitution lookup 19" 
+  SeqLookup: 0 "Single Substitution isign_alt4 lookup 19" 
 EndFPST
 ChainSub2: coverage "PresSub_Chain_IVowelSign_0 subtable"  0 0 0 1
  1 0 1
-  Coverage: 14 ivowelsigndeva
-  FCoverage: 985 kadeva_viramadeva khadeva_viramadeva gadeva_viramadeva ghadeva_viramadeva ngadeva_viramadeva cadeva_viramadeva chadeva_viramadeva jadeva_viramadeva jhadeva_viramadeva nyadeva_viramadeva ttadeva_viramadeva tthadeva_viramadeva ddadeva_viramadeva ddhadeva_viramadeva nnadeva_viramadeva tadeva_viramadeva thadeva_viramadeva dadeva_viramadeva dhadeva_viramadeva nadeva_viramadeva nnnadeva_viramadeva padeva_viramadeva phadeva_viramadeva badeva_viramadeva bhadeva_viramadeva madeva_viramadeva yadeva_viramadeva ladeva_viramadeva lladeva_viramadeva llladeva_viramadeva vadeva_viramadeva shadeva_viramadeva ssadeva_viramadeva sadeva_viramadeva hadeva_viramadeva qadeva_viramadeva khhadeva_viramadeva ghhadeva_viramadeva zadeva_viramadeva fadeva_viramadeva shadeva_viramadeva_alt ta_virama_ra_viramadeva ta_virama_ta_viramadeva ka_virama_ssa_viramadeva ja_virama_nya_viramadeva yadeva_alt ttadeva_viraamdeva_yadeva tthadeva_viraamdeva_yadeva ddadeva_viramadeva_yadeva ddhadeva_viramadeva_yadeva
+  Coverage: 9 isigndeva
+  FCoverage: 970 kadeva_viramadeva khadeva_viramadeva ghadeva_viramadeva ngadeva_viramadeva cadeva_viramadeva chadeva_viramadeva jadeva_viramadeva jhadeva_viramadeva nyadeva_viramadeva ttadeva_viramadeva tthadeva_viramadeva ddadeva_viramadeva ddhadeva_viramadeva nnadeva_viramadeva tadeva_viramadeva thadeva_viramadeva dadeva_viramadeva dhadeva_viramadeva nadeva_viramadeva nnnadeva_viramadeva padeva_viramadeva phadeva_viramadeva badeva_viramadeva bhadeva_viramadeva madeva_viramadeva yadeva_viramadeva ladeva_viramadeva lladeva_viramadeva llladeva_viramadeva vadeva_viramadeva shadeva_viramadeva ssadeva_viramadeva sadeva_viramadeva qadeva_viramadeva khhadeva_viramadeva zadeva_viramadeva fadeva_viramadeva shadeva_viramadeva_alt ta_virama_ra_viramadeva ta_virama_ta_viramadeva ka_virama_ssa_viramadeva ja_virama_nya_viramadeva yadeva_alt ttadeva_viramadeva_yadeva tthadeva_viraamdeva_yadeva ddadeva_viramadeva_yadeva ddhadeva_viramadeva_yadeva da_ddha_ra_yadeva shadeva_viramadeva.alt
  1
-  SeqLookup: 0 "Single Substitution lookup 17" 
+  SeqLookup: 0 "Single Substitution isign_alt2 lookup 17" 
 EndFPST
-ChainSub2: coverage "PresSub_Chain_VowelSign contextual 2"  0 0 0 1
+ChainSub2: coverage "PresSub_Chain_VowelSign_alt3 contextual 2"  0 0 0 1
  1 0 1
-  Coverage: 22 iextendedvowelsigndeva
-  FCoverage: 1352 kadeva_viramadeva_kadeva kadeva_viramadeva_tadeva kadeva_viramadeva_ladeva kadeva_viramadeva_vadeva gadeva_viramadeva_nadeva ngadeva_viramadeva_kadeva ngadeva_viramadeva_khadeva ngadeva_viramadeva_gadeva ngadeva_viramadeva_ghadeva ngadeva_viramadeva_madeva nga_virama_ka_virama_ssadeva cadeva_viramadeva_cadeva chadeva_viramadeva_vadeva ttadeva_viramadeva_ttadeva ttadeva_viramadeva_tthadeva ttadeva_viramadeva_vadeva tthadeva_viraamdeva_tthadeva ddadeva_viramadeva_ddadeva ddadeva_viramadeva_ddhadeva ddhadeva_viramadeva_ddhadeva dadeva_viramadeva_gadeva dadeva_viramadeva_ghadeva dadeva_viramadeva_dadeva dadeva_viramadeva_dhadeva dadeva_viramadeva_nadeva dadeva_viramadeva_badeva dadeva_viramadeva_bhadeva dadeva_viraamdeva_madeva dadeva_viramadeva_vadeva nadeva_viramadeva_nadeva padeva_viramadeva_tadeva padeva_viramadeva_ladeva phadeva_viramadeva_ladeva ladeva_viramadeva_ladeva shadeva_viramadeva_cadeva shadeva_viramadeva_nadeva shadeva_viramadeva_ladeva shadeva_viramadeva_vadeva ssadeva_viramadeva_ttadeva ssadeva_viramadeva_tthadeva hadeva_viramadeva_nnadeva hadeva_viramadeva_nadeva hadeva_viramadeva_ladeva hadeva_viramadeva_vadeva ja_virama_ja_viramadeva nga_virama_ka_viramadeva nyadeva_viramadeva_radeva nnadeva_viramadeva_radeva yadeva_viramadeva_radeva ssadeva_viramadeva_radeva ka_virama_ssa_virama_radeva ja_virama_nya_virama_radeva
+  Coverage: 9 isigndeva
+  FCoverage: 14 radeva rradeva
  1
-  SeqLookup: 0 "Single Substitution lookup 15" 
+  SeqLookup: 0 "Single Substitution isign_alt3 lookup 15" 
 EndFPST
-ChainSub2: coverage "PresSub_Chain_VowelSign contextual 1"  0 0 0 1
+ChainSub2: coverage "PresSub_Chain_VowelSign_alt1 contextual 0"  0 0 0 1
  1 0 1
-  Coverage: 14 ivowelsigndeva
-  FCoverage: 259 khadeva jadeva jhadeva thadeva ladeva sadeva khhadeva shadeva_viramadeva_radeva jadeva_viramadeva_nyadeva khadeva_viramadeva_radeva jadeva_viramadeva_radeva jhadeva_viramadeva_radeva sadeva_viramadeva_radeva thadeva_viramadeva_radeva dhadeva_viramadeva_radeva
+  Coverage: 9 isigndeva
+  FCoverage: 316 khadeva jadeva jhadeva ladeva khhadeva tadeva_viramadeva_tadeva gadeva_viramadeva ghhadeva_viramadeva khadeva_viramadeva_radeva jadeva_viramadeva_radeva jhadeva_viramadeva_radeva sadeva_viramadeva_radeva hadeva_viramadeva_madeva hadeva_viramadeva_yadeva sa_virama_ta_virama_radeva ladeva_viramadeva_radeva ladeva.alt
  1
-  SeqLookup: 0 "SingleSubs_ExtdISign_lookup13" 
-EndFPST
-ChainSub2: coverage "PresSub_Chain_VowelSign contextual 0"  0 0 0 1
- 1 0 1
-  Coverage: 22 iextendedvowelsigndeva
-  FCoverage: 242 tadeva_viramadeva_tadeva gadeva_viramadeva ghhadeva_viramadeva nyadeva_viramadeva_cadeva nyadeva_viramadeva_jadeva hadeva_viramadeva_nnadeva hadeva_viramadeva_nadeva hadeva_viramadeva_madeva hadeva_viramadeva_yadeva sa_virama_ta_virama_radeva
- 1
-  SeqLookup: 0 "SingleSubs_ExtdISign_lookup13" 
+  SeqLookup: 0 "SingleSubs_isign_alt1_lookup13" 
 EndFPST
 TtTable: prep
 NPUSHB
@@ -441,12 +443,37 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 34 12
+WinInfo: 34 34 12
 BeginPrivate: 0
 EndPrivate
+Grid
+-13 606 m 5
+ -13 666 l 5
+ 98 666 l 5
+ 96.7949 666.408 95.9466 678.408 95.4551 702 c 4
+ 95.1517 718 95 736 95 756 c 4
+ 95 815.338 119.5 861.838 168.5 895.5 c 4
+ 216.719 929.167 280.553 945.667 360 945 c 4
+ 483.333 945 583.333 919 660 867 c 132
+ 736.667 815 798.667 747.667 846 665 c 5
+ 767 665 l 5
+ 729.666 729 679.833 781.833 617.5 823.5 c 132
+ 555.167 865.167 469.333 886 360 886 c 4
+ 291.709 886 242.375 874.833 212 852.5 c 4
+ 179.347 828.492 162.347 796.325 161 756 c 4
+ 160.177 728.591 160.328 710.591 161.455 702 c 4
+ 164.162 685.333 165.01 673.333 164 666 c 5
+ 280 666 l 5
+ 280 606 l 5
+ 166 606 l 5
+ 166 0 l 5
+ 100 0 l 5
+ 100 606 l 5
+ -13 606 l 5
+EndSplineSet
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anchor0"  "blwmBelowBaseMarklookup0 subtable" "Anchor1"  "abvmAboveBaseMarklookup1 subtable" "Anchor2"  "abvmAboveBaseMarklookup2 subtable" "Anchor3"  "abvmAboveBaseMarklookup3 subtable" 
-BeginChars: 65728 405
+BeginChars: 65728 418
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -1846,11 +1873,11 @@ AnchorPoint: "Anchor3" -133 666 mark 0
 LayerCount: 2
 Fore
 SplineSet
--177 832 m 1,0,-1
- -177 925 l 1,1,-1
- -77 925 l 1,2,-1
- -77 832 l 1,3,-1
- -177 832 l 1,0,-1
+-177 832 m 5,0,-1
+ -177 925 l 5,1,-1
+ -77 925 l 5,2,-1
+ -77 832 l 5,3,-1
+ -177 832 l 5,0,-1
 EndSplineSet
 EndChar
 
@@ -2905,47 +2932,47 @@ AnchorPoint: "Anchor0" 380 23 basechar 0
 LayerCount: 2
 Fore
 SplineSet
--13 606 m 1,0,-1
- -13 666 l 1,1,-1
- 763 666 l 1,2,-1
- 763 606 l 1,3,-1
- 411 606 l 1,4,-1
- 411 426 l 1,5,6
- 433 463 433 463 470 484.5 c 128,-1,7
- 507 506 507 506 551 506 c 0,8,9
- 615 506 615 506 659.5 453.5 c 128,-1,10
- 704 401 704 401 704 326 c 0,11,12
- 704 262 704 262 671 199.5 c 128,-1,13
- 638 137 638 137 578 87 c 1,14,-1
- 518 127 l 1,15,16
- 574 166 574 166 606 219 c 128,-1,17
- 638 272 638 272 638 326 c 0,18,19
- 638 373 638 373 612.5 406 c 128,-1,20
- 587 439 587 439 551 439 c 0,21,22
- 505 439 505 439 465.5 404 c 128,-1,23
- 426 369 426 369 411 313 c 1,24,-1
- 411 0 l 1,25,-1
- 345 0 l 1,26,-1
- 345 200 l 1,27,28
- 321 172 321 172 286.5 156 c 128,-1,29
- 252 140 252 140 212 140 c 0,30,31
- 140 140 140 140 89.5 190.5 c 128,-1,32
- 39 241 39 241 39 313 c 0,33,34
- 39 393 39 393 97.5 449.5 c 128,-1,35
- 156 506 156 506 238 506 c 0,36,37
- 262 506 262 506 279.5 502.5 c 128,-1,38
- 297 499 297 499 305 493 c 1,39,-1
- 292 426 l 1,40,41
- 280 433 280 433 266.5 436 c 128,-1,42
- 253 439 253 439 238 439 c 0,43,44
- 184 439 184 439 144.5 402 c 128,-1,45
- 105 365 105 365 105 313 c 0,46,47
- 105 269 105 269 136.5 237.5 c 128,-1,48
- 168 206 168 206 212 206 c 0,49,50
- 250 206 250 206 286 229.5 c 128,-1,51
- 322 253 322 253 345 293 c 1,52,-1
- 345 606 l 1,53,-1
- -13 606 l 1,0,-1
+-13 606 m 5,0,-1
+ -13 666 l 5,1,-1
+ 763 666 l 5,2,-1
+ 763 606 l 5,3,-1
+ 411 606 l 5,4,-1
+ 411 426 l 5,5,6
+ 433 463 433 463 470 484.5 c 132,-1,7
+ 507 506 507 506 551 506 c 4,8,9
+ 615 506 615 506 659.5 453.5 c 132,-1,10
+ 704 401 704 401 704 326 c 4,11,12
+ 704 262 704 262 671 199.5 c 132,-1,13
+ 638 137 638 137 578 87 c 5,14,-1
+ 518 127 l 5,15,16
+ 574 166 574 166 606 219 c 132,-1,17
+ 638 272 638 272 638 326 c 4,18,19
+ 638 373 638 373 612.5 406 c 132,-1,20
+ 587 439 587 439 551 439 c 4,21,22
+ 505 439 505 439 465.5 404 c 132,-1,23
+ 426 369 426 369 411 313 c 5,24,-1
+ 411 0 l 5,25,-1
+ 345 0 l 5,26,-1
+ 345 200 l 5,27,28
+ 321 172 321 172 286.5 156 c 132,-1,29
+ 252 140 252 140 212 140 c 4,30,31
+ 140 140 140 140 89.5 190.5 c 132,-1,32
+ 39 241 39 241 39 313 c 4,33,34
+ 39 393 39 393 97.5 449.5 c 132,-1,35
+ 156 506 156 506 238 506 c 4,36,37
+ 262 506 262 506 279.5 502.5 c 132,-1,38
+ 297 499 297 499 305 493 c 5,39,-1
+ 292 426 l 5,40,41
+ 280 433 280 433 266.5 436 c 132,-1,42
+ 253 439 253 439 238 439 c 4,43,44
+ 184 439 184 439 144.5 402 c 132,-1,45
+ 105 365 105 365 105 313 c 4,46,47
+ 105 269 105 269 136.5 237.5 c 132,-1,48
+ 168 206 168 206 212 206 c 4,49,50
+ 250 206 250 206 286 229.5 c 132,-1,51
+ 322 253 322 253 345 293 c 5,52,-1
+ 345 606 l 5,53,-1
+ -13 606 l 5,0,-1
 EndSplineSet
 EndChar
 
@@ -4697,7 +4724,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ivowelsigndeva
+StartChar: isigndeva
 Encoding: 2367 2367 112
 Width: 266
 GlyphClass: 4
@@ -4712,10 +4739,10 @@ SplineSet
  80 722 80 722 80 752 c 0,5,6
  80 832 80 832 142.5 888.5 c 128,-1,7
  205 945 205 945 293 945 c 0,8,9
- 398 945 398 945 499.5 874 c 128,-1,10
- 601 803 601 803 672 679 c 1,11,-1
- 593 679 l 1,12,13
- 537 775 537 775 457 830.5 c 128,-1,14
+ 398 945 398 945 506 867 c 128,-1,10
+ 614 789 614 789 685 665 c 5,11,-1
+ 606 665 l 5,12,13
+ 550 761 550 761 463.5 823.5 c 128,-1,14
  377 886 377 886 293 886 c 0,15,16
  232 886 232 886 189 846.5 c 128,-1,17
  146 807 146 807 146 752 c 0,18,19
@@ -4730,15 +4757,17 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
-Substitution2: "Single Substitution lookup 19 subtable" ishortvowelsigndeva
-Substitution2: "Single Substitution lookup 17 subtable" iextendedvowelsigndeva
-Substitution2: "SingleSubs_ExtdISign_lookup13 per glyph data 0" iextendedsigndeva
+Substitution2: "Single Substitution Lookup for isign_tha-1" isigndeva.tha
+Substitution2: "Single Substitution lookup 15 subtable" isigndeva.alt3
+Substitution2: "Single Substitution lookup 19 subtable" isigndeva.alt4
+Substitution2: "Single Substitution lookup 17 subtable" isigndeva.alt2
+Substitution2: "SingleSubs_ExtdISign_lookup13 per glyph data 0" isigndeva.alt1
 EndChar
 
-StartChar: iivowelsigndeva
+StartChar: iisigndeva
 Encoding: 2368 2368 113
 Width: 266
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor2" 263 55 basechar 0
 LayerCount: 2
@@ -4768,7 +4797,7 @@ SplineSet
  100 606 l 1,27,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 25 subtable" iiextendeddeva
+Substitution2: "Single Substitution lookup 25 subtable" iisigndeva.alt1
 EndChar
 
 StartChar: uvowelsigndeva
@@ -8841,10 +8870,10 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: iextendedsigndeva
+StartChar: isigndeva.alt1
 Encoding: 65538 -1 215
 Width: 266
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -8856,10 +8885,10 @@ SplineSet
  80 708 80 708 80 726 c 0,5,6
  80 816 80 816 155 880.5 c 128,-1,7
  230 945 230 945 393 945 c 0,8,9
- 538 945 538 945 653 892.5 c 128,-1,10
- 768 840 768 840 932 679 c 1,11,-1
- 852 679 l 1,12,13
- 736 803 736 803 602 852 c 0,14,15
+ 538 945 538 945 660.5 885 c 128,-1,10
+ 783 825 783 825 947 664 c 5,11,-1
+ 867 664 l 5,12,13
+ 711.842 812.853 711.842 812.853 602 852 c 0,14,15
  508 886 508 886 403 886 c 0,16,17
  268 886 268 886 207 839 c 128,-1,18
  146 792 146 792 146 726 c 0,19,20
@@ -9070,22 +9099,23 @@ AnchorPoint: "Anchor3" -71 664 mark 0
 LayerCount: 2
 Fore
 SplineSet
--128 666 m 1,0,1
- -162 695 -162 695 -181.5 729.5 c 128,-1,2
- -201 764 -201 764 -201 799 c 0,3,4
- -201 860 -201 860 -154.5 902.5 c 128,-1,5
- -108 945 -108 945 -41 945 c 0,6,7
- -23 945 -23 945 -5 942 c 128,-1,8
- 13 939 13 939 32 932 c 1,9,-1
- 32 872 l 1,10,11
- 4 883 4 883 -14 887.5 c 128,-1,12
- -32 892 -32 892 -41 892 c 0,13,14
- -80 892 -80 892 -107 865 c 128,-1,15
- -134 838 -134 838 -134 799 c 0,16,17
- -134 762 -134 762 -109 726.5 c 128,-1,18
- -84 691 -84 691 -41 666 c 1,19,-1
- -128 666 l 1,0,1
+-128 666 m 5,0,1
+ -162 695 -162 695 -181.5 729.5 c 132,-1,2
+ -201 764 -201 764 -201 799 c 4,3,4
+ -201 860 -201 860 -154.5 902.5 c 132,-1,5
+ -108 945 -108 945 -41 945 c 4,6,7
+ -23 945 -23 945 -5 942 c 132,-1,8
+ 13 939 13 939 32 932 c 5,9,-1
+ 32 872 l 5,10,11
+ 4 883 4 883 -14 887.5 c 132,-1,12
+ -32 892 -32 892 -41 892 c 4,13,14
+ -80 892 -80 892 -107 865 c 132,-1,15
+ -134 838 -134 838 -134 799 c 4,16,17
+ -134 762 -134 762 -109 726.5 c 132,-1,18
+ -84 691 -84 691 -41 666 c 5,19,-1
+ -128 666 l 5,0,1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "RephFormlookup7 subtable" radeva viramadeva
 EndChar
 
@@ -9370,6 +9400,7 @@ SplineSet
  491 606 l 1,68,-1
  425 606 l 1,11,-1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "AkhandFormslookup6 subtable" kadeva viramadeva ssadeva
 EndChar
 
@@ -10605,10 +10636,10 @@ EndSplineSet
 Ligature2: "HalfFormslookup10 subtable" yadeva viramadeva
 EndChar
 
-StartChar: iextendedvowelsigndeva
+StartChar: isigndeva.alt2
 Encoding: 65581 -1 258
 Width: 266
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -10620,10 +10651,10 @@ SplineSet
  80 708 80 708 80 726 c 0,5,6
  80 816 80 816 195 880.5 c 128,-1,7
  310 945 310 945 473 945 c 0,8,9
- 718 945 718 945 911.5 875.5 c 128,-1,10
- 1105 806 1105 806 1212 679 c 1,11,-1
- 1132 679 l 1,12,13
- 1033 778 1033 778 861.5 832 c 128,-1,14
+ 718 945 718 945 919 868 c 128,-1,10
+ 1120 791 1120 791 1227 664 c 5,11,-1
+ 1147 664 l 5,12,13
+ 1048 763 1048 763 869 824.5 c 128,-1,14
  690 886 690 886 473 886 c 0,15,16
  338 886 338 886 242 839 c 128,-1,17
  146 792 146 792 146 726 c 0,18,19
@@ -10638,14 +10669,12 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
-Substitution2: "SingleSubs_ExtdISign_lookup13 per glyph data 1" iextendedsigndeva
-Substitution2: "Single Substitution lookup 15 subtable" ishortvowelsigndeva
 EndChar
 
-StartChar: iextendedvowelsign_anuswaradeva
+StartChar: isigndeva.alt2_anusvara
 Encoding: 65582 -1 259
 Width: 266
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -10679,7 +10708,7 @@ SplineSet
  100 606 l 1,31,-1
  -13 606 l 1,4,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup2 subtable" iextendedvowelsigndeva anusvaradeva
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt2 anusvaradeva
 EndChar
 
 StartChar: ladeva_viramadeva
@@ -11475,7 +11504,7 @@ EndSplineSet
 Ligature2: "HalfFormslookup10 subtable" jadeva_viramadeva_nyadeva viramadeva
 EndChar
 
-StartChar: ivowelsigndeva_anusvaradeva
+StartChar: isigndeva_anusvaradeva
 Encoding: 65601 -1 278
 Width: 266
 GlyphClass: 4
@@ -11512,11 +11541,12 @@ SplineSet
  100 606 l 1,31,-1
  -13 606 l 1,4,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup2 subtable" ivowelsigndeva anusvaradeva
-Ligature2: "PostBaseSubstitutionslookup subtable" ivowelsigndeva anusvaradeva
+LCarets2: 1 0 
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva anusvaradeva
+Ligature2: "PostBaseSubstitutionslookup subtable" isigndeva anusvaradeva
 EndChar
 
-StartChar: ivowelsigndeva_radeva_viramadeva.alt1
+StartChar: isigndeva_radeva_viramadeva
 Encoding: 65602 -1 279
 Width: 266
 GlyphClass: 4
@@ -11562,11 +11592,11 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
-Ligature2: "PreBaseSubstitutionslookup2 subtable" ivowelsigndeva radeva_viramadeva
-Ligature2: "PostBaseSubstitutionslookup subtable" ivowelsigndeva radeva_viramadeva
+Ligature2: "PostBaseSubstitutionslookup subtable" isigndeva radeva_viramadeva
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva radeva_viramadeva
 EndChar
 
-StartChar: ivowel_rphf_anusvaradeva
+StartChar: isign_ra_virama_anusvara
 Encoding: 65603 -1 280
 Width: 266
 GlyphClass: 4
@@ -11616,11 +11646,11 @@ SplineSet
  759 746 l 1,50,-1
  686 746 l 1,47,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup2 subtable" ivowelsigndeva radeva_viramadeva anusvaradeva
-Ligature2: "PostBaseSubstitutionslookup subtable" ivowelsigndeva radeva_viramadeva_anusvaradeva
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva radeva_viramadeva anusvaradeva
+Ligature2: "PostBaseSubstitutionslookup subtable" isigndeva radeva_viramadeva_anusvaradeva
 EndChar
 
-StartChar: ishortvowelsigndeva
+StartChar: isigndeva.alt3
 Encoding: 65604 -1 281
 Width: 266
 GlyphClass: 4
@@ -11635,10 +11665,10 @@ SplineSet
  67 734 67 734 67 766 c 0,5,6
  67 838 67 838 129.5 888.5 c 128,-1,7
  192 939 192 939 280 939 c 0,8,9
- 376 939 376 939 459.5 867.5 c 128,-1,10
- 543 796 543 796 586 679 c 1,11,-1
- 519 679 l 1,12,13
- 477 771 477 771 411.5 825 c 128,-1,14
+ 376 939 376 939 466 861 c 128,-1,10
+ 556 783 556 783 599 666 c 5,11,-1
+ 532 666 l 5,12,13
+ 490 758 490 758 418 818.5 c 128,-1,14
  346 879 346 879 280 879 c 0,15,16
  218 879 218 879 175.5 845.5 c 128,-1,17
  133 812 133 812 133 766 c 0,18,19
@@ -11655,7 +11685,7 @@ EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
 EndChar
 
-StartChar: ishortvowel_anuswaradeva
+StartChar: isigndeva_anusvaradeva.alt3
 Encoding: 65605 -1 282
 Width: 266
 GlyphClass: 4
@@ -11692,9 +11722,10 @@ SplineSet
  153 688 153 688 173 666 c 1,31,-1
  280 666 l 1,4,-1
 EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt3 anusvaradeva
 EndChar
 
-StartChar: shortiiivowelsign_radeva_viramadeva.alt1
+StartChar: isigndeva_ra_virama.alt3
 Encoding: 65606 -1 283
 Width: 266
 GlyphClass: 4
@@ -11740,9 +11771,10 @@ SplineSet
  280 666 l 1,0,-1
 EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt3 radeva_viramadeva
 EndChar
 
-StartChar: ishortvowel_rphf_anusvara
+StartChar: isign_ra_virama_anusvara.alt3
 Encoding: 65607 -1 284
 Width: 266
 GlyphClass: 4
@@ -11792,9 +11824,10 @@ SplineSet
  672 739 l 1,50,-1
  599 739 l 1,47,-1
 EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt3 radeva_viramadeva anusvaradeva
 EndChar
 
-StartChar: iivowelsigndeva_anusvaradeva
+StartChar: iisigndeva_anusvaradeva
 Encoding: 65608 -1 285
 Width: 266
 GlyphClass: 4
@@ -11831,11 +11864,11 @@ SplineSet
  100 606 l 1,31,-1
  -13 606 l 1,4,-1
 EndSplineSet
-Ligature2: "PostBaseSubstitutionslookup subtable" iivowelsigndeva anusvaradeva
-Substitution2: "Single Substitution lookup 25 subtable" iiextendeddeva_anusvaradeva
+Ligature2: "PostBaseSubstitutionslookup subtable" iisigndeva anusvaradeva
+Substitution2: "Single Substitution lookup 25 subtable" iisign_ra_virama_anusvara.alt1
 EndChar
 
-StartChar: iivowelsigndeva_radeva_viramadeva.alt1
+StartChar: iisigndeva_radeva_viramadeva
 Encoding: 65609 -1 286
 Width: 266
 GlyphClass: 4
@@ -11879,11 +11912,11 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
-Substitution2: "Single Substitution lookup 25 subtable" iiextendeddeva_radeva_viramadeva.alt1
-Ligature2: "PostBaseSubstitutionslookup subtable" iivowelsigndeva radeva_viramadeva
+Ligature2: "PostBaseSubstitutionslookup subtable" iisigndeva radeva_viramadeva
+Substitution2: "Single Substitution lookup 25 subtable" iisigndeva_ra_virama.alt1
 EndChar
 
-StartChar: iivowelsign_rphf_anusvaradeva
+StartChar: iisign_ra_virama_anusvara
 Encoding: 65610 -1 287
 Width: 266
 GlyphClass: 4
@@ -11931,11 +11964,11 @@ SplineSet
  100 606 l 1,47,-1
  -13 606 l 1,4,-1
 EndSplineSet
-Substitution2: "Single Substitution lookup 25 subtable" iiextended_rphf_anusvaradeva
-Ligature2: "PostBaseSubstitutionslookup subtable" iivowelsigndeva radeva_viramadeva_anusvaradeva
+Ligature2: "PostBaseSubstitutionslookup subtable" iisigndeva radeva_viramadeva_anusvaradeva
+Substitution2: "Single Substitution lookup 25 subtable" iisign_ra_virama_anusvara.alt1
 EndChar
 
-StartChar: iiextendeddeva
+StartChar: iisigndeva.alt1
 Encoding: 65611 -1 288
 Width: 266
 GlyphClass: 4
@@ -11971,7 +12004,7 @@ EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
 EndChar
 
-StartChar: iiextendeddeva_anusvaradeva
+StartChar: iisigndeva_anusvaradeva.alt1
 Encoding: 65612 -1 289
 Width: 266
 GlyphClass: 4
@@ -12008,10 +12041,10 @@ SplineSet
  100 606 l 1,31,-1
  -13 606 l 1,4,-1
 EndSplineSet
-Ligature2: "PostBaseSubstitutionslookup subtable" iiextendeddeva anusvaradeva
+Ligature2: "PostBaseSubstitutionslookup subtable" iisigndeva.alt1 anusvaradeva
 EndChar
 
-StartChar: iiextendeddeva_radeva_viramadeva.alt1
+StartChar: iisigndeva_ra_virama.alt1
 Encoding: 65613 -1 290
 Width: 266
 GlyphClass: 4
@@ -12055,10 +12088,10 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
-Ligature2: "PostBaseSubstitutionslookup subtable" iiextendeddeva radeva_viramadeva
+Ligature2: "PostBaseSubstitutionslookup subtable" iisigndeva.alt1 radeva_viramadeva
 EndChar
 
-StartChar: iiextended_rphf_anusvaradeva
+StartChar: iisign_ra_virama_anusvara.alt1
 Encoding: 65614 -1 291
 Width: 266
 GlyphClass: 4
@@ -12106,7 +12139,7 @@ SplineSet
  286 746 l 1,47,-1
  213 746 l 1,44,-1
 EndSplineSet
-Ligature2: "PostBaseSubstitutionslookup subtable" iiextendeddeva radeva_viramadeva_anusvaradeva
+Ligature2: "PostBaseSubstitutionslookup subtable" iisigndeva.alt1 radeva_viramadeva_anusvaradeva
 EndChar
 
 StartChar: vattudeva_ulowdeva
@@ -13006,6 +13039,7 @@ SplineSet
  395 606 l 1,51,-1
  -13 606 l 1,0,-1
 EndSplineSet
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva radeva
 Ligature2: "BelowBaseFormslookup9 subtable" hadeva viramadeva_radeva
 Ligature2: "VattuVariantslookup30 subtable" hadeva viramadeva_radeva
 EndChar
@@ -13205,7 +13239,6 @@ SplineSet
  398 606 l 1,45,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "LocalizedMrHalfFormslookup1 subtable" tadeva viramadeva kadeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" kadeva_viramadeva tadeva
 EndChar
 
@@ -13289,6 +13322,7 @@ SplineSet
  360 606 l 1,94,-1
  -13 606 l 1,0,-1
 EndSplineSet
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" kadeva viramadeva ladeva.alt
 EndChar
 
 StartChar: kadeva_viramadeva_vadeva
@@ -13355,6 +13389,7 @@ SplineSet
  364 606 l 1,69,-1
  -13 606 l 1,10,-1
 EndSplineSet
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" kadeva viramadeva vadeva
 EndChar
 
 StartChar: gadeva_viramadeva_nadeva
@@ -13403,7 +13438,7 @@ SplineSet
  125 606 l 1,46,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" gadeva_viramadeva nadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" gadeva viramadeva nadeva
 EndChar
 
 StartChar: ngadeva_viramadeva_kadeva
@@ -13416,91 +13451,91 @@ AnchorPoint: "Anchor0" 343 -138 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-643 373 m 0,0,1
- 625 373 625 373 611 387 c 128,-1,2
- 597 401 597 401 597 419 c 0,3,4
- 597 438 597 438 611 452 c 128,-1,5
- 625 466 625 466 643 466 c 0,6,7
- 662 466 662 466 676 452 c 128,-1,8
- 690 438 690 438 690 419 c 0,9,10
- 690 401 690 401 676 387 c 128,-1,11
- 662 373 662 373 643 373 c 0,0,1
--13 606 m 1,12,-1
- -13 666 l 1,13,-1
- 720 666 l 1,14,-1
- 720 606 l 1,15,-1
- 517 606 l 1,16,-1
- 517 459 l 1,17,-1
- 230 459 l 2,18,19
- 217 459 217 459 207 451 c 128,-1,20
- 197 443 197 443 197 433 c 0,21,22
- 197 414 197 414 230.5 390 c 128,-1,23
- 264 366 264 366 290 366 c 0,24,25
- 302 366 302 366 317 369.5 c 128,-1,26
- 332 373 332 373 350 380 c 0,27,28
- 378 390 378 390 396 394.5 c 128,-1,29
- 414 399 414 399 423 399 c 0,30,31
- 478 399 478 399 517.5 362 c 128,-1,32
- 557 325 557 325 557 273 c 0,33,34
- 557 216 557 216 502 174.5 c 128,-1,35
- 447 133 447 133 370 133 c 1,36,-1
- 370 33 l 1,37,38
- 407 60 407 60 441 73.5 c 128,-1,39
- 475 87 475 87 503 87 c 0,40,41
- 555 87 555 87 592.5 59.5 c 128,-1,42
- 630 32 630 32 630 -7 c 0,43,44
- 630 -45 630 -45 593.5 -82 c 128,-1,45
- 557 -119 557 -119 497 -140 c 1,46,-1
- 463 -87 l 1,47,48
- 509 -71 509 -71 536 -49 c 128,-1,49
- 563 -27 563 -27 563 -7 c 0,50,51
- 563 9 563 9 546 21 c 128,-1,52
- 529 33 529 33 503 33 c 0,53,54
- 485 33 485 33 451 16 c 128,-1,55
- 417 -1 417 -1 370 -33 c 1,56,-1
- 370 -166 l 1,57,-1
- 310 -166 l 1,58,-1
- 310 -67 l 1,59,60
- 284 -89 284 -89 248 -101 c 128,-1,61
- 212 -113 212 -113 170 -113 c 0,62,63
- 113 -113 113 -113 72 -84 c 128,-1,64
- 31 -55 31 -55 31 -13 c 0,65,66
- 31 33 31 33 70 66.5 c 128,-1,67
- 109 100 109 100 164 100 c 0,68,69
- 196 100 196 100 224 89.5 c 128,-1,70
- 252 79 252 79 270 60 c 1,71,-1
- 230 13 l 1,72,73
- 214 27 214 27 197.5 33.5 c 128,-1,74
- 181 40 181 40 164 40 c 0,75,76
- 133 40 133 40 112 24.5 c 128,-1,77
- 91 9 91 9 91 -13 c 0,78,79
- 91 -29 91 -29 114 -41 c 128,-1,80
- 137 -53 137 -53 170 -53 c 0,81,82
- 210 -53 210 -53 247 -36 c 128,-1,83
- 284 -19 284 -19 310 13 c 1,84,-1
- 310 133 l 1,85,86
- 233 133 233 133 158 171.5 c 128,-1,87
- 83 210 83 210 24 280 c 1,88,-1
- 71 320 l 1,89,90
- 115 257 115 257 188.5 221.5 c 128,-1,91
- 262 186 262 186 350 186 c 0,92,93
- 407 186 407 186 448.5 213.5 c 128,-1,94
- 490 241 490 241 490 280 c 0,95,96
- 490 305 490 305 470.5 322.5 c 128,-1,97
- 451 340 451 340 423 340 c 0,98,99
- 415 340 415 340 392 330 c 2,100,-1
- 350 313 l 2,101,102
- 332 306 332 306 317 303 c 128,-1,103
- 302 300 302 300 290 300 c 0,104,105
- 241 300 241 300 185.5 345.5 c 128,-1,106
- 130 391 130 391 130 433 c 0,107,108
- 130 469 130 469 159.5 494 c 128,-1,109
- 189 519 189 519 230 519 c 2,110,-1
- 450 519 l 1,111,-1
- 450 606 l 1,112,-1
- -13 606 l 1,12,-1
+643 373 m 4,0,1
+ 625 373 625 373 611 387 c 132,-1,2
+ 597 401 597 401 597 419 c 4,3,4
+ 597 438 597 438 611 452 c 132,-1,5
+ 625 466 625 466 643 466 c 4,6,7
+ 662 466 662 466 676 452 c 132,-1,8
+ 690 438 690 438 690 419 c 4,9,10
+ 690 401 690 401 676 387 c 132,-1,11
+ 662 373 662 373 643 373 c 4,0,1
+-13 606 m 5,12,-1
+ -13 666 l 5,13,-1
+ 720 666 l 5,14,-1
+ 720 606 l 5,15,-1
+ 517 606 l 5,16,-1
+ 517 459 l 5,17,-1
+ 230 459 l 6,18,19
+ 217 459 217 459 207 451 c 132,-1,20
+ 197 443 197 443 197 433 c 4,21,22
+ 197 414 197 414 230.5 390 c 132,-1,23
+ 264 366 264 366 290 366 c 4,24,25
+ 302 366 302 366 317 369.5 c 132,-1,26
+ 332 373 332 373 350 380 c 4,27,28
+ 378 390 378 390 396 394.5 c 132,-1,29
+ 414 399 414 399 423 399 c 4,30,31
+ 478 399 478 399 517.5 362 c 132,-1,32
+ 557 325 557 325 557 273 c 4,33,34
+ 557 216 557 216 502 174.5 c 132,-1,35
+ 447 133 447 133 370 133 c 5,36,-1
+ 370 33 l 5,37,38
+ 407 60 407 60 441 73.5 c 132,-1,39
+ 475 87 475 87 503 87 c 4,40,41
+ 555 87 555 87 592.5 59.5 c 132,-1,42
+ 630 32 630 32 630 -7 c 4,43,44
+ 630 -45 630 -45 593.5 -82 c 132,-1,45
+ 557 -119 557 -119 497 -140 c 5,46,-1
+ 463 -87 l 5,47,48
+ 509 -71 509 -71 536 -49 c 132,-1,49
+ 563 -27 563 -27 563 -7 c 4,50,51
+ 563 9 563 9 546 21 c 132,-1,52
+ 529 33 529 33 503 33 c 4,53,54
+ 485 33 485 33 451 16 c 132,-1,55
+ 417 -1 417 -1 370 -33 c 5,56,-1
+ 370 -166 l 5,57,-1
+ 310 -166 l 5,58,-1
+ 310 -67 l 5,59,60
+ 284 -89 284 -89 248 -101 c 132,-1,61
+ 212 -113 212 -113 170 -113 c 4,62,63
+ 113 -113 113 -113 72 -84 c 132,-1,64
+ 31 -55 31 -55 31 -13 c 4,65,66
+ 31 33 31 33 70 66.5 c 132,-1,67
+ 109 100 109 100 164 100 c 4,68,69
+ 196 100 196 100 224 89.5 c 132,-1,70
+ 252 79 252 79 270 60 c 5,71,-1
+ 230 13 l 5,72,73
+ 214 27 214 27 197.5 33.5 c 132,-1,74
+ 181 40 181 40 164 40 c 4,75,76
+ 133 40 133 40 112 24.5 c 132,-1,77
+ 91 9 91 9 91 -13 c 4,78,79
+ 91 -29 91 -29 114 -41 c 132,-1,80
+ 137 -53 137 -53 170 -53 c 4,81,82
+ 210 -53 210 -53 247 -36 c 132,-1,83
+ 284 -19 284 -19 310 13 c 5,84,-1
+ 310 133 l 5,85,86
+ 233 133 233 133 158 171.5 c 132,-1,87
+ 83 210 83 210 24 280 c 5,88,-1
+ 71 320 l 5,89,90
+ 115 257 115 257 188.5 221.5 c 132,-1,91
+ 262 186 262 186 350 186 c 4,92,93
+ 407 186 407 186 448.5 213.5 c 132,-1,94
+ 490 241 490 241 490 280 c 4,95,96
+ 490 305 490 305 470.5 322.5 c 132,-1,97
+ 451 340 451 340 423 340 c 4,98,99
+ 415 340 415 340 392 330 c 6,100,-1
+ 350 313 l 6,101,102
+ 332 306 332 306 317 303 c 132,-1,103
+ 302 300 302 300 290 300 c 4,104,105
+ 241 300 241 300 185.5 345.5 c 132,-1,106
+ 130 391 130 391 130 433 c 4,107,108
+ 130 469 130 469 159.5 494 c 132,-1,109
+ 189 519 189 519 230 519 c 6,110,-1
+ 450 519 l 5,111,-1
+ 450 606 l 5,112,-1
+ -13 606 l 5,12,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva kadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ngadeva viramadeva kadeva
 EndChar
 
 StartChar: ngadeva_viramadeva_khadeva
@@ -13601,7 +13636,7 @@ SplineSet
  466 606 l 1,120,-1
  -13 606 l 1,12,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva khadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ngadeva viramadeva khadeva
 EndChar
 
 StartChar: ngadeva_viramadeva_gadeva
@@ -13681,7 +13716,7 @@ SplineSet
  434 606 l 1,87,-1
  -13 606 l 1,12,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva gadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ngadeva viramadeva gadeva
 EndChar
 
 StartChar: ngadeva_viramadeva_ghadeva
@@ -13771,7 +13806,7 @@ SplineSet
  439 606 l 1,99,-1
  -13 606 l 1,37,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva ghadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ngadeva viramadeva ghadeva
 EndChar
 
 StartChar: ngadeva_viramadeva_madeva
@@ -13850,7 +13885,7 @@ SplineSet
  461 606 l 1,81,-1
  -13 606 l 1,21,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva madeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ngadeva viramadeva madeva
 EndChar
 
 StartChar: nga_virama_ka_virama_ssadeva
@@ -13963,7 +13998,7 @@ SplineSet
  -13 606 l 1,134,-1
  -13 666 l 1,43,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva kadeva_viramadeva_ssadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ngadeva viramadeva kadeva viramadeva ssadeva
 EndChar
 
 StartChar: cadeva_viramadeva_cadeva
@@ -14016,6 +14051,7 @@ SplineSet
  482 606 l 1,49,-1
  -13 606 l 1,0,-1
 EndSplineSet
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" cadeva viramadeva cadeva
 EndChar
 
 StartChar: chadeva_viramadeva_vadeva
@@ -14099,6 +14135,7 @@ SplineSet
  52 590 52 590 65 606 c 1,93,-1
  -13 606 l 1,38,-1
 EndSplineSet
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" cadeva viramadeva vadeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" chadeva_viramadeva vadeva
 EndChar
 
@@ -14152,6 +14189,7 @@ SplineSet
  446 103 446 103 407 61.5 c 128,-1,51
  368 20 368 20 313 20 c 0,0,1
 EndSplineSet
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" jadeva viramadeva jadeva
 EndChar
 
 StartChar: nyadeva_viramadeva_cadeva
@@ -14210,6 +14248,7 @@ SplineSet
  554 606 l 1,59,-1
  -13 606 l 1,0,-1
 EndSplineSet
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" nyadeva viramadeva cadeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" nyadeva_viramadeva cadeva
 EndChar
 
@@ -14268,7 +14307,7 @@ SplineSet
  554 606 l 1,58,-1
  1 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" nyadeva_viramadeva jadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" nyadeva viramadeva jadeva
 EndChar
 
 StartChar: ttadeva_viramadeva_ttadeva
@@ -14323,7 +14362,7 @@ SplineSet
  385 606 l 1,53,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ttadeva_viramadeva ttadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ttadeva viramadeva ttadeva
 EndChar
 
 StartChar: ttadeva_viramadeva_tthadeva
@@ -14383,10 +14422,10 @@ SplineSet
  399 606 l 1,59,-1
  -13 606 l 1,14,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ttadeva_viramadeva tthadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ttadeva viramadeva tthadeva
 EndChar
 
-StartChar: ttadeva_viraamdeva_yadeva
+StartChar: ttadeva_viramadeva_yadeva
 Encoding: 65656 -1 331
 Width: 1207
 GlyphClass: 2
@@ -14446,7 +14485,7 @@ SplineSet
  389 606 l 1,63,-1
  -13 606 l 1,18,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ttadeva_viramadeva yadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ttadeva viramadeva yadeva
 EndChar
 
 StartChar: ttadeva_viramadeva_vadeva
@@ -14505,7 +14544,7 @@ SplineSet
  380 606 l 1,59,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ttadeva_viramadeva vadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ttadeva viramadeva vadeva
 EndChar
 
 StartChar: tthadeva_viraamdeva_tthadeva
@@ -14572,7 +14611,7 @@ SplineSet
  398 606 l 1,67,-1
  -13 606 l 1,28,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" tthadeva_viramadeva tthadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" tthadeva viramadeva tthadeva
 EndChar
 
 StartChar: tthadeva_viraamdeva_yadeva
@@ -14638,7 +14677,7 @@ SplineSet
  390 606 l 1,69,-1
  -13 606 l 1,18,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" tthadeva_viramadeva yadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" tthadeva viramadeva yadeva
 EndChar
 
 StartChar: ddadeva_viramadeva_ddadeva
@@ -14713,7 +14752,7 @@ SplineSet
  487 606 l 1,85,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ddadeva_viramadeva ddadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ddadeva viramadeva ddadeva
 EndChar
 
 StartChar: ddadeva_viramadeva_ddhadeva
@@ -14791,7 +14830,7 @@ SplineSet
  474 606 l 1,83,-1
  -13 606 l 1,10,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ddadeva_viramadeva ddhadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ddadeva viramadeva ddhadeva
 EndChar
 
 StartChar: ddadeva_viramadeva_yadeva
@@ -14864,7 +14903,7 @@ SplineSet
  470 606 l 1,80,-1
  -13 606 l 1,18,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ddadeva_viramadeva yadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ddadeva viramadeva yadeva
 EndChar
 
 StartChar: ddhadeva_viramadeva_ddhadeva
@@ -14942,7 +14981,7 @@ SplineSet
  427 606 l 1,83,-1
  -13 606 l 1,22,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ddhadeva_viramadeva ddhadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ddhadeva viramadeva ddhadeva
 EndChar
 
 StartChar: ddhadeva_viramadeva_yadeva
@@ -15017,7 +15056,7 @@ SplineSet
  423 606 l 1,81,-1
  -13 606 l 1,30,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ddhadeva_viramadeva yadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ddhadeva viramadeva yadeva
 EndChar
 
 StartChar: dadeva_viramadeva_gadeva
@@ -15078,7 +15117,7 @@ SplineSet
  382 606 l 1,63,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva gadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva gadeva
 EndChar
 
 StartChar: dadeva_viramadeva_ghadeva
@@ -15152,8 +15191,8 @@ SplineSet
  510 606 l 1,79,-1
  -13 606 l 1,29,-1
 EndSplineSet
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva ghadeva
 Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva ghadeva
-Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva ghadeva
 EndChar
 
 StartChar: dadeva_viramadeva_dadeva
@@ -15210,7 +15249,7 @@ SplineSet
  391 606 l 1,56,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva dadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva dadeva
 EndChar
 
 StartChar: dadeva_viramadeva_dhadeva
@@ -15286,8 +15325,8 @@ SplineSet
  577 606 l 1,84,-1
  -13 606 l 1,17,-1
 EndSplineSet
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva dhadeva
 Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva dhadeva
-Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva dhadeva
 EndChar
 
 StartChar: dadeva_viramadeva_nadeva
@@ -15342,7 +15381,7 @@ SplineSet
  411 606 l 1,55,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva nadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva nadeva
 EndChar
 
 StartChar: dadeva_viramadeva_badeva
@@ -15408,7 +15447,7 @@ SplineSet
  391 606 l 1,68,-1
  -13 606 l 1,17,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva badeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva badeva
 EndChar
 
 StartChar: dadeva_viramadeva_bhadeva
@@ -15478,10 +15517,10 @@ SplineSet
  453 606 l 1,74,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva bhadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva bhadeva
 EndChar
 
-StartChar: dadeva_viraamdeva_madeva
+StartChar: dadeva_viramadeva_madeva
 Encoding: 65672 -1 347
 Width: 713
 GlyphClass: 2
@@ -15528,11 +15567,11 @@ SplineSet
  261 606 l 1,42,-1
  -13 606 l 1,13,-1
 EndSplineSet
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva madeva
 Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva madeva
-Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva madeva
 EndChar
 
-StartChar: dadeva_viraamdeva_yadeva
+StartChar: dadeva_viramadeva_yadeva
 Encoding: 65673 -1 348
 Width: 715
 GlyphClass: 2
@@ -15581,7 +15620,7 @@ SplineSet
  302 606 l 1,47,-1
  -13 606 l 1,23,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva yadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva yadeva
 EndChar
 
 StartChar: dadeva_viramadeva_vadeva
@@ -15642,7 +15681,7 @@ SplineSet
  399 606 l 1,63,-1
  -13 606 l 1,12,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva vadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva vadeva
 EndChar
 
 StartChar: nadeva_viramadeva_nadeva
@@ -15695,7 +15734,7 @@ SplineSet
  497 606 l 1,53,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" nadeva_viramadeva nadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" nadeva viramadeva nadeva
 EndChar
 
 StartChar: padeva_viramadeva_tadeva
@@ -15736,7 +15775,7 @@ SplineSet
  91 606 l 1,32,-1
  -13 606 l 1,7,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" padeva_viramadeva tadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" padeva viramadeva tadeva
 EndChar
 
 StartChar: padeva_viramadeva_ladeva
@@ -15798,6 +15837,7 @@ SplineSet
  68 606 l 1,62,-1
  -13 606 l 1,9,-1
 EndSplineSet
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" padeva viramadeva ladeva.alt 
 EndChar
 
 StartChar: phadeva_viramadeva_ladeva
@@ -15875,6 +15915,7 @@ SplineSet
  64 606 l 1,82,-1
  -13 606 l 1,9,-1
 EndSplineSet
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" phadeva viramadeva ladeva.alt
 EndChar
 
 StartChar: ladeva_viramadeva_ladeva
@@ -15938,8 +15979,7 @@ SplineSet
  570 606 l 1,66,-1
  -13 606 l 1,23,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ladeva_viramadeva ladeva.alt 
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ladeva_viramadeva ladeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" ladeva.alt viramadeva ladeva.alt
 EndChar
 
 StartChar: shadeva_viramadeva_cadeva
@@ -16001,8 +16041,7 @@ SplineSet
  60 313 l 1,60,-1
  13 360 l 1,23,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva cadeva
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva.alt cadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" shadeva.alt viramadeva cadeva
 EndChar
 
 StartChar: shadeva_viramadeva_nadeva
@@ -16063,8 +16102,7 @@ SplineSet
  174 64 174 64 157.5 81.5 c 128,-1,57
  141 99 141 99 141 120 c 0,10,11
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva nadeva
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva.alt nadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" shadeva.alt viramadeva nadeva
 EndChar
 
 StartChar: shadeva_viramadeva_ladeva
@@ -16129,9 +16167,7 @@ SplineSet
  746 606 l 1,65,-1
  426 606 l 1,12,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva.alt ladeva.alt 
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva ladeva
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva.alt ladeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" shadeva.alt viramadeva ladeva.alt
 EndChar
 
 StartChar: shadeva_viramadeva_vadeva
@@ -16193,8 +16229,8 @@ SplineSet
  237 93 237 93 184.5 130.5 c 128,-1,12
  132 168 132 168 132 220 c 128,-1,13
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva.alt vadeva
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva vadeva
+LCarets2: 2 0 0 
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" shadeva.alt viramadeva vadeva
 EndChar
 
 StartChar: ssadeva_viramadeva_ttadeva
@@ -16358,7 +16394,7 @@ SplineSet
  453 158 453 158 453 180 c 2,64,-1
  453 293 l 1,56,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva nnadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva nnadeva
 EndChar
 
 StartChar: hadeva_viramadeva_nadeva
@@ -16420,7 +16456,7 @@ SplineSet
  382 606 l 1,61,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva nadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva nadeva
 EndChar
 
 StartChar: hadeva_viramadeva_madeva
@@ -16487,7 +16523,7 @@ SplineSet
  361 606 l 1,64,-1
  -13 606 l 1,18,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva madeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva madeva
 EndChar
 
 StartChar: hadeva_viramadeva_yadeva
@@ -16552,7 +16588,7 @@ SplineSet
  385 606 l 1,64,-1
  -13 606 l 1,25,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva yadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva yadeva
 EndChar
 
 StartChar: hadeva_viramadeva_ladeva
@@ -16621,8 +16657,7 @@ SplineSet
  382 606 l 1,72,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva ladeva.alt 
-Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva ladeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva ladeva.alt
 EndChar
 
 StartChar: hadeva_viramadeva_vadeva
@@ -16690,7 +16725,7 @@ SplineSet
  384 606 l 1,71,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva vadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva vadeva
 EndChar
 
 StartChar: sa_virama_ta_virama_radeva
@@ -17874,6 +17909,7 @@ SplineSet
  491 606 l 1,72,-1
  425 606 l 1,11,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "VattuVariantslookup30 subtable" kadeva_viramadeva_ssadeva viramadeva_radeva
 EndChar
 
@@ -18482,6 +18518,7 @@ SplineSet
  458 665 l 1,41,-1
  458 605 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "HalfFormslookup10 subtable" shadeva.alt viramadeva
 EndChar
 
@@ -18544,6 +18581,612 @@ SplineSet
 EndSplineSet
 Ligature2: "HalfFormslookup10 subtable" badeva_viramadeva_radeva viramadeva
 Ligature2: "VattuVariantslookup30 subtable" badeva viramadeva_radeva viramadeva
+EndChar
+
+StartChar: isigndeva_ra_virama.alt2
+Encoding: 65537 -1 405
+Width: 266
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor3" 1193 676 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-13 606 m 1,0,-1
+ -13 666 l 1,1,-1
+ 100 666 l 1,2,3
+ 91 678 91 678 85.5 693 c 128,-1,4
+ 80 708 80 708 80 726 c 0,5,6
+ 80 816 80 816 195 880.5 c 128,-1,7
+ 310 945 310 945 473 945 c 0,8,9
+ 718 945 718 945 911.5 875.5 c 0,10,11
+ 995.486 845.334 995.486 845.334 1063.18 804.336 c 1,12,13
+ 1063 807.666 1063 807.666 1063 811 c 0,14,15
+ 1063 872 1063 872 1109.5 914.5 c 128,-1,16
+ 1156 957 1156 957 1223 957 c 0,17,18
+ 1241 957 1241 957 1259 954 c 128,-1,19
+ 1277 951 1277 951 1296 944 c 1,20,-1
+ 1296 884 l 1,21,22
+ 1268 895 1268 895 1250 899.5 c 128,-1,23
+ 1232 904 1232 904 1223 904 c 0,24,25
+ 1184 904 1184 904 1157 877 c 128,-1,26
+ 1130 850 1130 850 1130 811 c 0,27,28
+ 1130 774 1130 774 1155 738.5 c 0,29,30
+ 1156.26 736.713 1156.26 736.713 1157.56 734.953 c 0,31,32
+ 1179.67 715.193 1179.67 715.193 1199.16 693.693 c 1,33,34
+ 1210.29 685.388 1210.29 685.388 1223 678 c 1,35,-1
+ 1136 678 l 2,36,37
+ 1135.41 678.499 1135.41 678.499 1134.83 679 c 2,38,-1
+ 1132 679 l 1,39,40
+ 1033 778 1033 778 861.5 832 c 128,-1,41
+ 690 886 690 886 473 886 c 0,42,43
+ 338 886 338 886 242 839 c 128,-1,44
+ 146 792 146 792 146 726 c 0,45,46
+ 146 708 146 708 151.5 693 c 128,-1,47
+ 157 678 157 678 166 666 c 1,48,-1
+ 280 666 l 1,49,-1
+ 280 606 l 1,50,-1
+ 166 606 l 1,51,-1
+ 166 0 l 1,52,-1
+ 100 0 l 1,53,-1
+ 100 606 l 1,54,-1
+ -13 606 l 1,0,-1
+EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt2 radeva_viramadeva
+EndChar
+
+StartChar: isign_ra_virama_anusvara.alt2
+Encoding: 65531 -1 406
+Width: 266
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor3" -112 665 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-13 606 m 1,0,-1
+ -13 666 l 1,1,-1
+ 100 666 l 1,2,3
+ 91 678 91 678 85.5 693 c 128,-1,4
+ 80 708 80 708 80 726 c 0,5,6
+ 80 816 80 816 195 880.5 c 128,-1,7
+ 310 945 310 945 473 945 c 0,8,9
+ 718 945 718 945 911.5 875.5 c 0,10,11
+ 1001.31 843.242 1001.31 843.242 1072.49 798.598 c 1,12,13
+ 1072 804.791 1072 804.791 1072 811 c 0,14,15
+ 1072 872 1072 872 1113.5 914.5 c 128,-1,16
+ 1155 957 1155 957 1212 957 c 0,17,18
+ 1243 957 1243 957 1265 954 c 128,-1,19
+ 1287 951 1287 951 1299 944 c 1,20,-1
+ 1299 891 l 1,21,22
+ 1284 898 1284 898 1262.5 901 c 128,-1,23
+ 1241 904 1241 904 1212 904 c 0,24,25
+ 1181 904 1181 904 1160 877 c 128,-1,26
+ 1139 850 1139 850 1139 811 c 0,27,28
+ 1139 779 1139 779 1159.5 745 c 0,29,30
+ 1170.81 726.242 1170.81 726.242 1185.62 708.092 c 1,31,32
+ 1199.41 693.944 1199.41 693.944 1212 679 c 1,33,-1
+ 1132 678 l 1,34,35
+ 1126.51 683.493 1126.51 683.493 1121.5 689.184 c 0,36,37
+ 1024.07 780.811 1024.07 780.811 861.5 832 c 0,38,39
+ 690 886 690 886 473 886 c 0,40,41
+ 338 886 338 886 242 839 c 128,-1,42
+ 146 792 146 792 146 726 c 0,43,44
+ 146 708 146 708 151.5 693 c 128,-1,45
+ 157 678 157 678 166 666 c 1,46,-1
+ 280 666 l 1,47,-1
+ 280 606 l 1,48,-1
+ 166 606 l 1,49,-1
+ 166 0 l 1,50,-1
+ 100 0 l 1,51,-1
+ 100 606 l 1,52,-1
+ -13 606 l 1,0,-1
+1200 771 m 1,53,-1
+ 1200 844 l 1,54,-1
+ 1274 844 l 1,55,-1
+ 1274 771 l 1,56,-1
+ 1200 771 l 1,53,-1
+EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt2 radeva_viramadeva anusvaradeva
+EndChar
+
+StartChar: isigndeva_anusvaradeva.alt4
+Encoding: 65525 -1 407
+Width: 266
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor3" -133 666 mark 0
+LayerCount: 2
+Fore
+SplineSet
+674 859 m 5,0,-1
+ 674 952 l 5,1,-1
+ 774 952 l 5,2,-1
+ 774 859 l 5,3,-1
+ 674 859 l 5,0,-1
+-13 606 m 1,4,-1
+ -13 666 l 1,5,-1
+ 98 666 l 1,6,7
+ 96.1934 666.612 96.1934 666.612 95.4551 702 c 0,8,9
+ 95 726 95 726 95 756 c 0,10,11
+ 95 845.007 95 845.007 168.5 895.5 c 0,12,13
+ 240.829 946 240.829 946 360 945 c 0,14,15
+ 485 945 485 945 600 867 c 128,-1,16
+ 715 789 715 789 786 665 c 1,17,-1
+ 707 665 l 1,18,19
+ 651 761 651 761 557.5 823.5 c 128,-1,20
+ 464 886 464 886 360 886 c 0,21,22
+ 257.563 886 257.563 886 212 852.5 c 0,23,24
+ 163.02 816.488 163.02 816.488 161 756 c 0,25,26
+ 159.765 714.887 159.765 714.887 161.455 702 c 0,27,28
+ 165.515 676.999 165.515 676.999 164 666 c 1,29,-1
+ 280 666 l 1,30,-1
+ 280 606 l 1,31,-1
+ 166 606 l 1,32,-1
+ 166 0 l 1,33,-1
+ 100 0 l 1,34,-1
+ 100 606 l 1,35,-1
+ -13 606 l 1,4,-1
+EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt4 anusvaradeva
+EndChar
+
+StartChar: isigndeva.alt4
+Encoding: 65528 -1 408
+Width: 266
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-13 606 m 1,0,-1
+ -13 666 l 1,1,-1
+ 98 666 l 1,2,3
+ 96.1934 666.612 96.1934 666.612 95.4551 702 c 0,4,5
+ 95 726 95 726 95 756 c 0,6,7
+ 95 845.007 95 845.007 168.5 895.5 c 0,8,9
+ 240.829 946 240.829 946 360 945 c 0,10,11
+ 485 945 485 945 600 867 c 128,-1,12
+ 715 789 715 789 786 665 c 5,13,-1
+ 707 665 l 5,14,15
+ 651 761 651 761 557.5 823.5 c 128,-1,16
+ 464 886 464 886 360 886 c 0,17,18
+ 257.563 886 257.563 886 212 852.5 c 0,19,20
+ 163.02 816.488 163.02 816.488 161 756 c 0,21,22
+ 159.765 714.887 159.765 714.887 161.455 702 c 0,23,24
+ 165.515 676.999 165.515 676.999 164 666 c 1,25,-1
+ 280 666 l 1,26,-1
+ 280 606 l 1,27,-1
+ 166 606 l 1,28,-1
+ 166 0 l 1,29,-1
+ 100 0 l 1,30,-1
+ 100 606 l 1,31,-1
+ -13 606 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: isigndeva_ra_virama.alt4
+Encoding: 65527 -1 409
+Width: 266
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor3" -71 664 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-13 606 m 1,0,-1
+ -13 666 l 1,1,-1
+ 98 666 l 2,2,3
+ 96.1934 666.612 96.1934 666.612 95.4551 702 c 0,4,5
+ 95 726 95 726 95 756 c 0,6,7
+ 95 845.007 95 845.007 168.5 895.5 c 0,8,9
+ 240.829 946 240.829 946 360 945 c 1,10,11
+ 485 945 485 945 600 867 c 0,12,13
+ 618.169 854.677 618.169 854.677 635.239 841.206 c 1,14,15
+ 646.033 875.568 646.033 875.568 675.5 902.5 c 0,16,17
+ 722 945 722 945 789 945 c 0,18,19
+ 807 945 807 945 825 942 c 128,-1,20
+ 843 939 843 939 862 932 c 1,21,-1
+ 862 872 l 1,22,23
+ 834 883 834 883 816 887.5 c 128,-1,24
+ 798 892 798 892 789 892 c 0,25,26
+ 754.225 892 754.225 892 723 867 c 0,27,28
+ 686.928 838.648 686.928 838.648 696.5 791.498 c 0,29,30
+ 697.149 788.33 697.149 788.33 728.25 752.249 c 0,31,32
+ 755.235 721.984 755.235 721.984 789 666 c 1,33,34
+ 787.226 665.978 787.226 665.978 785.451 665.957 c 1,35,36
+ 785.726 665.479 785.726 665.479 786 665 c 2,37,-1
+ 707 665 l 1,38,39
+ 696.228 683.466 696.228 683.466 684.069 700.693 c 0,40,41
+ 671.91 717.357 671.91 717.357 657.75 732.749 c 0,42,43
+ 650.223 740.931 650.223 740.931 644.667 749.37 c 1,44,45
+ 606.162 790.972 606.162 790.972 557.5 823.5 c 0,46,47
+ 464 886 464 886 360 886 c 0,48,49
+ 257.563 886 257.563 886 212 852.5 c 0,50,51
+ 163.02 816.488 163.02 816.488 161 756 c 0,52,53
+ 159.765 714.887 159.765 714.887 161.455 702 c 0,54,55
+ 165.515 676.999 165.515 676.999 164 666 c 1,56,-1
+ 280 666 l 1,57,-1
+ 280 606 l 1,58,-1
+ 166 606 l 1,59,-1
+ 166 0 l 1,60,-1
+ 100 0 l 1,61,-1
+ 100 606 l 1,62,-1
+ -13 606 l 1,0,-1
+EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt4 radeva_viramadeva
+EndChar
+
+StartChar: isign_ra_virama_anusvara.alt4
+Encoding: 65526 -1 410
+Width: 266
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor3" -112 665 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-13 606 m 1,0,-1
+ -13 666 l 1,1,-1
+ 98 666 l 2,2,3
+ 96.1934 666.612 96.1934 666.612 95.4551 702 c 0,4,5
+ 95 726 95 726 95 756 c 0,6,7
+ 95 845.007 95 845.007 168.5 895.5 c 0,8,9
+ 240.829 946 240.829 946 360 945 c 1,10,11
+ 485 945 485 945 600 867 c 0,12,13
+ 633.373 844.364 633.373 844.364 663.041 817.855 c 1,14,15
+ 668.571 866.73 668.571 866.73 703.5 902.5 c 0,16,17
+ 745 945 745 945 802 945 c 0,18,19
+ 833 945 833 945 855 942 c 128,-1,20
+ 877 939 877 939 889 932 c 1,21,-1
+ 889 879 l 1,22,23
+ 874 886 874 886 852.5 889 c 128,-1,24
+ 831 892 831 892 802 892 c 0,25,26
+ 771 892 771 892 750 865 c 128,-1,27
+ 729 838 729 838 729 799 c 0,28,29
+ 729 767.472 729 767.472 741.134 733.033 c 1,30,31
+ 765.416 700.95 765.416 700.95 786 665 c 1,32,-1
+ 707 665 l 1,33,34
+ 705.924 666.811 705.924 666.811 704.87 668.616 c 0,35,36
+ 649.233 762.181 649.233 762.181 557.5 823.5 c 0,37,38
+ 464 886 464 886 360 886 c 0,39,40
+ 257.563 886 257.563 886 212 852.5 c 0,41,42
+ 163.02 816.488 163.02 816.488 161 756 c 0,43,44
+ 159.765 714.887 159.765 714.887 161.455 702 c 0,45,46
+ 165.515 676.999 165.515 676.999 164 666 c 1,47,-1
+ 280 666 l 1,48,-1
+ 280 606 l 1,49,-1
+ 166 606 l 1,50,-1
+ 166 0 l 1,51,-1
+ 100 0 l 1,52,-1
+ 100 606 l 1,53,-1
+ -13 606 l 1,0,-1
+810 749 m 5,54,-1
+ 810 822 l 5,55,-1
+ 884 822 l 5,56,-1
+ 884 749 l 5,57,-1
+ 810 749 l 5,54,-1
+EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt4 radeva_viramadeva anusvaradeva
+EndChar
+
+StartChar: isigndeva_anusvara.alt1
+Encoding: 65524 -1 411
+Width: 266
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor3" 887 666 mark 0
+LayerCount: 2
+Fore
+SplineSet
+843 832 m 1,0,-1
+ 843 925 l 1,1,-1
+ 943 925 l 1,2,-1
+ 943 832 l 1,3,-1
+ 843 832 l 1,0,-1
+-13 606 m 1,4,-1
+ -13 666 l 1,5,-1
+ 100 666 l 1,6,7
+ 91 678 91 678 85.5 693 c 128,-1,8
+ 80 708 80 708 80 726 c 0,9,10
+ 80 816 80 816 155 880.5 c 128,-1,11
+ 230 945 230 945 393 945 c 0,12,13
+ 538 945 538 945 660.5 885 c 128,-1,14
+ 783 825 783 825 947 664 c 1,15,-1
+ 867 664 l 1,16,17
+ 711.842 812.853 711.842 812.853 602 852 c 0,18,19
+ 508 886 508 886 403 886 c 0,20,21
+ 268 886 268 886 207 839 c 128,-1,22
+ 146 792 146 792 146 726 c 0,23,24
+ 146 708 146 708 151.5 693 c 128,-1,25
+ 157 678 157 678 166 666 c 1,26,-1
+ 280 666 l 1,27,-1
+ 280 606 l 1,28,-1
+ 166 606 l 1,29,-1
+ 166 0 l 1,30,-1
+ 100 0 l 1,31,-1
+ 100 606 l 1,32,-1
+ -13 606 l 1,4,-1
+EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt1 anusvaradeva
+EndChar
+
+StartChar: isigndeva_ra_virama.alt1
+Encoding: 65523 -1 412
+Width: 266
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor3" -71 664 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-13 606 m 1,0,-1
+ -13 666 l 1,1,-1
+ 100 666 l 1,2,3
+ 91 678 91 678 85.5 693 c 128,-1,4
+ 80 708 80 708 80 726 c 0,5,6
+ 80 816 80 816 155 880.5 c 128,-1,7
+ 230 945 230 945 393 945 c 0,8,9
+ 538 945 538 945 660.5 885 c 0,10,11
+ 719.898 855.907 719.898 855.907 789.052 803.069 c 1,12,13
+ 790.559 861.425 790.559 861.425 835.5 902.5 c 0,14,15
+ 882 945 882 945 949 945 c 0,16,17
+ 967 945 967 945 985 942 c 128,-1,18
+ 1003 939 1003 939 1022 932 c 1,19,-1
+ 1022 872 l 1,20,21
+ 994 883 994 883 976 887.5 c 128,-1,22
+ 958 892 958 892 949 892 c 0,23,24
+ 910 892 910 892 883 865 c 128,-1,25
+ 856 838 856 838 856 799 c 0,26,27
+ 856 763.934 856 763.934 877.557 729.316 c 1,28,29
+ 911.295 699.052 911.295 699.052 947 664 c 1,30,-1
+ 867 664 l 1,31,32
+ 855.213 674.053 855.213 674.053 844.869 684.888 c 0,33,34
+ 703.925 815.675 703.925 815.675 602 852 c 0,35,36
+ 508 886 508 886 403 886 c 0,37,38
+ 268 886 268 886 207 839 c 128,-1,39
+ 146 792 146 792 146 726 c 0,40,41
+ 146 708 146 708 151.5 693 c 128,-1,42
+ 157 678 157 678 166 666 c 1,43,-1
+ 280 666 l 1,44,-1
+ 280 606 l 1,45,-1
+ 166 606 l 1,46,-1
+ 166 0 l 1,47,-1
+ 100 0 l 1,48,-1
+ 100 606 l 1,49,-1
+ -13 606 l 1,0,-1
+EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt1 radeva_viramadeva
+EndChar
+
+StartChar: isign_ra_virama_anusvara.alt1
+Encoding: 65522 -1 413
+Width: 266
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor3" -112 665 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-13 606 m 1,0,-1
+ -13 666 l 1,1,-1
+ 100 666 l 1,2,3
+ 91 678 91 678 85.5 693 c 128,-1,4
+ 80 708 80 708 80 726 c 0,5,6
+ 80 816 80 816 155 880.5 c 128,-1,7
+ 230 945 230 945 393 945 c 0,8,9
+ 538 945 538 945 660.5 885 c 0,10,11
+ 729.868 851.024 729.868 851.024 812.544 784.661 c 1,12,13
+ 812 791.841 812 791.841 812 799 c 0,14,15
+ 812 860 812 860 853.5 902.5 c 128,-1,16
+ 895 945 895 945 952 945 c 0,17,18
+ 983 945 983 945 1005 942 c 128,-1,19
+ 1027 939 1027 939 1039 932 c 1,20,-1
+ 1039 879 l 1,21,22
+ 1024 886 1024 886 1002.5 889 c 128,-1,23
+ 981 892 981 892 952 892 c 0,24,25
+ 921 892 921 892 900 865 c 128,-1,26
+ 879 838 879 838 879 799 c 0,27,28
+ 879 769.059 879 769.059 898 730.5 c 0,29,30
+ 915 696 915 696 947 664 c 1,31,-1
+ 867 664 l 1,32,33
+ 711.842 812.853 711.842 812.853 602 852 c 0,34,35
+ 508 886 508 886 403 886 c 0,36,37
+ 268 886 268 886 207 839 c 128,-1,38
+ 146 792 146 792 146 726 c 0,39,40
+ 146 708 146 708 151.5 693 c 128,-1,41
+ 157 678 157 678 166 666 c 1,42,-1
+ 280 666 l 1,43,-1
+ 280 606 l 1,44,-1
+ 166 606 l 1,45,-1
+ 166 0 l 1,46,-1
+ 100 0 l 1,47,-1
+ 100 606 l 1,48,-1
+ -13 606 l 1,0,-1
+955 749 m 5,49,-1
+ 955 822 l 5,50,-1
+ 1029 822 l 5,51,-1
+ 1029 749 l 5,52,-1
+ 955 749 l 5,49,-1
+EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt1 radeva_viramadeva anusvaradeva
+EndChar
+
+StartChar: isigndeva_anusvara.tha
+Encoding: 65518 -1 414
+Width: 266
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+735 859 m 1,0,-1
+ 735 952 l 1,1,-1
+ 835 952 l 1,2,-1
+ 835 859 l 1,3,-1
+ 735 859 l 1,0,-1
+-13 606 m 1,4,-1
+ -13 666 l 1,5,-1
+ 98 666 l 1,6,7
+ 96.1934 666.612 96.1934 666.612 95.4551 702 c 0,8,9
+ 95 726 95 726 95 756 c 0,10,11
+ 95 845.007 95 845.007 168.5 895.5 c 0,12,13
+ 240.829 946 240.829 946 360 945 c 0,14,15
+ 546 945 546 945 661 867 c 128,-1,16
+ 776 789 776 789 847 665 c 1,17,-1
+ 768 665 l 1,18,19
+ 712 761 712 761 618.5 823.5 c 128,-1,20
+ 525 886 525 886 360 886 c 0,21,22
+ 257.563 886 257.563 886 212 852.5 c 0,23,24
+ 163.02 816.488 163.02 816.488 161 756 c 0,25,26
+ 159.765 714.887 159.765 714.887 161.455 702 c 0,27,28
+ 165.515 676.999 165.515 676.999 164 666 c 1,29,-1
+ 280 666 l 1,30,-1
+ 280 606 l 1,31,-1
+ 166 606 l 1,32,-1
+ 166 0 l 1,33,-1
+ 100 0 l 1,34,-1
+ 100 606 l 1,35,-1
+ -13 606 l 1,4,-1
+EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.tha anusvaradeva
+EndChar
+
+StartChar: isign_ra_virama_anusvara.tha
+Encoding: 65519 -1 415
+Width: 266
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-13 606 m 1,0,-1
+ -13 666 l 1,1,-1
+ 98 666 l 2,2,3
+ 96.2062 666 96.2062 666 95.4551 702 c 0,4,5
+ 95 726 95 726 95 756 c 0,6,7
+ 95 845.007 95 845.007 168.5 895.5 c 0,8,9
+ 240.829 946 240.829 946 360 945 c 1,10,11
+ 545 945 545 945 660 867 c 0,12,13
+ 693.373 844.364 693.373 844.364 723.041 817.855 c 1,14,15
+ 728.571 866.73 728.571 866.73 763.5 902.5 c 0,16,17
+ 805 945 805 945 862 945 c 0,18,19
+ 893 945 893 945 915 942 c 128,-1,20
+ 937 939 937 939 949 932 c 1,21,-1
+ 949 879 l 1,22,23
+ 934 886 934 886 912.5 889 c 128,-1,24
+ 891 892 891 892 862 892 c 0,25,26
+ 831 892 831 892 810 865 c 128,-1,27
+ 789 838 789 838 789 799 c 0,28,29
+ 789 767.472 789 767.472 801.134 733.033 c 1,30,31
+ 825.416 700.95 825.416 700.95 846 665 c 1,32,-1
+ 767 665 l 1,33,34
+ 765.924 666.811 765.924 666.811 764.87 668.616 c 0,35,36
+ 714.323 753.621 714.323 753.621 617.5 823.5 c 0,37,38
+ 530.9 886 530.9 886 360 886 c 0,39,40
+ 257.563 886 257.563 886 212 852.5 c 0,41,42
+ 163.02 816.488 163.02 816.488 161 756 c 0,43,44
+ 159.765 714.887 159.765 714.887 161.455 702 c 0,45,46
+ 165.515 676.999 165.515 676.999 164 666 c 1,47,-1
+ 280 666 l 1,48,-1
+ 280 606 l 1,49,-1
+ 166 606 l 1,50,-1
+ 166 0 l 1,51,-1
+ 100 0 l 1,52,-1
+ 100 606 l 1,53,-1
+ -13 606 l 1,0,-1
+870 749 m 1,54,-1
+ 870 822 l 1,55,-1
+ 944 822 l 1,56,-1
+ 944 749 l 1,57,-1
+ 870 749 l 1,54,-1
+EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.tha radeva_viramadeva anusvaradeva
+EndChar
+
+StartChar: isigndeva_radeva_viramadeva.tha
+Encoding: 65520 -1 416
+Width: 266
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-13 606 m 1,0,-1
+ -13 666 l 1,1,-1
+ 98 666 l 2,2,3
+ 96.2062 666 96.2062 666 95.4551 702 c 0,4,5
+ 95 726 95 726 95 756 c 0,6,7
+ 95 845.007 95 845.007 168.5 895.5 c 0,8,9
+ 240.829 946 240.829 946 360 945 c 1,10,11
+ 545 945 545 945 660 867 c 0,12,13
+ 678.169 854.677 678.169 854.677 695.239 841.206 c 1,14,15
+ 706.033 875.568 706.033 875.568 735.5 902.5 c 0,16,17
+ 782 945 782 945 849 945 c 0,18,19
+ 883.022 945 883.022 945 885 942 c 0,20,21
+ 883.89 943.684 883.89 943.684 862 932 c 1,22,-1
+ 862 872 l 1,23,24
+ 855.674 892.581 855.674 892.581 876 887.5 c 0,25,26
+ 858 892 858 892 849 892 c 0,27,28
+ 814.225 892 814.225 892 783 867 c 0,29,30
+ 746.928 838.648 746.928 838.648 756.5 791.498 c 0,31,32
+ 757.149 788.33 757.149 788.33 788.25 752.249 c 0,33,34
+ 815.235 721.984 815.235 721.984 849 666 c 1,35,36
+ 847.226 665.979 847.226 665.979 845.451 665.957 c 1,37,38
+ 845.726 665.479 845.726 665.479 846 665 c 2,39,-1
+ 767 665 l 1,40,41
+ 756.229 683.466 756.229 683.466 744.069 700.693 c 0,42,43
+ 731.91 717.357 731.91 717.357 717.75 732.749 c 0,44,45
+ 710.223 740.931 710.223 740.931 704.667 749.37 c 1,46,47
+ 666.162 790.972 666.162 790.972 617.5 823.5 c 0,48,49
+ 524 886 524 886 360 886 c 0,50,51
+ 257.563 886 257.563 886 212 852.5 c 0,52,53
+ 163.02 816.488 163.02 816.488 161 756 c 0,54,55
+ 159.765 714.887 159.765 714.887 161.455 702 c 0,56,57
+ 165.515 676.999 165.515 676.999 164 666 c 1,58,-1
+ 280 666 l 1,59,-1
+ 280 606 l 1,60,-1
+ 166 606 l 1,61,-1
+ 166 0 l 1,62,-1
+ 100 0 l 1,63,-1
+ 100 606 l 1,64,-1
+ -13 606 l 1,0,-1
+EndSplineSet
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.tha radeva_viramadeva
+EndChar
+
+StartChar: isigndeva.tha
+Encoding: 65521 -1 417
+Width: 266
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-13 606 m 5,0,-1
+ -13 666 l 5,1,-1
+ 98 666 l 5,2,3
+ 96.1934 666.612 96.1934 666.612 95.4551 702 c 4,4,5
+ 95 726 95 726 95 756 c 4,6,7
+ 95 845.007 95 845.007 168.5 895.5 c 4,8,9
+ 240.829 946 240.829 946 360 945 c 4,10,11
+ 545 945 545 945 660 867 c 132,-1,12
+ 775 789 775 789 846 665 c 5,13,-1
+ 767 665 l 5,14,15
+ 711 761 711 761 617.5 823.5 c 132,-1,16
+ 524 886 524 886 360 886 c 4,17,18
+ 257.563 886 257.563 886 212 852.5 c 4,19,20
+ 163.02 816.488 163.02 816.488 161 756 c 4,21,22
+ 159.765 714.887 159.765 714.887 161.455 702 c 4,23,24
+ 165.515 676.999 165.515 676.999 164 666 c 5,25,-1
+ 280 666 l 5,26,-1
+ 280 606 l 5,27,-1
+ 166 606 l 5,28,-1
+ 166 0 l 5,29,-1
+ 100 0 l 5,30,-1
+ 100 606 l 5,31,-1
+ -13 606 l 5,0,-1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
