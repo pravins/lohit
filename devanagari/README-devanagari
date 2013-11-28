@@ -12,6 +12,21 @@ Glyph naming guidelines:
 	- Presently lohit following http://kaz.dl.sourceforge.net/project/aglfn.adobe/glyphlist.txt
 	- Though uniXXXX is recommended by AGL, we are using glyphlist for easy maintainance and reusability of Feature file
 
+Usage of matras additionally included : 
+
+	isigndeva.alt1 :  खि ख़ि त्ति ग्गि ग़्गि ख्रि स्रि ह्यि लि 
+
+	isigndeva.alt2 : क्गि ख्गि ग्कि घ्कि ङ्चि च्छि छ्गि ज्कि झ्ति ञ्ति ट्ति ठ्ति ड्ति ढ्ति ण्ति त्कि थ्कि द्कि ध्कि न्कि प्कि फ्कि ब्कि भ्कि म्कि य्कि ल्कि व्कि श्कि ष्खि स्कि ळ्कि क्ष्कि ज्ञ्कि ड्यि ढ्यि ऩ्कि  ळ्कि क़्कि ख़्कि ज्कि फ़्कि श्कि त्त्खि ट्यि ठ्यि द्ध्र्यि स्ञि
+
+	isigndeva.alt3 : रि ऱि
+
+	isigndeva.alt4 : घि ङि चि डि ति धि यि क्षि ङ्कि ङ्खि ङ्गि ङ्घि ङ्क्षि च्चि छ्वि ड्डि ड्ढि द्घि द्धि न्नि श्चि श्वि श्नि श्लि घ्रि च्रि ध्रि न्रि प्रि क्ष्रि 
+		
+	isigndeva.tha :  छि णि थि भि ळि ऴि शि श्रि ज्ञि भ्रि थ्रि ज्ञ्रि शि
+
+	isigndeva.ja : जि झि ञि सि ज्रि झ्रि ञ्चि ञ्जि द्मि द्यि ल्लि ह्मि लि
+
+
 Glyph names are as follows, please check sfd file for actual shapes
 * candrabinduinverteddeva
 * candrabindudeva

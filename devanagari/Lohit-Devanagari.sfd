@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1385618323
+ModificationTime: 1385634429
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -104,7 +104,7 @@ EndFPST
 ChainSub2: coverage "'pres' Pre Base Substitutions isign_tha lookup 30-1"  0 0 0 1
  1 0 1
   Coverage: 9 isigndeva
-  FCoverage: 252 chadeva nnadeva thadeva bhadeva lladeva llladeva shadeva shadeva_viramadeva_radeva jadeva_viramadeva_nyadeva bhadeva_viramadeva_radeva nyadeva_viramadeva_cadeva nyadeva_viramadeva_jadeva thadeva_viramadeva_radeva ja_virama_nya_virama_radeva shadeva.alt
+  FCoverage: 200 chadeva nnadeva thadeva bhadeva lladeva llladeva shadeva shadeva_viramadeva_radeva jadeva_viramadeva_nyadeva bhadeva_viramadeva_radeva thadeva_viramadeva_radeva ja_virama_nya_virama_radeva shadeva.alt
  1
   SeqLookup: 0 "Single Substitution Lookup for isign_tha" 
 EndFPST
@@ -140,7 +140,7 @@ EndFPST
 ChainSub2: coverage "PresSub_Chain_IVowelSign_1 subtable"  0 0 0 1
  1 0 1
   Coverage: 9 isigndeva
-  FCoverage: 732 ghadeva ngadeva cadeva ddadeva tadeva dhadeva yadeva kadeva_viramadeva_ssadeva ngadeva_viramadeva_kadeva ngadeva_viramadeva_khadeva ngadeva_viramadeva_gadeva ngadeva_viramadeva_ghadeva ngadeva_viramadeva_madeva nga_virama_ka_virama_ssadeva cadeva_viramadeva_cadeva chadeva_viramadeva_vadeva ddadeva_viramadeva_ddadeva ddadeva_viramadeva_ddhadeva dadeva_viramadeva_ghadeva dadeva_viramadeva_dhadeva nadeva_viramadeva_nadeva shadeva_viramadeva_cadeva shadeva_viramadeva_nadeva shadeva_viramadeva_ladeva shadeva_viramadeva_vadeva hadeva_viramadeva_madeva hadeva_viramadeva_yadeva ghadeva_viramadeva_radeva cadeva_viramadeva_radeva dhadeva_viramadeva_radeva nadeva_viramadeva_radeva ssadeva_viramadeva_radeva ka_virama_ssa_virama_radeva
+  FCoverage: 682 ghadeva ngadeva cadeva ddadeva tadeva dhadeva yadeva kadeva_viramadeva_ssadeva ngadeva_viramadeva_kadeva ngadeva_viramadeva_khadeva ngadeva_viramadeva_gadeva ngadeva_viramadeva_ghadeva ngadeva_viramadeva_madeva nga_virama_ka_virama_ssadeva cadeva_viramadeva_cadeva chadeva_viramadeva_vadeva ddadeva_viramadeva_ddadeva ddadeva_viramadeva_ddhadeva dadeva_viramadeva_ghadeva dadeva_viramadeva_dhadeva nadeva_viramadeva_nadeva shadeva_viramadeva_cadeva shadeva_viramadeva_nadeva shadeva_viramadeva_ladeva shadeva_viramadeva_vadeva ghadeva_viramadeva_radeva cadeva_viramadeva_radeva dhadeva_viramadeva_radeva nadeva_viramadeva_radeva ssadeva_viramadeva_radeva ka_virama_ssa_virama_radeva
  1
   SeqLookup: 0 "Single Substitution isign_alt4 lookup 19" 
 EndFPST
