@@ -83,49 +83,49 @@ MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'pres' Pre Base Substitutions lookup 23-1"  0 0 0 1
  1 0 1
-  Coverage: 13 ivowelsignguj
+  Coverage: 8 isignguj
   FCoverage: 22 chaguj_viramaguj_yaguj
  1
   SeqLookup: 0 "Single Substitution lookup 18" 
 EndFPST
 ChainSub2: coverage "'pres' Pre Base Substitutions lookup 22-1"  0 0 0 1
  1 0 1
-  Coverage: 13 ivowelsignguj
+  Coverage: 8 isignguj
   FCoverage: 23 ddhaguj_viramaguj_yaguj
  1
   SeqLookup: 0 "Single Substitution lookup 17" 
 EndFPST
 ChainSub2: coverage "'pres' Pre Base Substitutions lookup 21-1"  0 0 0 1
  1 0 1
-  Coverage: 13 ivowelsignguj
+  Coverage: 8 isignguj
   FCoverage: 22 ddaguj_viramaguj_yaguj
  1
   SeqLookup: 0 "Single Substitution lookup 16" 
 EndFPST
 ChainSub2: coverage "'pres' Pre Base Substitutions lookup 20-1"  0 0 0 1
  1 0 1
-  Coverage: 13 ivowelsignguj
+  Coverage: 8 isignguj
   FCoverage: 23 tthaguj_viramaguj_yaguj
  1
   SeqLookup: 0 "Single Substitution lookup 15" 
 EndFPST
 ChainSub2: coverage "'pres' Pre Base Substitutions lookup 19-1"  0 0 0 1
  1 0 1
-  Coverage: 13 ivowelsignguj
+  Coverage: 8 isignguj
   FCoverage: 91 ttaguj_viramaguj_yaguj shaguj_viramaguj_laguj saguj_viramaguj_nyaguj llaguj_viramaguj_yaguj
  1
   SeqLookup: 0 "Single Substitution lookup 14" 
 EndFPST
 ChainSub2: coverage "'pres' Pre Base Substitutions in Gujarati lookup 13-1"  0 0 0 1
  1 0 1
-  Coverage: 13 ivowelsignguj
+  Coverage: 8 isignguj
   FCoverage: 70 kaguj_viramaguj_kaguj ssaguj_viramaguj_ttaguj ssaguj_viramaguj_tthaguj
  1
   SeqLookup: 0 "Single Substitution lookup 13" 
 EndFPST
 ChainSub2: coverage "'pres' Pre Base Substitutions in Gujarati lookup 10-1"  0 0 0 1
  1 0 1
-  Coverage: 13 ivowelsignguj
+  Coverage: 8 isignguj
   FCoverage: 149 kaguj jhaguj ttaguj tthaguj ddhaguj daguj phaguj raguj haguj kaguj_viramaguj_raguj daguj_viramaguj_raguj phaguj_viramaguj_raguj haguj_viramdeva_raguj
  1
   SeqLookup: 0 "Single Substitution lookup 12" 
@@ -3341,10 +3341,10 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ivowelsignguj
+StartChar: isignguj
 Encoding: 2751 2751 73
 Width: 240
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -3373,7 +3373,7 @@ Substitution2: "Single Substitution lookup 17-1" ivowelsignguj.alt4
 Substitution2: "Single Substitution lookup 18-1" ivowelsignguj.alt5
 EndChar
 
-StartChar: iivowelsignguj
+StartChar: iisignguj
 Encoding: 2752 2752 74
 Width: 240
 GlyphClass: 2
@@ -4568,7 +4568,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: zerowidthjoiner
+StartChar: zerojoin
 Encoding: 8205 8205 103
 Width: 480
 GlyphClass: 2
@@ -8015,7 +8015,7 @@ EndSplineSet
 Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aivowelsignguj rphfguj anusvaraguj
 EndChar
 
-StartChar: iivowelsignguj_anusvaraguj
+StartChar: iisignguj_anusvaraguj
 Encoding: 65648 -1 184
 Width: 240
 GlyphClass: 2
@@ -8050,10 +8050,10 @@ SplineSet
  228 630 228 630 205 630 c 1,31,-1
  205 630 l 1,19,20
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iivowelsignguj anusvaraguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iisignguj anusvaraguj
 EndChar
 
-StartChar: iivowelsignguj_rphfguj
+StartChar: iisignguj_rphfguj
 Encoding: 65649 -1 185
 Width: 240
 GlyphClass: 2
@@ -8087,10 +8087,10 @@ SplineSet
  -150 560 l 1,31,-1
  -150 560 l 1,0,1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iivowelsignguj rphfguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iisignguj rphfguj
 EndChar
 
-StartChar: iivowelsignguj_rphfguj_anusvara
+StartChar: iisignguj_rphfguj_anusvara
 Encoding: 65650 -1 186
 Width: 240
 GlyphClass: 2
@@ -8135,7 +8135,7 @@ SplineSet
  -150 560 l 1,13,14
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iivowelsignguj rphfguj_anusvaraguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iisignguj rphfguj_anusvaraguj
 EndChar
 
 StartChar: ovowelsignguj_anusvaraguj
@@ -8966,7 +8966,7 @@ EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj aavowelsignguj
 EndChar
 
-StartChar: jaguj_iivowelsignguj
+StartChar: jaguj_iisignguj
 Encoding: 65667 -1 203
 Width: 784
 GlyphClass: 2
@@ -9029,7 +9029,7 @@ SplineSet
  357 185 357 185 367 185 c 1,75,-1
  367 185 l 1,63,64
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj iivowelsignguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj iisignguj
 EndChar
 
 StartChar: raguj_uuvowelsignguj
@@ -12760,7 +12760,7 @@ EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" chaguj_viramaguj vaguj
 EndChar
 
-StartChar: ivowelsignguj.alt6
+StartChar: isignguj.alt6
 Encoding: 65726 -1 262
 Width: 240
 GlyphClass: 4
@@ -12787,7 +12787,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ivowelsignguj.alt7
+StartChar: isignguj.alt7
 Encoding: 65727 -1 263
 Width: 240
 GlyphClass: 4
@@ -14700,7 +14700,7 @@ EndSplineSet
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" chaguj_viramaguj yaguj
 EndChar
 
-StartChar: ivowelsignguj.alt1
+StartChar: isignguj.alt1
 Encoding: 65569 -1 307
 Width: 240
 GlyphClass: 4
@@ -14725,7 +14725,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ivowelsignguj.alt2
+StartChar: isignguj.alt2
 Encoding: 65568 -1 308
 Width: 240
 GlyphClass: 4
@@ -14750,7 +14750,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ivowelsignguj.alt3
+StartChar: isignguj.alt3
 Encoding: 65567 -1 309
 Width: 240
 GlyphClass: 4
@@ -14775,7 +14775,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ivowelsignguj.alt4
+StartChar: isignguj.alt4
 Encoding: 65566 -1 310
 Width: 240
 GlyphClass: 4
@@ -14800,7 +14800,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ivowelsignguj.alt5
+StartChar: isignguj.alt5
 Encoding: 65565 -1 311
 Width: 240
 GlyphClass: 4
@@ -14825,7 +14825,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ivowelsignguj_rphfguj
+StartChar: isignguj_rphfguj
 Encoding: 65564 -1 312
 Width: 240
 GlyphClass: 4
@@ -14857,17 +14857,17 @@ SplineSet
  90 0 l 1,33,-1
  90 500 l 2,0,1
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt7 rphfguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt6 rphfguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt5 rphfguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt4 rphfguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt3 rphfguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt2 rphfguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt1 rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt7 rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt6 rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt5 rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt4 rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt3 rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt2 rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj rphfguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt1 rphfguj
 EndChar
 
-StartChar: ivowelsignguj_rphfguj_anusvara
+StartChar: isignguj_rphfguj_anusvara
 Encoding: 65563 -1 313
 Width: 240
 GlyphClass: 4
@@ -14909,14 +14909,14 @@ SplineSet
  90 0 l 1,45,-1
  90 500 l 2,13,14
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt7 rphfguj anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt1 rphfguj anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt2 rphfguj anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt3 rphfguj anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt4 rphfguj anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt5 rphfguj anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj rphfguj anusvaraguj
-Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" ivowelsignguj.alt6 rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt7 rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt1 rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt2 rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt3 rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt4 rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt5 rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj rphfguj anusvaraguj
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt6 rphfguj anusvaraguj
 EndChar
 EndChars
 EndSplineFont
