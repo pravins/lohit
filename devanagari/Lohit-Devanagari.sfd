@@ -10681,7 +10681,7 @@ EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
 EndChar
 
-StartChar: isigndeva.alt2_anusvara
+StartChar: isigndeva_anusvara.alt2
 Encoding: 65582 -1 259
 Width: 266
 GlyphClass: 4
