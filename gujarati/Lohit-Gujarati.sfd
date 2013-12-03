@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1386062681
+ModificationTime: 1386071653
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -72,6 +72,8 @@ Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 22"  {"'pres' Pre Base Subst
 Lookup: 1 0 0 "Single Substitution lookup 17"  {"Single Substitution lookup 17-1"  } []
 Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 23"  {"'pres' Pre Base Substitutions lookup 23-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 18"  {"Single Substitution lookup 18-1"  } []
+Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 27"  {"'pres' Pre Base Substitutions lookup 27-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution Lookup 19"  {"Single Substitution Lookup 19-1"  } []
 Lookup: 4 6 0 "'pres' Pre Base Substitutions lookup reph_anu"  {"'pres' Pre Base Substitutions lookup reph_anu-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'abvs' Above Base Substitutions in Gujarati lookup 8"  {"'abvs' Above Base Substitutions in Gujarati lookup 8-1"  } ['abvs' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 9"  {"'psts' Post Base Substitutions in Gujarati lookup 9-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
@@ -81,6 +83,13 @@ Lookup: 260 0 0 "'blwm' Below Base Mark in Gujarati lookup 1"  {"'blwm' Below Ba
 Lookup: 260 0 0 "'abvm' Above Base Mark in Gujarati lookup 2"  {"'abvm' Above Base Mark in Gujarati lookup 2 subtable"  } ['abvm' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'pres' Pre Base Substitutions lookup 27-1"  0 0 0 1
+ 1 0 1
+  Coverage: 8 isignguj
+  FCoverage: 36 chaguj thaguj chaguj_viramaguj_vaguj
+ 1
+  SeqLookup: 0 "Single Substitution Lookup 19" 
+EndFPST
 ChainSub2: coverage "'pres' Pre Base Substitutions lookup 23-1"  0 0 0 1
  1 0 1
   Coverage: 8 isignguj
@@ -126,7 +135,7 @@ EndFPST
 ChainSub2: coverage "'pres' Pre Base Substitutions in Gujarati lookup 10-1"  0 0 0 1
  1 0 1
   Coverage: 8 isignguj
-  FCoverage: 149 kaguj jhaguj ttaguj tthaguj ddhaguj daguj phaguj raguj haguj kaguj_viramaguj_raguj daguj_viramaguj_raguj phaguj_viramaguj_raguj haguj_viramdeva_raguj
+  FCoverage: 107 ttaguj tthaguj ddhaguj daguj raguj haguj daguj_viramaguj_raguj haguj_viramdeva_raguj ttaguj_viramaguj_vaguj
  1
   SeqLookup: 0 "Single Substitution lookup 12" 
 EndFPST
@@ -420,11 +429,11 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 44 17
+WinInfo: 0 34 12
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Gujarati lookup 2 subtable" "Anchor-1"  "'blwm' Below Base Mark in Gujarati lookup 1 subtable" "Anchor-2"  "'blwm' Below Base Mark in Gujarati lookup 0 subtable" 
-BeginChars: 65773 334
+BeginChars: 65773 340
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -3364,6 +3373,7 @@ SplineSet
  90 500 l 1,16,-1
  90 500 l 1,0,1
 EndSplineSet
+Substitution2: "Single Substitution Lookup 19-1" isignguj.alt8
 Substitution2: "Single Substitution lookup 12-1" isignguj.alt6
 Substitution2: "Single Substitution lookup 13-1" isignguj.alt7
 Substitution2: "Single Substitution lookup 14-1" isignguj.alt1
@@ -12565,7 +12575,6 @@ SplineSet
  -125 485 l 5,20,-1
  -125 485 l 5,0,1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'rphf' Reph Form in Gujarati lookup 2-1" raguj viramaguj
 EndChar
 
@@ -14859,7 +14868,6 @@ SplineSet
  90 0 l 1,33,-1
  90 500 l 2,0,1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj raguj_viramaguj
 EndChar
 
@@ -14871,61 +14879,61 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-701 570 m 1,0,1
- 678 570 678 570 662 581.5 c 128,-1,2
- 646 593 646 593 646 610 c 0,3,4
- 646 631 646 631 662 645.5 c 128,-1,5
- 678 660 678 660 701 660 c 256,6,7
- 724 660 724 660 740 647 c 128,-1,8
- 756 634 756 634 756 615 c 256,9,10
- 756 596 756 596 740 583 c 128,-1,11
- 724 570 724 570 701 570 c 1,12,-1
- 701 570 l 1,0,1
-90 500 m 2,13,14
- 90 604 90 604 170.5 677 c 128,-1,15
- 251 750 251 750 365 750 c 0,16,17
- 482 750 482 750 558.5 683 c 0,18,19
- 562.505 679.492 562.505 679.492 566.328 675.864 c 1,20,21
- 575.827 697.341 575.827 697.341 595 715 c 0,22,23
- 633 750 633 750 687 750 c 0,24,25
- 715 750 715 750 741 741 c 128,-1,26
- 767 732 767 732 787 715 c 1,27,-1
- 767 670 l 1,28,29
- 746 685 746 685 727 692.5 c 128,-1,30
- 708 700 708 700 692 700 c 0,31,32
- 661 700 661 700 639 678 c 0,33,34
- 609.333 648.333 609.333 648.333 617 625 c 1,35,-1
- 641.523 505 l 1,36,-1
- 585 505 l 1,37,38
- 569 593 569 593 509 646.5 c 128,-1,39
- 449 700 449 700 365 700 c 0,40,41
- 276 700 276 700 213 638.5 c 128,-1,42
- 150 577 150 577 150 490 c 2,43,-1
- 150 0 l 1,44,-1
- 90 0 l 1,45,-1
- 90 500 l 2,13,14
+701 570 m 5,0,1
+ 678 570 678 570 662 581.5 c 132,-1,2
+ 646 593 646 593 646 610 c 4,3,4
+ 646 631 646 631 662 645.5 c 132,-1,5
+ 678 660 678 660 701 660 c 260,6,7
+ 724 660 724 660 740 647 c 132,-1,8
+ 756 634 756 634 756 615 c 260,9,10
+ 756 596 756 596 740 583 c 132,-1,11
+ 724 570 724 570 701 570 c 5,12,-1
+ 701 570 l 5,0,1
+90 500 m 6,13,14
+ 90 604 90 604 170.5 677 c 132,-1,15
+ 251 750 251 750 365 750 c 4,16,17
+ 482 750 482 750 558.5 683 c 4,18,19
+ 562.505 679.492 562.505 679.492 566.328 675.864 c 5,20,21
+ 575.827 697.341 575.827 697.341 595 715 c 4,22,23
+ 633 750 633 750 687 750 c 4,24,25
+ 715 750 715 750 741 741 c 132,-1,26
+ 767 732 767 732 787 715 c 5,27,-1
+ 767 670 l 5,28,29
+ 746 685 746 685 727 692.5 c 132,-1,30
+ 708 700 708 700 692 700 c 4,31,32
+ 661 700 661 700 639 678 c 4,33,34
+ 609.333 648.333 609.333 648.333 617 625 c 5,35,-1
+ 641.523 505 l 5,36,-1
+ 585 505 l 5,37,38
+ 569 593 569 593 509 646.5 c 132,-1,39
+ 449 700 449 700 365 700 c 4,40,41
+ 276 700 276 700 213 638.5 c 132,-1,42
+ 150 577 150 577 150 490 c 6,43,-1
+ 150 0 l 5,44,-1
+ 90 0 l 5,45,-1
+ 90 500 l 6,13,14
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj raguj_viramaguj anusvaraguj
 EndChar
 
 StartChar: isignguj_anusvaraguj
 Encoding: 65562 -1 314
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-690 630 m 1,0,1
- 667 630 667 630 651 646 c 128,-1,2
- 635 662 635 662 635 685 c 0,3,4
- 635 710 635 710 651 727.5 c 128,-1,5
- 667 745 667 745 690 745 c 256,6,7
- 713 745 713 745 729 729 c 128,-1,8
- 745 713 745 713 745 690 c 0,9,10
- 745 665 745 665 729 647.5 c 128,-1,11
- 713 630 713 630 690 630 c 1,12,-1
- 690 630 l 1,0,1
+690 630 m 5,0,1
+ 667 630 667 630 651 646 c 132,-1,2
+ 635 662 635 662 635 685 c 4,3,4
+ 635 710 635 710 651 727.5 c 132,-1,5
+ 667 745 667 745 690 745 c 260,6,7
+ 713 745 713 745 729 729 c 132,-1,8
+ 745 713 745 713 745 690 c 4,9,10
+ 745 665 745 665 729 647.5 c 132,-1,11
+ 713 630 713 630 690 630 c 5,12,-1
+ 690 630 l 5,0,1
 90 500 m 1,13,14
  90 604 90 604 170.5 677 c 128,-1,15
  251 750 251 750 365 750 c 0,16,17
@@ -14941,11 +14949,13 @@ SplineSet
  90 500 l 1,29,-1
  90 500 l 1,13,14
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj anusvaraguj
 EndChar
 
 StartChar: isignguj_anusvaraguj.alt5
 Encoding: 65557 -1 315
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -14975,11 +14985,13 @@ SplineSet
  90 500 l 1,31,-1
  90 500 l 1,13,14
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt5 anusvaraguj
 EndChar
 
 StartChar: isignguj_anusvaraguj.alt4
 Encoding: 65558 -1 316
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15009,11 +15021,13 @@ SplineSet
  90 500 l 1,31,-1
  90 500 l 1,13,14
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt4 anusvaraguj
 EndChar
 
 StartChar: isignguj_anusvaraguj.alt3
 Encoding: 65559 -1 317
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15043,11 +15057,13 @@ SplineSet
  90 500 l 1,29,-1
  90 500 l 1,13,14
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt3 anusvaraguj
 EndChar
 
 StartChar: isignguj_anusvaraguj.alt2
 Encoding: 65560 -1 318
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15077,11 +15093,13 @@ SplineSet
  90 500 l 1,30,-1
  90 500 l 1,13,14
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt2 anusvaraguj
 EndChar
 
 StartChar: isignguj_anusvaraguj.alt1
 Encoding: 65561 -1 319
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15111,11 +15129,13 @@ SplineSet
  90 500 l 1,29,-1
  90 500 l 1,13,14
 EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt1 anusvaraguj
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt1
 Encoding: 65556 -1 320
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15146,13 +15166,13 @@ SplineSet
  975.174 670.22 975.174 670.22 993.806 657 c 8,34,35
  1011.3 643.495 1011.3 643.495 1006 646 c 17,0,1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt1 raguj_viramaguj
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt2
 Encoding: 65555 -1 321
 Width: 236
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15181,13 +15201,13 @@ SplineSet
  1176 495 l 9,32,-1
  1146 580 l 16,0,1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt2 raguj_viramaguj
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt3
 Encoding: 65554 -1 322
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15217,13 +15237,13 @@ SplineSet
  1109.72 637.345 1109.72 637.345 1122.5 589.5 c 1,33,-1
  1141.52 496 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt3 raguj_viramaguj
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt4
 Encoding: 65553 -1 323
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15253,13 +15273,13 @@ SplineSet
  1109.72 637.345 1109.72 637.345 1122.5 589.5 c 1,33,-1
  1141.52 496 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt4 raguj_viramaguj
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt5
 Encoding: 65552 -1 324
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15288,13 +15308,13 @@ SplineSet
  90 0 l 1,34,-1
  90 500 l 2,0,1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt5 raguj_viramaguj
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt7
 Encoding: 65551 -1 325
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15323,13 +15343,13 @@ SplineSet
  985 505 l 9,31,32
  947.5 604.3 l 17,0,1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt7 raguj_viramaguj
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt6
 Encoding: 65550 -1 326
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15359,13 +15379,13 @@ SplineSet
  90 0 l 1,32,-1
  90 600 l 2,0,1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt6 raguj_viramaguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt2
 Encoding: 65549 -1 327
 Width: 236
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15405,13 +15425,13 @@ SplineSet
  90 500 l 1,46,-1
  90 500 l 1,29,30
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt2 raguj_viramaguj anusvaraguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt3
 Encoding: 65548 -1 328
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15451,31 +15471,31 @@ SplineSet
  1243 540 1243 540 1220 540 c 1,46,-1
  1220 540 l 1,34,35
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt3 raguj_viramaguj anusvaraguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt4
 Encoding: 65547 -1 329
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
 1141.52 496 m 5,0,-1
  1082 496 l 5,1,2
- 1066.28 585.064 1066.28 585.064 937.5 636 c 4,3,4
- 788.327 695 788.327 695 583 695 c 4,5,6
- 438 695 438 695 294 639 c 132,-1,7
- 150 583 150 583 150 500 c 6,8,-1
- 150 0 l 5,9,-1
- 90 0 l 5,10,-1
- 90 500 l 6,11,12
- 90 604 90 604 251.5 674.5 c 132,-1,13
- 413 745 413 745 583 745 c 4,14,15
- 850.535 745 850.535 745 995.5 676.5 c 4,16,-1
- 1054 641.5 l 4,17,-1
- 1066.33 665.864 l 5,18,19
+ 1066.28 585.064 1066.28 585.064 937.5 636 c 0,3,4
+ 788.327 695 788.327 695 583 695 c 0,5,6
+ 438 695 438 695 294 639 c 128,-1,7
+ 150 583 150 583 150 500 c 2,8,-1
+ 150 0 l 1,9,-1
+ 90 0 l 1,10,-1
+ 90 500 l 2,11,12
+ 90 604 90 604 251.5 674.5 c 128,-1,13
+ 413 745 413 745 583 745 c 0,14,15
+ 850.535 745 850.535 745 995.5 676.5 c 0,16,-1
+ 1054 641.5 l 0,17,-1
+ 1066.33 665.864 l 1,18,19
  1075.83 687.341 1075.83 687.341 1095 705 c 4,20,21
  1133 740 1133 740 1187 740 c 4,22,23
  1215 740 1215 740 1241 731 c 132,-1,24
@@ -15486,52 +15506,52 @@ SplineSet
  1160.01 690 1160.01 690 1139 668 c 4,31,32
  1109.72 637.345 1109.72 637.345 1122.5 589.5 c 5,33,-1
  1141.52 496 l 5,0,-1
-1200 550 m 128,-1,35
- 1177 550 1177 550 1161 566 c 128,-1,36
- 1145 582 1145 582 1145 605 c 0,37,38
- 1145 630 1145 630 1161 647.5 c 128,-1,39
- 1177 665 1177 665 1200 665 c 128,-1,40
- 1223 665 1223 665 1239 649 c 128,-1,41
- 1255 633 1255 633 1255 610 c 0,42,43
- 1255 585 1255 585 1239 567.5 c 128,-1,34
- 1223 550 1223 550 1200 550 c 128,-1,35
+1200 550 m 132,-1,35
+ 1177 550 1177 550 1161 566 c 132,-1,36
+ 1145 582 1145 582 1145 605 c 4,37,38
+ 1145 630 1145 630 1161 647.5 c 132,-1,39
+ 1177 665 1177 665 1200 665 c 132,-1,40
+ 1223 665 1223 665 1239 649 c 132,-1,41
+ 1255 633 1255 633 1255 610 c 4,42,43
+ 1255 585 1255 585 1239 567.5 c 132,-1,34
+ 1223 550 1223 550 1200 550 c 132,-1,35
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt4 raguj_viramaguj anusvaraguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt5
 Encoding: 65546 -1 330
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-1310 540 m 128,-1,1
- 1287 540 1287 540 1271 556 c 128,-1,2
- 1255 572 1255 572 1255 595 c 0,3,4
- 1255 620.008 1255 620.008 1271 637.5 c 128,-1,5
- 1287 655 1287 655 1310 655 c 256,6,7
- 1333 655 1333 655 1349 639 c 128,-1,8
- 1365 623 1365 623 1365 600 c 0,9,10
- 1365 575 1365 575 1349 557.5 c 128,-1,0
- 1333 540 1333 540 1310 540 c 128,-1,1
+1310 540 m 132,-1,1
+ 1287 540 1287 540 1271 556 c 132,-1,2
+ 1255 572 1255 572 1255 595 c 4,3,4
+ 1255 620.008 1255 620.008 1271 637.5 c 132,-1,5
+ 1287 655 1287 655 1310 655 c 260,6,7
+ 1333 655 1333 655 1349 639 c 132,-1,8
+ 1365 623 1365 623 1365 600 c 4,9,10
+ 1365 575 1365 575 1349 557.5 c 132,-1,0
+ 1333 540 1333 540 1310 540 c 132,-1,1
 90 500 m 2,11,12
  90 604 90 604 255 676.5 c 128,-1,13
  420 749 420 749 590 749 c 0,14,15
  954.18 749 954.18 749 1126 675.5 c 0,16,17
  1163.92 659.279 1163.92 659.279 1166.5 656.5 c 1,18,19
- 1165.09 670.766 1165.09 670.766 1212.5 710.5 c 0,20,21
- 1247.59 739.911 1247.59 739.911 1307 740 c 0,22,23
- 1334.89 740.039 1334.89 740.039 1360.94 731.02 c 128,-1,24
- 1387 722 1387 722 1407 705 c 1,25,-1
- 1387 660 l 1,26,27
- 1369.42 673.368 1369.42 673.368 1352.5 680.5 c 0,28,29
- 1333.53 688.5 1333.53 688.5 1300.5 688.5 c 128,-1,30
- 1267.58 688.5 1267.58 688.5 1244.5 666.5 c 0,31,32
- 1217.67 632.548 1217.67 632.548 1218.5 614.5 c 1,33,34
- 1243.53 552.5 1243.53 552.5 1263.5 495 c 1,35,-1
- 1203.5 495 l 1,36,37
+ 1165.09 670.766 1165.09 670.766 1212.5 710.5 c 4,20,21
+ 1247.59 739.911 1247.59 739.911 1307 740 c 4,22,23
+ 1334.89 740.039 1334.89 740.039 1360.94 731.02 c 132,-1,24
+ 1387 722 1387 722 1407 705 c 5,25,-1
+ 1387 660 l 5,26,27
+ 1369.42 673.368 1369.42 673.368 1352.5 680.5 c 4,28,29
+ 1333.53 688.5 1333.53 688.5 1300.5 688.5 c 132,-1,30
+ 1267.58 688.5 1267.58 688.5 1244.5 666.5 c 4,31,32
+ 1217.67 632.548 1217.67 632.548 1218.5 614.5 c 5,33,34
+ 1243.53 552.5 1243.53 552.5 1263.5 495 c 5,35,-1
+ 1203.5 495 l 5,36,37
  1189.51 574.207 1189.51 574.207 1068 635 c 0,38,39
  940.079 699 940.079 699 590 699 c 0,40,41
  445 699 445 699 297.5 641 c 128,-1,42
@@ -15540,13 +15560,13 @@ SplineSet
  90 0 l 1,45,-1
  90 500 l 2,11,12
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt5 raguj_viramaguj anusvaraguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt7
 Encoding: 65545 -1 331
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -15586,43 +15606,43 @@ SplineSet
  90 0 l 1,44,-1
  90 500 l 2,29,30
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt7 raguj_viramaguj anusvaraguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt6
 Encoding: 65544 -1 332
 Width: 240
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-500 550 m 128,-1,1
- 477 550 477 550 461 566 c 128,-1,2
- 445 582 445 582 445 605 c 0,3,4
- 445 630.008 445 630.008 461 647.5 c 128,-1,5
- 477 665 477 665 500 665 c 256,6,7
- 523 665 523 665 539 649 c 128,-1,8
- 555 633 555 633 555 610 c 0,9,10
- 555 585 555 585 539 567.5 c 128,-1,0
- 523 550 523 550 500 550 c 128,-1,1
+500 550 m 132,-1,1
+ 477 550 477 550 461 566 c 132,-1,2
+ 445 582 445 582 445 605 c 4,3,4
+ 445 630.008 445 630.008 461 647.5 c 132,-1,5
+ 477 665 477 665 500 665 c 260,6,7
+ 523 665 523 665 539 649 c 132,-1,8
+ 555 633 555 633 555 610 c 4,9,10
+ 555 585 555 585 539 567.5 c 132,-1,0
+ 523 550 523 550 500 550 c 132,-1,1
 90 600 m 2,11,12
  90 668 90 668 127.5 709 c 128,-1,13
  165 750 165 750 227 750 c 0,14,15
- 317 750 317 750 371 694 c 1,16,-1
- 395 715 l 1,17,18
- 433 750 433 750 487 750 c 0,19,20
- 515 750 515 750 541 741 c 128,-1,21
- 567 732 567 732 587 715 c 1,22,-1
- 567 670 l 1,23,24
- 546 685 546 685 527 692.5 c 128,-1,25
- 508 700 508 700 492 700 c 0,26,27
- 461 700 461 700 439 678 c 0,28,29
- 411.473 650.473 411.473 650.473 408.652 636.14 c 1,30,31
- 425 596.171 425 596.171 425 545 c 2,32,-1
- 425 505 l 1,33,-1
- 370 505 l 1,34,-1
- 370 545 l 1,35,36
+ 317 750 317 750 371 694 c 5,16,-1
+ 395 715 l 5,17,18
+ 433 750 433 750 487 750 c 4,19,20
+ 515 750 515 750 541 741 c 132,-1,21
+ 567 732 567 732 587 715 c 5,22,-1
+ 567 670 l 5,23,24
+ 546 685 546 685 527 692.5 c 132,-1,25
+ 508 700 508 700 492 700 c 4,26,27
+ 461 700 461 700 439 678 c 4,28,29
+ 411.473 650.473 411.473 650.473 408.652 636.14 c 5,30,31
+ 425 596.171 425 596.171 425 545 c 6,32,-1
+ 425 505 l 5,33,-1
+ 370 505 l 5,34,-1
+ 370 545 l 5,35,36
  364 615 364 615 325.5 657.5 c 128,-1,37
  287 700 287 700 230 700 c 0,38,39
  194 700 194 700 172 672.5 c 128,-1,40
@@ -15631,13 +15651,13 @@ SplineSet
  90 0 l 1,43,-1
  90 600 l 2,11,12
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt6 raguj_viramaguj anusvaraguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt1
 Encoding: 65543 -1 333
 Width: 240
+GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor-0" -120 -12 mark 0
 LayerCount: 2
@@ -15678,8 +15698,222 @@ SplineSet
  975.174 670.22 975.174 670.22 993.806 657 c 8,45,46
  1011.3 643.495 1011.3 643.495 1006 646 c 17,11,12
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt1 raguj_viramaguj anusvaraguj
+EndChar
+
+StartChar: isignguj.alt8
+Encoding: 65542 -1 334
+Width: 240
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 500 m 1,0,1
+ 90 604 90 604 182.25 677.95 c 0,2,3
+ 273.926 751.44 273.926 751.44 392.5 761 c 0,4,5
+ 560.767 774.567 560.767 774.567 662 678 c 0,6,7
+ 734.649 606.602 734.649 606.602 745 498 c 5,8,-1
+ 685 498 l 5,9,10
+ 669 586 669 586 606.75 644.871 c 128,-1,11
+ 544.5 703.742 544.5 703.742 420.25 701.871 c 128,-1,12
+ 296 700 296 700 223 638.5 c 128,-1,13
+ 150 577 150 577 150 490 c 2,14,-1
+ 150 0 l 1,15,-1
+ 90 0 l 1,16,-1
+ 90 500 l 1,17,-1
+ 90 500 l 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: isignguj_raguj_viramaguj.alt8
+Encoding: 65541 -1 335
+Width: 240
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+679.049 659.732 m 0,0,1
+ 721 741 721 741 807 740 c 0,2,3
+ 835 740 835 740 861 731 c 128,-1,4
+ 887 722 887 722 907 705 c 1,5,-1
+ 887 660 l 1,6,7
+ 866 675 866 675 847 682.5 c 128,-1,8
+ 828 690 828 690 812 690 c 0,9,10
+ 783.106 690 783.106 690 760.5 675.732 c 0,11,12
+ 723.802 652.324 723.802 652.324 716.982 601.732 c 1,13,14
+ 739.569 554.989 739.569 554.989 745 498 c 1,15,-1
+ 685 498 l 1,16,17
+ 669 586 669 586 606.75 644.871 c 128,-1,18
+ 544.5 703.742 544.5 703.742 420.25 701.871 c 128,-1,19
+ 296 700 296 700 223 638.5 c 128,-1,20
+ 150 577 150 577 150 490 c 2,21,-1
+ 150 0 l 1,22,-1
+ 90 0 l 1,23,-1
+ 90 500 l 1,24,-1
+ 90 500 l 1,25,26
+ 90 604 90 604 182.25 677.95 c 0,27,28
+ 273.926 751.44 273.926 751.44 392.5 761 c 0,29,30
+ 560.767 774.567 560.767 774.567 662 678 c 0,31,32
+ 671.003 669.152 671.003 669.152 679.049 659.732 c 0,0,1
+EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt8 raguj_viramaguj
+EndChar
+
+StartChar: isignguj_anusvaraguj.alt8
+Encoding: 65540 -1 336
+Width: 240
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-0" -116 60 mark 0
+LayerCount: 2
+Fore
+SplineSet
+770 630 m 5,0,1
+ 747 630 747 630 731 646 c 132,-1,2
+ 715 662 715 662 715 685 c 4,3,4
+ 715 710 715 710 731 727.5 c 132,-1,5
+ 747 745 747 745 770 745 c 260,6,7
+ 793 745 793 745 809 729 c 132,-1,8
+ 825 713 825 713 825 690 c 4,9,10
+ 825 665 825 665 809 647.5 c 132,-1,11
+ 793 630 793 630 770 630 c 5,12,-1
+ 770 630 l 5,0,1
+90 500 m 1,13,14
+ 90 604 90 604 182.25 677.95 c 0,15,16
+ 273.926 751.44 273.926 751.44 392.5 761 c 0,17,18
+ 560.767 774.567 560.767 774.567 662 678 c 0,19,20
+ 734.649 606.602 734.649 606.602 745 498 c 1,21,-1
+ 685 498 l 1,22,23
+ 669 586 669 586 606.75 644.871 c 128,-1,24
+ 544.5 703.742 544.5 703.742 420.25 701.871 c 128,-1,25
+ 296 700 296 700 223 638.5 c 128,-1,26
+ 150 577 150 577 150 490 c 2,27,-1
+ 150 0 l 1,28,-1
+ 90 0 l 1,29,-1
+ 90 500 l 1,30,-1
+ 90 500 l 1,13,14
+EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt8 anusvaraguj
+EndChar
+
+StartChar: isign_ra_virama_anusvara.alt8
+Encoding: 65539 -1 337
+Width: 240
+GlyphClass: 4
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+810 540 m 128,-1,1
+ 787 540 787 540 771 556 c 128,-1,2
+ 755 572 755 572 755 595 c 0,3,4
+ 755 620.008 755 620.008 771 637.5 c 128,-1,5
+ 787 655 787 655 820 655 c 256,6,7
+ 833 655 833 655 849 639 c 128,-1,8
+ 865 623 865 623 865 600 c 0,9,10
+ 865 575 865 575 849 557.5 c 128,-1,0
+ 833 540 833 540 810 540 c 128,-1,1
+679.049 659.732 m 0,11,12
+ 721 741 721 741 807 740 c 0,13,14
+ 835 740 835 740 861 731 c 128,-1,15
+ 887 722 887 722 907 705 c 1,16,-1
+ 887 660 l 1,17,18
+ 866 675 866 675 847 682.5 c 128,-1,19
+ 828 690 828 690 812 690 c 0,20,21
+ 783.106 690 783.106 690 760.5 675.732 c 0,22,23
+ 723.802 652.324 723.802 652.324 716.982 601.732 c 1,24,25
+ 739.569 554.989 739.569 554.989 745 498 c 1,26,-1
+ 685 498 l 1,27,28
+ 669 586 669 586 606.75 644.871 c 128,-1,29
+ 544.5 703.742 544.5 703.742 420.25 701.871 c 128,-1,30
+ 296 700 296 700 223 638.5 c 128,-1,31
+ 150 577 150 577 150 490 c 2,32,-1
+ 150 0 l 1,33,-1
+ 90 0 l 1,34,-1
+ 90 500 l 1,35,-1
+ 90 500 l 1,36,37
+ 90 604 90 604 182.25 677.95 c 0,38,39
+ 273.926 751.44 273.926 751.44 392.5 761 c 0,40,41
+ 560.767 774.567 560.767 774.567 662 678 c 0,42,43
+ 671.003 669.152 671.003 669.152 679.049 659.732 c 0,11,12
+EndSplineSet
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt8 raguj_viramaguj anusvaraguj
+EndChar
+
+StartChar: isignguj_anusvaraguj.alt6
+Encoding: 65537 -1 338
+Width: 240
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-0" -116 60 mark 0
+LayerCount: 2
+Fore
+SplineSet
+480 630 m 5,0,1
+ 457 630 457 630 441 646 c 132,-1,2
+ 425 662 425 662 425 685 c 4,3,4
+ 425 710 425 710 441 727.5 c 132,-1,5
+ 457 745 457 745 480 745 c 260,6,7
+ 503 745 503 745 519 729 c 132,-1,8
+ 535 713 535 713 535 690 c 4,9,10
+ 535 665 535 665 519 647.5 c 132,-1,11
+ 503 630 503 630 480 630 c 5,12,-1
+ 480 630 l 5,0,1
+90 600 m 1,13,14
+ 90 668 90 668 127.5 709 c 128,-1,15
+ 165 750 165 750 227 750 c 0,16,17
+ 317 750 317 750 371 694 c 128,-1,18
+ 425 638 425 638 425 545 c 2,19,-1
+ 425 505 l 1,20,-1
+ 370 505 l 1,21,-1
+ 370 545 l 2,22,23
+ 364 615 364 615 325.5 657.5 c 128,-1,24
+ 287 700 287 700 230 700 c 0,25,26
+ 194 700 194 700 172 672.5 c 128,-1,27
+ 150 645 150 645 150 600 c 2,28,-1
+ 150 0 l 1,29,-1
+ 90 0 l 1,30,-1
+ 90 600 l 1,31,-1
+ 90 600 l 1,13,14
+EndSplineSet
+EndChar
+
+StartChar: isignguj_anusvaraguj.alt7
+Encoding: 65538 -1 339
+Width: 240
+GlyphClass: 4
+Flags: W
+AnchorPoint: "Anchor-0" -116 60 mark 0
+LayerCount: 2
+Fore
+SplineSet
+990 630 m 5,0,1
+ 967 630 967 630 951 646 c 132,-1,2
+ 935 662 935 662 935 685 c 4,3,4
+ 935 710 935 710 951 727.5 c 132,-1,5
+ 967 745 967 745 990 745 c 260,6,7
+ 1013 745 1013 745 1029 729 c 132,-1,8
+ 1045 713 1045 713 1045 690 c 4,9,10
+ 1045 665 1045 665 1029 647.5 c 132,-1,11
+ 1013 630 1013 630 990 630 c 5,12,-1
+ 990 630 l 5,0,1
+90 500 m 1,13,14
+ 90 604 90 604 210 677 c 128,-1,15
+ 330 750 330 750 500 750 c 0,16,17
+ 720 750 720 750 847.5 685.5 c 128,-1,18
+ 975 621 975 621 985 505 c 1,19,-1
+ 925 505 l 1,20,21
+ 910 590 910 590 789.5 645 c 128,-1,22
+ 669 700 669 700 500 700 c 0,23,24
+ 355 700 355 700 252.5 641.5 c 128,-1,25
+ 150 583 150 583 150 500 c 2,26,-1
+ 150 0 l 1,27,-1
+ 90 0 l 1,28,-1
+ 90 500 l 1,29,-1
+ 90 500 l 1,13,14
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
