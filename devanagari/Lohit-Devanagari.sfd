@@ -10299,8 +10299,8 @@ SplineSet
  198 -67 l 1,43,-1
  172 -20 l 1,38,-1
 EndSplineSet
-Ligature2: "'haln' Halant Forms lookup 29-1" dadeva viramadeva
 Ligature2: "HalfFormslookup10 subtable" dadeva viramadeva
+Ligature2: "'haln' Halant Forms lookup 29-1" dadeva viramadeva
 EndChar
 
 StartChar: dhadeva_viramadeva
@@ -15152,8 +15152,8 @@ SplineSet
  382 606 l 1,63,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva gadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva gadeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva gadeva
 EndChar
 
 StartChar: dadeva_viramadeva_ghadeva
@@ -15227,8 +15227,8 @@ SplineSet
  510 606 l 1,79,-1
  -13 606 l 1,29,-1
 EndSplineSet
-Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva ghadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva ghadeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva ghadeva
 EndChar
 
 StartChar: dadeva_viramadeva_dadeva
@@ -15285,8 +15285,8 @@ SplineSet
  391 606 l 1,56,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva dadeva 
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva dadeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva dadeva
 EndChar
 
 StartChar: dadeva_viramadeva_dhadeva
@@ -15362,8 +15362,8 @@ SplineSet
  577 606 l 1,84,-1
  -13 606 l 1,17,-1
 EndSplineSet
-Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva dhadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva dhadeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva dhadeva
 EndChar
 
 StartChar: dadeva_viramadeva_nadeva
@@ -15418,8 +15418,8 @@ SplineSet
  411 606 l 1,55,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva nadeva 
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva nadeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva nadeva
 EndChar
 
 StartChar: dadeva_viramadeva_badeva
@@ -15485,8 +15485,8 @@ SplineSet
  391 606 l 1,68,-1
  -13 606 l 1,17,-1
 EndSplineSet
-Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva badeva 
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva badeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva badeva
 EndChar
 
 StartChar: dadeva_viramadeva_bhadeva
@@ -15556,8 +15556,9 @@ SplineSet
  453 606 l 1,74,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva bhadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva bhadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva bhadeva
+Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva bhadeva
 EndChar
 
 StartChar: dadeva_viramadeva_madeva
@@ -15607,7 +15608,7 @@ SplineSet
  261 606 l 1,42,-1
  -13 606 l 1,13,-1
 EndSplineSet
-Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva madeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva madeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva madeva
 EndChar
 
@@ -15660,8 +15661,8 @@ SplineSet
  302 606 l 1,47,-1
  -13 606 l 1,23,-1
 EndSplineSet
-Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva yadeva 
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva yadeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva yadeva
 EndChar
 
 StartChar: dadeva_viramadeva_vadeva
@@ -15722,8 +15723,8 @@ SplineSet
  399 606 l 1,63,-1
  -13 606 l 1,12,-1
 EndSplineSet
-Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva vadeva 
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva vadeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva vadeva
 EndChar
 
 StartChar: nadeva_viramadeva_nadeva
@@ -15776,7 +15777,7 @@ SplineSet
  497 606 l 1,53,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" nadeva_viramadeva nadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" nadeva_viramadeva nadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" nadeva viramadeva nadeva
 EndChar
 
@@ -15818,8 +15819,8 @@ SplineSet
  91 606 l 1,32,-1
  -13 606 l 1,7,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" padeva_viramadeva tadeva 
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" padeva viramadeva tadeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" padeva_viramadeva tadeva
 EndChar
 
 StartChar: padeva_viramadeva_ladeva
@@ -15881,7 +15882,7 @@ SplineSet
  68 606 l 1,62,-1
  -13 606 l 1,9,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" padeva_viramadeva ladeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" padeva_viramadeva ladeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" padeva viramadeva ladeva.alt
 EndChar
 
@@ -15960,8 +15961,8 @@ SplineSet
  64 606 l 1,82,-1
  -13 606 l 1,9,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup1 subtable" phadeva_viramadeva ladeva 
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" phadeva viramadeva ladeva.alt
+Ligature2: "PreBaseSubstitutionslookup1 subtable" phadeva_viramadeva ladeva
 EndChar
 
 StartChar: ladeva_viramadeva_ladeva
@@ -18636,8 +18637,8 @@ SplineSet
  373 304 l 9,35,-1
  373 198 l 17,14,-1
 EndSplineSet
-Ligature2: "HalfFormslookup10 subtable" badeva_viramadeva_radeva viramadeva
 Ligature2: "VattuVariantslookup30 subtable" badeva viramadeva_radeva viramadeva
+Ligature2: "HalfFormslookup10 subtable" badeva_viramadeva_radeva viramadeva
 EndChar
 
 StartChar: isigndeva_ra_virama.alt2
