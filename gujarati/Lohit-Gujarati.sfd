@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1386071653
+ModificationTime: 1386151500
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -55,8 +55,8 @@ Lookup: 4 0 0 "'rphf' Reph Form in Gujarati lookup 2"  {"'rphf' Reph Form in Guj
 Lookup: 4 0 0 "'rkrf' Rakar Forms in Gujarati lookup 5"  {"'rkrf' Rakar Forms in Gujarati lookup 5-1"  } ['rkrf' ('gjr2' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms in Gujarati lookup 3"  {"'blwf' Below Base Forms in Gujarati lookup 3-1"  } ['blwf' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'half' Half Forms in Gujarati lookup 4"  {"'half' Half Forms in Gujarati lookup 4-1"  } ['half' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants lookup 28"  {"'vatu' Vattu Variants lookup 28-1"  } ['vatu' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'cjct' Conjunct Forms in Gujarati lookup 5"  {"'cjct' Conjunct Forms in Gujarati lookup 5-1"  } ['cjct' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
-Lookup: 4 0 0 "'vatu' Vattu Variants in Gujarati lookup 7"  {"'vatu' Vattu Variants in Gujarati lookup 7-1"  } ['vatu' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'pres' Pre Base Substitutions lookup 24"  {"'pres' Pre Base Substitutions lookup 24-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 6 0 0 "'pres' Pre Base Substitutions in Gujarati lookup 10"  {"'pres' Pre Base Substitutions in Gujarati lookup 10-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 12"  {"Single Substitution lookup 12-1"  } []
@@ -6440,8 +6440,9 @@ SplineSet
  98 100 l 1,18,-1
  98 100 l 1,0,-1
 EndSplineSet
+LCarets2: 1 0 
+Ligature2: "'vatu' Vattu Variants lookup 28-1" taguj_viramaguj viramaguj_raguj
 Ligature2: "'half' Half Forms in Gujarati lookup 4-1" taguj_viramaguj_raguj viramaguj
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 7-1" taguj_viramaguj_raguj viramaguj
 EndChar
 
 StartChar: shaguj_viramaguj_alt
@@ -6511,8 +6512,8 @@ SplineSet
  88 119 88 119 88 195 c 1,18,-1
  88 195 l 1,0,1
 EndSplineSet
-Ligature2: "'vatu' Vattu Variants in Gujarati lookup 7-1" taguj_viramaguj_taguj viramaguj 
 Ligature2: "'half' Half Forms in Gujarati lookup 4-1" taguj_viramaguj_taguj viramaguj 
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" taguj_viramaguj taguj_viramaguj
 EndChar
 
 StartChar: kaguj_viramaguj_raguj
@@ -6563,8 +6564,9 @@ SplineSet
  307 0 307 0 235 0 c 1,47,-1
  235 0 l 1,0,1
 EndSplineSet
-Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" kaguj raguj viramaguj 
+Ligature2: "'vatu' Vattu Variants lookup 28-1" kaguj viramaguj_raguj
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" kaguj viramaguj raguj
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" kaguj raguj viramaguj
 EndChar
 
 StartChar: khaguj_viramaguj_raguj
@@ -6610,6 +6612,8 @@ SplineSet
  91 218 91 218 91 280 c 1,38,-1
  91 280 l 1,0,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 28-1" khaguj viramaguj_raguj
+Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" khaguj raguj viramaguj
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" khaguj viramaguj raguj
 EndChar
 
@@ -6652,6 +6656,7 @@ SplineSet
  253 145 253 145 176 145 c 1,35,-1
  176 145 l 1,9,10
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 28-1" gaguj viramaguj_raguj
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" gaguj viramaguj raguj
 EndChar
 
@@ -6698,6 +6703,7 @@ SplineSet
  414 500 l 1,41,-1
  414 500 l 1,0,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 28-1" ghaguj viramaguj_raguj
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" ghaguj viramaguj raguj
 EndChar
 
@@ -6742,6 +6748,7 @@ SplineSet
  33 265 l 1,39,-1
  33 265 l 1,0,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 28-1" caguj viramaguj_raguj
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" caguj viramaguj raguj
 EndChar
 
@@ -6804,6 +6811,7 @@ SplineSet
  366 50 366 50 391 50 c 1,62,-1
  391 50 l 1,50,51
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 28-1" jaguj viramaguj_raguj
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" jaguj viramaguj raguj
 EndChar
 
@@ -6860,7 +6868,7 @@ SplineSet
  433 -10 l 1,0,1
 EndSplineSet
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" jhaguj viramaguj raguj
-LCarets2: 1 0 
+Ligature2: "'vatu' Vattu Variants lookup 28-1" jhaguj viramaguj_raguj
 EndChar
 
 StartChar: nyaguj_viramaguj_raguj
@@ -6903,6 +6911,7 @@ SplineSet
  54 177 54 177 23 230 c 1,37,-1
  23 230 l 1,0,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 28-1" nyaguj viramaguj_raguj
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" nyaguj viramaguj raguj
 EndChar
 
@@ -6960,6 +6969,7 @@ SplineSet
  614 500 l 1,44,-1
 EndSplineSet
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" nnaguj viramaguj raguj
+Ligature2: "'vatu' Vattu Variants lookup 28-1" nnaguj viramaguj_raguj
 EndChar
 
 StartChar: taguj_viramaguj_raguj
@@ -6992,6 +7002,7 @@ SplineSet
  423 500 l 1,0,-1
 EndSplineSet
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" taguj viramaguj raguj
+Ligature2: "'vatu' Vattu Variants lookup 28-1" taguj viramaguj_raguj
 EndChar
 
 StartChar: thaguj_viramaguj_raguj
@@ -7041,6 +7052,7 @@ SplineSet
  230 350 l 1,34,35
 EndSplineSet
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" thaguj viramaguj raguj
+Ligature2: "'vatu' Vattu Variants lookup 28-1" thaguj viramaguj_raguj
 EndChar
 
 StartChar: daguj_viramaguj_raguj
@@ -7095,8 +7107,9 @@ SplineSet
  311 158 311 158 318 145 c 1,56,-1
  318 145 l 1,44,45
 EndSplineSet
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj raguj 
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj raguj
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" daguj viramaguj raguj
+Ligature2: "'vatu' Vattu Variants lookup 28-1" daguj viramaguj_raguj
 EndChar
 
 StartChar: dhaguj_viramaguj_raguj
@@ -7139,6 +7152,7 @@ SplineSet
  66 190 l 1,0,1
 EndSplineSet
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" dhaguj viramaguj raguj
+Ligature2: "'vatu' Vattu Variants lookup 28-1" dhaguj viramaguj_raguj
 EndChar
 
 StartChar: naguj_viramaguj_raguj
@@ -7182,6 +7196,7 @@ SplineSet
  194 175 l 1,24,25
 EndSplineSet
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" naguj viramaguj raguj
+Ligature2: "'vatu' Vattu Variants lookup 28-1" naguj viramaguj_raguj
 EndChar
 
 StartChar: paguj_viramaguj_raguj
@@ -7219,6 +7234,7 @@ SplineSet
  108 400 l 1,0,1
 EndSplineSet
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" paguj viramaguj raguj
+Ligature2: "'vatu' Vattu Variants lookup 28-1" paguj viramaguj_raguj
 EndChar
 
 StartChar: phaguj_viramaguj_raguj
@@ -7274,6 +7290,7 @@ SplineSet
  365 -110 l 1,0,1
 EndSplineSet
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" phaguj viramaguj raguj
+Ligature2: "'vatu' Vattu Variants lookup 28-1" phaguj viramaguj_raguj
 EndChar
 
 StartChar: baguj_viramaguj_raguj
@@ -7317,6 +7334,7 @@ SplineSet
  47 312 l 1,0,1
 EndSplineSet
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" baguj viramaguj raguj
+Ligature2: "'vatu' Vattu Variants lookup 28-1" baguj viramaguj_raguj
 EndChar
 
 StartChar: bhaguj_viramaguj_raguj
@@ -7363,6 +7381,7 @@ SplineSet
  47 290 l 1,0,1
 EndSplineSet
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" bhaguj viramaguj raguj
+Ligature2: "'vatu' Vattu Variants lookup 28-1" bhaguj viramaguj_raguj
 EndChar
 
 StartChar: maguj_viramaguj_raguj
@@ -7415,6 +7434,7 @@ SplineSet
  151 120 l 1,34,35
 EndSplineSet
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" maguj viramaguj raguj
+Ligature2: "'vatu' Vattu Variants lookup 28-1" maguj viramaguj_raguj
 EndChar
 
 StartChar: yaguj_viramaguj_raguj
@@ -7456,6 +7476,7 @@ SplineSet
  50 217 50 217 50 280 c 1,35,-1
  50 280 l 1,0,-1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 28-1" yaguj viramaguj_raguj 
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" yaguj viramaguj raguj
 EndChar
 
@@ -7498,6 +7519,7 @@ SplineSet
  248 0 l 1,31,-1
  248 0 l 1,13,14
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 28-1" laguj viramaguj_raguj 
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" laguj viramaguj raguj
 EndChar
 
@@ -7544,6 +7566,7 @@ SplineSet
  46 215 46 215 46 300 c 1,42,-1
  46 300 l 1,0,1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 28-1" llaguj viramaguj_raguj
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" llaguj viramaguj raguj
 EndChar
 
@@ -7580,7 +7603,7 @@ SplineSet
  49 320 l 1,0,1
 EndSplineSet
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" vaguj viramaguj raguj
-LCarets2: 1 0 
+Ligature2: "'vatu' Vattu Variants lookup 28-1" vaguj viramaguj_raguj
 EndChar
 
 StartChar: shaguj_viramaguj_raguj
@@ -7631,8 +7654,9 @@ SplineSet
  218 365 218 365 250 350 c 1,50,-1
  250 350 l 1,38,39
 EndSplineSet
-Ligature2: "'akhn' Akhand in Gujarati lookup 1-1" shaguj viramaguj raguj 
+Ligature2: "'vatu' Vattu Variants lookup 28-1" shaguj viramaguj_raguj 
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" shaguj viramaguj raguj
+Ligature2: "'akhn' Akhand in Gujarati lookup 1-1" shaguj viramaguj raguj
 EndChar
 
 StartChar: ssaguj_viramaguj_raguj
@@ -7671,6 +7695,7 @@ SplineSet
  150 290 l 2,33,34
  152 220 152 220 234 198 c 0,0,1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 28-1" ssaguj viramaguj_raguj 
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" ssaguj viramaguj raguj
 EndChar
 
@@ -7723,6 +7748,7 @@ SplineSet
  20 470 l 1,47,-1
  20 470 l 1,0,1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 28-1" saguj viramaguj_raguj
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" saguj viramaguj raguj
 EndChar
 
@@ -7774,6 +7800,7 @@ SplineSet
  298 300 l 1,48,-1
  298 300 l 1,0,1
 EndSplineSet
+Ligature2: "'vatu' Vattu Variants lookup 28-1" haguj viramaguj_raguj 
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" haguj viramaguj raguj
 EndChar
 
@@ -10487,7 +10514,7 @@ SplineSet
  724 45 724 45 662 45 c 1,72,-1
  662 45 l 1,37,38
 EndSplineSet
-Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ddaguj_viramaguj yaguj 
+Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ddaguj_viramaguj yaguj
 EndChar
 
 StartChar: ddaguj_viramaguj_ddhaguj
@@ -12473,8 +12500,8 @@ SplineSet
  -262 -198 l 1,6,-1
  -262 -198 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'blwf' Below Base Forms in Gujarati lookup 3-1" viramaguj raguj 
+Ligature2: "'blwf' Below Base Forms in Gujarati lookup 3-1" raguj viramaguj 
+Ligature2: "'blwf' Below Base Forms in Gujarati lookup 3-1" viramaguj raguj
 EndChar
 
 StartChar: raguj_viramaguj_uvowelsignguj
