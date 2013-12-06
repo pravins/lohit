@@ -2,11 +2,11 @@
 Current Version :- 2.92.0
 
 * Fri Dev 06 2013 Pravin Satpute <psatpute@redhat.com> - 2.92.0
-- Added 32 imatra glyphs to match with variable characters width.
+- Added 32 imatra glyphs to match variable characters width.
 - Improved consistency in glyph naming, #issue29
 - Improved shape of half character DHA-ધ (U+0AA7) #issues16
 - Fixed ligature rules for છ્ય #issues17
-- Added ligatures for ligatures ivowelsignguj + reph "ર્થિં"  #issues18
+- Added ligatures for ivowelsignguj + reph "ર્થિં"  #issues18
 - Fixed imatra િ (0ABF) issues on W7 with MS office 7#  #issues19
 - Fixed rendering of some ligature on W8 #issues25
 - Fixed regression issues of ડ્ય (0AA1 + 0ACD + 0AAF) #issues27
