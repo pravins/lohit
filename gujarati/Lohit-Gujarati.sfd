@@ -7871,7 +7871,7 @@ EndSplineSet
 Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" evowelsignguj raguj_viramaguj
 EndChar
 
-StartChar: evowelsignguj_raguj_viramaguj_anusvara
+StartChar: evowelsign_ra_virama_anusvara
 Encoding: 65644 -1 180
 Width: 0
 GlyphClass: 4
@@ -8000,7 +8000,7 @@ EndSplineSet
 Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aivowelsignguj raguj_viramaguj
 EndChar
 
-StartChar: aivowelsignguj_raguj_viramaguj_anusvara
+StartChar: aivowelsign_ra_virama_anusvara
 Encoding: 65647 -1 183
 Width: 0
 GlyphClass: 4
@@ -8127,7 +8127,7 @@ EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iisignguj raguj_viramaguj
 EndChar
 
-StartChar: iisignguj_raguj_viramaguj_anusvara
+StartChar: iisign_ra_virama_anusvara
 Encoding: 65650 -1 186
 Width: 240
 GlyphClass: 2
@@ -8171,7 +8171,6 @@ SplineSet
  -150 560 l 1,44,-1
  -150 560 l 1,13,14
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iisignguj raguj_viramaguj_anusvaraguj
 EndChar
 
@@ -8249,11 +8248,10 @@ SplineSet
  -166 710 -166 710 -205 710 c 1,31,-1
  -205 710 l 1,5,-1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ovowelsignguj raguj_viramaguj
 EndChar
 
-StartChar: ovowelsignguj_raguj_viramaguj_anusvara
+StartChar: ovowelsign_ra_virama_anusvara
 Encoding: 65653 -1 189
 Width: 240
 GlyphClass: 2
@@ -8397,7 +8395,7 @@ EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" auvowelsignguj raguj_viramaguj
 EndChar
 
-StartChar: auvowelsignguj_raguj_viramaguj_anusvara
+StartChar: auvowelsign_ra_virama_anusvara
 Encoding: 65656 -1 192
 Width: 240
 GlyphClass: 2
@@ -9118,7 +9116,6 @@ SplineSet
  353 -130 l 1,54,-1
  353 -130 l 1,0,1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" raguj uuvowelsignguj
 EndChar
 
@@ -10832,8 +10829,8 @@ SplineSet
  28 317 28 317 28 355 c 1,50,-1
  28 355 l 1,0,1
 EndSplineSet
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj yaguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj yaguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj yaguj
 EndChar
 
 StartChar: da_virama_gaguj_pri_a
@@ -10972,8 +10969,8 @@ SplineSet
  419 172 419 172 429 155 c 1,73,-1
  429 155 l 1,61,62
 EndSplineSet
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj vaguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj vaguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj vaguj
 EndChar
 
 StartChar: daguj_viramaguj_daguj_pri_a
@@ -11044,8 +11041,8 @@ SplineSet
  368 104 368 104 380 90 c 1,78,-1
  380 90 l 1,66,67
 EndSplineSet
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj daguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj daguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj daguj
 EndChar
 
 StartChar: daguj_viramaguj_dhaguj_pri_a
@@ -11126,8 +11123,8 @@ SplineSet
  421 168 421 168 428 155 c 1,94,-1
  428 155 l 1,82,83
 EndSplineSet
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj dhaguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj dhaguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj dhaguj
 EndChar
 
 StartChar: daguj_viramaguj_jaguj_pri_a
@@ -11208,8 +11205,8 @@ SplineSet
  499 166 499 166 511 145 c 1,93,-1
  511 145 l 1,81,82
 EndSplineSet
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj jaguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj jaguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj jaguj
 EndChar
 
 StartChar: daguj_viramaguj_maguj_pri_a
@@ -11269,8 +11266,8 @@ SplineSet
  212 55 212 55 235 55 c 1,61,-1
  235 55 l 1,51,52
 EndSplineSet
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj maguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj maguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj maguj
 EndChar
 
 StartChar: daguj_viramaguj_naguj_pri_a
@@ -11335,8 +11332,8 @@ SplineSet
  318 158 318 158 325 145 c 1,69,-1
  325 145 l 1,57,58
 EndSplineSet
-Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj naguj
 Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj naguj
+Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj naguj
 EndChar
 
 StartChar: naguj_viramaguj_naguj
@@ -12500,8 +12497,8 @@ SplineSet
  -262 -198 l 1,6,-1
  -262 -198 l 1,0,-1
 EndSplineSet
-Ligature2: "'blwf' Below Base Forms in Gujarati lookup 3-1" raguj viramaguj 
 Ligature2: "'blwf' Below Base Forms in Gujarati lookup 3-1" viramaguj raguj
+Ligature2: "'blwf' Below Base Forms in Gujarati lookup 3-1" raguj viramaguj
 EndChar
 
 StartChar: raguj_viramaguj_uvowelsignguj
@@ -12714,7 +12711,6 @@ SplineSet
  554 -205 l 1,49,50
 EndSplineSet
 Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" nnaguj uvowelsignguj
-LCarets2: 1 0 
 EndChar
 
 StartChar: chaguj_viramaguj_vaguj
@@ -13072,7 +13068,7 @@ EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ovowelsignguj raguj_viramaguj
 EndChar
 
-StartChar: ja_ovowelsign_raguj_viramaguj_anusvara
+StartChar: ja_ovowel_ra_virama_anusvara
 Encoding: 65731 -1 267
 Width: 779
 GlyphClass: 2
@@ -13410,7 +13406,7 @@ EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj auvowelsignguj raguj_viramaguj
 EndChar
 
-StartChar: ja_auvowelsign_rphf_anusvara
+StartChar: ja_auvowel_ra_virama_anusvara
 Encoding: 65735 -1 271
 Width: 779
 GlyphClass: 2
