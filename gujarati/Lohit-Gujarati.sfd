@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1386151500
+ModificationTime: 1386311282
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -86,7 +86,7 @@ DEI: 91125
 ChainSub2: coverage "'pres' Pre Base Substitutions lookup 27-1"  0 0 0 1
  1 0 1
   Coverage: 8 isignguj
-  FCoverage: 36 chaguj thaguj chaguj_viramaguj_vaguj
+  FCoverage: 65 chaguj thaguj shaguj_viramaguj_vaguj_pri_a chaguj_viramaguj_vaguj
  1
   SeqLookup: 0 "Single Substitution Lookup 19" 
 EndFPST
@@ -3333,7 +3333,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: aavowelsignguj
+StartChar: aasignguj
 Encoding: 2750 2750 72
 Width: 240
 GlyphClass: 2
@@ -3410,7 +3410,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uvowelsignguj
+StartChar: usignguj
 Encoding: 2753 2753 75
 Width: 0
 GlyphClass: 4
@@ -3442,7 +3442,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uuvowelsignguj
+StartChar: uusignguj
 Encoding: 2754 2754 76
 Width: 0
 GlyphClass: 4
@@ -3474,7 +3474,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: rvocalicvowelsignguj
+StartChar: rvocalicsignguj
 Encoding: 2755 2755 77
 Width: 0
 GlyphClass: 4
@@ -3504,7 +3504,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: rrvocalicvowelsignguj
+StartChar: rrvocalicsignguj
 Encoding: 2756 2756 78
 Width: 0
 GlyphClass: 4
@@ -3547,7 +3547,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ecandravowelsignguj
+StartChar: ecandrasignguj
 Encoding: 2757 2757 79
 Width: 0
 GlyphClass: 4
@@ -3571,7 +3571,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: evowelsignguj
+StartChar: esignguj
 Encoding: 2759 2759 80
 Width: 0
 GlyphClass: 4
@@ -3593,7 +3593,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: aivowelsignguj
+StartChar: aisignguj
 Encoding: 2760 2760 81
 Width: 0
 GlyphClass: 4
@@ -3625,7 +3625,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ocandravowelsignguj
+StartChar: ocandrasignguj
 Encoding: 2761 2761 82
 Width: 240
 GlyphClass: 2
@@ -3654,7 +3654,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ovowelsignguj
+StartChar: osignguj
 Encoding: 2763 2763 83
 Width: 240
 GlyphClass: 2
@@ -3681,7 +3681,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: auvowelsignguj
+StartChar: ausignguj
 Encoding: 2764 2764 84
 Width: 240
 GlyphClass: 2
@@ -3973,7 +3973,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: lvocalicvowelsignguj
+StartChar: lvocalicsignguj
 Encoding: 2786 2786 89
 Width: 0
 GlyphClass: 4
@@ -4028,7 +4028,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: llvocalicvowelsignguj
+StartChar: llvocalicsignguj
 Encoding: 2787 2787 90
 Width: 0
 GlyphClass: 4
@@ -7804,7 +7804,7 @@ Ligature2: "'vatu' Vattu Variants lookup 28-1" haguj viramaguj_raguj
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" haguj viramaguj raguj
 EndChar
 
-StartChar: evowelsignguj_anusvaraguj
+StartChar: esignguj_anusvaraguj
 Encoding: 65642 -1 178
 Width: 0
 GlyphClass: 4
@@ -7834,10 +7834,10 @@ SplineSet
  -47 635 -47 635 -70 635 c 1,23,-1
  -70 635 l 1,11,12
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" evowelsignguj anusvaraguj
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" esignguj anusvaraguj
 EndChar
 
-StartChar: evowelsignguj_raguj_viramaguj
+StartChar: esignguj_raguj_viramaguj
 Encoding: 65643 -1 179
 Width: 0
 GlyphClass: 4
@@ -7868,7 +7868,7 @@ SplineSet
  -406 705 -406 705 -445 705 c 1,26,-1
  -445 705 l 1,0,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" evowelsignguj raguj_viramaguj
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" esignguj raguj_viramaguj
 EndChar
 
 StartChar: evowelsign_ra_virama_anusvara
@@ -7912,10 +7912,10 @@ SplineSet
  -406 705 -406 705 -445 705 c 1,39,-1
  -445 705 l 1,13,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" evowelsignguj raguj_viramaguj anusvaraguj
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" esignguj raguj_viramaguj anusvaraguj
 EndChar
 
-StartChar: aivowelsignguj_anusvaraguj
+StartChar: aisignguj_anusvaraguj
 Encoding: 65645 -1 181
 Width: 0
 GlyphClass: 4
@@ -7955,10 +7955,10 @@ SplineSet
  -27 645 -27 645 -50 645 c 1,34,-1
  -50 645 l 1,22,23
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aivowelsignguj anusvaraguj
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aisignguj anusvaraguj
 EndChar
 
-StartChar: aivowelsignguj_raguj_viramaguj
+StartChar: aisignguj_raguj_viramaguj
 Encoding: 65646 -1 182
 Width: 0
 GlyphClass: 4
@@ -7997,10 +7997,10 @@ SplineSet
  -461 705 -461 705 -500 705 c 1,34,-1
  -500 705 l 1,24,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aivowelsignguj raguj_viramaguj
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aisignguj raguj_viramaguj
 EndChar
 
-StartChar: aivowelsign_ra_virama_anusvara
+StartChar: aisign_ra_virama_anusvara
 Encoding: 65647 -1 183
 Width: 0
 GlyphClass: 4
@@ -8049,7 +8049,7 @@ SplineSet
  -461 705 -461 705 -500 705 c 1,47,-1
  -500 705 l 1,37,-1
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aivowelsignguj raguj_viramaguj anusvaraguj
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aisignguj raguj_viramaguj anusvaraguj
 EndChar
 
 StartChar: iisignguj_anusvaraguj
@@ -8174,7 +8174,7 @@ EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iisignguj raguj_viramaguj_anusvaraguj
 EndChar
 
-StartChar: ovowelsignguj_anusvaraguj
+StartChar: osignguj_anusvaraguj
 Encoding: 65651 -1 187
 Width: 240
 GlyphClass: 2
@@ -8209,10 +8209,10 @@ SplineSet
  163 640 163 640 140 640 c 1,28,-1
  140 640 l 1,16,17
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ovowelsignguj anusvaraguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" osignguj anusvaraguj
 EndChar
 
-StartChar: ovowelsignguj_raguj_viramaguj
+StartChar: osignguj_raguj_viramaguj
 Encoding: 65652 -1 188
 Width: 240
 GlyphClass: 2
@@ -8248,10 +8248,10 @@ SplineSet
  -166 710 -166 710 -205 710 c 1,31,-1
  -205 710 l 1,5,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ovowelsignguj raguj_viramaguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" osignguj raguj_viramaguj
 EndChar
 
-StartChar: ovowelsign_ra_virama_anusvara
+StartChar: osign_ra_virama_anusvara
 Encoding: 65653 -1 189
 Width: 240
 GlyphClass: 2
@@ -8297,10 +8297,10 @@ SplineSet
  -166 715 -166 715 -205 715 c 1,44,-1
  -205 715 l 1,18,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ovowelsignguj raguj_viramaguj_anusvaraguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" osignguj raguj_viramaguj_anusvaraguj
 EndChar
 
-StartChar: auvowelsignguj_anusvaraguj
+StartChar: ausignguj_anusvaraguj
 Encoding: 65654 -1 190
 Width: 240
 GlyphClass: 2
@@ -8345,10 +8345,10 @@ SplineSet
  -224 705 -224 705 -265 705 c 1,39,-1
  -265 705 l 1,29,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" auvowelsignguj anusvaraguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ausignguj anusvaraguj
 EndChar
 
-StartChar: auvowelsignguj_raguj_viramaguj
+StartChar: ausignguj_raguj_viramaguj
 Encoding: 65655 -1 191
 Width: 240
 GlyphClass: 2
@@ -8392,10 +8392,10 @@ SplineSet
  -224 705 -224 705 -265 705 c 1,39,-1
  -265 705 l 1,29,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" auvowelsignguj raguj_viramaguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ausignguj raguj_viramaguj
 EndChar
 
-StartChar: auvowelsign_ra_virama_anusvara
+StartChar: ausign_ra_virama_anusvara
 Encoding: 65656 -1 192
 Width: 240
 GlyphClass: 2
@@ -8449,10 +8449,10 @@ SplineSet
  -224 705 -224 705 -265 705 c 1,52,-1
  -265 705 l 1,42,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" auvowelsignguj raguj_viramaguj_anusvaraguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ausignguj raguj_viramaguj_anusvaraguj
 EndChar
 
-StartChar: ecandravowelsignguj_anusvara
+StartChar: ecandrasignguj_anusvaraguj
 Encoding: 65657 -1 193
 Width: 0
 GlyphClass: 4
@@ -8484,10 +8484,10 @@ SplineSet
  -90 500 -90 500 -120 500 c 1,27,-1
  -120 500 l 1,13,14
 EndSplineSet
-Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" ecandravowelsignguj anusvaraguj
+Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" ecandrasignguj anusvaraguj
 EndChar
 
-StartChar: ocandravowelsignguj_anusvara
+StartChar: ocandrasignguj_anusvaraguj
 Encoding: 65658 -1 194
 Width: 240
 GlyphClass: 2
@@ -8524,7 +8524,7 @@ SplineSet
  138 625 138 625 115 625 c 1,32,-1
  115 625 l 1,20,21
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ocandravowelsignguj anusvaraguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ocandrasignguj anusvaraguj
 EndChar
 
 StartChar: iguj_anusvaraguj
@@ -8771,7 +8771,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: raguj_uvowelsignguj_alt
+StartChar: raguj_usignguj_alt
 Encoding: 65663 -1 199
 Width: 664
 GlyphClass: 2
@@ -8823,10 +8823,10 @@ SplineSet
  515 100 515 100 434 100 c 1,54,-1
  434 100 l 1,34,-1
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" raguj uvowelsignguj
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" raguj usignguj
 EndChar
 
-StartChar: raguj_uuvowelsignguj_alt
+StartChar: raguj_uusignguj_alt
 Encoding: 65664 -1 200
 Width: 680
 GlyphClass: 2
@@ -8881,10 +8881,10 @@ SplineSet
  580 60 l 1,58,-1
  580 60 l 1,32,33
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" raguj uuvowelsignguj
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" raguj uusignguj
 EndChar
 
-StartChar: haguj_rvocalicvowelsignguj
+StartChar: haguj_rvocalicsignguj
 Encoding: 65665 -1 201
 Width: 545
 GlyphClass: 2
@@ -8941,10 +8941,10 @@ SplineSet
  460 -55 l 1,64,-1
  460 -55 l 1,0,-1
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" haguj rvocalicvowelsignguj
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" haguj rvocalicsignguj
 EndChar
 
-StartChar: jaguj_aavowelsignguj
+StartChar: jaguj_aasignguj
 Encoding: 65666 -1 202
 Width: 779
 GlyphClass: 2
@@ -8998,7 +8998,7 @@ SplineSet
  375 50 375 50 398 50 c 1,60,-1
  398 50 l 1,48,49
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj aavowelsignguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj aasignguj
 EndChar
 
 StartChar: jaguj_iisignguj
@@ -9067,7 +9067,7 @@ EndSplineSet
 Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj iisignguj
 EndChar
 
-StartChar: raguj_uuvowelsignguj
+StartChar: raguj_uusignguj
 Encoding: 65668 -1 204
 Width: 437
 GlyphClass: 2
@@ -9116,10 +9116,10 @@ SplineSet
  353 -130 l 1,54,-1
  353 -130 l 1,0,1
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" raguj uuvowelsignguj
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" raguj uusignguj
 EndChar
 
-StartChar: da_rvocalicvowelsignguj
+StartChar: da_rvocalicsignguj
 Encoding: 65669 -1 205
 Width: 466
 GlyphClass: 2
@@ -9163,7 +9163,7 @@ SplineSet
  184 260 184 260 238 260 c 1,47,-1
  238 260 l 1,0,-1
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" daguj rvocalicvowelsignguj
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" daguj rvocalicsignguj
 EndChar
 
 StartChar: kaguj_viramaguj_kaguj
@@ -12501,7 +12501,7 @@ Ligature2: "'blwf' Below Base Forms in Gujarati lookup 3-1" viramaguj raguj
 Ligature2: "'blwf' Below Base Forms in Gujarati lookup 3-1" raguj viramaguj
 EndChar
 
-StartChar: raguj_viramaguj_uvowelsignguj
+StartChar: raguj_viramaguj_usignguj
 Encoding: 65720 -1 256
 Width: 0
 GlyphClass: 4
@@ -12536,10 +12536,10 @@ SplineSet
  16 -250 16 -250 -85 -250 c 1,31,-1
  -85 -250 l 1,0,1
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" viramaguj_raguj uvowelsignguj
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" viramaguj_raguj usignguj
 EndChar
 
-StartChar: raguj_viramaguj_uuvowelsignguj
+StartChar: raguj_viramaguj_uusignguj
 Encoding: 65721 -1 257
 Width: 0
 GlyphClass: 4
@@ -12570,7 +12570,7 @@ SplineSet
  265 -240 l 1,25,-1
  265 -240 l 1,0,1
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" viramaguj_raguj uuvowelsignguj
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" viramaguj_raguj uusignguj
 EndChar
 
 StartChar: raguj_viramaguj
@@ -12641,7 +12641,7 @@ EndSplineSet
 Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" raguj_viramaguj anusvaraguj
 EndChar
 
-StartChar: nnaguj_uvowelsignguj
+StartChar: nnaguj_usignguj
 Encoding: 65724 -1 260
 Width: 759
 GlyphClass: 2
@@ -12710,7 +12710,7 @@ SplineSet
  631 -205 631 -205 554 -205 c 1,75,-1
  554 -205 l 1,49,50
 EndSplineSet
-Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" nnaguj uvowelsignguj
+Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" nnaguj usignguj
 EndChar
 
 StartChar: chaguj_viramaguj_vaguj
@@ -12846,7 +12846,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: jaguj_ovowelsignguj
+StartChar: jaguj_osignguj
 Encoding: 65728 -1 264
 Width: 779
 GlyphClass: 2
@@ -12910,10 +12910,10 @@ SplineSet
  377 710 377 710 338 710 c 1,71,-1
  338 710 l 1,61,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ovowelsignguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj osignguj
 EndChar
 
-StartChar: ja_ovowelsign_anusvaraguj
+StartChar: ja_osignguj_anusvaraguj
 Encoding: 65729 -1 265
 Width: 779
 GlyphClass: 2
@@ -12987,10 +12987,10 @@ SplineSet
  736 645 736 645 713 645 c 1,84,-1
  713 645 l 1,72,73
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ovowelsignguj anusvaraguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj osignguj anusvaraguj
 EndChar
 
-StartChar: ja_ovowelsign_raguj_viramaguj
+StartChar: ja_osignguj_raguj_viramaguj
 Encoding: 65730 -1 266
 Width: 779
 GlyphClass: 2
@@ -13065,10 +13065,10 @@ SplineSet
  372 715 372 715 333 715 c 1,87,-1
  333 715 l 1,61,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ovowelsignguj raguj_viramaguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj osignguj raguj_viramaguj
 EndChar
 
-StartChar: ja_ovowel_ra_virama_anusvara
+StartChar: ja_osign_ra_virama_anusvara
 Encoding: 65731 -1 267
 Width: 779
 GlyphClass: 2
@@ -13153,10 +13153,10 @@ SplineSet
  372 715 372 715 333 715 c 1,100,-1
  333 715 l 1,74,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ovowelsignguj raguj_viramaguj_anusvaraguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj osignguj raguj_viramaguj_anusvaraguj
 EndChar
 
-StartChar: jaguj_auvowelsignguj
+StartChar: jaguj_ausignguj
 Encoding: 65732 -1 268
 Width: 779
 GlyphClass: 2
@@ -13230,10 +13230,10 @@ SplineSet
  302 705 302 705 263 705 c 1,82,-1
  263 705 l 1,72,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj auvowelsignguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ausignguj
 EndChar
 
-StartChar: ja_auvowelsign_anusvaraguj
+StartChar: jaguj_ausignguj_anusvaraguj
 Encoding: 65733 -1 269
 Width: 779
 GlyphClass: 2
@@ -13317,10 +13317,10 @@ SplineSet
  756 635 756 635 733 635 c 1,95,-1
  733 635 l 1,83,84
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj auvowelsignguj anusvaraguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ausignguj anusvaraguj
 EndChar
 
-StartChar: ja_auvowelsign_raguj_viramaguj
+StartChar: jaguj_ausignguj_raguj_viramaguj
 Encoding: 65734 -1 270
 Width: 779
 GlyphClass: 2
@@ -13403,10 +13403,10 @@ SplineSet
  312 705 312 705 273 705 c 1,95,-1
  273 705 l 1,85,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj auvowelsignguj raguj_viramaguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ausignguj raguj_viramaguj
 EndChar
 
-StartChar: ja_auvowel_ra_virama_anusvara
+StartChar: ja_ausign_ra_virama_anusvara
 Encoding: 65735 -1 271
 Width: 779
 GlyphClass: 2
@@ -13499,10 +13499,10 @@ SplineSet
  322 705 322 705 283 705 c 1,108,-1
  283 705 l 1,98,-1
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj auvowelsignguj raguj_viramaguj_anusvaraguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ausignguj raguj_viramaguj_anusvaraguj
 EndChar
 
-StartChar: jaguj_ocandravowelsignguj
+StartChar: jaguj_ocandrasignguj
 Encoding: 65736 -1 272
 Width: 779
 GlyphClass: 2
@@ -13568,10 +13568,10 @@ SplineSet
  693 505 693 505 663 505 c 1,75,-1
  663 505 l 1,61,62
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ocandravowelsignguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ocandrasignguj
 EndChar
 
-StartChar: ja_ocandravowelsign_anusvara
+StartChar: ja_ocandrasign_anusvara
 Encoding: 65737 -1 273
 Width: 779
 GlyphClass: 2
@@ -13647,7 +13647,7 @@ SplineSet
  693 505 693 505 663 505 c 1,88,-1
  663 505 l 1,74,75
 EndSplineSet
-Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ocandravowelsignguj anusvaraguj
+Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ocandrasignguj anusvaraguj
 EndChar
 
 StartChar: yaguj_alt
