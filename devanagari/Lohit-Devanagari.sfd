@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1385634429
+ModificationTime: 1386588998
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -3391,6 +3391,7 @@ SplineSet
  318 -47 l 5,21,22
 EndSplineSet
 Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Substitution2: "LocalizedNpFormslookup2 subtable" jhadeva.np
 EndChar
 
 StartChar: nyadeva
@@ -6399,7 +6400,7 @@ SplineSet
  566 12 566 12 539.5 -24 c 128,-1,45
  513 -60 513 -60 466 -87 c 1,0,-1
 EndSplineSet
-Substitution2: "LocalizedNpFormslookup2 subtable" nep_five
+Substitution2: "LocalizedNpFormslookup2 subtable" fivedeva.np
 EndChar
 
 StartChar: sixdeva
@@ -6515,7 +6516,7 @@ SplineSet
  518 63 518 63 460.5 31.5 c 128,-1,21
  403 0 403 0 346 0 c 0,0,1
 EndSplineSet
-Substitution2: "LocalizedNpFormslookup2 subtable" nep_eight
+Substitution2: "LocalizedNpFormslookup2 subtable" eightdeva.np
 EndChar
 
 StartChar: ninedeva
@@ -7086,7 +7087,6 @@ SplineSet
  455 169 455 169 412.5 124.5 c 128,-1,41
  370 80 370 80 309 80 c 0,12,13
 EndSplineSet
-Substitution2: "LocalizedNpFormslookup2 subtable" nep_zha
 EndChar
 
 StartChar: yaheavydeva
@@ -18042,7 +18042,7 @@ EndSplineSet
 Ligature2: "VattuVariantslookup30 subtable" jadeva_viramadeva_nyadeva viramadeva_radeva
 EndChar
 
-StartChar: nep_ka_virama_ra
+StartChar: kadeva_viramadeva_radeva.np
 Encoding: 65718 -1 393
 Width: 771
 GlyphClass: 2
@@ -18093,7 +18093,7 @@ EndSplineSet
 Ligature2: "LocalizedNpFormslookup3 subtable" kadeva viramadeva radeva
 EndChar
 
-StartChar: nep_eight
+StartChar: eightdeva.np
 Encoding: 65719 -1 394
 Width: 664
 GlyphClass: 3
@@ -18126,7 +18126,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: nep_five
+StartChar: fivedeva.np
 Encoding: 65720 -1 395
 Width: 665
 GlyphClass: 2
@@ -18171,7 +18171,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: nep_zha
+StartChar: zhadeva.np
 Encoding: 65721 -1 396
 Width: 799
 GlyphClass: 2
@@ -18337,7 +18337,7 @@ Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva dhadeva_viramadeva
 Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva_dhadeva viramadeva_radeva viramadeva yadeva
 EndChar
 
-StartChar: nep_jha
+StartChar: jhadeva.np
 Encoding: 65723 -1 398
 Width: 913
 GlyphClass: 2
