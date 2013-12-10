@@ -132,7 +132,7 @@ ChainSub2: glyph "PstsSub_Chain_Eyelash-1"  0 0 0 4
 EndFPST
 ChainSub2: coverage "PstsSub_Chain_ExtdEMatra subtable"  0 0 0 1
  1 1 0
-  Coverage: 89 iisigndeva iisigndeva_anusvaradeva iisigndeva_radeva_viramadeva iisign_ra_virama_anusvara
+  Coverage: 77 iisigndeva iisigndeva_anusvaradeva iisign_ra_virama iisign_ra_virama_anusvara
   BCoverage: 232 rvocalicdeva kadeva phadeva qadeva fadeva rrvocalicdeva phadeva_radeva_nuktadeva phadeva_viramadeva_radeva kadeva_viramadeva_kadeva kadeva_viramadeva_tadeva kadeva_viramadeva_ladeva kadeva_viramadeva_vadeva phadeva_viramadeva_ladeva
  1
   SeqLookup: 0 "Single Substitution lookup 25" 
@@ -452,7 +452,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 34 34 12
+WinInfo: 0 34 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4621,7 +4621,7 @@ EndSplineSet
 Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
-StartChar: oevowelsigndeva
+StartChar: oesigndeva
 Encoding: 2362 2362 107
 Width: 0
 GlyphClass: 4
@@ -4638,7 +4638,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ooevowelsigndeva
+StartChar: ooesigndeva
 Encoding: 2363 2363 108
 Width: 266
 GlyphClass: 2
@@ -4714,7 +4714,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: aavowelsigndeva
+StartChar: aasigndeva
 Encoding: 2366 2366 111
 Width: 266
 GlyphClass: 2
@@ -4767,12 +4767,12 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
-Substitution2: "Single Substitiution Lookup for isigndeva_ja-1" isigndeva.ja
-Substitution2: "Single Substitution Lookup for isign_tha-1" isigndeva.tha
-Substitution2: "Single Substitution lookup 15 subtable" isigndeva.alt3
-Substitution2: "Single Substitution lookup 19 subtable" isigndeva.alt4
-Substitution2: "Single Substitution lookup 17 subtable" isigndeva.alt2
 Substitution2: "SingleSubs_ExtdISign_lookup13 per glyph data 0" isigndeva.alt1
+Substitution2: "Single Substitution lookup 17 subtable" isigndeva.alt2
+Substitution2: "Single Substitution lookup 19 subtable" isigndeva.alt4
+Substitution2: "Single Substitution lookup 15 subtable" isigndeva.alt3
+Substitution2: "Single Substitution Lookup for isign_tha-1" isigndeva.tha
+Substitution2: "Single Substitiution Lookup for isigndeva_ja-1" isigndeva.ja
 EndChar
 
 StartChar: iisigndeva
@@ -4811,7 +4811,7 @@ EndSplineSet
 Substitution2: "Single Substitution lookup 25 subtable" iisigndeva.alt1
 EndChar
 
-StartChar: uvowelsigndeva
+StartChar: usigndeva
 Encoding: 2369 2369 114
 Width: 0
 GlyphClass: 4
@@ -4842,7 +4842,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uuvowelsigndeva
+StartChar: uusigndeva
 Encoding: 2370 2370 115
 Width: 0
 GlyphClass: 4
@@ -4873,7 +4873,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: rvocalicvowelsigndeva
+StartChar: rvocalicsigndeva
 Encoding: 2371 2371 116
 Width: 0
 GlyphClass: 4
@@ -4902,7 +4902,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: rrvocalicvowelsigndeva
+StartChar: rrvocalicsigndeva
 Encoding: 2372 2372 117
 Width: 0
 GlyphClass: 4
@@ -4942,7 +4942,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ecandravowelsigndeva
+StartChar: ecandrasigndeva
 Encoding: 2373 2373 118
 Width: 0
 GlyphClass: 4
@@ -4965,7 +4965,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: eshortvowelsigndeva
+StartChar: eshortsigndeva
 Encoding: 2374 2374 119
 Width: 0
 GlyphClass: 4
@@ -4989,7 +4989,7 @@ EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
 EndChar
 
-StartChar: evowelsigndeva
+StartChar: esigndeva
 Encoding: 2375 2375 120
 Width: 0
 GlyphClass: 4
@@ -5007,7 +5007,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: aivowelsigndeva
+StartChar: aisigndeva
 Encoding: 2376 2376 121
 Width: 0
 GlyphClass: 4
@@ -5028,7 +5028,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ocandravowelsigndeva
+StartChar: ocandrasigndeva
 Encoding: 2377 2377 122
 Width: 266
 GlyphClass: 2
@@ -5059,7 +5059,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: oshortvowelsigndeva
+StartChar: oshortsigndeva
 Encoding: 2378 2378 123
 Width: 266
 GlyphClass: 2
@@ -5089,7 +5089,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ovowelsigndeva
+StartChar: osigndeva
 Encoding: 2379 2379 124
 Width: 266
 GlyphClass: 2
@@ -5114,7 +5114,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: auvowelsigndeva
+StartChar: ausigndeva
 Encoding: 2380 2380 125
 Width: 266
 GlyphClass: 2
@@ -5162,7 +5162,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: eprishthamatravowelsigndeva
+StartChar: eprishthamatrasigndeva
 Encoding: 2382 2382 127
 Width: 266
 GlyphClass: 2
@@ -5180,7 +5180,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: awvowelsigndeva
+StartChar: awsigndeva
 Encoding: 2383 2383 128
 Width: 266
 GlyphClass: 2
@@ -5372,7 +5372,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ecandralongvowelsigndeva
+StartChar: ecandralongsigndeva
 Encoding: 2389 2389 134
 Width: 0
 GlyphClass: 4
@@ -5402,7 +5402,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uevowelsigndeva
+StartChar: uesigndeva
 Encoding: 2390 2390 135
 Width: 0
 GlyphClass: 4
@@ -5425,7 +5425,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uuevowelsigndeva
+StartChar: uuesigndeva
 Encoding: 2391 2391 136
 Width: 0
 GlyphClass: 4
@@ -6011,7 +6011,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: lvocalicvowelsigndeva
+StartChar: lvocalicsigndeva
 Encoding: 2402 2402 147
 Width: 0
 GlyphClass: 4
@@ -6065,7 +6065,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: llvocalicvowelsigndeva
+StartChar: llvocalicsigndeva
 Encoding: 2403 2403 148
 Width: 0
 GlyphClass: 4
@@ -8914,7 +8914,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: evowelsigndeva_anusvaradeva
+StartChar: esigndeva_anusvaradeva
 Encoding: 65539 -1 216
 Width: 0
 GlyphClass: 4
@@ -8934,10 +8934,10 @@ SplineSet
  -103 666 l 1,7,-1
  -169 666 l 1,4,-1
 EndSplineSet
-Ligature2: "AboveBaseSubstitutionslookup subtable" evowelsigndeva anusvaradeva
+Ligature2: "AboveBaseSubstitutionslookup subtable" esigndeva anusvaradeva
 EndChar
 
-StartChar: evowelsigndeva_radeva_viramadeva.alt1
+StartChar: esign_ra_virama.alt1
 Encoding: 65540 -1 217
 Width: 0
 GlyphClass: 4
@@ -8965,10 +8965,10 @@ SplineSet
  -156 666 l 1,0,-1
 EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
-Ligature2: "AboveBaseSubstitutionslookup subtable" evowelsigndeva radeva_viramadeva
+Ligature2: "AboveBaseSubstitutionslookup subtable" esigndeva radeva_viramadeva
 EndChar
 
-StartChar: evowel_rphf_anusvaradeva
+StartChar: esign_ra_virama_anusvara
 Encoding: 65541 -1 218
 Width: 0
 GlyphClass: 4
@@ -9000,10 +9000,10 @@ SplineSet
  -29 746 l 1,24,-1
  -96 746 l 1,21,-1
 EndSplineSet
-Ligature2: "AboveBaseSubstitutionslookup subtable" evowelsigndeva radeva_viramadeva anusvaradeva
+Ligature2: "AboveBaseSubstitutionslookup subtable" esigndeva radeva_viramadeva anusvaradeva
 EndChar
 
-StartChar: aivowelsigndeva_anusvaradeva
+StartChar: aisigndeva_anusvaradeva
 Encoding: 65542 -1 219
 Width: 0
 GlyphClass: 4
@@ -9026,10 +9026,10 @@ SplineSet
  -105 666 l 1,10,-1
  -192 666 l 1,4,-1
 EndSplineSet
-Ligature2: "AboveBaseSubstitutionslookup subtable" aivowelsigndeva anusvaradeva
+Ligature2: "AboveBaseSubstitutionslookup subtable" aisigndeva anusvaradeva
 EndChar
 
-StartChar: aivowelsigndeva_radeva_viramadeva.alt1
+StartChar: aisign_ra_virama.alt1
 Encoding: 65543 -1 220
 Width: 0
 GlyphClass: 4
@@ -9060,10 +9060,10 @@ SplineSet
  -172 666 l 1,0,-1
 EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
-Ligature2: "AboveBaseSubstitutionslookup subtable" aivowelsigndeva radeva_viramadeva
+Ligature2: "AboveBaseSubstitutionslookup subtable" aisigndeva radeva_viramadeva
 EndChar
 
-StartChar: aivowelsign_rphf_anusvaradeva
+StartChar: aisign_ra_virama_anusvara
 Encoding: 65544 -1 221
 Width: 0
 GlyphClass: 4
@@ -9097,7 +9097,7 @@ SplineSet
  21 739 l 1,27,-1
  -52 739 l 1,24,-1
 EndSplineSet
-Ligature2: "AboveBaseSubstitutionslookup subtable" aivowelsigndeva radeva_viramadeva anusvaradeva
+Ligature2: "AboveBaseSubstitutionslookup subtable" aisigndeva radeva_viramadeva anusvaradeva
 EndChar
 
 StartChar: radeva_viramadeva
@@ -9125,7 +9125,6 @@ SplineSet
  -84 691 -84 691 -41 666 c 5,19,-1
  -128 666 l 5,0,1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "RephFormlookup7 subtable" radeva viramadeva
 EndChar
 
@@ -9196,8 +9195,8 @@ SplineSet
  -280 -220 l 1,6,-1
  -360 -220 l 1,0,-1
 EndSplineSet
-Ligature2: "BelowBaseFormslookup9 subtable" radeva viramadeva
 Ligature2: "BelowBaseFormslookup9 subtable" viramadeva radeva
+Ligature2: "BelowBaseFormslookup9 subtable" radeva viramadeva
 EndChar
 
 StartChar: shadeva_viramadeva_radeva
@@ -9246,11 +9245,11 @@ SplineSet
  57 240 l 1,41,-1
  13 290 l 1,12,-1
 EndSplineSet
-Ligature2: "VattuVariantslookup30 subtable" shadeva.alt viramadeva_radeva 
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva.alt radeva
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva viramadeva radeva
-Ligature2: "VattuVariantslookup30 subtable" shadeva_viramadeva_alt radeva
 Ligature2: "VattuVariantslookup30 subtable" shadeva viramadeva_radeva
+Ligature2: "VattuVariantslookup30 subtable" shadeva_viramadeva_alt radeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva viramadeva radeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva.alt radeva
+Ligature2: "VattuVariantslookup30 subtable" shadeva.alt viramadeva_radeva
 EndChar
 
 StartChar: phadeva_radeva_nuktadeva
@@ -9410,7 +9409,6 @@ SplineSet
  491 606 l 1,68,-1
  425 606 l 1,11,-1
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "AkhandFormslookup6 subtable" kadeva viramadeva ssadeva
 EndChar
 
@@ -11556,7 +11554,7 @@ Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva anusvaradeva
 Ligature2: "PostBaseSubstitutionslookup subtable" isigndeva anusvaradeva
 EndChar
 
-StartChar: isigndeva_radeva_viramadeva
+StartChar: isign_ra_virama
 Encoding: 65602 -1 279
 Width: 266
 GlyphClass: 4
@@ -11602,8 +11600,8 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
-Ligature2: "PostBaseSubstitutionslookup subtable" isigndeva radeva_viramadeva
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva radeva_viramadeva
+Ligature2: "PostBaseSubstitutionslookup subtable" isigndeva radeva_viramadeva
 EndChar
 
 StartChar: isign_ra_virama_anusvara
@@ -11656,8 +11654,8 @@ SplineSet
  759 746 l 1,50,-1
  686 746 l 1,47,-1
 EndSplineSet
-Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva radeva_viramadeva anusvaradeva
 Ligature2: "PostBaseSubstitutionslookup subtable" isigndeva radeva_viramadeva_anusvaradeva
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva radeva_viramadeva anusvaradeva
 EndChar
 
 StartChar: isigndeva.alt3
@@ -11735,7 +11733,7 @@ EndSplineSet
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt3 anusvaradeva
 EndChar
 
-StartChar: isigndeva_ra_virama.alt3
+StartChar: isign_ra_virama.alt3
 Encoding: 65606 -1 283
 Width: 266
 GlyphClass: 4
@@ -11878,7 +11876,7 @@ Ligature2: "PostBaseSubstitutionslookup subtable" iisigndeva anusvaradeva
 Substitution2: "Single Substitution lookup 25 subtable" iisign_ra_virama_anusvara.alt1
 EndChar
 
-StartChar: iisigndeva_radeva_viramadeva
+StartChar: iisign_ra_virama
 Encoding: 65609 -1 286
 Width: 266
 GlyphClass: 4
@@ -12054,7 +12052,7 @@ EndSplineSet
 Ligature2: "PostBaseSubstitutionslookup subtable" iisigndeva.alt1 anusvaradeva
 EndChar
 
-StartChar: iisigndeva_ra_virama.alt1
+StartChar: iisign_ra_virama.alt1
 Encoding: 65613 -1 290
 Width: 266
 GlyphClass: 4
@@ -12188,7 +12186,7 @@ SplineSet
  -15 -265 -15 -265 -69.5 -302.5 c 128,-1,31
  -124 -340 -124 -340 -201 -340 c 0,6,7
 EndSplineSet
-Ligature2: "BlwsSub_Ligature_Ukaar subtable" viramadeva_radeva uvowelsigndeva
+Ligature2: "BlwsSub_Ligature_Ukaar subtable" viramadeva_radeva usigndeva
 EndChar
 
 StartChar: vattudeva_uulowdeva
@@ -12225,7 +12223,7 @@ SplineSet
  -87 -273 l 1,27,-1
  -120 -326 l 1,6,7
 EndSplineSet
-Ligature2: "BlwsSub_Ligature_Ukaar subtable" viramadeva_radeva uuvowelsigndeva
+Ligature2: "BlwsSub_Ligature_Ukaar subtable" viramadeva_radeva uusigndeva
 EndChar
 
 StartChar: glyph244
@@ -12330,9 +12328,9 @@ SplineSet
  286 306 286 306 257.5 299.5 c 128,-1,17
  229 293 229 293 201 293 c 0,4,5
 EndSplineSet
-Ligature2: "Ligature Substitution lookup 28 subtable" rradeva viramadeva
-Ligature2: "HalfFormslookup10 subtable" radeva viramadeva zerowidthjoiner
 Ligature2: "Ligature Substitution lookup 28 subtable" viramadeva_radeva zerowidthjoiner
+Ligature2: "HalfFormslookup10 subtable" radeva viramadeva zerowidthjoiner
+Ligature2: "Ligature Substitution lookup 28 subtable" rradeva viramadeva
 EndChar
 
 StartChar: kadeva_viramadeva_radeva
@@ -13054,7 +13052,7 @@ Ligature2: "BelowBaseFormslookup9 subtable" hadeva viramadeva_radeva
 Ligature2: "VattuVariantslookup30 subtable" hadeva viramadeva_radeva
 EndChar
 
-StartChar: sha_virama_rvocalicvoweldeva
+StartChar: sha_virama_rvocalicdeva
 Encoding: 65637 -1 312
 Width: 625
 GlyphClass: 2
@@ -13113,8 +13111,8 @@ SplineSet
  13 313 l 1,12,-1
 EndSplineSet
 LCarets2: 1 0 
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva rvocalicvowelsigndeva
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva.alt rvocalicvowelsigndeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva rvocalicsigndeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva.alt rvocalicsigndeva
 EndChar
 
 StartChar: kadeva_viramadeva_kadeva
@@ -16901,7 +16899,7 @@ EndSplineSet
 Ligature2: "PreBaseSubstitutionslookup1 subtable" jadeva_viramadeva jadeva_viramadeva
 EndChar
 
-StartChar: dadeva_rvocalicvowelsigndeva
+StartChar: dadeva_rvocalicsigndeva
 Encoding: 65694 -1 369
 Width: 552
 GlyphClass: 2
@@ -16953,10 +16951,10 @@ SplineSet
  397 606 l 1,53,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "BlwsSub_Ligature_Ukaar subtable" dadeva rvocalicvowelsigndeva
+Ligature2: "BlwsSub_Ligature_Ukaar subtable" dadeva rvocalicsigndeva
 EndChar
 
-StartChar: radeva_uvowelsigndeva
+StartChar: radeva_usigndeva
 Encoding: 65695 -1 370
 Width: 639
 GlyphClass: 2
@@ -17000,10 +16998,10 @@ SplineSet
  242 606 l 1,42,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PstsSub_Ligature_Ra subtable" radeva uvowelsigndeva
+Ligature2: "PstsSub_Ligature_Ra subtable" radeva usigndeva
 EndChar
 
-StartChar: radeva_uuvowelsigndeva
+StartChar: radeva_uusigndeva
 Encoding: 65696 -1 371
 Width: 760
 GlyphClass: 2
@@ -17055,7 +17053,7 @@ SplineSet
  244 606 l 1,52,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "PstsSub_Ligature_Ra subtable" radeva uuvowelsigndeva
+Ligature2: "PstsSub_Ligature_Ra subtable" radeva uusigndeva
 EndChar
 
 StartChar: hadeva_rvocalicdeva
@@ -17117,7 +17115,7 @@ SplineSet
  406 606 l 1,67,-1
  -13 606 l 1,0,-1
 EndSplineSet
-Ligature2: "BlwsSub_Ligature_Ukaar subtable" hadeva rvocalicvowelsigndeva
+Ligature2: "BlwsSub_Ligature_Ukaar subtable" hadeva rvocalicsigndeva
 EndChar
 
 StartChar: nadeva_viramadeva_alt
@@ -17509,7 +17507,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: ovowelsigndeva_anusvaradeva
+StartChar: osigndeva_anusvaradeva
 Encoding: 65706 -1 381
 Width: 266
 GlyphClass: 4
@@ -17536,10 +17534,10 @@ SplineSet
  100 606 l 1,15,-1
  -13 606 l 1,4,-1
 EndSplineSet
-Ligature2: "AboveBaseSubstitutionslookup subtable" ovowelsigndeva anusvaradeva
+Ligature2: "AboveBaseSubstitutionslookup subtable" osigndeva anusvaradeva
 EndChar
 
-StartChar: ovowelsigndeva_radeva_viramadeva.alt1
+StartChar: osign_ra_virama.alt1
 Encoding: 65707 -1 382
 Width: 266
 GlyphClass: 4
@@ -17574,10 +17572,10 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
-Ligature2: "AboveBaseSubstitutionslookup subtable" ovowelsigndeva radeva_viramadeva
+Ligature2: "AboveBaseSubstitutionslookup subtable" osigndeva radeva_viramadeva
 EndChar
 
-StartChar: ovowelsign_rphf_anusvaradeva
+StartChar: osign_ra_virama_anusvara
 Encoding: 65708 -1 383
 Width: 266
 GlyphClass: 4
@@ -17616,10 +17614,10 @@ SplineSet
  100 606 l 1,32,-1
  -13 606 l 1,4,-1
 EndSplineSet
-Ligature2: "AboveBaseSubstitutionslookup subtable" ovowelsigndeva radeva_viramadeva anusvaradeva
+Ligature2: "AboveBaseSubstitutionslookup subtable" osigndeva radeva_viramadeva anusvaradeva
 EndChar
 
-StartChar: auvowelsigndeva_anusvaradeva
+StartChar: ausigndeva_anusvaradeva
 Encoding: 65709 -1 384
 Width: 266
 GlyphClass: 4
@@ -17649,10 +17647,10 @@ SplineSet
  100 606 l 1,18,-1
  -13 606 l 1,4,-1
 EndSplineSet
-Ligature2: "AboveBaseSubstitutionslookup subtable" auvowelsigndeva anusvaradeva
+Ligature2: "AboveBaseSubstitutionslookup subtable" ausigndeva anusvaradeva
 EndChar
 
-StartChar: auvowelsigndeva_radeva_viramadeva.alt1
+StartChar: ausign_ra_virama.alt1
 Encoding: 65710 -1 385
 Width: 266
 GlyphClass: 4
@@ -17688,10 +17686,10 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
-Ligature2: "AboveBaseSubstitutionslookup subtable" auvowelsigndeva radeva_viramadeva
+Ligature2: "AboveBaseSubstitutionslookup subtable" ausigndeva radeva_viramadeva
 EndChar
 
-StartChar: auvowelsign_rphf_anusvaradeva
+StartChar: ausign_ra_virama_anusvara
 Encoding: 65711 -1 386
 Width: 266
 GlyphClass: 4
@@ -17731,7 +17729,7 @@ SplineSet
  100 606 l 1,32,-1
  -13 606 l 1,4,-1
 EndSplineSet
-Ligature2: "AboveBaseSubstitutionslookup subtable" auvowelsigndeva radeva_viramadeva anusvaradeva
+Ligature2: "AboveBaseSubstitutionslookup subtable" ausigndeva radeva_viramadeva anusvaradeva
 EndChar
 
 StartChar: nyadeva_viramadeva_radeva
@@ -18646,12 +18644,12 @@ SplineSet
  373 304 l 9,35,-1
  373 198 l 17,14,-1
 EndSplineSet
-Ligature2: "VattuVariantslookup30 subtable" badeva_viramadeva viramadeva_radeva 
+Ligature2: "VattuVariantslookup30 subtable" badeva_viramadeva viramadeva_radeva
 Ligature2: "HalfFormslookup10 subtable" badeva_viramadeva_radeva viramadeva
 Ligature2: "VattuVariantslookup30 subtable" badeva viramadeva_radeva viramadeva
 EndChar
 
-StartChar: isigndeva_ra_virama.alt2
+StartChar: isign_ra_virama.alt2
 Encoding: 65537 -1 405
 Width: 266
 GlyphClass: 4
@@ -18833,7 +18831,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: isigndeva_ra_virama.alt4
+StartChar: isign_ra_virama.alt4
 Encoding: 65527 -1 409
 Width: 266
 GlyphClass: 4
@@ -18979,7 +18977,7 @@ EndSplineSet
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt1 anusvaradeva
 EndChar
 
-StartChar: isigndeva_ra_virama.alt1
+StartChar: isign_ra_virama.alt1
 Encoding: 65523 -1 412
 Width: 266
 GlyphClass: 4
@@ -19172,7 +19170,7 @@ EndSplineSet
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.tha radeva_viramadeva anusvaradeva
 EndChar
 
-StartChar: isigndeva_radeva_viramadeva.tha
+StartChar: isign_ra_virama.tha
 Encoding: 65520 -1 416
 Width: 266
 GlyphClass: 4
@@ -19291,7 +19289,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: isigndeva_anusvara.ja
+StartChar: isigndeva_anusvaradeva.ja
 Encoding: 65516 -1 419
 Width: 266
 GlyphClass: 4
@@ -19332,7 +19330,7 @@ EndSplineSet
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.ja anusvaradeva
 EndChar
 
-StartChar: isigndeva_radeva_viramadeva.ja
+StartChar: isign_ra_virama.ja
 Encoding: 65515 -1 420
 Width: 266
 GlyphClass: 4

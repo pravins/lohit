@@ -50,6 +50,7 @@ Usage of matras additionally included :
 
 
 Glyph names are as follows, please check sfd file for actual shapes
+ 
   *  .notdef
   *  nonmarkingreturn
   *  space
@@ -157,36 +158,36 @@ Glyph names are as follows, please check sfd file for actual shapes
   *  ssadeva
   *  sadeva
   *  hadeva
-  *  oevowelsigndeva
-  *  ooevowelsigndeva
+  *  oesigndeva
+  *  ooesigndeva
   *  nuktadeva
   *  avagrahadeva
-  *  aavowelsigndeva
+  *  aasigndeva
   *  isigndeva
   *  iisigndeva
-  *  uvowelsigndeva
-  *  uuvowelsigndeva
-  *  rvocalicvowelsigndeva
-  *  rrvocalicvowelsigndeva
-  *  ecandravowelsigndeva
-  *  eshortvowelsigndeva
-  *  evowelsigndeva
-  *  aivowelsigndeva
-  *  ocandravowelsigndeva
-  *  oshortvowelsigndeva
-  *  ovowelsigndeva
-  *  auvowelsigndeva
+  *  usigndeva
+  *  uusigndeva
+  *  rvocalicsigndeva
+  *  rrvocalicsigndeva
+  *  ecandrasigndeva
+  *  eshortsigndeva
+  *  esigndeva
+  *  aisigndeva
+  *  ocandrasigndeva
+  *  oshortsigndeva
+  *  osigndeva
+  *  ausigndeva
   *  viramadeva
-  *  eprishthamatravowelsigndeva
-  *  awvowelsigndeva
+  *  eprishthamatrasigndeva
+  *  awsigndeva
   *  omdeva
   *  udattadeva
   *  anudattadeva
   *  gravedeva
   *  acutedeva
-  *  ecandralongvowelsigndeva
-  *  uevowelsigndeva
-  *  uuevowelsigndeva
+  *  ecandralongsigndeva
+  *  uesigndeva
+  *  uuesigndeva
   *  qadeva
   *  khhadeva
   *  ghhadeva
@@ -197,8 +198,8 @@ Glyph names are as follows, please check sfd file for actual shapes
   *  yyadeva
   *  rrvocalicdeva
   *  llvocalicdeva
-  *  lvocalicvowelsigndeva
-  *  llvocalicvowelsigndeva
+  *  lvocalicsigndeva
+  *  llvocalicsigndeva
   *  danda
   *  dbldanda
   *  zerodeva
@@ -266,12 +267,12 @@ Glyph names are as follows, please check sfd file for actual shapes
   *  caretdeva
   *  headstrokedeva
   *  isigndeva.alt1
-  *  evowelsigndeva_anusvaradeva
-  *  evowelsigndeva_radeva_viramadeva.alt1
-  *  evowel_rphf_anusvaradeva
-  *  aivowelsigndeva_anusvaradeva
-  *  aivowelsigndeva_radeva_viramadeva.alt1
-  *  aivowelsign_rphf_anusvaradeva
+  *  esigndeva_anusvaradeva
+  *  esign_ra_virama.alt1
+  *  esign_ra_virama_anusvara
+  *  aisigndeva_anusvaradeva
+  *  aisign_ra_virama.alt1
+  *  aisign_ra_virama_anusvara
   *  radeva_viramadeva
   *  radeva_viramadeva_anusvaradeva
   *  viramadeva_radeva_alt
@@ -329,18 +330,18 @@ Glyph names are as follows, please check sfd file for actual shapes
   *  ka_virama_ssa_viramadeva
   *  ja_virama_nya_viramadeva
   *  isigndeva_anusvaradeva
-  *  isigndeva_radeva_viramadeva
+  *  isign_ra_virama
   *  isign_ra_virama_anusvara
   *  isigndeva.alt3
   *  isigndeva_anusvaradeva.alt3
-  *  isigndeva_ra_virama.alt3
+  *  isign_ra_virama.alt3
   *  isign_ra_virama_anusvara.alt3
   *  iisigndeva_anusvaradeva
-  *  iisigndeva_radeva_viramadeva
+  *  iisign_ra_virama
   *  iisign_ra_virama_anusvara
   *  iisigndeva.alt1
   *  iisigndeva_anusvaradeva.alt1
-  *  iisigndeva_ra_virama.alt1
+  *  iisign_ra_virama.alt1
   *  iisign_ra_virama_anusvara.alt1
   *  vattudeva_ulowdeva
   *  vattudeva_uulowdeva
@@ -362,7 +363,7 @@ Glyph names are as follows, please check sfd file for actual shapes
   *  vadeva_viramadeva_radeva
   *  sadeva_viramadeva_radeva
   *  hadeva_viramadeva_radeva
-  *  sha_virama_rvocalicvoweldeva
+  *  sha_virama_rvocalicdeva
   *  kadeva_viramadeva_kadeva
   *  kadeva_viramadeva_tadeva
   *  kadeva_viramadeva_ladeva
@@ -419,9 +420,9 @@ Glyph names are as follows, please check sfd file for actual shapes
   *  hadeva_viramadeva_vadeva
   *  sa_virama_ta_virama_radeva
   *  ja_virama_ja_viramadeva
-  *  dadeva_rvocalicvowelsigndeva
-  *  radeva_uvowelsigndeva
-  *  radeva_uuvowelsigndeva
+  *  dadeva_rvocalicsigndeva
+  *  radeva_usigndeva
+  *  radeva_uusigndeva
   *  hadeva_rvocalicdeva
   *  nadeva_viramadeva_alt
   *  ghadeva_viramadeva_radeva
@@ -431,44 +432,44 @@ Glyph names are as follows, please check sfd file for actual shapes
   *  nadeva_viramadeva_radeva
   *  ladeva_viramadeva_radeva
   *  nga_virama_ka_viramadeva
-  *  ovowelsigndeva_anusvaradeva
-  *  ovowelsigndeva_radeva_viramadeva.alt1
-  *  ovowelsign_rphf_anusvaradeva
-  *  auvowelsigndeva_anusvaradeva
-  *  auvowelsigndeva_radeva_viramadeva.alt1
-  *  auvowelsign_rphf_anusvaradeva
+  *  osigndeva_anusvaradeva
+  *  osign_ra_virama.alt1
+  *  osign_ra_virama_anusvara
+  *  ausigndeva_anusvaradeva
+  *  ausign_ra_virama.alt1
+  *  ausign_ra_virama_anusvara
   *  nyadeva_viramadeva_radeva
   *  nnadeva_viramadeva_radeva
   *  yadeva_viramadeva_radeva
   *  ssadeva_viramadeva_radeva
   *  ka_virama_ssa_virama_radeva
   *  ja_virama_nya_virama_radeva
-  *  nep_ka_virama_ra
-  *  nep_eight
-  *  nep_five
-  *  nep_zha
+  *  kadeva_viramadeva_radeva.np
+  *  eightdeva.np
+  *  fivedeva.np
+  *  zhadeva.np
   *  da_ddha_ra_yadeva
-  *  nep_jha
+  *  jhadeva.np
   *  nep_jha_virama
   *  ladeva.alt
   *  shadeva.alt
   *  shadeva_viramadeva.alt
   *  zerowidthjoiner
   *  ba_virama_ra_viramadeva
-  *  isigndeva_ra_virama.alt2
+  *  isign_ra_virama.alt2
   *  isign_ra_virama_anusvara.alt2
   *  isigndeva_anusvaradeva.alt4
   *  isigndeva.alt4
-  *  isigndeva_ra_virama.alt4
+  *  isign_ra_virama.alt4
   *  isign_ra_virama_anusvara.alt4
   *  isigndeva_anusvara.alt1
-  *  isigndeva_ra_virama.alt1
+  *  isign_ra_virama.alt1
   *  isign_ra_virama_anusvara.alt1
   *  isigndeva_anusvara.tha
   *  isign_ra_virama_anusvara.tha
-  *  isigndeva_radeva_viramadeva.tha
+  *  isign_ra_virama.tha
   *  isigndeva.tha
   *  isigndeva.ja
-  *  isigndeva_anusvara.ja
-  *  isigndeva_radeva_viramadeva.ja
+  *  isigndeva_anusvaradeva.ja
+  *  isign_ra_virama.ja
   *  isign_ra_virama_anusvara.ja
