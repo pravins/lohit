@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1101340800
-ModificationTime: 1386311282
+ModificationTime: 1386674839
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -74,6 +74,12 @@ Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 23"  {"'pres' Pre Base Subst
 Lookup: 1 0 0 "Single Substitution lookup 18"  {"Single Substitution lookup 18-1"  } []
 Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 27"  {"'pres' Pre Base Substitutions lookup 27-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution Lookup 19"  {"Single Substitution Lookup 19-1"  } []
+Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 30"  {"'pres' Pre Base Substitutions lookup 30-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution Lookup 20 "  {"Single Substitution Lookup 20 -1"  } []
+Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 31"  {"'pres' Pre Base Substitutions lookup 31-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution Lookup 21"  {"Single Substitution Lookup 21-1"  } []
+Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 33"  {"'pres' Pre Base Substitutions lookup 33-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution Lookup 22"  {"Single Substitution Lookup 22-1"  } []
 Lookup: 4 6 0 "'pres' Pre Base Substitutions lookup reph_anu"  {"'pres' Pre Base Substitutions lookup reph_anu-1"  } ['pres' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'abvs' Above Base Substitutions in Gujarati lookup 8"  {"'abvs' Above Base Substitutions in Gujarati lookup 8-1"  } ['abvs' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions in Gujarati lookup 9"  {"'psts' Post Base Substitutions in Gujarati lookup 9-1"  } ['psts' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
@@ -83,10 +89,31 @@ Lookup: 260 0 0 "'blwm' Below Base Mark in Gujarati lookup 1"  {"'blwm' Below Ba
 Lookup: 260 0 0 "'abvm' Above Base Mark in Gujarati lookup 2"  {"'abvm' Above Base Mark in Gujarati lookup 2 subtable"  } ['abvm' ('gjr2' <'dflt' > 'gujr' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'pres' Pre Base Substitutions lookup 33-1"  0 0 0 1
+ 1 0 1
+  Coverage: 8 isignguj
+  FCoverage: 171 gaguj ghaguj taguj paguj maguj ssaguj gaguj_viramaguj_raguj ghaguj_viramaguj_raguj taguj_viramaguj_raguj paguj_viramaguj_raguj maguj_viramaguj_raguj ssaguj_viramaguj_raguj
+ 1
+  SeqLookup: 0 "Single Substitution Lookup 22" 
+EndFPST
+ChainSub2: coverage "'pres' Pre Base Substitutions lookup 31-1"  0 0 0 1
+ 1 0 1
+  Coverage: 8 isignguj
+  FCoverage: 108 khaguj caguj saguj khaguj_viramaguj_raguj caguj_viramaguj_raguj saguj_viramaguj_raguj kaguj_viramaguj_ssaguj
+ 1
+  SeqLookup: 0 "Single Substitution Lookup 21" 
+EndFPST
+ChainSub2: coverage "'pres' Pre Base Substitutions lookup 30-1"  0 0 0 1
+ 1 0 1
+  Coverage: 8 isignguj
+  FCoverage: 64 nyaguj baguj bhaguj baguj_viramaguj_raguj bhaguj_viramaguj_raguj
+ 1
+  SeqLookup: 0 "Single Substitution Lookup 20 " 
+EndFPST
 ChainSub2: coverage "'pres' Pre Base Substitutions lookup 27-1"  0 0 0 1
  1 0 1
   Coverage: 8 isignguj
-  FCoverage: 65 chaguj thaguj shaguj_viramaguj_vaguj_pri_a chaguj_viramaguj_vaguj
+  FCoverage: 246 chaguj jaguj jhaguj thaguj dhaguj naguj laguj llaguj shagujjaguj_viramaguj_raguj jhaguj_viramaguj_raguj thaguj_viramaguj_raguj dhaguj_viramaguj_raguj laguj_viramaguj_raguj llaguj_viramaguj_raguj shaguj_viramaguj_vaguj_pri_a chaguj_viramaguj_vaguj
  1
   SeqLookup: 0 "Single Substitution Lookup 19" 
 EndFPST
@@ -433,33 +460,10 @@ WinInfo: 0 34 12
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0"  "'abvm' Above Base Mark in Gujarati lookup 2 subtable" "Anchor-1"  "'blwm' Below Base Mark in Gujarati lookup 1 subtable" "Anchor-2"  "'blwm' Below Base Mark in Gujarati lookup 0 subtable" 
-BeginChars: 65773 340
-
-StartChar: .notdef
-Encoding: 65536 -1 0
-Width: 800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-100 0 m 1,0,-1
- 100 700 l 1,1,-1
- 700 700 l 1,2,-1
- 700 0 l 1,3,-1
- 100 0 l 1,4,-1
- 100 0 l 1,0,-1
-150 50 m 1,5,-1
- 650 50 l 1,6,-1
- 650 650 l 1,7,-1
- 150 650 l 1,8,-1
- 150 50 l 1,9,-1
- 150 50 l 1,5,-1
-EndSplineSet
-EndChar
+BeginChars: 65773 351
 
 StartChar: .null
-Encoding: 0 0 1
+Encoding: 0 0 0
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -467,7 +471,7 @@ LayerCount: 2
 EndChar
 
 StartChar: nonmarkingreturn
-Encoding: 12 12 2
+Encoding: 12 12 1
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -475,7 +479,7 @@ LayerCount: 2
 EndChar
 
 StartChar: space
-Encoding: 32 32 3
+Encoding: 32 32 2
 Width: 239
 GlyphClass: 2
 Flags: W
@@ -483,7 +487,7 @@ LayerCount: 2
 EndChar
 
 StartChar: exclam
-Encoding: 33 33 4
+Encoding: 33 33 3
 Width: 290
 GlyphClass: 2
 Flags: W
@@ -512,7 +516,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedbl
-Encoding: 34 34 5
+Encoding: 34 34 4
 Width: 376
 GlyphClass: 2
 Flags: W
@@ -535,7 +539,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotesingle
-Encoding: 39 39 6
+Encoding: 39 39 5
 Width: 246
 GlyphClass: 2
 Flags: W
@@ -552,7 +556,7 @@ EndSplineSet
 EndChar
 
 StartChar: parenleft
-Encoding: 40 40 7
+Encoding: 40 40 6
 Width: 465
 GlyphClass: 2
 Flags: W
@@ -575,7 +579,7 @@ EndSplineSet
 EndChar
 
 StartChar: parenright
-Encoding: 41 41 8
+Encoding: 41 41 7
 Width: 450
 GlyphClass: 2
 Flags: W
@@ -598,7 +602,7 @@ EndSplineSet
 EndChar
 
 StartChar: comma
-Encoding: 44 44 9
+Encoding: 44 44 8
 Width: 355
 GlyphClass: 2
 Flags: W
@@ -624,7 +628,7 @@ EndSplineSet
 EndChar
 
 StartChar: hyphen
-Encoding: 45 45 10
+Encoding: 45 45 9
 Width: 620
 GlyphClass: 2
 Flags: W
@@ -641,7 +645,7 @@ EndSplineSet
 EndChar
 
 StartChar: period
-Encoding: 46 46 11
+Encoding: 46 46 10
 Width: 290
 GlyphClass: 2
 Flags: W
@@ -662,7 +666,7 @@ EndSplineSet
 EndChar
 
 StartChar: colon
-Encoding: 58 58 12
+Encoding: 58 58 11
 Width: 310
 GlyphClass: 2
 Flags: W
@@ -693,7 +697,7 @@ EndSplineSet
 EndChar
 
 StartChar: semicolon
-Encoding: 59 59 13
+Encoding: 59 59 12
 Width: 340
 GlyphClass: 2
 Flags: W
@@ -729,7 +733,7 @@ EndSplineSet
 EndChar
 
 StartChar: question
-Encoding: 63 63 14
+Encoding: 63 63 13
 Width: 506
 GlyphClass: 2
 Flags: W
@@ -778,7 +782,7 @@ EndSplineSet
 EndChar
 
 StartChar: underscore
-Encoding: 95 95 15
+Encoding: 95 95 14
 Width: 715
 GlyphClass: 2
 Flags: W
@@ -795,7 +799,7 @@ EndSplineSet
 EndChar
 
 StartChar: grave
-Encoding: 96 96 16
+Encoding: 96 96 15
 Width: 286
 GlyphClass: 2
 Flags: W
@@ -812,7 +816,7 @@ EndSplineSet
 EndChar
 
 StartChar: danda
-Encoding: 2404 2404 17
+Encoding: 2404 2404 16
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -829,7 +833,7 @@ EndSplineSet
 EndChar
 
 StartChar: doubledanda
-Encoding: 2405 2405 18
+Encoding: 2405 2405 17
 Width: 420
 GlyphClass: 2
 Flags: W
@@ -852,7 +856,7 @@ EndSplineSet
 EndChar
 
 StartChar: candrabinduguj
-Encoding: 2689 2689 19
+Encoding: 2689 2689 18
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -886,7 +890,7 @@ EndSplineSet
 EndChar
 
 StartChar: anusvaraguj
-Encoding: 2690 2690 20
+Encoding: 2690 2690 19
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -908,7 +912,7 @@ EndSplineSet
 EndChar
 
 StartChar: visargaguj
-Encoding: 2691 2691 21
+Encoding: 2691 2691 20
 Width: 305
 GlyphClass: 2
 Flags: W
@@ -939,7 +943,7 @@ EndSplineSet
 EndChar
 
 StartChar: aguj
-Encoding: 2693 2693 22
+Encoding: 2693 2693 21
 Width: 731
 GlyphClass: 2
 Flags: W
@@ -988,7 +992,7 @@ EndSplineSet
 EndChar
 
 StartChar: aaguj
-Encoding: 2694 2694 23
+Encoding: 2694 2694 22
 Width: 971
 GlyphClass: 2
 Flags: W
@@ -1043,7 +1047,7 @@ EndSplineSet
 EndChar
 
 StartChar: iguj
-Encoding: 2695 2695 24
+Encoding: 2695 2695 23
 Width: 529
 GlyphClass: 2
 Flags: W
@@ -1093,7 +1097,7 @@ EndSplineSet
 EndChar
 
 StartChar: iiguj
-Encoding: 2696 2696 25
+Encoding: 2696 2696 24
 Width: 532
 GlyphClass: 2
 Flags: W
@@ -1147,7 +1151,7 @@ EndSplineSet
 EndChar
 
 StartChar: uguj
-Encoding: 2697 2697 26
+Encoding: 2697 2697 25
 Width: 550
 GlyphClass: 2
 Flags: W
@@ -1193,7 +1197,7 @@ EndSplineSet
 EndChar
 
 StartChar: uuguj
-Encoding: 2698 2698 27
+Encoding: 2698 2698 26
 Width: 735
 GlyphClass: 2
 Flags: W
@@ -1245,7 +1249,7 @@ EndSplineSet
 EndChar
 
 StartChar: rvocalicguj
-Encoding: 2699 2699 28
+Encoding: 2699 2699 27
 Width: 879
 GlyphClass: 2
 Flags: W
@@ -1306,7 +1310,7 @@ EndSplineSet
 EndChar
 
 StartChar: lvocalicguj
-Encoding: 2700 2700 29
+Encoding: 2700 2700 28
 Width: 610
 GlyphClass: 2
 Flags: W
@@ -1360,7 +1364,7 @@ EndSplineSet
 EndChar
 
 StartChar: ecandraguj
-Encoding: 2701 2701 30
+Encoding: 2701 2701 29
 Width: 731
 GlyphClass: 2
 Flags: W
@@ -1421,7 +1425,7 @@ EndSplineSet
 EndChar
 
 StartChar: eguj
-Encoding: 2703 2703 31
+Encoding: 2703 2703 30
 Width: 731
 GlyphClass: 2
 Flags: W
@@ -1480,7 +1484,7 @@ EndSplineSet
 EndChar
 
 StartChar: aiguj
-Encoding: 2704 2704 32
+Encoding: 2704 2704 31
 Width: 731
 GlyphClass: 2
 Flags: W
@@ -1549,7 +1553,7 @@ EndSplineSet
 EndChar
 
 StartChar: ocandraguj
-Encoding: 2705 2705 33
+Encoding: 2705 2705 32
 Width: 968
 GlyphClass: 2
 Flags: W
@@ -1616,7 +1620,7 @@ EndSplineSet
 EndChar
 
 StartChar: oguj
-Encoding: 2707 2707 34
+Encoding: 2707 2707 33
 Width: 971
 GlyphClass: 2
 Flags: W
@@ -1681,7 +1685,7 @@ EndSplineSet
 EndChar
 
 StartChar: auguj
-Encoding: 2708 2708 35
+Encoding: 2708 2708 34
 Width: 969
 GlyphClass: 2
 Flags: W
@@ -1756,7 +1760,7 @@ EndSplineSet
 EndChar
 
 StartChar: kaguj
-Encoding: 2709 2709 36
+Encoding: 2709 2709 35
 Width: 474
 GlyphClass: 2
 Flags: W
@@ -1804,7 +1808,7 @@ EndSplineSet
 EndChar
 
 StartChar: khaguj
-Encoding: 2710 2710 37
+Encoding: 2710 2710 36
 Width: 636
 GlyphClass: 2
 Flags: W
@@ -1846,7 +1850,7 @@ EndSplineSet
 EndChar
 
 StartChar: gaguj
-Encoding: 2711 2711 38
+Encoding: 2711 2711 37
 Width: 578
 GlyphClass: 2
 Flags: W
@@ -1884,7 +1888,7 @@ EndSplineSet
 EndChar
 
 StartChar: ghaguj
-Encoding: 2712 2712 39
+Encoding: 2712 2712 38
 Width: 560
 GlyphClass: 2
 Flags: W
@@ -1929,7 +1933,7 @@ EndSplineSet
 EndChar
 
 StartChar: ngaguj
-Encoding: 2713 2713 40
+Encoding: 2713 2713 39
 Width: 539
 GlyphClass: 2
 Flags: W
@@ -1981,7 +1985,7 @@ EndSplineSet
 EndChar
 
 StartChar: caguj
-Encoding: 2714 2714 41
+Encoding: 2714 2714 40
 Width: 638
 GlyphClass: 2
 Flags: W
@@ -2024,7 +2028,7 @@ EndSplineSet
 EndChar
 
 StartChar: chaguj
-Encoding: 2715 2715 42
+Encoding: 2715 2715 41
 Width: 622
 GlyphClass: 2
 Flags: W
@@ -2084,7 +2088,7 @@ EndSplineSet
 EndChar
 
 StartChar: jaguj
-Encoding: 2716 2716 43
+Encoding: 2716 2716 42
 Width: 594
 GlyphClass: 2
 Flags: W
@@ -2140,7 +2144,7 @@ EndSplineSet
 EndChar
 
 StartChar: jhaguj
-Encoding: 2717 2717 44
+Encoding: 2717 2717 43
 Width: 620
 GlyphClass: 2
 Flags: W
@@ -2192,7 +2196,7 @@ EndSplineSet
 EndChar
 
 StartChar: nyaguj
-Encoding: 2718 2718 45
+Encoding: 2718 2718 44
 Width: 673
 GlyphClass: 2
 Flags: W
@@ -2231,7 +2235,7 @@ EndSplineSet
 EndChar
 
 StartChar: ttaguj
-Encoding: 2719 2719 46
+Encoding: 2719 2719 45
 Width: 442
 GlyphClass: 2
 Flags: W
@@ -2273,7 +2277,7 @@ EndSplineSet
 EndChar
 
 StartChar: tthaguj
-Encoding: 2720 2720 47
+Encoding: 2720 2720 46
 Width: 495
 GlyphClass: 2
 Flags: W
@@ -2318,7 +2322,7 @@ EndSplineSet
 EndChar
 
 StartChar: ddaguj
-Encoding: 2721 2721 48
+Encoding: 2721 2721 47
 Width: 498
 GlyphClass: 2
 Flags: W
@@ -2360,7 +2364,7 @@ EndSplineSet
 EndChar
 
 StartChar: ddhaguj
-Encoding: 2722 2722 49
+Encoding: 2722 2722 48
 Width: 478
 GlyphClass: 2
 Flags: W
@@ -2417,7 +2421,7 @@ EndSplineSet
 EndChar
 
 StartChar: nnaguj
-Encoding: 2723 2723 50
+Encoding: 2723 2723 49
 Width: 758
 GlyphClass: 2
 Flags: W
@@ -2469,7 +2473,7 @@ EndSplineSet
 EndChar
 
 StartChar: taguj
-Encoding: 2724 2724 51
+Encoding: 2724 2724 50
 Width: 561
 GlyphClass: 2
 Flags: W
@@ -2499,7 +2503,7 @@ EndSplineSet
 EndChar
 
 StartChar: thaguj
-Encoding: 2725 2725 52
+Encoding: 2725 2725 51
 Width: 594
 GlyphClass: 2
 Flags: W
@@ -2547,7 +2551,7 @@ EndSplineSet
 EndChar
 
 StartChar: daguj
-Encoding: 2726 2726 53
+Encoding: 2726 2726 52
 Width: 465
 GlyphClass: 2
 Flags: W
@@ -2588,7 +2592,7 @@ EndSplineSet
 EndChar
 
 StartChar: dhaguj
-Encoding: 2727 2727 54
+Encoding: 2727 2727 53
 Width: 596
 GlyphClass: 2
 Flags: W
@@ -2596,38 +2600,38 @@ AnchorPoint: "Anchor-2" 224 56 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-226 50 m 1,0,1
- 158 50 158 50 109.5 91 c 128,-1,2
- 61 132 61 132 61 190 c 0,3,4
- 61 226 61 226 84.5 256 c 128,-1,5
- 108 286 108 286 146 300 c 1,6,7
- 104 311 104 311 77.5 339 c 0,8,9
- 32.501 397.256 32.501 397.256 77.9102 476.242 c 0,10,11
- 97.7852 510.813 97.7852 510.813 177.24 590.863 c 1,12,-1
- 222.013 555.159 l 1,13,14
- 167.045 510.11 167.045 510.11 136.299 461.772 c 0,15,16
- 83.1488 376.579 83.1488 376.579 156 346.5 c 0,17,18
- 206.733 326 206.733 326 276 325 c 1,19,-1
- 276 275 l 1,20,21
- 212 275 212 275 166.5 250 c 128,-1,22
- 121 225 121 225 121 190 c 0,23,24
- 121 153 121 153 152 126.5 c 128,-1,25
- 183 100 183 100 226 100 c 0,26,27
- 288 100 288 100 347 140 c 128,-1,28
- 406 180 406 180 446 250 c 1,29,-1
- 446 500 l 1,30,-1
- 506 500 l 1,31,-1
- 506 0 l 1,32,-1
- 446 0 l 1,33,-1
- 446 170 l 1,34,35
- 407 114 407 114 348.5 82 c 128,-1,36
- 290 50 290 50 226 50 c 1,37,-1
- 226 50 l 1,0,1
+226 50 m 5,0,1
+ 158 50 158 50 109.5 91 c 132,-1,2
+ 61 132 61 132 61 190 c 4,3,4
+ 61 226 61 226 84.5 256 c 132,-1,5
+ 108 286 108 286 146 300 c 5,6,7
+ 104 311 104 311 77.5 339 c 4,8,9
+ 32.501 397.256 32.501 397.256 77.9102 476.242 c 4,10,11
+ 97.7852 510.813 97.7852 510.813 177.24 590.863 c 5,12,-1
+ 222.013 555.159 l 5,13,14
+ 167.045 510.11 167.045 510.11 136.299 461.772 c 4,15,16
+ 83.1488 376.579 83.1488 376.579 156 346.5 c 4,17,18
+ 206.733 326 206.733 326 276 325 c 5,19,-1
+ 276 275 l 5,20,21
+ 212 275 212 275 166.5 250 c 132,-1,22
+ 121 225 121 225 121 190 c 4,23,24
+ 121 153 121 153 152 126.5 c 132,-1,25
+ 183 100 183 100 226 100 c 4,26,27
+ 288 100 288 100 347 140 c 132,-1,28
+ 406 180 406 180 446 250 c 5,29,-1
+ 446 500 l 5,30,-1
+ 506 500 l 5,31,-1
+ 506 0 l 5,32,-1
+ 446 0 l 5,33,-1
+ 446 170 l 5,34,35
+ 407 114 407 114 348.5 82 c 132,-1,36
+ 290 50 290 50 226 50 c 5,37,-1
+ 226 50 l 5,0,1
 EndSplineSet
 EndChar
 
 StartChar: naguj
-Encoding: 2728 2728 55
+Encoding: 2728 2728 54
 Width: 587
 GlyphClass: 2
 Flags: W
@@ -2666,7 +2670,7 @@ EndSplineSet
 EndChar
 
 StartChar: paguj
-Encoding: 2730 2730 56
+Encoding: 2730 2730 55
 Width: 562
 GlyphClass: 2
 Flags: W
@@ -2702,7 +2706,7 @@ EndSplineSet
 EndChar
 
 StartChar: phaguj
-Encoding: 2731 2731 57
+Encoding: 2731 2731 56
 Width: 444
 GlyphClass: 2
 Flags: W
@@ -2755,7 +2759,7 @@ EndSplineSet
 EndChar
 
 StartChar: baguj
-Encoding: 2732 2732 58
+Encoding: 2732 2732 57
 Width: 664
 GlyphClass: 2
 Flags: W
@@ -2794,7 +2798,7 @@ EndSplineSet
 EndChar
 
 StartChar: bhaguj
-Encoding: 2733 2733 59
+Encoding: 2733 2733 58
 Width: 695
 GlyphClass: 2
 Flags: W
@@ -2836,7 +2840,7 @@ EndSplineSet
 EndChar
 
 StartChar: maguj
-Encoding: 2734 2734 60
+Encoding: 2734 2734 59
 Width: 566
 GlyphClass: 2
 Flags: W
@@ -2884,7 +2888,7 @@ EndSplineSet
 EndChar
 
 StartChar: yaguj
-Encoding: 2735 2735 61
+Encoding: 2735 2735 60
 Width: 554
 GlyphClass: 2
 Flags: W
@@ -2925,7 +2929,7 @@ EndSplineSet
 EndChar
 
 StartChar: raguj
-Encoding: 2736 2736 62
+Encoding: 2736 2736 61
 Width: 373
 GlyphClass: 2
 Flags: W
@@ -2965,7 +2969,7 @@ EndSplineSet
 EndChar
 
 StartChar: laguj
-Encoding: 2738 2738 63
+Encoding: 2738 2738 62
 Width: 608
 GlyphClass: 2
 Flags: W
@@ -3003,7 +3007,7 @@ EndSplineSet
 EndChar
 
 StartChar: llaguj
-Encoding: 2739 2739 64
+Encoding: 2739 2739 63
 Width: 666
 GlyphClass: 2
 Flags: W
@@ -3045,7 +3049,7 @@ EndSplineSet
 EndChar
 
 StartChar: vaguj
-Encoding: 2741 2741 65
+Encoding: 2741 2741 64
 Width: 550
 GlyphClass: 2
 Flags: W
@@ -3079,7 +3083,7 @@ EndSplineSet
 EndChar
 
 StartChar: shaguj
-Encoding: 2742 2742 66
+Encoding: 2742 2742 65
 Width: 611
 GlyphClass: 2
 Flags: W
@@ -3127,7 +3131,7 @@ EndSplineSet
 EndChar
 
 StartChar: ssaguj
-Encoding: 2743 2743 67
+Encoding: 2743 2743 66
 Width: 552
 GlyphClass: 2
 Flags: W
@@ -3167,7 +3171,7 @@ EndSplineSet
 EndChar
 
 StartChar: saguj
-Encoding: 2744 2744 68
+Encoding: 2744 2744 67
 Width: 630
 GlyphClass: 2
 Flags: W
@@ -3215,7 +3219,7 @@ EndSplineSet
 EndChar
 
 StartChar: haguj
-Encoding: 2745 2745 69
+Encoding: 2745 2745 68
 Width: 468
 GlyphClass: 2
 Flags: W
@@ -3268,7 +3272,7 @@ EndSplineSet
 EndChar
 
 StartChar: nuktaguj
-Encoding: 2748 2748 70
+Encoding: 2748 2748 69
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -3291,7 +3295,7 @@ EndSplineSet
 EndChar
 
 StartChar: avagrahaguj
-Encoding: 2749 2749 71
+Encoding: 2749 2749 70
 Width: 525
 GlyphClass: 2
 Flags: W
@@ -3334,7 +3338,7 @@ EndSplineSet
 EndChar
 
 StartChar: aasignguj
-Encoding: 2750 2750 72
+Encoding: 2750 2750 71
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -3351,7 +3355,7 @@ EndSplineSet
 EndChar
 
 StartChar: isignguj
-Encoding: 2751 2751 73
+Encoding: 2751 2751 72
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -3373,6 +3377,9 @@ SplineSet
  90 500 l 1,16,-1
  90 500 l 1,0,1
 EndSplineSet
+Substitution2: "Single Substitution Lookup 22-1" isignguj.alt11
+Substitution2: "Single Substitution Lookup 21-1" isignguj.alt10
+Substitution2: "Single Substitution Lookup 20 -1" isignguj.alt9
 Substitution2: "Single Substitution Lookup 19-1" isignguj.alt8
 Substitution2: "Single Substitution lookup 12-1" isignguj.alt6
 Substitution2: "Single Substitution lookup 13-1" isignguj.alt7
@@ -3384,7 +3391,7 @@ Substitution2: "Single Substitution lookup 18-1" isignguj.alt5
 EndChar
 
 StartChar: iisignguj
-Encoding: 2752 2752 74
+Encoding: 2752 2752 73
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -3411,7 +3418,7 @@ EndSplineSet
 EndChar
 
 StartChar: usignguj
-Encoding: 2753 2753 75
+Encoding: 2753 2753 74
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -3443,7 +3450,7 @@ EndSplineSet
 EndChar
 
 StartChar: uusignguj
-Encoding: 2754 2754 76
+Encoding: 2754 2754 75
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -3475,7 +3482,7 @@ EndSplineSet
 EndChar
 
 StartChar: rvocalicsignguj
-Encoding: 2755 2755 77
+Encoding: 2755 2755 76
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -3505,7 +3512,7 @@ EndSplineSet
 EndChar
 
 StartChar: rrvocalicsignguj
-Encoding: 2756 2756 78
+Encoding: 2756 2756 77
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -3548,7 +3555,7 @@ EndSplineSet
 EndChar
 
 StartChar: ecandrasignguj
-Encoding: 2757 2757 79
+Encoding: 2757 2757 78
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -3572,7 +3579,7 @@ EndSplineSet
 EndChar
 
 StartChar: esignguj
-Encoding: 2759 2759 80
+Encoding: 2759 2759 79
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -3594,7 +3601,7 @@ EndSplineSet
 EndChar
 
 StartChar: aisignguj
-Encoding: 2760 2760 81
+Encoding: 2760 2760 80
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -3626,7 +3633,7 @@ EndSplineSet
 EndChar
 
 StartChar: ocandrasignguj
-Encoding: 2761 2761 82
+Encoding: 2761 2761 81
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -3655,7 +3662,7 @@ EndSplineSet
 EndChar
 
 StartChar: osignguj
-Encoding: 2763 2763 83
+Encoding: 2763 2763 82
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -3682,7 +3689,7 @@ EndSplineSet
 EndChar
 
 StartChar: ausignguj
-Encoding: 2764 2764 84
+Encoding: 2764 2764 83
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -3719,7 +3726,7 @@ EndSplineSet
 EndChar
 
 StartChar: viramaguj
-Encoding: 2765 2765 85
+Encoding: 2765 2765 84
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -3738,7 +3745,7 @@ EndSplineSet
 EndChar
 
 StartChar: omguj
-Encoding: 2768 2768 86
+Encoding: 2768 2768 85
 Width: 1009
 GlyphClass: 2
 Flags: W
@@ -3828,7 +3835,7 @@ EndSplineSet
 EndChar
 
 StartChar: rrvocalicguj
-Encoding: 2784 2784 87
+Encoding: 2784 2784 86
 Width: 917
 GlyphClass: 2
 Flags: W
@@ -3909,7 +3916,7 @@ EndSplineSet
 EndChar
 
 StartChar: llvocalicguj
-Encoding: 2785 2785 88
+Encoding: 2785 2785 87
 Width: 592
 GlyphClass: 2
 Flags: W
@@ -3974,7 +3981,7 @@ EndSplineSet
 EndChar
 
 StartChar: lvocalicsignguj
-Encoding: 2786 2786 89
+Encoding: 2786 2786 88
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -4029,7 +4036,7 @@ EndSplineSet
 EndChar
 
 StartChar: llvocalicsignguj
-Encoding: 2787 2787 90
+Encoding: 2787 2787 89
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -4095,7 +4102,7 @@ EndSplineSet
 EndChar
 
 StartChar: zeroguj
-Encoding: 2790 2790 91
+Encoding: 2790 2790 90
 Width: 550
 GlyphClass: 2
 Flags: W
@@ -4126,7 +4133,7 @@ EndSplineSet
 EndChar
 
 StartChar: oneguj
-Encoding: 2791 2791 92
+Encoding: 2791 2791 91
 Width: 549
 GlyphClass: 2
 Flags: W
@@ -4166,7 +4173,7 @@ EndSplineSet
 EndChar
 
 StartChar: twoguj
-Encoding: 2792 2792 93
+Encoding: 2792 2792 92
 Width: 549
 GlyphClass: 2
 Flags: W
@@ -4216,7 +4223,7 @@ EndSplineSet
 EndChar
 
 StartChar: threeguj
-Encoding: 2793 2793 94
+Encoding: 2793 2793 93
 Width: 549
 GlyphClass: 2
 Flags: W
@@ -4258,7 +4265,7 @@ EndSplineSet
 EndChar
 
 StartChar: fourguj
-Encoding: 2794 2794 95
+Encoding: 2794 2794 94
 Width: 552
 GlyphClass: 2
 Flags: W
@@ -4299,7 +4306,7 @@ EndSplineSet
 EndChar
 
 StartChar: fiveguj
-Encoding: 2795 2795 96
+Encoding: 2795 2795 95
 Width: 550
 GlyphClass: 2
 Flags: W
@@ -4342,7 +4349,7 @@ EndSplineSet
 EndChar
 
 StartChar: sixguj
-Encoding: 2796 2796 97
+Encoding: 2796 2796 96
 Width: 550
 GlyphClass: 2
 Flags: W
@@ -4387,7 +4394,7 @@ EndSplineSet
 EndChar
 
 StartChar: sevenguj
-Encoding: 2797 2797 98
+Encoding: 2797 2797 97
 Width: 549
 GlyphClass: 2
 Flags: W
@@ -4425,7 +4432,7 @@ EndSplineSet
 EndChar
 
 StartChar: eightguj
-Encoding: 2798 2798 99
+Encoding: 2798 2798 98
 Width: 550
 GlyphClass: 2
 Flags: W
@@ -4454,7 +4461,7 @@ EndSplineSet
 EndChar
 
 StartChar: nineguj
-Encoding: 2799 2799 100
+Encoding: 2799 2799 99
 Width: 550
 GlyphClass: 2
 Flags: W
@@ -4491,7 +4498,7 @@ EndSplineSet
 EndChar
 
 StartChar: rupeeguj
-Encoding: 2801 2801 101
+Encoding: 2801 2801 100
 Width: 717
 GlyphClass: 2
 Flags: W
@@ -4562,7 +4569,7 @@ EndSplineSet
 EndChar
 
 StartChar: zerowidthnonjoiner
-Encoding: 8204 8204 102
+Encoding: 8204 8204 101
 Width: 220
 GlyphClass: 2
 Flags: W
@@ -4579,7 +4586,7 @@ EndSplineSet
 EndChar
 
 StartChar: zerojoin
-Encoding: 8205 8205 103
+Encoding: 8205 8205 102
 Width: 480
 GlyphClass: 2
 Flags: W
@@ -4600,7 +4607,7 @@ EndSplineSet
 EndChar
 
 StartChar: endash
-Encoding: 8211 8211 104
+Encoding: 8211 8211 103
 Width: 550
 GlyphClass: 2
 Flags: W
@@ -4617,7 +4624,7 @@ EndSplineSet
 EndChar
 
 StartChar: emdash
-Encoding: 8212 8212 105
+Encoding: 8212 8212 104
 Width: 1024
 GlyphClass: 2
 Flags: W
@@ -4634,7 +4641,7 @@ EndSplineSet
 EndChar
 
 StartChar: quoteleft
-Encoding: 8216 8216 106
+Encoding: 8216 8216 105
 Width: 355
 GlyphClass: 2
 Flags: W
@@ -4660,7 +4667,7 @@ EndSplineSet
 EndChar
 
 StartChar: quoteright
-Encoding: 8217 8217 107
+Encoding: 8217 8217 106
 Width: 355
 GlyphClass: 2
 Flags: W
@@ -4686,7 +4693,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedblleft
-Encoding: 8220 8220 108
+Encoding: 8220 8220 107
 Width: 435
 GlyphClass: 2
 Flags: W
@@ -4709,7 +4716,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedblright
-Encoding: 8221 8221 109
+Encoding: 8221 8221 108
 Width: 460
 GlyphClass: 2
 Flags: W
@@ -4732,7 +4739,7 @@ EndSplineSet
 EndChar
 
 StartChar: ellipsis
-Encoding: 8230 8230 110
+Encoding: 8230 8230 109
 Width: 810
 GlyphClass: 2
 Flags: W
@@ -4761,7 +4768,7 @@ EndSplineSet
 EndChar
 
 StartChar: minus
-Encoding: 8722 8722 111
+Encoding: 8722 8722 110
 Width: 620
 GlyphClass: 2
 Flags: W
@@ -4778,7 +4785,7 @@ EndSplineSet
 EndChar
 
 StartChar: dottedcircle
-Encoding: 9676 9676 112
+Encoding: 9676 9676 111
 Width: 720
 GlyphClass: 2
 Flags: W
@@ -4909,7 +4916,7 @@ EndSplineSet
 EndChar
 
 StartChar: kaguj_viramaguj
-Encoding: 65571 -1 113
+Encoding: 65571 -1 112
 Width: 419
 GlyphClass: 2
 Flags: W
@@ -4955,7 +4962,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" kaguj viramaguj
 EndChar
 
 StartChar: khaguj_viramaguj
-Encoding: 65572 -1 114
+Encoding: 65572 -1 113
 Width: 467
 GlyphClass: 2
 Flags: W
@@ -4993,7 +5000,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" khaguj viramaguj
 EndChar
 
 StartChar: gaguj_viramaguj
-Encoding: 65573 -1 115
+Encoding: 65573 -1 114
 Width: 397
 GlyphClass: 2
 Flags: W
@@ -5025,7 +5032,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" gaguj viramaguj
 EndChar
 
 StartChar: ghaguj_viramaguj
-Encoding: 65574 -1 116
+Encoding: 65574 -1 115
 Width: 389
 GlyphClass: 2
 Flags: W
@@ -5066,7 +5073,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" ghaguj viramaguj
 EndChar
 
 StartChar: ngaguj_viramaguj
-Encoding: 65575 -1 117
+Encoding: 65575 -1 116
 Width: 491
 GlyphClass: 2
 Flags: W
@@ -5124,7 +5131,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" ngaguj viramaguj
 EndChar
 
 StartChar: caguj_viramaguj
-Encoding: 65576 -1 118
+Encoding: 65576 -1 117
 Width: 468
 GlyphClass: 2
 Flags: W
@@ -5163,7 +5170,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" caguj viramaguj
 EndChar
 
 StartChar: chaguj_viramaguj
-Encoding: 65577 -1 119
+Encoding: 65577 -1 118
 Width: 546
 GlyphClass: 2
 Flags: W
@@ -5229,7 +5236,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" chaguj viramaguj
 EndChar
 
 StartChar: jaguj_viramaguj
-Encoding: 65578 -1 120
+Encoding: 65578 -1 119
 Width: 496
 GlyphClass: 2
 Flags: W
@@ -5283,7 +5290,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" jaguj viramaguj
 EndChar
 
 StartChar: jhaguj_viramaguj
-Encoding: 65579 -1 121
+Encoding: 65579 -1 120
 Width: 555
 GlyphClass: 2
 Flags: W
@@ -5332,7 +5339,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" jhaguj viramaguj
 EndChar
 
 StartChar: nyaguj_viramaguj
-Encoding: 65580 -1 122
+Encoding: 65580 -1 121
 Width: 502
 GlyphClass: 2
 Flags: W
@@ -5367,7 +5374,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" nyaguj viramaguj
 EndChar
 
 StartChar: ttaguj_viramaguj
-Encoding: 65581 -1 123
+Encoding: 65581 -1 122
 Width: 398
 GlyphClass: 2
 Flags: W
@@ -5415,7 +5422,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" ttaguj viramaguj
 EndChar
 
 StartChar: tthaguj_viramaguj
-Encoding: 65582 -1 124
+Encoding: 65582 -1 123
 Width: 433
 GlyphClass: 2
 Flags: W
@@ -5466,7 +5473,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" tthaguj viramaguj
 EndChar
 
 StartChar: ddaguj_viramaguj
-Encoding: 65583 -1 125
+Encoding: 65583 -1 124
 Width: 442
 GlyphClass: 2
 Flags: W
@@ -5514,7 +5521,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" ddaguj viramaguj
 EndChar
 
 StartChar: ddhaguj_viramaguj
-Encoding: 65584 -1 126
+Encoding: 65584 -1 125
 Width: 424
 GlyphClass: 2
 Flags: W
@@ -5577,7 +5584,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" ddhaguj viramaguj
 EndChar
 
 StartChar: nnaguj_viramaguj
-Encoding: 65585 -1 127
+Encoding: 65585 -1 126
 Width: 578
 GlyphClass: 2
 Flags: W
@@ -5623,7 +5630,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" nnaguj viramaguj
 EndChar
 
 StartChar: taguj_viramaguj
-Encoding: 65586 -1 128
+Encoding: 65586 -1 127
 Width: 391
 GlyphClass: 2
 Flags: W
@@ -5649,7 +5656,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" taguj viramaguj
 EndChar
 
 StartChar: thaguj_viramaguj
-Encoding: 65587 -1 129
+Encoding: 65587 -1 128
 Width: 424
 GlyphClass: 2
 Flags: W
@@ -5693,7 +5700,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" thaguj viramaguj
 EndChar
 
 StartChar: daguj_viramaguj
-Encoding: 65588 -1 130
+Encoding: 65588 -1 129
 Width: 431
 GlyphClass: 2
 Flags: W
@@ -5742,7 +5749,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" daguj viramaguj
 EndChar
 
 StartChar: dhaguj_viramaguj
-Encoding: 65589 -1 131
+Encoding: 65589 -1 130
 Width: 426
 GlyphClass: 2
 Flags: W
@@ -5777,7 +5784,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" dhaguj viramaguj
 EndChar
 
 StartChar: naguj_viramaguj
-Encoding: 65590 -1 132
+Encoding: 65590 -1 131
 Width: 417
 GlyphClass: 2
 Flags: W
@@ -5812,7 +5819,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" naguj viramaguj
 EndChar
 
 StartChar: paguj_viramaguj
-Encoding: 65591 -1 133
+Encoding: 65591 -1 132
 Width: 392
 GlyphClass: 2
 Flags: W
@@ -5844,7 +5851,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" paguj viramaguj
 EndChar
 
 StartChar: phaguj_viramaguj
-Encoding: 65592 -1 134
+Encoding: 65592 -1 133
 Width: 383
 GlyphClass: 2
 Flags: W
@@ -5895,7 +5902,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" phaguj viramaguj
 EndChar
 
 StartChar: baguj_viramaguj
-Encoding: 65593 -1 135
+Encoding: 65593 -1 134
 Width: 495
 GlyphClass: 2
 Flags: W
@@ -5930,7 +5937,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" baguj viramaguj
 EndChar
 
 StartChar: bhaguj_viramaguj
-Encoding: 65594 -1 136
+Encoding: 65594 -1 135
 Width: 525
 GlyphClass: 2
 Flags: W
@@ -5968,7 +5975,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" bhaguj viramaguj
 EndChar
 
 StartChar: maguj_viramaguj
-Encoding: 65595 -1 137
+Encoding: 65595 -1 136
 Width: 356
 GlyphClass: 2
 Flags: W
@@ -6012,7 +6019,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" maguj viramaguj
 EndChar
 
 StartChar: yaguj_viramaguj
-Encoding: 65596 -1 138
+Encoding: 65596 -1 137
 Width: 384
 GlyphClass: 2
 Flags: W
@@ -6049,7 +6056,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" yaguj viramaguj
 EndChar
 
 StartChar: laguj_viramaguj
-Encoding: 65597 -1 139
+Encoding: 65597 -1 138
 Width: 438
 GlyphClass: 2
 Flags: W
@@ -6083,7 +6090,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" laguj viramaguj
 EndChar
 
 StartChar: llaguj_viramaguj
-Encoding: 65598 -1 140
+Encoding: 65598 -1 139
 Width: 426
 GlyphClass: 2
 Flags: W
@@ -6120,7 +6127,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: vaguj_viramaguj
-Encoding: 65599 -1 141
+Encoding: 65599 -1 140
 Width: 380
 GlyphClass: 2
 Flags: W
@@ -6150,7 +6157,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" vaguj viramaguj
 EndChar
 
 StartChar: shaguj_viramaguj
-Encoding: 65600 -1 142
+Encoding: 65600 -1 141
 Width: 393
 GlyphClass: 2
 Flags: W
@@ -6192,7 +6199,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" shaguj viramaguj
 EndChar
 
 StartChar: ssaguj_viramaguj
-Encoding: 65601 -1 143
+Encoding: 65601 -1 142
 Width: 403
 GlyphClass: 2
 Flags: W
@@ -6228,7 +6235,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" ssaguj viramaguj
 EndChar
 
 StartChar: saguj_viramaguj
-Encoding: 65602 -1 144
+Encoding: 65602 -1 143
 Width: 421
 GlyphClass: 2
 Flags: W
@@ -6272,7 +6279,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" saguj viramaguj
 EndChar
 
 StartChar: haguj_viramaguj
-Encoding: 65603 -1 145
+Encoding: 65603 -1 144
 Width: 441
 GlyphClass: 2
 Flags: W
@@ -6317,7 +6324,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" haguj viramaguj
 EndChar
 
 StartChar: ka_virama_ssa_viramaguj
-Encoding: 65604 -1 146
+Encoding: 65604 -1 145
 Width: 465
 GlyphClass: 2
 Flags: W
@@ -6371,7 +6378,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" kaguj_viramaguj_ssaguj vir
 EndChar
 
 StartChar: ja_virama_nya_viramaguj
-Encoding: 65605 -1 147
+Encoding: 65605 -1 146
 Width: 473
 GlyphClass: 2
 Flags: W
@@ -6416,7 +6423,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" jaguj_viramaguj_nyaguj vir
 EndChar
 
 StartChar: ta_virama_ra_viramaguj
-Encoding: 65606 -1 148
+Encoding: 65606 -1 147
 Width: 403
 GlyphClass: 2
 Flags: W
@@ -6446,7 +6453,7 @@ Ligature2: "'half' Half Forms in Gujarati lookup 4-1" taguj_viramaguj_raguj vira
 EndChar
 
 StartChar: shaguj_viramaguj_alt
-Encoding: 65607 -1 149
+Encoding: 65607 -1 148
 Width: 479
 GlyphClass: 2
 Flags: W
@@ -6488,7 +6495,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ta_virama_ta_viramaguj
-Encoding: 65608 -1 150
+Encoding: 65608 -1 149
 Width: 428
 GlyphClass: 2
 Flags: W
@@ -6517,7 +6524,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" taguj_viramaguj taguj_vir
 EndChar
 
 StartChar: kaguj_viramaguj_raguj
-Encoding: 65609 -1 151
+Encoding: 65609 -1 150
 Width: 462
 GlyphClass: 2
 Flags: W
@@ -6570,7 +6577,7 @@ Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" kaguj raguj viramaguj
 EndChar
 
 StartChar: khaguj_viramaguj_raguj
-Encoding: 65610 -1 152
+Encoding: 65610 -1 151
 Width: 636
 GlyphClass: 2
 Flags: W
@@ -6618,7 +6625,7 @@ Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" khaguj viramaguj raguj
 EndChar
 
 StartChar: gaguj_viramaguj_raguj
-Encoding: 65611 -1 153
+Encoding: 65611 -1 152
 Width: 581
 GlyphClass: 2
 Flags: W
@@ -6661,7 +6668,7 @@ Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" gaguj viramaguj raguj
 EndChar
 
 StartChar: ghaguj_viramaguj_raguj
-Encoding: 65612 -1 154
+Encoding: 65612 -1 153
 Width: 564
 GlyphClass: 2
 Flags: W
@@ -6708,7 +6715,7 @@ Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" ghaguj viramaguj raguj
 EndChar
 
 StartChar: caguj_viramaguj_raguj
-Encoding: 65614 -1 155
+Encoding: 65614 -1 154
 Width: 638
 GlyphClass: 2
 Flags: W
@@ -6753,7 +6760,7 @@ Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" caguj viramaguj raguj
 EndChar
 
 StartChar: jaguj_viramaguj_raguj
-Encoding: 65616 -1 156
+Encoding: 65616 -1 155
 Width: 611
 GlyphClass: 2
 Flags: W
@@ -6816,7 +6823,7 @@ Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" jaguj viramaguj raguj
 EndChar
 
 StartChar: jhaguj_viramaguj_raguj
-Encoding: 65617 -1 157
+Encoding: 65617 -1 156
 Width: 631
 GlyphClass: 2
 Flags: W
@@ -6872,7 +6879,7 @@ Ligature2: "'vatu' Vattu Variants lookup 28-1" jhaguj viramaguj_raguj
 EndChar
 
 StartChar: nyaguj_viramaguj_raguj
-Encoding: 65618 -1 158
+Encoding: 65618 -1 157
 Width: 673
 GlyphClass: 2
 Flags: W
@@ -6916,7 +6923,7 @@ Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" nyaguj viramaguj raguj
 EndChar
 
 StartChar: nnaguj_viramaguj_raguj
-Encoding: 65623 -1 159
+Encoding: 65623 -1 158
 Width: 764
 GlyphClass: 2
 Flags: W
@@ -6973,7 +6980,7 @@ Ligature2: "'vatu' Vattu Variants lookup 28-1" nnaguj viramaguj_raguj
 EndChar
 
 StartChar: taguj_viramaguj_raguj
-Encoding: 65624 -1 160
+Encoding: 65624 -1 159
 Width: 573
 GlyphClass: 2
 Flags: W
@@ -7006,7 +7013,7 @@ Ligature2: "'vatu' Vattu Variants lookup 28-1" taguj viramaguj_raguj
 EndChar
 
 StartChar: thaguj_viramaguj_raguj
-Encoding: 65625 -1 161
+Encoding: 65625 -1 160
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -7056,7 +7063,7 @@ Ligature2: "'vatu' Vattu Variants lookup 28-1" thaguj viramaguj_raguj
 EndChar
 
 StartChar: daguj_viramaguj_raguj
-Encoding: 65626 -1 162
+Encoding: 65626 -1 161
 Width: 499
 GlyphClass: 2
 Flags: W
@@ -7113,50 +7120,51 @@ Ligature2: "'vatu' Vattu Variants lookup 28-1" daguj viramaguj_raguj
 EndChar
 
 StartChar: dhaguj_viramaguj_raguj
-Encoding: 65627 -1 163
+Encoding: 65627 -1 162
 Width: 601
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-66 190 m 1,0,1
- 66 225 66 225 90.5 255 c 128,-1,2
- 115 285 115 285 156 300 c 1,3,4
- 113 308 113 308 84.5 336 c 128,-1,5
- 56 364 56 364 56 400 c 0,6,7
- 56 450 56 450 128 495 c 128,-1,8
- 200 540 200 540 311 560 c 1,9,-1
- 326 515 l 1,10,11
- 235 499 235 499 175.5 466.5 c 128,-1,12
- 116 434 116 434 116 400 c 256,13,14
- 116 366 116 366 161 345.5 c 128,-1,15
- 206 325 206 325 281 325 c 1,16,-1
- 281 275 l 1,17,18
- 217 275 217 275 171.5 250 c 128,-1,19
- 126 225 126 225 126 190 c 256,20,21
- 126 155 126 155 157 130 c 128,-1,22
- 188 105 188 105 231 105 c 0,23,24
- 260 105 260 105 314 128.5 c 128,-1,25
- 368 152 368 152 451 200 c 1,26,-1
- 451 500 l 1,27,-1
- 511 500 l 1,28,-1
- 511 0 l 1,29,-1
- 451 0 l 1,30,-1
- 451 135 l 1,31,-1
- 96 -30 l 1,32,-1
- 61 20 l 1,33,-1
- 193 69 l 1,34,35
- 138 77 138 77 102 111.5 c 128,-1,36
- 66 146 66 146 66 190 c 1,37,-1
- 66 190 l 1,0,1
+145.5 474.5 m 24,0,1
+ 116 434.6 116 434.6 116 400 c 256,2,3
+ 116 366 116 366 161 345.5 c 128,-1,4
+ 206 325 206 325 281 325 c 1,5,-1
+ 281 275 l 1,6,7
+ 217 275 217 275 171.5 250 c 128,-1,8
+ 126 225 126 225 126 190 c 256,9,10
+ 126 155 126 155 157 130 c 128,-1,11
+ 188 105 188 105 231 105 c 0,12,13
+ 260 105 260 105 314 128.5 c 128,-1,14
+ 368 152 368 152 451 200 c 1,15,-1
+ 451 500 l 1,16,-1
+ 511 500 l 1,17,-1
+ 511 0 l 1,18,-1
+ 451 0 l 1,19,-1
+ 451 135 l 1,20,-1
+ 96 -30 l 1,21,-1
+ 61 20 l 1,22,-1
+ 193 69 l 1,23,24
+ 138 77 138 77 102 111.5 c 128,-1,25
+ 66 146 66 146 66 190 c 1,26,-1
+ 66 190 l 1,27,28
+ 66 225 66 225 90.5 255 c 128,-1,29
+ 115 285 115 285 156 300 c 1,30,31
+ 113 308 113 308 84.5 336 c 128,-1,32
+ 56 364 56 364 56 400 c 0,33,34
+ 56 438.132 56 438.132 77.9102 476.242 c 24,35,36
+ 97.7852 510.813 97.7852 510.813 177.24 590.863 c 1,37,-1
+ 222.013 555.159 l 1,38,39
+ 180.142 522.04 180.142 522.04 145.5 474.5 c 24,0,1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" dhaguj viramaguj raguj
 Ligature2: "'vatu' Vattu Variants lookup 28-1" dhaguj viramaguj_raguj
 EndChar
 
 StartChar: naguj_viramaguj_raguj
-Encoding: 65628 -1 164
+Encoding: 65628 -1 163
 Width: 589
 GlyphClass: 2
 Flags: W
@@ -7200,7 +7208,7 @@ Ligature2: "'vatu' Vattu Variants lookup 28-1" naguj viramaguj_raguj
 EndChar
 
 StartChar: paguj_viramaguj_raguj
-Encoding: 65629 -1 165
+Encoding: 65629 -1 164
 Width: 573
 GlyphClass: 2
 Flags: W
@@ -7238,7 +7246,7 @@ Ligature2: "'vatu' Vattu Variants lookup 28-1" paguj viramaguj_raguj
 EndChar
 
 StartChar: phaguj_viramaguj_raguj
-Encoding: 65630 -1 166
+Encoding: 65630 -1 165
 Width: 464
 GlyphClass: 2
 Flags: W
@@ -7294,7 +7302,7 @@ Ligature2: "'vatu' Vattu Variants lookup 28-1" phaguj viramaguj_raguj
 EndChar
 
 StartChar: baguj_viramaguj_raguj
-Encoding: 65631 -1 167
+Encoding: 65631 -1 166
 Width: 667
 GlyphClass: 2
 Flags: W
@@ -7338,7 +7346,7 @@ Ligature2: "'vatu' Vattu Variants lookup 28-1" baguj viramaguj_raguj
 EndChar
 
 StartChar: bhaguj_viramaguj_raguj
-Encoding: 65632 -1 168
+Encoding: 65632 -1 167
 Width: 692
 GlyphClass: 2
 Flags: W
@@ -7385,7 +7393,7 @@ Ligature2: "'vatu' Vattu Variants lookup 28-1" bhaguj viramaguj_raguj
 EndChar
 
 StartChar: maguj_viramaguj_raguj
-Encoding: 65633 -1 169
+Encoding: 65633 -1 168
 Width: 566
 GlyphClass: 2
 Flags: W
@@ -7438,7 +7446,7 @@ Ligature2: "'vatu' Vattu Variants lookup 28-1" maguj viramaguj_raguj
 EndChar
 
 StartChar: yaguj_viramaguj_raguj
-Encoding: 65634 -1 170
+Encoding: 65634 -1 169
 Width: 570
 GlyphClass: 2
 Flags: W
@@ -7481,7 +7489,7 @@ Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" yaguj viramaguj raguj
 EndChar
 
 StartChar: laguj_viramaguj_raguj
-Encoding: 65635 -1 171
+Encoding: 65635 -1 170
 Width: 608
 GlyphClass: 2
 Flags: W
@@ -7524,7 +7532,7 @@ Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" laguj viramaguj raguj
 EndChar
 
 StartChar: llaguj_viramaguj_raguj
-Encoding: 65636 -1 172
+Encoding: 65636 -1 171
 Width: 666
 GlyphClass: 2
 Flags: W
@@ -7571,7 +7579,7 @@ Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" llaguj viramaguj raguj
 EndChar
 
 StartChar: vaguj_viramaguj_raguj
-Encoding: 65637 -1 173
+Encoding: 65637 -1 172
 Width: 559
 GlyphClass: 2
 Flags: W
@@ -7607,7 +7615,7 @@ Ligature2: "'vatu' Vattu Variants lookup 28-1" vaguj viramaguj_raguj
 EndChar
 
 StartChar: shaguj_viramaguj_raguj
-Encoding: 65638 -1 174
+Encoding: 65638 -1 173
 Width: 635
 GlyphClass: 2
 Flags: W
@@ -7660,7 +7668,7 @@ Ligature2: "'akhn' Akhand in Gujarati lookup 1-1" shaguj viramaguj raguj
 EndChar
 
 StartChar: ssaguj_viramaguj_raguj
-Encoding: 65639 -1 175
+Encoding: 65639 -1 174
 Width: 562
 GlyphClass: 2
 Flags: W
@@ -7700,60 +7708,61 @@ Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" ssaguj viramaguj raguj
 EndChar
 
 StartChar: saguj_viramaguj_raguj
-Encoding: 65640 -1 176
+Encoding: 65640 -1 175
 Width: 630
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-20 470 m 1,0,1
- 39 489 39 489 71.5 499.5 c 128,-1,2
- 104 510 104 510 145 510 c 0,3,4
- 223 510 223 510 278.5 464.5 c 128,-1,5
- 334 419 334 419 334 355 c 0,6,7
- 334 338 334 338 330.5 321.5 c 128,-1,8
- 327 305 327 305 320 290 c 1,9,-1
- 480 290 l 1,10,-1
- 480 500 l 1,11,-1
- 540 500 l 1,12,-1
- 540 0 l 1,13,-1
- 480 0 l 1,14,-1
- 480 147 l 1,15,-1
- 325 100 l 1,16,-1
- 310 150 l 1,17,-1
- 480 198 l 1,18,-1
- 480 240 l 1,19,-1
- 295 240 l 1,20,21
- 266 211 266 211 228.5 195.5 c 128,-1,22
- 191 180 191 180 150 180 c 1,23,-1
- 165 85 l 2,24,25
- 168 70 168 70 180.5 60 c 128,-1,26
- 193 50 193 50 210 50 c 2,27,-1
- 340 50 l 1,28,-1
- 340 0 l 1,29,-1
- 210 0 l 2,30,31
- 172 0 172 0 144 21 c 128,-1,32
- 116 42 116 42 110 75 c 2,33,-1
- 90 180 l 1,34,-1
- 30 180 l 1,35,-1
- 30 230 l 1,36,-1
- 140 230 l 2,37,38
- 196 230 196 230 235.5 266.5 c 128,-1,39
- 275 303 275 303 275 355 c 0,40,41
- 275 398 275 398 237 429 c 128,-1,42
- 199 460 199 460 145 460 c 0,43,44
- 120 460 120 460 95.5 452.5 c 128,-1,45
- 71 445 71 445 50 430 c 1,46,-1
- 20 470 l 1,47,-1
- 20 470 l 1,0,1
+20 470 m 5,0,1
+ 39 489 39 489 71.5 499.5 c 132,-1,2
+ 104 510 104 510 145 510 c 4,3,4
+ 223 510 223 510 278.5 464.5 c 132,-1,5
+ 334 419 334 419 334 355 c 4,6,7
+ 334 338 334 338 330.5 321.5 c 132,-1,8
+ 327 305 327 305 320 290 c 5,9,-1
+ 480 290 l 5,10,-1
+ 480 500 l 5,11,-1
+ 540 500 l 5,12,-1
+ 540 0 l 5,13,-1
+ 480 0 l 5,14,-1
+ 480 147 l 5,15,-1
+ 325 100 l 5,16,-1
+ 310 150 l 5,17,-1
+ 480 198 l 5,18,-1
+ 480 240 l 5,19,-1
+ 295 240 l 5,20,21
+ 266 211 266 211 228.5 195.5 c 132,-1,22
+ 191 180 191 180 150 180 c 5,23,-1
+ 165 85 l 6,24,25
+ 168 70 168 70 180.5 60 c 132,-1,26
+ 193 50 193 50 210 50 c 6,27,-1
+ 340 50 l 5,28,-1
+ 340 0 l 5,29,-1
+ 210 0 l 6,30,31
+ 172 0 172 0 144 21 c 132,-1,32
+ 116 42 116 42 110 75 c 6,33,-1
+ 90 180 l 5,34,-1
+ 30 180 l 5,35,-1
+ 30 230 l 5,36,-1
+ 140 230 l 6,37,38
+ 196 230 196 230 235.5 266.5 c 132,-1,39
+ 275 303 275 303 275 355 c 4,40,41
+ 275 398 275 398 237 429 c 132,-1,42
+ 199 460 199 460 145 460 c 4,43,44
+ 120 460 120 460 95.5 452.5 c 132,-1,45
+ 71 445 71 445 50 430 c 5,46,-1
+ 20 470 l 5,47,-1
+ 20 470 l 5,0,1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'vatu' Vattu Variants lookup 28-1" saguj viramaguj_raguj
 Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" saguj viramaguj raguj
 EndChar
 
 StartChar: haguj_viramdeva_raguj
-Encoding: 65641 -1 177
+Encoding: 65641 -1 176
 Width: 539
 GlyphClass: 2
 Flags: W
@@ -7805,7 +7814,7 @@ Ligature2: "'rkrf' Rakar Forms in Gujarati lookup 5-1" haguj viramaguj raguj
 EndChar
 
 StartChar: esignguj_anusvaraguj
-Encoding: 65642 -1 178
+Encoding: 65642 -1 177
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -7838,7 +7847,7 @@ Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" esignguj anu
 EndChar
 
 StartChar: esignguj_raguj_viramaguj
-Encoding: 65643 -1 179
+Encoding: 65643 -1 178
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -7872,7 +7881,7 @@ Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" esignguj rag
 EndChar
 
 StartChar: evowelsign_ra_virama_anusvara
-Encoding: 65644 -1 180
+Encoding: 65644 -1 179
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -7916,7 +7925,7 @@ Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" esignguj rag
 EndChar
 
 StartChar: aisignguj_anusvaraguj
-Encoding: 65645 -1 181
+Encoding: 65645 -1 180
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -7959,7 +7968,7 @@ Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aisignguj an
 EndChar
 
 StartChar: aisignguj_raguj_viramaguj
-Encoding: 65646 -1 182
+Encoding: 65646 -1 181
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8001,7 +8010,7 @@ Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aisignguj ra
 EndChar
 
 StartChar: aisign_ra_virama_anusvara
-Encoding: 65647 -1 183
+Encoding: 65647 -1 182
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8053,7 +8062,7 @@ Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" aisignguj ra
 EndChar
 
 StartChar: iisignguj_anusvaraguj
-Encoding: 65648 -1 184
+Encoding: 65648 -1 183
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8091,7 +8100,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iisignguj anu
 EndChar
 
 StartChar: iisignguj_raguj_viramaguj
-Encoding: 65649 -1 185
+Encoding: 65649 -1 184
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8128,7 +8137,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iisignguj rag
 EndChar
 
 StartChar: iisign_ra_virama_anusvara
-Encoding: 65650 -1 186
+Encoding: 65650 -1 185
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8175,7 +8184,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iisignguj rag
 EndChar
 
 StartChar: osignguj_anusvaraguj
-Encoding: 65651 -1 187
+Encoding: 65651 -1 186
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8213,7 +8222,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" osignguj anus
 EndChar
 
 StartChar: osignguj_raguj_viramaguj
-Encoding: 65652 -1 188
+Encoding: 65652 -1 187
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8252,7 +8261,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" osignguj ragu
 EndChar
 
 StartChar: osign_ra_virama_anusvara
-Encoding: 65653 -1 189
+Encoding: 65653 -1 188
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8301,7 +8310,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" osignguj ragu
 EndChar
 
 StartChar: ausignguj_anusvaraguj
-Encoding: 65654 -1 190
+Encoding: 65654 -1 189
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8349,7 +8358,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ausignguj anu
 EndChar
 
 StartChar: ausignguj_raguj_viramaguj
-Encoding: 65655 -1 191
+Encoding: 65655 -1 190
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8396,7 +8405,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ausignguj rag
 EndChar
 
 StartChar: ausign_ra_virama_anusvara
-Encoding: 65656 -1 192
+Encoding: 65656 -1 191
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8453,7 +8462,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ausignguj rag
 EndChar
 
 StartChar: ecandrasignguj_anusvaraguj
-Encoding: 65657 -1 193
+Encoding: 65657 -1 192
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8488,7 +8497,7 @@ Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" ecandrasigng
 EndChar
 
 StartChar: ocandrasignguj_anusvaraguj
-Encoding: 65658 -1 194
+Encoding: 65658 -1 193
 Width: 240
 GlyphClass: 2
 Flags: W
@@ -8528,7 +8537,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" ocandrasigngu
 EndChar
 
 StartChar: iguj_anusvaraguj
-Encoding: 65659 -1 195
+Encoding: 65659 -1 194
 Width: 529
 GlyphClass: 2
 Flags: W
@@ -8589,7 +8598,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iguj anusvara
 EndChar
 
 StartChar: iiguj_anusvaraguj
-Encoding: 65660 -1 196
+Encoding: 65660 -1 195
 Width: 533
 GlyphClass: 2
 Flags: W
@@ -8654,7 +8663,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" iiguj anusvar
 EndChar
 
 StartChar: uguj_anusvaraguj
-Encoding: 65661 -1 197
+Encoding: 65661 -1 196
 Width: 551
 GlyphClass: 2
 Flags: W
@@ -8710,7 +8719,7 @@ EndSplineSet
 EndChar
 
 StartChar: uuguj_anusvaraguj
-Encoding: 65662 -1 198
+Encoding: 65662 -1 197
 Width: 735
 GlyphClass: 2
 Flags: W
@@ -8772,7 +8781,7 @@ EndSplineSet
 EndChar
 
 StartChar: raguj_usignguj_alt
-Encoding: 65663 -1 199
+Encoding: 65663 -1 198
 Width: 664
 GlyphClass: 2
 Flags: W
@@ -8827,7 +8836,7 @@ Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" raguj usigng
 EndChar
 
 StartChar: raguj_uusignguj_alt
-Encoding: 65664 -1 200
+Encoding: 65664 -1 199
 Width: 680
 GlyphClass: 2
 Flags: W
@@ -8885,7 +8894,7 @@ Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" raguj uusign
 EndChar
 
 StartChar: haguj_rvocalicsignguj
-Encoding: 65665 -1 201
+Encoding: 65665 -1 200
 Width: 545
 GlyphClass: 2
 Flags: W
@@ -8945,7 +8954,7 @@ Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" haguj rvocal
 EndChar
 
 StartChar: jaguj_aasignguj
-Encoding: 65666 -1 202
+Encoding: 65666 -1 201
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -9002,7 +9011,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj aasigng
 EndChar
 
 StartChar: jaguj_iisignguj
-Encoding: 65667 -1 203
+Encoding: 65667 -1 202
 Width: 784
 GlyphClass: 2
 Flags: W
@@ -9068,7 +9077,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj iisigng
 EndChar
 
 StartChar: raguj_uusignguj
-Encoding: 65668 -1 204
+Encoding: 65668 -1 203
 Width: 437
 GlyphClass: 2
 Flags: W
@@ -9120,7 +9129,7 @@ Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" raguj uusign
 EndChar
 
 StartChar: da_rvocalicsignguj
-Encoding: 65669 -1 205
+Encoding: 65669 -1 204
 Width: 466
 GlyphClass: 2
 Flags: W
@@ -9167,7 +9176,7 @@ Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" daguj rvocal
 EndChar
 
 StartChar: kaguj_viramaguj_kaguj
-Encoding: 65670 -1 206
+Encoding: 65670 -1 205
 Width: 885
 GlyphClass: 2
 Flags: W
@@ -9243,7 +9252,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" kaguj_viramaguj kaguj
 EndChar
 
 StartChar: gaguj_viramaguj_naguj
-Encoding: 65671 -1 207
+Encoding: 65671 -1 206
 Width: 634
 GlyphClass: 2
 Flags: W
@@ -9292,7 +9301,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" gaguj_viramaguj naguj
 EndChar
 
 StartChar: ngaguj_viramaguj_kaguj
-Encoding: 65672 -1 208
+Encoding: 65672 -1 207
 Width: 555
 GlyphClass: 3
 Flags: W
@@ -9381,7 +9390,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ngaguj_viramaguj kaguj
 EndChar
 
 StartChar: ngaguj_viramaguj_khaguj
-Encoding: 65673 -1 209
+Encoding: 65673 -1 208
 Width: 585
 GlyphClass: 3
 Flags: W
@@ -9482,7 +9491,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ngaguj_viramaguj khaguj
 EndChar
 
 StartChar: ngaguj_viramaguj_gaguj
-Encoding: 65674 -1 210
+Encoding: 65674 -1 209
 Width: 551
 GlyphClass: 3
 Flags: W
@@ -9559,7 +9568,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ngaguj_viramaguj gaguj
 EndChar
 
 StartChar: ngaguj_viramaguj_ghaguj
-Encoding: 65675 -1 211
+Encoding: 65675 -1 210
 Width: 552
 GlyphClass: 3
 Flags: W
@@ -9646,7 +9655,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ngaguj_viramaguj ghaguj
 EndChar
 
 StartChar: ngaguj_viramaguj_maguj
-Encoding: 65676 -1 212
+Encoding: 65676 -1 211
 Width: 548
 GlyphClass: 3
 Flags: W
@@ -9737,7 +9746,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ngaguj_viramaguj maguj
 EndChar
 
 StartChar: nga_virama_ka_virama_ssaguj
-Encoding: 65677 -1 213
+Encoding: 65677 -1 212
 Width: 555
 GlyphClass: 3
 Flags: W
@@ -9838,7 +9847,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ngaguj_viramaguj kaguj_vi
 EndChar
 
 StartChar: jaguj_viramaguj_jaguj
-Encoding: 65678 -1 214
+Encoding: 65678 -1 213
 Width: 599
 GlyphClass: 3
 Flags: W
@@ -9936,7 +9945,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" jaguj_viramaguj jaguj
 EndChar
 
 StartChar: nyaguj_viramaguj_caguj
-Encoding: 65679 -1 215
+Encoding: 65679 -1 214
 Width: 631
 GlyphClass: 3
 Flags: W
@@ -9989,7 +9998,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" nyaguj_viramaguj caguj
 EndChar
 
 StartChar: nyaguj_viramaguj_jaguj
-Encoding: 65680 -1 216
+Encoding: 65680 -1 215
 Width: 661
 GlyphClass: 3
 Flags: W
@@ -10042,7 +10051,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" nyaguj_viramaguj jaguj
 EndChar
 
 StartChar: ttaguj_viramaguj_ttaguj
-Encoding: 65681 -1 217
+Encoding: 65681 -1 216
 Width: 588
 GlyphClass: 3
 Flags: W
@@ -10103,7 +10112,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ttaguj_viramaguj ttaguj
 EndChar
 
 StartChar: ttaguj_viramaguj_yaguj
-Encoding: 65682 -1 218
+Encoding: 65682 -1 217
 Width: 941
 GlyphClass: 3
 Flags: W
@@ -10169,7 +10178,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ttaguj_viramaguj yaguj
 EndChar
 
 StartChar: ttaguj_viramaguj_vaguj
-Encoding: 65683 -1 219
+Encoding: 65683 -1 218
 Width: 443
 GlyphClass: 3
 Flags: W
@@ -10232,7 +10241,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ttaguj_viramaguj vaguj
 EndChar
 
 StartChar: tthaguj_viramaguj_tthaguj
-Encoding: 65684 -1 220
+Encoding: 65684 -1 219
 Width: 610
 GlyphClass: 3
 Flags: W
@@ -10301,7 +10310,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" tthaguj_viramaguj tthaguj
 EndChar
 
 StartChar: tthaguj_viramaguj_yaguj
-Encoding: 65685 -1 221
+Encoding: 65685 -1 220
 Width: 1023
 GlyphClass: 3
 Flags: W
@@ -10373,7 +10382,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" tthaguj_viramaguj yaguj
 EndChar
 
 StartChar: ddaguj_viramaguj_ddaguj
-Encoding: 65686 -1 222
+Encoding: 65686 -1 221
 Width: 592
 GlyphClass: 3
 Flags: W
@@ -10446,7 +10455,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ddaguj_viramaguj ddaguj
 EndChar
 
 StartChar: ddaguj_viramaguj_yaguj
-Encoding: 65687 -1 223
+Encoding: 65687 -1 222
 Width: 1012
 GlyphClass: 3
 Flags: W
@@ -10515,7 +10524,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ddaguj_viramaguj yaguj
 EndChar
 
 StartChar: ddaguj_viramaguj_ddhaguj
-Encoding: 65688 -1 224
+Encoding: 65688 -1 223
 Width: 604
 GlyphClass: 3
 Flags: W
@@ -10590,7 +10599,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ddaguj_viramaguj ddhaguj
 EndChar
 
 StartChar: ddhaguj_viramaguj_ddhaguj
-Encoding: 65689 -1 225
+Encoding: 65689 -1 224
 Width: 602
 GlyphClass: 3
 Flags: W
@@ -10669,7 +10678,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ddhaguj_viramaguj ddhaguj
 EndChar
 
 StartChar: ddhaguj_viramaguj_yaguj
-Encoding: 65690 -1 226
+Encoding: 65690 -1 225
 Width: 990
 GlyphClass: 3
 Flags: W
@@ -10751,7 +10760,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ddhaguj_viramaguj yaguj
 EndChar
 
 StartChar: taguj_viramaguj_taguj
-Encoding: 65691 -1 227
+Encoding: 65691 -1 226
 Width: 598
 GlyphClass: 3
 Flags: W
@@ -10783,7 +10792,7 @@ Ligature2: "'akhn' Akhand in Gujarati lookup 1-1" taguj viramaguj taguj
 EndChar
 
 StartChar: daguj_viramaguj_yaguj
-Encoding: 65692 -1 228
+Encoding: 65692 -1 227
 Width: 588
 GlyphClass: 3
 Flags: W
@@ -10834,7 +10843,7 @@ Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj yaguj
 EndChar
 
 StartChar: da_virama_gaguj_pri_a
-Encoding: 65693 -1 229
+Encoding: 65693 -1 228
 Width: 493
 GlyphClass: 3
 Flags: W
@@ -10905,7 +10914,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" daguj_viramaguj gaguj
 EndChar
 
 StartChar: daguj_viramaguj_vaguj_pri_a
-Encoding: 65694 -1 230
+Encoding: 65694 -1 229
 Width: 602
 GlyphClass: 3
 Flags: W
@@ -10974,7 +10983,7 @@ Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj vaguj
 EndChar
 
 StartChar: daguj_viramaguj_daguj_pri_a
-Encoding: 65695 -1 231
+Encoding: 65695 -1 230
 Width: 518
 GlyphClass: 3
 Flags: W
@@ -11046,7 +11055,7 @@ Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj daguj
 EndChar
 
 StartChar: daguj_viramaguj_dhaguj_pri_a
-Encoding: 65696 -1 232
+Encoding: 65696 -1 231
 Width: 600
 GlyphClass: 3
 Flags: W
@@ -11128,7 +11137,7 @@ Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj dhaguj
 EndChar
 
 StartChar: daguj_viramaguj_jaguj_pri_a
-Encoding: 65697 -1 233
+Encoding: 65697 -1 232
 Width: 687
 GlyphClass: 3
 Flags: W
@@ -11210,7 +11219,7 @@ Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj jaguj
 EndChar
 
 StartChar: daguj_viramaguj_maguj_pri_a
-Encoding: 65698 -1 234
+Encoding: 65698 -1 233
 Width: 645
 GlyphClass: 3
 Flags: W
@@ -11271,7 +11280,7 @@ Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj maguj
 EndChar
 
 StartChar: daguj_viramaguj_naguj_pri_a
-Encoding: 65699 -1 235
+Encoding: 65699 -1 234
 Width: 506
 GlyphClass: 3
 Flags: W
@@ -11337,7 +11346,7 @@ Ligature2: "'cjct' Conjunct Forms in Gujarati lookup 5-1" daguj_viramaguj naguj
 EndChar
 
 StartChar: naguj_viramaguj_naguj
-Encoding: 65700 -1 236
+Encoding: 65700 -1 235
 Width: 556
 GlyphClass: 3
 Flags: W
@@ -11378,7 +11387,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" naguj_viramaguj naguj
 EndChar
 
 StartChar: paguj_viramaguj_taguj
-Encoding: 65701 -1 237
+Encoding: 65701 -1 236
 Width: 561
 GlyphClass: 3
 Flags: W
@@ -11421,7 +11430,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" paguj_viramaguj taguj
 EndChar
 
 StartChar: laguj_viramaguj_laguj
-Encoding: 65702 -1 238
+Encoding: 65702 -1 237
 Width: 669
 GlyphClass: 3
 Flags: W
@@ -11474,7 +11483,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" laguj_viramaguj laguj
 EndChar
 
 StartChar: shaguj_viramaguj_vaguj_pri_a
-Encoding: 65703 -1 239
+Encoding: 65703 -1 238
 Width: 645
 GlyphClass: 3
 Flags: W
@@ -11536,7 +11545,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" shaguj_viramaguj vaguj
 EndChar
 
 StartChar: shaguj_viramaguj_naguj_pri_a
-Encoding: 65704 -1 240
+Encoding: 65704 -1 239
 Width: 646
 GlyphClass: 3
 Flags: W
@@ -11592,7 +11601,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" shaguj_viramaguj naguj
 EndChar
 
 StartChar: shaguj_viramaguj_caguj
-Encoding: 65705 -1 241
+Encoding: 65705 -1 240
 Width: 646
 GlyphClass: 3
 Flags: W
@@ -11653,7 +11662,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" shaguj_viramaguj caguj
 EndChar
 
 StartChar: shaguj_viramaguj_laguj
-Encoding: 65706 -1 242
+Encoding: 65706 -1 241
 Width: 961
 GlyphClass: 3
 Flags: W
@@ -11719,7 +11728,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" shaguj_viramaguj laguj
 EndChar
 
 StartChar: ssaguj_viramaguj_ttaguj
-Encoding: 65707 -1 243
+Encoding: 65707 -1 242
 Width: 764
 GlyphClass: 3
 Flags: W
@@ -11782,7 +11791,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ssaguj_viramaguj ttaguj
 EndChar
 
 StartChar: ssaguj_viramaguj_tthaguj
-Encoding: 65708 -1 244
+Encoding: 65708 -1 243
 Width: 814
 GlyphClass: 3
 Flags: W
@@ -11850,7 +11859,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" ssaguj_viramaguj tthaguj
 EndChar
 
 StartChar: saguj_viramaguj_nyaguj
-Encoding: 65709 -1 245
+Encoding: 65709 -1 244
 Width: 904
 GlyphClass: 3
 Flags: W
@@ -11914,7 +11923,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" saguj_viramaguj nyaguj
 EndChar
 
 StartChar: haguj_viramaguj_maguj
-Encoding: 65710 -1 246
+Encoding: 65710 -1 245
 Width: 779
 GlyphClass: 3
 Flags: W
@@ -11979,7 +11988,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" haguj_viramaguj maguj
 EndChar
 
 StartChar: haguj_viramaguj_yaguj
-Encoding: 65711 -1 247
+Encoding: 65711 -1 246
 Width: 771
 GlyphClass: 3
 Flags: W
@@ -12039,7 +12048,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" haguj_viramaguj yaguj
 EndChar
 
 StartChar: haguj_viramaguj_naguj
-Encoding: 65712 -1 248
+Encoding: 65712 -1 247
 Width: 578
 GlyphClass: 3
 Flags: W
@@ -12108,7 +12117,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" haguj_viramaguj naguj
 EndChar
 
 StartChar: haguj_viramaguj_nnaguj
-Encoding: 65713 -1 249
+Encoding: 65713 -1 248
 Width: 584
 GlyphClass: 3
 Flags: W
@@ -12175,7 +12184,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" haguj_viramaguj nnaguj
 EndChar
 
 StartChar: haguj_viramaguj_laguj
-Encoding: 65714 -1 250
+Encoding: 65714 -1 249
 Width: 578
 GlyphClass: 3
 Flags: W
@@ -12244,7 +12253,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" haguj_viramaguj laguj
 EndChar
 
 StartChar: haguj_viramaguj_vaguj
-Encoding: 65715 -1 251
+Encoding: 65715 -1 250
 Width: 541
 GlyphClass: 3
 Flags: W
@@ -12309,7 +12318,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" haguj_viramaguj vaguj
 EndChar
 
 StartChar: llaguj_viramaguj_yaguj
-Encoding: 65716 -1 252
+Encoding: 65716 -1 251
 Width: 966
 GlyphClass: 3
 Flags: W
@@ -12374,7 +12383,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" llaguj_viramaguj yaguj
 EndChar
 
 StartChar: kaguj_viramaguj_ssaguj
-Encoding: 65717 -1 253
+Encoding: 65717 -1 252
 Width: 637
 GlyphClass: 2
 Flags: W
@@ -12431,7 +12440,7 @@ Ligature2: "'akhn' Akhand in Gujarati lookup 1-1" kaguj viramaguj ssaguj
 EndChar
 
 StartChar: jaguj_viramaguj_nyaguj
-Encoding: 65718 -1 254
+Encoding: 65718 -1 253
 Width: 668
 GlyphClass: 2
 Flags: W
@@ -12480,7 +12489,7 @@ Ligature2: "'akhn' Akhand in Gujarati lookup 1-1" jaguj viramaguj nyaguj
 EndChar
 
 StartChar: viramaguj_raguj
-Encoding: 65719 -1 255
+Encoding: 65719 -1 254
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12502,7 +12511,7 @@ Ligature2: "'blwf' Below Base Forms in Gujarati lookup 3-1" raguj viramaguj
 EndChar
 
 StartChar: raguj_viramaguj_usignguj
-Encoding: 65720 -1 256
+Encoding: 65720 -1 255
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12540,7 +12549,7 @@ Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" viramaguj_ra
 EndChar
 
 StartChar: raguj_viramaguj_uusignguj
-Encoding: 65721 -1 257
+Encoding: 65721 -1 256
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12574,7 +12583,7 @@ Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" viramaguj_ra
 EndChar
 
 StartChar: raguj_viramaguj
-Encoding: 65722 -1 258
+Encoding: 65722 -1 257
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12603,7 +12612,7 @@ Ligature2: "'rphf' Reph Form in Gujarati lookup 2-1" raguj viramaguj
 EndChar
 
 StartChar: raguj_viramaguj_anusvaraguj
-Encoding: 65723 -1 259
+Encoding: 65723 -1 258
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -12642,7 +12651,7 @@ Ligature2: "'abvs' Above Base Substitutions in Gujarati lookup 8-1" raguj_virama
 EndChar
 
 StartChar: nnaguj_usignguj
-Encoding: 65724 -1 260
+Encoding: 65724 -1 259
 Width: 759
 GlyphClass: 2
 Flags: W
@@ -12714,7 +12723,7 @@ Ligature2: "'blws' Below Base Substitutions in Gujarati lookup 6-1" nnaguj usign
 EndChar
 
 StartChar: chaguj_viramaguj_vaguj
-Encoding: 65725 -1 261
+Encoding: 65725 -1 260
 Width: 602
 GlyphClass: 2
 Flags: W
@@ -12795,7 +12804,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" chaguj_viramaguj vaguj
 EndChar
 
 StartChar: isignguj.alt6
-Encoding: 65726 -1 262
+Encoding: 65726 -1 261
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -12822,7 +12831,7 @@ EndSplineSet
 EndChar
 
 StartChar: isignguj.alt7
-Encoding: 65727 -1 263
+Encoding: 65727 -1 262
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -12847,7 +12856,7 @@ EndSplineSet
 EndChar
 
 StartChar: jaguj_osignguj
-Encoding: 65728 -1 264
+Encoding: 65728 -1 263
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -12914,7 +12923,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj osigngu
 EndChar
 
 StartChar: ja_osignguj_anusvaraguj
-Encoding: 65729 -1 265
+Encoding: 65729 -1 264
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -12991,7 +13000,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj osigngu
 EndChar
 
 StartChar: ja_osignguj_raguj_viramaguj
-Encoding: 65730 -1 266
+Encoding: 65730 -1 265
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13069,7 +13078,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj osigngu
 EndChar
 
 StartChar: ja_osign_ra_virama_anusvara
-Encoding: 65731 -1 267
+Encoding: 65731 -1 266
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13157,7 +13166,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj osigngu
 EndChar
 
 StartChar: jaguj_ausignguj
-Encoding: 65732 -1 268
+Encoding: 65732 -1 267
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13234,7 +13243,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ausigng
 EndChar
 
 StartChar: jaguj_ausignguj_anusvaraguj
-Encoding: 65733 -1 269
+Encoding: 65733 -1 268
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13321,7 +13330,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ausigng
 EndChar
 
 StartChar: jaguj_ausignguj_raguj_viramaguj
-Encoding: 65734 -1 270
+Encoding: 65734 -1 269
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13407,7 +13416,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ausigng
 EndChar
 
 StartChar: ja_ausign_ra_virama_anusvara
-Encoding: 65735 -1 271
+Encoding: 65735 -1 270
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13503,7 +13512,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ausigng
 EndChar
 
 StartChar: jaguj_ocandrasignguj
-Encoding: 65736 -1 272
+Encoding: 65736 -1 271
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13572,7 +13581,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ocandra
 EndChar
 
 StartChar: ja_ocandrasign_anusvara
-Encoding: 65737 -1 273
+Encoding: 65737 -1 272
 Width: 779
 GlyphClass: 2
 Flags: W
@@ -13651,7 +13660,7 @@ Ligature2: "'psts' Post Base Substitutions in Gujarati lookup 9-1" jaguj ocandra
 EndChar
 
 StartChar: yaguj_alt
-Encoding: 65738 -1 274
+Encoding: 65738 -1 273
 Width: 606
 GlyphClass: 2
 Flags: W
@@ -13691,7 +13700,7 @@ EndSplineSet
 EndChar
 
 StartChar: numbersign
-Encoding: 35 35 275
+Encoding: 35 35 274
 Width: 732
 Flags: W
 LayerCount: 2
@@ -13737,7 +13746,7 @@ EndSplineSet
 EndChar
 
 StartChar: dollar
-Encoding: 36 36 276
+Encoding: 36 36 275
 Width: 565
 Flags: W
 LayerCount: 2
@@ -13789,7 +13798,7 @@ EndSplineSet
 EndChar
 
 StartChar: percent
-Encoding: 37 37 277
+Encoding: 37 37 276
 Width: 720
 Flags: W
 LayerCount: 2
@@ -13845,7 +13854,7 @@ EndSplineSet
 EndChar
 
 StartChar: ampersand
-Encoding: 38 38 278
+Encoding: 38 38 277
 Width: 602
 Flags: W
 LayerCount: 2
@@ -13899,7 +13908,7 @@ EndSplineSet
 EndChar
 
 StartChar: asterisk
-Encoding: 42 42 279
+Encoding: 42 42 278
 Width: 510
 Flags: W
 LayerCount: 2
@@ -13928,7 +13937,7 @@ EndSplineSet
 EndChar
 
 StartChar: plus
-Encoding: 43 43 280
+Encoding: 43 43 279
 Width: 570
 Flags: W
 LayerCount: 2
@@ -13952,7 +13961,7 @@ EndSplineSet
 EndChar
 
 StartChar: slash
-Encoding: 47 47 281
+Encoding: 47 47 280
 Width: 630
 Flags: W
 LayerCount: 2
@@ -13968,7 +13977,7 @@ EndSplineSet
 EndChar
 
 StartChar: zero
-Encoding: 48 48 282
+Encoding: 48 48 281
 Width: 479
 Flags: W
 LayerCount: 2
@@ -13998,7 +14007,7 @@ EndSplineSet
 EndChar
 
 StartChar: one
-Encoding: 49 49 283
+Encoding: 49 49 282
 Width: 478
 Flags: W
 LayerCount: 2
@@ -14018,7 +14027,7 @@ EndSplineSet
 EndChar
 
 StartChar: two
-Encoding: 50 50 284
+Encoding: 50 50 283
 Width: 479
 Flags: W
 LayerCount: 2
@@ -14052,7 +14061,7 @@ EndSplineSet
 EndChar
 
 StartChar: three
-Encoding: 51 51 285
+Encoding: 51 51 284
 Width: 479
 Flags: W
 LayerCount: 2
@@ -14093,7 +14102,7 @@ EndSplineSet
 EndChar
 
 StartChar: four
-Encoding: 52 52 286
+Encoding: 52 52 285
 Width: 478
 Flags: W
 LayerCount: 2
@@ -14121,7 +14130,7 @@ EndSplineSet
 EndChar
 
 StartChar: five
-Encoding: 53 53 287
+Encoding: 53 53 286
 Width: 479
 Flags: W
 LayerCount: 2
@@ -14156,7 +14165,7 @@ EndSplineSet
 EndChar
 
 StartChar: six
-Encoding: 54 54 288
+Encoding: 54 54 287
 Width: 479
 Flags: W
 LayerCount: 2
@@ -14196,7 +14205,7 @@ EndSplineSet
 EndChar
 
 StartChar: seven
-Encoding: 55 55 289
+Encoding: 55 55 288
 Width: 479
 Flags: W
 LayerCount: 2
@@ -14217,7 +14226,7 @@ EndSplineSet
 EndChar
 
 StartChar: eight
-Encoding: 56 56 290
+Encoding: 56 56 289
 Width: 479
 Flags: W
 LayerCount: 2
@@ -14265,7 +14274,7 @@ EndSplineSet
 EndChar
 
 StartChar: nine
-Encoding: 57 57 291
+Encoding: 57 57 290
 Width: 478
 Flags: W
 LayerCount: 2
@@ -14305,7 +14314,7 @@ EndSplineSet
 EndChar
 
 StartChar: less
-Encoding: 60 60 292
+Encoding: 60 60 291
 Width: 527
 Flags: W
 LayerCount: 2
@@ -14324,7 +14333,7 @@ EndSplineSet
 EndChar
 
 StartChar: equal
-Encoding: 61 61 293
+Encoding: 61 61 292
 Width: 480
 Flags: W
 LayerCount: 2
@@ -14346,7 +14355,7 @@ EndSplineSet
 EndChar
 
 StartChar: greater
-Encoding: 62 62 294
+Encoding: 62 62 293
 Width: 527
 Flags: W
 LayerCount: 2
@@ -14365,7 +14374,7 @@ EndSplineSet
 EndChar
 
 StartChar: bracketleft
-Encoding: 91 91 295
+Encoding: 91 91 294
 Width: 480
 Flags: W
 LayerCount: 2
@@ -14385,7 +14394,7 @@ EndSplineSet
 EndChar
 
 StartChar: backslash
-Encoding: 92 92 296
+Encoding: 92 92 295
 Width: 485
 Flags: W
 LayerCount: 2
@@ -14401,7 +14410,7 @@ EndSplineSet
 EndChar
 
 StartChar: bracketright
-Encoding: 93 93 297
+Encoding: 93 93 296
 Width: 480
 Flags: W
 LayerCount: 2
@@ -14421,7 +14430,7 @@ EndSplineSet
 EndChar
 
 StartChar: asciicircum
-Encoding: 94 94 298
+Encoding: 94 94 297
 Width: 534
 Flags: W
 LayerCount: 2
@@ -14440,7 +14449,7 @@ EndSplineSet
 EndChar
 
 StartChar: braceleft
-Encoding: 123 123 299
+Encoding: 123 123 298
 Width: 394
 Flags: W
 LayerCount: 2
@@ -14475,7 +14484,7 @@ EndSplineSet
 EndChar
 
 StartChar: bar
-Encoding: 124 124 300
+Encoding: 124 124 299
 Width: 230
 Flags: W
 LayerCount: 2
@@ -14491,7 +14500,7 @@ EndSplineSet
 EndChar
 
 StartChar: braceright
-Encoding: 125 125 301
+Encoding: 125 125 300
 Width: 395
 Flags: W
 LayerCount: 2
@@ -14526,7 +14535,7 @@ EndSplineSet
 EndChar
 
 StartChar: asciitilde
-Encoding: 126 126 302
+Encoding: 126 126 301
 Width: 572
 Flags: W
 LayerCount: 2
@@ -14556,7 +14565,7 @@ EndSplineSet
 EndChar
 
 StartChar: multiply
-Encoding: 215 215 303
+Encoding: 215 215 302
 Width: 477
 Flags: W
 LayerCount: 2
@@ -14580,7 +14589,7 @@ EndSplineSet
 EndChar
 
 StartChar: divide
-Encoding: 247 247 304
+Encoding: 247 247 303
 Width: 530
 Flags: W
 LayerCount: 2
@@ -14616,7 +14625,7 @@ EndSplineSet
 EndChar
 
 StartChar: inr_currency
-Encoding: 8377 8377 305
+Encoding: 8377 8377 304
 Width: 608
 VWidth: 1024
 Flags: W
@@ -14649,7 +14658,7 @@ EndSplineSet
 EndChar
 
 StartChar: chaguj_viramaguj_yaguj
-Encoding: 65570 -1 306
+Encoding: 65570 -1 305
 Width: 1112
 Flags: W
 LayerCount: 2
@@ -14735,7 +14744,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup 24-1" chaguj_viramaguj yaguj
 EndChar
 
 StartChar: isignguj.alt1
-Encoding: 65569 -1 307
+Encoding: 65569 -1 306
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -14760,7 +14769,7 @@ EndSplineSet
 EndChar
 
 StartChar: isignguj.alt2
-Encoding: 65568 -1 308
+Encoding: 65568 -1 307
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -14785,7 +14794,7 @@ EndSplineSet
 EndChar
 
 StartChar: isignguj.alt3
-Encoding: 65567 -1 309
+Encoding: 65567 -1 308
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -14810,7 +14819,7 @@ EndSplineSet
 EndChar
 
 StartChar: isignguj.alt4
-Encoding: 65566 -1 310
+Encoding: 65566 -1 309
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -14835,7 +14844,7 @@ EndSplineSet
 EndChar
 
 StartChar: isignguj.alt5
-Encoding: 65565 -1 311
+Encoding: 65565 -1 310
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -14860,7 +14869,7 @@ EndSplineSet
 EndChar
 
 StartChar: isignguj_raguj_viramaguj
-Encoding: 65564 -1 312
+Encoding: 65564 -1 311
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -14895,52 +14904,53 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj raguj_vira
 EndChar
 
 StartChar: isign_ra_virama_anusvara
-Encoding: 65563 -1 313
+Encoding: 65563 -1 312
 Width: 240
 GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-701 570 m 5,0,1
- 678 570 678 570 662 581.5 c 132,-1,2
- 646 593 646 593 646 610 c 4,3,4
- 646 631 646 631 662 645.5 c 132,-1,5
- 678 660 678 660 701 660 c 260,6,7
- 724 660 724 660 740 647 c 132,-1,8
- 756 634 756 634 756 615 c 260,9,10
- 756 596 756 596 740 583 c 132,-1,11
- 724 570 724 570 701 570 c 5,12,-1
- 701 570 l 5,0,1
-90 500 m 6,13,14
- 90 604 90 604 170.5 677 c 132,-1,15
- 251 750 251 750 365 750 c 4,16,17
- 482 750 482 750 558.5 683 c 4,18,19
- 562.505 679.492 562.505 679.492 566.328 675.864 c 5,20,21
- 575.827 697.341 575.827 697.341 595 715 c 4,22,23
- 633 750 633 750 687 750 c 4,24,25
- 715 750 715 750 741 741 c 132,-1,26
- 767 732 767 732 787 715 c 5,27,-1
- 767 670 l 5,28,29
- 746 685 746 685 727 692.5 c 132,-1,30
- 708 700 708 700 692 700 c 4,31,32
- 661 700 661 700 639 678 c 4,33,34
- 609.333 648.333 609.333 648.333 617 625 c 5,35,-1
- 641.523 505 l 5,36,-1
- 585 505 l 5,37,38
- 569 593 569 593 509 646.5 c 132,-1,39
- 449 700 449 700 365 700 c 4,40,41
- 276 700 276 700 213 638.5 c 132,-1,42
- 150 577 150 577 150 490 c 6,43,-1
- 150 0 l 5,44,-1
- 90 0 l 5,45,-1
- 90 500 l 6,13,14
+701 570 m 1,0,1
+ 678 570 678 570 662 581.5 c 128,-1,2
+ 646 593 646 593 646 610 c 0,3,4
+ 646 631 646 631 662 645.5 c 128,-1,5
+ 678 660 678 660 701 660 c 256,6,7
+ 724 660 724 660 740 647 c 128,-1,8
+ 756 634 756 634 756 615 c 256,9,10
+ 756 596 756 596 740 583 c 128,-1,11
+ 724 570 724 570 701 570 c 1,12,-1
+ 701 570 l 1,0,1
+90 500 m 2,13,14
+ 90 604 90 604 170.5 677 c 128,-1,15
+ 251 750 251 750 365 750 c 0,16,17
+ 482 750 482 750 558.5 683 c 0,18,19
+ 562.505 679.492 562.505 679.492 566.328 675.864 c 1,20,21
+ 575.827 697.341 575.827 697.341 595 715 c 0,22,23
+ 633 750 633 750 687 750 c 0,24,25
+ 715 750 715 750 741 741 c 128,-1,26
+ 767 732 767 732 787 715 c 1,27,-1
+ 767 670 l 1,28,29
+ 746 685 746 685 727 692.5 c 128,-1,30
+ 708 700 708 700 692 700 c 0,31,32
+ 661 700 661 700 639 678 c 0,33,34
+ 609.333 648.333 609.333 648.333 617 625 c 1,35,-1
+ 641.523 505 l 1,36,-1
+ 585 505 l 1,37,38
+ 569 593 569 593 509 646.5 c 128,-1,39
+ 449 700 449 700 365 700 c 0,40,41
+ 276 700 276 700 213 638.5 c 128,-1,42
+ 150 577 150 577 150 490 c 2,43,-1
+ 150 0 l 1,44,-1
+ 90 0 l 1,45,-1
+ 90 500 l 2,13,14
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj raguj_viramaguj anusvaraguj
 EndChar
 
 StartChar: isignguj_anusvaraguj
-Encoding: 65562 -1 314
+Encoding: 65562 -1 313
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -14976,7 +14986,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj anusvaragu
 EndChar
 
 StartChar: isignguj_anusvaraguj.alt5
-Encoding: 65557 -1 315
+Encoding: 65557 -1 314
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15012,7 +15022,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt5 anusv
 EndChar
 
 StartChar: isignguj_anusvaraguj.alt4
-Encoding: 65558 -1 316
+Encoding: 65558 -1 315
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15048,7 +15058,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt4 anusv
 EndChar
 
 StartChar: isignguj_anusvaraguj.alt3
-Encoding: 65559 -1 317
+Encoding: 65559 -1 316
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15084,7 +15094,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt3 anusv
 EndChar
 
 StartChar: isignguj_anusvaraguj.alt2
-Encoding: 65560 -1 318
+Encoding: 65560 -1 317
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15120,7 +15130,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt2 anusv
 EndChar
 
 StartChar: isignguj_anusvaraguj.alt1
-Encoding: 65561 -1 319
+Encoding: 65561 -1 318
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15156,7 +15166,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt1 anusv
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt1
-Encoding: 65556 -1 320
+Encoding: 65556 -1 319
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15193,7 +15203,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt1 raguj
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt2
-Encoding: 65555 -1 321
+Encoding: 65555 -1 320
 Width: 236
 GlyphClass: 4
 Flags: W
@@ -15228,7 +15238,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt2 raguj
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt3
-Encoding: 65554 -1 322
+Encoding: 65554 -1 321
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15264,7 +15274,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt3 raguj
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt4
-Encoding: 65553 -1 323
+Encoding: 65553 -1 322
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15300,7 +15310,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt4 raguj
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt5
-Encoding: 65552 -1 324
+Encoding: 65552 -1 323
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15335,7 +15345,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt5 raguj
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt7
-Encoding: 65551 -1 325
+Encoding: 65551 -1 324
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15370,7 +15380,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt7 raguj
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt6
-Encoding: 65550 -1 326
+Encoding: 65550 -1 325
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15406,7 +15416,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt6 raguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt2
-Encoding: 65549 -1 327
+Encoding: 65549 -1 326
 Width: 236
 GlyphClass: 4
 Flags: W
@@ -15452,7 +15462,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt2 raguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt3
-Encoding: 65548 -1 328
+Encoding: 65548 -1 327
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15498,7 +15508,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt3 raguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt4
-Encoding: 65547 -1 329
+Encoding: 65547 -1 328
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15543,7 +15553,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt4 raguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt5
-Encoding: 65546 -1 330
+Encoding: 65546 -1 329
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15587,7 +15597,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt5 raguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt7
-Encoding: 65545 -1 331
+Encoding: 65545 -1 330
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15633,7 +15643,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt7 raguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt6
-Encoding: 65544 -1 332
+Encoding: 65544 -1 331
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15678,7 +15688,7 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt6 raguj
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt1
-Encoding: 65543 -1 333
+Encoding: 65543 -1 332
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15686,27 +15696,27 @@ AnchorPoint: "Anchor-0" -120 -12 mark 0
 LayerCount: 2
 Fore
 SplineSet
-1150 540 m 128,-1,1
- 1127 540 1127 540 1111 556 c 128,-1,2
- 1095 572 1095 572 1095 595 c 0,3,4
- 1095 620.008 1095 620.008 1111 637.5 c 128,-1,5
- 1127 655 1127 655 1150 655 c 256,6,7
- 1173 655 1173 655 1189 639 c 128,-1,8
- 1205 623 1205 623 1205 600 c 0,9,10
- 1205 575 1205 575 1189 557.5 c 128,-1,0
- 1173 540 1173 540 1150 540 c 128,-1,1
-1006 646 m 17,11,12
- 1012.8 675.347 1012.8 675.347 1045 705 c 0,13,14
- 1083 740 1083 740 1137 740 c 0,15,16
- 1165 740 1165 740 1191 731 c 128,-1,17
- 1217 722 1217 722 1237 705 c 1,18,-1
- 1217 660 l 1,19,20
- 1196 675 1196 675 1177 682.5 c 128,-1,21
- 1158 690 1158 690 1142 690 c 0,22,23
- 1098.1 690 1098.1 690 1079.5 667 c 0,24,25
- 1052.31 632.951 1052.31 632.951 1058 601 c 1,26,-1
- 1091 498 l 1,27,-1
- 1031 498 l 1,28,29
+1150 540 m 132,-1,1
+ 1127 540 1127 540 1111 556 c 132,-1,2
+ 1095 572 1095 572 1095 595 c 4,3,4
+ 1095 620.008 1095 620.008 1111 637.5 c 132,-1,5
+ 1127 655 1127 655 1150 655 c 260,6,7
+ 1173 655 1173 655 1189 639 c 132,-1,8
+ 1205 623 1205 623 1205 600 c 4,9,10
+ 1205 575 1205 575 1189 557.5 c 132,-1,0
+ 1173 540 1173 540 1150 540 c 132,-1,1
+1006 646 m 21,11,12
+ 1012.8 675.347 1012.8 675.347 1045 705 c 4,13,14
+ 1083 740 1083 740 1137 740 c 4,15,16
+ 1165 740 1165 740 1191 731 c 132,-1,17
+ 1217 722 1217 722 1237 705 c 5,18,-1
+ 1217 660 l 5,19,20
+ 1196 675 1196 675 1177 682.5 c 132,-1,21
+ 1158 690 1158 690 1142 690 c 4,22,23
+ 1098.1 690 1098.1 690 1079.5 667 c 4,24,25
+ 1052.31 632.951 1052.31 632.951 1058 601 c 5,26,-1
+ 1091 498 l 5,27,-1
+ 1031 498 l 5,28,29
  1016 583 1016 583 895 641.5 c 128,-1,30
  774 700 774 700 556 700 c 0,31,32
  411 700 411 700 280.5 641.5 c 128,-1,33
@@ -15718,14 +15728,15 @@ SplineSet
  90 604 90 604 238 677 c 128,-1,40
  386 750 386 750 556 750 c 0,41,42
  825 750 825 750 953 682 c 0,43,44
- 975.174 670.22 975.174 670.22 993.806 657 c 8,45,46
- 1011.3 643.495 1011.3 643.495 1006 646 c 17,11,12
+ 975.174 670.22 975.174 670.22 993.806 657 c 12,45,46
+ 1011.3 643.495 1011.3 643.495 1006 646 c 21,11,12
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt1 raguj_viramaguj anusvaraguj
 EndChar
 
 StartChar: isignguj.alt8
-Encoding: 65542 -1 334
+Encoding: 65542 -1 333
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15750,24 +15761,24 @@ EndSplineSet
 EndChar
 
 StartChar: isignguj_raguj_viramaguj.alt8
-Encoding: 65541 -1 335
+Encoding: 65541 -1 334
 Width: 240
 GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-679.049 659.732 m 0,0,1
- 721 741 721 741 807 740 c 0,2,3
- 835 740 835 740 861 731 c 128,-1,4
- 887 722 887 722 907 705 c 1,5,-1
- 887 660 l 1,6,7
- 866 675 866 675 847 682.5 c 128,-1,8
- 828 690 828 690 812 690 c 0,9,10
- 783.106 690 783.106 690 760.5 675.732 c 0,11,12
- 723.802 652.324 723.802 652.324 716.982 601.732 c 1,13,14
- 739.569 554.989 739.569 554.989 745 498 c 1,15,-1
- 685 498 l 1,16,17
+679.049 659.732 m 4,0,1
+ 721 741 721 741 807 740 c 4,2,3
+ 835 740 835 740 861 731 c 132,-1,4
+ 887 722 887 722 907 705 c 5,5,-1
+ 887 660 l 5,6,7
+ 866 675 866 675 847 682.5 c 132,-1,8
+ 828 690 828 690 812 690 c 4,9,10
+ 783.106 690 783.106 690 760.5 675.732 c 4,11,12
+ 723.802 652.324 723.802 652.324 716.982 601.732 c 5,13,14
+ 739.569 554.989 739.569 554.989 745 498 c 5,15,-1
+ 685 498 l 5,16,17
  669 586 669 586 606.75 644.871 c 128,-1,18
  544.5 703.742 544.5 703.742 420.25 701.871 c 128,-1,19
  296 700 296 700 223 638.5 c 128,-1,20
@@ -15779,13 +15790,14 @@ SplineSet
  90 604 90 604 182.25 677.95 c 0,27,28
  273.926 751.44 273.926 751.44 392.5 761 c 0,29,30
  560.767 774.567 560.767 774.567 662 678 c 0,31,32
- 671.003 669.152 671.003 669.152 679.049 659.732 c 0,0,1
+ 671.003 669.152 671.003 669.152 679.049 659.732 c 4,0,1
 EndSplineSet
+LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt8 raguj_viramaguj
 EndChar
 
 StartChar: isignguj_anusvaraguj.alt8
-Encoding: 65540 -1 336
+Encoding: 65540 -1 335
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15822,33 +15834,33 @@ Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt8 anusv
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt8
-Encoding: 65539 -1 337
+Encoding: 65539 -1 336
 Width: 240
 GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-810 540 m 128,-1,1
- 787 540 787 540 771 556 c 128,-1,2
- 755 572 755 572 755 595 c 0,3,4
- 755 620.008 755 620.008 771 637.5 c 128,-1,5
- 787 655 787 655 820 655 c 256,6,7
- 833 655 833 655 849 639 c 128,-1,8
- 865 623 865 623 865 600 c 0,9,10
- 865 575 865 575 849 557.5 c 128,-1,0
- 833 540 833 540 810 540 c 128,-1,1
-679.049 659.732 m 0,11,12
- 721 741 721 741 807 740 c 0,13,14
- 835 740 835 740 861 731 c 128,-1,15
- 887 722 887 722 907 705 c 1,16,-1
- 887 660 l 1,17,18
- 866 675 866 675 847 682.5 c 128,-1,19
- 828 690 828 690 812 690 c 0,20,21
- 783.106 690 783.106 690 760.5 675.732 c 0,22,23
- 723.802 652.324 723.802 652.324 716.982 601.732 c 1,24,25
- 739.569 554.989 739.569 554.989 745 498 c 1,26,-1
- 685 498 l 1,27,28
+810 540 m 132,-1,1
+ 787 540 787 540 771 556 c 132,-1,2
+ 755 572 755 572 755 595 c 4,3,4
+ 755 620.008 755 620.008 771 637.5 c 132,-1,5
+ 787 655 787 655 820 655 c 260,6,7
+ 833 655 833 655 849 639 c 132,-1,8
+ 865 623 865 623 865 600 c 4,9,10
+ 865 575 865 575 849 557.5 c 132,-1,0
+ 833 540 833 540 810 540 c 132,-1,1
+679.049 659.732 m 4,11,12
+ 721 741 721 741 807 740 c 4,13,14
+ 835 740 835 740 861 731 c 132,-1,15
+ 887 722 887 722 907 705 c 5,16,-1
+ 887 660 l 5,17,18
+ 866 675 866 675 847 682.5 c 132,-1,19
+ 828 690 828 690 812 690 c 4,20,21
+ 783.106 690 783.106 690 760.5 675.732 c 4,22,23
+ 723.802 652.324 723.802 652.324 716.982 601.732 c 5,24,25
+ 739.569 554.989 739.569 554.989 745 498 c 5,26,-1
+ 685 498 l 5,27,28
  669 586 669 586 606.75 644.871 c 128,-1,29
  544.5 703.742 544.5 703.742 420.25 701.871 c 128,-1,30
  296 700 296 700 223 638.5 c 128,-1,31
@@ -15860,13 +15872,14 @@ SplineSet
  90 604 90 604 182.25 677.95 c 0,38,39
  273.926 751.44 273.926 751.44 392.5 761 c 0,40,41
  560.767 774.567 560.767 774.567 662 678 c 0,42,43
- 671.003 669.152 671.003 669.152 679.049 659.732 c 0,11,12
+ 671.003 669.152 671.003 669.152 679.049 659.732 c 4,11,12
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt8 raguj_viramaguj anusvaraguj
 EndChar
 
 StartChar: isignguj_anusvaraguj.alt6
-Encoding: 65537 -1 338
+Encoding: 65537 -1 337
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15904,7 +15917,7 @@ EndSplineSet
 EndChar
 
 StartChar: isignguj_anusvaraguj.alt7
-Encoding: 65538 -1 339
+Encoding: 65538 -1 338
 Width: 240
 GlyphClass: 4
 Flags: W
@@ -15937,6 +15950,422 @@ SplineSet
  90 500 l 1,29,-1
  90 500 l 1,13,14
 EndSplineSet
+EndChar
+
+StartChar: isignguj.alt9
+Encoding: 65535 -1 339
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 500 m 1,0,1
+ 90 604 90 604 182.25 677.95 c 0,2,3
+ 276.932 753.85 276.932 753.85 392.5 761 c 0,4,5
+ 614.306 773.86 614.306 773.86 729 678 c 0,6,7
+ 813.65 606.602 813.65 606.602 823 498 c 1,8,-1
+ 763 498 l 1,9,10
+ 747 586 747 586 679.25 644.871 c 128,-1,11
+ 611.5 703.742 611.5 703.742 453.75 701.871 c 128,-1,12
+ 296 700 296 700 223 638.5 c 128,-1,13
+ 150 577 150 577 150 490 c 2,14,-1
+ 150 0 l 1,15,-1
+ 90 0 l 1,16,-1
+ 90 500 l 1,17,-1
+ 90 500 l 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: isignguj.alt10
+Encoding: 65534 -1 340
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 500 m 1,0,1
+ 90 604 90 604 182.25 677.95 c 0,2,3
+ 276.932 753.85 276.932 753.85 392.5 761 c 0,4,5
+ 567.923 773.224 567.923 773.224 689 678 c 0,6,7
+ 778.554 609.307 778.554 609.307 787 499 c 5,8,-1
+ 727 499 l 5,9,10
+ 711 587 711 587 641.25 645.371 c 128,-1,11
+ 571.5 703.742 571.5 703.742 433.75 701.871 c 128,-1,12
+ 296 700 296 700 223 638.5 c 128,-1,13
+ 150 577 150 577 150 490 c 2,14,-1
+ 150 0 l 1,15,-1
+ 90 0 l 1,16,-1
+ 90 500 l 1,17,-1
+ 90 500 l 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: isignguj.alt11
+Encoding: 65533 -1 341
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+90 500 m 1,0,1
+ 90 604 90 604 184.25 683.5 c 128,-1,2
+ 278.5 763 278.5 763 392.5 763 c 0,3,4
+ 533.5 763 533.5 763 617.25 686 c 128,-1,5
+ 701 609 701 609 711 498 c 1,6,-1
+ 651 498 l 1,7,8
+ 635 586 635 586 571.25 644.5 c 128,-1,9
+ 507.5 703 507.5 703 399.5 703 c 0,10,11
+ 310.5 703 310.5 703 230.25 640 c 128,-1,12
+ 150 577 150 577 150 490 c 2,13,-1
+ 150 0 l 1,14,-1
+ 90 0 l 1,15,-1
+ 90 500 l 1,16,-1
+ 90 500 l 1,0,1
+EndSplineSet
+EndChar
+
+StartChar: isign_ra_virama_anusvara.alt9
+Encoding: 65532 -1 342
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+729 678 m 16,0,1
+ 614.306 773.86 614.306 773.86 392.5 761 c 0,2,3
+ 276.932 753.85 276.932 753.85 182.25 677.95 c 0,4,5
+ 90 604 90 604 90 500 c 2,6,-1
+ 90 0 l 1,7,-1
+ 150 0 l 1,8,-1
+ 150 490 l 2,9,10
+ 150 577 150 577 223 638.5 c 128,-1,11
+ 296 700 296 700 453.75 701.371 c 128,-1,12
+ 611.5 702.742 611.5 702.742 679.25 643.871 c 128,-1,13
+ 747 585 747 585 763 497 c 1,14,-1
+ 823 499 l 1,15,16
+ 818.37 554.989 818.37 554.989 792.982 601.732 c 1,17,18
+ 799.276 650.344 799.276 650.344 839.5 675.732 c 0,19,20
+ 862.106 690 862.106 690 891 690 c 0,21,22
+ 907 690 907 690 926 682.5 c 128,-1,23
+ 945 675 945 675 966 660 c 1,24,-1
+ 986 705 l 1,25,26
+ 966 722 966 722 933 733.5 c 128,-1,27
+ 900 745 900 745 872 745 c 0,28,29
+ 786.513 746 786.513 746 744.049 663.732 c 8,30,-1
+ 729 678 l 16,0,1
+889 540 m 128,-1,32
+ 866 540 866 540 850 556 c 128,-1,33
+ 834 572 834 572 834 595 c 0,34,35
+ 834 620.008 834 620.008 850 637.5 c 128,-1,36
+ 866 655 866 655 899 655 c 0,37,38
+ 912 655 912 655 928 639 c 128,-1,39
+ 944 623 944 623 944 600 c 0,40,41
+ 944 575 944 575 928 557.5 c 128,-1,31
+ 912 540 912 540 889 540 c 128,-1,32
+EndSplineSet
+LCarets2: 2 0 0 
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt9 raguj_viramaguj anusvaraguj
+EndChar
+
+StartChar: isign_ra_virama_anusvara.alt10
+Encoding: 65531 -1 343
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+641.25 645.371 m 128,-1,1
+ 571.5 703.742 571.5 703.742 433.75 701.871 c 128,-1,2
+ 296 700 296 700 223 638.5 c 128,-1,3
+ 150 577 150 577 150 490 c 2,4,-1
+ 150 0 l 1,5,-1
+ 90 0 l 1,6,-1
+ 90 500 l 2,7,8
+ 90 604 90 604 182.25 677.95 c 0,9,10
+ 276.932 753.85 276.932 753.85 392.5 761 c 0,11,12
+ 571.454 773.471 571.454 773.471 689 678 c 0,13,14
+ 700.44 668.709 700.44 668.709 715.771 651.761 c 0,15,-1
+ 731.5 680.285 l 1,16,17
+ 775.967 737.546 775.967 737.546 849 741 c 0,18,19
+ 873.503 742.211 873.503 742.211 903 732 c 0,20,21
+ 929 723 929 723 949 706 c 1,22,-1
+ 929 661 l 1,23,24
+ 908 676 908 676 889 683.5 c 128,-1,25
+ 870 691 870 691 854 691 c 0,26,27
+ 825.107 691 825.107 691 802.5 676.732 c 0,28,29
+ 762.532 653.324 762.532 653.324 755.982 602.732 c 1,30,31
+ 784 553 784 553 787 499 c 1,32,-1
+ 727 499 l 1,33,0
+ 711 587 711 587 641.25 645.371 c 128,-1,1
+852 541 m 128,-1,35
+ 829 541 829 541 813 557 c 128,-1,36
+ 797 573 797 573 797 596 c 0,37,38
+ 797 621.008 797 621.008 813 638.5 c 128,-1,39
+ 829 656 829 656 862 656 c 0,40,41
+ 875 656 875 656 891 640 c 128,-1,42
+ 907 624 907 624 907 601 c 0,43,44
+ 907 576 907 576 891 558.5 c 128,-1,34
+ 875 541 875 541 852 541 c 128,-1,35
+EndSplineSet
+LCarets2: 2 0 0 
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt10 raguj_viramaguj anusvaraguj
+EndChar
+
+StartChar: isign_ra_virama_anusvara.alt11
+Encoding: 65530 -1 344
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+571.25 644 m 128,-1,1
+ 507.5 703 507.5 703 399.5 703 c 0,2,3
+ 310.5 703 310.5 703 230.25 640 c 128,-1,4
+ 150 577 150 577 150 490 c 2,5,-1
+ 150 0 l 1,6,-1
+ 90 0 l 1,7,-1
+ 90 500 l 2,8,9
+ 90 604 90 604 184.25 683.5 c 128,-1,10
+ 278.5 763 278.5 763 392.5 763 c 0,11,12
+ 526.262 763 526.262 763 618.25 685.5 c 0,13,14
+ 652.592 655.968 652.592 655.968 652.109 655 c 24,15,16
+ 693.156 737.268 693.156 737.268 776.061 737.268 c 0,17,18
+ 804.061 737.268 804.061 737.268 828.53 729.134 c 128,-1,19
+ 853 721 853 721 873 704 c 1,20,-1
+ 853 659 l 1,21,22
+ 832 674 832 674 813 681.5 c 128,-1,23
+ 794 689 794 689 778 689 c 0,24,25
+ 749.106 689 749.106 689 726.5 674.732 c 0,26,27
+ 688.704 651.324 688.704 651.324 681.982 600.732 c 1,28,29
+ 705.889 553.989 705.889 553.989 711 497 c 1,30,-1
+ 651 497 l 1,31,0
+ 635 585 635 585 571.25 644 c 128,-1,1
+776 539 m 128,-1,33
+ 753 539 753 539 737 555 c 128,-1,34
+ 721 571 721 571 721 594 c 0,35,36
+ 721 619.008 721 619.008 737 636.5 c 128,-1,37
+ 753 654 753 654 786 654 c 0,38,39
+ 799 654 799 654 815 638 c 128,-1,40
+ 831 622 831 622 831 599 c 0,41,42
+ 831 574 831 574 815 556.5 c 128,-1,32
+ 799 539 799 539 776 539 c 128,-1,33
+EndSplineSet
+LCarets2: 2 0 0 
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt11 raguj_viramaguj anusvaraguj
+EndChar
+
+StartChar: isignguj_anusvaraguj.alt11
+Encoding: 65527 -1 345
+Width: 240
+Flags: W
+AnchorPoint: "Anchor-0" -116 60 mark 0
+LayerCount: 2
+Fore
+SplineSet
+730 630 m 5,0,1
+ 707 630 707 630 691 646 c 132,-1,2
+ 675 662 675 662 675 685 c 4,3,4
+ 675 710 675 710 691 727.5 c 132,-1,5
+ 707 745 707 745 730 745 c 260,6,7
+ 753 745 753 745 769 729 c 132,-1,8
+ 785 713 785 713 785 690 c 4,9,10
+ 785 665 785 665 769 647.5 c 132,-1,11
+ 753 630 753 630 730 630 c 5,12,-1
+ 730 630 l 5,0,1
+90 500 m 1,13,14
+ 90 604 90 604 184.25 683.5 c 128,-1,15
+ 278.5 763 278.5 763 392.5 763 c 0,16,17
+ 533.5 763 533.5 763 617.25 686 c 128,-1,18
+ 701 609 701 609 711 498 c 1,19,-1
+ 651 498 l 1,20,21
+ 635 586 635 586 571.25 644.5 c 128,-1,22
+ 507.5 703 507.5 703 399.5 703 c 0,23,24
+ 310.5 703 310.5 703 230.25 640 c 128,-1,25
+ 150 577 150 577 150 490 c 2,26,-1
+ 150 0 l 1,27,-1
+ 90 0 l 1,28,-1
+ 90 500 l 1,29,-1
+ 90 500 l 1,13,14
+EndSplineSet
+LCarets2: 1 0 
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt11 anusvaraguj
+EndChar
+
+StartChar: isignguj_anusvaraguj.alt10
+Encoding: 65528 -1 346
+Width: 240
+Flags: W
+AnchorPoint: "Anchor-0" -116 60 mark 0
+LayerCount: 2
+Fore
+SplineSet
+810 630 m 5,0,1
+ 787 630 787 630 771 646 c 132,-1,2
+ 755 662 755 662 755 685 c 4,3,4
+ 755 710 755 710 771 727.5 c 132,-1,5
+ 787 745 787 745 810 745 c 260,6,7
+ 833 745 833 745 849 729 c 132,-1,8
+ 865 713 865 713 865 690 c 4,9,10
+ 865 665 865 665 849 647.5 c 132,-1,11
+ 833 630 833 630 810 630 c 5,12,-1
+ 810 630 l 5,0,1
+90 500 m 1,13,14
+ 90 604 90 604 182.25 677.95 c 0,15,16
+ 276.932 753.85 276.932 753.85 392.5 761 c 0,17,18
+ 567.923 773.224 567.923 773.224 689 678 c 0,19,20
+ 778.554 609.307 778.554 609.307 787 499 c 1,21,-1
+ 727 499 l 1,22,23
+ 711 587 711 587 641.25 645.371 c 128,-1,24
+ 571.5 703.742 571.5 703.742 433.75 701.871 c 128,-1,25
+ 296 700 296 700 223 638.5 c 128,-1,26
+ 150 577 150 577 150 490 c 2,27,-1
+ 150 0 l 1,28,-1
+ 90 0 l 1,29,-1
+ 90 500 l 1,30,-1
+ 90 500 l 1,13,14
+EndSplineSet
+LCarets2: 1 0 
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt10 anusvaraguj
+EndChar
+
+StartChar: isignguj_anusvaraguj.alt9
+Encoding: 65529 -1 347
+Width: 240
+Flags: W
+AnchorPoint: "Anchor-0" -116 60 mark 0
+LayerCount: 2
+Fore
+SplineSet
+850 630 m 5,0,1
+ 827 630 827 630 811 646 c 132,-1,2
+ 795 662 795 662 795 685 c 4,3,4
+ 795 710 795 710 811 727.5 c 132,-1,5
+ 827 745 827 745 850 745 c 260,6,7
+ 873 745 873 745 889 729 c 132,-1,8
+ 905 713 905 713 905 690 c 4,9,10
+ 905 665 905 665 889 647.5 c 132,-1,11
+ 873 630 873 630 850 630 c 5,12,-1
+ 850 630 l 5,0,1
+90 500 m 1,13,14
+ 90 604 90 604 182.25 677.95 c 0,15,16
+ 276.932 753.85 276.932 753.85 392.5 761 c 0,17,18
+ 614.306 773.86 614.306 773.86 729 678 c 0,19,20
+ 813.65 606.602 813.65 606.602 823 498 c 1,21,-1
+ 763 498 l 1,22,23
+ 747 586 747 586 679.25 644.871 c 128,-1,24
+ 611.5 703.742 611.5 703.742 453.75 701.871 c 128,-1,25
+ 296 700 296 700 223 638.5 c 128,-1,26
+ 150 577 150 577 150 490 c 2,27,-1
+ 150 0 l 1,28,-1
+ 90 0 l 1,29,-1
+ 90 500 l 1,30,-1
+ 90 500 l 1,13,14
+EndSplineSet
+LCarets2: 1 0 
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt9 anusvaraguj
+EndChar
+
+StartChar: isignguj_raguj_viramaguj.alt11
+Encoding: 65524 -1 348
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+571.25 644 m 128,-1,1
+ 507.5 703 507.5 703 399.5 703 c 0,2,3
+ 310.5 703 310.5 703 230.25 640 c 128,-1,4
+ 150 577 150 577 150 490 c 2,5,-1
+ 150 0 l 1,6,-1
+ 90 0 l 1,7,-1
+ 90 500 l 2,8,9
+ 90 604 90 604 184.25 683.5 c 128,-1,10
+ 278.5 763 278.5 763 392.5 763 c 0,11,12
+ 526.262 763 526.262 763 618.25 685.5 c 0,13,14
+ 652.592 655.968 652.592 655.968 652.109 655 c 24,15,16
+ 693.156 737.268 693.156 737.268 776.061 737.268 c 0,17,18
+ 804.061 737.268 804.061 737.268 828.53 729.134 c 128,-1,19
+ 853 721 853 721 873 704 c 1,20,-1
+ 853 659 l 1,21,22
+ 832 674 832 674 813 681.5 c 128,-1,23
+ 794 689 794 689 778 689 c 0,24,25
+ 749.106 689 749.106 689 726.5 674.732 c 0,26,27
+ 688.704 651.324 688.704 651.324 681.982 600.732 c 1,28,29
+ 705.889 553.989 705.889 553.989 711 497 c 1,30,-1
+ 651 497 l 1,31,0
+ 635 585 635 585 571.25 644 c 128,-1,1
+EndSplineSet
+LCarets2: 1 0 
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt11 raguj_viramaguj
+EndChar
+
+StartChar: isignguj_raguj_viramaguj.alt10
+Encoding: 65525 -1 349
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+641.25 645.371 m 128,-1,1
+ 571.5 703.742 571.5 703.742 433.75 701.871 c 128,-1,2
+ 296 700 296 700 223 638.5 c 128,-1,3
+ 150 577 150 577 150 490 c 2,4,-1
+ 150 0 l 1,5,-1
+ 90 0 l 1,6,-1
+ 90 500 l 2,7,8
+ 90 604 90 604 182.25 677.95 c 0,9,10
+ 276.932 753.85 276.932 753.85 392.5 761 c 0,11,12
+ 571.454 773.471 571.454 773.471 689 678 c 0,13,14
+ 700.44 668.709 700.44 668.709 715.771 651.761 c 0,15,-1
+ 731.5 680.285 l 1,16,17
+ 775.967 737.546 775.967 737.546 849 741 c 0,18,19
+ 873.503 742.211 873.503 742.211 903 732 c 0,20,21
+ 929 723 929 723 949 706 c 1,22,-1
+ 929 661 l 1,23,24
+ 908 676 908 676 889 683.5 c 128,-1,25
+ 870 691 870 691 854 691 c 0,26,27
+ 825.107 691 825.107 691 802.5 676.732 c 0,28,29
+ 762.532 653.324 762.532 653.324 755.982 602.732 c 1,30,31
+ 784 553 784 553 787 499 c 1,32,-1
+ 727 499 l 1,33,0
+ 711 587 711 587 641.25 645.371 c 128,-1,1
+EndSplineSet
+LCarets2: 1 0 
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt10 raguj_viramaguj
+EndChar
+
+StartChar: isignguj_raguj_viramaguj.alt9
+Encoding: 65526 -1 350
+Width: 240
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+729 678 m 16,0,1
+ 614.306 773.86 614.306 773.86 392.5 761 c 0,2,3
+ 276.932 753.85 276.932 753.85 182.25 677.95 c 0,4,5
+ 90 604 90 604 90 500 c 2,6,-1
+ 90 0 l 1,7,-1
+ 150 0 l 1,8,-1
+ 150 490 l 2,9,10
+ 150 577 150 577 223 638.5 c 128,-1,11
+ 296 700 296 700 453.75 701.371 c 128,-1,12
+ 611.5 702.742 611.5 702.742 679.25 643.871 c 128,-1,13
+ 747 585 747 585 763 497 c 1,14,-1
+ 823 499 l 1,15,16
+ 818.37 554.989 818.37 554.989 792.982 601.732 c 1,17,18
+ 799.276 650.344 799.276 650.344 839.5 675.732 c 0,19,20
+ 862.106 690 862.106 690 891 690 c 0,21,22
+ 907 690 907 690 926 682.5 c 128,-1,23
+ 945 675 945 675 966 660 c 1,24,-1
+ 986 705 l 1,25,26
+ 966 722 966 722 933 733.5 c 128,-1,27
+ 900 745 900 745 872 745 c 0,28,29
+ 786.513 746 786.513 746 744.049 663.732 c 8,30,-1
+ 729 678 l 16,0,1
+EndSplineSet
+LCarets2: 1 0 
+Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt9 raguj_viramaguj
 EndChar
 EndChars
 EndSplineFont
