@@ -1,6 +1,6 @@
 all: ttf woff eot ttf-dist sfd-dist web-dist
 
-version:= 2.92.0
+version:= 2.93.0
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
