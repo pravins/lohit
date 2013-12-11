@@ -18,15 +18,15 @@ lookup halnHalantFormslookup29 {
 
 lookup LocalizedMrForms_lookup0 {
   lookupflag 0;
-    sub \ladeva by \ladeva.alt ;
-    sub \shadeva by \shadeva.alt ;
+    sub \ladeva by \ladeva.mr ;
+    sub \shadeva by \shadeva.mr ;
 } LocalizedMrForms_lookup0;
 
 lookup LocalizedMrHalfFormslookup1 {
   lookupflag 0;
     sub \hadeva \viramadeva \radeva  by \hadeva_viramadeva_radeva;
     sub \kadeva \viramadeva \kadeva  by \kadeva_viramadeva_kadeva;
-    sub \kadeva \viramadeva \ladeva.alt  by \kadeva_viramadeva_ladeva;
+    sub \kadeva \viramadeva \ladeva.mr  by \kadeva_viramadeva_ladeva;
     sub \kadeva \viramadeva \vadeva  by \kadeva_viramadeva_vadeva;
     sub \gadeva \viramadeva \nadeva  by \gadeva_viramadeva_nadeva;
     sub \ngadeva \viramadeva \kadeva  by \ngadeva_viramadeva_kadeva;
@@ -63,18 +63,18 @@ lookup LocalizedMrHalfFormslookup1 {
     sub \dadeva \viramadeva \vadeva  by \dadeva_viramadeva_vadeva;
     sub \nadeva \viramadeva \nadeva  by \nadeva_viramadeva_nadeva;
     sub \padeva \viramadeva \tadeva  by \padeva_viramadeva_tadeva;
-    sub \padeva \viramadeva \ladeva.alt  by \padeva_viramadeva_ladeva;
-    sub \phadeva \viramadeva \ladeva.alt  by \phadeva_viramadeva_ladeva;
-    sub \ladeva.alt \viramadeva \ladeva.alt  by \ladeva_viramadeva_ladeva;
-    sub \shadeva.alt \viramadeva \cadeva  by \shadeva_viramadeva_cadeva;
-    sub \shadeva.alt \viramadeva \nadeva  by \shadeva_viramadeva_nadeva;
-    sub \shadeva.alt \viramadeva \ladeva.alt  by \shadeva_viramadeva_ladeva;
-    sub \shadeva.alt \viramadeva \vadeva  by \shadeva_viramadeva_vadeva;
+    sub \padeva \viramadeva \ladeva.mr  by \padeva_viramadeva_ladeva;
+    sub \phadeva \viramadeva \ladeva.mr  by \phadeva_viramadeva_ladeva;
+    sub \ladeva.mr \viramadeva \ladeva.mr  by \ladeva_viramadeva_ladeva;
+    sub \shadeva.mr \viramadeva \cadeva  by \shadeva_viramadeva_cadeva;
+    sub \shadeva.mr \viramadeva \nadeva  by \shadeva_viramadeva_nadeva;
+    sub \shadeva.mr \viramadeva \ladeva.mr  by \shadeva_viramadeva_ladeva;
+    sub \shadeva.mr \viramadeva \vadeva  by \shadeva_viramadeva_vadeva;
     sub \hadeva \viramadeva \nnadeva  by \hadeva_viramadeva_nnadeva;
     sub \hadeva \viramadeva \nadeva  by \hadeva_viramadeva_nadeva;
     sub \hadeva \viramadeva \madeva  by \hadeva_viramadeva_madeva;
     sub \hadeva \viramadeva \yadeva  by \hadeva_viramadeva_yadeva;
-    sub \hadeva \viramadeva \ladeva.alt  by \hadeva_viramadeva_ladeva;
+    sub \hadeva \viramadeva \ladeva.mr  by \hadeva_viramadeva_ladeva;
     sub \hadeva \viramadeva \vadeva  by \hadeva_viramadeva_vadeva;
 } LocalizedMrHalfFormslookup1;
 
@@ -152,7 +152,7 @@ lookup HalfFormslookup10 {
     sub \bhadeva \viramadeva  by \bhadeva_viramadeva;
     sub \madeva \viramadeva  by \madeva_viramadeva;
     sub \yadeva \viramadeva  by \yadeva_viramadeva;
-    sub \ladeva.alt \viramadeva  by \ladeva_viramadeva;
+    sub \ladeva.mr \viramadeva  by \ladeva_viramadeva;
     sub \ladeva \viramadeva  by \ladeva_viramadeva;
     sub \lladeva \viramadeva  by \lladeva_viramadeva;
     sub \llladeva \viramadeva  by \llladeva_viramadeva;
@@ -169,7 +169,7 @@ lookup HalfFormslookup10 {
     sub \kadeva_viramadeva_ssadeva \viramadeva  by \ka_virama_ssa_viramadeva;
     sub \jadeva_viramadeva_nyadeva \viramadeva  by \ja_virama_nya_viramadeva;
     sub \radeva \viramadeva \zerowidthjoiner  by \radeva_viramadeva.alt;
-    sub \shadeva.alt \viramadeva  by \shadeva_viramadeva.alt;
+    sub \shadeva.mr \viramadeva  by \shadeva_viramadeva.mr;
     sub \badeva_viramadeva_radeva \viramadeva  by \ba_virama_ra_viramadeva;
 } HalfFormslookup10;
 
@@ -177,7 +177,7 @@ lookup VattuVariantslookup30 {
   lookupflag 0;
     sub \shadeva \viramadeva_radeva  by \shadeva_viramadeva_radeva;
     sub \shadeva_viramadeva_alt \radeva  by \shadeva_viramadeva_radeva;
-    sub \shadeva.alt \viramadeva_radeva  by \shadeva_viramadeva_radeva;
+    sub \shadeva.mr \viramadeva_radeva  by \shadeva_viramadeva_radeva;
     sub \kadeva \viramadeva_radeva  by \kadeva_viramadeva_radeva;
     sub \khadeva \viramadeva_radeva  by \khadeva_viramadeva_radeva;
     sub \gadeva \viramadeva_radeva  by \gadeva_viramadeva_radeva;
@@ -199,7 +199,7 @@ lookup VattuVariantslookup30 {
     sub \dhadeva \viramadeva_radeva  by \dhadeva_viramadeva_radeva;
     sub \nadeva \viramadeva_radeva  by \nadeva_viramadeva_radeva;
     sub \ladeva \viramadeva_radeva  by \ladeva_viramadeva_radeva;
-    sub \ladeva.alt \viramadeva_radeva  by \ladeva_viramadeva_radeva;
+    sub \ladeva.mr \viramadeva_radeva  by \ladeva_viramadeva_radeva;
     sub \nyadeva \viramadeva_radeva  by \nyadeva_viramadeva_radeva;
     sub \nnadeva \viramadeva_radeva  by \nnadeva_viramadeva_radeva;
     sub \yadeva \viramadeva_radeva  by \yadeva_viramadeva_radeva;
@@ -229,11 +229,11 @@ lookup ConjunctFormslookup11 {
 lookup PreBaseSubstitutionslookup1 {
   lookupflag 0;
     sub \shadeva \viramadeva \radeva  by \shadeva_viramadeva_radeva;
-    sub \shadeva_viramadeva.alt \radeva  by \shadeva_viramadeva_radeva;
+    sub \shadeva_viramadeva.mr \radeva  by \shadeva_viramadeva_radeva;
     sub \tadeva_viramadeva \tadeva  by \tadeva_viramadeva_tadeva;
     sub \tadeva_viramadeva \tadeva_viramadeva  by \ta_virama_ta_viramadeva;
     sub \shadeva \rvocalicsigndeva  by \sha_virama_rvocalicdeva;
-    sub \shadeva.alt \rvocalicsigndeva  by \sha_virama_rvocalicdeva;
+    sub \shadeva.mr \rvocalicsigndeva  by \sha_virama_rvocalicdeva;
     sub \kadeva_viramadeva \kadeva  by \kadeva_viramadeva_kadeva;
     sub \kadeva_viramadeva \tadeva  by \kadeva_viramadeva_tadeva;
     sub \kadeva_viramadeva \ladeva  by \kadeva_viramadeva_ladeva;
@@ -322,7 +322,7 @@ lookup PresSub_Chain_IVowelSign_alt2_0 {
 	\ka_virama_ssa_viramadeva \ja_virama_nya_viramadeva \yadeva_alt 
 	\ttadeva_viramadeva_yadeva \tthadeva_viraamdeva_yadeva 
 	\ddadeva_viramadeva_yadeva \ddhadeva_viramadeva_yadeva 
-	\da_ddha_ra_yadeva \shadeva_viramadeva.alt ]  by [\isigndeva.alt2 ];
+	\da_ddha_ra_yadeva \shadeva_viramadeva.mr ]  by [\isigndeva.alt2 ];
 } PresSub_Chain_IVowelSign_alt2_0;
 
 lookup PresSub_Chain_IVowelSign_alt4_1 {
@@ -347,7 +347,7 @@ lookup presPreBaseSubstitutionslookup3 {
     sub [\isigndeva ]' [\chadeva \nnadeva \thadeva \bhadeva \lladeva \llladeva \shadeva 
 	\shadeva_viramadeva_radeva \jadeva_viramadeva_nyadeva 
 	\bhadeva_viramadeva_radeva \thadeva_viramadeva_radeva 
-	\ja_virama_nya_virama_radeva \shadeva.alt ]  by [\isigndeva.tha ];
+	\ja_virama_nya_virama_radeva \shadeva.mr ]  by [\isigndeva.tha ];
 } presPreBaseSubstitutionslookup3;
 
 lookup sub_chain_presdev2_0 {
@@ -356,7 +356,7 @@ lookup sub_chain_presdev2_0 {
 	\jhadeva_viramadeva_radeva \nyadeva_viramadeva_cadeva 
 	\nyadeva_viramadeva_jadeva \dadeva_viramadeva_madeva 
 	\dadeva_viramadeva_yadeva \ladeva_viramadeva_ladeva 
-	\hadeva_viramadeva_madeva \ladeva.alt ]  by [\isigndeva.ja ];
+	\hadeva_viramadeva_madeva \ladeva.mr ]  by [\isigndeva.ja ];
 } sub_chain_presdev2_0;
 
 lookup PreBaseSubstitutionslookup2 {
@@ -923,7 +923,7 @@ lookup abvmAboveBaseMarklookup3 {
   pos base [\yadeva \yaheavydeva ] <anchor 464 664> mark @Anchor3;
   pos base [\radeva ] <anchor 331 664> mark @Anchor3;
   pos base [\rradeva ] <anchor 335 665> mark @Anchor3;
-  pos base [\ladeva \ladeva.alt ] <anchor 597 664> mark @Anchor3;
+  pos base [\ladeva \ladeva.mr ] <anchor 597 664> mark @Anchor3;
   pos base [\lladeva ] <anchor 519 664> mark @Anchor3;
   pos base [\llladeva ] <anchor 515 664> mark @Anchor3;
   pos base [\vadeva ] <anchor 410 665> mark @Anchor3;
@@ -969,7 +969,7 @@ lookup abvmAboveBaseMarklookup3 {
   pos base [\hadeva_viramadeva_vadeva ] <anchor 420 665> mark @Anchor3;
   pos base [\radeva_usigndeva ] <anchor 280 665> mark @Anchor3;
   pos base [\radeva_uusigndeva ] <anchor 279 665> mark @Anchor3;
-  pos base [\shadeva.alt ] <anchor 546 663> mark @Anchor3;
+  pos base [\shadeva.mr ] <anchor 546 663> mark @Anchor3;
 } abvmAboveBaseMarklookup3;
 
 lookup abvmAboveBaseMarklookup4 {
@@ -1161,7 +1161,7 @@ feature abvm {
 	\nnadeva_viramadeva_radeva \yadeva_viramadeva_radeva 
 	\ssadeva_viramadeva_radeva \ka_virama_ssa_virama_radeva 
 	\ja_virama_nya_virama_radeva \kadeva_viramadeva_radeva.np \fivedeva.np 
-	\zhadeva.np \jhadeva.np \nep_jha_virama \ladeva.alt \shadeva.alt 
+	\zhadeva.np \jhadeva.np \nep_jha_virama \ladeva.mr \shadeva.mr 
 	\zerowidthjoiner \ba_virama_ra_viramadeva ];
 @GDEF_Ligature = [\rradeva \tadeva_viramadeva_tadeva \radeva_viramadeva.alt 
 	\ngadeva_viramadeva_kadeva \ngadeva_viramadeva_khadeva 
@@ -1169,7 +1169,7 @@ feature abvm {
 	\ngadeva_viramadeva_madeva \nga_virama_ka_virama_ssadeva 
 	\shadeva_viramadeva_cadeva \shadeva_viramadeva_nadeva 
 	\shadeva_viramadeva_ladeva \shadeva_viramadeva_vadeva \eightdeva.np 
-	\da_ddha_ra_yadeva \shadeva_viramadeva.alt ];
+	\da_ddha_ra_yadeva \shadeva_viramadeva.mr ];
 @GDEF_Mark = [\candrabinduinverteddeva \candrabindudeva \anusvaradeva 
 	\oesigndeva \nuktadeva \isigndeva \iisigndeva \usigndeva \uusigndeva 
 	\rvocalicsigndeva \rrvocalicsigndeva \ecandrasigndeva \eshortsigndeva 
