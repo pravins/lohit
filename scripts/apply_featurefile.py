@@ -38,3 +38,5 @@ if __name__ == "__main__":
         font.mergeFeature(sys.argv[2])
         font.save()
         font.close()
+        print "[SUCCESS]", sys.argv[2], "feature file applied"
+
