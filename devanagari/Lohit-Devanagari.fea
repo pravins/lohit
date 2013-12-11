@@ -857,14 +857,14 @@ lookup abvmAboveBaseMarklookup2 {
   markClass [\candrabinduinverteddeva \candrabindudeva \ecandralongsigndeva ] <anchor -127 5> @Anchor2;
   pos base [\iisigndeva ] <anchor 263 55> mark @Anchor2;
   pos base [\osigndeva ] <anchor 231 111> mark @Anchor2;
-  pos base [\ausigndeva \awsigndeva ] <anchor 335 71> mark @Anchor2;
+  pos base [\ausigndeva ] <anchor 335 71> mark @Anchor2;
   pos base [\iisigndeva.alt1 ] <anchor 207 111> mark @Anchor2;
 } abvmAboveBaseMarklookup2;
 
 lookup abvmAboveBaseMarklookup3 {
   lookupflag 0;
   markClass [\candrabinduinverteddeva \candrabindudeva \ecandralongsigndeva ] <anchor -120 666> @Anchor3;
-  markClass [\anusvaradeva \oesigndeva \isigndeva_anusvaradeva.alt4 \isigndeva_anusvaradeva.ja ] <anchor -133 666> @Anchor3;
+  markClass [\anusvaradeva \oesigndeva ] <anchor -133 666> @Anchor3;
   markClass [\ecandrasigndeva \udattadeva ] <anchor -127 666> @Anchor3;
   markClass [\eshortsigndeva ] <anchor -127 665> @Anchor3;
   markClass [\esigndeva ] <anchor -122 664> @Anchor3;
@@ -872,7 +872,7 @@ lookup abvmAboveBaseMarklookup3 {
   markClass [\gravedeva ] <anchor -69 664> @Anchor3;
   markClass [\acutedeva ] <anchor -143 665> @Anchor3;
   markClass [\zerocombiningdigitdeva ] <anchor -127 721> @Anchor3;
-  markClass [\onecombiningdigitdeva \fivecombiningdigitdeva \sevencombiningdigitdeva \eightcombiningdigitdeva \acombiningletterdeva \ucombiningletterdeva \nacombiningletterdeva \pacombiningletterdeva \racombiningletterdeva \vicombiningletterdeva \avagrahacombiningsigndeva ] <anchor -137 681> @Anchor3;
+  markClass [\onecombiningdigitdeva \sevencombiningdigitdeva \eightcombiningdigitdeva \acombiningletterdeva \ucombiningletterdeva \nacombiningletterdeva \pacombiningletterdeva \racombiningletterdeva \vicombiningletterdeva \avagrahacombiningsigndeva ] <anchor -137 681> @Anchor3;
   markClass [\twocombiningdigitdeva ] <anchor -137 675> @Anchor3;
   markClass [\threecombiningdigitdeva ] <anchor -147 671> @Anchor3;
   markClass [\fourcombiningdigitdeva ] <anchor -130 681> @Anchor3;
@@ -885,10 +885,9 @@ lookup abvmAboveBaseMarklookup3 {
   markClass [\aisigndeva_anusvaradeva ] <anchor -131 665> @Anchor3;
   markClass [\aisign_ra_virama.alt1 ] <anchor -111 671> @Anchor3;
   markClass [\aisign_ra_virama_anusvara ] <anchor -113 666> @Anchor3;
-  markClass [\radeva_viramadeva \isign_ra_virama.alt4 \isign_ra_virama.alt1 \isign_ra_virama.ja ] <anchor -71 664> @Anchor3;
-  markClass [\radeva_viramadeva_anusvaradeva \isign_ra_virama_anusvara.alt2 \isign_ra_virama_anusvara.alt4 \isign_ra_virama_anusvara.alt1 \isign_ra_virama_anusvara.ja ] <anchor -112 665> @Anchor3;
+  markClass [\radeva_viramadeva ] <anchor -71 664> @Anchor3;
+  markClass [\radeva_viramadeva_anusvaradeva ] <anchor -112 665> @Anchor3;
   markClass [\isign_ra_virama.alt2 ] <anchor 1193 676> @Anchor3;
-  markClass [\isigndeva_anusvara.alt1 ] <anchor 887 666> @Anchor3;
   pos base [\adeva \acandradeva \oedeva ] <anchor 636 664> mark @Anchor3;
   pos base [\aadeva ] <anchor 792 664> mark @Anchor3;
   pos base [\ideva ] <anchor 377 664> mark @Anchor3;
