@@ -1,7 +1,12 @@
 				  lohit-gujarati
-Current Version :- 2.92.0
+Current Version :- 2.92.1
 
-* Fri Dev 06 2013 Pravin Satpute <psatpute@redhat.com> - 2.92.0
+* Thu Dec 12 2013 Pravin Satpute <psatpute@redhat.com> - 2.92.1
+- Added 12 imatra glyphs
+- Fixes "DHA + HALANT + RA" ligature #issues16
+
+
+* Fri Dec 06 2013 Pravin Satpute <psatpute@redhat.com> - 2.92.0
 - Added 32 imatra glyphs to match variable characters width.
 - Improved consistency in glyph naming, #issue29
 - Improved shape of half character DHA-ધ (U+0AA7) #issues16

@@ -26,34 +26,57 @@ lookup rphfRephForminGujaratilookup2 {
 
 lookup rkrfRakarFormsinGujaratilookup5 {
   lookupflag 0;
-    sub \kaguj \viramaguj \raguj  by \kaguj_viramaguj_raguj;
     sub \kaguj \raguj \viramaguj  by \kaguj_viramaguj_raguj;
-    sub \khaguj \raguj \viramaguj  by \khaguj_viramaguj_raguj;
+    sub \kaguj \viramaguj \raguj  by \kaguj_viramaguj_raguj;
     sub \khaguj \viramaguj \raguj  by \khaguj_viramaguj_raguj;
+    sub \khaguj \raguj \viramaguj  by \khaguj_viramaguj_raguj;
+    sub \gaguj \raguj \viramaguj  by \gaguj_viramaguj_raguj;
     sub \gaguj \viramaguj \raguj  by \gaguj_viramaguj_raguj;
+    sub \ghaguj \raguj \viramaguj  by \ghaguj_viramaguj_raguj;
     sub \ghaguj \viramaguj \raguj  by \ghaguj_viramaguj_raguj;
+    sub \caguj \raguj \viramaguj  by \caguj_viramaguj_raguj;
     sub \caguj \viramaguj \raguj  by \caguj_viramaguj_raguj;
+    sub \jaguj \raguj \viramaguj  by \jaguj_viramaguj_raguj;
     sub \jaguj \viramaguj \raguj  by \jaguj_viramaguj_raguj;
+    sub \jhaguj \raguj \viramaguj  by \jhaguj_viramaguj_raguj;
     sub \jhaguj \viramaguj \raguj  by \jhaguj_viramaguj_raguj;
+    sub \nyaguj \raguj \viramaguj  by \nyaguj_viramaguj_raguj;
     sub \nyaguj \viramaguj \raguj  by \nyaguj_viramaguj_raguj;
+    sub \nnaguj \raguj \viramaguj  by \nnaguj_viramaguj_raguj;
     sub \nnaguj \viramaguj \raguj  by \nnaguj_viramaguj_raguj;
+    sub \taguj \raguj \viramaguj  by \taguj_viramaguj_raguj;
     sub \taguj \viramaguj \raguj  by \taguj_viramaguj_raguj;
+    sub \thaguj \raguj \viramaguj  by \thaguj_viramaguj_raguj;
     sub \thaguj \viramaguj \raguj  by \thaguj_viramaguj_raguj;
     sub \daguj \viramaguj \raguj  by \daguj_viramaguj_raguj;
+    sub \dhaguj \raguj \viramaguj  by \dhaguj_viramaguj_raguj;
     sub \dhaguj \viramaguj \raguj  by \dhaguj_viramaguj_raguj;
+    sub \naguj \raguj \viramaguj  by \naguj_viramaguj_raguj;
     sub \naguj \viramaguj \raguj  by \naguj_viramaguj_raguj;
+    sub \paguj \raguj \viramaguj  by \paguj_viramaguj_raguj;
     sub \paguj \viramaguj \raguj  by \paguj_viramaguj_raguj;
+    sub \phaguj \raguj \viramaguj  by \phaguj_viramaguj_raguj;
     sub \phaguj \viramaguj \raguj  by \phaguj_viramaguj_raguj;
+    sub \baguj \raguj \viramaguj  by \baguj_viramaguj_raguj;
     sub \baguj \viramaguj \raguj  by \baguj_viramaguj_raguj;
+    sub \bhaguj \raguj \viramaguj  by \bhaguj_viramaguj_raguj;
     sub \bhaguj \viramaguj \raguj  by \bhaguj_viramaguj_raguj;
+    sub \maguj \raguj \viramaguj  by \maguj_viramaguj_raguj;
     sub \maguj \viramaguj \raguj  by \maguj_viramaguj_raguj;
+    sub \yaguj \raguj \viramaguj  by \yaguj_viramaguj_raguj;
     sub \yaguj \viramaguj \raguj  by \yaguj_viramaguj_raguj;
+    sub \laguj \raguj \viramaguj  by \laguj_viramaguj_raguj;
     sub \laguj \viramaguj \raguj  by \laguj_viramaguj_raguj;
+    sub \llaguj \raguj \viramaguj  by \llaguj_viramaguj_raguj;
     sub \llaguj \viramaguj \raguj  by \llaguj_viramaguj_raguj;
+    sub \vaguj \raguj \viramaguj  by \vaguj_viramaguj_raguj;
     sub \vaguj \viramaguj \raguj  by \vaguj_viramaguj_raguj;
     sub \shaguj \viramaguj \raguj  by \shaguj_viramaguj_raguj;
+    sub \ssaguj \raguj \viramaguj  by \ssaguj_viramaguj_raguj;
     sub \ssaguj \viramaguj \raguj  by \ssaguj_viramaguj_raguj;
+    sub \saguj \raguj \viramaguj  by \saguj_viramaguj_raguj;
     sub \saguj \viramaguj \raguj  by \saguj_viramaguj_raguj;
+    sub \haguj \raguj \viramaguj  by \haguj_viramdeva_raguj;
     sub \haguj \viramaguj \raguj  by \haguj_viramdeva_raguj;
 } rkrfRakarFormsinGujaratilookup5;
 
@@ -240,8 +263,31 @@ lookup sub_chain_presgjr2_8 {
 
 lookup sub_chain_presgjr2_10 {
   lookupflag 0;
-    sub [\isignguj ]' [\chaguj \thaguj \shaguj_viramaguj_vaguj_pri_a \chaguj_viramaguj_vaguj ]  by [\isignguj.alt8 ];
+    sub [\isignguj ]' [\chaguj \jaguj \jhaguj \thaguj \dhaguj \naguj \laguj \llaguj 
+	\shagujjaguj_viramaguj_raguj \jhaguj_viramaguj_raguj 
+	\thaguj_viramaguj_raguj \dhaguj_viramaguj_raguj 
+	\laguj_viramaguj_raguj \llaguj_viramaguj_raguj 
+	\shaguj_viramaguj_vaguj_pri_a \chaguj_viramaguj_vaguj ]  by [\isignguj.alt8 ];
 } sub_chain_presgjr2_10;
+
+lookup presPreBaseSubstitutionslookup3 {
+  lookupflag 0;
+    sub [\isignguj ]' [\nyaguj \baguj \bhaguj \baguj_viramaguj_raguj \bhaguj_viramaguj_raguj ]  by [\isignguj.alt9 ];
+} presPreBaseSubstitutionslookup3;
+
+lookup sub_chain_presgjr2_12 {
+  lookupflag 0;
+    sub [\isignguj ]' [\khaguj \caguj \saguj \khaguj_viramaguj_raguj \caguj_viramaguj_raguj 
+	\saguj_viramaguj_raguj \kaguj_viramaguj_ssaguj ]  by [\isignguj.alt10 ];
+} sub_chain_presgjr2_12;
+
+lookup sub_chain_presgjr2_14 {
+  lookupflag 0;
+    sub [\isignguj ]' [\gaguj \ghaguj \taguj \paguj \maguj \ssaguj \gaguj_viramaguj_raguj 
+	\ghaguj_viramaguj_raguj \taguj_viramaguj_raguj 
+	\paguj_viramaguj_raguj \maguj_viramaguj_raguj 
+	\ssaguj_viramaguj_raguj ]  by [\isignguj.alt11 ];
+} sub_chain_presgjr2_14;
 
 lookup presPreBaseSubstitutionslookupr {
   lookupflag IgnoreBaseGlyphs, IgnoreLigatures;
@@ -270,6 +316,15 @@ lookup presPreBaseSubstitutionslookupr {
     sub \isignguj.alt8 \raguj_viramaguj  by \isignguj_raguj_viramaguj.alt8;
     sub \isignguj.alt8 \anusvaraguj  by \isignguj_anusvaraguj.alt8;
     sub \isignguj.alt8 \raguj_viramaguj \anusvaraguj  by \isign_ra_virama_anusvara.alt8;
+    sub \isignguj.alt9 \raguj_viramaguj \anusvaraguj  by \isign_ra_virama_anusvara.alt9;
+    sub \isignguj.alt10 \raguj_viramaguj \anusvaraguj  by \isign_ra_virama_anusvara.alt10;
+    sub \isignguj.alt11 \raguj_viramaguj \anusvaraguj  by \isign_ra_virama_anusvara.alt11;
+    sub \isignguj.alt11 \anusvaraguj  by \isignguj_anusvaraguj.alt11;
+    sub \isignguj.alt10 \anusvaraguj  by \isignguj_anusvaraguj.alt10;
+    sub \isignguj.alt9 \anusvaraguj  by \isignguj_anusvaraguj.alt9;
+    sub \isignguj.alt11 \raguj_viramaguj  by \isignguj_raguj_viramaguj.alt11;
+    sub \isignguj.alt10 \raguj_viramaguj  by \isignguj_raguj_viramaguj.alt10;
+    sub \isignguj.alt9 \raguj_viramaguj  by \isignguj_raguj_viramaguj.alt9;
 } presPreBaseSubstitutionslookupr;
 
 lookup abvsAboveBaseSubstitutionsinGuj {
@@ -410,6 +465,9 @@ feature pres {
       lookup sub_chain_presgjr2_6;
       lookup sub_chain_presgjr2_8;
       lookup sub_chain_presgjr2_10;
+      lookup presPreBaseSubstitutionslookup3;
+      lookup sub_chain_presgjr2_12;
+      lookup sub_chain_presgjr2_14;
       lookup presPreBaseSubstitutionslookupr;
 
   script gujr;
@@ -423,6 +481,9 @@ feature pres {
       lookup sub_chain_presgjr2_6;
       lookup sub_chain_presgjr2_8;
       lookup sub_chain_presgjr2_10;
+      lookup presPreBaseSubstitutionslookup3;
+      lookup sub_chain_presgjr2_12;
+      lookup sub_chain_presgjr2_14;
       lookup presPreBaseSubstitutionslookupr;
 } pres;
 
@@ -559,7 +620,7 @@ lookup pos_mark2base_blwmgjr2_0 {
 lookup abvmAboveBaseMarkinGujaratilook {
   lookupflag 0;
   markClass [\candrabinduguj ] <anchor -114 -16> @Anchor0;
-  markClass [\anusvaraguj ] <anchor -116 60> @Anchor0;
+  markClass [\anusvaraguj \isignguj_anusvaraguj.alt11 \isignguj_anusvaraguj.alt10 \isignguj_anusvaraguj.alt9 ] <anchor -116 60> @Anchor0;
   markClass [\ecandrasignguj \ecandrasignguj_anusvaraguj ] <anchor -118 -6> @Anchor0;
   markClass [\esignguj ] <anchor -124 -8> @Anchor0;
   markClass [\aisignguj ] <anchor -128 0> @Anchor0;
@@ -638,14 +699,14 @@ feature abvm {
 } abvm;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\.notdef \.null \nonmarkingreturn \space \exclam \quotedbl 
-	\quotesingle \parenleft \parenright \comma \hyphen \period \colon \semicolon 
-	\question \underscore \grave \danda \doubledanda \visargaguj \aguj \aaguj \iguj 
-	\iiguj \uguj \uuguj \rvocalicguj \lvocalicguj \ecandraguj \eguj \aiguj 
-	\ocandraguj \oguj \auguj \kaguj \khaguj \gaguj \ghaguj \ngaguj \caguj \chaguj 
-	\jaguj \jhaguj \nyaguj \ttaguj \tthaguj \ddaguj \ddhaguj \nnaguj \taguj \thaguj 
-	\daguj \dhaguj \naguj \paguj \phaguj \baguj \bhaguj \maguj \yaguj \raguj \laguj 
-	\llaguj \vaguj \shaguj \ssaguj \saguj \haguj \avagrahaguj \aasignguj \iisignguj 
+@GDEF_Simple = [\.null \nonmarkingreturn \space \exclam \quotedbl \quotesingle 
+	\parenleft \parenright \comma \hyphen \period \colon \semicolon \question 
+	\underscore \grave \danda \doubledanda \visargaguj \aguj \aaguj \iguj \iiguj 
+	\uguj \uuguj \rvocalicguj \lvocalicguj \ecandraguj \eguj \aiguj \ocandraguj 
+	\oguj \auguj \kaguj \khaguj \gaguj \ghaguj \ngaguj \caguj \chaguj \jaguj \jhaguj 
+	\nyaguj \ttaguj \tthaguj \ddaguj \ddhaguj \nnaguj \taguj \thaguj \daguj \dhaguj 
+	\naguj \paguj \phaguj \baguj \bhaguj \maguj \yaguj \raguj \laguj \llaguj \vaguj 
+	\shaguj \ssaguj \saguj \haguj \avagrahaguj \aasignguj \iisignguj 
 	\ocandrasignguj \osignguj \ausignguj \omguj \rrvocalicguj \llvocalicguj 
 	\zeroguj \oneguj \twoguj \threeguj \fourguj \fiveguj \sixguj \sevenguj \eightguj 
 	\nineguj \rupeeguj \zerowidthnonjoiner \zerojoin \endash \emdash \quoteleft 
@@ -727,7 +788,12 @@ feature abvm {
 	\isign_ra_virama_anusvara.alt6 \isign_ra_virama_anusvara.alt1 
 	\isignguj.alt8 \isignguj_raguj_viramaguj.alt8 \isignguj_anusvaraguj.alt8 
 	\isign_ra_virama_anusvara.alt8 \isignguj_anusvaraguj.alt6 
-	\isignguj_anusvaraguj.alt7 ];
+	\isignguj_anusvaraguj.alt7 \isignguj.alt9 \isignguj.alt10 \isignguj.alt11 
+	\isign_ra_virama_anusvara.alt9 \isign_ra_virama_anusvara.alt10 
+	\isign_ra_virama_anusvara.alt11 \isignguj_anusvaraguj.alt11 
+	\isignguj_anusvaraguj.alt10 \isignguj_anusvaraguj.alt9 
+	\isignguj_raguj_viramaguj.alt11 \isignguj_raguj_viramaguj.alt10 
+	\isignguj_raguj_viramaguj.alt9 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
