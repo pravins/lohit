@@ -4,6 +4,7 @@ Current Version :- 2.92.1
 * Thu Dec 12 2013 Pravin Satpute <psatpute@redhat.com> - 2.92.1
 - Added 12 imatra glyphs
 - Fixes "DHA + HALANT + RA" ligature #issues16
+- Improved test file
 
 
 * Fri Dec 06 2013 Pravin Satpute <psatpute@redhat.com> - 2.92.0
