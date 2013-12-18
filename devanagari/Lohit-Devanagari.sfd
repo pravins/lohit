@@ -53,117 +53,163 @@ OS2StrikeYPos: 333
 OS2Vendor: 'ACE '
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80008023.00002042.00000000.00000000
-Lookup: 4 0 0 "'haln' Halant Forms lookup 29"  {"'haln' Halant Forms lookup 29-1"  } ['haln' ('DFLT' <'dflt' > 'dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
+Lookup: 4 0 0 "halnHalantFormslookup29"  {"halnHalantFormslookup29 subtable"  } ['haln' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "LocalizedMrForms_lookup0"  {"LocalizedMrForms_lookup0 subtable"  } ['locl' ('deva' <'MAR ' > 'dev2' <'MAR ' > ) ]
 Lookup: 4 0 0 "LocalizedMrHalfFormslookup1"  {"LocalizedMrHalfFormslookup1 subtable"  } ['locl' ('deva' <'MAR ' > 'dev2' <'MAR ' > ) ]
-Lookup: 1 0 0 "LocalizedNpFormslookup2"  {"LocalizedNpFormslookup2 subtable"  } ['locl' ('dev2' <'NEP ' > 'deva' <'NEP ' > ) ]
+Lookup: 1 0 0 "LocalizedNpFormslookup2"  {"LocalizedNpFormslookup2 subtable"  } ['locl' ('deva' <'NEP ' > 'dev2' <'NEP ' > ) ]
 Lookup: 4 0 0 "LocalizedNpFormslookup3"  {"LocalizedNpFormslookup3 subtable"  } ['locl' ('deva' <'NEP ' > 'dev2' <'NEP ' > ) ]
-Lookup: 4 0 0 "NuktaFormslookup5"  {"NuktaFormslookup5 subtable"  } ['nukt' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
-Lookup: 4 0 0 "AkhandFormslookup6"  {"AkhandFormslookup6 subtable"  } ['akhn' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
+Lookup: 4 0 0 "NuktaFormslookup5"  {"NuktaFormslookup5 subtable"  } ['nukt' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 4 0 0 "AkhandFormslookup6"  {"AkhandFormslookup6 subtable"  } ['akhn' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 4 0 0 "RephFormlookup7"  {"RephFormlookup7 subtable"  } ['rphf' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 4 0 0 "BelowBaseFormslookup9"  {"BelowBaseFormslookup9 subtable"  } ['blwf' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 4 0 0 "HalfFormslookup10"  {"HalfFormslookup10 subtable"  } ['half' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
-Lookup: 4 0 0 "VattuVariantslookup30"  {"VattuVariantslookup30 subtable"  } ['vatu' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
+Lookup: 4 0 0 "VattuVariantslookup30"  {"VattuVariantslookup30 subtable"  } ['vatu' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 4 0 0 "ConjunctFormslookup11"  {"ConjunctFormslookup11 subtable"  } ['cjct' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
-Lookup: 4 0 0 "PreBaseSubstitutionslookup1"  {"PreBaseSubstitutionslookup1 subtable"  } ['pres' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
-Lookup: 1 0 0 "SingleSubs_isign_alt1_lookup13"  {"SingleSubs_ExtdISign_lookup13 per glyph data 0"  } []
-Lookup: 6 0 0 "PresSub_Chain_VowelSign"  {"PresSub_Chain_VowelSign_alt1 contextual 0"  "PresSub_Chain_VowelSign_alt3 contextual 2"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
-Lookup: 1 0 0 "Single Substitution isign_alt3 lookup 15"  {"Single Substitution lookup 15 subtable"  } []
-Lookup: 6 0 0 "PresSub_Chain_IVowelSign_alt2_0"  {"PresSub_Chain_IVowelSign_0 subtable"  } ['pres' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution isign_alt2 lookup 17"  {"Single Substitution lookup 17 subtable"  } []
-Lookup: 6 0 0 "PresSub_Chain_IVowelSign_alt4_1"  {"PresSub_Chain_IVowelSign_1 subtable"  } ['pres' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution isign_alt4 lookup 19"  {"Single Substitution lookup 19 subtable"  } []
-Lookup: 1 0 0 "Single Substitution Lookup for isign_tha"  {"Single Substitution Lookup for isign_tha-1"  } []
-Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 30"  {"'pres' Pre Base Substitutions isign_tha lookup 30-1"  } ['pres' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitiution Lookup for isigndeva_ja"  {"Single Substitiution Lookup for isigndeva_ja-1"  } []
-Lookup: 6 0 0 "'pres' Pre Base Substitutions lookup 32"  {"'pres' Pre Base Substitutions lookup 32-1"  } ['pres' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
-Lookup: 4 6 0 "PreBaseSubstitutionslookup2"  {"PreBaseSubstitutionslookup2 subtable"  } ['pres' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
+Lookup: 4 0 0 "PreBaseSubstitutionslookup1"  {"PreBaseSubstitutionslookup1 subtable"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 6 0 0 "PresSub_Chain_VowelSign"  {"PresSub_Chain_VowelSign contextual 0"  "PresSub_Chain_VowelSign contextual 1"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 14"  {"Single Substitution lookup 14 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 15"  {"Single Substitution lookup 15 subtable"  } []
+Lookup: 6 0 0 "PresSub_Chain_IVowelSign_alt2_0"  {"PresSub_Chain_IVowelSign_alt2_0 subtable"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 17"  {"Single Substitution lookup 17 subtable"  } []
+Lookup: 6 0 0 "PresSub_Chain_IVowelSign_alt4_1"  {"PresSub_Chain_IVowelSign_alt4_1 subtable"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 19"  {"Single Substitution lookup 19 subtable"  } []
+Lookup: 6 0 0 "presPreBaseSubstitutionslookup3"  {"presPreBaseSubstitutionslookup3 subtable"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 21"  {"Single Substitution lookup 21 subtable"  } []
+Lookup: 6 0 0 "sub_chain_presdev2_0"  {"sub_chain_presdev2_0 subtable"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 23"  {"Single Substitution lookup 23 subtable"  } []
+Lookup: 4 6 0 "PreBaseSubstitutionslookup2"  {"PreBaseSubstitutionslookup2 subtable"  } ['pres' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 4 0 0 "AboveBaseSubstitutionslookup"  {"AboveBaseSubstitutionslookup subtable"  } ['abvs' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
-Lookup: 4 0 0 "PostBaseSubstitutionslookup"  {"PostBaseSubstitutionslookup subtable"  } ['psts' ('dev2' <'MAR ' 'NEP ' 'dflt' > 'deva' <'MAR ' 'NEP ' 'dflt' > ) ]
+Lookup: 4 0 0 "PostBaseSubstitutionslookup"  {"PostBaseSubstitutionslookup subtable"  } ['psts' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 4 0 0 "BlwsSub_Ligature_Ukaar"  {"BlwsSub_Ligature_Ukaar subtable"  } ['blws' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 6 0 0 "PstsSub_Chain_ExtdEMatra"  {"PstsSub_Chain_ExtdEMatra subtable"  } ['psts' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 25"  {"Single Substitution lookup 25 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 29"  {"Single Substitution lookup 29 subtable"  } []
 Lookup: 4 0 0 "PstsSub_Ligature_Ra"  {"PstsSub_Ligature_Ra subtable"  } ['psts' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
-Lookup: 6 0 0 "PstsSub_Chain_Eyelash"  {"PstsSub_Chain_Eyelash-1"  } ['psts' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
-Lookup: 4 0 0 "Ligature Substitution lookup 28"  {"Ligature Substitution lookup 28 subtable"  } []
+Lookup: 4 0 0 "LigatureSubstitutionlookup28"  {"LigatureSubstitutionlookup28 subtable"  } []
+Lookup: 6 0 0 "PstsSub_Chain_Eyelash"  {"PstsSub_Chain_Eyelash contextual 0"  "PstsSub_Chain_Eyelash contextual 1"  "PstsSub_Chain_Eyelash contextual 2"  "PstsSub_Chain_Eyelash contextual 3"  } ['psts' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 260 0 0 "blwmBelowBaseMarklookup0"  {"blwmBelowBaseMarklookup0 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 262 0 0 "abvmAboveBaseMarklookup1"  {"abvmAboveBaseMarklookup1 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 260 0 0 "abvmAboveBaseMarklookup2"  {"abvmAboveBaseMarklookup2 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 260 0 0 "abvmAboveBaseMarklookup3"  {"abvmAboveBaseMarklookup3 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 258 0 0 "abvmAboveBaseMarklookup4"  {"abvmAboveBaseMarklookup4 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 Lookup: 258 0 0 "blwmBelowBaseMarklookup5"  {"blwmBelowBaseMarklookup5 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "blwmBelowBaseMarklookup0-0"  {"blwmBelowBaseMarklookup0-0 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 262 0 0 "abvmAboveBaseMarklookup1-0"  {"abvmAboveBaseMarklookup1-0 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "abvmAboveBaseMarklookup2-0"  {"abvmAboveBaseMarklookup2-0 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "abvmAboveBaseMarklookup3-0"  {"abvmAboveBaseMarklookup3-0 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 258 0 0 "abvmAboveBaseMarklookup4-0"  {"abvmAboveBaseMarklookup4-0 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 258 0 0 "blwmBelowBaseMarklookup5-0"  {"blwmBelowBaseMarklookup5-0 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "blwmBelowBaseMarklookup0-1"  {"blwmBelowBaseMarklookup0-1 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 262 0 0 "abvmAboveBaseMarklookup1-1"  {"abvmAboveBaseMarklookup1-1 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "abvmAboveBaseMarklookup2-1"  {"abvmAboveBaseMarklookup2-1 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "abvmAboveBaseMarklookup3-1"  {"abvmAboveBaseMarklookup3-1 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 258 0 0 "abvmAboveBaseMarklookup4-1"  {"abvmAboveBaseMarklookup4-1 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 258 0 0 "blwmBelowBaseMarklookup5-1"  {"blwmBelowBaseMarklookup5-1 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "blwmBelowBaseMarklookup0-2"  {"blwmBelowBaseMarklookup0-2 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 262 0 0 "abvmAboveBaseMarklookup1-2"  {"abvmAboveBaseMarklookup1-2 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "abvmAboveBaseMarklookup2-2"  {"abvmAboveBaseMarklookup2-2 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "abvmAboveBaseMarklookup3-2"  {"abvmAboveBaseMarklookup3-2 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 258 0 0 "abvmAboveBaseMarklookup4-2"  {"abvmAboveBaseMarklookup4-2 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 258 0 0 "blwmBelowBaseMarklookup5-2"  {"blwmBelowBaseMarklookup5-2 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "blwmBelowBaseMarklookup0-3"  {"blwmBelowBaseMarklookup0-3 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 262 0 0 "abvmAboveBaseMarklookup1-3"  {"abvmAboveBaseMarklookup1-3 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "abvmAboveBaseMarklookup2-3"  {"abvmAboveBaseMarklookup2-3 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "abvmAboveBaseMarklookup3-3"  {"abvmAboveBaseMarklookup3-3 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 258 0 0 "abvmAboveBaseMarklookup4-3"  {"abvmAboveBaseMarklookup4-3 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 258 0 0 "blwmBelowBaseMarklookup5-3"  {"blwmBelowBaseMarklookup5-3 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "blwmBelowBaseMarklookup0-4"  {"blwmBelowBaseMarklookup0-4 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 262 0 0 "abvmAboveBaseMarklookup1-4"  {"abvmAboveBaseMarklookup1-4 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "abvmAboveBaseMarklookup2-4"  {"abvmAboveBaseMarklookup2-4 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "abvmAboveBaseMarklookup3-4"  {"abvmAboveBaseMarklookup3-4 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 258 0 0 "abvmAboveBaseMarklookup4-4"  {"abvmAboveBaseMarklookup4-4 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 258 0 0 "blwmBelowBaseMarklookup5-4"  {"blwmBelowBaseMarklookup5-4 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "blwmBelowBaseMarklookup0-5"  {"blwmBelowBaseMarklookup0-5 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 262 0 0 "abvmAboveBaseMarklookup1-5"  {"abvmAboveBaseMarklookup1-5 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "abvmAboveBaseMarklookup2-5"  {"abvmAboveBaseMarklookup2-5 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 260 0 0 "abvmAboveBaseMarklookup3-5"  {"abvmAboveBaseMarklookup3-5 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 258 0 0 "abvmAboveBaseMarklookup4-5"  {"abvmAboveBaseMarklookup4-5 subtable"  } ['abvm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
+Lookup: 258 0 0 "blwmBelowBaseMarklookup5-5"  {"blwmBelowBaseMarklookup5-5 subtable"  } ['blwm' ('deva' <'dflt' 'MAR ' 'NEP ' > 'dev2' <'dflt' 'MAR ' 'NEP ' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "'pres' Pre Base Substitutions lookup 32-1"  0 0 0 1
- 1 0 1
-  Coverage: 9 isigndeva
-  FCoverage: 242 jadeva jhadeva nyadeva sadeva jadeva_viramadeva_radeva jhadeva_viramadeva_radeva nyadeva_viramadeva_cadeva nyadeva_viramadeva_jadeva dadeva_viramadeva_madeva dadeva_viramadeva_yadeva ladeva_viramadeva_ladeva hadeva_viramadeva_madeva ladeva.mr
- 1
-  SeqLookup: 0 "Single Substitiution Lookup for isigndeva_ja" 
-EndFPST
-ChainSub2: coverage "'pres' Pre Base Substitutions isign_tha lookup 30-1"  0 0 0 1
- 1 0 1
-  Coverage: 9 isigndeva
-  FCoverage: 199 chadeva nnadeva thadeva bhadeva lladeva llladeva shadeva shadeva_viramadeva_radeva jadeva_viramadeva_nyadeva bhadeva_viramadeva_radeva thadeva_viramadeva_radeva ja_virama_nya_virama_radeva shadeva.mr
- 1
-  SeqLookup: 0 "Single Substitution Lookup for isign_tha" 
-EndFPST
-ChainSub2: glyph "PstsSub_Chain_Eyelash-1"  0 0 0 4
- String: 18 rradeva viramadeva
- BString: 0 
- FString: 6 yadeva
- 1
-  SeqLookup: 0 "Ligature Substitution lookup 28" 
- String: 18 rradeva viramadeva
- BString: 0 
- FString: 6 hadeva
- 1
-  SeqLookup: 0 "Ligature Substitution lookup 28" 
- String: 33 viramadeva_radeva zerowidthjoiner
- BString: 0 
- FString: 6 yadeva
- 1
-  SeqLookup: 0 "Ligature Substitution lookup 28" 
+ChainSub2: glyph "PstsSub_Chain_Eyelash contextual 3"  0 0 0 1
  String: 33 viramadeva_radeva zerowidthjoiner
  BString: 0 
  FString: 6 hadeva
- 1
-  SeqLookup: 0 "Ligature Substitution lookup 28" 
+ 2
+  SeqLookup: 0 "LigatureSubstitutionlookup28" 
+  SeqLookup: 1 "LigatureSubstitutionlookup28" 
+EndFPST
+ChainSub2: glyph "PstsSub_Chain_Eyelash contextual 2"  0 0 0 1
+ String: 33 viramadeva_radeva zerowidthjoiner
+ BString: 0 
+ FString: 6 yadeva
+ 2
+  SeqLookup: 0 "LigatureSubstitutionlookup28" 
+  SeqLookup: 1 "LigatureSubstitutionlookup28" 
+EndFPST
+ChainSub2: glyph "PstsSub_Chain_Eyelash contextual 1"  0 0 0 1
+ String: 18 rradeva viramadeva
+ BString: 0 
+ FString: 6 hadeva
+ 2
+  SeqLookup: 0 "LigatureSubstitutionlookup28" 
+  SeqLookup: 1 "LigatureSubstitutionlookup28" 
+EndFPST
+ChainSub2: glyph "PstsSub_Chain_Eyelash contextual 0"  0 0 0 1
+ String: 18 rradeva viramadeva
+ BString: 0 
+ FString: 6 yadeva
+ 2
+  SeqLookup: 0 "LigatureSubstitutionlookup28" 
+  SeqLookup: 1 "LigatureSubstitutionlookup28" 
 EndFPST
 ChainSub2: coverage "PstsSub_Chain_ExtdEMatra subtable"  0 0 0 1
  1 1 0
   Coverage: 81 iisigndeva iisigndeva_anusvaradeva iisigndeva_ra_virama iisign_ra_virama_anusvara
   BCoverage: 232 rvocalicdeva kadeva phadeva qadeva fadeva rrvocalicdeva phadeva_radeva_nuktadeva phadeva_viramadeva_radeva kadeva_viramadeva_kadeva kadeva_viramadeva_tadeva kadeva_viramadeva_ladeva kadeva_viramadeva_vadeva phadeva_viramadeva_ladeva
  1
-  SeqLookup: 0 "Single Substitution lookup 25" 
+  SeqLookup: 0 "Single Substitution lookup 29" 
 EndFPST
-ChainSub2: coverage "PresSub_Chain_IVowelSign_1 subtable"  0 0 0 1
+ChainSub2: coverage "sub_chain_presdev2_0 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 9 isigndeva
+  FCoverage: 242 jadeva jhadeva nyadeva sadeva jadeva_viramadeva_radeva jhadeva_viramadeva_radeva nyadeva_viramadeva_cadeva nyadeva_viramadeva_jadeva dadeva_viramadeva_madeva dadeva_viramadeva_yadeva ladeva_viramadeva_ladeva hadeva_viramadeva_madeva ladeva.mr
+ 1
+  SeqLookup: 0 "Single Substitution lookup 23" 
+EndFPST
+ChainSub2: coverage "presPreBaseSubstitutionslookup3 subtable"  0 0 0 1
+ 1 0 1
+  Coverage: 9 isigndeva
+  FCoverage: 199 chadeva nnadeva thadeva bhadeva lladeva llladeva shadeva shadeva_viramadeva_radeva jadeva_viramadeva_nyadeva bhadeva_viramadeva_radeva thadeva_viramadeva_radeva ja_virama_nya_virama_radeva shadeva.mr
+ 1
+  SeqLookup: 0 "Single Substitution lookup 21" 
+EndFPST
+ChainSub2: coverage "PresSub_Chain_IVowelSign_alt4_1 subtable"  0 0 0 1
  1 0 1
   Coverage: 9 isigndeva
   FCoverage: 682 ghadeva ngadeva cadeva ddadeva tadeva dhadeva yadeva kadeva_viramadeva_ssadeva ngadeva_viramadeva_kadeva ngadeva_viramadeva_khadeva ngadeva_viramadeva_gadeva ngadeva_viramadeva_ghadeva ngadeva_viramadeva_madeva nga_virama_ka_virama_ssadeva cadeva_viramadeva_cadeva chadeva_viramadeva_vadeva ddadeva_viramadeva_ddadeva ddadeva_viramadeva_ddhadeva dadeva_viramadeva_ghadeva dadeva_viramadeva_dhadeva nadeva_viramadeva_nadeva shadeva_viramadeva_cadeva shadeva_viramadeva_nadeva shadeva_viramadeva_ladeva shadeva_viramadeva_vadeva ghadeva_viramadeva_radeva cadeva_viramadeva_radeva dhadeva_viramadeva_radeva nadeva_viramadeva_radeva ssadeva_viramadeva_radeva ka_virama_ssa_virama_radeva
  1
-  SeqLookup: 0 "Single Substitution isign_alt4 lookup 19" 
+  SeqLookup: 0 "Single Substitution lookup 19" 
 EndFPST
-ChainSub2: coverage "PresSub_Chain_IVowelSign_0 subtable"  0 0 0 1
+ChainSub2: coverage "PresSub_Chain_IVowelSign_alt2_0 subtable"  0 0 0 1
  1 0 1
   Coverage: 9 isigndeva
   FCoverage: 969 kadeva_viramadeva khadeva_viramadeva ghadeva_viramadeva ngadeva_viramadeva cadeva_viramadeva chadeva_viramadeva jadeva_viramadeva jhadeva_viramadeva nyadeva_viramadeva ttadeva_viramadeva tthadeva_viramadeva ddadeva_viramadeva ddhadeva_viramadeva nnadeva_viramadeva tadeva_viramadeva thadeva_viramadeva dadeva_viramadeva dhadeva_viramadeva nadeva_viramadeva nnnadeva_viramadeva padeva_viramadeva phadeva_viramadeva badeva_viramadeva bhadeva_viramadeva madeva_viramadeva yadeva_viramadeva ladeva_viramadeva lladeva_viramadeva llladeva_viramadeva vadeva_viramadeva shadeva_viramadeva ssadeva_viramadeva sadeva_viramadeva qadeva_viramadeva khhadeva_viramadeva zadeva_viramadeva fadeva_viramadeva shadeva_viramadeva_alt ta_virama_ra_viramadeva ta_virama_ta_viramadeva ka_virama_ssa_viramadeva ja_virama_nya_viramadeva yadeva_alt ttadeva_viramadeva_yadeva tthadeva_viraamdeva_yadeva ddadeva_viramadeva_yadeva ddhadeva_viramadeva_yadeva da_ddha_ra_yadeva shadeva_viramadeva.mr
  1
-  SeqLookup: 0 "Single Substitution isign_alt2 lookup 17" 
+  SeqLookup: 0 "Single Substitution lookup 17" 
 EndFPST
-ChainSub2: coverage "PresSub_Chain_VowelSign_alt3 contextual 2"  0 0 0 1
+ChainSub2: coverage "PresSub_Chain_VowelSign contextual 1"  0 0 0 1
  1 0 1
   Coverage: 9 isigndeva
   FCoverage: 14 radeva rradeva
  1
-  SeqLookup: 0 "Single Substitution isign_alt3 lookup 15" 
+  SeqLookup: 0 "Single Substitution lookup 15" 
 EndFPST
-ChainSub2: coverage "PresSub_Chain_VowelSign_alt1 contextual 0"  0 0 0 1
+ChainSub2: coverage "PresSub_Chain_VowelSign contextual 0"  0 0 0 1
  1 0 1
   Coverage: 9 isigndeva
   FCoverage: 239 khadeva ladeva khhadeva tadeva_viramadeva_tadeva gadeva_viramadeva ghhadeva_viramadeva khadeva_viramadeva_radeva sadeva_viramadeva_radeva jadeva_viramadeva_jadeva hadeva_viramadeva_yadeva sa_virama_ta_virama_radeva ladeva_viramadeva_radeva
  1
-  SeqLookup: 0 "SingleSubs_isign_alt1_lookup13" 
+  SeqLookup: 0 "Single Substitution lookup 14" 
 EndFPST
 TtTable: prep
 NPUSHB
@@ -452,11 +498,10 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 44 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 323584 161792 107861 0 1048576 107861 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "Anchor0"  "blwmBelowBaseMarklookup0 subtable" "Anchor1"  "abvmAboveBaseMarklookup1 subtable" "Anchor2"  "abvmAboveBaseMarklookup2 subtable" "Anchor3"  "abvmAboveBaseMarklookup3 subtable" 
+AnchorClass2: "Anchor0"  "blwmBelowBaseMarklookup0-5 subtable" "Anchor1"  "abvmAboveBaseMarklookup1-5 subtable" "Anchor2"  "abvmAboveBaseMarklookup2-5 subtable" "Anchor3"  "abvmAboveBaseMarklookup3-5 subtable" "Anchor0"  "blwmBelowBaseMarklookup0-4 subtable" "Anchor1"  "abvmAboveBaseMarklookup1-4 subtable" "Anchor2"  "abvmAboveBaseMarklookup2-4 subtable" "Anchor3"  "abvmAboveBaseMarklookup3-4 subtable" "Anchor0"  "blwmBelowBaseMarklookup0-3 subtable" "Anchor1"  "abvmAboveBaseMarklookup1-3 subtable" "Anchor2"  "abvmAboveBaseMarklookup2-3 subtable" "Anchor3"  "abvmAboveBaseMarklookup3-3 subtable" "Anchor0"  "blwmBelowBaseMarklookup0-2 subtable" "Anchor1"  "abvmAboveBaseMarklookup1-2 subtable" "Anchor2"  "abvmAboveBaseMarklookup2-2 subtable" "Anchor3"  "abvmAboveBaseMarklookup3-2 subtable" "Anchor0"  "blwmBelowBaseMarklookup0-1 subtable" "Anchor1"  "abvmAboveBaseMarklookup1-1 subtable" "Anchor2"  "abvmAboveBaseMarklookup2-1 subtable" "Anchor3"  "abvmAboveBaseMarklookup3-1 subtable" "Anchor0"  "blwmBelowBaseMarklookup0-0 subtable" "Anchor1"  "abvmAboveBaseMarklookup1-0 subtable" "Anchor2"  "abvmAboveBaseMarklookup2-0 subtable" "Anchor3"  "abvmAboveBaseMarklookup3-0 subtable" "Anchor0"  "blwmBelowBaseMarklookup0 subtable" "Anchor1"  "abvmAboveBaseMarklookup1 subtable" "Anchor2"  "abvmAboveBaseMarklookup2 subtable" "Anchor3"  "abvmAboveBaseMarklookup3 subtable" 
 BeginChars: 65728 422
 
 StartChar: .notdef
@@ -1843,6 +1888,24 @@ Flags: W
 AnchorPoint: "Anchor3" -120 666 mark 0
 AnchorPoint: "Anchor2" -127 5 mark 0
 AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1874,6 +1937,24 @@ Flags: W
 AnchorPoint: "Anchor3" -120 666 mark 0
 AnchorPoint: "Anchor2" -127 5 mark 0
 AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1902,6 +1983,12 @@ Encoding: 2306 2306 51
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -133 666 mark 0
+AnchorPoint: "Anchor3" -133 666 mark 0
+AnchorPoint: "Anchor3" -133 666 mark 0
+AnchorPoint: "Anchor3" -133 666 mark 0
+AnchorPoint: "Anchor3" -133 666 mark 0
+AnchorPoint: "Anchor3" -133 666 mark 0
 AnchorPoint: "Anchor3" -133 666 mark 0
 LayerCount: 2
 Fore
@@ -2020,6 +2107,12 @@ Width: 768
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2079,6 +2172,12 @@ Encoding: 2310 2310 55
 Width: 1042
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 792 664 basechar 0
+AnchorPoint: "Anchor3" 792 664 basechar 0
+AnchorPoint: "Anchor3" 792 664 basechar 0
+AnchorPoint: "Anchor3" 792 664 basechar 0
+AnchorPoint: "Anchor3" 792 664 basechar 0
+AnchorPoint: "Anchor3" 792 664 basechar 0
 AnchorPoint: "Anchor3" 792 664 basechar 0
 LayerCount: 2
 Fore
@@ -2144,6 +2243,12 @@ Width: 503
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 377 664 basechar 0
+AnchorPoint: "Anchor3" 377 664 basechar 0
+AnchorPoint: "Anchor3" 377 664 basechar 0
+AnchorPoint: "Anchor3" 377 664 basechar 0
+AnchorPoint: "Anchor3" 377 664 basechar 0
+AnchorPoint: "Anchor3" 377 664 basechar 0
+AnchorPoint: "Anchor3" 377 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2197,6 +2302,12 @@ Encoding: 2312 2312 57
 Width: 510
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 439 579 basechar 0
+AnchorPoint: "Anchor3" 439 579 basechar 0
+AnchorPoint: "Anchor3" 439 579 basechar 0
+AnchorPoint: "Anchor3" 439 579 basechar 0
+AnchorPoint: "Anchor3" 439 579 basechar 0
+AnchorPoint: "Anchor3" 439 579 basechar 0
 AnchorPoint: "Anchor3" 439 579 basechar 0
 LayerCount: 2
 Fore
@@ -2270,6 +2381,12 @@ Width: 631
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 461 664 basechar 0
+AnchorPoint: "Anchor3" 461 664 basechar 0
+AnchorPoint: "Anchor3" 461 664 basechar 0
+AnchorPoint: "Anchor3" 461 664 basechar 0
+AnchorPoint: "Anchor3" 461 664 basechar 0
+AnchorPoint: "Anchor3" 461 664 basechar 0
+AnchorPoint: "Anchor3" 461 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2312,6 +2429,12 @@ Encoding: 2314 2314 59
 Width: 921
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 453 664 basechar 0
+AnchorPoint: "Anchor3" 453 664 basechar 0
+AnchorPoint: "Anchor3" 453 664 basechar 0
+AnchorPoint: "Anchor3" 453 664 basechar 0
+AnchorPoint: "Anchor3" 453 664 basechar 0
+AnchorPoint: "Anchor3" 453 664 basechar 0
 AnchorPoint: "Anchor3" 453 664 basechar 0
 LayerCount: 2
 Fore
@@ -2368,6 +2491,18 @@ Encoding: 2315 2315 60
 Width: 864
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 460 664 basechar 0
+AnchorPoint: "Anchor0" 471 26 basechar 0
+AnchorPoint: "Anchor3" 460 664 basechar 0
+AnchorPoint: "Anchor0" 471 26 basechar 0
+AnchorPoint: "Anchor3" 460 664 basechar 0
+AnchorPoint: "Anchor0" 471 26 basechar 0
+AnchorPoint: "Anchor3" 460 664 basechar 0
+AnchorPoint: "Anchor0" 471 26 basechar 0
+AnchorPoint: "Anchor3" 460 664 basechar 0
+AnchorPoint: "Anchor0" 471 26 basechar 0
+AnchorPoint: "Anchor3" 460 664 basechar 0
+AnchorPoint: "Anchor0" 471 26 basechar 0
 AnchorPoint: "Anchor3" 460 664 basechar 0
 AnchorPoint: "Anchor0" 471 26 basechar 0
 LayerCount: 2
@@ -2604,6 +2739,12 @@ Encoding: 2319 2319 64
 Width: 486
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 265 664 basechar 0
+AnchorPoint: "Anchor3" 265 664 basechar 0
+AnchorPoint: "Anchor3" 265 664 basechar 0
+AnchorPoint: "Anchor3" 265 664 basechar 0
+AnchorPoint: "Anchor3" 265 664 basechar 0
+AnchorPoint: "Anchor3" 265 664 basechar 0
 AnchorPoint: "Anchor3" 265 664 basechar 0
 LayerCount: 2
 Fore
@@ -2981,6 +3122,18 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 381 664 basechar 0
 AnchorPoint: "Anchor0" 380 23 basechar 0
+AnchorPoint: "Anchor3" 381 664 basechar 0
+AnchorPoint: "Anchor0" 380 23 basechar 0
+AnchorPoint: "Anchor3" 381 664 basechar 0
+AnchorPoint: "Anchor0" 380 23 basechar 0
+AnchorPoint: "Anchor3" 381 664 basechar 0
+AnchorPoint: "Anchor0" 380 23 basechar 0
+AnchorPoint: "Anchor3" 381 664 basechar 0
+AnchorPoint: "Anchor0" 380 23 basechar 0
+AnchorPoint: "Anchor3" 381 664 basechar 0
+AnchorPoint: "Anchor0" 380 23 basechar 0
+AnchorPoint: "Anchor3" 381 664 basechar 0
+AnchorPoint: "Anchor0" 380 23 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3034,6 +3187,18 @@ Encoding: 2326 2326 71
 Width: 825
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 693 664 basechar 0
+AnchorPoint: "Anchor0" 695 29 basechar 0
+AnchorPoint: "Anchor3" 693 664 basechar 0
+AnchorPoint: "Anchor0" 695 29 basechar 0
+AnchorPoint: "Anchor3" 693 664 basechar 0
+AnchorPoint: "Anchor0" 695 29 basechar 0
+AnchorPoint: "Anchor3" 693 664 basechar 0
+AnchorPoint: "Anchor0" 695 29 basechar 0
+AnchorPoint: "Anchor3" 693 664 basechar 0
+AnchorPoint: "Anchor0" 695 29 basechar 0
+AnchorPoint: "Anchor3" 693 664 basechar 0
+AnchorPoint: "Anchor0" 695 29 basechar 0
 AnchorPoint: "Anchor3" 693 664 basechar 0
 AnchorPoint: "Anchor0" 695 29 basechar 0
 LayerCount: 2
@@ -3098,6 +3263,12 @@ Width: 517
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 386 664 basechar 0
+AnchorPoint: "Anchor3" 386 664 basechar 0
+AnchorPoint: "Anchor3" 386 664 basechar 0
+AnchorPoint: "Anchor3" 386 664 basechar 0
+AnchorPoint: "Anchor3" 386 664 basechar 0
+AnchorPoint: "Anchor3" 386 664 basechar 0
+AnchorPoint: "Anchor3" 386 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3131,6 +3302,12 @@ Encoding: 2328 2328 73
 Width: 636
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 506 664 basechar 0
+AnchorPoint: "Anchor3" 506 664 basechar 0
+AnchorPoint: "Anchor3" 506 664 basechar 0
+AnchorPoint: "Anchor3" 506 664 basechar 0
+AnchorPoint: "Anchor3" 506 664 basechar 0
+AnchorPoint: "Anchor3" 506 664 basechar 0
 AnchorPoint: "Anchor3" 506 664 basechar 0
 LayerCount: 2
 Fore
@@ -3172,7 +3349,7 @@ SplineSet
  -13 606 l 1,20,-1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: ngadeva
@@ -3180,6 +3357,18 @@ Encoding: 2329 2329 74
 Width: 717
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 499 664 basechar 0
+AnchorPoint: "Anchor0" 394 50 basechar 0
+AnchorPoint: "Anchor3" 499 664 basechar 0
+AnchorPoint: "Anchor0" 394 50 basechar 0
+AnchorPoint: "Anchor3" 499 664 basechar 0
+AnchorPoint: "Anchor0" 394 50 basechar 0
+AnchorPoint: "Anchor3" 499 664 basechar 0
+AnchorPoint: "Anchor0" 394 50 basechar 0
+AnchorPoint: "Anchor3" 499 664 basechar 0
+AnchorPoint: "Anchor0" 394 50 basechar 0
+AnchorPoint: "Anchor3" 499 664 basechar 0
+AnchorPoint: "Anchor0" 394 50 basechar 0
 AnchorPoint: "Anchor3" 499 664 basechar 0
 AnchorPoint: "Anchor0" 394 50 basechar 0
 LayerCount: 2
@@ -3231,7 +3420,7 @@ SplineSet
  -13 606 l 1,12,-1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: cadeva
@@ -3239,6 +3428,12 @@ Encoding: 2330 2330 75
 Width: 637
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 503 664 basechar 0
+AnchorPoint: "Anchor3" 503 664 basechar 0
+AnchorPoint: "Anchor3" 503 664 basechar 0
+AnchorPoint: "Anchor3" 503 664 basechar 0
+AnchorPoint: "Anchor3" 503 664 basechar 0
+AnchorPoint: "Anchor3" 503 664 basechar 0
 AnchorPoint: "Anchor3" 503 664 basechar 0
 LayerCount: 2
 Fore
@@ -3272,7 +3467,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: chadeva
@@ -3280,6 +3475,18 @@ Encoding: 2331 2331 76
 Width: 709
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor0" 322 61 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor0" 322 61 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor0" 322 61 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor0" 322 61 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor0" 322 61 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor0" 322 61 basechar 0
 AnchorPoint: "Anchor3" 526 664 basechar 0
 AnchorPoint: "Anchor0" 322 61 basechar 0
 LayerCount: 2
@@ -3335,7 +3542,7 @@ SplineSet
  437 33 437 33 310 33 c 0,38,39
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: jadeva
@@ -3343,6 +3550,12 @@ Encoding: 2332 2332 77
 Width: 728
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 596 664 basechar 0
+AnchorPoint: "Anchor3" 596 664 basechar 0
+AnchorPoint: "Anchor3" 596 664 basechar 0
+AnchorPoint: "Anchor3" 596 664 basechar 0
+AnchorPoint: "Anchor3" 596 664 basechar 0
+AnchorPoint: "Anchor3" 596 664 basechar 0
 AnchorPoint: "Anchor3" 596 664 basechar 0
 LayerCount: 2
 Fore
@@ -3381,6 +3594,12 @@ Encoding: 2333 2333 78
 Width: 731
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 600 664 basechar 0
+AnchorPoint: "Anchor3" 600 664 basechar 0
+AnchorPoint: "Anchor3" 600 664 basechar 0
+AnchorPoint: "Anchor3" 600 664 basechar 0
+AnchorPoint: "Anchor3" 600 664 basechar 0
+AnchorPoint: "Anchor3" 600 664 basechar 0
 AnchorPoint: "Anchor3" 600 664 basechar 0
 LayerCount: 2
 Fore
@@ -3442,7 +3661,7 @@ SplineSet
  318 -47 l 5,21,22
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 Substitution2: "LocalizedNpFormslookup2 subtable" jhadeva.np
 EndChar
 
@@ -3451,6 +3670,12 @@ Encoding: 2334 2334 79
 Width: 737
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 603 664 basechar 0
+AnchorPoint: "Anchor3" 603 664 basechar 0
+AnchorPoint: "Anchor3" 603 664 basechar 0
+AnchorPoint: "Anchor3" 603 664 basechar 0
+AnchorPoint: "Anchor3" 603 664 basechar 0
+AnchorPoint: "Anchor3" 603 664 basechar 0
 AnchorPoint: "Anchor3" 603 664 basechar 0
 LayerCount: 2
 Fore
@@ -3493,7 +3718,7 @@ SplineSet
  289 120 289 120 218 120 c 0,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: ttadeva
@@ -3501,6 +3726,18 @@ Encoding: 2335 2335 80
 Width: 565
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 421 664 basechar 0
+AnchorPoint: "Anchor0" 324 45 basechar 0
+AnchorPoint: "Anchor3" 421 664 basechar 0
+AnchorPoint: "Anchor0" 324 45 basechar 0
+AnchorPoint: "Anchor3" 421 664 basechar 0
+AnchorPoint: "Anchor0" 324 45 basechar 0
+AnchorPoint: "Anchor3" 421 664 basechar 0
+AnchorPoint: "Anchor0" 324 45 basechar 0
+AnchorPoint: "Anchor3" 421 664 basechar 0
+AnchorPoint: "Anchor0" 324 45 basechar 0
+AnchorPoint: "Anchor3" 421 664 basechar 0
+AnchorPoint: "Anchor0" 324 45 basechar 0
 AnchorPoint: "Anchor3" 421 664 basechar 0
 AnchorPoint: "Anchor0" 324 45 basechar 0
 LayerCount: 2
@@ -3531,7 +3768,7 @@ SplineSet
  399 13 399 13 325 13 c 0,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: tthadeva
@@ -3539,6 +3776,18 @@ Encoding: 2336 2336 81
 Width: 580
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 422 664 basechar 0
+AnchorPoint: "Anchor0" 316 39 basechar 0
+AnchorPoint: "Anchor3" 422 664 basechar 0
+AnchorPoint: "Anchor0" 316 39 basechar 0
+AnchorPoint: "Anchor3" 422 664 basechar 0
+AnchorPoint: "Anchor0" 316 39 basechar 0
+AnchorPoint: "Anchor3" 422 664 basechar 0
+AnchorPoint: "Anchor0" 316 39 basechar 0
+AnchorPoint: "Anchor3" 422 664 basechar 0
+AnchorPoint: "Anchor0" 316 39 basechar 0
+AnchorPoint: "Anchor3" 422 664 basechar 0
+AnchorPoint: "Anchor0" 316 39 basechar 0
 AnchorPoint: "Anchor3" 422 664 basechar 0
 AnchorPoint: "Anchor0" 316 39 basechar 0
 LayerCount: 2
@@ -3573,7 +3822,7 @@ SplineSet
  409 7 409 7 324 7 c 0,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: ddadeva
@@ -3581,6 +3830,18 @@ Encoding: 2337 2337 82
 Width: 631
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 495 664 basechar 0
+AnchorPoint: "Anchor0" 378 45 basechar 0
+AnchorPoint: "Anchor3" 495 664 basechar 0
+AnchorPoint: "Anchor0" 378 45 basechar 0
+AnchorPoint: "Anchor3" 495 664 basechar 0
+AnchorPoint: "Anchor0" 378 45 basechar 0
+AnchorPoint: "Anchor3" 495 664 basechar 0
+AnchorPoint: "Anchor0" 378 45 basechar 0
+AnchorPoint: "Anchor3" 495 664 basechar 0
+AnchorPoint: "Anchor0" 378 45 basechar 0
+AnchorPoint: "Anchor3" 495 664 basechar 0
+AnchorPoint: "Anchor0" 378 45 basechar 0
 AnchorPoint: "Anchor3" 495 664 basechar 0
 AnchorPoint: "Anchor0" 378 45 basechar 0
 LayerCount: 2
@@ -3632,6 +3893,18 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 428 664 basechar 0
 AnchorPoint: "Anchor0" 332 47 basechar 0
+AnchorPoint: "Anchor3" 428 664 basechar 0
+AnchorPoint: "Anchor0" 332 47 basechar 0
+AnchorPoint: "Anchor3" 428 664 basechar 0
+AnchorPoint: "Anchor0" 332 47 basechar 0
+AnchorPoint: "Anchor3" 428 664 basechar 0
+AnchorPoint: "Anchor0" 332 47 basechar 0
+AnchorPoint: "Anchor3" 428 664 basechar 0
+AnchorPoint: "Anchor0" 332 47 basechar 0
+AnchorPoint: "Anchor3" 428 664 basechar 0
+AnchorPoint: "Anchor0" 332 47 basechar 0
+AnchorPoint: "Anchor3" 428 664 basechar 0
+AnchorPoint: "Anchor0" 332 47 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3681,6 +3954,18 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 540 664 basechar 0
 AnchorPoint: "Anchor0" 529 29 basechar 0
+AnchorPoint: "Anchor3" 540 664 basechar 0
+AnchorPoint: "Anchor0" 529 29 basechar 0
+AnchorPoint: "Anchor3" 540 664 basechar 0
+AnchorPoint: "Anchor0" 529 29 basechar 0
+AnchorPoint: "Anchor3" 540 664 basechar 0
+AnchorPoint: "Anchor0" 529 29 basechar 0
+AnchorPoint: "Anchor3" 540 664 basechar 0
+AnchorPoint: "Anchor0" 529 29 basechar 0
+AnchorPoint: "Anchor3" 540 664 basechar 0
+AnchorPoint: "Anchor0" 529 29 basechar 0
+AnchorPoint: "Anchor3" 540 664 basechar 0
+AnchorPoint: "Anchor0" 529 29 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3710,7 +3995,7 @@ SplineSet
  286 160 286 160 224 160 c 0,9,10
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: tadeva
@@ -3718,6 +4003,12 @@ Encoding: 2340 2340 85
 Width: 608
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 478 664 basechar 0
+AnchorPoint: "Anchor3" 478 664 basechar 0
+AnchorPoint: "Anchor3" 478 664 basechar 0
+AnchorPoint: "Anchor3" 478 664 basechar 0
+AnchorPoint: "Anchor3" 478 664 basechar 0
+AnchorPoint: "Anchor3" 478 664 basechar 0
 AnchorPoint: "Anchor3" 478 664 basechar 0
 LayerCount: 2
 Fore
@@ -3745,7 +4036,7 @@ SplineSet
  43 250 43 250 43 326 c 0,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: thadeva
@@ -3753,6 +4044,12 @@ Encoding: 2341 2341 86
 Width: 685
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 555 664 basechar 0
+AnchorPoint: "Anchor3" 555 664 basechar 0
+AnchorPoint: "Anchor3" 555 664 basechar 0
+AnchorPoint: "Anchor3" 555 664 basechar 0
+AnchorPoint: "Anchor3" 555 664 basechar 0
+AnchorPoint: "Anchor3" 555 664 basechar 0
 AnchorPoint: "Anchor3" 555 664 basechar 0
 LayerCount: 2
 Fore
@@ -3796,7 +4093,7 @@ SplineSet
  354 133 354 133 300 133 c 0,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: dadeva
@@ -3804,6 +4101,18 @@ Encoding: 2342 2342 87
 Width: 541
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 417 666 basechar 0
+AnchorPoint: "Anchor0" 458 7 basechar 0
+AnchorPoint: "Anchor3" 417 666 basechar 0
+AnchorPoint: "Anchor0" 458 7 basechar 0
+AnchorPoint: "Anchor3" 417 666 basechar 0
+AnchorPoint: "Anchor0" 458 7 basechar 0
+AnchorPoint: "Anchor3" 417 666 basechar 0
+AnchorPoint: "Anchor0" 458 7 basechar 0
+AnchorPoint: "Anchor3" 417 666 basechar 0
+AnchorPoint: "Anchor0" 458 7 basechar 0
+AnchorPoint: "Anchor3" 417 666 basechar 0
+AnchorPoint: "Anchor0" 458 7 basechar 0
 AnchorPoint: "Anchor3" 417 666 basechar 0
 AnchorPoint: "Anchor0" 458 7 basechar 0
 LayerCount: 2
@@ -3838,7 +4147,7 @@ SplineSet
  -21 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: dhadeva
@@ -3846,6 +4155,12 @@ Encoding: 2343 2343 88
 Width: 648
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 520 664 basechar 0
+AnchorPoint: "Anchor3" 520 664 basechar 0
+AnchorPoint: "Anchor3" 520 664 basechar 0
+AnchorPoint: "Anchor3" 520 664 basechar 0
+AnchorPoint: "Anchor3" 520 664 basechar 0
+AnchorPoint: "Anchor3" 520 664 basechar 0
 AnchorPoint: "Anchor3" 520 664 basechar 0
 LayerCount: 2
 Fore
@@ -3896,7 +4211,7 @@ SplineSet
  332 113 332 113 276 113 c 0,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: nadeva
@@ -3904,6 +4219,12 @@ Encoding: 2344 2344 89
 Width: 585
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 455 664 basechar 0
+AnchorPoint: "Anchor3" 455 664 basechar 0
+AnchorPoint: "Anchor3" 455 664 basechar 0
+AnchorPoint: "Anchor3" 455 664 basechar 0
+AnchorPoint: "Anchor3" 455 664 basechar 0
+AnchorPoint: "Anchor3" 455 664 basechar 0
 AnchorPoint: "Anchor3" 455 664 basechar 0
 LayerCount: 2
 Fore
@@ -3938,6 +4259,12 @@ Encoding: 2345 2345 90
 Width: 585
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 452 666 basechar 0
+AnchorPoint: "Anchor3" 452 666 basechar 0
+AnchorPoint: "Anchor3" 452 666 basechar 0
+AnchorPoint: "Anchor3" 452 666 basechar 0
+AnchorPoint: "Anchor3" 452 666 basechar 0
+AnchorPoint: "Anchor3" 452 666 basechar 0
 AnchorPoint: "Anchor3" 452 666 basechar 0
 LayerCount: 2
 Fore
@@ -3979,6 +4306,12 @@ Width: 536
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 404 664 basechar 0
+AnchorPoint: "Anchor3" 404 664 basechar 0
+AnchorPoint: "Anchor3" 404 664 basechar 0
+AnchorPoint: "Anchor3" 404 664 basechar 0
+AnchorPoint: "Anchor3" 404 664 basechar 0
+AnchorPoint: "Anchor3" 404 664 basechar 0
+AnchorPoint: "Anchor3" 404 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4006,7 +4339,7 @@ SplineSet
  57 294 57 294 57 366 c 2,9,-1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: phadeva
@@ -4014,6 +4347,18 @@ Encoding: 2347 2347 92
 Width: 774
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 386 664 basechar 0
+AnchorPoint: "Anchor0" 391 23 basechar 0
+AnchorPoint: "Anchor3" 386 664 basechar 0
+AnchorPoint: "Anchor0" 391 23 basechar 0
+AnchorPoint: "Anchor3" 386 664 basechar 0
+AnchorPoint: "Anchor0" 391 23 basechar 0
+AnchorPoint: "Anchor3" 386 664 basechar 0
+AnchorPoint: "Anchor0" 391 23 basechar 0
+AnchorPoint: "Anchor3" 386 664 basechar 0
+AnchorPoint: "Anchor0" 391 23 basechar 0
+AnchorPoint: "Anchor3" 386 664 basechar 0
+AnchorPoint: "Anchor0" 391 23 basechar 0
 AnchorPoint: "Anchor3" 386 664 basechar 0
 AnchorPoint: "Anchor0" 391 23 basechar 0
 LayerCount: 2
@@ -4065,6 +4410,12 @@ Width: 537
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 407 666 basechar 0
+AnchorPoint: "Anchor3" 407 666 basechar 0
+AnchorPoint: "Anchor3" 407 666 basechar 0
+AnchorPoint: "Anchor3" 407 666 basechar 0
+AnchorPoint: "Anchor3" 407 666 basechar 0
+AnchorPoint: "Anchor3" 407 666 basechar 0
+AnchorPoint: "Anchor3" 407 666 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4103,7 +4454,7 @@ SplineSet
  39 248 39 248 39 320 c 0,10,11
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: bhadeva
@@ -4111,6 +4462,12 @@ Encoding: 2349 2349 94
 Width: 657
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
 AnchorPoint: "Anchor3" 526 664 basechar 0
 LayerCount: 2
 Fore
@@ -4152,7 +4509,7 @@ SplineSet
  119 306 119 306 119 326 c 0,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: madeva
@@ -4160,6 +4517,12 @@ Encoding: 2350 2350 95
 Width: 579
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 447 664 basechar 0
+AnchorPoint: "Anchor3" 447 664 basechar 0
+AnchorPoint: "Anchor3" 447 664 basechar 0
+AnchorPoint: "Anchor3" 447 664 basechar 0
+AnchorPoint: "Anchor3" 447 664 basechar 0
+AnchorPoint: "Anchor3" 447 664 basechar 0
 AnchorPoint: "Anchor3" 447 664 basechar 0
 LayerCount: 2
 Fore
@@ -4190,7 +4553,7 @@ SplineSet
  -13 606 l 1,4,-1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: yadeva
@@ -4198,6 +4561,18 @@ Encoding: 2351 2351 96
 Width: 596
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 464 664 basechar 0
+AnchorPoint: "Anchor0" 466 26 basechar 0
+AnchorPoint: "Anchor3" 464 664 basechar 0
+AnchorPoint: "Anchor0" 466 26 basechar 0
+AnchorPoint: "Anchor3" 464 664 basechar 0
+AnchorPoint: "Anchor0" 466 26 basechar 0
+AnchorPoint: "Anchor3" 464 664 basechar 0
+AnchorPoint: "Anchor0" 466 26 basechar 0
+AnchorPoint: "Anchor3" 464 664 basechar 0
+AnchorPoint: "Anchor0" 466 26 basechar 0
+AnchorPoint: "Anchor3" 464 664 basechar 0
+AnchorPoint: "Anchor0" 466 26 basechar 0
 AnchorPoint: "Anchor3" 464 664 basechar 0
 AnchorPoint: "Anchor0" 466 26 basechar 0
 LayerCount: 2
@@ -4241,6 +4616,12 @@ Width: 436
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 331 664 basechar 0
+AnchorPoint: "Anchor3" 331 664 basechar 0
+AnchorPoint: "Anchor3" 331 664 basechar 0
+AnchorPoint: "Anchor3" 331 664 basechar 0
+AnchorPoint: "Anchor3" 331 664 basechar 0
+AnchorPoint: "Anchor3" 331 664 basechar 0
+AnchorPoint: "Anchor3" 331 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4275,6 +4656,12 @@ Encoding: 2353 2353 98
 Width: 442
 GlyphClass: 3
 Flags: W
+AnchorPoint: "Anchor3" 335 665 basechar 0
+AnchorPoint: "Anchor3" 335 665 basechar 0
+AnchorPoint: "Anchor3" 335 665 basechar 0
+AnchorPoint: "Anchor3" 335 665 basechar 0
+AnchorPoint: "Anchor3" 335 665 basechar 0
+AnchorPoint: "Anchor3" 335 665 basechar 0
 AnchorPoint: "Anchor3" 335 665 basechar 0
 LayerCount: 2
 Fore
@@ -4317,6 +4704,12 @@ Width: 727
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 597 664 basechar 0
+AnchorPoint: "Anchor3" 597 664 basechar 0
+AnchorPoint: "Anchor3" 597 664 basechar 0
+AnchorPoint: "Anchor3" 597 664 basechar 0
+AnchorPoint: "Anchor3" 597 664 basechar 0
+AnchorPoint: "Anchor3" 597 664 basechar 0
+AnchorPoint: "Anchor3" 597 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4352,7 +4745,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 Substitution2: "LocalizedMrForms_lookup0 subtable" ladeva.mr
 EndChar
 
@@ -4361,6 +4754,18 @@ Encoding: 2355 2355 100
 Width: 735
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 519 664 basechar 0
+AnchorPoint: "Anchor0" 527 101 basechar 0
+AnchorPoint: "Anchor3" 519 664 basechar 0
+AnchorPoint: "Anchor0" 527 101 basechar 0
+AnchorPoint: "Anchor3" 519 664 basechar 0
+AnchorPoint: "Anchor0" 527 101 basechar 0
+AnchorPoint: "Anchor3" 519 664 basechar 0
+AnchorPoint: "Anchor0" 527 101 basechar 0
+AnchorPoint: "Anchor3" 519 664 basechar 0
+AnchorPoint: "Anchor0" 527 101 basechar 0
+AnchorPoint: "Anchor3" 519 664 basechar 0
+AnchorPoint: "Anchor0" 527 101 basechar 0
 AnchorPoint: "Anchor3" 519 664 basechar 0
 AnchorPoint: "Anchor0" 527 101 basechar 0
 LayerCount: 2
@@ -4417,6 +4822,18 @@ Encoding: 2356 2356 101
 Width: 733
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 515 664 basechar 0
+AnchorPoint: "Anchor0" 553 98 basechar 0
+AnchorPoint: "Anchor3" 515 664 basechar 0
+AnchorPoint: "Anchor0" 553 98 basechar 0
+AnchorPoint: "Anchor3" 515 664 basechar 0
+AnchorPoint: "Anchor0" 553 98 basechar 0
+AnchorPoint: "Anchor3" 515 664 basechar 0
+AnchorPoint: "Anchor0" 553 98 basechar 0
+AnchorPoint: "Anchor3" 515 664 basechar 0
+AnchorPoint: "Anchor0" 553 98 basechar 0
+AnchorPoint: "Anchor3" 515 664 basechar 0
+AnchorPoint: "Anchor0" 553 98 basechar 0
 AnchorPoint: "Anchor3" 515 664 basechar 0
 AnchorPoint: "Anchor0" 553 98 basechar 0
 LayerCount: 2
@@ -4480,6 +4897,12 @@ Width: 543
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 410 665 basechar 0
+AnchorPoint: "Anchor3" 410 665 basechar 0
+AnchorPoint: "Anchor3" 410 665 basechar 0
+AnchorPoint: "Anchor3" 410 665 basechar 0
+AnchorPoint: "Anchor3" 410 665 basechar 0
+AnchorPoint: "Anchor3" 410 665 basechar 0
+AnchorPoint: "Anchor3" 410 665 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4512,7 +4935,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: shadeva
@@ -4520,6 +4943,12 @@ Encoding: 2358 2358 103
 Width: 676
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 546 664 basechar 0
+AnchorPoint: "Anchor3" 546 664 basechar 0
+AnchorPoint: "Anchor3" 546 664 basechar 0
+AnchorPoint: "Anchor3" 546 664 basechar 0
+AnchorPoint: "Anchor3" 546 664 basechar 0
+AnchorPoint: "Anchor3" 546 664 basechar 0
 AnchorPoint: "Anchor3" 546 664 basechar 0
 LayerCount: 2
 Fore
@@ -4563,7 +4992,7 @@ SplineSet
  330 0 l 1,20,-1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 Substitution2: "LocalizedMrForms_lookup0 subtable" shadeva.mr
 EndChar
 
@@ -4572,6 +5001,12 @@ Encoding: 2359 2359 104
 Width: 535
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 404 666 basechar 0
+AnchorPoint: "Anchor3" 404 666 basechar 0
+AnchorPoint: "Anchor3" 404 666 basechar 0
+AnchorPoint: "Anchor3" 404 666 basechar 0
+AnchorPoint: "Anchor3" 404 666 basechar 0
+AnchorPoint: "Anchor3" 404 666 basechar 0
 AnchorPoint: "Anchor3" 404 666 basechar 0
 LayerCount: 2
 Fore
@@ -4603,7 +5038,7 @@ SplineSet
  -13 606 l 1,11,-1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: sadeva
@@ -4611,6 +5046,12 @@ Encoding: 2360 2360 105
 Width: 709
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 576 665 basechar 0
+AnchorPoint: "Anchor3" 576 665 basechar 0
+AnchorPoint: "Anchor3" 576 665 basechar 0
+AnchorPoint: "Anchor3" 576 665 basechar 0
+AnchorPoint: "Anchor3" 576 665 basechar 0
+AnchorPoint: "Anchor3" 576 665 basechar 0
 AnchorPoint: "Anchor3" 576 665 basechar 0
 LayerCount: 2
 Fore
@@ -4645,7 +5086,7 @@ SplineSet
  310 405 310 405 304 386 c 1,24,-1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: hadeva
@@ -4653,6 +5094,18 @@ Encoding: 2361 2361 106
 Width: 527
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 401 666 basechar 0
+AnchorPoint: "Anchor0" 335 2 basechar 0
+AnchorPoint: "Anchor3" 401 666 basechar 0
+AnchorPoint: "Anchor0" 335 2 basechar 0
+AnchorPoint: "Anchor3" 401 666 basechar 0
+AnchorPoint: "Anchor0" 335 2 basechar 0
+AnchorPoint: "Anchor3" 401 666 basechar 0
+AnchorPoint: "Anchor0" 335 2 basechar 0
+AnchorPoint: "Anchor3" 401 666 basechar 0
+AnchorPoint: "Anchor0" 335 2 basechar 0
+AnchorPoint: "Anchor3" 401 666 basechar 0
+AnchorPoint: "Anchor0" 335 2 basechar 0
 AnchorPoint: "Anchor3" 401 666 basechar 0
 AnchorPoint: "Anchor0" 335 2 basechar 0
 LayerCount: 2
@@ -4698,7 +5151,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 109 0 "blwmBelowBaseMarklookup5 subtable" 
+Kerns2: 109 0 "blwmBelowBaseMarklookup5-5 subtable"  109 0 "blwmBelowBaseMarklookup5-4 subtable"  109 0 "blwmBelowBaseMarklookup5-3 subtable"  109 0 "blwmBelowBaseMarklookup5-2 subtable"  109 0 "blwmBelowBaseMarklookup5-1 subtable"  109 0 "blwmBelowBaseMarklookup5-0 subtable"  109 0 "blwmBelowBaseMarklookup5 subtable" 
 EndChar
 
 StartChar: oesigndeva
@@ -4706,6 +5159,12 @@ Encoding: 2362 2362 107
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -133 666 mark 0
+AnchorPoint: "Anchor3" -133 666 mark 0
+AnchorPoint: "Anchor3" -133 666 mark 0
+AnchorPoint: "Anchor3" -133 666 mark 0
+AnchorPoint: "Anchor3" -133 666 mark 0
+AnchorPoint: "Anchor3" -133 666 mark 0
 AnchorPoint: "Anchor3" -133 666 mark 0
 LayerCount: 2
 Fore
@@ -4852,13 +5311,13 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
-Substitution2: "SingleSubs_ExtdISign_lookup13 per glyph data 0" isigndeva.alt1
-Substitution2: "Single Substitution lookup 17 subtable" isigndeva.alt2
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
+Substitution2: "Single Substitution lookup 23 subtable" isigndeva.ja
+Substitution2: "Single Substitution lookup 21 subtable" isigndeva.tha
 Substitution2: "Single Substitution lookup 19 subtable" isigndeva.alt4
+Substitution2: "Single Substitution lookup 17 subtable" isigndeva.alt2
 Substitution2: "Single Substitution lookup 15 subtable" isigndeva.alt3
-Substitution2: "Single Substitution Lookup for isign_tha-1" isigndeva.tha
-Substitution2: "Single Substitiution Lookup for isigndeva_ja-1" isigndeva.ja
+Substitution2: "Single Substitution lookup 14 subtable" isigndeva.alt1
 EndChar
 
 StartChar: iisigndeva
@@ -4866,6 +5325,12 @@ Encoding: 2368 2368 113
 Width: 266
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor2" 263 55 basechar 0
+AnchorPoint: "Anchor2" 263 55 basechar 0
+AnchorPoint: "Anchor2" 263 55 basechar 0
+AnchorPoint: "Anchor2" 263 55 basechar 0
+AnchorPoint: "Anchor2" 263 55 basechar 0
+AnchorPoint: "Anchor2" 263 55 basechar 0
 AnchorPoint: "Anchor2" 263 55 basechar 0
 LayerCount: 2
 Fore
@@ -4895,7 +5360,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 25 subtable" iisigndeva.alt1
+Substitution2: "Single Substitution lookup 29 subtable" iisigndeva.alt1
 EndChar
 
 StartChar: usigndeva
@@ -4903,6 +5368,12 @@ Encoding: 2369 2369 114
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor0" -143 61 mark 0
+AnchorPoint: "Anchor0" -143 61 mark 0
+AnchorPoint: "Anchor0" -143 61 mark 0
+AnchorPoint: "Anchor0" -143 61 mark 0
+AnchorPoint: "Anchor0" -143 61 mark 0
+AnchorPoint: "Anchor0" -143 61 mark 0
 AnchorPoint: "Anchor0" -143 61 mark 0
 LayerCount: 2
 Fore
@@ -4936,6 +5407,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor0" -130 69 mark 0
+AnchorPoint: "Anchor0" -130 69 mark 0
+AnchorPoint: "Anchor0" -130 69 mark 0
+AnchorPoint: "Anchor0" -130 69 mark 0
+AnchorPoint: "Anchor0" -130 69 mark 0
+AnchorPoint: "Anchor0" -130 69 mark 0
+AnchorPoint: "Anchor0" -130 69 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4968,6 +5445,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor0" -127 50 mark 0
+AnchorPoint: "Anchor0" -127 50 mark 0
+AnchorPoint: "Anchor0" -127 50 mark 0
+AnchorPoint: "Anchor0" -127 50 mark 0
+AnchorPoint: "Anchor0" -127 50 mark 0
+AnchorPoint: "Anchor0" -127 50 mark 0
+AnchorPoint: "Anchor0" -127 50 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4997,6 +5480,12 @@ Encoding: 2372 2372 117
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor0" -130 69 mark 0
+AnchorPoint: "Anchor0" -130 69 mark 0
+AnchorPoint: "Anchor0" -130 69 mark 0
+AnchorPoint: "Anchor0" -130 69 mark 0
+AnchorPoint: "Anchor0" -130 69 mark 0
+AnchorPoint: "Anchor0" -130 69 mark 0
 AnchorPoint: "Anchor0" -130 69 mark 0
 LayerCount: 2
 Fore
@@ -5039,6 +5528,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -127 666 mark 0
+AnchorPoint: "Anchor3" -127 666 mark 0
+AnchorPoint: "Anchor3" -127 666 mark 0
+AnchorPoint: "Anchor3" -127 666 mark 0
+AnchorPoint: "Anchor3" -127 666 mark 0
+AnchorPoint: "Anchor3" -127 666 mark 0
+AnchorPoint: "Anchor3" -127 666 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5063,6 +5558,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -127 665 mark 0
+AnchorPoint: "Anchor3" -127 665 mark 0
+AnchorPoint: "Anchor3" -127 665 mark 0
+AnchorPoint: "Anchor3" -127 665 mark 0
+AnchorPoint: "Anchor3" -127 665 mark 0
+AnchorPoint: "Anchor3" -127 665 mark 0
+AnchorPoint: "Anchor3" -127 665 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5079,7 +5580,7 @@ SplineSet
  -241 807 -241 807 -296 807 c 0,0,1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
 EndChar
 
 StartChar: esigndeva
@@ -5087,6 +5588,18 @@ Encoding: 2375 2375 120
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -122 664 mark 0
+AnchorPoint: "Anchor1" 0 0 basemark 0
+AnchorPoint: "Anchor3" -122 664 mark 0
+AnchorPoint: "Anchor1" 0 0 basemark 0
+AnchorPoint: "Anchor3" -122 664 mark 0
+AnchorPoint: "Anchor1" 0 0 basemark 0
+AnchorPoint: "Anchor3" -122 664 mark 0
+AnchorPoint: "Anchor1" 0 0 basemark 0
+AnchorPoint: "Anchor3" -122 664 mark 0
+AnchorPoint: "Anchor1" 0 0 basemark 0
+AnchorPoint: "Anchor3" -122 664 mark 0
+AnchorPoint: "Anchor1" 0 0 basemark 0
 AnchorPoint: "Anchor3" -122 664 mark 0
 AnchorPoint: "Anchor1" 0 0 basemark 0
 LayerCount: 2
@@ -5106,6 +5619,18 @@ Encoding: 2376 2376 121
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -135 664 mark 0
+AnchorPoint: "Anchor1" 55 63 basemark 0
+AnchorPoint: "Anchor3" -135 664 mark 0
+AnchorPoint: "Anchor1" 55 63 basemark 0
+AnchorPoint: "Anchor3" -135 664 mark 0
+AnchorPoint: "Anchor1" 55 63 basemark 0
+AnchorPoint: "Anchor3" -135 664 mark 0
+AnchorPoint: "Anchor1" 55 63 basemark 0
+AnchorPoint: "Anchor3" -135 664 mark 0
+AnchorPoint: "Anchor1" 55 63 basemark 0
+AnchorPoint: "Anchor3" -135 664 mark 0
+AnchorPoint: "Anchor1" 55 63 basemark 0
 AnchorPoint: "Anchor3" -135 664 mark 0
 AnchorPoint: "Anchor1" 55 63 basemark 0
 LayerCount: 2
@@ -5192,6 +5717,12 @@ Width: 266
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor2" 231 111 basechar 0
+AnchorPoint: "Anchor2" 231 111 basechar 0
+AnchorPoint: "Anchor2" 231 111 basechar 0
+AnchorPoint: "Anchor2" 231 111 basechar 0
+AnchorPoint: "Anchor2" 231 111 basechar 0
+AnchorPoint: "Anchor2" 231 111 basechar 0
+AnchorPoint: "Anchor2" 231 111 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5218,6 +5749,12 @@ Width: 266
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor2" 335 71 basechar 0
+AnchorPoint: "Anchor2" 335 71 basechar 0
+AnchorPoint: "Anchor2" 335 71 basechar 0
+AnchorPoint: "Anchor2" 335 71 basechar 0
+AnchorPoint: "Anchor2" 335 71 basechar 0
+AnchorPoint: "Anchor2" 335 71 basechar 0
+AnchorPoint: "Anchor2" 335 71 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5239,7 +5776,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
 EndChar
 
 StartChar: viramadeva
@@ -5247,6 +5784,12 @@ Encoding: 2381 2381 126
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor0" -119 42 mark 0
+AnchorPoint: "Anchor0" -119 42 mark 0
+AnchorPoint: "Anchor0" -119 42 mark 0
+AnchorPoint: "Anchor0" -119 42 mark 0
+AnchorPoint: "Anchor0" -119 42 mark 0
+AnchorPoint: "Anchor0" -119 42 mark 0
 AnchorPoint: "Anchor0" -119 42 mark 0
 LayerCount: 2
 Fore
@@ -5419,6 +5962,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -127 666 mark 0
+AnchorPoint: "Anchor3" -127 666 mark 0
+AnchorPoint: "Anchor3" -127 666 mark 0
+AnchorPoint: "Anchor3" -127 666 mark 0
+AnchorPoint: "Anchor3" -127 666 mark 0
+AnchorPoint: "Anchor3" -127 666 mark 0
+AnchorPoint: "Anchor3" -127 666 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5454,6 +6003,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -69 664 mark 0
+AnchorPoint: "Anchor3" -69 664 mark 0
+AnchorPoint: "Anchor3" -69 664 mark 0
+AnchorPoint: "Anchor3" -69 664 mark 0
+AnchorPoint: "Anchor3" -69 664 mark 0
+AnchorPoint: "Anchor3" -69 664 mark 0
+AnchorPoint: "Anchor3" -69 664 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5472,6 +6027,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -143 665 mark 0
+AnchorPoint: "Anchor3" -143 665 mark 0
+AnchorPoint: "Anchor3" -143 665 mark 0
+AnchorPoint: "Anchor3" -143 665 mark 0
+AnchorPoint: "Anchor3" -143 665 mark 0
+AnchorPoint: "Anchor3" -143 665 mark 0
+AnchorPoint: "Anchor3" -143 665 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5489,6 +6050,24 @@ Encoding: 2389 2389 134
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
+AnchorPoint: "Anchor3" -120 666 mark 0
+AnchorPoint: "Anchor2" -127 5 mark 0
+AnchorPoint: "Anchor1" -127 5 mark 0
 AnchorPoint: "Anchor3" -120 666 mark 0
 AnchorPoint: "Anchor2" -127 5 mark 0
 AnchorPoint: "Anchor1" -127 5 mark 0
@@ -5521,6 +6100,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor0" -259 -1 mark 0
+AnchorPoint: "Anchor0" -259 -1 mark 0
+AnchorPoint: "Anchor0" -259 -1 mark 0
+AnchorPoint: "Anchor0" -259 -1 mark 0
+AnchorPoint: "Anchor0" -259 -1 mark 0
+AnchorPoint: "Anchor0" -259 -1 mark 0
+AnchorPoint: "Anchor0" -259 -1 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5544,6 +6129,12 @@ Encoding: 2391 2391 136
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor0" -265 0 mark 0
+AnchorPoint: "Anchor0" -265 0 mark 0
+AnchorPoint: "Anchor0" -265 0 mark 0
+AnchorPoint: "Anchor0" -265 0 mark 0
+AnchorPoint: "Anchor0" -265 0 mark 0
+AnchorPoint: "Anchor0" -265 0 mark 0
 AnchorPoint: "Anchor0" -265 0 mark 0
 LayerCount: 2
 Fore
@@ -5579,6 +6170,18 @@ Encoding: 2392 2392 137
 Width: 753
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 385 664 basechar 0
+AnchorPoint: "Anchor0" 386 23 basechar 0
+AnchorPoint: "Anchor3" 385 664 basechar 0
+AnchorPoint: "Anchor0" 386 23 basechar 0
+AnchorPoint: "Anchor3" 385 664 basechar 0
+AnchorPoint: "Anchor0" 386 23 basechar 0
+AnchorPoint: "Anchor3" 385 664 basechar 0
+AnchorPoint: "Anchor0" 386 23 basechar 0
+AnchorPoint: "Anchor3" 385 664 basechar 0
+AnchorPoint: "Anchor0" 386 23 basechar 0
+AnchorPoint: "Anchor3" 385 664 basechar 0
+AnchorPoint: "Anchor0" 386 23 basechar 0
 AnchorPoint: "Anchor3" 385 664 basechar 0
 AnchorPoint: "Anchor0" 386 23 basechar 0
 LayerCount: 2
@@ -5640,6 +6243,12 @@ Encoding: 2393 2393 138
 Width: 836
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 707 664 basechar 0
+AnchorPoint: "Anchor3" 707 664 basechar 0
+AnchorPoint: "Anchor3" 707 664 basechar 0
+AnchorPoint: "Anchor3" 707 664 basechar 0
+AnchorPoint: "Anchor3" 707 664 basechar 0
+AnchorPoint: "Anchor3" 707 664 basechar 0
 AnchorPoint: "Anchor3" 707 664 basechar 0
 LayerCount: 2
 Fore
@@ -5711,6 +6320,12 @@ Width: 517
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 392 666 basechar 0
+AnchorPoint: "Anchor3" 392 666 basechar 0
+AnchorPoint: "Anchor3" 392 666 basechar 0
+AnchorPoint: "Anchor3" 392 666 basechar 0
+AnchorPoint: "Anchor3" 392 666 basechar 0
+AnchorPoint: "Anchor3" 392 666 basechar 0
+AnchorPoint: "Anchor3" 392 666 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5750,6 +6365,12 @@ Encoding: 2395 2395 140
 Width: 733
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 603 664 basechar 0
+AnchorPoint: "Anchor3" 603 664 basechar 0
+AnchorPoint: "Anchor3" 603 664 basechar 0
+AnchorPoint: "Anchor3" 603 664 basechar 0
+AnchorPoint: "Anchor3" 603 664 basechar 0
+AnchorPoint: "Anchor3" 603 664 basechar 0
 AnchorPoint: "Anchor3" 603 664 basechar 0
 LayerCount: 2
 Fore
@@ -5794,6 +6415,18 @@ Encoding: 2396 2396 141
 Width: 632
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 502 664 basechar 0
+AnchorPoint: "Anchor0" 407 50 basechar 0
+AnchorPoint: "Anchor3" 502 664 basechar 0
+AnchorPoint: "Anchor0" 407 50 basechar 0
+AnchorPoint: "Anchor3" 502 664 basechar 0
+AnchorPoint: "Anchor0" 407 50 basechar 0
+AnchorPoint: "Anchor3" 502 664 basechar 0
+AnchorPoint: "Anchor0" 407 50 basechar 0
+AnchorPoint: "Anchor3" 502 664 basechar 0
+AnchorPoint: "Anchor0" 407 50 basechar 0
+AnchorPoint: "Anchor3" 502 664 basechar 0
+AnchorPoint: "Anchor0" 407 50 basechar 0
 AnchorPoint: "Anchor3" 502 664 basechar 0
 AnchorPoint: "Anchor0" 407 50 basechar 0
 LayerCount: 2
@@ -5851,6 +6484,18 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 427 664 basechar 0
 AnchorPoint: "Anchor0" 332 58 basechar 0
+AnchorPoint: "Anchor3" 427 664 basechar 0
+AnchorPoint: "Anchor0" 332 58 basechar 0
+AnchorPoint: "Anchor3" 427 664 basechar 0
+AnchorPoint: "Anchor0" 332 58 basechar 0
+AnchorPoint: "Anchor3" 427 664 basechar 0
+AnchorPoint: "Anchor0" 332 58 basechar 0
+AnchorPoint: "Anchor3" 427 664 basechar 0
+AnchorPoint: "Anchor0" 332 58 basechar 0
+AnchorPoint: "Anchor3" 427 664 basechar 0
+AnchorPoint: "Anchor0" 332 58 basechar 0
+AnchorPoint: "Anchor3" 427 664 basechar 0
+AnchorPoint: "Anchor0" 332 58 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5904,6 +6549,18 @@ Encoding: 2398 2398 143
 Width: 765
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 379 664 basechar 0
+AnchorPoint: "Anchor0" 380 21 basechar 0
+AnchorPoint: "Anchor3" 379 664 basechar 0
+AnchorPoint: "Anchor0" 380 21 basechar 0
+AnchorPoint: "Anchor3" 379 664 basechar 0
+AnchorPoint: "Anchor0" 380 21 basechar 0
+AnchorPoint: "Anchor3" 379 664 basechar 0
+AnchorPoint: "Anchor0" 380 21 basechar 0
+AnchorPoint: "Anchor3" 379 664 basechar 0
+AnchorPoint: "Anchor0" 380 21 basechar 0
+AnchorPoint: "Anchor3" 379 664 basechar 0
+AnchorPoint: "Anchor0" 380 21 basechar 0
 AnchorPoint: "Anchor3" 379 664 basechar 0
 AnchorPoint: "Anchor0" 380 21 basechar 0
 LayerCount: 2
@@ -5961,6 +6618,12 @@ Width: 596
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 465 665 basechar 0
+AnchorPoint: "Anchor3" 465 665 basechar 0
+AnchorPoint: "Anchor3" 465 665 basechar 0
+AnchorPoint: "Anchor3" 465 665 basechar 0
+AnchorPoint: "Anchor3" 465 665 basechar 0
+AnchorPoint: "Anchor3" 465 665 basechar 0
+AnchorPoint: "Anchor3" 465 665 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6007,6 +6670,18 @@ Encoding: 2400 2400 145
 Width: 882
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 467 666 basechar 0
+AnchorPoint: "Anchor0" 468 15 basechar 0
+AnchorPoint: "Anchor3" 467 666 basechar 0
+AnchorPoint: "Anchor0" 468 15 basechar 0
+AnchorPoint: "Anchor3" 467 666 basechar 0
+AnchorPoint: "Anchor0" 468 15 basechar 0
+AnchorPoint: "Anchor3" 467 666 basechar 0
+AnchorPoint: "Anchor0" 468 15 basechar 0
+AnchorPoint: "Anchor3" 467 666 basechar 0
+AnchorPoint: "Anchor0" 468 15 basechar 0
+AnchorPoint: "Anchor3" 467 666 basechar 0
+AnchorPoint: "Anchor0" 468 15 basechar 0
 AnchorPoint: "Anchor3" 467 666 basechar 0
 AnchorPoint: "Anchor0" 468 15 basechar 0
 LayerCount: 2
@@ -6142,6 +6817,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor0" -141 37 mark 0
+AnchorPoint: "Anchor0" -141 37 mark 0
+AnchorPoint: "Anchor0" -141 37 mark 0
+AnchorPoint: "Anchor0" -141 37 mark 0
+AnchorPoint: "Anchor0" -141 37 mark 0
+AnchorPoint: "Anchor0" -141 37 mark 0
+AnchorPoint: "Anchor0" -141 37 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6196,6 +6877,12 @@ Encoding: 2403 2403 148
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor0" -138 34 mark 0
+AnchorPoint: "Anchor0" -138 34 mark 0
+AnchorPoint: "Anchor0" -138 34 mark 0
+AnchorPoint: "Anchor0" -138 34 mark 0
+AnchorPoint: "Anchor0" -138 34 mark 0
+AnchorPoint: "Anchor0" -138 34 mark 0
 AnchorPoint: "Anchor0" -138 34 mark 0
 LayerCount: 2
 Fore
@@ -6753,6 +7440,12 @@ Width: 768
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6823,6 +7516,12 @@ Encoding: 2419 2419 164
 Width: 768
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
+AnchorPoint: "Anchor3" 636 664 basechar 0
 AnchorPoint: "Anchor3" 636 664 basechar 0
 LayerCount: 2
 Fore
@@ -7038,6 +7737,12 @@ Width: 768
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor0" 640 711 basechar 0
+AnchorPoint: "Anchor0" 640 711 basechar 0
+AnchorPoint: "Anchor0" 640 711 basechar 0
+AnchorPoint: "Anchor0" 640 711 basechar 0
+AnchorPoint: "Anchor0" 640 711 basechar 0
+AnchorPoint: "Anchor0" 640 711 basechar 0
+AnchorPoint: "Anchor0" 640 711 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7108,6 +7813,12 @@ Encoding: 2423 2423 168
 Width: 768
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 640 711 basechar 0
+AnchorPoint: "Anchor0" 640 711 basechar 0
+AnchorPoint: "Anchor0" 640 711 basechar 0
+AnchorPoint: "Anchor0" 640 711 basechar 0
+AnchorPoint: "Anchor0" 640 711 basechar 0
+AnchorPoint: "Anchor0" 640 711 basechar 0
 AnchorPoint: "Anchor0" 640 711 basechar 0
 LayerCount: 2
 Fore
@@ -7244,6 +7955,18 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 464 664 basechar 0
 AnchorPoint: "Anchor0" 466 26 basechar 0
+AnchorPoint: "Anchor3" 464 664 basechar 0
+AnchorPoint: "Anchor0" 466 26 basechar 0
+AnchorPoint: "Anchor3" 464 664 basechar 0
+AnchorPoint: "Anchor0" 466 26 basechar 0
+AnchorPoint: "Anchor3" 464 664 basechar 0
+AnchorPoint: "Anchor0" 466 26 basechar 0
+AnchorPoint: "Anchor3" 464 664 basechar 0
+AnchorPoint: "Anchor0" 466 26 basechar 0
+AnchorPoint: "Anchor3" 464 664 basechar 0
+AnchorPoint: "Anchor0" 466 26 basechar 0
+AnchorPoint: "Anchor3" 464 664 basechar 0
+AnchorPoint: "Anchor0" 466 26 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7288,6 +8011,12 @@ Width: 517
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 390 663 basechar 0
+AnchorPoint: "Anchor3" 390 663 basechar 0
+AnchorPoint: "Anchor3" 390 663 basechar 0
+AnchorPoint: "Anchor3" 390 663 basechar 0
+AnchorPoint: "Anchor3" 390 663 basechar 0
+AnchorPoint: "Anchor3" 390 663 basechar 0
+AnchorPoint: "Anchor3" 390 663 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7324,6 +8053,12 @@ Encoding: 2428 2428 172
 Width: 728
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 596 666 basechar 0
+AnchorPoint: "Anchor3" 596 666 basechar 0
+AnchorPoint: "Anchor3" 596 666 basechar 0
+AnchorPoint: "Anchor3" 596 666 basechar 0
+AnchorPoint: "Anchor3" 596 666 basechar 0
+AnchorPoint: "Anchor3" 596 666 basechar 0
 AnchorPoint: "Anchor3" 596 666 basechar 0
 LayerCount: 2
 Fore
@@ -7394,6 +8129,12 @@ Width: 717
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 497 666 basechar 0
+AnchorPoint: "Anchor3" 497 666 basechar 0
+AnchorPoint: "Anchor3" 497 666 basechar 0
+AnchorPoint: "Anchor3" 497 666 basechar 0
+AnchorPoint: "Anchor3" 497 666 basechar 0
+AnchorPoint: "Anchor3" 497 666 basechar 0
+AnchorPoint: "Anchor3" 497 666 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7446,6 +8187,12 @@ Encoding: 2431 2431 175
 Width: 537
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 406 665 basechar 0
+AnchorPoint: "Anchor3" 406 665 basechar 0
+AnchorPoint: "Anchor3" 406 665 basechar 0
+AnchorPoint: "Anchor3" 406 665 basechar 0
+AnchorPoint: "Anchor3" 406 665 basechar 0
+AnchorPoint: "Anchor3" 406 665 basechar 0
 AnchorPoint: "Anchor3" 406 665 basechar 0
 LayerCount: 2
 Fore
@@ -7823,6 +8570,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -127 721 mark 0
+AnchorPoint: "Anchor3" -127 721 mark 0
+AnchorPoint: "Anchor3" -127 721 mark 0
+AnchorPoint: "Anchor3" -127 721 mark 0
+AnchorPoint: "Anchor3" -127 721 mark 0
+AnchorPoint: "Anchor3" -127 721 mark 0
+AnchorPoint: "Anchor3" -127 721 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7853,6 +8606,12 @@ Encoding: 43233 43233 188
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
 AnchorPoint: "Anchor3" -137 681 mark 0
 LayerCount: 2
 Fore
@@ -7887,6 +8646,12 @@ Encoding: 43234 43234 189
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -137 675 mark 0
+AnchorPoint: "Anchor3" -137 675 mark 0
+AnchorPoint: "Anchor3" -137 675 mark 0
+AnchorPoint: "Anchor3" -137 675 mark 0
+AnchorPoint: "Anchor3" -137 675 mark 0
+AnchorPoint: "Anchor3" -137 675 mark 0
 AnchorPoint: "Anchor3" -137 675 mark 0
 LayerCount: 2
 Fore
@@ -7927,6 +8692,12 @@ Encoding: 43235 43235 190
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -147 671 mark 0
+AnchorPoint: "Anchor3" -147 671 mark 0
+AnchorPoint: "Anchor3" -147 671 mark 0
+AnchorPoint: "Anchor3" -147 671 mark 0
+AnchorPoint: "Anchor3" -147 671 mark 0
+AnchorPoint: "Anchor3" -147 671 mark 0
 AnchorPoint: "Anchor3" -147 671 mark 0
 LayerCount: 2
 Fore
@@ -7980,6 +8751,12 @@ Encoding: 43236 43236 191
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -130 681 mark 0
+AnchorPoint: "Anchor3" -130 681 mark 0
+AnchorPoint: "Anchor3" -130 681 mark 0
+AnchorPoint: "Anchor3" -130 681 mark 0
+AnchorPoint: "Anchor3" -130 681 mark 0
+AnchorPoint: "Anchor3" -130 681 mark 0
 AnchorPoint: "Anchor3" -130 681 mark 0
 LayerCount: 2
 Fore
@@ -8083,6 +8860,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -137 679 mark 0
+AnchorPoint: "Anchor3" -137 679 mark 0
+AnchorPoint: "Anchor3" -137 679 mark 0
+AnchorPoint: "Anchor3" -137 679 mark 0
+AnchorPoint: "Anchor3" -137 679 mark 0
+AnchorPoint: "Anchor3" -137 679 mark 0
+AnchorPoint: "Anchor3" -137 679 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8136,6 +8919,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8180,6 +8969,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8211,6 +9006,12 @@ Encoding: 43241 43241 196
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -137 674 mark 0
+AnchorPoint: "Anchor3" -137 674 mark 0
+AnchorPoint: "Anchor3" -137 674 mark 0
+AnchorPoint: "Anchor3" -137 674 mark 0
+AnchorPoint: "Anchor3" -137 674 mark 0
+AnchorPoint: "Anchor3" -137 674 mark 0
 AnchorPoint: "Anchor3" -137 674 mark 0
 LayerCount: 2
 Fore
@@ -8257,6 +9058,12 @@ Encoding: 43242 43242 197
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
 AnchorPoint: "Anchor3" -137 681 mark 0
 LayerCount: 2
 Fore
@@ -8324,6 +9131,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8368,6 +9181,12 @@ Encoding: 43244 43244 199
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -131 681 mark 0
+AnchorPoint: "Anchor3" -131 681 mark 0
+AnchorPoint: "Anchor3" -131 681 mark 0
+AnchorPoint: "Anchor3" -131 681 mark 0
+AnchorPoint: "Anchor3" -131 681 mark 0
+AnchorPoint: "Anchor3" -131 681 mark 0
 AnchorPoint: "Anchor3" -131 681 mark 0
 LayerCount: 2
 Fore
@@ -8427,6 +9246,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8460,6 +9285,12 @@ Encoding: 43246 43246 201
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
 AnchorPoint: "Anchor3" -137 681 mark 0
 LayerCount: 2
 Fore
@@ -8495,6 +9326,12 @@ Encoding: 43247 43247 202
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
 AnchorPoint: "Anchor3" -137 681 mark 0
 LayerCount: 2
 Fore
@@ -8534,6 +9371,12 @@ Encoding: 43248 43248 203
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
 AnchorPoint: "Anchor3" -137 681 mark 0
 LayerCount: 2
 Fore
@@ -8596,6 +9439,12 @@ Encoding: 43249 43249 204
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
+AnchorPoint: "Anchor3" -137 681 mark 0
 AnchorPoint: "Anchor3" -137 681 mark 0
 LayerCount: 2
 Fore
@@ -8942,6 +9791,18 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 529 668 basechar 0
 AnchorPoint: "Anchor0" 324 56 basechar 0
+AnchorPoint: "Anchor3" 529 668 basechar 0
+AnchorPoint: "Anchor0" 324 56 basechar 0
+AnchorPoint: "Anchor3" 529 668 basechar 0
+AnchorPoint: "Anchor0" 324 56 basechar 0
+AnchorPoint: "Anchor3" 529 668 basechar 0
+AnchorPoint: "Anchor0" 324 56 basechar 0
+AnchorPoint: "Anchor3" 529 668 basechar 0
+AnchorPoint: "Anchor0" 324 56 basechar 0
+AnchorPoint: "Anchor3" 529 668 basechar 0
+AnchorPoint: "Anchor0" 324 56 basechar 0
+AnchorPoint: "Anchor3" 529 668 basechar 0
+AnchorPoint: "Anchor0" 324 56 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8995,6 +9856,18 @@ Encoding: 43257 43257 212
 Width: 709
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 529 668 basechar 0
+AnchorPoint: "Anchor0" 324 56 basechar 0
+AnchorPoint: "Anchor3" 529 668 basechar 0
+AnchorPoint: "Anchor0" 324 56 basechar 0
+AnchorPoint: "Anchor3" 529 668 basechar 0
+AnchorPoint: "Anchor0" 324 56 basechar 0
+AnchorPoint: "Anchor3" 529 668 basechar 0
+AnchorPoint: "Anchor0" 324 56 basechar 0
+AnchorPoint: "Anchor3" 529 668 basechar 0
+AnchorPoint: "Anchor0" 324 56 basechar 0
+AnchorPoint: "Anchor3" 529 668 basechar 0
+AnchorPoint: "Anchor0" 324 56 basechar 0
 AnchorPoint: "Anchor3" 529 668 basechar 0
 AnchorPoint: "Anchor0" 324 56 basechar 0
 LayerCount: 2
@@ -9111,6 +9984,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -125 665 mark 0
+AnchorPoint: "Anchor3" -125 665 mark 0
+AnchorPoint: "Anchor3" -125 665 mark 0
+AnchorPoint: "Anchor3" -125 665 mark 0
+AnchorPoint: "Anchor3" -125 665 mark 0
+AnchorPoint: "Anchor3" -125 665 mark 0
+AnchorPoint: "Anchor3" -125 665 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9135,6 +10014,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -115 664 mark 0
+AnchorPoint: "Anchor3" -115 664 mark 0
+AnchorPoint: "Anchor3" -115 664 mark 0
+AnchorPoint: "Anchor3" -115 664 mark 0
+AnchorPoint: "Anchor3" -115 664 mark 0
+AnchorPoint: "Anchor3" -115 664 mark 0
+AnchorPoint: "Anchor3" -115 664 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9157,7 +10042,7 @@ SplineSet
  -156 666 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
 Ligature2: "AboveBaseSubstitutionslookup subtable" esigndeva radeva_viramadeva
 EndChar
 
@@ -9166,6 +10051,12 @@ Encoding: 65541 -1 218
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -117 673 mark 0
+AnchorPoint: "Anchor3" -117 673 mark 0
+AnchorPoint: "Anchor3" -117 673 mark 0
+AnchorPoint: "Anchor3" -117 673 mark 0
+AnchorPoint: "Anchor3" -117 673 mark 0
+AnchorPoint: "Anchor3" -117 673 mark 0
 AnchorPoint: "Anchor3" -117 673 mark 0
 LayerCount: 2
 Fore
@@ -9203,6 +10094,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -131 665 mark 0
+AnchorPoint: "Anchor3" -131 665 mark 0
+AnchorPoint: "Anchor3" -131 665 mark 0
+AnchorPoint: "Anchor3" -131 665 mark 0
+AnchorPoint: "Anchor3" -131 665 mark 0
+AnchorPoint: "Anchor3" -131 665 mark 0
+AnchorPoint: "Anchor3" -131 665 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9230,6 +10127,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -111 671 mark 0
+AnchorPoint: "Anchor3" -111 671 mark 0
+AnchorPoint: "Anchor3" -111 671 mark 0
+AnchorPoint: "Anchor3" -111 671 mark 0
+AnchorPoint: "Anchor3" -111 671 mark 0
+AnchorPoint: "Anchor3" -111 671 mark 0
+AnchorPoint: "Anchor3" -111 671 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9255,7 +10158,7 @@ SplineSet
  -172 666 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
 Ligature2: "AboveBaseSubstitutionslookup subtable" aisigndeva radeva_viramadeva
 EndChar
 
@@ -9263,6 +10166,12 @@ StartChar: aisign_ra_virama_anusvara
 Encoding: 65544 -1 221
 Width: 0
 GlyphClass: 4
+AnchorPoint: "Anchor3" -113 666 mark 0
+AnchorPoint: "Anchor3" -113 666 mark 0
+AnchorPoint: "Anchor3" -113 666 mark 0
+AnchorPoint: "Anchor3" -113 666 mark 0
+AnchorPoint: "Anchor3" -113 666 mark 0
+AnchorPoint: "Anchor3" -113 666 mark 0
 AnchorPoint: "Anchor3" -113 666 mark 0
 LayerCount: 2
 Fore
@@ -9303,6 +10212,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor3" -71 664 mark 0
+AnchorPoint: "Anchor3" -71 664 mark 0
+AnchorPoint: "Anchor3" -71 664 mark 0
+AnchorPoint: "Anchor3" -71 664 mark 0
+AnchorPoint: "Anchor3" -71 664 mark 0
+AnchorPoint: "Anchor3" -71 664 mark 0
+AnchorPoint: "Anchor3" -71 664 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9331,6 +10246,12 @@ Encoding: 65546 -1 223
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" -112 665 mark 0
+AnchorPoint: "Anchor3" -112 665 mark 0
+AnchorPoint: "Anchor3" -112 665 mark 0
+AnchorPoint: "Anchor3" -112 665 mark 0
+AnchorPoint: "Anchor3" -112 665 mark 0
+AnchorPoint: "Anchor3" -112 665 mark 0
 AnchorPoint: "Anchor3" -112 665 mark 0
 LayerCount: 2
 Fore
@@ -9383,6 +10304,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor0" -135 128 mark 0
+AnchorPoint: "Anchor0" -135 128 mark 0
+AnchorPoint: "Anchor0" -135 128 mark 0
+AnchorPoint: "Anchor0" -135 128 mark 0
+AnchorPoint: "Anchor0" -135 128 mark 0
+AnchorPoint: "Anchor0" -135 128 mark 0
+AnchorPoint: "Anchor0" -135 128 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9396,8 +10323,8 @@ SplineSet
  -360 -220 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "BelowBaseFormslookup9 subtable" viramadeva radeva
 Ligature2: "BelowBaseFormslookup9 subtable" radeva viramadeva
+Ligature2: "BelowBaseFormslookup9 subtable" viramadeva radeva
 EndChar
 
 StartChar: shadeva_viramadeva_radeva
@@ -9405,6 +10332,12 @@ Encoding: 65549 -1 226
 Width: 709
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 578 664 basechar 0
+AnchorPoint: "Anchor3" 578 664 basechar 0
+AnchorPoint: "Anchor3" 578 664 basechar 0
+AnchorPoint: "Anchor3" 578 664 basechar 0
+AnchorPoint: "Anchor3" 578 664 basechar 0
+AnchorPoint: "Anchor3" 578 664 basechar 0
 AnchorPoint: "Anchor3" 578 664 basechar 0
 LayerCount: 2
 Fore
@@ -9447,11 +10380,11 @@ SplineSet
  13 290 l 1,12,-1
 EndSplineSet
 Validated: 1
-Ligature2: "VattuVariantslookup30 subtable" shadeva viramadeva_radeva
-Ligature2: "VattuVariantslookup30 subtable" shadeva_viramadeva_alt radeva
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva viramadeva radeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva.mr radeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva viramadeva radeva
 Ligature2: "VattuVariantslookup30 subtable" shadeva.mr viramadeva_radeva
+Ligature2: "VattuVariantslookup30 subtable" shadeva_viramadeva_alt radeva
+Ligature2: "VattuVariantslookup30 subtable" shadeva viramadeva_radeva
 EndChar
 
 StartChar: phadeva_radeva_nuktadeva
@@ -9459,6 +10392,18 @@ Encoding: 65550 -1 227
 Width: 794
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 412 664 basechar 0
+AnchorPoint: "Anchor0" 415 23 basechar 0
+AnchorPoint: "Anchor3" 412 664 basechar 0
+AnchorPoint: "Anchor0" 415 23 basechar 0
+AnchorPoint: "Anchor3" 412 664 basechar 0
+AnchorPoint: "Anchor0" 415 23 basechar 0
+AnchorPoint: "Anchor3" 412 664 basechar 0
+AnchorPoint: "Anchor0" 415 23 basechar 0
+AnchorPoint: "Anchor3" 412 664 basechar 0
+AnchorPoint: "Anchor0" 415 23 basechar 0
+AnchorPoint: "Anchor3" 412 664 basechar 0
+AnchorPoint: "Anchor0" 415 23 basechar 0
 AnchorPoint: "Anchor3" 412 664 basechar 0
 AnchorPoint: "Anchor0" 415 23 basechar 0
 LayerCount: 2
@@ -9555,6 +10500,12 @@ Width: 657
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 528 666 basechar 0
+AnchorPoint: "Anchor3" 528 666 basechar 0
+AnchorPoint: "Anchor3" 528 666 basechar 0
+AnchorPoint: "Anchor3" 528 666 basechar 0
+AnchorPoint: "Anchor3" 528 666 basechar 0
+AnchorPoint: "Anchor3" 528 666 basechar 0
+AnchorPoint: "Anchor3" 528 666 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9622,6 +10573,12 @@ Encoding: 65553 -1 230
 Width: 711
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 579 665 basechar 0
+AnchorPoint: "Anchor3" 579 665 basechar 0
+AnchorPoint: "Anchor3" 579 665 basechar 0
+AnchorPoint: "Anchor3" 579 665 basechar 0
+AnchorPoint: "Anchor3" 579 665 basechar 0
+AnchorPoint: "Anchor3" 579 665 basechar 0
 AnchorPoint: "Anchor3" 579 665 basechar 0
 LayerCount: 2
 Fore
@@ -10424,8 +11381,8 @@ SplineSet
  250 20 l 1,4,5
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "HalfFormslookup10 subtable" tadeva viramadeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: thadeva_viramadeva
@@ -10522,7 +11479,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "HalfFormslookup10 subtable" dadeva viramadeva
-Ligature2: "'haln' Halant Forms lookup 29-1" dadeva viramadeva
+Ligature2: "halnHalantFormslookup29 subtable" dadeva viramadeva
 EndChar
 
 StartChar: dhadeva_viramadeva
@@ -10910,7 +11867,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
 EndChar
 
 StartChar: isigndeva_anusvara.alt2
@@ -10951,8 +11908,8 @@ SplineSet
  -13 606 l 1,4,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt2 anusvaradeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: ladeva_viramadeva
@@ -10992,8 +11949,8 @@ SplineSet
  294 0 l 1,4,5
 EndSplineSet
 Validated: 1
-Ligature2: "HalfFormslookup10 subtable" ladeva.mr viramadeva
 Ligature2: "HalfFormslookup10 subtable" ladeva viramadeva
+Ligature2: "HalfFormslookup10 subtable" ladeva.mr viramadeva
 EndChar
 
 StartChar: lladeva_viramadeva
@@ -11250,8 +12207,8 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 33
-LCarets2: 1 0 
 Ligature2: "HalfFormslookup10 subtable" sadeva viramadeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: hadeva_viramadeva
@@ -11805,9 +12762,9 @@ SplineSet
  -13 606 l 1,4,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
-Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva anusvaradeva
 Ligature2: "PostBaseSubstitutionslookup subtable" isigndeva anusvaradeva
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva anusvaradeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: isign_ra_virama
@@ -11856,9 +12813,9 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
-Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva radeva_viramadeva
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
 Ligature2: "PostBaseSubstitutionslookup subtable" isigndeva radeva_viramadeva
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva radeva_viramadeva
 EndChar
 
 StartChar: isign_ra_virama_anusvara
@@ -11949,7 +12906,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
 EndChar
 
 StartChar: isigndeva_anusvaradeva.alt3
@@ -12039,7 +12996,7 @@ SplineSet
  280 666 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt3 radeva_viramadeva
 EndChar
 
@@ -12135,8 +13092,8 @@ SplineSet
  -13 606 l 1,4,-1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 29 subtable" iisign_ra_virama_anusvara.alt1
 Ligature2: "PostBaseSubstitutionslookup subtable" iisigndeva anusvaradeva
-Substitution2: "Single Substitution lookup 25 subtable" iisign_ra_virama_anusvara.alt1
 EndChar
 
 StartChar: iisigndeva_ra_virama
@@ -12183,9 +13140,9 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
+Substitution2: "Single Substitution lookup 29 subtable" iisigndeva_ra_virama.alt1
 Ligature2: "PostBaseSubstitutionslookup subtable" iisigndeva radeva_viramadeva
-Substitution2: "Single Substitution lookup 25 subtable" iisigndeva_ra_virama.alt1
 EndChar
 
 StartChar: iisign_ra_virama_anusvara
@@ -12237,8 +13194,8 @@ SplineSet
  -13 606 l 1,4,-1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 29 subtable" iisign_ra_virama_anusvara.alt1
 Ligature2: "PostBaseSubstitutionslookup subtable" iisigndeva radeva_viramadeva_anusvaradeva
-Substitution2: "Single Substitution lookup 25 subtable" iisign_ra_virama_anusvara.alt1
 EndChar
 
 StartChar: iisigndeva.alt1
@@ -12246,6 +13203,12 @@ Encoding: 65611 -1 288
 Width: 266
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor2" 207 111 basechar 0
+AnchorPoint: "Anchor2" 207 111 basechar 0
+AnchorPoint: "Anchor2" 207 111 basechar 0
+AnchorPoint: "Anchor2" 207 111 basechar 0
+AnchorPoint: "Anchor2" 207 111 basechar 0
+AnchorPoint: "Anchor2" 207 111 basechar 0
 AnchorPoint: "Anchor2" 207 111 basechar 0
 LayerCount: 2
 Fore
@@ -12275,7 +13238,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
 EndChar
 
 StartChar: iisigndeva_anusvaradeva.alt1
@@ -12363,7 +13326,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
 Ligature2: "PostBaseSubstitutionslookup subtable" iisigndeva.alt1 radeva_viramadeva
 EndChar
 
@@ -12425,6 +13388,12 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Anchor0" -127 63 mark 0
+AnchorPoint: "Anchor0" -127 63 mark 0
+AnchorPoint: "Anchor0" -127 63 mark 0
+AnchorPoint: "Anchor0" -127 63 mark 0
+AnchorPoint: "Anchor0" -127 63 mark 0
+AnchorPoint: "Anchor0" -127 63 mark 0
+AnchorPoint: "Anchor0" -127 63 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12464,6 +13433,12 @@ Encoding: 65616 -1 293
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor0" -127 58 mark 0
+AnchorPoint: "Anchor0" -127 58 mark 0
+AnchorPoint: "Anchor0" -127 58 mark 0
+AnchorPoint: "Anchor0" -127 58 mark 0
+AnchorPoint: "Anchor0" -127 58 mark 0
+AnchorPoint: "Anchor0" -127 58 mark 0
 AnchorPoint: "Anchor0" -127 58 mark 0
 LayerCount: 2
 Fore
@@ -12602,9 +13577,9 @@ SplineSet
  229 293 229 293 201 293 c 0,4,5
 EndSplineSet
 Validated: 1
-Ligature2: "Ligature Substitution lookup 28 subtable" viramadeva_radeva zerowidthjoiner
+Ligature2: "LigatureSubstitutionlookup28 subtable" rradeva viramadeva
+Ligature2: "LigatureSubstitutionlookup28 subtable" viramadeva_radeva zerowidthjoiner
 Ligature2: "HalfFormslookup10 subtable" radeva viramadeva zerowidthjoiner
-Ligature2: "Ligature Substitution lookup 28 subtable" rradeva viramadeva
 EndChar
 
 StartChar: kadeva_viramadeva_radeva
@@ -12612,6 +13587,18 @@ Encoding: 65622 -1 297
 Width: 769
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 396 666 basechar 0
+AnchorPoint: "Anchor0" 394 31 basechar 0
+AnchorPoint: "Anchor3" 396 666 basechar 0
+AnchorPoint: "Anchor0" 394 31 basechar 0
+AnchorPoint: "Anchor3" 396 666 basechar 0
+AnchorPoint: "Anchor0" 394 31 basechar 0
+AnchorPoint: "Anchor3" 396 666 basechar 0
+AnchorPoint: "Anchor0" 394 31 basechar 0
+AnchorPoint: "Anchor3" 396 666 basechar 0
+AnchorPoint: "Anchor0" 394 31 basechar 0
+AnchorPoint: "Anchor3" 396 666 basechar 0
+AnchorPoint: "Anchor0" 394 31 basechar 0
 AnchorPoint: "Anchor3" 396 666 basechar 0
 AnchorPoint: "Anchor0" 394 31 basechar 0
 LayerCount: 2
@@ -12669,6 +13656,12 @@ Encoding: 65623 -1 298
 Width: 820
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 692 15 basechar 0
+AnchorPoint: "Anchor0" 692 15 basechar 0
+AnchorPoint: "Anchor0" 692 15 basechar 0
+AnchorPoint: "Anchor0" 692 15 basechar 0
+AnchorPoint: "Anchor0" 692 15 basechar 0
+AnchorPoint: "Anchor0" 692 15 basechar 0
 AnchorPoint: "Anchor0" 692 15 basechar 0
 LayerCount: 2
 Fore
@@ -13010,6 +14003,18 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 412 666 basechar 0
 AnchorPoint: "Anchor0" 412 15 basechar 0
+AnchorPoint: "Anchor3" 412 666 basechar 0
+AnchorPoint: "Anchor0" 412 15 basechar 0
+AnchorPoint: "Anchor3" 412 666 basechar 0
+AnchorPoint: "Anchor0" 412 15 basechar 0
+AnchorPoint: "Anchor3" 412 666 basechar 0
+AnchorPoint: "Anchor0" 412 15 basechar 0
+AnchorPoint: "Anchor3" 412 666 basechar 0
+AnchorPoint: "Anchor0" 412 15 basechar 0
+AnchorPoint: "Anchor3" 412 666 basechar 0
+AnchorPoint: "Anchor0" 412 15 basechar 0
+AnchorPoint: "Anchor3" 412 666 basechar 0
+AnchorPoint: "Anchor0" 412 15 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13290,6 +14295,12 @@ Width: 552
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor0" 330 -85 basechar 0
+AnchorPoint: "Anchor0" 330 -85 basechar 0
+AnchorPoint: "Anchor0" 330 -85 basechar 0
+AnchorPoint: "Anchor0" 330 -85 basechar 0
+AnchorPoint: "Anchor0" 330 -85 basechar 0
+AnchorPoint: "Anchor0" 330 -85 basechar 0
+AnchorPoint: "Anchor0" 330 -85 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13336,9 +14347,9 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva radeva
-Ligature2: "BelowBaseFormslookup9 subtable" hadeva viramadeva_radeva
 Ligature2: "VattuVariantslookup30 subtable" hadeva viramadeva_radeva
+Ligature2: "BelowBaseFormslookup9 subtable" hadeva viramadeva_radeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva radeva
 EndChar
 
 StartChar: sha_virama_rvocalicdeva
@@ -13400,9 +14411,9 @@ SplineSet
  13 313 l 1,12,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva rvocalicsigndeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva.mr rvocalicsigndeva
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva rvocalicsigndeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: kadeva_viramadeva_kadeva
@@ -13410,6 +14421,18 @@ Encoding: 65638 -1 313
 Width: 777
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 400 666 basechar 0
+AnchorPoint: "Anchor0" 402 31 basechar 0
+AnchorPoint: "Anchor3" 400 666 basechar 0
+AnchorPoint: "Anchor0" 402 31 basechar 0
+AnchorPoint: "Anchor3" 400 666 basechar 0
+AnchorPoint: "Anchor0" 402 31 basechar 0
+AnchorPoint: "Anchor3" 400 666 basechar 0
+AnchorPoint: "Anchor0" 402 31 basechar 0
+AnchorPoint: "Anchor3" 400 666 basechar 0
+AnchorPoint: "Anchor0" 402 31 basechar 0
+AnchorPoint: "Anchor3" 400 666 basechar 0
+AnchorPoint: "Anchor0" 402 31 basechar 0
 AnchorPoint: "Anchor3" 400 666 basechar 0
 AnchorPoint: "Anchor0" 402 31 basechar 0
 LayerCount: 2
@@ -13488,7 +14511,7 @@ SplineSet
  -13 606 l 1,29,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" kadeva_viramadeva kadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" kadeva_viramadeva kadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" kadeva viramadeva kadeva
 EndChar
 
@@ -13497,6 +14520,18 @@ Encoding: 65639 -1 314
 Width: 813
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 434 664 basechar 0
+AnchorPoint: "Anchor0" 436 23 basechar 0
+AnchorPoint: "Anchor3" 434 664 basechar 0
+AnchorPoint: "Anchor0" 436 23 basechar 0
+AnchorPoint: "Anchor3" 434 664 basechar 0
+AnchorPoint: "Anchor0" 436 23 basechar 0
+AnchorPoint: "Anchor3" 434 664 basechar 0
+AnchorPoint: "Anchor0" 436 23 basechar 0
+AnchorPoint: "Anchor3" 434 664 basechar 0
+AnchorPoint: "Anchor0" 436 23 basechar 0
+AnchorPoint: "Anchor3" 434 664 basechar 0
+AnchorPoint: "Anchor0" 436 23 basechar 0
 AnchorPoint: "Anchor3" 434 664 basechar 0
 AnchorPoint: "Anchor0" 436 23 basechar 0
 LayerCount: 2
@@ -13549,6 +14584,18 @@ Encoding: 65640 -1 315
 Width: 760
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 394 665 basechar 0
+AnchorPoint: "Anchor0" 551 -111 basechar 0
+AnchorPoint: "Anchor3" 394 665 basechar 0
+AnchorPoint: "Anchor0" 551 -111 basechar 0
+AnchorPoint: "Anchor3" 394 665 basechar 0
+AnchorPoint: "Anchor0" 551 -111 basechar 0
+AnchorPoint: "Anchor3" 394 665 basechar 0
+AnchorPoint: "Anchor0" 551 -111 basechar 0
+AnchorPoint: "Anchor3" 394 665 basechar 0
+AnchorPoint: "Anchor0" 551 -111 basechar 0
+AnchorPoint: "Anchor3" 394 665 basechar 0
+AnchorPoint: "Anchor0" 551 -111 basechar 0
 AnchorPoint: "Anchor3" 394 665 basechar 0
 AnchorPoint: "Anchor0" 551 -111 basechar 0
 LayerCount: 2
@@ -13625,7 +14672,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" kadeva_viramadeva ladeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" kadeva_viramadeva ladeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" kadeva viramadeva ladeva.mr
 EndChar
 
@@ -13634,6 +14681,18 @@ Encoding: 65641 -1 316
 Width: 764
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 403 666 basechar 0
+AnchorPoint: "Anchor0" 398 23 basechar 0
+AnchorPoint: "Anchor3" 403 666 basechar 0
+AnchorPoint: "Anchor0" 398 23 basechar 0
+AnchorPoint: "Anchor3" 403 666 basechar 0
+AnchorPoint: "Anchor0" 398 23 basechar 0
+AnchorPoint: "Anchor3" 403 666 basechar 0
+AnchorPoint: "Anchor0" 398 23 basechar 0
+AnchorPoint: "Anchor3" 403 666 basechar 0
+AnchorPoint: "Anchor0" 398 23 basechar 0
+AnchorPoint: "Anchor3" 403 666 basechar 0
+AnchorPoint: "Anchor0" 398 23 basechar 0
 AnchorPoint: "Anchor3" 403 666 basechar 0
 AnchorPoint: "Anchor0" 398 23 basechar 0
 LayerCount: 2
@@ -13694,7 +14753,7 @@ SplineSet
  -13 606 l 1,10,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" kadeva_viramadeva vadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" kadeva_viramadeva vadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" kadeva viramadeva vadeva
 EndChar
 
@@ -13745,7 +14804,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" gadeva_viramadeva nadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" gadeva_viramadeva nadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" gadeva viramadeva nadeva
 EndChar
 
@@ -13754,6 +14813,18 @@ Encoding: 65643 -1 318
 Width: 707
 GlyphClass: 3
 Flags: W
+AnchorPoint: "Anchor3" 487 664 basechar 0
+AnchorPoint: "Anchor0" 343 -138 basechar 0
+AnchorPoint: "Anchor3" 487 664 basechar 0
+AnchorPoint: "Anchor0" 343 -138 basechar 0
+AnchorPoint: "Anchor3" 487 664 basechar 0
+AnchorPoint: "Anchor0" 343 -138 basechar 0
+AnchorPoint: "Anchor3" 487 664 basechar 0
+AnchorPoint: "Anchor0" 343 -138 basechar 0
+AnchorPoint: "Anchor3" 487 664 basechar 0
+AnchorPoint: "Anchor0" 343 -138 basechar 0
+AnchorPoint: "Anchor3" 487 664 basechar 0
+AnchorPoint: "Anchor0" 343 -138 basechar 0
 AnchorPoint: "Anchor3" 487 664 basechar 0
 AnchorPoint: "Anchor0" 343 -138 basechar 0
 LayerCount: 2
@@ -13844,7 +14915,7 @@ SplineSet
  -13 606 l 5,12,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva kadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva kadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ngadeva viramadeva kadeva
 EndChar
 
@@ -13853,6 +14924,18 @@ Encoding: 65644 -1 319
 Width: 712
 GlyphClass: 3
 Flags: W
+AnchorPoint: "Anchor3" 504 664 basechar 0
+AnchorPoint: "Anchor0" 474 -90 basechar 0
+AnchorPoint: "Anchor3" 504 664 basechar 0
+AnchorPoint: "Anchor0" 474 -90 basechar 0
+AnchorPoint: "Anchor3" 504 664 basechar 0
+AnchorPoint: "Anchor0" 474 -90 basechar 0
+AnchorPoint: "Anchor3" 504 664 basechar 0
+AnchorPoint: "Anchor0" 474 -90 basechar 0
+AnchorPoint: "Anchor3" 504 664 basechar 0
+AnchorPoint: "Anchor0" 474 -90 basechar 0
+AnchorPoint: "Anchor3" 504 664 basechar 0
+AnchorPoint: "Anchor0" 474 -90 basechar 0
 AnchorPoint: "Anchor3" 504 664 basechar 0
 AnchorPoint: "Anchor0" 474 -90 basechar 0
 LayerCount: 2
@@ -13947,7 +15030,7 @@ SplineSet
  -13 606 l 1,12,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva khadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva khadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ngadeva viramadeva khadeva
 EndChar
 
@@ -13956,6 +15039,18 @@ Encoding: 65645 -1 320
 Width: 680
 GlyphClass: 3
 Flags: W
+AnchorPoint: "Anchor3" 470 665 basechar 0
+AnchorPoint: "Anchor0" 450 -90 basechar 0
+AnchorPoint: "Anchor3" 470 665 basechar 0
+AnchorPoint: "Anchor0" 450 -90 basechar 0
+AnchorPoint: "Anchor3" 470 665 basechar 0
+AnchorPoint: "Anchor0" 450 -90 basechar 0
+AnchorPoint: "Anchor3" 470 665 basechar 0
+AnchorPoint: "Anchor0" 450 -90 basechar 0
+AnchorPoint: "Anchor3" 470 665 basechar 0
+AnchorPoint: "Anchor0" 450 -90 basechar 0
+AnchorPoint: "Anchor3" 470 665 basechar 0
+AnchorPoint: "Anchor0" 450 -90 basechar 0
 AnchorPoint: "Anchor3" 470 665 basechar 0
 AnchorPoint: "Anchor0" 450 -90 basechar 0
 LayerCount: 2
@@ -14029,7 +15124,7 @@ SplineSet
  -13 606 l 1,12,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva gadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva gadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ngadeva viramadeva gadeva
 EndChar
 
@@ -14038,6 +15133,18 @@ Encoding: 65646 -1 321
 Width: 676
 GlyphClass: 3
 Flags: W
+AnchorPoint: "Anchor3" 474 666 basechar 0
+AnchorPoint: "Anchor0" 442 -117 basechar 0
+AnchorPoint: "Anchor3" 474 666 basechar 0
+AnchorPoint: "Anchor0" 442 -117 basechar 0
+AnchorPoint: "Anchor3" 474 666 basechar 0
+AnchorPoint: "Anchor0" 442 -117 basechar 0
+AnchorPoint: "Anchor3" 474 666 basechar 0
+AnchorPoint: "Anchor0" 442 -117 basechar 0
+AnchorPoint: "Anchor3" 474 666 basechar 0
+AnchorPoint: "Anchor0" 442 -117 basechar 0
+AnchorPoint: "Anchor3" 474 666 basechar 0
+AnchorPoint: "Anchor0" 442 -117 basechar 0
 AnchorPoint: "Anchor3" 474 666 basechar 0
 AnchorPoint: "Anchor0" 442 -117 basechar 0
 LayerCount: 2
@@ -14121,7 +15228,7 @@ SplineSet
  -13 606 l 1,37,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva ghadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva ghadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ngadeva viramadeva ghadeva
 EndChar
 
@@ -14130,6 +15237,18 @@ Encoding: 65647 -1 322
 Width: 708
 GlyphClass: 3
 Flags: W
+AnchorPoint: "Anchor3" 496 665 basechar 0
+AnchorPoint: "Anchor0" 495 -106 basechar 0
+AnchorPoint: "Anchor3" 496 665 basechar 0
+AnchorPoint: "Anchor0" 495 -106 basechar 0
+AnchorPoint: "Anchor3" 496 665 basechar 0
+AnchorPoint: "Anchor0" 495 -106 basechar 0
+AnchorPoint: "Anchor3" 496 665 basechar 0
+AnchorPoint: "Anchor0" 495 -106 basechar 0
+AnchorPoint: "Anchor3" 496 665 basechar 0
+AnchorPoint: "Anchor0" 495 -106 basechar 0
+AnchorPoint: "Anchor3" 496 665 basechar 0
+AnchorPoint: "Anchor0" 495 -106 basechar 0
 AnchorPoint: "Anchor3" 496 665 basechar 0
 AnchorPoint: "Anchor0" 495 -106 basechar 0
 LayerCount: 2
@@ -14202,7 +15321,7 @@ SplineSet
  -13 606 l 1,21,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva madeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ngadeva_viramadeva madeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ngadeva viramadeva madeva
 EndChar
 
@@ -14211,6 +15330,18 @@ Encoding: 65648 -1 323
 Width: 707
 GlyphClass: 3
 Flags: W
+AnchorPoint: "Anchor3" 492 666 basechar 0
+AnchorPoint: "Anchor0" 500 -63 basechar 0
+AnchorPoint: "Anchor3" 492 666 basechar 0
+AnchorPoint: "Anchor0" 500 -63 basechar 0
+AnchorPoint: "Anchor3" 492 666 basechar 0
+AnchorPoint: "Anchor0" 500 -63 basechar 0
+AnchorPoint: "Anchor3" 492 666 basechar 0
+AnchorPoint: "Anchor0" 500 -63 basechar 0
+AnchorPoint: "Anchor3" 492 666 basechar 0
+AnchorPoint: "Anchor0" 500 -63 basechar 0
+AnchorPoint: "Anchor3" 492 666 basechar 0
+AnchorPoint: "Anchor0" 500 -63 basechar 0
 AnchorPoint: "Anchor3" 492 666 basechar 0
 AnchorPoint: "Anchor0" 500 -63 basechar 0
 LayerCount: 2
@@ -14372,7 +15503,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" cadeva_viramadeva cadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" cadeva_viramadeva cadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" cadeva viramadeva cadeva
 EndChar
 
@@ -14381,6 +15512,12 @@ Encoding: 65650 -1 325
 Width: 668
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 452 -103 basechar 0
+AnchorPoint: "Anchor0" 452 -103 basechar 0
+AnchorPoint: "Anchor0" 452 -103 basechar 0
+AnchorPoint: "Anchor0" 452 -103 basechar 0
+AnchorPoint: "Anchor0" 452 -103 basechar 0
+AnchorPoint: "Anchor0" 452 -103 basechar 0
 AnchorPoint: "Anchor0" 452 -103 basechar 0
 LayerCount: 2
 Fore
@@ -14513,7 +15650,7 @@ SplineSet
  368 20 368 20 313 20 c 0,0,1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" jadeva_viramadeva jadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" jadeva_viramadeva jadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" jadeva viramadeva jadeva
 EndChar
 
@@ -14574,7 +15711,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" nyadeva_viramadeva cadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" nyadeva_viramadeva cadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" nyadeva viramadeva cadeva
 EndChar
 
@@ -14634,7 +15771,7 @@ SplineSet
  1 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" nyadeva_viramadeva jadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" nyadeva_viramadeva jadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" nyadeva viramadeva jadeva
 EndChar
 
@@ -14643,6 +15780,12 @@ Encoding: 65654 -1 329
 Width: 555
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 308 -117 basechar 0
+AnchorPoint: "Anchor0" 308 -117 basechar 0
+AnchorPoint: "Anchor0" 308 -117 basechar 0
+AnchorPoint: "Anchor0" 308 -117 basechar 0
+AnchorPoint: "Anchor0" 308 -117 basechar 0
+AnchorPoint: "Anchor0" 308 -117 basechar 0
 AnchorPoint: "Anchor0" 308 -117 basechar 0
 LayerCount: 2
 Fore
@@ -14691,7 +15834,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ttadeva_viramadeva ttadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ttadeva_viramadeva ttadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ttadeva viramadeva ttadeva
 EndChar
 
@@ -14700,6 +15843,12 @@ Encoding: 65655 -1 330
 Width: 579
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 311 -101 basechar 0
+AnchorPoint: "Anchor0" 311 -101 basechar 0
+AnchorPoint: "Anchor0" 311 -101 basechar 0
+AnchorPoint: "Anchor0" 311 -101 basechar 0
+AnchorPoint: "Anchor0" 311 -101 basechar 0
+AnchorPoint: "Anchor0" 311 -101 basechar 0
 AnchorPoint: "Anchor0" 311 -101 basechar 0
 LayerCount: 2
 Fore
@@ -14753,7 +15902,7 @@ SplineSet
  -13 606 l 1,14,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ttadeva_viramadeva tthadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ttadeva_viramadeva tthadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ttadeva viramadeva tthadeva
 EndChar
 
@@ -14762,6 +15911,12 @@ Encoding: 65656 -1 331
 Width: 1207
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 1078 23 basechar 0
+AnchorPoint: "Anchor0" 1078 23 basechar 0
+AnchorPoint: "Anchor0" 1078 23 basechar 0
+AnchorPoint: "Anchor0" 1078 23 basechar 0
+AnchorPoint: "Anchor0" 1078 23 basechar 0
+AnchorPoint: "Anchor0" 1078 23 basechar 0
 AnchorPoint: "Anchor0" 1078 23 basechar 0
 LayerCount: 2
 Fore
@@ -14818,7 +15973,7 @@ SplineSet
  -13 606 l 1,18,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ttadeva_viramadeva yadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ttadeva_viramadeva yadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ttadeva viramadeva yadeva
 EndChar
 
@@ -14827,6 +15982,12 @@ Encoding: 65657 -1 332
 Width: 555
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 416 -146 basechar 0
+AnchorPoint: "Anchor0" 416 -146 basechar 0
+AnchorPoint: "Anchor0" 416 -146 basechar 0
+AnchorPoint: "Anchor0" 416 -146 basechar 0
+AnchorPoint: "Anchor0" 416 -146 basechar 0
+AnchorPoint: "Anchor0" 416 -146 basechar 0
 AnchorPoint: "Anchor0" 416 -146 basechar 0
 LayerCount: 2
 Fore
@@ -14879,7 +16040,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ttadeva_viramadeva vadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ttadeva_viramadeva vadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ttadeva viramadeva vadeva
 EndChar
 
@@ -14888,6 +16049,12 @@ Encoding: 65658 -1 333
 Width: 600
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 319 -106 basechar 0
+AnchorPoint: "Anchor0" 319 -106 basechar 0
+AnchorPoint: "Anchor0" 319 -106 basechar 0
+AnchorPoint: "Anchor0" 319 -106 basechar 0
+AnchorPoint: "Anchor0" 319 -106 basechar 0
+AnchorPoint: "Anchor0" 319 -106 basechar 0
 AnchorPoint: "Anchor0" 319 -106 basechar 0
 LayerCount: 2
 Fore
@@ -14948,7 +16115,7 @@ SplineSet
  -13 606 l 1,28,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" tthadeva_viramadeva tthadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" tthadeva_viramadeva tthadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" tthadeva viramadeva tthadeva
 EndChar
 
@@ -15016,7 +16183,7 @@ SplineSet
  -13 606 l 1,18,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" tthadeva_viramadeva yadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" tthadeva_viramadeva yadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" tthadeva viramadeva yadeva
 EndChar
 
@@ -15025,6 +16192,12 @@ Encoding: 65660 -1 335
 Width: 644
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 370 -114 basechar 0
+AnchorPoint: "Anchor0" 370 -114 basechar 0
+AnchorPoint: "Anchor0" 370 -114 basechar 0
+AnchorPoint: "Anchor0" 370 -114 basechar 0
+AnchorPoint: "Anchor0" 370 -114 basechar 0
+AnchorPoint: "Anchor0" 370 -114 basechar 0
 AnchorPoint: "Anchor0" 370 -114 basechar 0
 LayerCount: 2
 Fore
@@ -15093,7 +16266,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ddadeva_viramadeva ddadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ddadeva_viramadeva ddadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ddadeva viramadeva ddadeva
 EndChar
 
@@ -15102,6 +16275,12 @@ Encoding: 65661 -1 336
 Width: 628
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 410 -178 basechar 0
+AnchorPoint: "Anchor0" 410 -178 basechar 0
+AnchorPoint: "Anchor0" 410 -178 basechar 0
+AnchorPoint: "Anchor0" 410 -178 basechar 0
+AnchorPoint: "Anchor0" 410 -178 basechar 0
+AnchorPoint: "Anchor0" 410 -178 basechar 0
 AnchorPoint: "Anchor0" 410 -178 basechar 0
 LayerCount: 2
 Fore
@@ -15173,7 +16352,7 @@ SplineSet
  -13 606 l 1,10,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ddadeva_viramadeva ddhadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ddadeva_viramadeva ddhadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ddadeva viramadeva ddhadeva
 EndChar
 
@@ -15248,7 +16427,7 @@ SplineSet
  -13 606 l 1,18,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ddadeva_viramadeva yadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ddadeva_viramadeva yadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ddadeva viramadeva yadeva
 EndChar
 
@@ -15257,6 +16436,12 @@ Encoding: 65663 -1 338
 Width: 596
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 338 -109 basechar 0
+AnchorPoint: "Anchor0" 338 -109 basechar 0
+AnchorPoint: "Anchor0" 338 -109 basechar 0
+AnchorPoint: "Anchor0" 338 -109 basechar 0
+AnchorPoint: "Anchor0" 338 -109 basechar 0
+AnchorPoint: "Anchor0" 338 -109 basechar 0
 AnchorPoint: "Anchor0" 338 -109 basechar 0
 LayerCount: 2
 Fore
@@ -15328,7 +16513,7 @@ SplineSet
  -13 606 l 1,22,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ddhadeva_viramadeva ddhadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ddhadeva_viramadeva ddhadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ddhadeva viramadeva ddhadeva
 EndChar
 
@@ -15415,6 +16600,12 @@ Width: 539
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor0" 447 5 basechar 0
+AnchorPoint: "Anchor0" 447 5 basechar 0
+AnchorPoint: "Anchor0" 447 5 basechar 0
+AnchorPoint: "Anchor0" 447 5 basechar 0
+AnchorPoint: "Anchor0" 447 5 basechar 0
+AnchorPoint: "Anchor0" 447 5 basechar 0
+AnchorPoint: "Anchor0" 447 5 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15468,8 +16659,8 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva gadeva 
 Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva gadeva
+Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva gadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva gadeva
 EndChar
 
@@ -15478,6 +16669,12 @@ Encoding: 65666 -1 341
 Width: 665
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 601 -79 basechar 0
+AnchorPoint: "Anchor0" 601 -79 basechar 0
+AnchorPoint: "Anchor0" 601 -79 basechar 0
+AnchorPoint: "Anchor0" 601 -79 basechar 0
+AnchorPoint: "Anchor0" 601 -79 basechar 0
+AnchorPoint: "Anchor0" 601 -79 basechar 0
 AnchorPoint: "Anchor0" 601 -79 basechar 0
 LayerCount: 2
 Fore
@@ -15545,9 +16742,9 @@ SplineSet
  -13 606 l 1,29,-1
 EndSplineSet
 Validated: 1
-Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva ghadeva 
-Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva ghadeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva ghadeva
+Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva ghadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva ghadeva
 EndChar
 
 StartChar: dadeva_viramadeva_dadeva
@@ -15555,6 +16752,12 @@ Encoding: 65667 -1 342
 Width: 557
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 474 -13 basechar 0
+AnchorPoint: "Anchor0" 474 -13 basechar 0
+AnchorPoint: "Anchor0" 474 -13 basechar 0
+AnchorPoint: "Anchor0" 474 -13 basechar 0
+AnchorPoint: "Anchor0" 474 -13 basechar 0
+AnchorPoint: "Anchor0" 474 -13 basechar 0
 AnchorPoint: "Anchor0" 474 -13 basechar 0
 LayerCount: 2
 Fore
@@ -15605,8 +16808,8 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva dadeva 
 Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva dadeva
+Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva dadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva dadeva
 EndChar
 
@@ -15615,6 +16818,12 @@ Encoding: 65668 -1 343
 Width: 732
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 665 -82 basechar 0
+AnchorPoint: "Anchor0" 665 -82 basechar 0
+AnchorPoint: "Anchor0" 665 -82 basechar 0
+AnchorPoint: "Anchor0" 665 -82 basechar 0
+AnchorPoint: "Anchor0" 665 -82 basechar 0
+AnchorPoint: "Anchor0" 665 -82 basechar 0
 AnchorPoint: "Anchor0" 665 -82 basechar 0
 LayerCount: 2
 Fore
@@ -15684,8 +16893,8 @@ SplineSet
  -13 606 l 1,17,-1
 EndSplineSet
 Validated: 1
-Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva dhadeva 
 Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva dhadeva
+Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva dhadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva dhadeva
 EndChar
 
@@ -15694,6 +16903,12 @@ Encoding: 65669 -1 344
 Width: 575
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 500 23 basechar 0
+AnchorPoint: "Anchor0" 500 23 basechar 0
+AnchorPoint: "Anchor0" 500 23 basechar 0
+AnchorPoint: "Anchor0" 500 23 basechar 0
+AnchorPoint: "Anchor0" 500 23 basechar 0
+AnchorPoint: "Anchor0" 500 23 basechar 0
 AnchorPoint: "Anchor0" 500 23 basechar 0
 LayerCount: 2
 Fore
@@ -15742,8 +16957,8 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva nadeva 
 Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva nadeva
+Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva nadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva nadeva
 EndChar
 
@@ -15752,6 +16967,12 @@ Encoding: 65670 -1 345
 Width: 549
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 458 13 basechar 0
+AnchorPoint: "Anchor0" 458 13 basechar 0
+AnchorPoint: "Anchor0" 458 13 basechar 0
+AnchorPoint: "Anchor0" 458 13 basechar 0
+AnchorPoint: "Anchor0" 458 13 basechar 0
+AnchorPoint: "Anchor0" 458 13 basechar 0
 AnchorPoint: "Anchor0" 458 13 basechar 0
 LayerCount: 2
 Fore
@@ -15811,8 +17032,8 @@ SplineSet
  -13 606 l 1,17,-1
 EndSplineSet
 Validated: 1
-Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva badeva 
 Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva badeva
+Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva badeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva badeva
 EndChar
 
@@ -15821,6 +17042,12 @@ Encoding: 65671 -1 346
 Width: 617
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 545 13 basechar 0
+AnchorPoint: "Anchor0" 545 13 basechar 0
+AnchorPoint: "Anchor0" 545 13 basechar 0
+AnchorPoint: "Anchor0" 545 13 basechar 0
+AnchorPoint: "Anchor0" 545 13 basechar 0
+AnchorPoint: "Anchor0" 545 13 basechar 0
 AnchorPoint: "Anchor0" 545 13 basechar 0
 LayerCount: 2
 Fore
@@ -15884,9 +17111,9 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
+Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva bhadeva
 Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva bhadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva bhadeva
-Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva bhadeva
 EndChar
 
 StartChar: dadeva_viramadeva_madeva
@@ -15937,8 +17164,8 @@ SplineSet
  -13 606 l 1,13,-1
 EndSplineSet
 Validated: 1
-Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva madeva 
 Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva madeva
+Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva madeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva madeva
 EndChar
 
@@ -15992,8 +17219,8 @@ SplineSet
  -13 606 l 1,23,-1
 EndSplineSet
 Validated: 1
-Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva yadeva 
 Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva yadeva
+Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva yadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva yadeva
 EndChar
 
@@ -16002,6 +17229,12 @@ Encoding: 65674 -1 349
 Width: 559
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 479 10 basechar 0
+AnchorPoint: "Anchor0" 479 10 basechar 0
+AnchorPoint: "Anchor0" 479 10 basechar 0
+AnchorPoint: "Anchor0" 479 10 basechar 0
+AnchorPoint: "Anchor0" 479 10 basechar 0
+AnchorPoint: "Anchor0" 479 10 basechar 0
 AnchorPoint: "Anchor0" 479 10 basechar 0
 LayerCount: 2
 Fore
@@ -16056,8 +17289,8 @@ SplineSet
  -13 606 l 1,12,-1
 EndSplineSet
 Validated: 1
-Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva vadeva 
 Ligature2: "PreBaseSubstitutionslookup1 subtable" dadeva_viramadeva vadeva
+Ligature2: "ConjunctFormslookup11 subtable" dadeva viramadeva vadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" dadeva viramadeva vadeva
 EndChar
 
@@ -16112,8 +17345,8 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "LocalizedMrHalfFormslookup1 subtable" nadeva viramadeva nadeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" nadeva_viramadeva nadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" nadeva viramadeva nadeva
 EndChar
 
 StartChar: padeva_viramadeva_tadeva
@@ -16155,8 +17388,8 @@ SplineSet
  -13 606 l 1,7,-1
 EndSplineSet
 Validated: 1
-Ligature2: "LocalizedMrHalfFormslookup1 subtable" padeva viramadeva tadeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" padeva_viramadeva tadeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" padeva viramadeva tadeva
 EndChar
 
 StartChar: padeva_viramadeva_ladeva
@@ -16164,6 +17397,12 @@ Encoding: 65677 -1 352
 Width: 601
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 466 -31 basechar 0
+AnchorPoint: "Anchor0" 466 -31 basechar 0
+AnchorPoint: "Anchor0" 466 -31 basechar 0
+AnchorPoint: "Anchor0" 466 -31 basechar 0
+AnchorPoint: "Anchor0" 466 -31 basechar 0
+AnchorPoint: "Anchor0" 466 -31 basechar 0
 AnchorPoint: "Anchor0" 466 -31 basechar 0
 LayerCount: 2
 Fore
@@ -16228,6 +17467,18 @@ Encoding: 65678 -1 353
 Width: 776
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 399 665 basechar 0
+AnchorPoint: "Anchor0" 532 -106 basechar 0
+AnchorPoint: "Anchor3" 399 665 basechar 0
+AnchorPoint: "Anchor0" 532 -106 basechar 0
+AnchorPoint: "Anchor3" 399 665 basechar 0
+AnchorPoint: "Anchor0" 532 -106 basechar 0
+AnchorPoint: "Anchor3" 399 665 basechar 0
+AnchorPoint: "Anchor0" 532 -106 basechar 0
+AnchorPoint: "Anchor3" 399 665 basechar 0
+AnchorPoint: "Anchor0" 532 -106 basechar 0
+AnchorPoint: "Anchor3" 399 665 basechar 0
+AnchorPoint: "Anchor0" 532 -106 basechar 0
 AnchorPoint: "Anchor3" 399 665 basechar 0
 AnchorPoint: "Anchor0" 532 -106 basechar 0
 LayerCount: 2
@@ -16299,8 +17550,8 @@ SplineSet
  -13 606 l 1,9,-1
 EndSplineSet
 Validated: 1
-Ligature2: "LocalizedMrHalfFormslookup1 subtable" phadeva viramadeva ladeva.mr
 Ligature2: "PreBaseSubstitutionslookup1 subtable" phadeva_viramadeva ladeva
+Ligature2: "LocalizedMrHalfFormslookup1 subtable" phadeva viramadeva ladeva.mr
 EndChar
 
 StartChar: ladeva_viramadeva_ladeva
@@ -16308,6 +17559,12 @@ Encoding: 65679 -1 354
 Width: 736
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 612 18 basechar 0
+AnchorPoint: "Anchor0" 612 18 basechar 0
+AnchorPoint: "Anchor0" 612 18 basechar 0
+AnchorPoint: "Anchor0" 612 18 basechar 0
+AnchorPoint: "Anchor0" 612 18 basechar 0
+AnchorPoint: "Anchor0" 612 18 basechar 0
 AnchorPoint: "Anchor0" 612 18 basechar 0
 LayerCount: 2
 Fore
@@ -16365,7 +17622,7 @@ SplineSet
  -13 606 l 1,23,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" ladeva_viramadeva ladeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" ladeva_viramadeva ladeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" ladeva.mr viramadeva ladeva.mr
 EndChar
 
@@ -16429,7 +17686,7 @@ SplineSet
  13 360 l 1,23,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva cadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva cadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" shadeva.mr viramadeva cadeva
 EndChar
 
@@ -16438,6 +17695,12 @@ Encoding: 65681 -1 356
 Width: 627
 GlyphClass: 3
 Flags: W
+AnchorPoint: "Anchor3" 494 664 basechar 0
+AnchorPoint: "Anchor3" 494 664 basechar 0
+AnchorPoint: "Anchor3" 494 664 basechar 0
+AnchorPoint: "Anchor3" 494 664 basechar 0
+AnchorPoint: "Anchor3" 494 664 basechar 0
+AnchorPoint: "Anchor3" 494 664 basechar 0
 AnchorPoint: "Anchor3" 494 664 basechar 0
 LayerCount: 2
 Fore
@@ -16492,7 +17755,7 @@ SplineSet
  141 99 141 99 141 120 c 0,10,11
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva nadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva nadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" shadeva.mr viramadeva nadeva
 EndChar
 
@@ -16501,6 +17764,12 @@ Encoding: 65682 -1 357
 Width: 912
 GlyphClass: 3
 Flags: W
+AnchorPoint: "Anchor0" 780 23 basechar 0
+AnchorPoint: "Anchor0" 780 23 basechar 0
+AnchorPoint: "Anchor0" 780 23 basechar 0
+AnchorPoint: "Anchor0" 780 23 basechar 0
+AnchorPoint: "Anchor0" 780 23 basechar 0
+AnchorPoint: "Anchor0" 780 23 basechar 0
 AnchorPoint: "Anchor0" 780 23 basechar 0
 LayerCount: 2
 Fore
@@ -16559,7 +17828,7 @@ SplineSet
  426 606 l 1,12,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva ladeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva ladeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" shadeva.mr viramadeva ladeva.mr
 EndChar
 
@@ -16623,7 +17892,7 @@ SplineSet
  132 168 132 168 132 220 c 128,-1,13
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva vadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva vadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" shadeva.mr viramadeva vadeva
 EndChar
 
@@ -16632,6 +17901,12 @@ Encoding: 65684 -1 359
 Width: 555
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 338 18 basechar 0
+AnchorPoint: "Anchor0" 338 18 basechar 0
+AnchorPoint: "Anchor0" 338 18 basechar 0
+AnchorPoint: "Anchor0" 338 18 basechar 0
+AnchorPoint: "Anchor0" 338 18 basechar 0
+AnchorPoint: "Anchor0" 338 18 basechar 0
 AnchorPoint: "Anchor0" 338 18 basechar 0
 LayerCount: 2
 Fore
@@ -16680,6 +17955,12 @@ Encoding: 65685 -1 360
 Width: 600
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor0" 316 26 basechar 0
+AnchorPoint: "Anchor0" 316 26 basechar 0
+AnchorPoint: "Anchor0" 316 26 basechar 0
+AnchorPoint: "Anchor0" 316 26 basechar 0
+AnchorPoint: "Anchor0" 316 26 basechar 0
+AnchorPoint: "Anchor0" 316 26 basechar 0
 AnchorPoint: "Anchor0" 316 26 basechar 0
 LayerCount: 2
 Fore
@@ -16732,6 +18013,18 @@ Encoding: 65686 -1 361
 Width: 720
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 418 664 basechar 0
+AnchorPoint: "Anchor0" 633 15 basechar 0
+AnchorPoint: "Anchor3" 418 664 basechar 0
+AnchorPoint: "Anchor0" 633 15 basechar 0
+AnchorPoint: "Anchor3" 418 664 basechar 0
+AnchorPoint: "Anchor0" 633 15 basechar 0
+AnchorPoint: "Anchor3" 418 664 basechar 0
+AnchorPoint: "Anchor0" 633 15 basechar 0
+AnchorPoint: "Anchor3" 418 664 basechar 0
+AnchorPoint: "Anchor0" 633 15 basechar 0
+AnchorPoint: "Anchor3" 418 664 basechar 0
+AnchorPoint: "Anchor0" 633 15 basechar 0
 AnchorPoint: "Anchor3" 418 664 basechar 0
 AnchorPoint: "Anchor0" 633 15 basechar 0
 LayerCount: 2
@@ -16791,7 +18084,7 @@ SplineSet
  453 293 l 1,56,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva nnadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva nnadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva nnadeva
 EndChar
 
@@ -16800,6 +18093,18 @@ Encoding: 65687 -1 362
 Width: 620
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 422 665 basechar 0
+AnchorPoint: "Anchor0" 540 23 basechar 0
+AnchorPoint: "Anchor3" 422 665 basechar 0
+AnchorPoint: "Anchor0" 540 23 basechar 0
+AnchorPoint: "Anchor3" 422 665 basechar 0
+AnchorPoint: "Anchor0" 540 23 basechar 0
+AnchorPoint: "Anchor3" 422 665 basechar 0
+AnchorPoint: "Anchor0" 540 23 basechar 0
+AnchorPoint: "Anchor3" 422 665 basechar 0
+AnchorPoint: "Anchor0" 540 23 basechar 0
+AnchorPoint: "Anchor3" 422 665 basechar 0
+AnchorPoint: "Anchor0" 540 23 basechar 0
 AnchorPoint: "Anchor3" 422 665 basechar 0
 AnchorPoint: "Anchor0" 540 23 basechar 0
 LayerCount: 2
@@ -16855,7 +18160,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva nadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva nadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva nadeva
 EndChar
 
@@ -16864,6 +18169,18 @@ Encoding: 65688 -1 363
 Width: 740
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 609 665 basechar 0
+AnchorPoint: "Anchor0" 612 15 basechar 0
+AnchorPoint: "Anchor3" 609 665 basechar 0
+AnchorPoint: "Anchor0" 612 15 basechar 0
+AnchorPoint: "Anchor3" 609 665 basechar 0
+AnchorPoint: "Anchor0" 612 15 basechar 0
+AnchorPoint: "Anchor3" 609 665 basechar 0
+AnchorPoint: "Anchor0" 612 15 basechar 0
+AnchorPoint: "Anchor3" 609 665 basechar 0
+AnchorPoint: "Anchor0" 612 15 basechar 0
+AnchorPoint: "Anchor3" 609 665 basechar 0
+AnchorPoint: "Anchor0" 612 15 basechar 0
 AnchorPoint: "Anchor3" 609 665 basechar 0
 AnchorPoint: "Anchor0" 612 15 basechar 0
 LayerCount: 2
@@ -16924,7 +18241,7 @@ SplineSet
  -13 606 l 1,18,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva madeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva madeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva madeva
 EndChar
 
@@ -16933,6 +18250,18 @@ Encoding: 65689 -1 364
 Width: 797
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 666 664 basechar 0
+AnchorPoint: "Anchor0" 668 21 basechar 0
+AnchorPoint: "Anchor3" 666 664 basechar 0
+AnchorPoint: "Anchor0" 668 21 basechar 0
+AnchorPoint: "Anchor3" 666 664 basechar 0
+AnchorPoint: "Anchor0" 668 21 basechar 0
+AnchorPoint: "Anchor3" 666 664 basechar 0
+AnchorPoint: "Anchor0" 668 21 basechar 0
+AnchorPoint: "Anchor3" 666 664 basechar 0
+AnchorPoint: "Anchor0" 668 21 basechar 0
+AnchorPoint: "Anchor3" 666 664 basechar 0
+AnchorPoint: "Anchor0" 668 21 basechar 0
 AnchorPoint: "Anchor3" 666 664 basechar 0
 AnchorPoint: "Anchor0" 668 21 basechar 0
 LayerCount: 2
@@ -16991,7 +18320,7 @@ SplineSet
  -13 606 l 1,25,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva yadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva yadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva yadeva
 EndChar
 
@@ -17000,6 +18329,18 @@ Encoding: 65690 -1 365
 Width: 647
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 421 664 basechar 0
+AnchorPoint: "Anchor0" 567 21 basechar 0
+AnchorPoint: "Anchor3" 421 664 basechar 0
+AnchorPoint: "Anchor0" 567 21 basechar 0
+AnchorPoint: "Anchor3" 421 664 basechar 0
+AnchorPoint: "Anchor0" 567 21 basechar 0
+AnchorPoint: "Anchor3" 421 664 basechar 0
+AnchorPoint: "Anchor0" 567 21 basechar 0
+AnchorPoint: "Anchor3" 421 664 basechar 0
+AnchorPoint: "Anchor0" 567 21 basechar 0
+AnchorPoint: "Anchor3" 421 664 basechar 0
+AnchorPoint: "Anchor0" 567 21 basechar 0
 AnchorPoint: "Anchor3" 421 664 basechar 0
 AnchorPoint: "Anchor0" 567 21 basechar 0
 LayerCount: 2
@@ -17062,7 +18403,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva ladeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva ladeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva ladeva.mr
 EndChar
 
@@ -17071,6 +18412,18 @@ Encoding: 65691 -1 366
 Width: 576
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 420 665 basechar 0
+AnchorPoint: "Anchor0" 490 18 basechar 0
+AnchorPoint: "Anchor3" 420 665 basechar 0
+AnchorPoint: "Anchor0" 490 18 basechar 0
+AnchorPoint: "Anchor3" 420 665 basechar 0
+AnchorPoint: "Anchor0" 490 18 basechar 0
+AnchorPoint: "Anchor3" 420 665 basechar 0
+AnchorPoint: "Anchor0" 490 18 basechar 0
+AnchorPoint: "Anchor3" 420 665 basechar 0
+AnchorPoint: "Anchor0" 490 18 basechar 0
+AnchorPoint: "Anchor3" 420 665 basechar 0
+AnchorPoint: "Anchor0" 490 18 basechar 0
 AnchorPoint: "Anchor3" 420 665 basechar 0
 AnchorPoint: "Anchor0" 490 18 basechar 0
 LayerCount: 2
@@ -17132,7 +18485,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva vadeva 
+Ligature2: "PreBaseSubstitutionslookup1 subtable" hadeva_viramadeva vadeva
 Ligature2: "LocalizedMrHalfFormslookup1 subtable" hadeva viramadeva vadeva
 EndChar
 
@@ -17307,6 +18660,12 @@ Width: 639
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 280 665 basechar 0
+AnchorPoint: "Anchor3" 280 665 basechar 0
+AnchorPoint: "Anchor3" 280 665 basechar 0
+AnchorPoint: "Anchor3" 280 665 basechar 0
+AnchorPoint: "Anchor3" 280 665 basechar 0
+AnchorPoint: "Anchor3" 280 665 basechar 0
+AnchorPoint: "Anchor3" 280 665 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -17354,6 +18713,12 @@ Encoding: 65696 -1 371
 Width: 760
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 279 665 basechar 0
+AnchorPoint: "Anchor3" 279 665 basechar 0
+AnchorPoint: "Anchor3" 279 665 basechar 0
+AnchorPoint: "Anchor3" 279 665 basechar 0
+AnchorPoint: "Anchor3" 279 665 basechar 0
+AnchorPoint: "Anchor3" 279 665 basechar 0
 AnchorPoint: "Anchor3" 279 665 basechar 0
 LayerCount: 2
 Fore
@@ -17774,8 +19139,8 @@ SplineSet
  365 20 l 1,0,-1
 EndSplineSet
 Validated: 1
-Ligature2: "VattuVariantslookup30 subtable" ladeva viramadeva_radeva
 Ligature2: "VattuVariantslookup30 subtable" ladeva.mr viramadeva_radeva
+Ligature2: "VattuVariantslookup30 subtable" ladeva viramadeva_radeva
 EndChar
 
 StartChar: nga_virama_ka_viramadeva
@@ -17931,7 +19296,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
 Ligature2: "AboveBaseSubstitutionslookup subtable" osigndeva radeva_viramadeva
 EndChar
 
@@ -18048,7 +19413,7 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "abvmAboveBaseMarklookup4 subtable" 
+Kerns2: 51 0 "abvmAboveBaseMarklookup4-5 subtable"  51 0 "abvmAboveBaseMarklookup4-4 subtable"  51 0 "abvmAboveBaseMarklookup4-3 subtable"  51 0 "abvmAboveBaseMarklookup4-2 subtable"  51 0 "abvmAboveBaseMarklookup4-1 subtable"  51 0 "abvmAboveBaseMarklookup4-0 subtable"  51 0 "abvmAboveBaseMarklookup4 subtable" 
 Ligature2: "AboveBaseSubstitutionslookup subtable" ausigndeva radeva_viramadeva
 EndChar
 
@@ -18342,8 +19707,8 @@ SplineSet
  425 606 l 1,11,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "VattuVariantslookup30 subtable" kadeva_viramadeva_ssadeva viramadeva_radeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: ja_virama_nya_virama_radeva
@@ -18415,6 +19780,18 @@ Encoding: 65718 -1 393
 Width: 771
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 396 666 basechar 0
+AnchorPoint: "Anchor0" 394 31 basechar 0
+AnchorPoint: "Anchor3" 396 666 basechar 0
+AnchorPoint: "Anchor0" 394 31 basechar 0
+AnchorPoint: "Anchor3" 396 666 basechar 0
+AnchorPoint: "Anchor0" 394 31 basechar 0
+AnchorPoint: "Anchor3" 396 666 basechar 0
+AnchorPoint: "Anchor0" 394 31 basechar 0
+AnchorPoint: "Anchor3" 396 666 basechar 0
+AnchorPoint: "Anchor0" 394 31 basechar 0
+AnchorPoint: "Anchor3" 396 666 basechar 0
+AnchorPoint: "Anchor0" 394 31 basechar 0
 AnchorPoint: "Anchor3" 396 666 basechar 0
 AnchorPoint: "Anchor0" 394 31 basechar 0
 LayerCount: 2
@@ -18608,6 +19985,12 @@ Width: 1284
 GlyphClass: 3
 Flags: W
 AnchorPoint: "Anchor0" 1162 -21 basechar 0
+AnchorPoint: "Anchor0" 1162 -21 basechar 0
+AnchorPoint: "Anchor0" 1162 -21 basechar 0
+AnchorPoint: "Anchor0" 1162 -21 basechar 0
+AnchorPoint: "Anchor0" 1162 -21 basechar 0
+AnchorPoint: "Anchor0" 1162 -21 basechar 0
+AnchorPoint: "Anchor0" 1162 -21 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -18709,8 +20092,8 @@ SplineSet
  643 606 l 1,111,-1
 EndSplineSet
 Validated: 33
-Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva dhadeva_viramadeva_radeva viramadeva yadeva
 Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva_dhadeva viramadeva_radeva viramadeva yadeva
+Ligature2: "ConjunctFormslookup11 subtable" dadeva_viramadeva dhadeva_viramadeva_radeva viramadeva yadeva
 EndChar
 
 StartChar: jhadeva.np
@@ -18718,6 +20101,12 @@ Encoding: 65723 -1 398
 Width: 913
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
 AnchorPoint: "Anchor3" 526 664 basechar 0
 LayerCount: 2
 Fore
@@ -18781,6 +20170,12 @@ Width: 702
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
+AnchorPoint: "Anchor3" 526 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -18833,6 +20228,12 @@ Width: 807
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor3" 597 664 basechar 0
+AnchorPoint: "Anchor3" 597 664 basechar 0
+AnchorPoint: "Anchor3" 597 664 basechar 0
+AnchorPoint: "Anchor3" 597 664 basechar 0
+AnchorPoint: "Anchor3" 597 664 basechar 0
+AnchorPoint: "Anchor3" 597 664 basechar 0
+AnchorPoint: "Anchor3" 597 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -18882,6 +20283,12 @@ Encoding: 65726 -1 401
 Width: 676
 GlyphClass: 2
 Flags: W
+AnchorPoint: "Anchor3" 546 663 basechar 0
+AnchorPoint: "Anchor3" 546 663 basechar 0
+AnchorPoint: "Anchor3" 546 663 basechar 0
+AnchorPoint: "Anchor3" 546 663 basechar 0
+AnchorPoint: "Anchor3" 546 663 basechar 0
+AnchorPoint: "Anchor3" 546 663 basechar 0
 AnchorPoint: "Anchor3" 546 663 basechar 0
 LayerCount: 2
 Fore
@@ -18972,6 +20379,7 @@ EndChar
 StartChar: zerowidthjoiner
 Encoding: 8205 8205 403
 Width: 0
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -19028,10 +20436,10 @@ SplineSet
  373 198 l 17,14,-1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+Ligature2: "VattuVariantslookup30 subtable" badeva viramadeva_radeva viramadeva
 Ligature2: "VattuVariantslookup30 subtable" badeva_viramadeva viramadeva_radeva
 Ligature2: "HalfFormslookup10 subtable" badeva_viramadeva_radeva viramadeva
-Ligature2: "VattuVariantslookup30 subtable" badeva viramadeva_radeva viramadeva
+LCarets2: 2 0 0 
 EndChar
 
 StartChar: isign_ra_virama.alt2
@@ -19039,6 +20447,12 @@ Encoding: 65537 -1 405
 Width: 266
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor3" 1193 676 mark 0
+AnchorPoint: "Anchor3" 1193 676 mark 0
+AnchorPoint: "Anchor3" 1193 676 mark 0
+AnchorPoint: "Anchor3" 1193 676 mark 0
+AnchorPoint: "Anchor3" 1193 676 mark 0
+AnchorPoint: "Anchor3" 1193 676 mark 0
 AnchorPoint: "Anchor3" 1193 676 mark 0
 LayerCount: 2
 Fore
@@ -19138,8 +20552,8 @@ SplineSet
  1274 771 l 1,56,-1
  1200 771 l 1,53,-1
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt2 radeva_viramadeva anusvaradeva
+LCarets2: 2 0 0 
 EndChar
 
 StartChar: isigndeva_anusvaradeva.alt4
@@ -19179,8 +20593,8 @@ SplineSet
  100 606 l 1,35,-1
  -13 606 l 1,4,-1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt4 anusvaradeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: isigndeva.alt4
@@ -19266,8 +20680,8 @@ SplineSet
  100 606 l 1,62,-1
  -13 606 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt4 radeva_viramadeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt4
@@ -19319,8 +20733,8 @@ SplineSet
  884 749 l 1,57,-1
  810 749 l 1,54,-1
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt4 radeva_viramadeva anusvaradeva
+LCarets2: 2 0 0 
 EndChar
 
 StartChar: isigndeva_anusvara.alt1
@@ -19360,8 +20774,8 @@ SplineSet
  100 606 l 1,32,-1
  -13 606 l 1,4,-1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt1 anusvaradeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: isign_ra_virama.alt1
@@ -19409,8 +20823,8 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt1 radeva_viramadeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt1
@@ -19462,8 +20876,8 @@ SplineSet
  1029 749 l 1,52,-1
  955 749 l 1,49,-1
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt1 radeva_viramadeva anusvaradeva
+LCarets2: 2 0 0 
 EndChar
 
 StartChar: isigndeva_anusvara.tha
@@ -19504,8 +20918,8 @@ SplineSet
  -13 606 l 1,4,-1
 EndSplineSet
 Validated: 33
-LCarets2: 1 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.tha anusvaradeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: isign_ra_virama_anusvara.tha
@@ -19555,8 +20969,8 @@ SplineSet
  870 749 l 1,49,-1
 EndSplineSet
 Validated: 33
-LCarets2: 2 0 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.tha radeva_viramadeva anusvaradeva
+LCarets2: 2 0 0 
 EndChar
 
 StartChar: isign_ra_virama.tha
@@ -19601,8 +21015,8 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 33
-LCarets2: 1 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.tha radeva_viramadeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: isigndeva.tha
@@ -19712,8 +21126,8 @@ SplineSet
  100 606 l 1,32,-1
  -13 606 l 1,4,-1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.ja anusvaradeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: isign_ra_virama.ja
@@ -19767,8 +21181,8 @@ SplineSet
  -13 606 l 1,0,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.tha radeva_viramadeva
+LCarets2: 1 0 
 EndChar
 
 StartChar: isign_ra_virama_anusvara.ja
@@ -19822,8 +21236,8 @@ SplineSet
  902 748 l 1,51,-1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
 Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.tha radeva_viramadeva anusvaradeva
+LCarets2: 2 0 0 
 EndChar
 EndChars
 EndSplineFont
