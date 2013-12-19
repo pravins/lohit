@@ -1,6 +1,9 @@
 				  lohit-gujarati
 Current Version :- 2.92.1
 
+
+- corrected direction and fixed open contour issue
+
 * Thu Dec 12 2013 Pravin Satpute <psatpute@redhat.com> - 2.92.1
 - Added 12 imatra glyphs
 - Fixes "DHA + HALANT + RA" ligature #issues16
