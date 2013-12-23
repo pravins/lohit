@@ -1,8 +1,5 @@
 # Test File For Lohit Marathi
-# One can also test Lohit Devanagari from http://utrrs-testing.rhcloud.com/language/mr/gsub  
 # Created by Sneha Kore <skore AT redhat DOT com> - 2013
-
-	महाराष्ट्र शासन वर्णमाला : 
 
 स्वर : अ  आ  इ  ई  उ  ऊ  ऋ  ॡ  ए  एॅ  ऐ  ओ  ऑ  औ  		
 
