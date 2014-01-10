@@ -15688,7 +15688,7 @@ SplineSet
  1000.37 700.3 1000.37 700.3 971.5 668.3 c 0,31,32
  948.431 644.842 948.431 644.842 947.5 604.3 c 9,0,1
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt7 raguj_viramaguj
 EndChar
@@ -15772,7 +15772,7 @@ SplineSet
  1253 510 1253 510 1230 510 c 1,44,-1
  1230 510 l 1,32,33
 EndSplineSet
-Validated: 524325
+Validated: 37
 LCarets2: 2 0 0 
 Ligature2: "'pres' Pre Base Substitutions lookup reph_anu-1" isignguj.alt2 raguj_viramaguj anusvaraguj
 EndChar
