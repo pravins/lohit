@@ -17,56 +17,47 @@
 
 import os, sys, commands
 
-def generate_outfile(txt_file,ttf_file):
+def generate_stdfile(txt_file,ttf_file):
 	inputfile=open(txt_file)
 	outputfile=open("std-test-out.txt","w")
 
 	#Read the test-case input	
 	flines=inputfile.readlines()
-	ttfname = ttf_file
 	
 	#Exceute hb-shape command for each test-case from input file
 	for string in flines:
-		print "String : "+string
-		words=string.split()		
-		cmd="hb-shape %s %s"%(ttfname,words[0])
-		print "Command : "+cmd+"\n"		
-		status, output = commands.getstatusoutput(cmd)
+		#print "String : "+string
+		words=string.split()	
+		status, output = commands.getstatusoutput("hb-shape %s %s"%(ttf_file,words[0]))
 		# Write output to the output file		
-		print "Output : "+output+"\n"	
+		print "Output : "	+output+"\n"	
 		outputfile.write(words[0]+"\t"+""+output+"\n")
+	print "std-test-out.txt file generated!!"
 	outputfile.close()
 	inputfile.close()
  
-def generate_testfile(txt_file,ttf_file):
+def auto_test(txt_file,ttf_file):
 	inputfile=open(txt_file)
-	outputfile=open("output.txt","w")
-	fout=open("failed_test_case.txt","w")
+	outputfile=open("failed_test_case.txt","w")
 
 	#Read the test-case input	
 	flines=inputfile.readlines()
-	ttfname = ttf_file
 	count=0
 
 	#Exceute hb-shape command for each test-case from output file
 	for string in flines:
-		print " String : "+string
+#		print " String : "+string
 		words=string.split()	
-		cmd="hb-shape %s %s"%(ttfname,words[0])
-		print " Command : "+cmd+"\n"		
-		status, output = commands.getstatusoutput(cmd)
-		print " Output : "+output+"\n"		
+		status, output = commands.getstatusoutput("hb-shape %s %s"%(ttf_file,words[0]))
+#		print " Output : "+output+"\n"		
 		# Test to check, wheather test-case from output file & the result, are matching		
-		if words[1] == output:
-			print " "+words[1]+" EQUALS "+" "+string				
-			print " [SUCESS]\n"	
+		if words[1] != output:
+			print words[0]+ " [FAILURE]\n"	
 			outputfile.write("  *  "+words[0]+"\t"+""+output+"\n")
-		else:
-			print " [FAILURE]\n"	
-			fout.write("  *  "+words[0]+"\t"+""+output+"\n")
 			count=count+1
 	#Count for failed test-cases	
-	print "%d Test Cases Failed"%count			
+	print "%d Test Cases Failed out of %d"%(count,len(flines))
+	print "failed_test_case.txt file generated !!"
 	inputfile.close()
 	outputfile.close()
  
@@ -74,14 +65,11 @@ def generate_testfile(txt_file,ttf_file):
 if __name__ == "__main__":
 
  if len(sys.argv) < 4:
-        print "USAGE: python auto_test.py <test-case doc-name> <ttf_filename> <generate/test> \n For <generate> : test-case-doc-name will be <test-case.txt> \n For <test> : test-case-doc-name will be <std-test-out.txt>"
+        print "USAGE: python auto_test.py <generate/test> <test file> <font_file>  \n For <generate> : Test case file should have single word on each line. \n For <test> : test-case-doc-name will be <std-test-out.txt>"
  else:
-	txt_filename = sys.argv[1]
-	ttf_filename = sys.argv[2]
-	if "generate" in sys.argv[3]:
-		generate_outfile(txt_filename,ttf_filename)
+	txt_file = sys.argv[2]
+	font_file = sys.argv[3]
+	if "generate" in sys.argv[1]:
+		generate_stdfile(txt_file,font_file)
 	else:
-		generate_testfile(txt_filename,ttf_filename)	
-			
-
-
+		auto_test(txt_file,font_file)

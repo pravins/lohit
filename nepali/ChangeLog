@@ -1,5 +1,11 @@
 				  lohit-nepali
-Current Version :- 2.5.3
+Current Version :- 2.93.0
+
+* Mon Dec 23 2013 Pravin Satpute <psatpute@redhat.com> - 2.93.0
+- Forked Lohit Devanagari 2.93.0 for Nepali
+- Will output default Marathi locale specific ligatures and characters.
+- For improvements in Lohit Devanagari see
+https://raw.github.com/pravins/lohit/master/devanagari/ChangeLog
 
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
 - corrected glyph class of "asciicircum"

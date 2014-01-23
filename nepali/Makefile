@@ -1,9 +1,10 @@
-all: ttf woff eot ttf-dist sfd-dist web-dist
+all: sfd-dist ttf woff eot ttf-dist web-dist
 
-version:= 2.5.3
+version:= 2.93.0
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
+	python apply_featurefile.py Lohit-Nepali.sfd Lohit-Nepali.fea
 	./generate.pe *.sfd
 	@echo "----------Finished generating ttf file----------"
 	@echo " "
@@ -22,7 +23,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-nepali-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  65-0-lohit-nepali.conf Lohit-Nepali.ttf lohit-nepali-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README test-nepali.txt  AUTHORS  ChangeLog  65-0-lohit-nepali.conf Lohit-Nepali.ttf lohit-nepali-ttf-$(version)
 	rm -rf lohit-nepali-ttf-$(version)/.git
 	tar -cf lohit-nepali-ttf-$(version).tar lohit-nepali-ttf-$(version)
 	gzip lohit-nepali-ttf-$(version).tar
@@ -30,7 +31,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-nepali-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog  65-0-lohit-nepali.conf Lohit-Nepali.sfd lohit-nepali-$(version)
+	cp -p COPYRIGHT OFL.txt README test-nepali.txt  AUTHORS generate*.pe *.py *.fea Makefile ChangeLog  65-0-lohit-nepali.conf Lohit-Nepali.sfd lohit-nepali-$(version)
 	rm -rf lohit-nepali-$(version)/.git
 	rm -rf lohit-nepali-$(version)/*.ttf
 	tar -cf lohit-nepali-$(version).tar lohit-nepali-$(version)
@@ -39,7 +40,7 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-nepali-web-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog Lohit-Nepali.woff  Lohit-Nepali.eot lohit-nepali-web-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS test-nepali.txt  ChangeLog Lohit-Nepali.woff  Lohit-Nepali.eot lohit-nepali-web-$(version)
 	rm -rf lohit-nepali-web-$(version)/.git
 	tar -cf lohit-nepali-web-$(version).tar lohit-nepali-web-$(version)
 	gzip lohit-nepali-web-$(version).tar
