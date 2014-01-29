@@ -4,6 +4,7 @@ version:= 2.5.4
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
+	python apply_featurefile.py Lohit-Malayalam.sfd Lohit-Malayalam.fea
 	./generate.pe *.sfd
 	@echo "----------Finished generating ttf file----------"
 	@echo " "
@@ -22,7 +23,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-malayalam-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  67-lohit-malayalam.conf Lohit-Malayalam.ttf lohit-malayalam-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt test-malayalam.txt README  AUTHORS  ChangeLog  67-lohit-malayalam.conf Lohit-Malayalam.ttf lohit-malayalam-ttf-$(version)
 	rm -rf lohit-malayalam-ttf-$(version)/.git
 	tar -cf lohit-malayalam-ttf-$(version).tar lohit-malayalam-ttf-$(version)
 	gzip lohit-malayalam-ttf-$(version).tar
@@ -30,7 +31,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-malayalam-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog  67-lohit-malayalam.conf Lohit-Malayalam.sfd lohit-malayalam-$(version)
+	cp -p COPYRIGHT OFL.txt test-malayalam.txt README  AUTHORS generate*.pe Makefile ChangeLog  67-lohit-malayalam.conf Lohit-Malayalam.sfd lohit-malayalam-$(version)
 	rm -rf lohit-malayalam-$(version)/.git
 	rm -rf lohit-malayalam-$(version)/*.ttf
 	tar -cf lohit-malayalam-$(version).tar lohit-malayalam-$(version)
@@ -39,7 +40,7 @@ sfd-dist: dist
 
 web-dist: webdist
 	mkdir lohit-malayalam-web-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  Lohit-Malayalam.woff  Lohit-Malayalam.eot lohit-malayalam-web-$(version)
+	cp -p COPYRIGHT OFL.txt test-malayalam.txt README  AUTHORS  ChangeLog  Lohit-Malayalam.woff  Lohit-Malayalam.eot lohit-malayalam-web-$(version)
 	rm -rf lohit-malayalam-web-$(version)/.git
 	tar -cf lohit-malayalam-web-$(version).tar lohit-malayalam-web-$(version)
 	gzip lohit-malayalam-web-$(version).tar
