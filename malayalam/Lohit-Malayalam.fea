@@ -265,7 +265,7 @@ lookup abvmAboveBaseMarklookup0 {
 	<anchor 643 585> mark @Anchor0;
   pos base [\ddamlm \ddhamlm \llamlm_viramamlm_llamlm ] <anchor 620 650> mark @Anchor1
 	<anchor 1160 603> mark @Anchor0;
-  pos base [\nnamlm \bamlm \nnamlm_viramamlm_nnamlm \hamlm_viramamlm_namlm ] <anchor 690 650> mark @Anchor1
+  pos base [\nnamlm \nnamlm_viramamlm_nnamlm \hamlm_viramamlm_namlm ] <anchor 690 650> mark @Anchor1
 	<anchor 1224 606> mark @Anchor0;
   pos base [\tamlm \namlm \shamlm_viramamlm_shamlm ] <anchor 450 650> mark @Anchor1
 	<anchor 868 597> mark @Anchor0;
@@ -279,6 +279,8 @@ lookup abvmAboveBaseMarklookup0 {
 	<anchor 993 595> mark @Anchor0;
   pos base [\phamlm ] <anchor 568 650> mark @Anchor1
 	<anchor 1107 597> mark @Anchor0;
+  pos base [\bamlm ] <anchor 1370 595> mark @Anchor0
+	<anchor 690 650> mark @Anchor1;
   pos base [\bhamlm \mamlm \rramlm ] <anchor 360 650> mark @Anchor1
 	<anchor 651 596> mark @Anchor0;
   pos base [\lamlm ] <anchor 440 650> mark @Anchor1

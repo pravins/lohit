@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159524182
-ModificationTime: 1390994284
+ModificationTime: 1390995022
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3305,8 +3305,8 @@ Encoding: 3372 3372 55
 Width: 1360
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-1" 690 650 basechar 0
 AnchorPoint: "Anchor-0" 1370 595 basechar 0
+AnchorPoint: "Anchor-1" 690 650 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7976,7 +7976,7 @@ StartChar: nnamlm_viramamlm_ttamlm
 Encoding: 65594 -1 137
 Width: 1417
 GlyphClass: 2
-Flags: WO
+Flags: W
 AnchorPoint: "Anchor-0" 1398 596 basechar 0
 AnchorPoint: "Anchor-1" 690 650 basechar 0
 LayerCount: 2
