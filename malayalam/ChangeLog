@@ -7,8 +7,8 @@ Current Version :- 2.91.0
 - New glyph names, Following AGL syntax
 - Testing with Harfbuzz and Uniscribe
 - Test file available
-- Removed number of glyphs
-- Looksup are reduced by 
+- Removed number of glyphs nearly around .75 %  { 214/288 ~= .75(0.743) % }
+- Looksup are reduced by { 10/18 = 55.5 % }
 
 * Mon Oct 07 2013 Pravin Satpute <psatpute@redhat.com> - 2.5.4
 - Corrected width of U+0D74 character
