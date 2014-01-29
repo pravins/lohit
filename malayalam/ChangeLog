@@ -1,5 +1,14 @@
 				  lohit-malayalam
-Current Version :- 2.5.4
+Current Version :- 2.91.0
+
+* Thu Jan 29 2014 Pravin Satpute <psatpute@redhat.com> - 2.91.0
+- First release under Lohit2 project.
+- Rewritten all Open type tables for mlm2 and mlym
+- New glyph names, Following AGL syntax
+- Testing with Harfbuzz and Uniscribe
+- Test file available
+- Removed number of glyphs
+- Looksup are reduced by 
 
 * Mon Oct 07 2013 Pravin Satpute <psatpute@redhat.com> - 2.5.4
 - Corrected width of U+0D74 character
