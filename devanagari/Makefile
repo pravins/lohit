@@ -39,7 +39,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-devanagari-$(version)
-	cp -p COPYRIGHT OFL.txt test-devanagari.txt README  AUTHORS generate*.pe *.py *.fea Makefile ChangeLog 66-lohit-devanagari.conf Lohit-Devanagari.sfd lohit-devanagari-$(version)
+	cp -p COPYRIGHT OFL.txt test-devanagari.txt README  AUTHORS generate*.pe apply_featurefile.py *.fea Makefile ChangeLog 66-lohit-devanagari.conf Lohit-Devanagari.sfd lohit-devanagari-$(version)
 	rm -rf lohit-devanagari-$(version)/.git
 	rm -rf lohit-devanagari-$(version)/*.ttf
 	tar -cf lohit-devanagari-$(version).tar lohit-devanagari-$(version)

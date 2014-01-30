@@ -31,7 +31,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-malayalam-$(version)
-	cp -p COPYRIGHT OFL.txt test-malayalam.txt README  AUTHORS generate*.pe Makefile ChangeLog  67-lohit-malayalam.conf Lohit-Malayalam.sfd lohit-malayalam-$(version)
+	cp -p COPYRIGHT OFL.txt test-malayalam.txt README  AUTHORS generate*.pe apply_featurefile.py *.fea Makefile ChangeLog  67-lohit-malayalam.conf Lohit-Malayalam.sfd lohit-malayalam-$(version)
 	rm -rf lohit-malayalam-$(version)/.git
 	rm -rf lohit-malayalam-$(version)/*.ttf
 	tar -cf lohit-malayalam-$(version).tar lohit-malayalam-$(version)
