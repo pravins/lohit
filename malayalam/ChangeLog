@@ -4,9 +4,9 @@ Current Version :- 2.91.0
 * Thu Jan 29 2014 Pravin Satpute <psatpute@redhat.com> - 2.91.0
 - First release under Lohit2 project.
 - Rewritten all Open type tables for mlm2 and mlym
-- New glyph names, Following AGL syntax
-- Testing with Harfbuzz and Uniscribe
-- Test file available
+- User friendly glyph names, Following AGL syntax
+- Testing done with Harfbuzz and Uniscribe
+- Test file available with release tarball
 - Removed number of glyphs nearly around .75 %  { 214/288 ~= .75(0.743) % }
 - Looksup are reduced by { 10/18 = 55.5 % }
 

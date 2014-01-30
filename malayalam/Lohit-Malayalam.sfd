@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159524182
-ModificationTime: 1390995022
+ModificationTime: 1391066068
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -296,7 +296,7 @@ ShortTable: maxp 16
   0
 EndShort
 LangName: 1033 "" "" "Regular" "FontForge 1.0 : Lohit Malayalam : 19-7-2006" "" "2.91.0" "" "Lohit is a trademark of Red Hat, Inc." "" "" "" "" "" "OFL 1.1" "http://scripts.sil.org/OFL" 
-GaspTable: 1 65535 2 0
+GaspTable: 2 8 2 65535 3 0
 Encoding: UnicodeBmp
 Compacted: 1
 UnicodeInterp: none
@@ -304,7 +304,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 38 14
+WinInfo: 0 22 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 358400 179200 119466 0 1048576 119466 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
