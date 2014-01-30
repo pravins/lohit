@@ -1,0 +1,52 @@
+30/01/2014
+   Release of lightest ever Lohit Malayalam font with 25% reduction in characters and 45% reduction in GSUB tables.
+
+29/01/2014
+   Announced plan for Lohit Gurmukhi next version https://www.redhat.com/archives/lohit-devel-list/2014-January/msg00017.html
+
+22/10/2014
+   Added Automated testing support with the help of hb-shape. https://www.redhat.com/archives/lohit-devel-list/2014-January/msg00013.html
+
+02/01/2014
+
+    Minor Release 2.92.2 Lohit Gujarati fonts 
+
+24/12/2013
+
+    Released 2.93.0 version of Lohit Marathi and Nepali fonts 
+
+11/12/2013
+
+    Released 2.93.0 version of Lohit Devanagari fonts 
+
+7/10/2013
+
+    Released 2.5.4 version of Lohit Malayalam fonts 
+
+1/10/2013
+
+    Tweet with #lohitfonts
+    Released alpha version of lohit devanagari 2.91.0 from lohit2 project
+    Development on lohit2 project started ​http://pravin-s.blogspot.in/2013/08/project-creating-standard-and-reusable.html
+    Lohit is also hosted on github ​https://github.com/pravins/lohit
+    Development on lohit 2 started, presently 
+
+27/05/2013
+
+    Released Lohit Oriya with bug fixes against Harfbuzz NG. 
+
+18/02/2013
+
+    Released web fonts (.woff and .eot) version 2.5.3 of All Lohit fonts. 
+
+30/01/2013
+
+    Released version 2.5.3 of All Lohit fonts with major enhancement and dropping Reserved Font Name. 
+
+22/11/2012
+
+    Released version 2.5.2 of Lohit Assamese, Bengali, Devanagari, Malayalam, Marathi, Gujarati and Telugu 
+
+12/06/2012
+
+    Migrated version control repository from svn to git 
