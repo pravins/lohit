@@ -9,6 +9,7 @@ Current Version :- 2.91.0
 - Test file available with release tarball
 - Removed number of glyphs nearly around .75 %  { 214/288 ~= .75(0.743) % }
 - Looksup are reduced by { 10/18 = 55.5 % }
+- Improved GASP table
 
 * Mon Oct 07 2013 Pravin Satpute <psatpute@redhat.com> - 2.5.4
 - Corrected width of U+0D74 character
