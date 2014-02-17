@@ -64,6 +64,7 @@ lookup akhnAkhandlookup0 {
     sub \damlm \viramamlm \dhamlm  by \damlm_viramamlm_dhamlm;
     sub \llamlm \viramamlm \llamlm  by \llamlm_viramamlm_llamlm;
     sub \hamlm \viramamlm \mamlm  by \hamlm_viramamlm_mamlm;
+    sub \shamlm \viramamlm \ramlm  by \shamlm_viramamlm_ramlm;
     sub \tamlm \viramamlm \samlm  by \tamlm_viramamlm_samlm;
     sub \namlm \viramamlm \mamlm  by \namlm_viramamlm_mamlm;
     sub \tamlm \viramamlm \mamlm  by \tamlm_viramamlm_mamlm;
@@ -83,7 +84,9 @@ lookup akhnAkhandlookup0 {
     sub \bamlm \viramamlm \dhamlm  by \bamlm_viramamlm_dhamlm;
     sub \bamlm \viramamlm \damlm  by \bamlm_viramamlm_damlm;
     sub \kamlm \viramamlm \ttamlm  by \kamlm_viramamlm_ttamlm;
+    sub \tamlm \viramamlm \damlm  by \tamlm_viramamlm_damlm;
     sub \yamlm \viramamlm \kamlm  by \yamlm_viramamlm_kamlm;
+    sub \yamlm \viramamlm \kamlm \viramamlm \kamlm  by \ya_virama_ka_virama_ka;
     sub \lamlm \viramamlm \kamlm \viramamlm \kamlm  by \la_virama_ka_virama_ka;
     sub \ssamlm \viramamlm \kamlm  by \ssamlm_viramamlm_kamlm;
     sub \lamlm \viramamlm \kamlm  by \lamlm_viramamlm_kamlm;
@@ -110,7 +113,6 @@ lookup halfHalfFormslookup4 {
   lookupflag 0;
     sub \nnamlm \viramamlm \zerowidthjoiner  by \chillunnmlm;
     sub \namlm \viramamlm \zerowidthjoiner  by \chillunmlm;
-    sub \rramlm \viramamlm \zerowidthjoiner  by \chillurrmlm;
     sub \ramlm \viramamlm \zerowidthjoiner  by \chillurrmlm;
     sub \lamlm \viramamlm \zerowidthjoiner  by \chillulmlm;
     sub \llamlm \viramamlm \zerowidthjoiner  by \chillullmlm;
@@ -122,7 +124,6 @@ lookup pstfPostBaseFormslookup5 {
     sub \viramamlm \yamlm  by \viramamlm_yamlm.pstf;
     sub \viramamlm \ramlm  by \viramamlm_ramlm.pstf;
     sub \viramamlm \vamlm  by \viramamlm_vamlm.pstf;
-    sub \viramamlm \uvowelmlm  by \uvowelmlm_viramamlm;
 } pstfPostBaseFormslookup5;
 
 lookup blwsBelowBaseSubstitutionslooku {
@@ -134,7 +135,6 @@ lookup blwsBelowBaseSubstitutionslooku {
 
 lookup pstsPostBaseSubstitutionslookup {
   lookupflag 0;
-    sub \lllamlm \viramamlm_vamlm.pstf  by \lllamlm_viramamlm.half_vamlm;
     sub \kamlm \viramamlm \ssamlm  by \kamlm_viramamlm_ssamlm;
     sub \yamlm \viramamlm_yamlm.pstf  by \yamlm_viramamlm_yamlm;
     sub \vamlm \viramamlm_vamlm.pstf  by \vamlm_viramamlm_vamlm;
@@ -326,7 +326,7 @@ lookup abvmAboveBaseMarklookup0 {
   pos base [\tamlm_viramamlm_thamlm ] <anchor 780 650> mark @Anchor1;
   pos base [\namlm_viramamlm_thamlm \tamlm_viramamlm_samlm ] <anchor 790 650> mark @Anchor1;
   pos base [\shamlm_viramamlm_camlm ] <anchor 720 650> mark @Anchor1;
-  pos base [\damlm_viramamlm_dhamlm \glyph187 \nnamlm_viramamlm_mamlm ] <anchor 640 650> mark @Anchor1;
+  pos base [\damlm_viramamlm_dhamlm \shamlm_viramamlm_ramlm \nnamlm_viramamlm_mamlm ] <anchor 640 650> mark @Anchor1;
   pos base [\hamlm_viramamlm_mamlm ] <anchor 570 650> mark @Anchor1;
   pos base [\namlm_viramamlm_mamlm ] <anchor 540 650> mark @Anchor1;
   pos base [\tamlm_viramamlm_mamlm ] <anchor 680 650> mark @Anchor1;
@@ -343,8 +343,8 @@ lookup abvmAboveBaseMarklookup0 {
   pos base [\ddamlm_viramamlm_ddamlm ] <anchor 613 650> mark @Anchor1;
   pos base [\bamlm_viramamlm_dhamlm \bamlm_viramamlm_damlm ] <anchor 712 650> mark @Anchor1;
   pos base [\kamlm_viramamlm_ttamlm \yamlm_viramamlm_kamlm ] <anchor 492 650> mark @Anchor1;
-  pos base [\glyph206 ] <anchor 472 650> mark @Anchor1;
-  pos base [\glyph209 ] <anchor 482 650> mark @Anchor1;
+  pos base [\tamlm_viramamlm_damlm ] <anchor 472 650> mark @Anchor1;
+  pos base [\ya_virama_ka_virama_ka ] <anchor 482 650> mark @Anchor1;
   pos base [\la_virama_ka_virama_ka ] <anchor 452 650> mark @Anchor1;
   pos base [\ssamlm_viramamlm_kamlm ] <anchor 545 650> mark @Anchor1;
   pos base [\lamlm_viramamlm_kamlm ] <anchor 451 650> mark @Anchor1;
@@ -367,7 +367,7 @@ feature abvm {
 
 @GDEF_Simple = [\.null \nonmarkingreturn \space \digitzero \digitone \digittwo 
 	\digitthree \digitfour \digitfive \digitsix \digitseven \digiteight \digitnine 
-	\dandamlm \doubledandamlm \anusvaramlm \visergamlm \amlm \aamlm \imlm \iimlm 
+	\dandamlm \doubledandamlm \anusvaramlm \visargamlm \amlm \aamlm \imlm \iimlm 
 	\umlm \uumlm \rvocalicmlm \lvocalicmlm \emlm \eemlm \aimlm \omlm \oomlm \aumlm 
 	\kamlm \khamlm \gamlm \ghamlm \ngamlm \camlm \chamlm \jamlm \jhamlm \nyamlm 
 	\ttamlm \tthamlm \ddamlm \ddhamlm \nnamlm \tamlm \thamlm \damlm \dhamlm \namlm 
@@ -381,37 +381,35 @@ feature abvm {
 	\onethousandmlm \onequartermlm \onehalfmlm \threequartersmlm \datemarkmlm 
 	\chillunnmlm \chillunmlm \chillurrmlm \chillulmlm \chillullmlm \chillukmlm 
 	\zerowidthnonjoiner \zerowidthjoiner \inr_currency \dottedcircle 
-	\lllamlm_viramamlm.half_vamlm \tamlm_viramamlm_lamlm 
-	\phamlm_viramamlm_lamlm \vamlm_viramamlm_lamlm \viramamlm_lamlm.alt1 
-	\viramamlm_lamlm.alt2 \kamlm_viramamlm_ssamlm \viramamlm_yamlm.pstf 
-	\viramamlm_ramlm.pstf \viramamlm_vamlm.pstf \kamlm_viramamlm_kamlm 
-	\ngamlm_viramamlm_kamlm \ngamlm_viramamlm_ngamlm \camlm_viramamlm_camlm 
-	\nyamlm_viramamlm_camlm \nyamlm_virama_nyamlm \ttamlm_viramamlm_ttamlm 
-	\nnamlm_viramamlm_ttamlm \nnamlm_viramamlm_nnamlm \tamlm_viramamlm_tamlm 
-	\namlm_viramamlm_tamlm \namlm_viramamlm_namlm \pamlm_viramamlm_pamlm 
-	\mamlm_viramamlm_pamlm \mamlm_viramamlm_mamlm \yamlm_viramamlm_yamlm 
-	\vamlm_viramamlm_vamlm \lamlm_viramamlm_lamlm \kamlm_viramamlm_lamlm 
-	\gamlm_viramamlm_lamlm \pamlm_viramamlm_lamlm \bamlm_viramamlm_lamlm 
-	\mamlm_viramamlm_lamlm \shamlm_viramamlm_lamlm \samlm_viramamlm_lamlm 
-	\hamlm_viramamlm_lamlm \damlm_virama_damlm \samlm_viramamlm_samlm 
-	\gamlm_viramamlm_gamlm \camlm_viramamlm_chamlm \jamlm_viramamlm_jamlm 
-	\kamlm_viramamlm_tamlm \tamlm_viramamlm_namlm \ssamlm_viramamlm_ttamlm 
-	\namlm_viramamlm_damlm \bamlm_viramamlm_bamlm \shamlm_viramamlm_shamlm 
-	\namlm_viramamlm_dhamlm \samlm_viramamlm_thamlm \tamlm_viramamlm_thamlm 
-	\namlm_viramamlm_thamlm \shamlm_viramamlm_camlm \hamlm_viramamlm_namlm 
-	\damlm_viramamlm_dhamlm \llamlm_viramamlm_llamlm \hamlm_viramamlm_mamlm 
-	\glyph187 \tamlm_viramamlm_samlm \namlm_viramamlm_mamlm 
-	\tamlm_viramamlm_mamlm \nnamlm_viramamlm_mamlm \jamlm_viramamlm_nyamlm 
-	\tamlm_viramamlm_bhamlm \gamlm_viramamlm_mamlm \samlm_viramalm_kamlm 
-	\gamlm_viramamlm_namlm \nnamlm_viramamlm_ddamlm \nyamlm_viramamlm_jamlm 
-	\samlm_viramamlm_namlm \namlm_viramamlm_rramlm \sa_rra_virama_rra_virama 
-	\ddamlm_viramamlm_ddamlm \bamlm_viramamlm_dhamlm \bamlm_viramamlm_damlm 
-	\kamlm_viramamlm_ttamlm \glyph206 \yamlm_viramamlm_kamlm \glyph209 
-	\la_virama_ka_virama_ka \ssamlm_viramamlm_kamlm \lamlm_viramamlm_kamlm 
-	\samlm_viramamlm_tamlm \samlm_viramamlm_phamlm \glyph215 \glyph216 \glyph217 
-	\glyph218 \glyph219 \glyph220 \glyph221 \glyph223 \glyph224 \U0030 ];
-@GDEF_Ligature = [\viramamlm_lamlm \ramlm_viramamlm \rramlm_viramamlm_rramlm 
-	\uvowelmlm_viramamlm ];
+	\tamlm_viramamlm_lamlm \phamlm_viramamlm_lamlm \vamlm_viramamlm_lamlm 
+	\viramamlm_lamlm.alt1 \viramamlm_lamlm.alt2 \kamlm_viramamlm_ssamlm 
+	\viramamlm_yamlm.pstf \viramamlm_ramlm.pstf \viramamlm_vamlm.pstf 
+	\kamlm_viramamlm_kamlm \ngamlm_viramamlm_kamlm \ngamlm_viramamlm_ngamlm 
+	\camlm_viramamlm_camlm \nyamlm_viramamlm_camlm \nyamlm_virama_nyamlm 
+	\ttamlm_viramamlm_ttamlm \nnamlm_viramamlm_ttamlm \nnamlm_viramamlm_nnamlm 
+	\tamlm_viramamlm_tamlm \namlm_viramamlm_tamlm \namlm_viramamlm_namlm 
+	\pamlm_viramamlm_pamlm \mamlm_viramamlm_pamlm \mamlm_viramamlm_mamlm 
+	\yamlm_viramamlm_yamlm \vamlm_viramamlm_vamlm \lamlm_viramamlm_lamlm 
+	\kamlm_viramamlm_lamlm \gamlm_viramamlm_lamlm \pamlm_viramamlm_lamlm 
+	\bamlm_viramamlm_lamlm \mamlm_viramamlm_lamlm \shamlm_viramamlm_lamlm 
+	\samlm_viramamlm_lamlm \hamlm_viramamlm_lamlm \damlm_virama_damlm 
+	\samlm_viramamlm_samlm \gamlm_viramamlm_gamlm \camlm_viramamlm_chamlm 
+	\jamlm_viramamlm_jamlm \kamlm_viramamlm_tamlm \tamlm_viramamlm_namlm 
+	\ssamlm_viramamlm_ttamlm \namlm_viramamlm_damlm \bamlm_viramamlm_bamlm 
+	\shamlm_viramamlm_shamlm \namlm_viramamlm_dhamlm \samlm_viramamlm_thamlm 
+	\tamlm_viramamlm_thamlm \namlm_viramamlm_thamlm \shamlm_viramamlm_camlm 
+	\hamlm_viramamlm_namlm \damlm_viramamlm_dhamlm \llamlm_viramamlm_llamlm 
+	\hamlm_viramamlm_mamlm \shamlm_viramamlm_ramlm \tamlm_viramamlm_samlm 
+	\namlm_viramamlm_mamlm \tamlm_viramamlm_mamlm \nnamlm_viramamlm_mamlm 
+	\jamlm_viramamlm_nyamlm \tamlm_viramamlm_bhamlm \gamlm_viramamlm_mamlm 
+	\samlm_viramalm_kamlm \gamlm_viramamlm_namlm \nnamlm_viramamlm_ddamlm 
+	\nyamlm_viramamlm_jamlm \samlm_viramamlm_namlm \namlm_viramamlm_rramlm 
+	\sa_rra_virama_rra_virama \ddamlm_viramamlm_ddamlm \bamlm_viramamlm_dhamlm 
+	\bamlm_viramamlm_damlm \kamlm_viramamlm_ttamlm \tamlm_viramamlm_damlm 
+	\yamlm_viramamlm_kamlm \ya_virama_ka_virama_ka \la_virama_ka_virama_ka 
+	\ssamlm_viramamlm_kamlm \lamlm_viramamlm_kamlm \samlm_viramamlm_tamlm 
+	\samlm_viramamlm_phamlm ];
+@GDEF_Ligature = [\viramamlm_lamlm \ramlm_viramamlm \rramlm_viramamlm_rramlm ];
 @GDEF_Mark = [\dotrephmlm ];
 
 table GDEF {
