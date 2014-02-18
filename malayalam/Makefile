@@ -2,6 +2,10 @@ all: sfd-dist ttf woff eot ttf-dist web-dist
 
 version:= 2.92.0
 
+test: test-ttf
+	@echo "----------Testing actual-output with expected-output----------"
+	python auto_test.py std-test-out.txt Lohit-Malayalam.ttf
+
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
 	python apply_featurefile.py Lohit-Malayalam.sfd Lohit-Malayalam.fea
@@ -31,7 +35,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-malayalam-$(version)
-	cp -p COPYRIGHT OFL.txt test-malayalam.txt README  AUTHORS generate*.pe apply_featurefile.py *.fea Makefile ChangeLog  67-lohit-malayalam.conf Lohit-Malayalam.sfd lohit-malayalam-$(version)
+	cp -p COPYRIGHT OFL.txt test-malayalam.txt std-test-out.txt README  AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog  67-lohit-malayalam.conf Lohit-Malayalam.sfd lohit-malayalam-$(version)
 	rm -rf lohit-malayalam-$(version)/.git
 	rm -rf lohit-malayalam-$(version)/*.ttf
 	tar -cf lohit-malayalam-$(version).tar lohit-malayalam-$(version)
@@ -51,4 +55,4 @@ clean: cleanall
 	rm -rf *.tar.gz
 	rm -rf lohit-malayalam*
 
-.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version test-ttf

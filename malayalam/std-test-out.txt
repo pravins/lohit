@@ -324,7 +324,7 @@
 സ്ത	[samlm_viramamlm_tamlm=0+1095]
 സ്ഫ	[samlm_viramamlm_phamlm=0+1095]
 ണ്ട്	[nnamlm_viramamlm_ttamlm=0+1417|viramamlm=0@51,0+0]
-ന്ദ്	[namlm_viramamlm_damlm=0+996|viramamlm=0@75,-1+0]
+ന്ദ്	[namlm_viramamlm_damlm=0+996|viramamlm=0+0]
 ന്ത്	[namlm_viramamlm_tamlm=0+1291|viramamlm=0@-12,1+0]
 മ്പ്	[mamlm_viramamlm_pamlm=0+1268|viramamlm=0@52,1+0]
 ന്ധ്	[namlm_viramamlm_dhamlm=0+1511|viramamlm=0@21,60+0]
