@@ -1,5 +1,12 @@
 				  lohit-malayalam
-Current Version :- 2.91.0
+Current Version :- 2.92.0
+
+* Tue Feb 18 2014 Pravin Satpute <psatpute@redhat.com> - 2.92.0
+- Further removal 12 not required glyphs from fonts.
+- Added reference of glyph instead of full glyphs points wherever possible.
+- Resolved 10 isues reported on github: #35,#36,#37,#38,.#39,#40.#41,#42,#43,#44.
+- More test cases in test file
+- Renames Anchor to MLAnchor
 
 * Thu Jan 29 2014 Pravin Satpute <psatpute@redhat.com> - 2.91.0
 - First release under Lohit2 project.

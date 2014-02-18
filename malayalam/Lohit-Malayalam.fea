@@ -237,120 +237,120 @@ feature psts {
 
 lookup abvmAboveBaseMarklookup0 {
   lookupflag 0;
-  markClass [\viramamlm ] <anchor -70 596> @Anchor0;
-  markClass [\dotrephmlm ] <anchor -131 670> @Anchor1;
-  pos base [\kamlm ] <anchor 510 659> mark @Anchor1
-	<anchor 910 590> mark @Anchor0;
-  pos base [\khamlm \yamlm \vamlm_viramamlm_vamlm ] <anchor 510 650> mark @Anchor1
-	<anchor 964 600> mark @Anchor0;
-  pos base [\gamlm \thamlm ] <anchor 460 650> mark @Anchor1
-	<anchor 894 587> mark @Anchor0;
-  pos base [\ghamlm ] <anchor 691 650> mark @Anchor1
-	<anchor 1330 597> mark @Anchor0;
-  pos base [\ngamlm ] <anchor 560 650> mark @Anchor1
-	<anchor 1054 591> mark @Anchor0;
-  pos base [\camlm \ssamlm ] <anchor 575 650> mark @Anchor1
-	<anchor 1118 596> mark @Anchor0;
-  pos base [\chamlm ] <anchor 750 650> mark @Anchor1
-	<anchor 1498 601> mark @Anchor0;
-  pos base [\jamlm ] <anchor 460 648> mark @Anchor1
-	<anchor 812 583> mark @Anchor0;
-  pos base [\jhamlm ] <anchor 850 650> mark @Anchor1
-	<anchor 1595 606> mark @Anchor0;
-  pos base [\nyamlm \namlm_viramamlm_tamlm ] <anchor 650 650> mark @Anchor1
-	<anchor 1209 597> mark @Anchor0;
-  pos base [\ttamlm ] <anchor 297 650> mark @Anchor1
-	<anchor 582 587> mark @Anchor0;
-  pos base [\tthamlm \ramlm \llamlm ] <anchor 330 650> mark @Anchor1
-	<anchor 643 585> mark @Anchor0;
-  pos base [\ddamlm \ddhamlm \llamlm_viramamlm_llamlm ] <anchor 620 650> mark @Anchor1
-	<anchor 1160 603> mark @Anchor0;
-  pos base [\nnamlm \nnamlm_viramamlm_nnamlm \hamlm_viramamlm_namlm ] <anchor 690 650> mark @Anchor1
-	<anchor 1224 606> mark @Anchor0;
-  pos base [\tamlm \namlm \shamlm_viramamlm_shamlm ] <anchor 450 650> mark @Anchor1
-	<anchor 868 597> mark @Anchor0;
-  pos base [\damlm \lllamlm ] <anchor 340 650> mark @Anchor1
-	<anchor 637 577> mark @Anchor0;
-  pos base [\dhamlm ] <anchor 455 650> mark @Anchor1
-	<anchor 881 595> mark @Anchor0;
-  pos base [\nnnamlm \vamlm ] <anchor 550 650> mark @Anchor1
-	<anchor 970 597> mark @Anchor0;
-  pos base [\pamlm \yamlm_viramamlm_yamlm ] <anchor 500 650> mark @Anchor1
-	<anchor 993 595> mark @Anchor0;
-  pos base [\phamlm ] <anchor 568 650> mark @Anchor1
-	<anchor 1107 597> mark @Anchor0;
-  pos base [\bamlm ] <anchor 1370 595> mark @Anchor0
-	<anchor 690 650> mark @Anchor1;
-  pos base [\bhamlm \mamlm \rramlm ] <anchor 360 650> mark @Anchor1
-	<anchor 651 596> mark @Anchor0;
-  pos base [\lamlm ] <anchor 440 650> mark @Anchor1
-	<anchor 918 596> mark @Anchor0;
-  pos base [\shamlm \gamlm_viramamlm_lamlm ] <anchor 490 650> mark @Anchor1
-	<anchor 910 597> mark @Anchor0;
-  pos base [\samlm \hamlm_viramamlm_lamlm ] <anchor 590 650> mark @Anchor1
-	<anchor 1120 596> mark @Anchor0;
-  pos base [\hamlm \ssamlm_viramamlm_ttamlm ] <anchor 600 650> mark @Anchor1
-	<anchor 1186 596> mark @Anchor0;
-  pos base [\tttamlm \pamlm_viramamlm_pamlm \pamlm_viramamlm_lamlm \namlm_viramamlm_damlm ] <anchor 470 650> mark @Anchor1;
-  pos base [\kamlm_viramamlm_ssamlm ] <anchor 505 650> mark @Anchor1;
-  pos base [\kamlm_viramamlm_kamlm \ngamlm_viramamlm_ngamlm ] <anchor 700 650> mark @Anchor1;
-  pos base [\ngamlm_viramamlm_kamlm ] <anchor 515 650> mark @Anchor1;
-  pos base [\camlm_viramamlm_camlm \tamlm_viramamlm_namlm ] <anchor 610 650> mark @Anchor1;
-  pos base [\nyamlm_viramamlm_camlm ] <anchor 800 650> mark @Anchor1;
-  pos base [\nyamlm_virama_nyamlm ] <anchor 1000 650> mark @Anchor1;
-  pos base [\ttamlm_viramamlm_ttamlm ] <anchor 281 650> mark @Anchor1;
-  pos base [\nnamlm_viramamlm_ttamlm ] <anchor 1398 596> mark @Anchor0
-	<anchor 690 650> mark @Anchor1;
-  pos base [\tamlm_viramamlm_tamlm ] <anchor 798 650> mark @Anchor1;
-  pos base [\namlm_viramamlm_namlm ] <anchor 669 650> mark @Anchor1;
-  pos base [\mamlm_viramamlm_pamlm ] <anchor 626 650> mark @Anchor1
-	<anchor 1250 597> mark @Anchor0;
-  pos base [\mamlm_viramamlm_mamlm ] <anchor 589 650> mark @Anchor1;
-  pos base [\lamlm_viramamlm_lamlm ] <anchor 410 650> mark @Anchor1;
-  pos base [\kamlm_viramamlm_lamlm \shamlm_viramamlm_lamlm ] <anchor 480 650> mark @Anchor1;
-  pos base [\bamlm_viramamlm_lamlm ] <anchor 539 650> mark @Anchor1;
-  pos base [\mamlm_viramamlm_lamlm ] <anchor 350 650> mark @Anchor1;
-  pos base [\samlm_viramamlm_lamlm ] <anchor 612 650> mark @Anchor1;
-  pos base [\rramlm_viramamlm_rramlm ] <anchor 357 650> mark @Anchor1
-	<anchor 622 623> mark @Anchor0;
-  pos base [\damlm_virama_damlm ] <anchor 370 650> mark @Anchor1;
-  pos base [\samlm_viramamlm_samlm ] <anchor 581 650> mark @Anchor1;
-  pos base [\gamlm_viramamlm_gamlm ] <anchor 468 649> mark @Anchor1;
-  pos base [\camlm_viramamlm_chamlm ] <anchor 580 650> mark @Anchor1;
-  pos base [\jamlm_viramamlm_jamlm ] <anchor 740 650> mark @Anchor1;
-  pos base [\kamlm_viramamlm_tamlm ] <anchor 799 650> mark @Anchor1;
-  pos base [\bamlm_viramamlm_bamlm ] <anchor 701 650> mark @Anchor1;
-  pos base [\namlm_viramamlm_dhamlm ] <anchor 751 650> mark @Anchor1
-	<anchor 1462 656> mark @Anchor0;
-  pos base [\samlm_viramamlm_thamlm ] <anchor 840 650> mark @Anchor1;
-  pos base [\tamlm_viramamlm_thamlm ] <anchor 780 650> mark @Anchor1;
-  pos base [\namlm_viramamlm_thamlm \tamlm_viramamlm_samlm ] <anchor 790 650> mark @Anchor1;
-  pos base [\shamlm_viramamlm_camlm ] <anchor 720 650> mark @Anchor1;
-  pos base [\damlm_viramamlm_dhamlm \shamlm_viramamlm_ramlm \nnamlm_viramamlm_mamlm ] <anchor 640 650> mark @Anchor1;
-  pos base [\hamlm_viramamlm_mamlm ] <anchor 570 650> mark @Anchor1;
-  pos base [\namlm_viramamlm_mamlm ] <anchor 540 650> mark @Anchor1;
-  pos base [\tamlm_viramamlm_mamlm ] <anchor 680 650> mark @Anchor1;
-  pos base [\jamlm_viramamlm_nyamlm ] <anchor 1030 650> mark @Anchor1;
-  pos base [\tamlm_viramamlm_bhamlm ] <anchor 670 650> mark @Anchor1;
-  pos base [\gamlm_viramamlm_mamlm ] <anchor 513 650> mark @Anchor1;
-  pos base [\samlm_viramalm_kamlm ] <anchor 604 650> mark @Anchor1;
-  pos base [\gamlm_viramamlm_namlm ] <anchor 639 650> mark @Anchor1;
-  pos base [\nnamlm_viramamlm_ddamlm ] <anchor 910 650> mark @Anchor1;
-  pos base [\nyamlm_viramamlm_jamlm ] <anchor 724 650> mark @Anchor1;
-  pos base [\samlm_viramamlm_namlm ] <anchor 593 650> mark @Anchor1;
-  pos base [\namlm_viramamlm_rramlm ] <anchor 279 650> mark @Anchor1;
-  pos base [\sa_rra_virama_rra_virama ] <anchor 621 650> mark @Anchor1;
-  pos base [\ddamlm_viramamlm_ddamlm ] <anchor 613 650> mark @Anchor1;
-  pos base [\bamlm_viramamlm_dhamlm \bamlm_viramamlm_damlm ] <anchor 712 650> mark @Anchor1;
-  pos base [\kamlm_viramamlm_ttamlm \yamlm_viramamlm_kamlm ] <anchor 492 650> mark @Anchor1;
-  pos base [\tamlm_viramamlm_damlm ] <anchor 472 650> mark @Anchor1;
-  pos base [\ya_virama_ka_virama_ka ] <anchor 482 650> mark @Anchor1;
-  pos base [\la_virama_ka_virama_ka ] <anchor 452 650> mark @Anchor1;
-  pos base [\ssamlm_viramamlm_kamlm ] <anchor 545 650> mark @Anchor1;
-  pos base [\lamlm_viramamlm_kamlm ] <anchor 451 650> mark @Anchor1;
-  pos base [\samlm_viramamlm_tamlm ] <anchor 584 650> mark @Anchor1
-	<anchor 1049 597> mark @Anchor0;
-  pos base [\samlm_viramamlm_phamlm ] <anchor 592 650> mark @Anchor1;
+  markClass [\viramamlm ] <anchor -70 596> @MLAnchor0;
+  markClass [\dotrephmlm ] <anchor -131 670> @MLAnchor1;
+  pos base [\kamlm ] <anchor 510 659> mark @MLAnchor1
+	<anchor 910 590> mark @MLAnchor0;
+  pos base [\khamlm \yamlm \vamlm_viramamlm_vamlm ] <anchor 510 650> mark @MLAnchor1
+	<anchor 964 600> mark @MLAnchor0;
+  pos base [\gamlm \thamlm ] <anchor 460 650> mark @MLAnchor1
+	<anchor 894 587> mark @MLAnchor0;
+  pos base [\ghamlm ] <anchor 691 650> mark @MLAnchor1
+	<anchor 1330 597> mark @MLAnchor0;
+  pos base [\ngamlm ] <anchor 560 650> mark @MLAnchor1
+	<anchor 1054 591> mark @MLAnchor0;
+  pos base [\camlm \ssamlm ] <anchor 575 650> mark @MLAnchor1
+	<anchor 1118 596> mark @MLAnchor0;
+  pos base [\chamlm ] <anchor 750 650> mark @MLAnchor1
+	<anchor 1498 601> mark @MLAnchor0;
+  pos base [\jamlm ] <anchor 460 648> mark @MLAnchor1
+	<anchor 812 583> mark @MLAnchor0;
+  pos base [\jhamlm ] <anchor 850 650> mark @MLAnchor1
+	<anchor 1595 606> mark @MLAnchor0;
+  pos base [\nyamlm \namlm_viramamlm_tamlm ] <anchor 650 650> mark @MLAnchor1
+	<anchor 1209 597> mark @MLAnchor0;
+  pos base [\ttamlm ] <anchor 297 650> mark @MLAnchor1
+	<anchor 582 587> mark @MLAnchor0;
+  pos base [\tthamlm \ramlm \llamlm ] <anchor 330 650> mark @MLAnchor1
+	<anchor 643 585> mark @MLAnchor0;
+  pos base [\ddamlm \ddhamlm \llamlm_viramamlm_llamlm ] <anchor 620 650> mark @MLAnchor1
+	<anchor 1160 603> mark @MLAnchor0;
+  pos base [\nnamlm \nnamlm_viramamlm_nnamlm \hamlm_viramamlm_namlm ] <anchor 690 650> mark @MLAnchor1
+	<anchor 1224 606> mark @MLAnchor0;
+  pos base [\tamlm \namlm \shamlm_viramamlm_shamlm ] <anchor 450 650> mark @MLAnchor1
+	<anchor 868 597> mark @MLAnchor0;
+  pos base [\damlm \lllamlm ] <anchor 340 650> mark @MLAnchor1
+	<anchor 637 577> mark @MLAnchor0;
+  pos base [\dhamlm ] <anchor 455 650> mark @MLAnchor1
+	<anchor 881 595> mark @MLAnchor0;
+  pos base [\nnnamlm \vamlm ] <anchor 550 650> mark @MLAnchor1
+	<anchor 970 597> mark @MLAnchor0;
+  pos base [\pamlm \yamlm_viramamlm_yamlm ] <anchor 500 650> mark @MLAnchor1
+	<anchor 993 595> mark @MLAnchor0;
+  pos base [\phamlm ] <anchor 568 650> mark @MLAnchor1
+	<anchor 1107 597> mark @MLAnchor0;
+  pos base [\bamlm ] <anchor 1370 595> mark @MLAnchor0
+	<anchor 690 650> mark @MLAnchor1;
+  pos base [\bhamlm \mamlm \rramlm ] <anchor 360 650> mark @MLAnchor1
+	<anchor 651 596> mark @MLAnchor0;
+  pos base [\lamlm ] <anchor 440 650> mark @MLAnchor1
+	<anchor 918 596> mark @MLAnchor0;
+  pos base [\shamlm \gamlm_viramamlm_lamlm ] <anchor 490 650> mark @MLAnchor1
+	<anchor 910 597> mark @MLAnchor0;
+  pos base [\samlm \hamlm_viramamlm_lamlm ] <anchor 590 650> mark @MLAnchor1
+	<anchor 1120 596> mark @MLAnchor0;
+  pos base [\hamlm \ssamlm_viramamlm_ttamlm ] <anchor 600 650> mark @MLAnchor1
+	<anchor 1186 596> mark @MLAnchor0;
+  pos base [\tttamlm \pamlm_viramamlm_pamlm \pamlm_viramamlm_lamlm \namlm_viramamlm_damlm ] <anchor 470 650> mark @MLAnchor1;
+  pos base [\kamlm_viramamlm_ssamlm ] <anchor 505 650> mark @MLAnchor1;
+  pos base [\kamlm_viramamlm_kamlm \ngamlm_viramamlm_ngamlm ] <anchor 700 650> mark @MLAnchor1;
+  pos base [\ngamlm_viramamlm_kamlm ] <anchor 515 650> mark @MLAnchor1;
+  pos base [\camlm_viramamlm_camlm \tamlm_viramamlm_namlm ] <anchor 610 650> mark @MLAnchor1;
+  pos base [\nyamlm_viramamlm_camlm ] <anchor 800 650> mark @MLAnchor1;
+  pos base [\nyamlm_virama_nyamlm ] <anchor 1000 650> mark @MLAnchor1;
+  pos base [\ttamlm_viramamlm_ttamlm ] <anchor 281 650> mark @MLAnchor1;
+  pos base [\nnamlm_viramamlm_ttamlm ] <anchor 1398 596> mark @MLAnchor0
+	<anchor 690 650> mark @MLAnchor1;
+  pos base [\tamlm_viramamlm_tamlm ] <anchor 798 650> mark @MLAnchor1;
+  pos base [\namlm_viramamlm_namlm ] <anchor 669 650> mark @MLAnchor1;
+  pos base [\mamlm_viramamlm_pamlm ] <anchor 626 650> mark @MLAnchor1
+	<anchor 1250 597> mark @MLAnchor0;
+  pos base [\mamlm_viramamlm_mamlm ] <anchor 589 650> mark @MLAnchor1;
+  pos base [\lamlm_viramamlm_lamlm ] <anchor 410 650> mark @MLAnchor1;
+  pos base [\kamlm_viramamlm_lamlm \shamlm_viramamlm_lamlm ] <anchor 480 650> mark @MLAnchor1;
+  pos base [\bamlm_viramamlm_lamlm ] <anchor 539 650> mark @MLAnchor1;
+  pos base [\mamlm_viramamlm_lamlm ] <anchor 350 650> mark @MLAnchor1;
+  pos base [\samlm_viramamlm_lamlm ] <anchor 612 650> mark @MLAnchor1;
+  pos base [\rramlm_viramamlm_rramlm ] <anchor 357 650> mark @MLAnchor1
+	<anchor 622 623> mark @MLAnchor0;
+  pos base [\damlm_virama_damlm ] <anchor 370 650> mark @MLAnchor1;
+  pos base [\samlm_viramamlm_samlm ] <anchor 581 650> mark @MLAnchor1;
+  pos base [\gamlm_viramamlm_gamlm ] <anchor 468 649> mark @MLAnchor1;
+  pos base [\camlm_viramamlm_chamlm ] <anchor 580 650> mark @MLAnchor1;
+  pos base [\jamlm_viramamlm_jamlm ] <anchor 740 650> mark @MLAnchor1;
+  pos base [\kamlm_viramamlm_tamlm ] <anchor 799 650> mark @MLAnchor1;
+  pos base [\bamlm_viramamlm_bamlm ] <anchor 701 650> mark @MLAnchor1;
+  pos base [\namlm_viramamlm_dhamlm ] <anchor 751 650> mark @MLAnchor1
+	<anchor 1462 656> mark @MLAnchor0;
+  pos base [\samlm_viramamlm_thamlm ] <anchor 840 650> mark @MLAnchor1;
+  pos base [\tamlm_viramamlm_thamlm ] <anchor 780 650> mark @MLAnchor1;
+  pos base [\namlm_viramamlm_thamlm \tamlm_viramamlm_samlm ] <anchor 790 650> mark @MLAnchor1;
+  pos base [\shamlm_viramamlm_camlm ] <anchor 720 650> mark @MLAnchor1;
+  pos base [\damlm_viramamlm_dhamlm \shamlm_viramamlm_ramlm \nnamlm_viramamlm_mamlm ] <anchor 640 650> mark @MLAnchor1;
+  pos base [\hamlm_viramamlm_mamlm ] <anchor 570 650> mark @MLAnchor1;
+  pos base [\namlm_viramamlm_mamlm ] <anchor 540 650> mark @MLAnchor1;
+  pos base [\tamlm_viramamlm_mamlm ] <anchor 680 650> mark @MLAnchor1;
+  pos base [\jamlm_viramamlm_nyamlm ] <anchor 1030 650> mark @MLAnchor1;
+  pos base [\tamlm_viramamlm_bhamlm ] <anchor 670 650> mark @MLAnchor1;
+  pos base [\gamlm_viramamlm_mamlm ] <anchor 513 650> mark @MLAnchor1;
+  pos base [\samlm_viramalm_kamlm ] <anchor 604 650> mark @MLAnchor1;
+  pos base [\gamlm_viramamlm_namlm ] <anchor 639 650> mark @MLAnchor1;
+  pos base [\nnamlm_viramamlm_ddamlm ] <anchor 910 650> mark @MLAnchor1;
+  pos base [\nyamlm_viramamlm_jamlm ] <anchor 724 650> mark @MLAnchor1;
+  pos base [\samlm_viramamlm_namlm ] <anchor 593 650> mark @MLAnchor1;
+  pos base [\namlm_viramamlm_rramlm ] <anchor 279 650> mark @MLAnchor1;
+  pos base [\sa_rra_virama_rra_virama ] <anchor 621 650> mark @MLAnchor1;
+  pos base [\ddamlm_viramamlm_ddamlm ] <anchor 613 650> mark @MLAnchor1;
+  pos base [\bamlm_viramamlm_dhamlm \bamlm_viramamlm_damlm ] <anchor 712 650> mark @MLAnchor1;
+  pos base [\kamlm_viramamlm_ttamlm \yamlm_viramamlm_kamlm ] <anchor 492 650> mark @MLAnchor1;
+  pos base [\tamlm_viramamlm_damlm ] <anchor 472 650> mark @MLAnchor1;
+  pos base [\ya_virama_ka_virama_ka ] <anchor 482 650> mark @MLAnchor1;
+  pos base [\la_virama_ka_virama_ka ] <anchor 452 650> mark @MLAnchor1;
+  pos base [\ssamlm_viramamlm_kamlm ] <anchor 545 650> mark @MLAnchor1;
+  pos base [\lamlm_viramamlm_kamlm ] <anchor 451 650> mark @MLAnchor1;
+  pos base [\samlm_viramamlm_tamlm ] <anchor 584 650> mark @MLAnchor1
+	<anchor 1049 597> mark @MLAnchor0;
+  pos base [\samlm_viramamlm_phamlm ] <anchor 592 650> mark @MLAnchor1;
 } abvmAboveBaseMarklookup0;
 
 feature abvm {
