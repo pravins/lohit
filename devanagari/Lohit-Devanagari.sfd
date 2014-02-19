@@ -1869,7 +1869,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -120 666 mark 0
-AnchorPoint: "DVAnchor3" -120 666 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1899,7 +1898,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -120 666 mark 0
-AnchorPoint: "DVAnchor3" -120 666 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1928,7 +1926,6 @@ Encoding: 2306 2306 51
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -133 666 mark 0
 AnchorPoint: "DVAnchor3" -133 666 mark 0
 LayerCount: 2
 Fore
@@ -2047,7 +2044,6 @@ Width: 768
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 636 664 basechar 0
-AnchorPoint: "DVAnchor3" 636 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2107,7 +2103,6 @@ Encoding: 2310 2310 55
 Width: 1042
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 792 664 basechar 0
 AnchorPoint: "DVAnchor3" 792 664 basechar 0
 LayerCount: 2
 Fore
@@ -2173,7 +2168,6 @@ Width: 503
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 377 664 basechar 0
-AnchorPoint: "DVAnchor3" 377 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2227,7 +2221,6 @@ Encoding: 2312 2312 57
 Width: 510
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 439 579 basechar 0
 AnchorPoint: "DVAnchor3" 439 579 basechar 0
 LayerCount: 2
 Fore
@@ -2301,7 +2294,6 @@ Width: 631
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 461 664 basechar 0
-AnchorPoint: "DVAnchor3" 461 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2344,7 +2336,6 @@ Encoding: 2314 2314 59
 Width: 921
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 453 664 basechar 0
 AnchorPoint: "DVAnchor3" 453 664 basechar 0
 LayerCount: 2
 Fore
@@ -2401,8 +2392,6 @@ Encoding: 2315 2315 60
 Width: 864
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 460 664 basechar 0
-AnchorPoint: "DVAnchor0" 471 26 basechar 0
 AnchorPoint: "DVAnchor3" 460 664 basechar 0
 AnchorPoint: "DVAnchor0" 471 26 basechar 0
 LayerCount: 2
@@ -2639,7 +2628,6 @@ Encoding: 2319 2319 64
 Width: 486
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 265 664 basechar 0
 AnchorPoint: "DVAnchor3" 265 664 basechar 0
 LayerCount: 2
 Fore
@@ -3017,8 +3005,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 381 664 basechar 0
 AnchorPoint: "DVAnchor0" 380 23 basechar 0
-AnchorPoint: "DVAnchor3" 381 664 basechar 0
-AnchorPoint: "DVAnchor0" 380 23 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3072,8 +3058,6 @@ Encoding: 2326 2326 71
 Width: 825
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 693 664 basechar 0
-AnchorPoint: "DVAnchor0" 695 29 basechar 0
 AnchorPoint: "DVAnchor3" 693 664 basechar 0
 AnchorPoint: "DVAnchor0" 695 29 basechar 0
 LayerCount: 2
@@ -3138,7 +3122,6 @@ Width: 517
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 386 664 basechar 0
-AnchorPoint: "DVAnchor3" 386 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3172,7 +3155,6 @@ Encoding: 2328 2328 73
 Width: 636
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 506 664 basechar 0
 AnchorPoint: "DVAnchor3" 506 664 basechar 0
 LayerCount: 2
 Fore
@@ -3221,8 +3203,6 @@ Encoding: 2329 2329 74
 Width: 717
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 499 664 basechar 0
-AnchorPoint: "DVAnchor0" 394 50 basechar 0
 AnchorPoint: "DVAnchor3" 499 664 basechar 0
 AnchorPoint: "DVAnchor0" 394 50 basechar 0
 LayerCount: 2
@@ -3282,7 +3262,6 @@ Width: 637
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 503 664 basechar 0
-AnchorPoint: "DVAnchor3" 503 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3322,8 +3301,6 @@ Encoding: 2331 2331 76
 Width: 709
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 526 664 basechar 0
-AnchorPoint: "DVAnchor0" 322 61 basechar 0
 AnchorPoint: "DVAnchor3" 526 664 basechar 0
 AnchorPoint: "DVAnchor0" 322 61 basechar 0
 LayerCount: 2
@@ -3387,7 +3364,6 @@ Width: 728
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 596 664 basechar 0
-AnchorPoint: "DVAnchor3" 596 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3425,7 +3401,6 @@ Encoding: 2333 2333 78
 Width: 731
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 600 664 basechar 0
 AnchorPoint: "DVAnchor3" 600 664 basechar 0
 LayerCount: 2
 Fore
@@ -3496,7 +3471,6 @@ Width: 737
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 603 664 basechar 0
-AnchorPoint: "DVAnchor3" 603 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3547,8 +3521,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 421 664 basechar 0
 AnchorPoint: "DVAnchor0" 324 45 basechar 0
-AnchorPoint: "DVAnchor3" 421 664 basechar 0
-AnchorPoint: "DVAnchor0" 324 45 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3584,8 +3556,6 @@ Encoding: 2336 2336 81
 Width: 580
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 422 664 basechar 0
-AnchorPoint: "DVAnchor0" 316 39 basechar 0
 AnchorPoint: "DVAnchor3" 422 664 basechar 0
 AnchorPoint: "DVAnchor0" 316 39 basechar 0
 LayerCount: 2
@@ -3627,8 +3597,6 @@ Encoding: 2337 2337 82
 Width: 631
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 495 664 basechar 0
-AnchorPoint: "DVAnchor0" 378 45 basechar 0
 AnchorPoint: "DVAnchor3" 495 664 basechar 0
 AnchorPoint: "DVAnchor0" 378 45 basechar 0
 LayerCount: 2
@@ -3680,8 +3648,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 428 664 basechar 0
 AnchorPoint: "DVAnchor0" 332 47 basechar 0
-AnchorPoint: "DVAnchor3" 428 664 basechar 0
-AnchorPoint: "DVAnchor0" 332 47 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3731,8 +3697,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 540 664 basechar 0
 AnchorPoint: "DVAnchor0" 529 29 basechar 0
-AnchorPoint: "DVAnchor3" 540 664 basechar 0
-AnchorPoint: "DVAnchor0" 529 29 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3770,7 +3734,6 @@ Width: 608
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 478 664 basechar 0
-AnchorPoint: "DVAnchor3" 478 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3804,7 +3767,6 @@ Encoding: 2341 2341 86
 Width: 685
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 555 664 basechar 0
 AnchorPoint: "DVAnchor3" 555 664 basechar 0
 LayerCount: 2
 Fore
@@ -3857,8 +3819,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 417 666 basechar 0
 AnchorPoint: "DVAnchor0" 458 7 basechar 0
-AnchorPoint: "DVAnchor3" 417 666 basechar 0
-AnchorPoint: "DVAnchor0" 458 7 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3898,7 +3858,6 @@ Encoding: 2343 2343 88
 Width: 648
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 520 664 basechar 0
 AnchorPoint: "DVAnchor3" 520 664 basechar 0
 LayerCount: 2
 Fore
@@ -3957,7 +3916,6 @@ Width: 585
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 455 664 basechar 0
-AnchorPoint: "DVAnchor3" 455 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3992,7 +3950,6 @@ Width: 585
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 452 666 basechar 0
-AnchorPoint: "DVAnchor3" 452 666 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4012,7 +3969,6 @@ Encoding: 2346 2346 91
 Width: 536
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 404 664 basechar 0
 AnchorPoint: "DVAnchor3" 404 664 basechar 0
 LayerCount: 2
 Fore
@@ -4048,8 +4004,6 @@ Encoding: 2347 2347 92
 Width: 774
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 386 664 basechar 0
-AnchorPoint: "DVAnchor0" 391 23 basechar 0
 AnchorPoint: "DVAnchor3" 386 664 basechar 0
 AnchorPoint: "DVAnchor0" 391 23 basechar 0
 LayerCount: 2
@@ -4101,7 +4055,6 @@ Width: 537
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 407 666 basechar 0
-AnchorPoint: "DVAnchor3" 407 666 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4147,7 +4100,6 @@ Encoding: 2349 2349 94
 Width: 657
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 526 664 basechar 0
 AnchorPoint: "DVAnchor3" 526 664 basechar 0
 LayerCount: 2
 Fore
@@ -4197,7 +4149,6 @@ Width: 579
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 447 664 basechar 0
-AnchorPoint: "DVAnchor3" 447 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4234,8 +4185,6 @@ Encoding: 2351 2351 96
 Width: 596
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 464 664 basechar 0
-AnchorPoint: "DVAnchor0" 466 26 basechar 0
 AnchorPoint: "DVAnchor3" 464 664 basechar 0
 AnchorPoint: "DVAnchor0" 466 26 basechar 0
 LayerCount: 2
@@ -4279,7 +4228,6 @@ Width: 436
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 331 664 basechar 0
-AnchorPoint: "DVAnchor3" 331 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4315,7 +4263,6 @@ Width: 442
 GlyphClass: 3
 Flags: W
 AnchorPoint: "DVAnchor3" 335 665 basechar 0
-AnchorPoint: "DVAnchor3" 335 665 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4335,7 +4282,6 @@ Encoding: 2354 2354 99
 Width: 727
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 597 664 basechar 0
 AnchorPoint: "DVAnchor3" 597 664 basechar 0
 LayerCount: 2
 Fore
@@ -4380,8 +4326,6 @@ Encoding: 2355 2355 100
 Width: 735
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 519 664 basechar 0
-AnchorPoint: "DVAnchor0" 527 101 basechar 0
 AnchorPoint: "DVAnchor3" 519 664 basechar 0
 AnchorPoint: "DVAnchor0" 527 101 basechar 0
 LayerCount: 2
@@ -4440,8 +4384,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 515 664 basechar 0
 AnchorPoint: "DVAnchor0" 553 98 basechar 0
-AnchorPoint: "DVAnchor3" 515 664 basechar 0
-AnchorPoint: "DVAnchor0" 553 98 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4461,7 +4403,6 @@ Encoding: 2357 2357 102
 Width: 543
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 410 665 basechar 0
 AnchorPoint: "DVAnchor3" 410 665 basechar 0
 LayerCount: 2
 Fore
@@ -4502,7 +4443,6 @@ Encoding: 2358 2358 103
 Width: 676
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 546 664 basechar 0
 AnchorPoint: "DVAnchor3" 546 664 basechar 0
 LayerCount: 2
 Fore
@@ -4555,7 +4495,6 @@ Width: 535
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 404 666 basechar 0
-AnchorPoint: "DVAnchor3" 404 666 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4593,7 +4532,6 @@ Encoding: 2360 2360 105
 Width: 709
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 576 665 basechar 0
 AnchorPoint: "DVAnchor3" 576 665 basechar 0
 LayerCount: 2
 Fore
@@ -4635,8 +4573,6 @@ Encoding: 2361 2361 106
 Width: 527
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 401 666 basechar 0
-AnchorPoint: "DVAnchor0" 335 2 basechar 0
 AnchorPoint: "DVAnchor3" 401 666 basechar 0
 AnchorPoint: "DVAnchor0" 335 2 basechar 0
 LayerCount: 2
@@ -4689,7 +4625,6 @@ Encoding: 2362 2362 107
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -133 666 mark 0
 AnchorPoint: "DVAnchor3" -133 666 mark 0
 LayerCount: 2
 Fore
@@ -4886,7 +4821,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor0" -143 61 mark 0
-AnchorPoint: "DVAnchor0" -143 61 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4918,7 +4852,6 @@ Encoding: 2370 2370 115
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor0" -130 69 mark 0
 AnchorPoint: "DVAnchor0" -130 69 mark 0
 LayerCount: 2
 Fore
@@ -4952,7 +4885,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor0" -127 50 mark 0
-AnchorPoint: "DVAnchor0" -127 50 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4982,7 +4914,6 @@ Encoding: 2372 2372 117
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor0" -130 69 mark 0
 AnchorPoint: "DVAnchor0" -130 69 mark 0
 LayerCount: 2
 Fore
@@ -5025,7 +4956,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -127 666 mark 0
-AnchorPoint: "DVAnchor3" -127 666 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5049,7 +4979,6 @@ Encoding: 2374 2374 119
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -127 665 mark 0
 AnchorPoint: "DVAnchor3" -127 665 mark 0
 LayerCount: 2
 Fore
@@ -5075,7 +5004,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -122 664 mark 0
-AnchorPoint: "DVAnchor3" -122 664 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5093,7 +5021,6 @@ Encoding: 2376 2376 121
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -135 664 mark 0
 AnchorPoint: "DVAnchor3" -135 664 mark 0
 LayerCount: 2
 Fore
@@ -5231,7 +5158,6 @@ Encoding: 2381 2381 126
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor0" -119 42 mark 0
 AnchorPoint: "DVAnchor0" -119 42 mark 0
 LayerCount: 2
 Fore
@@ -5404,7 +5330,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -127 666 mark 0
-AnchorPoint: "DVAnchor3" -127 666 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5440,7 +5365,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -69 664 mark 0
-AnchorPoint: "DVAnchor3" -69 664 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5459,7 +5383,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -143 665 mark 0
-AnchorPoint: "DVAnchor3" -143 665 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5477,7 +5400,6 @@ Encoding: 2389 2389 134
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -120 666 mark 0
 AnchorPoint: "DVAnchor3" -120 666 mark 0
 LayerCount: 2
 Fore
@@ -5508,7 +5430,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor0" -259 -1 mark 0
-AnchorPoint: "DVAnchor0" -259 -1 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5532,7 +5453,6 @@ Encoding: 2391 2391 136
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor0" -265 0 mark 0
 AnchorPoint: "DVAnchor0" -265 0 mark 0
 LayerCount: 2
 Fore
@@ -5570,8 +5490,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 385 664 basechar 0
 AnchorPoint: "DVAnchor0" 386 23 basechar 0
-AnchorPoint: "DVAnchor3" 385 664 basechar 0
-AnchorPoint: "DVAnchor0" 386 23 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5591,7 +5509,6 @@ Encoding: 2393 2393 138
 Width: 836
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 707 664 basechar 0
 AnchorPoint: "DVAnchor3" 707 664 basechar 0
 LayerCount: 2
 Fore
@@ -5613,7 +5530,6 @@ Width: 517
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 392 666 basechar 0
-AnchorPoint: "DVAnchor3" 392 666 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5634,7 +5550,6 @@ Width: 733
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 603 664 basechar 0
-AnchorPoint: "DVAnchor3" 603 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5654,8 +5569,6 @@ Encoding: 2396 2396 141
 Width: 632
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 502 664 basechar 0
-AnchorPoint: "DVAnchor0" 407 50 basechar 0
 AnchorPoint: "DVAnchor3" 502 664 basechar 0
 AnchorPoint: "DVAnchor0" 407 50 basechar 0
 LayerCount: 2
@@ -5679,8 +5592,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 427 664 basechar 0
 AnchorPoint: "DVAnchor0" 332 58 basechar 0
-AnchorPoint: "DVAnchor3" 427 664 basechar 0
-AnchorPoint: "DVAnchor0" 332 58 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5700,8 +5611,6 @@ Encoding: 2398 2398 143
 Width: 765
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 379 664 basechar 0
-AnchorPoint: "DVAnchor0" 380 21 basechar 0
 AnchorPoint: "DVAnchor3" 379 664 basechar 0
 AnchorPoint: "DVAnchor0" 380 21 basechar 0
 LayerCount: 2
@@ -5724,7 +5633,6 @@ Width: 596
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 465 665 basechar 0
-AnchorPoint: "DVAnchor3" 465 665 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5744,8 +5652,6 @@ Encoding: 2400 2400 145
 Width: 882
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 467 666 basechar 0
-AnchorPoint: "DVAnchor0" 468 15 basechar 0
 AnchorPoint: "DVAnchor3" 467 666 basechar 0
 AnchorPoint: "DVAnchor0" 468 15 basechar 0
 LayerCount: 2
@@ -5881,7 +5787,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor0" -141 37 mark 0
-AnchorPoint: "DVAnchor0" -141 37 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5936,7 +5841,6 @@ Encoding: 2403 2403 148
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor0" -138 34 mark 0
 AnchorPoint: "DVAnchor0" -138 34 mark 0
 LayerCount: 2
 Fore
@@ -6505,7 +6409,6 @@ Width: 768
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 636 664 basechar 0
-AnchorPoint: "DVAnchor3" 636 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6720,7 +6623,6 @@ Width: 768
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor0" 640 711 basechar 0
-AnchorPoint: "DVAnchor0" 640 711 basechar 0
 LayerCount: 2
 Fore
 Refer: 135 2390 S 1 0 0 1 700 0 2
@@ -6732,7 +6634,6 @@ Encoding: 2423 2423 168
 Width: 768
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 640 711 basechar 0
 AnchorPoint: "DVAnchor0" 640 711 basechar 0
 LayerCount: 2
 Fore
@@ -6772,8 +6673,6 @@ Encoding: 2426 2426 170
 Width: 596
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 464 664 basechar 0
-AnchorPoint: "DVAnchor0" 466 26 basechar 0
 AnchorPoint: "DVAnchor3" 464 664 basechar 0
 AnchorPoint: "DVAnchor0" 466 26 basechar 0
 LayerCount: 2
@@ -6820,7 +6719,6 @@ Width: 517
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 390 663 basechar 0
-AnchorPoint: "DVAnchor3" 390 663 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6857,7 +6755,6 @@ Encoding: 2428 2428 172
 Width: 728
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 596 666 basechar 0
 AnchorPoint: "DVAnchor3" 596 666 basechar 0
 LayerCount: 2
 Fore
@@ -6903,7 +6800,6 @@ Width: 717
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 497 666 basechar 0
-AnchorPoint: "DVAnchor3" 497 666 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6921,7 +6817,6 @@ Encoding: 2431 2431 175
 Width: 537
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 406 665 basechar 0
 AnchorPoint: "DVAnchor3" 406 665 basechar 0
 LayerCount: 2
 Fore
@@ -7298,7 +7193,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -127 721 mark 0
-AnchorPoint: "DVAnchor3" -127 721 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7329,7 +7223,6 @@ Encoding: 43233 43233 188
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -137 681 mark 0
 AnchorPoint: "DVAnchor3" -137 681 mark 0
 LayerCount: 2
 Fore
@@ -7364,7 +7257,6 @@ Encoding: 43234 43234 189
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -137 675 mark 0
 AnchorPoint: "DVAnchor3" -137 675 mark 0
 LayerCount: 2
 Fore
@@ -7405,7 +7297,6 @@ Encoding: 43235 43235 190
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -147 671 mark 0
 AnchorPoint: "DVAnchor3" -147 671 mark 0
 LayerCount: 2
 Fore
@@ -7459,7 +7350,6 @@ Encoding: 43236 43236 191
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -130 681 mark 0
 AnchorPoint: "DVAnchor3" -130 681 mark 0
 LayerCount: 2
 Fore
@@ -7563,7 +7453,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -137 679 mark 0
-AnchorPoint: "DVAnchor3" -137 679 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7617,7 +7506,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -137 681 mark 0
-AnchorPoint: "DVAnchor3" -137 681 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7662,7 +7550,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -137 681 mark 0
-AnchorPoint: "DVAnchor3" -137 681 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7694,7 +7581,6 @@ Encoding: 43241 43241 196
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -137 674 mark 0
 AnchorPoint: "DVAnchor3" -137 674 mark 0
 LayerCount: 2
 Fore
@@ -7741,7 +7627,6 @@ Encoding: 43242 43242 197
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -137 681 mark 0
 AnchorPoint: "DVAnchor3" -137 681 mark 0
 LayerCount: 2
 Fore
@@ -7809,7 +7694,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -137 681 mark 0
-AnchorPoint: "DVAnchor3" -137 681 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7854,7 +7738,6 @@ Encoding: 43244 43244 199
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -131 681 mark 0
 AnchorPoint: "DVAnchor3" -131 681 mark 0
 LayerCount: 2
 Fore
@@ -7914,7 +7797,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -137 681 mark 0
-AnchorPoint: "DVAnchor3" -137 681 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7948,7 +7830,6 @@ Encoding: 43246 43246 201
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -137 681 mark 0
 AnchorPoint: "DVAnchor3" -137 681 mark 0
 LayerCount: 2
 Fore
@@ -7984,7 +7865,6 @@ Encoding: 43247 43247 202
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -137 681 mark 0
 AnchorPoint: "DVAnchor3" -137 681 mark 0
 LayerCount: 2
 Fore
@@ -8024,7 +7904,6 @@ Encoding: 43248 43248 203
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -137 681 mark 0
 AnchorPoint: "DVAnchor3" -137 681 mark 0
 LayerCount: 2
 Fore
@@ -8087,7 +7966,6 @@ Encoding: 43249 43249 204
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -137 681 mark 0
 AnchorPoint: "DVAnchor3" -137 681 mark 0
 LayerCount: 2
 Fore
@@ -8434,8 +8312,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 529 668 basechar 0
 AnchorPoint: "DVAnchor0" 324 56 basechar 0
-AnchorPoint: "DVAnchor3" 529 668 basechar 0
-AnchorPoint: "DVAnchor0" 324 56 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8489,8 +8365,6 @@ Encoding: 43257 43257 212
 Width: 709
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 529 668 basechar 0
-AnchorPoint: "DVAnchor0" 324 56 basechar 0
 AnchorPoint: "DVAnchor3" 529 668 basechar 0
 AnchorPoint: "DVAnchor0" 324 56 basechar 0
 LayerCount: 2
@@ -8607,7 +8481,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -125 665 mark 0
-AnchorPoint: "DVAnchor3" -125 665 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8631,7 +8504,6 @@ Encoding: 65540 -1 217
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -115 664 mark 0
 AnchorPoint: "DVAnchor3" -115 664 mark 0
 LayerCount: 2
 Fore
@@ -8663,7 +8535,6 @@ Encoding: 65541 -1 218
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -117 673 mark 0
 AnchorPoint: "DVAnchor3" -117 673 mark 0
 LayerCount: 2
 Fore
@@ -8701,7 +8572,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -131 665 mark 0
-AnchorPoint: "DVAnchor3" -131 665 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8728,7 +8598,6 @@ Encoding: 65543 -1 220
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -111 671 mark 0
 AnchorPoint: "DVAnchor3" -111 671 mark 0
 LayerCount: 2
 Fore
@@ -8762,7 +8631,6 @@ StartChar: aisign_ra_virama_anusvara
 Encoding: 65544 -1 221
 Width: 0
 GlyphClass: 4
-AnchorPoint: "DVAnchor3" -113 666 mark 0
 AnchorPoint: "DVAnchor3" -113 666 mark 0
 LayerCount: 2
 Fore
@@ -8803,7 +8671,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor3" -71 664 mark 0
-AnchorPoint: "DVAnchor3" -71 664 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8832,7 +8699,6 @@ Encoding: 65546 -1 223
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor3" -112 665 mark 0
 AnchorPoint: "DVAnchor3" -112 665 mark 0
 LayerCount: 2
 Fore
@@ -8885,7 +8751,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor0" -135 128 mark 0
-AnchorPoint: "DVAnchor0" -135 128 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8908,7 +8773,6 @@ Encoding: 65549 -1 226
 Width: 709
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 578 664 basechar 0
 AnchorPoint: "DVAnchor3" 578 664 basechar 0
 LayerCount: 2
 Fore
@@ -8966,8 +8830,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 412 664 basechar 0
 AnchorPoint: "DVAnchor0" 415 23 basechar 0
-AnchorPoint: "DVAnchor3" 412 664 basechar 0
-AnchorPoint: "DVAnchor0" 415 23 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9021,7 +8883,6 @@ Encoding: 65552 -1 229
 Width: 657
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 528 666 basechar 0
 AnchorPoint: "DVAnchor3" 528 666 basechar 0
 LayerCount: 2
 Fore
@@ -9090,7 +8951,6 @@ Encoding: 65553 -1 230
 Width: 711
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 579 665 basechar 0
 AnchorPoint: "DVAnchor3" 579 665 basechar 0
 LayerCount: 2
 Fore
@@ -11891,7 +11751,6 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "DVAnchor0" -127 63 mark 0
-AnchorPoint: "DVAnchor0" -127 63 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11931,7 +11790,6 @@ Encoding: 65616 -1 293
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "DVAnchor0" -127 58 mark 0
 AnchorPoint: "DVAnchor0" -127 58 mark 0
 LayerCount: 2
 Fore
@@ -12082,8 +11940,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 396 666 basechar 0
 AnchorPoint: "DVAnchor0" 394 31 basechar 0
-AnchorPoint: "DVAnchor3" 396 666 basechar 0
-AnchorPoint: "DVAnchor0" 394 31 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12139,7 +11995,6 @@ Encoding: 65623 -1 298
 Width: 820
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 692 15 basechar 0
 AnchorPoint: "DVAnchor0" 692 15 basechar 0
 LayerCount: 2
 Fore
@@ -12481,8 +12336,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 412 666 basechar 0
 AnchorPoint: "DVAnchor0" 412 15 basechar 0
-AnchorPoint: "DVAnchor3" 412 666 basechar 0
-AnchorPoint: "DVAnchor0" 412 15 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12763,7 +12616,6 @@ Width: 552
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor0" 330 -85 basechar 0
-AnchorPoint: "DVAnchor0" 330 -85 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12886,8 +12738,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 400 666 basechar 0
 AnchorPoint: "DVAnchor0" 402 31 basechar 0
-AnchorPoint: "DVAnchor3" 400 666 basechar 0
-AnchorPoint: "DVAnchor0" 402 31 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12975,8 +12825,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 434 664 basechar 0
 AnchorPoint: "DVAnchor0" 436 23 basechar 0
-AnchorPoint: "DVAnchor3" 434 664 basechar 0
-AnchorPoint: "DVAnchor0" 436 23 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13027,8 +12875,6 @@ Encoding: 65640 -1 315
 Width: 760
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 394 665 basechar 0
-AnchorPoint: "DVAnchor0" 551 -111 basechar 0
 AnchorPoint: "DVAnchor3" 394 665 basechar 0
 AnchorPoint: "DVAnchor0" 551 -111 basechar 0
 LayerCount: 2
@@ -13114,8 +12960,6 @@ Encoding: 65641 -1 316
 Width: 764
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 403 666 basechar 0
-AnchorPoint: "DVAnchor0" 398 23 basechar 0
 AnchorPoint: "DVAnchor3" 403 666 basechar 0
 AnchorPoint: "DVAnchor0" 398 23 basechar 0
 LayerCount: 2
@@ -13238,8 +13082,6 @@ GlyphClass: 3
 Flags: W
 AnchorPoint: "DVAnchor3" 487 664 basechar 0
 AnchorPoint: "DVAnchor0" 343 -138 basechar 0
-AnchorPoint: "DVAnchor3" 487 664 basechar 0
-AnchorPoint: "DVAnchor0" 343 -138 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13337,8 +13179,6 @@ Encoding: 65644 -1 319
 Width: 712
 GlyphClass: 3
 Flags: W
-AnchorPoint: "DVAnchor3" 504 664 basechar 0
-AnchorPoint: "DVAnchor0" 474 -90 basechar 0
 AnchorPoint: "DVAnchor3" 504 664 basechar 0
 AnchorPoint: "DVAnchor0" 474 -90 basechar 0
 LayerCount: 2
@@ -13444,8 +13284,6 @@ GlyphClass: 3
 Flags: W
 AnchorPoint: "DVAnchor3" 470 665 basechar 0
 AnchorPoint: "DVAnchor0" 450 -90 basechar 0
-AnchorPoint: "DVAnchor3" 470 665 basechar 0
-AnchorPoint: "DVAnchor0" 450 -90 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13526,8 +13364,6 @@ Encoding: 65646 -1 321
 Width: 676
 GlyphClass: 3
 Flags: W
-AnchorPoint: "DVAnchor3" 474 666 basechar 0
-AnchorPoint: "DVAnchor0" 442 -117 basechar 0
 AnchorPoint: "DVAnchor3" 474 666 basechar 0
 AnchorPoint: "DVAnchor0" 442 -117 basechar 0
 LayerCount: 2
@@ -13622,8 +13458,6 @@ GlyphClass: 3
 Flags: W
 AnchorPoint: "DVAnchor3" 496 665 basechar 0
 AnchorPoint: "DVAnchor0" 495 -106 basechar 0
-AnchorPoint: "DVAnchor3" 496 665 basechar 0
-AnchorPoint: "DVAnchor0" 495 -106 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13703,8 +13537,6 @@ Encoding: 65648 -1 323
 Width: 707
 GlyphClass: 3
 Flags: W
-AnchorPoint: "DVAnchor3" 492 666 basechar 0
-AnchorPoint: "DVAnchor0" 500 -63 basechar 0
 AnchorPoint: "DVAnchor3" 492 666 basechar 0
 AnchorPoint: "DVAnchor0" 500 -63 basechar 0
 LayerCount: 2
@@ -13875,7 +13707,6 @@ Encoding: 65650 -1 325
 Width: 668
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 452 -103 basechar 0
 AnchorPoint: "DVAnchor0" 452 -103 basechar 0
 LayerCount: 2
 Fore
@@ -14139,7 +13970,6 @@ Width: 555
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor0" 308 -117 basechar 0
-AnchorPoint: "DVAnchor0" 308 -117 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14196,7 +14026,6 @@ Encoding: 65655 -1 330
 Width: 579
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 311 -101 basechar 0
 AnchorPoint: "DVAnchor0" 311 -101 basechar 0
 LayerCount: 2
 Fore
@@ -14259,7 +14088,6 @@ Encoding: 65656 -1 331
 Width: 1207
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 1078 23 basechar 0
 AnchorPoint: "DVAnchor0" 1078 23 basechar 0
 LayerCount: 2
 Fore
@@ -14326,7 +14154,6 @@ Width: 555
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor0" 416 -146 basechar 0
-AnchorPoint: "DVAnchor0" 416 -146 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14387,7 +14214,6 @@ Encoding: 65658 -1 333
 Width: 600
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 319 -106 basechar 0
 AnchorPoint: "DVAnchor0" 319 -106 basechar 0
 LayerCount: 2
 Fore
@@ -14526,7 +14352,6 @@ Width: 644
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor0" 370 -114 basechar 0
-AnchorPoint: "DVAnchor0" 370 -114 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14603,7 +14428,6 @@ Encoding: 65661 -1 336
 Width: 628
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 410 -178 basechar 0
 AnchorPoint: "DVAnchor0" 410 -178 basechar 0
 LayerCount: 2
 Fore
@@ -14759,7 +14583,6 @@ Encoding: 65663 -1 338
 Width: 596
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 338 -109 basechar 0
 AnchorPoint: "DVAnchor0" 338 -109 basechar 0
 LayerCount: 2
 Fore
@@ -14918,7 +14741,6 @@ Width: 539
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor0" 447 5 basechar 0
-AnchorPoint: "DVAnchor0" 447 5 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14982,7 +14804,6 @@ Encoding: 65666 -1 341
 Width: 665
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 601 -79 basechar 0
 AnchorPoint: "DVAnchor0" 601 -79 basechar 0
 LayerCount: 2
 Fore
@@ -15061,7 +14882,6 @@ Width: 557
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor0" 474 -13 basechar 0
-AnchorPoint: "DVAnchor0" 474 -13 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15121,7 +14941,6 @@ Encoding: 65668 -1 343
 Width: 732
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 665 -82 basechar 0
 AnchorPoint: "DVAnchor0" 665 -82 basechar 0
 LayerCount: 2
 Fore
@@ -15202,7 +15021,6 @@ Width: 575
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor0" 500 23 basechar 0
-AnchorPoint: "DVAnchor0" 500 23 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15260,7 +15078,6 @@ Encoding: 65670 -1 345
 Width: 549
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 458 13 basechar 0
 AnchorPoint: "DVAnchor0" 458 13 basechar 0
 LayerCount: 2
 Fore
@@ -15330,7 +15147,6 @@ Encoding: 65671 -1 346
 Width: 617
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 545 13 basechar 0
 AnchorPoint: "DVAnchor0" 545 13 basechar 0
 LayerCount: 2
 Fore
@@ -15513,7 +15329,6 @@ Width: 559
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor0" 479 10 basechar 0
-AnchorPoint: "DVAnchor0" 479 10 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15676,7 +15491,6 @@ Width: 601
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor0" 466 -31 basechar 0
-AnchorPoint: "DVAnchor0" 466 -31 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -15740,8 +15554,6 @@ Encoding: 65678 -1 353
 Width: 776
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 399 665 basechar 0
-AnchorPoint: "DVAnchor0" 532 -106 basechar 0
 AnchorPoint: "DVAnchor3" 399 665 basechar 0
 AnchorPoint: "DVAnchor0" 532 -106 basechar 0
 LayerCount: 2
@@ -15822,7 +15634,6 @@ Encoding: 65679 -1 354
 Width: 736
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 612 18 basechar 0
 AnchorPoint: "DVAnchor0" 612 18 basechar 0
 LayerCount: 2
 Fore
@@ -15954,7 +15765,6 @@ Width: 627
 GlyphClass: 3
 Flags: W
 AnchorPoint: "DVAnchor3" 494 664 basechar 0
-AnchorPoint: "DVAnchor3" 494 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -16017,7 +15827,6 @@ Encoding: 65682 -1 357
 Width: 912
 GlyphClass: 3
 Flags: W
-AnchorPoint: "DVAnchor0" 780 23 basechar 0
 AnchorPoint: "DVAnchor0" 780 23 basechar 0
 LayerCount: 2
 Fore
@@ -16150,7 +15959,6 @@ Width: 555
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor0" 338 18 basechar 0
-AnchorPoint: "DVAnchor0" 338 18 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -16198,7 +16006,6 @@ Encoding: 65685 -1 360
 Width: 600
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor0" 316 26 basechar 0
 AnchorPoint: "DVAnchor0" 316 26 basechar 0
 LayerCount: 2
 Fore
@@ -16251,8 +16058,6 @@ Encoding: 65686 -1 361
 Width: 720
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 418 664 basechar 0
-AnchorPoint: "DVAnchor0" 633 15 basechar 0
 AnchorPoint: "DVAnchor3" 418 664 basechar 0
 AnchorPoint: "DVAnchor0" 633 15 basechar 0
 LayerCount: 2
@@ -16323,8 +16128,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 422 665 basechar 0
 AnchorPoint: "DVAnchor0" 540 23 basechar 0
-AnchorPoint: "DVAnchor3" 422 665 basechar 0
-AnchorPoint: "DVAnchor0" 540 23 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -16387,8 +16190,6 @@ Encoding: 65688 -1 363
 Width: 740
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 609 665 basechar 0
-AnchorPoint: "DVAnchor0" 612 15 basechar 0
 AnchorPoint: "DVAnchor3" 609 665 basechar 0
 AnchorPoint: "DVAnchor0" 612 15 basechar 0
 LayerCount: 2
@@ -16460,8 +16261,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 666 664 basechar 0
 AnchorPoint: "DVAnchor0" 668 21 basechar 0
-AnchorPoint: "DVAnchor3" 666 664 basechar 0
-AnchorPoint: "DVAnchor0" 668 21 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -16527,8 +16326,6 @@ Encoding: 65690 -1 365
 Width: 647
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 421 664 basechar 0
-AnchorPoint: "DVAnchor0" 567 21 basechar 0
 AnchorPoint: "DVAnchor3" 421 664 basechar 0
 AnchorPoint: "DVAnchor0" 567 21 basechar 0
 LayerCount: 2
@@ -16600,8 +16397,6 @@ Encoding: 65691 -1 366
 Width: 576
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 420 665 basechar 0
-AnchorPoint: "DVAnchor0" 490 18 basechar 0
 AnchorPoint: "DVAnchor3" 420 665 basechar 0
 AnchorPoint: "DVAnchor0" 490 18 basechar 0
 LayerCount: 2
@@ -16838,7 +16633,6 @@ Width: 639
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 280 665 basechar 0
-AnchorPoint: "DVAnchor3" 280 665 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -16886,7 +16680,6 @@ Encoding: 65696 -1 371
 Width: 760
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 279 665 basechar 0
 AnchorPoint: "DVAnchor3" 279 665 basechar 0
 LayerCount: 2
 Fore
@@ -17948,8 +17741,6 @@ GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 396 666 basechar 0
 AnchorPoint: "DVAnchor0" 394 31 basechar 0
-AnchorPoint: "DVAnchor3" 396 666 basechar 0
-AnchorPoint: "DVAnchor0" 394 31 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -18141,7 +17932,6 @@ Width: 1284
 GlyphClass: 3
 Flags: W
 AnchorPoint: "DVAnchor0" 1162 -21 basechar 0
-AnchorPoint: "DVAnchor0" 1162 -21 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -18253,7 +18043,6 @@ Width: 913
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 526 664 basechar 0
-AnchorPoint: "DVAnchor3" 526 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -18316,7 +18105,6 @@ Width: 702
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 526 664 basechar 0
-AnchorPoint: "DVAnchor3" 526 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -18369,7 +18157,6 @@ Width: 807
 GlyphClass: 2
 Flags: W
 AnchorPoint: "DVAnchor3" 597 664 basechar 0
-AnchorPoint: "DVAnchor3" 597 664 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -18419,7 +18206,6 @@ Encoding: 65726 -1 401
 Width: 676
 GlyphClass: 2
 Flags: W
-AnchorPoint: "DVAnchor3" 546 663 basechar 0
 AnchorPoint: "DVAnchor3" 546 663 basechar 0
 LayerCount: 2
 Fore
