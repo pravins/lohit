@@ -4,9 +4,10 @@ Current Version :- 2.94.0
 * Wed Feb 19 2014 Pravin Satpute <psatpute@redhat.com> - 2.94.0
 - Positioning lookup clean-up.
 - Improved grid fitting(GASP) table.
-- Renamed anchors to DVAnchor-*.
+- Renamed anchors to DVAnchor.
 - Using glyph reference (copy reference) instead of whole glyph points.
-- Auto test integrated with Makefile ($make test)
+- Auto test integrated with Makefile ($make test).
+- Added "Santali" language in font config file.
 - Resolved #32: "सर्व्हिस does not render correctly"
 - Resolved #33: "improper rendering for word : "मञ्यांच्या""
 
