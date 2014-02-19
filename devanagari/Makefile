@@ -1,15 +1,10 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist  
-version:= 2.93.0
-
-generate : ttf 
-	cp ../scripts/auto_test.py .;	
-	@echo "----------Generating  test-case-output from ttf file-----------"
-	python auto_test.py test.txt Lohit-Devanagari.ttf generate
+version:= 2.94.0
 
 test: test-ttf
 	@echo "----------Testing actual-output with expected-output----------"
-	python auto_test.py std-test-out.txt Lohit-Devanagari.ttf testing
-	
+	python auto_test.py std-test-out.txt Lohit-Devanagari.ttf
+
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
 	python apply_featurefile.py Lohit-Devanagari.sfd Lohit-Devanagari.fea
@@ -39,7 +34,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-devanagari-$(version)
-	cp -p COPYRIGHT OFL.txt test-devanagari.txt README  AUTHORS generate*.pe apply_featurefile.py *.fea Makefile ChangeLog 66-lohit-devanagari.conf Lohit-Devanagari.sfd lohit-devanagari-$(version)
+	cp -p COPYRIGHT OFL.txt test-devanagari.txt README  AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog 66-lohit-devanagari.conf Lohit-Devanagari.sfd std-test-out.txt lohit-devanagari-$(version)
 	rm -rf lohit-devanagari-$(version)/.git
 	rm -rf lohit-devanagari-$(version)/*.ttf
 	tar -cf lohit-devanagari-$(version).tar lohit-devanagari-$(version)
@@ -59,4 +54,4 @@ clean: cleanall
 	rm -rf *.tar.gz
 	rm -rf lohit-devanagari*
 
-.PHONY: generate-test test-ttf ttf-bin woff-bin eot-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version test-ttf

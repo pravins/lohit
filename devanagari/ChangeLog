@@ -1,5 +1,14 @@
 				  lohit-devanagari
-Current Version :- 2.93.0
+Current Version :- 2.94.0
+
+* Wed Feb 19 2014 Pravin Satpute <psatpute@redhat.com> - 2.94.0
+- Positioning lookup clean-up.
+- Improved grid fitting(GASP) table.
+- Renamed anchors to DVAnchor-*.
+- Using glyph reference (copy reference) instead of whole glyph points.
+- Auto test integrated with Makefile ($make test)
+- Resolved #32: "सर्व्हिस does not render correctly"
+- Resolved #33: "improper rendering for word : "मञ्यांच्या""
 
 * Wed Dec 11 2013 Pravin Satpute <psatpute@redhat.com> - 2.93.0
 - Added 17 glyphs for imatra (u+093F) and its variant to match variable width of
@@ -28,7 +37,7 @@ output as per user locale (Marathi, Nepali).
 
 
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
-- added rule for श्री in Marrathi locale
+- added rule for श्री in Marathi locale
 - Dropping RFN from OFL.txt
 
 * Thu Nov 08 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.2
@@ -63,7 +72,7 @@ output as per user locale (Marathi, Nepali).
 - resolved shirorekha bug for ग्मि   bug 648424
 
 * Fri Aug 28 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.3
-- first release for lohit devanagri 
+- first release for lohit devanagari 
 - using lohit hindi as a base for start, so keeping same version
 
 For older change see https://git.fedorahosted.org/cgit/lohit.git/plain/ChangeLog
