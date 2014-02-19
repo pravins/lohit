@@ -175,7 +175,7 @@ EndFPST
 ChainSub2: coverage "PresSub_Chain_IVowelSign_alt2_0 subtable"  0 0 0 1
  1 0 1
   Coverage: 9 isigndeva
-  FCoverage: 969 kadeva_viramadeva khadeva_viramadeva ghadeva_viramadeva ngadeva_viramadeva cadeva_viramadeva chadeva_viramadeva jadeva_viramadeva jhadeva_viramadeva nyadeva_viramadeva ttadeva_viramadeva tthadeva_viramadeva ddadeva_viramadeva ddhadeva_viramadeva nnadeva_viramadeva tadeva_viramadeva thadeva_viramadeva dadeva_viramadeva dhadeva_viramadeva nadeva_viramadeva nnnadeva_viramadeva padeva_viramadeva phadeva_viramadeva badeva_viramadeva bhadeva_viramadeva madeva_viramadeva yadeva_viramadeva ladeva_viramadeva lladeva_viramadeva llladeva_viramadeva vadeva_viramadeva shadeva_viramadeva ssadeva_viramadeva sadeva_viramadeva qadeva_viramadeva khhadeva_viramadeva zadeva_viramadeva fadeva_viramadeva shadeva_viramadeva_alt ta_virama_ra_viramadeva ta_virama_ta_viramadeva ka_virama_ssa_viramadeva ja_virama_nya_viramadeva yadeva_alt ttadeva_viramadeva_yadeva tthadeva_viraamdeva_yadeva ddadeva_viramadeva_yadeva ddhadeva_viramadeva_yadeva da_ddha_ra_yadeva shadeva_viramadeva.mr
+  FCoverage: 969 kadeva_viramadeva khadeva_viramadeva ghadeva_viramadeva ngadeva_viramadeva cadeva_viramadeva chadeva_viramadeva jadeva_viramadeva jhadeva_viramadeva nyadeva_viramadeva ttadeva_viramadeva tthadeva_viramadeva ddadeva_viramadeva ddhadeva_viramadeva nnadeva_viramadeva tadeva_viramadeva thadeva_viramadeva dadeva_viramadeva dhadeva_viramadeva nadeva_viramadeva nnnadeva_viramadeva padeva_viramadeva phadeva_viramadeva badeva_viramadeva bhadeva_viramadeva madeva_viramadeva yadeva_viramadeva ladeva_viramadeva lladeva_viramadeva llladeva_viramadeva vadeva_viramadeva shadeva_viramadeva ssadeva_viramadeva sadeva_viramadeva qadeva_viramadeva khhadeva_viramadeva zadeva_viramadeva fadeva_viramadeva shadeva_viramadeva.alt ta_virama_ra_viramadeva ta_virama_ta_viramadeva ka_virama_ssa_viramadeva ja_virama_nya_viramadeva yadeva_alt ttadeva_viramadeva_yadeva tthadeva_viraamdeva_yadeva ddadeva_viramadeva_yadeva ddhadeva_viramadeva_yadeva da_ddha_ra_yadeva shadeva_viramadeva.mr
  1
   SeqLookup: 0 "Single Substitution lookup 17" 
 EndFPST
@@ -8819,7 +8819,7 @@ LCarets2: 2 0 0
 Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva_viramadeva.mr radeva
 Ligature2: "PreBaseSubstitutionslookup1 subtable" shadeva viramadeva radeva
 Ligature2: "VattuVariantslookup30 subtable" shadeva.mr viramadeva_radeva
-Ligature2: "VattuVariantslookup30 subtable" shadeva_viramadeva_alt radeva
+Ligature2: "VattuVariantslookup30 subtable" shadeva_viramadeva.alt radeva
 Ligature2: "VattuVariantslookup30 subtable" shadeva viramadeva_radeva
 EndChar
 
@@ -10870,7 +10870,7 @@ Validated: 1
 Ligature2: "HalfFormslookup10 subtable" fadeva viramadeva
 EndChar
 
-StartChar: shadeva_viramadeva_alt
+StartChar: shadeva_viramadeva.alt
 Encoding: 65596 -1 273
 Width: 366
 GlyphClass: 2
