@@ -1,5 +1,7 @@
 
 all-ttf:= assamese bengali devanagari gujarati kannada malayalam marathi nepali oriya punjabi tamil tamil-classical telugu
+date1:= `date +%Y%m%d`
+
 
 all:
 	
@@ -18,6 +20,15 @@ ttf:
 	for font in $(all-ttf); do \
                  cd $${font};	cp ../AUTHORS ../apply_featurefile.py ../auto_test.py ../generate*.pe ../COPYRIGHT ../OFL.txt ../README  .;	 make ttf;		 rm -f generate* *.py AUTHORS COPYRIGHT OFL.txt README;		 cd ..; \
         done
+
+ttf-dist:
+	mkdir lohit-ttf-$(date1)
+	cp COPYRIGHT OFL.txt AUTHORS README */*.ttf lohit-ttf-$(date1)/
+	tar -cf lohit-ttf-$(date1).tar lohit-ttf-$(date1)/
+	gzip lohit-ttf-$(date1).tar
+	rm -rf lohit-ttf-$(date1)
+
+
 clean:
 	for font in $(all-ttf); do \
                  cd $${font}; make clean; cd ..; \
