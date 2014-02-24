@@ -1,53 +1,58 @@
-all: ttf woff eot ttf-dist sfd-dist web-dist
+all: sfd-dist ttf woff eot ttf-dist web-dist
 
-version:= 2.5.3
+version:= 2.91.0
+
+test: test-ttf
+	@echo "----------Testing actual-output with expected-output----------"
+	python auto_test.py std-test-out.txt Lohit-Gurmukhi.ttf
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
+	python apply_featurefile.py Lohit-Gurmukhi.sfd Lohit-Gurmukhi.fea
 	./generate.pe *.sfd
 	@echo "----------Finished generating ttf file----------"
 	@echo " "
 
 woff: woff-bin
 	@echo "----------Generating woff from ttf file----------"
-	java -jar /usr/share/java/sfnttool.jar -w Lohit-Punjabi.ttf Lohit-Punjabi.woff
+	java -jar /usr/share/java/sfnttool.jar -w Lohit-Gurmukhi.ttf Lohit-Gurmukhi.woff
 	@echo "----------Finished generating woff file----------"
 	@echo " "
 
 eot: eot-bin
 	@echo "----------Generating eot from ttf file----------"
-	java -jar /usr/share/java/sfnttool.jar -e -x Lohit-Punjabi.ttf Lohit-Punjabi.eot
+	java -jar /usr/share/java/sfnttool.jar -e -x Lohit-Gurmukhi.ttf Lohit-Gurmukhi.eot
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 
 ttf-dist: dist
-	mkdir lohit-punjabi-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  66-lohit-punjabi.conf Lohit-Punjabi.ttf lohit-punjabi-ttf-$(version)
-	rm -rf lohit-punjabi-ttf-$(version)/.git
-	tar -cf lohit-punjabi-ttf-$(version).tar lohit-punjabi-ttf-$(version)
-	gzip lohit-punjabi-ttf-$(version).tar
-	rm -rf lohit-punjabi-ttf-$(version)
+	mkdir lohit-gurmukhi-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  66-lohit-gurmukhi.conf Lohit-Gurmukhi.ttf lohit-gurmukhi-ttf-$(version)
+	rm -rf lohit-gurmukhi-ttf-$(version)/.git
+	tar -cf lohit-gurmukhi-ttf-$(version).tar lohit-gurmukhi-ttf-$(version)
+	gzip lohit-gurmukhi-ttf-$(version).tar
+	rm -rf lohit-gurmukhi-ttf-$(version)
 
 sfd-dist: dist
-	mkdir lohit-punjabi-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog  66-lohit-punjabi.conf Lohit-Punjabi.sfd lohit-punjabi-$(version)
-	rm -rf lohit-punjabi-$(version)/.git
-	rm -rf lohit-punjabi-$(version)/*.ttf
-	tar -cf lohit-punjabi-$(version).tar lohit-punjabi-$(version)
-	gzip lohit-punjabi-$(version).tar
-	rm -rf lohit-punjabi-$(version)
+	mkdir lohit-gurmukhi-$(version)
+	cp -p COPYRIGHT OFL.txt test-devanagari.txt README AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog  66-lohit-gurmukhi.conf Lohit-Gurmukhi.sfd lohit-gurmukhi-$(version)
+	rm -rf lohit-gurmukhi-$(version)/.git
+	rm -rf lohit-gurmukhi-$(version)/*.ttf
+	tar -cf lohit-gurmukhi-$(version).tar lohit-gurmukhi-$(version)
+	gzip lohit-gurmukhi-$(version).tar
+	rm -rf lohit-gurmukhi-$(version)
 
 web-dist: webdist
-	mkdir lohit-punjabi-web-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog Lohit-Punjabi.woff  Lohit-Punjabi.eot lohit-punjabi-web-$(version)
-	rm -rf lohit-punjabi-web-$(version)/.git
-	tar -cf lohit-punjabi-web-$(version).tar lohit-punjabi-web-$(version)
-	gzip lohit-punjabi-web-$(version).tar
-	rm -rf lohit-punjabi-web-$(version)
+	mkdir lohit-gurmukhi-web-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog Lohit-Gurmukhi.woff  Lohit-Gurmukhi.eot lohit-gurmukhi-web-$(version)
+	rm -rf lohit-gurmukhi-web-$(version)/.git
+	tar -cf lohit-gurmukhi-web-$(version).tar lohit-gurmukhi-web-$(version)
+	gzip lohit-gurmukhi-web-$(version).tar
+	rm -rf lohit-gurmukhi-web-$(version)
 
 clean: cleanall
 	rm -f *.ttf *.eot *.woff
 	rm -rf *.tar.gz
-	rm -rf lohit-punjabi*
+	rm -rf lohit-gurmukhi*
 
-.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version test-ttf
