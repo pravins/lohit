@@ -1,10 +1,10 @@
 SplineFontDB: 3.0
-FontName: Lohit-Punjabi
-FullName: Lohit Punjabi
-FamilyName: Lohit Punjabi
+FontName: Lohit-Gurmukhi
+FullName: Lohit Gurmukhi
+FamilyName: Lohit Gurmukhi
 Weight: Book
-Copyright: Copyright 2011-12 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
-Version: 2.5.3
+Copyright: Copyright 2014-15 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\nOpen type tables written by:\nPravin Satpute <psatpute AT redhat DOT com>\nSneha Kore <skore At redhat DOT com>\n\n   Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
+Version: 2.91.0
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159495707
-ModificationTime: 1393233902
+ModificationTime: 1393234929
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -513,7 +513,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "" "" "Version 2.5.3" 
+LangName: 1033 "" "" "Regular" "Lohit Gurumukhi 24-02-2014" "" "Version 2.91.0" "" "Lohit is a trademark of Red Hat, Inc." "" "" "" "" "" "OFL 1.1" "http://scripts.sil.org/OFL" 
 GaspTable: 2 8 2 65535 3 0
 Encoding: UnicodeBmp
 Compacted: 1

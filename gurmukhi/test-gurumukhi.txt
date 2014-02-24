@@ -1,0 +1,51 @@
+# Test File For Lohit Punjabi  
+# One can also test Lohit Punjabi from http://utrrs-testing.rhcloud.com/language/pa/gsub
+# Created by Sneha Kore <skore AT redhat DOT com> - 2014
+
+The alphabets (Sequnenced as per Gurmukhi script details in TDIL ) :
+
+	ਕ	ਖ	ਗ	ਘ	ਙ	ਚ	ਛ	ਜ	ਝ	ਞ	ਟ	ਠ	ਡ	ਢ	ਣ	ਤ	ਥ	ਦ	ਧ	ਨ	ਪ	ਫ	ਬ	ਭ	ਮ	ਯ	ਰ	ਲ	ਵ	ਸ	ਹ	ਲ਼	ਅ	ਉ	ਸ਼	ਫ਼	ਗ਼	ਲ਼	ਜ਼	ਖ਼		
+
+Independant Vowel Letters :
+
+	ਅ	ਆ	ਇ	ਈ	ਉ	ਊ	ਏ	ਐ	ਓ	ਔ	:	ਕ	ਕਾ	ਕੇ	ਕੈ	ਕੋ	ਕੌ	ਕਿ	ਕੀ	ਕੁ	ਕੂ
+
+Consonant Conjuncts
+
+	ੜ੍ਹ	ਲ਼੍ਹ	ਨ੍ਹ	ਮ੍ਹ	ਪ੍ਰ	ਕ੍ਰ	ਸ਼੍ਰ	ਸ੍ਵ
+
+Simple Half Forms
+
+	ਪ੍ਰ	ਮ੍ਵ	ੜ੍ਹ	
+
+Digits
+
+	੧	੨	੩	੪	੫	੬	੭	੮	੯	੦	
+
+As per Microsoft typography for Developing OpenType Fonts for Gurmukhi Script, the features can be specified in the order given as : 
+
+>>Basic Shaping Forms :
+
+<feature tag > nukt : Nukta form substitution
+			ਗ਼	ਜ਼  	ਖ਼	ਲ਼	 ਫ਼	 ਡ਼	 ਸ਼
+
+<feature tag> blwf : Below-base form substitution
+			ਪੜ੍ਹ	ਪੜ੍ਰ	ਪੜ੍ਵ  
+
+<feature tag> abvs : Above-base substitution
+			ੀੰ  ੀੱ  ੀਂ ੈੰ ੈੱ ੈਂ  ੇੰ  ੇੱ  ੇਂ  ੋੰ  ੋੱ  ੋਂ  ੌੰ  ੌੱ  ੌਂ
+			ਰੀੰ	ਕੀੱ	ਕੀਂ
+			ਕੈੰ	ਕੈੱ	ਕੈਂ
+			ਕੇੰ	ਕੇੱ	ਕੇਂ
+			ਕੋੰ	ਕੋੱ	ਕੋਂ
+			ਕੌੰ	ਕੌੱ	ਕੌਂ
+
+<feature tag> pstf : Post-base form substitution
+			ਕ੍ਯ
+
+<feature tag> vatu : Vattu variants
+			ਕ੍ਰ	ਤ੍ਰ	ਭ੍ਰ	ਦ੍ਰ	ਡ੍ਰ 
+
+Glyph Testing :
+
+ 			ਖ੍ਰ	ਖ੍ਵ	ਖ੍ਹ	ਖ੍ਯ	ਗ੍ਰ	ਗ੍ਵ	ਗ੍ਹ	ਗ੍ਯ	ਘ੍ਰ	ਘ੍ਵ	ਘ੍ਹ	ਘ੍ਯ	ਙ੍ਰ	ਙ੍ਵ	ਙ੍ਹ	ਙ੍ਯ	ਚ੍ਰ	ਚ੍ਵ	ਚ੍ਹ	ਚ੍ਯ	ਛ੍ਰ	ਛ੍ਵ	ਛ੍ਹ	ਛ੍ਯ	ਜ੍ਰ	ਜ੍ਵ	ਜ੍ਹ	ਜ੍ਯ	ਝ੍ਰ	ਝ੍ਵ	ਝ੍ਹ	ਝ੍ਯ	ਞ੍ਰ	ਞ੍ਵ	ਞ੍ਹ	ਞ੍ਯ	ਟ੍ਰ	ਟ੍ਵ	ਟ੍ਹ	ਟ੍ਯ	ਠ੍ਰ	ਠ੍ਵ	ਠ੍ਹ	ਠ੍ਯ	ਡ੍ਰ	ਡ੍ਵ	ਡ੍ਹ	ਡ੍ਯ	ਢ੍ਰ	ਢ੍ਵ	ਢ੍ਹ	ਢ੍ਯ	ਣ੍ਰ	ਣ੍ਵ	ਣ੍ਹ	ਣ੍ਯ	ਤ੍ਰ	ਤ੍ਵ	ਤ੍ਹ	ਤ੍ਯ	ਥ੍ਰ	ਥ੍ਵ	ਥ੍ਹ	ਥ੍ਯ	ਦ੍ਰ	ਦ੍ਵ	ਦ੍ਹ	ਦ੍ਯ	ਧ੍ਰ	ਧ੍ਵ	ਧ੍ਹ	ਧ੍ਯ	ਨ੍ਰ	ਨ੍ਵ	ਨ੍ਹ	ਨ੍ਯ	ਪ੍ਰ	ਪ੍ਹ	ਪ੍ਵ	ਪ੍ਯ	ਫ੍ਰ	ਫ੍ਵ	ਫ੍ਹ	ਫ੍ਯ	ਬ੍ਰ	ਬ੍ਵ	ਬ੍ਹ	ਬ੍ਯ	ਭ੍ਰ	ਭ੍ਵ	ਭ੍ਹ	ਭ੍ਯ	ਮ੍ਰ	ਮ੍ਵ	ਮ੍ਹ	ਮ੍ਯ	ਯ੍ਰ	ਯ੍ਵ	ਯ੍ਹ	ਯ੍ਯ	ਰ੍ਰ	ਰ੍ਵ	ਰ੍ਹ	ਰ੍ਯ	ਲ੍ਰ	ਲ੍ਵ	ਲ੍ਹ	ਲ੍ਯ	ਵ੍ਰ	ਵ੍ਵ	ਵ੍ਹ	ਵ੍ਯ	ਸ੍ਰ	ਸ੍ਵ	ਸ੍ਹ	ਸ੍ਯ	ਸ਼੍ਰ	ਸ਼੍ਵ	ਸ਼੍ਹ	ਸ਼੍ਯ	ੳ੍ਰ	ੳ੍ਹ	ੳ੍ਵ	ੳ੍ਯ	ਹ੍ਰ	ਹ੍ਵ	ਹ੍ਹ	ਹ੍ਯ
