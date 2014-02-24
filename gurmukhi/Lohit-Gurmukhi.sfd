@@ -4401,7 +4401,6 @@ SplineSet
  431 -23 431 -23 442.5 -11.5 c 0,0,1
 EndSplineSet
 Refer: 89 2610 S 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms lookup 0-1" laguru nuktaguru
 EndChar
 
@@ -4497,7 +4496,6 @@ SplineSet
  217 77 217 77 228.5 88.5 c 0,0,1
 EndSplineSet
 Refer: 93 2616 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms lookup 0-1" saguru nuktaguru
 EndChar
 
@@ -4920,7 +4918,7 @@ EndChar
 StartChar: viramaguru
 Encoding: 2637 2637 105
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "GRAnchor2" 59 0 mark 0
 LayerCount: 2
@@ -4954,7 +4952,6 @@ SplineSet
  31 67 31 67 42.5 78.5 c 0,0,1
 EndSplineSet
 Refer: 63 2582 S 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms lookup 0-1" khaguru nuktaguru
 EndChar
 
@@ -4977,7 +4974,6 @@ SplineSet
  34 57 34 57 45.5 68.5 c 0,0,1
 EndSplineSet
 Refer: 64 2583 S 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms lookup 0-1" gaguru nuktaguru
 EndChar
 
@@ -5000,7 +4996,6 @@ SplineSet
  208 77 208 77 219.5 88.5 c 0,0,1
 EndSplineSet
 Refer: 69 2588 S 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms lookup 0-1" jaguru nuktaguru
 EndChar
 
@@ -5072,7 +5067,6 @@ SplineSet
  523 500 l 1,0,-1
 EndSplineSet
 Validated: 33
-LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms lookup 0-1" ddaguru nuktaguru
 EndChar
 
@@ -5095,7 +5089,6 @@ SplineSet
  32 57 32 57 43.5 68.5 c 0,0,1
 EndSplineSet
 Refer: 83 2603 S 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'nukt' Nukta Forms lookup 0-1" phaguru nuktaguru
 EndChar
 
@@ -5478,7 +5471,7 @@ EndChar
 StartChar: nineguru
 Encoding: 2671 2671 120
 Width: 480
-GlyphClass: 4
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
@@ -6207,7 +6200,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kaguru_raguru_viramaguru.blwf.vatu
+StartChar: kaguru_raguru_viramaguru
 Encoding: 65539 -1 137
 Width: 487
 GlyphClass: 2
@@ -6262,12 +6255,11 @@ SplineSet
  86 167 86 167 112.5 143.5 c 128,-1,47
 EndSplineSet
 Validated: 513
-Ligature2: "'blws' Below Base Substitutions lookup 5-1" kaguru viramaguru raguru 
+Ligature2: "'blws' Below Base Substitutions lookup 5-1" kaguru viramaguru raguru
 Ligature2: "'vatu' Vattu Variants lookup 6-1" kaguru viramaguru raguru
-LCarets2: 3 0 0 0 
 EndChar
 
-StartChar: ddaguru_raguru_viramaguru.blwf.vatu
+StartChar: ddaguru_raguru_viramaguru
 Encoding: 65540 -1 138
 Width: 479
 GlyphClass: 2
@@ -6339,10 +6331,9 @@ EndSplineSet
 Validated: 513
 Ligature2: "'vatu' Vattu Variants lookup 6-1" ddaguru viramaguru raguru
 Ligature2: "'blws' Below Base Substitutions lookup 5-1" ddaguru viramaguru raguru
-LCarets2: 1 0 
 EndChar
 
-StartChar: taguru_raguru_viramaguru.blwf.vatu
+StartChar: taguru_raguru_viramaguru
 Encoding: 65541 -1 139
 Width: 477
 GlyphClass: 2
@@ -6415,10 +6406,9 @@ EndSplineSet
 Validated: 545
 Ligature2: "'blws' Below Base Substitutions lookup 5-1" taguru viramaguru raguru
 Ligature2: "'vatu' Vattu Variants lookup 6-1" taguru viramaguru raguru
-LCarets2: 1 0 
 EndChar
 
-StartChar: daguru_raguru_viramaguru.blwf.vatu
+StartChar: daguru_raguru_viramaguru
 Encoding: 65542 -1 140
 Width: 510
 GlyphClass: 2
@@ -6487,10 +6477,9 @@ EndSplineSet
 Validated: 513
 Ligature2: "'vatu' Vattu Variants lookup 6-1" daguru viramaguru raguru
 Ligature2: "'blws' Below Base Substitutions lookup 5-1" daguru viramaguru raguru
-LCarets2: 1 0 
 EndChar
 
-StartChar: bhaguru_raguru_viramaguru.blwf.vatu
+StartChar: bhaguru_raguru_viramaguru
 Encoding: 65543 -1 141
 Width: 456
 GlyphClass: 2
@@ -6557,13 +6546,12 @@ EndSplineSet
 Validated: 545
 Ligature2: "'vatu' Vattu Variants lookup 6-1" bhaguru viramaguru raguru
 Ligature2: "'blws' Below Base Substitutions lookup 5-1" bhaguru viramaguru raguru
-LCarets2: 1 0 
 EndChar
 
-StartChar: haguru_viramaguru.blwf
+StartChar: haguru_viramaguru
 Encoding: 65544 -1 142
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -6592,7 +6580,7 @@ Validated: 1
 Ligature2: "'blwf' Below Base Forms lookup 1-1" viramaguru haguru
 EndChar
 
-StartChar: vaguru_viramaguru.blwf
+StartChar: vaguru_viramaguru
 Encoding: 65545 -1 143
 Width: 0
 GlyphClass: 2
@@ -6633,7 +6621,7 @@ Validated: 1
 Ligature2: "'blwf' Below Base Forms lookup 1-1" viramaguru vaguru
 EndChar
 
-StartChar: raguru_viramaguru.blwf
+StartChar: raguru_viramaguru
 Encoding: 65546 -1 144
 Width: 0
 GlyphClass: 4
@@ -6661,7 +6649,7 @@ Validated: 1
 Ligature2: "'blwf' Below Base Forms lookup 1-1" viramaguru raguru
 EndChar
 
-StartChar: eevowelguru_bindiguru.abvs
+StartChar: eevowelguru_bindiguru
 Encoding: 65547 -1 145
 Width: 0
 GlyphClass: 4
@@ -6692,11 +6680,10 @@ SplineSet
  -110 668 -110 668 -110 687 c 256,27,16
  -110 706 -110 706 -97 719 c 128,-1,17
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" eevowelguru bindiguru
 EndChar
 
-StartChar: oovowelguru_bindiguru.abvs
+StartChar: oovowelguru_bindiguru
 Encoding: 65549 -1 146
 Width: 0
 GlyphClass: 4
@@ -6730,14 +6717,13 @@ SplineSet
  -85 711 -85 711 -85 730 c 256,31,20
  -85 749 -85 749 -72 762 c 128,-1,21
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" oovowelguru bindiguru
 EndChar
 
-StartChar: auvowelguru_bindiguru.abvs
+StartChar: auvowelguru_bindiguru
 Encoding: 65550 -1 147
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -6782,10 +6768,10 @@ Validated: 1
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" auvowelguru bindiguru
 EndChar
 
-StartChar: iivowelguru_bindiguru.abvs
+StartChar: iivowelguru_bindiguru
 Encoding: 65551 -1 148
 Width: 230
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -6825,7 +6811,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" iivowelguru bindiguru
-LCarets2: 1 0 
 EndChar
 
 StartChar: bindiguru.alt
@@ -6944,6 +6929,7 @@ EndChar
 StartChar: udaatguru
 Encoding: 2641 2641 152
 Width: 0
+GlyphClass: 4
 Flags: W
 AnchorPoint: "GRAnchor2" -47 0 mark 0
 LayerCount: 2
@@ -6978,7 +6964,7 @@ EndSplineSet
 Validated: 33
 EndChar
 
-StartChar: iivowelguru_tippiguru.abvs
+StartChar: iivowelguru_tippiguru
 Encoding: 65538 -1 154
 Width: 230
 Flags: W
@@ -7030,10 +7016,9 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" iivowelguru tippiguru
-LCarets2: 1 0 
 EndChar
 
-StartChar: iivowelguru_addakguru.abvs
+StartChar: iivowelguru_addakguru
 Encoding: 65537 -1 155
 Width: 230
 Flags: W
@@ -7076,13 +7061,11 @@ SplineSet
  -140 628 -140 628 -99 669 c 128,-1,15
 EndSplineSet
 Validated: 1
-Ligature2: "'abvs' Above Base Substitutions lookup 2-1" iivowelguru addakguru 
-LCarets2: 1 0 
+Ligature2: "'abvs' Above Base Substitutions lookup 2-1" iivowelguru addakguru
 EndChar
 
-StartChar: eevowelguru_addakguru.abvs
+StartChar: eevowelguru_addakguru
 Encoding: 65528 -1 156
-AltUni2: 00fff8.ffffffff.0 00fff8.ffffffff.0
 Width: 0
 Flags: W
 AnchorPoint: "GRAnchor1" -112 508 mark 0
@@ -7114,13 +7097,11 @@ SplineSet
  -405 694 -405 694 -384.5 707 c 128,-1,15
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" eevowelguru addakguru
 EndChar
 
-StartChar: aivowelguru_addakguru.abvs
+StartChar: aivowelguru_addakguru
 Encoding: 65529 -1 157
-AltUni2: 00fff9.ffffffff.0 00fff9.ffffffff.0
 Width: 0
 Flags: W
 AnchorPoint: "GRAnchor1" -150 496 mark 0
@@ -7164,13 +7145,11 @@ SplineSet
  -191 754 -191 754 -191 820 c 1,52,-1
  -171 820 l 1,39,40
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" aivowelguru addakguru
 EndChar
 
-StartChar: oovowelguru_addakguru.abvs
+StartChar: oovowelguru_addakguru
 Encoding: 65530 -1 158
-AltUni2: 00fffa.ffffffff.0 00fffa.ffffffff.0
 Width: 0
 Flags: W
 AnchorPoint: "GRAnchor1" -114 586 mark 0
@@ -7204,13 +7183,11 @@ SplineSet
  -395 725 -395 725 -395 775 c 5,33,-1
  -375 775 l 5,14,15
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" oovowelguru addakguru
 EndChar
 
-StartChar: auvowelguru_addakguru.abvs
+StartChar: auvowelguru_addakguru
 Encoding: 65531 -1 159
-AltUni2: 00fffb.ffffffff.0 00fffb.ffffffff.0
 Width: 0
 Flags: W
 LayerCount: 2
@@ -7255,13 +7232,11 @@ SplineSet
  -205 626 -205 626 -202.5 636 c 128,-1,15
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" auvowelguru addakguru
 EndChar
 
-StartChar: eevowelguru_tippiguru.abvs
+StartChar: eevowelguru_tippiguru
 Encoding: 65524 -1 160
-AltUni2: 00fff4.ffffffff.0 00fff4.ffffffff.0
 Width: 0
 Flags: W
 AnchorPoint: "GRAnchor1" -112 508 mark 0
@@ -7301,13 +7276,11 @@ SplineSet
  -405 694 -405 694 -384.5 707 c 128,-1,27
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" eevowelguru tippiguru
 EndChar
 
-StartChar: aivowelguru_tippiguru.abvs
+StartChar: aivowelguru_tippiguru
 Encoding: 65525 -1 161
-AltUni2: 00fff5.ffffffff.0 00fff5.ffffffff.0
 Width: 0
 Flags: W
 AnchorPoint: "GRAnchor1" -150 496 mark 0
@@ -7359,13 +7332,11 @@ SplineSet
  -161 690 -161 690 -161 724 c 0,64,39
  -161 765 -161 765 -131.5 794.5 c 128,-1,40
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" aivowelguru tippiguru
 EndChar
 
-StartChar: oovowelguru_tippiguru.abvs
+StartChar: oovowelguru_tippiguru
 Encoding: 65526 -1 162
-AltUni2: 00fff6.ffffffff.0 00fff6.ffffffff.0
 Width: 0
 Flags: W
 AnchorPoint: "GRAnchor1" -114 566 mark 0
@@ -7407,13 +7378,11 @@ SplineSet
  -395 705 -395 705 -395 755 c 1,45,-1
  -375 755 l 1,26,27
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" oovowelguru tippiguru
 EndChar
 
-StartChar: auvowelguru_tippiguru.abvs
+StartChar: auvowelguru_tippiguru
 Encoding: 65527 -1 163
-AltUni2: 00fff7.ffffffff.0 00fff7.ffffffff.0
 Width: 0
 Flags: W
 LayerCount: 2
@@ -7466,7 +7435,6 @@ SplineSet
  -205 626 -205 626 -202.5 636 c 128,-1,27
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" auvowelguru tippiguru
 EndChar
 

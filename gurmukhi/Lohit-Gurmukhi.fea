@@ -1,0 +1,275 @@
+# How to use
+# On Linux running make will generate ttf for you. For other platforms follow below steps
+# 1. Open Lohit-Devanagari.sfd in Fontforge
+# 2. Click on Fontforge File -> Merge Feature info and Select this feature file and save
+# 3. Now Generate ttf as you do for other fonts.
+# 4. Done
+# Copyright (C) 2013 Pravin Satpute <psatpute AT redhat DOT com> and Sneha Kore <skore AT redhat DOT com>
+# License: OFL 1.1
+# License URL: http://scripts.sil.org/OFL
+
+# GSUB 
+
+
+lookup nuktNuktaFormslookup0 {
+  lookupflag 0;
+    sub \laguru \nuktaguru  by \llaguru;
+    sub \saguru \nuktaguru  by \shaguru;
+    sub \khaguru \nuktaguru  by \khhaguru;
+    sub \gaguru \nuktaguru  by \ghhaguru;
+    sub \jaguru \nuktaguru  by \zaguru;
+    sub \ddaguru \nuktaguru  by \rraguru;
+    sub \phaguru \nuktaguru  by \faguru;
+} nuktNuktaFormslookup0;
+
+lookup blwfBelowBaseFormslookup1 {
+  lookupflag 0;
+    sub \viramaguru \haguru  by \haguru_viramaguru;
+    sub \viramaguru \vaguru  by \vaguru_viramaguru;
+    sub \viramaguru \raguru  by \raguru_viramaguru;
+} blwfBelowBaseFormslookup1;
+
+lookup abvsAboveBaseSubstitutionslooku {
+  lookupflag 0;
+    sub \eevowelguru \bindiguru  by \eevowelguru_bindiguru;
+    sub \oovowelguru \bindiguru  by \oovowelguru_bindiguru;
+    sub \auvowelguru \bindiguru  by \auvowelguru_bindiguru;
+    sub \iivowelguru \bindiguru  by \iivowelguru_bindiguru;
+    sub \iivowelguru \tippiguru  by \iivowelguru_tippiguru;
+    sub \iivowelguru \addakguru  by \iivowelguru_addakguru;
+    sub \eevowelguru \addakguru  by \eevowelguru_addakguru;
+    sub \aivowelguru \addakguru  by \aivowelguru_addakguru;
+    sub \oovowelguru \addakguru  by \oovowelguru_addakguru;
+    sub \auvowelguru \addakguru  by \auvowelguru_addakguru;
+    sub \eevowelguru \tippiguru  by \eevowelguru_tippiguru;
+    sub \aivowelguru \tippiguru  by \aivowelguru_tippiguru;
+    sub \oovowelguru \tippiguru  by \oovowelguru_tippiguru;
+    sub \auvowelguru \tippiguru  by \auvowelguru_tippiguru;
+} abvsAboveBaseSubstitutionslooku;
+
+lookup blwsBelowBaseSubstitutionslooku {
+  lookupflag 0;
+    sub \kaguru \viramaguru \raguru  by \kaguru_raguru_viramaguru;
+    sub \ddaguru \viramaguru \raguru  by \ddaguru_raguru_viramaguru;
+    sub \taguru \viramaguru \raguru  by \taguru_raguru_viramaguru;
+    sub \daguru \viramaguru \raguru  by \daguru_raguru_viramaguru;
+    sub \bhaguru \viramaguru \raguru  by \bhaguru_raguru_viramaguru;
+} blwsBelowBaseSubstitutionslooku;
+
+lookup pstfPostBaseFormslookup7 {
+  lookupflag 0;
+    sub \viramaguru \yaguru  by \viramaguru_yaguru;
+} pstfPostBaseFormslookup7;
+
+lookup vatuVattuVariantslookup6 {
+  lookupflag 0;
+    sub \kaguru \viramaguru \raguru  by \kaguru_raguru_viramaguru;
+    sub \ddaguru \viramaguru \raguru  by \ddaguru_raguru_viramaguru;
+    sub \taguru \viramaguru \raguru  by \taguru_raguru_viramaguru;
+    sub \daguru \viramaguru \raguru  by \daguru_raguru_viramaguru;
+    sub \bhaguru \viramaguru \raguru  by \bhaguru_raguru_viramaguru;
+} vatuVattuVariantslookup6;
+
+lookup pstsPostBaseSubstitutionslookup {
+  lookupflag 0;
+    @cc6_match_1 = [\uraguru ];
+    @cc6_match_2 = [\bindiguru \addakguru ];
+    @cc6_match_3 = [\eeguru ];
+    @cc6_back_1 = [\uraguru ];
+    @cc6_back_2 = [\bindiguru \addakguru ];
+    @cc6_back_3 = [\eeguru ];
+    @cc6_ahead_1 = [\uraguru ];
+    @cc6_ahead_2 = [\bindiguru \addakguru ];
+    @cc6_ahead_3 = [\eeguru ];
+    sub @cc6_back_1 @cc6_match_2' @cc6_ahead_3  by [\bindiguru.alt \addakguru.alt ] ;
+} pstsPostBaseSubstitutionslookup;
+
+feature nukt {
+
+  script gur2;
+     language dflt ;
+      lookup nuktNuktaFormslookup0;
+
+  script guru;
+     language dflt ;
+      lookup nuktNuktaFormslookup0;
+} nukt;
+
+feature blwf {
+
+  script gur2;
+     language dflt ;
+      lookup blwfBelowBaseFormslookup1;
+
+  script guru;
+     language dflt ;
+      lookup blwfBelowBaseFormslookup1;
+} blwf;
+
+feature abvs {
+
+  script gur2;
+     language dflt ;
+      lookup abvsAboveBaseSubstitutionslooku;
+
+  script guru;
+     language dflt ;
+      lookup abvsAboveBaseSubstitutionslooku;
+} abvs;
+
+feature blws {
+
+  script gur2;
+     language dflt ;
+      lookup blwsBelowBaseSubstitutionslooku;
+
+  script guru;
+     language dflt ;
+      lookup blwsBelowBaseSubstitutionslooku;
+} blws;
+
+feature pstf {
+
+  script gur2;
+     language dflt ;
+      lookup pstfPostBaseFormslookup7;
+
+  script guru;
+     language dflt ;
+      lookup pstfPostBaseFormslookup7;
+} pstf;
+
+feature vatu {
+
+  script gur2;
+     language dflt ;
+      lookup vatuVattuVariantslookup6;
+
+  script guru;
+     language dflt ;
+      lookup vatuVattuVariantslookup6;
+} vatu;
+
+feature psts {
+
+  script gur2;
+     language dflt ;
+      lookup pstsPostBaseSubstitutionslookup;
+
+  script guru;
+     language dflt ;
+      lookup pstsPostBaseSubstitutionslookup;
+} psts;
+
+# GPOS 
+
+
+lookup blwmBelowBaseMarklookup2 {
+  lookupflag 0;
+  markClass [\uvowelguru \uuvowelguru ] <anchor -262 0> @GRAnchor2;
+  markClass [\viramaguru ] <anchor 59 0> @GRAnchor2;
+  markClass [\udaatguru ] <anchor -47 0> @GRAnchor2;
+  markClass [\yakashguru ] <anchor -150 4> @GRAnchor2;
+  pos base [\ttaguru ] <anchor 213 -2> mark @GRAnchor2;
+  pos base [\tthaguru ] <anchor 254 -2> mark @GRAnchor2;
+  pos base [\naguru ] <anchor 247 -1> mark @GRAnchor2;
+  pos base [\dottedcircle ] <anchor 361 -2> mark @GRAnchor2;
+  pos base [\kaguru_raguru_viramaguru ] <anchor 238 -235> mark @GRAnchor2;
+  pos base [\ddaguru_raguru_viramaguru ] <anchor 237 -192> mark @GRAnchor2;
+  pos base [\taguru_raguru_viramaguru \bhaguru_raguru_viramaguru ] <anchor 233 -234> mark @GRAnchor2;
+  pos base [\daguru_raguru_viramaguru ] <anchor 254 -234> mark @GRAnchor2;
+} blwmBelowBaseMarklookup2;
+
+lookup abvmAboveBaseMarkinGurmukhilook {
+  lookupflag 0;
+  markClass [\adakbindiguru ] <anchor -360 506> @GRAnchor1;
+  markClass [\bindiguru ] <anchor -110 532> @GRAnchor1;
+  markClass [\eevowelguru ] <anchor -114 508> @GRAnchor1;
+  markClass [\aivowelguru ] <anchor -104 508> @GRAnchor1;
+  markClass [\oovowelguru ] <anchor -116 568> @GRAnchor1;
+  markClass [\auvowelguru \eevowelguru_bindiguru \eevowelguru_addakguru \eevowelguru_tippiguru ] <anchor -112 508> @GRAnchor1;
+  markClass [\tippiguru ] <anchor -114 490> @GRAnchor1;
+  markClass [\raguru_viramaguru ] <anchor -186 478> @GRAnchor1;
+  markClass [\oovowelguru_bindiguru ] <anchor -114 576> @GRAnchor1;
+  markClass [\aivowelguru_addakguru \aivowelguru_tippiguru ] <anchor -150 496> @GRAnchor1;
+  markClass [\oovowelguru_addakguru ] <anchor -114 586> @GRAnchor1;
+  markClass [\oovowelguru_tippiguru ] <anchor -114 566> @GRAnchor1;
+  pos base [\tthaguru ] <anchor 238 474> mark @GRAnchor1;
+  pos base [\naguru ] <anchor 232 474> mark @GRAnchor1;
+} abvmAboveBaseMarkinGurmukhilook;
+
+lookup pos_mark2base_abvmgur2_0 {
+  lookupflag 0;
+  markClass [\adakbindiguru ] <anchor -354 506> @GRAnchor0;
+  markClass [\bindiguru ] <anchor -116 526> @GRAnchor0;
+  pos base [\aaguru ] <anchor 738 486> mark @GRAnchor0;
+  pos base [\iguru ] <anchor 434 480> mark @GRAnchor0;
+  pos base [\iiguru ] <anchor 664 480> mark @GRAnchor0;
+  pos base [\uguru ] <anchor 558 480> mark @GRAnchor0;
+  pos base [\uuguru ] <anchor 528 480> mark @GRAnchor0;
+  pos base [\eeguru ] <anchor 400 480> mark @GRAnchor0;
+  pos base [\aiguru ] <anchor 536 480> mark @GRAnchor0;
+  pos base [\ooguru ] <anchor 480 480> mark @GRAnchor0;
+  pos base [\auguru ] <anchor 640 480> mark @GRAnchor0;
+} pos_mark2base_abvmgur2_0;
+
+feature blwm {
+
+  script gur2;
+     language dflt ;
+      lookup blwmBelowBaseMarklookup2;
+
+  script guru;
+     language dflt ;
+      lookup blwmBelowBaseMarklookup2;
+} blwm;
+
+feature abvm {
+
+  script gur2;
+     language dflt ;
+      lookup abvmAboveBaseMarkinGurmukhilook;
+      lookup pos_mark2base_abvmgur2_0;
+
+  script guru;
+     language dflt ;
+      lookup abvmAboveBaseMarkinGurmukhilook;
+      lookup pos_mark2base_abvmgur2_0;
+} abvm;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\.notdef \nonmarkingreturn \space \exclam \quotedbl \numbersign 
+	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
+	\comma \hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight 
+	\nine \colon \semicolon \less \equal \greater \question \at \bracketleft 
+	\backslash \bracketright \asciicircum \underscore \grave \braceleft \bar 
+	\braceright \asciitilde \multiply \divide \dandaguru \dbldandaguru 
+	\visargaguru \aguru \aaguru \iguru \iiguru \uguru \uuguru \eeguru \aiguru \ooguru 
+	\auguru \kaguru \khaguru \gaguru \ghaguru \ngaguru \caguru \chaguru \jaguru 
+	\jhaguru \nyaguru \ttaguru \tthaguru \ddaguru \ddhaguru \nnaguru \taguru 
+	\thaguru \daguru \dhaguru \naguru \paguru \phaguru \baguru \bhaguru \maguru 
+	\yaguru \raguru \laguru \llaguru \vaguru \shaguru \saguru \haguru \nuktaguru 
+	\aavowelguru \ivowelguru \iivowelguru \khhaguru \ghhaguru \zaguru \rraguru 
+	\faguru \zeroguru \oneguru \twoguru \threeguru \fourguru \fiveguru \sixguru 
+	\sevenguru \eightguru \nineguru \iriguru \uraguru \ekonkarguru 
+	\zerowidthnonjoiner \zerowidthjoiner \endash \emdash \quoteleft \quoteright 
+	\quotedblleft \quotedblright \ellipsis \minus \dottedcircle 
+	\kaguru_raguru_viramaguru \ddaguru_raguru_viramaguru 
+	\taguru_raguru_viramaguru \daguru_raguru_viramaguru 
+	\bhaguru_raguru_viramaguru \vaguru_viramaguru \bindiguru.alt \addakguru.alt 
+	\viramaguru_yaguru \inr_currency ];
+@GDEF_Ligature = [\iivowelguru_tippiguru \iivowelguru_addakguru 
+	\auvowelguru_addakguru \auvowelguru_tippiguru ];
+@GDEF_Mark = [\adakbindiguru \bindiguru \uvowelguru \uuvowelguru \eevowelguru 
+	\aivowelguru \oovowelguru \auvowelguru \viramaguru \tippiguru \addakguru 
+	\haguru_viramaguru \raguru_viramaguru \eevowelguru_bindiguru 
+	\oovowelguru_bindiguru \auvowelguru_bindiguru \iivowelguru_bindiguru 
+	\udaatguru \yakashguru \eevowelguru_addakguru \aivowelguru_addakguru 
+	\oovowelguru_addakguru \eevowelguru_tippiguru \aivowelguru_tippiguru 
+	\oovowelguru_tippiguru ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
+
