@@ -4,7 +4,7 @@ This readme is specifically for Lohit Gurumukhi(Punjabi).
 Referential Documents : 
 
 	- Microsoft typography for Gurumukhi script writings http://www.microsoft.com/typography/OpenTypeDev/gurmukhi/intro.htm
-	- TDIL 
+	- TDIL http://tdil.mit.gov.in/pdf/Vishwabharat/tdil-april-2002.zip
 
 Glyph naming guidelines:
 	- AGL guidelines are followed https://sourceforge.net/adobe/aglfn/wiki/Home/

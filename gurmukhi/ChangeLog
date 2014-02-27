@@ -4,7 +4,6 @@ Current Version :- 2.91.0
 * Thu Feb 27 2014 Pravin Satpute <psatpute@redhat.com> - 2.91.0
 - Renamed Lohit Punjabi to Lohit Gurmukhi.
 - First release of Gurmukhi after re-writing all rules.
-- Tested with Harfbuzz NG and Uniscribe (W8)
 Technical improvements
 - Supports guru and gur2 open type script tags.
 - Follows AGL specification syntax.
@@ -15,7 +14,13 @@ Technical improvements
 - Improved positioning of U+0A71.
 Designing improvements
 - Improved shape of aivowelguru, oovowelguru, auvowelguru,aivowelguru_tippiguru, oovowelguru_tippiguru, auvowelguru_tippiguru,aivowelguru_addakguru, oovowelguru_addakguru,auvowelguru_addakguru, oovowelguru_bindiguru, auvowelguru_bindiguru.
+- "Copy Reference" feature implemented for better reusability of glyphs.
 - Improved grid fitting(GASP) table.
+Testing
+- Tested with Harfbuzz NG and Uniscribe (W8)
+- Test file available with release tarball
+- Auto test integrated with Makefile ($make test).
+
 
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
 - Dropping RFN from OFL.txt
