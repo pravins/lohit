@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159495707
-ModificationTime: 1393234929
+ModificationTime: 1393488898
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -2633,17 +2633,17 @@ AnchorPoint: "GRAnchor0" 558 480 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-147 -95 m 1,0,1
- 179 -110 179 -110 217 -117.5 c 0,2,3
- 255 -125 255 -125 297 -125 c 256,4,5
- 339 -125 339 -125 377 -117.5 c 0,6,7
- 415 -110 415 -110 447 -95 c 1,8,-1
- 447 -145 l 1,9,10
- 415 -160 415 -160 377 -167.5 c 0,11,12
- 339 -175 339 -175 297 -175 c 256,13,14
- 255 -175 255 -175 217 -167.5 c 0,15,16
- 179 -160 179 -160 147 -145 c 1,17,-1
- 147 -95 l 1,0,1
+147 -95 m 1
+ 179 -110 179 -110 217 -117.5 c 0
+ 255 -125 255 -125 297 -125 c 256
+ 339 -125 339 -125 377 -117.5 c 0
+ 415 -110 415 -110 447 -95 c 1
+ 447 -145 l 1
+ 415 -160 415 -160 377 -167.5 c 0
+ 339 -175 339 -175 297 -175 c 256
+ 255 -175 255 -175 217 -167.5 c 0
+ 179 -160 179 -160 147 -145 c 1
+ 147 -95 l 1
 EndSplineSet
 Refer: 124 2675 N 1 0 0 1 0 0 2
 EndChar
@@ -5547,6 +5547,7 @@ Encoding: 2673 2673 122
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "GRAnchor0" -146 432 mark 0
 LayerCount: 2
 Fore
 SplineSet
