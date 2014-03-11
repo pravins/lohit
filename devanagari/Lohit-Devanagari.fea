@@ -24,6 +24,7 @@ lookup LocalizedMrForms_lookup0 {
 
 lookup LocalizedMrHalfFormslookup1 {
   lookupflag 0;
+    sub \jadeva \viramadeva \nyadeva \viramadeva  by \ja_virama_nya_viramadeva;
     sub \hadeva \viramadeva \radeva  by \hadeva_viramadeva_radeva;
     sub \kadeva \viramadeva \kadeva  by \kadeva_viramadeva_kadeva;
     sub \kadeva \viramadeva \ladeva.mr  by \kadeva_viramadeva_ladeva;
@@ -77,6 +78,12 @@ lookup LocalizedMrHalfFormslookup1 {
     sub \hadeva \viramadeva \ladeva.mr  by \hadeva_viramadeva_ladeva;
     sub \hadeva \viramadeva \vadeva  by \hadeva_viramadeva_vadeva;
 } LocalizedMrHalfFormslookup1;
+
+lookup loclLocalizedFormslookup35 {
+  lookupflag 0;
+    sub \viramadeva \radeva \usigndeva  by \vattudeva_ulowdeva;
+    sub \viramadeva \radeva \uusigndeva  by \vattudeva_uulowdeva;
+} loclLocalizedFormslookup35;
 
 lookup LocalizedNpFormslookup2 {
   lookupflag 0;
@@ -462,19 +469,19 @@ lookup PstsSub_Chain_Eyelash {
 
 lookup pstsPostBaseSubstitutionslookup {
   lookupflag 0;
-    @cc37_match_1 = [\vadeva_viramadeva ];
-    @cc37_match_2 = [\hadeva ];
-    @cc37_match_3 = [\isign_ra_virama_anusvara.alt2 \isign_ra_virama.alt2 \isigndeva.alt2 
+    @cc38_match_1 = [\vadeva_viramadeva ];
+    @cc38_match_2 = [\hadeva ];
+    @cc38_match_3 = [\isign_ra_virama_anusvara.alt2 \isign_ra_virama.alt2 \isigndeva.alt2 
 	\isigndeva_anusvara.alt2 ];
-    @cc37_back_1 = [\vadeva_viramadeva ];
-    @cc37_back_2 = [\hadeva ];
-    @cc37_back_3 = [\isign_ra_virama_anusvara.alt2 \isign_ra_virama.alt2 \isigndeva.alt2 
+    @cc38_back_1 = [\vadeva_viramadeva ];
+    @cc38_back_2 = [\hadeva ];
+    @cc38_back_3 = [\isign_ra_virama_anusvara.alt2 \isign_ra_virama.alt2 \isigndeva.alt2 
 	\isigndeva_anusvara.alt2 ];
-    @cc37_ahead_1 = [\vadeva_viramadeva ];
-    @cc37_ahead_2 = [\hadeva ];
-    @cc37_ahead_3 = [\isign_ra_virama_anusvara.alt2 \isign_ra_virama.alt2 \isigndeva.alt2 
+    @cc38_ahead_1 = [\vadeva_viramadeva ];
+    @cc38_ahead_2 = [\hadeva ];
+    @cc38_ahead_3 = [\isign_ra_virama_anusvara.alt2 \isign_ra_virama.alt2 \isigndeva.alt2 
 	\isigndeva_anusvara.alt2 ];
-    sub @cc37_match_3' @cc37_ahead_1 @cc37_ahead_2  by [\isign_ra_virama_anusvara.alt1 \isign_ra_virama.alt1 \isigndeva.alt1 \isigndeva_anusvara.alt1 ] ;
+    sub @cc38_match_3' @cc38_ahead_1 @cc38_ahead_2  by [\isign_ra_virama_anusvara.alt1 \isign_ra_virama.alt1 \isigndeva.alt1 \isigndeva_anusvara.alt1 ] ;
 } pstsPostBaseSubstitutionslookup;
 
 feature haln {
@@ -506,6 +513,7 @@ feature locl {
      language MAR  exclude_dflt;
       lookup LocalizedMrForms_lookup0;
       lookup LocalizedMrHalfFormslookup1;
+      lookup loclLocalizedFormslookup35;
      language NEP  exclude_dflt;
       lookup LocalizedNpFormslookup2;
       lookup LocalizedNpFormslookup3;
@@ -514,6 +522,7 @@ feature locl {
      language MAR  exclude_dflt;
       lookup LocalizedMrForms_lookup0;
       lookup LocalizedMrHalfFormslookup1;
+      lookup loclLocalizedFormslookup35;
      language NEP  exclude_dflt;
       lookup LocalizedNpFormslookup2;
       lookup LocalizedNpFormslookup3;

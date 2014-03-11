@@ -1,6 +1,9 @@
 				  lohit-devanagari
 Current Version :- 2.94.0
 
+- Updated sfd file with resolved issues regarding marathi locale (issue id on github: #46,#47)
+- Feature file updated 
+
 * Wed Feb 19 2014 Pravin Satpute <psatpute@redhat.com> - 2.94.0
 - Positioning lookup clean-up.
 - Improved grid fitting(GASP) table.
