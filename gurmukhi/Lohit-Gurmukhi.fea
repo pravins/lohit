@@ -202,6 +202,7 @@ lookup pos_mark2base_abvmgur2_0 {
   lookupflag 0;
   markClass [\adakbindiguru ] <anchor -354 506> @GRAnchor0;
   markClass [\bindiguru ] <anchor -116 526> @GRAnchor0;
+  markClass [\addakguru ] <anchor -146 432> @GRAnchor0;
   pos base [\aaguru ] <anchor 738 486> mark @GRAnchor0;
   pos base [\iguru ] <anchor 434 480> mark @GRAnchor0;
   pos base [\iiguru ] <anchor 664 480> mark @GRAnchor0;

@@ -1,10 +1,10 @@
 SplineFontDB: 3.0
-FontName: Lohit-Oriya
-FullName: Lohit Oriya
-FamilyName: Lohit Oriya
+FontName: Lohit-Odia
+FullName: Lohit Odia
+FamilyName: Lohit Odia
 Weight: Book
-Copyright: Copyright 2011-12 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
-Version: 2.5.4
+Copyright: Copyright 2011-14 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
+Version: 2.5.5
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -19,8 +19,8 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1158849336
-ModificationTime: 1366797648
-PfmFamily: 17
+ModificationTime: 1394081629
+PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 200
@@ -960,7 +960,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "" "" "Version 2.5.4" 
+LangName: 1033 "" "" "Regular" "" "" "2.5.5" 
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -968,7 +968,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 33 14
+WinInfo: 58 29 11
 BeginPrivate: 0
 EndPrivate
 BeginChars: 65864 431

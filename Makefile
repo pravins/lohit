@@ -1,5 +1,5 @@
 
-all-ttf:= assamese bengali devanagari gujarati gurmukhi kannada malayalam marathi nepali oriya tamil tamil-classical telugu
+all-ttf:= assamese bengali devanagari gujarati gurmukhi kannada malayalam marathi nepali odia tamil tamil-classical telugu
 date1:= `date +%Y%m%d`
 
 

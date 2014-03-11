@@ -15,7 +15,7 @@ mkdir lohit-ttf-$date1
 sh generate.sh
 cp ChangeLog ChangeLog.old
 #for generating binary tar ball
-for i in assamese bengali devanagari gujarati  kannada  malayalam  marathi nepali oriya  gurmukhi  tamil tamil-classical telugu 
+for i in assamese bengali devanagari gujarati  kannada  malayalam  marathi nepali odia  gurmukhi  tamil tamil-classical telugu 
 do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-ttf-$ver
@@ -34,7 +34,7 @@ rm -rf lohit-ttf-$date1
 
 
 #for generating source tar ball
-for i in assamese bengali devanagari gujarati  kannada  malayalam marathi nepali  oriya  gurmukhi  tamil tamil-classical telugu
+for i in assamese bengali devanagari gujarati  kannada  malayalam marathi nepali  odia  gurmukhi  tamil tamil-classical telugu
 do
 ver=`cat $i/ChangeLog | grep "Current Version :-" | awk '{ print $4}'`
 mkdir lohit-$i-$ver

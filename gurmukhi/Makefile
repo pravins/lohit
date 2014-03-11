@@ -34,7 +34,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-gurmukhi-$(version)
-	cp -p COPYRIGHT OFL.txt test-gurmukhi.txt README AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog  66-lohit-gurmukhi.conf Lohit-Gurmukhi.sfd lohit-gurmukhi-$(version)
+	cp -p COPYRIGHT OFL.txt test-gurmukhi.txt std-test-out.txt README AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog  66-lohit-gurmukhi.conf Lohit-Gurmukhi.sfd lohit-gurmukhi-$(version)
 	rm -rf lohit-gurmukhi-$(version)/.git
 	rm -rf lohit-gurmukhi-$(version)/*.ttf
 	tar -cf lohit-gurmukhi-$(version).tar lohit-gurmukhi-$(version)
