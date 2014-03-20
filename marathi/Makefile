@@ -1,6 +1,9 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist
+version:= 2.94.0
 
-version:= 2.93.0
+test: test-ttf
+        @echo "----------Testing actual-output with expected-output----------"
+        python auto_test.py std-test-out.txt Lohit-Marathi.ttf
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
