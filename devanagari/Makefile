@@ -14,13 +14,13 @@ ttf: ttf-bin
 
 woff: woff-bin
 	@echo "----------Generating woff from ttf file----------"
-	java -jar /usr/share/java/sfntly/sfnttool.jar -w Lohit-Devanagari.ttf Lohit-Devanagari.woff
+	sfntly -w Lohit-Devanagari.ttf Lohit-Devanagari.woff
 	@echo "----------Finished generating woff file----------"
 	@echo " "
 
 eot: eot-bin
 	@echo "----------Generating eot from ttf file----------"
-	java -jar /usr/share/java/sfntly/sfnttool.jar -e -x Lohit-Devanagari.ttf Lohit-Devanagari.eot
+	sfntly -e -x Lohit-Devanagari.ttf Lohit-Devanagari.eot
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 

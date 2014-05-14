@@ -2,8 +2,8 @@ all: sfd-dist ttf woff eot ttf-dist web-dist
 version:= 2.94.0
 
 test: test-ttf
-        @echo "----------Testing actual-output with expected-output----------"
-        python auto_test.py std-test-out.txt Lohit-Marathi.ttf
+	@echo "----------Testing actual-output with expected-output----------"
+	python auto_test.py std-test-out.txt Lohit-Marathi.ttf
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
@@ -14,13 +14,13 @@ ttf: ttf-bin
 
 woff: woff-bin
 	@echo "----------Generating woff from ttf file----------"
-	java -jar /usr/share/java/sfntly/sfnttool.jar -w Lohit-Marathi.ttf Lohit-Marathi.woff
+	sfntly -w Lohit-Marathi.ttf Lohit-Marathi.woff
 	@echo "----------Finished generating woff file----------"
 	@echo " "
 
 eot: eot-bin
 	@echo "----------Generating eot from ttf file----------"
-	java -jar /usr/share/java/sfntly/sfnttool.jar -e -x Lohit-Marathi.ttf Lohit-Marathi.eot
+	sfntly -e -x Lohit-Marathi.ttf Lohit-Marathi.eot
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 
