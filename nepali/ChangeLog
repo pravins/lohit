@@ -1,5 +1,15 @@
 				  lohit-nepali
-Current Version :- 2.93.0
+Current Version :- 2.94.0
+
+* Wed May 14 2014 Pravin Satpute <psatpute@redhat.com> - 2.94.0
+- Porting from Devanagari to Nepali
+- Positioning lookup clean-up.
+- Improved grid fitting(GASP) table.
+- Renamed anchors to DVAnchor.
+- Using glyph reference (copy reference) instead of whole glyph points.
+- Auto test integrated with Makefile ($make test).
+- Resolved #32: "सर्व्हिस does not render correctly"
+- Resolved #33: "improper rendering for word : "मञ्यांच्या""
 
 * Mon Dec 23 2013 Pravin Satpute <psatpute@redhat.com> - 2.93.0
 - Forked Lohit Devanagari 2.93.0 for Nepali
