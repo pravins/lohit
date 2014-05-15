@@ -34,7 +34,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-marathi-$(version)
-	cp -p COPYRIGHT OFL.txt README  test-marathi.txt AUTHORS generate*.pe  *.py *.fea Makefile ChangeLog  65-0-lohit-marathi.conf Lohit-Marathi.sfd lohit-marathi-$(version)
+	cp -p COPYRIGHT OFL.txt README  test-marathi.txt AUTHORS generate*.pe  *.py *.fea Makefile ChangeLog  65-0-lohit-marathi.conf std-test-out.txt Lohit-Marathi.sfd lohit-marathi-$(version)
 	rm -rf lohit-marathi-$(version)/.git
 	rm -rf lohit-marathi-$(version)/*.ttf
 	tar -cf lohit-marathi-$(version).tar lohit-marathi-$(version)
@@ -54,4 +54,4 @@ clean: cleanall
 	rm -rf *.tar.gz
 	rm -rf lohit-marathi*
 
-.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version test-ttf
