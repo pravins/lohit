@@ -11,18 +11,18 @@
 # GSUB 
 
 
-lookup halnHalantFormslookup29 {
+lookup halnHalantFormslookup0 {
   lookupflag 0;
     sub \dadeva \viramadeva  by \dadeva_viramadeva;
-} halnHalantFormslookup29;
+} halnHalantFormslookup0;
 
-lookup LocalizedMrForms_lookup0 {
+lookup loclLocalizedFormslookup1 {
   lookupflag 0;
     sub \ladeva by \ladeva.mr ;
     sub \shadeva by \shadeva.mr ;
-} LocalizedMrForms_lookup0;
+} loclLocalizedFormslookup1;
 
-lookup LocalizedMrHalfFormslookup1 {
+lookup loclLocalizedFormslookup2 {
   lookupflag 0;
     sub \jadeva \viramadeva \nyadeva \viramadeva  by \ja_virama_nya_viramadeva;
     sub \hadeva \viramadeva \radeva  by \hadeva_viramadeva_radeva;
@@ -77,27 +77,27 @@ lookup LocalizedMrHalfFormslookup1 {
     sub \hadeva \viramadeva \yadeva  by \hadeva_viramadeva_yadeva;
     sub \hadeva \viramadeva \ladeva.mr  by \hadeva_viramadeva_ladeva;
     sub \hadeva \viramadeva \vadeva  by \hadeva_viramadeva_vadeva;
-} LocalizedMrHalfFormslookup1;
+} loclLocalizedFormslookup2;
 
-lookup loclLocalizedFormslookup35 {
+lookup loclLocalizedFormslookup3 {
   lookupflag 0;
     sub \viramadeva \radeva \usigndeva  by \vattudeva_ulowdeva;
     sub \viramadeva \radeva \uusigndeva  by \vattudeva_uulowdeva;
-} loclLocalizedFormslookup35;
+} loclLocalizedFormslookup3;
 
-lookup LocalizedNpFormslookup2 {
+lookup loclLocalizedFormslookup4 {
   lookupflag 0;
     sub \jhadeva by \jhadeva.np ;
     sub \fivedeva by \fivedeva.np ;
     sub \eightdeva by \eightdeva.np ;
-} LocalizedNpFormslookup2;
+} loclLocalizedFormslookup4;
 
-lookup LocalizedNpFormslookup3 {
+lookup loclLocalizedFormslookup5 {
   lookupflag 0;
     sub \kadeva \viramadeva \radeva  by \kadeva_viramadeva_radeva.np;
-} LocalizedNpFormslookup3;
+} loclLocalizedFormslookup5;
 
-lookup NuktaFormslookup5 {
+lookup nuktNuktaFormslookup6 {
   lookupflag 0;
     sub \nadeva \nuktadeva  by \nnnadeva;
     sub \radeva \nuktadeva  by \rradeva;
@@ -110,28 +110,29 @@ lookup NuktaFormslookup5 {
     sub \ddhadeva \nuktadeva  by \rhadeva;
     sub \phadeva \nuktadeva  by \fadeva;
     sub \yadeva \nuktadeva  by \yyadeva;
-} NuktaFormslookup5;
+} nuktNuktaFormslookup6;
 
-lookup AkhandFormslookup6 {
+lookup akhnAkhandlookup7 {
   lookupflag 0;
     sub \kadeva \viramadeva \ssadeva  by \kadeva_viramadeva_ssadeva;
     sub \jadeva \viramadeva \nyadeva  by \jadeva_viramadeva_nyadeva;
-} AkhandFormslookup6;
+} akhnAkhandlookup7;
 
-lookup RephFormlookup7 {
+lookup rphfRephFormlookup8 {
   lookupflag 0;
     sub \radeva \viramadeva  by \radeva_viramadeva;
-} RephFormlookup7;
+} rphfRephFormlookup8;
 
-lookup BelowBaseFormslookup9 {
+lookup blwfBelowBaseFormslookup9 {
   lookupflag 0;
-    sub \radeva \viramadeva  by \viramadeva_radeva;
     sub \viramadeva \radeva  by \viramadeva_radeva;
+    sub \radeva \viramadeva  by \viramadeva_radeva;
     sub \hadeva \viramadeva_radeva  by \hadeva_viramadeva_radeva;
-} BelowBaseFormslookup9;
+} blwfBelowBaseFormslookup9;
 
-lookup HalfFormslookup10 {
+lookup halfHalfFormslookup10 {
   lookupflag 0;
+    sub \badeva_viramadeva_radeva \viramadeva  by \ba_virama_ra_viramadeva;
     sub \kadeva \viramadeva  by \kadeva_viramadeva;
     sub \khadeva \viramadeva  by \khadeva_viramadeva;
     sub \gadeva \viramadeva  by \gadeva_viramadeva;
@@ -159,8 +160,8 @@ lookup HalfFormslookup10 {
     sub \bhadeva \viramadeva  by \bhadeva_viramadeva;
     sub \madeva \viramadeva  by \madeva_viramadeva;
     sub \yadeva \viramadeva  by \yadeva_viramadeva;
-    sub \ladeva \viramadeva  by \ladeva_viramadeva;
     sub \ladeva.mr \viramadeva  by \ladeva_viramadeva;
+    sub \ladeva \viramadeva  by \ladeva_viramadeva;
     sub \lladeva \viramadeva  by \lladeva_viramadeva;
     sub \llladeva \viramadeva  by \llladeva_viramadeva;
     sub \vadeva \viramadeva  by \vadeva_viramadeva;
@@ -178,16 +179,17 @@ lookup HalfFormslookup10 {
     sub \jadeva_viramadeva_nyadeva \viramadeva  by \ja_virama_nya_viramadeva;
     sub \radeva \viramadeva \zerowidthjoiner  by \radeva_viramadeva.alt;
     sub \shadeva.mr \viramadeva  by \shadeva_viramadeva.mr;
-    sub \badeva_viramadeva_radeva \viramadeva  by \ba_virama_ra_viramadeva;
-} HalfFormslookup10;
+} halfHalfFormslookup10;
 
-lookup VattuVariantslookup30 {
+lookup vatuVattuVariantslookup11 {
   lookupflag 0;
+    sub \badeva_viramadeva \viramadeva_radeva  by \ba_virama_ra_viramadeva;
+    sub \badeva \viramadeva_radeva \viramadeva  by \ba_virama_ra_viramadeva;
     sub \shadeva.mr \viramadeva_radeva  by \shadeva_viramadeva_radeva;
     sub \shadeva_viramadeva.alt \radeva  by \shadeva_viramadeva_radeva;
     sub \shadeva \viramadeva_radeva  by \shadeva_viramadeva_radeva;
-    sub \tadeva \viramadeva_radeva \viramadeva  by \ta_virama_ra_viramadeva;
     sub \tadeva_viramadeva \viramadeva_radeva  by \ta_virama_ra_viramadeva;
+    sub \tadeva \viramadeva_radeva \viramadeva  by \ta_virama_ra_viramadeva;
     sub \kadeva \viramadeva_radeva  by \kadeva_viramadeva_radeva;
     sub \khadeva \viramadeva_radeva  by \khadeva_viramadeva_radeva;
     sub \gadeva \viramadeva_radeva  by \gadeva_viramadeva_radeva;
@@ -216,11 +218,9 @@ lookup VattuVariantslookup30 {
     sub \ssadeva \viramadeva_radeva  by \ssadeva_viramadeva_radeva;
     sub \kadeva_viramadeva_ssadeva \viramadeva_radeva  by \ka_virama_ssa_virama_radeva;
     sub \jadeva_viramadeva_nyadeva \viramadeva_radeva  by \ja_virama_nya_virama_radeva;
-    sub \badeva \viramadeva_radeva \viramadeva  by \ba_virama_ra_viramadeva;
-    sub \badeva_viramadeva \viramadeva_radeva  by \ba_virama_ra_viramadeva;
-} VattuVariantslookup30;
+} vatuVattuVariantslookup11;
 
-lookup ConjunctFormslookup11 {
+lookup cjctConjunctFormslookup12 {
   lookupflag 0;
     sub \dadeva \viramadeva \gadeva  by \dadeva_viramadeva_gadeva;
     sub \dadeva \viramadeva \ghadeva  by \dadeva_viramadeva_ghadeva;
@@ -234,9 +234,9 @@ lookup ConjunctFormslookup11 {
     sub \dadeva \viramadeva \vadeva  by \dadeva_viramadeva_vadeva;
     sub \dadeva_viramadeva_dhadeva \viramadeva_radeva \viramadeva \yadeva  by \da_ddha_ra_yadeva;
     sub \dadeva_viramadeva \dhadeva_viramadeva_radeva \viramadeva \yadeva  by \da_ddha_ra_yadeva;
-} ConjunctFormslookup11;
+} cjctConjunctFormslookup12;
 
-lookup PreBaseSubstitutionslookup1 {
+lookup presPreBaseSubstitutionslookup1 {
   lookupflag 0;
     sub \shadeva_viramadeva.mr \radeva  by \shadeva_viramadeva_radeva;
     sub \shadeva \viramadeva \radeva  by \shadeva_viramadeva_radeva;
@@ -300,9 +300,9 @@ lookup PreBaseSubstitutionslookup1 {
     sub \hadeva_viramadeva \vadeva  by \hadeva_viramadeva_vadeva;
     sub \sadeva_viramadeva \tadeva_viramadeva_radeva  by \sa_virama_ta_virama_radeva;
     sub \jadeva_viramadeva \jadeva_viramadeva  by \ja_virama_ja_viramadeva;
-} PreBaseSubstitutionslookup1;
+} presPreBaseSubstitutionslookup1;
 
-lookup PresSub_Chain_VowelSign {
+lookup sub_chain_presdev2_0 {
   lookupflag 0;
     sub [\isigndeva ]' [\khadeva \ladeva \khhadeva \tadeva_viramadeva_tadeva \gadeva_viramadeva 
 	\ghhadeva_viramadeva \khadeva_viramadeva_radeva 
@@ -311,9 +311,9 @@ lookup PresSub_Chain_VowelSign {
 	\ladeva_viramadeva_radeva ]  by [\isigndeva.alt1 ];
   subtable;
     sub [\isigndeva ]' [\radeva \rradeva ]  by [\isigndeva.alt3 ];
-} PresSub_Chain_VowelSign;
+} sub_chain_presdev2_0;
 
-lookup PresSub_Chain_IVowelSign_alt2_0 {
+lookup sub_chain_presdev2_2 {
   lookupflag 0;
     sub [\isigndeva ]' [\kadeva_viramadeva \khadeva_viramadeva \ghadeva_viramadeva 
 	\ngadeva_viramadeva \cadeva_viramadeva \chadeva_viramadeva 
@@ -333,9 +333,9 @@ lookup PresSub_Chain_IVowelSign_alt2_0 {
 	\ttadeva_viramadeva_yadeva \tthadeva_viraamdeva_yadeva 
 	\ddadeva_viramadeva_yadeva \ddhadeva_viramadeva_yadeva 
 	\da_ddha_ra_yadeva \shadeva_viramadeva.mr ]  by [\isigndeva.alt2 ];
-} PresSub_Chain_IVowelSign_alt2_0;
+} sub_chain_presdev2_2;
 
-lookup PresSub_Chain_IVowelSign_alt4_1 {
+lookup sub_chain_presdev2_4 {
   lookupflag 0;
     sub [\isigndeva ]' [\ghadeva \ngadeva \cadeva \ddadeva \tadeva \dhadeva \yadeva 
 	\kadeva_viramadeva_ssadeva \ngadeva_viramadeva_kadeva 
@@ -350,27 +350,41 @@ lookup PresSub_Chain_IVowelSign_alt4_1 {
 	\ghadeva_viramadeva_radeva \cadeva_viramadeva_radeva 
 	\dhadeva_viramadeva_radeva \nadeva_viramadeva_radeva 
 	\ssadeva_viramadeva_radeva \ka_virama_ssa_virama_radeva ]  by [\isigndeva.alt4 ];
-} PresSub_Chain_IVowelSign_alt4_1;
+} sub_chain_presdev2_4;
 
-lookup presPreBaseSubstitutionslookup3 {
+lookup presPreBaseSubstitutionslookup2 {
   lookupflag 0;
     sub [\isigndeva ]' [\chadeva \nnadeva \thadeva \bhadeva \lladeva \llladeva \shadeva 
 	\shadeva_viramadeva_radeva \jadeva_viramadeva_nyadeva 
 	\bhadeva_viramadeva_radeva \thadeva_viramadeva_radeva 
 	\ja_virama_nya_virama_radeva \shadeva.mr ]  by [\isigndeva.tha ];
-} presPreBaseSubstitutionslookup3;
+} presPreBaseSubstitutionslookup2;
 
-lookup sub_chain_presdev2_0 {
+lookup sub_chain_presdev2_6 {
   lookupflag 0;
     sub [\isigndeva ]' [\jadeva \jhadeva \nyadeva \sadeva \jadeva_viramadeva_radeva 
 	\jhadeva_viramadeva_radeva \nyadeva_viramadeva_cadeva 
 	\nyadeva_viramadeva_jadeva \dadeva_viramadeva_madeva 
 	\dadeva_viramadeva_yadeva \ladeva_viramadeva_ladeva 
 	\hadeva_viramadeva_madeva \ladeva.mr ]  by [\isigndeva.ja ];
-} sub_chain_presdev2_0;
+} sub_chain_presdev2_6;
 
-lookup PreBaseSubstitutionslookup2 {
+lookup sub_ligature_presdev2_0 {
   lookupflag IgnoreBaseGlyphs, IgnoreLigatures;
+    sub \isigndeva.tha \radeva_viramadeva \anusvaradeva  by \isign_ra_virama_anusvara.ja;
+    sub \isigndeva.tha \radeva_viramadeva  by \isign_ra_virama.ja;
+    sub \isigndeva.ja \anusvaradeva  by \isigndeva_anusvaradeva.ja;
+    sub \isigndeva.tha \anusvaradeva  by \isigndeva_anusvara.tha;
+    sub \isigndeva.tha \radeva_viramadeva \anusvaradeva  by \isign_ra_virama_anusvara.tha;
+    sub \isigndeva.tha \radeva_viramadeva  by \isign_ra_virama.tha;
+    sub \isigndeva.alt1 \radeva_viramadeva \anusvaradeva  by \isign_ra_virama_anusvara.alt1;
+    sub \isigndeva.alt1 \radeva_viramadeva  by \isign_ra_virama.alt1;
+    sub \isigndeva.alt1 \anusvaradeva  by \isigndeva_anusvara.alt1;
+    sub \isigndeva.alt4 \anusvaradeva  by \isigndeva_anusvaradeva.alt4;
+    sub \isigndeva.alt4 \radeva_viramadeva \anusvaradeva  by \isign_ra_virama_anusvara.alt4;
+    sub \isigndeva.alt4 \radeva_viramadeva  by \isign_ra_virama.alt4;
+    sub \isigndeva.alt2 \radeva_viramadeva \anusvaradeva  by \isign_ra_virama_anusvara.alt2;
+    sub \isigndeva.alt2 \radeva_viramadeva  by \isign_ra_virama.alt2;
     sub \isigndeva.alt2 \anusvaradeva  by \isigndeva_anusvara.alt2;
     sub \isigndeva \anusvaradeva  by \isigndeva_anusvaradeva;
     sub \isigndeva \radeva_viramadeva  by \isign_ra_virama;
@@ -378,23 +392,9 @@ lookup PreBaseSubstitutionslookup2 {
     sub \isigndeva.alt3 \anusvaradeva  by \isigndeva_anusvaradeva.alt3;
     sub \isigndeva.alt3 \radeva_viramadeva  by \isign_ra_virama.alt3;
     sub \isigndeva.alt3 \radeva_viramadeva \anusvaradeva  by \isign_ra_virama_anusvara.alt3;
-    sub \isigndeva.alt2 \radeva_viramadeva  by \isign_ra_virama.alt2;
-    sub \isigndeva.alt2 \radeva_viramadeva \anusvaradeva  by \isign_ra_virama_anusvara.alt2;
-    sub \isigndeva.alt4 \anusvaradeva  by \isigndeva_anusvaradeva.alt4;
-    sub \isigndeva.alt4 \radeva_viramadeva  by \isign_ra_virama.alt4;
-    sub \isigndeva.alt4 \radeva_viramadeva \anusvaradeva  by \isign_ra_virama_anusvara.alt4;
-    sub \isigndeva.alt1 \anusvaradeva  by \isigndeva_anusvara.alt1;
-    sub \isigndeva.alt1 \radeva_viramadeva  by \isign_ra_virama.alt1;
-    sub \isigndeva.alt1 \radeva_viramadeva \anusvaradeva  by \isign_ra_virama_anusvara.alt1;
-    sub \isigndeva.tha \anusvaradeva  by \isigndeva_anusvara.tha;
-    sub \isigndeva.tha \radeva_viramadeva \anusvaradeva  by \isign_ra_virama_anusvara.tha;
-    sub \isigndeva.tha \radeva_viramadeva  by \isign_ra_virama.tha;
-    sub \isigndeva.ja \anusvaradeva  by \isigndeva_anusvaradeva.ja;
-    sub \isigndeva.tha \radeva_viramadeva  by \isign_ra_virama.ja;
-    sub \isigndeva.tha \radeva_viramadeva \anusvaradeva  by \isign_ra_virama_anusvara.ja;
-} PreBaseSubstitutionslookup2;
+} sub_ligature_presdev2_0;
 
-lookup AboveBaseSubstitutionslookup {
+lookup abvsAboveBaseSubstitutionslooku {
   lookupflag 0;
     sub \esigndeva \anusvaradeva  by \esigndeva_anusvaradeva;
     sub \esigndeva \radeva_viramadeva  by \esign_ra_virama.alt1;
@@ -409,9 +409,9 @@ lookup AboveBaseSubstitutionslookup {
     sub \ausigndeva \anusvaradeva  by \ausigndeva_anusvaradeva;
     sub \ausigndeva \radeva_viramadeva  by \ausign_ra_virama.alt1;
     sub \ausigndeva \radeva_viramadeva \anusvaradeva  by \ausign_ra_virama_anusvara;
-} AboveBaseSubstitutionslookup;
+} abvsAboveBaseSubstitutionslooku;
 
-lookup PostBaseSubstitutionslookup {
+lookup pstsPostBaseSubstitutionslookup {
   lookupflag 0;
     sub \isigndeva \anusvaradeva  by \isigndeva_anusvaradeva;
     sub \isigndeva \radeva_viramadeva  by \isign_ra_virama;
@@ -422,17 +422,17 @@ lookup PostBaseSubstitutionslookup {
     sub \iisigndeva.alt1 \anusvaradeva  by \iisigndeva_anusvaradeva.alt1;
     sub \iisigndeva.alt1 \radeva_viramadeva  by \iisigndeva_ra_virama.alt1;
     sub \iisigndeva.alt1 \radeva_viramadeva_anusvaradeva  by \iisign_ra_virama_anusvara.alt1;
-} PostBaseSubstitutionslookup;
+} pstsPostBaseSubstitutionslookup;
 
-lookup BlwsSub_Ligature_Ukaar {
+lookup blwsBelowBaseSubstitutionslooku {
   lookupflag 0;
     sub \viramadeva_radeva \usigndeva  by \vattudeva_ulowdeva;
     sub \viramadeva_radeva \uusigndeva  by \vattudeva_uulowdeva;
     sub \dadeva \rvocalicsigndeva  by \dadeva_rvocalicsigndeva;
     sub \hadeva \rvocalicsigndeva  by \hadeva_rvocalicdeva;
-} BlwsSub_Ligature_Ukaar;
+} blwsBelowBaseSubstitutionslooku;
 
-lookup PstsSub_Chain_ExtdEMatra {
+lookup sub_chain_pstsdev2_0 {
   lookupflag 0;
     sub [\rvocalicdeva \kadeva \phadeva \qadeva \fadeva \rrvocalicdeva 
 	\phadeva_radeva_nuktadeva \phadeva_viramadeva_radeva 
@@ -442,32 +442,32 @@ lookup PstsSub_Chain_ExtdEMatra {
 	\iisign_ra_virama_anusvara ]'  by [\iisigndeva.alt1 
 	\iisign_ra_virama_anusvara.alt1 \iisigndeva_ra_virama.alt1 
 	\iisign_ra_virama_anusvara.alt1 ];
-} PstsSub_Chain_ExtdEMatra;
+} sub_chain_pstsdev2_0;
 
-lookup PstsSub_Ligature_Ra {
+lookup sub_ligature_pstsdev2_0 {
   lookupflag 0;
     sub \radeva \usigndeva  by \radeva_usigndeva;
     sub \radeva \uusigndeva  by \radeva_uusigndeva;
-} PstsSub_Ligature_Ra;
+} sub_ligature_pstsdev2_0;
 
-lookup LigatureSubstitutionlookup28 {
+lookup LigatureSubstitutionlookup32 {
   lookupflag 0;
-    sub \rradeva \viramadeva  by \radeva_viramadeva.alt;
     sub \viramadeva_radeva \zerowidthjoiner  by \radeva_viramadeva.alt;
-} LigatureSubstitutionlookup28;
+    sub \rradeva \viramadeva  by \radeva_viramadeva.alt;
+} LigatureSubstitutionlookup32;
 
-lookup PstsSub_Chain_Eyelash {
+lookup sub_chain_pstsdev2_2 {
   lookupflag 0;
-    sub  \rradeva'lookup LigatureSubstitutionlookup28  \viramadeva'lookup LigatureSubstitutionlookup28  \yadeva  ;
+    sub  \rradeva'lookup LigatureSubstitutionlookup32  \viramadeva'lookup LigatureSubstitutionlookup32  \yadeva  ;
   subtable;
-    sub  \rradeva'lookup LigatureSubstitutionlookup28  \viramadeva'lookup LigatureSubstitutionlookup28  \hadeva  ;
+    sub  \rradeva'lookup LigatureSubstitutionlookup32  \viramadeva'lookup LigatureSubstitutionlookup32  \hadeva  ;
   subtable;
-    sub  \viramadeva_radeva'lookup LigatureSubstitutionlookup28  \zerowidthjoiner'lookup LigatureSubstitutionlookup28  \yadeva  ;
+    sub  \viramadeva_radeva'lookup LigatureSubstitutionlookup32  \zerowidthjoiner'lookup LigatureSubstitutionlookup32  \yadeva  ;
   subtable;
-    sub  \viramadeva_radeva'lookup LigatureSubstitutionlookup28  \zerowidthjoiner'lookup LigatureSubstitutionlookup28  \hadeva  ;
-} PstsSub_Chain_Eyelash;
+    sub  \viramadeva_radeva'lookup LigatureSubstitutionlookup32  \zerowidthjoiner'lookup LigatureSubstitutionlookup32  \hadeva  ;
+} sub_chain_pstsdev2_2;
 
-lookup pstsPostBaseSubstitutionslookup {
+lookup sub_chain_pstsdev2_4 {
   lookupflag 0;
     @cc38_match_1 = [\vadeva_viramadeva ];
     @cc38_match_2 = [\hadeva ];
@@ -482,319 +482,319 @@ lookup pstsPostBaseSubstitutionslookup {
     @cc38_ahead_3 = [\isign_ra_virama_anusvara.alt2 \isign_ra_virama.alt2 \isigndeva.alt2 
 	\isigndeva_anusvara.alt2 ];
     sub @cc38_match_3' @cc38_ahead_1 @cc38_ahead_2  by [\isign_ra_virama_anusvara.alt1 \isign_ra_virama.alt1 \isigndeva.alt1 \isigndeva_anusvara.alt1 ] ;
-} pstsPostBaseSubstitutionslookup;
+} sub_chain_pstsdev2_4;
 
 feature haln {
 
   script DFLT;
      language dflt ;
-      lookup halnHalantFormslookup29;
+      lookup halnHalantFormslookup0;
 
   script dev2;
      language dflt ;
-      lookup halnHalantFormslookup29;
+      lookup halnHalantFormslookup0;
      language MAR  exclude_dflt;
-      lookup halnHalantFormslookup29;
+      lookup halnHalantFormslookup0;
      language NEP  exclude_dflt;
-      lookup halnHalantFormslookup29;
+      lookup halnHalantFormslookup0;
 
   script deva;
      language dflt ;
-      lookup halnHalantFormslookup29;
+      lookup halnHalantFormslookup0;
      language MAR  exclude_dflt;
-      lookup halnHalantFormslookup29;
+      lookup halnHalantFormslookup0;
      language NEP  exclude_dflt;
-      lookup halnHalantFormslookup29;
+      lookup halnHalantFormslookup0;
 } haln;
 
 feature locl {
 
   script dev2;
      language MAR  exclude_dflt;
-      lookup LocalizedMrForms_lookup0;
-      lookup LocalizedMrHalfFormslookup1;
-      lookup loclLocalizedFormslookup35;
+      lookup loclLocalizedFormslookup1;
+      lookup loclLocalizedFormslookup2;
+      lookup loclLocalizedFormslookup3;
      language NEP  exclude_dflt;
-      lookup LocalizedNpFormslookup2;
-      lookup LocalizedNpFormslookup3;
+      lookup loclLocalizedFormslookup4;
+      lookup loclLocalizedFormslookup5;
 
   script deva;
      language MAR  exclude_dflt;
-      lookup LocalizedMrForms_lookup0;
-      lookup LocalizedMrHalfFormslookup1;
-      lookup loclLocalizedFormslookup35;
+      lookup loclLocalizedFormslookup1;
+      lookup loclLocalizedFormslookup2;
+      lookup loclLocalizedFormslookup3;
      language NEP  exclude_dflt;
-      lookup LocalizedNpFormslookup2;
-      lookup LocalizedNpFormslookup3;
+      lookup loclLocalizedFormslookup4;
+      lookup loclLocalizedFormslookup5;
 } locl;
 
 feature nukt {
 
   script dev2;
      language dflt ;
-      lookup NuktaFormslookup5;
+      lookup nuktNuktaFormslookup6;
      language MAR  exclude_dflt;
-      lookup NuktaFormslookup5;
+      lookup nuktNuktaFormslookup6;
      language NEP  exclude_dflt;
-      lookup NuktaFormslookup5;
+      lookup nuktNuktaFormslookup6;
 
   script deva;
      language dflt ;
-      lookup NuktaFormslookup5;
+      lookup nuktNuktaFormslookup6;
      language MAR  exclude_dflt;
-      lookup NuktaFormslookup5;
+      lookup nuktNuktaFormslookup6;
      language NEP  exclude_dflt;
-      lookup NuktaFormslookup5;
+      lookup nuktNuktaFormslookup6;
 } nukt;
 
 feature akhn {
 
   script dev2;
      language dflt ;
-      lookup AkhandFormslookup6;
+      lookup akhnAkhandlookup7;
      language MAR  exclude_dflt;
-      lookup AkhandFormslookup6;
+      lookup akhnAkhandlookup7;
      language NEP  exclude_dflt;
-      lookup AkhandFormslookup6;
+      lookup akhnAkhandlookup7;
 
   script deva;
      language dflt ;
-      lookup AkhandFormslookup6;
+      lookup akhnAkhandlookup7;
      language MAR  exclude_dflt;
-      lookup AkhandFormslookup6;
+      lookup akhnAkhandlookup7;
      language NEP  exclude_dflt;
-      lookup AkhandFormslookup6;
+      lookup akhnAkhandlookup7;
 } akhn;
 
 feature rphf {
 
   script dev2;
      language dflt ;
-      lookup RephFormlookup7;
+      lookup rphfRephFormlookup8;
      language MAR  exclude_dflt;
-      lookup RephFormlookup7;
+      lookup rphfRephFormlookup8;
      language NEP  exclude_dflt;
-      lookup RephFormlookup7;
+      lookup rphfRephFormlookup8;
 
   script deva;
      language dflt ;
-      lookup RephFormlookup7;
+      lookup rphfRephFormlookup8;
      language MAR  exclude_dflt;
-      lookup RephFormlookup7;
+      lookup rphfRephFormlookup8;
      language NEP  exclude_dflt;
-      lookup RephFormlookup7;
+      lookup rphfRephFormlookup8;
 } rphf;
 
 feature blwf {
 
   script dev2;
      language dflt ;
-      lookup BelowBaseFormslookup9;
+      lookup blwfBelowBaseFormslookup9;
      language MAR  exclude_dflt;
-      lookup BelowBaseFormslookup9;
+      lookup blwfBelowBaseFormslookup9;
      language NEP  exclude_dflt;
-      lookup BelowBaseFormslookup9;
+      lookup blwfBelowBaseFormslookup9;
 
   script deva;
      language dflt ;
-      lookup BelowBaseFormslookup9;
+      lookup blwfBelowBaseFormslookup9;
      language MAR  exclude_dflt;
-      lookup BelowBaseFormslookup9;
+      lookup blwfBelowBaseFormslookup9;
      language NEP  exclude_dflt;
-      lookup BelowBaseFormslookup9;
+      lookup blwfBelowBaseFormslookup9;
 } blwf;
 
 feature half {
 
   script dev2;
      language dflt ;
-      lookup HalfFormslookup10;
+      lookup halfHalfFormslookup10;
      language MAR  exclude_dflt;
-      lookup HalfFormslookup10;
+      lookup halfHalfFormslookup10;
      language NEP  exclude_dflt;
-      lookup HalfFormslookup10;
+      lookup halfHalfFormslookup10;
 
   script deva;
      language dflt ;
-      lookup HalfFormslookup10;
+      lookup halfHalfFormslookup10;
      language MAR  exclude_dflt;
-      lookup HalfFormslookup10;
+      lookup halfHalfFormslookup10;
      language NEP  exclude_dflt;
-      lookup HalfFormslookup10;
+      lookup halfHalfFormslookup10;
 } half;
 
 feature vatu {
 
   script dev2;
      language dflt ;
-      lookup VattuVariantslookup30;
+      lookup vatuVattuVariantslookup11;
      language MAR  exclude_dflt;
-      lookup VattuVariantslookup30;
+      lookup vatuVattuVariantslookup11;
      language NEP  exclude_dflt;
-      lookup VattuVariantslookup30;
+      lookup vatuVattuVariantslookup11;
 
   script deva;
      language dflt ;
-      lookup VattuVariantslookup30;
+      lookup vatuVattuVariantslookup11;
      language MAR  exclude_dflt;
-      lookup VattuVariantslookup30;
+      lookup vatuVattuVariantslookup11;
      language NEP  exclude_dflt;
-      lookup VattuVariantslookup30;
+      lookup vatuVattuVariantslookup11;
 } vatu;
 
 feature cjct {
 
   script dev2;
      language dflt ;
-      lookup ConjunctFormslookup11;
+      lookup cjctConjunctFormslookup12;
      language MAR  exclude_dflt;
-      lookup ConjunctFormslookup11;
+      lookup cjctConjunctFormslookup12;
      language NEP  exclude_dflt;
-      lookup ConjunctFormslookup11;
+      lookup cjctConjunctFormslookup12;
 
   script deva;
      language dflt ;
-      lookup ConjunctFormslookup11;
+      lookup cjctConjunctFormslookup12;
      language MAR  exclude_dflt;
-      lookup ConjunctFormslookup11;
+      lookup cjctConjunctFormslookup12;
      language NEP  exclude_dflt;
-      lookup ConjunctFormslookup11;
+      lookup cjctConjunctFormslookup12;
 } cjct;
 
 feature pres {
 
   script dev2;
      language dflt ;
-      lookup PreBaseSubstitutionslookup1;
-      lookup PresSub_Chain_VowelSign;
-      lookup PresSub_Chain_IVowelSign_alt2_0;
-      lookup PresSub_Chain_IVowelSign_alt4_1;
-      lookup presPreBaseSubstitutionslookup3;
+      lookup presPreBaseSubstitutionslookup1;
       lookup sub_chain_presdev2_0;
-      lookup PreBaseSubstitutionslookup2;
+      lookup sub_chain_presdev2_2;
+      lookup sub_chain_presdev2_4;
+      lookup presPreBaseSubstitutionslookup2;
+      lookup sub_chain_presdev2_6;
+      lookup sub_ligature_presdev2_0;
      language MAR  exclude_dflt;
-      lookup PreBaseSubstitutionslookup1;
-      lookup PresSub_Chain_VowelSign;
-      lookup PresSub_Chain_IVowelSign_alt2_0;
-      lookup PresSub_Chain_IVowelSign_alt4_1;
-      lookup presPreBaseSubstitutionslookup3;
+      lookup presPreBaseSubstitutionslookup1;
       lookup sub_chain_presdev2_0;
-      lookup PreBaseSubstitutionslookup2;
+      lookup sub_chain_presdev2_2;
+      lookup sub_chain_presdev2_4;
+      lookup presPreBaseSubstitutionslookup2;
+      lookup sub_chain_presdev2_6;
+      lookup sub_ligature_presdev2_0;
      language NEP  exclude_dflt;
-      lookup PreBaseSubstitutionslookup1;
-      lookup PresSub_Chain_VowelSign;
-      lookup PresSub_Chain_IVowelSign_alt2_0;
-      lookup PresSub_Chain_IVowelSign_alt4_1;
-      lookup presPreBaseSubstitutionslookup3;
+      lookup presPreBaseSubstitutionslookup1;
       lookup sub_chain_presdev2_0;
-      lookup PreBaseSubstitutionslookup2;
+      lookup sub_chain_presdev2_2;
+      lookup sub_chain_presdev2_4;
+      lookup presPreBaseSubstitutionslookup2;
+      lookup sub_chain_presdev2_6;
+      lookup sub_ligature_presdev2_0;
 
   script deva;
      language dflt ;
-      lookup PreBaseSubstitutionslookup1;
-      lookup PresSub_Chain_VowelSign;
-      lookup PresSub_Chain_IVowelSign_alt2_0;
-      lookup PresSub_Chain_IVowelSign_alt4_1;
-      lookup presPreBaseSubstitutionslookup3;
+      lookup presPreBaseSubstitutionslookup1;
       lookup sub_chain_presdev2_0;
-      lookup PreBaseSubstitutionslookup2;
+      lookup sub_chain_presdev2_2;
+      lookup sub_chain_presdev2_4;
+      lookup presPreBaseSubstitutionslookup2;
+      lookup sub_chain_presdev2_6;
+      lookup sub_ligature_presdev2_0;
      language MAR  exclude_dflt;
-      lookup PreBaseSubstitutionslookup1;
-      lookup PresSub_Chain_VowelSign;
-      lookup PresSub_Chain_IVowelSign_alt2_0;
-      lookup PresSub_Chain_IVowelSign_alt4_1;
-      lookup presPreBaseSubstitutionslookup3;
+      lookup presPreBaseSubstitutionslookup1;
       lookup sub_chain_presdev2_0;
-      lookup PreBaseSubstitutionslookup2;
+      lookup sub_chain_presdev2_2;
+      lookup sub_chain_presdev2_4;
+      lookup presPreBaseSubstitutionslookup2;
+      lookup sub_chain_presdev2_6;
+      lookup sub_ligature_presdev2_0;
      language NEP  exclude_dflt;
-      lookup PreBaseSubstitutionslookup1;
-      lookup PresSub_Chain_VowelSign;
-      lookup PresSub_Chain_IVowelSign_alt2_0;
-      lookup PresSub_Chain_IVowelSign_alt4_1;
-      lookup presPreBaseSubstitutionslookup3;
+      lookup presPreBaseSubstitutionslookup1;
       lookup sub_chain_presdev2_0;
-      lookup PreBaseSubstitutionslookup2;
+      lookup sub_chain_presdev2_2;
+      lookup sub_chain_presdev2_4;
+      lookup presPreBaseSubstitutionslookup2;
+      lookup sub_chain_presdev2_6;
+      lookup sub_ligature_presdev2_0;
 } pres;
 
 feature abvs {
 
   script dev2;
      language dflt ;
-      lookup AboveBaseSubstitutionslookup;
+      lookup abvsAboveBaseSubstitutionslooku;
      language MAR  exclude_dflt;
-      lookup AboveBaseSubstitutionslookup;
+      lookup abvsAboveBaseSubstitutionslooku;
      language NEP  exclude_dflt;
-      lookup AboveBaseSubstitutionslookup;
+      lookup abvsAboveBaseSubstitutionslooku;
 
   script deva;
      language dflt ;
-      lookup AboveBaseSubstitutionslookup;
+      lookup abvsAboveBaseSubstitutionslooku;
      language MAR  exclude_dflt;
-      lookup AboveBaseSubstitutionslookup;
+      lookup abvsAboveBaseSubstitutionslooku;
      language NEP  exclude_dflt;
-      lookup AboveBaseSubstitutionslookup;
+      lookup abvsAboveBaseSubstitutionslooku;
 } abvs;
 
 feature psts {
 
   script dev2;
      language dflt ;
-      lookup PostBaseSubstitutionslookup;
-      lookup PstsSub_Chain_ExtdEMatra;
-      lookup PstsSub_Ligature_Ra;
-      lookup PstsSub_Chain_Eyelash;
       lookup pstsPostBaseSubstitutionslookup;
+      lookup sub_chain_pstsdev2_0;
+      lookup sub_ligature_pstsdev2_0;
+      lookup sub_chain_pstsdev2_2;
+      lookup sub_chain_pstsdev2_4;
      language MAR  exclude_dflt;
-      lookup PostBaseSubstitutionslookup;
-      lookup PstsSub_Chain_ExtdEMatra;
-      lookup PstsSub_Ligature_Ra;
-      lookup PstsSub_Chain_Eyelash;
       lookup pstsPostBaseSubstitutionslookup;
+      lookup sub_chain_pstsdev2_0;
+      lookup sub_ligature_pstsdev2_0;
+      lookup sub_chain_pstsdev2_2;
+      lookup sub_chain_pstsdev2_4;
      language NEP  exclude_dflt;
-      lookup PostBaseSubstitutionslookup;
-      lookup PstsSub_Chain_ExtdEMatra;
-      lookup PstsSub_Ligature_Ra;
-      lookup PstsSub_Chain_Eyelash;
       lookup pstsPostBaseSubstitutionslookup;
+      lookup sub_chain_pstsdev2_0;
+      lookup sub_ligature_pstsdev2_0;
+      lookup sub_chain_pstsdev2_2;
+      lookup sub_chain_pstsdev2_4;
 
   script deva;
      language dflt ;
-      lookup PostBaseSubstitutionslookup;
-      lookup PstsSub_Chain_ExtdEMatra;
-      lookup PstsSub_Ligature_Ra;
-      lookup PstsSub_Chain_Eyelash;
       lookup pstsPostBaseSubstitutionslookup;
+      lookup sub_chain_pstsdev2_0;
+      lookup sub_ligature_pstsdev2_0;
+      lookup sub_chain_pstsdev2_2;
+      lookup sub_chain_pstsdev2_4;
      language MAR  exclude_dflt;
-      lookup PostBaseSubstitutionslookup;
-      lookup PstsSub_Chain_ExtdEMatra;
-      lookup PstsSub_Ligature_Ra;
-      lookup PstsSub_Chain_Eyelash;
       lookup pstsPostBaseSubstitutionslookup;
+      lookup sub_chain_pstsdev2_0;
+      lookup sub_ligature_pstsdev2_0;
+      lookup sub_chain_pstsdev2_2;
+      lookup sub_chain_pstsdev2_4;
      language NEP  exclude_dflt;
-      lookup PostBaseSubstitutionslookup;
-      lookup PstsSub_Chain_ExtdEMatra;
-      lookup PstsSub_Ligature_Ra;
-      lookup PstsSub_Chain_Eyelash;
       lookup pstsPostBaseSubstitutionslookup;
+      lookup sub_chain_pstsdev2_0;
+      lookup sub_ligature_pstsdev2_0;
+      lookup sub_chain_pstsdev2_2;
+      lookup sub_chain_pstsdev2_4;
 } psts;
 
 feature blws {
 
   script dev2;
      language dflt ;
-      lookup BlwsSub_Ligature_Ukaar;
+      lookup blwsBelowBaseSubstitutionslooku;
      language MAR  exclude_dflt;
-      lookup BlwsSub_Ligature_Ukaar;
+      lookup blwsBelowBaseSubstitutionslooku;
      language NEP  exclude_dflt;
-      lookup BlwsSub_Ligature_Ukaar;
+      lookup blwsBelowBaseSubstitutionslooku;
 
   script deva;
      language dflt ;
-      lookup BlwsSub_Ligature_Ukaar;
+      lookup blwsBelowBaseSubstitutionslooku;
      language MAR  exclude_dflt;
-      lookup BlwsSub_Ligature_Ukaar;
+      lookup blwsBelowBaseSubstitutionslooku;
      language NEP  exclude_dflt;
-      lookup BlwsSub_Ligature_Ukaar;
+      lookup blwsBelowBaseSubstitutionslooku;
 } blws;
 
 # GPOS 
@@ -802,195 +802,221 @@ feature blws {
 
 lookup blwmBelowBaseMarklookup0 {
   lookupflag 0;
-  markClass [\usigndeva ] <anchor -143 61> @DVAnchor0;
-  markClass [\uusigndeva \rrvocalicsigndeva ] <anchor -130 69> @DVAnchor0;
-  markClass [\rvocalicsigndeva ] <anchor -127 50> @DVAnchor0;
-  markClass [\viramadeva ] <anchor -119 42> @DVAnchor0;
-  markClass [\uesigndeva ] <anchor -259 -1> @DVAnchor0;
-  markClass [\uuesigndeva ] <anchor -265 0> @DVAnchor0;
-  markClass [\lvocalicsigndeva ] <anchor -141 37> @DVAnchor0;
-  markClass [\llvocalicsigndeva ] <anchor -138 34> @DVAnchor0;
-  markClass [\viramadeva_radeva ] <anchor -135 128> @DVAnchor0;
-  markClass [\vattudeva_ulowdeva ] <anchor -127 63> @DVAnchor0;
-  markClass [\vattudeva_uulowdeva ] <anchor -127 58> @DVAnchor0;
-  pos base [\rvocalicdeva ] <anchor 471 26> mark @DVAnchor0;
-  pos base [\kadeva ] <anchor 380 23> mark @DVAnchor0;
-  pos base [\khadeva ] <anchor 695 29> mark @DVAnchor0;
-  pos base [\ngadeva ] <anchor 394 50> mark @DVAnchor0;
-  pos base [\chadeva ] <anchor 322 61> mark @DVAnchor0;
-  pos base [\ttadeva ] <anchor 324 45> mark @DVAnchor0;
-  pos base [\tthadeva ] <anchor 316 39> mark @DVAnchor0;
-  pos base [\ddadeva ] <anchor 378 45> mark @DVAnchor0;
-  pos base [\ddhadeva ] <anchor 332 47> mark @DVAnchor0;
-  pos base [\nnadeva ] <anchor 529 29> mark @DVAnchor0;
-  pos base [\dadeva ] <anchor 458 7> mark @DVAnchor0;
-  pos base [\phadeva ] <anchor 391 23> mark @DVAnchor0;
-  pos base [\yadeva \yaheavydeva ] <anchor 466 26> mark @DVAnchor0;
-  pos base [\lladeva ] <anchor 527 101> mark @DVAnchor0;
-  pos base [\llladeva ] <anchor 553 98> mark @DVAnchor0;
-  pos base [\hadeva ] <anchor 335 2> mark @DVAnchor0;
-  pos base [\qadeva ] <anchor 386 23> mark @DVAnchor0;
-  pos base [\dddhadeva ] <anchor 407 50> mark @DVAnchor0;
-  pos base [\rhadeva ] <anchor 332 58> mark @DVAnchor0;
-  pos base [\fadeva ] <anchor 380 21> mark @DVAnchor0;
-  pos base [\rrvocalicdeva ] <anchor 468 15> mark @DVAnchor0;
-  pos base [\uedeva \uuedeva ] <anchor 640 711> mark @DVAnchor0;
-  pos base [\pushpikadeva \gapfillerdeva ] <anchor 324 56> mark @DVAnchor0;
-  pos base [\phadeva_radeva_nuktadeva ] <anchor 415 23> mark @DVAnchor0;
-  pos base [\kadeva_viramadeva_radeva \kadeva_viramadeva_radeva.np ] <anchor 394 31> mark @DVAnchor0;
-  pos base [\khadeva_viramadeva_radeva ] <anchor 692 15> mark @DVAnchor0;
-  pos base [\phadeva_viramadeva_radeva ] <anchor 412 15> mark @DVAnchor0;
-  pos base [\hadeva_viramadeva_radeva ] <anchor 330 -85> mark @DVAnchor0;
-  pos base [\kadeva_viramadeva_kadeva ] <anchor 402 31> mark @DVAnchor0;
-  pos base [\kadeva_viramadeva_tadeva ] <anchor 436 23> mark @DVAnchor0;
-  pos base [\kadeva_viramadeva_ladeva ] <anchor 551 -111> mark @DVAnchor0;
-  pos base [\kadeva_viramadeva_vadeva ] <anchor 398 23> mark @DVAnchor0;
-  pos base [\ngadeva_viramadeva_kadeva ] <anchor 343 -138> mark @DVAnchor0;
-  pos base [\ngadeva_viramadeva_khadeva ] <anchor 474 -90> mark @DVAnchor0;
-  pos base [\ngadeva_viramadeva_gadeva ] <anchor 450 -90> mark @DVAnchor0;
-  pos base [\ngadeva_viramadeva_ghadeva ] <anchor 442 -117> mark @DVAnchor0;
-  pos base [\ngadeva_viramadeva_madeva ] <anchor 495 -106> mark @DVAnchor0;
-  pos base [\nga_virama_ka_virama_ssadeva ] <anchor 500 -63> mark @DVAnchor0;
-  pos base [\chadeva_viramadeva_vadeva ] <anchor 452 -103> mark @DVAnchor0;
-  pos base [\ttadeva_viramadeva_ttadeva ] <anchor 308 -117> mark @DVAnchor0;
-  pos base [\ttadeva_viramadeva_tthadeva ] <anchor 311 -101> mark @DVAnchor0;
-  pos base [\ttadeva_viramadeva_yadeva ] <anchor 1078 23> mark @DVAnchor0;
-  pos base [\ttadeva_viramadeva_vadeva ] <anchor 416 -146> mark @DVAnchor0;
-  pos base [\tthadeva_viraamdeva_tthadeva ] <anchor 319 -106> mark @DVAnchor0;
-  pos base [\ddadeva_viramadeva_ddadeva ] <anchor 370 -114> mark @DVAnchor0;
-  pos base [\ddadeva_viramadeva_ddhadeva ] <anchor 410 -178> mark @DVAnchor0;
-  pos base [\ddhadeva_viramadeva_ddhadeva ] <anchor 338 -109> mark @DVAnchor0;
-  pos base [\dadeva_viramadeva_gadeva ] <anchor 447 5> mark @DVAnchor0;
-  pos base [\dadeva_viramadeva_ghadeva ] <anchor 601 -79> mark @DVAnchor0;
-  pos base [\dadeva_viramadeva_dadeva ] <anchor 474 -13> mark @DVAnchor0;
-  pos base [\dadeva_viramadeva_dhadeva ] <anchor 665 -82> mark @DVAnchor0;
-  pos base [\dadeva_viramadeva_nadeva ] <anchor 500 23> mark @DVAnchor0;
-  pos base [\dadeva_viramadeva_badeva ] <anchor 458 13> mark @DVAnchor0;
-  pos base [\dadeva_viramadeva_bhadeva ] <anchor 545 13> mark @DVAnchor0;
-  pos base [\dadeva_viramadeva_vadeva ] <anchor 479 10> mark @DVAnchor0;
-  pos base [\padeva_viramadeva_ladeva ] <anchor 466 -31> mark @DVAnchor0;
-  pos base [\phadeva_viramadeva_ladeva ] <anchor 532 -106> mark @DVAnchor0;
-  pos base [\ladeva_viramadeva_ladeva ] <anchor 612 18> mark @DVAnchor0;
-  pos base [\shadeva_viramadeva_ladeva ] <anchor 780 23> mark @DVAnchor0;
-  pos base [\ssadeva_viramadeva_ttadeva ] <anchor 338 18> mark @DVAnchor0;
-  pos base [\ssadeva_viramadeva_tthadeva ] <anchor 316 26> mark @DVAnchor0;
-  pos base [\hadeva_viramadeva_nnadeva ] <anchor 633 15> mark @DVAnchor0;
-  pos base [\hadeva_viramadeva_nadeva ] <anchor 540 23> mark @DVAnchor0;
-  pos base [\hadeva_viramadeva_madeva ] <anchor 612 15> mark @DVAnchor0;
-  pos base [\hadeva_viramadeva_yadeva ] <anchor 668 21> mark @DVAnchor0;
-  pos base [\hadeva_viramadeva_ladeva ] <anchor 567 21> mark @DVAnchor0;
-  pos base [\hadeva_viramadeva_vadeva ] <anchor 490 18> mark @DVAnchor0;
-  pos base [\da_ddha_ra_yadeva ] <anchor 1162 -21> mark @DVAnchor0;
+  markClass [\usigndeva ] <anchor -143 61> @Anchor0;
+  markClass [\uusigndeva \rrvocalicsigndeva ] <anchor -130 69> @Anchor0;
+  markClass [\rvocalicsigndeva ] <anchor -127 50> @Anchor0;
+  markClass [\viramadeva ] <anchor -119 42> @Anchor0;
+  markClass [\uesigndeva ] <anchor -259 -1> @Anchor0;
+  markClass [\uuesigndeva ] <anchor -265 0> @Anchor0;
+  markClass [\lvocalicsigndeva ] <anchor -141 37> @Anchor0;
+  markClass [\llvocalicsigndeva ] <anchor -138 34> @Anchor0;
+  markClass [\viramadeva_radeva ] <anchor -135 128> @Anchor0;
+  markClass [\vattudeva_ulowdeva ] <anchor -127 63> @Anchor0;
+  markClass [\vattudeva_uulowdeva ] <anchor -127 58> @Anchor0;
+  pos base [\rvocalicdeva ] <anchor 471 26> mark @Anchor0;
+  pos base [\kadeva ] <anchor 380 23> mark @Anchor0;
+  pos base [\khadeva ] <anchor 695 29> mark @Anchor0;
+  pos base [\ngadeva ] <anchor 394 50> mark @Anchor0;
+  pos base [\chadeva ] <anchor 322 61> mark @Anchor0;
+  pos base [\ttadeva ] <anchor 324 45> mark @Anchor0;
+  pos base [\tthadeva ] <anchor 316 39> mark @Anchor0;
+  pos base [\ddadeva ] <anchor 378 45> mark @Anchor0;
+  pos base [\ddhadeva ] <anchor 332 47> mark @Anchor0;
+  pos base [\nnadeva ] <anchor 529 29> mark @Anchor0;
+  pos base [\dadeva ] <anchor 458 7> mark @Anchor0;
+  pos base [\phadeva ] <anchor 391 23> mark @Anchor0;
+  pos base [\yadeva \yaheavydeva ] <anchor 466 26> mark @Anchor0;
+  pos base [\lladeva ] <anchor 527 101> mark @Anchor0;
+  pos base [\llladeva ] <anchor 553 98> mark @Anchor0;
+  pos base [\hadeva ] <anchor 335 2> mark @Anchor0;
+  pos base [\qadeva ] <anchor 386 23> mark @Anchor0;
+  pos base [\dddhadeva ] <anchor 407 50> mark @Anchor0;
+  pos base [\rhadeva ] <anchor 332 58> mark @Anchor0;
+  pos base [\fadeva ] <anchor 380 21> mark @Anchor0;
+  pos base [\rrvocalicdeva ] <anchor 468 15> mark @Anchor0;
+  pos base [\uedeva \uuedeva ] <anchor 640 711> mark @Anchor0;
+  pos base [\pushpikadeva \gapfillerdeva ] <anchor 324 56> mark @Anchor0;
+  pos base [\phadeva_radeva_nuktadeva ] <anchor 415 23> mark @Anchor0;
+  pos base [\kadeva_viramadeva_radeva \kadeva_viramadeva_radeva.np ] <anchor 394 31> mark @Anchor0;
+  pos base [\khadeva_viramadeva_radeva ] <anchor 692 15> mark @Anchor0;
+  pos base [\phadeva_viramadeva_radeva ] <anchor 412 15> mark @Anchor0;
+  pos base [\hadeva_viramadeva_radeva ] <anchor 330 -85> mark @Anchor0;
+  pos base [\kadeva_viramadeva_kadeva ] <anchor 402 31> mark @Anchor0;
+  pos base [\kadeva_viramadeva_tadeva ] <anchor 436 23> mark @Anchor0;
+  pos base [\kadeva_viramadeva_ladeva ] <anchor 551 -111> mark @Anchor0;
+  pos base [\kadeva_viramadeva_vadeva ] <anchor 398 23> mark @Anchor0;
+  pos base [\ngadeva_viramadeva_kadeva ] <anchor 343 -138> mark @Anchor0;
+  pos base [\ngadeva_viramadeva_khadeva ] <anchor 474 -90> mark @Anchor0;
+  pos base [\ngadeva_viramadeva_gadeva ] <anchor 450 -90> mark @Anchor0;
+  pos base [\ngadeva_viramadeva_ghadeva ] <anchor 442 -117> mark @Anchor0;
+  pos base [\ngadeva_viramadeva_madeva ] <anchor 495 -106> mark @Anchor0;
+  pos base [\nga_virama_ka_virama_ssadeva ] <anchor 500 -63> mark @Anchor0;
+  pos base [\chadeva_viramadeva_vadeva ] <anchor 452 -103> mark @Anchor0;
+  pos base [\ttadeva_viramadeva_ttadeva ] <anchor 308 -117> mark @Anchor0;
+  pos base [\ttadeva_viramadeva_tthadeva ] <anchor 311 -101> mark @Anchor0;
+  pos base [\ttadeva_viramadeva_yadeva ] <anchor 1078 23> mark @Anchor0;
+  pos base [\ttadeva_viramadeva_vadeva ] <anchor 416 -146> mark @Anchor0;
+  pos base [\tthadeva_viraamdeva_tthadeva ] <anchor 319 -106> mark @Anchor0;
+  pos base [\ddadeva_viramadeva_ddadeva ] <anchor 370 -114> mark @Anchor0;
+  pos base [\ddadeva_viramadeva_ddhadeva ] <anchor 410 -178> mark @Anchor0;
+  pos base [\ddhadeva_viramadeva_ddhadeva ] <anchor 338 -109> mark @Anchor0;
+  pos base [\dadeva_viramadeva_gadeva ] <anchor 447 5> mark @Anchor0;
+  pos base [\dadeva_viramadeva_ghadeva ] <anchor 601 -79> mark @Anchor0;
+  pos base [\dadeva_viramadeva_dadeva ] <anchor 474 -13> mark @Anchor0;
+  pos base [\dadeva_viramadeva_dhadeva ] <anchor 665 -82> mark @Anchor0;
+  pos base [\dadeva_viramadeva_nadeva ] <anchor 500 23> mark @Anchor0;
+  pos base [\dadeva_viramadeva_badeva ] <anchor 458 13> mark @Anchor0;
+  pos base [\dadeva_viramadeva_bhadeva ] <anchor 545 13> mark @Anchor0;
+  pos base [\dadeva_viramadeva_vadeva ] <anchor 479 10> mark @Anchor0;
+  pos base [\padeva_viramadeva_ladeva ] <anchor 466 -31> mark @Anchor0;
+  pos base [\phadeva_viramadeva_ladeva ] <anchor 532 -106> mark @Anchor0;
+  pos base [\ladeva_viramadeva_ladeva ] <anchor 612 18> mark @Anchor0;
+  pos base [\shadeva_viramadeva_ladeva ] <anchor 780 23> mark @Anchor0;
+  pos base [\ssadeva_viramadeva_ttadeva ] <anchor 338 18> mark @Anchor0;
+  pos base [\ssadeva_viramadeva_tthadeva ] <anchor 316 26> mark @Anchor0;
+  pos base [\hadeva_viramadeva_nnadeva ] <anchor 633 15> mark @Anchor0;
+  pos base [\hadeva_viramadeva_nadeva ] <anchor 540 23> mark @Anchor0;
+  pos base [\hadeva_viramadeva_madeva ] <anchor 612 15> mark @Anchor0;
+  pos base [\hadeva_viramadeva_yadeva ] <anchor 668 21> mark @Anchor0;
+  pos base [\hadeva_viramadeva_ladeva ] <anchor 567 21> mark @Anchor0;
+  pos base [\hadeva_viramadeva_vadeva ] <anchor 490 18> mark @Anchor0;
+  pos base [\da_ddha_ra_yadeva ] <anchor 1162 -21> mark @Anchor0;
 } blwmBelowBaseMarklookup0;
+
+lookup blwmBelowBaseMarklookup1 {
+  lookupflag 0;
+  markClass [\anudattadeva ] <anchor -310 0> @Anchor1;
+  pos mark [\usigndeva ] <anchor -180 -230> mark @Anchor1;
+  pos mark [\uusigndeva ] <anchor 0 -230> mark @Anchor1;
+  pos mark [\rvocalicsigndeva \rrvocalicsigndeva ] <anchor -100 -230> mark @Anchor1;
+  pos mark [\lvocalicsigndeva ] <anchor -100 -410> mark @Anchor1;
+  pos mark [\llvocalicsigndeva ] <anchor -100 -450> mark @Anchor1;
+} blwmBelowBaseMarklookup1;
+
+lookup abvmAboveBaseMarklookup2 {
+  lookupflag 0;
+  markClass [\candrabinduinverteddeva \candrabindudeva \ecandralongsigndeva ] <anchor -120 666> @Anchor2;
+  markClass [\anusvaradeva \oesigndeva ] <anchor -133 666> @Anchor2;
+  markClass [\ecandrasigndeva ] <anchor -127 666> @Anchor2;
+  markClass [\eshortsigndeva ] <anchor -127 665> @Anchor2;
+  markClass [\esigndeva ] <anchor -122 664> @Anchor2;
+  markClass [\aisigndeva ] <anchor -135 664> @Anchor2;
+  markClass [\udattadeva ] <anchor -127 590> @Anchor2;
+  markClass [\gravedeva ] <anchor -69 664> @Anchor2;
+  markClass [\acutedeva ] <anchor -143 665> @Anchor2;
+  markClass [\zerocombiningdigitdeva ] <anchor -127 721> @Anchor2;
+  markClass [\onecombiningdigitdeva \sevencombiningdigitdeva \eightcombiningdigitdeva \acombiningletterdeva \ucombiningletterdeva \nacombiningletterdeva \pacombiningletterdeva \racombiningletterdeva \vicombiningletterdeva \avagrahacombiningsigndeva ] <anchor -137 681> @Anchor2;
+  markClass [\twocombiningdigitdeva ] <anchor -137 675> @Anchor2;
+  markClass [\threecombiningdigitdeva ] <anchor -147 671> @Anchor2;
+  markClass [\fourcombiningdigitdeva ] <anchor -130 681> @Anchor2;
+  markClass [\sixcombiningdigitdeva ] <anchor -137 679> @Anchor2;
+  markClass [\ninecombiningdigitdeva ] <anchor -137 674> @Anchor2;
+  markClass [\kacombiningletterdeva ] <anchor -131 681> @Anchor2;
+  markClass [\esigndeva_anusvaradeva ] <anchor -125 665> @Anchor2;
+  markClass [\esign_ra_virama.alt1 ] <anchor -115 664> @Anchor2;
+  markClass [\esign_ra_virama_anusvara ] <anchor -117 673> @Anchor2;
+  markClass [\aisigndeva_anusvaradeva ] <anchor -131 665> @Anchor2;
+  markClass [\aisign_ra_virama.alt1 ] <anchor -111 671> @Anchor2;
+  markClass [\aisign_ra_virama_anusvara ] <anchor -113 666> @Anchor2;
+  markClass [\radeva_viramadeva ] <anchor -71 664> @Anchor2;
+  markClass [\radeva_viramadeva_anusvaradeva ] <anchor -112 665> @Anchor2;
+  pos base [\adeva \oedeva ] <anchor 636 664> mark @Anchor2;
+  pos base [\aadeva ] <anchor 792 664> mark @Anchor2;
+  pos base [\ideva ] <anchor 377 664> mark @Anchor2;
+  pos base [\iideva ] <anchor 579 639> mark @Anchor2;
+  pos base [\udeva ] <anchor 461 664> mark @Anchor2;
+  pos base [\uudeva ] <anchor 453 664> mark @Anchor2;
+  pos base [\rvocalicdeva ] <anchor 460 664> mark @Anchor2;
+  pos base [\edeva ] <anchor 265 664> mark @Anchor2;
+  pos base [\aideva ] <anchor 460 674> mark @Anchor2;
+  pos base [\odeva \audeva ] <anchor 978 674> mark @Anchor2;
+  pos base [\kadeva ] <anchor 381 664> mark @Anchor2;
+  pos base [\khadeva ] <anchor 693 664> mark @Anchor2;
+  pos base [\gadeva \phadeva ] <anchor 386 664> mark @Anchor2;
+  pos base [\ghadeva ] <anchor 506 664> mark @Anchor2;
+  pos base [\ngadeva ] <anchor 499 664> mark @Anchor2;
+  pos base [\cadeva ] <anchor 503 664> mark @Anchor2;
+  pos base [\chadeva \bhadeva \jhadeva.np \nep_jha_virama ] <anchor 526 664> mark @Anchor2;
+  pos base [\jadeva ] <anchor 596 664> mark @Anchor2;
+  pos base [\jhadeva ] <anchor 600 664> mark @Anchor2;
+  pos base [\nyadeva \zadeva ] <anchor 603 664> mark @Anchor2;
+  pos base [\ttadeva \hadeva_viramadeva_ladeva ] <anchor 421 664> mark @Anchor2;
+  pos base [\tthadeva ] <anchor 422 664> mark @Anchor2;
+  pos base [\ddadeva ] <anchor 495 664> mark @Anchor2;
+  pos base [\ddhadeva ] <anchor 428 664> mark @Anchor2;
+  pos base [\nnadeva ] <anchor 540 664> mark @Anchor2;
+  pos base [\tadeva ] <anchor 478 664> mark @Anchor2;
+  pos base [\thadeva ] <anchor 555 664> mark @Anchor2;
+  pos base [\dadeva ] <anchor 417 666> mark @Anchor2;
+  pos base [\dhadeva ] <anchor 520 664> mark @Anchor2;
+  pos base [\nadeva ] <anchor 455 664> mark @Anchor2;
+  pos base [\nnnadeva ] <anchor 452 666> mark @Anchor2;
+  pos base [\padeva ] <anchor 404 664> mark @Anchor2;
+  pos base [\badeva ] <anchor 407 666> mark @Anchor2;
+  pos base [\madeva ] <anchor 447 664> mark @Anchor2;
+  pos base [\yadeva \yaheavydeva ] <anchor 464 664> mark @Anchor2;
+  pos base [\radeva ] <anchor 331 664> mark @Anchor2;
+  pos base [\rradeva ] <anchor 335 665> mark @Anchor2;
+  pos base [\ladeva \ladeva.mr ] <anchor 597 664> mark @Anchor2;
+  pos base [\lladeva ] <anchor 519 664> mark @Anchor2;
+  pos base [\llladeva ] <anchor 515 664> mark @Anchor2;
+  pos base [\vadeva ] <anchor 410 665> mark @Anchor2;
+  pos base [\shadeva ] <anchor 546 664> mark @Anchor2;
+  pos base [\ssadeva ] <anchor 404 666> mark @Anchor2;
+  pos base [\sadeva ] <anchor 576 665> mark @Anchor2;
+  pos base [\hadeva ] <anchor 401 666> mark @Anchor2;
+  pos base [\qadeva ] <anchor 385 664> mark @Anchor2;
+  pos base [\khhadeva ] <anchor 707 664> mark @Anchor2;
+  pos base [\ghhadeva ] <anchor 392 666> mark @Anchor2;
+  pos base [\dddhadeva ] <anchor 502 664> mark @Anchor2;
+  pos base [\rhadeva ] <anchor 427 664> mark @Anchor2;
+  pos base [\fadeva ] <anchor 379 664> mark @Anchor2;
+  pos base [\yyadeva ] <anchor 465 665> mark @Anchor2;
+  pos base [\rrvocalicdeva ] <anchor 467 666> mark @Anchor2;
+  pos base [\ggadeva ] <anchor 390 663> mark @Anchor2;
+  pos base [\jjadeva ] <anchor 596 666> mark @Anchor2;
+  pos base [\dddadeva ] <anchor 497 666> mark @Anchor2;
+  pos base [\bbadeva ] <anchor 406 665> mark @Anchor2;
+  pos base [\pushpikadeva \gapfillerdeva ] <anchor 529 668> mark @Anchor2;
+  pos base [\shadeva_viramadeva_radeva ] <anchor 578 664> mark @Anchor2;
+  pos base [\phadeva_radeva_nuktadeva ] <anchor 412 664> mark @Anchor2;
+  pos base [\kadeva_viramadeva_ssadeva ] <anchor 528 666> mark @Anchor2;
+  pos base [\jadeva_viramadeva_nyadeva ] <anchor 579 665> mark @Anchor2;
+  pos base [\kadeva_viramadeva_radeva \kadeva_viramadeva_radeva.np ] <anchor 396 666> mark @Anchor2;
+  pos base [\phadeva_viramadeva_radeva ] <anchor 412 666> mark @Anchor2;
+  pos base [\kadeva_viramadeva_kadeva ] <anchor 400 666> mark @Anchor2;
+  pos base [\kadeva_viramadeva_tadeva ] <anchor 434 664> mark @Anchor2;
+  pos base [\kadeva_viramadeva_ladeva ] <anchor 394 665> mark @Anchor2;
+  pos base [\kadeva_viramadeva_vadeva ] <anchor 403 666> mark @Anchor2;
+  pos base [\ngadeva_viramadeva_kadeva ] <anchor 487 664> mark @Anchor2;
+  pos base [\ngadeva_viramadeva_khadeva ] <anchor 504 664> mark @Anchor2;
+  pos base [\ngadeva_viramadeva_gadeva ] <anchor 470 665> mark @Anchor2;
+  pos base [\ngadeva_viramadeva_ghadeva ] <anchor 474 666> mark @Anchor2;
+  pos base [\ngadeva_viramadeva_madeva ] <anchor 496 665> mark @Anchor2;
+  pos base [\nga_virama_ka_virama_ssadeva ] <anchor 492 666> mark @Anchor2;
+  pos base [\phadeva_viramadeva_ladeva ] <anchor 399 665> mark @Anchor2;
+  pos base [\shadeva_viramadeva_nadeva ] <anchor 494 664> mark @Anchor2;
+  pos base [\hadeva_viramadeva_nnadeva ] <anchor 418 664> mark @Anchor2;
+  pos base [\hadeva_viramadeva_nadeva ] <anchor 422 665> mark @Anchor2;
+  pos base [\hadeva_viramadeva_madeva ] <anchor 609 665> mark @Anchor2;
+  pos base [\hadeva_viramadeva_yadeva ] <anchor 666 664> mark @Anchor2;
+  pos base [\hadeva_viramadeva_vadeva ] <anchor 420 665> mark @Anchor2;
+  pos base [\radeva_usigndeva ] <anchor 280 665> mark @Anchor2;
+  pos base [\radeva_uusigndeva ] <anchor 279 665> mark @Anchor2;
+  pos base [\shadeva.mr ] <anchor 546 663> mark @Anchor2;
+} abvmAboveBaseMarklookup2;
 
 lookup abvmAboveBaseMarklookup3 {
   lookupflag 0;
-  markClass [\candrabinduinverteddeva \candrabindudeva \ecandralongsigndeva ] <anchor -120 666> @DVAnchor3;
-  markClass [\anusvaradeva \oesigndeva ] <anchor -133 666> @DVAnchor3;
-  markClass [\ecandrasigndeva \udattadeva ] <anchor -127 666> @DVAnchor3;
-  markClass [\eshortsigndeva ] <anchor -127 665> @DVAnchor3;
-  markClass [\esigndeva ] <anchor -122 664> @DVAnchor3;
-  markClass [\aisigndeva ] <anchor -135 664> @DVAnchor3;
-  markClass [\gravedeva ] <anchor -69 664> @DVAnchor3;
-  markClass [\acutedeva ] <anchor -143 665> @DVAnchor3;
-  markClass [\zerocombiningdigitdeva ] <anchor -127 721> @DVAnchor3;
-  markClass [\onecombiningdigitdeva \sevencombiningdigitdeva \eightcombiningdigitdeva \acombiningletterdeva \ucombiningletterdeva \nacombiningletterdeva \pacombiningletterdeva \racombiningletterdeva \vicombiningletterdeva \avagrahacombiningsigndeva ] <anchor -137 681> @DVAnchor3;
-  markClass [\twocombiningdigitdeva ] <anchor -137 675> @DVAnchor3;
-  markClass [\threecombiningdigitdeva ] <anchor -147 671> @DVAnchor3;
-  markClass [\fourcombiningdigitdeva ] <anchor -130 681> @DVAnchor3;
-  markClass [\sixcombiningdigitdeva ] <anchor -137 679> @DVAnchor3;
-  markClass [\ninecombiningdigitdeva ] <anchor -137 674> @DVAnchor3;
-  markClass [\kacombiningletterdeva ] <anchor -131 681> @DVAnchor3;
-  markClass [\esigndeva_anusvaradeva ] <anchor -125 665> @DVAnchor3;
-  markClass [\esign_ra_virama.alt1 ] <anchor -115 664> @DVAnchor3;
-  markClass [\esign_ra_virama_anusvara ] <anchor -117 673> @DVAnchor3;
-  markClass [\aisigndeva_anusvaradeva ] <anchor -131 665> @DVAnchor3;
-  markClass [\aisign_ra_virama.alt1 ] <anchor -111 671> @DVAnchor3;
-  markClass [\aisign_ra_virama_anusvara ] <anchor -113 666> @DVAnchor3;
-  markClass [\radeva_viramadeva ] <anchor -71 664> @DVAnchor3;
-  markClass [\radeva_viramadeva_anusvaradeva ] <anchor -112 665> @DVAnchor3;
-  pos base [\adeva \oedeva ] <anchor 636 664> mark @DVAnchor3;
-  pos base [\aadeva ] <anchor 792 664> mark @DVAnchor3;
-  pos base [\ideva ] <anchor 377 664> mark @DVAnchor3;
-  pos base [\iideva ] <anchor 439 579> mark @DVAnchor3;
-  pos base [\udeva ] <anchor 461 664> mark @DVAnchor3;
-  pos base [\uudeva ] <anchor 453 664> mark @DVAnchor3;
-  pos base [\rvocalicdeva ] <anchor 460 664> mark @DVAnchor3;
-  pos base [\edeva ] <anchor 265 664> mark @DVAnchor3;
-  pos base [\kadeva ] <anchor 381 664> mark @DVAnchor3;
-  pos base [\khadeva ] <anchor 693 664> mark @DVAnchor3;
-  pos base [\gadeva \phadeva ] <anchor 386 664> mark @DVAnchor3;
-  pos base [\ghadeva ] <anchor 506 664> mark @DVAnchor3;
-  pos base [\ngadeva ] <anchor 499 664> mark @DVAnchor3;
-  pos base [\cadeva ] <anchor 503 664> mark @DVAnchor3;
-  pos base [\chadeva \bhadeva \jhadeva.np \nep_jha_virama ] <anchor 526 664> mark @DVAnchor3;
-  pos base [\jadeva ] <anchor 596 664> mark @DVAnchor3;
-  pos base [\jhadeva ] <anchor 600 664> mark @DVAnchor3;
-  pos base [\nyadeva \zadeva ] <anchor 603 664> mark @DVAnchor3;
-  pos base [\ttadeva \hadeva_viramadeva_ladeva ] <anchor 421 664> mark @DVAnchor3;
-  pos base [\tthadeva ] <anchor 422 664> mark @DVAnchor3;
-  pos base [\ddadeva ] <anchor 495 664> mark @DVAnchor3;
-  pos base [\ddhadeva ] <anchor 428 664> mark @DVAnchor3;
-  pos base [\nnadeva ] <anchor 540 664> mark @DVAnchor3;
-  pos base [\tadeva ] <anchor 478 664> mark @DVAnchor3;
-  pos base [\thadeva ] <anchor 555 664> mark @DVAnchor3;
-  pos base [\dadeva ] <anchor 417 666> mark @DVAnchor3;
-  pos base [\dhadeva ] <anchor 520 664> mark @DVAnchor3;
-  pos base [\nadeva ] <anchor 455 664> mark @DVAnchor3;
-  pos base [\nnnadeva ] <anchor 452 666> mark @DVAnchor3;
-  pos base [\padeva ] <anchor 404 664> mark @DVAnchor3;
-  pos base [\badeva ] <anchor 407 666> mark @DVAnchor3;
-  pos base [\madeva ] <anchor 447 664> mark @DVAnchor3;
-  pos base [\yadeva \yaheavydeva ] <anchor 464 664> mark @DVAnchor3;
-  pos base [\radeva ] <anchor 331 664> mark @DVAnchor3;
-  pos base [\rradeva ] <anchor 335 665> mark @DVAnchor3;
-  pos base [\ladeva \ladeva.mr ] <anchor 597 664> mark @DVAnchor3;
-  pos base [\lladeva ] <anchor 519 664> mark @DVAnchor3;
-  pos base [\llladeva ] <anchor 515 664> mark @DVAnchor3;
-  pos base [\vadeva ] <anchor 410 665> mark @DVAnchor3;
-  pos base [\shadeva ] <anchor 546 664> mark @DVAnchor3;
-  pos base [\ssadeva ] <anchor 404 666> mark @DVAnchor3;
-  pos base [\sadeva ] <anchor 576 665> mark @DVAnchor3;
-  pos base [\hadeva ] <anchor 401 666> mark @DVAnchor3;
-  pos base [\qadeva ] <anchor 385 664> mark @DVAnchor3;
-  pos base [\khhadeva ] <anchor 707 664> mark @DVAnchor3;
-  pos base [\ghhadeva ] <anchor 392 666> mark @DVAnchor3;
-  pos base [\dddhadeva ] <anchor 502 664> mark @DVAnchor3;
-  pos base [\rhadeva ] <anchor 427 664> mark @DVAnchor3;
-  pos base [\fadeva ] <anchor 379 664> mark @DVAnchor3;
-  pos base [\yyadeva ] <anchor 465 665> mark @DVAnchor3;
-  pos base [\rrvocalicdeva ] <anchor 467 666> mark @DVAnchor3;
-  pos base [\ggadeva ] <anchor 390 663> mark @DVAnchor3;
-  pos base [\jjadeva ] <anchor 596 666> mark @DVAnchor3;
-  pos base [\dddadeva ] <anchor 497 666> mark @DVAnchor3;
-  pos base [\bbadeva ] <anchor 406 665> mark @DVAnchor3;
-  pos base [\pushpikadeva \gapfillerdeva ] <anchor 529 668> mark @DVAnchor3;
-  pos base [\shadeva_viramadeva_radeva ] <anchor 578 664> mark @DVAnchor3;
-  pos base [\phadeva_radeva_nuktadeva ] <anchor 412 664> mark @DVAnchor3;
-  pos base [\kadeva_viramadeva_ssadeva ] <anchor 528 666> mark @DVAnchor3;
-  pos base [\jadeva_viramadeva_nyadeva ] <anchor 579 665> mark @DVAnchor3;
-  pos base [\kadeva_viramadeva_radeva \kadeva_viramadeva_radeva.np ] <anchor 396 666> mark @DVAnchor3;
-  pos base [\phadeva_viramadeva_radeva ] <anchor 412 666> mark @DVAnchor3;
-  pos base [\kadeva_viramadeva_kadeva ] <anchor 400 666> mark @DVAnchor3;
-  pos base [\kadeva_viramadeva_tadeva ] <anchor 434 664> mark @DVAnchor3;
-  pos base [\kadeva_viramadeva_ladeva ] <anchor 394 665> mark @DVAnchor3;
-  pos base [\kadeva_viramadeva_vadeva ] <anchor 403 666> mark @DVAnchor3;
-  pos base [\ngadeva_viramadeva_kadeva ] <anchor 487 664> mark @DVAnchor3;
-  pos base [\ngadeva_viramadeva_khadeva ] <anchor 504 664> mark @DVAnchor3;
-  pos base [\ngadeva_viramadeva_gadeva ] <anchor 470 665> mark @DVAnchor3;
-  pos base [\ngadeva_viramadeva_ghadeva ] <anchor 474 666> mark @DVAnchor3;
-  pos base [\ngadeva_viramadeva_madeva ] <anchor 496 665> mark @DVAnchor3;
-  pos base [\nga_virama_ka_virama_ssadeva ] <anchor 492 666> mark @DVAnchor3;
-  pos base [\phadeva_viramadeva_ladeva ] <anchor 399 665> mark @DVAnchor3;
-  pos base [\shadeva_viramadeva_nadeva ] <anchor 494 664> mark @DVAnchor3;
-  pos base [\hadeva_viramadeva_nnadeva ] <anchor 418 664> mark @DVAnchor3;
-  pos base [\hadeva_viramadeva_nadeva ] <anchor 422 665> mark @DVAnchor3;
-  pos base [\hadeva_viramadeva_madeva ] <anchor 609 665> mark @DVAnchor3;
-  pos base [\hadeva_viramadeva_yadeva ] <anchor 666 664> mark @DVAnchor3;
-  pos base [\hadeva_viramadeva_vadeva ] <anchor 420 665> mark @DVAnchor3;
-  pos base [\radeva_usigndeva ] <anchor 280 665> mark @DVAnchor3;
-  pos base [\radeva_uusigndeva ] <anchor 279 665> mark @DVAnchor3;
-  pos base [\shadeva.mr ] <anchor 546 663> mark @DVAnchor3;
+  markClass [\udattadeva ] <anchor -180 720> @Anchor3;
+  pos mark [\anusvaradeva ] <anchor -30 840> mark @Anchor3;
+  pos mark [\iisigndeva ] <anchor 192 764> mark @Anchor3;
+  pos mark [\ecandrasigndeva ] <anchor -120 900> mark @Anchor3;
+  pos mark [\eshortsigndeva ] <anchor -70 880> mark @Anchor3;
+  pos mark [\esigndeva ] <anchor -150 820> mark @Anchor3;
+  pos mark [\aisigndeva ] <anchor -120 820> mark @Anchor3;
+  pos mark [\oshortsigndeva ] <anchor 210 870> mark @Anchor3;
+  pos mark [\osigndeva \ausigndeva ] <anchor 170 820> mark @Anchor3;
 } abvmAboveBaseMarklookup3;
 
 feature blwm {
@@ -998,65 +1024,78 @@ feature blwm {
   script dev2;
      language dflt ;
       lookup blwmBelowBaseMarklookup0;
+      lookup blwmBelowBaseMarklookup1;
      language MAR  exclude_dflt;
       lookup blwmBelowBaseMarklookup0;
+      lookup blwmBelowBaseMarklookup1;
      language NEP  exclude_dflt;
       lookup blwmBelowBaseMarklookup0;
+      lookup blwmBelowBaseMarklookup1;
 
   script deva;
      language dflt ;
       lookup blwmBelowBaseMarklookup0;
+      lookup blwmBelowBaseMarklookup1;
      language MAR  exclude_dflt;
       lookup blwmBelowBaseMarklookup0;
+      lookup blwmBelowBaseMarklookup1;
      language NEP  exclude_dflt;
       lookup blwmBelowBaseMarklookup0;
+      lookup blwmBelowBaseMarklookup1;
 } blwm;
 
 feature abvm {
 
   script dev2;
      language dflt ;
+      lookup abvmAboveBaseMarklookup2;
       lookup abvmAboveBaseMarklookup3;
      language MAR  exclude_dflt;
+      lookup abvmAboveBaseMarklookup2;
       lookup abvmAboveBaseMarklookup3;
      language NEP  exclude_dflt;
+      lookup abvmAboveBaseMarklookup2;
       lookup abvmAboveBaseMarklookup3;
 
   script deva;
      language dflt ;
+      lookup abvmAboveBaseMarklookup2;
       lookup abvmAboveBaseMarklookup3;
      language MAR  exclude_dflt;
+      lookup abvmAboveBaseMarklookup2;
       lookup abvmAboveBaseMarklookup3;
      language NEP  exclude_dflt;
+      lookup abvmAboveBaseMarklookup2;
       lookup abvmAboveBaseMarklookup3;
 } abvm;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\.notdef \nonmarkingreturn \space \exclam \quotedbl \numbersign 
-	\dollar \percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus 
-	\comma \hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight 
-	\nine \colon \semicolon \less \equal \greater \question \at \bracketleft 
-	\backslash \bracketright \asciicircum \underscore \grave \braceleft \bar 
-	\braceright \asciitilde \cent \multiply \divide \apostrophe \visargadeva 
-	\ashortdeva \adeva \aadeva \ideva \iideva \udeva \uudeva \rvocalicdeva 
-	\lvocalicdeva \ecandradeva \eshortdeva \edeva \aideva \ocandradeva \oshortdeva 
-	\odeva \audeva \kadeva \khadeva \gadeva \ghadeva \ngadeva \cadeva \chadeva 
-	\jadeva \jhadeva \nyadeva \ttadeva \tthadeva \ddadeva \ddhadeva \nnadeva \tadeva 
-	\thadeva \dadeva \dhadeva \nadeva \nnnadeva \padeva \phadeva \badeva \bhadeva 
-	\madeva \yadeva \radeva \ladeva \lladeva \llladeva \vadeva \shadeva \ssadeva 
-	\sadeva \hadeva \ooesigndeva \avagrahadeva \aasigndeva \ocandrasigndeva 
-	\oshortsigndeva \osigndeva \ausigndeva \eprishthamatrasigndeva \awsigndeva 
-	\omdeva \qadeva \khhadeva \ghhadeva \zadeva \dddhadeva \rhadeva \fadeva \yyadeva 
-	\rrvocalicdeva \llvocalicdeva \danda \dbldanda \zerodeva \onedeva \twodeva 
-	\threedeva \fourdeva \fivedeva \sixdeva \sevendeva \eightdeva \ninedeva 
+@GDEF_Simple = [\.notdef \.null \nonmarkingreturn \space \exclam \quotedbl 
+	\numbersign \dollar \percent \ampersand \quotesingle \parenleft \parenright 
+	\asterisk \plus \comma \hyphen \period \slash \zero \one \two \three \four \five 
+	\six \seven \eight \nine \colon \semicolon \less \equal \greater \question \at 
+	\bracketleft \backslash \bracketright \asciicircum \underscore \grave 
+	\braceleft \bar \braceright \asciitilde \cent \multiply \divide \apostrophe 
+	\visargadeva \ashortdeva \adeva \aadeva \ideva \iideva \udeva \uudeva 
+	\rvocalicdeva \lvocalicdeva \ecandradeva \eshortdeva \edeva \aideva 
+	\ocandradeva \oshortdeva \odeva \audeva \kadeva \khadeva \gadeva \ghadeva 
+	\ngadeva \cadeva \chadeva \jadeva \jhadeva \nyadeva \ttadeva \tthadeva \ddadeva 
+	\ddhadeva \nnadeva \tadeva \thadeva \dadeva \dhadeva \nadeva \nnnadeva \padeva 
+	\phadeva \badeva \bhadeva \madeva \yadeva \radeva \ladeva \lladeva \llladeva 
+	\vadeva \shadeva \ssadeva \sadeva \hadeva \ooesigndeva \avagrahadeva 
+	\aasigndeva \eprishthamatrasigndeva \awsigndeva \omdeva \qadeva \khhadeva 
+	\ghhadeva \zadeva \dddhadeva \rhadeva \fadeva \yyadeva \rrvocalicdeva 
+	\llvocalicdeva \danda \dbldanda \zerodeva \onedeva \twodeva \threedeva 
+	\fourdeva \fivedeva \sixdeva \sevendeva \eightdeva \ninedeva 
 	\abbreviationsigndeva \highspacingdotdeva \acandradeva \oedeva \ooedeva 
 	\awdeva \uedeva \uuedeva \zhadeva \yaheavydeva \ggadeva \jjadeva 
-	\glottalstopdeva \dddadeva \bbadeva \zerowidthnonjoiner \endash \emdash 
-	\quoteleft \quoteright \quotedblleft \quotedblright \ellipsis \inr_currency 
-	\minus \dottedcircle \spacingcandrabindudeva \candrabinduviramadeva 
-	\doublecandrabinduviramadeva \candrabindudigittwodeva 
-	\candrabindudigitthreedeva \candrabinduavagrahadeva \pushpikadeva 
-	\gapfillerdeva \caretdeva \headstrokedeva \viramadeva_radeva_alt 
+	\glottalstopdeva \dddadeva \bbadeva \zerowidthnonjoiner \zerowidthjoiner 
+	\endash \emdash \quoteleft \quoteright \quotedblleft \quotedblright \ellipsis 
+	\inr_currency \minus \dottedcircle \spacingcandrabindudeva 
+	\candrabinduviramadeva \doublecandrabinduviramadeva 
+	\candrabindudigittwodeva \candrabindudigitthreedeva 
+	\candrabinduavagrahadeva \pushpikadeva \gapfillerdeva \caretdeva 
+	\headstrokedeva \ba_virama_ra_viramadeva \viramadeva_radeva_alt 
 	\shadeva_viramadeva_radeva \phadeva_radeva_nuktadeva 
 	\kadeva_viramadeva_ssadeva \jadeva_viramadeva_nyadeva \kadeva_viramadeva 
 	\khadeva_viramadeva \gadeva_viramadeva \ghadeva_viramadeva 
@@ -1113,8 +1152,7 @@ feature abvm {
 	\nnadeva_viramadeva_radeva \yadeva_viramadeva_radeva 
 	\ssadeva_viramadeva_radeva \ka_virama_ssa_virama_radeva 
 	\ja_virama_nya_virama_radeva \kadeva_viramadeva_radeva.np \fivedeva.np 
-	\zhadeva.np \jhadeva.np \nep_jha_virama \ladeva.mr \shadeva.mr 
-	\zerowidthjoiner \ba_virama_ra_viramadeva ];
+	\zhadeva.np \jhadeva.np \nep_jha_virama \ladeva.mr \shadeva.mr ];
 @GDEF_Ligature = [\rradeva \tadeva_viramadeva_tadeva \radeva_viramadeva.alt 
 	\ngadeva_viramadeva_kadeva \ngadeva_viramadeva_khadeva 
 	\ngadeva_viramadeva_gadeva \ngadeva_viramadeva_ghadeva 
@@ -1125,34 +1163,35 @@ feature abvm {
 @GDEF_Mark = [\candrabinduinverteddeva \candrabindudeva \anusvaradeva 
 	\oesigndeva \nuktadeva \isigndeva \iisigndeva \usigndeva \uusigndeva 
 	\rvocalicsigndeva \rrvocalicsigndeva \ecandrasigndeva \eshortsigndeva 
-	\esigndeva \aisigndeva \viramadeva \udattadeva \anudattadeva \gravedeva 
-	\acutedeva \ecandralongsigndeva \uesigndeva \uuesigndeva \lvocalicsigndeva 
+	\esigndeva \aisigndeva \ocandrasigndeva \oshortsigndeva \osigndeva 
+	\ausigndeva \viramadeva \udattadeva \anudattadeva \gravedeva \acutedeva 
+	\ecandralongsigndeva \uesigndeva \uuesigndeva \lvocalicsigndeva 
 	\llvocalicsigndeva \zerocombiningdigitdeva \onecombiningdigitdeva 
 	\twocombiningdigitdeva \threecombiningdigitdeva \fourcombiningdigitdeva 
 	\fivecombiningdigitdeva \sixcombiningdigitdeva \sevencombiningdigitdeva 
 	\eightcombiningdigitdeva \ninecombiningdigitdeva \acombiningletterdeva 
 	\ucombiningletterdeva \kacombiningletterdeva \nacombiningletterdeva 
 	\pacombiningletterdeva \racombiningletterdeva \vicombiningletterdeva 
-	\avagrahacombiningsigndeva \isigndeva.alt1 \esigndeva_anusvaradeva 
-	\esign_ra_virama.alt1 \esign_ra_virama_anusvara \aisigndeva_anusvaradeva 
-	\aisign_ra_virama.alt1 \aisign_ra_virama_anusvara \radeva_viramadeva 
-	\radeva_viramadeva_anusvaradeva \viramadeva_radeva \isigndeva.alt2 
-	\isigndeva_anusvara.alt2 \isigndeva_anusvaradeva \isign_ra_virama 
-	\isign_ra_virama_anusvara \isigndeva.alt3 \isigndeva_anusvaradeva.alt3 
-	\isign_ra_virama.alt3 \isign_ra_virama_anusvara.alt3 
-	\iisigndeva_anusvaradeva \iisigndeva_ra_virama \iisign_ra_virama_anusvara 
-	\iisigndeva.alt1 \iisigndeva_anusvaradeva.alt1 \iisigndeva_ra_virama.alt1 
+	\avagrahacombiningsigndeva \isign_ra_virama_anusvara.ja 
+	\isign_ra_virama.ja \isigndeva_anusvaradeva.ja \isigndeva.ja 
+	\isigndeva_anusvara.tha \isign_ra_virama_anusvara.tha \isign_ra_virama.tha 
+	\isigndeva.tha \isign_ra_virama_anusvara.alt1 \isign_ra_virama.alt1 
+	\isigndeva_anusvara.alt1 \isigndeva_anusvaradeva.alt4 
+	\isign_ra_virama_anusvara.alt4 \isign_ra_virama.alt4 \isigndeva.alt4 
+	\isign_ra_virama_anusvara.alt2 \isign_ra_virama.alt2 \isigndeva.alt1 
+	\esigndeva_anusvaradeva \esign_ra_virama.alt1 \esign_ra_virama_anusvara 
+	\aisigndeva_anusvaradeva \aisign_ra_virama.alt1 \aisign_ra_virama_anusvara 
+	\radeva_viramadeva \radeva_viramadeva_anusvaradeva \viramadeva_radeva 
+	\isigndeva.alt2 \isigndeva_anusvara.alt2 \isigndeva_anusvaradeva 
+	\isign_ra_virama \isign_ra_virama_anusvara \isigndeva.alt3 
+	\isigndeva_anusvaradeva.alt3 \isign_ra_virama.alt3 
+	\isign_ra_virama_anusvara.alt3 \iisigndeva_anusvaradeva 
+	\iisigndeva_ra_virama \iisign_ra_virama_anusvara \iisigndeva.alt1 
+	\iisigndeva_anusvaradeva.alt1 \iisigndeva_ra_virama.alt1 
 	\iisign_ra_virama_anusvara.alt1 \vattudeva_ulowdeva \vattudeva_uulowdeva 
 	\osigndeva_anusvaradeva \osign_ra_virama.alt1 \osign_ra_virama_anusvara 
 	\ausigndeva_anusvaradeva \ausign_ra_virama.alt1 \ausign_ra_virama_anusvara 
-	\nyadeva_viramadeva_radeva \isign_ra_virama.alt2 
-	\isign_ra_virama_anusvara.alt2 \isigndeva_anusvaradeva.alt4 
-	\isigndeva.alt4 \isign_ra_virama.alt4 \isign_ra_virama_anusvara.alt4 
-	\isigndeva_anusvara.alt1 \isign_ra_virama.alt1 
-	\isign_ra_virama_anusvara.alt1 \isigndeva_anusvara.tha 
-	\isign_ra_virama_anusvara.tha \isign_ra_virama.tha \isigndeva.tha 
-	\isigndeva.ja \isigndeva_anusvaradeva.ja \isign_ra_virama.ja 
-	\isign_ra_virama_anusvara.ja ];
+	\nyadeva_viramadeva_radeva ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
