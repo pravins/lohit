@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159459513
-ModificationTime: 1406804865
+ModificationTime: 1408447012
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -19160,7 +19160,7 @@ SplineSet
  902 748 l 1,51,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.tha radeva_viramadeva anusvaradeva
+Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.ja radeva_viramadeva anusvaradeva
 LCarets2: 2 0 0 
 EndChar
 
