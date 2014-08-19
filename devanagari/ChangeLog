@@ -6,6 +6,7 @@ Current Version :- 2.94.0
 - Resolves issue #https://github.com/pravins/lohit2/issues/11
 - Added uni1cf5 and uni1cf6 characters
 - Removed incorrect mapping for isigndeva.tha - AFDKO
+- Removed control character from font
 
 * Wed Feb 19 2014 Pravin Satpute <psatpute@redhat.com> - 2.94.0
 - Positioning lookup clean-up.
