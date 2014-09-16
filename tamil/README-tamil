@@ -1,0 +1,213 @@
+
+This readme is specifically for Lohit Tamil. For instruction on installation and other stuff open README
+	- To generate ttf from feature file
+
+Glyphs not in use:
+	- glyph175
+	- glyph194
+       
+Glyph naming guidelines:
+
+
+Glyphs Exceeding 31 Character Limit :
+
+	- kataml_viramataml_ssataml
+        - katam_viramataml_ssatam_itaml
+	- katam_viramataml_ssatam_iitaml
+	- satam_viramataml_rataml_iitaml
+	- kataml_virama_ssataml_virama
+	
+Usage of matras additionally included : 
+
+	- isigntaml  கி   ஙி   சி   ஜி   டி   ஞி   ணி   தி   நி   னி   பி    மி    யி   ரி   றி   லி    ளி   ழி    வி    ஷி    ஸி   ஹி     க்ஷி      
+
+	- iisigntaml  தீ   ஙீ   சீ   ஜீ   ஞீ   டீ   ணீ   தீ   நீ   னீ   பீ   மீ   யீ   ரீ   றீ   லீ   ளீ   ழீ   வீ   ஷீ   ஸீ   ஹீ க்ஷீ   ஸ்ரீ  
+
+	- uusigntaml கு   ஙு   சு   ஞு   டு   ணு   து   னு   பு   மு   யு   நு   ரு   று   லு   ளு   ழு   வு   கூ
+
+	- usigntaml ஙூ   சூ   ஞூ   டூ   ணூ   தூ   நூ   னூ   பூ   மூ   யூ   ரூ   றூ   லூ   ளூ   ழூ   வூ   க்ஷ       	
+
+
+Glyph names are as follows, please check sfd file for actual shapes
+
+* anusvarataml
+* visargataml
+* ataml
+* aataml
+* itaml
+* iitaml
+* utaml
+* uutaml
+* etaml
+* eetaml
+* aitaml
+* otaml
+* ootaml
+* autaml
+* kataml
+* ngataml
+* cataml
+* jataml
+* nyataml
+* ttataml
+* nnataml
+* tataml
+* nataml
+* nnnataml
+* pataml
+* mataml
+* yataml
+* rataml
+* rrataml
+* lataml
+* llataml
+* lllataml
+* vataml
+* shataml
+* ssataml
+* sataml
+* hataml
+* aasigntaml
+* isigntaml
+* iisigntaml
+* usigntaml
+* uusigntaml
+* esigntaml
+* eesigntaml
+* aisigntaml
+* osigntaml
+* oosigntaml
+* ausigntaml
+* viramataml
+* aulengthtaml
+* onetaml
+* twotaml
+* threetaml
+* fourtaml
+* fivetaml
+* sixtaml
+* seventaml
+* eighttaml
+* ninetaml
+* tentaml
+* onehundredtaml
+* onethousandtaml
+* daysigntaml
+* monthsigntaml
+* yearsigntaml
+* debitsigntaml
+* creditsigntaml
+* asabovesigntaml
+* rupeesigntaml
+* numbersigntaml
+* zerowidthnonjoiner
+* zerowidthjoiner
+* kataml_isigntaml
+* ngataml_isigntaml
+* cataml_isigntaml
+* jataml_isigntaml
+* nyataml_isigntaml
+* ttataml_isigntaml
+* nnataml_isigntaml
+* tataml_isigntaml
+* nataml_isigntaml
+* nnnataml_isigntaml
+* pataml_isigntaml
+* mataml_isigntaml
+* yataml_isigntaml
+* rataml_isigntaml
+* rrataml_isigntaml
+* lataml_isigntaml
+* llataml_isigntaml
+* lllataml_isigntaml
+* vataml_isigntaml
+* ssataml_isigntaml
+* sataml_isigntaml
+* hataml_isigntaml
+* kataml_iisigntaml
+* ngataml_iisigntaml
+* cataml_iisigntaml
+* jataml_iisigntaml
+* nyataml_iisigntaml
+* ttataml_iisigntaml
+* nnataml_iisigntaml
+* tataml_iisigntaml
+* nataml_iisigntaml
+* nnnataml_iisigntaml
+* pataml_iisigntaml
+* mataml_iisigntaml
+* yataml_iisigntaml
+* rataml_iisigntaml
+* rrataml_iisigntaml
+* lataml_iisigntaml
+* llataml_iisigntaml
+* lllataml_iisigntaml
+* vataml_iisigntaml
+* ssataml_iisigntaml
+* sataml_iisigntaml
+* hataml_iisigntaml
+* kataml_usigntaml
+* ngataml_usigntaml
+* cataml_usigntaml
+* nyataml_usigntaml
+* ttataml_usigntaml
+* nnataml_usigntaml
+* tataml_usigntaml
+* nataml_usigntaml
+* nnnataml_usigntaml
+* pataml_usigntaml
+* mataml_usigntaml
+* yataml_usigntaml
+* rataml_usigntaml
+* rrataml_usigntaml
+* lataml_usigntaml
+* llataml_usigntaml
+* lllataml_usigntaml
+* vataml_usigntaml
+* kataml_uusigntaml
+* ngataml_uusigntaml
+* cataml_uusigntaml
+* nyataml_uusigntaml
+* ttataml_uusigntaml
+* nnataml_uusigntaml
+* tataml_uusigntaml
+* nataml_uusigntaml
+* nnnataml_uusigntaml
+* pataml_uusigntaml
+* mataml_uusigntaml
+* yataml_uusigntaml
+* rataml_uusigntaml
+* rrataml_uusigntaml
+* lataml_uusigntaml
+* llataml_uusigntaml
+* lllataml_uusigntaml
+* vataml_uusigntaml
+* kataml_viramataml
+* ngataml_viramataml
+* cataml_viramataml
+* jataml_viramataml
+* nyataml_viramataml
+* ttataml_viramataml
+* nnataml_viramataml
+* tataml_viramataml
+* nataml_viramataml
+* nnnataml_viramataml
+* pataml_viramataml
+* mataml_viramataml
+* yataml_viramataml
+* rataml_viramataml
+* rrataml_viramataml
+* lataml_viramataml
+* llataml_viramataml
+* lllataml_viramataml
+* vataml_viramataml
+* ssataml_viramataml
+* sataml_viramataml
+* hataml_viramataml
+* shataml_viramataml
+* shataml_iisigntaml
+* shataml_isigntaml
+* zerotaml
+* omtaml
+* inr_currency
+ 

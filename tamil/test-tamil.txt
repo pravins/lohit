@@ -1,0 +1,28 @@
+# Test File For Lohit Tamil
+# Created by Shilpa Gite <sgite AT redhat DOT com> - 2014
+
+
+As per Microsoft typography for Developing OpenType Fonts for Tamil Script, the features can be specified in the order given as :
+
+>>Basic Shaping Forms :
+
+<feature tag> akhn : Akhand ligature substitution
+
+                                க்ஷ 
+ 
+<feature tag> abvs : Above-base substitutions
+
+		         	கீ  ஙீ  சீ  ஜீ  ஞீ  டீ  ணீ  தீ  நீ  னீ  பீ  மீ  யீ  ரீ  றீ  லீ  ளீ  ழீ  வீ  ஷீ  ஸீ  ஹீ  ஶீ  க்ஷீ  ஸ்ரீ  
+   
+<feature tag> psts : Post-base substitutions
+
+		         	கி  ஙி  சி  ஜி  டி  ஞி  ணி  தி  நி  னி  பி  மி  யி  ரி  றி  லி  ளி  ழி  வி  ஷி  ஸி  ஹி  ஶி  க்ஷி
+
+		         	கு  ஙு  சு  ஞு  டு  ணு  து  நு  னு  பு  மு  யு  ரு  று  லு  ளு  ழு  வு  கூ
+		
+		         	ஙூ  சூ  ஞூ  டூ  ணூ  தூ  நூ  னூ  பூ  மூ  யூ  ரூ  றூ  லூ  ளூ  ழூ  வூ
+
+<feature tag> haln : Halant form of consonants
+
+		         	க்  ங்  ச்  ஜ்  ஞ்  ட்  ண்  த்  ந்  ன்  ப்  ம்  ய்  ர்  ற்  ல்  ள்  ழ்  வ்  ஷ்  ஸ்  ஹ்  க்ஷ்  ஶ்
+

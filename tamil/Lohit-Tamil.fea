@@ -1,0 +1,313 @@
+# How to use
+# On Linux running make will generate ttf for you. For other platforms follow below steps
+# 1. Open Lohit-Tamil.sfd in Fontforge
+# 2. Click on Fontforge File -> Merge Feature info and Select this feature file and save
+# 3. Now Generate ttf as you do for other fonts.
+# 4. Done
+# Copyright (C) 2014 Pravin Satpute <psatpute AT redhat DOT com> and Shilpa Gite <sgite AT redhat DOT com>
+# License: OFL 1.1
+# License URL: http://scripts.sil.org/OFL
+
+# GSUB 
+
+
+lookup akhnAkhandlookup3 {
+  lookupflag 0;
+    sub \kataml \viramataml \ssataml  by \kataml_viramataml_ssataml;
+} akhnAkhandlookup3;
+
+lookup abvsAboveBaseSubstitutionslooku {
+  lookupflag 0;
+    sub \kataml \iisigntaml  by \kataml_iisigntaml;
+    sub \ngataml \iisigntaml  by \ngataml_iisigntaml;
+    sub \cataml \iisigntaml  by \cataml_iisigntaml;
+    sub \jataml \iisigntaml  by \jataml_iisigntaml;
+    sub \nyataml \iisigntaml  by \nyataml_iisigntaml;
+    sub \ttataml \iisigntaml  by \ttataml_iisigntaml;
+    sub \nnataml \iisigntaml  by \nnataml_iisigntaml;
+    sub \tataml \iisigntaml  by \tataml_iisigntaml;
+    sub \nataml \iisigntaml  by \nataml_iisigntaml;
+    sub \nnnataml \iisigntaml  by \nnnataml_iisigntaml;
+    sub \pataml \iisigntaml  by \pataml_iisigntaml;
+    sub \mataml \iisigntaml  by \mataml_iisigntaml;
+    sub \yataml \iisigntaml  by \yataml_iisigntaml;
+    sub \rataml \iisigntaml  by \rataml_iisigntaml;
+    sub \rrataml \iisigntaml  by \rrataml_iisigntaml;
+    sub \lataml \iisigntaml  by \lataml_iisigntaml;
+    sub \llataml \iisigntaml  by \llataml_iisigntaml;
+    sub \lllataml \iisigntaml  by \lllataml_iisigntaml;
+    sub \vataml \iisigntaml  by \vataml_iisigntaml;
+    sub \ssataml \iisigntaml  by \ssataml_iisigntaml;
+    sub \sataml \iisigntaml  by \sataml_iisigntaml;
+    sub \hataml \iisigntaml  by \hataml_iisigntaml;
+    sub \kataml_viramataml_ssataml \iisigntaml  by \katam_viramataml_ssatam_iitaml;
+    sub \shataml \iisigntaml  by \shataml_iisigntaml;
+} abvsAboveBaseSubstitutionslooku;
+
+lookup halnHalantFormslookup4 {
+  lookupflag 0;
+    sub \kataml \viramataml  by \kataml_viramataml;
+    sub \ngataml \viramataml  by \ngataml_viramataml;
+    sub \cataml \viramataml  by \cataml_viramataml;
+    sub \jataml \viramataml  by \jataml_viramataml;
+    sub \nyataml \viramataml  by \nyataml_viramataml;
+    sub \ttataml \viramataml  by \ttataml_viramataml;
+    sub \nnataml \viramataml  by \nnataml_viramataml;
+    sub \tataml \viramataml  by \tataml_viramataml;
+    sub \nataml \viramataml  by \nataml_viramataml;
+    sub \nnnataml \viramataml  by \nnnataml_viramataml;
+    sub \pataml \viramataml  by \pataml_viramataml;
+    sub \mataml \viramataml  by \mataml_viramataml;
+    sub \yataml \viramataml  by \yataml_viramataml;
+    sub \rataml \viramataml  by \rataml_viramataml;
+    sub \rrataml \viramataml  by \rrataml_viramataml;
+    sub \lataml \viramataml  by \lataml_viramataml;
+    sub \llataml \viramataml  by \llataml_viramataml;
+    sub \lllataml \viramataml  by \lllataml_viramataml;
+    sub \vataml \viramataml  by \vataml_viramataml;
+    sub \ssataml \viramataml  by \ssataml_viramataml;
+    sub \sataml \viramataml  by \sataml_viramataml;
+    sub \hataml \viramataml  by \hataml_viramataml;
+    sub \kataml_viramataml_ssataml \viramataml  by \kataml_virama_ssataml_virama;
+    sub \shataml \viramataml  by \shataml_viramataml;
+} halnHalantFormslookup4;
+
+lookup pstsPostBaseSubstitutionslookup {
+  lookupflag 0;
+    sub \kataml \isigntaml  by \kataml_isigntaml;
+    sub \ngataml \isigntaml  by \ngataml_isigntaml;
+    sub \cataml \isigntaml  by \cataml_isigntaml;
+    sub \jataml \isigntaml  by \jataml_isigntaml;
+    sub \nyataml \isigntaml  by \nyataml_isigntaml;
+    sub \ttataml \isigntaml  by \ttataml_isigntaml;
+    sub \nnataml \isigntaml  by \nnataml_isigntaml;
+    sub \tataml \isigntaml  by \tataml_isigntaml;
+    sub \nataml \isigntaml  by \nataml_isigntaml;
+    sub \nnnataml \isigntaml  by \nnnataml_isigntaml;
+    sub \pataml \isigntaml  by \pataml_isigntaml;
+    sub \mataml \isigntaml  by \mataml_isigntaml;
+    sub \yataml \isigntaml  by \yataml_isigntaml;
+    sub \rataml \isigntaml  by \rataml_isigntaml;
+    sub \rrataml \isigntaml  by \rrataml_isigntaml;
+    sub \lataml \isigntaml  by \lataml_isigntaml;
+    sub \llataml \isigntaml  by \llataml_isigntaml;
+    sub \lllataml \isigntaml  by \lllataml_isigntaml;
+    sub \vataml \isigntaml  by \vataml_isigntaml;
+    sub \ssataml \isigntaml  by \ssataml_isigntaml;
+    sub \sataml \isigntaml  by \sataml_isigntaml;
+    sub \hataml \isigntaml  by \hataml_isigntaml;
+    sub \kataml \usigntaml  by \kataml_usigntaml;
+    sub \ngataml \usigntaml  by \ngataml_usigntaml;
+    sub \cataml \usigntaml  by \cataml_usigntaml;
+    sub \nyataml \usigntaml  by \nyataml_usigntaml;
+    sub \ttataml \usigntaml  by \ttataml_usigntaml;
+    sub \nnataml \usigntaml  by \nnataml_usigntaml;
+    sub \tataml \usigntaml  by \tataml_usigntaml;
+    sub \nataml \usigntaml  by \nataml_usigntaml;
+    sub \nnnataml \usigntaml  by \nnnataml_usigntaml;
+    sub \pataml \usigntaml  by \pataml_usigntaml;
+    sub \mataml \usigntaml  by \mataml_usigntaml;
+    sub \yataml \usigntaml  by \yataml_usigntaml;
+    sub \rataml \usigntaml  by \rataml_usigntaml;
+    sub \rrataml \usigntaml  by \rrataml_usigntaml;
+    sub \lataml \usigntaml  by \lataml_usigntaml;
+    sub \llataml \usigntaml  by \llataml_usigntaml;
+    sub \lllataml \usigntaml  by \lllataml_usigntaml;
+    sub \vataml \usigntaml  by \vataml_usigntaml;
+    sub \kataml \uusigntaml  by \kataml_uusigntaml;
+    sub \ngataml \uusigntaml  by \ngataml_uusigntaml;
+    sub \cataml \uusigntaml  by \cataml_uusigntaml;
+    sub \nyataml \uusigntaml  by \nyataml_uusigntaml;
+    sub \ttataml \uusigntaml  by \ttataml_uusigntaml;
+    sub \nnataml \uusigntaml  by \nnataml_uusigntaml;
+    sub \tataml \uusigntaml  by \tataml_uusigntaml;
+    sub \nataml \uusigntaml  by \nataml_uusigntaml;
+    sub \nnnataml \uusigntaml  by \nnnataml_uusigntaml;
+    sub \pataml \uusigntaml  by \pataml_uusigntaml;
+    sub \mataml \uusigntaml  by \mataml_uusigntaml;
+    sub \yataml \uusigntaml  by \yataml_uusigntaml;
+    sub \rataml \uusigntaml  by \rataml_uusigntaml;
+    sub \rrataml \uusigntaml  by \rrataml_uusigntaml;
+    sub \lataml \uusigntaml  by \lataml_uusigntaml;
+    sub \llataml \uusigntaml  by \llataml_uusigntaml;
+    sub \lllataml \uusigntaml  by \lllataml_uusigntaml;
+    sub \vataml \uusigntaml  by \vataml_uusigntaml;
+    sub \kataml_viramataml_ssataml \isigntaml  by \katam_viramataml_ssatam_itaml;
+    sub \shataml \isigntaml  by \shataml_isigntaml;
+} pstsPostBaseSubstitutionslookup;
+
+feature akhn {
+
+  script DFLT;
+     language dflt ;
+      lookup akhnAkhandlookup3;
+
+  script taml;
+     language dflt ;
+      lookup akhnAkhandlookup3;
+
+  script tml2;
+     language dflt ;
+      lookup akhnAkhandlookup3;
+} akhn;
+
+feature abvs {
+
+  script DFLT;
+     language dflt ;
+      lookup abvsAboveBaseSubstitutionslooku;
+
+  script taml;
+     language dflt ;
+      lookup abvsAboveBaseSubstitutionslooku;
+
+  script tml2;
+     language dflt ;
+      lookup abvsAboveBaseSubstitutionslooku;
+} abvs;
+
+feature haln {
+
+  script DFLT;
+     language dflt ;
+      lookup halnHalantFormslookup4;
+
+  script taml;
+     language dflt ;
+      lookup halnHalantFormslookup4;
+
+  script tml2;
+     language dflt ;
+      lookup halnHalantFormslookup4;
+} haln;
+
+feature psts {
+
+  script DFLT;
+     language dflt ;
+      lookup pstsPostBaseSubstitutionslookup;
+
+  script taml;
+     language dflt ;
+      lookup pstsPostBaseSubstitutionslookup;
+
+  script tml2;
+     language dflt ;
+      lookup pstsPostBaseSubstitutionslookup;
+} psts;
+
+# GPOS 
+
+
+lookup abvmAboveBaseMarklookup0 {
+  lookupflag 0;
+  markClass [\anusvarataml ] <anchor -123 626> @tmanchor;
+  pos base [\ataml ] <anchor 575 516> mark @tmanchor;
+  pos base [\aataml ] <anchor 640 537> mark @tmanchor;
+  pos base [\itaml ] <anchor 510 820> mark @tmanchor;
+  pos base [\iitaml ] <anchor 396 506> mark @tmanchor;
+  pos base [\utaml ] <anchor 473 522> mark @tmanchor;
+  pos base [\uutaml ] <anchor 637 515> mark @tmanchor;
+  pos base [\etaml ] <anchor 435 506> mark @tmanchor;
+  pos base [\eetaml ] <anchor 440 506> mark @tmanchor;
+  pos base [\aitaml ] <anchor 423 504> mark @tmanchor;
+  pos base [\otaml ] <anchor 428 519> mark @tmanchor;
+  pos base [\ootaml ] <anchor 418 529> mark @tmanchor;
+  pos base [\autaml ] <anchor 879 514> mark @tmanchor;
+  pos base [\kataml ] <anchor 329 494> mark @tmanchor;
+  pos base [\ngataml ] <anchor 449 492> mark @tmanchor;
+  pos base [\cataml ] <anchor 300 495> mark @tmanchor;
+  pos base [\jataml ] <anchor 433 502> mark @tmanchor;
+  pos base [\nyataml ] <anchor 572 505> mark @tmanchor;
+  pos base [\ttataml ] <anchor 423 502> mark @tmanchor;
+  pos base [\nnataml ] <anchor 675 516> mark @tmanchor;
+  pos base [\tataml ] <anchor 322 492> mark @tmanchor;
+  pos base [\nataml ] <anchor 310 499> mark @tmanchor;
+  pos base [\nnnataml ] <anchor 519 506> mark @tmanchor;
+  pos base [\pataml ] <anchor 374 494> mark @tmanchor;
+  pos base [\mataml ] <anchor 435 511> mark @tmanchor;
+  pos base [\yataml ] <anchor 424 488> mark @tmanchor;
+  pos base [\rataml ] <anchor 310 495> mark @tmanchor;
+  pos base [\rrataml ] <anchor 337 509> mark @tmanchor;
+  pos base [\lataml ] <anchor 423 534> mark @tmanchor;
+  pos base [\llataml ] <anchor 482 510> mark @tmanchor;
+  pos base [\lllataml ] <anchor 430 511> mark @tmanchor;
+  pos base [\vataml ] <anchor 482 513> mark @tmanchor;
+  pos base [\shataml ] <anchor 516 498> mark @tmanchor;
+  pos base [\ssataml ] <anchor 616 502> mark @tmanchor;
+  pos base [\sataml ] <anchor 538 535> mark @tmanchor;
+  pos base [\hataml ] <anchor 608 509> mark @tmanchor;
+  pos base [\kataml_viramataml_ssataml ] <anchor 1335 -7> mark @tmanchor;
+} abvmAboveBaseMarklookup0;
+
+feature abvm {
+
+  script taml;
+     language dflt ;
+      lookup abvmAboveBaseMarklookup0;
+
+  script tml2;
+     language dflt ;
+      lookup abvmAboveBaseMarklookup0;
+} abvm;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\.notdef \.null \space \exclam \quotedbl \numbersign \dollar 
+	\percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma 
+	\hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight \nine 
+	\colon \semicolon \less \equal \greater \question \at \bracketleft \backslash 
+	\bracketright \asciicircum \underscore \grave \braceleft \bar \braceright 
+	\asciitilde \cent \multiply \divide \uni0964 \uni0965 \visargataml \ataml 
+	\aataml \itaml \iitaml \utaml \uutaml \etaml \eetaml \aitaml \otaml \ootaml 
+	\autaml \kataml \ngataml \cataml \jataml \nyataml \ttataml \nnataml \tataml 
+	\nataml \nnnataml \pataml \mataml \yataml \rataml \rrataml \lataml \llataml 
+	\lllataml \vataml \shataml \ssataml \sataml \hataml \viramataml \aulengthtaml 
+	\onetaml \twotaml \threetaml \fourtaml \fivetaml \sixtaml \seventaml \eighttaml 
+	\ninetaml \tentaml \onehundredtaml \onethousandtaml \daysigntaml 
+	\monthsigntaml \yearsigntaml \debitsigntaml \creditsigntaml \asabovesigntaml 
+	\rupeesigntaml \numbersigntaml \zerowidthnonjoiner \zerowidthjoiner \endash 
+	\emdash \quoteleft \quoteright \quotedblleft \quotedblright \ellipsis \minus 
+	\quotedcircle \kataml_isigntaml \ngataml_isigntaml \cataml_isigntaml 
+	\jataml_isigntaml \nyataml_isigntaml \ttataml_isigntaml \nnataml_isigntaml 
+	\tataml_isigntaml \nataml_isigntaml \nnnataml_isigntaml \pataml_isigntaml 
+	\mataml_isigntaml \yataml_isigntaml \rataml_isigntaml \rrataml_isigntaml 
+	\lataml_isigntaml \llataml_isigntaml \lllataml_isigntaml \vataml_isigntaml 
+	\ssataml_isigntaml \sataml_isigntaml \hataml_isigntaml \kataml_iisigntaml 
+	\ngataml_iisigntaml \cataml_iisigntaml \jataml_iisigntaml 
+	\nyataml_iisigntaml \ttataml_iisigntaml \nnataml_iisigntaml 
+	\tataml_iisigntaml \nataml_iisigntaml \nnnataml_iisigntaml 
+	\pataml_iisigntaml \mataml_iisigntaml \yataml_iisigntaml \rataml_iisigntaml 
+	\rrataml_iisigntaml \lataml_iisigntaml \llataml_iisigntaml 
+	\lllataml_iisigntaml \vataml_iisigntaml \ssataml_iisigntaml 
+	\sataml_iisigntaml \hataml_iisigntaml \kataml_usigntaml \ngataml_usigntaml 
+	\cataml_usigntaml \nyataml_usigntaml \ttataml_usigntaml \nnataml_usigntaml 
+	\tataml_usigntaml \nataml_usigntaml \nnnataml_usigntaml \pataml_usigntaml 
+	\mataml_usigntaml \yataml_usigntaml \rataml_usigntaml \rrataml_usigntaml 
+	\lataml_usigntaml \llataml_usigntaml \lllataml_usigntaml \vataml_usigntaml 
+	\kataml_uusigntaml \ngataml_uusigntaml \cataml_uusigntaml 
+	\nyataml_uusigntaml \ttataml_uusigntaml \nnataml_uusigntaml 
+	\tataml_uusigntaml \nataml_uusigntaml \nnnataml_uusigntaml 
+	\pataml_uusigntaml \mataml_uusigntaml \yataml_uusigntaml \rataml_uusigntaml 
+	\rrataml_uusigntaml \lataml_uusigntaml \llataml_uusigntaml 
+	\lllataml_uusigntaml \vataml_uusigntaml \kataml_viramataml_ssataml 
+	\katam_viramataml_ssatam_itaml \katam_viramataml_ssatam_iitaml 
+	\kataml_viramataml \ngataml_viramataml \cataml_viramataml 
+	\jataml_viramataml \nyataml_viramataml \ttataml_viramataml 
+	\nnataml_viramataml \tataml_viramataml \nataml_viramataml 
+	\nnnataml_viramataml \pataml_viramataml \mataml_viramataml 
+	\yataml_viramataml \rataml_viramataml \rrataml_viramataml 
+	\lataml_viramataml \llataml_viramataml \lllataml_viramataml 
+	\vataml_viramataml \ssataml_viramataml \hataml_viramataml 
+	\kataml_virama_ssataml_virama \shataml_viramataml \shataml_iisigntaml 
+	\shataml_isigntaml \zerotaml \omtaml \inr_currency \uni00B2 \uni00B3 \uni00B9 
+	\uni2081 \uni2082 \uni2083 \uni2084 \uni2074 \uni0310 \afii57929 \uniF000 ];
+@GDEF_Ligature = [\sataml_viramataml ];
+@GDEF_Mark = [\anusvarataml \aasigntaml \isigntaml \iisigntaml \usigntaml 
+	\uusigntaml \esigntaml \eesigntaml \aisigntaml \osigntaml \oosigntaml 
+	\ausigntaml ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
+
