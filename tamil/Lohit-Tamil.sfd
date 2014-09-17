@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1160992028
-ModificationTime: 1410881363
+ModificationTime: 1410945702
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -290,12 +290,12 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 51 17
+WinInfo: 0 44 17
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 314368 157184 104789 0 1048576 104789 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "tmanchor"  "'abvm' Above Base Mark lookup 0-1" 
-BeginChars: 65649 254
+BeginChars: 65649 253
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -322,17 +322,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: .null
-Encoding: 0 0 1
-Width: 0
-VWidth: 1023
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: space
-Encoding: 32 32 2
+Encoding: 32 32 1
 Width: 307
 VWidth: 1023
 GlyphClass: 2
@@ -341,7 +332,7 @@ LayerCount: 2
 EndChar
 
 StartChar: exclam
-Encoding: 33 33 3
+Encoding: 33 33 2
 Width: 282
 VWidth: 1023
 GlyphClass: 2
@@ -375,7 +366,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedbl
-Encoding: 34 34 4
+Encoding: 34 34 3
 Width: 417
 VWidth: 1023
 GlyphClass: 2
@@ -400,7 +391,7 @@ Validated: 1
 EndChar
 
 StartChar: numbersign
-Encoding: 35 35 5
+Encoding: 35 35 4
 Width: 967
 VWidth: 1023
 GlyphClass: 2
@@ -448,7 +439,7 @@ Validated: 1
 EndChar
 
 StartChar: dollar
-Encoding: 36 36 6
+Encoding: 36 36 5
 Width: 569
 VWidth: 1023
 GlyphClass: 2
@@ -504,7 +495,7 @@ Validated: 1
 EndChar
 
 StartChar: percent
-Encoding: 37 37 7
+Encoding: 37 37 6
 Width: 799
 VWidth: 1023
 GlyphClass: 2
@@ -576,7 +567,7 @@ Validated: 1
 EndChar
 
 StartChar: ampersand
-Encoding: 38 38 8
+Encoding: 38 38 7
 Width: 802
 VWidth: 1023
 GlyphClass: 2
@@ -640,7 +631,7 @@ Validated: 1
 EndChar
 
 StartChar: quotesingle
-Encoding: 39 39 9
+Encoding: 39 39 8
 Width: 264
 VWidth: 1023
 GlyphClass: 2
@@ -660,7 +651,7 @@ Validated: 1
 EndChar
 
 StartChar: parenleft
-Encoding: 40 40 10
+Encoding: 40 40 9
 Width: 430
 VWidth: 1023
 GlyphClass: 2
@@ -686,7 +677,7 @@ Validated: 1
 EndChar
 
 StartChar: parenright
-Encoding: 41 41 11
+Encoding: 41 41 10
 Width: 430
 VWidth: 1023
 GlyphClass: 2
@@ -712,7 +703,7 @@ Validated: 1
 EndChar
 
 StartChar: asterisk
-Encoding: 42 42 12
+Encoding: 42 42 11
 Width: 559
 GlyphClass: 2
 Flags: W
@@ -744,7 +735,7 @@ Validated: 1
 EndChar
 
 StartChar: plus
-Encoding: 43 43 13
+Encoding: 43 43 12
 Width: 614
 VWidth: 1023
 GlyphClass: 2
@@ -772,7 +763,7 @@ Validated: 1
 EndChar
 
 StartChar: comma
-Encoding: 44 44 14
+Encoding: 44 44 13
 Width: 282
 VWidth: 1023
 GlyphClass: 2
@@ -799,7 +790,7 @@ Validated: 1
 EndChar
 
 StartChar: hyphen
-Encoding: 45 45 15
+Encoding: 45 45 14
 Width: 491
 VWidth: 1023
 GlyphClass: 2
@@ -819,7 +810,7 @@ Validated: 1
 EndChar
 
 StartChar: period
-Encoding: 46 46 16
+Encoding: 46 46 15
 Width: 282
 VWidth: 1023
 GlyphClass: 2
@@ -843,7 +834,7 @@ Validated: 1
 EndChar
 
 StartChar: slash
-Encoding: 47 47 17
+Encoding: 47 47 16
 Width: 491
 VWidth: 1023
 GlyphClass: 2
@@ -862,7 +853,7 @@ Validated: 1
 EndChar
 
 StartChar: zero
-Encoding: 48 48 18
+Encoding: 48 48 17
 Width: 614
 VWidth: 1023
 GlyphClass: 2
@@ -895,7 +886,7 @@ Validated: 1
 EndChar
 
 StartChar: one
-Encoding: 49 49 19
+Encoding: 49 49 18
 Width: 614
 VWidth: 1023
 GlyphClass: 2
@@ -924,7 +915,7 @@ Validated: 1
 EndChar
 
 StartChar: two
-Encoding: 50 50 20
+Encoding: 50 50 19
 Width: 614
 VWidth: 1023
 GlyphClass: 2
@@ -965,7 +956,7 @@ Validated: 1
 EndChar
 
 StartChar: three
-Encoding: 51 51 21
+Encoding: 51 51 20
 Width: 614
 VWidth: 1023
 GlyphClass: 2
@@ -1002,7 +993,7 @@ Validated: 1
 EndChar
 
 StartChar: four
-Encoding: 52 52 22
+Encoding: 52 52 21
 Width: 614
 VWidth: 1023
 GlyphClass: 2
@@ -1037,7 +1028,7 @@ Validated: 1
 EndChar
 
 StartChar: five
-Encoding: 53 53 23
+Encoding: 53 53 22
 Width: 614
 VWidth: 1023
 GlyphClass: 2
@@ -1076,7 +1067,7 @@ Validated: 1
 EndChar
 
 StartChar: six
-Encoding: 54 54 24
+Encoding: 54 54 23
 Width: 614
 VWidth: 1023
 GlyphClass: 2
@@ -1118,7 +1109,7 @@ Validated: 1
 EndChar
 
 StartChar: seven
-Encoding: 55 55 25
+Encoding: 55 55 24
 Width: 613
 VWidth: 1023
 GlyphClass: 2
@@ -1147,7 +1138,7 @@ Validated: 1
 EndChar
 
 StartChar: eight
-Encoding: 56 56 26
+Encoding: 56 56 25
 Width: 614
 VWidth: 1023
 GlyphClass: 2
@@ -1198,7 +1189,7 @@ Validated: 1
 EndChar
 
 StartChar: nine
-Encoding: 57 57 27
+Encoding: 57 57 26
 Width: 614
 VWidth: 1023
 GlyphClass: 2
@@ -1240,7 +1231,7 @@ Validated: 1
 EndChar
 
 StartChar: colon
-Encoding: 58 58 28
+Encoding: 58 58 27
 Width: 282
 VWidth: 1023
 GlyphClass: 2
@@ -1273,7 +1264,7 @@ Validated: 1
 EndChar
 
 StartChar: semicolon
-Encoding: 59 59 29
+Encoding: 59 59 28
 Width: 282
 VWidth: 1023
 GlyphClass: 2
@@ -1309,7 +1300,7 @@ Validated: 1
 EndChar
 
 StartChar: less
-Encoding: 60 60 30
+Encoding: 60 60 29
 Width: 677
 VWidth: 1023
 GlyphClass: 2
@@ -1330,7 +1321,7 @@ Validated: 1
 EndChar
 
 StartChar: equal
-Encoding: 61 61 31
+Encoding: 61 61 30
 Width: 491
 VWidth: 1023
 GlyphClass: 2
@@ -1355,7 +1346,7 @@ Validated: 1
 EndChar
 
 StartChar: greater
-Encoding: 62 62 32
+Encoding: 62 62 31
 Width: 677
 VWidth: 1023
 GlyphClass: 2
@@ -1376,7 +1367,7 @@ Validated: 1
 EndChar
 
 StartChar: question
-Encoding: 63 63 33
+Encoding: 63 63 32
 Width: 614
 VWidth: 1023
 GlyphClass: 2
@@ -1421,7 +1412,7 @@ Validated: 1
 EndChar
 
 StartChar: at
-Encoding: 64 64 34
+Encoding: 64 64 33
 Width: 1035
 VWidth: 1023
 GlyphClass: 2
@@ -1483,7 +1474,7 @@ Validated: 1
 EndChar
 
 StartChar: bracketleft
-Encoding: 91 91 35
+Encoding: 91 91 34
 Width: 485
 VWidth: 1023
 GlyphClass: 2
@@ -1507,7 +1498,7 @@ Validated: 1
 EndChar
 
 StartChar: backslash
-Encoding: 92 92 36
+Encoding: 92 92 35
 Width: 730
 VWidth: 1023
 GlyphClass: 2
@@ -1525,7 +1516,7 @@ Validated: 1
 EndChar
 
 StartChar: bracketright
-Encoding: 93 93 37
+Encoding: 93 93 36
 Width: 485
 VWidth: 1023
 GlyphClass: 2
@@ -1549,7 +1540,7 @@ Validated: 1
 EndChar
 
 StartChar: asciicircum
-Encoding: 94 94 38
+Encoding: 94 94 37
 Width: 577
 VWidth: 1023
 GlyphClass: 2
@@ -1570,7 +1561,7 @@ Validated: 1
 EndChar
 
 StartChar: underscore
-Encoding: 95 95 39
+Encoding: 95 95 38
 Width: 765
 VWidth: 1023
 GlyphClass: 2
@@ -1589,7 +1580,7 @@ Validated: 1
 EndChar
 
 StartChar: grave
-Encoding: 96 96 40
+Encoding: 96 96 39
 Width: 376
 VWidth: 1023
 GlyphClass: 2
@@ -1611,7 +1602,7 @@ Validated: 33
 EndChar
 
 StartChar: braceleft
-Encoding: 123 123 41
+Encoding: 123 123 40
 Width: 553
 VWidth: 1023
 GlyphClass: 2
@@ -1651,7 +1642,7 @@ Validated: 1
 EndChar
 
 StartChar: bar
-Encoding: 124 124 42
+Encoding: 124 124 41
 Width: 258
 VWidth: 1023
 GlyphClass: 2
@@ -1670,7 +1661,7 @@ Validated: 1
 EndChar
 
 StartChar: braceright
-Encoding: 125 125 43
+Encoding: 125 125 42
 Width: 553
 VWidth: 1023
 GlyphClass: 2
@@ -1710,7 +1701,7 @@ Validated: 1
 EndChar
 
 StartChar: asciitilde
-Encoding: 126 126 44
+Encoding: 126 126 43
 Width: 792
 VWidth: 1023
 GlyphClass: 2
@@ -1739,7 +1730,7 @@ Validated: 1
 EndChar
 
 StartChar: cent
-Encoding: 162 162 45
+Encoding: 162 162 44
 Width: 555
 VWidth: 1023
 GlyphClass: 2
@@ -1790,7 +1781,7 @@ Validated: 1
 EndChar
 
 StartChar: multiply
-Encoding: 215 215 46
+Encoding: 215 215 45
 Width: 532
 VWidth: 1023
 GlyphClass: 2
@@ -1816,7 +1807,7 @@ Validated: 1
 EndChar
 
 StartChar: divide
-Encoding: 247 247 47
+Encoding: 247 247 46
 Width: 590
 VWidth: 1023
 GlyphClass: 2
@@ -1854,7 +1845,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0964
-Encoding: 2404 2404 48
+Encoding: 2404 2404 47
 Width: 338
 VWidth: 1023
 GlyphClass: 2
@@ -1874,7 +1865,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0965
-Encoding: 2405 2405 49
+Encoding: 2405 2405 48
 Width: 534
 VWidth: 1023
 GlyphClass: 2
@@ -1899,7 +1890,7 @@ Validated: 1
 EndChar
 
 StartChar: anusvarataml
-Encoding: 2946 2946 50
+Encoding: 2946 2946 49
 Width: 0
 VWidth: 1023
 GlyphClass: 4
@@ -1933,7 +1924,7 @@ Validated: 1
 EndChar
 
 StartChar: visargataml
-Encoding: 2947 2947 51
+Encoding: 2947 2947 50
 Width: 803
 VWidth: 1023
 GlyphClass: 2
@@ -2002,7 +1993,7 @@ Validated: 1
 EndChar
 
 StartChar: ataml
-Encoding: 2949 2949 52
+Encoding: 2949 2949 51
 Width: 1138
 VWidth: 1023
 GlyphClass: 2
@@ -2066,11 +2057,11 @@ SplineSet
  87 120 87 120 87 111 c 1,69,57
  87 105 87 105 93.5 95.5 c 128,-1,58
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: aataml
-Encoding: 2950 2950 53
+Encoding: 2950 2950 52
 Width: 1295
 VWidth: 1023
 GlyphClass: 2
@@ -2160,11 +2151,11 @@ SplineSet
  87 120 87 120 87 111 c 1,106,94
  87 105 87 105 93.5 95.5 c 128,-1,95
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: itaml
-Encoding: 2951 2951 54
+Encoding: 2951 2951 53
 Width: 996
 VWidth: 1023
 GlyphClass: 2
@@ -2261,11 +2252,11 @@ SplineSet
  521 -150 521 -150 462 -191 c 1,116,105
  520 -224 520 -224 570 -241 c 128,-1,106
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: iitaml
-Encoding: 2952 2952 55
+Encoding: 2952 2952 54
 Width: 722
 VWidth: 1023
 GlyphClass: 2
@@ -2310,7 +2301,7 @@ Validated: 1
 EndChar
 
 StartChar: utaml
-Encoding: 2953 2953 56
+Encoding: 2953 2953 55
 Width: 929
 VWidth: 1023
 GlyphClass: 2
@@ -2362,11 +2353,11 @@ SplineSet
  59 306 59 306 59 356 c 1,53,12
  59 417 59 417 120.5 460.5 c 128,-1,13
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: uutaml
-Encoding: 2954 2954 57
+Encoding: 2954 2954 56
 Width: 1289
 VWidth: 1023
 GlyphClass: 2
@@ -2456,11 +2447,11 @@ SplineSet
  588 214 588 214 588 295 c 1,100,65
  588 381 588 381 645.5 442.5 c 128,-1,66
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: etaml
-Encoding: 2958 2958 58
+Encoding: 2958 2958 57
 Width: 799
 VWidth: 1023
 GlyphClass: 2
@@ -2505,11 +2496,11 @@ SplineSet
  558 443 l 1,42,-1
  312 443 l 2,12,13
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: eetaml
-Encoding: 2959 2959 59
+Encoding: 2959 2959 58
 Width: 797
 VWidth: 1023
 GlyphClass: 2
@@ -2562,7 +2553,7 @@ Validated: 1
 EndChar
 
 StartChar: aitaml
-Encoding: 2960 2960 60
+Encoding: 2960 2960 59
 Width: 822
 VWidth: 1023
 GlyphClass: 2
@@ -2645,11 +2636,11 @@ SplineSet
  102 321 102 321 102 295 c 1,98,87
  102 264 102 264 127 242.5 c 128,-1,88
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: otaml
-Encoding: 2962 2962 61
+Encoding: 2962 2962 60
 Width: 858
 VWidth: 1023
 GlyphClass: 2
@@ -2767,11 +2758,11 @@ SplineSet
  208 221 208 221 190 199.5 c 128,-1,96
  172 178 172 178 172 148 c 1,85,86
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: ootaml
-Encoding: 2963 2963 62
+Encoding: 2963 2963 61
 Width: 859
 VWidth: 1023
 GlyphClass: 2
@@ -2899,11 +2890,11 @@ SplineSet
  258 -98 258 -98 240.5 -119.5 c 132,-1,110
  223 -141 223 -141 223 -172 c 5,99,100
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: autaml
-Encoding: 2964 2964 63
+Encoding: 2964 2964 62
 Width: 1746
 VWidth: 1023
 GlyphClass: 2
@@ -3079,11 +3070,11 @@ SplineSet
  1283 451 1283 451 1309 406 c 1,149,-1
  1309 492 l 1,109,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: kataml
-Encoding: 2965 2965 64
+Encoding: 2965 2965 63
 Width: 655
 VWidth: 1023
 GlyphClass: 2
@@ -3185,7 +3176,7 @@ Validated: 1
 EndChar
 
 StartChar: ngataml
-Encoding: 2969 2969 65
+Encoding: 2969 2969 64
 Width: 897
 VWidth: 1023
 GlyphClass: 2
@@ -3272,7 +3263,7 @@ Validated: 1
 EndChar
 
 StartChar: cataml
-Encoding: 2970 2970 66
+Encoding: 2970 2970 65
 Width: 567
 VWidth: 1023
 GlyphClass: 2
@@ -3356,7 +3347,7 @@ Validated: 1
 EndChar
 
 StartChar: jataml
-Encoding: 2972 2972 67
+Encoding: 2972 2972 66
 Width: 854
 VWidth: 1023
 GlyphClass: 2
@@ -3489,11 +3480,11 @@ SplineSet
  314 504 314 504 361.5 474.5 c 128,-1,100
  409 445 409 445 439 393 c 1,11,12
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: nyataml
-Encoding: 2974 2974 68
+Encoding: 2974 2974 67
 Width: 1100
 VWidth: 1023
 GlyphClass: 2
@@ -3604,11 +3595,11 @@ SplineSet
  389 -320 389 -320 231 -168.5 c 132,-1,73
  73 -17 73 -17 73 197 c 5,11,12
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: ttataml
-Encoding: 2975 2975 69
+Encoding: 2975 2975 68
 Width: 815
 VWidth: 1023
 GlyphClass: 2
@@ -3666,7 +3657,7 @@ Validated: 1
 EndChar
 
 StartChar: nnataml
-Encoding: 2979 2979 70
+Encoding: 2979 2979 69
 Width: 1303
 VWidth: 1023
 GlyphClass: 2
@@ -3821,11 +3812,11 @@ SplineSet
  162 -12 162 -12 108 52.5 c 128,-1,113
  54 117 54 117 54 209 c 1,35,36
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: tataml
-Encoding: 2980 2980 71
+Encoding: 2980 2980 70
 Width: 667
 VWidth: 1023
 GlyphClass: 2
@@ -3918,11 +3909,11 @@ SplineSet
  107 270 107 270 157 270 c 1,58,-1
  157 492 l 1,15,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: nataml
-Encoding: 2984 2984 72
+Encoding: 2984 2984 71
 Width: 657
 VWidth: 1023
 GlyphClass: 2
@@ -4015,7 +4006,7 @@ Validated: 1
 EndChar
 
 StartChar: nnnataml
-Encoding: 2985 2985 73
+Encoding: 2985 2985 72
 Width: 993
 VWidth: 1023
 GlyphClass: 2
@@ -4140,11 +4131,11 @@ SplineSet
  608 466 608 466 646.5 479 c 128,-1,77
  685 492 685 492 728 492 c 1,23,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: pataml
-Encoding: 2986 2986 74
+Encoding: 2986 2986 73
 Width: 762
 VWidth: 1023
 GlyphClass: 2
@@ -4205,7 +4196,7 @@ Validated: 1
 EndChar
 
 StartChar: mataml
-Encoding: 2990 2990 75
+Encoding: 2990 2990 74
 Width: 824
 VWidth: 1023
 GlyphClass: 2
@@ -4287,7 +4278,7 @@ Validated: 1
 EndChar
 
 StartChar: yataml
-Encoding: 2991 2991 76
+Encoding: 2991 2991 75
 Width: 878
 VWidth: 1023
 GlyphClass: 2
@@ -4366,11 +4357,11 @@ SplineSet
  369 49 l 1,23,-1
  725 49 l 1,0,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: rataml
-Encoding: 2992 2992 77
+Encoding: 2992 2992 76
 Width: 529
 VWidth: 1023
 GlyphClass: 2
@@ -4442,7 +4433,7 @@ Validated: 1
 EndChar
 
 StartChar: rrataml
-Encoding: 2993 2993 78
+Encoding: 2993 2993 77
 Width: 697
 VWidth: 1023
 GlyphClass: 2
@@ -4535,11 +4526,11 @@ SplineSet
  89 0 l 1,47,-1
  89 369 l 1,0,1
 EndSplineSet
-Validated: 8388641
+Validated: 33
 EndChar
 
 StartChar: lataml
-Encoding: 2994 2994 79
+Encoding: 2994 2994 78
 Width: 850
 VWidth: 1023
 GlyphClass: 2
@@ -4639,7 +4630,7 @@ Validated: 1
 EndChar
 
 StartChar: llataml
-Encoding: 2995 2995 80
+Encoding: 2995 2995 79
 Width: 924
 VWidth: 1023
 GlyphClass: 2
@@ -4747,11 +4738,11 @@ SplineSet
  461 451 461 451 487 406 c 1,52,-1
  487 492 l 1,12,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: lllataml
-Encoding: 2996 2996 81
+Encoding: 2996 2996 80
 Width: 824
 VWidth: 1023
 GlyphClass: 2
@@ -4866,11 +4857,11 @@ SplineSet
  387 426 387 426 426.5 465 c 128,-1,62
  466 504 466 504 522 504 c 1,11,12
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: vataml
-Encoding: 2997 2997 82
+Encoding: 2997 2997 81
 Width: 980
 VWidth: 1023
 GlyphClass: 2
@@ -4970,11 +4961,11 @@ SplineSet
  581 91 581 91 557 49 c 1,52,-1
  827 49 l 1,11,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: shataml
-Encoding: 2998 2998 83
+Encoding: 2998 2998 82
 Width: 1051
 VWidth: 1023
 GlyphClass: 2
@@ -5012,7 +5003,7 @@ Validated: 33
 EndChar
 
 StartChar: ssataml
-Encoding: 2999 2999 84
+Encoding: 2999 2999 83
 Width: 1146
 VWidth: 1023
 GlyphClass: 2
@@ -5148,11 +5139,11 @@ SplineSet
  658 405 658 405 701 448.5 c 128,-1,92
  744 492 744 492 805 492 c 1,31,32
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: sataml
-Encoding: 3000 3000 85
+Encoding: 3000 3000 84
 Width: 1100
 VWidth: 1023
 GlyphClass: 2
@@ -5264,11 +5255,11 @@ SplineSet
  185 -12 185 -12 120 56 c 128,-1,76
  55 124 55 124 55 221 c 1,11,12
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: hataml
-Encoding: 3001 3001 86
+Encoding: 3001 3001 85
 Width: 1255
 VWidth: 1023
 GlyphClass: 2
@@ -5401,11 +5392,11 @@ SplineSet
  810 504 810 504 836 491 c 128,-1,99
  862 478 862 478 881 455 c 1,11,12
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: aasigntaml
-Encoding: 3006 3006 87
+Encoding: 3006 3006 86
 Width: 535
 VWidth: 1023
 GlyphClass: 4
@@ -5470,7 +5461,7 @@ Validated: 5
 EndChar
 
 StartChar: isigntaml
-Encoding: 3007 3007 88
+Encoding: 3007 3007 87
 Width: 663
 VWidth: 1023
 GlyphClass: 4
@@ -5542,7 +5533,7 @@ Validated: 5
 EndChar
 
 StartChar: iisigntaml
-Encoding: 3008 3008 89
+Encoding: 3008 3008 88
 Width: 553
 VWidth: 1023
 GlyphClass: 4
@@ -5619,7 +5610,7 @@ Validated: 5
 EndChar
 
 StartChar: usigntaml
-Encoding: 3009 3009 90
+Encoding: 3009 3009 89
 Width: 532
 VWidth: 1023
 GlyphClass: 4
@@ -5692,7 +5683,7 @@ Validated: 5
 EndChar
 
 StartChar: uusigntaml
-Encoding: 3010 3010 91
+Encoding: 3010 3010 90
 Width: 776
 VWidth: 1023
 GlyphClass: 4
@@ -5794,7 +5785,7 @@ Validated: 5
 EndChar
 
 StartChar: esigntaml
-Encoding: 3014 3014 92
+Encoding: 3014 3014 91
 Width: 797
 VWidth: 1023
 GlyphClass: 4
@@ -5885,7 +5876,7 @@ Validated: 5
 EndChar
 
 StartChar: eesigntaml
-Encoding: 3015 3015 93
+Encoding: 3015 3015 92
 Width: 727
 VWidth: 1023
 GlyphClass: 4
@@ -5985,7 +5976,7 @@ Validated: 5
 EndChar
 
 StartChar: aisigntaml
-Encoding: 3016 3016 94
+Encoding: 3016 3016 93
 Width: 969
 VWidth: 1023
 GlyphClass: 4
@@ -6105,7 +6096,7 @@ Validated: 5
 EndChar
 
 StartChar: osigntaml
-Encoding: 3018 3018 95
+Encoding: 3018 3018 94
 Width: 1284
 VWidth: 1023
 GlyphClass: 4
@@ -6221,7 +6212,7 @@ Validated: 5
 EndChar
 
 StartChar: oosigntaml
-Encoding: 3019 3019 96
+Encoding: 3019 3019 95
 Width: 1219
 VWidth: 1023
 GlyphClass: 4
@@ -6349,7 +6340,7 @@ Validated: 5
 EndChar
 
 StartChar: ausigntaml
-Encoding: 3020 3020 97
+Encoding: 3020 3020 96
 Width: 1677
 VWidth: 1023
 GlyphClass: 4
@@ -6498,7 +6489,7 @@ Validated: 5
 EndChar
 
 StartChar: viramataml
-Encoding: 3021 3021 98
+Encoding: 3021 3021 97
 Width: 125
 VWidth: 1023
 GlyphClass: 2
@@ -6560,7 +6551,7 @@ Validated: 5
 EndChar
 
 StartChar: aulengthtaml
-Encoding: 3031 3031 99
+Encoding: 3031 3031 98
 Width: 924
 VWidth: 1023
 GlyphClass: 2
@@ -6671,7 +6662,7 @@ Validated: 5
 EndChar
 
 StartChar: onetaml
-Encoding: 3047 3047 100
+Encoding: 3047 3047 99
 Width: 700
 VWidth: 1023
 GlyphClass: 2
@@ -6728,7 +6719,7 @@ Validated: 1
 EndChar
 
 StartChar: twotaml
-Encoding: 3048 3048 101
+Encoding: 3048 3048 100
 Width: 725
 VWidth: 1023
 GlyphClass: 2
@@ -6783,7 +6774,7 @@ Validated: 1
 EndChar
 
 StartChar: threetaml
-Encoding: 3049 3049 102
+Encoding: 3049 3049 101
 Width: 780
 VWidth: 1023
 GlyphClass: 2
@@ -6827,7 +6818,7 @@ Validated: 1
 EndChar
 
 StartChar: fourtaml
-Encoding: 3050 3050 103
+Encoding: 3050 3050 102
 Width: 746
 VWidth: 1023
 GlyphClass: 2
@@ -6874,7 +6865,7 @@ Validated: 1
 EndChar
 
 StartChar: fivetaml
-Encoding: 3051 3051 104
+Encoding: 3051 3051 103
 Width: 1055
 VWidth: 1023
 GlyphClass: 2
@@ -6928,7 +6919,7 @@ Validated: 1
 EndChar
 
 StartChar: sixtaml
-Encoding: 3052 3052 105
+Encoding: 3052 3052 104
 Width: 941
 VWidth: 1023
 GlyphClass: 2
@@ -6981,7 +6972,7 @@ Validated: 1
 EndChar
 
 StartChar: seventaml
-Encoding: 3053 3053 106
+Encoding: 3053 3053 105
 Width: 802
 VWidth: 1023
 GlyphClass: 2
@@ -7029,7 +7020,7 @@ Validated: 1
 EndChar
 
 StartChar: eighttaml
-Encoding: 3054 3054 107
+Encoding: 3054 3054 106
 Width: 1142
 VWidth: 1023
 GlyphClass: 2
@@ -7084,7 +7075,7 @@ Validated: 37
 EndChar
 
 StartChar: ninetaml
-Encoding: 3055 3055 108
+Encoding: 3055 3055 107
 Width: 987
 VWidth: 1023
 GlyphClass: 2
@@ -7158,7 +7149,7 @@ Validated: 1
 EndChar
 
 StartChar: tentaml
-Encoding: 3056 3056 109
+Encoding: 3056 3056 108
 Width: 823
 VWidth: 1023
 GlyphClass: 2
@@ -7203,7 +7194,7 @@ Validated: 1
 EndChar
 
 StartChar: onehundredtaml
-Encoding: 3057 3057 110
+Encoding: 3057 3057 109
 Width: 684
 VWidth: 1023
 GlyphClass: 2
@@ -7244,7 +7235,7 @@ Validated: 5
 EndChar
 
 StartChar: onethousandtaml
-Encoding: 3058 3058 111
+Encoding: 3058 3058 110
 Width: 759
 VWidth: 1023
 GlyphClass: 2
@@ -7350,7 +7341,7 @@ Validated: 1
 EndChar
 
 StartChar: daysigntaml
-Encoding: 3059 3059 112
+Encoding: 3059 3059 111
 Width: 910
 VWidth: 1023
 GlyphClass: 2
@@ -7446,7 +7437,7 @@ Validated: 5
 EndChar
 
 StartChar: monthsigntaml
-Encoding: 3060 3060 113
+Encoding: 3060 3060 112
 Width: 1062
 VWidth: 1023
 GlyphClass: 2
@@ -7589,7 +7580,7 @@ Validated: 5
 EndChar
 
 StartChar: yearsigntaml
-Encoding: 3061 3061 114
+Encoding: 3061 3061 113
 Width: 1800
 VWidth: 1023
 GlyphClass: 2
@@ -7749,7 +7740,7 @@ Validated: 5
 EndChar
 
 StartChar: debitsigntaml
-Encoding: 3062 3062 115
+Encoding: 3062 3062 114
 Width: 791
 VWidth: 1023
 GlyphClass: 2
@@ -7846,7 +7837,7 @@ Validated: 5
 EndChar
 
 StartChar: creditsigntaml
-Encoding: 3063 3063 116
+Encoding: 3063 3063 115
 Width: 1336
 VWidth: 1023
 GlyphClass: 2
@@ -7979,7 +7970,7 @@ Validated: 5
 EndChar
 
 StartChar: asabovesigntaml
-Encoding: 3064 3064 117
+Encoding: 3064 3064 116
 Width: 1595
 VWidth: 1023
 GlyphClass: 2
@@ -8121,7 +8112,7 @@ Validated: 37
 EndChar
 
 StartChar: rupeesigntaml
-Encoding: 3065 3065 118
+Encoding: 3065 3065 117
 Width: 1587
 VWidth: 1023
 GlyphClass: 2
@@ -8203,7 +8194,7 @@ Validated: 1
 EndChar
 
 StartChar: numbersigntaml
-Encoding: 3066 3066 119
+Encoding: 3066 3066 118
 Width: 1196
 VWidth: 1023
 GlyphClass: 2
@@ -8339,7 +8330,7 @@ Validated: 5
 EndChar
 
 StartChar: zerowidthnonjoiner
-Encoding: 8204 8204 120
+Encoding: 8204 8204 119
 Width: 12
 VWidth: 636
 GlyphClass: 2
@@ -8395,11 +8386,11 @@ SplineSet
  37.5 3 l 1,3,-1
  -27 3 l 1,0,-1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: zerowidthjoiner
-Encoding: 8205 8205 121
+Encoding: 8205 8205 120
 Width: 17
 VWidth: 636
 GlyphClass: 2
@@ -8486,11 +8477,11 @@ SplineSet
  52.25 -7 l 1,7,-1
  -2.25 -7 l 1,0,-1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: endash
-Encoding: 8211 8211 122
+Encoding: 8211 8211 121
 Width: 553
 VWidth: 1023
 GlyphClass: 2
@@ -8560,7 +8551,7 @@ Validated: 1
 EndChar
 
 StartChar: emdash
-Encoding: 8212 8212 123
+Encoding: 8212 8212 122
 Width: 1229
 VWidth: 1023
 GlyphClass: 2
@@ -8630,7 +8621,7 @@ Validated: 5
 EndChar
 
 StartChar: quoteleft
-Encoding: 8216 8216 124
+Encoding: 8216 8216 123
 Width: 288
 VWidth: 1023
 GlyphClass: 2
@@ -8693,7 +8684,7 @@ Validated: 5
 EndChar
 
 StartChar: quoteright
-Encoding: 8217 8217 125
+Encoding: 8217 8217 124
 Width: 282
 VWidth: 1023
 GlyphClass: 2
@@ -8753,7 +8744,7 @@ Validated: 5
 EndChar
 
 StartChar: quotedblleft
-Encoding: 8220 8220 126
+Encoding: 8220 8220 125
 Width: 454
 VWidth: 1023
 GlyphClass: 2
@@ -8835,7 +8826,7 @@ Validated: 5
 EndChar
 
 StartChar: quotedblright
-Encoding: 8221 8221 127
+Encoding: 8221 8221 126
 Width: 436
 VWidth: 1023
 GlyphClass: 2
@@ -8912,7 +8903,7 @@ Validated: 5
 EndChar
 
 StartChar: ellipsis
-Encoding: 8230 8230 128
+Encoding: 8230 8230 127
 Width: 974
 VWidth: 1023
 GlyphClass: 2
@@ -8990,7 +8981,7 @@ Validated: 5
 EndChar
 
 StartChar: minus
-Encoding: 8722 8722 129
+Encoding: 8722 8722 128
 Width: 491
 VWidth: 1023
 GlyphClass: 2
@@ -9045,7 +9036,7 @@ Validated: 5
 EndChar
 
 StartChar: quotedcircle
-Encoding: 9676 9676 130
+Encoding: 9676 9676 129
 Width: 781
 VWidth: 1023
 GlyphClass: 2
@@ -9211,7 +9202,7 @@ Validated: 5
 EndChar
 
 StartChar: kataml_isigntaml
-Encoding: 65537 -1 131
+Encoding: 65537 -1 130
 Width: 839
 VWidth: 1023
 GlyphClass: 2
@@ -9280,13 +9271,13 @@ SplineSet
  107 270 107 270 157 270 c 1,72,-1
  157 492 l 1,15,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions lookup 0-1" kataml isigntaml
 EndChar
 
 StartChar: ngataml_isigntaml
-Encoding: 65538 -1 132
+Encoding: 65538 -1 131
 Width: 1069
 VWidth: 1023
 GlyphClass: 2
@@ -9348,13 +9339,13 @@ SplineSet
  92 0 l 5,63,-1
  92 492 l 5,0,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions lookup 0-1" ngataml isigntaml
 EndChar
 
 StartChar: cataml_isigntaml
-Encoding: 65539 -1 133
+Encoding: 65539 -1 132
 Width: 802
 VWidth: 1023
 GlyphClass: 2
@@ -9411,13 +9402,13 @@ SplineSet
  107 270 107 270 157 270 c 1,54,-1
  157 492 l 1,15,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions lookup 0-1" cataml isigntaml
 EndChar
 
 StartChar: jataml_isigntaml
-Encoding: 65540 -1 134
+Encoding: 65540 -1 133
 Width: 1041
 VWidth: 1023
 GlyphClass: 2
@@ -9569,7 +9560,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" jataml isigntaml
 EndChar
 
 StartChar: nyataml_isigntaml
-Encoding: 65541 -1 135
+Encoding: 65541 -1 134
 Width: 1290
 VWidth: 1023
 GlyphClass: 2
@@ -9715,7 +9706,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" nyataml isigntaml
 EndChar
 
 StartChar: ttataml_isigntaml
-Encoding: 65542 -1 136
+Encoding: 65542 -1 135
 Width: 815
 VWidth: 1023
 GlyphClass: 2
@@ -9802,7 +9793,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" ttataml isigntaml
 EndChar
 
 StartChar: nnataml_isigntaml
-Encoding: 65543 -1 137
+Encoding: 65543 -1 136
 Width: 1523
 VWidth: 1023
 GlyphClass: 2
@@ -9918,7 +9909,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" nnataml isigntaml
 EndChar
 
 StartChar: tataml_isigntaml
-Encoding: 65544 -1 138
+Encoding: 65544 -1 137
 Width: 839
 VWidth: 1023
 GlyphClass: 2
@@ -10047,7 +10038,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" tataml isigntaml
 EndChar
 
 StartChar: nataml_isigntaml
-Encoding: 65545 -1 139
+Encoding: 65545 -1 138
 Width: 848
 VWidth: 1023
 GlyphClass: 2
@@ -10169,7 +10160,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" nataml isigntaml
 EndChar
 
 StartChar: nnnataml_isigntaml
-Encoding: 65546 -1 140
+Encoding: 65546 -1 139
 Width: 1225
 VWidth: 1023
 GlyphClass: 2
@@ -10321,7 +10312,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" nnnataml isigntaml
 EndChar
 
 StartChar: pataml_isigntaml
-Encoding: 65547 -1 141
+Encoding: 65547 -1 140
 Width: 934
 VWidth: 1023
 GlyphClass: 2
@@ -10415,7 +10406,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" pataml isigntaml
 EndChar
 
 StartChar: mataml_isigntaml
-Encoding: 65548 -1 142
+Encoding: 65548 -1 141
 Width: 1008
 VWidth: 1023
 GlyphClass: 2
@@ -10518,7 +10509,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" mataml isigntaml
 EndChar
 
 StartChar: yataml_isigntaml
-Encoding: 65549 -1 143
+Encoding: 65549 -1 142
 Width: 1051
 VWidth: 1023
 GlyphClass: 2
@@ -10634,7 +10625,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" yataml isigntaml
 EndChar
 
 StartChar: rataml_isigntaml
-Encoding: 65550 -1 144
+Encoding: 65550 -1 143
 Width: 737
 VWidth: 1023
 GlyphClass: 2
@@ -10676,13 +10667,13 @@ SplineSet
  387 443 l 1,37,-1
  387 0 l 1,0,1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions lookup 0-1" rataml isigntaml
 EndChar
 
 StartChar: rrataml_isigntaml
-Encoding: 65551 -1 145
+Encoding: 65551 -1 144
 Width: 881
 VWidth: 1023
 GlyphClass: 2
@@ -10801,7 +10792,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" rrataml isigntaml
 EndChar
 
 StartChar: lataml_isigntaml
-Encoding: 65552 -1 146
+Encoding: 65552 -1 145
 Width: 1043
 VWidth: 1023
 GlyphClass: 2
@@ -10923,7 +10914,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" lataml isigntaml
 EndChar
 
 StartChar: llataml_isigntaml
-Encoding: 65553 -1 147
+Encoding: 65553 -1 146
 Width: 1132
 VWidth: 1023
 GlyphClass: 2
@@ -10997,7 +10988,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" llataml isigntaml
 EndChar
 
 StartChar: lllataml_isigntaml
-Encoding: 65554 -1 148
+Encoding: 65554 -1 147
 Width: 1008
 VWidth: 1023
 GlyphClass: 2
@@ -11137,7 +11128,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" lllataml isigntaml
 EndChar
 
 StartChar: vataml_isigntaml
-Encoding: 65555 -1 149
+Encoding: 65555 -1 148
 Width: 1165
 VWidth: 1023
 GlyphClass: 2
@@ -11266,7 +11257,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" vataml isigntaml
 EndChar
 
 StartChar: ssataml_isigntaml
-Encoding: 65556 -1 150
+Encoding: 65556 -1 149
 Width: 1339
 VWidth: 1023
 GlyphClass: 2
@@ -11421,7 +11412,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" ssataml isigntaml
 EndChar
 
 StartChar: sataml_isigntaml
-Encoding: 65557 -1 151
+Encoding: 65557 -1 150
 Width: 1283
 VWidth: 1023
 GlyphClass: 2
@@ -11554,7 +11545,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" sataml isigntaml
 EndChar
 
 StartChar: hataml_isigntaml
-Encoding: 65558 -1 152
+Encoding: 65558 -1 151
 Width: 1486
 VWidth: 1023
 GlyphClass: 2
@@ -11706,7 +11697,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" hataml isigntaml
 EndChar
 
 StartChar: kataml_iisigntaml
-Encoding: 65559 -1 153
+Encoding: 65559 -1 152
 Width: 655
 VWidth: 1023
 GlyphClass: 2
@@ -11715,15 +11706,15 @@ HStem: -12 49<153.577 300.607 440.344 527.962> 221 49<114.049 157 219 342 403 52
 VStem: 34 62<92.4127 205.402> 157 62<270 443> 219 62<600.506 745.806> 342 61<77.2617 221 270 443> 342 62<660.474 769.718> 527 61<660.474 766.411> 551 61<59.818 195.779>
 LayerCount: 2
 Fore
-Refer: 89 3008 S 1 0 0 1 127 2 2
-Refer: 64 2965 S 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 88 3008 S 1 0 0 1 127 2 2
+Refer: 63 2965 S 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" kataml iisigntaml
 EndChar
 
 StartChar: ngataml_iisigntaml
-Encoding: 65560 -1 154
+Encoding: 65560 -1 153
 Width: 897
 VWidth: 1023
 GlyphClass: 2
@@ -11797,7 +11788,7 @@ Ligature2: "'abvs' Above Base Substitutions lookup 2-1" ngataml iisigntaml
 EndChar
 
 StartChar: cataml_iisigntaml
-Encoding: 65561 -1 155
+Encoding: 65561 -1 154
 Width: 567
 VWidth: 1023
 GlyphClass: 2
@@ -11806,15 +11797,15 @@ HStem: -12 49<154.577 301.607> 221 49<115.049 158 220 343 404 552> 443 49<220 34
 VStem: 35 62<92.4127 205.402> 158 62<270 443> 216 62<598.506 743.806> 339 62<658.474 767.718> 343 61<77.2617 221 270 443> 524 61<658.474 764.411>
 LayerCount: 2
 Fore
-Refer: 89 3008 N 1 0 0 1 124 0 2
-Refer: 66 2970 N 1 0 0 1 1 0 2
-Validated: 98309
+Refer: 88 3008 N 1 0 0 1 124 0 2
+Refer: 65 2970 N 1 0 0 1 1 0 2
+Validated: 32773
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" cataml iisigntaml
 EndChar
 
 StartChar: jataml_iisigntaml
-Encoding: 65562 -1 156
+Encoding: 65562 -1 155
 Width: 856
 VWidth: 1023
 GlyphClass: 2
@@ -11922,13 +11913,13 @@ SplineSet
  703 787 703 787 685.5 765.5 c 128,-1,125
  668 744 668 744 668 713 c 129,-1,126
 EndSplineSet
-Validated: 8388609
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" jataml iisigntaml
 EndChar
 
 StartChar: nyataml_iisigntaml
-Encoding: 65563 -1 157
+Encoding: 65563 -1 156
 Width: 1101
 VWidth: 1023
 GlyphClass: 2
@@ -12020,13 +12011,13 @@ SplineSet
  864 793 864 793 840.5 769.5 c 132,-1,110
  817 746 817 746 817 713 c 5,99,100
 EndSplineSet
-Validated: 8388609
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" nyataml iisigntaml
 EndChar
 
 StartChar: ttataml_iisigntaml
-Encoding: 65564 -1 158
+Encoding: 65564 -1 157
 Width: 815
 VWidth: 1023
 GlyphClass: 2
@@ -12076,7 +12067,7 @@ Ligature2: "'abvs' Above Base Substitutions lookup 2-1" ttataml iisigntaml
 EndChar
 
 StartChar: nnataml_iisigntaml
-Encoding: 65565 -1 159
+Encoding: 65565 -1 158
 Width: 1253
 VWidth: 1023
 GlyphClass: 2
@@ -12196,13 +12187,13 @@ SplineSet
  1134 787 1134 787 1116.5 765.5 c 132,-1,139
  1099 744 1099 744 1099 713 c 133,-1,140
 EndSplineSet
-Validated: 8388609
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" nnataml iisigntaml
 EndChar
 
 StartChar: tataml_iisigntaml
-Encoding: 65566 -1 160
+Encoding: 65566 -1 159
 Width: 667
 VWidth: 1023
 GlyphClass: 2
@@ -12211,15 +12202,15 @@ HStem: -123 49<108.125 469.919> -12 49<153.577 300.607> 221 49<114.049 157 219 3
 VStem: 22 62<-271.102 -148.221> 34 62<92.4127 205.402> 157 62<270 443> 205 62<597.506 742.806> 328 62<657.474 766.718> 342 61<77.2617 221 270 443> 513 61<657.474 763.411> 563 61<26.1907 181.727>
 LayerCount: 2
 Fore
-Refer: 89 3008 N 1 0 0 1 113 -1 2
-Refer: 71 2980 N 1 0 0 1 0 0 2
-Validated: 98309
+Refer: 88 3008 N 1 0 0 1 113 -1 2
+Refer: 70 2980 N 1 0 0 1 0 0 2
+Validated: 32773
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" tataml iisigntaml
 EndChar
 
 StartChar: nataml_iisigntaml
-Encoding: 65567 -1 161
+Encoding: 65567 -1 160
 Width: 656
 VWidth: 1023
 GlyphClass: 2
@@ -12228,15 +12219,15 @@ HStem: -125 49<92.1255 453.919> -2 21<92 154 289 350> 268 62<380.484 500.112> 44
 VStem: 6 62<-268.632 -150.221> 92 62<-2 441> 187 62<595.506 740.806> 289 61<-2 238.858 281 441> 310 62<655.474 764.718> 495 61<655.474 761.411> 547 61<24.1907 214.228>
 LayerCount: 2
 Fore
-Refer: 89 3008 N 1 0 0 1 95 -3 2
-Refer: 72 2984 N 1 0 0 1 0 -2 2
-Validated: 98309
+Refer: 88 3008 N 1 0 0 1 95 -3 2
+Refer: 71 2984 N 1 0 0 1 0 -2 2
+Validated: 32773
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" nataml iisigntaml
 EndChar
 
 StartChar: nnnataml_iisigntaml
-Encoding: 65568 -1 162
+Encoding: 65568 -1 161
 Width: 993
 VWidth: 1023
 GlyphClass: 2
@@ -12337,7 +12328,7 @@ Ligature2: "'abvs' Above Base Substitutions lookup 2-1" nnnataml iisigntaml
 EndChar
 
 StartChar: pataml_iisigntaml
-Encoding: 65569 -1 163
+Encoding: 65569 -1 162
 Width: 762
 VWidth: 1023
 GlyphClass: 2
@@ -12389,7 +12380,7 @@ Ligature2: "'abvs' Above Base Substitutions lookup 2-1" pataml iisigntaml
 EndChar
 
 StartChar: mataml_iisigntaml
-Encoding: 65570 -1 164
+Encoding: 65570 -1 163
 Width: 827
 VWidth: 1023
 GlyphClass: 2
@@ -12453,7 +12444,7 @@ Ligature2: "'abvs' Above Base Substitutions lookup 2-1" mataml iisigntaml
 EndChar
 
 StartChar: yataml_iisigntaml
-Encoding: 65571 -1 165
+Encoding: 65571 -1 164
 Width: 878
 VWidth: 1023
 GlyphClass: 2
@@ -12571,7 +12562,7 @@ Ligature2: "'abvs' Above Base Substitutions lookup 2-1" yataml iisigntaml
 EndChar
 
 StartChar: rataml_iisigntaml
-Encoding: 65572 -1 166
+Encoding: 65572 -1 165
 Width: 529
 VWidth: 1023
 GlyphClass: 2
@@ -12580,15 +12571,15 @@ HStem: 0 21<92 154> 443 49<154 326 387 522> 588 49<352.57 439.672> 785 61<299.82
 VStem: 92 62<0 443> 150 62<596.506 741.806> 178 56<-185.664 -125.522> 273 62<656.474 765.718> 326 61<17.7988 443> 458 61<656.474 762.411>
 LayerCount: 2
 Fore
-Refer: 89 3008 N 1 0 0 1 58 -2 2
-Refer: 77 2992 N 1 0 0 1 0 0 2
-Validated: 98309
+Refer: 88 3008 N 1 0 0 1 58 -2 2
+Refer: 76 2992 N 1 0 0 1 0 0 2
+Validated: 32773
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" rataml iisigntaml
 EndChar
 
 StartChar: rrataml_iisigntaml
-Encoding: 65573 -1 167
+Encoding: 65573 -1 166
 Width: 694
 VWidth: 1023
 GlyphClass: 2
@@ -12660,13 +12651,13 @@ SplineSet
  542 787 542 787 524 765.5 c 128,-1,72
  506 744 506 744 506 713 c 129,-1,73
 EndSplineSet
-Validated: 8388641
+Validated: 33
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" rrataml iisigntaml
 EndChar
 
 StartChar: lataml_iisigntaml
-Encoding: 65574 -1 168
+Encoding: 65574 -1 167
 Width: 851
 VWidth: 1023
 GlyphClass: 2
@@ -12793,7 +12784,7 @@ Ligature2: "'abvs' Above Base Substitutions lookup 2-1" lataml iisigntaml
 EndChar
 
 StartChar: llataml_iisigntaml
-Encoding: 65575 -1 169
+Encoding: 65575 -1 168
 Width: 924
 VWidth: 1023
 GlyphClass: 2
@@ -12877,7 +12868,7 @@ Ligature2: "'abvs' Above Base Substitutions lookup 2-1" llataml iisigntaml
 EndChar
 
 StartChar: lllataml_iisigntaml
-Encoding: 65576 -1 170
+Encoding: 65576 -1 169
 Width: 827
 VWidth: 1023
 GlyphClass: 2
@@ -12962,13 +12953,13 @@ SplineSet
  644 787 644 787 626 765.5 c 128,-1,87
  608 744 608 744 608 713 c 129,-1,88
 EndSplineSet
-Validated: 8388609
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" lllataml iisigntaml
 EndChar
 
 StartChar: vataml_iisigntaml
-Encoding: 65577 -1 171
+Encoding: 65577 -1 170
 Width: 980
 VWidth: 1023
 GlyphClass: 2
@@ -13099,7 +13090,7 @@ Ligature2: "'abvs' Above Base Substitutions lookup 2-1" vataml iisigntaml
 EndChar
 
 StartChar: ssataml_iisigntaml
-Encoding: 65578 -1 172
+Encoding: 65578 -1 171
 Width: 1146
 VWidth: 1023
 GlyphClass: 2
@@ -13206,13 +13197,13 @@ SplineSet
  890 787 890 787 872 765.5 c 128,-1,117
  854 744 854 744 854 713 c 129,-1,118
 EndSplineSet
-Validated: 8388609
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" ssataml iisigntaml
 EndChar
 
 StartChar: sataml_iisigntaml
-Encoding: 65579 -1 173
+Encoding: 65579 -1 172
 Width: 1097
 VWidth: 1023
 GlyphClass: 2
@@ -13355,7 +13346,7 @@ Ligature2: "'abvs' Above Base Substitutions lookup 2-1" sataml iisigntaml
 EndChar
 
 StartChar: hataml_iisigntaml
-Encoding: 65580 -1 174
+Encoding: 65580 -1 173
 Width: 1278
 VWidth: 1023
 GlyphClass: 2
@@ -13464,13 +13455,13 @@ SplineSet
  1100 787 1100 787 1082.5 765.5 c 128,-1,124
  1065 744 1065 744 1065 713 c 129,-1,125
 EndSplineSet
-Validated: 8388609
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" hataml iisigntaml
 EndChar
 
 StartChar: kataml_usigntaml
-Encoding: 65581 -1 175
+Encoding: 65581 -1 174
 Width: 904
 VWidth: 1023
 GlyphClass: 2
@@ -13571,7 +13562,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" kataml usigntaml
 EndChar
 
 StartChar: ngataml_usigntaml
-Encoding: 65582 -1 176
+Encoding: 65582 -1 175
 Width: 897
 VWidth: 1023
 GlyphClass: 2
@@ -13667,7 +13658,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" ngataml usigntaml
 EndChar
 
 StartChar: cataml_usigntaml
-Encoding: 65583 -1 177
+Encoding: 65583 -1 176
 Width: 668
 VWidth: 1023
 GlyphClass: 2
@@ -13758,7 +13749,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" cataml usigntaml
 EndChar
 
 StartChar: nyataml_usigntaml
-Encoding: 65585 -1 178
+Encoding: 65585 -1 177
 Width: 1162
 VWidth: 1023
 GlyphClass: 2
@@ -13890,7 +13881,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" nyataml usigntaml
 EndChar
 
 StartChar: ttataml_usigntaml
-Encoding: 65586 -1 179
+Encoding: 65586 -1 178
 Width: 914
 VWidth: 1023
 GlyphClass: 2
@@ -13992,7 +13983,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" ttataml usigntaml
 EndChar
 
 StartChar: nnataml_usigntaml
-Encoding: 65587 -1 180
+Encoding: 65587 -1 179
 Width: 1437
 VWidth: 1023
 GlyphClass: 2
@@ -14169,7 +14160,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" nnataml usigntaml
 EndChar
 
 StartChar: tataml_usigntaml
-Encoding: 65588 -1 181
+Encoding: 65588 -1 180
 Width: 888
 VWidth: 1023
 GlyphClass: 2
@@ -14282,7 +14273,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" tataml usigntaml
 EndChar
 
 StartChar: nataml_usigntaml
-Encoding: 65589 -1 182
+Encoding: 65589 -1 181
 Width: 885
 VWidth: 1023
 GlyphClass: 2
@@ -14391,7 +14382,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" nataml usigntaml
 EndChar
 
 StartChar: nnnataml_usigntaml
-Encoding: 65590 -1 183
+Encoding: 65590 -1 182
 Width: 1188
 VWidth: 1023
 GlyphClass: 2
@@ -14534,7 +14525,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" nnnataml usigntaml
 EndChar
 
 StartChar: pataml_usigntaml
-Encoding: 65591 -1 184
+Encoding: 65591 -1 183
 Width: 762
 VWidth: 1023
 GlyphClass: 2
@@ -14605,7 +14596,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" pataml usigntaml
 EndChar
 
 StartChar: mataml_usigntaml
-Encoding: 65592 -1 185
+Encoding: 65592 -1 184
 Width: 1137
 VWidth: 1023
 GlyphClass: 2
@@ -14711,7 +14702,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" mataml usigntaml
 EndChar
 
 StartChar: yataml_usigntaml
-Encoding: 65593 -1 186
+Encoding: 65593 -1 185
 Width: 878
 VWidth: 1023
 GlyphClass: 2
@@ -14793,7 +14784,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" yataml usigntaml
 EndChar
 
 StartChar: rataml_usigntaml
-Encoding: 65594 -1 187
+Encoding: 65594 -1 186
 Width: 949
 VWidth: 1023
 GlyphClass: 2
@@ -14889,7 +14880,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" rataml usigntaml
 EndChar
 
 StartChar: rrataml_usigntaml
-Encoding: 65595 -1 188
+Encoding: 65595 -1 187
 Width: 856
 VWidth: 1023
 GlyphClass: 2
@@ -15007,7 +14998,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" rrataml usigntaml
 EndChar
 
 StartChar: lataml_usigntaml
-Encoding: 65596 -1 189
+Encoding: 65596 -1 188
 Width: 1055
 VWidth: 1023
 GlyphClass: 2
@@ -15136,7 +15127,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" lataml usigntaml
 EndChar
 
 StartChar: llataml_usigntaml
-Encoding: 65597 -1 190
+Encoding: 65597 -1 189
 Width: 1321
 VWidth: 1023
 GlyphClass: 2
@@ -15262,7 +15253,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" llataml usigntaml
 EndChar
 
 StartChar: lllataml_usigntaml
-Encoding: 65598 -1 191
+Encoding: 65598 -1 190
 Width: 1094
 VWidth: 1023
 GlyphClass: 2
@@ -15374,7 +15365,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" lllataml usigntaml
 EndChar
 
 StartChar: vataml_usigntaml
-Encoding: 65599 -1 192
+Encoding: 65599 -1 191
 Width: 980
 VWidth: 1023
 GlyphClass: 2
@@ -15477,7 +15468,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" vataml usigntaml
 EndChar
 
 StartChar: kataml_uusigntaml
-Encoding: 65600 -1 193
+Encoding: 65600 -1 192
 Width: 1027
 VWidth: 1023
 GlyphClass: 2
@@ -15598,7 +15589,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" kataml uusigntaml
 EndChar
 
 StartChar: ngataml_uusigntaml
-Encoding: 65601 -1 194
+Encoding: 65601 -1 193
 Width: 1027
 VWidth: 1023
 GlyphClass: 2
@@ -15722,7 +15713,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" ngataml uusigntaml
 EndChar
 
 StartChar: cataml_uusigntaml
-Encoding: 65602 -1 195
+Encoding: 65602 -1 194
 Width: 980
 VWidth: 1023
 GlyphClass: 2
@@ -15837,7 +15828,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" cataml uusigntaml
 EndChar
 
 StartChar: nyataml_uusigntaml
-Encoding: 65604 -1 196
+Encoding: 65604 -1 195
 Width: 1353
 VWidth: 1023
 GlyphClass: 2
@@ -15970,7 +15961,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" nyataml uusigntaml
 EndChar
 
 StartChar: ttataml_uusigntaml
-Encoding: 65605 -1 197
+Encoding: 65605 -1 196
 Width: 778
 VWidth: 1023
 GlyphClass: 2
@@ -16079,7 +16070,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" ttataml uusigntaml
 EndChar
 
 StartChar: nnataml_uusigntaml
-Encoding: 65606 -1 198
+Encoding: 65606 -1 197
 Width: 1647
 VWidth: 1023
 GlyphClass: 2
@@ -16261,7 +16252,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" nnataml uusigntaml
 EndChar
 
 StartChar: tataml_uusigntaml
-Encoding: 65607 -1 199
+Encoding: 65607 -1 198
 Width: 1079
 VWidth: 1023
 GlyphClass: 2
@@ -16379,7 +16370,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" tataml uusigntaml
 EndChar
 
 StartChar: nataml_uusigntaml
-Encoding: 65608 -1 200
+Encoding: 65608 -1 199
 Width: 1075
 VWidth: 1023
 GlyphClass: 2
@@ -16493,7 +16484,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" nataml uusigntaml
 EndChar
 
 StartChar: nnnataml_uusigntaml
-Encoding: 65609 -1 201
+Encoding: 65609 -1 200
 Width: 1411
 VWidth: 1023
 GlyphClass: 2
@@ -16645,7 +16636,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" nnnataml uusigntaml
 EndChar
 
 StartChar: pataml_uusigntaml
-Encoding: 65610 -1 202
+Encoding: 65610 -1 201
 Width: 866
 VWidth: 1023
 GlyphClass: 2
@@ -16745,7 +16736,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" pataml uusigntaml
 EndChar
 
 StartChar: mataml_uusigntaml
-Encoding: 65611 -1 203
+Encoding: 65611 -1 202
 Width: 1134
 VWidth: 1023
 GlyphClass: 2
@@ -16866,7 +16857,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" mataml uusigntaml
 EndChar
 
 StartChar: yataml_uusigntaml
-Encoding: 65612 -1 204
+Encoding: 65612 -1 203
 Width: 1015
 VWidth: 1023
 GlyphClass: 2
@@ -16978,7 +16969,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" yataml uusigntaml
 EndChar
 
 StartChar: rataml_uusigntaml
-Encoding: 65613 -1 205
+Encoding: 65613 -1 204
 Width: 960
 VWidth: 1023
 GlyphClass: 2
@@ -17093,7 +17084,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" rataml uusigntaml
 EndChar
 
 StartChar: rrataml_uusigntaml
-Encoding: 65614 -1 206
+Encoding: 65614 -1 205
 Width: 1048
 VWidth: 1023
 GlyphClass: 2
@@ -17217,7 +17208,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" rrataml uusigntaml
 EndChar
 
 StartChar: lataml_uusigntaml
-Encoding: 65615 -1 207
+Encoding: 65615 -1 206
 Width: 1253
 VWidth: 1023
 GlyphClass: 2
@@ -17356,7 +17347,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" lataml uusigntaml
 EndChar
 
 StartChar: llataml_uusigntaml
-Encoding: 65616 -1 208
+Encoding: 65616 -1 207
 Width: 1317
 VWidth: 1023
 GlyphClass: 2
@@ -17498,7 +17489,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" llataml uusigntaml
 EndChar
 
 StartChar: lllataml_uusigntaml
-Encoding: 65617 -1 209
+Encoding: 65617 -1 208
 Width: 1118
 VWidth: 1023
 GlyphClass: 2
@@ -17634,7 +17625,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" lllataml uusigntaml
 EndChar
 
 StartChar: vataml_uusigntaml
-Encoding: 65618 -1 210
+Encoding: 65618 -1 209
 Width: 1155
 VWidth: 1023
 GlyphClass: 2
@@ -17771,7 +17762,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: kataml_viramataml_ssataml
-Encoding: 65619 -1 211
+Encoding: 65619 -1 210
 Width: 1423
 VWidth: 1023
 GlyphClass: 2
@@ -17924,13 +17915,13 @@ SplineSet
  150 -12 150 -12 92 38.5 c 128,-1,118
  34 89 34 89 34 160 c 1,46,47
 EndSplineSet
-Validated: 8388609
+Validated: 1
 Ligature2: "'akhn' Akhand lookup 3-1" kataml viramataml ssataml
 LCarets2: 2 0 0 
 EndChar
 
 StartChar: katam_viramataml_ssatam_itaml
-Encoding: 65620 -1 212
+Encoding: 65620 -1 211
 Width: 1614
 VWidth: 1023
 GlyphClass: 2
@@ -18106,7 +18097,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 0-1" kataml_viramataml_ssataml
 EndChar
 
 StartChar: katam_viramataml_ssatam_iitaml
-Encoding: 65621 -1 213
+Encoding: 65621 -1 212
 Width: 1423
 VWidth: 1023
 GlyphClass: 2
@@ -18243,7 +18234,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: kataml_viramataml
-Encoding: 65623 -1 214
+Encoding: 65623 -1 213
 Width: 655
 VWidth: 1023
 GlyphClass: 2
@@ -18252,15 +18243,15 @@ HStem: -12 49<153.577 300.607 440.344 527.962> 221 49<114.049 157 219 342 403 52
 VStem: 34 62<92.4127 205.402> 157 62<270 443> 269 123<645.564 731.436> 342 61<77.2617 221 270 443> 551 61<59.818 195.779>
 LayerCount: 2
 Fore
-Refer: 64 2965 N 1 0 0 1 0 0 2
-Refer: 98 3021 N 1 0 0 1 573 0 2
-Validated: 98305
+Refer: 63 2965 N 1 0 0 1 0 0 2
+Refer: 97 3021 N 1 0 0 1 573 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" kataml viramataml
 EndChar
 
 StartChar: ngataml_viramataml
-Encoding: 65624 -1 215
+Encoding: 65624 -1 214
 Width: 897
 VWidth: 1023
 GlyphClass: 2
@@ -18269,15 +18260,15 @@ HStem: 0 49<301 502.302 559 744> 246 61<391.801 514.282> 443 49<154 301 363 535>
 VStem: 92 62<0 443> 301 62<98 219.166 264 443> 386 123<645.564 731.436> 547 61<93.8429 214.724> 744 61<49 492>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 690 0 2
-Refer: 65 2969 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 690 0 2
+Refer: 64 2969 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" ngataml viramataml
 EndChar
 
 StartChar: cataml_viramataml
-Encoding: 65625 -1 216
+Encoding: 65625 -1 215
 Width: 567
 VWidth: 1023
 GlyphClass: 2
@@ -18286,15 +18277,15 @@ HStem: -12 49<153.577 300.607> 221 49<114.049 157 219 342 403 551> 443 49<219 34
 VStem: 34 62<92.4127 205.402> 157 62<270 443> 226 123<645.564 731.436> 342 61<77.2617 221 270 443>
 LayerCount: 2
 Fore
-Refer: 98 3021 N 1 0 0 1 530 0 2
-Refer: 66 2970 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 N 1 0 0 1 530 0 2
+Refer: 65 2970 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" cataml viramataml
 EndChar
 
 StartChar: jataml_viramataml
-Encoding: 65626 -1 217
+Encoding: 65626 -1 216
 Width: 854
 VWidth: 1023
 GlyphClass: 2
@@ -18303,15 +18294,15 @@ HStem: -344 49<175.99 305.117 614.25 700.804> -49 49<561.593 688.874> 37 49<173.
 VStem: 52 49<196.36 341.012> 52 61<-220.805 -31.6114> 261 49<193.437 298.563> 368 123<645.564 731.436> 408 62<135 391.976> 519 49<-238.526 -172> 728 61<-265.605 -93.335> 740 61<176.789 371.332>
 LayerCount: 2
 Fore
-Refer: 98 3021 N 1 0 0 1 672 0 2
-Refer: 67 2972 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 N 1 0 0 1 672 0 2
+Refer: 66 2972 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" jataml viramataml
 EndChar
 
 StartChar: nyataml_viramataml
-Encoding: 65627 -1 218
+Encoding: 65627 -1 217
 Width: 1100
 VWidth: 1023
 GlyphClass: 2
@@ -18320,15 +18311,15 @@ HStem: -320 50<462.748 744.689> -12 49<411.21 520.711> 0 21<749 810> 234 49<411.
 VStem: 73 55<56.012 350.869> 220 55<123.706 305.719> 331 49<68.8743 201.298> 491 123<644.564 730.436> 552 49<70.0764 201.627> 749 61<0 207.972 246 443> 994 62<-28.0143 179.874>
 LayerCount: 2
 Fore
-Refer: 98 3021 N 1 0 0 1 795 -1 2
-Refer: 68 2974 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 N 1 0 0 1 795 -1 2
+Refer: 67 2974 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" nyataml viramataml
 EndChar
 
 StartChar: ttataml_viramataml
-Encoding: 65628 -1 219
+Encoding: 65628 -1 218
 Width: 815
 VWidth: 1023
 GlyphClass: 2
@@ -18337,15 +18328,15 @@ HStem: 0 49<154 805> 627 123<366.564 452.951>
 VStem: 92 62<49 492> 348 123<645.564 731.436>
 LayerCount: 2
 Fore
-Refer: 98 3021 N 1 0 0 1 652 0 2
-Refer: 69 2975 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 N 1 0 0 1 652 0 2
+Refer: 68 2975 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" ttataml viramataml
 EndChar
 
 StartChar: nnataml_viramataml
-Encoding: 65629 -1 220
+Encoding: 65629 -1 219
 Width: 1303
 VWidth: 1023
 GlyphClass: 2
@@ -18354,15 +18345,15 @@ HStem: -12 49<186.751 309.808 514.336 577.546 809.336 872.546> 0 21<1087 1148> 2
 VStem: 54 49<102.245 308.932> 140 49<64.4796 205.937> 337 49<65.441 205.489> 423 61<77.9436 299.935> 591 123<645.564 731.436> 607 62<77.7239 299.889> 718 61<77.9436 304.449> 902 62<77.7239 305.235> 1087 61<0 443>
 LayerCount: 2
 Fore
-Refer: 70 2979 N 1 0 0 1 0 0 2
-Refer: 98 3021 N 1 0 0 1 895 0 2
-Validated: 98305
+Refer: 69 2979 N 1 0 0 1 0 0 2
+Refer: 97 3021 N 1 0 0 1 895 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" nnataml viramataml
 EndChar
 
 StartChar: tataml_viramataml
-Encoding: 65630 -1 221
+Encoding: 65630 -1 220
 Width: 667
 VWidth: 1023
 GlyphClass: 2
@@ -18371,15 +18362,15 @@ HStem: -123 49<108.125 469.919> -12 49<153.577 300.607> 221 49<114.049 157 219 3
 VStem: 22 62<-271.102 -148.221> 34 62<92.4127 205.402> 157 62<270 443> 276 123<645.564 731.436> 342 61<77.2617 221 270 443> 563 61<26.1907 181.727>
 LayerCount: 2
 Fore
-Refer: 98 3021 N 1 0 0 1 580 0 2
-Refer: 71 2980 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 N 1 0 0 1 580 0 2
+Refer: 70 2980 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" tataml viramataml
 EndChar
 
 StartChar: nataml_viramataml
-Encoding: 65631 -1 222
+Encoding: 65631 -1 221
 Width: 657
 VWidth: 1023
 GlyphClass: 2
@@ -18388,15 +18379,15 @@ HStem: -123 49<92.1255 453.919> 0 21<92 154 289 350> 270 62<380.484 500.112> 443
 VStem: 6 62<-266.632 -148.221> 92 62<0 443> 266 123<645.564 731.436> 289 61<0 240.858 283 443> 547 61<26.1907 216.228>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 570 0 2
-Refer: 72 2984 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 570 0 2
+Refer: 71 2984 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" nataml viramataml
 EndChar
 
 StartChar: nnnataml_viramataml
-Encoding: 65632 -1 223
+Encoding: 65632 -1 222
 Width: 993
 VWidth: 1023
 GlyphClass: 2
@@ -18405,15 +18396,15 @@ HStem: -12 49<218.304 327.711 548.454 611.911> 0 21<826 888> 234 49<218.713 327.
 VStem: 52 49<119.092 308.932> 138 49<86.4575 201.298> 359 49<70.0764 201.627> 437 123<645.564 731.436> 457 62<77.9436 306.221> 642 61<77.0484 305.034> 826 62<0 443>
 LayerCount: 2
 Fore
-Refer: 98 3021 N 1 0 0 1 741 0 2
-Refer: 73 2985 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 N 1 0 0 1 741 0 2
+Refer: 72 2985 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" nnnataml viramataml
 EndChar
 
 StartChar: pataml_viramataml
-Encoding: 65633 -1 224
+Encoding: 65633 -1 223
 Width: 762
 VWidth: 1023
 GlyphClass: 2
@@ -18422,15 +18413,15 @@ HStem: 0 49<154 608> 627 123<337.564 423.951>
 VStem: 92 62<49 492> 319 123<645.564 731.436> 608 62<49 492>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 623 0 2
-Refer: 74 2986 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 623 0 2
+Refer: 73 2986 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" pataml viramataml
 EndChar
 
 StartChar: mataml_viramataml
-Encoding: 65634 -1 225
+Encoding: 65634 -1 224
 Width: 824
 VWidth: 1023
 GlyphClass: 2
@@ -18439,15 +18430,15 @@ HStem: 0 49<154 387 449 667.592> 455 49<472.895 597.216> 627 123<373.564 459.951
 VStem: 92 62<49 492> 355 123<645.564 731.436> 387 62<49 428.701> 707 61<93.6133 314.163>
 LayerCount: 2
 Fore
-Refer: 98 3021 N 1 0 0 1 659 0 2
-Refer: 75 2990 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 N 1 0 0 1 659 0 2
+Refer: 74 2990 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" mataml viramataml
 EndChar
 
 StartChar: yataml_viramataml
-Encoding: 65635 -1 226
+Encoding: 65635 -1 225
 Width: 878
 VWidth: 1023
 GlyphClass: 2
@@ -18456,15 +18447,15 @@ HStem: -12 49<170.305 268.171> 0 49<369 725> 627 123<395.564 481.951>
 VStem: 86 62<59.6328 492> 307 62<77.8359 492> 377 123<645.564 731.436> 725 62<49 492>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 681 0 2
-Refer: 76 2991 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 681 0 2
+Refer: 75 2991 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" yataml viramataml
 EndChar
 
 StartChar: rataml_viramataml
-Encoding: 65636 -1 227
+Encoding: 65636 -1 226
 Width: 529
 VWidth: 1023
 GlyphClass: 2
@@ -18473,15 +18464,15 @@ HStem: 0 21<92 154> 443 49<154 326 387 522> 627 123<224.564 310.951>
 VStem: 92 62<0 443> 178 56<-185.664 -125.522> 206 123<645.564 731.436> 326 61<17.7988 443>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 510 0 2
-Refer: 77 2992 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 510 0 2
+Refer: 76 2992 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" rataml viramataml
 EndChar
 
 StartChar: rrataml_viramataml
-Encoding: 65637 -1 228
+Encoding: 65637 -1 227
 Width: 697
 VWidth: 1023
 GlyphClass: 2
@@ -18490,15 +18481,15 @@ HStem: -123 49<129.113 443.838> 0 21<89 150 297 359> 455 49<174.371 272.809 391.
 VStem: 58 67<-249.511 -197.439> 89 61<0 428.701> 286 123<645.564 731.436> 297 62<0 422.977> 568 61<92.5256 365.734>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 590 0 2
-Refer: 78 2993 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 590 0 2
+Refer: 77 2993 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" rrataml viramataml
 EndChar
 
 StartChar: lataml_viramataml
-Encoding: 65638 -1 229
+Encoding: 65638 -1 228
 Width: 850
 VWidth: 1023
 GlyphClass: 2
@@ -18507,15 +18498,15 @@ HStem: -12 49<213.661 312.545 530.775 646.189> 209 49<213.455 312.545> 455 49<23
 VStem: 54 49<115.472 320.579> 140 49<62.0029 183.766> 337 49<62.2211 184.169> 366 123<645.564 731.436> 447 62<59.1742 414.886> 730 62<145.897 368.981>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 670 0 2
-Refer: 79 2994 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 670 0 2
+Refer: 78 2994 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" lataml viramataml
 EndChar
 
 StartChar: llataml_viramataml
-Encoding: 65639 -1 230
+Encoding: 65639 -1 229
 Width: 924
 VWidth: 1023
 GlyphClass: 2
@@ -18524,15 +18515,15 @@ HStem: -12 61<232.07 324.808> 0 21<475 536 720 782> 234 49<228.809 327.545> 443 
 VStem: 57 49<139.008 340.658> 155 49<77.1849 208.521> 352 49<77.5693 209.169> 402 123<645.564 731.436> 475 61<0 346.133> 487 49<406 443> 720 62<0 443>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 706 0 2
-Refer: 80 2995 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 706 0 2
+Refer: 79 2995 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" llataml viramataml
 EndChar
 
 StartChar: lllataml_viramataml
-Encoding: 65640 -1 231
+Encoding: 65640 -1 230
 Width: 824
 VWidth: 1023
 GlyphClass: 2
@@ -18541,15 +18532,15 @@ HStem: -344 49<198.769 350.462> -148 50<524.736 707> -123 49<172.049 313> 0 49<1
 VStem: 92 62<-253.467 -142.474 49 492> 352 123<642.564 728.436> 387 62<49 428.701> 707 61<93.6133 314.163>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 656 -3 2
-Refer: 81 2996 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 656 -3 2
+Refer: 80 2996 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" lllataml viramataml
 EndChar
 
 StartChar: vataml_viramataml
-Encoding: 65641 -1 232
+Encoding: 65641 -1 231
 Width: 980
 VWidth: 1023
 GlyphClass: 2
@@ -18558,15 +18549,15 @@ HStem: -12 49<232.877 348.346> 0 49<557 827> 234 49<231.289 348.024> 455 49<225.
 VStem: 53 49<135.977 331.466> 151 49<74.6212 201.298> 385 49<73.5432 197.346> 427 123<646.564 732.436> 545 61<106.252 331.162> 827 62<49 492>
 LayerCount: 2
 Fore
-Refer: 98 3021 N 1 0 0 1 731 1 2
-Refer: 82 2997 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 N 1 0 0 1 731 1 2
+Refer: 81 2997 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" vataml viramataml
 EndChar
 
 StartChar: ssataml_viramataml
-Encoding: 65642 -1 233
+Encoding: 65642 -1 232
 Width: 1146
 VWidth: 1023
 GlyphClass: 2
@@ -18575,15 +18566,15 @@ HStem: -12 49<230.048 331.252> 0 49<535 879 940 1026> 172 49<773.537 879> 221 49
 VStem: 55 49<123.241 326.253> 154 49<74.6212 195.779> 363 49<70.0764 192.396> 515 123<645.564 731.436> 522 62<107.477 339.439> 658 61<274.231 402.043> 879 61<-295 0 49 172 246 411.951> 1026 62<49 240>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 819 0 2
-Refer: 84 2999 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 819 0 2
+Refer: 83 2999 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" ssataml viramataml
 EndChar
 
 StartChar: sataml_viramataml
-Encoding: 65643 -1 234
+Encoding: 65643 -1 233
 Width: 1100
 VWidth: 1023
 GlyphClass: 3
@@ -18592,15 +18583,15 @@ HStem: -12 49<242.736 336.106 775.217 895.962> 0 21<486 547> 234 49<241.887 335.
 VStem: 55 49<120.535 326.282> 166 49<64.4107 205.937> 363 49<65.441 205.489> 486 61<0 375.412> 493 123<645.564 731.436> 682 62<69.1113 424.763> 977 62<135.312 360.182>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 797 0 2
-Refer: 85 3000 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 797 0 2
+Refer: 84 3000 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" sataml viramataml
 EndChar
 
 StartChar: hataml_viramataml
-Encoding: 65644 -1 235
+Encoding: 65644 -1 234
 Width: 1255
 VWidth: 1023
 GlyphClass: 2
@@ -18609,15 +18600,15 @@ HStem: -123 49<153.659 994.303> -12 49<237.592 345.51> 0 49<525 660> 234 49<236.
 VStem: 58 55<119.107 332.193> 70 62<-265.222 -144.437> 156 49<69.28 201.298> 377 50<70.0764 201.627> 513 61<103.462 333.498> 566 123<645.564 731.436> 660 62<49 432.826> 845 61<0 427.977> 1127 62<101.402 365.065>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 870 0 2
-Refer: 86 3001 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 870 0 2
+Refer: 85 3001 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" hataml viramataml
 EndChar
 
 StartChar: kataml_virama_ssataml_virama
-Encoding: 65645 -1 236
+Encoding: 65645 -1 235
 Width: 1423
 VWidth: 1023
 GlyphClass: 2
@@ -18626,15 +18617,15 @@ HStem: -12 49<153.577 300.607 545.518 610.291> 0 49<858 1141 1202 1301> 135 49<1
 VStem: 34 62<92.4127 205.402> 157 62<270 443> 342 61<77.2617 221 270 443> 465 61<54.2365 220.468> 624 62<48.3689 180.678> 656 123<645.564 731.436> 821 62<77.2021 237.836> 907 62<244.511 393.471> 1141 61<-295 0 49 135 209 420.826> 1301 61<49 209>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 960 0 2
-Refer: 211 -1 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 960 0 2
+Refer: 210 -1 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" kataml_viramataml_ssataml viramataml
 EndChar
 
 StartChar: shataml_viramataml
-Encoding: 65646 -1 237
+Encoding: 65646 -1 236
 Width: 1051
 VWidth: 1023
 GlyphClass: 2
@@ -18643,15 +18634,15 @@ HStem: 0 49<179.685 327.415 713.351 871.366> 443 49<424 627 691 895> 632 123<449
 VStem: 93 64<71.25 492> 361 63<83.5925 443> 431 123<650.564 736.436> 627 64<72 443> 895 64<72 443>
 LayerCount: 2
 Fore
-Refer: 98 3021 S 1 0 0 1 735 5 2
-Refer: 83 2998 N 1 0 0 1 0 0 2
-Validated: 98305
+Refer: 97 3021 S 1 0 0 1 735 5 2
+Refer: 82 2998 N 1 0 0 1 0 0 2
+Validated: 32769
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 4-1" shataml viramataml
 EndChar
 
 StartChar: shataml_iisigntaml
-Encoding: 65647 -1 238
+Encoding: 65647 -1 237
 Width: 1051
 VWidth: 1023
 GlyphClass: 2
@@ -18660,15 +18651,15 @@ HStem: -4 49<179.685 327.415 713.351 871.366> 439 49<424 627 691 895> 586 49<859
 VStem: 93 64<67.25 488> 361 63<79.5925 439> 627 64<68 439> 657 62<594.506 739.806> 780 62<654.474 763.718> 895 64<68 439> 965 61<654.474 760.411>
 LayerCount: 2
 Fore
-Refer: 89 3008 N 1 0 0 1 565 -4 2
-Refer: 83 2998 N 1 0 0 1 0 -4 2
-Validated: 98309
+Refer: 88 3008 N 1 0 0 1 565 -4 2
+Refer: 82 2998 N 1 0 0 1 0 -4 2
+Validated: 32773
 LCarets2: 1 0 
 Ligature2: "'abvs' Above Base Substitutions lookup 2-1" shataml iisigntaml
 EndChar
 
 StartChar: shataml_isigntaml
-Encoding: 65648 -1 239
+Encoding: 65648 -1 238
 Width: 1221
 VWidth: 1023
 GlyphClass: 2
@@ -18677,15 +18668,15 @@ HStem: 0 21<1067 1129> 1 49<179.685 327.415 713.351 871.366> 444 49<424 627 691 
 VStem: 93 64<72.25 493> 361 63<84.5925 444> 627 64<73 444> 649 62<529.039 679.497> 895 64<73 444> 1067 62<0 687.311>
 LayerCount: 2
 Fore
-Refer: 88 3007 N 1 0 0 1 557 0 2
-Refer: 83 2998 N 1 0 0 1 0 1 2
-Validated: 98309
+Refer: 87 3007 N 1 0 0 1 557 0 2
+Refer: 82 2998 N 1 0 0 1 0 1 2
+Validated: 32773
 LCarets2: 1 0 
 Ligature2: "'psts' Post Base Substitutions lookup 0-1" shataml isigntaml
 EndChar
 
 StartChar: zerotaml
-Encoding: 3046 3046 240
+Encoding: 3046 3046 239
 Width: 636
 VWidth: 1023
 GlyphClass: 2
@@ -18718,7 +18709,7 @@ Validated: 1
 EndChar
 
 StartChar: omtaml
-Encoding: 3024 3024 241
+Encoding: 3024 3024 240
 Width: 1023
 VWidth: 0
 Flags: W
@@ -18826,7 +18817,7 @@ Validated: 33
 EndChar
 
 StartChar: inr_currency
-Encoding: 8377 8377 242
+Encoding: 8377 8377 241
 Width: 624
 VWidth: 0
 Flags: W
@@ -18862,7 +18853,7 @@ Validated: 33
 EndChar
 
 StartChar: uni00B2
-Encoding: 178 178 243
+Encoding: 178 178 242
 Width: 349
 Flags: W
 HStem: 334 39<83 312> 740 39<118.741 228.904>
@@ -18901,7 +18892,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00B3
-Encoding: 179 179 244
+Encoding: 179 179 243
 Width: 357
 Flags: W
 HStem: 334 45<124.322 239.585> 563 39<204 238.548> 732 39<38 248>
@@ -18936,7 +18927,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00B9
-Encoding: 185 185 245
+Encoding: 185 185 244
 Width: 309
 Flags: W
 HStem: 334 39<37 132 178 272> 659 39<37 101.495>
@@ -18959,11 +18950,11 @@ SplineSet
  37 334 l 1,14,-1
  37 373 l 1,0,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: uni2081
-Encoding: 8321 8321 246
+Encoding: 8321 8321 245
 Width: 309
 Flags: W
 HStem: -100 39<37 132 178 272> 225 39<37 101.495>
@@ -18986,11 +18977,11 @@ SplineSet
  37 -100 l 1,14,-1
  37 -61 l 1,0,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: uni2082
-Encoding: 8322 8322 247
+Encoding: 8322 8322 246
 Width: 349
 Flags: W
 HStem: -100 39<83 312> 306 39<118.741 228.904>
@@ -19029,7 +19020,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2083
-Encoding: 8323 8323 248
+Encoding: 8323 8323 247
 Width: 357
 Flags: W
 HStem: -100 45<124.322 239.585> 129 39<204 238.548> 298 39<38 248>
@@ -19064,7 +19055,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2084
-Encoding: 8324 8324 249
+Encoding: 8324 8324 248
 Width: 357
 Flags: W
 HStem: -100 39<172 206 252 286> -5 39<94 206 252 320>
@@ -19097,7 +19088,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2074
-Encoding: 8308 8308 250
+Encoding: 8308 8308 249
 Width: 357
 Flags: W
 HStem: 334 39<172 206 252 286> 429 39<94 206 252 320>
@@ -19130,7 +19121,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0310
-Encoding: 784 784 251
+Encoding: 784 784 250
 Width: 1024
 Flags: W
 HStem: 600 60<-308.68 -164.476> 729 123<-279.436 -193.049>
@@ -19163,7 +19154,7 @@ Validated: 1
 EndChar
 
 StartChar: afii57929
-Encoding: 700 700 252
+Encoding: 700 700 251
 Width: 264
 Flags: W
 HStem: 615 246<92 172>
@@ -19181,7 +19172,7 @@ Validated: 1
 EndChar
 
 StartChar: uniF000
-Encoding: 61440 61440 253
+Encoding: 61440 61440 252
 Width: 368
 Flags: W
 HStem: 12 50<146.989 220.798> 158 50<146.989 221.011> 328 50<146.989 220.798> 474 50<146.989 221.011>

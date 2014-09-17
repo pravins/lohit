@@ -8,6 +8,11 @@
 # License: OFL 1.1
 # License URL: http://scripts.sil.org/OFL
 
+languagesystem DFLT dflt;
+languagesystem taml dflt;
+languagesystem tml2 dflt;
+
+
 # GSUB 
 
 
@@ -138,60 +143,60 @@ lookup pstsPostBaseSubstitutionslookup {
 
 feature akhn {
 
-  script DFLT;
+ script DFLT;
      language dflt ;
       lookup akhnAkhandlookup3;
 
-  script taml;
+ script taml;
      language dflt ;
       lookup akhnAkhandlookup3;
 
-  script tml2;
+ script tml2;
      language dflt ;
       lookup akhnAkhandlookup3;
 } akhn;
 
 feature abvs {
 
-  script DFLT;
+ script DFLT;
      language dflt ;
       lookup abvsAboveBaseSubstitutionslooku;
 
-  script taml;
+ script taml;
      language dflt ;
       lookup abvsAboveBaseSubstitutionslooku;
 
-  script tml2;
+ script tml2;
      language dflt ;
       lookup abvsAboveBaseSubstitutionslooku;
 } abvs;
 
 feature haln {
 
-  script DFLT;
+ script DFLT;
      language dflt ;
       lookup halnHalantFormslookup4;
 
-  script taml;
+ script taml;
      language dflt ;
       lookup halnHalantFormslookup4;
 
-  script tml2;
+ script tml2;
      language dflt ;
       lookup halnHalantFormslookup4;
 } haln;
 
 feature psts {
 
-  script DFLT;
+ script DFLT;
      language dflt ;
       lookup pstsPostBaseSubstitutionslookup;
 
-  script taml;
+ script taml;
      language dflt ;
       lookup pstsPostBaseSubstitutionslookup;
 
-  script tml2;
+ script tml2;
      language dflt ;
       lookup pstsPostBaseSubstitutionslookup;
 } psts;
@@ -242,17 +247,17 @@ lookup abvmAboveBaseMarklookup0 {
 
 feature abvm {
 
-  script taml;
+ script taml;
      language dflt ;
       lookup abvmAboveBaseMarklookup0;
 
-  script tml2;
+ script tml2;
      language dflt ;
       lookup abvmAboveBaseMarklookup0;
 } abvm;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\.notdef \.null \space \exclam \quotedbl \numbersign \dollar 
+@GDEF_Simple = [\.notdef \space \exclam \quotedbl \numbersign \dollar 
 	\percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma 
 	\hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight \nine 
 	\colon \semicolon \less \equal \greater \question \at \bracketleft \backslash 
