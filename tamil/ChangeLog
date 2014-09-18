@@ -1,6 +1,23 @@
 				  lohit-tamil
 Current Version :- 2.91.0
 
+* Thu Sep 17 2014 Pravin Satpute <psatpute@redhat.com> - 2.91.0
+- First release of Tamil after re-writing all rules.
+Technical improvements
+- Supports taml and tml2 open type script tags.
+- Follows AGL specification syntax.
+- Open type rules are available in .fea file for easy reusability
+- Open type gsub lookups reduction from 5 to 4.
+- Corrected glyph class of all glyphs.
+- Renamed anchors to taanchor.
+Designing improvements
+- "Copy Reference" feature implemented for better reusability of glyphs.
+- Improved grid fitting(GASP) table.
+- Auto Hinting from fontforge
+Testing
+- Tested with Harfbuzz NG and Uniscribe (W8)
+- Test file available with release tarball
+- Auto test integrated with Makefile ($make test).
 
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
 - Dropping RFN from OFL.txt
