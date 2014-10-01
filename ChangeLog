@@ -1,4 +1,6 @@
 				  fonts-indic
+
+- fix to Makefile, patches from David Fifield
 Current Version :- 2.4.3
 * Wed Sep 09 2009 Pravin Satpute <psatpute@redhat.com> - 2.4.3
 - updated conf file for all language
