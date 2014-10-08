@@ -1,0 +1,1324 @@
+# How to use
+# On Linux running make will generate ttf for you. For other platforms follow below steps
+# 1. Open Lohit-Tamil.sfd in Fontforge
+# 2. Click on Fontforge File -> Merge Feature info and Select this feature file and save
+# 3. Now Generate ttf as you do for other fonts.
+# 4. Done
+# Copyright (C) 2014 Pravin Satpute <psatpute AT redhat DOT com>, Sheha Kore and Shilpa Gite <sgite AT redhat DOT com>
+# License: OFL 1.1
+# License URL: http://scripts.sil.org/OFL
+
+languagesystem beng dflt;
+languagesystem bng2 dflt;
+
+
+# GSUB 
+
+
+lookup halnHalantFormslookup11 {
+  lookupflag 0;
+    sub \kabeng \viramabeng  by \kabeng_viramabeng;
+    sub \khabeng \viramabeng  by \khabeng_viramabeng;
+    sub \gabeng \viramabeng  by \gabeng_viramabeng;
+    sub \ghabeng \viramabeng  by \ghabeng_viramabeng;
+    sub \ngabeng \viramabeng  by \ngabeng_viramabeng;
+    sub \cabeng \viramabeng  by \cabeng_viramabeng;
+    sub \chabeng \viramabeng  by \chabeng_viramabeng;
+    sub \jabeng \viramabeng  by \jabeng_viramabeng;
+    sub \jhabeng \viramabeng  by \jhabeng_viramabeng;
+    sub \nyabeng \viramabeng  by \nyabeng_viramabeng;
+    sub \ttabeng \viramabeng  by \ttabeng_viramabeng;
+    sub \tthabeng \viramabeng  by \tthabeng_viramabeng;
+    sub \ddabeng \viramabeng  by \ddabeng_viramabeng;
+    sub \ddhabeng \viramabeng  by \ddhabeng_viramabeng;
+    sub \nnabeng \viramabeng  by \nnabeng_viramabeng;
+    sub \tabeng \viramabeng  by \tabeng_viramabeng;
+    sub \thabeng \viramabeng  by \thabeng_viramabeng;
+    sub \dabeng \viramabeng  by \dabeng_viramabeng;
+    sub \dhabeng \viramabeng  by \dhabeng_viramabeng;
+    sub \nabeng \viramabeng  by \nabeng_viramabeng;
+    sub \pabeng \viramabeng  by \pabeng_viramabeng;
+    sub \phabeng \viramabeng  by \phabeng_viramabeng;
+    sub \babeng \viramabeng  by \babeng_viramabeng_haln;
+    sub \bhabeng \viramabeng  by \bhabeng_viramabeng;
+    sub \mabeng \viramabeng  by \mabeng_viramabeng;
+    sub \yabeng \viramabeng  by \yabeng_viramabeng;
+    sub \rabeng \viramabeng  by \rabeng_viramabeng_haln;
+    sub \labeng \viramabeng  by \labeng_viramabeng;
+    sub \shabeng \viramabeng  by \shabeng_viramabeng;
+    sub \ssabeng \viramabeng  by \ssabeng_viramabeng;
+    sub \sabeng \viramabeng  by \sabeng_viramabeng;
+    sub \habeng \viramabeng  by \habeng_viramabeng;
+    sub \rrabeng \viramabeng  by \rrabeng_viramabeng;
+    sub \rhabeng \viramabeng  by \rhabeng_viramabeng;
+    sub \yyabeng \viramabeng  by \yyabeng_viramabeng;
+    sub \kabeng_viramabeng_sabeng \viramabeng  by \kabeng_virama_ssabeng_virama;
+    sub \u09F1 \viramabeng  by \u09F1_viramabeng;
+    sub \u09F0 \viramabeng  by \u09F0_viramabeng;
+} halnHalantFormslookup11;
+
+lookup nuktNuktaFormslookup2 {
+  lookupflag 0;
+    sub \yabeng \nuktabeng  by \yyabeng;
+} nuktNuktaFormslookup2;
+
+lookup akhnAkhandlookup2 {
+  lookupflag 0;
+    sub \kabeng \viramabeng \ssabeng  by \kabeng_viramabeng_ssabeng;
+    sub \jabeng \viramabeng \nyabeng  by \jabeng_viramabeng_nyabeng;
+} akhnAkhandlookup2;
+
+lookup rphfRephFormlookup3 {
+  lookupflag 0;
+    sub \u09F0 \viramabeng  by \rabeng_viramabeng;
+    sub \rabeng \viramabeng  by \rabeng_viramabeng;
+} rphfRephFormlookup3;
+
+lookup blwfBelowBaseFormslookup4 {
+  lookupflag 0;
+    sub \viramabeng \u09F0  by \glyph437;
+    sub \viramabeng \rabeng  by \glyph437;
+    sub \viramabeng \babeng  by \babeng_viramabeng;
+} blwfBelowBaseFormslookup4;
+
+lookup halfHalfFormslookup5 {
+  lookupflag 0;
+    sub \tabeng \viramabeng \zerowidthjoiner  by \khandatabeng;
+    sub \habeng \viramabeng  by \habeng_viramabeng;
+} halfHalfFormslookup5;
+
+lookup pstfPostBaseFormslookup6 {
+  lookupflag 0;
+    sub \viramabeng \yabeng  by \yabeng_viramabeng.pstf;
+} pstfPostBaseFormslookup6;
+
+lookup vatuVattuVariantslookup8 {
+  lookupflag 0;
+    sub \kabeng \glyph437  by \kabeng_viramabeng_rabeng;
+    sub \khabeng \glyph437  by \khabeng_viramabeng_rabeng;
+    sub \gabeng \glyph437  by \gabeng_viramabeng_rabeng;
+    sub \ghabeng \glyph437  by \ghabeng_viramabeng_rabeng;
+    sub \ngabeng \glyph437  by \ngabeng_viramabeng_rabeng;
+    sub \cabeng \glyph437  by \cabeng_viramabeng_rabeng;
+    sub \chabeng \glyph437  by \chabeng_viramabeng_rabeng;
+    sub \jabeng \glyph437  by \jabeng_viramabeng_rabeng;
+    sub \jhabeng \glyph437  by \jhabeng_viramabeng_rabeng;
+    sub \ttabeng \glyph437  by \ttabeng_viramabeng_rabeng;
+    sub \tthabeng \glyph437  by \tthabeng_rabeng_viramabeng;
+    sub \ddabeng \glyph437  by \ddabeng_viramabeng_rabeng;
+    sub \ddhabeng \glyph437  by \ddhabeng_viramabeng_rabeng;
+    sub \nnabeng \glyph437  by \nnabeng_viramabeng_rabeng;
+    sub \tabeng \glyph437  by \tabeng_viramabeng_rabeng;
+    sub \thabeng \glyph437  by \thabeng_viramabeng_rabeng;
+    sub \dabeng \glyph437  by \dabeng_viramabeng_rabeng;
+    sub \dhabeng \glyph437  by \dhabeng_viramabeng_rabeng;
+    sub \pabeng \glyph437  by \pabeng_viramabeng_rabeng;
+    sub \phabeng \glyph437  by \phabeng_viramabeng_rabeng;
+    sub \babeng \glyph437  by \babeng_viramabeng_rabeng;
+    sub \bhabeng \glyph437  by \bhabeng_viramabeng_rabeng;
+    sub \mabeng \glyph437  by \mabeng_viramabeng_rabeng;
+    sub \yabeng \glyph437  by \yabeng_viramabeng_rabeng;
+    sub \labeng \glyph437  by \labeng_viramabeng_rabeng;
+    sub \shabeng \glyph437  by \shabeng_viramabeng_rabeng;
+    sub \ssabeng \glyph437  by \ssabeng_viramabeng_rabeng;
+    sub \sabeng \glyph437  by \sabeng_viramabeng_rabeng;
+    sub \habeng \glyph437  by \habeng_viramabeng_rabeng;
+    sub \rrabeng \glyph437  by \rrabeng_viramabeng_rabeng;
+    sub \ddabeng \nuktabeng \glyph437  by \rrabeng_viramabeng_rabeng;
+    sub \rhabeng \glyph437  by \rhabeng_viramabeng_rabeng;
+    sub \ddhabeng \nuktabeng \glyph437  by \rhabeng_viramabeng_rabeng;
+    sub \yyabeng \glyph437  by \yyabeng_viramabeng_rabeng;
+    sub \u09F1 \glyph437  by \u09F1_viramabeng_rabeng;
+} vatuVattuVariantslookup8;
+
+lookup initInitialFormslookup0 {
+  lookupflag 0;
+    sub \evowelbeng by \evowelbeng.init ;
+    sub \aivowelbeng by \aivowelbeng.init ;
+} initInitialFormslookup0;
+
+lookup presPreBaseSubstitutionslookup7 {
+  lookupflag 0;
+    sub \kabeng_viramabeng \kabeng  by \kabeng_viramabeng_kabeng;
+    sub \kabeng_viramabeng \ttabeng  by \kabeng_viramabeng_ttabeng;
+    sub \kabeng_viramabeng \tabeng  by \kabeng_viramabeng_tabeng;
+    sub \kabeng \viramabeng \tabeng_viramabeng_rabeng  by \ka_virama_ta_virama_ra;
+    sub \kabeng \viramabeng \tabeng \babeng_viramabeng  by \ka_virama_ta_virama_ba;
+    sub \kabeng_viramabeng \nabeng  by \kabeng_viramabeng_nabeng;
+    sub \kabeng_viramabeng \mabeng  by \kabeng_viramabeng_mabeng;
+    sub \kabeng_viramabeng \labeng  by \kabeng_viramabeng_labeng;
+    sub \kabeng_viramabeng_ssabeng \viramabeng \nnabeng  by \ka_virama_ssa_virama_nna;
+    sub \kabeng_viramabeng_ssabeng \viramabeng \mabeng  by \ka_virama_ssa_virama_ma;
+    sub \kabeng \viramabeng \ssabeng \glyph437  by \ka_virama_ssa_virama_ra;
+    sub \kabeng \viramabeng \ssabeng \babeng_viramabeng  by \ka_virama_ssa_virama_ba;
+    sub \kabeng_viramabeng \sabeng  by \kabeng_viramabeng_sabeng;
+    sub \gabeng_viramabeng \gabeng  by \gabeng_viramabeng_gabeng;
+    sub \gabeng_viramabeng \dabeng  by \gabeng_viramabeng_dabeng;
+    sub \gabeng_viramabeng \dhabeng  by \gabeng_viramabeng_dhabeng;
+    sub \gabeng \viramabeng \dhabeng \babeng_viramabeng  by \ga_virama_dha_ba_virama;
+    sub \gabeng \viramabeng \dhabeng_viramabeng_rabeng  by \ga_virama_dha_virama_ra;
+    sub \gabeng_viramabeng \nabeng  by \gabeng_viramabeng_nabeng;
+    sub \gabeng_viramabeng \mabeng  by \gabeng_viramabeng_mabeng;
+    sub \gabeng_viramabeng \labeng  by \gabeng_viramabeng_labeng;
+    sub \ghabeng_viramabeng \nabeng  by \ghabeng_viramabeng_nabeng;
+    sub \ngabeng_viramabeng \kabeng  by \ngabeng_viramabeng_kabeng;
+    sub \ngabeng \viramabeng \kabeng_viramabeng_rabeng  by \nga_virama_ka_virama_ra;
+    sub \ngabeng \viramabeng \kabeng \viramabeng \ssabeng  by \nga_virama_ka_virama_ssa;
+    sub \ngabeng \viramabeng \kabeng \viramabeng \ssabeng_viramabeng_rabeng  by \nga_ka_ssa_ra;
+    sub \ngabeng_viramabeng \khabeng  by \ngabeng_viramabeng_khabeng;
+    sub \ngabeng_viramabeng \gabeng  by \ngabeng_viramabeng_gabeng;
+    sub \ngabeng_viramabeng \ghabeng  by \ngabeng_viramabeng_ghabeng;
+    sub \ngabeng \viramabeng \ghabeng_viramabeng_rabeng  by \nga_virama_gha_virama_ra;
+    sub \ngabeng_viramabeng \mabeng  by \ngabeng_viramabeng_mabeng;
+    sub \cabeng_viramabeng \cabeng  by \cabeng_viramabeng_cabeng;
+    sub \cabeng_viramabeng \chabeng  by \cabeng_viramabeng_chabeng;
+    sub \cabeng_viramabeng \chabeng_viramabeng_rabeng  by \ca_virama_cha_virama_ra;
+    sub \cabeng_viramabeng \chabeng \babeng_viramabeng  by \ca_virama_cha_virama_ba;
+    sub \cabeng_viramabeng \nyabeng  by \cabeng_viramabeng_nyabeng;
+    sub \cabeng_viramabeng \nabeng  by \cabeng_viramabeng_nabeng;
+    sub \chabeng_viramabeng \rabeng  by \chabeng_viramabeng_rabeng;
+    sub \chabeng_viramabeng \babeng  by \chabeng_viramabeng_babeng;
+    sub \jabeng_viramabeng \jabeng  by \jabeng_viramabeng_jabeng;
+    sub \jabeng_viramabeng \jabeng \babeng_viramabeng  by \ja_virama_ja_virama_ba;
+    sub \jabeng_viramabeng \jhabeng  by \jabeng_viramabeng_jhabeng;
+    sub \jabeng_viramabeng \nyabeng  by \jabeng_viramabeng_nyabeng;
+    sub \jabeng_viramabeng \babeng  by \jabeng_viramabeng_babeng;
+    sub \nyabeng_viramabeng \cabeng  by \nyabeng_viramabeng_cabeng;
+    sub \nyabeng \viramabeng \cabeng \babeng_viramabeng  by \nya_virama_ca_virama_ba;
+    sub \nyabeng_viramabeng \chabeng  by \nyabeng_viramabeng_chabeng;
+    sub \nyabeng_viramabeng \jabeng  by \nyabeng_viramabeng_jabeng;
+    sub \nyabeng_viramabeng \jhabeng  by \nyabeng_viramabeng_jhabeng;
+    sub \nyabeng_viramabeng \dhabeng  by \nyabeng_viramabeng_dhabeng;
+    sub \ttabeng_viramabeng \ttabeng  by \ttabeng_viramabeng_ttabeng;
+    sub \ttabeng \viramabeng \tabeng \viramabeng \rabeng  by \tta_virama_ta_virama_ra;
+    sub \ttabeng_viramabeng \mabeng  by \ttabeng_viramabeng_mabeng;
+    sub \ddabeng_viramabeng \gabeng  by \ddabeng_viramabeng_gabeng;
+    sub \ddabeng_viramabeng \ddabeng  by \ddabeng_viramabeng_ddabeng;
+    sub \ddabeng_viramabeng \mabeng  by \ddabeng_viramabeng_mabeng;
+    sub \nnabeng_viramabeng \ttabeng  by \nnabeng_viramabeng_ttabeng;
+    sub \nnabeng \viramabeng \ttabeng_viramabeng_rabeng  by \nna_virama_tta_virama_ra;
+    sub \nnabeng_viramabeng \tthabeng  by \nnabeng_viramabeng_tthabeng;
+    sub \nnabeng \viramabeng \ttabeng_viramabeng_rabeng  by \nna_virama_ttha_virama_ra;
+    sub \nnabeng_viramabeng \ddabeng  by \nnabeng_viramabeng_ddabeng;
+    sub \nnabeng \viramabeng \ddabeng_viramabeng_rabeng  by \nna_virama_dda_virama_ra;
+    sub \nnabeng_viramabeng \ddhabeng  by \nnabeng_viramabeng_ddhabeng;
+    sub \nnabeng \viramabeng \ddhabeng_viramabeng_rabeng  by \nna_virama_ddha_virama_ra;
+    sub \nnabeng_viramabeng \nnabeng  by \nnabeng_viramabeng_nnabeng;
+    sub \nnabeng_viramabeng \mabeng  by \nnabeng_viramabeng_mabeng;
+    sub \tabeng_viramabeng \tabeng  by \tabeng_viramabeng_tabeng;
+    sub \tabeng_viramabeng \tabeng \babeng_viramabeng  by \ta_virama_ta_virama_ba;
+    sub \tabeng_viramabeng \thabeng  by \tabeng_viramabeng_thabeng;
+    sub \tabeng_viramabeng \nabeng  by \tabeng_viramabeng_nabeng;
+    sub \tabeng_viramabeng \mabeng  by \tabeng_viramabeng_mabeng;
+    sub \tabeng_viramabeng \labeng  by \tabeng_viramabeng_labeng;
+    sub \dabeng_viramabeng \gabeng  by \dabeng_viramabeng_gabeng;
+    sub \dabeng_viramabeng \ghabeng  by \dabeng_viramabeng_ghabeng;
+    sub \dabeng_viramabeng \dabeng  by \dabeng_viramabeng_dabeng;
+    sub \dabeng \viramabeng \dabeng_viramabeng_rabeng  by \da_virama_da_virama_ra;
+    sub \dabeng_viramabeng \dabeng \babeng_viramabeng  by \da_virama_da_virama_ba;
+    sub \dabeng_viramabeng \dhabeng  by \dabeng_viramabeng_dhabeng;
+    sub \dabeng_viramabeng \dhabeng \babeng_viramabeng  by \da_virama_dha_virama_ba;
+    sub \dabeng_viramabeng \mabeng  by \dabeng_viramabeng_nabeng;
+    sub \dabeng_viramabeng \bhabeng  by \dabeng_viramabeng_bhabeng;
+    sub \dabeng \viramabeng \bhabeng_viramabeng_rabeng  by \da_virama_bha_virama_ra;
+    sub \dabeng_viramabeng \mabeng  by \dabeng_viramabeng_mabeng;
+    sub \dhabeng_viramabeng \nabeng  by \dhabeng_viramabeng_nabeng;
+    sub \dhabeng_viramabeng \mabeng  by \dhabeng_viramabeng_mabeng;
+    sub \nabeng_viramabeng \ttabeng  by \nabeng_viramabeng_ttabeng;
+    sub \nabeng \viramabeng \ttabeng_viramabeng_rabeng  by \na_virama_tta_virama_ra;
+    sub \nabeng_viramabeng \tthabeng  by \nabeng_viramabeng_tthabeng;
+    sub \nabeng_viramabeng \ddabeng  by \nabeng_viramabeng_ddabeng;
+    sub \nabeng \viramabeng \ddabeng_viramabeng_rabeng  by \na_viramag_dda_virama_ra;
+    sub \nabeng_viramabeng \tabeng  by \nabeng_viramabeng_tabeng;
+    sub \nabeng_viramabeng \tabeng_viramabeng_rabeng  by \na_virama_ta_virama_ra;
+    sub \nabeng_viramabeng \tabeng \babeng_viramabeng  by \na_virama_ta_virama_ba;
+    sub \nabeng_viramabeng \thabeng  by \nabeng_viramabeng_thabeng;
+    sub \nabeng \viramabeng \thabeng_viramabeng_rabeng  by \na_virama_tha_virama_ra;
+    sub \nabeng_viramabeng \dabeng  by \nabeng_viramabeng_dabeng;
+    sub \nabeng_viramabeng \dabeng_viramabeng_rabeng  by \na_virama_da_virama_ra;
+    sub \nabeng \viramabeng \dabeng \babeng_viramabeng  by \na_virama_da_virama_ba;
+    sub \nabeng_viramabeng \dhabeng  by \nabeng_viramabeng_dhabeng;
+    sub \nabeng \viramabeng \dhabeng \babeng_viramabeng  by \na_virama_dha_virama_ba;
+    sub \nabeng_viramabeng \dhabeng_viramabeng_rabeng  by \na_virama_dha_virama_ra;
+    sub \nabeng_viramabeng \nabeng  by \nabeng_viramabeng_nabeng;
+    sub \nabeng_viramabeng \mabeng  by \nabeng_viramabeng_mabeng;
+    sub \nabeng \glyph437  by \nabeng_viramabeng_rabeng;
+    sub \nabeng_viramabeng \sabeng  by \nabeng_viramabeng_sabeng;
+    sub \pabeng_viramabeng \ttabeng  by \pabeng_viramabeng_ttabeng;
+    sub \pabeng_viramabeng \tabeng  by \pabeng_viramabeng_tabeng;
+    sub \pabeng \viramabeng \tabeng_viramabeng_rabeng  by \pa_virama_ta_virama_ra;
+    sub \pabeng_viramabeng \nabeng  by \pabeng_viramabeng_nabeng;
+    sub \pabeng_viramabeng \pabeng  by \pabeng_viramabeng_pabeng;
+    sub \pabeng_viramabeng \mabeng  by \pabeng_viramabeng_mabeng;
+    sub \pabeng_viramabeng \labeng  by \pabeng_viramabeng_labeng;
+    sub \pabeng_viramabeng \sabeng  by \pabeng_viramabeng_sabeng;
+    sub \phabeng_viramabeng \ttabeng  by \phabeng_viramabeng_ttabeng;
+    sub \phabeng_viramabeng \labeng  by \phabeng_viramabeng_labeng;
+    sub \babeng_viramabeng_haln \jabeng  by \babeng_viramabeng_jabeng;
+    sub \babeng \viramabeng \jhabeng  by \babeng_viramabeng_jhabeng;
+    sub \babeng_viramabeng \ddabeng  by \babeng_viramabeng_ddabeng;
+    sub \babeng_viramabeng \ddhabeng  by \babeng_viramabeng_ddhabeng;
+    sub \babeng_viramabeng_haln \dabeng  by \babeng_viramabeng_dabeng;
+    sub \babeng_viramabeng_haln \dabeng_viramabeng_rabeng  by \ba_virama_da_virama_ra;
+    sub \babeng_viramabeng_haln \dhabeng  by \babeng_viramabeng_dhabeng;
+    sub \babeng_viramabeng_haln \babeng  by \babeng_viramabeng_babeng;
+    sub \babeng_viramabeng \bhabeng  by \babeng_viramabeng_bhabeng;
+    sub \babeng_viramabeng_haln \labeng  by \babeng_viramabeng_labeng;
+    sub \bhabeng_viramabeng \labeng  by \bhabeng_viramabeng_labeng;
+    sub \mabeng_viramabeng \tabeng  by \mabeng_viramabeng_tabeng;
+    sub \mabeng_viramabeng \dabeng  by \mabeng_viramabeng_dabeng;
+    sub \mabeng_viramabeng \nabeng  by \mabeng_viramabeng_nabeng;
+    sub \mabeng_viramabeng \pabeng  by \mabeng_viramabeng_pabeng;
+    sub \mabeng_viramabeng \pabeng_viramabeng_rabeng  by \ma_virama_pa_virama_ra;
+    sub \mabeng_viramabeng \phabeng  by \mabeng_viramabeng_phabeng;
+    sub \mabeng \viramabeng \phabeng_viramabeng_rabeng  by \ma_virama_pha_virama_ra;
+    sub \mabeng_viramabeng \bhabeng  by \mabeng_viramabeng_bhabeng;
+    sub \mabeng_viramabeng \bhabeng_viramabeng_rabeng  by \ma_virama_bha_virama_ra;
+    sub \mabeng_viramabeng \mabeng  by \mabeng_viramabeng_mabeng;
+    sub \mabeng_viramabeng \labeng  by \mabeng_viramabeng_labeng;
+    sub \labeng_viramabeng \kabeng  by \labeng_viramabeng_kabeng;
+    sub \labeng_viramabeng \gabeng  by \labeng_viramabeng_gabeng;
+    sub \labeng_viramabeng \ghabeng  by \labeng_viramabeng_ghabeng;
+    sub \labeng_viramabeng \ttabeng  by \labeng_viramabeng_ttabeng;
+    sub \labeng \viramabeng \ttabeng_viramabeng_rabeng  by \la_virama_tta_virama_ra;
+    sub \labeng_viramabeng \ddabeng  by \labeng_viramabeng_ddabeng;
+    sub \labeng \viramabeng \ddabeng_viramabeng_rabeng  by \la_virama_dda_virama_ra;
+    sub \labeng_viramabeng \ddhabeng  by \labeng_viramabeng_ddhabeng;
+    sub \labeng_viramabeng \dabeng  by \labeng_viramabeng_dabeng;
+    sub \labeng_viramabeng \pabeng  by \labeng_viramabeng_pabeng;
+    sub \labeng_viramabeng \phabeng  by \labeng_viramabeng_phabeng;
+    sub \labeng \babeng_viramabeng  by \labeng_viramabeng_babeng;
+    sub \labeng_viramabeng \mabeng  by \labeng_viramabeng_mabeng;
+    sub \labeng_viramabeng \labeng  by \labeng_viramabeng_labeng;
+    sub \shabeng_viramabeng \cabeng  by \shabeng_viramabeng_cabeng;
+    sub \shabeng_viramabeng \chabeng  by \shabeng_viramabeng_chabeng;
+    sub \shabeng_viramabeng \tabeng  by \shabeng_viramabeng_tabeng;
+    sub \shabeng_viramabeng \nabeng  by \shabeng_viramabeng_nabeng;
+    sub \shabeng_viramabeng \mabeng  by \shabeng_viramabeng_mabeng;
+    sub \shabeng_viramabeng \labeng  by \shabeng_viramabeng_labeng;
+    sub \ssabeng_viramabeng \kabeng  by \ssabeng_viramabeng_kabeng;
+    sub \ssabeng_viramabeng \kabeng_viramabeng_rabeng  by \ssa_virama_ka_virama_ra;
+    sub \ssabeng_viramabeng \ttabeng  by \ssabeng_viramabeng_ttabeng;
+    sub \ssabeng_viramabeng \ttabeng_viramabeng_rabeng  by \ssa_virama_tta_virama_ra;
+    sub \ssabeng_viramabeng \tthabeng  by \ssabeng_viramabeng_tthabeng;
+    sub \ssabeng_viramabeng \nnabeng  by \ssabeng_viramabeng_nnabeng;
+    sub \ssabeng_viramabeng \pabeng  by \ssabeng_viramabeng_pabeng;
+    sub \ssabeng_viramabeng \pabeng_viramabeng_rabeng  by \ssa_virama_pa_virama_ra;
+    sub \ssabeng_viramabeng \phabeng  by \ssabeng_viramabeng_phabeng;
+    sub \ssabeng_viramabeng \mabeng  by \ssabeng_viramabeng_mabeng;
+    sub \sabeng_viramabeng \kabeng  by \sabeng_viramabeng_kabeng;
+    sub \sabeng_viramabeng \kabeng_viramabeng_rabeng  by \sa_virama_ka_virama_ra;
+    sub \sabeng_viramabeng \khabeng  by \sabeng_viramabeng_khabeng;
+    sub \sabeng_viramabeng \ttabeng  by \sabeng_viramabeng_ttabeng;
+    sub \sabeng_viramabeng \ttabeng_viramabeng_rabeng  by \sa_virama_tta_virama_ra;
+    sub \sabeng_viramabeng \tabeng  by \sabeng_viramabeng_tabeng;
+    sub \sabeng_viramabeng \tabeng_viramabeng_rabeng  by \sa_virama_ta_virama_ra;
+    sub \sabeng \viramabeng \tabeng \babeng_viramabeng  by \sa_virama_ta_virama_ba;
+    sub \sabeng_viramabeng \thabeng  by \sabeng_viramabeng_thabeng;
+    sub \sabeng_viramabeng \nabeng  by \sabeng_viramabeng_nabeng;
+    sub \sabeng_viramabeng \pabeng  by \sabeng_viramabeng_pabeng;
+    sub \sabeng \viramabeng \pabeng_viramabeng_rabeng  by \sa_virama_pa_virama_ra;
+    sub \sabeng_viramabeng \pabeng_viramabeng_labeng  by \sa_virama_pa_virama_la;
+    sub \sabeng_viramabeng \phabeng  by \sabeng_viramabeng_phabeng;
+    sub \sabeng_viramabeng \mabeng  by \sabeng_viramabeng_mabeng;
+    sub \sabeng_viramabeng \labeng  by \sabeng_viramabeng_labeng;
+    sub \habeng_viramabeng \nnabeng  by \habeng_viramabeng_nnabeng;
+    sub \habeng_viramabeng \nabeng  by \habeng_viramabeng_nabeng;
+    sub \habeng_viramabeng \mabeng  by \habeng_viramabeng_mabeng;
+    sub \habeng_viramabeng \labeng  by \habeng_viramabeng_labeng;
+    sub \ddabeng \nuktabeng \viramabeng \gabeng  by \rrabeng_viramabeng_gabeng;
+    sub \kabeng_viramabeng \ttabeng_viramabeng_rabeng  by \bn_ka_Ta_ra;
+    sub \mabeng_viramabeng \thabeng  by \bn_ma_tha;
+    sub \labeng_viramabeng \tabeng  by \bn_la_ta;
+    sub \labeng_viramabeng \dhabeng  by \bn_la_dha;
+} presPreBaseSubstitutionslookup7;
+
+lookup abvsAboveBaseSubstitutionslooku {
+  lookupflag 0;
+    sub \iivowelbeng \candrabindubeng  by \candrabindubeng_iivowelbeng;
+    sub \candrabindubeng \iivowelbeng  by \candrabindubeng_iivowelbeng;
+    sub \aulengthmarkbeng \candrabindubeng  by \candrabindu_aulengthmark;
+    sub \candrabindubeng \aulengthmarkbeng  by \candrabindu_aulengthmark;
+} abvsAboveBaseSubstitutionslooku;
+
+lookup blwsBelowBaseSubstitutionslooku {
+  lookupflag 0;
+    sub \kabeng \babeng_viramabeng  by \kabeng_viramabeng_babeng;
+    sub \khabeng \babeng_viramabeng  by \khabeng_viramabeng_babeng;
+    sub \gabeng \zerowidthnonjoiner \uvowelbeng  by \ga_zerowidthnonjoiner_uvowel;
+    sub \gabeng \uvowelbeng  by \ga_zerowidthnonjoiner_uvowel;
+    sub \gabeng_viramabeng_rabeng \uvowelbeng  by \ga_virama_ra_uvowel;
+    sub \gabeng_viramabeng_rabeng \uuvowelbeng  by \ga_virama_ra_uuvowel;
+    sub \gabeng \babeng_viramabeng  by \gabeng_babeng_viramabeng;
+    sub \ghabeng \babeng_viramabeng  by \ghabeng_viramabeng_babeng;
+    sub \cabeng \viramabeng \babeng  by \cabeng_viramabeng_babeng;
+    sub \chabeng \babeng_viramabeng  by \chabeng_viramabeng_babeng;
+    sub \jabeng \babeng_viramabeng  by \jabeng_viramabeng_babeng;
+    sub \ttabeng \babeng_viramabeng  by \ttabeng_viramabeng_babeng;
+    sub \ddabeng \babeng_viramabeng  by \ddabeng_viramabeng_babeng;
+    sub \nnabeng \babeng_viramabeng  by \nnabeng_viramabeng_babeng;
+    sub \tabeng_viramabeng_rabeng \uvowelbeng  by \ta_virama_ra_uvowel;
+    sub \tabeng_viramabeng_rabeng \uuvowelbeng  by \ta_virama_ra_uuvowel;
+    sub \tabeng \babeng_viramabeng  by \tabeng_viramabeng_babeng;
+    sub \ttabeng_viramabeng_rabeng \uvowelbeng  by \tha_virama_ra_uvowel;
+    sub \tthabeng_rabeng_viramabeng \uuvowelbeng  by \tha_virama_ra_uuvowel;
+    sub \thabeng \babeng_viramabeng  by \thabeng_viramabeng_babeng;
+    sub \dabeng_viramabeng_rabeng \uvowelbeng  by \da_virama_ra_uvowel;
+    sub \dabeng_viramabeng_rabeng \uuvowelbeng  by \da_virama_ra_uuvowel;
+    sub \dabeng \babeng_viramabeng  by \dabeng_viramabeng_babeng;
+    sub \ddhabeng_viramabeng_rabeng \uvowelbeng  by \dha_virama_ra_uvowel;
+    sub \ddhabeng_viramabeng_rabeng \uuvowelbeng  by \dha_virama_ra_uuvowel;
+    sub \dhabeng \babeng_viramabeng  by \dhabeng_viramabeng_babeng;
+    sub \nabeng_viramabeng_tabeng \uvowelbeng  by \na_virama_ta_uvowel;
+    sub \nabeng \babeng_viramabeng  by \nabeng_viramabeng_babeng;
+    sub \pabeng_viramabeng_tabeng \uvowelbeng  by \pa_virama_ta_uvowel;
+    sub \pabeng_viramabeng_rabeng \uvowelbeng  by \pa_virama_ra_uvowel;
+    sub \pabeng_viramabeng_rabeng \uuvowelbeng  by \pa_virama_ra_uuvowel;
+    sub \babeng \babeng_viramabeng  by \babeng_viramabeng_babeng;
+    sub \babeng_viramabeng_rabeng \uvowelbeng  by \ba_virama_ra_uvowel;
+    sub \babeng_viramabeng_rabeng \uuvowelbeng  by \ba_virama_ra_uuvowel;
+    sub \bhabeng_viramabeng_rabeng \uvowelbeng  by \bha_virama_ra_uvowel;
+    sub \bhabeng_viramabeng_rabeng \uuvowelbeng  by \bha_virama_ra_uuvowel;
+    sub \mabeng \babeng_viramabeng  by \mabeng_viramabeng_babeng;
+    sub \rabeng \uvowelbeng  by \rabeng_uvowelbeng;
+    sub \rabeng \uuvowelbeng  by \rabeng_uuvowelbeng;
+    sub \labeng_viramabeng_gabeng \zerowidthnonjoiner \uvowelbeng  by \la_virama_ga_zwnj_uvowel;
+    sub \gabeng \babeng_viramabeng  by \labeng_viramabeng_babeng;
+    sub \shabeng \zerowidthnonjoiner \uvowelbeng  by \sha_zwnj_uvowel;
+    sub \shabeng \uvowelbeng  by \sha_zwnj_uvowel;
+    sub \shabeng \babeng_viramabeng  by \shabeng_viramabeng_babeng;
+    sub \shabeng_viramabeng_rabeng \uvowelbeng  by \sha_virama_ra_uvowel;
+    sub \shabeng_viramabeng_rabeng \uuvowelbeng  by \sha_virama_ra_uuvowel;
+    sub \ssabeng \babeng_viramabeng  by \ssabeng_viramabeng_babeng;
+    sub \sabeng_viramabeng_tabeng \uvowelbeng  by \sa_virama_ta_uvowel;
+    sub \sabeng \babeng_viramabeng  by \sabeng_viramabeng_babeng;
+    sub \sabeng_viramabeng_rabeng \uvowelbeng  by \sa_virama_ra_uvowel;
+    sub \sabeng_viramabeng_rabeng \uuvowelbeng  by \sa_virama_ra_uuvowel;
+    sub \habeng \uvowelbeng  by \habeng_uvowelbeng;
+    sub \habeng \rvocalicvowelbeng  by \habeng_rvocalicvowelbeng;
+    sub \habeng \babeng_viramabeng  by \habeng_viramabeng_babeng;
+    sub \u09F0 \uvowelbeng  by \u09F0_uvowelbeng;
+    sub \u09F0 \uuvowelbeng  by \u09F0_uuvowelbeng;
+    sub \u09F1 \uvowelbeng  by \u09F1_uvowelbeng;
+    sub \u09F1 \uuvowelbeng  by \u09F1_uuvowelbeng;
+} blwsBelowBaseSubstitutionslooku;
+
+feature haln {
+
+ script beng;
+     language dflt ;
+      lookup halnHalantFormslookup11;
+
+ script bng2;
+     language dflt ;
+      lookup halnHalantFormslookup11;
+} haln;
+
+feature nukt {
+
+ script beng;
+     language dflt ;
+      lookup nuktNuktaFormslookup2;
+
+ script bng2;
+     language dflt ;
+      lookup nuktNuktaFormslookup2;
+} nukt;
+
+feature akhn {
+
+ script beng;
+     language dflt ;
+      lookup akhnAkhandlookup2;
+
+ script bng2;
+     language dflt ;
+      lookup akhnAkhandlookup2;
+} akhn;
+
+feature rphf {
+
+ script beng;
+     language dflt ;
+      lookup rphfRephFormlookup3;
+
+ script bng2;
+     language dflt ;
+      lookup rphfRephFormlookup3;
+} rphf;
+
+feature blwf {
+
+ script beng;
+     language dflt ;
+      lookup blwfBelowBaseFormslookup4;
+
+ script bng2;
+     language dflt ;
+      lookup blwfBelowBaseFormslookup4;
+} blwf;
+
+feature half {
+
+ script beng;
+     language dflt ;
+      lookup halfHalfFormslookup5;
+
+ script bng2;
+     language dflt ;
+      lookup halfHalfFormslookup5;
+} half;
+
+feature pstf {
+
+ script beng;
+     language dflt ;
+      lookup pstfPostBaseFormslookup6;
+
+ script bng2;
+     language dflt ;
+      lookup pstfPostBaseFormslookup6;
+} pstf;
+
+feature vatu {
+
+ script beng;
+     language dflt ;
+      lookup vatuVattuVariantslookup8;
+
+ script bng2;
+     language dflt ;
+      lookup vatuVattuVariantslookup8;
+} vatu;
+
+feature init {
+
+ script beng;
+     language dflt ;
+      lookup initInitialFormslookup0;
+
+ script bng2;
+     language dflt ;
+      lookup initInitialFormslookup0;
+} init;
+
+feature pres {
+
+ script beng;
+     language dflt ;
+      lookup presPreBaseSubstitutionslookup7;
+
+ script bng2;
+     language dflt ;
+      lookup presPreBaseSubstitutionslookup7;
+} pres;
+
+feature abvs {
+
+ script beng;
+     language dflt ;
+      lookup abvsAboveBaseSubstitutionslooku;
+
+ script bng2;
+     language dflt ;
+      lookup abvsAboveBaseSubstitutionslooku;
+} abvs;
+
+feature blws {
+
+ script beng;
+     language dflt ;
+      lookup blwsBelowBaseSubstitutionslooku;
+
+ script bng2;
+     language dflt ;
+      lookup blwsBelowBaseSubstitutionslooku;
+} blws;
+
+# GPOS 
+
+
+lookup blwmBelowBaseMarkinBengalilooku {
+  lookupflag 0;
+  markClass [\nuktabeng ] <anchor 455 -60> @Anchor2;
+  markClass [\uvowelbeng ] <anchor -110 -25> @Anchor2;
+  markClass [\uuvowelbeng ] <anchor -105 -20> @Anchor2;
+  markClass [\rvocalicvowelbeng ] <anchor -100 -20> @Anchor2;
+  markClass [\rrvocalicvowelbeng ] <anchor -90 -20> @Anchor2;
+  markClass [\viramabeng ] <anchor -90 15> @Anchor2;
+  markClass [\lvocalicvowelbeng ] <anchor -259 20> @Anchor2;
+  markClass [\llvocalicvowelbeng ] <anchor -152 30> @Anchor2;
+  pos base [\kabeng ] <anchor 306 -4> mark @Anchor2;
+  pos base [\khabeng ] <anchor 415 -3> mark @Anchor2;
+  pos base [\gabeng ] <anchor 411 -15> mark @Anchor2;
+  pos base [\ghabeng ] <anchor 381 -4> mark @Anchor2;
+  pos base [\ngabeng ] <anchor 334 -4> mark @Anchor2;
+  pos base [\cabeng ] <anchor 179 15> mark @Anchor2;
+  pos base [\chabeng ] <anchor 213 14> mark @Anchor2;
+  pos base [\jabeng ] <anchor 625 -4> mark @Anchor2;
+  pos base [\jhabeng ] <anchor 346 -6> mark @Anchor2;
+  pos base [\nyabeng ] <anchor 485 -5> mark @Anchor2;
+  pos base [\ttabeng ] <anchor 183 -5> mark @Anchor2;
+  pos base [\tthabeng ] <anchor 218 -3> mark @Anchor2;
+  pos base [\ddabeng ] <anchor 308 -4> mark @Anchor2;
+  pos base [\ddhabeng ] <anchor 191 -5> mark @Anchor2;
+  pos base [\nnabeng ] <anchor 368 -5> mark @Anchor2;
+  pos base [\tabeng ] <anchor 323 -6> mark @Anchor2;
+  pos base [\thabeng ] <anchor 404 -5> mark @Anchor2;
+  pos base [\dabeng ] <anchor 349 -5> mark @Anchor2;
+  pos base [\dhabeng \phabeng ] <anchor 339 -5> mark @Anchor2;
+  pos base [\nabeng ] <anchor 369 -5> mark @Anchor2;
+  pos base [\pabeng ] <anchor 432 -5> mark @Anchor2;
+  pos base [\babeng ] <anchor 343 -6> mark @Anchor2;
+  pos base [\bhabeng ] <anchor 349 -4> mark @Anchor2;
+  pos base [\mabeng ] <anchor 329 -4> mark @Anchor2;
+  pos base [\yabeng ] <anchor 351 -4> mark @Anchor2;
+  pos base [\rabeng ] <anchor 331 -5> mark @Anchor2;
+  pos base [\labeng ] <anchor 475 -6> mark @Anchor2;
+  pos base [\shabeng ] <anchor 359 -5> mark @Anchor2;
+  pos base [\ssabeng ] <anchor 333 -5> mark @Anchor2;
+  pos base [\sabeng ] <anchor 426 -5> mark @Anchor2;
+  pos base [\habeng ] <anchor 223 -6> mark @Anchor2;
+  pos base [\rrabeng ] <anchor 436 -5> mark @Anchor2;
+  pos base [\rhabeng ] <anchor 299 -5> mark @Anchor2;
+  pos base [\yyabeng ] <anchor 361 -5> mark @Anchor2;
+  pos base [\u09F0 ] <anchor 341 -5> mark @Anchor2;
+  pos base [\u09F1 ] <anchor 366 -5> mark @Anchor2;
+  pos base [\dottedcircle ] <anchor 364 -12> mark @Anchor2;
+  pos base [\kabeng_viramabeng_kabeng ] <anchor 315 0> mark @Anchor2;
+  pos base [\kabeng_viramabeng_ttabeng ] <anchor 255 -12> mark @Anchor2;
+  pos base [\kabeng_viramabeng_tabeng ] <anchor 375 -32> mark @Anchor2;
+  pos base [\ka_virama_ta_virama_ra ] <anchor 497 -145> mark @Anchor2;
+  pos base [\ka_virama_ta_virama_ba ] <anchor 351 -189> mark @Anchor2;
+  pos base [\kabeng_viramabeng_nabeng ] <anchor 325 -36> mark @Anchor2;
+  pos base [\kabeng_viramabeng_rabeng ] <anchor 390 0> mark @Anchor2;
+  pos base [\kabeng_viramabeng_labeng ] <anchor 363 8> mark @Anchor2;
+  pos base [\kabeng_viramabeng_babeng ] <anchor 328 4> mark @Anchor2;
+  pos base [\kabeng_viramabeng_ssabeng ] <anchor 422 -5> mark @Anchor2;
+  pos base [\ka_virama_ssa_virama_nna ] <anchor 407 -52> mark @Anchor2;
+  pos base [\ka_virama_ssa_virama_ra ] <anchor 426 -4> mark @Anchor2;
+  pos base [\ka_virama_ssa_virama_ba ] <anchor 406 -108> mark @Anchor2;
+  pos base [\gabeng_viramabeng_dhabeng ] <anchor 353 -32> mark @Anchor2;
+  pos base [\ga_virama_dha_ba_virama ] <anchor 356 -160> mark @Anchor2;
+  pos base [\ga_virama_dha_virama_ra ] <anchor 394 -44> mark @Anchor2;
+  pos base [\ga_virama_ra_uvowel ] <anchor 460 -23> mark @Anchor2;
+  pos base [\ga_virama_ra_uuvowel ] <anchor 464 -52> mark @Anchor2;
+  pos base [\ngabeng_viramabeng_kabeng ] <anchor 268 12> mark @Anchor2;
+  pos base [\nga_virama_ka_virama_ra ] <anchor 378 0> mark @Anchor2;
+  pos base [\nga_virama_ka_virama_ssa ] <anchor 893 0> mark @Anchor2;
+  pos base [\nga_ka_ssa_ra ] <anchor 885 0> mark @Anchor2;
+  pos base [\ngabeng_viramabeng_rabeng ] <anchor 488 -130> mark @Anchor2;
+  pos base [\cabeng_viramabeng_cabeng ] <anchor 446 2> mark @Anchor2;
+  pos base [\cabeng_viramabeng_chabeng ] <anchor 582 -3> mark @Anchor2;
+  pos base [\ca_virama_cha_virama_ra ] <anchor 673 -147> mark @Anchor2;
+  pos base [\ca_virama_cha_virama_ba ] <anchor 556 -169> mark @Anchor2;
+  pos base [\cabeng_viramabeng_nyabeng ] <anchor 480 -51> mark @Anchor2;
+  pos base [\cabeng_viramabeng_nabeng ] <anchor 311 -73> mark @Anchor2;
+  pos base [\cabeng_viramabeng_rabeng ] <anchor 333 -116> mark @Anchor2;
+  pos base [\cabeng_viramabeng_babeng ] <anchor 269 -147> mark @Anchor2;
+  pos base [\chabeng_viramabeng_rabeng ] <anchor 408 -118> mark @Anchor2;
+  pos base [\chabeng_viramabeng_babeng ] <anchor 371 -176> mark @Anchor2;
+  pos base [\jabeng_viramabeng_nyabeng ] <anchor 290 7> mark @Anchor2;
+  pos base [\jhabeng_viramabeng_rabeng ] <anchor 392 -4> mark @Anchor2;
+  pos base [\nyabeng_viramabeng_cabeng ] <anchor 352 4> mark @Anchor2;
+  pos base [\nya_virama_ca_virama_ba ] <anchor 351 -159> mark @Anchor2;
+  pos base [\nyabeng_viramabeng_chabeng ] <anchor 314 -110> mark @Anchor2;
+  pos base [\nyabeng_viramabeng_jabeng ] <anchor 575 -48> mark @Anchor2;
+  pos base [\nyabeng_viramabeng_jhabeng ] <anchor 361 -40> mark @Anchor2;
+  pos base [\nyabeng_viramabeng_dhabeng ] <anchor 262 -49> mark @Anchor2;
+  pos base [\ttabeng_viramabeng_ttabeng ] <anchor 242 -97> mark @Anchor2;
+  pos base [\tta_virama_ta_virama_ra ] <anchor 398 -216> mark @Anchor2;
+  pos base [\ttabeng_viramabeng_rabeng ] <anchor 458 -116> mark @Anchor2;
+  pos base [\ttabeng_viramabeng_babeng ] <anchor 304 -92> mark @Anchor2;
+  pos base [\tthabeng_rabeng_viramabeng ] <anchor 332 -111> mark @Anchor2;
+  pos base [\ddabeng_viramabeng_ddabeng ] <anchor 653 -11> mark @Anchor2;
+  pos base [\ddabeng_viramabeng_rabeng ] <anchor 472 -134> mark @Anchor2;
+  pos base [\ddabeng_viramabeng_babeng ] <anchor 343 -163> mark @Anchor2;
+  pos base [\ddhabeng_viramabeng_rabeng ] <anchor 455 -119> mark @Anchor2;
+  pos base [\nnabeng_viramabeng_ttabeng ] <anchor 471 7> mark @Anchor2;
+  pos base [\nna_virama_tta_virama_ra ] <anchor 538 -102> mark @Anchor2;
+  pos base [\nnabeng_viramabeng_tthabeng ] <anchor 305 0> mark @Anchor2;
+  pos base [\nna_virama_ttha_virama_ra ] <anchor 454 -122> mark @Anchor2;
+  pos base [\nnabeng_viramabeng_ddabeng ] <anchor 375 -28> mark @Anchor2;
+  pos base [\nna_virama_dda_virama_ra ] <anchor 464 -150> mark @Anchor2;
+  pos base [\nnabeng_viramabeng_ddhabeng ] <anchor 419 1> mark @Anchor2;
+  pos base [\nna_virama_ddha_virama_ra ] <anchor 531 -124> mark @Anchor2;
+  pos base [\ta_virama_ra_uvowel ] <anchor 480 -40> mark @Anchor2;
+  pos base [\ta_virama_ra_uuvowel ] <anchor 471 -40> mark @Anchor2;
+  pos base [\tha_virama_ra_uvowel ] <anchor 442 -36> mark @Anchor2;
+  pos base [\tha_virama_ra_uuvowel ] <anchor 446 -32> mark @Anchor2;
+  pos base [\dabeng_viramabeng_dhabeng ] <anchor 338 -8> mark @Anchor2;
+  pos base [\da_virama_dha_virama_ba ] <anchor 367 -115> mark @Anchor2;
+  pos base [\dabeng_viramabeng_bhabeng ] <anchor 361 -76> mark @Anchor2;
+  pos base [\da_virama_bha_virama_ra ] <anchor 430 -126> mark @Anchor2;
+  pos base [\da_virama_ra_uvowel ] <anchor 440 -28> mark @Anchor2;
+  pos base [\da_virama_ra_uuvowel ] <anchor 433 -24> mark @Anchor2;
+  pos base [\dha_virama_ra_uvowel ] <anchor 393 -36> mark @Anchor2;
+  pos base [\dha_virama_ra_uuvowel ] <anchor 396 -32> mark @Anchor2;
+  pos base [\nabeng_viramabeng_ttabeng ] <anchor 421 0> mark @Anchor2;
+  pos base [\na_virama_tta_virama_ra ] <anchor 546 -129> mark @Anchor2;
+  pos base [\nabeng_viramabeng_tthabeng ] <anchor 287 -5> mark @Anchor2;
+  pos base [\nabeng_viramabeng_ddabeng ] <anchor 346 -28> mark @Anchor2;
+  pos base [\na_viramag_dda_virama_ra ] <anchor 525 -123> mark @Anchor2;
+  pos base [\glyph283 ] <anchor 485 -171> mark @Anchor2;
+  pos base [\nabeng_viramabeng_tabeng ] <anchor 290 -30> mark @Anchor2;
+  pos base [\na_virama_ta_uvowel ] <anchor 397 -93> mark @Anchor2;
+  pos base [\nabeng_viramabeng_thabeng ] <anchor 342 -33> mark @Anchor2;
+  pos base [\na_virama_tha_virama_ra ] <anchor 395 -143> mark @Anchor2;
+  pos base [\nabeng_viramabeng_dhabeng ] <anchor 339 4> mark @Anchor2;
+  pos base [\na_virama_dha_virama_ba ] <anchor 347 -137> mark @Anchor2;
+  pos base [\na_virama_dha_virama_ra ] <anchor 424 -39> mark @Anchor2;
+  pos base [\pabeng_viramabeng_ttabeng ] <anchor 506 16> mark @Anchor2;
+  pos base [\pabeng_viramabeng_tabeng ] <anchor 412 -25> mark @Anchor2;
+  pos base [\pa_virama_ta_uvowel ] <anchor 411 -76> mark @Anchor2;
+  pos base [\pa_virama_ra_uvowel ] <anchor 453 -4> mark @Anchor2;
+  pos base [\pa_virama_ra_uuvowel ] <anchor 488 4> mark @Anchor2;
+  pos base [\phabeng_viramabeng_ttabeng ] <anchor 404 -29> mark @Anchor2;
+  pos base [\phabeng_viramabeng_rabeng ] <anchor 447 -52> mark @Anchor2;
+  pos base [\phabeng_viramabeng_labeng ] <anchor 378 -80> mark @Anchor2;
+  pos base [\babeng_viramabeng_jhabeng ] <anchor 296 4> mark @Anchor2;
+  pos base [\babeng_viramabeng_ddabeng ] <anchor 296 -31> mark @Anchor2;
+  pos base [\babeng_viramabeng_ddhabeng ] <anchor 322 -2> mark @Anchor2;
+  pos base [\babeng_viramabeng_dhabeng ] <anchor 317 -4> mark @Anchor2;
+  pos base [\babeng_viramabeng_bhabeng ] <anchor 373 -74> mark @Anchor2;
+  pos base [\ba_virama_ra_uvowel ] <anchor 376 -4> mark @Anchor2;
+  pos base [\ba_virama_ra_uuvowel ] <anchor 375 0> mark @Anchor2;
+  pos base [\bha_virama_ra_uvowel ] <anchor 450 1> mark @Anchor2;
+  pos base [\bha_virama_ra_uuvowel ] <anchor 446 -4> mark @Anchor2;
+  pos base [\bhabeng_viramabeng_labeng ] <anchor 476 -71> mark @Anchor2;
+  pos base [\mabeng_viramabeng_tabeng ] <anchor 295 -26> mark @Anchor2;
+  pos base [\mabeng_viramabeng_phabeng ] <anchor 472 4> mark @Anchor2;
+  pos base [\ma_virama_pha_virama_ra ] <anchor 500 3> mark @Anchor2;
+  pos base [\mabeng_viramabeng_babeng ] <anchor 342 8> mark @Anchor2;
+  pos base [\mabeng_viramabeng_bhabeng ] <anchor 348 -42> mark @Anchor2;
+  pos base [\ma_virama_bha_virama_ra ] <anchor 477 -1> mark @Anchor2;
+  pos base [\mabeng_viramabeng_rabeng ] <anchor 438 -8> mark @Anchor2;
+  pos base [\mabeng_viramabeng_labeng ] <anchor 417 0> mark @Anchor2;
+  pos base [\rabeng_uvowelbeng ] <anchor 325 0> mark @Anchor2;
+  pos base [\rabeng_uuvowelbeng ] <anchor 310 4> mark @Anchor2;
+  pos base [\labeng_viramabeng_kabeng ] <anchor 411 4> mark @Anchor2;
+  pos base [\la_virama_ga_zwnj_uvowel ] <anchor 451 -123> mark @Anchor2;
+  pos base [\labeng_viramabeng_ttabeng ] <anchor 427 -8> mark @Anchor2;
+  pos base [\la_virama_tta_virama_ra ] <anchor 626 -114> mark @Anchor2;
+  pos base [\labeng_viramabeng_ddabeng ] <anchor 418 -25> mark @Anchor2;
+  pos base [\la_virama_dda_virama_ra ] <anchor 552 -122> mark @Anchor2;
+  pos base [\labeng_viramabeng_ddhabeng ] <anchor 463 0> mark @Anchor2;
+  pos base [\labeng_viramabeng_phabeng ] <anchor 587 -52> mark @Anchor2;
+  pos base [\sha_zwnj_uvowel ] <anchor 370 -28> mark @Anchor2;
+  pos base [\shabeng_viramabeng_cabeng ] <anchor 440 20> mark @Anchor2;
+  pos base [\shabeng_viramabeng_chabeng ] <anchor 588 -35> mark @Anchor2;
+  pos base [\shabeng_viramabeng_tabeng ] <anchor 316 -34> mark @Anchor2;
+  pos base [\sha_virama_ra_uvowel ] <anchor 492 -8> mark @Anchor2;
+  pos base [\sha_virama_ra_uuvowel ] <anchor 497 4> mark @Anchor2;
+  pos base [\ssabeng_viramabeng_kabeng ] <anchor 288 4> mark @Anchor2;
+  pos base [\ssa_virama_ka_virama_ra ] <anchor 462 -31> mark @Anchor2;
+  pos base [\ssabeng_viramabeng_ttabeng ] <anchor 260 -32> mark @Anchor2;
+  pos base [\ssa_virama_tta_virama_ra ] <anchor 382 -124> mark @Anchor2;
+  pos base [\ssabeng_viramabeng_tthabeng ] <anchor 244 0> mark @Anchor2;
+  pos base [\ssabeng_viramabeng_nnabeng ] <anchor 332 4> mark @Anchor2;
+  pos base [\ssabeng_viramabeng_phabeng ] <anchor 471 -36> mark @Anchor2;
+  pos base [\ssabeng_viramabeng_babeng ] <anchor 284 1> mark @Anchor2;
+  pos base [\sabeng_viramabeng_kabeng ] <anchor 351 4> mark @Anchor2;
+  pos base [\sa_virama_ka_virama_ra ] <anchor 448 -12> mark @Anchor2;
+  pos base [\glyph391 ] <anchor 448 -44> mark @Anchor2;
+  pos base [\sabeng_viramabeng_ttabeng ] <anchor 487 18> mark @Anchor2;
+  pos base [\sa_virama_tta_virama_ra ] <anchor 453 -106> mark @Anchor2;
+  pos base [\glyph395 ] <anchor 576 -138> mark @Anchor2;
+  pos base [\sabeng_viramabeng_tabeng ] <anchor 312 -32> mark @Anchor2;
+  pos base [\sa_virama_ta_uvowel ] <anchor 364 -90> mark @Anchor2;
+  pos base [\sa_virama_ta_virama_ra ] <anchor 420 -33> mark @Anchor2;
+  pos base [\sa_virama_ta_virama_ba ] <anchor 435 -182> mark @Anchor2;
+  pos base [\sabeng_viramabeng_thabeng ] <anchor 387 -18> mark @Anchor2;
+  pos base [\sabeng_viramabeng_nabeng ] <anchor 357 -7> mark @Anchor2;
+  pos base [\sabeng_viramabeng_phabeng ] <anchor 573 -64> mark @Anchor2;
+  pos base [\sabeng_viramabeng_babeng ] <anchor 339 0> mark @Anchor2;
+  pos base [\sabeng_viramabeng_rabeng ] <anchor 448 4> mark @Anchor2;
+  pos base [\sa_virama_ra_uvowel ] <anchor 463 -8> mark @Anchor2;
+  pos base [\sa_virama_ra_uuvowel ] <anchor 455 -16> mark @Anchor2;
+  pos base [\habeng_uvowelbeng ] <anchor 328 12> mark @Anchor2;
+  pos base [\habeng_rvocalicvowelbeng ] <anchor 269 -3> mark @Anchor2;
+  pos base [\habeng_viramabeng_nnabeng ] <anchor 281 -90> mark @Anchor2;
+  pos base [\habeng_viramabeng_nabeng ] <anchor 239 -3> mark @Anchor2;
+  pos base [\habeng_viramabeng_babeng ] <anchor 605 -49> mark @Anchor2;
+  pos base [\habeng_viramabeng_mabeng ] <anchor 382 0> mark @Anchor2;
+  pos base [\habeng_viramabeng_rabeng ] <anchor 385 -109> mark @Anchor2;
+  pos base [\habeng_viramabeng_labeng ] <anchor 276 -81> mark @Anchor2;
+  pos base [\rrabeng_viramabeng_rabeng ] <anchor 444 -191> mark @Anchor2;
+  pos base [\rhabeng_viramabeng_rabeng ] <anchor 352 -166> mark @Anchor2;
+  pos base [\u09F0_uvowelbeng ] <anchor 318 1> mark @Anchor2;
+  pos base [\u09F0_uuvowelbeng ] <anchor 313 5> mark @Anchor2;
+  pos base [\u09F1_uvowelbeng ] <anchor 347 5> mark @Anchor2;
+  pos base [\u09F1_uuvowelbeng ] <anchor 343 0> mark @Anchor2;
+  pos base [\gabeng_viramabeng ] <anchor 397 -2> mark @Anchor2;
+  pos base [\shabeng_viramabeng ] <anchor 374 0> mark @Anchor2;
+  pos base [\rrabeng_viramabeng ] <anchor 393 0> mark @Anchor2;
+  pos base [\rhabeng_viramabeng ] <anchor 277 0> mark @Anchor2;
+  pos base [\yyabeng_viramabeng ] <anchor 346 0> mark @Anchor2;
+} blwmBelowBaseMarkinBengalilooku;
+
+lookup abvmAboveBaseMarkinBengalilooku {
+  lookupflag 0;
+  markClass [\candrabindubeng ] <anchor -102 20> @Anchor0;
+  markClass [\rabeng_viramabeng ] <anchor -119 4> @Anchor1;
+  pos base [\abeng ] <anchor 561 0> mark @Anchor1
+	<anchor 561 0> mark @Anchor0;
+  pos base [\aabeng ] <anchor 792 4> mark @Anchor1
+	<anchor 792 2> mark @Anchor0;
+  pos base [\ibeng ] <anchor 180 4> mark @Anchor1
+	<anchor 303 31> mark @Anchor0;
+  pos base [\iibeng \ssa_virama_tta_virama_ra \habeng_rvocalicvowelbeng ] <anchor 260 0> mark @Anchor1
+	<anchor 354 18> mark @Anchor0;
+  pos base [\ubeng ] <anchor 364 0> mark @Anchor1
+	<anchor 440 30> mark @Anchor0;
+  pos base [\uubeng \sa_virama_ta_virama_ra ] <anchor 416 0> mark @Anchor1
+	<anchor 492 16> mark @Anchor0;
+  pos base [\rvocalic \dha_virama_ra_uvowel ] <anchor 392 -4> mark @Anchor1
+	<anchor 392 4> mark @Anchor0;
+  pos base [\lvocalic \dabeng ] <anchor 293 0> mark @Anchor1
+	<anchor 293 1> mark @Anchor0;
+  pos base [\ebeng \mabeng_viramabeng_phabeng ] <anchor 472 0> mark @Anchor1
+	<anchor 472 -5> mark @Anchor0;
+  pos base [\aibeng \ga_virama_ra_uuvowel \shabeng_viramabeng_cabeng ] <anchor 460 0> mark @Anchor1
+	<anchor 494 22> mark @Anchor0;
+  pos base [\obeng ] <anchor 336 -4> mark @Anchor1
+	<anchor 336 -5> mark @Anchor0;
+  pos base [\aubeng ] <anchor 392 -8> mark @Anchor1
+	<anchor 481 3> mark @Anchor0;
+  pos base [\kabeng ] <anchor 291 0> mark @Anchor1
+	<anchor 292 -2> mark @Anchor0;
+  pos base [\khabeng ] <anchor 393 -4> mark @Anchor1
+	<anchor 406 0> mark @Anchor0;
+  pos base [\gabeng ] <anchor 394 0> mark @Anchor1
+	<anchor 398 0> mark @Anchor0;
+  pos base [\ghabeng \da_virama_dha_virama_ba ] <anchor 363 -4> mark @Anchor1
+	<anchor 362 -1> mark @Anchor0;
+  pos base [\ngabeng ] <anchor 353 4> mark @Anchor1
+	<anchor 369 0> mark @Anchor0;
+  pos base [\cabeng ] <anchor 233 -5> mark @Anchor1
+	<anchor 257 -5> mark @Anchor0;
+  pos base [\chabeng ] <anchor 301 -4> mark @Anchor1
+	<anchor 292 -4> mark @Anchor0;
+  pos base [\jabeng ] <anchor 606 -4> mark @Anchor1
+	<anchor 602 4> mark @Anchor0;
+  pos base [\jhabeng ] <anchor 476 0> mark @Anchor1
+	<anchor 476 0> mark @Anchor0;
+  pos base [\nyabeng ] <anchor 470 -4> mark @Anchor1
+	<anchor 465 0> mark @Anchor0;
+  pos base [\ttabeng \ttabeng_viramabeng_babeng ] <anchor 190 -5> mark @Anchor1
+	<anchor 405 45> mark @Anchor0;
+  pos base [\tthabeng ] <anchor 185 0> mark @Anchor1
+	<anchor 200 0> mark @Anchor0;
+  pos base [\ddabeng \kabeng_viramabeng_kabeng \da_virama_bha_virama_ra ] <anchor 315 0> mark @Anchor1
+	<anchor 320 0> mark @Anchor0;
+  pos base [\ddhabeng ] <anchor 165 0> mark @Anchor1
+	<anchor 170 -5> mark @Anchor0;
+  pos base [\nnabeng \ma_virama_bha_virama_ra ] <anchor 355 0> mark @Anchor1
+	<anchor 355 -4> mark @Anchor0;
+  pos base [\tabeng ] <anchor 358 0> mark @Anchor1
+	<anchor 348 5> mark @Anchor0;
+  pos base [\thabeng \glyph283 ] <anchor 385 0> mark @Anchor1
+	<anchor 385 -5> mark @Anchor0;
+  pos base [\dhabeng \rabeng_uvowelbeng ] <anchor 324 0> mark @Anchor1
+	<anchor 324 0> mark @Anchor0;
+  pos base [\nabeng ] <anchor 345 0> mark @Anchor1
+	<anchor 345 0> mark @Anchor0;
+  pos base [\pabeng \sabeng_viramabeng_rabeng ] <anchor 415 0> mark @Anchor1
+	<anchor 418 0> mark @Anchor0;
+  pos base [\phabeng ] <anchor 316 -5> mark @Anchor1
+	<anchor 317 -5> mark @Anchor0;
+  pos base [\babeng \mabeng \rabeng ] <anchor 316 0> mark @Anchor1
+	<anchor 320 0> mark @Anchor0;
+  pos base [\bhabeng ] <anchor 355 -4> mark @Anchor1
+	<anchor 362 -4> mark @Anchor0;
+  pos base [\yabeng ] <anchor 332 -5> mark @Anchor1
+	<anchor 332 -5> mark @Anchor0;
+  pos base [\labeng \shabeng_viramabeng_tabeng ] <anchor 465 0> mark @Anchor1
+	<anchor 465 0> mark @Anchor0;
+  pos base [\shabeng ] <anchor 346 -4> mark @Anchor1
+	<anchor 350 0> mark @Anchor0;
+  pos base [\ssabeng ] <anchor 312 -1> mark @Anchor1
+	<anchor 312 -5> mark @Anchor0;
+  pos base [\sabeng \kabeng_viramabeng_tabeng ] <anchor 380 0> mark @Anchor1
+	<anchor 397 -5> mark @Anchor0;
+  pos base [\habeng ] <anchor 250 0> mark @Anchor1
+	<anchor 245 0> mark @Anchor0;
+  pos base [\khandatabeng ] <anchor 200 0> mark @Anchor1
+	<anchor 195 0> mark @Anchor0;
+  pos base [\rrabeng ] <anchor 360 -5> mark @Anchor1
+	<anchor 360 -5> mark @Anchor0;
+  pos base [\rhabeng \cabeng_viramabeng_nabeng \rhabeng_viramabeng ] <anchor 235 0> mark @Anchor1
+	<anchor 235 0> mark @Anchor0;
+  pos base [\yyabeng \yyabeng_viramabeng ] <anchor 341 0> mark @Anchor1
+	<anchor 337 0> mark @Anchor0;
+  pos base [\u09F0 ] <anchor 323 0> mark @Anchor1
+	<anchor 323 0> mark @Anchor0;
+  pos base [\u09F1 ] <anchor 336 4> mark @Anchor1
+	<anchor 340 0> mark @Anchor0;
+  pos base [\dottedcircle ] <anchor 340 -5> mark @Anchor1
+	<anchor 365 -2> mark @Anchor0;
+  pos base [\kabeng_viramabeng_ttabeng \tta_virama_ta_virama_ra ] <anchor 255 -5> mark @Anchor1
+	<anchor 290 20> mark @Anchor0;
+  pos base [\ka_virama_ta_virama_ra \sa_virama_ta_uvowel ] <anchor 400 0> mark @Anchor1
+	<anchor 405 0> mark @Anchor0;
+  pos base [\ka_virama_ta_virama_ba \rabeng_uuvowelbeng ] <anchor 310 0> mark @Anchor1
+	<anchor 350 4> mark @Anchor0;
+  pos base [\kabeng_viramabeng_nabeng ] <anchor 321 0> mark @Anchor1
+	<anchor 321 0> mark @Anchor0;
+  pos base [\kabeng_viramabeng_rabeng ] <anchor 386 0> mark @Anchor1
+	<anchor 386 0> mark @Anchor0;
+  pos base [\kabeng_viramabeng_labeng \bhabeng_viramabeng_labeng \rrabeng_viramabeng ] <anchor 360 0> mark @Anchor1
+	<anchor 359 -4> mark @Anchor0;
+  pos base [\kabeng_viramabeng_babeng ] <anchor 324 -4> mark @Anchor1
+	<anchor 328 0> mark @Anchor0;
+  pos base [\kabeng_viramabeng_ssabeng ] <anchor 404 0> mark @Anchor1
+	<anchor 400 0> mark @Anchor0;
+  pos base [\ka_virama_ssa_virama_nna ] <anchor 407 0> mark @Anchor1
+	<anchor 407 0> mark @Anchor0;
+  pos base [\ka_virama_ssa_virama_ra ] <anchor 423 0> mark @Anchor1
+	<anchor 423 0> mark @Anchor0;
+  pos base [\ka_virama_ssa_virama_ba \labeng_viramabeng_ddhabeng ] <anchor 399 0> mark @Anchor1
+	<anchor 403 0> mark @Anchor0;
+  pos base [\gabeng_viramabeng_dhabeng ] <anchor 349 0> mark @Anchor1
+	<anchor 353 0> mark @Anchor0;
+  pos base [\ga_virama_dha_ba_virama ] <anchor 352 0> mark @Anchor1
+	<anchor 352 -4> mark @Anchor0;
+  pos base [\ga_virama_dha_virama_ra \na_virama_ta_uvowel ] <anchor 390 0> mark @Anchor1
+	<anchor 394 0> mark @Anchor0;
+  pos base [\ga_virama_ra_uvowel ] <anchor 456 4> mark @Anchor1
+	<anchor 456 0> mark @Anchor0;
+  pos base [\ngabeng_viramabeng_kabeng ] <anchor 268 0> mark @Anchor1
+	<anchor 263 0> mark @Anchor0;
+  pos base [\nga_virama_ka_virama_ra ] <anchor 378 -4> mark @Anchor1
+	<anchor 378 0> mark @Anchor0;
+  pos base [\nga_virama_ka_virama_ssa ] <anchor 885 0> mark @Anchor1
+	<anchor 889 0> mark @Anchor0;
+  pos base [\nga_ka_ssa_ra ] <anchor 885 -4> mark @Anchor1
+	<anchor 884 0> mark @Anchor0;
+  pos base [\ngabeng_viramabeng_rabeng ] <anchor 376 -4> mark @Anchor1
+	<anchor 352 0> mark @Anchor0;
+  pos base [\cabeng_viramabeng_cabeng \pa_virama_ra_uvowel ] <anchor 449 0> mark @Anchor1
+	<anchor 448 -4> mark @Anchor0;
+  pos base [\cabeng_viramabeng_chabeng ] <anchor 535 0> mark @Anchor1
+	<anchor 535 0> mark @Anchor0;
+  pos base [\ca_virama_cha_virama_ra ] <anchor 579 -4> mark @Anchor1
+	<anchor 576 0> mark @Anchor0;
+  pos base [\ca_virama_cha_virama_ba ] <anchor 551 1> mark @Anchor1
+	<anchor 548 4> mark @Anchor0;
+  pos base [\cabeng_viramabeng_nyabeng ] <anchor 480 -4> mark @Anchor1
+	<anchor 480 -4> mark @Anchor0;
+  pos base [\cabeng_viramabeng_rabeng \rhabeng_viramabeng_rabeng ] <anchor 225 0> mark @Anchor1
+	<anchor 225 0> mark @Anchor0;
+  pos base [\cabeng_viramabeng_babeng ] <anchor 263 -4> mark @Anchor1
+	<anchor 262 -4> mark @Anchor0;
+  pos base [\chabeng_viramabeng_rabeng ] <anchor 343 -4> mark @Anchor1
+	<anchor 330 -8> mark @Anchor0;
+  pos base [\chabeng_viramabeng_babeng ] <anchor 283 1> mark @Anchor1
+	<anchor 307 1> mark @Anchor0;
+  pos base [\jabeng_viramabeng_nyabeng ] <anchor 541 0> mark @Anchor1
+	<anchor 547 0> mark @Anchor0;
+  pos base [\jhabeng_viramabeng_rabeng ] <anchor 532 0> mark @Anchor1
+	<anchor 532 -4> mark @Anchor0;
+  pos base [\nyabeng_viramabeng_cabeng \nya_virama_ca_virama_ba ] <anchor 347 -4> mark @Anchor1
+	<anchor 343 -4> mark @Anchor0;
+  pos base [\nyabeng_viramabeng_chabeng ] <anchor 261 4> mark @Anchor1
+	<anchor 277 -4> mark @Anchor0;
+  pos base [\nyabeng_viramabeng_jabeng ] <anchor 329 12> mark @Anchor1
+	<anchor 337 4> mark @Anchor0;
+  pos base [\nyabeng_viramabeng_jhabeng ] <anchor 353 0> mark @Anchor1
+	<anchor 357 0> mark @Anchor0;
+  pos base [\nyabeng_viramabeng_dhabeng ] <anchor 257 4> mark @Anchor1
+	<anchor 257 0> mark @Anchor0;
+  pos base [\ttabeng_viramabeng_ttabeng \ttabeng_viramabeng_rabeng ] <anchor 240 0> mark @Anchor1
+	<anchor 325 30> mark @Anchor0;
+  pos base [\tthabeng_rabeng_viramabeng ] <anchor 183 0> mark @Anchor1
+	<anchor 220 0> mark @Anchor0;
+  pos base [\ddabeng_viramabeng_ddabeng ] <anchor 739 0> mark @Anchor1
+	<anchor 735 -4> mark @Anchor0;
+  pos base [\ddabeng_viramabeng_rabeng \rrabeng_viramabeng_rabeng ] <anchor 320 0> mark @Anchor1
+	<anchor 366 -4> mark @Anchor0;
+  pos base [\ddabeng_viramabeng_babeng ] <anchor 378 4> mark @Anchor1
+	<anchor 366 0> mark @Anchor0;
+  pos base [\ddhabeng_viramabeng_rabeng ] <anchor 346 0> mark @Anchor1
+	<anchor 346 0> mark @Anchor0;
+  pos base [\nnabeng_viramabeng_ttabeng \nna_virama_tta_virama_ra ] <anchor 395 0> mark @Anchor1
+	<anchor 541 43> mark @Anchor0;
+  pos base [\nnabeng_viramabeng_tthabeng ] <anchor 255 0> mark @Anchor1
+	<anchor 357 -12> mark @Anchor0;
+  pos base [\nna_virama_ttha_virama_ra ] <anchor 265 0> mark @Anchor1
+	<anchor 365 -12> mark @Anchor0;
+  pos base [\nnabeng_viramabeng_ddabeng ] <anchor 379 0> mark @Anchor1
+	<anchor 375 0> mark @Anchor0;
+  pos base [\nna_virama_dda_virama_ra ] <anchor 458 -4> mark @Anchor1
+	<anchor 458 0> mark @Anchor0;
+  pos base [\nnabeng_viramabeng_ddhabeng ] <anchor 448 0> mark @Anchor1
+	<anchor 448 4> mark @Anchor0;
+  pos base [\nna_virama_ddha_virama_ra \mabeng_viramabeng_bhabeng ] <anchor 405 0> mark @Anchor1
+	<anchor 405 0> mark @Anchor0;
+  pos base [\ta_virama_ra_uvowel ] <anchor 473 0> mark @Anchor1
+	<anchor 473 -8> mark @Anchor0;
+  pos base [\ta_virama_ra_uuvowel ] <anchor 466 0> mark @Anchor1
+	<anchor 466 0> mark @Anchor0;
+  pos base [\tha_virama_ra_uvowel \bha_virama_ra_uuvowel ] <anchor 441 0> mark @Anchor1
+	<anchor 438 -8> mark @Anchor0;
+  pos base [\tha_virama_ra_uuvowel ] <anchor 438 0> mark @Anchor1
+	<anchor 438 0> mark @Anchor0;
+  pos base [\dabeng_viramabeng_dhabeng ] <anchor 330 0> mark @Anchor1
+	<anchor 330 0> mark @Anchor0;
+  pos base [\dabeng_viramabeng_bhabeng ] <anchor 408 0> mark @Anchor1
+	<anchor 408 0> mark @Anchor0;
+  pos base [\da_virama_ra_uvowel \mabeng_viramabeng_labeng ] <anchor 365 0> mark @Anchor1
+	<anchor 365 0> mark @Anchor0;
+  pos base [\da_virama_ra_uuvowel \na_virama_tta_virama_ra ] <anchor 370 0> mark @Anchor1
+	<anchor 370 0> mark @Anchor0;
+  pos base [\dha_virama_ra_uuvowel ] <anchor 392 0> mark @Anchor1
+	<anchor 392 -4> mark @Anchor0;
+  pos base [\nabeng_viramabeng_ttabeng ] <anchor 380 -4> mark @Anchor1
+	<anchor 485 39> mark @Anchor0;
+  pos base [\nabeng_viramabeng_tthabeng \habeng_viramabeng_nnabeng ] <anchor 245 0> mark @Anchor1
+	<anchor 326 0> mark @Anchor0;
+  pos base [\nabeng_viramabeng_ddabeng ] <anchor 375 0> mark @Anchor1
+	<anchor 404 -4> mark @Anchor0;
+  pos base [\na_viramag_dda_virama_ra \sa_virama_ra_uvowel \sa_virama_ra_uuvowel ] <anchor 410 0> mark @Anchor1
+	<anchor 420 0> mark @Anchor0;
+  pos base [\nabeng_viramabeng_tabeng ] <anchor 356 -8> mark @Anchor1
+	<anchor 356 -5> mark @Anchor0;
+  pos base [\nabeng_viramabeng_thabeng \habeng_viramabeng_nabeng ] <anchor 290 0> mark @Anchor1
+	<anchor 295 0> mark @Anchor0;
+  pos base [\na_virama_tha_virama_ra ] <anchor 295 0> mark @Anchor1
+	<anchor 300 0> mark @Anchor0;
+  pos base [\nabeng_viramabeng_dhabeng \sabeng_viramabeng_thabeng ] <anchor 335 0> mark @Anchor1
+	<anchor 335 0> mark @Anchor0;
+  pos base [\na_virama_dha_virama_ba ] <anchor 342 0> mark @Anchor1
+	<anchor 342 -4> mark @Anchor0;
+  pos base [\na_virama_dha_virama_ra ] <anchor 415 -4> mark @Anchor1
+	<anchor 415 0> mark @Anchor0;
+  pos base [\pabeng_viramabeng_ttabeng ] <anchor 412 0> mark @Anchor1
+	<anchor 533 28> mark @Anchor0;
+  pos base [\pabeng_viramabeng_tabeng ] <anchor 500 5> mark @Anchor1
+	<anchor 500 0> mark @Anchor0;
+  pos base [\pa_virama_ta_uvowel ] <anchor 427 1> mark @Anchor1
+	<anchor 427 0> mark @Anchor0;
+  pos base [\pa_virama_ra_uuvowel \labeng_viramabeng_ddabeng \la_virama_dda_virama_ra ] <anchor 485 0> mark @Anchor1
+	<anchor 485 0> mark @Anchor0;
+  pos base [\phabeng_viramabeng_ttabeng ] <anchor 318 2> mark @Anchor1
+	<anchor 487 33> mark @Anchor0;
+  pos base [\phabeng_viramabeng_rabeng \bha_virama_ra_uvowel ] <anchor 447 0> mark @Anchor1
+	<anchor 447 0> mark @Anchor0;
+  pos base [\phabeng_viramabeng_labeng ] <anchor 371 0> mark @Anchor1
+	<anchor 371 0> mark @Anchor0;
+  pos base [\babeng_viramabeng_jhabeng ] <anchor 292 0> mark @Anchor1
+	<anchor 292 0> mark @Anchor0;
+  pos base [\babeng_viramabeng_ddabeng ] <anchor 368 0> mark @Anchor1
+	<anchor 368 0> mark @Anchor0;
+  pos base [\babeng_viramabeng_ddhabeng ] <anchor 280 0> mark @Anchor1
+	<anchor 280 0> mark @Anchor0;
+  pos base [\babeng_viramabeng_dhabeng ] <anchor 317 0> mark @Anchor1
+	<anchor 317 0> mark @Anchor0;
+  pos base [\babeng_viramabeng_bhabeng \glyph391 ] <anchor 443 0> mark @Anchor1
+	<anchor 442 0> mark @Anchor0;
+  pos base [\ba_virama_ra_uvowel \ba_virama_ra_uuvowel ] <anchor 372 0> mark @Anchor1
+	<anchor 372 0> mark @Anchor0;
+  pos base [\mabeng_viramabeng_tabeng ] <anchor 331 -4> mark @Anchor1
+	<anchor 331 0> mark @Anchor0;
+  pos base [\ma_virama_pha_virama_ra ] <anchor 494 0> mark @Anchor1
+	<anchor 494 0> mark @Anchor0;
+  pos base [\mabeng_viramabeng_babeng ] <anchor 334 0> mark @Anchor1
+	<anchor 334 4> mark @Anchor0;
+  pos base [\mabeng_viramabeng_rabeng ] <anchor 362 0> mark @Anchor1
+	<anchor 362 0> mark @Anchor0;
+  pos base [\labeng_viramabeng_kabeng ] <anchor 409 0> mark @Anchor1
+	<anchor 409 -4> mark @Anchor0;
+  pos base [\la_virama_ga_zwnj_uvowel ] <anchor 419 0> mark @Anchor1
+	<anchor 419 0> mark @Anchor0;
+  pos base [\labeng_viramabeng_ttabeng ] <anchor 411 -3> mark @Anchor1
+	<anchor 579 29> mark @Anchor0;
+  pos base [\la_virama_tta_virama_ra ] <anchor 483 -4> mark @Anchor1
+	<anchor 590 15> mark @Anchor0;
+  pos base [\labeng_viramabeng_phabeng ] <anchor 583 0> mark @Anchor1
+	<anchor 580 -4> mark @Anchor0;
+  pos base [\sha_zwnj_uvowel ] <anchor 475 0> mark @Anchor1
+	<anchor 480 0> mark @Anchor0;
+  pos base [\shabeng_viramabeng_chabeng ] <anchor 545 0> mark @Anchor1
+	<anchor 545 0> mark @Anchor0;
+  pos base [\sha_virama_ra_uvowel ] <anchor 487 0> mark @Anchor1
+	<anchor 487 -4> mark @Anchor0;
+  pos base [\sha_virama_ra_uuvowel ] <anchor 493 0> mark @Anchor1
+	<anchor 493 0> mark @Anchor0;
+  pos base [\ssabeng_viramabeng_kabeng ] <anchor 283 0> mark @Anchor1
+	<anchor 283 0> mark @Anchor0;
+  pos base [\ssa_virama_ka_virama_ra ] <anchor 458 0> mark @Anchor1
+	<anchor 458 0> mark @Anchor0;
+  pos base [\ssabeng_viramabeng_ttabeng ] <anchor 230 0> mark @Anchor1
+	<anchor 315 15> mark @Anchor0;
+  pos base [\ssabeng_viramabeng_tthabeng ] <anchor 270 0> mark @Anchor1
+	<anchor 338 0> mark @Anchor0;
+  pos base [\ssabeng_viramabeng_nnabeng ] <anchor 325 0> mark @Anchor1
+	<anchor 320 0> mark @Anchor0;
+  pos base [\ssabeng_viramabeng_phabeng ] <anchor 471 4> mark @Anchor1
+	<anchor 471 4> mark @Anchor0;
+  pos base [\ssabeng_viramabeng_babeng ] <anchor 279 0> mark @Anchor1
+	<anchor 287 0> mark @Anchor0;
+  pos base [\sabeng_viramabeng_kabeng ] <anchor 347 0> mark @Anchor1
+	<anchor 347 0> mark @Anchor0;
+  pos base [\sa_virama_ka_virama_ra ] <anchor 444 8> mark @Anchor1
+	<anchor 444 -5> mark @Anchor0;
+  pos base [\sabeng_viramabeng_ttabeng ] <anchor 465 5> mark @Anchor1
+	<anchor 535 65> mark @Anchor0;
+  pos base [\sa_virama_tta_virama_ra ] <anchor 428 4> mark @Anchor1
+	<anchor 428 38> mark @Anchor0;
+  pos base [\glyph395 ] <anchor 470 0> mark @Anchor1
+	<anchor 565 67> mark @Anchor0;
+  pos base [\sabeng_viramabeng_tabeng ] <anchor 422 0> mark @Anchor1
+	<anchor 422 -4> mark @Anchor0;
+  pos base [\sa_virama_ta_virama_ba ] <anchor 430 0> mark @Anchor1
+	<anchor 430 0> mark @Anchor0;
+  pos base [\sabeng_viramabeng_nabeng ] <anchor 357 0> mark @Anchor1
+	<anchor 357 0> mark @Anchor0;
+  pos base [\sabeng_viramabeng_phabeng ] <anchor 566 0> mark @Anchor1
+	<anchor 566 -4> mark @Anchor0;
+  pos base [\sabeng_viramabeng_babeng ] <anchor 339 0> mark @Anchor1
+	<anchor 339 0> mark @Anchor0;
+  pos base [\habeng_uvowelbeng ] <anchor 300 0> mark @Anchor1
+	<anchor 300 0> mark @Anchor0;
+  pos base [\habeng_viramabeng_babeng ] <anchor 606 -50> mark @Anchor1
+	<anchor 610 -50> mark @Anchor0;
+  pos base [\habeng_viramabeng_mabeng ] <anchor 378 0> mark @Anchor1
+	<anchor 378 0> mark @Anchor0;
+  pos base [\habeng_viramabeng_rabeng ] <anchor 322 0> mark @Anchor1
+	<anchor 322 0> mark @Anchor0;
+  pos base [\habeng_viramabeng_labeng ] <anchor 275 0> mark @Anchor1
+	<anchor 280 0> mark @Anchor0;
+  pos base [\u09F0_uvowelbeng ] <anchor 318 0> mark @Anchor1
+	<anchor 318 0> mark @Anchor0;
+  pos base [\u09F0_uuvowelbeng ] <anchor 313 0> mark @Anchor1
+	<anchor 313 0> mark @Anchor0;
+  pos base [\u09F1_uvowelbeng ] <anchor 343 4> mark @Anchor1
+	<anchor 343 0> mark @Anchor0;
+  pos base [\u09F1_uuvowelbeng ] <anchor 343 0> mark @Anchor1
+	<anchor 343 4> mark @Anchor0;
+  pos base [\gabeng_viramabeng ] <anchor 398 0> mark @Anchor1
+	<anchor 402 -4> mark @Anchor0;
+  pos base [\shabeng_viramabeng ] <anchor 374 0> mark @Anchor1
+	<anchor 374 4> mark @Anchor0;
+} abvmAboveBaseMarkinBengalilooku;
+
+lookup pos_chain_abvmbeng_0 {
+  lookupflag 0;
+    pos [\ivowelbeng ] [\kabeng \khabeng \gabeng \ghabeng \ngabeng \cabeng \chabeng \jabeng \jhabeng 
+	\nyabeng \ttabeng \tthabeng \ddabeng \ddhabeng \nnabeng \tabeng 
+	\thabeng \dabeng \dhabeng \nabeng \pabeng \phabeng \babeng \bhabeng 
+	\mabeng \yabeng \rabeng \labeng \shabeng \ssabeng \sabeng \habeng 
+	\rrabeng \rhabeng \yyabeng \u09F0 \u09F1 \kabeng_viramabeng.half 
+	\khabeng_viramabeng.half \gabeng_viramabeng.half 
+	\ghabeng_viramabeng.half \ngabeng_viramabeng.half 
+	\cabeng_viramabeng.half \chabeng_viramabeng.half 
+	\jabeng_viramabeng.half \jhabeng_viramabeng.half 
+	\nyabeng_viramabeng.half \ttabeng_viramabeng.half 
+	\tthabeng_viramabeng.half \ddabeng_viramabeng.half 
+	\ddhabeng_viramabeng.half \nnabeng_viramabeng.half 
+	\thabeng_viramabeng.half \dabeng_viramabeng.half 
+	\dhabeng_viramabeng.half \nabeng_viramabeng.half 
+	\pabeng_viramabeng.half \phabeng_viramabeng.half 
+	\babeng_viramabeng.half \bhabeng_viramabeng.half 
+	\mabeng_viramabeng.half \yabeng_viramabeng.half 
+	\rabeng_viramabeng.half \labeng_viramabeng.half 
+	\shabeng_viramabeng.half \ssabeng_viramabeng.half 
+	\sabeng_viramabeng.half \habeng_viramabeng.half 
+	\rrabeng_viramabeng \rhabeng_viramabeng \yyabeng_viramabeng 
+	\glyph475 \u09F1_viramabeng \u09F0_viramabeng ] [\candrabindubeng ]'<50 115 0 0> ;
+} pos_chain_abvmbeng_0;
+
+feature blwm {
+
+ script beng;
+     language dflt ;
+      lookup blwmBelowBaseMarkinBengalilooku;
+
+ script bng2;
+     language dflt ;
+      lookup blwmBelowBaseMarkinBengalilooku;
+} blwm;
+
+feature abvm {
+
+ script beng;
+     language dflt ;
+      lookup abvmAboveBaseMarkinBengalilooku;
+      lookup pos_chain_abvmbeng_0;
+
+ script bng2;
+     language dflt ;
+      lookup abvmAboveBaseMarkinBengalilooku;
+      lookup pos_chain_abvmbeng_0;
+} abvm;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\.notdef \.null \space \exclam \quotedbl \numbersign \dollar 
+	\percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma 
+	\hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight \nine 
+	\colon \semicolon \less \equal \greater \question \at \bracketleft \backslash 
+	\bracketright \asciicircum \underscore \grave \braceleft \bar \braceright 
+	\asciitilde \cent \multiply \divide \uni0964 \uni0965 \anusvarabeng 
+	\visargabeng \abeng \aabeng \ibeng \iibeng \ubeng \uubeng \rvocalic \lvocalic 
+	\ebeng \aibeng \obeng \aubeng \kabeng \khabeng \gabeng \ghabeng \ngabeng \cabeng 
+	\chabeng \jabeng \jhabeng \nyabeng \ttabeng \tthabeng \ddabeng \ddhabeng 
+	\nnabeng \tabeng \thabeng \dabeng \dhabeng \nabeng \pabeng \phabeng \babeng 
+	\bhabeng \mabeng \yabeng \rabeng \labeng \shabeng \ssabeng \sabeng \habeng 
+	\avagrahabeng \aavowelbeng \iivowelbeng \evowelbeng \aivowelbeng \ovowelbeng 
+	\auvowelbeng \khandatabeng \aulengthmarkbeng \rrabeng \rhabeng \yyabeng 
+	\rrvocalicbeng \llvocalicbeng \zerobeng \onebeng \twobeng \threebeng \fourbeng 
+	\fivebeng \sixbeng \sevenbeng \eightbeng \ninebeng \u09F0 \u09F1 \rupeemarkbeng 
+	\rupeesignbeng \u09F4 \u09F5 \u09F6 \u09F7 \u09F8 \u09F9 \issharbeng 
+	\zerowidthnonjoiner \zerowidthjoiner \endash \emdash \quoteleft \quoteright 
+	\quotedblleft \quotedblright \ellipsis \minus \dottedcircle 
+	\yabeng_viramabeng.pstf \kabeng_viramabeng_kabeng 
+	\kabeng_viramabeng_ttabeng \kabeng_viramabeng_tabeng 
+	\ka_virama_ta_virama_ra \ka_virama_ta_virama_ba \kabeng_viramabeng_nabeng 
+	\kabeng_viramabeng_mabeng \kabeng_viramabeng_rabeng 
+	\kabeng_viramabeng_labeng \kabeng_viramabeng_babeng 
+	\kabeng_viramabeng_ssabeng \ka_virama_ssa_virama_nna 
+	\ka_virama_ssa_virama_ma \ka_virama_ssa_virama_ra \ka_virama_ssa_virama_ba 
+	\kabeng_viramabeng_sabeng \khabeng_viramabeng_rabeng 
+	\khabeng_viramabeng_babeng \ga_zerowidthnonjoiner_uvowel 
+	\gabeng_viramabeng_gabeng \gabeng_viramabeng_dabeng 
+	\gabeng_viramabeng_dhabeng \ga_virama_dha_ba_virama 
+	\ga_virama_dha_virama_ra \gabeng_viramabeng_nabeng 
+	\gabeng_viramabeng_mabeng \gabeng_viramabeng_rabeng \ga_virama_ra_uvowel 
+	\ga_virama_ra_uuvowel \gabeng_viramabeng_labeng \gabeng_babeng_viramabeng 
+	\ghabeng_viramabeng_nabeng \ghabeng_viramabeng_rabeng 
+	\ghabeng_viramabeng_babeng \ngabeng_viramabeng_kabeng 
+	\nga_virama_ka_virama_ra \nga_virama_ka_virama_ssa \nga_ka_ssa_ra 
+	\ngabeng_viramabeng_khabeng \ngabeng_viramabeng_gabeng 
+	\ngabeng_viramabeng_ghabeng \nga_virama_gha_virama_ra 
+	\ngabeng_viramabeng_mabeng \ngabeng_viramabeng_rabeng 
+	\cabeng_viramabeng_cabeng \cabeng_viramabeng_chabeng 
+	\ca_virama_cha_virama_ra \ca_virama_cha_virama_ba 
+	\cabeng_viramabeng_nyabeng \cabeng_viramabeng_nabeng 
+	\cabeng_viramabeng_rabeng \cabeng_viramabeng_babeng 
+	\chabeng_viramabeng_rabeng \chabeng_viramabeng_babeng 
+	\jabeng_viramabeng_jabeng \ja_virama_ja_virama_ba 
+	\jabeng_viramabeng_jhabeng \jabeng_viramabeng_nyabeng 
+	\jabeng_viramabeng_rabeng \jabeng_viramabeng_babeng 
+	\jhabeng_viramabeng_rabeng \nyabeng_viramabeng_cabeng 
+	\nya_virama_ca_virama_ba \nyabeng_viramabeng_chabeng 
+	\nyabeng_viramabeng_jabeng \nyabeng_viramabeng_jhabeng 
+	\nyabeng_viramabeng_dhabeng \ttabeng_viramabeng_ttabeng 
+	\tta_virama_ta_virama_ra \ttabeng_viramabeng_mabeng 
+	\ttabeng_viramabeng_rabeng \ttabeng_viramabeng_babeng 
+	\tthabeng_rabeng_viramabeng \ddabeng_viramabeng_gabeng 
+	\ddabeng_viramabeng_ddabeng \ddabeng_viramabeng_mabeng 
+	\ddabeng_viramabeng_rabeng \ddabeng_viramabeng_babeng 
+	\ddhabeng_viramabeng_rabeng \nnabeng_viramabeng_ttabeng 
+	\nna_virama_tta_virama_ra \nnabeng_viramabeng_tthabeng 
+	\nna_virama_ttha_virama_ra \nnabeng_viramabeng_ddabeng 
+	\nna_virama_dda_virama_ra \nnabeng_viramabeng_ddhabeng 
+	\nna_virama_ddha_virama_ra \nnabeng_viramabeng_nnabeng 
+	\nnabeng_viramabeng_mabeng \nnabeng_viramabeng_rabeng 
+	\nnabeng_viramabeng_babeng \tabeng_viramabeng_tabeng 
+	\ta_virama_ta_virama_ba \tabeng_viramabeng_thabeng 
+	\tabeng_viramabeng_nabeng \tabeng_viramabeng_mabeng 
+	\tabeng_viramabeng_rabeng \ta_virama_ra_uvowel \ta_virama_ra_uuvowel 
+	\tabeng_viramabeng_labeng \tabeng_viramabeng_babeng 
+	\thabeng_viramabeng_rabeng \tha_virama_ra_uvowel \tha_virama_ra_uuvowel 
+	\thabeng_viramabeng_babeng \dabeng_viramabeng_gabeng 
+	\dabeng_viramabeng_ghabeng \dabeng_viramabeng_dabeng 
+	\da_virama_da_virama_ra \da_virama_da_virama_ba \dabeng_viramabeng_dhabeng 
+	\da_virama_dha_virama_ba \dabeng_viramabeng_nabeng 
+	\dabeng_viramabeng_bhabeng \da_virama_bha_virama_ra 
+	\dabeng_viramabeng_mabeng \dabeng_viramabeng_rabeng \da_virama_ra_uvowel 
+	\da_virama_ra_uuvowel \dabeng_viramabeng_babeng \dhabeng_viramabeng_nabeng 
+	\dhabeng_viramabeng_mabeng \dhabeng_viramabeng_rabeng 
+	\dha_virama_ra_uvowel \dha_virama_ra_uuvowel \dhabeng_viramabeng_babeng 
+	\nabeng_viramabeng_ttabeng \na_virama_tta_virama_ra 
+	\nabeng_viramabeng_tthabeng \nabeng_viramabeng_ddabeng 
+	\na_viramag_dda_virama_ra \glyph283 \nabeng_viramabeng_tabeng 
+	\na_virama_ta_uvowel \na_virama_ta_virama_ra \na_virama_ta_virama_ba 
+	\nabeng_viramabeng_thabeng \na_virama_tha_virama_ra 
+	\nabeng_viramabeng_dabeng \na_virama_da_virama_ra \na_virama_da_virama_ba 
+	\nabeng_viramabeng_dhabeng \na_virama_dha_virama_ba 
+	\na_virama_dha_virama_ra \nabeng_viramabeng_nabeng 
+	\nabeng_viramabeng_mabeng \nabeng_viramabeng_rabeng 
+	\nabeng_viramabeng_babeng \nabeng_viramabeng_sabeng 
+	\pabeng_viramabeng_ttabeng \pabeng_viramabeng_tabeng \pa_virama_ta_uvowel 
+	\pa_virama_ta_virama_ra \pabeng_viramabeng_nabeng 
+	\pabeng_viramabeng_pabeng \pabeng_viramabeng_mabeng 
+	\pabeng_viramabeng_rabeng \pa_virama_ra_uvowel \pa_virama_ra_uuvowel 
+	\pabeng_viramabeng_labeng \pabeng_viramabeng_sabeng 
+	\phabeng_viramabeng_ttabeng \phabeng_viramabeng_rabeng 
+	\phabeng_viramabeng_labeng \babeng_viramabeng_jabeng 
+	\babeng_viramabeng_jhabeng \babeng_viramabeng_ddabeng 
+	\babeng_viramabeng_ddhabeng \babeng_viramabeng_dabeng 
+	\ba_virama_da_virama_ra \babeng_viramabeng_dhabeng 
+	\babeng_viramabeng_babeng \babeng_viramabeng_bhabeng 
+	\babeng_viramabeng_rabeng \ba_virama_ra_uvowel \ba_virama_ra_uuvowel 
+	\babeng_viramabeng_labeng \bhabeng_viramabeng_rabeng \bha_virama_ra_uvowel 
+	\bha_virama_ra_uuvowel \bhabeng_viramabeng_labeng 
+	\mabeng_viramabeng_tabeng \mabeng_viramabeng_dabeng 
+	\mabeng_viramabeng_nabeng \mabeng_viramabeng_pabeng 
+	\ma_virama_pa_virama_ra \mabeng_viramabeng_phabeng 
+	\ma_virama_pha_virama_ra \mabeng_viramabeng_babeng 
+	\mabeng_viramabeng_bhabeng \ma_virama_bha_virama_ra 
+	\mabeng_viramabeng_mabeng \mabeng_viramabeng_rabeng 
+	\mabeng_viramabeng_labeng \yabeng_viramabeng_rabeng \rabeng_uvowelbeng 
+	\rabeng_uuvowelbeng \labeng_viramabeng_kabeng \labeng_viramabeng_gabeng 
+	\la_virama_ga_zwnj_uvowel \labeng_viramabeng_ghabeng 
+	\labeng_viramabeng_ttabeng \la_virama_tta_virama_ra 
+	\labeng_viramabeng_ddabeng \la_virama_dda_virama_ra 
+	\labeng_viramabeng_ddhabeng \labeng_viramabeng_dabeng 
+	\labeng_viramabeng_pabeng \labeng_viramabeng_phabeng 
+	\labeng_viramabeng_babeng \labeng_viramabeng_mabeng 
+	\labeng_viramabeng_rabeng \labeng_viramabeng_labeng \sha_zwnj_uvowel 
+	\shabeng_viramabeng_cabeng \shabeng_viramabeng_chabeng 
+	\shabeng_viramabeng_tabeng \shabeng_viramabeng_nabeng 
+	\shabeng_viramabeng_mabeng \shabeng_viramabeng_babeng 
+	\shabeng_viramabeng_rabeng \sha_virama_ra_iivowel \sha_virama_ra_uvowel 
+	\sha_virama_ra_uuvowel \shabeng_viramabeng_labeng 
+	\ssabeng_viramabeng_kabeng \ssa_virama_ka_virama_ra 
+	\ssabeng_viramabeng_ttabeng \ssa_virama_tta_virama_ra 
+	\ssabeng_viramabeng_tthabeng \ssabeng_viramabeng_nnabeng 
+	\ssabeng_viramabeng_pabeng \ssa_virama_pa_virama_ra 
+	\ssabeng_viramabeng_phabeng \ssabeng_viramabeng_rabeng 
+	\ssabeng_viramabeng_babeng \ssabeng_viramabeng_mabeng 
+	\sabeng_viramabeng_kabeng \sa_virama_ka_virama_ra \glyph391 
+	\sabeng_viramabeng_khabeng \sabeng_viramabeng_ttabeng 
+	\sa_virama_tta_virama_ra \glyph395 \sabeng_viramabeng_tabeng 
+	\sa_virama_ta_uvowel \sa_virama_ta_virama_ra \sa_virama_ta_virama_ba 
+	\sabeng_viramabeng_thabeng \sabeng_viramabeng_nabeng 
+	\sabeng_viramabeng_pabeng \sa_virama_pa_virama_ra \glyph404 
+	\sa_virama_pa_virama_la \sabeng_viramabeng_phabeng 
+	\sabeng_viramabeng_babeng \sabeng_viramabeng_mabeng 
+	\sabeng_viramabeng_rabeng \sa_virama_ra_uvowel \sa_virama_ra_uuvowel 
+	\sabeng_viramabeng_labeng \habeng_uvowelbeng \habeng_rvocalicvowelbeng 
+	\habeng_viramabeng_nnabeng \habeng_viramabeng_nabeng 
+	\habeng_viramabeng_babeng \habeng_viramabeng_mabeng 
+	\habeng_viramabeng_rabeng \habeng_viramabeng_labeng 
+	\rrabeng_viramabeng_gabeng \rrabeng_viramabeng_rabeng 
+	\rhabeng_viramabeng_rabeng \yyabeng_viramabeng_rabeng \u09F0_uvowelbeng 
+	\u09F0_uuvowelbeng \u09F1_uvowelbeng \u09F1_uuvowelbeng 
+	\u09F1_viramabeng_rabeng \glyph430 \candrabindubeng_iivowelbeng 
+	\candrabindu_aulengthmark \evowelbeng.init \aivowelbeng.init 
+	\viramabeng_rabeng \glyph437 \glyph438 \babeng_viramabeng \gandamarkbeng 
+	\inr_currency \glyph454 ];
+@GDEF_Ligature = [\bn_ka_Ta_ra \bn_ma_tha \bn_la_ta \bn_la_dha 
+	\kabeng_viramabeng \khabeng_viramabeng \gabeng_viramabeng 
+	\ghabeng_viramabeng \ngabeng_viramabeng \cabeng_viramabeng 
+	\chabeng_viramabeng \jabeng_viramabeng \jhabeng_viramabeng 
+	\nyabeng_viramabeng \ttabeng_viramabeng \tthabeng_viramabeng 
+	\ddabeng_viramabeng \ddhabeng_viramabeng \nnabeng_viramabeng 
+	\tabeng_viramabeng \thabeng_viramabeng \dabeng_viramabeng 
+	\dhabeng_viramabeng \nabeng_viramabeng \pabeng_viramabeng 
+	\phabeng_viramabeng \babeng_viramabeng_haln \bhabeng_viramabeng 
+	\mabeng_viramabeng \yabeng_viramabeng \rabeng_viramabeng_haln 
+	\labeng_viramabeng \shabeng_viramabeng \ssabeng_viramabeng 
+	\sabeng_viramabeng \habeng_viramabeng \rrabeng_viramabeng 
+	\rhabeng_viramabeng \yyabeng_viramabeng \kabeng_virama_ssabeng_virama 
+	\u09F1_viramabeng \u09F0_viramabeng ];
+@GDEF_Mark = [\candrabindubeng \nuktabeng \ivowelbeng \uvowelbeng \uuvowelbeng 
+	\rvocalicvowelbeng \rrvocalicvowelbeng \viramabeng \lvocalicvowelbeng 
+	\llvocalicvowelbeng \rabeng_viramabeng ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
+
