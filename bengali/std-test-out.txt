@@ -146,7 +146,7 @@
 দ্ধ্ব	[da_virama_dha_virama_ba=0+551]
 দ্ব	[dabeng_viramabeng_babeng=0+456]
 দ্ভ	[dabeng_viramabeng_bhabeng=0+565]
-দ্ম	[dabeng_viramabeng_nabeng=0+442]
+দ্ম	[dabeng_viramabeng_mabeng=0+535]
 দ্য	[dabeng=0+403|yabeng_viramabeng.pstf=0+223]
 দ্র	[dabeng_viramabeng_rabeng=0+510]
 ধ্ন	[dhabeng_viramabeng_nabeng=0+429]

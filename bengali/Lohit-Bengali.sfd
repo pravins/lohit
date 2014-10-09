@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1163146539
-ModificationTime: 1412838721
+ModificationTime: 1412847570
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -65,32 +65,17 @@ Lookup: 4 0 0 "abvsAboveBaseSubstitutionslooku"  {"abvsAboveBaseSubstitutionsloo
 Lookup: 4 0 0 "blwsBelowBaseSubstitutionslooku"  {"blwsBelowBaseSubstitutionslooku subtable"  } ['blws' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
 Lookup: 260 0 0 "'blwm' Below Base Mark in Bengali lookup 0"  {"'blwm' Below Base Mark in Bengali lookup 0"  } ['blwm' ('beng' <'dflt' > 'bng2' <'dflt' > ) ]
 Lookup: 260 0 0 "'abvm' Above Base Mark in Bengali lookup 1"  {"'abvm' Above Base Mark in Bengali lookup 1"  } ['abvm' ('beng' <'dflt' > 'bng2' <'dflt' > ) ]
-Lookup: 264 0 0 "'abvm' Above Base Mark in Bengali lookup 2"  {"'abvm' Above Base Mark in Bengali lookup 2"  } ['abvm' ('beng' <'dflt' > 'bng2' <'dflt' > ) ]
+Lookup: 264 0 0 "'abvm' Above Base Mark lookup 4"  {"'abvm' Above Base Mark lookup 4-2"  } ['abvm' ('beng' <'dflt' > 'bng2' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Positioning lookup 3"  {"Single Positioning lookup 3"  } []
 MarkAttachClasses: 1
 DEI: 91125
-ChainPos2: coverage "'abvm' Above Base Mark in Bengali lookup 2"  0 0 0 1
+ChainPos2: coverage "'abvm' Above Base Mark lookup 4-2"  0 0 0 1
  1 2 0
   Coverage: 15 candrabindubeng
-  BCoverage: 1110 kabeng khabeng gabeng ghabeng ngabeng cabeng chabeng jabeng jhabeng nyabeng ttabeng tthabeng ddabeng ddhabeng nnabeng tabeng thabeng dabeng dhabeng nabeng pabeng phabeng babeng bhabeng mabeng yabeng rabeng labeng shabeng ssabeng sabeng habeng rrabeng rhabeng yyabeng u09F0 u09F1 kabeng_viramabeng khabeng_viramabeng gabeng_viramabeng ghabeng_viramabeng ngabeng_viramabeng cabeng_viramabeng chabeng_viramabeng jabeng_viramabeng jhabeng_viramabeng nyabeng_viramabeng ttabeng_viramabeng tthabeng_viramabeng ddabeng_viramabeng ddhabeng_viramabeng nnabeng_viramabeng thabeng_viramabeng dabeng_viramabeng dhabeng_viramabeng nabeng_viramabeng pabeng_viramabeng phabeng_viramabeng babeng_viramabeng bhabeng_viramabeng mabeng_viramabeng yabeng_viramabeng rabeng_viramabeng labeng_viramabeng shabeng_viramabeng ssabeng_viramabeng sabeng_viramabeng habeng_viramabeng rrabeng_viramabeng rhabeng_viramabeng yyabeng_viramabeng u09F1_viramabeng u09F0_viramabeng
+  BCoverage: 946 kabeng khabeng gabeng ghabeng ngabeng cabeng chabeng jabeng jhabeng nyabeng ttabeng tthabeng ddabeng ddhabeng nnabeng tabeng thabeng dabeng dhabeng nabeng pabeng phabeng babeng bhabeng mabeng yabeng rabeng labeng shabeng ssabeng sabeng habeng rrabeng rhabeng yyabeng u09F0 u09F1 kabeng_viramabeng khabeng_viramabeng gabeng_viramabeng ghabeng_viramabeng ngabeng_viramabeng cabeng_viramabeng chabeng_viramabeng jabeng_viramabeng jhabeng_viramabeng nyabeng_viramabeng ttabeng_viramabeng tthabeng_viramabeng ddabeng_viramabeng ddhabeng_viramabeng nnabeng_viramabeng thabeng_viramabeng dabeng_viramabeng dhabeng_viramabeng nabeng_viramabeng pabeng_viramabeng phabeng_viramabeng babeng_viramabeng bhabeng_viramabeng mabeng_viramabeng yabeng_viramabeng rabeng_viramabeng labeng_viramabeng shabeng_viramabeng ssabeng_viramabeng sabeng_viramabeng habeng_viramabeng rrabeng_viramabeng rhabeng_viramabeng yyabeng_viramabeng u09F1_viramabeng u09F0_viramabeng
   BCoverage: 10 ivowelbeng
  1
   SeqLookup: 0 "Single Positioning lookup 3" 
-EndFPST
-TtTable: prep
-NPUSHB
- 2
- 69
- 1
-SCANTYPE
-PUSHW_1
- 511
-SCANCTRL
-SROUND
-RTG
-EndTTI
-  BCoverage: 0 
- 0
 EndFPST
 ShortTable: cvt  149
   0
@@ -3492,7 +3477,7 @@ SplineSet
  -93 680 -93 680 -110 680 c 5,27,-1
  -110 680 l 5,15,16
 EndSplineSet
-Position2: "Single Positioning lookup 3" dx=50 dy=115 dh=0 dv=0
+Position2: "Single Positioning lookup 3" dx=50 dy=80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: anusvarabeng
