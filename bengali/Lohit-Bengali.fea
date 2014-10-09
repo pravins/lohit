@@ -198,7 +198,7 @@ lookup presPreBaseSubstitutionslookup7 {
     sub \nnabeng_viramabeng \ttabeng  by \nnabeng_viramabeng_ttabeng;
     sub \nnabeng \viramabeng \ttabeng_viramabeng_rabeng  by \nna_virama_tta_virama_ra;
     sub \nnabeng_viramabeng \tthabeng  by \nnabeng_viramabeng_tthabeng;
-    sub \nnabeng \viramabeng \ttabeng_viramabeng_rabeng  by \nna_virama_ttha_virama_ra;
+    sub \nnabeng \viramabeng \tthabeng_rabeng_viramabeng  by \nna_virama_ttha_virama_ra;
     sub \nnabeng_viramabeng \ddabeng  by \nnabeng_viramabeng_ddabeng;
     sub \nnabeng \viramabeng \ddabeng_viramabeng_rabeng  by \nna_virama_dda_virama_ra;
     sub \nnabeng_viramabeng \ddhabeng  by \nnabeng_viramabeng_ddhabeng;
@@ -218,7 +218,7 @@ lookup presPreBaseSubstitutionslookup7 {
     sub \dabeng_viramabeng \dabeng \babeng_viramabeng  by \da_virama_da_virama_ba;
     sub \dabeng_viramabeng \dhabeng  by \dabeng_viramabeng_dhabeng;
     sub \dabeng_viramabeng \dhabeng \babeng_viramabeng  by \da_virama_dha_virama_ba;
-    sub \dabeng_viramabeng \mabeng  by \dabeng_viramabeng_nabeng;
+    sub \dabeng_viramabeng \nabeng  by \dabeng_viramabeng_nabeng;
     sub \dabeng_viramabeng \bhabeng  by \dabeng_viramabeng_bhabeng;
     sub \dabeng \viramabeng \bhabeng_viramabeng_rabeng  by \da_virama_bha_virama_ra;
     sub \dabeng_viramabeng \mabeng  by \dabeng_viramabeng_mabeng;
@@ -383,7 +383,7 @@ lookup blwsBelowBaseSubstitutionslooku {
     sub \rabeng \uvowelbeng  by \rabeng_uvowelbeng;
     sub \rabeng \uuvowelbeng  by \rabeng_uuvowelbeng;
     sub \labeng_viramabeng_gabeng \zerowidthnonjoiner \uvowelbeng  by \la_virama_ga_zwnj_uvowel;
-    sub \gabeng \babeng_viramabeng  by \labeng_viramabeng_babeng;
+    sub \labeng \babeng_viramabeng  by \labeng_viramabeng_babeng;
     sub \shabeng \zerowidthnonjoiner \uvowelbeng  by \sha_zwnj_uvowel;
     sub \shabeng \uvowelbeng  by \sha_zwnj_uvowel;
     sub \shabeng \babeng_viramabeng  by \shabeng_viramabeng_babeng;
