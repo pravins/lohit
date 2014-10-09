@@ -1092,9 +1092,9 @@ lookup abvmAboveBaseMarkinBengalilooku {
 	<anchor 374 4> mark @Anchor0;
 } abvmAboveBaseMarkinBengalilooku;
 
-lookup pos_chain_abvmbeng_0 {
+lookup abvmAboveBaseMarklookup4 {
   lookupflag 0;
-    ignore pos [] [\kabeng \khabeng \gabeng \ghabeng \ngabeng \cabeng \chabeng \jabeng \jhabeng 
+    pos [\ivowelbeng ] [\kabeng \khabeng \gabeng \ghabeng \ngabeng \cabeng \chabeng \jabeng \jhabeng 
 	\nyabeng \ttabeng \tthabeng \ddabeng \ddhabeng \nnabeng \tabeng 
 	\thabeng \dabeng \dhabeng \nabeng \pabeng \phabeng \babeng \bhabeng 
 	\mabeng \yabeng \rabeng \labeng \shabeng \ssabeng \sabeng \habeng 
@@ -1110,27 +1110,8 @@ lookup pos_chain_abvmbeng_0 {
 	\rabeng_viramabeng \labeng_viramabeng \shabeng_viramabeng 
 	\ssabeng_viramabeng \sabeng_viramabeng \habeng_viramabeng 
 	\rrabeng_viramabeng \rhabeng_viramabeng \yyabeng_viramabeng 
-	\u09F1_viramabeng \u09F0_viramabeng
- \BCoverage: \10 \ivowelbeng
- \1
- 
-	\SeqLookup: \0 \"Single \Positioning \lookup \3" \
-EndFPST
-TtTable: 
-	\prep
-NPUSHB
- \2
- \69
- \1
-SCANTYPE
-PUSHW_1
- 
-	\511
-SCANCTRL
-SROUND
-RTG
-EndTTI ] [\candrabindubeng ]' ;
-} pos_chain_abvmbeng_0;
+	\u09F1_viramabeng \u09F0_viramabeng ] [\candrabindubeng ]'<50 80 0 0> ;
+} abvmAboveBaseMarklookup4;
 
 feature blwm {
 
@@ -1148,12 +1129,12 @@ feature abvm {
  script beng;
      language dflt ;
       lookup abvmAboveBaseMarkinBengalilooku;
-      lookup pos_chain_abvmbeng_0;
+      lookup abvmAboveBaseMarklookup4;
 
  script bng2;
      language dflt ;
       lookup abvmAboveBaseMarkinBengalilooku;
-      lookup pos_chain_abvmbeng_0;
+      lookup abvmAboveBaseMarklookup4;
 } abvm;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
