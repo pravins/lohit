@@ -1,7 +1,7 @@
 				  lohit-bengali
 Current Version :- 2.91.0
 
-* Tue Sep 09 2014 Pravin Satpute <psatpute@redhat.com> - 2.91.0
+* Fri Oct 10 2014 Pravin Satpute <psatpute@redhat.com> - 2.91.0
 - First release of Bengali under Lohit2 project.
 - Rewritten all GSUB rules.
 - Open type feature available in .fea file for easy reusability.
