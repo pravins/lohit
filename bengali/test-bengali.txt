@@ -1,0 +1,115 @@
+# Test File For Lohit Bengali
+# One can also test Lohit Bengali from http://utrrs-testing.rhcloud.com/language/bn_IN/gsub  
+# Created by Sneha Kore <skore AT redhat DOT com> - 2014
+
+Vowels : 
+
+ ঁ	ং	ঃ	অ	আ	ই	ঈ	উ	ঊ	 ঋ	ঌ	এ	ঐ	ও	ঔ
+
+Consonants : 
+
+ ক	খ	গ	ঘ	ঙ	চ	ছ	জ	ঝ	ঞ	ট	ঠ	ড	ঢ	ণ	ত	থ	দ	ধ	ন	প	 ফ	ব	 ভ	ম	য	 র	ল	শ	ষ	স	 হ
+
+Bengali-specific Characters : 
+
+ৎ	ড়	ঢ়	য়
+
+Digits:
+
+০	১	২	৩	৪	৫	৬	৭	৮	৯	
+
+Conjuncts :
+
+ক্ক	ক্ট	ক্ট্র	ক্ত	 ক্ন	ক্ব	ক্ম	ক্য	ক্র	ক্ল
+	
+ক্ষ	ক্ষ্ণ	ক্ষ্ম	ক্স	
+
+খ্য 	খ্র	
+
+গ্গ	গ্ধ	গ্ন	গ্ম	গ্য	গ্র	গ্ল
+
+ঘ্ন	ঘ্য	ঘ্র	
+
+ঙ্ক	ঙ্খ	ঙ্গ	ঙ্ঘ	ঙ্ম
+
+চ্চ	চ্ছ	চ্ছ্ব	চ্ছ্র	চ্ঞ	চ্ন	চ্য
+
+ছ্ব	ছ্র
+
+জ্জ	জ্জ্ব	জ্ঝ	জ্ঞ	জ্ব	জ্য	জ্র
+
+ঞ্চ	ঞ্ছ	ঞ্জ	ঞ্ঝ
+
+ট্ট	ট্ব	ট্ম	ট্য	ট্র	
+
+ঠ্য	ঠ্র
+
+ড্ড	ড্ম	ড্য	ড্র
+
+ঢ্য
+
+ণ্ট	ণ্ঠ	ণ্ড	ণ্ঢ	ণ্ণ	ণ্ব	ণ্ম
+
+ত্ত	ত্ত্ব	ত্থ	ত্ন	ত্ব	ত্ম	ত্ম্য	ত্য	ত্র
+
+থ্ব 	থ্য	থ্র	
+
+দ্গ	দ্ঘ	দ্দ	দ্দ্ব	দ্ধ	দ্ধ্ব	দ্ব	দ্ভ	দ্ম	দ্য	দ্র
+
+ধ্ন	ধ্ব	ধ্ম	ধ্য	ধ্র	
+
+ন্ট	ন্ঠ	ন্ড	ন্ত	ন্ত্ব	ন্ত্র	ন্থ	ন্দ	ন্দ্র	ন্ধ	ন্ধ্য	ন্ধ্র	ন্ন	ন্ন্য	ন্ব	ন্ম	ন্য	ন্স
+
+প্ট	প্ত	প্ন	প্প	প্য	প্র	প্ল	প্স
+
+ফ্য	ফ্র	ফ্ল
+
+ব্জ	ব্দ	ব্দ্র	ব্ধ	ব্ব	ব্য 	ব্র	ব্ল
+
+ভ্য	ভ্র	ভ্ল
+
+ম্ত	ম্থ	ম্দ	ম্ন	ম্প	ম্প্র	ম্ফ	ম্ব	ম্ভ	ম্ভ্র	ম্ম	ম্য	ম্র	ম্ল
+
+য্য
+
+র্ধ্ব	র্শ্ব	র‍্য	
+
+ল্ক	ল্গ	ল্ট	ল্ড	ল্ত	ল্ধ	ল্প	ল্ফ	ল্ব	ল্ম	ল্য	ল্ল
+
+শ্চ	শ্ছ	শ্ত	শ্ন	শ্ব	শ্ম	শ্য	শ্র	শ্ল
+
+ষ্ক	ষ্ট	 ষ্ট্র	ষ্ঠ	ষ্ণ	ষ্ণু	ষ্প	ষ্প্র	ষ্ফ	ষ্ব	ষ্ম	ষ্য
+
+স্ক	স্ক্র	স্খ	স্ট	স্ট্র	স্ত	স্ত্র	স্থ	স্ন	স্প	স্ফ	স্ব	স্ম	স্র	স্ল
+
+হ্ণ	হ্ণি	হ্ন	হ্ব	হ্ম	হ্য	হ্র	হ্ল
+
+ড়্গ	ড়্য
+
+স্য
+
+In accordance with the features listed in Microsoft Typography Documentation for Bengali Language 
+https://www.microsoft.com/typography/OpenTypeDev/bengali/intro.htm#features :
+
+Basic shaping forms includes:
+
+1) Nukta form substitution:
+							য়
+
+2) Akhand ligature substitution:
+							ক্ষ	জ্ঞ
+
+3)Reph form substitution: 
+							র্ক	র্ক্দ
+
+4)Below form of consonant:
+							ক্র	ক্ব	
+
+5)Half form of consonant:
+							ৎ
+
+6) Post-base form of consonant:
+							ক্য							
+
+7) Vattu variants:
+							ব্র	ভ্র	চ্র	ছ্র	দ্র	ড্র	ঢ্র	দ্র	গ্র	ঘ্র	হ্র	জ্র	ঝ্র	ক্র	খ্র	ল্র	ম্র	ন্র	ঙ্র	ণ্র	প্র	ফ্র	স্র	ষ্র	শ্র	ত্র	থ্র	ট্র	ঠ্র	ৱ্র	য্র	য়্র	ড়্র	ঢ়্র			
