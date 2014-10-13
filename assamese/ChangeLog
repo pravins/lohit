@@ -1,5 +1,17 @@
 				  lohit-assamese
-Current Version :- 2.5.3
+Current Version :- 2.91.0
+
+* Mon Oct 13 2014 Pravin Satpute <psatpute@redhat.com> - 2.91.0
+- First release of Assamese under Lohit2 project. Imported for Lohit Bengali
+- Rewritten all GSUB rules.
+- Open type feature available in .fea file for easy reusability.
+- Developer friendly glyphname with following AGL guidelines.
+- Font Information updated in sfd.
+- Support bng2 and beng open type tags.
+- "copy reference" feature implemented
+- Automated testing support.
+- Added test and README file.
+- Done with lookup writings.
 
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
 - Dropping RFN from OFL.txt
