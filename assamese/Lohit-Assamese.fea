@@ -1,6 +1,6 @@
 # How to use
 # On Linux running make will generate ttf for you. For other platforms follow below steps
-# 1. Open Lohit-Bengali.sfd in Fontforge
+# 1. Open Lohit-Assamese.sfd in Fontforge
 # 2. Click on Fontforge File -> Merge Feature info and Select this feature file and save
 # 3. Now Generate ttf as you do for other fonts.
 # 4. Done

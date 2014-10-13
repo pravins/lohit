@@ -47,7 +47,7 @@ web-dist: webdist
 	rm -rf lohit-bengali-web-$(version)/.git
 	tar -cf lohit-bengali-web-$(version).tar lohit-bengali-web-$(version)
 	gzip lohit-bengali-web-$(version).tar
-	rm -rf lohit-devanagari-web-$(version)
+	rm -rf lohit-bengali-web-$(version)
 
 clean: cleanall
 	rm -f *.ttf *.eot *.woff
