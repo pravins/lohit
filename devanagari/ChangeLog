@@ -1,6 +1,7 @@
 				  lohit-devanagari
-Current Version :- 2.94.0
+Current Version :- 2.95.0
 
+* Wed Feb 19 2014 Pravin Satpute <psatpute@redhat.com> - 2.94.0
 - Added Latin from https://github.com/etunni/lohit-latin
 - Updated sfd file with resolved issues regarding marathi locale (issue id on github: #46,#47)
 - Feature file updated

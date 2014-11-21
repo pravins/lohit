@@ -1,5 +1,5 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist  
-version:= 2.94.0
+version:= 2.95.0
 
 test: test-ttf
 	@echo "----------Testing actual-output with expected-output----------"
@@ -9,6 +9,8 @@ ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
 	python apply_featurefile.py Lohit-Devanagari.sfd Lohit-Devanagari.fea
 	./generate.pe *.sfd
+	ttfautohint -D deva -f deva Lohit-Devanagari.ttf Lohit.ttf
+	mv Lohit.ttf Lohit-Devanagari.ttf
 	@echo "----------Finished generating ttf file----------"
 	@echo " "
 
