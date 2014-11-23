@@ -9,7 +9,7 @@ ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
 	python apply_featurefile.py Lohit-Devanagari.sfd Lohit-Devanagari.fea
 	./generate.pe *.sfd
-	ttfautohint -D deva -f deva Lohit-Devanagari.ttf Lohit.ttf
+	ttfautohint -D deva -f deva -n Lohit-Devanagari.ttf Lohit.ttf
 	mv Lohit.ttf Lohit-Devanagari.ttf
 	@echo "----------Finished generating ttf file----------"
 	@echo " "
