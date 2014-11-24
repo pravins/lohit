@@ -1,7 +1,13 @@
-18/09/2015
+24/11/2014
+   Released Lohit Tamil 2.91.1 by resolving hinting related issues and more testing on WinXP
+
+23/11/2014
+   Released Lohit Devanagari 2.95.0 with added Latin shapes. Using TTFAUTOHINT for generating ttf. For more details see http://pravin-s.blogspot.in/2014/11/next-improved-release-of-lohit.html
+
+18/09/2014
    Lohit Tamil 2.91.0 (Alpha) release with improvements under lohit2 projects and bug fixes. See announcement https://www.redhat.com/archives/lohit-devel-list/2014-September/msg00004.html
 
-06/03/2015
+06/03/2014
    Lohit Odia 2.5.5 release with name change from oriya to odia.
 
 27/02/2014

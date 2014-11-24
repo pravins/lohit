@@ -1,5 +1,9 @@
 				  lohit-tamil
-Current Version :- 2.91.0
+Current Version :- 2.91.1
+
+* Mon Nov 24 2014 Pravin Saitpute <psatpute@redhat.com> - 2.91.1
+- Lohit Tamil 2.91.0 hinting issues #56 
+- Testing on WinXP and identified some issues. (See README)
 
 * Thu Sep 17 2014 Pravin Satpute <psatpute@redhat.com> - 2.91.0
 - First release of Tamil after re-writing all rules.
