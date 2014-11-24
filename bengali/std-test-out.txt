@@ -314,3 +314,4 @@
 য়্র	[yyabeng_viramabeng_rabeng=0+509]
 ড়্র	[rrabeng_viramabeng_rabeng=0+556]
 ঢ়্র	[rhabeng_viramabeng_rabeng=0+446]
+ঙ্গু	[ngabeng_viramabeng_gabeng=0+509|uvowelbeng=0+0]
