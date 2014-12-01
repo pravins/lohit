@@ -19,7 +19,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1160992028
-ModificationTime: 1417429618
+ModificationTime: 1417434567
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -4257,7 +4257,7 @@ EndChar
 
 StartChar: lllataml
 Encoding: 2996 2996 80
-Width: 307
+Width: 824
 VWidth: 1023
 GlyphClass: 2
 Flags: W
@@ -4317,7 +4317,6 @@ SplineSet
  387 426 387 426 426.5 465 c 132,-1,62
  466 504 466 504 522 504 c 5,11,12
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: vataml
