@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1163146539
-ModificationTime: 1412847570
+ModificationTime: 1416808939
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -55,9 +55,12 @@ Lookup: 4 0 0 "'haln' Halant Forms lookup 11"  {"'haln' Halant Forms lookup 11-1
 Lookup: 4 0 0 "nuktNuktaFormslookup2"  {"nuktNuktaFormslookup2 subtable"  } ['nukt' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
 Lookup: 4 0 0 "akhnAkhandlookup2"  {"akhnAkhandlookup2 subtable"  } ['akhn' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
 Lookup: 4 0 0 "rphfRephFormlookup3"  {"rphfRephFormlookup3 subtable"  } ['rphf' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
-Lookup: 4 0 0 "blwfBelowBaseFormslookup4"  {"blwfBelowBaseFormslookup4 subtable"  } ['blwf' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
+Lookup: 4 0 0 "blwfBelowBaseFormslookup4"  {"blwfBelowBaseFormslookup4 subtable"  } ['blwf' ('bng2' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms in Bengali lookup 12"  {"'blwf' Below Base Forms in Bengali lookup 12-1"  } ['blwf' ('beng' <'dflt' > ) ]
 Lookup: 4 0 0 "halfHalfFormslookup5"  {"halfHalfFormslookup5 subtable"  } ['half' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
-Lookup: 4 0 0 "pstfPostBaseFormslookup6"  {"pstfPostBaseFormslookup6 subtable"  } ['pstf' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Bengali lookup 14"  {"'half' Half Forms in Bengali lookup 14-1"  } ['half' ('beng' <'dflt' > ) ]
+Lookup: 4 0 0 "pstfPostBaseFormslookup6"  {"pstfPostBaseFormslookup6 subtable"  } ['pstf' ('bng2' <'dflt' > ) ]
+Lookup: 4 0 0 "'pstf' Post Base Forms in Bengali lookup 13"  {"'pstf' Post Base Forms in Bengali lookup 13-1"  } ['pstf' ('beng' <'dflt' > ) ]
 Lookup: 4 0 0 "vatuVattuVariantslookup8"  {"vatuVattuVariantslookup8 subtable"  } ['vatu' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
 Lookup: 1 0 0 "initInitialFormslookup0"  {"initInitialFormslookup0 subtable"  } ['init' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
 Lookup: 4 0 0 "presPreBaseSubstitutionslookup7"  {"presPreBaseSubstitutionslookup7 subtable"  } ['pres' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
@@ -255,7 +258,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 33 14
+WinInfo: 128 32 11
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 290436 145218 96812 0 1048576 96812 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -3477,7 +3480,7 @@ SplineSet
  -93 680 -93 680 -110 680 c 5,27,-1
  -110 680 l 5,15,16
 EndSplineSet
-Position2: "Single Positioning lookup 3" dx=50 dy=80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Positioning lookup 3" dx=50 dy=80 dh=0 dv=0
 EndChar
 
 StartChar: anusvarabeng
@@ -8794,6 +8797,7 @@ SplineSet
  288 -115 l 1,0,1
 EndSplineSet
 Refer: 76 2465 S 1 0 0 1 0 0 2
+Ligature2: "nuktNuktaFormslookup2 subtable" ddabeng nuktabeng
 EndChar
 
 StartChar: rhabeng
@@ -11436,7 +11440,7 @@ EndChar
 StartChar: yabeng_viramabeng.pstf
 Encoding: 65537 -1 151
 Width: 223
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 TtInstrs:
 NPUSHW
@@ -11494,6 +11498,7 @@ SplineSet
  80 -10 l 1,0,-1
 EndSplineSet
 Ligature2: "pstfPostBaseFormslookup6 subtable" viramabeng yabeng
+Ligature2: "'pstf' Post Base Forms in Bengali lookup 13-1" yabeng viramabeng
 EndChar
 
 StartChar: kabeng_viramabeng_kabeng
@@ -41632,8 +41637,7 @@ SplineSet
  310 -130 310 -130 293 -130 c 1,95,-1
  293 -130 l 1,83,84
 EndSplineSet
-Ligature2: "presPreBaseSubstitutionslookup7 subtable" ddabeng nuktabeng viramabeng gabeng
-LCarets2: 2 0 0 
+Ligature2: "presPreBaseSubstitutionslookup7 subtable" rrabeng_viramabeng gabeng
 EndChar
 
 StartChar: rrabeng_viramabeng_rabeng
@@ -43091,8 +43095,10 @@ SplineSet
  -130 -120 l 1,23,-1
  -130 -120 l 1,0,1
 EndSplineSet
-Ligature2: "blwfBelowBaseFormslookup4 subtable" viramabeng u09F0
 Ligature2: "blwfBelowBaseFormslookup4 subtable" viramabeng rabeng
+Ligature2: "'blwf' Below Base Forms in Bengali lookup 12-1" rabeng viramabeng
+Ligature2: "'blwf' Below Base Forms in Bengali lookup 12-1" u09F0 viramabeng
+Ligature2: "blwfBelowBaseFormslookup4 subtable" viramabeng u09F0
 LCarets2: 1 0 
 EndChar
 
@@ -43227,6 +43233,7 @@ SplineSet
  198 98 198 98 225 60 c 1,18,-1
  225 60 l 1,11,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms in Bengali lookup 12-1" babeng viramabeng
 Ligature2: "blwfBelowBaseFormslookup4 subtable" viramabeng babeng
 EndChar
 
@@ -43619,6 +43626,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 399 -20 2
 Refer: 64 2453 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" kabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" kabeng viramabeng
 EndChar
@@ -43686,6 +43694,7 @@ SplineSet
  586 -254 l 1,48,-1
  586 -254 l 1,44,-1
 EndSplineSet
+Ligature2: "halfHalfFormslookup5 subtable" gabeng viramabeng
 Ligature2: "'haln' Halant Forms lookup 11-1" gabeng viramabeng
 EndChar
 
@@ -43697,6 +43706,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 470 -20 2
 Refer: 67 2456 N 1 0 0 1 -2 -2 2
+Ligature2: "halfHalfFormslookup5 subtable" ghabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" ghabeng viramabeng
 EndChar
@@ -43709,6 +43719,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 431 -20 2
 Refer: 68 2457 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" ngabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" ngabeng viramabeng
 EndChar
@@ -43721,6 +43732,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 280 0 2
 Refer: 69 2458 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" cabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" cabeng viramabeng
 EndChar
@@ -43745,6 +43757,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 717 -18 2
 Refer: 71 2460 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" jabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" jabeng viramabeng
 EndChar
@@ -43769,6 +43782,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 580 -20 2
 Refer: 73 2462 N 1 0 0 1 0 -1 2
+Ligature2: "halfHalfFormslookup5 subtable" nyabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" nyabeng viramabeng
 EndChar
@@ -43781,6 +43795,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 276 -20 2
 Refer: 74 2463 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" ttabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" ttabeng viramabeng
 EndChar
@@ -43805,6 +43820,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 410 -20 2
 Refer: 76 2465 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" ddabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" ddabeng viramabeng
 EndChar
@@ -43817,6 +43833,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 280 -20 2
 Refer: 77 2466 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" ddhabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" ddhabeng viramabeng
 EndChar
@@ -43829,6 +43846,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 461 -20 2
 Refer: 78 2467 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" nnabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" nnabeng viramabeng
 EndChar
@@ -43841,6 +43859,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 423 -19 2
 Refer: 79 2468 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" tabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" tabeng viramabeng
 EndChar
@@ -43853,6 +43872,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 499 -20 2
 Refer: 80 2469 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" thabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" thabeng viramabeng
 EndChar
@@ -43865,6 +43885,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 437 -20 2
 Refer: 81 2470 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" dabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" dabeng viramabeng
 EndChar
@@ -43877,6 +43898,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 430 -20 2
 Refer: 82 2471 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" dhabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" dhabeng viramabeng
 EndChar
@@ -43889,6 +43911,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 461 -20 2
 Refer: 83 2472 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" nabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" nabeng viramabeng
 EndChar
@@ -43901,6 +43924,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 525 -20 2
 Refer: 84 2474 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" pabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" pabeng viramabeng
 EndChar
@@ -43913,6 +43937,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 432 -20 2
 Refer: 85 2475 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" phabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" phabeng viramabeng
 EndChar
@@ -43925,6 +43950,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 436 -20 2
 Refer: 86 2476 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" babeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" babeng viramabeng
 EndChar
@@ -43937,6 +43963,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 446 -20 2
 Refer: 87 2477 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" bhabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" bhabeng viramabeng
 EndChar
@@ -43949,6 +43976,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 422 -20 2
 Refer: 88 2478 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" mabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" mabeng viramabeng
 EndChar
@@ -43968,13 +43996,13 @@ EndChar
 StartChar: rabeng_viramabeng_haln
 Encoding: 65851 -1 472
 Width: 423
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 426 -20 2
 Refer: 90 2480 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
-Ligature2: "'haln' Halant Forms lookup 11-1" rabeng viramabeng
+Ligature2: "'half' Half Forms in Bengali lookup 14-1" rabeng viramabeng
 EndChar
 
 StartChar: labeng_viramabeng
@@ -43985,6 +44013,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 571 -20 2
 Refer: 91 2482 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" labeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" labeng viramabeng
 EndChar
@@ -44044,6 +44073,7 @@ SplineSet
  562 -254 l 1,53,-1
  562 -254 l 1,49,-1
 EndSplineSet
+Ligature2: "halfHalfFormslookup5 subtable" shabeng viramabeng
 Ligature2: "'haln' Halant Forms lookup 11-1" shabeng viramabeng
 EndChar
 
@@ -44055,6 +44085,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 429 -20 2
 Refer: 93 2487 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" ssabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" ssabeng viramabeng
 EndChar
@@ -44067,6 +44098,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 516 -20 2
 Refer: 94 2488 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" sabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" sabeng viramabeng
 EndChar
@@ -44141,7 +44173,9 @@ SplineSet
  602 -254 l 1,56,-1
  602 -254 l 1,52,-1
 EndSplineSet
-Ligature2: "'haln' Halant Forms lookup 11-1" rrabeng viramabeng
+LCarets2: 1 0 
+Ligature2: "halfHalfFormslookup5 subtable" rrabeng viramabeng
+Ligature2: "blwsBelowBaseSubstitutionslooku subtable" rrabeng viramabeng
 EndChar
 
 StartChar: rhabeng_viramabeng
