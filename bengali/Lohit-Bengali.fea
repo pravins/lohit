@@ -8,7 +8,6 @@
 # License: OFL 1.1
 # License URL: http://scripts.sil.org/OFL
 
-
 languagesystem beng dflt;
 languagesystem bng2 dflt;
 
@@ -44,13 +43,11 @@ lookup halnHalantFormslookup11 {
     sub \bhabeng \viramabeng  by \bhabeng_viramabeng;
     sub \mabeng \viramabeng  by \mabeng_viramabeng;
     sub \yabeng \viramabeng  by \yabeng_viramabeng;
-    sub \rabeng \viramabeng  by \rabeng_viramabeng_haln;
     sub \labeng \viramabeng  by \labeng_viramabeng;
     sub \shabeng \viramabeng  by \shabeng_viramabeng;
     sub \ssabeng \viramabeng  by \ssabeng_viramabeng;
     sub \sabeng \viramabeng  by \sabeng_viramabeng;
     sub \habeng \viramabeng  by \habeng_viramabeng;
-    sub \rrabeng \viramabeng  by \rrabeng_viramabeng;
     sub \rhabeng \viramabeng  by \rhabeng_viramabeng;
     sub \yyabeng \viramabeng  by \yyabeng_viramabeng;
     sub \kabeng_viramabeng_sabeng \viramabeng  by \kabeng_virama_ssabeng_virama;
@@ -60,6 +57,7 @@ lookup halnHalantFormslookup11 {
 
 lookup nuktNuktaFormslookup2 {
   lookupflag 0;
+    sub \ddabeng \nuktabeng  by \rrabeng;
     sub \yabeng \nuktabeng  by \yyabeng;
 } nuktNuktaFormslookup2;
 
@@ -77,21 +75,64 @@ lookup rphfRephFormlookup3 {
 
 lookup blwfBelowBaseFormslookup4 {
   lookupflag 0;
-    sub \viramabeng \u09F0  by \glyph437;
     sub \viramabeng \rabeng  by \glyph437;
+    sub \viramabeng \u09F0  by \glyph437;
     sub \viramabeng \babeng  by \babeng_viramabeng;
 } blwfBelowBaseFormslookup4;
+
+lookup blwfBelowBaseFormsinBengalilook {
+  lookupflag 0;
+    sub \rabeng \viramabeng  by \glyph437;
+    sub \u09F0 \viramabeng  by \glyph437;
+    sub \babeng \viramabeng  by \babeng_viramabeng;
+} blwfBelowBaseFormsinBengalilook;
 
 lookup halfHalfFormslookup5 {
   lookupflag 0;
     sub \tabeng \viramabeng \zerowidthjoiner  by \khandatabeng;
+    sub \kabeng \viramabeng  by \kabeng_viramabeng;
+    sub \gabeng \viramabeng  by \gabeng_viramabeng;
+    sub \ghabeng \viramabeng  by \ghabeng_viramabeng;
+    sub \ngabeng \viramabeng  by \ngabeng_viramabeng;
+    sub \cabeng \viramabeng  by \cabeng_viramabeng;
+    sub \jabeng \viramabeng  by \jabeng_viramabeng;
+    sub \nyabeng \viramabeng  by \nyabeng_viramabeng;
+    sub \ttabeng \viramabeng  by \ttabeng_viramabeng;
+    sub \ddabeng \viramabeng  by \ddabeng_viramabeng;
+    sub \ddhabeng \viramabeng  by \ddhabeng_viramabeng;
+    sub \nnabeng \viramabeng  by \nnabeng_viramabeng;
+    sub \tabeng \viramabeng  by \tabeng_viramabeng;
+    sub \thabeng \viramabeng  by \thabeng_viramabeng;
+    sub \dabeng \viramabeng  by \dabeng_viramabeng;
+    sub \dhabeng \viramabeng  by \dhabeng_viramabeng;
+    sub \nabeng \viramabeng  by \nabeng_viramabeng;
+    sub \pabeng \viramabeng  by \pabeng_viramabeng;
+    sub \phabeng \viramabeng  by \phabeng_viramabeng;
+    sub \babeng \viramabeng  by \babeng_viramabeng_haln;
+    sub \bhabeng \viramabeng  by \bhabeng_viramabeng;
+    sub \mabeng \viramabeng  by \mabeng_viramabeng;
+    sub \labeng \viramabeng  by \labeng_viramabeng;
+    sub \shabeng \viramabeng  by \shabeng_viramabeng;
+    sub \ssabeng \viramabeng  by \ssabeng_viramabeng;
+    sub \sabeng \viramabeng  by \sabeng_viramabeng;
     sub \habeng \viramabeng  by \habeng_viramabeng;
+    sub \rrabeng \viramabeng  by \rrabeng_viramabeng;
 } halfHalfFormslookup5;
+
+lookup halfHalfFormsinBengalilookup14 {
+  lookupflag 0;
+    sub \rabeng \viramabeng  by \rabeng_viramabeng_haln;
+} halfHalfFormsinBengalilookup14;
 
 lookup pstfPostBaseFormslookup6 {
   lookupflag 0;
     sub \viramabeng \yabeng  by \yabeng_viramabeng.pstf;
 } pstfPostBaseFormslookup6;
+
+lookup pstfPostBaseFormsinBengalilooku {
+  lookupflag 0;
+    sub \yabeng \viramabeng  by \yabeng_viramabeng.pstf;
+} pstfPostBaseFormsinBengalilooku;
 
 lookup vatuVattuVariantslookup8 {
   lookupflag 0;
@@ -327,7 +368,7 @@ lookup presPreBaseSubstitutionslookup7 {
     sub \habeng_viramabeng \nabeng  by \habeng_viramabeng_nabeng;
     sub \habeng_viramabeng \mabeng  by \habeng_viramabeng_mabeng;
     sub \habeng_viramabeng \labeng  by \habeng_viramabeng_labeng;
-    sub \ddabeng \nuktabeng \viramabeng \gabeng  by \rrabeng_viramabeng_gabeng;
+    sub \rrabeng_viramabeng \gabeng  by \rrabeng_viramabeng_gabeng;
     sub \kabeng_viramabeng \ttabeng_viramabeng_rabeng  by \bn_ka_Ta_ra;
     sub \mabeng_viramabeng \thabeng  by \bn_ma_tha;
     sub \labeng_viramabeng \tabeng  by \bn_la_ta;
@@ -402,6 +443,7 @@ lookup blwsBelowBaseSubstitutionslooku {
     sub \u09F0 \uuvowelbeng  by \u09F0_uuvowelbeng;
     sub \u09F1 \uvowelbeng  by \u09F1_uvowelbeng;
     sub \u09F1 \uuvowelbeng  by \u09F1_uuvowelbeng;
+    sub \rrabeng \viramabeng  by \rrabeng_viramabeng;
 } blwsBelowBaseSubstitutionslooku;
 
 feature haln {
@@ -452,7 +494,7 @@ feature blwf {
 
  script beng;
      language dflt ;
-      lookup blwfBelowBaseFormslookup4;
+      lookup blwfBelowBaseFormsinBengalilook;
 
  script bng2;
      language dflt ;
@@ -464,6 +506,7 @@ feature half {
  script beng;
      language dflt ;
       lookup halfHalfFormslookup5;
+      lookup halfHalfFormsinBengalilookup14;
 
  script bng2;
      language dflt ;
@@ -474,7 +517,7 @@ feature pstf {
 
  script beng;
      language dflt ;
-      lookup pstfPostBaseFormslookup6;
+      lookup pstfPostBaseFormsinBengalilooku;
 
  script bng2;
      language dflt ;
@@ -1167,13 +1210,13 @@ feature abvm {
 	\rupeesignbeng \u09F4 \u09F5 \u09F6 \u09F7 \u09F8 \u09F9 \issharbeng 
 	\zerowidthnonjoiner \zerowidthjoiner \endash \emdash \quoteleft \quoteright 
 	\quotedblleft \quotedblright \ellipsis \minus \dottedcircle 
-	\yabeng_viramabeng.pstf \kabeng_viramabeng_kabeng 
-	\kabeng_viramabeng_ttabeng \kabeng_viramabeng_tabeng 
-	\ka_virama_ta_virama_ra \ka_virama_ta_virama_ba \kabeng_viramabeng_nabeng 
-	\kabeng_viramabeng_mabeng \kabeng_viramabeng_rabeng 
-	\kabeng_viramabeng_labeng \kabeng_viramabeng_babeng 
-	\kabeng_viramabeng_ssabeng \ka_virama_ssa_virama_nna 
-	\ka_virama_ssa_virama_ma \ka_virama_ssa_virama_ra \ka_virama_ssa_virama_ba 
+	\kabeng_viramabeng_kabeng \kabeng_viramabeng_ttabeng 
+	\kabeng_viramabeng_tabeng \ka_virama_ta_virama_ra \ka_virama_ta_virama_ba 
+	\kabeng_viramabeng_nabeng \kabeng_viramabeng_mabeng 
+	\kabeng_viramabeng_rabeng \kabeng_viramabeng_labeng 
+	\kabeng_viramabeng_babeng \kabeng_viramabeng_ssabeng 
+	\ka_virama_ssa_virama_nna \ka_virama_ssa_virama_ma 
+	\ka_virama_ssa_virama_ra \ka_virama_ssa_virama_ba 
 	\kabeng_viramabeng_sabeng \khabeng_viramabeng_rabeng 
 	\khabeng_viramabeng_babeng \ga_zerowidthnonjoiner_uvowel 
 	\gabeng_viramabeng_gabeng \gabeng_viramabeng_dabeng 
@@ -1295,8 +1338,8 @@ feature abvm {
 	\candrabindu_aulengthmark \evowelbeng.init \aivowelbeng.init 
 	\viramabeng_rabeng \glyph437 \glyph438 \babeng_viramabeng \gandamarkbeng 
 	\inr_currency \glyph454 ];
-@GDEF_Ligature = [\bn_ka_Ta_ra \bn_ma_tha \bn_la_ta \bn_la_dha 
-	\kabeng_viramabeng \khabeng_viramabeng \gabeng_viramabeng 
+@GDEF_Ligature = [\yabeng_viramabeng.pstf \bn_ka_Ta_ra \bn_ma_tha \bn_la_ta 
+	\bn_la_dha \kabeng_viramabeng \khabeng_viramabeng \gabeng_viramabeng 
 	\ghabeng_viramabeng \ngabeng_viramabeng \cabeng_viramabeng 
 	\chabeng_viramabeng \jabeng_viramabeng \jhabeng_viramabeng 
 	\nyabeng_viramabeng \ttabeng_viramabeng \tthabeng_viramabeng 
