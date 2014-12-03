@@ -3,7 +3,7 @@ FontName: Lohit-Bengali
 FullName: Lohit Bengali
 FamilyName: Lohit Bengali
 Weight: Book
-Copyright: Copyright 2011-12 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\nOpen type tables written by:\nPravin Satpute <psatpute AT redhat DOT com>\nSneha Kore <skore AT redhat DOT com> and Shilpa Gite <sgite AT redhat DOT com>\n\n   Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
+Copyright: Copyright 2011-14 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\nOpen type tables written by:\nPravin Satpute <psatpute AT redhat DOT com>\nSneha Kore <skore AT redhat DOT com> and Shilpa Gite <sgite AT redhat DOT com>\n\n   Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
 Version: 2.91.1
 ItalicAngle: 0
 UnderlinePosition: -300
@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1163146539
-ModificationTime: 1417593013
+ModificationTime: 1417601480
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5

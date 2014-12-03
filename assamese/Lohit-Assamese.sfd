@@ -4,7 +4,7 @@ FullName: Lohit Assamese
 FamilyName: Lohit Assamese
 Weight: Book
 Copyright: Copyright 2011-14 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\nOpen type tables written by:\nPravin Satpute <psatpute AT redhat DOT com>\nSneha Kore <skore AT redhat DOT com> and Shilpa Gite <sgite AT redhat DOT com>\n\n   Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
-Version: 2.91.0
+Version: 2.91.1
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -20,8 +20,8 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1163146539
-ModificationTime: 1413179011
-PfmFamily: 33
+ModificationTime: 1417601448
+PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 200
@@ -55,9 +55,12 @@ Lookup: 4 0 0 "'haln' Halant Forms lookup 11"  {"'haln' Halant Forms lookup 11-1
 Lookup: 4 0 0 "nuktNuktaFormslookup2"  {"nuktNuktaFormslookup2 subtable"  } ['nukt' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
 Lookup: 4 0 0 "akhnAkhandlookup2"  {"akhnAkhandlookup2 subtable"  } ['akhn' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
 Lookup: 4 0 0 "rphfRephFormlookup3"  {"rphfRephFormlookup3 subtable"  } ['rphf' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
-Lookup: 4 0 0 "blwfBelowBaseFormslookup4"  {"blwfBelowBaseFormslookup4 subtable"  } ['blwf' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
+Lookup: 4 0 0 "blwfBelowBaseFormslookup4"  {"blwfBelowBaseFormslookup4 subtable"  } ['blwf' ('bng2' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms in Bengali lookup 12"  {"'blwf' Below Base Forms in Bengali lookup 12-1"  } ['blwf' ('beng' <'dflt' > ) ]
 Lookup: 4 0 0 "halfHalfFormslookup5"  {"halfHalfFormslookup5 subtable"  } ['half' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
-Lookup: 4 0 0 "pstfPostBaseFormslookup6"  {"pstfPostBaseFormslookup6 subtable"  } ['pstf' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
+Lookup: 4 0 0 "'half' Half Forms in Bengali lookup 14"  {"'half' Half Forms in Bengali lookup 14-1"  } ['half' ('beng' <'dflt' > ) ]
+Lookup: 4 0 0 "pstfPostBaseFormslookup6"  {"pstfPostBaseFormslookup6 subtable"  } ['pstf' ('bng2' <'dflt' > ) ]
+Lookup: 4 0 0 "'pstf' Post Base Forms in Bengali lookup 13"  {"'pstf' Post Base Forms in Bengali lookup 13-1"  } ['pstf' ('beng' <'dflt' > ) ]
 Lookup: 4 0 0 "vatuVattuVariantslookup8"  {"vatuVattuVariantslookup8 subtable"  } ['vatu' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
 Lookup: 1 0 0 "initInitialFormslookup0"  {"initInitialFormslookup0 subtable"  } ['init' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
 Lookup: 4 0 0 "presPreBaseSubstitutionslookup7"  {"presPreBaseSubstitutionslookup7 subtable"  } ['pres' ('bng2' <'dflt' > 'beng' <'dflt' > ) ]
@@ -246,7 +249,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "" "" "Version 2.91.0" "" "Lohit is trademark of RedHat, Inc." "" "" "" "" "" "OFL 1.1" "http://scripts.sil.org/OFL" 
+LangName: 1033 "" "" "Regular" "Lohit Assamese : 26-3-2014" "" "Version 2.91.1" "" "Lohit is trademark of RedHat, Inc." "" "" "" "" "" "OFL 1.1" "http://scripts.sil.org/OFL" 
 GaspTable: 2 8 2 65535 3 0
 Encoding: UnicodeBmp
 Compacted: 1
@@ -255,11 +258,11 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 33 14
+WinInfo: 33 33 14
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 290436 145218 96812 0 1048576 96812 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "BNAnchor-0"  "'abvm' Above Base Mark in Bengali lookup 1" "BNAnchor-1"  "'abvm' Above Base Mark in Bengali lookup 1" "Anchor-2"  "'blwm' Below Base Mark in Bengali lookup 0" 
+AnchorClass2: "BNAnchor-0"  "'abvm' Above Base Mark in Bengali lookup 1" "BNAnchor-1"  "'abvm' Above Base Mark in Bengali lookup 1" "BNAnchor-2"  "'blwm' Below Base Mark in Bengali lookup 0" 
 BeginChars: 65908 485
 
 StartChar: .notdef
@@ -4906,7 +4909,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 306 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 306 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 291 0 basechar 0
 AnchorPoint: "BNAnchor-0" 292 -2 basechar 0
 LayerCount: 2
@@ -4996,7 +4999,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 415 -3 basechar 0
+AnchorPoint: "BNAnchor-2" 415 -3 basechar 0
 AnchorPoint: "BNAnchor-1" 393 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 406 0 basechar 0
 LayerCount: 2
@@ -5088,7 +5091,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 411 -15 basechar 0
+AnchorPoint: "BNAnchor-2" 411 -15 basechar 0
 AnchorPoint: "BNAnchor-1" 394 0 basechar 0
 AnchorPoint: "BNAnchor-0" 398 0 basechar 0
 LayerCount: 2
@@ -5170,7 +5173,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 381 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 381 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 363 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 362 -1 basechar 0
 LayerCount: 2
@@ -5250,7 +5253,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 334 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 334 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 353 4 basechar 0
 AnchorPoint: "BNAnchor-0" 369 0 basechar 0
 LayerCount: 2
@@ -5353,7 +5356,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 179 15 basechar 0
+AnchorPoint: "BNAnchor-2" 179 15 basechar 0
 AnchorPoint: "BNAnchor-1" 233 -5 basechar 0
 AnchorPoint: "BNAnchor-0" 257 -5 basechar 0
 LayerCount: 2
@@ -5426,7 +5429,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 213 14 basechar 0
+AnchorPoint: "BNAnchor-2" 213 14 basechar 0
 AnchorPoint: "BNAnchor-1" 301 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 292 -4 basechar 0
 LayerCount: 2
@@ -5524,7 +5527,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 625 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 625 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 606 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 602 4 basechar 0
 LayerCount: 2
@@ -5628,7 +5631,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 346 -6 basechar 0
+AnchorPoint: "BNAnchor-2" 346 -6 basechar 0
 AnchorPoint: "BNAnchor-1" 476 0 basechar 0
 AnchorPoint: "BNAnchor-0" 476 0 basechar 0
 LayerCount: 2
@@ -5716,7 +5719,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 485 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 485 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 470 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 465 0 basechar 0
 LayerCount: 2
@@ -5845,7 +5848,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 183 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 183 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 190 -5 basechar 0
 AnchorPoint: "BNAnchor-0" 405 45 basechar 0
 LayerCount: 2
@@ -5946,7 +5949,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 218 -3 basechar 0
+AnchorPoint: "BNAnchor-2" 218 -3 basechar 0
 AnchorPoint: "BNAnchor-1" 185 0 basechar 0
 AnchorPoint: "BNAnchor-0" 200 0 basechar 0
 LayerCount: 2
@@ -6031,7 +6034,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 308 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 308 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 315 0 basechar 0
 AnchorPoint: "BNAnchor-0" 320 0 basechar 0
 LayerCount: 2
@@ -6109,7 +6112,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 191 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 191 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 165 0 basechar 0
 AnchorPoint: "BNAnchor-0" 170 -5 basechar 0
 LayerCount: 2
@@ -6185,7 +6188,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 368 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 368 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 355 0 basechar 0
 AnchorPoint: "BNAnchor-0" 355 -4 basechar 0
 LayerCount: 2
@@ -6263,7 +6266,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 323 -6 basechar 0
+AnchorPoint: "BNAnchor-2" 323 -6 basechar 0
 AnchorPoint: "BNAnchor-1" 358 0 basechar 0
 AnchorPoint: "BNAnchor-0" 348 5 basechar 0
 LayerCount: 2
@@ -6349,7 +6352,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 404 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 404 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 385 0 basechar 0
 AnchorPoint: "BNAnchor-0" 385 -5 basechar 0
 LayerCount: 2
@@ -6429,7 +6432,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 349 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 349 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 293 0 basechar 0
 AnchorPoint: "BNAnchor-0" 297 0 basechar 0
 LayerCount: 2
@@ -6506,7 +6509,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 339 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 339 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 324 0 basechar 0
 AnchorPoint: "BNAnchor-0" 324 0 basechar 0
 LayerCount: 2
@@ -6589,7 +6592,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 369 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 369 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 345 0 basechar 0
 AnchorPoint: "BNAnchor-0" 345 0 basechar 0
 LayerCount: 2
@@ -6667,7 +6670,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 432 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 432 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 415 0 basechar 0
 AnchorPoint: "BNAnchor-0" 418 0 basechar 0
 LayerCount: 2
@@ -6747,7 +6750,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 339 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 339 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 316 -5 basechar 0
 AnchorPoint: "BNAnchor-0" 317 -5 basechar 0
 LayerCount: 2
@@ -6826,7 +6829,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 343 -6 basechar 0
+AnchorPoint: "BNAnchor-2" 343 -6 basechar 0
 AnchorPoint: "BNAnchor-1" 316 0 basechar 0
 AnchorPoint: "BNAnchor-0" 320 0 basechar 0
 LayerCount: 2
@@ -6897,7 +6900,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 349 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 349 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 355 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 362 -4 basechar 0
 LayerCount: 2
@@ -6980,7 +6983,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 329 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 329 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 316 0 basechar 0
 AnchorPoint: "BNAnchor-0" 316 0 basechar 0
 LayerCount: 2
@@ -7055,7 +7058,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 351 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 351 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 332 -5 basechar 0
 AnchorPoint: "BNAnchor-0" 332 -5 basechar 0
 LayerCount: 2
@@ -7125,7 +7128,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 331 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 331 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 316 0 basechar 0
 AnchorPoint: "BNAnchor-0" 316 0 basechar 0
 LayerCount: 2
@@ -7205,7 +7208,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 475 -6 basechar 0
+AnchorPoint: "BNAnchor-2" 475 -6 basechar 0
 AnchorPoint: "BNAnchor-1" 465 0 basechar 0
 AnchorPoint: "BNAnchor-0" 465 0 basechar 0
 LayerCount: 2
@@ -7306,7 +7309,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 359 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 359 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 346 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 350 0 basechar 0
 LayerCount: 2
@@ -7392,7 +7395,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 333 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 333 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 312 -1 basechar 0
 AnchorPoint: "BNAnchor-0" 312 -5 basechar 0
 LayerCount: 2
@@ -7466,7 +7469,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 426 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 426 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 380 0 basechar 0
 AnchorPoint: "BNAnchor-0" 397 -5 basechar 0
 LayerCount: 2
@@ -7546,7 +7549,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 223 -6 basechar 0
+AnchorPoint: "BNAnchor-2" 223 -6 basechar 0
 AnchorPoint: "BNAnchor-1" 250 0 basechar 0
 AnchorPoint: "BNAnchor-0" 245 0 basechar 0
 LayerCount: 2
@@ -7631,7 +7634,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 455 -60 mark 0
+AnchorPoint: "BNAnchor-2" 455 -60 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7997,7 +8000,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" -110 -25 mark 0
+AnchorPoint: "BNAnchor-2" -110 -25 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8072,7 +8075,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" -105 -20 mark 0
+AnchorPoint: "BNAnchor-2" -105 -20 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8140,7 +8143,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" -100 -20 mark 0
+AnchorPoint: "BNAnchor-2" -100 -20 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8188,7 +8191,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" -90 -20 mark 0
+AnchorPoint: "BNAnchor-2" -90 -20 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8631,7 +8634,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" -90 15 mark 0
+AnchorPoint: "BNAnchor-2" -90 15 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8776,7 +8779,7 @@ Encoding: 2524 2524 112
 Width: 549
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-2" 436 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 436 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 360 -5 basechar 0
 AnchorPoint: "BNAnchor-0" 360 -5 basechar 0
 LayerCount: 2
@@ -8794,6 +8797,7 @@ SplineSet
  288 -115 l 1,0,1
 EndSplineSet
 Refer: 76 2465 S 1 0 0 1 0 0 2
+Ligature2: "nuktNuktaFormslookup2 subtable" ddabeng nuktabeng
 EndChar
 
 StartChar: rhabeng
@@ -8801,7 +8805,7 @@ Encoding: 2525 2525 113
 Width: 419
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-2" 299 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 299 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 235 0 basechar 0
 AnchorPoint: "BNAnchor-0" 235 0 basechar 0
 LayerCount: 2
@@ -8815,7 +8819,7 @@ Encoding: 2527 2527 114
 Width: 453
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-2" 361 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 361 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 341 0 basechar 0
 AnchorPoint: "BNAnchor-0" 337 0 basechar 0
 LayerCount: 2
@@ -9139,7 +9143,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" -259 20 mark 0
+AnchorPoint: "BNAnchor-2" -259 20 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9252,7 +9256,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" -152 30 mark 0
+AnchorPoint: "BNAnchor-2" -152 30 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10179,7 +10183,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 341 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 341 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 323 0 basechar 0
 AnchorPoint: "BNAnchor-0" 323 0 basechar 0
 LayerCount: 2
@@ -10264,7 +10268,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 366 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 366 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 336 4 basechar 0
 AnchorPoint: "BNAnchor-0" 340 0 basechar 0
 LayerCount: 2
@@ -11304,7 +11308,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 364 -12 basechar 0
+AnchorPoint: "BNAnchor-2" 364 -12 basechar 0
 AnchorPoint: "BNAnchor-1" 340 -5 basechar 0
 AnchorPoint: "BNAnchor-0" 365 -2 basechar 0
 LayerCount: 2
@@ -11436,7 +11440,7 @@ EndChar
 StartChar: yabeng_viramabeng.pstf
 Encoding: 65537 -1 151
 Width: 223
-GlyphClass: 2
+GlyphClass: 3
 Flags: W
 TtInstrs:
 NPUSHW
@@ -11494,6 +11498,7 @@ SplineSet
  80 -10 l 1,0,-1
 EndSplineSet
 Ligature2: "pstfPostBaseFormslookup6 subtable" viramabeng yabeng
+Ligature2: "'pstf' Post Base Forms in Bengali lookup 13-1" yabeng viramabeng
 EndChar
 
 StartChar: kabeng_viramabeng_kabeng
@@ -11535,7 +11540,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 315 0 basechar 0
+AnchorPoint: "BNAnchor-2" 315 0 basechar 0
 AnchorPoint: "BNAnchor-1" 315 0 basechar 0
 AnchorPoint: "BNAnchor-0" 315 0 basechar 0
 LayerCount: 2
@@ -11650,7 +11655,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 255 -12 basechar 0
+AnchorPoint: "BNAnchor-2" 255 -12 basechar 0
 AnchorPoint: "BNAnchor-1" 255 -5 basechar 0
 AnchorPoint: "BNAnchor-0" 290 20 basechar 0
 LayerCount: 2
@@ -11769,7 +11774,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 375 -32 basechar 0
+AnchorPoint: "BNAnchor-2" 375 -32 basechar 0
 AnchorPoint: "BNAnchor-1" 380 0 basechar 0
 AnchorPoint: "BNAnchor-0" 375 0 basechar 0
 LayerCount: 2
@@ -11880,7 +11885,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 497 -145 basechar 0
+AnchorPoint: "BNAnchor-2" 497 -145 basechar 0
 AnchorPoint: "BNAnchor-1" 400 0 basechar 0
 AnchorPoint: "BNAnchor-0" 405 0 basechar 0
 LayerCount: 2
@@ -12012,7 +12017,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 351 -189 basechar 0
+AnchorPoint: "BNAnchor-2" 351 -189 basechar 0
 AnchorPoint: "BNAnchor-1" 310 0 basechar 0
 AnchorPoint: "BNAnchor-0" 350 4 basechar 0
 LayerCount: 2
@@ -12106,7 +12111,7 @@ Encoding: 65543 -1 157
 Width: 550
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-2" 325 -36 basechar 0
+AnchorPoint: "BNAnchor-2" 325 -36 basechar 0
 AnchorPoint: "BNAnchor-1" 321 0 basechar 0
 AnchorPoint: "BNAnchor-0" 321 0 basechar 0
 LayerCount: 2
@@ -12266,7 +12271,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 390 0 basechar 0
+AnchorPoint: "BNAnchor-2" 390 0 basechar 0
 AnchorPoint: "BNAnchor-1" 386 0 basechar 0
 AnchorPoint: "BNAnchor-0" 386 0 basechar 0
 LayerCount: 2
@@ -12386,7 +12391,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 363 8 basechar 0
+AnchorPoint: "BNAnchor-2" 363 8 basechar 0
 AnchorPoint: "BNAnchor-1" 360 0 basechar 0
 AnchorPoint: "BNAnchor-0" 359 -4 basechar 0
 LayerCount: 2
@@ -12499,7 +12504,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 328 4 basechar 0
+AnchorPoint: "BNAnchor-2" 328 4 basechar 0
 AnchorPoint: "BNAnchor-1" 324 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 328 0 basechar 0
 LayerCount: 2
@@ -12596,7 +12601,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 422 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 422 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 404 0 basechar 0
 AnchorPoint: "BNAnchor-0" 400 0 basechar 0
 LayerCount: 2
@@ -12712,7 +12717,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 407 -52 basechar 0
+AnchorPoint: "BNAnchor-2" 407 -52 basechar 0
 AnchorPoint: "BNAnchor-1" 407 0 basechar 0
 AnchorPoint: "BNAnchor-0" 407 0 basechar 0
 LayerCount: 2
@@ -12963,7 +12968,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 426 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 426 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 423 0 basechar 0
 AnchorPoint: "BNAnchor-0" 423 0 basechar 0
 LayerCount: 2
@@ -13082,7 +13087,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 406 -108 basechar 0
+AnchorPoint: "BNAnchor-2" 406 -108 basechar 0
 AnchorPoint: "BNAnchor-1" 399 0 basechar 0
 AnchorPoint: "BNAnchor-0" 403 0 basechar 0
 LayerCount: 2
@@ -13852,7 +13857,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 353 -32 basechar 0
+AnchorPoint: "BNAnchor-2" 353 -32 basechar 0
 AnchorPoint: "BNAnchor-1" 349 0 basechar 0
 AnchorPoint: "BNAnchor-0" 353 0 basechar 0
 LayerCount: 2
@@ -13931,7 +13936,7 @@ Encoding: 65560 -1 174
 Width: 585
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-2" 356 -160 basechar 0
+AnchorPoint: "BNAnchor-2" 356 -160 basechar 0
 AnchorPoint: "BNAnchor-1" 352 0 basechar 0
 AnchorPoint: "BNAnchor-0" 352 -4 basechar 0
 LayerCount: 2
@@ -14071,7 +14076,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 394 -44 basechar 0
+AnchorPoint: "BNAnchor-2" 394 -44 basechar 0
 AnchorPoint: "BNAnchor-1" 390 0 basechar 0
 AnchorPoint: "BNAnchor-0" 394 0 basechar 0
 LayerCount: 2
@@ -14502,7 +14507,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 460 -23 basechar 0
+AnchorPoint: "BNAnchor-2" 460 -23 basechar 0
 AnchorPoint: "BNAnchor-1" 456 4 basechar 0
 AnchorPoint: "BNAnchor-0" 456 0 basechar 0
 LayerCount: 2
@@ -14622,7 +14627,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 464 -52 basechar 0
+AnchorPoint: "BNAnchor-2" 464 -52 basechar 0
 AnchorPoint: "BNAnchor-1" 460 0 basechar 0
 AnchorPoint: "BNAnchor-0" 456 4 basechar 0
 LayerCount: 2
@@ -15222,7 +15227,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 268 12 basechar 0
+AnchorPoint: "BNAnchor-2" 268 12 basechar 0
 AnchorPoint: "BNAnchor-1" 268 0 basechar 0
 AnchorPoint: "BNAnchor-0" 263 0 basechar 0
 LayerCount: 2
@@ -15333,7 +15338,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 378 0 basechar 0
+AnchorPoint: "BNAnchor-2" 378 0 basechar 0
 AnchorPoint: "BNAnchor-1" 378 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 378 0 basechar 0
 LayerCount: 2
@@ -15454,7 +15459,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 893 0 basechar 0
+AnchorPoint: "BNAnchor-2" 893 0 basechar 0
 AnchorPoint: "BNAnchor-1" 885 0 basechar 0
 AnchorPoint: "BNAnchor-0" 889 0 basechar 0
 LayerCount: 2
@@ -15623,7 +15628,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 885 0 basechar 0
+AnchorPoint: "BNAnchor-2" 885 0 basechar 0
 AnchorPoint: "BNAnchor-1" 885 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 884 0 basechar 0
 LayerCount: 2
@@ -16433,7 +16438,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 488 -130 basechar 0
+AnchorPoint: "BNAnchor-2" 488 -130 basechar 0
 AnchorPoint: "BNAnchor-1" 376 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 352 0 basechar 0
 LayerCount: 2
@@ -16555,7 +16560,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 446 2 basechar 0
+AnchorPoint: "BNAnchor-2" 446 2 basechar 0
 AnchorPoint: "BNAnchor-1" 449 0 basechar 0
 AnchorPoint: "BNAnchor-0" 448 -4 basechar 0
 LayerCount: 2
@@ -16645,7 +16650,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 582 -3 basechar 0
+AnchorPoint: "BNAnchor-2" 582 -3 basechar 0
 AnchorPoint: "BNAnchor-1" 535 0 basechar 0
 AnchorPoint: "BNAnchor-0" 535 0 basechar 0
 LayerCount: 2
@@ -16752,7 +16757,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 673 -147 basechar 0
+AnchorPoint: "BNAnchor-2" 673 -147 basechar 0
 AnchorPoint: "BNAnchor-1" 579 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 576 0 basechar 0
 LayerCount: 2
@@ -16883,7 +16888,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 556 -169 basechar 0
+AnchorPoint: "BNAnchor-2" 556 -169 basechar 0
 AnchorPoint: "BNAnchor-1" 551 1 basechar 0
 AnchorPoint: "BNAnchor-0" 548 4 basechar 0
 LayerCount: 2
@@ -17015,7 +17020,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 480 -51 basechar 0
+AnchorPoint: "BNAnchor-2" 480 -51 basechar 0
 AnchorPoint: "BNAnchor-1" 480 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 480 -4 basechar 0
 LayerCount: 2
@@ -17159,7 +17164,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 311 -73 basechar 0
+AnchorPoint: "BNAnchor-2" 311 -73 basechar 0
 AnchorPoint: "BNAnchor-1" 235 0 basechar 0
 AnchorPoint: "BNAnchor-0" 235 0 basechar 0
 LayerCount: 2
@@ -17250,7 +17255,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 333 -116 basechar 0
+AnchorPoint: "BNAnchor-2" 333 -116 basechar 0
 AnchorPoint: "BNAnchor-1" 225 0 basechar 0
 AnchorPoint: "BNAnchor-0" 225 0 basechar 0
 LayerCount: 2
@@ -17342,7 +17347,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 269 -147 basechar 0
+AnchorPoint: "BNAnchor-2" 269 -147 basechar 0
 AnchorPoint: "BNAnchor-1" 263 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 262 -4 basechar 0
 LayerCount: 2
@@ -17430,7 +17435,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 408 -118 basechar 0
+AnchorPoint: "BNAnchor-2" 408 -118 basechar 0
 AnchorPoint: "BNAnchor-1" 343 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 330 -8 basechar 0
 LayerCount: 2
@@ -17542,7 +17547,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 371 -176 basechar 0
+AnchorPoint: "BNAnchor-2" 371 -176 basechar 0
 AnchorPoint: "BNAnchor-1" 283 1 basechar 0
 AnchorPoint: "BNAnchor-0" 307 1 basechar 0
 LayerCount: 2
@@ -18027,7 +18032,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 290 7 basechar 0
+AnchorPoint: "BNAnchor-2" 290 7 basechar 0
 AnchorPoint: "BNAnchor-1" 541 0 basechar 0
 AnchorPoint: "BNAnchor-0" 547 0 basechar 0
 LayerCount: 2
@@ -18375,7 +18380,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 392 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 392 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 532 0 basechar 0
 AnchorPoint: "BNAnchor-0" 532 -4 basechar 0
 LayerCount: 2
@@ -18481,7 +18486,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 352 4 basechar 0
+AnchorPoint: "BNAnchor-2" 352 4 basechar 0
 AnchorPoint: "BNAnchor-1" 347 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 343 -4 basechar 0
 LayerCount: 2
@@ -18606,7 +18611,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 351 -159 basechar 0
+AnchorPoint: "BNAnchor-2" 351 -159 basechar 0
 AnchorPoint: "BNAnchor-1" 347 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 348 0 basechar 0
 LayerCount: 2
@@ -18744,7 +18749,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 314 -110 basechar 0
+AnchorPoint: "BNAnchor-2" 314 -110 basechar 0
 AnchorPoint: "BNAnchor-1" 261 4 basechar 0
 AnchorPoint: "BNAnchor-0" 277 -4 basechar 0
 LayerCount: 2
@@ -18882,7 +18887,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 575 -48 basechar 0
+AnchorPoint: "BNAnchor-2" 575 -48 basechar 0
 AnchorPoint: "BNAnchor-1" 329 12 basechar 0
 AnchorPoint: "BNAnchor-0" 337 4 basechar 0
 LayerCount: 2
@@ -19034,7 +19039,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 361 -40 basechar 0
+AnchorPoint: "BNAnchor-2" 361 -40 basechar 0
 AnchorPoint: "BNAnchor-1" 353 0 basechar 0
 AnchorPoint: "BNAnchor-0" 357 0 basechar 0
 LayerCount: 2
@@ -19185,7 +19190,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 262 -49 basechar 0
+AnchorPoint: "BNAnchor-2" 262 -49 basechar 0
 AnchorPoint: "BNAnchor-1" 257 4 basechar 0
 AnchorPoint: "BNAnchor-0" 257 0 basechar 0
 LayerCount: 2
@@ -19323,7 +19328,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 242 -97 basechar 0
+AnchorPoint: "BNAnchor-2" 242 -97 basechar 0
 AnchorPoint: "BNAnchor-1" 240 0 basechar 0
 AnchorPoint: "BNAnchor-0" 325 30 basechar 0
 LayerCount: 2
@@ -19432,7 +19437,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 398 -216 basechar 0
+AnchorPoint: "BNAnchor-2" 398 -216 basechar 0
 AnchorPoint: "BNAnchor-1" 255 -5 basechar 0
 AnchorPoint: "BNAnchor-0" 361 29 basechar 0
 LayerCount: 2
@@ -19676,7 +19681,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 458 -116 basechar 0
+AnchorPoint: "BNAnchor-2" 458 -116 basechar 0
 AnchorPoint: "BNAnchor-1" 240 0 basechar 0
 AnchorPoint: "BNAnchor-0" 364 30 basechar 0
 LayerCount: 2
@@ -19794,7 +19799,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 304 -92 basechar 0
+AnchorPoint: "BNAnchor-2" 304 -92 basechar 0
 AnchorPoint: "BNAnchor-1" 190 -5 basechar 0
 AnchorPoint: "BNAnchor-0" 340 65 basechar 0
 LayerCount: 2
@@ -19907,7 +19912,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 332 -111 basechar 0
+AnchorPoint: "BNAnchor-2" 332 -111 basechar 0
 AnchorPoint: "BNAnchor-1" 183 0 basechar 0
 AnchorPoint: "BNAnchor-0" 220 0 basechar 0
 LayerCount: 2
@@ -20131,7 +20136,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 653 -11 basechar 0
+AnchorPoint: "BNAnchor-2" 653 -11 basechar 0
 AnchorPoint: "BNAnchor-1" 739 0 basechar 0
 AnchorPoint: "BNAnchor-0" 735 -4 basechar 0
 LayerCount: 2
@@ -20334,7 +20339,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 472 -134 basechar 0
+AnchorPoint: "BNAnchor-2" 472 -134 basechar 0
 AnchorPoint: "BNAnchor-1" 320 0 basechar 0
 AnchorPoint: "BNAnchor-0" 366 -4 basechar 0
 LayerCount: 2
@@ -20428,7 +20433,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 343 -163 basechar 0
+AnchorPoint: "BNAnchor-2" 343 -163 basechar 0
 AnchorPoint: "BNAnchor-1" 378 4 basechar 0
 AnchorPoint: "BNAnchor-0" 366 0 basechar 0
 LayerCount: 2
@@ -20518,7 +20523,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 455 -119 basechar 0
+AnchorPoint: "BNAnchor-2" 455 -119 basechar 0
 AnchorPoint: "BNAnchor-1" 346 0 basechar 0
 AnchorPoint: "BNAnchor-0" 346 0 basechar 0
 LayerCount: 2
@@ -20624,7 +20629,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 471 7 basechar 0
+AnchorPoint: "BNAnchor-2" 471 7 basechar 0
 AnchorPoint: "BNAnchor-1" 395 0 basechar 0
 AnchorPoint: "BNAnchor-0" 541 43 basechar 0
 LayerCount: 2
@@ -20746,7 +20751,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 538 -102 basechar 0
+AnchorPoint: "BNAnchor-2" 538 -102 basechar 0
 AnchorPoint: "BNAnchor-1" 395 0 basechar 0
 AnchorPoint: "BNAnchor-0" 495 68 basechar 0
 LayerCount: 2
@@ -20882,7 +20887,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 305 0 basechar 0
+AnchorPoint: "BNAnchor-2" 305 0 basechar 0
 AnchorPoint: "BNAnchor-1" 255 0 basechar 0
 AnchorPoint: "BNAnchor-0" 357 -12 basechar 0
 LayerCount: 2
@@ -20988,7 +20993,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 454 -122 basechar 0
+AnchorPoint: "BNAnchor-2" 454 -122 basechar 0
 AnchorPoint: "BNAnchor-1" 265 0 basechar 0
 AnchorPoint: "BNAnchor-0" 365 -12 basechar 0
 LayerCount: 2
@@ -21119,7 +21124,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 375 -28 basechar 0
+AnchorPoint: "BNAnchor-2" 375 -28 basechar 0
 AnchorPoint: "BNAnchor-1" 379 0 basechar 0
 AnchorPoint: "BNAnchor-0" 375 0 basechar 0
 LayerCount: 2
@@ -21224,7 +21229,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 464 -150 basechar 0
+AnchorPoint: "BNAnchor-2" 464 -150 basechar 0
 AnchorPoint: "BNAnchor-1" 458 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 458 0 basechar 0
 LayerCount: 2
@@ -21339,7 +21344,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 419 1 basechar 0
+AnchorPoint: "BNAnchor-2" 419 1 basechar 0
 AnchorPoint: "BNAnchor-1" 448 0 basechar 0
 AnchorPoint: "BNAnchor-0" 448 4 basechar 0
 LayerCount: 2
@@ -21433,7 +21438,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 531 -124 basechar 0
+AnchorPoint: "BNAnchor-2" 531 -124 basechar 0
 AnchorPoint: "BNAnchor-1" 405 0 basechar 0
 AnchorPoint: "BNAnchor-0" 405 0 basechar 0
 LayerCount: 2
@@ -22523,7 +22528,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 480 -40 basechar 0
+AnchorPoint: "BNAnchor-2" 480 -40 basechar 0
 AnchorPoint: "BNAnchor-1" 473 0 basechar 0
 AnchorPoint: "BNAnchor-0" 473 -8 basechar 0
 LayerCount: 2
@@ -22635,7 +22640,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 471 -40 basechar 0
+AnchorPoint: "BNAnchor-2" 471 -40 basechar 0
 AnchorPoint: "BNAnchor-1" 466 0 basechar 0
 AnchorPoint: "BNAnchor-0" 466 0 basechar 0
 LayerCount: 2
@@ -23061,7 +23066,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 442 -36 basechar 0
+AnchorPoint: "BNAnchor-2" 442 -36 basechar 0
 AnchorPoint: "BNAnchor-1" 441 0 basechar 0
 AnchorPoint: "BNAnchor-0" 438 -8 basechar 0
 LayerCount: 2
@@ -23183,7 +23188,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 446 -32 basechar 0
+AnchorPoint: "BNAnchor-2" 446 -32 basechar 0
 AnchorPoint: "BNAnchor-1" 438 0 basechar 0
 AnchorPoint: "BNAnchor-0" 438 0 basechar 0
 LayerCount: 2
@@ -23887,7 +23892,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 338 -8 basechar 0
+AnchorPoint: "BNAnchor-2" 338 -8 basechar 0
 AnchorPoint: "BNAnchor-1" 330 0 basechar 0
 AnchorPoint: "BNAnchor-0" 330 0 basechar 0
 LayerCount: 2
@@ -23983,7 +23988,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 367 -115 basechar 0
+AnchorPoint: "BNAnchor-2" 367 -115 basechar 0
 AnchorPoint: "BNAnchor-1" 363 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 363 0 basechar 0
 LayerCount: 2
@@ -24171,7 +24176,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 361 -76 basechar 0
+AnchorPoint: "BNAnchor-2" 361 -76 basechar 0
 AnchorPoint: "BNAnchor-1" 408 0 basechar 0
 AnchorPoint: "BNAnchor-0" 408 0 basechar 0
 LayerCount: 2
@@ -24270,7 +24275,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 430 -126 basechar 0
+AnchorPoint: "BNAnchor-2" 430 -126 basechar 0
 AnchorPoint: "BNAnchor-1" 315 0 basechar 0
 AnchorPoint: "BNAnchor-0" 315 0 basechar 0
 LayerCount: 2
@@ -24549,7 +24554,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 440 -28 basechar 0
+AnchorPoint: "BNAnchor-2" 440 -28 basechar 0
 AnchorPoint: "BNAnchor-1" 365 0 basechar 0
 AnchorPoint: "BNAnchor-0" 365 0 basechar 0
 LayerCount: 2
@@ -24661,7 +24666,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 433 -24 basechar 0
+AnchorPoint: "BNAnchor-2" 433 -24 basechar 0
 AnchorPoint: "BNAnchor-1" 370 0 basechar 0
 AnchorPoint: "BNAnchor-0" 370 0 basechar 0
 LayerCount: 2
@@ -25172,7 +25177,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 393 -36 basechar 0
+AnchorPoint: "BNAnchor-2" 393 -36 basechar 0
 AnchorPoint: "BNAnchor-1" 392 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 392 0 basechar 0
 LayerCount: 2
@@ -25297,7 +25302,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 396 -32 basechar 0
+AnchorPoint: "BNAnchor-2" 396 -32 basechar 0
 AnchorPoint: "BNAnchor-1" 392 0 basechar 0
 AnchorPoint: "BNAnchor-0" 392 -4 basechar 0
 LayerCount: 2
@@ -25530,7 +25535,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 421 0 basechar 0
+AnchorPoint: "BNAnchor-2" 421 0 basechar 0
 AnchorPoint: "BNAnchor-1" 380 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 485 39 basechar 0
 LayerCount: 2
@@ -25641,7 +25646,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 546 -129 basechar 0
+AnchorPoint: "BNAnchor-2" 546 -129 basechar 0
 AnchorPoint: "BNAnchor-1" 370 0 basechar 0
 AnchorPoint: "BNAnchor-0" 489 40 basechar 0
 LayerCount: 2
@@ -25779,7 +25784,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 287 -5 basechar 0
+AnchorPoint: "BNAnchor-2" 287 -5 basechar 0
 AnchorPoint: "BNAnchor-1" 245 0 basechar 0
 AnchorPoint: "BNAnchor-0" 326 0 basechar 0
 LayerCount: 2
@@ -25880,7 +25885,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 346 -28 basechar 0
+AnchorPoint: "BNAnchor-2" 346 -28 basechar 0
 AnchorPoint: "BNAnchor-1" 375 0 basechar 0
 AnchorPoint: "BNAnchor-0" 404 -4 basechar 0
 LayerCount: 2
@@ -25968,7 +25973,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 525 -123 basechar 0
+AnchorPoint: "BNAnchor-2" 525 -123 basechar 0
 AnchorPoint: "BNAnchor-1" 410 0 basechar 0
 AnchorPoint: "BNAnchor-0" 420 0 basechar 0
 LayerCount: 2
@@ -26072,7 +26077,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 485 -171 basechar 0
+AnchorPoint: "BNAnchor-2" 485 -171 basechar 0
 AnchorPoint: "BNAnchor-1" 385 0 basechar 0
 AnchorPoint: "BNAnchor-0" 385 0 basechar 0
 LayerCount: 2
@@ -26204,7 +26209,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 290 -30 basechar 0
+AnchorPoint: "BNAnchor-2" 290 -30 basechar 0
 AnchorPoint: "BNAnchor-1" 356 -8 basechar 0
 AnchorPoint: "BNAnchor-0" 356 -5 basechar 0
 LayerCount: 2
@@ -26307,7 +26312,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 397 -93 basechar 0
+AnchorPoint: "BNAnchor-2" 397 -93 basechar 0
 AnchorPoint: "BNAnchor-1" 390 0 basechar 0
 AnchorPoint: "BNAnchor-0" 390 0 basechar 0
 LayerCount: 2
@@ -26644,7 +26649,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 342 -33 basechar 0
+AnchorPoint: "BNAnchor-2" 342 -33 basechar 0
 AnchorPoint: "BNAnchor-1" 290 0 basechar 0
 AnchorPoint: "BNAnchor-0" 295 0 basechar 0
 LayerCount: 2
@@ -26749,7 +26754,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 395 -143 basechar 0
+AnchorPoint: "BNAnchor-2" 395 -143 basechar 0
 AnchorPoint: "BNAnchor-1" 295 0 basechar 0
 AnchorPoint: "BNAnchor-0" 300 0 basechar 0
 LayerCount: 2
@@ -27144,7 +27149,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 339 4 basechar 0
+AnchorPoint: "BNAnchor-2" 339 4 basechar 0
 AnchorPoint: "BNAnchor-1" 335 0 basechar 0
 AnchorPoint: "BNAnchor-0" 335 0 basechar 0
 LayerCount: 2
@@ -27242,7 +27247,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 347 -137 basechar 0
+AnchorPoint: "BNAnchor-2" 347 -137 basechar 0
 AnchorPoint: "BNAnchor-1" 342 0 basechar 0
 AnchorPoint: "BNAnchor-0" 342 -4 basechar 0
 LayerCount: 2
@@ -27352,7 +27357,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 424 -39 basechar 0
+AnchorPoint: "BNAnchor-2" 424 -39 basechar 0
 AnchorPoint: "BNAnchor-1" 415 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 415 0 basechar 0
 LayerCount: 2
@@ -27903,7 +27908,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 506 16 basechar 0
+AnchorPoint: "BNAnchor-2" 506 16 basechar 0
 AnchorPoint: "BNAnchor-1" 412 0 basechar 0
 AnchorPoint: "BNAnchor-0" 533 28 basechar 0
 LayerCount: 2
@@ -28030,7 +28035,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 412 -25 basechar 0
+AnchorPoint: "BNAnchor-2" 412 -25 basechar 0
 AnchorPoint: "BNAnchor-1" 500 5 basechar 0
 AnchorPoint: "BNAnchor-0" 500 0 basechar 0
 LayerCount: 2
@@ -28153,7 +28158,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 411 -76 basechar 0
+AnchorPoint: "BNAnchor-2" 411 -76 basechar 0
 AnchorPoint: "BNAnchor-1" 427 1 basechar 0
 AnchorPoint: "BNAnchor-0" 427 0 basechar 0
 LayerCount: 2
@@ -28816,7 +28821,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 453 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 453 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 449 0 basechar 0
 AnchorPoint: "BNAnchor-0" 449 0 basechar 0
 LayerCount: 2
@@ -28941,7 +28946,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 488 4 basechar 0
+AnchorPoint: "BNAnchor-2" 488 4 basechar 0
 AnchorPoint: "BNAnchor-1" 485 0 basechar 0
 AnchorPoint: "BNAnchor-0" 485 0 basechar 0
 LayerCount: 2
@@ -29297,7 +29302,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 404 -29 basechar 0
+AnchorPoint: "BNAnchor-2" 404 -29 basechar 0
 AnchorPoint: "BNAnchor-1" 318 2 basechar 0
 AnchorPoint: "BNAnchor-0" 487 33 basechar 0
 LayerCount: 2
@@ -29421,7 +29426,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 447 -52 basechar 0
+AnchorPoint: "BNAnchor-2" 447 -52 basechar 0
 AnchorPoint: "BNAnchor-1" 447 0 basechar 0
 AnchorPoint: "BNAnchor-0" 447 0 basechar 0
 LayerCount: 2
@@ -29524,7 +29529,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 378 -80 basechar 0
+AnchorPoint: "BNAnchor-2" 378 -80 basechar 0
 AnchorPoint: "BNAnchor-1" 371 0 basechar 0
 AnchorPoint: "BNAnchor-0" 371 0 basechar 0
 LayerCount: 2
@@ -29759,7 +29764,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 296 4 basechar 0
+AnchorPoint: "BNAnchor-2" 296 4 basechar 0
 AnchorPoint: "BNAnchor-1" 292 0 basechar 0
 AnchorPoint: "BNAnchor-0" 292 0 basechar 0
 LayerCount: 2
@@ -29860,7 +29865,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 296 -31 basechar 0
+AnchorPoint: "BNAnchor-2" 296 -31 basechar 0
 AnchorPoint: "BNAnchor-1" 368 0 basechar 0
 AnchorPoint: "BNAnchor-0" 368 0 basechar 0
 LayerCount: 2
@@ -29951,7 +29956,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 322 -2 basechar 0
+AnchorPoint: "BNAnchor-2" 322 -2 basechar 0
 AnchorPoint: "BNAnchor-1" 280 0 basechar 0
 AnchorPoint: "BNAnchor-0" 280 0 basechar 0
 LayerCount: 2
@@ -30219,7 +30224,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 317 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 317 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 317 0 basechar 0
 AnchorPoint: "BNAnchor-0" 317 0 basechar 0
 LayerCount: 2
@@ -30411,7 +30416,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 373 -74 basechar 0
+AnchorPoint: "BNAnchor-2" 373 -74 basechar 0
 AnchorPoint: "BNAnchor-1" 443 0 basechar 0
 AnchorPoint: "BNAnchor-0" 442 0 basechar 0
 LayerCount: 2
@@ -30610,7 +30615,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 376 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 376 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 372 0 basechar 0
 AnchorPoint: "BNAnchor-0" 372 0 basechar 0
 LayerCount: 2
@@ -30719,7 +30724,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 375 0 basechar 0
+AnchorPoint: "BNAnchor-2" 375 0 basechar 0
 AnchorPoint: "BNAnchor-1" 372 0 basechar 0
 AnchorPoint: "BNAnchor-0" 372 0 basechar 0
 LayerCount: 2
@@ -31013,7 +31018,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 450 1 basechar 0
+AnchorPoint: "BNAnchor-2" 450 1 basechar 0
 AnchorPoint: "BNAnchor-1" 447 0 basechar 0
 AnchorPoint: "BNAnchor-0" 447 0 basechar 0
 LayerCount: 2
@@ -31126,7 +31131,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 446 -4 basechar 0
+AnchorPoint: "BNAnchor-2" 446 -4 basechar 0
 AnchorPoint: "BNAnchor-1" 441 0 basechar 0
 AnchorPoint: "BNAnchor-0" 441 0 basechar 0
 LayerCount: 2
@@ -31238,7 +31243,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 476 -71 basechar 0
+AnchorPoint: "BNAnchor-2" 476 -71 basechar 0
 AnchorPoint: "BNAnchor-1" 360 0 basechar 0
 AnchorPoint: "BNAnchor-0" 365 0 basechar 0
 LayerCount: 2
@@ -31355,7 +31360,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 295 -26 basechar 0
+AnchorPoint: "BNAnchor-2" 295 -26 basechar 0
 AnchorPoint: "BNAnchor-1" 331 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 331 0 basechar 0
 LayerCount: 2
@@ -31899,7 +31904,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 472 4 basechar 0
+AnchorPoint: "BNAnchor-2" 472 4 basechar 0
 AnchorPoint: "BNAnchor-1" 472 0 basechar 0
 AnchorPoint: "BNAnchor-0" 472 0 basechar 0
 LayerCount: 2
@@ -32012,7 +32017,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 500 3 basechar 0
+AnchorPoint: "BNAnchor-2" 500 3 basechar 0
 AnchorPoint: "BNAnchor-1" 494 0 basechar 0
 AnchorPoint: "BNAnchor-0" 494 0 basechar 0
 LayerCount: 2
@@ -32134,7 +32139,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 342 8 basechar 0
+AnchorPoint: "BNAnchor-2" 342 8 basechar 0
 AnchorPoint: "BNAnchor-1" 334 0 basechar 0
 AnchorPoint: "BNAnchor-0" 334 4 basechar 0
 LayerCount: 2
@@ -32232,7 +32237,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 348 -42 basechar 0
+AnchorPoint: "BNAnchor-2" 348 -42 basechar 0
 AnchorPoint: "BNAnchor-1" 405 0 basechar 0
 AnchorPoint: "BNAnchor-0" 405 0 basechar 0
 LayerCount: 2
@@ -32344,7 +32349,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 477 -1 basechar 0
+AnchorPoint: "BNAnchor-2" 477 -1 basechar 0
 AnchorPoint: "BNAnchor-1" 355 0 basechar 0
 AnchorPoint: "BNAnchor-0" 355 5 basechar 0
 LayerCount: 2
@@ -32571,7 +32576,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 438 -8 basechar 0
+AnchorPoint: "BNAnchor-2" 438 -8 basechar 0
 AnchorPoint: "BNAnchor-1" 362 0 basechar 0
 AnchorPoint: "BNAnchor-0" 362 0 basechar 0
 LayerCount: 2
@@ -32682,7 +32687,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 417 0 basechar 0
+AnchorPoint: "BNAnchor-2" 417 0 basechar 0
 AnchorPoint: "BNAnchor-1" 365 0 basechar 0
 AnchorPoint: "BNAnchor-0" 365 0 basechar 0
 LayerCount: 2
@@ -32888,7 +32893,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 325 0 basechar 0
+AnchorPoint: "BNAnchor-2" 325 0 basechar 0
 AnchorPoint: "BNAnchor-1" 324 0 basechar 0
 AnchorPoint: "BNAnchor-0" 324 0 basechar 0
 LayerCount: 2
@@ -32992,7 +32997,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 310 4 basechar 0
+AnchorPoint: "BNAnchor-2" 310 4 basechar 0
 AnchorPoint: "BNAnchor-1" 310 0 basechar 0
 AnchorPoint: "BNAnchor-0" 310 0 basechar 0
 LayerCount: 2
@@ -33091,7 +33096,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 411 4 basechar 0
+AnchorPoint: "BNAnchor-2" 411 4 basechar 0
 AnchorPoint: "BNAnchor-1" 409 0 basechar 0
 AnchorPoint: "BNAnchor-0" 409 -4 basechar 0
 LayerCount: 2
@@ -33314,7 +33319,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 451 -123 basechar 0
+AnchorPoint: "BNAnchor-2" 451 -123 basechar 0
 AnchorPoint: "BNAnchor-1" 419 0 basechar 0
 AnchorPoint: "BNAnchor-0" 419 0 basechar 0
 LayerCount: 2
@@ -33564,7 +33569,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 427 -8 basechar 0
+AnchorPoint: "BNAnchor-2" 427 -8 basechar 0
 AnchorPoint: "BNAnchor-1" 411 -3 basechar 0
 AnchorPoint: "BNAnchor-0" 579 29 basechar 0
 LayerCount: 2
@@ -33698,7 +33703,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 626 -114 basechar 0
+AnchorPoint: "BNAnchor-2" 626 -114 basechar 0
 AnchorPoint: "BNAnchor-1" 483 -4 basechar 0
 AnchorPoint: "BNAnchor-0" 590 15 basechar 0
 LayerCount: 2
@@ -33841,7 +33846,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 418 -25 basechar 0
+AnchorPoint: "BNAnchor-2" 418 -25 basechar 0
 AnchorPoint: "BNAnchor-1" 485 0 basechar 0
 AnchorPoint: "BNAnchor-0" 480 0 basechar 0
 LayerCount: 2
@@ -33941,7 +33946,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 552 -122 basechar 0
+AnchorPoint: "BNAnchor-2" 552 -122 basechar 0
 AnchorPoint: "BNAnchor-1" 485 0 basechar 0
 AnchorPoint: "BNAnchor-0" 475 0 basechar 0
 LayerCount: 2
@@ -34069,7 +34074,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 463 0 basechar 0
+AnchorPoint: "BNAnchor-2" 463 0 basechar 0
 AnchorPoint: "BNAnchor-1" 399 0 basechar 0
 AnchorPoint: "BNAnchor-0" 519 56 basechar 0
 LayerCount: 2
@@ -34389,7 +34394,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 587 -52 basechar 0
+AnchorPoint: "BNAnchor-2" 587 -52 basechar 0
 AnchorPoint: "BNAnchor-1" 583 0 basechar 0
 AnchorPoint: "BNAnchor-0" 580 -4 basechar 0
 LayerCount: 2
@@ -34932,7 +34937,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 370 -28 basechar 0
+AnchorPoint: "BNAnchor-2" 370 -28 basechar 0
 AnchorPoint: "BNAnchor-1" 475 0 basechar 0
 AnchorPoint: "BNAnchor-0" 480 0 basechar 0
 LayerCount: 2
@@ -35059,7 +35064,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 440 20 basechar 0
+AnchorPoint: "BNAnchor-2" 440 20 basechar 0
 AnchorPoint: "BNAnchor-1" 460 0 basechar 0
 AnchorPoint: "BNAnchor-0" 465 0 basechar 0
 LayerCount: 2
@@ -35169,7 +35174,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 588 -35 basechar 0
+AnchorPoint: "BNAnchor-2" 588 -35 basechar 0
 AnchorPoint: "BNAnchor-1" 545 0 basechar 0
 AnchorPoint: "BNAnchor-0" 545 0 basechar 0
 LayerCount: 2
@@ -35300,7 +35305,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 316 -34 basechar 0
+AnchorPoint: "BNAnchor-2" 316 -34 basechar 0
 AnchorPoint: "BNAnchor-1" 465 0 basechar 0
 AnchorPoint: "BNAnchor-0" 465 0 basechar 0
 LayerCount: 2
@@ -36000,7 +36005,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 492 -8 basechar 0
+AnchorPoint: "BNAnchor-2" 492 -8 basechar 0
 AnchorPoint: "BNAnchor-1" 487 0 basechar 0
 AnchorPoint: "BNAnchor-0" 487 -4 basechar 0
 LayerCount: 2
@@ -36133,7 +36138,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 497 4 basechar 0
+AnchorPoint: "BNAnchor-2" 497 4 basechar 0
 AnchorPoint: "BNAnchor-1" 493 0 basechar 0
 AnchorPoint: "BNAnchor-0" 493 0 basechar 0
 LayerCount: 2
@@ -36377,7 +36382,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 288 4 basechar 0
+AnchorPoint: "BNAnchor-2" 288 4 basechar 0
 AnchorPoint: "BNAnchor-1" 283 0 basechar 0
 AnchorPoint: "BNAnchor-0" 283 0 basechar 0
 LayerCount: 2
@@ -36485,7 +36490,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 462 -31 basechar 0
+AnchorPoint: "BNAnchor-2" 462 -31 basechar 0
 AnchorPoint: "BNAnchor-1" 458 0 basechar 0
 AnchorPoint: "BNAnchor-0" 458 0 basechar 0
 LayerCount: 2
@@ -36627,7 +36632,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 260 -32 basechar 0
+AnchorPoint: "BNAnchor-2" 260 -32 basechar 0
 AnchorPoint: "BNAnchor-1" 230 0 basechar 0
 AnchorPoint: "BNAnchor-0" 315 15 basechar 0
 LayerCount: 2
@@ -36753,7 +36758,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 382 -124 basechar 0
+AnchorPoint: "BNAnchor-2" 382 -124 basechar 0
 AnchorPoint: "BNAnchor-1" 260 0 basechar 0
 AnchorPoint: "BNAnchor-0" 305 25 basechar 0
 LayerCount: 2
@@ -36904,7 +36909,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 244 0 basechar 0
+AnchorPoint: "BNAnchor-2" 244 0 basechar 0
 AnchorPoint: "BNAnchor-1" 270 0 basechar 0
 AnchorPoint: "BNAnchor-0" 338 0 basechar 0
 LayerCount: 2
@@ -37019,7 +37024,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 332 4 basechar 0
+AnchorPoint: "BNAnchor-2" 332 4 basechar 0
 AnchorPoint: "BNAnchor-1" 325 0 basechar 0
 AnchorPoint: "BNAnchor-0" 320 0 basechar 0
 LayerCount: 2
@@ -37390,7 +37395,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 471 -36 basechar 0
+AnchorPoint: "BNAnchor-2" 471 -36 basechar 0
 AnchorPoint: "BNAnchor-1" 471 4 basechar 0
 AnchorPoint: "BNAnchor-0" 471 4 basechar 0
 LayerCount: 2
@@ -37585,7 +37590,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 284 1 basechar 0
+AnchorPoint: "BNAnchor-2" 284 1 basechar 0
 AnchorPoint: "BNAnchor-1" 279 0 basechar 0
 AnchorPoint: "BNAnchor-0" 287 0 basechar 0
 LayerCount: 2
@@ -37783,7 +37788,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 351 4 basechar 0
+AnchorPoint: "BNAnchor-2" 351 4 basechar 0
 AnchorPoint: "BNAnchor-1" 347 0 basechar 0
 AnchorPoint: "BNAnchor-0" 347 0 basechar 0
 LayerCount: 2
@@ -37891,7 +37896,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 448 -12 basechar 0
+AnchorPoint: "BNAnchor-2" 448 -12 basechar 0
 AnchorPoint: "BNAnchor-1" 444 8 basechar 0
 AnchorPoint: "BNAnchor-0" 444 -5 basechar 0
 LayerCount: 2
@@ -38030,7 +38035,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 448 -44 basechar 0
+AnchorPoint: "BNAnchor-2" 448 -44 basechar 0
 AnchorPoint: "BNAnchor-1" 443 0 basechar 0
 AnchorPoint: "BNAnchor-0" 443 -4 basechar 0
 LayerCount: 2
@@ -38323,7 +38328,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 487 18 basechar 0
+AnchorPoint: "BNAnchor-2" 487 18 basechar 0
 AnchorPoint: "BNAnchor-1" 465 5 basechar 0
 AnchorPoint: "BNAnchor-0" 535 65 basechar 0
 LayerCount: 2
@@ -38458,7 +38463,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 453 -106 basechar 0
+AnchorPoint: "BNAnchor-2" 453 -106 basechar 0
 AnchorPoint: "BNAnchor-1" 428 4 basechar 0
 AnchorPoint: "BNAnchor-0" 428 38 basechar 0
 LayerCount: 2
@@ -38599,7 +38604,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 576 -138 basechar 0
+AnchorPoint: "BNAnchor-2" 576 -138 basechar 0
 AnchorPoint: "BNAnchor-1" 470 0 basechar 0
 AnchorPoint: "BNAnchor-0" 565 67 basechar 0
 LayerCount: 2
@@ -38765,7 +38770,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 312 -32 basechar 0
+AnchorPoint: "BNAnchor-2" 312 -32 basechar 0
 AnchorPoint: "BNAnchor-1" 422 0 basechar 0
 AnchorPoint: "BNAnchor-0" 422 -4 basechar 0
 LayerCount: 2
@@ -38874,7 +38879,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 364 -90 basechar 0
+AnchorPoint: "BNAnchor-2" 364 -90 basechar 0
 AnchorPoint: "BNAnchor-1" 400 0 basechar 0
 AnchorPoint: "BNAnchor-0" 400 0 basechar 0
 LayerCount: 2
@@ -38993,7 +38998,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 420 -33 basechar 0
+AnchorPoint: "BNAnchor-2" 420 -33 basechar 0
 AnchorPoint: "BNAnchor-1" 416 0 basechar 0
 AnchorPoint: "BNAnchor-0" 416 0 basechar 0
 LayerCount: 2
@@ -39103,7 +39108,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 435 -182 basechar 0
+AnchorPoint: "BNAnchor-2" 435 -182 basechar 0
 AnchorPoint: "BNAnchor-1" 430 0 basechar 0
 AnchorPoint: "BNAnchor-0" 430 0 basechar 0
 LayerCount: 2
@@ -39220,7 +39225,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 387 -18 basechar 0
+AnchorPoint: "BNAnchor-2" 387 -18 basechar 0
 AnchorPoint: "BNAnchor-1" 335 0 basechar 0
 AnchorPoint: "BNAnchor-0" 336 0 basechar 0
 LayerCount: 2
@@ -39326,7 +39331,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 357 -7 basechar 0
+AnchorPoint: "BNAnchor-2" 357 -7 basechar 0
 AnchorPoint: "BNAnchor-1" 357 0 basechar 0
 AnchorPoint: "BNAnchor-0" 357 0 basechar 0
 LayerCount: 2
@@ -39997,7 +40002,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 573 -64 basechar 0
+AnchorPoint: "BNAnchor-2" 573 -64 basechar 0
 AnchorPoint: "BNAnchor-1" 566 0 basechar 0
 AnchorPoint: "BNAnchor-0" 566 -4 basechar 0
 LayerCount: 2
@@ -40107,7 +40112,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 339 0 basechar 0
+AnchorPoint: "BNAnchor-2" 339 0 basechar 0
 AnchorPoint: "BNAnchor-1" 339 0 basechar 0
 AnchorPoint: "BNAnchor-0" 339 0 basechar 0
 LayerCount: 2
@@ -40301,7 +40306,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 448 4 basechar 0
+AnchorPoint: "BNAnchor-2" 448 4 basechar 0
 AnchorPoint: "BNAnchor-1" 415 0 basechar 0
 AnchorPoint: "BNAnchor-0" 415 0 basechar 0
 LayerCount: 2
@@ -40397,7 +40402,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 463 -8 basechar 0
+AnchorPoint: "BNAnchor-2" 463 -8 basechar 0
 AnchorPoint: "BNAnchor-1" 410 0 basechar 0
 AnchorPoint: "BNAnchor-0" 410 0 basechar 0
 LayerCount: 2
@@ -40509,7 +40514,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 455 -16 basechar 0
+AnchorPoint: "BNAnchor-2" 455 -16 basechar 0
 AnchorPoint: "BNAnchor-1" 410 0 basechar 0
 AnchorPoint: "BNAnchor-0" 410 0 basechar 0
 LayerCount: 2
@@ -40739,7 +40744,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 328 12 basechar 0
+AnchorPoint: "BNAnchor-2" 328 12 basechar 0
 AnchorPoint: "BNAnchor-1" 300 0 basechar 0
 AnchorPoint: "BNAnchor-0" 300 0 basechar 0
 LayerCount: 2
@@ -40831,7 +40836,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 269 -3 basechar 0
+AnchorPoint: "BNAnchor-2" 269 -3 basechar 0
 AnchorPoint: "BNAnchor-1" 260 0 basechar 0
 AnchorPoint: "BNAnchor-0" 265 0 basechar 0
 LayerCount: 2
@@ -40930,7 +40935,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 281 -90 basechar 0
+AnchorPoint: "BNAnchor-2" 281 -90 basechar 0
 AnchorPoint: "BNAnchor-1" 245 0 basechar 0
 AnchorPoint: "BNAnchor-0" 255 0 basechar 0
 LayerCount: 2
@@ -41028,7 +41033,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 239 -3 basechar 0
+AnchorPoint: "BNAnchor-2" 239 -3 basechar 0
 AnchorPoint: "BNAnchor-1" 290 0 basechar 0
 AnchorPoint: "BNAnchor-0" 285 0 basechar 0
 LayerCount: 2
@@ -41095,7 +41100,7 @@ Encoding: 65803 -1 417
 Width: 718
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-2" 605 -49 basechar 0
+AnchorPoint: "BNAnchor-2" 605 -49 basechar 0
 AnchorPoint: "BNAnchor-1" 606 -50 basechar 0
 AnchorPoint: "BNAnchor-0" 610 -50 basechar 0
 LayerCount: 2
@@ -41201,7 +41206,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 382 0 basechar 0
+AnchorPoint: "BNAnchor-2" 382 0 basechar 0
 AnchorPoint: "BNAnchor-1" 378 0 basechar 0
 AnchorPoint: "BNAnchor-0" 378 0 basechar 0
 LayerCount: 2
@@ -41320,7 +41325,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 385 -109 basechar 0
+AnchorPoint: "BNAnchor-2" 385 -109 basechar 0
 AnchorPoint: "BNAnchor-1" 322 0 basechar 0
 AnchorPoint: "BNAnchor-0" 322 0 basechar 0
 LayerCount: 2
@@ -41423,7 +41428,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 276 -81 basechar 0
+AnchorPoint: "BNAnchor-2" 276 -81 basechar 0
 AnchorPoint: "BNAnchor-1" 275 0 basechar 0
 AnchorPoint: "BNAnchor-0" 280 0 basechar 0
 LayerCount: 2
@@ -41632,8 +41637,7 @@ SplineSet
  310 -130 310 -130 293 -130 c 1,95,-1
  293 -130 l 1,83,84
 EndSplineSet
-Ligature2: "presPreBaseSubstitutionslookup7 subtable" ddabeng nuktabeng viramabeng gabeng
-LCarets2: 2 0 0 
+Ligature2: "presPreBaseSubstitutionslookup7 subtable" rrabeng_viramabeng gabeng
 EndChar
 
 StartChar: rrabeng_viramabeng_rabeng
@@ -41672,7 +41676,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 444 -191 basechar 0
+AnchorPoint: "BNAnchor-2" 444 -191 basechar 0
 AnchorPoint: "BNAnchor-1" 320 0 basechar 0
 AnchorPoint: "BNAnchor-0" 320 0 basechar 0
 LayerCount: 2
@@ -41777,7 +41781,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 352 -166 basechar 0
+AnchorPoint: "BNAnchor-2" 352 -166 basechar 0
 AnchorPoint: "BNAnchor-1" 225 0 basechar 0
 AnchorPoint: "BNAnchor-0" 225 0 basechar 0
 LayerCount: 2
@@ -41973,7 +41977,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 318 1 basechar 0
+AnchorPoint: "BNAnchor-2" 318 1 basechar 0
 AnchorPoint: "BNAnchor-1" 318 0 basechar 0
 AnchorPoint: "BNAnchor-0" 318 0 basechar 0
 LayerCount: 2
@@ -42075,7 +42079,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 313 5 basechar 0
+AnchorPoint: "BNAnchor-2" 313 5 basechar 0
 AnchorPoint: "BNAnchor-1" 313 0 basechar 0
 AnchorPoint: "BNAnchor-0" 313 0 basechar 0
 LayerCount: 2
@@ -42179,7 +42183,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 347 5 basechar 0
+AnchorPoint: "BNAnchor-2" 347 5 basechar 0
 AnchorPoint: "BNAnchor-1" 343 4 basechar 0
 AnchorPoint: "BNAnchor-0" 343 0 basechar 0
 LayerCount: 2
@@ -42283,7 +42287,7 @@ PUSHW_3
  5
 CALL
 EndTTInstrs
-AnchorPoint: "Anchor-2" 343 0 basechar 0
+AnchorPoint: "BNAnchor-2" 343 0 basechar 0
 AnchorPoint: "BNAnchor-1" 343 0 basechar 0
 AnchorPoint: "BNAnchor-0" 343 4 basechar 0
 LayerCount: 2
@@ -43091,8 +43095,10 @@ SplineSet
  -130 -120 l 1,23,-1
  -130 -120 l 1,0,1
 EndSplineSet
-Ligature2: "blwfBelowBaseFormslookup4 subtable" viramabeng u09F0
 Ligature2: "blwfBelowBaseFormslookup4 subtable" viramabeng rabeng
+Ligature2: "'blwf' Below Base Forms in Bengali lookup 12-1" rabeng viramabeng
+Ligature2: "'blwf' Below Base Forms in Bengali lookup 12-1" u09F0 viramabeng
+Ligature2: "blwfBelowBaseFormslookup4 subtable" viramabeng u09F0
 LCarets2: 1 0 
 EndChar
 
@@ -43227,6 +43233,7 @@ SplineSet
  198 98 198 98 225 60 c 1,18,-1
  225 60 l 1,11,-1
 EndSplineSet
+Ligature2: "'blwf' Below Base Forms in Bengali lookup 12-1" babeng viramabeng
 Ligature2: "blwfBelowBaseFormslookup4 subtable" viramabeng babeng
 EndChar
 
@@ -43619,6 +43626,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 399 -20 2
 Refer: 64 2453 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" kabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" kabeng viramabeng
 EndChar
@@ -43639,7 +43647,7 @@ StartChar: gabeng_viramabeng
 Encoding: 65827 -1 448
 Width: 507
 Flags: W
-AnchorPoint: "Anchor-2" 397 -2 basechar 0
+AnchorPoint: "BNAnchor-2" 397 -2 basechar 0
 AnchorPoint: "BNAnchor-1" 398 0 basechar 0
 AnchorPoint: "BNAnchor-0" 402 -4 basechar 0
 LayerCount: 2
@@ -43686,6 +43694,7 @@ SplineSet
  586 -254 l 1,48,-1
  586 -254 l 1,44,-1
 EndSplineSet
+Ligature2: "halfHalfFormslookup5 subtable" gabeng viramabeng
 Ligature2: "'haln' Halant Forms lookup 11-1" gabeng viramabeng
 EndChar
 
@@ -43697,6 +43706,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 470 -20 2
 Refer: 67 2456 N 1 0 0 1 -2 -2 2
+Ligature2: "halfHalfFormslookup5 subtable" ghabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" ghabeng viramabeng
 EndChar
@@ -43709,6 +43719,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 431 -20 2
 Refer: 68 2457 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" ngabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" ngabeng viramabeng
 EndChar
@@ -43721,6 +43732,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 280 0 2
 Refer: 69 2458 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" cabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" cabeng viramabeng
 EndChar
@@ -43745,6 +43757,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 717 -18 2
 Refer: 71 2460 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" jabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" jabeng viramabeng
 EndChar
@@ -43769,6 +43782,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 580 -20 2
 Refer: 73 2462 N 1 0 0 1 0 -1 2
+Ligature2: "halfHalfFormslookup5 subtable" nyabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" nyabeng viramabeng
 EndChar
@@ -43781,6 +43795,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 276 -20 2
 Refer: 74 2463 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" ttabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" ttabeng viramabeng
 EndChar
@@ -43805,6 +43820,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 410 -20 2
 Refer: 76 2465 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" ddabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" ddabeng viramabeng
 EndChar
@@ -43817,6 +43833,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 280 -20 2
 Refer: 77 2466 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" ddhabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" ddhabeng viramabeng
 EndChar
@@ -43829,6 +43846,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 461 -20 2
 Refer: 78 2467 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" nnabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" nnabeng viramabeng
 EndChar
@@ -43841,6 +43859,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 423 -19 2
 Refer: 79 2468 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" tabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" tabeng viramabeng
 EndChar
@@ -43853,6 +43872,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 499 -20 2
 Refer: 80 2469 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" thabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" thabeng viramabeng
 EndChar
@@ -43865,6 +43885,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 437 -20 2
 Refer: 81 2470 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" dabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" dabeng viramabeng
 EndChar
@@ -43877,6 +43898,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 430 -20 2
 Refer: 82 2471 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" dhabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" dhabeng viramabeng
 EndChar
@@ -43889,6 +43911,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 N 1 0 0 1 461 -20 2
 Refer: 83 2472 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" nabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" nabeng viramabeng
 EndChar
@@ -43901,6 +43924,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 525 -20 2
 Refer: 84 2474 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" pabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" pabeng viramabeng
 EndChar
@@ -43913,6 +43937,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 432 -20 2
 Refer: 85 2475 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" phabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" phabeng viramabeng
 EndChar
@@ -43925,6 +43950,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 436 -20 2
 Refer: 86 2476 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" babeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" babeng viramabeng
 EndChar
@@ -43937,6 +43963,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 446 -20 2
 Refer: 87 2477 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" bhabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" bhabeng viramabeng
 EndChar
@@ -43949,6 +43976,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 422 -20 2
 Refer: 88 2478 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" mabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" mabeng viramabeng
 EndChar
@@ -43968,13 +43996,13 @@ EndChar
 StartChar: rabeng_viramabeng_haln
 Encoding: 65851 -1 472
 Width: 423
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 426 -20 2
 Refer: 90 2480 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
-Ligature2: "'haln' Halant Forms lookup 11-1" rabeng viramabeng
+Ligature2: "'half' Half Forms in Bengali lookup 14-1" rabeng viramabeng
 EndChar
 
 StartChar: labeng_viramabeng
@@ -43985,6 +44013,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 571 -20 2
 Refer: 91 2482 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" labeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" labeng viramabeng
 EndChar
@@ -43993,7 +44022,7 @@ StartChar: shabeng_viramabeng
 Encoding: 65854 -1 474
 Width: 485
 Flags: W
-AnchorPoint: "Anchor-2" 374 0 basechar 0
+AnchorPoint: "BNAnchor-2" 374 0 basechar 0
 AnchorPoint: "BNAnchor-1" 374 0 basechar 0
 AnchorPoint: "BNAnchor-0" 374 4 basechar 0
 LayerCount: 2
@@ -44044,6 +44073,7 @@ SplineSet
  562 -254 l 1,53,-1
  562 -254 l 1,49,-1
 EndSplineSet
+Ligature2: "halfHalfFormslookup5 subtable" shabeng viramabeng
 Ligature2: "'haln' Halant Forms lookup 11-1" shabeng viramabeng
 EndChar
 
@@ -44055,6 +44085,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 429 -20 2
 Refer: 93 2487 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" ssabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" ssabeng viramabeng
 EndChar
@@ -44067,6 +44098,7 @@ LayerCount: 2
 Fore
 Refer: 109 2509 S 1 0 0 1 516 -20 2
 Refer: 94 2488 N 1 0 0 1 0 0 2
+Ligature2: "halfHalfFormslookup5 subtable" sabeng viramabeng
 LCarets2: 1 0 
 Ligature2: "'haln' Halant Forms lookup 11-1" sabeng viramabeng
 EndChar
@@ -44088,7 +44120,7 @@ StartChar: rrabeng_viramabeng
 Encoding: 65858 -1 478
 Width: 549
 Flags: W
-AnchorPoint: "Anchor-2" 393 0 basechar 0
+AnchorPoint: "BNAnchor-2" 393 0 basechar 0
 AnchorPoint: "BNAnchor-1" 360 0 basechar 0
 AnchorPoint: "BNAnchor-0" 360 0 basechar 0
 LayerCount: 2
@@ -44141,14 +44173,16 @@ SplineSet
  602 -254 l 1,56,-1
  602 -254 l 1,52,-1
 EndSplineSet
-Ligature2: "'haln' Halant Forms lookup 11-1" rrabeng viramabeng
+LCarets2: 1 0 
+Ligature2: "halfHalfFormslookup5 subtable" rrabeng viramabeng
+Ligature2: "blwsBelowBaseSubstitutionslooku subtable" rrabeng viramabeng
 EndChar
 
 StartChar: rhabeng_viramabeng
 Encoding: 65859 -1 479
 Width: 419
 Flags: W
-AnchorPoint: "Anchor-2" 277 0 basechar 0
+AnchorPoint: "BNAnchor-2" 277 0 basechar 0
 AnchorPoint: "BNAnchor-1" 235 0 basechar 0
 AnchorPoint: "BNAnchor-0" 235 -5 basechar 0
 LayerCount: 2
@@ -44202,7 +44236,7 @@ StartChar: yyabeng_viramabeng
 Encoding: 65860 -1 480
 Width: 453
 Flags: W
-AnchorPoint: "Anchor-2" 346 0 basechar 0
+AnchorPoint: "BNAnchor-2" 346 0 basechar 0
 AnchorPoint: "BNAnchor-1" 341 0 basechar 0
 AnchorPoint: "BNAnchor-0" 337 0 basechar 0
 LayerCount: 2
