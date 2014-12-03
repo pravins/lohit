@@ -1,5 +1,9 @@
 				  lohit-assamese
-Current Version :- 2.91.0
+Current Version :- 2.91.1
+
+* Wed Dec 03 2014 Pravin Satpute <psatpute@redhat.com> - 2.91.1
+- Resolved issue of conjuncts with matra issue #57.
+- Tested and fixed issue in winxp.
 
 * Mon Oct 13 2014 Pravin Satpute <psatpute@redhat.com> - 2.91.0
 - First release of Assamese under Lohit2 project. Imported for Lohit Bengali
