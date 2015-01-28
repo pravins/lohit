@@ -141,7 +141,6 @@ lookup sub_chain_blwsory2_2 {
 lookup presPreBaseSubstitutionsinOriya {
   lookupflag 0;
     sub \ngaodia_viramasignodia_kaodia \ssaodia \viramasignodia  by \ngaodia_vir_kaodia_vir_ssaodia;
-  subtable;
     sub \kaodia \viramasignodia_kaodia  by \kaodia_viramasignodia_kaodia;
     sub \kaodia \viramasignodia_taodia  by \kaodia_viramasignodia_taodia;
     sub \kaodia \viramasignodia_taodia \viramasignodia_raodia  by \kaodia_virm_taodia_virm_raodia;
@@ -632,7 +631,7 @@ lookup blwmBelowBaseMarklookup0 {
   pos base [\kaodia \caodia \ddaodia \taodia \naodia \baodia \bhaodia \vaodia \haodia ] <anchor 370 0> mark @oranchor1;
   pos base [\daodia \naodia_viramasignodia_daodia ] <anchor 352 40> mark @oranchor1;
   pos base [\phaodia ] <anchor 630 0> mark @oranchor1;
-  pos base [\raodia ] <anchor 370 -0> mark @oranchor1;
+  pos base [\raodia ] <anchor 370 0> mark @oranchor1;
   pos base [\laodia ] <anchor 330 0> mark @oranchor1;
   pos base [\llaodia ] <anchor 360 0> mark @oranchor1;
   pos base [\rraodia \rhaodia ] <anchor 523 -149> mark @oranchor1;
