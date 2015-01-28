@@ -8,8 +8,6 @@
 # # License: OFL 1.1
 # # License URL: http://scripts.sil.org/OFL
 #
-# # GSUB 
-#
 
 languagesystem ory2 dflt;
 languagesystem orya dflt;
@@ -141,6 +139,10 @@ lookup sub_chain_blwsory2_2 {
 lookup presPreBaseSubstitutionsinOriya {
   lookupflag 0;
     sub \ngaodia_viramasignodia_kaodia \ssaodia \viramasignodia  by \ngaodia_vir_kaodia_vir_ssaodia;
+} presPreBaseSubstitutionsinOriya;
+
+lookup sub_ligature_presory2_0 {
+  lookupflag 0;
     sub \kaodia \viramasignodia_kaodia  by \kaodia_viramasignodia_kaodia;
     sub \kaodia \viramasignodia_taodia  by \kaodia_viramasignodia_taodia;
     sub \kaodia \viramasignodia_taodia \viramasignodia_raodia  by \kaodia_virm_taodia_virm_raodia;
@@ -298,7 +300,7 @@ lookup presPreBaseSubstitutionsinOriya {
     sub \yyaodia \viramasignodia_raodia  by \yyaodia_viramasignodia_raodia;
     sub \caodia \nuktasignodia \viramasignodia_raodia  by \glyph323;
     sub \kaodia_viramasignodia_ssaodia \viramasignodia_raodia  by \glyph324;
-} presPreBaseSubstitutionsinOriya;
+} sub_ligature_presory2_0;
 
 lookup sub_ligature_presorya_0 {
   lookupflag 0;
@@ -553,6 +555,7 @@ feature pres {
  script ory2;
      language dflt ;
       lookup presPreBaseSubstitutionsinOriya;
+      lookup sub_ligature_presory2_0;
 
  script orya;
      language dflt ;
@@ -628,10 +631,9 @@ lookup blwmBelowBaseMarklookup0 {
   lookupflag 0;
   markClass [\usignodia \uusignodia ] <anchor -124 4> @oranchor1;
   markClass [\vocalicrsignodia ] <anchor -133 0> @oranchor1;
-  pos base [\kaodia \caodia \ddaodia \taodia \naodia \baodia \bhaodia \vaodia \haodia ] <anchor 370 0> mark @oranchor1;
+  pos base [\kaodia \caodia \ddaodia \taodia \naodia \baodia \bhaodia \raodia \vaodia \haodia ] <anchor 370 0> mark @oranchor1;
   pos base [\daodia \naodia_viramasignodia_daodia ] <anchor 352 40> mark @oranchor1;
   pos base [\phaodia ] <anchor 630 0> mark @oranchor1;
-  pos base [\raodia ] <anchor 370 0> mark @oranchor1;
   pos base [\laodia ] <anchor 330 0> mark @oranchor1;
   pos base [\llaodia ] <anchor 360 0> mark @oranchor1;
   pos base [\rraodia \rhaodia ] <anchor 523 -149> mark @oranchor1;
@@ -758,7 +760,7 @@ feature blwm {
 	\glyph236.alt \usignodia.alt \uusignodia.alt \vocalicrsignodia.alt \glyph411 
 	\glyph412 \glyph413 \glyph414 \rupeeodia \fractiononequarterodia 
 	\fractiononehalfodia \fractionthreequarterodia \fractiononesixteenthodia 
-	\fractiononeeigthodia \fractionthreesixteenthodia ];
+	\fractiononeeigthodia \fractionthreesixteenthodia \uni0964 \uni0965 ];
 @GDEF_Ligature = [\kaodia_vir_ssaodia_vir_nnaodia ];
 @GDEF_Mark = [\candrabinduodia \anusvaraodia \visargaodia \yaodia \nuktasignodia 
 	\aasignodia \isignodia \iisignodia \usignodia \uusignodia \vocalicrsignodia 

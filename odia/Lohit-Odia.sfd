@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1158849336
-ModificationTime: 1422445491
+ModificationTime: 1422446216
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -58,7 +58,8 @@ Lookup: 6 0 0 "'blws' Below Base Substitutions in Oriya lookup 12" { "'blws' Bel
 Lookup: 1 0 0 "Single Substitution in Oriya lookup 8" { "Single Substitution in Oriya lookup 8-1"  } []
 Lookup: 1 0 0 "Single Substitution in Oriya lookup 9" { "Single Substitution in Oriya lookup 9-1"  } []
 Lookup: 6 0 0 "'blws' Below Base Substitutions in Oriya lookup 11" { "'blws' Below Base Substitutions in Oriya lookup 11-1"  } ['blws' ('ory2' <'dflt' > ) ]
-Lookup: 4 0 0 "'pres' Pre Base Substitutions in Oriya lookup 7" { "'pres' Pre Base Substitutions in Oriya lookup 7-2"  "'pres' Pre Base Substitutions in Oriya lookup 7-1"  } ['pres' ('ory2' <'dflt' > ) ]
+Lookup: 4 0 0 "'pres' Pre Base Substitutions in Oriya2 lookup 16" { "'pres' Pre Base Substitutions in Oriya2 lookup 16-1"  } ['pres' ('ory2' <'dflt' > ) ]
+Lookup: 4 0 0 "'pres' Pre Base Substitutions in Oriya lookup 7" { "'pres' Pre Base Substitutions in Oriya lookup 7-1"  } ['pres' ('ory2' <'dflt' > ) ]
 Lookup: 4 0 0 "'pres' Pre Base Substitutions in Oriya lookup 13" { "'pres' Pre Base Substitutions in Oriya lookup 13-1"  } ['pres' ('orya' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms lookup 2" { "'blwf' Below Base Forms lookup 2-1"  } ['blwf' ('ory2' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms in Oriya lookup 12" { "'blwf' Below Base Forms in Oriya lookup 12-1"  } ['blwf' ('orya' <'dflt' > ) ]
@@ -6501,7 +6502,7 @@ SplineSet
  650 476 l 1,124,125
 EndSplineSet
 Validated: 517
-Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 7-2" ngaodia_viramasignodia_kaodia ssaodia viramasignodia
+Ligature2: "'pres' Pre Base Substitutions in Oriya2 lookup 16-1" ngaodia_viramasignodia_kaodia ssaodia viramasignodia
 Ligature2: "'pres' Pre Base Substitutions in Oriya lookup 7-1" ngaodia_viramasignodia_kaodia viramasignodia ssaodia
 Ligature2: "'akhn' Akhand lookup 0-1" ngaodia viramasignodia kaodia viramasignodia ssaodia
 EndChar
