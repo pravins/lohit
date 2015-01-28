@@ -1,0 +1,429 @@
+This readme is specifically for Lohit Oriya. For instruction on installation and other stuff open README
+        - To generate ttf from feature file
+
+Glyphs not in use:
+        
+	- glyph90
+	- glyph91
+	- glyph92
+	- glyph93
+	- glyph95
+	- glyph96
+	- glyph97
+	- glyph98
+	- glyph100
+	- glyph101
+	- glyph102
+	- glyph103
+	- glyph104
+	- glyph105
+
+Glyph naming guidelines:
+
+
+Glyphs Exceeding 31 Character Limit :
+
+	- kaodia_virm_taodia_virm_raodia
+	- kaodia_vir_ssaodia_vir_nnaodia
+	- kaodia_virm_ssaodia_virm_maodia
+	- ngaodia_virm_kaodia_virm_taodia
+	- ngaodia_vir_kaodia_vir_ssaodia
+	- jaodia_virm_jaodia_virm_baodia
+	- nnaodia_vir_ddaodia_vir_raodia
+	- taodia_virm_taodia_virm_baodia
+	- taodia_virm_taodia_virm_raodia
+	- taodia_virm_maodia_virm_yaodia
+	- taodia_virm_saodia_virm_naodia
+	- taodia_virm_saodia_virm_yaodia
+	- daodia_virm_dhaodia_virm_baodia
+	- naodia_virm_taodia_virm_yaodia
+	- naodia_virm_taodia_virm_raodia
+	- naodia_virm_taodia_virm_baodia
+	- naodia_virm_daodia_virm_raodia
+	- naodia_virm_daodia_virm_baodia
+	- naodia_virm_dhaodia_virm_baodia
+	- naodia_virm_dhaodia_virm_raodia
+	- maodia_virm_paodia_virm_raodia
+	- maodia_virm_bhaodia_virm_raodia
+	- ssaodia_virm_kaodia_virm_raodia
+	- ssaodia_vir_ttaodia_vir_raodia
+	- ssaodia_virm_paodia_virm_raodia
+	- saodia_virm_taodia_virm_raodia
+
+
+Glyph names are as follows, please check sfd file for actual shapes
+
+- .not
+- .null
+- nonmarkingreturn
+- space
+- exclam
+- candrabinduodia
+- anusvaraodia
+- visargaodia
+- aodia
+- aaodia
+- iodia
+- iiodia
+- uodia
+- uuodia
+- vocalicrodia
+- vocaliclodia
+- eodia
+- aiodia
+- oodia
+- auodia
+- kaodia
+- khaodia
+- gaodia
+- ghaodia
+- ngaodia
+- caodia
+- chaodia
+- jaodia
+- jhaodia
+- nyaodia
+- ttaodia
+- tthaodia
+- ddaodia
+- ddhaodia
+- nnaodia
+- taodia
+- thaodia
+- daodia
+- dhaodia
+- naodia
+- paodia
+- phaodia
+- baodia
+- bhaodia
+- maodia
+- yaodia
+- raodia
+- laodia
+- llaodia
+- vaodia
+- shaodia
+- ssaodia
+- saodia
+- haodia
+- nuktasignodia
+- avagrahasignodia
+- aasignodia
+- isignodia
+- iisignodia
+- usignodia
+- uusignodia
+- vocalicrsignodia
+- esignodia
+- aisignodia
+- osignodia
+- ausignodia
+- viramasignodia
+- ailengthodia
+- aulengthodia
+- rraodia
+- rhaodia
+- yyaodia
+- vocalicrrodia
+- vocalicllodia
+- zeroodia
+- oneodia
+- twoodia
+- threeodia
+- fourodia
+- fiveodia
+- sixodia
+- sevenodia
+- eightodia
+- nineodia
+- issharodia
+- waodia
+- zerowidthnonjoinerodia
+- zerowidthjoinerodia
+- figuredash
+- ringoperatorodia
+- dottefcircleodia
+- kaodia_viramasignodia_kaodia
+- kaodia_viramasignodia_taodia
+- kaodia_virm_taodia_virm_raodia
+- kaodia_viramasignodia_baodia
+- kaodia_viramasignodia_llaodia
+- kaodia_viramasignodia_ssaodia
+- kaodia_vir_ssaodia_vir_nnaodia
+- kaodia_virm_ssaodia_virm_maodia
+- glyph114
+- kaodia_viramasignodia_saodia
+- gaodia_viramasignodia_daodia
+- gaodia_viramasignodia_dhaodia
+- gaodia_viramasignodia_naodia
+- gaodia_viramasignodia_llaodia
+- ghaodia_viramasignodia_naodia
+- ngaodia_viramasignodia_kaodia
+- ngaodia_virm_kaodia_virm_taodia
+- ngaodia_vir_kaodia_vir_ssaodia
+- ngaodia_viramasignodia_khaodia
+- ngaodia_viramasignodia_gaodia
+- ngaodia_viramasignodia_ghaodia
+- caodia_viramasignodia_caodia
+- caodia_viramasignodia_chaodia
+- glyph129
+- jaodia_viramasignodia_jaodia
+- jaodia_virm_jaodia_virm_baodia
+- jaodia_viramasignodia_jhaodia
+- jaodia_viramasignodia_nyaodia
+- jaodia_viramasignodia_baodia
+- nyaodia_viramasignodia_caodia
+- nyaodia_viramasignodia_chaodia
+- nyaodia_viramasignodia_jaodia
+- nyaodia_viramasignodia_jhaodia
+- ttaodia_viramasignodia_ttaodia
+- ddaodia_viramasignodia_gaodia
+- ddaodia_viramasignodia_ddaodia
+- nnaodia_viramasignodia_ttaodia
+- nnaodia_viramasignodia_tthaodia
+- nnaodia_viramasignodia_ddaodia
+- nnaodia_vir_ddaodia_vir_raodia
+- nnaodia_viramasignodia_ddhaodia
+- nnaodia_viramasignodia_nnaodia
+- taodia_viramasignodia_kaodia
+- taodia_viramasignodia_taodia
+- taodia_virm_taodia_virm_baodia
+- taodia_virm_taodia_virm_raodia
+- taodia_viramasignodia_thaodia
+- taodia_viramasignodia_naodia
+- taodia_viramasignodia_paodia
+- taodia_viramasignodia_baodia
+- taodia_viramasignodia_maodia
+- taodia_virm_maodia_virm_yaodia
+- taodia_viramasignodia_saodia
+- taodia_virm_saodia_virm_naodia
+- taodia_virm_saodia_virm_yaodia
+- daodia_viramasignodia_gaodia
+- daodia_viramasignodia_ghaodia
+- daodia_viramasignodia_daodia
+- daodia_viramasignodia_dhaodia
+- daodia_virm_dhaodia_virm_baodia
+- daodia_viramasignodia_baodia
+- daodia_viramasignodia_bhaodia
+- glyph168
+- dhaodia_viramasignodia_baodia
+- dhaodia_viramasignodia_yaodia
+- naodia_viramasignodia_taodia
+- naodia_virm_taodia_virm_yaodia
+- naodia_virm_taodia_virm_raodia
+- glyph174
+- naodia_virm_taodia_virm_baodia
+- naodia_viramasignodia_thaodia
+- naodia_viramasignodia_daodia
+- naodia_virm_daodia_virm_raodia
+- naodia_virm_daodia_virm_baodia
+- naodia_viramasignodia_dhaodia
+- naodia_virm_dhaodia_virm_baodia
+- naodia_virm_dhaodia_virm_raodia
+- glyph183
+- naodia_viramasignodia_naodia
+- glyph185
+- paodia_viramasignodia_taodia
+- paodia_viramasignodia_paodia
+- paodia_viramasignodia_llaodia
+- paodia_viramasignodia_saodia
+- baodia_viramasignodia_jaodia
+- baodia_viramasignodia_daodia
+- baodia_viramasignodia_dhaodia
+- maodia_viramasignodia_paodia
+- maodia_virm_paodia_virm_raodia
+- maodia_viramasignodia_phaodia
+- maodia_viramasignodia_baodia
+- maodia_viramasignodia_bhaodia
+- maodia_virm_bhaodia_virm_raodia
+- maodia_viramasignodia_maodia
+- llaodia_viramasignodia_kaodia
+- llaodia_viramasignodia_bhaodia
+- llaodia_viramasignodia_llaodia
+- llaodia_viramasignodia_paodia
+- llaodia_viramasignodia_phaodia
+- laodia_viramasignodia_kaodia
+- laodia_viramasignodia_gaodia
+- laodia_viramasignodia_laodia
+- shaodia_viramasignodia_caodia
+- shaodia_viramasignodia_chaodia
+- shaodia_viramasignodia_baodia
+- shaodia_viramasignodia_llaodia
+- ssaodia_viramasignodia_kaodia
+- ssaodia_virm_kaodia_virm_raodia
+- ssaodia_viramasignodia_ttaodia
+- ssaodia_vir_ttaodia_vir_raodia
+- ssaodia_viramasignodia_tthaodia
+- ssaodia_viramasignodia_nnaodia
+- ssaodia_viramasignodia_paodia
+- ssaodia_virm_paodia_virm_raodia
+- ssaodia_viramasignodia_phaodia
+- saodia_viramasignodia_kaodia
+- saodia_viramasignodia_khaodia
+- saodia_viramasignodia_taodia
+- saodia_virm_taodia_virm_raodia
+- saodia_viramasignodia_thaodia
+- glyph226
+- saodia_viramasignodia_naodia
+- saodia_viramasignodia_paodia
+- saodia_viramasignodia_phaodia
+- saodia_viramasignodia_baodia
+- saodia_viramasignodia_maodia
+- haodia_viramasignodia_naodia
+- haodia_viramasignodia_maodia
+- haodia_viramasignodia_laodia
+- raodia_viramasignodia
+- glyph236
+- viramasignodia_raodia_usignodia
+- viramaodia_raodia_uusignodia
+- glyph239
+- isignodia_candrabinduodia
+- isignodia_raodia_viramasignodia
+- glyph242
+- glyph243
+- glyph244
+- glyph245
+- glyph246
+- kaodia_viramasignodia_raodia
+- khaodia_viramasignodia_raodia
+- gaodia_viramasignodia_raodia
+- ghaodia_viramasignodia_raodia
+- ngaodia_viramasignodia_raodia
+- caodia_viramasignodia_raodia
+- chaodia_viramasignodia_raodia
+- jaodia_viramasignodia_raodia
+- jhaodia_viramasignodia_raodia
+- nyaodia_viramasignodia_raodia
+- ttaodia_viramasignodia_raodia
+- tthaodia_viramasignodia_raodia
+- ddaodia_viramasignodia_raodia
+- ddhaodia_viramasignodia_raodia
+- nnaodia_viramasignodia_raodia
+- taodia_viramasignodia_raodia
+- thaodia_viramasignodia_raodia
+- daodia_viramasignodia_raodia
+- dhaodia_viramasignodia_raodia
+- naodia_viramasignodia_raodia
+- paodia_viramasignodia_raodia
+- phaodia_viramasignodia_raodia
+- baodia_viramasignodia_raodia
+- bhaodia_viramasignodia_raodia
+- maodia_viramasignodia_raodia
+- yaodia_viramasignodia_raodia
+- raodia_viramasignodia_raodia
+- laodia_viramasignodia_raodia
+- llaodia_viramasignodia_raodia
+- vaodia_viramasignodia_raodia
+- shaodia_viramasignodia_raodia
+- ssaodia_viramasignodia_raodia
+- saodia_viramasignodia_raodia
+- haodia_viramasignodia_raodia
+- rraodia_viramasignodia_raodia
+- rhaodia_viramasignodia_raodia
+- yyaodia_viramasignodia_raodia
+- glyph323
+- glyph324
+- viramasignodia_kaodia
+- viramasignodia_khaodia
+- viramasignodia_gaodia
+- viramasignodia_ghaodia
+- viramasignodia_ngaodia
+- viramasignodia_caodia
+- viramasignodia_chaodia
+- viramasignodia_jaodia
+- viramasignodia_jhaodia
+- glyph334
+- viramasignodia_ttaodia
+- viramasignodia_tthaodia
+- viramasignodia_ddaodia
+- viramasignodia_ddhaodia
+- viramasignodia_nnaodia
+- viramasignodia_taodia
+- viramasignodia_thaodia
+- viramasignodia_daodia
+- viramasignodia_dhaodia
+- viramasignodia_naodia
+- viramasignodia_paodia
+- viramasignodia_phaodia
+- viramasignodia_baodia
+- viramasignodia_bhaodia
+- viramasignodia_maodia
+- viramasignodia_yaodia
+- viramasignodia_raodia
+- viramasignodia_laodia
+- viramasignodia_llaodia
+- viramasignodia_vaodia
+- viramasignodia_shaodia
+- viramasignodia_ssaodia
+- viramasignodia_saodia
+- viramasignodia_haodia
+- viramasignodia_waodia
+- glyph360
+- viramasignodia_yyaodia
+- glyph362
+- glyph363
+- baodia_viramasignodia_baodia
+- glyph365
+- glyph366
+- glyph367
+- glyph368
+- glyph369
+- glyph370
+- glyph371
+- glyph372
+- glyph373
+- glyph374
+- glyph375
+- glyph376
+- glyph377
+- glyph378
+- glyph379
+- glyph380
+- glyph381
+- glyph382
+- glyph383
+- glyph384
+- glyph385
+- glyph386
+- glyph387
+- glyph388
+- glyph389
+- glyph390
+- glyph391
+- glyph392
+- glyph393
+- glyph394
+- glyph395
+- glyph396
+- glyph397
+- glyph398
+- glyph399
+- glyph400
+- glyph401
+- glyph402
+- glyph403
+- glyph404
+- glyph405
+- glyph406
+- glyph407
+- glyph408
+- glyph409
+- glyph410
+- glyph411
+- glyph412
+- glyph413
+- glyph414
+- uni0B64
+- uni0B65
+- vocalicrrsignodia
+- vocaliclsignodia
+- vocalicllsignodia
+- rupeeodia
+- fractiononequarterodia
+- fractiononehalfodia
+- fractionthreequarterodia
+- fractiononesixteenthodia
+- fractiononeeigthodia
+- fractionthreesixteenthodia
+

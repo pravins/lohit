@@ -1,8 +1,9 @@
-				  lohit-oriya
-Current Version :- 2.5.5
+				  lohit-odia
 
-* Thu Mar 06 2014 Pravin Satpute <psatpute@redhat.com> - 2.5.5
-- Renaming font to Lohit Odia, as per Government guidelines.
+Current Version :- 2.90.0
+
+- Updated feature rule blwf
+- Corrected feature rules for conjucts ଖ୍ର ଗ୍ର କ୍ଷ୍ଯ
 
 * Wed Jun 19 2013 Pravin Satpute <psatpute@redhat.com> - 2.5.4.1
 - Corrected Makefile with release tarball

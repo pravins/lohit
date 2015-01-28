@@ -1,0 +1,54 @@
+# Test File For Lohit Oriya
+# Created by Shilpa Gite <sgite AT redhat DOT com> - 2014
+
+Consonants:
+ଅ   ଆ  ଇ    ଈ    ଉ    ଊ   ଋ     ଏ   ଐ  ଓ   ଔ  କ   ଖ   ଗ   ଘ    ଙ   ଚ   ଛ   
+ଜ   ଝ    ଞ   ଟ    ଠ   ଡ   ଢ   ଣ  ତ   ଥ   ଦ   ଧ   ନ   ପ   ଫ  ବ    ଭ   ମ   ଯ
+ର   ଲ    ଳ   ଶ    ଷ   ସ   ହ 
+
+Digits:
+୧    ୨   ୩     ୪      ୫      ୬     ୭     ୮    ୯   ୦
+
+
+As per Microsoft typography for Developing OpenType Fonts for Oriya Script, the features can be specified in the order given as :
+
+>>Basic Shaping Forms :
+
+<feature tag> akhn : Akhand ligature substitution
+			ଜ୍ଞ    	କ୍ଷ	    ଙ୍କ୍ଷ
+
+<feature tag> pstf :Post base substitution
+			ୟ୍  
+
+<feature tag> rphf:Reph form substitution
+			କ୍ର		ଖ୍ର		ଗ୍ର		 ଘ୍ର    	ଙ୍ର   	ଚ୍ର    	 ଛ୍ର   	ଜ୍ର		ଝ୍ର		ଞ୍ର	       ଟ୍ର       ଠ୍ର 	  ଡ୍ର	
+			ଢ୍ର		ଣ୍ର      	ତ୍ର       	 ଥ୍ର    	ଦ୍ର   	ଧ୍ର     	ନ୍ର   	ପ୍ର    	 ଫ୍ର   	 ବ୍ର    	ଭ୍ର       ମ୍ର    	 ଯ୍ର     
+			ର୍ର      	ଲ୍ର   	  ଳ୍ର     	  ଷ୍ର    	ଶ୍ର  		 ସ୍ର    	 ଙ୍ର 	 ହ୍ର		 ୟ୍ର     	 ଚ଼୍ର          ଡ଼୍ର        ଢ଼୍ର    	 କ୍ଷ୍ର
+
+<feature tag> nukt:Nukta form substitution
+			ଡ଼  	 ଢ଼   
+
+<feature tag> pres/abvs:Pre-base substitution ,Above base substitution
+			କ୍କ  	 କ୍ତ   	କ୍ତ୍ର     କ୍ଳ   	 କ୍ବ   
+			କ୍ଷ   	କ୍ଷ୍ମ 	 କ୍ଷ୍ଣ      କ୍ଷ୍ଯ
+			କ୍ସ  	 
+			ଗ୍ଳ          ଗ୍ଦ   	ଗ୍ନ	     ଗ୍ଧ      ଘ୍ନ           
+			ଙ୍କ  	 ଙ୍କ୍ତ   	 ଙ୍ଖ	   ଙ୍ଗ 	 ଙ୍କ୍ଷ  	ଙ୍ଘ
+			ଚ୍ଚ		   ଚ୍ଛ
+			ଚଞ
+			ଜ୍ଜ		ଜ୍ଜ୍ୱ		ଜ୍ଝ		ଜ୍ଞ		ଜ୍ୱ	
+			ଞ୍ଚ		ଞ୍ଛ		ଞ୍ଝ		ଞ୍ଜ  
+			ଟ୍ଟ		ଡ୍ଗ		ଡ୍ଡ	
+			ଣ୍ଟ		ଣ୍ଠ		ଣ୍ଡ		ଣ୍ଡ୍ର 	ଣ୍ଢ		 ଣ୍ଣ		
+			ତ୍କ		ତ୍ତ		ତ୍ତ୍ୱ		ତ୍ତ୍ର		ତ୍ଥ		ତ୍ନ		ତ୍ପ 	ତ୍ୱ	         ତ୍ମ	ତ୍ନ୍ଯ      ତ୍ସ	     ତ୍ସ୍ନ	  ତ୍ସ୍ଯ
+			ଦ୍ଗ		ଦ୍ଘ	  	ଦ୍ଦ    	ଦ୍ଧ   	 ଦ୍ଧ୍ବ 	 ଦ୍ବ           ଦ୍ଭ   	 ଦ୍ଯ   	  ଧ୍ବ  	ଧ୍ଯ	  
+			ନ୍ତ		ନ୍ତ୍ୟ	   ନ୍ତ୍ର  	 ନ୍ତ୍ର୍ୟ  	 ନ୍ତ୍ୱ	   ନ୍ଥ    	  ନ୍ଦ	ନ୍ଦ୍ର	 	ନ୍ଦ୍ବ	   	 ନ୍ଧ   	ନ୍ଧ୍ୱ		ନ୍ଧ୍ର		   ନ୍ଧ୍ୟ     	 ନ୍ନ		  ନ୍ନ୍ୟ
+			ପ୍ତ    	ପ୍ପ 	   ପ୍ଳ 	   ପ୍ସ	
+			ବ୍ଜ	 	ବ୍ଧ       ବ୍ଦ 
+			ମ୍ପ   	 ମ୍ଫ	  ମ୍ପ୍ର      	ମ୍ବ     	ମ୍ଭ		   ମ୍ଭ୍ର      ମ୍ମ      
+			ଳ୍କ		ଳ୍ଭ		ଳ୍ଳ  	   ଳ୍ପ      ଳ୍ଫ     
+			ଲ୍କ		ଲ୍ଗ   	ଲ୍ଲ	   
+			ଶ୍ଚ	  ଶ୍ଛ      ଶ୍ବ	      ଶ୍ଳ	    
+			ଷ୍କ	  	 ଷ୍କ୍ର   	   ଷ୍ଟ  	   ଷ୍ଟ୍ର	      ଷ୍ଠ 	     ଷ୍ଣ       	ଷ୍ପ       ଷ୍ପ୍ର       ଷ୍ଫ     
+			ସ୍କ   	  ସ୍ଖ   	   ସ୍ତ    	 ସ୍ତ୍ର  	   ସ୍ଥ    	  ସ୍ଥ୍ଯ     	ସ୍ନ       ସ୍ପ      ସ୍ଫ     ସ୍ବ      ସ୍ମ     
+			ହ୍ନ      ହ୍ମ     ହ୍ଲ
