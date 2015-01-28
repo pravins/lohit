@@ -1,0 +1,780 @@
+# How to use
+# On Linux command $make will generate ttf for you by applying this feature file. For other platforms follow below steps
+# # 1. Open Lohit-Odia.sfd in Fontforge
+# # 2. Click on Fontforge File -> Merge Feature info and Select this feature file and save
+# # 3. Now Generate ttf as you do for other fonts.
+# # 4. Done
+# # Copyright (C) 2014 Pravin Satpute <psatpute AT redhat DOT com> and Shilpa Gite <sgite AT redhat DOT com>
+# # License: OFL 1.1
+# # License URL: http://scripts.sil.org/OFL
+#
+# # GSUB 
+#
+
+languagesystem ory2 dflt;
+languagesystem orya dflt;
+
+
+# GSUB 
+
+
+lookup blwsBelowBaseSubstitutionsinOri {
+  lookupflag 0;
+    sub \viramasignodia_raodia \usignodia  by \viramaodia_raodia_usignodia;
+    sub \viramasignodia_raodia \uusignodia  by \viramaodia_raodia_uusignodia;
+} blwsBelowBaseSubstitutionsinOri;
+
+lookup sub_single__0 {
+  lookupflag 0;
+    sub \glyph236 by \glyph236.alt ;
+    sub \viramaodia_raodia_usignodia by \viramaodia_raodia_usignodia.1 ;
+    sub \viramaodia_raodia_uusignodia by \viramaodia_raodia_uusignodia.1 ;
+} sub_single__0;
+
+lookup sub_chain_blwsory2_0 {
+  lookupflag 0;
+    sub [\kaodia_viramasignodia_kaodia \kaodia_viramasignodia_taodia 
+	\kaodia_virm_taodia_virm_raodia \kaodia_viramasignodia_baodia 
+	\kaodia_viramasignodia_llaodia \kaodia_viramasignodia_ssaodia 
+	\kaodia_vir_ssaodia_vir_nnaodia \kaodia_virm_ssaodia_virm_maodia 
+	\kaodia_virm_ssaodia_virm_yaodia \kaodia_viramasignodia_saodia 
+	\gaodia_viramasignodia_daodia \gaodia_viramasignodia_dhaodia 
+	\gaodia_viramasignodia_naodia \gaodia_viramasignodia_llaodia 
+	\ghaodia_viramasignodia_naodia \ngaodia_viramasignodia_kaodia 
+	\ngaodia_virm_kaodia_virm_taodia \ngaodia_vir_kaodia_vir_ssaodia 
+	\ngaodia_viramasignodia_khaodia \ngaodia_viramasignodia_gaodia 
+	\ngaodia_viramasignodia_ghaodia \caodia_viramasignodia_caodia 
+	\caodia_viramasignodia_chaodia \glyph129 
+	\jaodia_viramasignodia_jaodia \jaodia_virm_jaodia_virm_baodia 
+	\jaodia_viramasignodia_jhaodia \jaodia_viramasignodia_nyaodia 
+	\jaodia_viramasignodia_baodia \nyaodia_viramasignodia_caodia 
+	\nyaodia_viramasignodia_chaodia \nyaodia_viramasignodia_jaodia 
+	\nyaodia_viramasignodia_jhaodia \ttaodia_viramasignodia_ttaodia 
+	\ddaodia_viramasignodia_gaodia \ddaodia_viramasignodia_ddaodia 
+	\nnaodia_viramasignodia_ttaodia \nnaodia_viramasignodia_tthaodia 
+	\nnaodia_viramasignodia_ddaodia \nnaodia_vir_ddaodia_vir_raodia 
+	\nnaodia_viramasignodia_ddhaodia \nnaodia_viramasignodia_nnaodia 
+	\taodia_viramasignodia_kaodia \taodia_viramasignodia_taodia 
+	\taodia_virm_taodia_virm_baodia \taodia_virm_taodia_virm_raodia 
+	\taodia_viramasignodia_thaodia \taodia_viramasignodia_naodia 
+	\taodia_viramasignodia_paodia \taodia_viramasignodia_baodia 
+	\taodia_viramasignodia_maodia \taodia_virm_maodia_virm_yaodia 
+	\taodia_viramasignodia_saodia \taodia_virm_saodia_virm_naodia 
+	\taodia_virm_saodia_virm_yaodia \daodia_viramasignodia_gaodia 
+	\daodia_viramasignodia_ghaodia \daodia_viramasignodia_daodia 
+	\daodia_viramasignodia_dhaodia \daodia_virm_dhaodia_virm_baodia 
+	\daodia_viramasignodia_baodia \daodia_viramasignodia_bhaodia 
+	\daodia_viramasignodia_yaodia \dhaodia_viramasignodia_baodia 
+	\dhaodia_viramasignodia_yaodia \naodia_viramasignodia_taodia 
+	\naodia_virm_taodia_virm_yaodia \naodia_virm_taodia_virm_raodia 
+	\glyph174 \naodia_virm_taodia_virm_baodia 
+	\naodia_viramasignodia_thaodia \naodia_viramasignodia_daodia 
+	\naodia_virm_daodia_virm_raodia \naodia_virm_daodia_virm_baodia 
+	\naodia_viramasignodia_dhaodia \naodia_virm_dhaodia_virm_baodia 
+	\naodia_virm_dhaodia_virm_raodia \naodia_virm_dhaodia_virm_yaodia 
+	\naodia_viramasignodia_naodia \naodia_virm_naodia_virm_yaodia 
+	\paodia_viramasignodia_taodia \paodia_viramasignodia_paodia 
+	\paodia_viramasignodia_llaodia \paodia_viramasignodia_saodia 
+	\baodia_viramasignodia_jaodia \baodia_viramasignodia_daodia 
+	\baodia_viramasignodia_dhaodia \maodia_viramasignodia_paodia 
+	\maodia_virm_paodia_virm_raodia \maodia_viramasignodia_phaodia 
+	\maodia_viramasignodia_baodia \maodia_viramasignodia_bhaodia 
+	\maodia_virm_bhaodia_virm_raodia \maodia_viramasignodia_maodia 
+	\llaodia_viramasignodia_kaodia \llaodia_viramasignodia_bhaodia 
+	\llaodia_viramasignodia_llaodia \llaodia_viramasignodia_paodia 
+	\llaodia_viramasignodia_phaodia \laodia_viramasignodia_kaodia 
+	\laodia_viramasignodia_gaodia \laodia_viramasignodia_laodia 
+	\shaodia_viramasignodia_caodia \shaodia_viramasignodia_chaodia 
+	\shaodia_viramasignodia_baodia \shaodia_viramasignodia_llaodia 
+	\ssaodia_viramasignodia_kaodia \ssaodia_virm_kaodia_virm_raodia 
+	\ssaodia_viramasignodia_ttaodia \ssaodia_vir_ttaodia_vir_raodia 
+	\ssaodia_viramasignodia_tthaodia \ssaodia_viramasignodia_nnaodia 
+	\ssaodia_viramasignodia_paodia \ssaodia_virm_paodia_virm_raodia 
+	\ssaodia_viramasignodia_phaodia \saodia_viramasignodia_kaodia 
+	\saodia_viramasignodia_khaodia \saodia_viramasignodia_taodia 
+	\saodia_virm_taodia_virm_raodia \saodia_viramasignodia_thaodia 
+	\saodia_virm_thaodia_virm_yaodia \saodia_viramasignodia_naodia 
+	\saodia_viramasignodia_paodia \saodia_viramasignodia_phaodia 
+	\saodia_viramasignodia_baodia \saodia_viramasignodia_maodia 
+	\haodia_viramasignodia_naodia \haodia_viramasignodia_maodia 
+	\haodia_viramasignodia_laodia ] [\viramasignodia_kaodia \viramasignodia_khaodia \viramasignodia_gaodia 
+	\viramasignodia_ghaodia \viramasignodia_ngaodia 
+	\viramasignodia_caodia \viramasignodia_chaodia 
+	\viramasignodia_jaodia \viramasignodia_jhaodia 
+	\viramasignodia_ttaodia \viramasignodia_tthaodia 
+	\viramasignodia_ddaodia \viramasignodia_ddhaodia 
+	\viramasignodia_nnaodia \viramasignodia_taodia 
+	\viramasignodia_thaodia \viramasignodia_daodia 
+	\viramasignodia_dhaodia \viramasignodia_naodia 
+	\viramasignodia_paodia \viramasignodia_phaodia 
+	\viramasignodia_baodia \viramasignodia_bhaodia 
+	\viramasignodia_maodia \viramasignodia_yaodia 
+	\viramasignodia_raodia \viramasignodia_laodia 
+	\viramasignodia_llaodia \viramasignodia_vaodia 
+	\viramasignodia_shaodia \viramasignodia_ssaodia 
+	\viramasignodia_saodia \viramasignodia_haodia ]'lookup sub_single__0  ;
+} sub_chain_blwsory2_0;
+
+lookup sub_chain_blwsory2_2 {
+  lookupflag 0;
+    sub [\kaodia_viramasignodia_raodia \khaodia_viramasignodia_raodia 
+	\gaodia_viramasignodia_raodia \ghaodia_viramasignodia_raodia 
+	\ngaodia_viramasignodia_raodia \caodia_viramasignodia_raodia 
+	\chaodia_viramasignodia_raodia \jaodia_viramasignodia_raodia 
+	\jhaodia_viramasignodia_raodia \nyaodia_viramasignodia_raodia 
+	\ttaodia_viramasignodia_raodia \tthaodia_viramasignodia_raodia 
+	\ddaodia_viramasignodia_raodia \ddhaodia_viramasignodia_raodia 
+	\nnaodia_viramasignodia_raodia \taodia_viramasignodia_raodia 
+	\thaodia_viramasignodia_raodia \daodia_viramasignodia_raodia 
+	\dhaodia_viramasignodia_raodia \naodia_viramasignodia_raodia 
+	\paodia_viramasignodia_raodia \phaodia_viramasignodia_raodia 
+	\baodia_viramasignodia_raodia \bhaodia_viramasignodia_raodia 
+	\maodia_viramasignodia_raodia \yaodia_viramasignodia_raodia 
+	\raodia_viramasignodia_raodia \laodia_viramasignodia_raodia 
+	\llaodia_viramasignodia_raodia \vaodia_viramasignodia_raodia 
+	\shaodia_viramasignodia_raodia \ssaodia_viramasignodia_raodia 
+	\saodia_viramasignodia_raodia \haodia_viramasignodia_raodia 
+	\rraodia_viramasignodia_raodia \rhaodia_viramasignodia_raodia 
+	\yyaodia_viramasignodia_raodia \glyph323 \glyph324 ] [\glyph236 \viramaodia_raodia_uusignodia \viramaodia_raodia_usignodia ]'lookup sub_single__0  ;
+} sub_chain_blwsory2_2;
+
+lookup presPreBaseSubstitutionsinOriya {
+  lookupflag 0;
+    sub \ngaodia_viramasignodia_kaodia \ssaodia \viramasignodia  by \ngaodia_vir_kaodia_vir_ssaodia;
+  subtable;
+    sub \kaodia \viramasignodia_kaodia  by \kaodia_viramasignodia_kaodia;
+    sub \kaodia \viramasignodia_taodia  by \kaodia_viramasignodia_taodia;
+    sub \kaodia \viramasignodia_taodia \viramasignodia_raodia  by \kaodia_virm_taodia_virm_raodia;
+    sub \kaodia \viramasignodia_baodia  by \kaodia_viramasignodia_baodia;
+    sub \kaodia \viramasignodia_llaodia  by \kaodia_viramasignodia_llaodia;
+    sub \kaodia \viramasignodia \ssaodia \viramasignodia \nnaodia  by \kaodia_vir_ssaodia_vir_nnaodia;
+    sub \kaodia_viramasignodia_ssaodia \viramasignodia_maodia  by \kaodia_virm_ssaodia_virm_maodia;
+    sub \kaodia \viramasignodia_saodia  by \kaodia_viramasignodia_saodia;
+    sub \gaodia \viramasignodia_daodia  by \gaodia_viramasignodia_daodia;
+    sub \gaodia \viramasignodia_dhaodia  by \gaodia_viramasignodia_dhaodia;
+    sub \gaodia \viramasignodia_naodia  by \gaodia_viramasignodia_naodia;
+    sub \gaodia \viramasignodia_llaodia  by \gaodia_viramasignodia_llaodia;
+    sub \ghaodia \viramasignodia_naodia  by \ghaodia_viramasignodia_naodia;
+    sub \ngaodia \viramasignodia_kaodia  by \ngaodia_viramasignodia_kaodia;
+    sub \ngaodia \viramasignodia_kaodia \viramasignodia_taodia  by \ngaodia_virm_kaodia_virm_taodia;
+    sub \ngaodia_viramasignodia_kaodia \viramasignodia \ssaodia  by \ngaodia_vir_kaodia_vir_ssaodia;
+    sub \ngaodia \viramasignodia_khaodia  by \ngaodia_viramasignodia_khaodia;
+    sub \ngaodia \viramasignodia_gaodia  by \ngaodia_viramasignodia_gaodia;
+    sub \ngaodia \viramasignodia_ghaodia  by \ngaodia_viramasignodia_ghaodia;
+    sub \caodia \viramasignodia_caodia  by \caodia_viramasignodia_caodia;
+    sub \caodia \viramasignodia_chaodia  by \caodia_viramasignodia_chaodia;
+    sub \jaodia \viramasignodia_jaodia  by \jaodia_viramasignodia_jaodia;
+    sub \jaodia \viramasignodia_jaodia \viramasignodia_baodia  by \jaodia_virm_jaodia_virm_baodia;
+    sub \jaodia \viramasignodia_jhaodia  by \jaodia_viramasignodia_jhaodia;
+    sub \jaodia \viramasignodia_baodia  by \jaodia_viramasignodia_baodia;
+    sub \nyaodia \viramasignodia_caodia  by \nyaodia_viramasignodia_caodia;
+    sub \nyaodia \viramasignodia_chaodia  by \nyaodia_viramasignodia_chaodia;
+    sub \nyaodia \viramasignodia_jaodia  by \nyaodia_viramasignodia_jaodia;
+    sub \nyaodia \viramasignodia_jhaodia  by \nyaodia_viramasignodia_jhaodia;
+    sub \ttaodia \viramasignodia_ttaodia  by \ttaodia_viramasignodia_ttaodia;
+    sub \ddaodia \viramasignodia_gaodia  by \ddaodia_viramasignodia_gaodia;
+    sub \ddaodia \viramasignodia_ddaodia  by \ddaodia_viramasignodia_ddaodia;
+    sub \nnaodia \viramasignodia_ttaodia  by \nnaodia_viramasignodia_ttaodia;
+    sub \nnaodia \viramasignodia_tthaodia  by \nnaodia_viramasignodia_tthaodia;
+    sub \nnaodia \viramasignodia_ddaodia  by \nnaodia_viramasignodia_ddaodia;
+    sub \nnaodia \viramasignodia_ddaodia \viramasignodia_raodia  by \nnaodia_vir_ddaodia_vir_raodia;
+    sub \nnaodia \viramasignodia_ddhaodia  by \nnaodia_viramasignodia_ddhaodia;
+    sub \nnaodia \viramasignodia_nnaodia  by \nnaodia_viramasignodia_nnaodia;
+    sub \taodia \viramasignodia_kaodia  by \taodia_viramasignodia_kaodia;
+    sub \taodia \viramasignodia_taodia  by \taodia_viramasignodia_taodia;
+    sub \taodia \viramasignodia_taodia \viramasignodia_baodia  by \taodia_virm_taodia_virm_baodia;
+    sub \taodia \viramasignodia_taodia \viramasignodia_raodia  by \taodia_virm_taodia_virm_raodia;
+    sub \taodia \viramasignodia_thaodia  by \taodia_viramasignodia_thaodia;
+    sub \taodia \viramasignodia_naodia  by \taodia_viramasignodia_naodia;
+    sub \taodia \viramasignodia_paodia  by \taodia_viramasignodia_paodia;
+    sub \taodia \viramasignodia_baodia  by \taodia_viramasignodia_baodia;
+    sub \taodia \viramasignodia_maodia  by \taodia_viramasignodia_maodia;
+    sub \taodia \viramasignodia_maodia \viramasignodia_yaodia  by \taodia_virm_maodia_virm_yaodia;
+    sub \taodia \viramasignodia_saodia  by \taodia_viramasignodia_saodia;
+    sub \taodia \viramasignodia_saodia \viramasignodia_naodia  by \taodia_virm_saodia_virm_naodia;
+    sub \daodia \viramasignodia_gaodia  by \daodia_viramasignodia_gaodia;
+    sub \daodia \viramasignodia_ghaodia  by \daodia_viramasignodia_ghaodia;
+    sub \daodia \viramasignodia_daodia  by \daodia_viramasignodia_daodia;
+    sub \daodia \viramasignodia_dhaodia  by \daodia_viramasignodia_dhaodia;
+    sub \daodia \viramasignodia_dhaodia \viramasignodia_baodia  by \daodia_virm_dhaodia_virm_baodia;
+    sub \daodia \viramasignodia_baodia  by \daodia_viramasignodia_baodia;
+    sub \daodia \viramasignodia_bhaodia  by \daodia_viramasignodia_bhaodia;
+    sub \dhaodia \viramasignodia_baodia  by \dhaodia_viramasignodia_baodia;
+    sub \dhaodia \viramasignodia_yaodia  by \dhaodia_viramasignodia_yaodia;
+    sub \naodia \viramasignodia_taodia  by \naodia_viramasignodia_taodia;
+    sub \naodia \viramasignodia_taodia \viramasignodia_raodia  by \naodia_virm_taodia_virm_raodia;
+    sub \naodia \viramasignodia_taodia \viramasignodia_baodia  by \naodia_virm_taodia_virm_baodia;
+    sub \naodia \viramasignodia_thaodia  by \naodia_viramasignodia_thaodia;
+    sub \naodia \viramasignodia_daodia  by \naodia_viramasignodia_daodia;
+    sub \naodia \viramasignodia_daodia \viramasignodia_raodia  by \naodia_virm_daodia_virm_raodia;
+    sub \naodia \viramasignodia_daodia \viramasignodia_baodia  by \naodia_virm_daodia_virm_baodia;
+    sub \naodia \viramasignodia_dhaodia  by \naodia_viramasignodia_dhaodia;
+    sub \naodia \viramasignodia_dhaodia \viramasignodia_baodia  by \naodia_virm_dhaodia_virm_baodia;
+    sub \naodia \viramasignodia_dhaodia \viramasignodia_raodia  by \naodia_virm_dhaodia_virm_raodia;
+    sub \naodia \viramasignodia_naodia  by \naodia_viramasignodia_naodia;
+    sub \paodia \viramasignodia_taodia  by \paodia_viramasignodia_taodia;
+    sub \paodia \viramasignodia_paodia  by \paodia_viramasignodia_paodia;
+    sub \paodia \viramasignodia_llaodia  by \paodia_viramasignodia_llaodia;
+    sub \paodia \viramasignodia_saodia  by \paodia_viramasignodia_saodia;
+    sub \baodia \viramasignodia_jaodia  by \baodia_viramasignodia_jaodia;
+    sub \baodia \viramasignodia_daodia  by \baodia_viramasignodia_daodia;
+    sub \baodia \viramasignodia_dhaodia  by \baodia_viramasignodia_dhaodia;
+    sub \maodia \viramasignodia_paodia  by \maodia_viramasignodia_paodia;
+    sub \maodia \viramasignodia_paodia \viramasignodia_raodia  by \maodia_virm_paodia_virm_raodia;
+    sub \maodia \viramasignodia_phaodia  by \maodia_viramasignodia_phaodia;
+    sub \maodia \viramasignodia_baodia  by \maodia_viramasignodia_baodia;
+    sub \maodia \viramasignodia_bhaodia  by \maodia_viramasignodia_bhaodia;
+    sub \maodia \viramasignodia_bhaodia \viramasignodia_raodia  by \maodia_virm_bhaodia_virm_raodia;
+    sub \maodia \viramasignodia_maodia  by \maodia_viramasignodia_maodia;
+    sub \llaodia \viramasignodia_kaodia  by \llaodia_viramasignodia_kaodia;
+    sub \llaodia \viramasignodia_bhaodia  by \llaodia_viramasignodia_bhaodia;
+    sub \llaodia \viramasignodia_llaodia  by \llaodia_viramasignodia_llaodia;
+    sub \llaodia \viramasignodia_paodia  by \llaodia_viramasignodia_paodia;
+    sub \llaodia \viramasignodia_phaodia  by \llaodia_viramasignodia_phaodia;
+    sub \laodia \viramasignodia_kaodia  by \laodia_viramasignodia_kaodia;
+    sub \laodia \viramasignodia_gaodia  by \laodia_viramasignodia_gaodia;
+    sub \laodia \viramasignodia_laodia  by \laodia_viramasignodia_laodia;
+    sub \shaodia \viramasignodia_caodia  by \shaodia_viramasignodia_caodia;
+    sub \shaodia \viramasignodia_chaodia  by \shaodia_viramasignodia_chaodia;
+    sub \shaodia \viramasignodia_baodia  by \shaodia_viramasignodia_baodia;
+    sub \shaodia \viramasignodia_llaodia  by \shaodia_viramasignodia_llaodia;
+    sub \ssaodia \viramasignodia_kaodia  by \ssaodia_viramasignodia_kaodia;
+    sub \ssaodia \viramasignodia_kaodia \viramasignodia_raodia  by \ssaodia_virm_kaodia_virm_raodia;
+    sub \ssaodia \viramasignodia_ttaodia  by \ssaodia_viramasignodia_ttaodia;
+    sub \ssaodia \viramasignodia_ttaodia \viramasignodia_raodia  by \ssaodia_vir_ttaodia_vir_raodia;
+    sub \ssaodia \viramasignodia_tthaodia  by \ssaodia_viramasignodia_tthaodia;
+    sub \ssaodia \viramasignodia_nnaodia  by \ssaodia_viramasignodia_nnaodia;
+    sub \ssaodia \viramasignodia_paodia  by \ssaodia_viramasignodia_paodia;
+    sub \ssaodia \viramasignodia_paodia \viramasignodia_raodia  by \ssaodia_virm_paodia_virm_raodia;
+    sub \ssaodia \viramasignodia_phaodia  by \ssaodia_viramasignodia_phaodia;
+    sub \saodia \viramasignodia_kaodia  by \saodia_viramasignodia_kaodia;
+    sub \saodia \viramasignodia_khaodia  by \saodia_viramasignodia_khaodia;
+    sub \saodia \viramasignodia_taodia  by \saodia_viramasignodia_taodia;
+    sub \saodia \viramasignodia_taodia \viramasignodia_raodia  by \saodia_virm_taodia_virm_raodia;
+    sub \saodia \viramasignodia_thaodia  by \saodia_viramasignodia_thaodia;
+    sub \saodia \viramasignodia_naodia  by \saodia_viramasignodia_naodia;
+    sub \saodia \viramasignodia_paodia  by \saodia_viramasignodia_paodia;
+    sub \saodia \viramasignodia_phaodia  by \saodia_viramasignodia_phaodia;
+    sub \saodia \viramasignodia_saodia  by \saodia_viramasignodia_baodia;
+    sub \saodia \viramasignodia_maodia  by \saodia_viramasignodia_maodia;
+    sub \haodia \viramasignodia_naodia  by \haodia_viramasignodia_naodia;
+    sub \haodia \viramasignodia_maodia  by \haodia_viramasignodia_maodia;
+    sub \haodia \viramasignodia_laodia  by \haodia_viramasignodia_laodia;
+    sub \kaodia \viramasignodia_raodia  by \kaodia_viramasignodia_raodia;
+    sub \khaodia \viramasignodia_raodia  by \khaodia_viramasignodia_raodia;
+    sub \gaodia \viramasignodia_raodia  by \gaodia_viramasignodia_raodia;
+    sub \ghaodia \viramasignodia_raodia  by \ghaodia_viramasignodia_raodia;
+    sub \ngaodia \viramasignodia_raodia  by \ngaodia_viramasignodia_raodia;
+    sub \caodia \viramasignodia_raodia  by \caodia_viramasignodia_raodia;
+    sub \chaodia \viramasignodia_raodia  by \chaodia_viramasignodia_raodia;
+    sub \jaodia \viramasignodia_raodia  by \jaodia_viramasignodia_raodia;
+    sub \jhaodia \viramasignodia_raodia  by \jhaodia_viramasignodia_raodia;
+    sub \nyaodia \viramasignodia_raodia  by \nyaodia_viramasignodia_raodia;
+    sub \ttaodia \viramasignodia_raodia  by \ttaodia_viramasignodia_raodia;
+    sub \tthaodia \viramasignodia_raodia  by \tthaodia_viramasignodia_raodia;
+    sub \ddaodia \viramasignodia_raodia  by \ddaodia_viramasignodia_raodia;
+    sub \ddhaodia \viramasignodia_raodia  by \ddhaodia_viramasignodia_raodia;
+    sub \nnaodia \viramasignodia_raodia  by \nnaodia_viramasignodia_raodia;
+    sub \taodia \viramasignodia_raodia  by \taodia_viramasignodia_raodia;
+    sub \thaodia \viramasignodia_raodia  by \thaodia_viramasignodia_raodia;
+    sub \daodia \viramasignodia_raodia  by \daodia_viramasignodia_raodia;
+    sub \dhaodia \viramasignodia_raodia  by \dhaodia_viramasignodia_raodia;
+    sub \naodia \viramasignodia_raodia  by \naodia_viramasignodia_raodia;
+    sub \paodia \viramasignodia_raodia  by \paodia_viramasignodia_raodia;
+    sub \phaodia \viramasignodia_raodia  by \phaodia_viramasignodia_raodia;
+    sub \baodia \viramasignodia_raodia  by \baodia_viramasignodia_raodia;
+    sub \bhaodia \viramasignodia_raodia  by \bhaodia_viramasignodia_raodia;
+    sub \maodia \viramasignodia_raodia  by \maodia_viramasignodia_raodia;
+    sub \yaodia \viramasignodia_raodia  by \yaodia_viramasignodia_raodia;
+    sub \raodia \viramasignodia_raodia  by \raodia_viramasignodia_raodia;
+    sub \laodia \viramasignodia_raodia  by \laodia_viramasignodia_raodia;
+    sub \llaodia \viramasignodia_raodia  by \llaodia_viramasignodia_raodia;
+    sub \vaodia \viramasignodia_raodia  by \vaodia_viramasignodia_raodia;
+    sub \shaodia \viramasignodia_raodia  by \shaodia_viramasignodia_raodia;
+    sub \ssaodia \viramasignodia_raodia  by \ssaodia_viramasignodia_raodia;
+    sub \saodia \viramasignodia_raodia  by \saodia_viramasignodia_raodia;
+    sub \haodia \viramasignodia_raodia  by \haodia_viramasignodia_raodia;
+    sub \rraodia \viramasignodia_raodia  by \rraodia_viramasignodia_raodia;
+    sub \rhaodia \viramasignodia_raodia  by \rhaodia_viramasignodia_raodia;
+    sub \yyaodia \viramasignodia_raodia  by \yyaodia_viramasignodia_raodia;
+    sub \caodia \nuktasignodia \viramasignodia_raodia  by \glyph323;
+    sub \kaodia_viramasignodia_ssaodia \viramasignodia_raodia  by \glyph324;
+} presPreBaseSubstitutionsinOriya;
+
+lookup sub_ligature_presorya_0 {
+  lookupflag 0;
+    sub \kaodia \viramasignodia \kaodia  by \kaodia_viramasignodia_kaodia;
+    sub \kaodia \viramasignodia_taodia \viramasignodia_raodia  by \kaodia_virm_taodia_virm_raodia;
+    sub \kaodia_viramasignodia_ssaodia \viramasignodia \nnaodia  by \kaodia_vir_ssaodia_vir_nnaodia;
+    sub \kaodia \viramasignodia \saodia  by \kaodia_viramasignodia_saodia;
+    sub \gaodia \viramasignodia \daodia  by \gaodia_viramasignodia_daodia;
+    sub \gaodia \viramasignodia \dhaodia  by \gaodia_viramasignodia_dhaodia;
+    sub \ngaodia \viramasignodia \kaodia  by \ngaodia_viramasignodia_kaodia;
+    sub \ngaodia \viramasignodia \kaodia \viramasignodia \taodia  by \ngaodia_virm_kaodia_virm_taodia;
+    sub \ngaodia \viramasignodia \khaodia  by \ngaodia_viramasignodia_khaodia;
+    sub \ngaodia \viramasignodia \gaodia  by \ngaodia_viramasignodia_gaodia;
+    sub \ngaodia \viramasignodia \ghaodia  by \ngaodia_viramasignodia_ghaodia;
+    sub \caodia \viramasignodia \caodia  by \caodia_viramasignodia_caodia;
+    sub \caodia \viramasignodia \chaodia  by \caodia_viramasignodia_chaodia;
+    sub \jaodia \viramasignodia \jaodia  by \jaodia_viramasignodia_jaodia;
+    sub \jaodia \viramasignodia \jaodia \viramasignodia \baodia  by \jaodia_virm_jaodia_virm_baodia;
+    sub \jaodia \viramasignodia \jhaodia  by \jaodia_viramasignodia_jhaodia;
+    sub \jaodia \viramasignodia_baodia  by \jaodia_viramasignodia_baodia;
+    sub \nyaodia \viramasignodia \caodia  by \nyaodia_viramasignodia_caodia;
+    sub \nyaodia \viramasignodia \chaodia  by \nyaodia_viramasignodia_chaodia;
+    sub \nyaodia \viramasignodia \jaodia  by \nyaodia_viramasignodia_jaodia;
+    sub \nyaodia \viramasignodia \jhaodia  by \nyaodia_viramasignodia_jhaodia;
+    sub \ttaodia \viramasignodia \ttaodia  by \ttaodia_viramasignodia_ttaodia;
+    sub \ddaodia \viramasignodia \gaodia  by \ddaodia_viramasignodia_gaodia;
+    sub \ddaodia \viramasignodia \ddaodia  by \ddaodia_viramasignodia_ddaodia;
+    sub \nnaodia \viramasignodia \ttaodia  by \nnaodia_viramasignodia_ttaodia;
+    sub \nnaodia \viramasignodia \tthaodia  by \nnaodia_viramasignodia_tthaodia;
+    sub \nnaodia \viramasignodia \ddaodia  by \nnaodia_viramasignodia_ddaodia;
+    sub \nnaodia \viramasignodia_ddaodia \viramasignodia_raodia  by \nnaodia_vir_ddaodia_vir_raodia;
+    sub \nnaodia \viramasignodia \ddhaodia  by \nnaodia_viramasignodia_ddhaodia;
+    sub \nnaodia \viramasignodia \nnaodia  by \nnaodia_viramasignodia_nnaodia;
+    sub \taodia \viramasignodia \kaodia  by \taodia_viramasignodia_kaodia;
+    sub \taodia \viramasignodia \taodia  by \taodia_viramasignodia_taodia;
+    sub \taodia_viramasignodia_taodia \viramasignodia_baodia  by \taodia_virm_taodia_virm_baodia;
+    sub \taodia \viramasignodia_taodia \viramasignodia_raodia  by \taodia_virm_taodia_virm_raodia;
+    sub \taodia \viramasignodia \thaodia  by \taodia_viramasignodia_thaodia;
+    sub \taodia \viramasignodia \naodia  by \taodia_viramasignodia_naodia;
+    sub \taodia \viramasignodia \paodia  by \taodia_viramasignodia_paodia;
+    sub \taodia \viramasignodia \baodia  by \taodia_viramasignodia_baodia;
+    sub \taodia \viramasignodia \maodia  by \taodia_viramasignodia_maodia;
+    sub \taodia \viramasignodia_maodia \viramasignodia_yaodia  by \taodia_virm_maodia_virm_yaodia;
+    sub \taodia \viramasignodia \saodia  by \taodia_viramasignodia_saodia;
+    sub \taodia \viramasignodia_saodia \viramasignodia_naodia  by \taodia_virm_saodia_virm_naodia;
+    sub \daodia \viramasignodia \gaodia  by \daodia_viramasignodia_gaodia;
+    sub \daodia \viramasignodia \ghaodia  by \daodia_viramasignodia_ghaodia;
+    sub \daodia \viramasignodia \daodia  by \daodia_viramasignodia_daodia;
+    sub \daodia \viramasignodia \dhaodia  by \daodia_viramasignodia_dhaodia;
+    sub \daodia \viramasignodia_dhaodia \viramasignodia_baodia  by \daodia_virm_dhaodia_virm_baodia;
+    sub \daodia \viramasignodia \baodia  by \daodia_viramasignodia_baodia;
+    sub \daodia \viramasignodia_bhaodia  by \daodia_viramasignodia_bhaodia;
+    sub \dhaodia \viramasignodia \baodia  by \dhaodia_viramasignodia_baodia;
+    sub \dhaodia \viramasignodia \yaodia  by \dhaodia_viramasignodia_yaodia;
+    sub \naodia \viramasignodia_taodia  by \naodia_viramasignodia_taodia;
+    sub \naodia_viramasignodia_taodia \viramasignodia_yaodia  by \naodia_virm_taodia_virm_yaodia;
+    sub \naodia \viramasignodia_taodia \viramasignodia_raodia  by \naodia_virm_taodia_virm_raodia;
+    sub \naodia_virm_taodia_virm_raodia \viramasignodia_yaodia  by \glyph174;
+    sub \naodia_viramasignodia_taodia \viramasignodia_baodia  by \naodia_virm_taodia_virm_baodia;
+    sub \naodia \viramasignodia \thaodia  by \naodia_viramasignodia_thaodia;
+    sub \naodia \viramasignodia \daodia  by \naodia_viramasignodia_daodia;
+    sub \naodia \viramasignodia_daodia \viramasignodia_raodia  by \naodia_virm_daodia_virm_raodia;
+    sub \naodia_viramasignodia_daodia \viramasignodia_baodia  by \naodia_virm_daodia_virm_baodia;
+    sub \naodia \viramasignodia \dhaodia  by \naodia_viramasignodia_dhaodia;
+    sub \naodia_viramasignodia_dhaodia \viramasignodia_baodia  by \naodia_virm_dhaodia_virm_baodia;
+    sub \naodia \viramasignodia_dhaodia \viramasignodia_raodia  by \naodia_virm_dhaodia_virm_raodia;
+    sub \naodia_viramasignodia_dhaodia \viramasignodia_yaodia  by \naodia_virm_dhaodia_virm_yaodia;
+    sub \naodia \viramasignodia \naodia  by \naodia_viramasignodia_naodia;
+    sub \naodia_viramasignodia_naodia \viramasignodia_yaodia  by \naodia_virm_naodia_virm_yaodia;
+    sub \paodia \viramasignodia \taodia  by \paodia_viramasignodia_taodia;
+    sub \paodia \viramasignodia \paodia  by \paodia_viramasignodia_paodia;
+    sub \paodia \viramasignodia \llaodia  by \paodia_viramasignodia_llaodia;
+    sub \paodia \viramasignodia \saodia  by \paodia_viramasignodia_saodia;
+    sub \baodia \viramasignodia \jaodia  by \baodia_viramasignodia_jaodia;
+    sub \baodia \viramasignodia \daodia  by \baodia_viramasignodia_daodia;
+    sub \baodia \viramasignodia \dhaodia  by \baodia_viramasignodia_dhaodia;
+    sub \maodia \viramasignodia \paodia  by \maodia_viramasignodia_paodia;
+    sub \maodia \viramasignodia_paodia \viramasignodia_raodia  by \maodia_virm_paodia_virm_raodia;
+    sub \maodia \viramasignodia \phaodia  by \maodia_viramasignodia_phaodia;
+    sub \maodia \viramasignodia \baodia  by \maodia_viramasignodia_baodia;
+    sub \maodia \viramasignodia_bhaodia  by \maodia_viramasignodia_bhaodia;
+    sub \maodia \viramasignodia_bhaodia \viramasignodia_raodia  by \maodia_virm_bhaodia_virm_raodia;
+    sub \maodia \viramasignodia \maodia  by \maodia_viramasignodia_maodia;
+    sub \llaodia \viramasignodia \kaodia  by \llaodia_viramasignodia_kaodia;
+    sub \llaodia \viramasignodia \bhaodia  by \llaodia_viramasignodia_bhaodia;
+    sub \llaodia \viramasignodia \llaodia  by \llaodia_viramasignodia_llaodia;
+    sub \llaodia \viramasignodia \paodia  by \llaodia_viramasignodia_paodia;
+    sub \llaodia \viramasignodia \phaodia  by \llaodia_viramasignodia_phaodia;
+    sub \laodia \viramasignodia \kaodia  by \laodia_viramasignodia_kaodia;
+    sub \laodia \viramasignodia \gaodia  by \laodia_viramasignodia_gaodia;
+    sub \laodia \viramasignodia_laodia  by \laodia_viramasignodia_laodia;
+    sub \shaodia \viramasignodia \caodia  by \shaodia_viramasignodia_caodia;
+    sub \shaodia \viramasignodia \chaodia  by \shaodia_viramasignodia_chaodia;
+    sub \shaodia \viramasignodia \baodia  by \shaodia_viramasignodia_baodia;
+    sub \shaodia \viramasignodia \llaodia  by \shaodia_viramasignodia_llaodia;
+    sub \ssaodia \viramasignodia \kaodia  by \ssaodia_viramasignodia_kaodia;
+    sub \ssaodia \viramasignodia_kaodia \viramasignodia_raodia  by \ssaodia_virm_kaodia_virm_raodia;
+    sub \ssaodia \viramasignodia \ttaodia  by \ssaodia_viramasignodia_ttaodia;
+    sub \ssaodia \viramasignodia_ttaodia \viramasignodia_raodia  by \ssaodia_vir_ttaodia_vir_raodia;
+    sub \ssaodia \viramasignodia \tthaodia  by \ssaodia_viramasignodia_tthaodia;
+    sub \ssaodia \viramasignodia \nnaodia  by \ssaodia_viramasignodia_nnaodia;
+    sub \ssaodia \viramasignodia \paodia  by \ssaodia_viramasignodia_paodia;
+    sub \ssaodia \viramasignodia_paodia \viramasignodia_raodia  by \ssaodia_virm_paodia_virm_raodia;
+    sub \ssaodia \viramasignodia \phaodia  by \ssaodia_viramasignodia_phaodia;
+    sub \saodia \viramasignodia \kaodia  by \saodia_viramasignodia_kaodia;
+    sub \saodia \viramasignodia \khaodia  by \saodia_viramasignodia_khaodia;
+    sub \saodia \viramasignodia \taodia  by \saodia_viramasignodia_taodia;
+    sub \saodia \viramasignodia_taodia \viramasignodia_raodia  by \saodia_virm_taodia_virm_raodia;
+    sub \saodia \viramasignodia \thaodia  by \saodia_viramasignodia_thaodia;
+    sub \saodia \viramasignodia \naodia  by \saodia_viramasignodia_naodia;
+    sub \saodia \viramasignodia \paodia  by \saodia_viramasignodia_paodia;
+    sub \saodia \viramasignodia \phaodia  by \saodia_viramasignodia_phaodia;
+    sub \saodia \viramasignodia \saodia  by \saodia_viramasignodia_baodia;
+    sub \saodia \viramasignodia \maodia  by \saodia_viramasignodia_maodia;
+} sub_ligature_presorya_0;
+
+lookup blwfBelowBaseFormslookup2 {
+  lookupflag 0;
+    sub \raodia \viramasignodia \usignodia  by \viramaodia_raodia_usignodia;
+    sub \raodia \viramasignodia \uusignodia  by \viramaodia_raodia_uusignodia;
+    sub \viramasignodia \kaodia  by \viramasignodia_kaodia;
+    sub \viramasignodia \khaodia  by \viramasignodia_khaodia;
+    sub \viramasignodia \gaodia  by \viramasignodia_gaodia;
+    sub \viramasignodia \ghaodia  by \viramasignodia_ghaodia;
+    sub \viramasignodia \ngaodia  by \viramasignodia_ngaodia;
+    sub \viramasignodia \caodia  by \viramasignodia_caodia;
+    sub \viramasignodia \chaodia  by \viramasignodia_chaodia;
+    sub \viramasignodia \jaodia  by \viramasignodia_jaodia;
+    sub \viramasignodia \jhaodia  by \viramasignodia_jhaodia;
+    sub \viramasignodia \ttaodia  by \viramasignodia_ttaodia;
+    sub \viramasignodia \tthaodia  by \viramasignodia_tthaodia;
+    sub \viramasignodia \ddaodia  by \viramasignodia_ddaodia;
+    sub \viramasignodia \ddhaodia  by \viramasignodia_ddhaodia;
+    sub \viramasignodia \nnaodia  by \viramasignodia_nnaodia;
+    sub \viramasignodia \taodia  by \viramasignodia_taodia;
+    sub \viramasignodia \thaodia  by \viramasignodia_thaodia;
+    sub \viramasignodia \daodia  by \viramasignodia_daodia;
+    sub \viramasignodia \dhaodia  by \viramasignodia_dhaodia;
+    sub \viramasignodia \naodia  by \viramasignodia_naodia;
+    sub \viramasignodia \paodia  by \viramasignodia_paodia;
+    sub \viramasignodia \phaodia  by \viramasignodia_phaodia;
+    sub \viramasignodia \baodia  by \viramasignodia_baodia;
+    sub \viramasignodia \bhaodia  by \viramasignodia_bhaodia;
+    sub \viramasignodia \maodia  by \viramasignodia_maodia;
+    sub \viramasignodia \yaodia  by \viramasignodia_yaodia;
+    sub \viramasignodia \raodia  by \viramasignodia_raodia;
+    sub \viramasignodia \laodia  by \viramasignodia_laodia;
+    sub \viramasignodia \llaodia  by \viramasignodia_llaodia;
+    sub \viramasignodia \vaodia  by \viramasignodia_vaodia;
+    sub \viramasignodia \shaodia  by \viramasignodia_shaodia;
+    sub \viramasignodia \ssaodia  by \viramasignodia_ssaodia;
+    sub \viramasignodia \saodia  by \viramasignodia_saodia;
+    sub \viramasignodia \haodia  by \viramasignodia_haodia;
+    sub \viramasignodia \waodia  by \viramasignodia_waodia;
+} blwfBelowBaseFormslookup2;
+
+lookup blwfBelowBaseFormsinOriyalookup {
+  lookupflag 0;
+    sub \kaodia \viramasignodia  by \viramasignodia_kaodia;
+    sub \khaodia \viramasignodia  by \viramasignodia_khaodia;
+    sub \gaodia \viramasignodia  by \viramasignodia_gaodia;
+    sub \ghaodia \viramasignodia  by \viramasignodia_ghaodia;
+    sub \ngaodia \viramasignodia  by \viramasignodia_ngaodia;
+    sub \caodia \viramasignodia  by \viramasignodia_caodia;
+    sub \chaodia \viramasignodia  by \viramasignodia_chaodia;
+    sub \jaodia \viramasignodia  by \viramasignodia_jaodia;
+    sub \jhaodia \viramasignodia  by \viramasignodia_jhaodia;
+    sub \ttaodia \viramasignodia  by \viramasignodia_ttaodia;
+    sub \tthaodia \viramasignodia  by \viramasignodia_tthaodia;
+    sub \nnaodia \viramasignodia  by \viramasignodia_nnaodia;
+    sub \taodia \viramasignodia  by \viramasignodia_taodia;
+    sub \thaodia \viramasignodia  by \viramasignodia_thaodia;
+    sub \daodia \viramasignodia  by \viramasignodia_daodia;
+    sub \dhaodia \viramasignodia  by \viramasignodia_dhaodia;
+    sub \naodia \viramasignodia  by \viramasignodia_naodia;
+    sub \paodia \viramasignodia  by \viramasignodia_paodia;
+    sub \phaodia \viramasignodia  by \viramasignodia_phaodia;
+    sub \viramasignodia \baodia  by \viramasignodia_baodia;
+    sub \bhaodia \viramasignodia  by \viramasignodia_bhaodia;
+    sub \maodia \viramasignodia  by \viramasignodia_maodia;
+    sub \yaodia \viramasignodia  by \viramasignodia_yaodia;
+    sub \raodia \viramasignodia  by \viramasignodia_raodia;
+    sub \laodia \viramasignodia  by \viramasignodia_laodia;
+    sub \llaodia \viramasignodia  by \viramasignodia_llaodia;
+    sub \vaodia \viramasignodia  by \viramasignodia_vaodia;
+    sub \shaodia \viramasignodia  by \viramasignodia_shaodia;
+    sub \ssaodia \viramasignodia  by \viramasignodia_ssaodia;
+    sub \saodia \viramasignodia  by \viramasignodia_saodia;
+    sub \haodia \viramasignodia  by \viramasignodia_haodia;
+    sub \waodia \viramasignodia  by \viramasignodia_waodia;
+    sub \yyaodia \viramasignodia  by \viramasignodia_yyaodia;
+} blwfBelowBaseFormsinOriyalookup;
+
+lookup akhnAkhandlookup0 {
+  lookupflag 0;
+    sub \kaodia \viramasignodia \ssaodia  by \kaodia_viramasignodia_ssaodia;
+    sub \ngaodia \viramasignodia \kaodia \viramasignodia \ssaodia  by \ngaodia_vir_kaodia_vir_ssaodia;
+    sub \jaodia \viramasignodia \nyaodia  by \jaodia_viramasignodia_nyaodia;
+} akhnAkhandlookup0;
+
+lookup rphfRephFormlookup3 {
+  lookupflag 0;
+    sub \viramasignodia \raodia  by \raodia_viramasignodia;
+    sub \raodia \viramasignodia  by \raodia_viramasignodia;
+} rphfRephFormlookup3;
+
+lookup pstfPostBaseFormslookup4 {
+  lookupflag 0;
+    sub \viramasignodia \yaodia  by \viramasignodia_yaodia;
+    sub \viramasignodia \yyaodia  by \viramasignodia_yyaodia;
+} pstfPostBaseFormslookup4;
+
+lookup pstfPostBaseFormsinOriyalookup1 {
+  lookupflag 0;
+    sub \yaodia \viramasignodia  by \viramasignodia_yaodia;
+    sub \yyaodia \viramasignodia  by \viramasignodia_yyaodia;
+} pstfPostBaseFormsinOriyalookup1;
+
+lookup nuktNuktaFormslookup5 {
+  lookupflag 0;
+    sub \ddaodia \nuktasignodia  by \rraodia;
+    sub \ddhaodia \nuktasignodia  by \rhaodia;
+} nuktNuktaFormslookup5;
+
+lookup nuktNuktaFormsinOriyalookup15 {
+  lookupflag 0;
+    sub \nuktasignodia \ddaodia  by \rraodia;
+    sub \nuktasignodia \ddhaodia  by \rhaodia;
+} nuktNuktaFormsinOriyalookup15;
+
+lookup abvsAboveBaseSubstitutionsinOri {
+  lookupflag 0;
+    sub \isignodia \candrabinduodia  by \isignodia_candrabinduodia;
+    sub \isignodia \raodia_viramasignodia  by \isignodia_raodia_viramasignodia;
+} abvsAboveBaseSubstitutionsinOri;
+
+feature blws {
+
+ script ory2;
+     language dflt ;
+      lookup blwsBelowBaseSubstitutionsinOri;
+      lookup sub_chain_blwsory2_0;
+      lookup sub_chain_blwsory2_2;
+
+ script orya;
+     language dflt ;
+      lookup sub_chain_blwsory2_0;
+} blws;
+
+feature pres {
+
+ script ory2;
+     language dflt ;
+      lookup presPreBaseSubstitutionsinOriya;
+
+ script orya;
+     language dflt ;
+      lookup sub_ligature_presorya_0;
+} pres;
+
+feature blwf {
+
+ script ory2;
+     language dflt ;
+      lookup blwfBelowBaseFormslookup2;
+
+ script orya;
+     language dflt ;
+      lookup blwfBelowBaseFormsinOriyalookup;
+} blwf;
+
+feature akhn {
+
+ script ory2;
+     language dflt ;
+      lookup akhnAkhandlookup0;
+
+ script orya;
+     language dflt ;
+      lookup akhnAkhandlookup0;
+} akhn;
+
+feature rphf {
+
+ script ory2;
+     language dflt ;
+      lookup rphfRephFormlookup3;
+
+ script orya;
+     language dflt ;
+      lookup rphfRephFormlookup3;
+} rphf;
+
+feature pstf {
+
+ script ory2;
+     language dflt ;
+      lookup pstfPostBaseFormslookup4;
+
+ script orya;
+     language dflt ;
+      lookup pstfPostBaseFormsinOriyalookup1;
+} pstf;
+
+feature nukt {
+
+ script ory2;
+     language dflt ;
+      lookup nuktNuktaFormslookup5;
+
+ script orya;
+     language dflt ;
+      lookup nuktNuktaFormsinOriyalookup15;
+} nukt;
+
+feature abvs {
+
+ script orya;
+     language dflt ;
+      lookup abvsAboveBaseSubstitutionsinOri;
+} abvs;
+
+# GPOS 
+
+
+lookup blwmBelowBaseMarklookup0 {
+  lookupflag 0;
+  markClass [\usignodia \uusignodia ] <anchor -124 4> @oranchor1;
+  markClass [\vocalicrsignodia ] <anchor -133 0> @oranchor1;
+  pos base [\kaodia \caodia \ddaodia \taodia \naodia \baodia \bhaodia \vaodia \haodia ] <anchor 370 0> mark @oranchor1;
+  pos base [\daodia \naodia_viramasignodia_daodia ] <anchor 352 40> mark @oranchor1;
+  pos base [\phaodia ] <anchor 630 0> mark @oranchor1;
+  pos base [\raodia ] <anchor 370 -0> mark @oranchor1;
+  pos base [\laodia ] <anchor 330 0> mark @oranchor1;
+  pos base [\llaodia ] <anchor 360 0> mark @oranchor1;
+  pos base [\rraodia \rhaodia ] <anchor 523 -149> mark @oranchor1;
+} blwmBelowBaseMarklookup0;
+
+feature blwm {
+
+ script ory2;
+     language dflt ;
+      lookup blwmBelowBaseMarklookup0;
+
+ script orya;
+     language dflt ;
+      lookup blwmBelowBaseMarklookup0;
+} blwm;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\space \aodia \aaodia \iodia \iiodia \uodia \uuodia \vocalicrodia 
+	\vocaliclodia \eodia \aiodia \oodia \auodia \kaodia \khaodia \gaodia \ghaodia 
+	\ngaodia \caodia \chaodia \jaodia \jhaodia \nyaodia \ttaodia \tthaodia \ddaodia 
+	\ddhaodia \nnaodia \taodia \thaodia \daodia \dhaodia \naodia \paodia \phaodia 
+	\baodia \bhaodia \maodia \raodia \laodia \llaodia \vaodia \shaodia \ssaodia 
+	\saodia \haodia \avagrahasignodia \rraodia \rhaodia \yyaodia \vocalicrrodia 
+	\vocalicllodia \zeroodia \oneodia \twoodia \threeodia \fourodia \fiveodia 
+	\sixodia \sevenodia \eightodia \nineodia \issharodia \waodia 
+	\zerowidthnonjoinerodia \zerowidthjoinerodia \kaodia_viramasignodia_kaodia 
+	\kaodia_viramasignodia_taodia \kaodia_virm_taodia_virm_raodia 
+	\kaodia_viramasignodia_baodia \kaodia_virm_ssaodia_virm_maodia 
+	\kaodia_virm_ssaodia_virm_yaodia \kaodia_viramasignodia_saodia 
+	\gaodia_viramasignodia_daodia \gaodia_viramasignodia_dhaodia 
+	\gaodia_viramasignodia_naodia \gaodia_viramasignodia_llaodia 
+	\ghaodia_viramasignodia_naodia \ngaodia_viramasignodia_kaodia 
+	\ngaodia_virm_kaodia_virm_taodia \ngaodia_vir_kaodia_vir_ssaodia 
+	\ngaodia_viramasignodia_khaodia \ngaodia_viramasignodia_gaodia 
+	\ngaodia_viramasignodia_ghaodia \caodia_viramasignodia_caodia 
+	\caodia_viramasignodia_chaodia \glyph129 \jaodia_viramasignodia_jaodia 
+	\jaodia_virm_jaodia_virm_baodia \jaodia_viramasignodia_jhaodia 
+	\jaodia_viramasignodia_nyaodia \jaodia_viramasignodia_baodia 
+	\nyaodia_viramasignodia_caodia \nyaodia_viramasignodia_chaodia 
+	\nyaodia_viramasignodia_jaodia \nyaodia_viramasignodia_jhaodia 
+	\ttaodia_viramasignodia_ttaodia \ddaodia_viramasignodia_gaodia 
+	\ddaodia_viramasignodia_ddaodia \nnaodia_viramasignodia_ttaodia 
+	\nnaodia_viramasignodia_tthaodia \nnaodia_viramasignodia_ddaodia 
+	\nnaodia_vir_ddaodia_vir_raodia \nnaodia_viramasignodia_ddhaodia 
+	\nnaodia_viramasignodia_nnaodia \taodia_viramasignodia_kaodia 
+	\taodia_viramasignodia_taodia \taodia_virm_taodia_virm_baodia 
+	\taodia_virm_taodia_virm_raodia \taodia_viramasignodia_thaodia 
+	\taodia_viramasignodia_naodia \taodia_viramasignodia_paodia 
+	\taodia_viramasignodia_baodia \taodia_viramasignodia_maodia 
+	\taodia_virm_maodia_virm_yaodia \taodia_viramasignodia_saodia 
+	\taodia_virm_saodia_virm_naodia \taodia_virm_saodia_virm_yaodia 
+	\daodia_viramasignodia_gaodia \daodia_viramasignodia_ghaodia 
+	\daodia_viramasignodia_daodia \daodia_viramasignodia_dhaodia 
+	\daodia_virm_dhaodia_virm_baodia \daodia_viramasignodia_baodia 
+	\daodia_viramasignodia_bhaodia \daodia_viramasignodia_yaodia 
+	\dhaodia_viramasignodia_baodia \dhaodia_viramasignodia_yaodia 
+	\naodia_viramasignodia_taodia \naodia_virm_taodia_virm_yaodia 
+	\naodia_virm_taodia_virm_raodia \glyph174 \naodia_virm_taodia_virm_baodia 
+	\naodia_viramasignodia_thaodia \naodia_viramasignodia_daodia 
+	\naodia_virm_daodia_virm_raodia \naodia_virm_daodia_virm_baodia 
+	\naodia_viramasignodia_dhaodia \naodia_virm_dhaodia_virm_baodia 
+	\naodia_virm_dhaodia_virm_raodia \naodia_virm_dhaodia_virm_yaodia 
+	\naodia_viramasignodia_naodia \naodia_virm_naodia_virm_yaodia 
+	\paodia_viramasignodia_taodia \paodia_viramasignodia_paodia 
+	\paodia_viramasignodia_llaodia \paodia_viramasignodia_saodia 
+	\baodia_viramasignodia_jaodia \baodia_viramasignodia_daodia 
+	\baodia_viramasignodia_dhaodia \maodia_viramasignodia_paodia 
+	\maodia_virm_paodia_virm_raodia \maodia_viramasignodia_phaodia 
+	\maodia_viramasignodia_baodia \maodia_viramasignodia_bhaodia 
+	\maodia_virm_bhaodia_virm_raodia \maodia_viramasignodia_maodia 
+	\llaodia_viramasignodia_kaodia \llaodia_viramasignodia_bhaodia 
+	\llaodia_viramasignodia_llaodia \llaodia_viramasignodia_paodia 
+	\llaodia_viramasignodia_phaodia \laodia_viramasignodia_kaodia 
+	\laodia_viramasignodia_gaodia \laodia_viramasignodia_laodia 
+	\shaodia_viramasignodia_caodia \shaodia_viramasignodia_chaodia 
+	\shaodia_viramasignodia_baodia \shaodia_viramasignodia_llaodia 
+	\ssaodia_viramasignodia_kaodia \ssaodia_virm_kaodia_virm_raodia 
+	\ssaodia_viramasignodia_ttaodia \ssaodia_vir_ttaodia_vir_raodia 
+	\ssaodia_viramasignodia_tthaodia \ssaodia_viramasignodia_nnaodia 
+	\ssaodia_viramasignodia_paodia \ssaodia_virm_paodia_virm_raodia 
+	\ssaodia_viramasignodia_phaodia \saodia_viramasignodia_kaodia 
+	\saodia_viramasignodia_khaodia \saodia_viramasignodia_taodia 
+	\saodia_virm_taodia_virm_raodia \saodia_viramasignodia_thaodia 
+	\saodia_virm_thaodia_virm_yaodia \saodia_viramasignodia_naodia 
+	\saodia_viramasignodia_paodia \saodia_viramasignodia_phaodia 
+	\saodia_viramasignodia_baodia \saodia_viramasignodia_maodia 
+	\haodia_viramasignodia_naodia \haodia_viramasignodia_maodia 
+	\haodia_viramasignodia_laodia \glyph236 \viramaodia_raodia_usignodia 
+	\viramaodia_raodia_uusignodia \glyph239 \isignodia_candrabinduodia 
+	\isignodia_raodia_viramasignodia \glyph242 \glyph243 \glyph244 \glyph245 
+	\glyph246 \kaodia_viramasignodia_raodia \khaodia_viramasignodia_raodia 
+	\gaodia_viramasignodia_raodia \ghaodia_viramasignodia_raodia 
+	\ngaodia_viramasignodia_raodia \caodia_viramasignodia_raodia 
+	\chaodia_viramasignodia_raodia \jaodia_viramasignodia_raodia 
+	\jhaodia_viramasignodia_raodia \nyaodia_viramasignodia_raodia 
+	\ttaodia_viramasignodia_raodia \tthaodia_viramasignodia_raodia 
+	\ddaodia_viramasignodia_raodia \ddhaodia_viramasignodia_raodia 
+	\nnaodia_viramasignodia_raodia \taodia_viramasignodia_raodia 
+	\thaodia_viramasignodia_raodia \daodia_viramasignodia_raodia 
+	\dhaodia_viramasignodia_raodia \naodia_viramasignodia_raodia 
+	\paodia_viramasignodia_raodia \phaodia_viramasignodia_raodia 
+	\baodia_viramasignodia_raodia \bhaodia_viramasignodia_raodia 
+	\maodia_viramasignodia_raodia \yaodia_viramasignodia_raodia 
+	\raodia_viramasignodia_raodia \laodia_viramasignodia_raodia 
+	\llaodia_viramasignodia_raodia \vaodia_viramasignodia_raodia 
+	\shaodia_viramasignodia_raodia \ssaodia_viramasignodia_raodia 
+	\saodia_viramasignodia_raodia \haodia_viramasignodia_raodia 
+	\rraodia_viramasignodia_raodia \rhaodia_viramasignodia_raodia 
+	\yyaodia_viramasignodia_raodia \glyph323 \glyph324 \viramasignodia_kaodia 
+	\viramasignodia_khaodia \viramasignodia_gaodia \viramasignodia_ghaodia 
+	\viramasignodia_ngaodia \viramasignodia_caodia \viramasignodia_chaodia 
+	\viramasignodia_jaodia \viramasignodia_jhaodia \glyph334 
+	\viramasignodia_ttaodia \viramasignodia_tthaodia \viramasignodia_ddaodia 
+	\viramasignodia_ddhaodia \viramasignodia_nnaodia \viramasignodia_taodia 
+	\viramasignodia_thaodia \viramasignodia_daodia \viramasignodia_dhaodia 
+	\viramasignodia_naodia \viramasignodia_paodia \viramasignodia_phaodia 
+	\viramasignodia_baodia \viramasignodia_bhaodia \viramasignodia_maodia 
+	\viramasignodia_yaodia \viramasignodia_raodia \viramasignodia_laodia 
+	\viramasignodia_llaodia \viramasignodia_vaodia \viramasignodia_shaodia 
+	\viramasignodia_ssaodia \viramasignodia_saodia \viramasignodia_haodia 
+	\viramasignodia_waodia \glyph369 \glyph394 \glyph395 \glyph396 \glyph397 
+	\glyph398 \glyph399 \glyph400 \glyph401 \glyph402 \glyph403 \glyph404 
+	\viramaodia_raodia_usignodia.1 \viramaodia_raodia_uusignodia.1 
+	\glyph236.alt \usignodia.alt \uusignodia.alt \vocalicrsignodia.alt \glyph411 
+	\glyph412 \glyph413 \glyph414 \rupeeodia \fractiononequarterodia 
+	\fractiononehalfodia \fractionthreequarterodia \fractiononesixteenthodia 
+	\fractiononeeigthodia \fractionthreesixteenthodia ];
+@GDEF_Ligature = [\kaodia_vir_ssaodia_vir_nnaodia ];
+@GDEF_Mark = [\candrabinduodia \anusvaraodia \visargaodia \yaodia \nuktasignodia 
+	\aasignodia \isignodia \iisignodia \usignodia \uusignodia \vocalicrsignodia 
+	\esignodia \aisignodia \osignodia \ausignodia \viramasignodia \ailengthodia 
+	\aulengthodia \dottefcircleodia \kaodia_viramasignodia_llaodia 
+	\kaodia_viramasignodia_ssaodia \raodia_viramasignodia \glyph360.alt1 
+	\viramasignodia_yyaodia \glyph362.alt2 \glyph363.alt3 
+	\baodia_viramasignodia_baodia \glyph365 \glyph366 \glyph367 \glyph368 
+	\glyph370 \glyph371 \glyph372 \glyph373 \glyph374 \glyph375 \glyph376 \glyph377 
+	\glyph378 \glyph379 \glyph380 \glyph381 \glyph382 \glyph383 \glyph384 \glyph385 
+	\glyph386 \glyph387 \glyph388 \glyph389 \glyph390 \glyph391 \glyph392 \glyph393 
+	\vocalicrrsignodia \vocaliclsignodia \vocalicllsignodia ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
+
