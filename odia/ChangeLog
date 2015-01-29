@@ -1,8 +1,19 @@
 				  lohit-odia
 
-Current Version :- 2.90.0
+Current Version :- 2.91.0
 
-- Updated feature rule blwf
+* Thu Jan 29 2015 Pravin Satpute <psatpute@redhat.com> - 2.91.0
+- First release of Lohit Odia after re-writing GSUB rules.
+- Open type rules are available in .fea file for easy reusability.
+- Feature file compiled with AFDKO.
+- Supports orya and ory2 both.
+- Developer friendly glyphs names with AGL syntax format.
+- Corrected glyph class for all glyphs. 
+- Improved shape of ka-viramasignodia-taodia.
+- Added Glyph positioning rules for below based matra.
+- Test file available with release tarball.
+- Auto testing support with harfbuzz hb-shape.
+- Tested with Harfbuzz and Uniscribe (W8 and XP)
 - Corrected feature rules for conjucts ଖ୍ର ଗ୍ର କ୍ଷ୍ଯ
 
 * Wed Jun 19 2013 Pravin Satpute <psatpute@redhat.com> - 2.5.4.1

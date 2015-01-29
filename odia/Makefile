@@ -1,53 +1,57 @@
-all: ttf woff eot ttf-dist sfd-dist web-dist
+all: sfd-dist ttf woff eot ttf-dist web-dist  
+version:= 2.91.0
 
-version:= 2.5.4.1
+test: test-ttf
+	@echo "----------Testing actual-output with expected-output----------"
+	python auto_test.py std-test-out.txt Lohit-Odia.ttf
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
+	python apply_featurefile.py Lohit-Odia.sfd Lohit-Odia.fea
 	./generate.pe *.sfd
 	@echo "----------Finished generating ttf file----------"
 	@echo " "
 
 woff: woff-bin
 	@echo "----------Generating woff from ttf file----------"
-	java -jar /usr/share/java/sfnttool.jar -w Lohit-Oriya.ttf Lohit-Oriya.woff
+	sfntly -w Lohit-Odia.ttf Lohit-Odia.woff
 	@echo "----------Finished generating woff file----------"
 	@echo " "
 
 eot: eot-bin
 	@echo "----------Generating eot from ttf file----------"
-	java -jar /usr/share/java/sfnttool.jar -e -x Lohit-Oriya.ttf Lohit-Oriya.eot
+	sfntly -e -x Lohit-Odia.ttf Lohit-Odia.eot
 	@echo "----------Finished generating eot file----------"
 	@echo " "
 
 ttf-dist: dist
-	mkdir lohit-oriya-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  66-lohit-oriya.conf Lohit-Oriya.ttf lohit-oriya-ttf-$(version)
-	rm -rf lohit-oriya-ttf-$(version)/.git
-	tar -cf lohit-oriya-ttf-$(version).tar lohit-oriya-ttf-$(version)
-	gzip lohit-oriya-ttf-$(version).tar
-	rm -rf lohit-oriya-ttf-$(version)
+	mkdir lohit-odia-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt test-odia.txt README  AUTHORS ChangeLog 66-lohit-odia.conf Lohit-Odia.ttf lohit-odia-ttf-$(version)
+	rm -rf lohit-odia-ttf-$(version)/.git
+	tar -cf lohit-odia-ttf-$(version).tar lohit-odia-ttf-$(version)
+	gzip lohit-odia-ttf-$(version).tar
+	rm -rf lohit-odia-ttf-$(version)
 
 sfd-dist: dist
-	mkdir lohit-oriya-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog  66-lohit-oriya.conf Lohit-Oriya.sfd lohit-oriya-$(version)
-	rm -rf lohit-oriya-$(version)/.git
-	rm -rf lohit-oriya-$(version)/*.ttf
-	tar -cf lohit-oriya-$(version).tar lohit-oriya-$(version)
-	gzip lohit-oriya-$(version).tar
-	rm -rf lohit-oriya-$(version)
+	mkdir lohit-odia-$(version)
+	cp -p COPYRIGHT OFL.txt test-odia.txt README  AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog 66-lohit-odia.conf Lohit-Odia.sfd std-test-out.txt lohit-odia-$(version)
+	rm -rf lohit-odia-$(version)/.git
+	rm -rf lohit-odia-$(version)/*.ttf
+	tar -cf lohit-odia-$(version).tar lohit-odia-$(version)
+	gzip lohit-odia-$(version).tar
+	rm -rf lohit-odia-$(version)
 
 web-dist: webdist
-	mkdir lohit-oriya-web-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog Lohit-Oriya.woff  Lohit-Oriya.eot lohit-oriya-web-$(version)
-	rm -rf lohit-oriya-web-$(version)/.git
-	tar -cf lohit-oriya-web-$(version).tar lohit-oriya-web-$(version)
-	gzip lohit-oriya-web-$(version).tar
-	rm -rf lohit-oriya-web-$(version)
+	mkdir lohit-odia-web-$(version)
+	cp -p COPYRIGHT OFL.txt test-odia.txt README  AUTHORS ChangeLog Lohit-Odia.woff  Lohit-Odia.eot lohit-odia-web-$(version)
+	rm -rf lohit-odia-web-$(version)/.git
+	tar -cf lohit-odia-web-$(version).tar lohit-odia-web-$(version)
+	gzip lohit-odia-web-$(version).tar
+	rm -rf lohit-odia-web-$(version)
 
 clean: cleanall
 	rm -f *.ttf *.eot *.woff
 	rm -rf *.tar.gz
-	rm -rf lohit-oriya*
+	rm -rf lohit-odia*
 
-.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version test-ttf

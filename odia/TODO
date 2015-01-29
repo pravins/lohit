@@ -1,0 +1,8 @@
+1. Adding Latin support includin punct.
+2. Diacritic: 
+   a. Macron - U+0304 (a, i, u, r with round below and I with round below)
+   b. Dot Above - U+307  (n, m and y)
+   c. Dot Below - U+0323 (h, t, d, r, n and s)
+   d. Tilde - U+0342 (above on n and a)
+   e. Acccent - U+0325 (s)
+   f. Ring Below -  r, r, l, L
