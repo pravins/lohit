@@ -6,3 +6,6 @@
    d. Tilde - U+0342 (above on n and a)
    e. Acccent - U+0325 (s)
    f. Ring Below -  r, r, l, L
+3.   Mark to mark needed for next release.  u'\u0b30\u0b4d\u0b24\u0b4d\u0b24\u0b41'    ର୍ତ୍ତ
+
+4. ob3f getting reorder to initial position. breaking ligature   u'\u0b38\u0b4d\u0b15\u0b4d\u0b30\u0b3f'
