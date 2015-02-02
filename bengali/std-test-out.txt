@@ -44,7 +44,7 @@
 হ	[habeng=0+403]
 ৎ	[khandatabeng=0+410]
 ড়	[rrabeng=0+548]
-ঢ়	[ddhabeng=0+434|nuktabeng=0@-698,55+0]
+ঢ়	[rhabeng=0+418]
 য়	[yyabeng=0+452]
 ০	[zerobeng=0+499]
 ১	[onebeng=0+498]

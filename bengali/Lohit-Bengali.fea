@@ -59,6 +59,7 @@ lookup nuktNuktaFormslookup2 {
   lookupflag 0;
     sub \ddabeng \nuktabeng  by \rrabeng;
     sub \yabeng \nuktabeng  by \yyabeng;
+    sub \ddhabeng \nuktabeng  by \rhabeng;
 } nuktNuktaFormslookup2;
 
 lookup akhnAkhandlookup2 {
