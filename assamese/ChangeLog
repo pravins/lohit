@@ -1,5 +1,8 @@
 				  lohit-assamese
-Current Version :- 2.91.1
+Current Version :- 2.91.2
+
+* Mon Fed 02 2015 Pravin Satpute <psatpute@redhat.com> - 2.91.2
+- Resolved issue https://github.com/pravins/lohit/issues/58.
 
 * Wed Dec 03 2014 Pravin Satpute <psatpute@redhat.com> - 2.91.1
 - Resolved issue of conjuncts with matra issue #57.
