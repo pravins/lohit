@@ -18225,7 +18225,7 @@ Validated: 1
 EndChar
 
 StartChar: ba_virama_ra_viramadeva
-Encoding: 65533 -1 403
+Encoding: 65744 -1 403
 Width: 366
 GlyphClass: 2
 Flags: W
@@ -18325,7 +18325,7 @@ Ligature2: "PreBaseSubstitutionslookup2 subtable" isigndeva.alt2 radeva_viramade
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt2
-Encoding: 65531 -1 405
+Encoding: 65743 -1 405
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18382,7 +18382,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: isigndeva_anusvaradeva.alt4
-Encoding: 65525 -1 406
+Encoding: 65742 -1 406
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18424,7 +18424,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: isigndeva.alt4
-Encoding: 65528 -1 407
+Encoding: 65741 -1 407
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18459,7 +18459,7 @@ Validated: 33
 EndChar
 
 StartChar: isign_ra_virama.alt4
-Encoding: 65527 -1 408
+Encoding: 65740 -1 408
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18512,7 +18512,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt4
-Encoding: 65526 -1 409
+Encoding: 65739 -1 409
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18566,7 +18566,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: isigndeva_anusvara.alt1
-Encoding: 65524 -1 410
+Encoding: 65738 -1 410
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18608,7 +18608,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: isign_ra_virama.alt1
-Encoding: 65523 -1 411
+Encoding: 65737 -1 411
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18657,7 +18657,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: isign_ra_virama_anusvara.alt1
-Encoding: 65522 -1 412
+Encoding: 65736 -1 412
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18711,7 +18711,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: isigndeva_anusvara.tha
-Encoding: 65518 -1 413
+Encoding: 65735 -1 413
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18753,7 +18753,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: isign_ra_virama_anusvara.tha
-Encoding: 65519 -1 414
+Encoding: 65734 -1 414
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18804,7 +18804,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: isign_ra_virama.tha
-Encoding: 65520 -1 415
+Encoding: 65733 -1 415
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18850,7 +18850,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: isigndeva.tha
-Encoding: 65521 -1 416
+Encoding: 65732 -1 416
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18885,7 +18885,7 @@ Validated: 33
 EndChar
 
 StartChar: isigndeva.ja
-Encoding: 65517 -1 417
+Encoding: 65731 -1 417
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18920,7 +18920,7 @@ Validated: 1
 EndChar
 
 StartChar: isigndeva_anusvaradeva.ja
-Encoding: 65516 -1 418
+Encoding: 65730 -1 418
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -18962,7 +18962,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: isign_ra_virama.ja
-Encoding: 65515 -1 419
+Encoding: 65729 -1 419
 Width: 266
 GlyphClass: 4
 Flags: W
@@ -19017,7 +19017,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: isign_ra_virama_anusvara.ja
-Encoding: 65514 -1 420
+Encoding: 65728 -1 420
 Width: 266
 GlyphClass: 4
 Flags: W
