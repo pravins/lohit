@@ -21,7 +21,7 @@ import fontforge
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print "USAGE: python apply_featurefile.py <sfd file> <featurefile>"
+        print ("USAGE: python apply_featurefile.py <sfd file> <featurefile>")
     else:
         font = fontforge.open(sys.argv[1])
 
@@ -38,5 +38,5 @@ if __name__ == "__main__":
         font.mergeFeature(sys.argv[2])
         font.save()
         font.close()
-        print "[SUCCESS]", sys.argv[2], "feature file applied"
+        print ("[SUCCESS]", sys.argv[2], "feature file applied")
 
