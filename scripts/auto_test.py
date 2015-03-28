@@ -20,7 +20,7 @@ import os,sys,commands
 
 def auto_test(txt_file,ttf_file):
 	inputfile=open(txt_file)
-	outputfile=open("failed_test_case.txt","w")
+	outputfile=open("failed_test_case.txt","wpr")
 
 	#Read the test-case input	
 	flines=inputfile.readlines()
@@ -32,20 +32,20 @@ def auto_test(txt_file,ttf_file):
 		status, output = commands.getstatusoutput("hb-shape %s %s"%(ttf_file,words[0]))
 		# Test to check, wheather test-case from output file & the result, are matching		
 		if words[1] != output:
-			print words[0]+ " [FAILURE]\n"	
+			print (words[0]+ " [FAILURE]\n"	)
 			outputfile.write("  *  "+words[0]+"\t"+""+output+"\n")
 			count=count+1
 
 	#Count for failed test-cases	
-	print "%d Test Cases Failed out of %d"%(count,len(flines))
-	print "failed_test_case.txt file generated !!"
+	print ("%d Test Cases Failed out of %d"%(count,len(flines)))
+	print ("failed_test_case.txt file generated !!")
 	inputfile.close()
 	outputfile.close()
 
 if __name__ == "__main__":
 
 	if len(sys.argv) < 3:
-	 	print  " USAGE: python test.py <test file> <font_file> "
+	 	print  (" USAGE: python test.py <test file> <font_file> ")
 	else:
 		txt_file = sys.argv[1]
 		font_file = sys.argv[2]
