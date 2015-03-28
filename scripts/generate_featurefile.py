@@ -24,7 +24,7 @@ if __name__ == "__main__":
     else:
 	sfdname = sys.argv[1]
 	featurefilename = sfdname[0:-4] + ".fea"
-	print featurefilename
+	print (featurefilename)
 
         font = fontforge.open(sys.argv[1])
         font.generateFeatureFile(featurefilename)
