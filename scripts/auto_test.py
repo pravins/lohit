@@ -16,36 +16,36 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-import os,sys,commands
+import os,sys,subprocess
 
 def auto_test(txt_file,ttf_file):
 	inputfile=open(txt_file)
 	outputfile=open("failed_test_case.txt","w")
 
-	#Read the test-case input	
+	#Read the test-case input
 	flines=inputfile.readlines()
 	count=0
 
 	#Exceute hb-shape command for each test-case from output file
 	for string in flines:
-		words=string.split()	
-		status, output = commands.getstatusoutput("hb-shape %s %s"%(ttf_file,words[0]))
-		# Test to check, wheather test-case from output file & the result, are matching		
+		words=string.split()
+		status, output = subprocess.getstatusoutput("hb-shape %s %s"%(ttf_file,words[0]))
+		# Test to check, wheather test-case from output file & the result, are matching
 		if words[1] != output:
-			print words[0]+ " [FAILURE]\n"	
+			print(words[0]+ " [FAILURE]\n")
 			outputfile.write("  *  "+words[0]+"\t"+""+output+"\n")
 			count=count+1
 
-	#Count for failed test-cases	
-	print "%d Test Cases Failed out of %d"%(count,len(flines))
-	print "failed_test_case.txt file generated !!"
+	#Count for failed test-cases
+	print("%d Test Cases Failed out of %d"%(count,len(flines)))
+	print("failed_test_case.txt file generated !!")
 	inputfile.close()
 	outputfile.close()
 
 if __name__ == "__main__":
 
 	if len(sys.argv) < 3:
-	 	print  " USAGE: python test.py <test file> <font_file> "
+		print(" USAGE: python test.py <test file> <font_file> ")
 	else:
 		txt_file = sys.argv[1]
 		font_file = sys.argv[2]
