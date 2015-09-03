@@ -7,6 +7,7 @@ Current Version :- 2.5.4
 Shamra
 - Added GSUB rules for U0C34 and U0C5A
 - Added Latin shapes from Lohit Devanagari.
+- Removed autohint from .conf since we are now using ttfautohint.
 
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
 - Dropping RFN from OFL.txt
