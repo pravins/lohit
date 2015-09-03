@@ -3,7 +3,7 @@ FontName: Lohit-Telugu
 FullName: Lohit Telugu
 FamilyName: Lohit Telugu
 Weight: Book
-Copyright: Copyright 2011-12 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
+Copyright: Copyright 2011-15 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\n\n  Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
 Version: 2.5.4
 ItalicAngle: 0
 UnderlinePosition: -300
@@ -20,8 +20,8 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1153280036
-ModificationTime: 1441265902
-PfmFamily: 17
+ModificationTime: 1441274163
+PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 200
