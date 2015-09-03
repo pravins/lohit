@@ -3,8 +3,8 @@ Current Version :- 2.5.4
 
 * Thu Sep 03 2015 Pravin Satpute <psatpute@redhat.com> - 2.5.4
 - Resolved #1105878 - Rendering problem of స్త్ర
-- Added U0C00, U0C34 and U0C5A with its conjuncts form. Shapes from Sriramana
-Shamra
+- Added U0C00, U0C34 and U0C5A with its conjuncts form. Shapes from Shriramana
+Sharma
 - Added GSUB rules for U0C34 and U0C5A
 - Added Latin shapes from Lohit Devanagari.
 - Removed autohint from .conf since we are now using ttfautohint.
