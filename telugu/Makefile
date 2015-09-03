@@ -1,10 +1,12 @@
 all: ttf woff eot ttf-dist sfd-dist web-dist
 
-version:= 2.5.3
+version:= 2.5.4
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
 	./generate.pe *.sfd
+	ttfautohint -D telu -f telu -n Lohit-Telugu.ttf Lohit.ttf
+	mv Lohit.ttf Lohit-Telugu.ttf
 	@echo "----------Finished generating ttf file----------"
 	@echo " "
 
