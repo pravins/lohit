@@ -1,7 +1,10 @@
 				  lohit-bengali
-Current Version :- 2.91.2
+Current Version :- 2.91.3
 
-* Mon Fed 02 2015 Pravin Satpute <psatpute@redhat.com> - 2.91.2
+* Mon Sep 28 2015 Pravin Satpute <psatpute@redhat.com> - 2.91.3
+- Added Unicode U+0980 Bengali Anji, patch from  Shriramana Sharma  
+
+* Mon Feb 02 2015 Pravin Satpute <psatpute@redhat.com> - 2.91.2
 - Resolved issue of positioning #58
 
 * Wed Dec 03 2014 Pravin Satpute <psatpute@redhat.com> - 2.91.1

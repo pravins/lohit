@@ -1,5 +1,8 @@
 				  lohit-devanagari
-Current Version :- 2.95.1
+Current Version :- 2.95.2
+
+* Mon Sep 28 2015 Pravin Satpute <psatpute@redhat.com> - 2.95.2
+- Added U+0978, U+A8FC and U+A8FD characters - Unicode 8.0  #1229183
 
 * Wed Mar 25 2015 Pravin Satpute <psatpute@redhat.com> - 2.95.1
 - Update U+0960 shape as per patch from Shriramana Sharma. #1113968

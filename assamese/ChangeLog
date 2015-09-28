@@ -1,5 +1,8 @@
 				  lohit-assamese
-Current Version :- 2.91.2
+Current Version :- 2.91.3
+
+* Mon Sep 28 2015 Pravin Satpute <psatpute@redhat.com> - 2.91.3
+- Added Unicode U+0980 Bengali Anji, patch from  Shriramana Sharma 
 
 * Mon Fed 02 2015 Pravin Satpute <psatpute@redhat.com> - 2.91.2
 - Resolved issue https://github.com/pravins/lohit/issues/58.
