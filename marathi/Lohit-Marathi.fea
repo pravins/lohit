@@ -79,7 +79,6 @@ lookup HalfFormslookup10 {
     sub \madeva \viramadeva  by \madeva_viramadeva;
     sub \yadeva \viramadeva  by \yadeva_viramadeva;
     sub \ladeva \viramadeva  by \ladeva_viramadeva;
-    sub \ladeva.mr \viramadeva  by \ladeva_viramadeva;
     sub \lladeva \viramadeva  by \lladeva_viramadeva;
     sub \llladeva \viramadeva  by \llladeva_viramadeva;
     sub \vadeva \viramadeva  by \vadeva_viramadeva;
@@ -101,7 +100,6 @@ lookup HalfFormslookup10 {
 
 lookup VattuVariantslookup30 {
   lookupflag 0;
-    sub \shadeva.mr \viramadeva_radeva  by \shadeva_viramadeva_radeva;
     sub \shadeva_viramadeva.alt \radeva  by \shadeva_viramadeva_radeva;
     sub \shadeva \viramadeva_radeva  by \shadeva_viramadeva_radeva;
     sub \tadeva \viramadeva_radeva \viramadeva  by \ta_virama_ra_viramadeva;
@@ -251,7 +249,7 @@ lookup PresSub_Chain_IVowelSign_alt2_0 {
 	\ka_virama_ssa_viramadeva \ja_virama_nya_viramadeva \yadeva_alt 
 	\ttadeva_viramadeva_yadeva \tthadeva_viraamdeva_yadeva 
 	\ddadeva_viramadeva_yadeva \ddhadeva_viramadeva_yadeva 
-	\da_ddha_ra_yadeva \shadeva_viramadeva.mr ]  by [\isigndeva.alt2 ];
+	\da_ddha_ra_yadeva ]  by [\isigndeva.alt2 ];
 } PresSub_Chain_IVowelSign_alt2_0;
 
 lookup PresSub_Chain_IVowelSign_alt4_1 {
@@ -276,7 +274,7 @@ lookup presPreBaseSubstitutionslookup3 {
     sub [\isigndeva ]' [\chadeva \nnadeva \thadeva \bhadeva \lladeva \llladeva \shadeva 
 	\shadeva_viramadeva_radeva \jadeva_viramadeva_nyadeva 
 	\bhadeva_viramadeva_radeva \thadeva_viramadeva_radeva 
-	\ja_virama_nya_virama_radeva \shadeva.mr ]  by [\isigndeva.tha ];
+	\ja_virama_nya_virama_radeva ]  by [\isigndeva.tha ];
 } presPreBaseSubstitutionslookup3;
 
 lookup sub_chain_presdev2_0 {
@@ -285,7 +283,7 @@ lookup sub_chain_presdev2_0 {
 	\jhadeva_viramadeva_radeva \nyadeva_viramadeva_cadeva 
 	\nyadeva_viramadeva_jadeva \dadeva_viramadeva_madeva 
 	\dadeva_viramadeva_yadeva \ladeva_viramadeva_ladeva 
-	\hadeva_viramadeva_madeva \ladeva.mr ]  by [\isigndeva.ja ];
+	\hadeva_viramadeva_madeva ]  by [\isigndeva.ja ];
 } sub_chain_presdev2_0;
 
 lookup PreBaseSubstitutionslookup2 {
