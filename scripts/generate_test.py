@@ -33,7 +33,7 @@ def generate_stdfile(txt_file,ttf_file):
 		# Write output to the output file		
 		# print "Output : "	+output+"\n"	
 		outputfile.write(words[0]+"\t"+""+output+"\n")
-	print "std-test-out.txt file generated!!"
+	print ("std-test-out.txt file generated!!")
 	outputfile.close()
 	inputfile.close()
 
@@ -42,7 +42,7 @@ def generate_stdfile(txt_file,ttf_file):
 if __name__ == "__main__":
 
  if len(sys.argv) < 3:
-        print  " USAGE: python generate_test.py <test file> <font_file> "
+        print  (" USAGE: python generate_test.py <test file> <font_file> ")
  else:
 	txt_file = sys.argv[1]
 	font_file = sys.argv[2]
