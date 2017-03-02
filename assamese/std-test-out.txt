@@ -213,7 +213,7 @@
 য্য	[yabeng=0+442|yabeng_viramabeng.pstf=0+223]
 র্ধ্ব	[dhabeng_viramabeng_babeng=0+707|rabeng_viramabeng=0+0]
 র্শ্ব	[shabeng_viramabeng_babeng=0+438|rabeng_viramabeng=0+0]
-ৰ‍্য	[u09F0=0+432|space=1+0|yabeng_viramabeng.pstf=1+223]
+ৰ‍্য	[u09F0=0+432|space=0+0|yabeng_viramabeng.pstf=0+223]
 ল্ক	[labeng_viramabeng_kabeng=0+619]
 ল্গ	[labeng_viramabeng_gabeng=0+523]
 ল্ট	[labeng_viramabeng_ttabeng=0+637]

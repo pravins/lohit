@@ -4,7 +4,7 @@ version:= 2.92.2
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
-	python apply_featurefile.py Lohit-Gujarati.sfd Lohit-Gujarati.fea
+	fontforge -lang=py -script apply_featurefile.py Lohit-Gujarati.sfd Lohit-Gujarati.fea
 	./generate.pe *.sfd
 	@echo "----------Finished generating ttf file----------"
 	@echo " "

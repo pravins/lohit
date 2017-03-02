@@ -4,7 +4,7 @@ FullName: Lohit Assamese
 FamilyName: Lohit Assamese
 Weight: Book
 Copyright: Copyright 2011-15 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\nOpen type tables written by:\nPravin Satpute <psatpute AT redhat DOT com>\nSneha Kore <skore AT redhat DOT com> and Shilpa Gite <sgite AT redhat DOT com>\n\n   Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
-Version: 2.91.3
+Version: 2.91.4
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -250,7 +250,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "Lohit Assamese : 26-3-2014" "" "Version 2.91.3" "" "Lohit is trademark of RedHat, Inc." "" "" "" "" "" "OFL 1.1" "http://scripts.sil.org/OFL"
+LangName: 1033 "" "" "Regular" "Lohit Assamese : 26-3-2014" "" "Version 2.91.4" "" "Lohit is trademark of RedHat, Inc." "" "" "" "" "" "OFL 1.1" "http://scripts.sil.org/OFL"
 GaspTable: 2 8 2 65535 3 0
 Encoding: UnicodeBmp
 UnicodeInterp: none

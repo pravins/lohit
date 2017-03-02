@@ -1,5 +1,9 @@
 				  lohit-gujarati
-Current Version :- 2.92.2
+Current Version :- 2.92.3
+
+* Thu Mar 02 2017 Pravin Satpute <psatpute@redhat.com> - 2.92.3
+- PR for python2 to 3 from ShaguftaMethwani and mandarvaze.
+- Updated Makefile to call script from fontforge rather than python.
 
 * Thu Jan 02 2014 Pravin Satpute <psatpute@redhat.com> - 2.92.2
 - Resolved issue #31: ttf Error - not valid font

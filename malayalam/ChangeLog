@@ -1,7 +1,11 @@
 				  lohit-malayalam
-Current Version :- 2.92.0
+Current Version :- 2.92.2
 
-* Tue Feb 18 2014 Pravin Satpute <psatpute@redhat.com> - 2.92.0
+* Thu Mar 02 2017 Pravin Satpute <psatpute@redhat.com> - 2.92.2
+- PR for python2 to 3 from ShaguftaMethwani and mandarvaze.
+- Updated Makefile to call script from fontforge rather than python.
+
+* Tue Feb 18 2014 Pravin Satpute <psatpute@redhat.com> - 2.92.1
 - Further removal 12 not required glyphs from fonts.
 - Added reference of glyph instead of full glyphs points wherever possible.
 - Resolved 10 issues reported on github: #35,#36,#37,#38,.#39,#40.#41,#42,#43,#44.

@@ -4,7 +4,7 @@ FullName: Lohit Tamil
 FamilyName: Lohit Tamil
 Weight: Book
 Copyright: Copyright 2011-14 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit> \nOpen type tables written by:\nPravin Satpute <psatpute AT redhat DOT com>\nShilpa Gite <sgite At redhat DOT com>\n\n Licensed under the SIL Open Font License 1.1 (see file OFL.txt) 
-Version: 2.91.0
+Version: 2.91.1
 ItalicAngle: 0
 UnderlinePosition: -368
 UnderlineWidth: 24
@@ -281,7 +281,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 2.0 : Lohit Tamil : 16-9-2014" "" "2.91.0" "" "Lohit is trademark of Red Hat, Inc." "" "" "" "" "" "OFL 1.1" "http://scripts.sil.org/OFL" 
+LangName: 1033 "" "" "Regular" "FontForge 2.0 : Lohit Tamil : 16-9-2014" "" "2.91.1" "" "Lohit is trademark of Red Hat, Inc." "" "" "" "" "" "OFL 1.1" "http://scripts.sil.org/OFL" 
 GaspTable: 2 8 2 65535 1 0
 Encoding: UnicodeBmp
 Compacted: 1

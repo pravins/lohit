@@ -3,11 +3,11 @@ version:= 2.91.0
 
 test: test-ttf
 	@echo "----------Testing actual-output with expected-output----------"
-	python auto_test.py std-test-out.txt Lohit-Odia.ttf
+	fontforge -lang=py -script auto_test.py std-test-out.txt Lohit-Odia.ttf
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
-	python apply_featurefile.py Lohit-Odia.sfd Lohit-Odia.fea
+	fontforge -lang=py -script apply_featurefile.py Lohit-Odia.sfd Lohit-Odia.fea
 	./generate.pe *.sfd
 	@echo "----------Finished generating ttf file----------"
 	@echo " "

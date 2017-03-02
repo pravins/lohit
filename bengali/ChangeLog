@@ -1,5 +1,9 @@
 				  lohit-bengali
-Current Version :- 2.91.3
+Current Version :- 2.91.4
+
+* Thu Mar 02 2017 Pravin Satpute <psatpute@redhat.com> - 2.91.4
+- PR for python2 to 3 from ShaguftaMethwani and mandarvaze.
+- Updated Makefile to call script from fontforge rather than python.
 
 * Mon Sep 28 2015 Pravin Satpute <psatpute@redhat.com> - 2.91.3
 - Added Unicode U+0980 Bengali Anji, patch from  Shriramana Sharma  

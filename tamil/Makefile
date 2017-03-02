@@ -3,11 +3,11 @@ version:= 2.91.1
 
 test: test-ttf
 	@echo "----------Testing actual-output with expected-output----------"
-	python auto_test.py std-test-out.txt Lohit-Tamil.ttf
+	fontforge -lang=py -script auto_test.py std-test-out.txt Lohit-Tamil.ttf
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
-	python apply_featurefile.py Lohit-Tamil.sfd Lohit-Tamil.fea
+	fontforge -lang=py -script apply_featurefile.py Lohit-Tamil.sfd Lohit-Tamil.fea
 	./generate.pe *.sfd
 	@echo "----------Finished generating ttf file----------"
 	@echo " "

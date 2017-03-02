@@ -1,5 +1,9 @@
 				  lohit-tamil
-Current Version :- 2.91.1
+Current Version :- 2.91.2
+
+* Thu Mar 02 2017 Pravin Satpute <psatpute@redhat.com> - 2.91.2
+- PR for python2 to 3 from ShaguftaMethwani and mandarvaze.
+- Updated Makefile to call script from fontforge rather than python.
 
 * Mon Dec 01 2014 Pravin Saitpute <psatpute@redhat.com> - 2.91.1
 - Lohit Tamil 2.91.0 hinting issues #56 

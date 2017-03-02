@@ -3,11 +3,11 @@ version:= 2.95.2
 
 test: test-ttf
 	@echo "----------Testing actual-output with expected-output----------"
-	python auto_test.py std-test-out.txt Lohit-Devanagari.ttf
+	fontforge -lang=py -script auto_test.py std-test-out.txt Lohit-Devanagari.ttf
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
-	python apply_featurefile.py Lohit-Devanagari.sfd Lohit-Devanagari.fea
+	fontforge -lang=py -script apply_featurefile.py Lohit-Devanagari.sfd Lohit-Devanagari.fea
 	./generate.pe *.sfd
 	ttfautohint -D deva -f deva -n Lohit-Devanagari.ttf Lohit.ttf
 	mv Lohit.ttf Lohit-Devanagari.ttf
