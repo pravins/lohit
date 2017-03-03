@@ -1,9 +1,8 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist
-
 version:= 2.94.0
 
 test: test-ttf
-        @echo "----------Testing actual-output with expected-output----------"
+	@echo "----------Testing actual-output with expected-output----------"
 	fontforge -lang=py -script auto_test.py std-test-out.txt Lohit-Nepali.ttf
 
 ttf: ttf-bin
@@ -55,4 +54,4 @@ clean: cleanall
 	rm -rf *.tar.gz
 	rm -rf lohit-nepali*
 
-PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version test-ttf
+.PHONY: ttf-bin woff-bin eot-bin webdist dist cleanall version test-ttf
