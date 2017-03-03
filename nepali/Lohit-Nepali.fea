@@ -8,6 +8,10 @@
 # License: OFL 1.1
 # License URL: http://scripts.sil.org/OFL
 
+languagesystem dev2 dflt;
+languagesystem deva dflt;
+
+
 # GSUB 
 
 
@@ -79,7 +83,6 @@ lookup HalfFormslookup10 {
     sub \madeva \viramadeva  by \madeva_viramadeva;
     sub \yadeva \viramadeva  by \yadeva_viramadeva;
     sub \ladeva \viramadeva  by \ladeva_viramadeva;
-    sub \ladeva.mr \viramadeva  by \ladeva_viramadeva;
     sub \lladeva \viramadeva  by \lladeva_viramadeva;
     sub \llladeva \viramadeva  by \llladeva_viramadeva;
     sub \vadeva \viramadeva  by \vadeva_viramadeva;
@@ -101,7 +104,6 @@ lookup HalfFormslookup10 {
 
 lookup VattuVariantslookup30 {
   lookupflag 0;
-    sub \shadeva.mr \viramadeva_radeva  by \shadeva_viramadeva_radeva;
     sub \shadeva_viramadeva.alt \radeva  by \shadeva_viramadeva_radeva;
     sub \shadeva \viramadeva_radeva  by \shadeva_viramadeva_radeva;
     sub \tadeva \viramadeva_radeva \viramadeva  by \ta_virama_ra_viramadeva;
@@ -126,7 +128,6 @@ lookup VattuVariantslookup30 {
     sub \thadeva \viramadeva_radeva  by \thadeva_viramadeva_radeva;
     sub \dhadeva \viramadeva_radeva  by \dhadeva_viramadeva_radeva;
     sub \nadeva \viramadeva_radeva  by \nadeva_viramadeva_radeva;
-    sub \ladeva.mr \viramadeva_radeva  by \ladeva_viramadeva_radeva;
     sub \ladeva \viramadeva_radeva  by \ladeva_viramadeva_radeva;
     sub \nyadeva \viramadeva_radeva  by \nyadeva_viramadeva_radeva;
     sub \nnadeva \viramadeva_radeva  by \nnadeva_viramadeva_radeva;
@@ -156,11 +157,9 @@ lookup ConjunctFormslookup11 {
 
 lookup PreBaseSubstitutionslookup1 {
   lookupflag 0;
-    sub \shadeva_viramadeva.mr \radeva  by \shadeva_viramadeva_radeva;
     sub \shadeva \viramadeva \radeva  by \shadeva_viramadeva_radeva;
     sub \tadeva_viramadeva \tadeva  by \tadeva_viramadeva_tadeva;
     sub \tadeva_viramadeva \tadeva_viramadeva  by \ta_virama_ta_viramadeva;
-    sub \shadeva.mr \rvocalicsigndeva  by \sha_virama_rvocalicdeva;
     sub \shadeva \rvocalicsigndeva  by \sha_virama_rvocalicdeva;
     sub \kadeva_viramadeva \kadeva  by \kadeva_viramadeva_kadeva;
     sub \kadeva_viramadeva \tadeva  by \kadeva_viramadeva_tadeva;
@@ -227,30 +226,29 @@ lookup PresSub_Chain_VowelSign {
 	\sadeva_viramadeva_radeva \jadeva_viramadeva_jadeva 
 	\hadeva_viramadeva_yadeva \sa_virama_ta_virama_radeva 
 	\ladeva_viramadeva_radeva ]  by [\isigndeva.alt1 ];
-  subtable;
     sub [\isigndeva ]' [\radeva \rradeva ]  by [\isigndeva.alt3 ];
 } PresSub_Chain_VowelSign;
 
 lookup PresSub_Chain_IVowelSign_alt2_0 {
   lookupflag 0;
-    sub [\isigndeva ]' [\kadeva_viramadeva \khadeva_viramadeva \ghadeva_viramadeva 
-	\ngadeva_viramadeva \cadeva_viramadeva \chadeva_viramadeva 
-	\jadeva_viramadeva \jhadeva_viramadeva \nyadeva_viramadeva 
-	\ttadeva_viramadeva \tthadeva_viramadeva \ddadeva_viramadeva 
-	\ddhadeva_viramadeva \nnadeva_viramadeva \tadeva_viramadeva 
-	\thadeva_viramadeva \dadeva_viramadeva \dhadeva_viramadeva 
-	\nadeva_viramadeva \nnnadeva_viramadeva \padeva_viramadeva 
-	\phadeva_viramadeva \badeva_viramadeva \bhadeva_viramadeva 
-	\madeva_viramadeva \yadeva_viramadeva \ladeva_viramadeva 
-	\lladeva_viramadeva \llladeva_viramadeva \vadeva_viramadeva 
-	\shadeva_viramadeva \ssadeva_viramadeva \sadeva_viramadeva 
-	\qadeva_viramadeva \khhadeva_viramadeva \zadeva_viramadeva 
-	\fadeva_viramadeva \shadeva_viramadeva.alt 
-	\ta_virama_ra_viramadeva \ta_virama_ta_viramadeva 
-	\ka_virama_ssa_viramadeva \ja_virama_nya_viramadeva \yadeva_alt 
-	\ttadeva_viramadeva_yadeva \tthadeva_viraamdeva_yadeva 
-	\ddadeva_viramadeva_yadeva \ddhadeva_viramadeva_yadeva 
-	\da_ddha_ra_yadeva \shadeva_viramadeva.mr ]  by [\isigndeva.alt2 ];
+    sub [\isigndeva ]' [\kadeva_viramadeva \khadeva_viramadeva \ghadeva_viramadeva
+        \ngadeva_viramadeva \cadeva_viramadeva \chadeva_viramadeva
+        \jadeva_viramadeva \jhadeva_viramadeva \nyadeva_viramadeva
+        \ttadeva_viramadeva \tthadeva_viramadeva \ddadeva_viramadeva
+        \ddhadeva_viramadeva \nnadeva_viramadeva \tadeva_viramadeva
+        \thadeva_viramadeva \dadeva_viramadeva \dhadeva_viramadeva
+        \nadeva_viramadeva \nnnadeva_viramadeva \padeva_viramadeva
+        \phadeva_viramadeva \badeva_viramadeva \bhadeva_viramadeva
+        \madeva_viramadeva \yadeva_viramadeva \ladeva_viramadeva
+        \lladeva_viramadeva \llladeva_viramadeva \vadeva_viramadeva
+        \shadeva_viramadeva \ssadeva_viramadeva \sadeva_viramadeva
+        \qadeva_viramadeva \khhadeva_viramadeva \zadeva_viramadeva
+        \fadeva_viramadeva \shadeva_viramadeva.alt
+        \ta_virama_ra_viramadeva \ta_virama_ta_viramadeva
+        \ka_virama_ssa_viramadeva \ja_virama_nya_viramadeva \yadeva_alt
+        \ttadeva_viramadeva_yadeva \tthadeva_viraamdeva_yadeva
+        \ddadeva_viramadeva_yadeva \ddhadeva_viramadeva_yadeva
+        \da_ddha_ra_yadeva ]  by [\isigndeva.alt2 ];
 } PresSub_Chain_IVowelSign_alt2_0;
 
 lookup PresSub_Chain_IVowelSign_alt4_1 {
@@ -272,23 +270,23 @@ lookup PresSub_Chain_IVowelSign_alt4_1 {
 
 lookup presPreBaseSubstitutionslookup3 {
   lookupflag 0;
-    sub [\isigndeva ]' [\chadeva \nnadeva \thadeva \bhadeva \lladeva \llladeva \shadeva 
-	\shadeva_viramadeva_radeva \jadeva_viramadeva_nyadeva 
-	\bhadeva_viramadeva_radeva \thadeva_viramadeva_radeva 
-	\ja_virama_nya_virama_radeva \shadeva.mr ]  by [\isigndeva.tha ];
+    sub [\isigndeva ]' [\chadeva \nnadeva \thadeva \bhadeva \lladeva \llladeva \shadeva
+        \shadeva_viramadeva_radeva \jadeva_viramadeva_nyadeva
+        \bhadeva_viramadeva_radeva \thadeva_viramadeva_radeva
+        \ja_virama_nya_virama_radeva ]  by [\isigndeva.tha ];
 } presPreBaseSubstitutionslookup3;
 
 lookup sub_chain_presdev2_0 {
   lookupflag 0;
-    sub [\isigndeva ]' [\jadeva \jhadeva \nyadeva \sadeva \jadeva_viramadeva_radeva 
-	\jhadeva_viramadeva_radeva \nyadeva_viramadeva_cadeva 
-	\nyadeva_viramadeva_jadeva \dadeva_viramadeva_madeva 
-	\dadeva_viramadeva_yadeva \ladeva_viramadeva_ladeva 
-	\hadeva_viramadeva_madeva \ladeva.mr ]  by [\isigndeva.ja ];
+    sub [\isigndeva ]' [\jadeva \jhadeva \nyadeva \sadeva \jadeva_viramadeva_radeva
+        \jhadeva_viramadeva_radeva \nyadeva_viramadeva_cadeva
+        \nyadeva_viramadeva_jadeva \dadeva_viramadeva_madeva
+        \dadeva_viramadeva_yadeva \ladeva_viramadeva_ladeva
+        \hadeva_viramadeva_madeva ]  by [\isigndeva.ja ];
 } sub_chain_presdev2_0;
 
 lookup PreBaseSubstitutionslookup2 {
-  lookupflag IgnoreBaseGlyphs, IgnoreLigatures;
+  lookupflag IgnoreBaseGlyphs IgnoreLigatures;
     sub \isigndeva.alt2 \anusvaradeva  by \isigndeva_anusvara.alt2;
     sub \isigndeva \anusvaradeva  by \isigndeva_anusvaradeva;
     sub \isigndeva \radeva_viramadeva  by \isign_ra_virama;
@@ -377,15 +375,12 @@ lookup LigatureSubstitutionlookup28 {
 lookup PstsSub_Chain_Eyelash {
   lookupflag 0;
     sub  \rradeva'lookup LigatureSubstitutionlookup28  \viramadeva'lookup LigatureSubstitutionlookup28  \yadeva  ;
-  subtable;
     sub  \rradeva'lookup LigatureSubstitutionlookup28  \viramadeva'lookup LigatureSubstitutionlookup28  \hadeva  ;
-  subtable;
     sub  \viramadeva_radeva'lookup LigatureSubstitutionlookup28  \zerowidthjoiner'lookup LigatureSubstitutionlookup28  \yadeva  ;
-  subtable;
     sub  \viramadeva_radeva'lookup LigatureSubstitutionlookup28  \zerowidthjoiner'lookup LigatureSubstitutionlookup28  \hadeva  ;
 } PstsSub_Chain_Eyelash;
 
-lookup pstsPostBaseSubstitutionslookup {
+lookup pstsPostBaseSubstitutionslookup33 {
   lookupflag 0;
     @cc33_match_1 = [\vadeva_viramadeva ];
     @cc33_match_2 = [\hadeva ];
@@ -400,99 +395,99 @@ lookup pstsPostBaseSubstitutionslookup {
     @cc33_ahead_3 = [\isign_ra_virama_anusvara.alt2 \isign_ra_virama.alt2 \isigndeva.alt2 
 	\isigndeva_anusvara.alt2 ];
     sub @cc33_match_3' @cc33_ahead_1 @cc33_ahead_2  by [\isign_ra_virama_anusvara.alt1 \isign_ra_virama.alt1 \isigndeva.alt1 \isigndeva_anusvara.alt1 ] ;
-} pstsPostBaseSubstitutionslookup;
+} pstsPostBaseSubstitutionslookup33;
 
 feature haln {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup halnHalantFormslookup29;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup halnHalantFormslookup29;
 } haln;
 
 feature nukt {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup NuktaFormslookup5;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup NuktaFormslookup5;
 } nukt;
 
 feature akhn {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup AkhandFormslookup6;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup AkhandFormslookup6;
 } akhn;
 
 feature rphf {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup RephFormlookup7;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup RephFormlookup7;
 } rphf;
 
 feature blwf {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup BelowBaseFormslookup9;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup BelowBaseFormslookup9;
 } blwf;
 
 feature half {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup HalfFormslookup10;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup HalfFormslookup10;
 } half;
 
 feature vatu {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup VattuVariantslookup30;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup VattuVariantslookup30;
 } vatu;
 
 feature cjct {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup ConjunctFormslookup11;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup ConjunctFormslookup11;
 } cjct;
 
 feature pres {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup PreBaseSubstitutionslookup1;
       lookup PresSub_Chain_VowelSign;
@@ -502,7 +497,7 @@ feature pres {
       lookup sub_chain_presdev2_0;
       lookup PreBaseSubstitutionslookup2;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup PreBaseSubstitutionslookup1;
       lookup PresSub_Chain_VowelSign;
@@ -515,41 +510,41 @@ feature pres {
 
 feature abvs {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup AboveBaseSubstitutionslookup;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup AboveBaseSubstitutionslookup;
 } abvs;
 
 feature psts {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup PostBaseSubstitutionslookup;
       lookup PstsSub_Chain_ExtdEMatra;
       lookup PstsSub_Ligature_Ra;
       lookup PstsSub_Chain_Eyelash;
-      lookup pstsPostBaseSubstitutionslookup;
+      lookup pstsPostBaseSubstitutionslookup33;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup PostBaseSubstitutionslookup;
       lookup PstsSub_Chain_ExtdEMatra;
       lookup PstsSub_Ligature_Ra;
       lookup PstsSub_Chain_Eyelash;
-      lookup pstsPostBaseSubstitutionslookup;
+      lookup pstsPostBaseSubstitutionslookup33;
 } psts;
 
 feature blws {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup BlwsSub_Ligature_Ukaar;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup BlwsSub_Ligature_Ukaar;
 } blws;
@@ -750,22 +745,22 @@ lookup abvmAboveBaseMarklookup3 {
 
 feature blwm {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup blwmBelowBaseMarklookup0;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup blwmBelowBaseMarklookup0;
 } blwm;
 
 feature abvm {
 
-  script dev2;
+ script dev2;
      language dflt ;
       lookup abvmAboveBaseMarklookup3;
 
-  script deva;
+ script deva;
      language dflt ;
       lookup abvmAboveBaseMarklookup3;
 } abvm;
