@@ -1,5 +1,5 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist  
-version:= 2.91.3
+version:= 2.91.4
 
 test: test-ttf
 	@echo "----------Testing actual-output with expected-output----------"
