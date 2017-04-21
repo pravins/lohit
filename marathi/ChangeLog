@@ -1,6 +1,8 @@
 				  lohit-marathi
 Current Version :- 2.94.1
 
+- Added appstream metadata file io.pagure.lohit.marathi.font.metainfo.xml
+
 * Thu Mar 02 2017 Pravin Satpute <psatpute@redhat.com> - 2.94.1
 - PR for python2 to 3 from ShaguftaMethwani and mandarvaze.
 - Updated Makefile to call script from fontforge rather than python.

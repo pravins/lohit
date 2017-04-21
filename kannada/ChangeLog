@@ -2,6 +2,7 @@
 Current Version :- 2.5.3
 
 - removed deva tag from sfd file
+- Added appstream metadata file io.pagure.lohit.kannada.font.metainfo.xml
 
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3
 - Resolves bug #825104, patch from Shriramana Sharma <samjnaa@gmail.com>

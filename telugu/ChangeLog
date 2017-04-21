@@ -1,6 +1,9 @@
 				  lohit-tegulu
 Current Version :- 2.5.4
 
+- Added appstream metadata file io.pagure.lohit.tegulu.font.metainfo.xml
+
+
 * Thu Sep 03 2015 Pravin Satpute <psatpute@redhat.com> - 2.5.4
 - Resolved #1105878 - Rendering problem of స్త్ర
 - Added U0C00, U0C34 and U0C5A with its conjuncts form. Shapes from Shriramana

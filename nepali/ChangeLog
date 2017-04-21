@@ -1,6 +1,8 @@
 				  lohit-nepali
 Current Version :- 2.94.1
 
+- Added appstream metadata file io.pagure.lohit.nepali.font.metainfo.xml
+
 * Thu Mar 02 2017 Pravin Satpute <psatpute@redhat.com> - 2.94.1
 - Updated .fea file and remove .mr glyphs from sfd files.
 - PR for python2 to 3 from ShaguftaMethwani and mandarvaze.
