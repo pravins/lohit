@@ -2,6 +2,7 @@
 Current Version :- 2.91.4
 
 - Added appstream metadata file io.pagure.lohit.assamese.font.metainfo.xml
+- Resolved issue of ন্দ্ব and ন্ধ্ব github #76
 
 * Thu Mar 02 2017 Pravin Satpute <psatpute@redhat.com> - 2.91.4
 - PR for python2 to 3 from ShaguftaMethwani and mandarvaze.

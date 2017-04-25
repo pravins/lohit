@@ -279,9 +279,9 @@ lookup presPreBaseSubstitutionslookup7 {
     sub \nabeng \viramabeng \thabeng_viramabeng_rabeng  by \na_virama_tha_virama_ra;
     sub \nabeng_viramabeng \dabeng  by \nabeng_viramabeng_dabeng;
     sub \nabeng_viramabeng \dabeng_viramabeng_rabeng  by \na_virama_da_virama_ra;
-    sub \nabeng \viramabeng \dabeng \babeng_viramabeng  by \na_virama_da_virama_ba;
+    sub \nabeng_viramabeng \dabeng \babeng_viramabeng  by \na_virama_da_virama_ba;
     sub \nabeng_viramabeng \dhabeng  by \nabeng_viramabeng_dhabeng;
-    sub \nabeng \viramabeng \dhabeng \babeng_viramabeng  by \na_virama_dha_virama_ba;
+    sub \nabeng_viramabeng \dhabeng \babeng_viramabeng  by \na_virama_dha_virama_ba;
     sub \nabeng_viramabeng \dhabeng_viramabeng_rabeng  by \na_virama_dha_virama_ra;
     sub \nabeng_viramabeng \nabeng  by \nabeng_viramabeng_nabeng;
     sub \nabeng_viramabeng \mabeng  by \nabeng_viramabeng_mabeng;

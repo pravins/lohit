@@ -27108,7 +27108,8 @@ SplineSet
  426 42 426 42 450 25 c 1,64,-1
  450 25 l 1,55,56
 EndSplineSet
-Ligature2: "presPreBaseSubstitutionslookup7 subtable" nabeng viramabeng dabeng babeng_viramabeng
+Ligature2: "presPreBaseSubstitutionslookup7 subtable" nabeng_viramabeng dabeng babeng_viramabeng
+nabeng_viramabeng dabeng
 EndChar
 
 StartChar: nabeng_viramabeng_dhabeng
@@ -27319,7 +27320,7 @@ SplineSet
  300 -87 300 -87 316 -110 c 1,82,-1
  316 -110 l 1,75,-1
 EndSplineSet
-Ligature2: "presPreBaseSubstitutionslookup7 subtable" nabeng viramabeng dhabeng babeng_viramabeng
+Ligature2: "presPreBaseSubstitutionslookup7 subtable" nabeng_viramabeng dhabeng babeng_viramabeng
 EndChar
 
 StartChar: na_virama_dha_virama_ra
