@@ -12984,8 +12984,6 @@ SplineSet
  -13 606 l 1,10,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" kadeva_viramadeva vadeva
-Ligature2: "LocalizedMrHalfFormslookup1 subtable" kadeva viramadeva vadeva
 EndChar
 
 StartChar: gadeva_viramadeva_nadeva
@@ -15509,8 +15507,6 @@ SplineSet
  -13 606 l 1,9,-1
 EndSplineSet
 Validated: 1
-Ligature2: "PreBaseSubstitutionslookup1 subtable" padeva_viramadeva ladeva
-Ligature2: "LocalizedMrHalfFormslookup1 subtable" padeva viramadeva ladeva.mr
 EndChar
 
 StartChar: phadeva_viramadeva_ladeva

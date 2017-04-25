@@ -28,7 +28,6 @@ lookup LocalizedMrHalfFormslookup1 {
     sub \hadeva \viramadeva \radeva  by \hadeva_viramadeva_radeva;
     sub \kadeva \viramadeva \kadeva  by \kadeva_viramadeva_kadeva;
     sub \kadeva \viramadeva \ladeva.mr  by \kadeva_viramadeva_ladeva;
-    sub \kadeva \viramadeva \vadeva  by \kadeva_viramadeva_vadeva;
     sub \gadeva \viramadeva \nadeva  by \gadeva_viramadeva_nadeva;
     sub \ngadeva \viramadeva \kadeva  by \ngadeva_viramadeva_kadeva;
     sub \ngadeva \viramadeva \khadeva  by \ngadeva_viramadeva_khadeva;
@@ -64,7 +63,6 @@ lookup LocalizedMrHalfFormslookup1 {
     sub \dadeva \viramadeva \vadeva  by \dadeva_viramadeva_vadeva;
     sub \nadeva \viramadeva \nadeva  by \nadeva_viramadeva_nadeva;
     sub \padeva \viramadeva \tadeva  by \padeva_viramadeva_tadeva;
-    sub \padeva \viramadeva \ladeva.mr  by \padeva_viramadeva_ladeva;
     sub \phadeva \viramadeva \ladeva.mr  by \phadeva_viramadeva_ladeva;
     sub \ladeva.mr \viramadeva \ladeva.mr  by \ladeva_viramadeva_ladeva;
     sub \shadeva.mr \viramadeva \cadeva  by \shadeva_viramadeva_cadeva;
@@ -247,7 +245,6 @@ lookup PreBaseSubstitutionslookup1 {
     sub \kadeva_viramadeva \kadeva  by \kadeva_viramadeva_kadeva;
     sub \kadeva_viramadeva \tadeva  by \kadeva_viramadeva_tadeva;
     sub \kadeva_viramadeva \ladeva  by \kadeva_viramadeva_ladeva;
-    sub \kadeva_viramadeva \vadeva  by \kadeva_viramadeva_vadeva;
     sub \gadeva_viramadeva \nadeva  by \gadeva_viramadeva_nadeva;
     sub \ngadeva_viramadeva \kadeva  by \ngadeva_viramadeva_kadeva;
     sub \ngadeva_viramadeva \khadeva  by \ngadeva_viramadeva_khadeva;
@@ -283,7 +280,6 @@ lookup PreBaseSubstitutionslookup1 {
     sub \dadeva_viramadeva \vadeva  by \dadeva_viramadeva_vadeva;
     sub \nadeva_viramadeva \nadeva  by \nadeva_viramadeva_nadeva;
     sub \padeva_viramadeva \tadeva  by \padeva_viramadeva_tadeva;
-    sub \padeva_viramadeva \ladeva  by \padeva_viramadeva_ladeva;
     sub \phadeva_viramadeva \ladeva  by \phadeva_viramadeva_ladeva;
     sub \ladeva_viramadeva \ladeva  by \ladeva_viramadeva_ladeva;
     sub \shadeva_viramadeva \cadeva  by \shadeva_viramadeva_cadeva;
