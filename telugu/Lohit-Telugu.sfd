@@ -20,7 +20,7 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1153280036
-ModificationTime: 1441274163
+ModificationTime: 1493196783
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -2957,7 +2957,7 @@ Grid
  235.2 444.8 l 1
  235.2 444.8 l 1
 EndSplineSet
-AnchorClass2: "Anchor4" "'blwm' Below Base Mark in Telugu lookup 2-1" "Anchor-3" "'blwm' Below Base Mark in Telugu lookup 0-2" "Anchor-1" "'blwm' Below Base Mark in Telugu lookup 0-1" "Anchor-0" "'blwm' Below Base Mark in Telugu lookup 0" 
+AnchorClass2: "Anchor5" "'blwm' Below Base Mark in Telugu lookup 2-1" "Anchor4" "'blwm' Below Base Mark in Telugu lookup 2-1" "Anchor-3" "'blwm' Below Base Mark in Telugu lookup 0-2" "Anchor-1" "'blwm' Below Base Mark in Telugu lookup 0-1" "Anchor-0" "'blwm' Below Base Mark in Telugu lookup 0" 
 BeginChars: 66020 887
 
 StartChar: U0C2C_U0C41.psts
@@ -7227,6 +7227,7 @@ Width: 0
 VWidth: 819
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor5" -259 -334 basemark 0
 AnchorPoint: "Anchor-1" -257 0 mark 0
 LayerCount: 2
 Back
@@ -46316,6 +46317,7 @@ Width: 0
 VWidth: 819
 GlyphClass: 4
 Flags: W
+AnchorPoint: "Anchor5" -367 -325 mark 0
 AnchorPoint: "Anchor4" -320 -360 mark 0
 AnchorPoint: "Anchor-1" -374.96 -403.4 mark 0
 AnchorPoint: "Anchor-0" -369.6 -417.6 mark 0

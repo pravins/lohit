@@ -2,6 +2,7 @@
 Current Version :- 2.5.4
 
 - Added appstream metadata file io.pagure.lohit.tegulu.font.metainfo.xml
+- Resolved githum #54
 
 
 * Thu Sep 03 2015 Pravin Satpute <psatpute@redhat.com> - 2.5.4
