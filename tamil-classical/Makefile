@@ -1,6 +1,6 @@
 all: ttf woff eot ttf-dist sfd-dist web-dist
 
-version:= 2.5.3
+version:= 2.5.4
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
@@ -22,7 +22,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-tamil-classical-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog 66-lohit-tamil-classical.conf Lohit-Tamil-Classical.ttf lohit-tamil-classical-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog 66-lohit-tamil-classical.conf Lohit-Tamil-Classical.ttf io.pagure.lohit.tamil.classical.font.metainfo.xml lohit-tamil-classical-ttf-$(version)
 	rm -rf lohit-tamil-classical-ttf-$(version)/.git
 	tar -cf lohit-tamil-classical-ttf-$(version).tar lohit-tamil-classical-ttf-$(version)
 	gzip lohit-tamil-classical-ttf-$(version).tar
@@ -30,7 +30,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-tamil-classical-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog 66-lohit-tamil-classical.conf Lohit-Tamil-Classical.sfd lohit-tamil-classical-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog 66-lohit-tamil-classical.conf Lohit-Tamil-Classical.sfd io.pagure.lohit.tamil.classical.font.metainfo.xml lohit-tamil-classical-$(version)
 	rm -rf lohit-tamil-classical-$(version)/.git
 	rm -rf lohit-tamil-classical-$(version)/*.ttf
 	tar -cf lohit-tamil-classical-$(version).tar lohit-tamil-classical-$(version)
