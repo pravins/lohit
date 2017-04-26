@@ -1,6 +1,7 @@
 				  lohit-tamilclassical
-Current Version :- 2.5.3
+Current Version :- 2.5.4
 
+* Wed Apr 26 2017 Pravin Satpute <psatpute@redhat.com> - 2.5.4
 - Added appstream metadata file io.pagure.lohit.tamil.classical.font.metainfo.xml
 
 * Fri Dec 21 2012 Pravin Satpute <psatpute@redhat.com> - 2.5.3

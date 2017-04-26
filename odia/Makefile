@@ -1,5 +1,5 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist  
-version:= 2.91.1
+version:= 2.91.2
 
 test: test-ttf
 	@echo "----------Testing actual-output with expected-output----------"
@@ -26,7 +26,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-odia-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt test-odia.txt README  AUTHORS ChangeLog 66-lohit-odia.conf Lohit-Odia.ttf lohit-odia-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt test-odia.txt README  AUTHORS ChangeLog 66-lohit-odia.conf Lohit-Odia.ttf io.pagure.lohit.odia.font.metainfo.xml lohit-odia-ttf-$(version)
 	rm -rf lohit-odia-ttf-$(version)/.git
 	tar -cf lohit-odia-ttf-$(version).tar lohit-odia-ttf-$(version)
 	gzip lohit-odia-ttf-$(version).tar
@@ -34,7 +34,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-odia-$(version)
-	cp -p COPYRIGHT OFL.txt test-odia.txt README  AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog 66-lohit-odia.conf Lohit-Odia.sfd std-test-out.txt lohit-odia-$(version)
+	cp -p COPYRIGHT OFL.txt test-odia.txt README  AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog 66-lohit-odia.conf Lohit-Odia.sfd std-test-out.txt io.pagure.lohit.odia.font.metainfo.xml lohit-odia-$(version)
 	rm -rf lohit-odia-$(version)/.git
 	rm -rf lohit-odia-$(version)/*.ttf
 	tar -cf lohit-odia-$(version).tar lohit-odia-$(version)

@@ -1,7 +1,8 @@
 				  lohit-odia
 
-Current Version :- 2.91.1
+Current Version :- 2.91.2
 
+* Wed Apr 26 2017 Pravin Satpute <psatpute@redhat.com> - 2.91.2
 - Added appstream metadata file io.pagure.lohit.odia.font.metainfo.xml
 
 * Thu Mar 02 2017 Pravin Satpute <psatpute@redhat.com> - 2.91.1

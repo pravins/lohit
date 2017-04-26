@@ -4,7 +4,7 @@ FullName: Lohit Odia
 FamilyName: Lohit Odia
 Weight: Book
 Copyright: Copyright 2011-15 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\nOpen type tables written by:\nPravin Satpute <psatpute AT redhat DOT com>\nShilpa Gite <sgite At redhat DOT com>\n
-Version: 2.91.1
+Version: 2.91.2
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -390,7 +390,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "FontForge 2.0 : Lohit Odia : 29-1-2015" "" "2.91.1" "" "Lohit is a trademark of Red Hat, Inc." "" "" "" "" "" "OFL 1.1" "http://scripts.sil.org/OFL"
+LangName: 1033 "" "" "Regular" "FontForge 2.0 : Lohit Odia : 29-1-2015" "" "2.91.2" "" "Lohit is a trademark of Red Hat, Inc." "" "" "" "" "" "OFL 1.1" "http://scripts.sil.org/OFL"
 GaspTable: 2 8 2 65535 3 0
 Encoding: UnicodeBmp
 UnicodeInterp: none

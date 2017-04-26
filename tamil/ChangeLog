@@ -1,6 +1,7 @@
 				  lohit-tamil
-Current Version :- 2.91.2
+Current Version :- 2.91.3
 
+* Wed Apr 26 2017 Pravin Satpute <psatpute@redhat.com> - 2.91.3
 - Added appstream metadata file io.pagure.lohit.tamil.font.metainfo.xml
 
 * Thu Mar 02 2017 Pravin Satpute <psatpute@redhat.com> - 2.91.2

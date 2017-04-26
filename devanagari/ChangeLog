@@ -1,6 +1,7 @@
 				  lohit-devanagari
-Current Version :- 2.95.3
+Current Version :- 2.95.4
 
+* Wed Apr 26 2017 Pravin Satpute <psatpute@redhat.com> - 2.95.4
 - Added appstream metadata file io.pagure.lohit.devanagari.font.metainfo.xml
 - Removed ligatures for प्ल, क्व #49
 

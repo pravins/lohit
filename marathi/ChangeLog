@@ -1,6 +1,7 @@
 				  lohit-marathi
-Current Version :- 2.94.1
+Current Version :- 2.94.2
 
+* Wed Apr 26 2017 Pravin Satpute <psatpute@redhat.com> - 2.94.2
 - Added appstream metadata file io.pagure.lohit.marathi.font.metainfo.xml
 
 * Thu Mar 02 2017 Pravin Satpute <psatpute@redhat.com> - 2.94.1

@@ -1,6 +1,6 @@
 all: ttf woff eot ttf-dist sfd-dist web-dist
 
-version:= 2.5.4
+version:= 2.5.5
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
@@ -24,7 +24,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-telugu-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  66-lohit-telugu.conf Lohit-Telugu.ttf lohit-telugu-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  66-lohit-telugu.conf Lohit-Telugu.ttf io.pagure.lohit.telugu.font.metainfo.xml lohit-telugu-ttf-$(version)
 	rm -rf lohit-telugu-ttf-$(version)/.git
 	tar -cf lohit-telugu-ttf-$(version).tar lohit-telugu-ttf-$(version)
 	gzip lohit-telugu-ttf-$(version).tar
@@ -32,7 +32,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-telugu-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog  66-lohit-telugu.conf Lohit-Telugu.sfd lohit-telugu-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog  66-lohit-telugu.conf Lohit-Telugu.sfd io.pagure.lohit.telugu.font.metainfo.xml lohit-telugu-$(version)
 	rm -rf lohit-telugu-$(version)/.git
 	rm -rf lohit-telugu-$(version)/*.ttf
 	tar -cf lohit-telugu-$(version).tar lohit-telugu-$(version)

@@ -1,5 +1,5 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist
-version:= 2.91.1
+version:= 2.91.2
 
 test: test-ttf
 	@echo "----------Testing actual-output with expected-output----------"
@@ -26,7 +26,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-gurmukhi-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  66-lohit-gurmukhi.conf Lohit-Gurmukhi.ttf lohit-gurmukhi-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  66-lohit-gurmukhi.conf Lohit-Gurmukhi.ttf io.pagure.lohit.gurmukhi.font.metainfo.xml lohit-gurmukhi-ttf-$(version)
 	rm -rf lohit-gurmukhi-ttf-$(version)/.git
 	tar -cf lohit-gurmukhi-ttf-$(version).tar lohit-gurmukhi-ttf-$(version)
 	gzip lohit-gurmukhi-ttf-$(version).tar
@@ -34,7 +34,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-gurmukhi-$(version)
-	cp -p COPYRIGHT OFL.txt test-gurmukhi.txt std-test-out.txt README AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog  66-lohit-gurmukhi.conf Lohit-Gurmukhi.sfd lohit-gurmukhi-$(version)
+	cp -p COPYRIGHT OFL.txt test-gurmukhi.txt std-test-out.txt README AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog  66-lohit-gurmukhi.conf Lohit-Gurmukhi.sfd io.pagure.lohit.gurmukhi.font.metainfo.xml lohit-gurmukhi-$(version)
 	rm -rf lohit-gurmukhi-$(version)/.git
 	rm -rf lohit-gurmukhi-$(version)/*.ttf
 	tar -cf lohit-gurmukhi-$(version).tar lohit-gurmukhi-$(version)

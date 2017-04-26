@@ -1,6 +1,6 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist
 
-version:= 2.5.3
+version:= 2.5.4
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
@@ -22,7 +22,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-kannada-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  66-lohit-kannada.conf Lohit-Kannada.ttf lohit-kannada-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS  ChangeLog  66-lohit-kannada.conf Lohit-Kannada.ttf io.pagure.lohit.kannada.font.metainfo.xml lohit-kannada-ttf-$(version)
 	rm -rf lohit-kannada-ttf-$(version)/.git
 	tar -cf lohit-kannada-ttf-$(version).tar lohit-kannada-ttf-$(version)
 	gzip lohit-kannada-ttf-$(version).tar
@@ -30,7 +30,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-kannada-$(version)
-	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog 66-lohit-kannada.conf Lohit-Kannada.sfd lohit-kannada-$(version)
+	cp -p COPYRIGHT OFL.txt README  AUTHORS generate*.pe Makefile ChangeLog 66-lohit-kannada.conf Lohit-Kannada.sfd io.pagure.lohit.kannada.font.metainfo.xml lohit-kannada-$(version)
 	rm -rf lohit-kannada-$(version)/.git
 	rm -rf lohit-kannada-$(version)/*.ttf
 	tar -cf lohit-kannada-$(version).tar lohit-kannada-$(version)

@@ -1,5 +1,5 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist
-version:= 2.94.1
+version:= 2.94.2
 
 test: test-ttf
 	@echo "----------Testing actual-output with expected-output----------"
@@ -26,7 +26,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-marathi-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README  test-marathi.txt AUTHORS  ChangeLog 65-0-lohit-marathi.conf Lohit-Marathi.ttf lohit-marathi-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README  test-marathi.txt AUTHORS  ChangeLog 65-0-lohit-marathi.conf Lohit-Marathi.ttf io.pagure.lohit.marathi.font.metainfo.xml lohit-marathi-ttf-$(version)
 	rm -rf lohit-marathi-ttf-$(version)/.git
 	tar -cf lohit-marathi-ttf-$(version).tar lohit-marathi-ttf-$(version)
 	gzip lohit-marathi-ttf-$(version).tar
@@ -34,7 +34,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-marathi-$(version)
-	cp -p COPYRIGHT OFL.txt README  test-marathi.txt AUTHORS generate*.pe  *.py *.fea Makefile ChangeLog  65-0-lohit-marathi.conf std-test-out.txt Lohit-Marathi.sfd lohit-marathi-$(version)
+	cp -p COPYRIGHT OFL.txt README  test-marathi.txt AUTHORS generate*.pe  *.py *.fea Makefile ChangeLog  65-0-lohit-marathi.conf std-test-out.txt Lohit-Marathi.sfd io.pagure.lohit.marathi.font.metainfo.xml lohit-marathi-$(version)
 	rm -rf lohit-marathi-$(version)/.git
 	rm -rf lohit-marathi-$(version)/*.ttf
 	tar -cf lohit-marathi-$(version).tar lohit-marathi-$(version)

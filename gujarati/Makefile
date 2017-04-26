@@ -1,6 +1,6 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist
 
-version:= 2.92.3
+version:= 2.92.4
 
 ttf: ttf-bin
 	@echo "----------Generating ttf from sfd file----------"
@@ -23,7 +23,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-gujarati-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt test-gujarati.txt README  AUTHORS  ChangeLog 66-lohit-gujarati.conf Lohit-Gujarati.ttf lohit-gujarati-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt test-gujarati.txt README  AUTHORS  ChangeLog 66-lohit-gujarati.conf Lohit-Gujarati.ttf io.pagure.lohit.gujarati.font.metainfo.xml lohit-gujarati-ttf-$(version)
 	rm -rf lohit-gujarati-ttf-$(version)/.git
 	tar -cf lohit-gujarati-ttf-$(version).tar lohit-gujarati-ttf-$(version)
 	gzip lohit-gujarati-ttf-$(version).tar
@@ -31,7 +31,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-gujarati-$(version)
-	cp -p COPYRIGHT OFL.txt test-gujarati.txt README  AUTHORS generate*.pe *.py *.fea Makefile ChangeLog 66-lohit-gujarati.conf Lohit-Gujarati.sfd lohit-gujarati-$(version)
+	cp -p COPYRIGHT OFL.txt test-gujarati.txt README  AUTHORS generate*.pe *.py *.fea Makefile ChangeLog 66-lohit-gujarati.conf Lohit-Gujarati.sfd io.pagure.lohit.gujarati.font.metainfo.xml lohit-gujarati-$(version)
 	rm -rf lohit-gujarati-$(version)/.git
 	rm -rf lohit-gujarati-$(version)/*.ttf
 	tar -cf lohit-gujarati-$(version).tar lohit-gujarati-$(version)

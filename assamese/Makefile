@@ -1,5 +1,5 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist  
-version:= 2.91.4
+version:= 2.91.5
 
 test: test-ttf
 	@echo "----------Testing actual-output with expected-output----------"
@@ -26,7 +26,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-assamese-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt test-assamese.txt README  AUTHORS ChangeLog 66-lohit-assamese.conf Lohit-Assamese.ttf lohit-assamese-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt test-assamese.txt README  AUTHORS ChangeLog 66-lohit-assamese.conf Lohit-Assamese.ttf io.pagure.lohit.assamese.font.metainfo.xml lohit-assamese-ttf-$(version)
 	rm -rf lohit-assamese-ttf-$(version)/.git
 	tar -cf lohit-assamese-ttf-$(version).tar lohit-assamese-ttf-$(version)
 	gzip lohit-assamese-ttf-$(version).tar
@@ -34,7 +34,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-assamese-$(version)
-	cp -p COPYRIGHT OFL.txt test-assamese.txt README  AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog 66-lohit-assamese.conf Lohit-Assamese.sfd std-test-out.txt lohit-assamese-$(version)
+	cp -p COPYRIGHT OFL.txt test-assamese.txt README  AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog 66-lohit-assamese.conf Lohit-Assamese.sfd std-test-out.txt io.pagure.lohit.assamese.font.metainfo.xml lohit-assamese-$(version)
 	rm -rf lohit-assamese-$(version)/.git
 	rm -rf lohit-assamese-$(version)/*.ttf
 	tar -cf lohit-assamese-$(version).tar lohit-assamese-$(version)

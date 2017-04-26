@@ -1,6 +1,7 @@
 				  lohit-bengali
-Current Version :- 2.91.4
+Current Version :- 2.91.5
 
+* Wed Apr 26 2017 Pravin Satpute <psatpute@redhat.com> - 2.91.5
 - Added appstream metadata file io.pagure.lohit.bengali.font.metainfo.xml
 - Corrected encoding of  U+0980 BENGALI ANJI
 - Resolved issue of ন্দ্ব and ন্ধ্ব github #76 

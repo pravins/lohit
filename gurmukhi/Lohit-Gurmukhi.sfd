@@ -4,7 +4,7 @@ FullName: Lohit Gurmukhi
 FamilyName: Lohit Gurmukhi
 Weight: Book
 Copyright: Copyright 2014-15 Lohit Fonts Project contributors.\n<http://fedorahosted.org/lohit>\nOpen type tables written by:\nPravin Satpute <psatpute AT redhat DOT com>\nSneha Kore <skore At redhat DOT com>\n\n   Licensed under the SIL Open Font License 1.1 (see file OFL.txt)
-Version: 2.91.0
+Version: 2.91.2
 ItalicAngle: 0
 UnderlinePosition: -300
 UnderlineWidth: 20
@@ -513,7 +513,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "Lohit Gurumukhi 24-02-2014" "" "Version 2.91.0" "" "Lohit is a trademark of Red Hat, Inc." "" "" "" "" "" "OFL 1.1" "http://scripts.sil.org/OFL" 
+LangName: 1033 "" "" "Regular" "Lohit Gurumukhi 24-02-2014" "" "Version 2.91.2" "" "Lohit is a trademark of Red Hat, Inc." "" "" "" "" "" "OFL 1.1" "http://scripts.sil.org/OFL" 
 GaspTable: 2 8 2 65535 3 0
 Encoding: UnicodeBmp
 Compacted: 1

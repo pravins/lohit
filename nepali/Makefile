@@ -1,5 +1,5 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist
-version:= 2.94.1
+version:= 2.94.2
 
 test: test-ttf
 	@echo "----------Testing actual-output with expected-output----------"
@@ -26,7 +26,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-nepali-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt README test-nepali.txt  AUTHORS  ChangeLog  65-0-lohit-nepali.conf Lohit-Nepali.ttf lohit-nepali-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt README test-nepali.txt  AUTHORS  ChangeLog  65-0-lohit-nepali.conf Lohit-Nepali.ttf io.pagure.lohit.nepali.font.metainfo.xml lohit-nepali-ttf-$(version)
 	rm -rf lohit-nepali-ttf-$(version)/.git
 	tar -cf lohit-nepali-ttf-$(version).tar lohit-nepali-ttf-$(version)
 	gzip lohit-nepali-ttf-$(version).tar
@@ -34,7 +34,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-nepali-$(version)
-	cp -p COPYRIGHT OFL.txt README test-nepali.txt  AUTHORS generate*.pe *.py *.fea std-test-out.txt Makefile ChangeLog  65-0-lohit-nepali.conf Lohit-Nepali.sfd lohit-nepali-$(version)
+	cp -p COPYRIGHT OFL.txt README test-nepali.txt  AUTHORS generate*.pe *.py *.fea std-test-out.txt Makefile ChangeLog  65-0-lohit-nepali.conf Lohit-Nepali.sfd io.pagure.lohit.nepali.font.metainfo.xml lohit-nepali-$(version)
 	rm -rf lohit-nepali-$(version)/.git
 	rm -rf lohit-nepali-$(version)/*.ttf
 	tar -cf lohit-nepali-$(version).tar lohit-nepali-$(version)

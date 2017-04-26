@@ -1,6 +1,6 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist
 
-version:= 2.92.1
+version:= 2.92.2
 
 test: test-ttf
 	@echo "----------Testing actual-output with expected-output----------"
@@ -27,7 +27,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-malayalam-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt test-malayalam.txt README  AUTHORS  ChangeLog  67-lohit-malayalam.conf Lohit-Malayalam.ttf lohit-malayalam-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt test-malayalam.txt README  AUTHORS  ChangeLog  67-lohit-malayalam.conf Lohit-Malayalam.ttf io.pagure.lohit.malayalam.font.metainfo.xml lohit-malayalam-ttf-$(version)
 	rm -rf lohit-malayalam-ttf-$(version)/.git
 	tar -cf lohit-malayalam-ttf-$(version).tar lohit-malayalam-ttf-$(version)
 	gzip lohit-malayalam-ttf-$(version).tar
@@ -35,7 +35,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-malayalam-$(version)
-	cp -p COPYRIGHT OFL.txt test-malayalam.txt std-test-out.txt README  AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog  67-lohit-malayalam.conf Lohit-Malayalam.sfd lohit-malayalam-$(version)
+	cp -p COPYRIGHT OFL.txt test-malayalam.txt std-test-out.txt README  AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog  67-lohit-malayalam.conf Lohit-Malayalam.sfd io.pagure.lohit.malayalam.font.metainfo.xml lohit-malayalam-$(version)
 	rm -rf lohit-malayalam-$(version)/.git
 	rm -rf lohit-malayalam-$(version)/*.ttf
 	tar -cf lohit-malayalam-$(version).tar lohit-malayalam-$(version)

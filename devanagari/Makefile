@@ -1,5 +1,5 @@
 all: sfd-dist ttf woff eot ttf-dist web-dist  
-version:= 2.95.3
+version:= 2.95.4
 
 test: test-ttf
 	@echo "----------Testing actual-output with expected-output----------"
@@ -28,7 +28,7 @@ eot: eot-bin
 
 ttf-dist: dist
 	mkdir lohit-devanagari-ttf-$(version)
-	cp -p COPYRIGHT OFL.txt test-devanagari.txt README  AUTHORS ChangeLog 66-lohit-devanagari.conf 59-lohit-devanagari.conf Lohit-Devanagari.ttf lohit-devanagari-ttf-$(version)
+	cp -p COPYRIGHT OFL.txt test-devanagari.txt README  AUTHORS ChangeLog 66-lohit-devanagari.conf 59-lohit-devanagari.conf Lohit-Devanagari.ttf io.pagure.lohit.devanagari.font.metainfo.xml lohit-devanagari-ttf-$(version)
 	rm -rf lohit-devanagari-ttf-$(version)/.git
 	tar -cf lohit-devanagari-ttf-$(version).tar lohit-devanagari-ttf-$(version)
 	gzip lohit-devanagari-ttf-$(version).tar
@@ -36,7 +36,7 @@ ttf-dist: dist
 
 sfd-dist: dist
 	mkdir lohit-devanagari-$(version)
-	cp -p COPYRIGHT OFL.txt test-devanagari.txt README  AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog 66-lohit-devanagari.conf 59-lohit-devanagari.conf Lohit-Devanagari.sfd std-test-out.txt lohit-devanagari-$(version)
+	cp -p COPYRIGHT OFL.txt test-devanagari.txt README  AUTHORS generate*.pe apply_featurefile.py auto_test.py *.fea Makefile ChangeLog 66-lohit-devanagari.conf 59-lohit-devanagari.conf Lohit-Devanagari.sfd std-test-out.txt io.pagure.lohit.devanagari.font.metainfo.xml lohit-devanagari-$(version)
 	rm -rf lohit-devanagari-$(version)/.git
 	rm -rf lohit-devanagari-$(version)/*.ttf
 	tar -cf lohit-devanagari-$(version).tar lohit-devanagari-$(version)
