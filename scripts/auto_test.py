@@ -41,6 +41,7 @@ def auto_test(txt_file,ttf_file):
 	print("failed_test_case.txt file generated !!")
 	inputfile.close()
 	outputfile.close()
+	return count
 
 if __name__ == "__main__":
 
@@ -49,4 +50,9 @@ if __name__ == "__main__":
 	else:
 		txt_file = sys.argv[1]
 		font_file = sys.argv[2]
-		auto_test(txt_file,font_file)
+		count = auto_test(txt_file,font_file)
+		if count == 0:
+			sys.exit(0)
+		else:
+			sys.exit(1)
+
